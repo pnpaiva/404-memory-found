@@ -13,7 +13,7 @@ from urllib.parse import quote
 # Configuration
 BASE_URL = "https://404memoryfound.com"
 BLOG_NAME = "404 Memory Found"
-OUTPUT_DIR = "dist"
+OUTPUT_DIR = "."  # Deploy directly to repo root for GitHub Pages
 
 def slugify(text):
     """Convert text to URL-safe slug"""
@@ -24,13 +24,14 @@ def get_slug_from_id(post_id):
     return post_id
 
 def read_source_files():
-    """Read index.html and posts.json"""
-    with open('index.html', 'r', encoding='utf-8') as f:
+    """Read src/index.html (source) and posts.json"""
+    source_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src', 'index.html')
+    with open(source_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
-    
+
     with open('posts.json', 'r', encoding='utf-8') as f:
         posts_data = json.load(f)
-    
+
     return html_content, posts_data
 
 def extract_css(html_content):
@@ -52,7 +53,7 @@ def extract_desktop_icons(html_content):
     pos = start
 
     while pos < len(html_content):
-        if html_content[pos:pos+5] == '<div ':
+        if html_content[pos:pos+4] == '<div':
             depth += 1
         elif html_content[pos:pos+6] == '</div>':
             depth -= 1
@@ -63,22 +64,48 @@ def extract_desktop_icons(html_content):
     return ""
 
 def extract_window_html(html_content, window_id):
-    """Extract a window div by ID"""
-    pattern = rf'(<div class="window[^"]*" id="{window_id}".*?</div>\s*</div>)'
-    match = re.search(pattern, html_content, re.DOTALL)
-    if match:
-        return match.group(1)
+    """Extract a window div by ID, handling nested divs"""
+    marker = f'id="{window_id}"'
+    start_pos = html_content.find(marker)
+    if start_pos == -1:
+        return ""
+
+    # Find the opening <div that contains this id
+    div_start = html_content.rfind('<div', 0, start_pos)
+    if div_start == -1:
+        return ""
+
+    # Count nested divs to find the matching closing </div>
+    depth = 0
+    pos = div_start
+    while pos < len(html_content):
+        if html_content[pos:pos+4] == '<div':
+            depth += 1
+        elif html_content[pos:pos+6] == '</div>':
+            depth -= 1
+            if depth == 0:
+                return html_content[div_start:pos+6]
+        pos += 1
     return ""
 
 def extract_taskbar(html_content):
-    """Extract taskbar HTML"""
-    match = re.search(
-        r'(<div class="taskbar">.*?</div>)',
-        html_content,
-        re.DOTALL
-    )
-    if match:
-        return match.group(1)
+    """Extract taskbar HTML, handling nested divs"""
+    # Find the opening taskbar div
+    start_pos = html_content.find('<div class="taskbar">')
+    if start_pos == -1:
+        return ""
+
+    # Count nested divs to find the matching closing </div>
+    depth = 0
+    pos = start_pos
+    while pos < len(html_content):
+        if html_content[pos:pos+4] == '<div':
+            depth += 1
+        elif html_content[pos:pos+6] == '</div>':
+            depth -= 1
+            if depth == 0:
+                return html_content[start_pos:pos+6]
+        pos += 1
     return ""
 
 def extract_boot_animation(html_content):
@@ -100,18 +127,20 @@ def get_favicon_svg(html_content):
     return ""
 
 def extract_javascript(html_content):
-    """Extract the JavaScript code from <script> tags (excluding src scripts)"""
-    # Find all script tags that don't have src attribute
-    scripts = []
-    pattern = r'<script[^>]*(?<!/)>([^<]*(?:<(?!/script>)[^<]*)*)</script>'
-    for match in re.finditer(pattern, html_content, re.DOTALL):
-        script_content = match.group(1).strip()
-        # Skip empty scripts and script that sets schema-markup
-        if script_content and 'schema-markup' not in match.group(0):
-            # Skip the posts.js reference and JSON-LD
-            if 'src=' not in match.group(0) and '@context' not in script_content:
-                scripts.append(script_content)
-    return '\n'.join(scripts) if scripts else ""
+    """Extract the main JavaScript code from the last <script> block"""
+    # Find the last <script>...</script> block which contains the main JS
+    # Use a simple approach: find last occurrence of bare <script> tag
+    last_script_start = html_content.rfind('<script>')
+    if last_script_start == -1:
+        return ""
+    last_script_end = html_content.find('</script>', last_script_start)
+    if last_script_end == -1:
+        return ""
+    js_content = html_content[last_script_start + len('<script>'):last_script_end].strip()
+    # Return if we found substantial JS (more than a few chars)
+    if js_content and len(js_content) > 100:
+        return js_content
+    return ""
 
 def create_output_directories():
     """Create dist and dist/posts directories"""
@@ -200,21 +229,47 @@ def generate_index_html(html_content, posts_data):
         archives_html += '</ul>'
     archives_html += '</div>'
     
-    # Replace window content placeholders with actual content
+    # Replace the empty blog-posts-list <ul> with pre-rendered posts
+    # The source has: <ul class="blog-posts-list" id="blog-posts-list"></ul>
+    # We replace it with a populated version for static rendering
     blog_window_modified = blog_window.replace(
-        '<div class="window-content">',
-        f'<div class="window-content">{blog_posts_html}',
-        1
+        '<ul class="blog-posts-list" id="blog-posts-list"></ul>',
+        blog_posts_html
     )
+    # Fallback: if the exact match wasn't found, try the simpler injection
+    if blog_window_modified == blog_window:
+        blog_window_modified = blog_window.replace(
+            '<div class="window-content">',
+            f'<div class="window-content">{blog_posts_html}',
+            1
+        )
+
+    # Replace archives list content
     archives_window_modified = archives_window.replace(
-        '<div class="window-content">',
-        f'<div class="window-content">{archives_html}',
-        1
+        '<ul class="archives-list" id="archives-list"></ul>',
+        archives_html
     )
+    if archives_window_modified == archives_window:
+        archives_window_modified = archives_window.replace(
+            '<div class="window-content">',
+            f'<div class="window-content">{archives_html}',
+            1
+        )
     
     # Remove post-window since it's only for individual posts
     post_window = extract_window_html(html_content, 'post-window')
     
+    # Build mobile posts list
+    mobile_posts_html = ""
+    for post in posts:
+        slug = get_slug_from_id(post['id'])
+        mobile_posts_html += f"""                <li class="mobile-post-item" onclick="window.location.href='/posts/{slug}.html'">
+                    <h3>{post['title']}</h3>
+                    <div class="mobile-post-date">{post['date']}</div>
+                    <div class="mobile-post-excerpt">{post['excerpt']}</div>
+                </li>
+"""
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -255,58 +310,53 @@ def generate_index_html(html_content, posts_data):
     </style>
 </head>
 <body>
-    <div id="boot-animation" style="display:none;">
-        <div class="boot-screen">
-            <div class="boot-content">
-                <div class="windows-logo"></div>
-                <div class="boot-text">Windows 95</div>
-            </div>
+    <!-- Boot Animation (Desktop only) -->
+    <div class="boot-animation">
+        <div class="boot-logo">404 MEMORY FOUND</div>
+        <div>Initializing Nostalgia Engine...</div>
+        <div>Loading 90s vibes...</div>
+        <div>Configuring Windows 95 emulation...</div>
+        <div>Ready to surf the memories!</div>
+    </div>
+
+    <!-- Mobile View -->
+    <div class="mobile-container">
+        <div class="mobile-header">
+            <h1>404 Memory Found</h1>
+            <p>A Nostalgia Blog from the 90s &amp; 2000s</p>
+        </div>
+        <div class="mobile-content">
+            <ul class="mobile-post-list" id="mobile-post-list">
+{mobile_posts_html}
+            </ul>
+        </div>
+        <div class="mobile-footer">
+            <p>&copy; 2026 404 Memory Found. All rights reserved.</p>
+            <p>
+                <a href="#about">About</a> |
+                <a href="#contact">Contact</a> |
+                <a href="#privacy">Privacy Policy</a> |
+                <a href="#terms">Terms of Use</a>
+            </p>
+            <div class="mobile-tagline">Powered by nostalgia</div>
         </div>
     </div>
 
+    <!-- Desktop View -->
     <div class="desktop-container">
-        <div class="desktop-area">
+        <h1 style="position: absolute; left: -9999px; top: -9999px;">404 Memory Found - Windows 95 Nostalgia Blog</h1>
+
+        <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
             {desktop_icons}
-            <div class="windows-container">
-                {blog_window_modified}
-                {about_window}
-                {archives_window_modified}
-            </div>
+            {blog_window_modified}
+            {about_window}
+            {archives_window_modified}
         </div>
         {taskbar}
     </div>
 
-    <div class="mobile-container">
-        <div class="mobile-header">
-            <h1>404 Memory Found</h1>
-            <p>Windows 95 nostalgia blog</p>
-        </div>
-        <div class="mobile-content">
-            <ul class="mobile-post-list">
-"""
-    
-    # Add mobile posts
-    for post in posts:
-        slug = get_slug_from_id(post['id'])
-        html += f"""                <li class="mobile-post-item" onclick="window.location.href='/posts/{slug}.html'">
-                    <h3>{post['title']}</h3>
-                    <div class="mobile-post-date">{post['date']}</div>
-                    <div class="mobile-post-excerpt">{post['excerpt']}</div>
-                </li>
-"""
-    
-    html += """            </ul>
-        </div>
-        <div class="mobile-footer">
-            <p>© 2026 404 Memory Found</p>
-            <p class="mobile-tagline">Retro computing nostalgia with a Windows 95 aesthetic</p>
-        </div>
-    </div>
-
     <script>
-"""
-    html += javascript
-    html += """
+{javascript}
     </script>
 </body>
 </html>"""
@@ -340,11 +390,16 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     blog_posts_html += '</ul>'
     
     blog_window_modified = blog_window.replace(
-        '<div class="window-content">',
-        f'<div class="window-content">{blog_posts_html}',
-        1
+        '<ul class="blog-posts-list" id="blog-posts-list"></ul>',
+        blog_posts_html
     )
-    
+    if blog_window_modified == blog_window:
+        blog_window_modified = blog_window.replace(
+            '<div class="window-content">',
+            f'<div class="window-content">{blog_posts_html}',
+            1
+        )
+
     # Create post window content
     post_body = post['body']
     
@@ -362,10 +417,13 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     post_content = post_body + related_html + back_to_blog
     
     # Generate post window (should be open by default)
+    # Must match source HTML structure: title-bar (not window-title), title-bar-controls (not window-buttons)
+    # No inline onmousedown - the JS uses event delegation on .title-bar
+    # Must include all 8 resize handles
     post_window = f'''<div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
-                <div class="window-title" onmousedown="startDrag(event, 'post-window')">
-                    <span>{post['title']}</span>
-                    <div class="window-buttons">
+                <div class="title-bar">
+                    <div class="title-bar-title">📖 {post['title']}</div>
+                    <div class="title-bar-controls">
                         <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
                         <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
                         <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
@@ -374,10 +432,24 @@ def generate_post_html(post, all_posts, html_content, posts_data):
                 <div class="window-content">
                     {post_content}
                 </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
             </div>'''
     
     post_schema = generate_post_schema(post, slug)
     
+    # Build mobile related posts
+    mobile_related_html = ""
+    for related_post in related_posts:
+        related_slug = get_slug_from_id(related_post['id'])
+        mobile_related_html += f'                        <li style="padding:5px 0;"><a href="/posts/{related_slug}.html">{related_post["title"]}</a></li>\n'
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -407,28 +479,16 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     </style>
 </head>
 <body>
-    <div id="boot-animation" style="display:none;">
-        <div class="boot-screen">
-            <div class="boot-content">
-                <div class="windows-logo"></div>
-                <div class="boot-text">Windows 95</div>
-            </div>
-        </div>
+    <!-- Boot Animation (Desktop only) -->
+    <div class="boot-animation">
+        <div class="boot-logo">404 MEMORY FOUND</div>
+        <div>Initializing Nostalgia Engine...</div>
+        <div>Loading 90s vibes...</div>
+        <div>Configuring Windows 95 emulation...</div>
+        <div>Ready to surf the memories!</div>
     </div>
 
-    <div class="desktop-container">
-        <div class="desktop-area">
-            {desktop_icons}
-            <div class="windows-container">
-                {post_window}
-                {blog_window_modified}
-                {about_window}
-                {archives_window}
-            </div>
-        </div>
-        {taskbar}
-    </div>
-
+    <!-- Mobile View -->
     <div class="mobile-container">
         <div class="mobile-header">
             <h1>{post['title']}</h1>
@@ -440,27 +500,34 @@ def generate_post_html(post, all_posts, html_content, posts_data):
                 <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
                     <strong>Related Posts:</strong>
                     <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
-"""
-    
-    for related_post in related_posts:
-        related_slug = get_slug_from_id(related_post['id'])
-        html += f'                        <li style="padding:5px 0;"><a href="/posts/{related_slug}.html">{related_post["title"]}</a></li>\n'
-    
-    html += f"""                    </ul>
+{mobile_related_html}
+                    </ul>
                 </div>
-                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">← Back to Blog</a></div>
+                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">&#8592; Back to Blog</a></div>
             </article>
         </div>
         <div class="mobile-footer">
-            <p>© 2026 404 Memory Found</p>
+            <p>&copy; 2026 404 Memory Found. All rights reserved.</p>
             <p style="font-size:10px;margin-top:8px;">Posted on {post['date']} by {post['author']}</p>
         </div>
     </div>
 
+    <!-- Desktop View -->
+    <div class="desktop-container">
+        <h1 style="position: absolute; left: -9999px; top: -9999px;">{post['title']} | 404 Memory Found</h1>
+
+        <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
+            {desktop_icons}
+            {post_window}
+            {blog_window_modified}
+            {about_window}
+            {archives_window}
+        </div>
+        {taskbar}
+    </div>
+
     <script>
-"""
-    html += javascript
-    html += """
+{javascript}
     </script>
 </body>
 </html>"""

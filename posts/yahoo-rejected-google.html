@@ -979,146 +979,16 @@
     </style>
 </head>
 <body>
-    <div id="boot-animation" style="display:none;">
-        <div class="boot-screen">
-            <div class="boot-content">
-                <div class="windows-logo"></div>
-                <div class="boot-text">Windows 95</div>
-            </div>
-        </div>
+    <!-- Boot Animation (Desktop only) -->
+    <div class="boot-animation">
+        <div class="boot-logo">404 MEMORY FOUND</div>
+        <div>Initializing Nostalgia Engine...</div>
+        <div>Loading 90s vibes...</div>
+        <div>Configuring Windows 95 emulation...</div>
+        <div>Ready to surf the memories!</div>
     </div>
 
-    <div class="desktop-container">
-        <div class="desktop-area">
-            <div class="desktop-icons">
-                <div class="desktop-icon" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%224%22 y=%228%22 width=%2240%22 height=%2236%22 fill=%22%23FFD54F%22 rx=%222%22/><rect x=%224%22 y=%228%22 width=%2240%22 height=%228%22 fill=%22%23FBC02D%22 rx=%222%22/><rect x=%228%22 y=%2220%22 width=%2232%22 height=%224%22 fill=%22%23F9A825%22 rx=%221%22/><rect x=%228%22 y=%2226%22 width=%2228%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2231%22 width=%2232%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2236%22 width=%2224%22 height=%223%22 fill=%22%23666%22 rx=%221%22/></svg>')"></div>
-                    <label>Blog Posts</label>
-                </div>
-                <div class="desktop-icon" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%224%22 width=%2236%22 height=%2240%22 fill=%22%23E3F2FD%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%224%22 width=%2236%22 height=%228%22 fill=%22%231565C0%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2211%22 text-anchor=%22middle%22 font-size=%228%22 font-weight=%22bold%22 fill=%22white%22 font-family=%22Arial%22>?</text><rect x=%2212%22 y=%2218%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2223%22 width=%2220%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2228%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2233%22 width=%2218%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2222%22 height=%222%22 fill=%22%23999%22/></svg>')"></div>
-                    <label>About</label>
-                </div>
-                <div class="desktop-icon" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%226%22 width=%2232%22 height=%2236%22 fill=%22%23A1887F%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%222%22/><rect x=%228%22 y=%226%22 width=%2232%22 height=%2210%22 fill=%22%238D6E63%22 rx=%222%22/><rect x=%2212%22 y=%2220%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2222%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/><rect x=%2212%22 y=%2230%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2232%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/></svg>')"></div>
-                    <label>Archives</label>
-                </div>
-                <div class="desktop-icon" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
-                    <label>Guestbook</label>
-                </div>
-            </div>
-            <div class="windows-container">
-                <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
-                <div class="window-title" onmousedown="startDrag(event, 'post-window')">
-                    <span>Yahoo Turned Down Google for $1M—Then Regretted It</span>
-                    <div class="window-buttons">
-                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
-                    </div>
-                </div>
-                <div class="window-content">
-                    <article>
-<h2>The $1 Million Mistake That Defined the Internet</h2>
-
-<p>Okay, real talk: Yahoo once had the opportunity to acquire Google for ONE MILLION DOLLARS. Not billion. Not hundred million. One million. And they turned it down. I know what you're thinking, and yes, it's somehow both as simple and as insane as it sounds.</p>
-
-<p>Picture the scene: it's 1998. Google is ridiculously new. Like, brand new. Two Stanford kids named Larry Page and Sergey Brin built something that actually makes searching the internet work better than anything before it. The algorithm is smarter. The results are cleaner. It just works. But here's the problem: they don't have a business model. They don't have investors. They have basically nothing except a cool product and an idea that search might matter someday.</p>
-
-<p>So they do what any startup would do: they try to sell the company. And who are the natural buyers? The search company that dominates the entire internet and owns the gateway to everything for millions of people: Yahoo. Yahoo was the internet in 1998. Not literally, but it felt like it. Yahoo was what you opened when you got online. Yahoo was your starting point. Your homepage. Your one-stop shop.</p>
-
-<p>So Larry and Sergey go to Yahoo and say, "We have this search technology. We think it's going to be important. We'd like to sell it to you." And Yahoo looks at Google's two kids with their search algorithm and says, "Thanks, but no thanks. We're cool with our own search technology. We don't need it." And they let Google walk. For one million dollars.</p>
-
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=400&fit=crop" alt="Early internet era computer screen with web browser" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Early internet era computer screen with web browser</figcaption></figure>
-
-<p>Now here's where you might think Yahoo was crazy, but you have to understand their logic. In 1998, Yahoo didn't think they were making a bad decision. Yahoo WAS the internet. They weren't just a search engine. They were a portal. A gateway. They had web directory listings that human editors had carefully organized. They had Yahoo Mail. They had news, weather, entertainment, stock quotes, everything. Yahoo was your one-stop shop for the entire online experience.</p>
-
-<p>From their perspective, Google was just one feature. Just a search tool. A narrow technology that did one thing. And Yahoo was already working on their own search technology. They had engineers. They had resources. So why would they buy a startup for a million dollars when they could build it themselves cheaper? Why acquire when you can build?</p>
-
-<p>The insanity is that Google's founders were actually trying to GET OUT of the search business. They wanted to sell the company because they thought search was going to become a commodity that everyone would have eventually. They didn't want to compete in search forever. They wanted to sell and move on. And Yahoo, which had perfect visibility into what the internet was becoming, didn't want to buy them.</p>
-
-<p>I swear I'm not making this up: the two kids who literally invented modern search were trying to escape from search. The company that owned the internet didn't want to buy the future of the internet. And the company that owned the internet had absolutely no idea that search was about to become the foundation of everything.</p>
-
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800&h=400&fit=crop" alt="Modern search engine on a clean computer screen" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Modern search engine on a clean computer screen</figcaption></figure>
-
-<p>So what happened next? Google didn't disappear. They found venture capital funding. In 1999, they raise their first real funding round. Then more funding. Then in 2004, they go public at $85 per share, valuing the company at $23 billion. By 2006, they're worth $165 billion. By 2010, they hit $200 billion. By 2020, Google is worth $1.3 trillion. By 2026, we're looking at approximately $2 trillion in market capitalization. Google went from a company nobody wanted to buy for a million dollars to literally one of the most valuable companies on the planet.</p>
-
-<p>Meanwhile, what happened to Yahoo? Here's where it gets genuinely tragic. Yahoo's own search engine was never as good as Google's. Not because Yahoo's engineers weren't smart. They were brilliant. But Google's algorithm was smarter. Google's approach to organizing information was fundamentally better. Users started leaving Yahoo and going to Google. And once that exodus started, it accelerated.</p>
-
-<p>Yahoo tried to stay relevant by acquiring other companies. They bought Flickr, which was brilliant. They bought Delicious, which was brilliant. They bought Broadcast.com. They were throwing billions at acquisitions trying to remain relevant. But it was too late. The internet had moved on. Users didn't want a portal anymore. They wanted the best search engine. And that was Google.</p>
-
-<p>Yahoo's stock peaked at around $125 per share in early 2000 at the height of the dotcom bubble. But after that bubble popped, and as Google steadily ate their lunch in search, Yahoo's value crumbled. By 2016, Verizon bought Yahoo for $4.5 billion. Not for the company itself, but mostly for their digital advertising business and their patents. By 2017, Yahoo was basically dismantled and absorbed into other properties. The company that owned the internet in 1998 became a historical footnote.</p>
-
-<p>And that's not even the wildest part. If Yahoo had bought Google for a million dollars in 1998, they wouldn't have needed to go through any of those failed acquisitions. They would've had search figured out. They would've been the default search on the internet. They would've been the advertising powerhouse that Google became instead. They would've been a two-trillion-dollar company instead of a remnant that Verizon bought for scrap value.</p>
-
-
-
-<p>The insanity of this decision compounds when you look at what Yahoo actually DID with that $1 million instead. They spent it on content licensing, partnerships, and portal expansion—the exact things that were about to become completely obsolete. They were doubling down on the "portal" model of the internet right as search was becoming the dominant paradigm. It's like they rejected a Swiss Army knife so they could invest more heavily in their existing toolbox. The blind spots in business are real. Nobody at Yahoo saw the search revolution coming with such force and velocity.</p>
-
-<p>What really gets under your skin when you learn about this deal is the timeline. Yahoo had the chance to BE Google before Google even was Google at scale. They could've owned the search infrastructure before it became clear that search would be worth hundreds of billions of dollars. Instead, they stayed married to the portal concept, kept pumping money into web directories and content partnerships, and watched from the sidelines as Google refined search algorithms and quietly became more valuable every single year. By 2002, when Google was genuinely dominant, Yahoo would've needed to pay billions—not millions. The window didn't just close. It slammed shut and locked.</p>
-
-<h2>Then vs Now: The Outcome</h2>
-
-<p>In 1998, Yahoo was worth about $2 billion and controlled what felt like the entire internet. They had millions of users coming to their site every single day. They were Goliath. Google was essentially worthless from a financial perspective—two kids with a database and an algorithm. Nobody outside tech circles had even heard of them. From Yahoo's perspective, they were clearly the winner and Google was just another startup with a neat idea that would probably fade away.</p>
-
-<p>In 2026, Google is worth approximately $2 trillion and is one of the most powerful companies on Earth. They own search. They own email through Gmail. They own video through YouTube. They own mobile phones through Android. They own maps. They own advertising. They own workspace tools. They own AI infrastructure. Yahoo, as a company, essentially doesn't exist anymore. The brand is owned by someone else. The executives who rejected Google are remembered in tech history as having made one of the worst business decisions of all time.</p>
-
-<p>Let that sink in for a second. A multi-billion-dollar company passed on buying another company for the price of a nice car, and that decision cost them literally trillions in market value. And not just market value—it cost them the future of the internet itself.</p>
-
-<h2>Frequently Asked Questions</h2>
-
-<h3>How much did Google cost in 1998?</h3>
-<p>Google was offered to Yahoo for approximately one million dollars in 1998. At the time, Google was a startup with no revenue, no clear business model, and no venture funding, while Yahoo was the dominant internet portal and saw no strategic value in acquiring a search engine startup.</p>
-
-<h3>Why didn't Yahoo buy Google?</h3>
-<p>Yahoo's leadership believed they didn't need Google because they were already developing their own search technology and were confident they could build a competitive search engine themselves. They saw search as just one feature of their broader portal strategy, not understanding that search was about to become the fundamental way people navigated the internet.</p>
-
-<h3>What happened to Yahoo?</h3>
-<p>Yahoo declined in relevance as Google became the dominant search engine. The company made numerous acquisitions trying to stay relevant but never recovered from their strategic misreading of the market. In 2016, Verizon bought Yahoo for $4.5 billion, and by 2017 the company was essentially dismantled and its assets absorbed into other businesses.</p>
-
-<h3>How much is Google worth today?</h3>
-<p>As of 2026, Google (now Alphabet Inc.) is valued at approximately $2 trillion, making it one of the most valuable companies in the world. This represents a roughly 2 million-fold increase from the million-dollar valuation Yahoo rejected in 1998, one of the most dramatic wealth creation events in business history.</p>
-
-</section>
-
-</article><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/y2k-bug-what-actually-happened.html">Y2K Was Supposed to Destroy Everything (Here's What Happened)</a></li><li style="padding:5px 0;"><a href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li><li style="padding:5px 0;"><a href="/posts/thousand-dollars-then-now.html">$1,000 in 1999 vs 2026: What Changed?</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">← Back to Blog</a></div>
-                </div>
-            </div>
-                <div class="window minimized" id="blog-window" style="left:120px;top:30px;width:500px;height:450px;">
-                <div class="title-bar">
-                    <div class="title-bar-title">📝 Blog Posts</div>
-                    <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('blog-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('blog-window')">×</button>
-                    </div>
-                </div>
-                <div class="window minimized" id="about-window" style="left:180px;top:60px;width:450px;height:400px;">
-                <div class="title-bar">
-                    <div class="title-bar-title">ℹ️ About This Site</div>
-                    <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('about-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('about-window')">×</button>
-                    </div>
-                </div>
-                <div class="window minimized" id="archives-window" style="left:240px;top:90px;width:450px;height:400px;">
-                <div class="title-bar">
-                    <div class="title-bar-title">📚 Archives</div>
-                    <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('archives-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('archives-window')">×</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="taskbar">
-            <button class="start-button" onclick="alert('Start menu coming soon!')">Start</button>
-            <div class="taskbar-buttons" id="taskbar-buttons"></div>
-    </div>
-
+    <!-- Mobile View -->
     <div class="mobile-container">
         <div class="mobile-header">
             <h1>Yahoo Turned Down Google for $1M—Then Regretted It</h1>
@@ -1196,14 +1066,211 @@
                         <li style="padding:5px 0;"><a href="/posts/y2k-bug-what-actually-happened.html">Y2K Was Supposed to Destroy Everything (Here's What Happened)</a></li>
                         <li style="padding:5px 0;"><a href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li>
                         <li style="padding:5px 0;"><a href="/posts/thousand-dollars-then-now.html">$1,000 in 1999 vs 2026: What Changed?</a></li>
+
                     </ul>
                 </div>
-                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">← Back to Blog</a></div>
+                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">&#8592; Back to Blog</a></div>
             </article>
         </div>
         <div class="mobile-footer">
-            <p>© 2026 404 Memory Found</p>
+            <p>&copy; 2026 404 Memory Found. All rights reserved.</p>
             <p style="font-size:10px;margin-top:8px;">Posted on 2026-03-03 by 404 Memory Found</p>
+        </div>
+    </div>
+
+    <!-- Desktop View -->
+    <div class="desktop-container">
+        <h1 style="position: absolute; left: -9999px; top: -9999px;">Yahoo Turned Down Google for $1M—Then Regretted It | 404 Memory Found</h1>
+
+        <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
+            <div class="desktop-icons">
+                <div class="desktop-icon" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%224%22 y=%228%22 width=%2240%22 height=%2236%22 fill=%22%23FFD54F%22 rx=%222%22/><rect x=%224%22 y=%228%22 width=%2240%22 height=%228%22 fill=%22%23FBC02D%22 rx=%222%22/><rect x=%228%22 y=%2220%22 width=%2232%22 height=%224%22 fill=%22%23F9A825%22 rx=%221%22/><rect x=%228%22 y=%2226%22 width=%2228%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2231%22 width=%2232%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2236%22 width=%2224%22 height=%223%22 fill=%22%23666%22 rx=%221%22/></svg>')"></div>
+                    <label>Blog Posts</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%224%22 width=%2236%22 height=%2240%22 fill=%22%23E3F2FD%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%224%22 width=%2236%22 height=%228%22 fill=%22%231565C0%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2211%22 text-anchor=%22middle%22 font-size=%228%22 font-weight=%22bold%22 fill=%22white%22 font-family=%22Arial%22>?</text><rect x=%2212%22 y=%2218%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2223%22 width=%2220%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2228%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2233%22 width=%2218%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2222%22 height=%222%22 fill=%22%23999%22/></svg>')"></div>
+                    <label>About</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%226%22 width=%2232%22 height=%2236%22 fill=%22%23A1887F%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%222%22/><rect x=%228%22 y=%226%22 width=%2232%22 height=%2210%22 fill=%22%238D6E63%22 rx=%222%22/><rect x=%2212%22 y=%2220%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2222%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/><rect x=%2212%22 y=%2230%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2232%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/></svg>')"></div>
+                    <label>Archives</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
+                    <label>Guestbook</label>
+                </div>
+            </div>
+            <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📖 Yahoo Turned Down Google for $1M—Then Regretted It</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <article>
+<h2>The $1 Million Mistake That Defined the Internet</h2>
+
+<p>Okay, real talk: Yahoo once had the opportunity to acquire Google for ONE MILLION DOLLARS. Not billion. Not hundred million. One million. And they turned it down. I know what you're thinking, and yes, it's somehow both as simple and as insane as it sounds.</p>
+
+<p>Picture the scene: it's 1998. Google is ridiculously new. Like, brand new. Two Stanford kids named Larry Page and Sergey Brin built something that actually makes searching the internet work better than anything before it. The algorithm is smarter. The results are cleaner. It just works. But here's the problem: they don't have a business model. They don't have investors. They have basically nothing except a cool product and an idea that search might matter someday.</p>
+
+<p>So they do what any startup would do: they try to sell the company. And who are the natural buyers? The search company that dominates the entire internet and owns the gateway to everything for millions of people: Yahoo. Yahoo was the internet in 1998. Not literally, but it felt like it. Yahoo was what you opened when you got online. Yahoo was your starting point. Your homepage. Your one-stop shop.</p>
+
+<p>So Larry and Sergey go to Yahoo and say, "We have this search technology. We think it's going to be important. We'd like to sell it to you." And Yahoo looks at Google's two kids with their search algorithm and says, "Thanks, but no thanks. We're cool with our own search technology. We don't need it." And they let Google walk. For one million dollars.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=400&fit=crop" alt="Early internet era computer screen with web browser" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Early internet era computer screen with web browser</figcaption></figure>
+
+<p>Now here's where you might think Yahoo was crazy, but you have to understand their logic. In 1998, Yahoo didn't think they were making a bad decision. Yahoo WAS the internet. They weren't just a search engine. They were a portal. A gateway. They had web directory listings that human editors had carefully organized. They had Yahoo Mail. They had news, weather, entertainment, stock quotes, everything. Yahoo was your one-stop shop for the entire online experience.</p>
+
+<p>From their perspective, Google was just one feature. Just a search tool. A narrow technology that did one thing. And Yahoo was already working on their own search technology. They had engineers. They had resources. So why would they buy a startup for a million dollars when they could build it themselves cheaper? Why acquire when you can build?</p>
+
+<p>The insanity is that Google's founders were actually trying to GET OUT of the search business. They wanted to sell the company because they thought search was going to become a commodity that everyone would have eventually. They didn't want to compete in search forever. They wanted to sell and move on. And Yahoo, which had perfect visibility into what the internet was becoming, didn't want to buy them.</p>
+
+<p>I swear I'm not making this up: the two kids who literally invented modern search were trying to escape from search. The company that owned the internet didn't want to buy the future of the internet. And the company that owned the internet had absolutely no idea that search was about to become the foundation of everything.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800&h=400&fit=crop" alt="Modern search engine on a clean computer screen" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Modern search engine on a clean computer screen</figcaption></figure>
+
+<p>So what happened next? Google didn't disappear. They found venture capital funding. In 1999, they raise their first real funding round. Then more funding. Then in 2004, they go public at $85 per share, valuing the company at $23 billion. By 2006, they're worth $165 billion. By 2010, they hit $200 billion. By 2020, Google is worth $1.3 trillion. By 2026, we're looking at approximately $2 trillion in market capitalization. Google went from a company nobody wanted to buy for a million dollars to literally one of the most valuable companies on the planet.</p>
+
+<p>Meanwhile, what happened to Yahoo? Here's where it gets genuinely tragic. Yahoo's own search engine was never as good as Google's. Not because Yahoo's engineers weren't smart. They were brilliant. But Google's algorithm was smarter. Google's approach to organizing information was fundamentally better. Users started leaving Yahoo and going to Google. And once that exodus started, it accelerated.</p>
+
+<p>Yahoo tried to stay relevant by acquiring other companies. They bought Flickr, which was brilliant. They bought Delicious, which was brilliant. They bought Broadcast.com. They were throwing billions at acquisitions trying to remain relevant. But it was too late. The internet had moved on. Users didn't want a portal anymore. They wanted the best search engine. And that was Google.</p>
+
+<p>Yahoo's stock peaked at around $125 per share in early 2000 at the height of the dotcom bubble. But after that bubble popped, and as Google steadily ate their lunch in search, Yahoo's value crumbled. By 2016, Verizon bought Yahoo for $4.5 billion. Not for the company itself, but mostly for their digital advertising business and their patents. By 2017, Yahoo was basically dismantled and absorbed into other properties. The company that owned the internet in 1998 became a historical footnote.</p>
+
+<p>And that's not even the wildest part. If Yahoo had bought Google for a million dollars in 1998, they wouldn't have needed to go through any of those failed acquisitions. They would've had search figured out. They would've been the default search on the internet. They would've been the advertising powerhouse that Google became instead. They would've been a two-trillion-dollar company instead of a remnant that Verizon bought for scrap value.</p>
+
+
+
+<p>The insanity of this decision compounds when you look at what Yahoo actually DID with that $1 million instead. They spent it on content licensing, partnerships, and portal expansion—the exact things that were about to become completely obsolete. They were doubling down on the "portal" model of the internet right as search was becoming the dominant paradigm. It's like they rejected a Swiss Army knife so they could invest more heavily in their existing toolbox. The blind spots in business are real. Nobody at Yahoo saw the search revolution coming with such force and velocity.</p>
+
+<p>What really gets under your skin when you learn about this deal is the timeline. Yahoo had the chance to BE Google before Google even was Google at scale. They could've owned the search infrastructure before it became clear that search would be worth hundreds of billions of dollars. Instead, they stayed married to the portal concept, kept pumping money into web directories and content partnerships, and watched from the sidelines as Google refined search algorithms and quietly became more valuable every single year. By 2002, when Google was genuinely dominant, Yahoo would've needed to pay billions—not millions. The window didn't just close. It slammed shut and locked.</p>
+
+<h2>Then vs Now: The Outcome</h2>
+
+<p>In 1998, Yahoo was worth about $2 billion and controlled what felt like the entire internet. They had millions of users coming to their site every single day. They were Goliath. Google was essentially worthless from a financial perspective—two kids with a database and an algorithm. Nobody outside tech circles had even heard of them. From Yahoo's perspective, they were clearly the winner and Google was just another startup with a neat idea that would probably fade away.</p>
+
+<p>In 2026, Google is worth approximately $2 trillion and is one of the most powerful companies on Earth. They own search. They own email through Gmail. They own video through YouTube. They own mobile phones through Android. They own maps. They own advertising. They own workspace tools. They own AI infrastructure. Yahoo, as a company, essentially doesn't exist anymore. The brand is owned by someone else. The executives who rejected Google are remembered in tech history as having made one of the worst business decisions of all time.</p>
+
+<p>Let that sink in for a second. A multi-billion-dollar company passed on buying another company for the price of a nice car, and that decision cost them literally trillions in market value. And not just market value—it cost them the future of the internet itself.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How much did Google cost in 1998?</h3>
+<p>Google was offered to Yahoo for approximately one million dollars in 1998. At the time, Google was a startup with no revenue, no clear business model, and no venture funding, while Yahoo was the dominant internet portal and saw no strategic value in acquiring a search engine startup.</p>
+
+<h3>Why didn't Yahoo buy Google?</h3>
+<p>Yahoo's leadership believed they didn't need Google because they were already developing their own search technology and were confident they could build a competitive search engine themselves. They saw search as just one feature of their broader portal strategy, not understanding that search was about to become the fundamental way people navigated the internet.</p>
+
+<h3>What happened to Yahoo?</h3>
+<p>Yahoo declined in relevance as Google became the dominant search engine. The company made numerous acquisitions trying to stay relevant but never recovered from their strategic misreading of the market. In 2016, Verizon bought Yahoo for $4.5 billion, and by 2017 the company was essentially dismantled and its assets absorbed into other businesses.</p>
+
+<h3>How much is Google worth today?</h3>
+<p>As of 2026, Google (now Alphabet Inc.) is valued at approximately $2 trillion, making it one of the most valuable companies in the world. This represents a roughly 2 million-fold increase from the million-dollar valuation Yahoo rejected in 1998, one of the most dramatic wealth creation events in business history.</p>
+
+</section>
+
+</article><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/y2k-bug-what-actually-happened.html">Y2K Was Supposed to Destroy Everything (Here's What Happened)</a></li><li style="padding:5px 0;"><a href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li><li style="padding:5px 0;"><a href="/posts/thousand-dollars-then-now.html">$1,000 in 1999 vs 2026: What Changed?</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">← Back to Blog</a></div>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+            <div class="window minimized" id="blog-window" style="left:120px;top:30px;width:500px;height:450px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📝 Blog Posts</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('blog-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('blog-window')">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <div class="blog-search">
+                        <input type="text" id="search-input" placeholder="Search posts..." onkeyup="handleSearch()">
+                    </div>
+                    <div class="blog-filters" id="tag-filters"></div>
+                    <ul class="blog-posts-list"><li class="blog-post-item" onclick="window.location.href='/posts/microsoft-tried-buy-nintendo.html'"><strong>When Microsoft Tried Buying Nintendo (And Lost)</strong><br><span class="post-date">2026-03-01</span><br><span class="post-excerpt">Microsoft's wild 1999 acquisition pitch to buy Nintendo was laughed off. Discover why this billion-dollar offer got rejected and reshaped gaming history.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/yahoo-rejected-google.html'"><strong>Yahoo Turned Down Google for $1M—Then Regretted It</strong><br><span class="post-date">2026-03-03</span><br><span class="post-excerpt">In 1998, Yahoo rejected Google for just $1 million. See how this rejected Google acquisition offer cost Yahoo billions in market dominance.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/blockbuster-netflix-acquisition.html'"><strong>Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</strong><br><span class="post-date">2026-03-05</span><br><span class="post-excerpt">Blockbuster passed on buying Netflix for $50M in 2000. Explore how this rejected Netflix acquisition offer became the biggest mistake in retail history.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/first-online-purchase-pizza.html'"><strong>The Internet's First Sale? A Pizza Hut Pepperoni Pizza</strong><br><span class="post-date">2026-03-07</span><br><span class="post-excerpt">Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/dialup-speed-then-vs-now.html'"><strong>Dial-Up Was INSANELY Slow (Here's the Math)</strong><br><span class="post-date">2026-03-09</span><br><span class="post-excerpt">Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/90s-websites-still-online.html'"><strong>Forgotten 90s Websites That Still Exist (Unchanged)</strong><br><span class="post-date">2026-03-11</span><br><span class="post-excerpt">Some of the oldest websites from the 1990s are still live today—and barely changed. Explore these vintage 1990s websites still online.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/90s-tech-inflation-calculator.html'"><strong>90s Tech Prices Adjusted for Inflation (Shocking Costs)</strong><br><span class="post-date">2026-03-13</span><br><span class="post-excerpt">A PlayStation cost $299 in 1994. See how much your favorite 90s technology prices really cost adjusted for inflation today.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/thousand-dollars-then-now.html'"><strong>$1,000 in 1999 vs 2026: What Changed?</strong><br><span class="post-date">2026-03-15</span><br><span class="post-excerpt">In 1999, $1,000 bought a decent computer. Today? Not much. Discover what $1,000 got you then versus now—the comparison is wild.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/napster-destroyed-music.html'"><strong>How Napster Destroyed the Music Industry (Forever)</strong><br><span class="post-date">2026-03-17</span><br><span class="post-excerpt">Napster didn't just share music files—it shattered the music industry's entire business model. Discover how Napster destroyed music as we knew it.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/y2k-bug-what-actually-happened.html'"><strong>Y2K Was Supposed to Destroy Everything (Here's What Happened)</strong><br><span class="post-date">2026-03-19</span><br><span class="post-excerpt">January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.</span></li></ul>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+            <div class="window minimized" id="about-window" style="left:180px;top:60px;width:450px;height:400px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">ℹ️ About This Site</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('about-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('about-window')">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <div class="about-content">
+                        <h2>Welcome to 404 Memory Found</h2>
+                        <p><strong>A Nostalgia Blog dedicated to the 90s & 2000s era</strong></p>
+                        <p>This site is a love letter to the internet of yesteryear. Here you'll find bizarre stories, curious facts, and nostalgic deep-dives into the culture of the 90s and 2000s.</p>
+                        <p>From dancing babies to instant messaging, from dial-up screams to the early web, we celebrate the strange, wonderful, and utterly unforgettable era that shaped the internet we know today.</p>
+                        <p>Browse our blog posts, explore the archives, and take a trip down memory lane with us.</p>
+                        <h3>Contact & Social</h3>
+                        <p>Email: <a href="mailto:hello@404memoryfound.com">hello@404memoryfound.com</a></p>
+                        <div class="newsletter-signup">
+                            <h3>Subscribe for Updates</h3>
+                            <input type="email" placeholder="your@email.com">
+                            <button onclick="alert('Newsletter signup coming soon!')">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+            <div class="window minimized" id="archives-window" style="left:240px;top:90px;width:450px;height:400px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📚 Archives</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('archives-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('archives-window')">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <ul class="archives-list" id="archives-list"></ul>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+        </div>
+        <div class="taskbar">
+            <button class="start-button" onclick="alert('Start menu coming soon!')">Start</button>
+            <div class="taskbar-buttons" id="taskbar-buttons"></div>
+            <div class="taskbar-spacer"></div>
+            <div class="taskbar-clock" id="taskbar-clock">00:00</div>
         </div>
     </div>
 

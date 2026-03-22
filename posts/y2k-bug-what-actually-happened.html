@@ -979,148 +979,16 @@
     </style>
 </head>
 <body>
-    <div id="boot-animation" style="display:none;">
-        <div class="boot-screen">
-            <div class="boot-content">
-                <div class="windows-logo"></div>
-                <div class="boot-text">Windows 95</div>
-            </div>
-        </div>
+    <!-- Boot Animation (Desktop only) -->
+    <div class="boot-animation">
+        <div class="boot-logo">404 MEMORY FOUND</div>
+        <div>Initializing Nostalgia Engine...</div>
+        <div>Loading 90s vibes...</div>
+        <div>Configuring Windows 95 emulation...</div>
+        <div>Ready to surf the memories!</div>
     </div>
 
-    <div class="desktop-container">
-        <div class="desktop-area">
-            <div class="desktop-icons">
-                <div class="desktop-icon" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%224%22 y=%228%22 width=%2240%22 height=%2236%22 fill=%22%23FFD54F%22 rx=%222%22/><rect x=%224%22 y=%228%22 width=%2240%22 height=%228%22 fill=%22%23FBC02D%22 rx=%222%22/><rect x=%228%22 y=%2220%22 width=%2232%22 height=%224%22 fill=%22%23F9A825%22 rx=%221%22/><rect x=%228%22 y=%2226%22 width=%2228%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2231%22 width=%2232%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2236%22 width=%2224%22 height=%223%22 fill=%22%23666%22 rx=%221%22/></svg>')"></div>
-                    <label>Blog Posts</label>
-                </div>
-                <div class="desktop-icon" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%224%22 width=%2236%22 height=%2240%22 fill=%22%23E3F2FD%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%224%22 width=%2236%22 height=%228%22 fill=%22%231565C0%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2211%22 text-anchor=%22middle%22 font-size=%228%22 font-weight=%22bold%22 fill=%22white%22 font-family=%22Arial%22>?</text><rect x=%2212%22 y=%2218%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2223%22 width=%2220%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2228%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2233%22 width=%2218%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2222%22 height=%222%22 fill=%22%23999%22/></svg>')"></div>
-                    <label>About</label>
-                </div>
-                <div class="desktop-icon" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%226%22 width=%2232%22 height=%2236%22 fill=%22%23A1887F%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%222%22/><rect x=%228%22 y=%226%22 width=%2232%22 height=%2210%22 fill=%22%238D6E63%22 rx=%222%22/><rect x=%2212%22 y=%2220%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2222%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/><rect x=%2212%22 y=%2230%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2232%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/></svg>')"></div>
-                    <label>Archives</label>
-                </div>
-                <div class="desktop-icon" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
-                    <label>Guestbook</label>
-                </div>
-            </div>
-            <div class="windows-container">
-                <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
-                <div class="window-title" onmousedown="startDrag(event, 'post-window')">
-                    <span>Y2K Was Supposed to Destroy Everything (Here's What Happened)</span>
-                    <div class="window-buttons">
-                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
-                    </div>
-                </div>
-                <div class="window-content">
-                    <article>
-<h2>The Disaster That Was Prevented So Well Nobody Believed It</h2>
-
-<p>At the end of 1999, there was genuine fear. Not irrational fear. Legitimate, justified, institutional fear that when the calendar switched from 1999 to 2000, the entire digital infrastructure of the world would collapse. Power grids would fail. Banks would lose track of money. Planes would fall out of the sky. Hospitals would shut down. It wasn't a conspiracy theory. It was a real, legitimate technical problem that could have caused massive damage.</p>
-
-<p>The problem was simple but profound: in the 1950s and 1960s and 1970s, when computers were new and memory was expensive and storage was limited, programmers made a decision that seemed obvious at the time. They would store years as two digits instead of four. So 1971 was stored as "71" and 1995 was stored as "95." It saved space. It seemed reasonable. Why would you ever need to store a year that wasn't 19XX?</p>
-
-<p>But here's what happens when you store the year as two digits: when the year 2000 comes, the system reads "00" and interprets it as 1900 instead of 2000. Now your date calculations are broken. If you calculate someone's age by subtracting their birth year from the current year, and you subtract 1900 from 2000, you get 100 instead of 0. If you're calculating interest on a loan, suddenly the math is wrong. If you're calculating when a lease expires, suddenly the dates are wrong.</p>
-
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop" alt="Computer code — the kind that had to be rewritten for Y2K compliance" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Computer code — the kind that had to be rewritten for Y2K compliance</figcaption></figure>
-
-<p>And because so much of the world's critical infrastructure—power grids, banking systems, medical systems, airlines—was built on code from the 1950s-1980s, the problem was everywhere. Airlines had computers that might crash. Banks might lose track of transactions. Power grids might shut down. It wasn't a hypothetical. It was a real, immediate technical threat that could've been catastrophic.</p>
-
-<p>So starting in the mid-1990s, organizations began the massive task of fixing this. Programmers spent years finding every instance of two-digit year code and updating it to four-digit year code. It was called "Y2K remediation" and it cost literally hundreds of billions of dollars. The United States government alone spent about $150 billion preparing for Y2K.</p>
-
-<p>And people were nervous about January 1st, 2000. Companies stockpiled supplies. Survivalists prepared bunkers. People withdrew cash from banks in case the financial system collapsed. There were genuine apocalypse predictions. "New Year's Eve 1999, go to parties, but stay close to home in case the power grid fails."</p>
-
-<p>And then... nothing happened. January 1st, 2000 came, and the world kept working. The power stayed on. The banks kept running. Planes didn't crash. It felt like Y2K was a hoax.</p>
-
-<p>But here's the thing that people don't understand: Y2K didn't fail because it was prevented. Y2K didn't happen because hundreds of billions of dollars were spent preventing it. The remediation worked. The millions of people who fixed code, who upgraded systems, who tested everything—they succeeded. They prevented a disaster so well that people assumed there was never a disaster to prevent.</p>
-
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&h=400&fit=crop" alt="Fireworks and celebrations — the world welcomed the year 2000" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Fireworks and celebrations — the world welcomed the year 2000</figcaption></figure>
-
-<p>If those programmers hadn't spent years fixing code, January 1st, 2000 would have been genuinely bad. Some systems actually had minor problems despite the fixes. There were ATMs that gave incorrect balances. There were some manufacturing systems that glitched. But nothing catastrophic because the preventative work had been done.</p>
-
-<p>I swear I'm not making this up: Y2K is one of the best examples of a crisis that was successfully prevented so completely that people forgot the crisis had ever existed. It's actually a success story in software engineering and crisis management, but it's remembered as a hoax.</p>
-
-<p>What's really interesting is that the problem wasn't actually fully solved. Old systems still exist with the two-digit year code. They're just monitored carefully, or they're isolated from critical systems, or they have workarounds in place. COBOL, which was written in the 1960s and is still running much of the world's banking and government systems, still has two-digit year code in many places. But that code is scheduled to stop working in 2031 (another Y2K-type problem called the "Year 2038 problem" for systems using 32-bit Unix time) and in 2100 (the century flip after 2099).</p>
-
-<p>So really, Y2K wasn't solved. It was just postponed. And when 2038 and 2100 come, we'll have to fix it again.</p>
-
-
-
-<p>The preventive measures that actually worked are often overlooked in the Y2K story. Banks, governments, and critical infrastructure companies genuinely did fix their systems. They hired teams, they went through code, they found vulnerable systems and updated them. When January 1, 2000 arrived and the planes didn't fall out of the sky and the power grid didn't fail, a lot of people said it was overblown. But that's like saying a fire alarm didn't work because nothing caught fire—the fire alarm might've actually prevented the fire. The systems failed catastrophically BECAUSE they were fixed, not despite the fixes.</p>
-
-<p>What's interesting is how Y2K exposed a massive infrastructure vulnerability and then taught an entire generation of IT professionals and companies that you actually need to plan for these things. It created a culture of testing and preparation that persists in tech today. The bug itself was trivial—just a date formatting issue—but it was hidden throughout millions of lines of legacy code, and there was no way to find it without careful auditing. That lesson about technical debt and maintenance became foundational to how we build systems now. We don't have the exact same vulnerability anymore, but Y2K proved that old code comes back to haunt you. Modern companies now maintain code and systems with that in mind, knowing that ignoring problems early can create infrastructure nightmares decades later.</p>
-
-
-
-<p>The Y2K story is actually a lesson in effective risk management and crisis prevention that went under-appreciated. Companies spent billions preparing for a problem that didn't materialize in any visible way. A lot of people saw that and said it was wasted money. But ask any IT professional: if you spend money to prevent a catastrophe and it works, you don't get to see what the catastrophe would've been. You just know it didn't happen. That's the weird part of crisis prevention—success looks like nothing happened. If you spend millions securing your systems and don't get hacked, how do you measure the value? This is why Y2K preparedness is often dismissed in hindsight, even though the lack of system failures on January 1, 2000 was almost certainly a direct result of the preparation. The world didn't end because thousands of engineers made sure it wouldn't.</p>
-
-<h2>Then vs Now: What We Learned</h2>
-
-<p>In 1999, people believed that the entire digital infrastructure of the world was fragile and could break catastrophically if one technical detail was wrong. Some of that belief was irrational—there was genuine apocalypse mentality. But the technical belief was correct. The digital world was fragile. And we spent hundreds of billions of dollars to prevent a disaster.</p>
-
-<p>By 2026, we've become much more confident in digital systems. We've built redundancies. We've built backup systems. We've learned from Y2K that you can fix these problems before they happen. But we're also aware that digital infrastructure is still fragile. Every software system has potential failure points. Every connected system is vulnerable to bugs and hacks.</p>
-
-<p>Y2K taught us that preventing catastrophic failures requires spending huge amounts of money on problems that haven't happened yet. It taught us that infrastructure maintenance is boring and unglamorous but critically important. And it taught us that sometimes the most successful crisis prevention looks like no crisis at all.</p>
-
-<h2>Frequently Asked Questions</h2>
-
-<h3>What was the Y2K bug?</h3>
-<p>The Y2K bug (also called the Millennium Bug) was a computer problem where systems used two-digit year formats (e.g., "99" for 1999) instead of four-digit formats. When the year became 2000, systems would interpret "00" as 1900 instead of 2000, potentially causing date calculations, financial transactions, and system operations to fail catastrophically across critical infrastructure.</p>
-
-<h3>Did Y2K actually cause problems?</h3>
-<p>Y2K caused minimal problems when it occurred because organizations spent $100-300 billion preparing for it. A few isolated issues occurred (ATMs showed incorrect balances, some manufacturing systems glitched) but nothing catastrophic. The lack of disaster was due to successful prevention, not because the problem didn't exist. If the fixes hadn't been made, January 1st, 2000 would have been genuinely disastrous.</p>
-
-<h3>Why did people think Y2K would be so bad?</h3>
-<p>The concern was legitimate because critical infrastructure systems—power grids, banking, hospitals, airlines—relied on code written in the 1960s-1980s with two-digit year formats. A global failure could have disrupted power, financial systems, and essential services. The threat was real, which is why preventing it required hundreds of billions in spending.</p>
-
-<h3>Is there another Y2K problem coming?</h3>
-<p>Yes. The Year 2038 problem is a similar issue affecting systems using 32-bit Unix time (which counts seconds since 1970). On January 19, 2038, these systems will experience a similar overflow problem. Additionally, the Year 2100 problem affects any remaining two-digit century code. Programmers are already working on preventing these failures, just like they did for Y2K.</p>
-
-</section>
-
-</article><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/first-online-purchase-pizza.html">The Internet's First Sale? A Pizza Hut Pepperoni Pizza</a></li><li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li><li style="padding:5px 0;"><a href="/posts/yahoo-rejected-google.html">Yahoo Turned Down Google for $1M—Then Regretted It</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">← Back to Blog</a></div>
-                </div>
-            </div>
-                <div class="window minimized" id="blog-window" style="left:120px;top:30px;width:500px;height:450px;">
-                <div class="title-bar">
-                    <div class="title-bar-title">📝 Blog Posts</div>
-                    <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('blog-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('blog-window')">×</button>
-                    </div>
-                </div>
-                <div class="window minimized" id="about-window" style="left:180px;top:60px;width:450px;height:400px;">
-                <div class="title-bar">
-                    <div class="title-bar-title">ℹ️ About This Site</div>
-                    <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('about-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('about-window')">×</button>
-                    </div>
-                </div>
-                <div class="window minimized" id="archives-window" style="left:240px;top:90px;width:450px;height:400px;">
-                <div class="title-bar">
-                    <div class="title-bar-title">📚 Archives</div>
-                    <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('archives-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('archives-window')">×</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="taskbar">
-            <button class="start-button" onclick="alert('Start menu coming soon!')">Start</button>
-            <div class="taskbar-buttons" id="taskbar-buttons"></div>
-    </div>
-
+    <!-- Mobile View -->
     <div class="mobile-container">
         <div class="mobile-header">
             <h1>Y2K Was Supposed to Destroy Everything (Here's What Happened)</h1>
@@ -1200,14 +1068,213 @@
                         <li style="padding:5px 0;"><a href="/posts/first-online-purchase-pizza.html">The Internet's First Sale? A Pizza Hut Pepperoni Pizza</a></li>
                         <li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li>
                         <li style="padding:5px 0;"><a href="/posts/yahoo-rejected-google.html">Yahoo Turned Down Google for $1M—Then Regretted It</a></li>
+
                     </ul>
                 </div>
-                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">← Back to Blog</a></div>
+                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">&#8592; Back to Blog</a></div>
             </article>
         </div>
         <div class="mobile-footer">
-            <p>© 2026 404 Memory Found</p>
+            <p>&copy; 2026 404 Memory Found. All rights reserved.</p>
             <p style="font-size:10px;margin-top:8px;">Posted on 2026-03-19 by 404 Memory Found</p>
+        </div>
+    </div>
+
+    <!-- Desktop View -->
+    <div class="desktop-container">
+        <h1 style="position: absolute; left: -9999px; top: -9999px;">Y2K Was Supposed to Destroy Everything (Here's What Happened) | 404 Memory Found</h1>
+
+        <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
+            <div class="desktop-icons">
+                <div class="desktop-icon" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%224%22 y=%228%22 width=%2240%22 height=%2236%22 fill=%22%23FFD54F%22 rx=%222%22/><rect x=%224%22 y=%228%22 width=%2240%22 height=%228%22 fill=%22%23FBC02D%22 rx=%222%22/><rect x=%228%22 y=%2220%22 width=%2232%22 height=%224%22 fill=%22%23F9A825%22 rx=%221%22/><rect x=%228%22 y=%2226%22 width=%2228%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2231%22 width=%2232%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2236%22 width=%2224%22 height=%223%22 fill=%22%23666%22 rx=%221%22/></svg>')"></div>
+                    <label>Blog Posts</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%224%22 width=%2236%22 height=%2240%22 fill=%22%23E3F2FD%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%224%22 width=%2236%22 height=%228%22 fill=%22%231565C0%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2211%22 text-anchor=%22middle%22 font-size=%228%22 font-weight=%22bold%22 fill=%22white%22 font-family=%22Arial%22>?</text><rect x=%2212%22 y=%2218%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2223%22 width=%2220%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2228%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2233%22 width=%2218%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2222%22 height=%222%22 fill=%22%23999%22/></svg>')"></div>
+                    <label>About</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%226%22 width=%2232%22 height=%2236%22 fill=%22%23A1887F%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%222%22/><rect x=%228%22 y=%226%22 width=%2232%22 height=%2210%22 fill=%22%238D6E63%22 rx=%222%22/><rect x=%2212%22 y=%2220%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2222%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/><rect x=%2212%22 y=%2230%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2232%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/></svg>')"></div>
+                    <label>Archives</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
+                    <label>Guestbook</label>
+                </div>
+            </div>
+            <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📖 Y2K Was Supposed to Destroy Everything (Here's What Happened)</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <article>
+<h2>The Disaster That Was Prevented So Well Nobody Believed It</h2>
+
+<p>At the end of 1999, there was genuine fear. Not irrational fear. Legitimate, justified, institutional fear that when the calendar switched from 1999 to 2000, the entire digital infrastructure of the world would collapse. Power grids would fail. Banks would lose track of money. Planes would fall out of the sky. Hospitals would shut down. It wasn't a conspiracy theory. It was a real, legitimate technical problem that could have caused massive damage.</p>
+
+<p>The problem was simple but profound: in the 1950s and 1960s and 1970s, when computers were new and memory was expensive and storage was limited, programmers made a decision that seemed obvious at the time. They would store years as two digits instead of four. So 1971 was stored as "71" and 1995 was stored as "95." It saved space. It seemed reasonable. Why would you ever need to store a year that wasn't 19XX?</p>
+
+<p>But here's what happens when you store the year as two digits: when the year 2000 comes, the system reads "00" and interprets it as 1900 instead of 2000. Now your date calculations are broken. If you calculate someone's age by subtracting their birth year from the current year, and you subtract 1900 from 2000, you get 100 instead of 0. If you're calculating interest on a loan, suddenly the math is wrong. If you're calculating when a lease expires, suddenly the dates are wrong.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop" alt="Computer code — the kind that had to be rewritten for Y2K compliance" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Computer code — the kind that had to be rewritten for Y2K compliance</figcaption></figure>
+
+<p>And because so much of the world's critical infrastructure—power grids, banking systems, medical systems, airlines—was built on code from the 1950s-1980s, the problem was everywhere. Airlines had computers that might crash. Banks might lose track of transactions. Power grids might shut down. It wasn't a hypothetical. It was a real, immediate technical threat that could've been catastrophic.</p>
+
+<p>So starting in the mid-1990s, organizations began the massive task of fixing this. Programmers spent years finding every instance of two-digit year code and updating it to four-digit year code. It was called "Y2K remediation" and it cost literally hundreds of billions of dollars. The United States government alone spent about $150 billion preparing for Y2K.</p>
+
+<p>And people were nervous about January 1st, 2000. Companies stockpiled supplies. Survivalists prepared bunkers. People withdrew cash from banks in case the financial system collapsed. There were genuine apocalypse predictions. "New Year's Eve 1999, go to parties, but stay close to home in case the power grid fails."</p>
+
+<p>And then... nothing happened. January 1st, 2000 came, and the world kept working. The power stayed on. The banks kept running. Planes didn't crash. It felt like Y2K was a hoax.</p>
+
+<p>But here's the thing that people don't understand: Y2K didn't fail because it was prevented. Y2K didn't happen because hundreds of billions of dollars were spent preventing it. The remediation worked. The millions of people who fixed code, who upgraded systems, who tested everything—they succeeded. They prevented a disaster so well that people assumed there was never a disaster to prevent.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&h=400&fit=crop" alt="Fireworks and celebrations — the world welcomed the year 2000" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Fireworks and celebrations — the world welcomed the year 2000</figcaption></figure>
+
+<p>If those programmers hadn't spent years fixing code, January 1st, 2000 would have been genuinely bad. Some systems actually had minor problems despite the fixes. There were ATMs that gave incorrect balances. There were some manufacturing systems that glitched. But nothing catastrophic because the preventative work had been done.</p>
+
+<p>I swear I'm not making this up: Y2K is one of the best examples of a crisis that was successfully prevented so completely that people forgot the crisis had ever existed. It's actually a success story in software engineering and crisis management, but it's remembered as a hoax.</p>
+
+<p>What's really interesting is that the problem wasn't actually fully solved. Old systems still exist with the two-digit year code. They're just monitored carefully, or they're isolated from critical systems, or they have workarounds in place. COBOL, which was written in the 1960s and is still running much of the world's banking and government systems, still has two-digit year code in many places. But that code is scheduled to stop working in 2031 (another Y2K-type problem called the "Year 2038 problem" for systems using 32-bit Unix time) and in 2100 (the century flip after 2099).</p>
+
+<p>So really, Y2K wasn't solved. It was just postponed. And when 2038 and 2100 come, we'll have to fix it again.</p>
+
+
+
+<p>The preventive measures that actually worked are often overlooked in the Y2K story. Banks, governments, and critical infrastructure companies genuinely did fix their systems. They hired teams, they went through code, they found vulnerable systems and updated them. When January 1, 2000 arrived and the planes didn't fall out of the sky and the power grid didn't fail, a lot of people said it was overblown. But that's like saying a fire alarm didn't work because nothing caught fire—the fire alarm might've actually prevented the fire. The systems failed catastrophically BECAUSE they were fixed, not despite the fixes.</p>
+
+<p>What's interesting is how Y2K exposed a massive infrastructure vulnerability and then taught an entire generation of IT professionals and companies that you actually need to plan for these things. It created a culture of testing and preparation that persists in tech today. The bug itself was trivial—just a date formatting issue—but it was hidden throughout millions of lines of legacy code, and there was no way to find it without careful auditing. That lesson about technical debt and maintenance became foundational to how we build systems now. We don't have the exact same vulnerability anymore, but Y2K proved that old code comes back to haunt you. Modern companies now maintain code and systems with that in mind, knowing that ignoring problems early can create infrastructure nightmares decades later.</p>
+
+
+
+<p>The Y2K story is actually a lesson in effective risk management and crisis prevention that went under-appreciated. Companies spent billions preparing for a problem that didn't materialize in any visible way. A lot of people saw that and said it was wasted money. But ask any IT professional: if you spend money to prevent a catastrophe and it works, you don't get to see what the catastrophe would've been. You just know it didn't happen. That's the weird part of crisis prevention—success looks like nothing happened. If you spend millions securing your systems and don't get hacked, how do you measure the value? This is why Y2K preparedness is often dismissed in hindsight, even though the lack of system failures on January 1, 2000 was almost certainly a direct result of the preparation. The world didn't end because thousands of engineers made sure it wouldn't.</p>
+
+<h2>Then vs Now: What We Learned</h2>
+
+<p>In 1999, people believed that the entire digital infrastructure of the world was fragile and could break catastrophically if one technical detail was wrong. Some of that belief was irrational—there was genuine apocalypse mentality. But the technical belief was correct. The digital world was fragile. And we spent hundreds of billions of dollars to prevent a disaster.</p>
+
+<p>By 2026, we've become much more confident in digital systems. We've built redundancies. We've built backup systems. We've learned from Y2K that you can fix these problems before they happen. But we're also aware that digital infrastructure is still fragile. Every software system has potential failure points. Every connected system is vulnerable to bugs and hacks.</p>
+
+<p>Y2K taught us that preventing catastrophic failures requires spending huge amounts of money on problems that haven't happened yet. It taught us that infrastructure maintenance is boring and unglamorous but critically important. And it taught us that sometimes the most successful crisis prevention looks like no crisis at all.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What was the Y2K bug?</h3>
+<p>The Y2K bug (also called the Millennium Bug) was a computer problem where systems used two-digit year formats (e.g., "99" for 1999) instead of four-digit formats. When the year became 2000, systems would interpret "00" as 1900 instead of 2000, potentially causing date calculations, financial transactions, and system operations to fail catastrophically across critical infrastructure.</p>
+
+<h3>Did Y2K actually cause problems?</h3>
+<p>Y2K caused minimal problems when it occurred because organizations spent $100-300 billion preparing for it. A few isolated issues occurred (ATMs showed incorrect balances, some manufacturing systems glitched) but nothing catastrophic. The lack of disaster was due to successful prevention, not because the problem didn't exist. If the fixes hadn't been made, January 1st, 2000 would have been genuinely disastrous.</p>
+
+<h3>Why did people think Y2K would be so bad?</h3>
+<p>The concern was legitimate because critical infrastructure systems—power grids, banking, hospitals, airlines—relied on code written in the 1960s-1980s with two-digit year formats. A global failure could have disrupted power, financial systems, and essential services. The threat was real, which is why preventing it required hundreds of billions in spending.</p>
+
+<h3>Is there another Y2K problem coming?</h3>
+<p>Yes. The Year 2038 problem is a similar issue affecting systems using 32-bit Unix time (which counts seconds since 1970). On January 19, 2038, these systems will experience a similar overflow problem. Additionally, the Year 2100 problem affects any remaining two-digit century code. Programmers are already working on preventing these failures, just like they did for Y2K.</p>
+
+</section>
+
+</article><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/first-online-purchase-pizza.html">The Internet's First Sale? A Pizza Hut Pepperoni Pizza</a></li><li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li><li style="padding:5px 0;"><a href="/posts/yahoo-rejected-google.html">Yahoo Turned Down Google for $1M—Then Regretted It</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">← Back to Blog</a></div>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+            <div class="window minimized" id="blog-window" style="left:120px;top:30px;width:500px;height:450px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📝 Blog Posts</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('blog-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('blog-window')">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <div class="blog-search">
+                        <input type="text" id="search-input" placeholder="Search posts..." onkeyup="handleSearch()">
+                    </div>
+                    <div class="blog-filters" id="tag-filters"></div>
+                    <ul class="blog-posts-list"><li class="blog-post-item" onclick="window.location.href='/posts/microsoft-tried-buy-nintendo.html'"><strong>When Microsoft Tried Buying Nintendo (And Lost)</strong><br><span class="post-date">2026-03-01</span><br><span class="post-excerpt">Microsoft's wild 1999 acquisition pitch to buy Nintendo was laughed off. Discover why this billion-dollar offer got rejected and reshaped gaming history.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/yahoo-rejected-google.html'"><strong>Yahoo Turned Down Google for $1M—Then Regretted It</strong><br><span class="post-date">2026-03-03</span><br><span class="post-excerpt">In 1998, Yahoo rejected Google for just $1 million. See how this rejected Google acquisition offer cost Yahoo billions in market dominance.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/blockbuster-netflix-acquisition.html'"><strong>Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</strong><br><span class="post-date">2026-03-05</span><br><span class="post-excerpt">Blockbuster passed on buying Netflix for $50M in 2000. Explore how this rejected Netflix acquisition offer became the biggest mistake in retail history.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/first-online-purchase-pizza.html'"><strong>The Internet's First Sale? A Pizza Hut Pepperoni Pizza</strong><br><span class="post-date">2026-03-07</span><br><span class="post-excerpt">Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/dialup-speed-then-vs-now.html'"><strong>Dial-Up Was INSANELY Slow (Here's the Math)</strong><br><span class="post-date">2026-03-09</span><br><span class="post-excerpt">Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/90s-websites-still-online.html'"><strong>Forgotten 90s Websites That Still Exist (Unchanged)</strong><br><span class="post-date">2026-03-11</span><br><span class="post-excerpt">Some of the oldest websites from the 1990s are still live today—and barely changed. Explore these vintage 1990s websites still online.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/90s-tech-inflation-calculator.html'"><strong>90s Tech Prices Adjusted for Inflation (Shocking Costs)</strong><br><span class="post-date">2026-03-13</span><br><span class="post-excerpt">A PlayStation cost $299 in 1994. See how much your favorite 90s technology prices really cost adjusted for inflation today.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/thousand-dollars-then-now.html'"><strong>$1,000 in 1999 vs 2026: What Changed?</strong><br><span class="post-date">2026-03-15</span><br><span class="post-excerpt">In 1999, $1,000 bought a decent computer. Today? Not much. Discover what $1,000 got you then versus now—the comparison is wild.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/napster-destroyed-music.html'"><strong>How Napster Destroyed the Music Industry (Forever)</strong><br><span class="post-date">2026-03-17</span><br><span class="post-excerpt">Napster didn't just share music files—it shattered the music industry's entire business model. Discover how Napster destroyed music as we knew it.</span></li><li class="blog-post-item" onclick="window.location.href='/posts/y2k-bug-what-actually-happened.html'"><strong>Y2K Was Supposed to Destroy Everything (Here's What Happened)</strong><br><span class="post-date">2026-03-19</span><br><span class="post-excerpt">January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.</span></li></ul>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+            <div class="window minimized" id="about-window" style="left:180px;top:60px;width:450px;height:400px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">ℹ️ About This Site</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('about-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('about-window')">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <div class="about-content">
+                        <h2>Welcome to 404 Memory Found</h2>
+                        <p><strong>A Nostalgia Blog dedicated to the 90s & 2000s era</strong></p>
+                        <p>This site is a love letter to the internet of yesteryear. Here you'll find bizarre stories, curious facts, and nostalgic deep-dives into the culture of the 90s and 2000s.</p>
+                        <p>From dancing babies to instant messaging, from dial-up screams to the early web, we celebrate the strange, wonderful, and utterly unforgettable era that shaped the internet we know today.</p>
+                        <p>Browse our blog posts, explore the archives, and take a trip down memory lane with us.</p>
+                        <h3>Contact & Social</h3>
+                        <p>Email: <a href="mailto:hello@404memoryfound.com">hello@404memoryfound.com</a></p>
+                        <div class="newsletter-signup">
+                            <h3>Subscribe for Updates</h3>
+                            <input type="email" placeholder="your@email.com">
+                            <button onclick="alert('Newsletter signup coming soon!')">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+            <div class="window minimized" id="archives-window" style="left:240px;top:90px;width:450px;height:400px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📚 Archives</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('archives-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('archives-window')">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <ul class="archives-list" id="archives-list"></ul>
+                </div>
+                <div class="resize-handle resize-handle-n"></div>
+                <div class="resize-handle resize-handle-s"></div>
+                <div class="resize-handle resize-handle-e"></div>
+                <div class="resize-handle resize-handle-w"></div>
+                <div class="resize-handle resize-handle-ne"></div>
+                <div class="resize-handle resize-handle-nw"></div>
+                <div class="resize-handle resize-handle-se"></div>
+                <div class="resize-handle resize-handle-sw"></div>
+            </div>
+        </div>
+        <div class="taskbar">
+            <button class="start-button" onclick="alert('Start menu coming soon!')">Start</button>
+            <div class="taskbar-buttons" id="taskbar-buttons"></div>
+            <div class="taskbar-spacer"></div>
+            <div class="taskbar-clock" id="taskbar-clock">00:00</div>
         </div>
     </div>
 
