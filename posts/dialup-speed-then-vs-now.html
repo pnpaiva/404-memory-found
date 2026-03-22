@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.">
+    <meta property="og:title" content="Dial-Up Was INSANELY Slow (Here's the Math)">
+    <meta property="og:description" content="Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://404memoryfound.com/posts/dialup-speed-then-vs-now.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dial-Up Was INSANELY Slow (Here's the Math)">
+    <meta name="twitter:description" content="Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.">
+    <meta name="author" content="404 Memory Found">
+    <link rel="canonical" href="https://404memoryfound.com/posts/dialup-speed-then-vs-now.html">
+
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Dial-Up Was INSANELY Slow (Here's the Math)", "description": "Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet\u2014the numbers are shocking.", "datePublished": "2026-03-09", "author": {"@type": "Person", "name": "404 Memory Found"}, "url": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"}
+    </script>
+
+    <title>Dial-Up Was INSANELY Slow (Here's the Math) | 404 Memory Found</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23008080'/><rect x='2' y='2' width='28' height='28' fill='%23c0c0c0' stroke='%23fff' stroke-width='1'/><rect x='2' y='2' width='28' height='6' fill='%23000080'/><text x='16' y='7' text-anchor='middle' font-size='5' font-weight='bold' fill='white' font-family='Arial'>404</text><text x='16' y='20' text-anchor='middle' font-size='7' font-weight='bold' fill='%23000080' font-family='Arial'>MF</text><text x='16' y='27' text-anchor='middle' font-size='4' fill='%23808080' font-family='Arial'>found</text></svg>">
+    <meta name="robots" content="index, follow">
+
+    <style>
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background: linear-gradient(135deg, #008080 0%, #106B6B 100%);
+            font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            font-size: 11px;
+            color: #000;
+            user-select: none;
+            cursor: default;
+        }
+
+        /* CRT Scanline effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.08),
+                rgba(0, 0, 0, 0.08) 2px,
+                transparent 2px,
+                transparent 4px
+            );
+            pointer-events: none;
+            z-index: 999;
+        }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .desktop-container {
+                display: none;
+            }
+
+            .mobile-container {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                overflow: hidden;
+                background: #f0f0f0;
+            }
+
+            .mobile-header {
+                padding: 20px;
+                background: linear-gradient(135deg, #008080 0%, #106B6B 100%);
+                color: white;
+                text-align: center;
+                flex-shrink: 0;
+            }
+
+            .mobile-header h1 {
+                font-size: 24px;
+                margin-bottom: 8px;
+            }
+
+            .mobile-header p {
+                font-size: 12px;
+                opacity: 0.9;
+            }
+
+            .mobile-content {
+                flex: 1;
+                overflow-y: auto;
+                padding: 0;
+            }
+
+            .mobile-post-list {
+                list-style: none;
+            }
+
+            .mobile-post-item {
+                padding: 16px;
+                border-bottom: 1px solid #ddd;
+                cursor: pointer;
+                background: white;
+                transition: background 0.2s;
+            }
+
+            .mobile-post-item:active {
+                background: #e8e8e8;
+            }
+
+            .mobile-post-item h3 {
+                font-size: 16px;
+                margin-bottom: 6px;
+                color: #333;
+            }
+
+            .mobile-post-date {
+                font-size: 12px;
+                color: #666;
+                margin-bottom: 8px;
+            }
+
+            .mobile-post-excerpt {
+                font-size: 13px;
+                color: #555;
+                line-height: 1.5;
+            }
+
+            .mobile-footer {
+                padding: 16px;
+                background: #333;
+                color: white;
+                text-align: center;
+                font-size: 11px;
+                flex-shrink: 0;
+                border-top: 1px solid #555;
+            }
+
+            .mobile-footer a {
+                color: #4da6ff;
+                text-decoration: none;
+                margin: 0 4px;
+            }
+
+            .mobile-tagline {
+                margin-top: 8px;
+                font-size: 10px;
+                opacity: 0.8;
+            }
+        }
+
+        /* Desktop View */
+        @media (min-width: 769px) {
+            .mobile-container {
+                display: none;
+            }
+
+            .desktop-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .desktop-area {
+                flex: 1;
+                position: relative;
+                overflow: hidden;
+            }
+
+            /* Desktop Icons */
+            .desktop-icons {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: 10;
+            }
+
+            .desktop-icon {
+                width: 80px;
+                text-align: center;
+                margin-bottom: 60px;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                transition: all 0.1s;
+            }
+
+            .desktop-icon:hover {
+                filter: brightness(1.1);
+            }
+
+            .desktop-icon.selected {
+                filter: invert(1);
+            }
+
+            .icon-image {
+                width: 48px;
+                height: 48px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .desktop-icon label {
+                font-size: 11px;
+                text-align: center;
+                word-wrap: break-word;
+                color: white;
+                text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            }
+
+            /* Windows */
+            .window {
+                position: absolute;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                box-shadow: 1px 1px 0 #000080 inset;
+                display: flex;
+                flex-direction: column;
+                z-index: 100;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                font-size: 11px;
+                user-select: none;
+                touch-action: none;
+            }
+
+            .window.active {
+                z-index: 200;
+            }
+
+            .window.minimized {
+                display: none;
+            }
+
+            /* Resize handles */
+
+            .resize-handle {
+                position: absolute;
+            }
+
+            .resize-handle-n {
+                top: -3px;
+                left: 0;
+                right: 0;
+                height: 6px;
+                cursor: n-resize;
+            }
+
+            .resize-handle-s {
+                bottom: -3px;
+                left: 0;
+                right: 0;
+                height: 6px;
+                cursor: s-resize;
+            }
+
+            .resize-handle-e {
+                right: -3px;
+                top: 0;
+                bottom: 0;
+                width: 6px;
+                cursor: e-resize;
+            }
+
+            .resize-handle-w {
+                left: -3px;
+                top: 0;
+                bottom: 0;
+                width: 6px;
+                cursor: w-resize;
+            }
+
+            .resize-handle-nw {
+                top: -3px;
+                left: -3px;
+                width: 10px;
+                height: 10px;
+                cursor: nw-resize;
+            }
+
+            .resize-handle-ne {
+                top: -3px;
+                right: -3px;
+                width: 10px;
+                height: 10px;
+                cursor: ne-resize;
+            }
+
+            .resize-handle-sw {
+                bottom: -3px;
+                left: -3px;
+                width: 10px;
+                height: 10px;
+                cursor: sw-resize;
+            }
+
+            .resize-handle-se {
+                bottom: -3px;
+                right: -3px;
+                width: 10px;
+                height: 10px;
+                cursor: se-resize;
+            }
+
+            .title-bar {
+                background: linear-gradient(90deg, #000080, #1084d0);
+                color: white;
+                padding: 2px 2px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 20px;
+                cursor: move;
+                flex-shrink: 0;
+                user-select: none;
+            }
+
+            .title-bar-title {
+                flex: 1;
+                font-weight: bold;
+                font-size: 11px;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+
+            .title-bar-controls {
+                display: flex;
+                gap: 2px;
+            }
+
+            .window-button {
+                width: 16px;
+                height: 14px;
+                background: #dfdfdf;
+                border: 1px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                font-size: 10px;
+                color: #000;
+                flex-shrink: 0;
+            }
+
+            .window-button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            .window-content {
+                flex: 1;
+                overflow: auto;
+                background: #dfdfdf;
+                padding: 4px;
+            }
+
+            /* Scrollbar styling */
+            .window-content::-webkit-scrollbar {
+                width: 16px;
+                height: 16px;
+            }
+
+            .window-content::-webkit-scrollbar-track {
+                background: #dfdfdf;
+                border: 1px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+            }
+
+            .window-content::-webkit-scrollbar-thumb {
+                background: #dfdfdf;
+                border: 1px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+            }
+
+            /* Blog Posts Window */
+            #blog-window {
+                left: 100px;
+                top: 100px;
+                width: 600px;
+                height: 500px;
+            }
+
+            .blog-search {
+                margin-bottom: 8px;
+            }
+
+            .blog-search input {
+                width: 100%;
+                padding: 4px;
+                border: 2px solid;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                font-size: 11px;
+            }
+
+            .blog-filters {
+                margin-bottom: 8px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4px;
+            }
+
+            .tag-button {
+                padding: 2px 8px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 11px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .tag-button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            .tag-button.active {
+                background: #000080;
+                color: white;
+            }
+
+            .blog-posts-list {
+                list-style: none;
+            }
+
+            .blog-post-item {
+                padding: 8px;
+                border-bottom: 1px solid #c0c0c0;
+                cursor: pointer;
+                background: white;
+                margin-bottom: 4px;
+            }
+
+            .blog-post-item:hover {
+                background: #e8e8ff;
+            }
+
+            .blog-post-item h3 {
+                font-size: 11px;
+                font-weight: bold;
+                margin-bottom: 4px;
+                color: #0000ff;
+            }
+
+            .blog-post-item .date {
+                font-size: 10px;
+                color: #666;
+            }
+
+            .blog-post-item .excerpt {
+                font-size: 10px;
+                color: #333;
+                margin-top: 4px;
+            }
+
+            .blog-post-item .tags {
+                font-size: 9px;
+                color: #666;
+                margin-top: 4px;
+            }
+
+            /* About Window */
+            #about-window {
+                left: 750px;
+                top: 150px;
+                width: 500px;
+                height: 450px;
+            }
+
+            .about-content {
+                line-height: 1.6;
+            }
+
+            .about-content h2 {
+                font-size: 12px;
+                font-weight: bold;
+                margin-bottom: 8px;
+                margin-top: 8px;
+            }
+
+            .about-content h3 {
+                font-size: 11px;
+                font-weight: bold;
+                margin-bottom: 6px;
+                margin-top: 6px;
+            }
+
+            .about-content p {
+                font-size: 11px;
+                margin-bottom: 8px;
+            }
+
+            .about-content a {
+                color: #0000ff;
+            }
+
+            .newsletter-signup {
+                border: 1px solid #808080;
+                padding: 8px;
+                background: #efefef;
+                margin-top: 8px;
+            }
+
+            .newsletter-signup input {
+                width: 100%;
+                padding: 4px;
+                margin-bottom: 4px;
+                border: 1px solid #808080;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                font-size: 11px;
+            }
+
+            .newsletter-signup button {
+                padding: 4px 12px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 11px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .newsletter-signup button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            /* Archives Window */
+            #archives-window {
+                left: 300px;
+                top: 300px;
+                width: 550px;
+                height: 400px;
+            }
+
+            .archives-list {
+                list-style: none;
+            }
+
+            .archive-tag {
+                margin-bottom: 12px;
+            }
+
+            .archive-tag-name {
+                font-weight: bold;
+                font-size: 11px;
+                background: #c0c0c0;
+                padding: 2px 4px;
+                margin-bottom: 4px;
+            }
+
+            .archive-posts {
+                list-style: none;
+                margin-left: 8px;
+            }
+
+            .archive-post {
+                font-size: 10px;
+                padding: 2px;
+                cursor: pointer;
+            }
+
+            .archive-post:hover {
+                background: #e8e8ff;
+            }
+
+            .archive-post .title {
+                color: #0000ff;
+                text-decoration: underline;
+            }
+
+            .archive-post .date {
+                color: #666;
+                font-size: 9px;
+            }
+
+            /* Post Window */
+            #post-window {
+                left: 150px;
+                top: 150px;
+                width: 700px;
+                height: 550px;
+                display: none;
+            }
+
+            #post-window.visible {
+                display: flex;
+            }
+
+            .post-header {
+                border-bottom: 1px solid #c0c0c0;
+                padding-bottom: 8px;
+                margin-bottom: 12px;
+            }
+
+            .post-header h1 {
+                font-size: 13px;
+                font-weight: bold;
+                margin-bottom: 6px;
+            }
+
+            .post-meta {
+                font-size: 10px;
+                color: #666;
+            }
+
+            .post-body {
+                font-size: 11px;
+                line-height: 1.6;
+            }
+
+            .post-body h2 {
+                font-size: 12px;
+                font-weight: bold;
+                margin-top: 12px;
+                margin-bottom: 6px;
+            }
+
+            .post-body h3 {
+                font-size: 11px;
+                font-weight: bold;
+                margin-top: 8px;
+                margin-bottom: 4px;
+            }
+
+            .post-body p {
+                margin-bottom: 8px;
+            }
+
+            .post-body a {
+                color: #0000ff;
+            }
+
+            .post-footer {
+                margin-top: 16px;
+                padding-top: 12px;
+                border-top: 1px solid #c0c0c0;
+            }
+
+            .share-buttons {
+                display: flex;
+                gap: 4px;
+                margin-bottom: 8px;
+            }
+
+            .share-button {
+                padding: 4px 8px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 10px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .share-button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            .related-posts {
+                font-size: 10px;
+            }
+
+            .related-posts-title {
+                font-weight: bold;
+                margin-bottom: 4px;
+            }
+
+            .related-post {
+                padding: 2px;
+                color: #0000ff;
+                cursor: pointer;
+                margin-bottom: 2px;
+            }
+
+            .related-post:hover {
+                text-decoration: underline;
+            }
+
+            /* Guestbook Window */
+            #guestbook-window {
+                left: 100px;
+                top: 350px;
+                width: 450px;
+                height: 380px;
+            }
+
+            .guestbook-form {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .guestbook-form label {
+                font-size: 11px;
+                font-weight: bold;
+            }
+
+            .guestbook-form input,
+            .guestbook-form textarea {
+                padding: 4px;
+                border: 1px solid #808080;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                font-size: 11px;
+            }
+
+            .guestbook-form textarea {
+                resize: vertical;
+                min-height: 80px;
+            }
+
+            .guestbook-button {
+                padding: 6px 12px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 11px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .guestbook-button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            /* Taskbar */
+            .taskbar {
+                height: 28px;
+                background: linear-gradient(180deg, #dfdfdf 0%, #808080 100%);
+                border-top: 2px solid;
+                border-top-color: #ffffff;
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                padding: 2px;
+                flex-shrink: 0;
+                z-index: 1000;
+            }
+
+            .start-button {
+                padding: 2px 6px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 11px;
+                font-weight: bold;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .start-button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            .taskbar-buttons {
+                display: flex;
+                gap: 2px;
+                flex: 1;
+                align-items: center;
+                min-width: 0;
+            }
+
+            .taskbar-button {
+                padding: 2px 6px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 10px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 150px;
+            }
+
+            .taskbar-button:active,
+            .taskbar-button.active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            .taskbar-spacer {
+                flex: 1;
+                min-width: 20px;
+            }
+
+            .taskbar-clock {
+                padding: 2px 6px;
+                font-size: 10px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                flex-shrink: 0;
+            }
+
+            /* Footer */
+            .footer {
+                height: auto;
+                background: #dfdfdf;
+                border-top: 1px solid #c0c0c0;
+                padding: 4px 8px;
+                font-size: 10px;
+                text-align: center;
+                color: #666;
+                flex-shrink: 0;
+                z-index: 50;
+            }
+
+            .footer a {
+                color: #0000ff;
+                text-decoration: underline;
+                margin: 0 2px;
+            }
+
+            .footer a:hover {
+                text-decoration: none;
+            }
+
+            /* Cookie Banner */
+            #cookie-banner {
+                position: fixed;
+                bottom: 28px;
+                left: 10px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                padding: 12px;
+                max-width: 400px;
+                z-index: 500;
+                display: none;
+            }
+
+            #cookie-banner.show {
+                display: block;
+            }
+
+            .cookie-content {
+                font-size: 10px;
+                margin-bottom: 8px;
+            }
+
+            .cookie-buttons {
+                display: flex;
+                gap: 8px;
+            }
+
+            .cookie-button {
+                padding: 4px 12px;
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                font-size: 11px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .cookie-button:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
+
+            /* Boot Animation */
+            .boot-animation {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #000080;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                z-index: 10000;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                font-size: 12px;
+                line-height: 1.8;
+                text-align: center;
+                animation: fadeOut 3s ease-in forwards;
+            }
+
+            .boot-animation.hidden {
+                display: none !important;
+            }
+
+            @keyframes fadeOut {
+                0% { opacity: 1; }
+                80% { opacity: 1; }
+                100% { opacity: 0; pointer-events: none; }
+            }
+
+            .boot-logo {
+                font-size: 32px;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="boot-animation" style="display:none;">
+        <div class="boot-screen">
+            <div class="boot-content">
+                <div class="windows-logo"></div>
+                <div class="boot-text">Windows 95</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop-container">
+        <div class="desktop-area">
+            <div class="desktop-icons">
+                <div class="desktop-icon" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%224%22 y=%228%22 width=%2240%22 height=%2236%22 fill=%22%23FFD54F%22 rx=%222%22/><rect x=%224%22 y=%228%22 width=%2240%22 height=%228%22 fill=%22%23FBC02D%22 rx=%222%22/><rect x=%228%22 y=%2220%22 width=%2232%22 height=%224%22 fill=%22%23F9A825%22 rx=%221%22/><rect x=%228%22 y=%2226%22 width=%2228%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2231%22 width=%2232%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2236%22 width=%2224%22 height=%223%22 fill=%22%23666%22 rx=%221%22/></svg>')"></div>
+                    <label>Blog Posts</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%224%22 width=%2236%22 height=%2240%22 fill=%22%23E3F2FD%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%224%22 width=%2236%22 height=%228%22 fill=%22%231565C0%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2211%22 text-anchor=%22middle%22 font-size=%228%22 font-weight=%22bold%22 fill=%22white%22 font-family=%22Arial%22>?</text><rect x=%2212%22 y=%2218%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2223%22 width=%2220%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2228%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2233%22 width=%2218%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2222%22 height=%222%22 fill=%22%23999%22/></svg>')"></div>
+                    <label>About</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%226%22 width=%2232%22 height=%2236%22 fill=%22%23A1887F%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%222%22/><rect x=%228%22 y=%226%22 width=%2232%22 height=%2210%22 fill=%22%238D6E63%22 rx=%222%22/><rect x=%2212%22 y=%2220%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2222%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/><rect x=%2212%22 y=%2230%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2232%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/></svg>')"></div>
+                    <label>Archives</label>
+                </div>
+                <div class="desktop-icon" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
+                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
+                    <label>Guestbook</label>
+                </div>
+            </div>
+            <div class="windows-container">
+                <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
+                <div class="window-title" onmousedown="startDrag(event, 'post-window')">
+                    <span>Dial-Up Was INSANELY Slow (Here's the Math)</span>
+                    <div class="window-buttons">
+                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <article>
+<h2>The Agony of Waiting for a JPEG</h2>
+
+<p>If you're under 30 years old, you have no idea what the internet was actually like in the 1990s. You think you know, but you don't. You can't comprehend the sheer frustration of dial-up internet until you've lived it. Let me paint you a picture.</p>
+
+<p>It's 1996. You want to look something up online. You sit down at your computer. You pick up the phone—wait, no, you PLUG the phone into your modem. Because your modem uses your actual phone line. So when you're online, nobody can call you. And when someone calls the house, you get disconnected. You hear that horrible screeching noise—this ungodly sound of your modem negotiating with another modem—and then you're connected. That entire process takes 20-45 seconds.</p>
+
+<p>Okay, you're online. Now you want to check the weather. You open Netscape Navigator or Internet Explorer. You type in a URL. Nothing happens for 3-5 seconds. Then the page starts loading. And I do mean STARTS. You see the header load first. Then you wait. And wait. A line of text appears at the top. Then more text appears below. A small image starts loading—you can watch it load pixel by pixel from the top down. This is not exaggeration. This is how the internet worked.</p>
+
+<p>A single webpage with a few kilobytes of text and a couple of small images might take 10-15 seconds to load. If it had a lot of images, it could take a minute or more. And if someone picked up a phone and connected to the internet while you were downloading, your connection would drop.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=400&fit=crop" alt="Retro computer hardware and technology from the 90s" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer hardware and technology from the 90s</figcaption></figure>
+
+<p>Here's the thing though: this was the internet. This was cutting edge. People were GRATEFUL for this speed because it was better than anything else available. Dial-up at 56 kilobits per second seemed revolutionary compared to the 14.4 kbps modems that came before it. And if you had 56k, you were basically a technology elite.</p>
+
+<p>Let's put that in perspective. Modern internet in developed countries is measured in megabits or gigabits. A gigabit is 1,000 megabits. A megabit is 1,000 kilobits. So a typical modern internet connection is somewhere between 100-500 megabits per second. Compare that to 56 kilobits per second. Do the math. Modern internet is approximately 2,000 to 9,000 times faster than dial-up.</p>
+
+<p>And it's not just about speed. It's about understanding how slow that actually was in practice. A single photograph at decent quality is maybe 200-500 kilobytes. At dial-up speeds, that single photograph would take 5-10 minutes to download. A 3-minute song in MP3 format is about 3-5 megabytes. That would take 10-20 minutes to download. A full-length movie is several gigabytes. That would take 20+ hours of continuous, uninterrupted connection.</p>
+
+<p>And continuous was the problem. If your connection dropped—and it would drop—you had to start over. There was no resume capability. No way to pick up where you left off. You just started the download again. From zero.</p>
+
+<p>I swear I'm not making this up: people would schedule their internet usage. They would get online, download the things they wanted, then immediately disconnect. Staying connected to the internet cost money—you were paying your ISP by the minute in a lot of cases. Leaving your connection open while you read something was literally costing you money.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Loading screens and buffering — the hallmark of dial-up internet" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Loading screens and buffering — the hallmark of dial-up internet</figcaption></figure>
+
+<p>So people would plan their internet sessions. Download the web pages you want to read while connected, then disconnect and read them offline. Download your email, disconnect, read and reply to your email offline, then connect again to send it. People actually used programs called "offline browsers" that would download entire websites so you could browse them at your leisure while not paying for internet time.</p>
+
+<p>And don't even get me started on images. In the dial-up era, web designers had to design for slow connections. They used low-resolution images. They used fewer images. They used GIFs instead of JPEGs because GIFs compressed better. They used transparent GIFs as invisible 1-pixel spacers to create layouts because layout tables were hard to manage.</p>
+
+<p>The internet looked terrible by modern standards. Chunky. Low-res. Slow to load. Ugly fonts. No modern design sensibilities. But that's what we got because the speed was so limited that you couldn't do anything else. You couldn't have high-resolution images. You couldn't have video. You couldn't have auto-playing anything. You couldn't have interactive features that required constant connection.</p>
+
+<p>And weirdly, this limitation created some benefits. Websites were faster to load because they couldn't be bloated with advertising and scripts and analytics. Text was readable because designers had to make it readable. There was almost a purity to the early web that's kind of nostalgic when you think about it.</p>
+
+<p>But nobody who lived through it is nostalgic in the moment. In the moment, you're frustrated. You're waiting for something to load. You're willing it to load faster. You're picking up the phone and hearing the buzz of your modem disconnect and cursing under your breath. You're experiencing the internet as a series of waits instead of a seamless experience.</p>
+
+
+
+<p>But here's something else that really drives home how brutal dial-up was: websites had to be designed entirely differently. Designers couldn't use large images. Animations were impossible. Video? Forget it. HTML had to be lean and mean. This wasn't just an inconvenience—it fundamentally shaped web design philosophy for over a decade. The entire aesthetic of the 1990s internet, the simplicity, the text-heavy layouts, the sparse graphics—all of that was a direct consequence of dial-up speed constraints. Fast forward to today: websites are bloated with high-res images, auto-playing videos, infinite scroll, massive JavaScript libraries. The design philosophy completely inverted because the constraint went away.</p>
+
+<p>There's another angle that blows people away: upload speeds were even SLOWER than download speeds on dial-up. If you wanted to upload a photo or document, it could take minutes just to push a few megabytes. This is why the barrier to content creation on the internet was so high in the 1990s. You couldn't easily share photos. You couldn't stream anything. You couldn't participate as a content creator without serious technical knowledge. Compare that to today where anyone with a phone can instantly upload 4K video to social media. The speed difference didn't just affect how fast you consumed content—it shaped who could create and share content. It was a massive gating mechanism that we've completely removed.</p>
+
+<h2>Then vs Now: The Speed Difference</h2>
+
+<p>In 1996, a high-speed internet connection was 56 kilobits per second. A typical webpage took 10-30 seconds to load depending on how many images it had. Email took time to download. Anything multimedia was basically impossible. Playing audio or video online was not practical.</p>
+
+<p>In 2026, a typical internet connection in a developed country is 100-500 megabits per second. In many places it's a gigabit (1,000 megabits) or faster. A webpage loads in milliseconds. Video streams in real-time at 4K resolution. You can download a full-length movie in seconds. You can upload terabytes of data to the cloud. The experience is so different that it's hard to even compare them.</p>
+
+<p>And the practical implications have been massive. Because the internet is fast now, we've built entire industries around it. Video streaming services wouldn't exist if you had to wait 20 hours to download a movie. Cloud computing wouldn't work. Real-time collaboration wouldn't work. Social media as it exists now wouldn't work. The entire modern internet—everything we take for granted—depends on fast, reliable connections.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How fast was dial-up internet?</h3>
+<p>Dial-up internet was approximately 0.056 megabits per second (56 kilobits per second). This was approximately 2,000 to 9,000 times slower than modern internet connections of 100-500 megabits per second. A single high-quality photograph would take 5-10 minutes to download, and a full-length movie would take 20+ hours of continuous, uninterrupted connection.</p>
+
+<h3>What did dial-up internet sound like?</h3>
+<p>Dial-up modems made a distinctive beeping and static screeching noise as they negotiated the connection with the ISP's modem. Users heard a series of varying tones, buzzes, and high-pitched noise that lasted 20-45 seconds before the connection established. That sound became iconic to the dial-up era and is instantly recognizable to anyone who lived through it.</p>
+
+<h3>Why was internet so slow in the 1990s?</h3>
+<p>Dial-up internet was limited by the physics of copper telephone lines. The infrastructure that existed was designed for voice calls, not data transmission. Telephone lines had physical limitations on how much data they could carry per second. Broadband technology like cable modems and DSL were developed in the late 1990s but took years to become widely available and affordable.</p>
+
+<h3>When did internet speeds improve?</h3>
+<p>Broadband internet started becoming available in the late 1990s through cable modems and DSL. By the early 2000s, broadband was becoming mainstream in developed countries. By 2010, fast broadband was standard in most developed urban areas. By 2026, gigabit internet is becoming common, and 5G mobile internet is providing similar speeds wirelessly.</p>
+
+</section>
+
+</article><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/thousand-dollars-then-now.html">$1,000 in 1999 vs 2026: What Changed?</a></li><li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li><li style="padding:5px 0;"><a href="/posts/microsoft-tried-buy-nintendo.html">When Microsoft Tried Buying Nintendo (And Lost)</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">← Back to Blog</a></div>
+                </div>
+            </div>
+                <div class="window minimized" id="blog-window" style="left:120px;top:30px;width:500px;height:450px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📝 Blog Posts</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('blog-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('blog-window')">×</button>
+                    </div>
+                </div>
+                <div class="window minimized" id="about-window" style="left:180px;top:60px;width:450px;height:400px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">ℹ️ About This Site</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('about-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('about-window')">×</button>
+                    </div>
+                </div>
+                <div class="window minimized" id="archives-window" style="left:240px;top:90px;width:450px;height:400px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">📚 Archives</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('archives-window')">_</button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')">□</button>
+                        <button class="window-button" onclick="closeWindow('archives-window')">×</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="taskbar">
+            <button class="start-button" onclick="alert('Start menu coming soon!')">Start</button>
+            <div class="taskbar-buttons" id="taskbar-buttons"></div>
+    </div>
+
+    <div class="mobile-container">
+        <div class="mobile-header">
+            <h1>Dial-Up Was INSANELY Slow (Here's the Math)</h1>
+            <p>2026-03-09 by 404 Memory Found</p>
+        </div>
+        <div class="mobile-content">
+            <article style="padding:16px;">
+                <article>
+<h2>The Agony of Waiting for a JPEG</h2>
+
+<p>If you're under 30 years old, you have no idea what the internet was actually like in the 1990s. You think you know, but you don't. You can't comprehend the sheer frustration of dial-up internet until you've lived it. Let me paint you a picture.</p>
+
+<p>It's 1996. You want to look something up online. You sit down at your computer. You pick up the phone—wait, no, you PLUG the phone into your modem. Because your modem uses your actual phone line. So when you're online, nobody can call you. And when someone calls the house, you get disconnected. You hear that horrible screeching noise—this ungodly sound of your modem negotiating with another modem—and then you're connected. That entire process takes 20-45 seconds.</p>
+
+<p>Okay, you're online. Now you want to check the weather. You open Netscape Navigator or Internet Explorer. You type in a URL. Nothing happens for 3-5 seconds. Then the page starts loading. And I do mean STARTS. You see the header load first. Then you wait. And wait. A line of text appears at the top. Then more text appears below. A small image starts loading—you can watch it load pixel by pixel from the top down. This is not exaggeration. This is how the internet worked.</p>
+
+<p>A single webpage with a few kilobytes of text and a couple of small images might take 10-15 seconds to load. If it had a lot of images, it could take a minute or more. And if someone picked up a phone and connected to the internet while you were downloading, your connection would drop.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=400&fit=crop" alt="Retro computer hardware and technology from the 90s" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer hardware and technology from the 90s</figcaption></figure>
+
+<p>Here's the thing though: this was the internet. This was cutting edge. People were GRATEFUL for this speed because it was better than anything else available. Dial-up at 56 kilobits per second seemed revolutionary compared to the 14.4 kbps modems that came before it. And if you had 56k, you were basically a technology elite.</p>
+
+<p>Let's put that in perspective. Modern internet in developed countries is measured in megabits or gigabits. A gigabit is 1,000 megabits. A megabit is 1,000 kilobits. So a typical modern internet connection is somewhere between 100-500 megabits per second. Compare that to 56 kilobits per second. Do the math. Modern internet is approximately 2,000 to 9,000 times faster than dial-up.</p>
+
+<p>And it's not just about speed. It's about understanding how slow that actually was in practice. A single photograph at decent quality is maybe 200-500 kilobytes. At dial-up speeds, that single photograph would take 5-10 minutes to download. A 3-minute song in MP3 format is about 3-5 megabytes. That would take 10-20 minutes to download. A full-length movie is several gigabytes. That would take 20+ hours of continuous, uninterrupted connection.</p>
+
+<p>And continuous was the problem. If your connection dropped—and it would drop—you had to start over. There was no resume capability. No way to pick up where you left off. You just started the download again. From zero.</p>
+
+<p>I swear I'm not making this up: people would schedule their internet usage. They would get online, download the things they wanted, then immediately disconnect. Staying connected to the internet cost money—you were paying your ISP by the minute in a lot of cases. Leaving your connection open while you read something was literally costing you money.</p>
+
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Loading screens and buffering — the hallmark of dial-up internet" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Loading screens and buffering — the hallmark of dial-up internet</figcaption></figure>
+
+<p>So people would plan their internet sessions. Download the web pages you want to read while connected, then disconnect and read them offline. Download your email, disconnect, read and reply to your email offline, then connect again to send it. People actually used programs called "offline browsers" that would download entire websites so you could browse them at your leisure while not paying for internet time.</p>
+
+<p>And don't even get me started on images. In the dial-up era, web designers had to design for slow connections. They used low-resolution images. They used fewer images. They used GIFs instead of JPEGs because GIFs compressed better. They used transparent GIFs as invisible 1-pixel spacers to create layouts because layout tables were hard to manage.</p>
+
+<p>The internet looked terrible by modern standards. Chunky. Low-res. Slow to load. Ugly fonts. No modern design sensibilities. But that's what we got because the speed was so limited that you couldn't do anything else. You couldn't have high-resolution images. You couldn't have video. You couldn't have auto-playing anything. You couldn't have interactive features that required constant connection.</p>
+
+<p>And weirdly, this limitation created some benefits. Websites were faster to load because they couldn't be bloated with advertising and scripts and analytics. Text was readable because designers had to make it readable. There was almost a purity to the early web that's kind of nostalgic when you think about it.</p>
+
+<p>But nobody who lived through it is nostalgic in the moment. In the moment, you're frustrated. You're waiting for something to load. You're willing it to load faster. You're picking up the phone and hearing the buzz of your modem disconnect and cursing under your breath. You're experiencing the internet as a series of waits instead of a seamless experience.</p>
+
+
+
+<p>But here's something else that really drives home how brutal dial-up was: websites had to be designed entirely differently. Designers couldn't use large images. Animations were impossible. Video? Forget it. HTML had to be lean and mean. This wasn't just an inconvenience—it fundamentally shaped web design philosophy for over a decade. The entire aesthetic of the 1990s internet, the simplicity, the text-heavy layouts, the sparse graphics—all of that was a direct consequence of dial-up speed constraints. Fast forward to today: websites are bloated with high-res images, auto-playing videos, infinite scroll, massive JavaScript libraries. The design philosophy completely inverted because the constraint went away.</p>
+
+<p>There's another angle that blows people away: upload speeds were even SLOWER than download speeds on dial-up. If you wanted to upload a photo or document, it could take minutes just to push a few megabytes. This is why the barrier to content creation on the internet was so high in the 1990s. You couldn't easily share photos. You couldn't stream anything. You couldn't participate as a content creator without serious technical knowledge. Compare that to today where anyone with a phone can instantly upload 4K video to social media. The speed difference didn't just affect how fast you consumed content—it shaped who could create and share content. It was a massive gating mechanism that we've completely removed.</p>
+
+<h2>Then vs Now: The Speed Difference</h2>
+
+<p>In 1996, a high-speed internet connection was 56 kilobits per second. A typical webpage took 10-30 seconds to load depending on how many images it had. Email took time to download. Anything multimedia was basically impossible. Playing audio or video online was not practical.</p>
+
+<p>In 2026, a typical internet connection in a developed country is 100-500 megabits per second. In many places it's a gigabit (1,000 megabits) or faster. A webpage loads in milliseconds. Video streams in real-time at 4K resolution. You can download a full-length movie in seconds. You can upload terabytes of data to the cloud. The experience is so different that it's hard to even compare them.</p>
+
+<p>And the practical implications have been massive. Because the internet is fast now, we've built entire industries around it. Video streaming services wouldn't exist if you had to wait 20 hours to download a movie. Cloud computing wouldn't work. Real-time collaboration wouldn't work. Social media as it exists now wouldn't work. The entire modern internet—everything we take for granted—depends on fast, reliable connections.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How fast was dial-up internet?</h3>
+<p>Dial-up internet was approximately 0.056 megabits per second (56 kilobits per second). This was approximately 2,000 to 9,000 times slower than modern internet connections of 100-500 megabits per second. A single high-quality photograph would take 5-10 minutes to download, and a full-length movie would take 20+ hours of continuous, uninterrupted connection.</p>
+
+<h3>What did dial-up internet sound like?</h3>
+<p>Dial-up modems made a distinctive beeping and static screeching noise as they negotiated the connection with the ISP's modem. Users heard a series of varying tones, buzzes, and high-pitched noise that lasted 20-45 seconds before the connection established. That sound became iconic to the dial-up era and is instantly recognizable to anyone who lived through it.</p>
+
+<h3>Why was internet so slow in the 1990s?</h3>
+<p>Dial-up internet was limited by the physics of copper telephone lines. The infrastructure that existed was designed for voice calls, not data transmission. Telephone lines had physical limitations on how much data they could carry per second. Broadband technology like cable modems and DSL were developed in the late 1990s but took years to become widely available and affordable.</p>
+
+<h3>When did internet speeds improve?</h3>
+<p>Broadband internet started becoming available in the late 1990s through cable modems and DSL. By the early 2000s, broadband was becoming mainstream in developed countries. By 2010, fast broadband was standard in most developed urban areas. By 2026, gigabit internet is becoming common, and 5G mobile internet is providing similar speeds wirelessly.</p>
+
+</section>
+
+</article>
+                <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
+                    <strong>Related Posts:</strong>
+                    <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
+                        <li style="padding:5px 0;"><a href="/posts/thousand-dollars-then-now.html">$1,000 in 1999 vs 2026: What Changed?</a></li>
+                        <li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li>
+                        <li style="padding:5px 0;"><a href="/posts/microsoft-tried-buy-nintendo.html">When Microsoft Tried Buying Nintendo (And Lost)</a></li>
+                    </ul>
+                </div>
+                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">← Back to Blog</a></div>
+            </article>
+        </div>
+        <div class="mobile-footer">
+            <p>© 2026 404 Memory Found</p>
+            <p style="font-size:10px;margin-top:8px;">Posted on 2026-03-09 by 404 Memory Found</p>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+</body>
+</html>
