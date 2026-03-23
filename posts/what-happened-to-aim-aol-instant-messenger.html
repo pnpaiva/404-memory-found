@@ -672,26 +672,26 @@
             }
 
             .about-content {
-                line-height: 1.6;
+                line-height: 1.5;
             }
 
             .about-content h2 {
-                font-size: 19px;
-                font-weight: bold;
-                margin-bottom: 8px;
-                margin-top: 8px;
-            }
-
-            .about-content h3 {
-                font-size: 16px;
+                font-size: 17px;
                 font-weight: bold;
                 margin-bottom: 6px;
                 margin-top: 6px;
             }
 
+            .about-content h3 {
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 4px;
+                margin-top: 4px;
+            }
+
             .about-content p {
-                font-size: 16px;
-                margin-bottom: 8px;
+                font-size: 14px;
+                margin-bottom: 6px;
             }
 
             .about-content a {
@@ -700,9 +700,9 @@
 
             .newsletter-signup {
                 border: 1px solid #808080;
-                padding: 8px;
+                padding: 6px;
                 background: #efefef;
-                margin-top: 8px;
+                margin-top: 6px;
             }
 
             .newsletter-signup input {
@@ -1298,34 +1298,185 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: #000080;
-                color: white;
+                background: #0c0c0c;
+                color: #33ff33;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 z-index: 10000;
-                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
-                font-size: 19px;
-                line-height: 1.8;
-                text-align: center;
-                animation: fadeOut 3s ease-in forwards;
+                font-family: 'Courier New', monospace;
+                font-size: 14px;
+                line-height: 1.6;
+                text-align: left;
+                transition: opacity 0.4s ease;
             }
 
             .boot-animation.hidden {
-                display: none !important;
+                opacity: 0;
+                pointer-events: none;
             }
 
-            @keyframes fadeOut {
-                0% { opacity: 1; }
-                80% { opacity: 1; }
-                100% { opacity: 0; pointer-events: none; }
+            .boot-terminal {
+                max-width: 520px;
+                width: 90%;
             }
 
-            .boot-logo {
-                font-size: 37px;
-                margin-bottom: 20px;
+            .boot-line {
+                opacity: 0;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            .boot-line.visible {
+                opacity: 1;
+            }
+
+            .boot-404 {
+                font-size: 42px;
                 font-weight: bold;
+                color: #ff4444;
+                text-align: center;
+                margin: 8px 0 4px 0;
+                opacity: 0;
+                text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+            }
+
+            .boot-404.visible {
+                opacity: 1;
+            }
+
+            .boot-found {
+                font-size: 18px;
+                color: #33ff33;
+                text-align: center;
+                margin-bottom: 12px;
+                opacity: 0;
+                letter-spacing: 6px;
+                text-transform: uppercase;
+            }
+
+            .boot-found.visible {
+                opacity: 1;
+            }
+
+            .boot-progress-bar {
+                width: 100%;
+                height: 12px;
+                border: 1px solid #33ff33;
+                margin-top: 10px;
+                opacity: 0;
+            }
+
+            .boot-progress-bar.visible {
+                opacity: 1;
+            }
+
+            .boot-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: #33ff33;
+                transition: width 1.2s ease-in-out;
+            }
+
+            .boot-enter {
+                text-align: center;
+                color: #888;
+                font-size: 11px;
+                margin-top: 12px;
+                opacity: 0;
+                animation: blink-enter 1s step-end infinite;
+            }
+
+            .boot-enter.visible {
+                opacity: 1;
+            }
+
+            @keyframes blink-enter {
+                50% { opacity: 0.3; }
+            }
+
+            /* First-time visitor tutorial */
+            .tutorial-overlay {
+                position: fixed;
+                top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(0,0,0,0.35);
+                z-index: 9000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: tutFadeIn 0.3s ease;
+            }
+
+            @keyframes tutFadeIn {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+
+            .tutorial-box {
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                padding: 0;
+                width: 380px;
+                box-shadow: 4px 4px 0px rgba(0,0,0,0.3);
+            }
+
+            .tutorial-titlebar {
+                background: #000080;
+                color: white;
+                font-weight: bold;
+                font-size: 13px;
+                padding: 3px 6px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .tutorial-body {
+                padding: 14px 16px;
+                font-size: 13px;
+                line-height: 1.5;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .tutorial-body p {
+                margin: 0 0 8px 0;
+            }
+
+            .tutorial-hint {
+                font-size: 11px;
+                color: #444;
+                margin-top: 2px;
+            }
+
+            .tutorial-footer {
+                text-align: right;
+                padding: 0 16px 12px 16px;
+            }
+
+            .tutorial-btn {
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #ffffff;
+                border-left-color: #ffffff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                padding: 3px 20px;
+                font-size: 13px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                cursor: pointer;
+                font-weight: bold;
+            }
+
+            .tutorial-btn:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
             }
         }
     </style>
@@ -1455,13 +1606,13 @@
                     <label>Guestbook</label>
                 </div>
             </div>
-            <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:flex;">
+            <div class="window" id="post-window" style="left:120px;top:15px;width:850px;height:620px;display:flex;">
                 <div class="title-bar">
                     <div class="title-bar-title">📖 What Happened to AIM? The Rise and Fall of AOL Instant Messenger</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('post-window'); if (window.opener || window.history.length <= 1) { window.close(); } else { window.location.href='/'; }">×</button>
+                        <button class="window-button" onclick="minimizeWindow('post-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('post-window'); if (window.opener || window.history.length <= 1) { window.close(); } else { window.location.href='/'; }"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
@@ -1594,7 +1745,7 @@
             } else {
                 // Method 2: Fetch posts.json (server only)
                 try {
-                    const response = await fetch('posts.json');
+                    const response = await fetch('/posts.json');
                     if (!response.ok) throw new Error('HTTP ' + response.status);
                     data = await response.json();
                 } catch (error) {
@@ -2139,18 +2290,75 @@
         window.addEventListener('load', () => {
             loadPosts();
             // Boot animation: skip on post pages, play on homepage
-            const bootEl = document.querySelector('.boot-animation');
+            const bootEl = document.getElementById('boot-animation');
             if (bootEl) {
                 if (typeof isPostPage !== 'undefined' && isPostPage) {
-                    // Immediately hide boot animation on post pages
                     bootEl.classList.add('hidden');
+                    setTimeout(() => { bootEl.style.display = 'none'; }, 50);
                 } else {
+                    // Sequenced terminal boot animation
+                    const lines = ['boot-l1','boot-l2','boot-l3','boot-l4','boot-l5'];
+                    let delay = 200;
+                    lines.forEach((id, i) => {
+                        setTimeout(() => {
+                            const el = document.getElementById(id);
+                            if (el) el.classList.add('visible');
+                        }, delay);
+                        delay += 350;
+                    });
+                    // Show 404 title
+                    setTimeout(() => {
+                        const el = document.getElementById('boot-404');
+                        if (el) el.classList.add('visible');
+                    }, delay);
+                    delay += 300;
+                    // Show "memory found"
+                    setTimeout(() => {
+                        const el = document.getElementById('boot-found');
+                        if (el) el.classList.add('visible');
+                    }, delay);
+                    delay += 200;
+                    // Show progress bar and fill it
+                    setTimeout(() => {
+                        const bar = document.getElementById('boot-bar');
+                        if (bar) bar.classList.add('visible');
+                        setTimeout(() => {
+                            const fill = document.getElementById('boot-fill');
+                            if (fill) fill.style.width = '100%';
+                        }, 50);
+                    }, delay);
+                    delay += 300;
+                    // Show enter text
+                    setTimeout(() => {
+                        const el = document.getElementById('boot-enter');
+                        if (el) el.classList.add('visible');
+                    }, delay);
+                    // Fade out and hide, then show tutorial if first visit
+                    delay += 800;
                     setTimeout(() => {
                         bootEl.classList.add('hidden');
-                    }, 3500);
+                        setTimeout(() => {
+                            bootEl.style.display = 'none';
+                            showTutorialIfFirstVisit();
+                        }, 500);
+                    }, delay);
                 }
             }
         });
+
+        // First-time visitor tutorial
+        function showTutorialIfFirstVisit() {
+            try {
+                if (localStorage.getItem('404mf_visited')) return;
+                const tut = document.getElementById('tutorial-overlay');
+                if (tut) tut.style.display = 'flex';
+            } catch(e) {}
+        }
+        function dismissTutorial() {
+            const tut = document.getElementById('tutorial-overlay');
+            if (tut) tut.style.display = 'none';
+            try { localStorage.setItem('404mf_visited', '1'); } catch(e) {}
+        }
 
         // Handle hash-based routing
         window.addEventListener('hashchange', () => {
