@@ -253,7 +253,7 @@ def generate_post_html(post, all_posts, html_content, posts_data):
                     <div class="title-bar-controls">
                         <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
                         <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('post-window'); window.location.href='/'">×</button>
+                        <button class="window-button" onclick="closeWindow('post-window'); if (window.opener || window.history.length <= 1) {{ window.close(); }} else {{ window.location.href='/'; }}">×</button>
                     </div>
                 </div>
                 <div class="window-content">
