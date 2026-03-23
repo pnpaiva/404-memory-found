@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.">
-    <meta property="og:title" content="The Internet's First Sale? A Pizza Hut Pepperoni Pizza">
+    <meta property="og:title" content="The Internet's First Sale? A Pizza Hut Pepperoni Pizza | 404 Memory Found">
     <meta property="og:description" content="Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.">
+    <meta property="og:image" content="https://404memoryfound.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://404memoryfound.com/posts/first-online-purchase-pizza.html">
+    <meta property="og:site_name" content="404 Memory Found">
+    <meta property="article:published_time" content="2026-03-07T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-07T00:00:00Z">
+    <meta property="article:section" content="Technology">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Internet's First Sale? A Pizza Hut Pepperoni Pizza">
     <meta name="twitter:description" content="Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.">
+    <meta name="twitter:image" content="https://404memoryfound.com/og-image.png">
     <meta name="author" content="404 Memory Found">
+    <meta name="keywords" content="first thing sold online pizza hut, first online purchase history, Pizza Hut 1994 internet order, ecommerce history origins, first ecommerce transaction">
     <link rel="canonical" href="https://404memoryfound.com/posts/first-online-purchase-pizza.html">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Internet's First Sale? A Pizza Hut Pepperoni Pizza", "description": "Before Amazon, before eBay\u2014the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.", "datePublished": "2026-03-07", "author": {"@type": "Person", "name": "404 Memory Found"}, "url": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"}
+    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Internet's First Sale? A Pizza Hut Pepperoni Pizza", "description": "Before Amazon, before eBay\u2014the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.", "datePublished": "2026-03-07", "dateModified": "2026-03-07", "image": "https://404memoryfound.com/og-image.png", "author": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com"}, "publisher": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/og-image.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"}, "url": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://404memoryfound.com/#/"}, {"@type": "ListItem", "position": 3, "name": "The Internet's First Sale? A Pizza Hut Pepperoni Pizza", "item": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What was the first thing bought online?", "acceptedAnswer": {"@type": "Answer", "text": "The first item ever sold online was a pepperoni pizza from Pizza Hut, purchased on August 11th, 1994, through a bulletin board system by someone in Santa Cruz, California. This transaction predated the modern web-based e-commerce systems and occurred before most people even had internet access."}}, {"@type": "Question", "name": "Why was it a pizza?", "acceptedAnswer": {"@type": "Answer", "text": "It was a pizza simply because Pizza Hut was one of the first companies to experiment with electronic ordering systems through bulletin board systems. The fact that it was a pizza makes the moment perfectly mundane\u2014the internet became \"real\" not through selling something exotic or revolutionary, but through something as ordinary as a pepperoni pizza."}}, {"@type": "Question", "name": "When did online shopping actually become popular?", "acceptedAnswer": {"@type": "Answer", "text": "Online shopping remained a niche activity through the mid-1990s until the World Wide Web standardized around 1995-1996, making interfaces much more user-friendly. By the late 1990s, companies like Amazon and eBay had proven that people would actually buy things online. By the 2000s, online shopping was becoming mainstream. By 2026, it's the default way most people purchase goods."}}, {"@type": "Question", "name": "How much has e-commerce grown since 1994?", "acceptedAnswer": {"@type": "Answer", "text": "E-commerce has grown from essentially zero dollars in 1994 to approximately $5+ trillion in annual global online sales by 2026. Online retail now accounts for roughly 15-20% of all retail transactions globally, with some categories (like electronics and books) being dominated by online sales. The growth is exponential and ongoing."}}]}
     </script>
 
     <title>The Internet's First Sale? A Pizza Hut Pepperoni Pizza | 404 Memory Found</title>
@@ -1751,6 +1766,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }

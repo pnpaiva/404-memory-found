@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="What happened to AIM? AOL Instant Messenger defined online communication for millions in the late 90s and 2000s before vanishing in 2017. Here's the full story.">
-    <meta property="og:title" content="What Happened to AIM? The Rise and Fall of AOL Instant Messenger">
+    <meta property="og:title" content="What Happened to AIM? The Rise and Fall of AOL Instant Messenger | 404 Memory Found">
     <meta property="og:description" content="What happened to AIM? AOL Instant Messenger defined online communication for millions in the late 90s and 2000s before vanishing in 2017. Here's the full story.">
+    <meta property="og:image" content="https://404memoryfound.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html">
+    <meta property="og:site_name" content="404 Memory Found">
+    <meta property="article:published_time" content="2026-03-22T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-22T00:00:00Z">
+    <meta property="article:section" content="Technology">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="What Happened to AIM? The Rise and Fall of AOL Instant Messenger">
     <meta name="twitter:description" content="What happened to AIM? AOL Instant Messenger defined online communication for millions in the late 90s and 2000s before vanishing in 2017. Here's the full story.">
+    <meta name="twitter:image" content="https://404memoryfound.com/og-image.png">
     <meta name="author" content="404 Memory Found">
+    <meta name="keywords" content="what happened to AIM AOL Instant Messenger, AIM shutdown, AOL Instant Messenger history, why did AIM fail, AIM vs modern messaging">
     <link rel="canonical" href="https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "What Happened to AIM? The Rise and Fall of AOL Instant Messenger", "description": "What happened to AIM? AOL Instant Messenger defined online communication for millions in the late 90s and 2000s before vanishing in 2017. Here's the full story.", "datePublished": "2026-03-22", "author": {"@type": "Person", "name": "404 Memory Found"}, "url": "https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html"}
+    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "What Happened to AIM? The Rise and Fall of AOL Instant Messenger", "description": "What happened to AIM? AOL Instant Messenger defined online communication for millions in the late 90s and 2000s before vanishing in 2017. Here's the full story.", "datePublished": "2026-03-22", "dateModified": "2026-03-22", "image": "https://404memoryfound.com/og-image.png", "author": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com"}, "publisher": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/og-image.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html"}, "url": "https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html"}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://404memoryfound.com/#/"}, {"@type": "ListItem", "position": 3, "name": "What Happened to AIM? The Rise and Fall of AOL Instant Messenger", "item": "https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html"}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When did AIM shut down?", "acceptedAnswer": {"@type": "Answer", "text": "AOL Instant Messenger officially shut down on December 15, 2017, after 20 years of service. AOL (then owned by Verizon through Oath) announced the shutdown on October 6, 2017, giving users about two months to say goodbye to the platform that had once served over 100 million users."}}, {"@type": "Question", "name": "Why did AOL Instant Messenger fail?", "acceptedAnswer": {"@type": "Answer", "text": "AIM failed due to a combination of factors: the rise of social media platforms like Facebook that included built-in messaging, the shift to mobile-first communication with smartphones, corporate mismanagement at AOL (especially after the disastrous AOL-Time Warner merger), and failure to innovate fast enough to compete with newer platforms like WhatsApp, iMessage, and eventually Discord."}}, {"@type": "Question", "name": "Can you still use AIM today?", "acceptedAnswer": {"@type": "Answer", "text": "No, AIM is completely defunct. The service was permanently shut down in December 2017, and there is no way to access the original platform. However, the open-source community has created unofficial AIM-inspired clients, and some retro computing enthusiasts run private servers that emulate the AIM experience using the OSCAR protocol."}}, {"@type": "Question", "name": "What replaced AOL Instant Messenger?", "acceptedAnswer": {"@type": "Answer", "text": "There's no single replacement for AIM. Its functionality was absorbed by multiple platforms: Facebook Messenger and WhatsApp took over personal messaging, Slack and Microsoft Teams replaced it in workplaces, Discord became the go-to for community and group chat, and iMessage/SMS became the default for mobile users. Discord is often considered the closest spiritual successor to AIM's buddy list and status message culture."}}]}
     </script>
 
     <title>What Happened to AIM? The Rise and Fall of AOL Instant Messenger | 404 Memory Found</title>
@@ -1767,6 +1782,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }

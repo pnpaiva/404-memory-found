@@ -141,15 +141,21 @@ def generate_index_html(html_content, posts_data):
     noscript_html += '</ul>\n</div>\n</noscript>\n'
 
     # Inject SEO meta tags into <head>
+    og_image = f"{BASE_URL}/og-image.png"
     seo_meta = f"""    <meta name="description" content="404 Memory Found - A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era with a Windows 95/98 desktop aesthetic.">
     <meta name="keywords" content="90s nostalgia, 2000s, retro blog, Windows 95, internet history, bizarre stories, then vs now">
     <meta property="og:title" content="404 Memory Found - Nostalgia Blog">
     <meta property="og:description" content="Bizarre stories and curious facts from the 90s and 2000s era.">
+    <meta property="og:image" content="{og_image}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{BASE_URL}">
+    <meta property="og:site_name" content="{BLOG_NAME}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="404 Memory Found">
     <meta name="twitter:description" content="Bizarre stories and curious facts from the 90s and 2000s era.">
+    <meta name="twitter:image" content="{og_image}">
     <meta name="author" content="404 Memory Found">
     <link rel="canonical" href="{BASE_URL}">
     <meta name="robots" content="index, follow">
@@ -160,6 +166,7 @@ def generate_index_html(html_content, posts_data):
       "name": "{BLOG_NAME}",
       "description": "A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era",
       "url": "{BASE_URL}",
+      "image": "{og_image}",
       "author": {{
         "@type": "Organization",
         "name": "{BLOG_NAME}"
@@ -200,17 +207,100 @@ def get_related_posts(current_post, all_posts, count=3):
 
 def generate_post_schema(post, slug):
     """Generate JSON-LD BlogPosting schema"""
+    og_image = f"{BASE_URL}/og-image.png"
     schema = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "headline": post['title'],
         "description": post['excerpt'],
         "datePublished": post['date'],
+        "dateModified": post['date'],
+        "image": og_image,
         "author": {
-            "@type": "Person",
-            "name": post['author']
+            "@type": "Organization",
+            "name": BLOG_NAME,
+            "url": BASE_URL
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": BLOG_NAME,
+            "url": BASE_URL,
+            "logo": {
+                "@type": "ImageObject",
+                "url": og_image
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": f"{BASE_URL}/posts/{slug}.html"
         },
         "url": f"{BASE_URL}/posts/{slug}.html"
+    }
+    return json.dumps(schema)
+
+
+def generate_breadcrumb_schema(post, slug):
+    """Generate JSON-LD BreadcrumbList schema"""
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": BASE_URL
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": f"{BASE_URL}/#/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": post['title'],
+                "item": f"{BASE_URL}/posts/{slug}.html"
+            }
+        ]
+    }
+    return json.dumps(schema)
+
+
+def extract_faq_schema(post_body):
+    """Extract FAQ questions/answers from post body HTML and generate FAQPage schema"""
+    import re
+    # Find h3 questions followed by p answers in FAQ sections
+    faq_pattern = r'<h3>(.*?)</h3>\s*<p>(.*?)</p>'
+    matches = re.findall(faq_pattern, post_body, re.DOTALL)
+
+    # Only generate schema if there are FAQ-like Q&A pairs
+    if len(matches) < 2:
+        return None
+
+    # Filter to likely FAQ questions (contain '?' or common FAQ patterns)
+    faq_items = []
+    for question, answer in matches:
+        q = re.sub(r'<[^>]+>', '', question).strip()
+        a = re.sub(r'<[^>]+>', '', answer).strip()
+        if '?' in q and len(a) > 20:
+            faq_items.append({
+                "@type": "Question",
+                "name": q,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": a
+                }
+            })
+
+    if len(faq_items) < 2:
+        return None
+
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faq_items
     }
     return json.dumps(schema)
 
@@ -233,6 +323,9 @@ def generate_post_html(post, all_posts, html_content, posts_data):
 
     post_body = post['body']
     post_schema = generate_post_schema(post, slug)
+    breadcrumb_schema = generate_breadcrumb_schema(post, slug)
+    faq_schema = extract_faq_schema(post_body)
+    og_image = f"{BASE_URL}/og-image.png"
 
     # Related posts HTML
     related_html = '<div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;">'
@@ -283,25 +376,50 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         {javascript}
     """
 
+    # Build additional schema scripts
+    extra_schemas = f"""
+    <script type="application/ld+json">
+    {breadcrumb_schema}
+    </script>"""
+    if faq_schema:
+        extra_schemas += f"""
+    <script type="application/ld+json">
+    {faq_schema}
+    </script>"""
+
+    # SEO keyword meta tags from post data
+    seo_keywords = ""
+    if post.get('seo') and post['seo'].get('secondaryKeywords'):
+        kw_list = [post['seo'].get('primaryKeyword', '')] + post['seo']['secondaryKeywords']
+        seo_keywords = f'\n    <meta name="keywords" content="{", ".join(kw_list)}">'
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{post['excerpt']}">
-    <meta property="og:title" content="{post['title']}">
+    <meta property="og:title" content="{post['title']} | 404 Memory Found">
     <meta property="og:description" content="{post['excerpt']}">
+    <meta property="og:image" content="{og_image}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{BASE_URL}/posts/{slug}.html">
+    <meta property="og:site_name" content="{BLOG_NAME}">
+    <meta property="article:published_time" content="{post['date']}T00:00:00Z">
+    <meta property="article:modified_time" content="{post['date']}T00:00:00Z">
+    <meta property="article:section" content="Technology">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{post['title']}">
     <meta name="twitter:description" content="{post['excerpt']}">
-    <meta name="author" content="{post['author']}">
+    <meta name="twitter:image" content="{og_image}">
+    <meta name="author" content="{post['author']}">{seo_keywords}
     <link rel="canonical" href="{BASE_URL}/posts/{slug}.html">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
     {post_schema}
-    </script>
+    </script>{extra_schemas}
 
     <title>{post['title']} | 404 Memory Found</title>
     {favicon_link}

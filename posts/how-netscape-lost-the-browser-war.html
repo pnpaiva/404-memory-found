@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="How Netscape lost the browser war is one of tech's most dramatic stories. From 90% market share to extinction, here's how Microsoft's Internet Explorer crushed Netscape Navigator.">
-    <meta property="og:title" content="How Netscape Lost the Browser War to Internet Explorer">
+    <meta property="og:title" content="How Netscape Lost the Browser War to Internet Explorer | 404 Memory Found">
     <meta property="og:description" content="How Netscape lost the browser war is one of tech's most dramatic stories. From 90% market share to extinction, here's how Microsoft's Internet Explorer crushed Netscape Navigator.">
+    <meta property="og:image" content="https://404memoryfound.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html">
+    <meta property="og:site_name" content="404 Memory Found">
+    <meta property="article:published_time" content="2026-03-22T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-22T00:00:00Z">
+    <meta property="article:section" content="Technology">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="How Netscape Lost the Browser War to Internet Explorer">
     <meta name="twitter:description" content="How Netscape lost the browser war is one of tech's most dramatic stories. From 90% market share to extinction, here's how Microsoft's Internet Explorer crushed Netscape Navigator.">
+    <meta name="twitter:image" content="https://404memoryfound.com/og-image.png">
     <meta name="author" content="404 Memory Found">
+    <meta name="keywords" content="how Netscape lost the browser war, Netscape vs Internet Explorer, browser wars history, what happened to Netscape, Microsoft antitrust browser">
     <link rel="canonical" href="https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How Netscape Lost the Browser War to Internet Explorer", "description": "How Netscape lost the browser war is one of tech's most dramatic stories. From 90% market share to extinction, here's how Microsoft's Internet Explorer crushed Netscape Navigator.", "datePublished": "2026-03-22", "author": {"@type": "Person", "name": "404 Memory Found"}, "url": "https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html"}
+    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How Netscape Lost the Browser War to Internet Explorer", "description": "How Netscape lost the browser war is one of tech's most dramatic stories. From 90% market share to extinction, here's how Microsoft's Internet Explorer crushed Netscape Navigator.", "datePublished": "2026-03-22", "dateModified": "2026-03-22", "image": "https://404memoryfound.com/og-image.png", "author": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com"}, "publisher": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/og-image.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html"}, "url": "https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html"}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://404memoryfound.com/#/"}, {"@type": "ListItem", "position": 3, "name": "How Netscape Lost the Browser War to Internet Explorer", "item": "https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html"}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happened to Netscape Navigator?", "acceptedAnswer": {"@type": "Answer", "text": "Netscape Navigator was effectively killed by Microsoft's Internet Explorer during the browser wars of the late 1990s. AOL acquired Netscape in 1998, but the browser continued to lose market share. Development of Netscape-branded browsers continued sporadically until 2008, when AOL officially ended support. However, Netscape's open-source code lived on as Mozilla Firefox."}}, {"@type": "Question", "name": "How did Microsoft win the browser war?", "acceptedAnswer": {"@type": "Answer", "text": "Microsoft won primarily by bundling Internet Explorer with Windows, which gave it automatic distribution on over 90% of personal computers. Microsoft also made IE completely free (destroying Netscape's revenue model), signed exclusive distribution deals with ISPs and PC manufacturers, and invested massive engineering resources into making IE competitive. These tactics led to the US v. Microsoft antitrust trial in 1998."}}, {"@type": "Question", "name": "Did Netscape become Firefox?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, indirectly. In 1998, Netscape released its browser's source code as an open-source project called Mozilla. The original codebase was eventually scrapped, and the Mozilla team rebuilt a new browser from scratch. This became Firefox, first released in November 2004. Firefox carried forward Netscape's commitment to open web standards and at its peak captured about 30% of the browser market."}}, {"@type": "Question", "name": "Is Internet Explorer still available?", "acceptedAnswer": {"@type": "Answer", "text": "No. Microsoft officially retired Internet Explorer on June 15, 2022, after 27 years. The company replaced it with Microsoft Edge, which ironically is built on Chromium \u2014 the same open-source browser engine that powers Google Chrome and descends from the WebKit project, which itself has roots in the open-source KHTML engine. IE's legacy lives on mainly in compatibility mode within Edge for enterprise users running legacy web applications."}}]}
     </script>
 
     <title>How Netscape Lost the Browser War to Internet Explorer | 404 Memory Found</title>
@@ -1771,6 +1786,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }

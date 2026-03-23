@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.">
-    <meta property="og:title" content="Y2K Was Supposed to Destroy Everything (Here's What Happened)">
+    <meta property="og:title" content="Y2K Was Supposed to Destroy Everything (Here's What Happened) | 404 Memory Found">
     <meta property="og:description" content="January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.">
+    <meta property="og:image" content="https://404memoryfound.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html">
+    <meta property="og:site_name" content="404 Memory Found">
+    <meta property="article:published_time" content="2026-03-19T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-19T00:00:00Z">
+    <meta property="article:section" content="Technology">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Y2K Was Supposed to Destroy Everything (Here's What Happened)">
     <meta name="twitter:description" content="January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.">
+    <meta name="twitter:image" content="https://404memoryfound.com/og-image.png">
     <meta name="author" content="404 Memory Found">
+    <meta name="keywords" content="Y2K bug what actually happened 2000, Y2K millennium bug history, why Y2K didn't crash computers, Y2K disaster prevention success, 2000 computer crisis panic">
     <link rel="canonical" href="https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Y2K Was Supposed to Destroy Everything (Here's What Happened)", "description": "January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.", "datePublished": "2026-03-19", "author": {"@type": "Person", "name": "404 Memory Found"}, "url": "https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html"}
+    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Y2K Was Supposed to Destroy Everything (Here's What Happened)", "description": "January 1, 2000 was supposed to end the world. Y2K bug fears gripped everyone. Find out what actually happened when the Y2K bug was supposed to crash everything.", "datePublished": "2026-03-19", "dateModified": "2026-03-19", "image": "https://404memoryfound.com/og-image.png", "author": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com"}, "publisher": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/og-image.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html"}, "url": "https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html"}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://404memoryfound.com/#/"}, {"@type": "ListItem", "position": 3, "name": "Y2K Was Supposed to Destroy Everything (Here's What Happened)", "item": "https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html"}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What was the Y2K bug?", "acceptedAnswer": {"@type": "Answer", "text": "The Y2K bug (also called the Millennium Bug) was a computer problem where systems used two-digit year formats (e.g., \"99\" for 1999) instead of four-digit formats. When the year became 2000, systems would interpret \"00\" as 1900 instead of 2000, potentially causing date calculations, financial transactions, and system operations to fail catastrophically across critical infrastructure."}}, {"@type": "Question", "name": "Did Y2K actually cause problems?", "acceptedAnswer": {"@type": "Answer", "text": "Y2K caused minimal problems when it occurred because organizations spent $100-300 billion preparing for it. A few isolated issues occurred (ATMs showed incorrect balances, some manufacturing systems glitched) but nothing catastrophic. The lack of disaster was due to successful prevention, not because the problem didn't exist. If the fixes hadn't been made, January 1st, 2000 would have been genuinely disastrous."}}, {"@type": "Question", "name": "Why did people think Y2K would be so bad?", "acceptedAnswer": {"@type": "Answer", "text": "The concern was legitimate because critical infrastructure systems\u2014power grids, banking, hospitals, airlines\u2014relied on code written in the 1960s-1980s with two-digit year formats. A global failure could have disrupted power, financial systems, and essential services. The threat was real, which is why preventing it required hundreds of billions in spending."}}, {"@type": "Question", "name": "Is there another Y2K problem coming?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Year 2038 problem is a similar issue affecting systems using 32-bit Unix time (which counts seconds since 1970). On January 19, 2038, these systems will experience a similar overflow problem. Additionally, the Year 2100 problem affects any remaining two-digit century code. Programmers are already working on preventing these failures, just like they did for Y2K."}}]}
     </script>
 
     <title>Y2K Was Supposed to Destroy Everything (Here's What Happened) | 404 Memory Found</title>
@@ -1753,6 +1768,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }

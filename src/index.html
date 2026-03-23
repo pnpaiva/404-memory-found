@@ -2044,6 +2044,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }

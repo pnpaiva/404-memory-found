@@ -6,11 +6,16 @@
     <meta name="keywords" content="90s nostalgia, 2000s, retro blog, Windows 95, internet history, bizarre stories, then vs now">
     <meta property="og:title" content="404 Memory Found - Nostalgia Blog">
     <meta property="og:description" content="Bizarre stories and curious facts from the 90s and 2000s era.">
+    <meta property="og:image" content="https://404memoryfound.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://404memoryfound.com">
+    <meta property="og:site_name" content="404 Memory Found">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="404 Memory Found">
     <meta name="twitter:description" content="Bizarre stories and curious facts from the 90s and 2000s era.">
+    <meta name="twitter:image" content="https://404memoryfound.com/og-image.png">
     <meta name="author" content="404 Memory Found">
     <link rel="canonical" href="https://404memoryfound.com">
     <meta name="robots" content="index, follow">
@@ -21,6 +26,7 @@
       "name": "404 Memory Found",
       "description": "A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era",
       "url": "https://404memoryfound.com",
+      "image": "https://404memoryfound.com/og-image.png",
       "author": {
         "@type": "Organization",
         "name": "404 Memory Found"
@@ -2069,6 +2075,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }

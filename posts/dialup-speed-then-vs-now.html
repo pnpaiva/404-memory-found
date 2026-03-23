@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.">
-    <meta property="og:title" content="Dial-Up Was INSANELY Slow (Here's the Math)">
+    <meta property="og:title" content="Dial-Up Was INSANELY Slow (Here's the Math) | 404 Memory Found">
     <meta property="og:description" content="Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.">
+    <meta property="og:image" content="https://404memoryfound.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://404memoryfound.com/posts/dialup-speed-then-vs-now.html">
+    <meta property="og:site_name" content="404 Memory Found">
+    <meta property="article:published_time" content="2026-03-09T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-09T00:00:00Z">
+    <meta property="article:section" content="Technology">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dial-Up Was INSANELY Slow (Here's the Math)">
     <meta name="twitter:description" content="Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.">
+    <meta name="twitter:image" content="https://404memoryfound.com/og-image.png">
     <meta name="author" content="404 Memory Found">
+    <meta name="keywords" content="dial-up speed 56k vs modern internet, how slow was dial-up internet, dial-up internet history, internet speed comparison 1990s, 56k modem speed">
     <link rel="canonical" href="https://404memoryfound.com/posts/dialup-speed-then-vs-now.html">
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Dial-Up Was INSANELY Slow (Here's the Math)", "description": "Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet\u2014the numbers are shocking.", "datePublished": "2026-03-09", "author": {"@type": "Person", "name": "404 Memory Found"}, "url": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"}
+    {"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Dial-Up Was INSANELY Slow (Here's the Math)", "description": "Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet\u2014the numbers are shocking.", "datePublished": "2026-03-09", "dateModified": "2026-03-09", "image": "https://404memoryfound.com/og-image.png", "author": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com"}, "publisher": {"@type": "Organization", "name": "404 Memory Found", "url": "https://404memoryfound.com", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/og-image.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"}, "url": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://404memoryfound.com/#/"}, {"@type": "ListItem", "position": 3, "name": "Dial-Up Was INSANELY Slow (Here's the Math)", "item": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How fast was dial-up internet?", "acceptedAnswer": {"@type": "Answer", "text": "Dial-up internet was approximately 0.056 megabits per second (56 kilobits per second). This was approximately 2,000 to 9,000 times slower than modern internet connections of 100-500 megabits per second. A single high-quality photograph would take 5-10 minutes to download, and a full-length movie would take 20+ hours of continuous, uninterrupted connection."}}, {"@type": "Question", "name": "What did dial-up internet sound like?", "acceptedAnswer": {"@type": "Answer", "text": "Dial-up modems made a distinctive beeping and static screeching noise as they negotiated the connection with the ISP's modem. Users heard a series of varying tones, buzzes, and high-pitched noise that lasted 20-45 seconds before the connection established. That sound became iconic to the dial-up era and is instantly recognizable to anyone who lived through it."}}, {"@type": "Question", "name": "Why was internet so slow in the 1990s?", "acceptedAnswer": {"@type": "Answer", "text": "Dial-up internet was limited by the physics of copper telephone lines. The infrastructure that existed was designed for voice calls, not data transmission. Telephone lines had physical limitations on how much data they could carry per second. Broadband technology like cable modems and DSL were developed in the late 1990s but took years to become widely available and affordable."}}, {"@type": "Question", "name": "When did internet speeds improve?", "acceptedAnswer": {"@type": "Answer", "text": "Broadband internet started becoming available in the late 1990s through cable modems and DSL. By the early 2000s, broadband was becoming mainstream in developed countries. By 2010, fast broadband was standard in most developed urban areas. By 2026, gigabit internet is becoming common, and 5G mobile internet is providing similar speeds wirelessly."}}]}
     </script>
 
     <title>Dial-Up Was INSANELY Slow (Here's the Math) | 404 Memory Found</title>
@@ -1753,6 +1768,8 @@
                         tags: post.tags || []
                     };
                 });
+                // Sort newest first
+                blogPosts.sort((a, b) => b.date.localeCompare(a.date));
             } else {
                 blogPosts = [];
             }
