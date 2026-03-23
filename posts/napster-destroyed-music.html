@@ -2274,6 +2274,41 @@
             setInterval(updateClock, 60000);
         }
 
+        function handleSubscribe() {
+            var emailInput = document.getElementById('subscribe-email');
+            var msgEl = document.getElementById('subscribe-msg');
+            var email = (emailInput.value || '').trim().toLowerCase();
+
+            if (!email || !email.includes('@') || !email.includes('.') || email.length < 5) {
+                msgEl.style.display = 'block';
+                msgEl.style.color = '#cc0000';
+                msgEl.textContent = 'Please enter a valid email address.';
+                return;
+            }
+
+            // Disable button while submitting
+            var btn = emailInput.parentElement.querySelector('button');
+            btn.disabled = true;
+            btn.textContent = 'Sending...';
+
+            var entry = { email: email, date: Date.now(), source: 'About Window' };
+            fbDb.ref('subscribers').push(entry, function(err) {
+                if (err) {
+                    msgEl.style.display = 'block';
+                    msgEl.style.color = '#cc0000';
+                    msgEl.textContent = 'Something went wrong. Please try again.';
+                    btn.disabled = false;
+                    btn.textContent = 'Subscribe';
+                } else {
+                    msgEl.style.display = 'block';
+                    msgEl.style.color = '#008000';
+                    msgEl.textContent = 'You\'re subscribed! Welcome aboard.';
+                    emailInput.value = '';
+                    btn.textContent = 'Subscribed!';
+                }
+            });
+        }
+
         function loadVisitorCount() {
             try {
                 // Only increment once per browser session (tab/window lifetime)
