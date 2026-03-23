@@ -1599,13 +1599,13 @@
                     <label>Guestbook</label>
                 </div>
             </div>
-            <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:flex;">
+            <div class="window" id="post-window" style="left:120px;top:15px;width:850px;height:620px;display:flex;">
                 <div class="title-bar">
                     <div class="title-bar-title">📖 Y2K Was Supposed to Destroy Everything (Here's What Happened)</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('post-window')">_</button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')">□</button>
-                        <button class="window-button" onclick="closeWindow('post-window'); if (window.opener || window.history.length <= 1) { window.close(); } else { window.location.href='/'; }">×</button>
+                        <button class="window-button" onclick="minimizeWindow('post-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('post-window'); if (window.opener || window.history.length <= 1) { window.close(); } else { window.location.href='/'; }"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
@@ -1731,7 +1731,7 @@
             } else {
                 // Method 2: Fetch posts.json (server only)
                 try {
-                    const response = await fetch('posts.json');
+                    const response = await fetch('/posts.json');
                     if (!response.ok) throw new Error('HTTP ' + response.status);
                     data = await response.json();
                 } catch (error) {
