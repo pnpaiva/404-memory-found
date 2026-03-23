@@ -430,7 +430,7 @@
             .window-button {
                 width: 16px;
                 height: 14px;
-                background: #dfdfdf;
+                background: #c0c0c0;
                 border: 1px solid;
                 border-top-color: #ffffff;
                 border-left-color: #ffffff;
@@ -440,9 +440,85 @@
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
-                font-size: 19px;
+                padding: 0;
+                font-size: 11px;
+                font-family: 'Courier New', monospace;
+                font-weight: bold;
                 color: #000;
                 flex-shrink: 0;
+                line-height: 1;
+                position: relative;
+            }
+
+            .window-button .btn-icon {
+                display: block;
+                line-height: 1;
+            }
+
+            /* Minimize: thin line at bottom */
+            .window-button .btn-minimize {
+                width: 8px;
+                height: 2px;
+                background: #000;
+                position: absolute;
+                bottom: 2px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            /* Maximize: small square outline */
+            .window-button .btn-maximize {
+                width: 9px;
+                height: 9px;
+                border: 1px solid #000;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .window-button .btn-maximize::after {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1px;
+                background: #000;
+            }
+
+            /* Restore: two overlapping squares */
+            .window-button .btn-restore {
+                width: 11px;
+                height: 11px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .window-button .btn-restore::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 7px;
+                height: 7px;
+                border: 1px solid #000;
+                background: #c0c0c0;
+            }
+            .window-button .btn-restore::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 7px;
+                height: 7px;
+                border: 1px solid #000;
+                background: #c0c0c0;
+            }
+
+            /* Close: X */
+            .window-button .btn-close {
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 1;
             }
 
             .window-button:active {
@@ -1472,6 +1548,15 @@
         // On post pages: skip boot animation, just initialize
         var isPostPage = true;
         var postPageSlug = 'y2k-bug-what-actually-happened';
+        // Firebase init
+        firebase.initializeApp({
+            apiKey: "AIzaSyAKVA3k7k8neozrd55NwJB-Dugkscbwl0Y",
+            databaseURL: "https://memory-found-404-default-rtdb.firebaseio.com",
+            projectId: "memory-found-404",
+            appId: "1:788154947211:web:01dcbe843386b5d094668e"
+        });
+        const fbDb = firebase.database();
+
         let blogPosts = [];
         const baseUrl = 'https://404memoryfound.com';
         let currentPage = 'home';
@@ -1756,6 +1841,14 @@
                     };
                     document.getElementById('schema-markup').textContent = JSON.stringify(schema);
                 }
+            } else {
+                // Reset to home defaults
+                document.title = baseTitle;
+                document.querySelector('meta[name="description"]').content = baseDescription;
+                document.querySelector('meta[property="og:title"]').content = baseTitle;
+                document.querySelector('meta[property="og:description"]').content = baseDescription;
+                document.querySelector('meta[property="og:type"]').content = 'website';
+                document.querySelector('meta[property="og:url"]').content = baseUrl;
             }
         }
 
@@ -1765,6 +1858,7 @@
                 document.getElementById('mobile-post-detail').style.display = 'none';
                 document.getElementById('mobile-post-list').style.display = '';
             }
+            updatePageMeta('home');
             location.hash = '/';
         }
 
@@ -1853,7 +1947,20 @@
             const el = document.getElementById(id);
             if (!el) return;
             el.classList.add('minimized');
+            el.classList.remove('active');
             el.style.display = 'none';
+            delete el.dataset.wasOpen;
+            // Reset maximize state on close
+            if (windowStates[id]) {
+                const state = windowStates[id];
+                el.style.left = state.left;
+                el.style.top = state.top;
+                el.style.width = state.width;
+                el.style.height = state.height;
+                windowStates[id] = null;
+                const maxBtn = el.querySelector('.btn-restore');
+                if (maxBtn) maxBtn.className = 'btn-maximize';
+            }
             updateTaskbar();
         }
 
@@ -1875,6 +1982,7 @@
         function toggleMaximizeWindow(id) {
             const el = document.getElementById(id);
             if (!el) return;
+            const maxBtn = el.querySelector('.btn-maximize, .btn-restore');
 
             if (!windowStates[id]) {
                 windowStates[id] = {
@@ -1888,6 +1996,7 @@
                 el.style.top = '0';
                 el.style.width = desktopArea.offsetWidth + 'px';
                 el.style.height = desktopArea.offsetHeight + 'px';
+                if (maxBtn) { maxBtn.className = 'btn-restore'; }
             } else {
                 const state = windowStates[id];
                 el.style.left = state.left;
@@ -1895,6 +2004,7 @@
                 el.style.width = state.width;
                 el.style.height = state.height;
                 windowStates[id] = null;
+                if (maxBtn) { maxBtn.className = 'btn-maximize'; }
             }
         }
 
@@ -2099,15 +2209,36 @@
             el.innerHTML = html;
         }
 
-        // Snake leaderboard helpers
+        // Snake leaderboard helpers (Firebase global leaderboard)
         let lastSnakeScore = 0;
+        function fetchSnakeLeaderboard(callback) {
+            fbDb.ref('leaderboard/snake').orderByChild('score').limitToLast(10).once('value', function(snap) {
+                const board = [];
+                snap.forEach(function(child) { board.push(child.val()); });
+                board.sort(function(a, b) { return b.score - a.score; });
+                callback(board);
+            }, function(err) {
+                console.warn('Firebase read failed:', err);
+                callback([]);
+            });
+        }
+        function addSnakeScore(name, score, callback) {
+            const entry = { name: name.substring(0, 12) || 'Anonymous', score: score, date: Date.now() };
+            fbDb.ref('leaderboard/snake').push(entry, function(err) {
+                if (err) { console.warn('Firebase write failed:', err); callback([]); return; }
+                // After writing, fetch fresh top 10
+                fetchSnakeLeaderboard(callback);
+            });
+        }
         function showSnakeOverlay(score) {
             lastSnakeScore = score;
             document.getElementById('snake-final-score').textContent = 'Score: ' + score;
             document.getElementById('snake-gameover').style.display = 'flex';
             const savedName = localStorage.getItem('lb_player_name') || '';
             document.getElementById('snake-name-input').value = savedName;
-            renderLeaderboard('snake-leaderboard', getLeaderboard('snake'), -1);
+            fetchSnakeLeaderboard(function(board) {
+                renderLeaderboard('snake-leaderboard', board, -1);
+            });
             setTimeout(() => document.getElementById('snake-name-input').focus(), 50);
         }
         function hideSnakeOverlay() {
@@ -2117,10 +2248,11 @@
         function submitSnakeScore() {
             const name = document.getElementById('snake-name-input').value.trim() || 'Anonymous';
             localStorage.setItem('lb_player_name', name);
-            const board = addScore('snake', name, lastSnakeScore);
-            renderLeaderboard('snake-leaderboard', board, lastSnakeScore);
             document.getElementById('snake-name-input').disabled = true;
             document.querySelector('#snake-gameover button').style.display = 'none';
+            addSnakeScore(name, lastSnakeScore, function(board) {
+                renderLeaderboard('snake-leaderboard', board, lastSnakeScore);
+            });
         }
         function restartSnake() {
             hideSnakeOverlay();
