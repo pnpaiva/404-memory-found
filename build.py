@@ -247,7 +247,7 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     post_content = post_body + related_html + back_btn
 
     # Post window - open by default, proper structure
-    post_window = f'''<div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:block;">
+    post_window = f'''<div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:flex;">
                 <div class="title-bar">
                     <div class="title-bar-title">📖 {post['title']}</div>
                     <div class="title-bar-controls">
