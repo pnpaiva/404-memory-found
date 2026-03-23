@@ -2535,19 +2535,31 @@
         }
 
         function loadVisitorCount() {
-            // Use CountAPI to track real visitor count
+            try {
+                // Only increment once per browser session (tab/window lifetime)
+                var alreadyCounted = sessionStorage.getItem('404mf_counted');
+                if (alreadyCounted) {
+                    var el = document.getElementById('visitor-count');
+                    if (el) el.textContent = 'Visitor #' + parseInt(alreadyCounted).toLocaleString();
+                    return;
+                }
+            } catch(e) {}
+
+            // First load this session — increment the counter
             fetch('https://api.counterapi.dev/v1/404memoryfound/visits/up')
                 .then(r => r.json())
                 .then(data => {
-                    const el = document.getElementById('visitor-count');
-                    if (el && data.count) el.textContent = 'Visitor #' + data.count.toLocaleString();
+                    var el = document.getElementById('visitor-count');
+                    if (el && data.count) {
+                        el.textContent = 'Visitor #' + data.count.toLocaleString();
+                        try { sessionStorage.setItem('404mf_counted', data.count); } catch(e) {}
+                    }
                 })
                 .catch(() => {
-                    // Fallback: session-based pseudo-random count for the retro vibe
-                    const base = 4847;
-                    const daysSinceLaunch = Math.floor((Date.now() - new Date('2024-01-01').getTime()) / 86400000);
-                    const estimate = base + daysSinceLaunch * 3;
-                    const el = document.getElementById('visitor-count');
+                    var base = 4847;
+                    var daysSinceLaunch = Math.floor((Date.now() - new Date('2024-01-01').getTime()) / 86400000);
+                    var estimate = base + daysSinceLaunch * 3;
+                    var el = document.getElementById('visitor-count');
                     if (el) el.textContent = 'Visitor #' + estimate.toLocaleString();
                 });
         }
