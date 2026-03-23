@@ -93,12 +93,27 @@ def extract_javascript(html_content):
 
 
 def get_favicon_link(html_content):
-    """Extract full favicon link tag (handles data URIs with > characters)"""
-    # The favicon href contains inline SVG with > chars, so [^>]*> won't work.
-    # Extract the full line instead since the tag is on a single line.
+    """Extract favicon link tag and URL-encode the SVG data URI.
+
+    Raw SVG in data URIs breaks HTML parsing because the browser's parser
+    treats < and > inside the href as HTML tags. URL-encoding fixes this.
+    """
+    from urllib.parse import quote
     for line in html_content.split('\n'):
         if '<link rel="icon"' in line:
-            return line.strip()
+            line = line.strip()
+            # Extract the SVG data and URL-encode the < > characters
+            prefix = 'href="data:image/svg+xml,'
+            idx = line.find(prefix)
+            if idx == -1:
+                return line
+            svg_start = idx + len(prefix)
+            svg_end = line.rfind('">')
+            if svg_end == -1:
+                return line
+            svg_raw = line[svg_start:svg_end]
+            svg_encoded = quote(svg_raw, safe='')
+            return f'<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{svg_encoded}">'
     return ""
 
 
