@@ -93,9 +93,13 @@ def extract_javascript(html_content):
 
 
 def get_favicon_link(html_content):
-    """Extract full favicon link tag"""
-    match = re.search(r'<link rel="icon"[^>]*>', html_content)
-    return match.group(0) if match else ""
+    """Extract full favicon link tag (handles data URIs with > characters)"""
+    # The favicon href contains inline SVG with > chars, so [^>]*> won't work.
+    # Extract the full line instead since the tag is on a single line.
+    for line in html_content.split('\n'):
+        if '<link rel="icon"' in line:
+            return line.strip()
+    return ""
 
 
 def generate_index_html(html_content, posts_data):
@@ -208,10 +212,6 @@ def generate_post_html(post, all_posts, html_content, posts_data):
 
     css = extract_css(html_content)
     desktop_icons = extract_div_by_marker(html_content, 'class="desktop-icons">')
-    blog_window = extract_div_by_marker(html_content, 'id="blog-window"')
-    about_window = extract_div_by_marker(html_content, 'id="about-window"')
-    archives_window = extract_div_by_marker(html_content, 'id="archives-window"')
-    guestbook_window = extract_div_by_marker(html_content, 'id="guestbook-window"')
     taskbar = extract_div_by_marker(html_content, 'class="taskbar">')
     favicon_link = get_favicon_link(html_content)
     javascript = extract_javascript(html_content)
@@ -329,10 +329,6 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
             {desktop_icons}
             {post_window}
-            {blog_window}
-            {about_window}
-            {archives_window}
-            {guestbook_window}
         </div>
         {taskbar}
     </div>
