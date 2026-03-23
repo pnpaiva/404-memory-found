@@ -1283,10 +1283,6 @@
                     <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
                     <label>Guestbook</label>
                 </div>
-                <div class="desktop-icon" ondblclick="openWindow('secret-window')" onclick="this.classList.toggle('selected')">
-                    <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%2210%22 width=%2232%22 height=%2230%22 fill=%22%23FFD54F%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%228%22 y=%2210%22 width=%2232%22 height=%228%22 fill=%22%23FFC107%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2231%22 text-anchor=%22middle%22 font-size=%2210%22 fill=%22%23333%22 font-family=%22Arial%22>?!</text></svg>')"></div>
-                    <label style="color:#ff4444;">Don't Click</label>
-                </div>
             </div>
             <div class="window" id="post-window" style="left:150px;top:20px;width:650px;height:500px;display:flex;">
                 <div class="title-bar">
@@ -2013,7 +2009,8 @@
             snakeInterval = setInterval(tick, 120);
 
             canvas._snakeHandler = (e) => {
-                if (e.target.closest('#snake-window') || document.getElementById('snake-window').contains(document.activeElement)) {
+                const sw = document.getElementById('snake-window');
+                if (sw && sw.style.display !== 'none') {
                     if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space',' '].includes(e.key)) e.preventDefault();
                     if (e.key === 'ArrowUp' && dir.y !== 1) nextDir = {x:0, y:-1};
                     if (e.key === 'ArrowDown' && dir.y !== -1) nextDir = {x:0, y:1};
@@ -2043,19 +2040,31 @@
 
         // ====== PONG GAME ======
         let pongRAF = null;
-        function startPongGame() {
+        function startPongGame(difficulty) {
+            difficulty = difficulty || 'medium';
+            const diffSettings = {
+                easy:   { ballSpeed: 1.8, cpuSpeed: 1.2, accel: 1.02 },
+                medium: { ballSpeed: 2.5, cpuSpeed: 2.0, accel: 1.04 },
+                hard:   { ballSpeed: 3.5, cpuSpeed: 3.0, accel: 1.06 }
+            };
+            const diff = diffSettings[difficulty];
+            // Show canvas, hide difficulty selector
+            document.getElementById('pong-difficulty').style.display = 'none';
             const canvas = document.getElementById('pong-canvas');
+            canvas.style.display = 'block';
+            document.getElementById('pong-score').style.display = 'block';
+            document.getElementById('pong-instructions').style.display = 'block';
             if (!canvas) return;
             const ctx = canvas.getContext('2d');
             const W = canvas.width, H = canvas.height;
             const paddleH = 50, paddleW = 8, ballR = 5;
             let playerY = H/2 - paddleH/2, cpuY = H/2 - paddleH/2;
-            let ball = {x: W/2, y: H/2, vx: 3, vy: 2};
+            let ball = {x: W/2, y: H/2, vx: diff.ballSpeed, vy: diff.ballSpeed * 0.6};
             let pScore = 0, cScore = 0;
             let running = false;
 
             function reset() {
-                ball = {x: W/2, y: H/2, vx: (Math.random() > 0.5 ? 3 : -3), vy: (Math.random() - 0.5) * 4};
+                ball = {x: W/2, y: H/2, vx: (Math.random() > 0.5 ? diff.ballSpeed : -diff.ballSpeed), vy: (Math.random() - 0.5) * diff.ballSpeed * 1.2};
                 playerY = H/2 - paddleH/2;
                 cpuY = H/2 - paddleH/2;
             }
@@ -2064,8 +2073,8 @@
                 if (!running) { pongRAF = requestAnimationFrame(tick); return; }
                 // CPU AI
                 const cpuCenter = cpuY + paddleH/2;
-                if (cpuCenter < ball.y - 10) cpuY += 2.5;
-                else if (cpuCenter > ball.y + 10) cpuY -= 2.5;
+                if (cpuCenter < ball.y - 10) cpuY += diff.cpuSpeed;
+                else if (cpuCenter > ball.y + 10) cpuY -= diff.cpuSpeed;
                 cpuY = Math.max(0, Math.min(H - paddleH, cpuY));
 
                 // Ball movement
@@ -2075,12 +2084,12 @@
 
                 // Paddle collision - player
                 if (ball.x - ballR <= paddleW + 10 && ball.y >= playerY && ball.y <= playerY + paddleH && ball.vx < 0) {
-                    ball.vx *= -1.05;
+                    ball.vx *= -diff.accel;
                     ball.vy += (ball.y - (playerY + paddleH/2)) * 0.1;
                 }
                 // Paddle collision - cpu
                 if (ball.x + ballR >= W - paddleW - 10 && ball.y >= cpuY && ball.y <= cpuY + paddleH && ball.vx > 0) {
-                    ball.vx *= -1.05;
+                    ball.vx *= -diff.accel;
                     ball.vy += (ball.y - (cpuY + paddleH/2)) * 0.1;
                 }
 
@@ -2110,7 +2119,8 @@
             }
 
             canvas._pongKeyHandler = (e) => {
-                if (e.target.closest('#pong-window') || document.getElementById('pong-window').contains(document.activeElement)) {
+                const pw = document.getElementById('pong-window');
+                if (pw && pw.style.display !== 'none') {
                     if (['ArrowUp','ArrowDown','Space',' '].includes(e.key)) e.preventDefault();
                     if (e.key === 'ArrowUp') playerY = Math.max(0, playerY - 20);
                     if (e.key === 'ArrowDown') playerY = Math.min(H - paddleH, playerY + 20);
@@ -2135,7 +2145,14 @@
             if (canvas) {
                 if (canvas._pongKeyHandler) { document.removeEventListener('keydown', canvas._pongKeyHandler); canvas._pongKeyHandler = null; }
                 if (canvas._pongMouseHandler) { canvas.removeEventListener('mousemove', canvas._pongMouseHandler); canvas._pongMouseHandler = null; }
+                canvas.style.display = 'none';
             }
+            const diffEl = document.getElementById('pong-difficulty');
+            if (diffEl) diffEl.style.display = 'block';
+            const scoreEl = document.getElementById('pong-score');
+            if (scoreEl) { scoreEl.style.display = 'none'; scoreEl.textContent = 'You: 0 | CPU: 0'; }
+            const instrEl = document.getElementById('pong-instructions');
+            if (instrEl) instrEl.style.display = 'none';
         }
 
         // Auto-start games when windows open
@@ -2143,7 +2160,7 @@
         openWindow = function(id) {
             origOpenWindow(id);
             if (id === 'snake-window') setTimeout(startSnakeGame, 100);
-            if (id === 'pong-window') setTimeout(startPongGame, 100);
+            // Pong shows difficulty selector, no auto-start
         };
     
     </script>
