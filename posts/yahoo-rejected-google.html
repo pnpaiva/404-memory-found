@@ -1518,7 +1518,7 @@
 
 <p>So Larry and Sergey go to Yahoo and say, "We have this search technology. We think it's going to be important. We'd like to sell it to you." And Yahoo looks at Google's two kids with their search algorithm and says, "Thanks, but no thanks. We're cool with our own search technology. We don't need it." And they let Google walk. For one million dollars.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=400&fit=crop" alt="Early internet era computer screen with web browser" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Early internet era computer screen with web browser</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="Retro 1990s beige desktop computer — the kind Yahoo ran on" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Early internet era computer screen with web browser</figcaption></figure>
 
 <p>Now here's where you might think Yahoo was crazy, but you have to understand their logic. In 1998, Yahoo didn't think they were making a bad decision. Yahoo WAS the internet. They weren't just a search engine. They were a portal. A gateway. They had web directory listings that human editors had carefully organized. They had Yahoo Mail. They had news, weather, entertainment, stock quotes, everything. Yahoo was your one-stop shop for the entire online experience.</p>
 
@@ -1633,7 +1633,7 @@
 
 <p>So Larry and Sergey go to Yahoo and say, "We have this search technology. We think it's going to be important. We'd like to sell it to you." And Yahoo looks at Google's two kids with their search algorithm and says, "Thanks, but no thanks. We're cool with our own search technology. We don't need it." And they let Google walk. For one million dollars.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=400&fit=crop" alt="Early internet era computer screen with web browser" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Early internet era computer screen with web browser</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="Retro 1990s beige desktop computer — the kind Yahoo ran on" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Early internet era computer screen with web browser</figcaption></figure>
 
 <p>Now here's where you might think Yahoo was crazy, but you have to understand their logic. In 1998, Yahoo didn't think they were making a bad decision. Yahoo WAS the internet. They weren't just a search engine. They were a portal. A gateway. They had web directory listings that human editors had carefully organized. They had Yahoo Mail. They had news, weather, entertainment, stock quotes, everything. Yahoo was your one-stop shop for the entire online experience.</p>
 
@@ -1964,6 +1964,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);

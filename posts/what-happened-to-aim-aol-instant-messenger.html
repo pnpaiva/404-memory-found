@@ -1519,7 +1519,7 @@
 
 <p>By the early 2000s, AIM had completely dominated. At its peak around 2001, it had over 100 million active users. In the United States alone, AIM controlled roughly 52% of the instant messaging market. It was installed on basically every computer in America. Schools blocked it, parents worried about it, and teenagers couldn't live without it.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1563770660941-10a63607afe5?w=800&h=400&fit=crop" alt="Vintage computer setup reminiscent of the early 2000s AIM era" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The early 2000s desktop: where AIM conversations happened between homework tabs and Winamp playlists</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-aiqKc07b5PA?w=800&h=400&fit=crop" alt="A vintage CRT monitor — where the AIM buddy list lived" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The early 2000s desktop: where AIM conversations happened between homework tabs and Winamp playlists</figcaption></figure>
 
 <h2>The Golden Age: Why Everyone Used AOL Instant Messenger</h2>
 
@@ -1545,7 +1545,7 @@
 
 <p>By 2010, AIM's user base had collapsed. The platform that once had 100 million users was down to single-digit millions. The conversation had moved on — literally.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=800&h=400&fit=crop" alt="Modern smartphone messaging replacing desktop chat clients like AIM" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Mobile messaging killed the desktop chat star — AIM never recovered from the smartphone revolution</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="Retro 90s desktop computer — home of AOL Instant Messenger" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Mobile messaging killed the desktop chat star — AIM never recovered from the smartphone revolution</figcaption></figure>
 
 <h2>The End: AIM Signs Off for the Last Time</h2>
 
@@ -1643,7 +1643,7 @@
 
 <p>By the early 2000s, AIM had completely dominated. At its peak around 2001, it had over 100 million active users. In the United States alone, AIM controlled roughly 52% of the instant messaging market. It was installed on basically every computer in America. Schools blocked it, parents worried about it, and teenagers couldn't live without it.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1563770660941-10a63607afe5?w=800&h=400&fit=crop" alt="Vintage computer setup reminiscent of the early 2000s AIM era" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The early 2000s desktop: where AIM conversations happened between homework tabs and Winamp playlists</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-aiqKc07b5PA?w=800&h=400&fit=crop" alt="A vintage CRT monitor — where the AIM buddy list lived" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The early 2000s desktop: where AIM conversations happened between homework tabs and Winamp playlists</figcaption></figure>
 
 <h2>The Golden Age: Why Everyone Used AOL Instant Messenger</h2>
 
@@ -1669,7 +1669,7 @@
 
 <p>By 2010, AIM's user base had collapsed. The platform that once had 100 million users was down to single-digit millions. The conversation had moved on — literally.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=800&h=400&fit=crop" alt="Modern smartphone messaging replacing desktop chat clients like AIM" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Mobile messaging killed the desktop chat star — AIM never recovered from the smartphone revolution</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="Retro 90s desktop computer — home of AOL Instant Messenger" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Mobile messaging killed the desktop chat star — AIM never recovered from the smartphone revolution</figcaption></figure>
 
 <h2>The End: AIM Signs Off for the Last Time</h2>
 
@@ -1982,6 +1982,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);

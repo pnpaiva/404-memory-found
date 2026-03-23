@@ -1966,6 +1966,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);

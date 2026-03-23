@@ -1518,7 +1518,7 @@
 
 <p>A single webpage with a few kilobytes of text and a couple of small images might take 10-15 seconds to load. If it had a lot of images, it could take a minute or more. And if someone picked up a phone and connected to the internet while you were downloading, your connection would drop.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=400&fit=crop" alt="Retro computer hardware and technology from the 90s" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer hardware and technology from the 90s</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-aiqKc07b5PA?w=800&h=400&fit=crop" alt="Old CRT monitor — the screen that stared back during dial-up connections" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer hardware and technology from the 90s</figcaption></figure>
 
 <p>Here's the thing though: this was the internet. This was cutting edge. People were GRATEFUL for this speed because it was better than anything else available. Dial-up at 56 kilobits per second seemed revolutionary compared to the 14.4 kbps modems that came before it. And if you had 56k, you were basically a technology elite.</p>
 
@@ -1635,7 +1635,7 @@
 
 <p>A single webpage with a few kilobytes of text and a couple of small images might take 10-15 seconds to load. If it had a lot of images, it could take a minute or more. And if someone picked up a phone and connected to the internet while you were downloading, your connection would drop.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=400&fit=crop" alt="Retro computer hardware and technology from the 90s" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer hardware and technology from the 90s</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-aiqKc07b5PA?w=800&h=400&fit=crop" alt="Old CRT monitor — the screen that stared back during dial-up connections" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer hardware and technology from the 90s</figcaption></figure>
 
 <p>Here's the thing though: this was the internet. This was cutting edge. People were GRATEFUL for this speed because it was better than anything else available. Dial-up at 56 kilobits per second seemed revolutionary compared to the 14.4 kbps modems that came before it. And if you had 56k, you were basically a technology elite.</p>
 
@@ -1968,6 +1968,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);

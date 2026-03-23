@@ -1526,7 +1526,7 @@
 
 <p>What this meant was that owning a computer in the 1990s was a genuine luxury. It was a significant financial commitment. It meant budgeting. It meant choosing between computer equipment and other necessities. For many families, it meant the computer was in the home office or study, not in every bedroom. Kids had to wait their turn to use it. Parents had to oversee computer usage because it was expensive equipment.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1563770660941-10a63607afe5?w=800&h=400&fit=crop" alt="Old technology products and their eye-watering price tags" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Old technology products and their eye-watering price tags</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="Retro 1990s computer setup — these used to cost thousands" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Old technology products and their eye-watering price tags</figcaption></figure>
 
 <p>And upgrades were brutal. If you wanted to upgrade your computer's RAM from 16 MB to 32 MB, that could cost $200-$300. Today you can buy 16 GB of RAM for $50. Upgrading a hard drive from 500 MB to 1 GB could cost $100-$200. Today you can buy a 2 TB external hard drive for $50.</p>
 
@@ -1640,7 +1640,7 @@
 
 <p>What this meant was that owning a computer in the 1990s was a genuine luxury. It was a significant financial commitment. It meant budgeting. It meant choosing between computer equipment and other necessities. For many families, it meant the computer was in the home office or study, not in every bedroom. Kids had to wait their turn to use it. Parents had to oversee computer usage because it was expensive equipment.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1563770660941-10a63607afe5?w=800&h=400&fit=crop" alt="Old technology products and their eye-watering price tags" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Old technology products and their eye-watering price tags</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="Retro 1990s computer setup — these used to cost thousands" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Old technology products and their eye-watering price tags</figcaption></figure>
 
 <p>And upgrades were brutal. If you wanted to upgrade your computer's RAM from 16 MB to 32 MB, that could cost $200-$300. Today you can buy 16 GB of RAM for $50. Upgrading a hard drive from 500 MB to 1 GB could cost $100-$200. Today you can buy a 2 TB external hard drive for $50.</p>
 
@@ -1962,6 +1962,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);

@@ -1530,7 +1530,7 @@
 
 <p>Meanwhile, Blockbuster was still protecting their late-fee model. They were still running thousands of physical stores. They were still optimizing for a world that was disappearing. And customers, having discovered Netflix and streaming, simply stopped going to Blockbuster. Why drive to a store, wait in line, and deal with late fees when you could stream unlimited movies at home?</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1574375927938-d5a98e8d7e28?w=800&h=400&fit=crop" alt="Streaming entertainment on modern devices" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Streaming entertainment on modern devices</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-Hys5qHaDbZQ?w=800&h=400&fit=crop" alt="A pile of VHS tapes — Blockbuster's bread and butter before Netflix changed everything" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Streaming entertainment on modern devices</figcaption></figure>
 
 <p>By the time Blockbuster realized what was happening, it was too late. They tried to launch Blockbuster Online to compete with Netflix, but they were years behind. They tried to add streaming, but Netflix already owned the market position. By 2010, Blockbuster was in free fall. By 2013, the last Blockbuster store closed. The company that dominated movie rentals for 25 years went bankrupt.</p>
 
@@ -1646,7 +1646,7 @@
 
 <p>Meanwhile, Blockbuster was still protecting their late-fee model. They were still running thousands of physical stores. They were still optimizing for a world that was disappearing. And customers, having discovered Netflix and streaming, simply stopped going to Blockbuster. Why drive to a store, wait in line, and deal with late fees when you could stream unlimited movies at home?</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1574375927938-d5a98e8d7e28?w=800&h=400&fit=crop" alt="Streaming entertainment on modern devices" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Streaming entertainment on modern devices</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-Hys5qHaDbZQ?w=800&h=400&fit=crop" alt="A pile of VHS tapes — Blockbuster's bread and butter before Netflix changed everything" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Streaming entertainment on modern devices</figcaption></figure>
 
 <p>By the time Blockbuster realized what was happening, it was too late. They tried to launch Blockbuster Online to compete with Netflix, but they were years behind. They tried to add streaming, but Netflix already owned the market position. By 2010, Blockbuster was in free fall. By 2013, the last Blockbuster store closed. The company that dominated movie rentals for 25 years went bankrupt.</p>
 
@@ -1966,6 +1966,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);

@@ -1516,7 +1516,7 @@
 
 <p>That website is still online. In 2026. Virtually unchanged. You can visit it right now. You can click the links. You can view the source code. You can see what web design looked like when web designers were basically making it up as they went along. Warner Bros. kept it online because it became a historical artifact. A time capsule of early web design.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1623910270913-3e0294a1c765?w=800&h=400&fit=crop" alt="Retro computer screen reminiscent of 90s web design" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer screen reminiscent of 90s web design</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="A classic beige 90s desktop PC — where GeoCities pages came to life" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer screen reminiscent of 90s web design</figcaption></figure>
 
 <p>But Space Jam isn't alone. There are thousands of websites from the 1990s and early 2000s still online. Some are still actively maintained because the content is valuable. Some are abandoned and just sitting there, untouched for decades, because the domain owner forgot about them or didn't bother to take them down. Some are preserved by archive.org, which has been copying websites since 1996 and maintaining a historical record of the entire internet's evolution.</p>
 
@@ -1627,7 +1627,7 @@
 
 <p>That website is still online. In 2026. Virtually unchanged. You can visit it right now. You can click the links. You can view the source code. You can see what web design looked like when web designers were basically making it up as they went along. Warner Bros. kept it online because it became a historical artifact. A time capsule of early web design.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1623910270913-3e0294a1c765?w=800&h=400&fit=crop" alt="Retro computer screen reminiscent of 90s web design" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer screen reminiscent of 90s web design</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-e817brBrHxY?w=800&h=400&fit=crop" alt="A classic beige 90s desktop PC — where GeoCities pages came to life" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Retro computer screen reminiscent of 90s web design</figcaption></figure>
 
 <p>But Space Jam isn't alone. There are thousands of websites from the 1990s and early 2000s still online. Some are still actively maintained because the content is valuable. Some are abandoned and just sitting there, untouched for decades, because the domain owner forgot about them or didn't bother to take them down. Some are preserved by archive.org, which has been copying websites since 1996 and maintaining a historical record of the entire internet's evolution.</p>
 
@@ -1956,6 +1956,10 @@
 
                 openWindow('post-window');
                 makeActive('post-window');
+
+                // Scroll post window content to top
+                const postContent = document.querySelector('#post-window .window-content');
+                if (postContent) postContent.scrollTop = 0;
             }
 
             updatePageMeta('post', slug);
