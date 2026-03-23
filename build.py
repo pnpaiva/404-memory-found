@@ -140,7 +140,7 @@ def generate_index_html(html_content, posts_data):
         noscript_html += f'<li><a href="/posts/{slug}.html">{post["title"]}</a> - {post["date"]}</li>\n'
     noscript_html += '</ul>\n</div>\n</noscript>\n'
 
-    # Inject SEO meta tags into <head>
+    # Inject SEO meta tags into <head> (after the comment placeholder in source)
     og_image = f"{BASE_URL}/og-image.png"
     seo_meta = f"""    <meta name="description" content="404 Memory Found - A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era with a Windows 95/98 desktop aesthetic.">
     <meta name="keywords" content="90s nostalgia, 2000s, retro blog, Windows 95, internet history, bizarre stories, then vs now">
@@ -177,10 +177,10 @@ def generate_index_html(html_content, posts_data):
     # Start with the source HTML
     output = html_content
 
-    # Inject SEO meta after <meta charset> line
+    # Replace the placeholder comment with actual SEO meta tags
     output = output.replace(
-        '<meta charset="UTF-8">',
-        f'<meta charset="UTF-8">\n{seo_meta}',
+        '    <!-- SEO meta tags are injected by build.py - do not duplicate here -->',
+        seo_meta,
         1
     )
 
@@ -398,6 +398,14 @@ def generate_post_html(post, all_posts, html_content, posts_data):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQX7R9W80G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-GQX7R9W80G');
+    </script>
     <meta name="description" content="{post['excerpt']}">
     <meta property="og:title" content="{post['title']} | 404 Memory Found">
     <meta property="og:description" content="{post['excerpt']}">
