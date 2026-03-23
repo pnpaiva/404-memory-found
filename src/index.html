@@ -851,7 +851,7 @@
             }
 
             .share-button {
-                padding: 4px 8px;
+                padding: 2px 6px;
                 background: #dfdfdf;
                 border: 2px solid;
                 border-top-color: #ffffff;
@@ -859,8 +859,18 @@
                 border-right-color: #808080;
                 border-bottom-color: #808080;
                 cursor: pointer;
-                font-size: 19px;
+                font-size: 11px;
                 font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                transition: none;
+            }
+
+            .share-button.copied {
+                background: #008000;
+                color: #fff;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #ffffff;
+                border-bottom-color: #ffffff;
             }
 
             .share-button:active {
@@ -2295,7 +2305,16 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 navigator.clipboard.writeText(url).then(() => {
-                    alert('Link copied to clipboard!');
+                    var btn = document.querySelector('.share-buttons .share-button');
+                    if (btn) {
+                        var orig = btn.textContent;
+                        btn.textContent = 'Copied!';
+                        btn.classList.add('copied');
+                        setTimeout(function() {
+                            btn.textContent = orig;
+                            btn.classList.remove('copied');
+                        }, 2000);
+                    }
                 });
             }
         }
