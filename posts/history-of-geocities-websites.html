@@ -559,6 +559,18 @@
                 padding: 4px;
             }
 
+            .window-content figure {
+                max-width: 480px;
+                margin: 16px auto;
+            }
+
+            .window-content figure img {
+                max-width: 100%;
+                height: auto;
+                max-height: 320px;
+                object-fit: cover;
+            }
+
             /* Scrollbar styling */
             .window-content::-webkit-scrollbar {
                 width: 16px;
@@ -1541,7 +1553,7 @@
 
 <p>By 1997, GeoCities had over a million "homesteaders" (their term for users), and the site was growing at a staggering rate. It ranked as the fifth most popular site on the web, and by 1998, it had climbed to third — behind only AOL and Yahoo themselves.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80" alt="A website displayed on a computer screen — the early days of the web" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The iconic GeoCities logo — a symbol of the early personal web.</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80" alt="Code on a monitor" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">HTML that built thousands of personal websites</figcaption></figure>
 
 <h2>The Yahoo Acquisition: $3.6 Billion for a Ghost Town</h2>
 
@@ -1561,7 +1573,7 @@
 
 <p>The GeoCities archive has since become a valuable resource for researchers, artists, and anyone interested in understanding what the early web actually looked and felt like. It's messy, chaotic, deeply personal, and completely unlike the polished, algorithm-driven internet we use today.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80" alt="A team collaborating around computers — the early web community spirit" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Netscape Navigator 2, the browser most GeoCities users would have been building pages for.</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80" alt="Team collaborating around computers" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Developers building the early web together</figcaption></figure>
 
 <h2>Why GeoCities Actually Mattered</h2>
 
@@ -1661,7 +1673,7 @@
 
 <p>By 1997, GeoCities had over a million "homesteaders" (their term for users), and the site was growing at a staggering rate. It ranked as the fifth most popular site on the web, and by 1998, it had climbed to third — behind only AOL and Yahoo themselves.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80" alt="A website displayed on a computer screen — the early days of the web" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The iconic GeoCities logo — a symbol of the early personal web.</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80" alt="Code on a monitor" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">HTML that built thousands of personal websites</figcaption></figure>
 
 <h2>The Yahoo Acquisition: $3.6 Billion for a Ghost Town</h2>
 
@@ -1681,7 +1693,7 @@
 
 <p>The GeoCities archive has since become a valuable resource for researchers, artists, and anyone interested in understanding what the early web actually looked and felt like. It's messy, chaotic, deeply personal, and completely unlike the polished, algorithm-driven internet we use today.</p>
 
-<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80" alt="A team collaborating around computers — the early web community spirit" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Netscape Navigator 2, the browser most GeoCities users would have been building pages for.</figcaption></figure>
+<figure style="margin:20px 0;text-align:center;"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80" alt="Team collaborating around computers" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">Developers building the early web together</figcaption></figure>
 
 <h2>Why GeoCities Actually Mattered</h2>
 
@@ -1771,7 +1783,7 @@
             } else {
                 // Method 2: Fetch posts.json (server only)
                 try {
-                    const response = await fetch('/posts.json');
+                    const response = await fetch('/posts.json?v=' + Date.now());
                     if (!response.ok) throw new Error('HTTP ' + response.status);
                     data = await response.json();
                 } catch (error) {
