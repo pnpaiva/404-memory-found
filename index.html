@@ -2044,7 +2044,7 @@
             } else {
                 // Method 2: Fetch posts.json (server only)
                 try {
-                    const response = await fetch('/posts.json');
+                    const response = await fetch('/posts.json?v=' + Date.now());
                     if (!response.ok) throw new Error('HTTP ' + response.status);
                     data = await response.json();
                 } catch (error) {
