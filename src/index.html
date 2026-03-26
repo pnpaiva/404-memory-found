@@ -576,10 +576,10 @@
             /* Blog Posts Window */
             #blog-window {
                 left: 90px;
-                top: 40px;
-                width: calc(100vw - 180px);
-                max-width: 1100px;
-                height: calc(100vh - 120px);
+                top: 30px;
+                width: calc(100vw - 160px);
+                max-width: 1200px;
+                height: calc(100vh - 100px);
             }
 
             .blog-search {
@@ -1601,7 +1601,7 @@
             </div>
 
             <!-- Blog Window -->
-            <div class="window minimized" id="blog-window" style="left:120px;top:30px;width:500px;height:450px;">
+            <div class="window minimized" id="blog-window">
                 <div class="title-bar">
                     <div class="title-bar-title">📝 Blog Posts</div>
                     <div class="title-bar-controls">
@@ -2450,11 +2450,13 @@
             const maxBtn = el.querySelector('.btn-maximize, .btn-restore');
 
             if (!windowStates[id]) {
+                // Save current computed dimensions (works even without inline styles)
+                const computed = window.getComputedStyle(el);
                 windowStates[id] = {
-                    left: el.style.left,
-                    top: el.style.top,
-                    width: el.style.width,
-                    height: el.style.height
+                    left: el.style.left || computed.left,
+                    top: el.style.top || computed.top,
+                    width: el.style.width || computed.width,
+                    height: el.style.height || computed.height
                 };
                 const desktopArea = document.querySelector('.desktop-area');
                 el.style.left = '0';
