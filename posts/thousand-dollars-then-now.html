@@ -444,6 +444,14 @@
                 display: flex;
                 align-items: center;
                 gap: 4px;
+                overflow: hidden;
+                min-width: 0;
+            }
+
+            .title-bar-title span {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
             }
 
             .title-bar-controls {
@@ -673,6 +681,9 @@
                 font-weight: bold;
                 margin-bottom: 4px;
                 color: #0000ff;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                word-break: break-word;
             }
 
             .blog-post-item .date {
@@ -856,6 +867,9 @@
                 font-size: 16px;
                 font-weight: bold;
                 margin-bottom: 6px;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                word-break: break-word;
             }
 
             .post-meta {
@@ -868,8 +882,11 @@
                 height: 16px;
                 background: #c0c0c0;
                 border: 1px inset #dfdfdf;
-                margin: 4px 0 8px 0;
-                position: relative;
+                margin: 0;
+                padding: 0;
+                position: sticky;
+                top: 0;
+                z-index: 10;
                 overflow: hidden;
             }
 
@@ -1121,6 +1138,128 @@
                 font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
                 flex-shrink: 0;
             }
+
+            /* === EASTER EGG STYLES === */
+
+            /* BSOD overlay */
+            .bsod-overlay {
+                display: none;
+                position: fixed;
+                top: 0; left: 0; right: 0; bottom: 0;
+                background: #0000aa;
+                color: #fff;
+                font-family: "Courier New", monospace;
+                font-size: 16px;
+                z-index: 99999;
+                padding: 60px 40px;
+                cursor: pointer;
+                line-height: 1.6;
+            }
+            .bsod-overlay .bsod-title {
+                background: #aaa;
+                color: #0000aa;
+                padding: 2px 8px;
+                display: inline-block;
+                margin-bottom: 24px;
+                font-weight: bold;
+            }
+
+            /* My Computer window */
+            #mycomputer-window .spec-row {
+                display: flex;
+                justify-content: space-between;
+                padding: 4px 8px;
+                border-bottom: 1px solid #c0c0c0;
+                font-size: 13px;
+            }
+            #mycomputer-window .spec-label { color: #333; font-weight: bold; }
+            #mycomputer-window .spec-value { color: #000080; }
+            #mycomputer-window .sys-header {
+                background: linear-gradient(90deg, #000080, #1084d0);
+                color: #fff;
+                padding: 6px 10px;
+                font-weight: bold;
+                font-size: 13px;
+                margin-bottom: 4px;
+            }
+            #mycomputer-window .sys-logo {
+                text-align: center;
+                padding: 12px;
+                font-size: 28px;
+                letter-spacing: 2px;
+                color: #000080;
+                border-bottom: 2px groove #c0c0c0;
+                margin-bottom: 8px;
+            }
+
+            /* Defrag window */
+            #defrag-window .defrag-grid {
+                display: grid;
+                grid-template-columns: repeat(32, 1fr);
+                gap: 1px;
+                padding: 8px;
+                background: #000;
+                border: 2px inset #808080;
+            }
+            #defrag-window .defrag-block {
+                aspect-ratio: 1;
+                min-height: 6px;
+            }
+
+            /* Nostalgia Scanner window */
+            #scanner-window .scan-output {
+                background: #000;
+                color: #00ff00;
+                font-family: "Courier New", monospace;
+                font-size: 12px;
+                padding: 8px;
+                height: 200px;
+                overflow-y: auto;
+                border: 2px inset #808080;
+                white-space: pre-wrap;
+            }
+            #scanner-window .scan-progress {
+                height: 16px;
+                background: #c0c0c0;
+                border: 1px inset #dfdfdf;
+                margin: 8px;
+            }
+            #scanner-window .scan-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: #000080;
+                transition: width 0.3s;
+            }
+
+            /* Cursor trail */
+            .cursor-trail-dot {
+                position: fixed;
+                width: 4px;
+                height: 4px;
+                background: #000;
+                pointer-events: none;
+                z-index: 99998;
+                transition: opacity 0.3s;
+            }
+
+            /* Under Construction */
+            .under-construction {
+                position: absolute;
+                bottom: 50px;
+                left: 15px;
+                cursor: pointer;
+                image-rendering: pixelated;
+            }
+            .under-construction:hover { opacity: 0.8; }
+
+            /* Speaker icon in taskbar */
+            .taskbar-speaker {
+                padding: 2px 4px;
+                cursor: pointer;
+                font-size: 14px;
+                margin-right: 4px;
+            }
+            .taskbar-speaker:hover { background: #bbb; }
 
             /* Start Menu */
             .start-menu {
@@ -1774,6 +1913,7 @@
             <button class="start-button" onclick="toggleStartMenu()">Start</button>
             <div class="taskbar-buttons" id="taskbar-buttons"></div>
             <div class="taskbar-spacer"></div>
+            <div class="taskbar-speaker" onclick="playDialUpSound()" title="Volume">🔊</div>
             <div class="taskbar-clock" id="taskbar-clock"><span id="visitor-count" style="margin-right:8px;opacity:0.85;"></span><span id="clock-time">00:00</span></div>
         </div>
     </div>
@@ -2923,6 +3063,270 @@
         });
         document.getElementById('pong-name-input').addEventListener('keydown', (e) => {
             if (e.key === 'Enter') submitPongScore();
+        });
+
+        // ==========================================
+        // EASTER EGGS
+        // ==========================================
+
+        // --- 1. KONAMI CODE BSOD ---
+        const konamiSequence = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+        let konamiIndex = 0;
+        document.addEventListener('keydown', function(e) {
+            if (document.getElementById('bsod-overlay').style.display === 'flex') {
+                closeBSOD();
+                return;
+            }
+            if (e.key === konamiSequence[konamiIndex] || e.key.toLowerCase() === konamiSequence[konamiIndex]) {
+                konamiIndex++;
+                if (konamiIndex === konamiSequence.length) {
+                    konamiIndex = 0;
+                    showBSOD();
+                }
+            } else {
+                konamiIndex = 0;
+            }
+        });
+
+        function showBSOD() {
+            const bsod = document.getElementById('bsod-overlay');
+            bsod.style.display = 'flex';
+            bsod.style.flexDirection = 'column';
+        }
+
+        function closeBSOD() {
+            document.getElementById('bsod-overlay').style.display = 'none';
+        }
+
+        // --- 2. MY COMPUTER ---
+        function openMyComputer() {
+            // Calculate real blog stats
+            const postCount = blogPosts.length;
+            let totalWords = 0;
+            blogPosts.forEach(p => {
+                const text = (p.content || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+                totalWords += text.split(' ').filter(w => w.length > 0).length;
+            });
+            document.getElementById('sys-post-count').textContent = postCount + ' posts loaded';
+            document.getElementById('sys-word-count').textContent = totalWords.toLocaleString() + ' words';
+            // Blog launched ~2024
+            const launchDate = new Date('2025-01-01');
+            const now = new Date();
+            const days = Math.floor((now - launchDate) / 86400000);
+            document.getElementById('sys-uptime').textContent = days + ' days (since launch)';
+            openWindow('mycomputer-window');
+            makeActive('mycomputer-window');
+        }
+
+        // --- 3. DIAL-UP SOUND (Web Audio API synthesized) ---
+        let dialUpPlaying = false;
+        function playDialUpSound() {
+            if (dialUpPlaying) return;
+            dialUpPlaying = true;
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const duration = 4;
+            const sampleRate = ctx.sampleRate;
+            const buffer = ctx.createBuffer(1, sampleRate * duration, sampleRate);
+            const data = buffer.getChannelData(0);
+
+            // Synthesize dial-up-like sounds
+            for (let i = 0; i < data.length; i++) {
+                const t = i / sampleRate;
+                let v = 0;
+                if (t < 0.5) {
+                    // Dial tone
+                    v = 0.3 * Math.sin(2 * Math.PI * 350 * t) + 0.3 * Math.sin(2 * Math.PI * 440 * t);
+                } else if (t < 1.2) {
+                    // Ring
+                    v = 0.2 * Math.sin(2 * Math.PI * 480 * t) + 0.2 * Math.sin(2 * Math.PI * 620 * t);
+                    v *= (Math.sin(2 * Math.PI * 20 * t) > 0 ? 1 : 0);
+                } else if (t < 2.5) {
+                    // Handshake noise
+                    const f1 = 1200 + 600 * Math.sin(2 * Math.PI * 8 * t);
+                    const f2 = 2400 + 400 * Math.cos(2 * Math.PI * 12 * t);
+                    v = 0.15 * Math.sin(2 * Math.PI * f1 * t) + 0.15 * Math.sin(2 * Math.PI * f2 * t);
+                    v += 0.08 * (Math.random() * 2 - 1);
+                } else {
+                    // Static/white noise fade out
+                    const fade = 1 - ((t - 2.5) / 1.5);
+                    v = 0.12 * (Math.random() * 2 - 1) * fade;
+                    v += 0.08 * Math.sin(2 * Math.PI * 1800 * t) * fade;
+                }
+                data[i] = Math.max(-1, Math.min(1, v));
+            }
+
+            const source = ctx.createBufferSource();
+            source.buffer = buffer;
+            const gain = ctx.createGain();
+            gain.gain.value = 0.4;
+            source.connect(gain);
+            gain.connect(ctx.destination);
+            source.start();
+            source.onended = () => { dialUpPlaying = false; ctx.close(); };
+        }
+
+        // --- 4a. MEMORY DEFRAG ---
+        let defragInterval = null;
+        const defragColors = ['#000080','#00aa00','#ff0000','#ffff00','#ffffff','#808080','#000000'];
+        function openDefrag() {
+            openWindow('defrag-window');
+            makeActive('defrag-window');
+            startDefrag();
+        }
+        function startDefrag() {
+            const grid = document.getElementById('defrag-grid');
+            // 32x16 grid = 512 blocks
+            grid.innerHTML = '';
+            const blocks = [];
+            for (let i = 0; i < 512; i++) {
+                const b = document.createElement('div');
+                b.className = 'defrag-block';
+                b.style.background = defragColors[Math.floor(Math.random() * defragColors.length)];
+                grid.appendChild(b);
+                blocks.push(b);
+            }
+            const statuses = [
+                'Analyzing memory clusters...',
+                'Reading nostalgia sectors...',
+                'Defragmenting AIM away messages...',
+                'Consolidating ICQ chat logs...',
+                'Reorganizing Winamp playlists...',
+                'Compacting MySpace Top 8 data...',
+                'Recovering deleted Neopets saves...',
+                'Optimizing dial-up cache...',
+                'Defragmentation 42% complete...',
+                'Moving LimeWire downloads to safe zone...',
+                'Cleaning GeoCities visitor counters...',
+                'Defragmentation 78% complete...',
+                'Recovering MSN Messenger emoticons...',
+                'Restoring Netscape bookmarks...',
+                'Defragmentation complete! Nostalgia optimized.'
+            ];
+            let step = 0;
+            let statusIdx = 0;
+            defragInterval = setInterval(() => {
+                // Move 3-5 random blocks to "optimized" (blue)
+                for (let j = 0; j < 4; j++) {
+                    const idx = Math.floor(Math.random() * 512);
+                    blocks[idx].style.background = step < 400 ? '#000080' : '#00aa00';
+                }
+                step++;
+                if (step % 30 === 0 && statusIdx < statuses.length) {
+                    document.getElementById('defrag-status').textContent = statuses[statusIdx++];
+                }
+                if (step > 500) {
+                    clearInterval(defragInterval);
+                    defragInterval = null;
+                    blocks.forEach(b => b.style.background = '#000080');
+                    document.getElementById('defrag-status').textContent = statuses[statuses.length - 1];
+                }
+            }, 50);
+        }
+        function stopDefrag() {
+            if (defragInterval) { clearInterval(defragInterval); defragInterval = null; }
+        }
+
+        // --- 4b. NOSTALGIA SCANNER ---
+        let scanInterval = null;
+        function openScanner() {
+            openWindow('scanner-window');
+            makeActive('scanner-window');
+            document.getElementById('scan-output').textContent = 'C:\\NOSTALGIA> scan /deep /all\n\nReady. Click "Start Scan" to begin.';
+            document.getElementById('scan-progress-fill').style.width = '0%';
+            document.getElementById('scan-start-btn').disabled = false;
+        }
+        function startNostalgiaScanner() {
+            document.getElementById('scan-start-btn').disabled = true;
+            const output = document.getElementById('scan-output');
+            const progressFill = document.getElementById('scan-progress-fill');
+            output.textContent = 'C:\\NOSTALGIA> scan /deep /all\n\nScanning system...';
+
+            const findings = [
+                'Scanning C:\\Program Files\\...',
+                'Found: AOL Instant Messenger v5.9 (last login: 2004)',
+                'Found: 23 forgotten passwords in Netscape Password Manager',
+                'Scanning C:\\My Documents\\...',
+                'Found: 47 unread AIM away messages',
+                'Found: 1 Neopet (still alive, somehow)',
+                'WARNING: Neopet is hungry. Very hungry.',
+                'Scanning C:\\Windows\\Temp\\...',
+                'Found: 312 downloaded Winamp skins',
+                'Found: LimeWire folder (94 GB of "linux_distros")',
+                'Scanning C:\\Games\\...',
+                'Found: Minesweeper high score: 12 seconds (suspicious)',
+                'Found: 3 unfinished Oregon Trail saves',
+                'Found: SkiFree.exe (the abominable snowman is waiting)',
+                'Scanning Windows Registry...',
+                'Found: Bonzi Buddy remnants (attempting quarantine...)',
+                'WARNING: 14 Ask Jeeves toolbars detected',
+                'Found: RealPlayer buffering... still buffering...',
+                'Found: 1,247 GeoCities bookmarks (all broken)',
+                'Found: MapQuest directions printed in 2001 (37 pages)',
+                'Scanning email archives...',
+                'Found: 89 chain emails (bad luck if not forwarded)',
+                'Found: "You\'ve Got Mail!" notification stuck in loop',
+                'Found: MySpace profile backup (Top 8 friends preserved)',
+                '',
+                '=== SCAN COMPLETE ===',
+                'Total nostalgia artifacts found: 2,847',
+                'Recommendation: Do not delete. These are precious.',
+                'Estimated emotional value: Priceless'
+            ];
+
+            let idx = 0;
+            scanInterval = setInterval(() => {
+                if (idx < findings.length) {
+                    output.textContent += '\n' + findings[idx];
+                    output.scrollTop = output.scrollHeight;
+                    progressFill.style.width = Math.round(((idx + 1) / findings.length) * 100) + '%';
+                    idx++;
+                } else {
+                    clearInterval(scanInterval);
+                    scanInterval = null;
+                    document.getElementById('scan-start-btn').disabled = false;
+                }
+            }, 400);
+        }
+        function stopScanner() {
+            if (scanInterval) { clearInterval(scanInterval); scanInterval = null; }
+        }
+
+        // --- 6. CURSOR TRAIL ---
+        let cursorTrailEnabled = false;
+        let trailDots = [];
+        const TRAIL_LENGTH = 12;
+
+        function toggleCursorTrail() {
+            cursorTrailEnabled = !cursorTrailEnabled;
+            document.getElementById('cursor-trail-label').textContent = 'Cursor Trail: ' + (cursorTrailEnabled ? 'ON' : 'OFF');
+            if (!cursorTrailEnabled) {
+                trailDots.forEach(d => d.remove());
+                trailDots = [];
+            }
+        }
+
+        document.addEventListener('mousemove', function(e) {
+            if (!cursorTrailEnabled) return;
+
+            const dot = document.createElement('div');
+            dot.className = 'cursor-trail-dot';
+            dot.style.left = e.clientX + 'px';
+            dot.style.top = e.clientY + 'px';
+            document.body.appendChild(dot);
+            trailDots.push(dot);
+
+            if (trailDots.length > TRAIL_LENGTH) {
+                const old = trailDots.shift();
+                old.remove();
+            }
+
+            // Fade effect
+            trailDots.forEach((d, i) => {
+                d.style.opacity = ((i + 1) / trailDots.length) * 0.8;
+                const size = 2 + ((i + 1) / trailDots.length) * 4;
+                d.style.width = size + 'px';
+                d.style.height = size + 'px';
+            });
         });
     
     </script>
