@@ -680,6 +680,19 @@
                 color: #666;
             }
 
+            .blog-post-item .reading-time,
+            .mobile-post-reading-time {
+                font-size: 12px;
+                color: #888;
+                display: inline;
+                margin-left: 6px;
+            }
+
+            .post-meta .reading-time {
+                color: #888;
+                font-size: 12px;
+            }
+
             .blog-post-item .excerpt {
                 font-size: 19px;
                 color: #333;
@@ -848,6 +861,38 @@
             .post-meta {
                 font-size: 19px;
                 color: #666;
+            }
+
+            /* Reading progress bar (Win95 style) */
+            .reading-progress-bar {
+                height: 16px;
+                background: #c0c0c0;
+                border: 1px inset #dfdfdf;
+                margin: 4px 0 8px 0;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .reading-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: repeating-linear-gradient(
+                    90deg,
+                    #000080 0px,
+                    #000080 8px,
+                    transparent 8px,
+                    transparent 10px
+                );
+                transition: width 0.15s ease-out;
+            }
+
+            .reading-progress-label {
+                position: absolute;
+                right: 4px;
+                top: 0;
+                line-height: 16px;
+                font-size: 10px;
+                color: #333;
             }
 
             .post-body {
@@ -1829,7 +1874,9 @@
             } else {
                 populateBlogPostsList();
                 populateArchives();
+                populateTagFilters();
                 initializeTaskbar();
+                initReadingProgress();
                 startClock();
                 loadVisitorCount();
                 showCookieBanner();
@@ -1860,7 +1907,7 @@
                 <li class="mobile-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <h3>${post.title}</h3>
-                        <div class="mobile-post-date">${post.date}</div>
+                        <div class="mobile-post-date">${post.date} <span class="mobile-post-reading-time">${getReadingTime(post.content)}</span></div>
                         <div class="mobile-post-excerpt">${post.excerpt}</div>
                     </a>
                 </li>
@@ -1874,7 +1921,7 @@
                 <li class="blog-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <h3>${post.title}</h3>
-                        <div class="date">${post.date}</div>
+                        <div class="date">${post.date} <span class="reading-time">${getReadingTime(post.content)}</span></div>
                         <div class="excerpt">${post.excerpt}</div>
                         <div class="tags">${post.tags.join(', ')}</div>
                     </a>
@@ -2003,6 +2050,12 @@
                 document.getElementById('post-title').textContent = post.title;
                 document.getElementById('post-window-title').textContent = post.title;
                 document.getElementById('post-date').textContent = post.date;
+                document.getElementById('post-reading-time').textContent = getReadingTime(post.content);
+                // Reset progress bar
+                const fill = document.getElementById('reading-progress-fill');
+                const label = document.getElementById('reading-progress-label');
+                if (fill) fill.style.width = '0%';
+                if (label) label.textContent = '0%';
                 document.getElementById('post-body').innerHTML = post.content;
 
                 const relatedContainer = document.getElementById('related-posts-container');
@@ -2068,6 +2121,28 @@
                 document.querySelector('meta[property="og:type"]').content = 'website';
                 document.querySelector('meta[property="og:url"]').content = baseUrl;
             }
+        }
+
+        function getReadingTime(htmlContent) {
+            const text = htmlContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+            const words = text.split(' ').filter(w => w.length > 0).length;
+            const minutes = Math.max(1, Math.round(words / 230));
+            return minutes + ' min read';
+        }
+
+        function initReadingProgress() {
+            const postContent = document.querySelector('#post-window .window-content');
+            if (!postContent) return;
+            postContent.addEventListener('scroll', function() {
+                const scrollTop = postContent.scrollTop;
+                const scrollHeight = postContent.scrollHeight - postContent.clientHeight;
+                if (scrollHeight <= 0) return;
+                const pct = Math.min(100, Math.round((scrollTop / scrollHeight) * 100));
+                const fill = document.getElementById('reading-progress-fill');
+                const label = document.getElementById('reading-progress-label');
+                if (fill) fill.style.width = pct + '%';
+                if (label) label.textContent = pct + '%';
+            });
         }
 
         function goHome() {

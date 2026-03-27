@@ -676,6 +676,19 @@
                 color: #666;
             }
 
+            .blog-post-item .reading-time,
+            .mobile-post-reading-time {
+                font-size: 12px;
+                color: #888;
+                display: inline;
+                margin-left: 6px;
+            }
+
+            .post-meta .reading-time {
+                color: #888;
+                font-size: 12px;
+            }
+
             .blog-post-item .excerpt {
                 font-size: 19px;
                 color: #333;
@@ -844,6 +857,38 @@
             .post-meta {
                 font-size: 19px;
                 color: #666;
+            }
+
+            /* Reading progress bar (Win95 style) */
+            .reading-progress-bar {
+                height: 16px;
+                background: #c0c0c0;
+                border: 1px inset #dfdfdf;
+                margin: 4px 0 8px 0;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .reading-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: repeating-linear-gradient(
+                    90deg,
+                    #000080 0px,
+                    #000080 8px,
+                    transparent 8px,
+                    transparent 10px
+                );
+                transition: width 0.15s ease-out;
+            }
+
+            .reading-progress-label {
+                position: absolute;
+                right: 4px;
+                top: 0;
+                line-height: 16px;
+                font-size: 10px;
+                color: #333;
             }
 
             .post-body {
@@ -1537,7 +1582,7 @@
             <article style="padding:16px;">
                 <p>If you were online in the late 1990s, you remember the sound. That two-note <em>"Uh Oh!"</em> chime that meant someone — a friend, a stranger from a chatroom, maybe your crush from school — had just sent you a message. It was the sound of ICQ, and for millions of people around the world, it was the sound of the internet itself.</p>
 
-<p>ICQ wasn't just a chat program. It was the application that proved ordinary people wanted to talk to each other online in real time. Before ICQ, instant messaging existed mostly in closed corporate environments or as features buried inside online services like AOL. ICQ ripped it out, made it free, made it universal, and in doing so created the template that every messaging app — from AIM to MSN Messenger to WhatsApp — would follow.</p>
+<p>ICQ wasn't just a chat program. It was the application that proved ordinary people wanted to talk to each other online in real time. Before ICQ, instant messaging existed mostly in closed corporate environments or as features buried inside online services like AOL. ICQ ripped it out, made it free, made it universal, and in doing so created the template that every messaging app — from <a href="/#/post/what-happened-to-aim-aol-instant-messenger" onclick="event.preventDefault(); openPost('what-happened-to-aim-aol-instant-messenger')">AIM</a> to <a href="/#/post/what-happened-to-msn-messenger" onclick="event.preventDefault(); openPost('what-happened-to-msn-messenger')">MSN</a> Messenger to WhatsApp — would follow.</p>
 
 <p>And then, somehow, it lost. This is the story of how that happened.</p>
 
@@ -1719,7 +1764,7 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
                 <div class="window-content">
                     <p>If you were online in the late 1990s, you remember the sound. That two-note <em>"Uh Oh!"</em> chime that meant someone — a friend, a stranger from a chatroom, maybe your crush from school — had just sent you a message. It was the sound of ICQ, and for millions of people around the world, it was the sound of the internet itself.</p>
 
-<p>ICQ wasn't just a chat program. It was the application that proved ordinary people wanted to talk to each other online in real time. Before ICQ, instant messaging existed mostly in closed corporate environments or as features buried inside online services like AOL. ICQ ripped it out, made it free, made it universal, and in doing so created the template that every messaging app — from AIM to MSN Messenger to WhatsApp — would follow.</p>
+<p>ICQ wasn't just a chat program. It was the application that proved ordinary people wanted to talk to each other online in real time. Before ICQ, instant messaging existed mostly in closed corporate environments or as features buried inside online services like AOL. ICQ ripped it out, made it free, made it universal, and in doing so created the template that every messaging app — from <a href="/#/post/what-happened-to-aim-aol-instant-messenger" onclick="event.preventDefault(); openPost('what-happened-to-aim-aol-instant-messenger')">AIM</a> to <a href="/#/post/what-happened-to-msn-messenger" onclick="event.preventDefault(); openPost('what-happened-to-msn-messenger')">MSN</a> Messenger to WhatsApp — would follow.</p>
 
 <p>And then, somehow, it lost. This is the story of how that happened.</p>
 
@@ -1947,7 +1992,9 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
             } else {
                 populateBlogPostsList();
                 populateArchives();
+                populateTagFilters();
                 initializeTaskbar();
+                initReadingProgress();
                 startClock();
                 loadVisitorCount();
                 showCookieBanner();
@@ -1978,7 +2025,7 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
                 <li class="mobile-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <h3>${post.title}</h3>
-                        <div class="mobile-post-date">${post.date}</div>
+                        <div class="mobile-post-date">${post.date} <span class="mobile-post-reading-time">${getReadingTime(post.content)}</span></div>
                         <div class="mobile-post-excerpt">${post.excerpt}</div>
                     </a>
                 </li>
@@ -1992,7 +2039,7 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
                 <li class="blog-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <h3>${post.title}</h3>
-                        <div class="date">${post.date}</div>
+                        <div class="date">${post.date} <span class="reading-time">${getReadingTime(post.content)}</span></div>
                         <div class="excerpt">${post.excerpt}</div>
                         <div class="tags">${post.tags.join(', ')}</div>
                     </a>
@@ -2121,6 +2168,12 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
                 document.getElementById('post-title').textContent = post.title;
                 document.getElementById('post-window-title').textContent = post.title;
                 document.getElementById('post-date').textContent = post.date;
+                document.getElementById('post-reading-time').textContent = getReadingTime(post.content);
+                // Reset progress bar
+                const fill = document.getElementById('reading-progress-fill');
+                const label = document.getElementById('reading-progress-label');
+                if (fill) fill.style.width = '0%';
+                if (label) label.textContent = '0%';
                 document.getElementById('post-body').innerHTML = post.content;
 
                 const relatedContainer = document.getElementById('related-posts-container');
@@ -2186,6 +2239,28 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
                 document.querySelector('meta[property="og:type"]').content = 'website';
                 document.querySelector('meta[property="og:url"]').content = baseUrl;
             }
+        }
+
+        function getReadingTime(htmlContent) {
+            const text = htmlContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+            const words = text.split(' ').filter(w => w.length > 0).length;
+            const minutes = Math.max(1, Math.round(words / 230));
+            return minutes + ' min read';
+        }
+
+        function initReadingProgress() {
+            const postContent = document.querySelector('#post-window .window-content');
+            if (!postContent) return;
+            postContent.addEventListener('scroll', function() {
+                const scrollTop = postContent.scrollTop;
+                const scrollHeight = postContent.scrollHeight - postContent.clientHeight;
+                if (scrollHeight <= 0) return;
+                const pct = Math.min(100, Math.round((scrollTop / scrollHeight) * 100));
+                const fill = document.getElementById('reading-progress-fill');
+                const label = document.getElementById('reading-progress-label');
+                if (fill) fill.style.width = pct + '%';
+                if (label) label.textContent = pct + '%';
+            });
         }
 
         function goHome() {

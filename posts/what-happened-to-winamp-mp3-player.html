@@ -680,6 +680,19 @@
                 color: #666;
             }
 
+            .blog-post-item .reading-time,
+            .mobile-post-reading-time {
+                font-size: 12px;
+                color: #888;
+                display: inline;
+                margin-left: 6px;
+            }
+
+            .post-meta .reading-time {
+                color: #888;
+                font-size: 12px;
+            }
+
             .blog-post-item .excerpt {
                 font-size: 19px;
                 color: #333;
@@ -848,6 +861,38 @@
             .post-meta {
                 font-size: 19px;
                 color: #666;
+            }
+
+            /* Reading progress bar (Win95 style) */
+            .reading-progress-bar {
+                height: 16px;
+                background: #c0c0c0;
+                border: 1px inset #dfdfdf;
+                margin: 4px 0 8px 0;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .reading-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: repeating-linear-gradient(
+                    90deg,
+                    #000080 0px,
+                    #000080 8px,
+                    transparent 8px,
+                    transparent 10px
+                );
+                transition: width 0.15s ease-out;
+            }
+
+            .reading-progress-label {
+                position: absolute;
+                right: 4px;
+                top: 0;
+                line-height: 16px;
+                font-size: 10px;
+                color: #333;
             }
 
             .post-body {
@@ -1557,7 +1602,7 @@
 
 <p>On September 8, 1998, Nullsoft released <strong>Winamp 2.0</strong>, and it was a quantum leap. The new version introduced a proper plug-in architecture, better playlist management, a more accurate equalizer, and — most importantly — <strong>skinning support</strong>. Users could completely change how Winamp looked by downloading custom skins, and an entire community exploded around creating them. Anime skins, movie skins, car skins, abstract art skins — if you could imagine it, someone made a Winamp skin for it.</p>
 
-<p>The timing was perfect. By late 1998, MP3 file-sharing was exploding. Napster wouldn't launch until June 1999, but IRC channels, FTP servers, and early peer-to-peer networks were already awash in MP3 files. Every single one of those millions of music files needed a player, and Winamp was <em>the</em> player. By 1999, Winamp had been downloaded <strong>15 million times</strong>. By 2000, it had <strong>25 million registered users</strong>. By 2001, that number hit <strong>60 million</strong>.</p>
+<p>The timing was perfect. By late 1998, MP3 file-sharing was exploding. <a href="/#/post/napster-destroyed-music" onclick="event.preventDefault(); openPost('napster-destroyed-music')">Napster</a> wouldn't launch until June 1999, but IRC channels, FTP servers, and early peer-to-peer networks were already awash in MP3 files. Every single one of those millions of music files needed a player, and Winamp was <em>the</em> player. By 1999, Winamp had been downloaded <strong>15 million times</strong>. By 2000, it had <strong>25 million registered users</strong>. By 2001, that number hit <strong>60 million</strong>.</p>
 
 <p>Winamp wasn't just software — it was identity. Your Winamp skin said something about you, the same way your desktop wallpaper or AIM away message did. The visualization plugins (remember Milkdrop?) turned your screen into a psychedelic light show synced to your music. Plug-ins let you stream internet radio, rip CDs, and even output to external hardware. It was a platform, not just a player.</p>
 
@@ -1708,7 +1753,7 @@
 
 <p>On September 8, 1998, Nullsoft released <strong>Winamp 2.0</strong>, and it was a quantum leap. The new version introduced a proper plug-in architecture, better playlist management, a more accurate equalizer, and — most importantly — <strong>skinning support</strong>. Users could completely change how Winamp looked by downloading custom skins, and an entire community exploded around creating them. Anime skins, movie skins, car skins, abstract art skins — if you could imagine it, someone made a Winamp skin for it.</p>
 
-<p>The timing was perfect. By late 1998, MP3 file-sharing was exploding. Napster wouldn't launch until June 1999, but IRC channels, FTP servers, and early peer-to-peer networks were already awash in MP3 files. Every single one of those millions of music files needed a player, and Winamp was <em>the</em> player. By 1999, Winamp had been downloaded <strong>15 million times</strong>. By 2000, it had <strong>25 million registered users</strong>. By 2001, that number hit <strong>60 million</strong>.</p>
+<p>The timing was perfect. By late 1998, MP3 file-sharing was exploding. <a href="/#/post/napster-destroyed-music" onclick="event.preventDefault(); openPost('napster-destroyed-music')">Napster</a> wouldn't launch until June 1999, but IRC channels, FTP servers, and early peer-to-peer networks were already awash in MP3 files. Every single one of those millions of music files needed a player, and Winamp was <em>the</em> player. By 1999, Winamp had been downloaded <strong>15 million times</strong>. By 2000, it had <strong>25 million registered users</strong>. By 2001, that number hit <strong>60 million</strong>.</p>
 
 <p>Winamp wasn't just software — it was identity. Your Winamp skin said something about you, the same way your desktop wallpaper or AIM away message did. The visualization plugins (remember Milkdrop?) turned your screen into a psychedelic light show synced to your music. Plug-ins let you stream internet radio, rip CDs, and even output to external hardware. It was a platform, not just a player.</p>
 
@@ -1889,7 +1934,9 @@
             } else {
                 populateBlogPostsList();
                 populateArchives();
+                populateTagFilters();
                 initializeTaskbar();
+                initReadingProgress();
                 startClock();
                 loadVisitorCount();
                 showCookieBanner();
@@ -1920,7 +1967,7 @@
                 <li class="mobile-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <h3>${post.title}</h3>
-                        <div class="mobile-post-date">${post.date}</div>
+                        <div class="mobile-post-date">${post.date} <span class="mobile-post-reading-time">${getReadingTime(post.content)}</span></div>
                         <div class="mobile-post-excerpt">${post.excerpt}</div>
                     </a>
                 </li>
@@ -1934,7 +1981,7 @@
                 <li class="blog-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <h3>${post.title}</h3>
-                        <div class="date">${post.date}</div>
+                        <div class="date">${post.date} <span class="reading-time">${getReadingTime(post.content)}</span></div>
                         <div class="excerpt">${post.excerpt}</div>
                         <div class="tags">${post.tags.join(', ')}</div>
                     </a>
@@ -2063,6 +2110,12 @@
                 document.getElementById('post-title').textContent = post.title;
                 document.getElementById('post-window-title').textContent = post.title;
                 document.getElementById('post-date').textContent = post.date;
+                document.getElementById('post-reading-time').textContent = getReadingTime(post.content);
+                // Reset progress bar
+                const fill = document.getElementById('reading-progress-fill');
+                const label = document.getElementById('reading-progress-label');
+                if (fill) fill.style.width = '0%';
+                if (label) label.textContent = '0%';
                 document.getElementById('post-body').innerHTML = post.content;
 
                 const relatedContainer = document.getElementById('related-posts-container');
@@ -2128,6 +2181,28 @@
                 document.querySelector('meta[property="og:type"]').content = 'website';
                 document.querySelector('meta[property="og:url"]').content = baseUrl;
             }
+        }
+
+        function getReadingTime(htmlContent) {
+            const text = htmlContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+            const words = text.split(' ').filter(w => w.length > 0).length;
+            const minutes = Math.max(1, Math.round(words / 230));
+            return minutes + ' min read';
+        }
+
+        function initReadingProgress() {
+            const postContent = document.querySelector('#post-window .window-content');
+            if (!postContent) return;
+            postContent.addEventListener('scroll', function() {
+                const scrollTop = postContent.scrollTop;
+                const scrollHeight = postContent.scrollHeight - postContent.clientHeight;
+                if (scrollHeight <= 0) return;
+                const pct = Math.min(100, Math.round((scrollTop / scrollHeight) * 100));
+                const fill = document.getElementById('reading-progress-fill');
+                const label = document.getElementById('reading-progress-label');
+                if (fill) fill.style.width = pct + '%';
+                if (label) label.textContent = pct + '%';
+            });
         }
 
         function goHome() {
