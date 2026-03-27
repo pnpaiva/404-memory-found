@@ -311,6 +311,16 @@
                 filter: invert(1);
             }
 
+            /* Windows-style drag selection rectangle */
+            .selection-rect {
+                position: absolute;
+                border: 1px dotted #000080;
+                background: rgba(0, 0, 128, 0.12);
+                pointer-events: none;
+                z-index: 5;
+                display: none;
+            }
+
             .icon-image {
                 width: 48px;
                 height: 48px;
@@ -884,9 +894,8 @@
                 border: 1px inset #dfdfdf;
                 margin: 0;
                 padding: 0;
-                position: sticky;
-                top: 0;
-                z-index: 10;
+                position: relative;
+                flex-shrink: 0;
                 overflow: hidden;
             }
 
@@ -2688,6 +2697,107 @@
                 goHome();
             }
         });
+
+        // Windows-style click-and-drag selection rectangle
+        (function() {
+            const desktopArea = document.getElementById('desktop-area');
+            const selRect = document.getElementById('selection-rect');
+            if (!desktopArea || !selRect) return;
+
+            let isDragging = false;
+            let startX = 0, startY = 0;
+
+            desktopArea.addEventListener('mousedown', function(e) {
+                // Only start selection on left-click directly on the desktop area (not on icons or windows)
+                if (e.button !== 0) return;
+                const target = e.target;
+                if (target.closest('.desktop-icon') || target.closest('.window') || target.closest('.under-construction')) return;
+
+                isDragging = true;
+                const rect = desktopArea.getBoundingClientRect();
+                startX = e.clientX - rect.left;
+                startY = e.clientY - rect.top;
+
+                selRect.style.left = startX + 'px';
+                selRect.style.top = startY + 'px';
+                selRect.style.width = '0px';
+                selRect.style.height = '0px';
+                selRect.style.display = 'block';
+
+                // Clear previous selections
+                document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'));
+
+                e.preventDefault();
+            });
+
+            document.addEventListener('mousemove', function(e) {
+                if (!isDragging) return;
+                const rect = desktopArea.getBoundingClientRect();
+                const currentX = e.clientX - rect.left;
+                const currentY = e.clientY - rect.top;
+
+                const x = Math.min(startX, currentX);
+                const y = Math.min(startY, currentY);
+                const w = Math.abs(currentX - startX);
+                const h = Math.abs(currentY - startY);
+
+                selRect.style.left = x + 'px';
+                selRect.style.top = y + 'px';
+                selRect.style.width = w + 'px';
+                selRect.style.height = h + 'px';
+
+                // Check which icons intersect with the selection rectangle
+                const selBox = { left: x, top: y, right: x + w, bottom: y + h };
+                document.querySelectorAll('.desktop-icon').forEach(function(icon) {
+                    const iconRect = icon.getBoundingClientRect();
+                    const iconBox = {
+                        left: iconRect.left - rect.left,
+                        top: iconRect.top - rect.top,
+                        right: iconRect.right - rect.left,
+                        bottom: iconRect.bottom - rect.top
+                    };
+                    const intersects = !(selBox.right < iconBox.left || selBox.left > iconBox.right ||
+                                        selBox.bottom < iconBox.top || selBox.top > iconBox.bottom);
+                    if (intersects) {
+                        icon.classList.add('selected');
+                    } else {
+                        icon.classList.remove('selected');
+                    }
+                });
+            });
+
+            document.addEventListener('mouseup', function(e) {
+                if (!isDragging) return;
+                isDragging = false;
+                selRect.style.display = 'none';
+            });
+
+            // Click on empty desktop clears selection
+            desktopArea.addEventListener('click', function(e) {
+                if (e.target === desktopArea || e.target === desktopArea.querySelector('.selection-rect')) {
+                    document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'));
+                }
+            });
+
+            // Enter key opens all selected icons
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    const selected = document.querySelectorAll('.desktop-icon.selected');
+                    if (selected.length > 0) {
+                        selected.forEach(function(icon) {
+                            // Trigger the double-click action
+                            const dblHandler = icon.getAttribute('ondblclick');
+                            if (dblHandler) {
+                                eval(dblHandler);
+                            }
+                        });
+                        // Clear selection after opening
+                        selected.forEach(i => i.classList.remove('selected'));
+                        e.preventDefault();
+                    }
+                }
+            });
+        })();
 
         // Easter egg
         let konamiCode = [];
