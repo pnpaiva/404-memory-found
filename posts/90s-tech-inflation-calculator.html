@@ -2795,17 +2795,6 @@
             });
         })();
 
-        // Easter egg
-        let konamiCode = [];
-        const konamiSequence = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
-        document.addEventListener('keydown', (e) => {
-            konamiCode.push(e.keyCode);
-            konamiCode = konamiCode.slice(-10);
-            if (konamiCode.join(',') === konamiSequence.join(',')) {
-                alert('🎉 You found the Konami Code! You\'ve unlocked extra nostalgia! 🎉');
-            }
-        });
-
         // Start Menu
         function toggleStartMenu() {
             const menu = document.getElementById('start-menu');
