@@ -1252,13 +1252,13 @@
             }
 
             /* Taskbar tray icons */
-            .taskbar-speaker, .taskbar-network {
+            .taskbar-network {
                 padding: 2px 4px;
                 cursor: pointer;
                 font-size: 14px;
                 margin-right: 4px;
             }
-            .taskbar-speaker:hover, .taskbar-network:hover { background: #bbb; }
+            .taskbar-network:hover { background: #bbb; }
 
             /* Dial-up Connection Dialog */
             .dialup-overlay {
@@ -2139,7 +2139,6 @@
             <div class="taskbar-buttons" id="taskbar-buttons"></div>
             <div class="taskbar-spacer"></div>
             <div class="taskbar-network" onclick="openDialUpDialog()" title="Internet Connection">🖧</div>
-            <div class="taskbar-speaker" onclick="playDialUpSound()" title="Volume">🔊</div>
             <div class="taskbar-clock" id="taskbar-clock"><span id="visitor-count" style="margin-right:8px;opacity:0.85;"></span><span id="clock-time">00:00</span></div>
         </div>
     </div>
