@@ -1910,8 +1910,14 @@
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
-            const allTags = [...new Set(blogPosts.flatMap(p => p.tags))].sort();
-            container.innerHTML = allTags.map(tag => `
+            // Count posts per tag, sort by frequency, cap at 8 filters
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
                 <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
                         onclick="toggleTag('${tag}')">${tag}</button>
             `).join('');

@@ -1645,9 +1645,9 @@
                 <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
                     <strong>Related Posts:</strong>
                     <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
+<li style="padding:5px 0;"><a href="/posts/yahoo-rejected-google.html">Yahoo Turned Down Google for $1M—Then Regretted It</a></li>
 <li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li>
-<li style="padding:5px 0;"><a href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li>
-<li style="padding:5px 0;"><a href="/posts/what-happened-to-winamp-mp3-player.html">What Happened to Winamp? The Definitive History of the MP3 Player That Whipped the Llama's Ass</a></li>
+<li style="padding:5px 0;"><a href="/posts/first-online-purchase-pizza.html">The Internet's First Sale? A Pizza Hut Pepperoni Pizza</a></li>
 
                     </ul>
                 </div>
@@ -1795,7 +1795,7 @@
 <p>MTV Unplugged ran regularly from 1989 to 1999 and featured popular artists performing acoustic versions of their songs. Eric Clapton's 1992 session produced an album that sold 26 million copies. Nirvana's 1993 session, recorded five months before Kurt Cobain's death, became one of the most iconic live performances in rock history. The resulting album sold over 8 million copies in the US and won a Grammy.</p>
 
 <h3>Is MTV still on the air in 2026?</h3>
-<p>Technically yes, but it bears almost no resemblance to its original form. The flagship channel still broadcasts, mostly airing reality shows, game shows, and reruns. Several of MTV's music-focused sub-channels (MTV Classic, MTV Hits) have been shut down or repurposed by parent company Paramount Global. The channel that launched by playing "Video Killed the Radio Star" hasn't been about music in over a decade.</p><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li><li style="padding:5px 0;"><a href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-winamp-mp3-player.html">What Happened to Winamp? The Definitive History of the MP3 Player That Whipped the Llama's Ass</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
+<p>Technically yes, but it bears almost no resemblance to its original form. The flagship channel still broadcasts, mostly airing reality shows, game shows, and reruns. Several of MTV's music-focused sub-channels (MTV Classic, MTV Hits) have been shut down or repurposed by parent company Paramount Global. The channel that launched by playing "Video Killed the Radio Star" hasn't been about music in over a decade.</p><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/yahoo-rejected-google.html">Yahoo Turned Down Google for $1M—Then Regretted It</a></li><li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li><li style="padding:5px 0;"><a href="/posts/first-online-purchase-pizza.html">The Internet's First Sale? A Pizza Hut Pepperoni Pizza</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
                 </div>
                 <div class="resize-handle resize-handle-n"></div>
                 <div class="resize-handle resize-handle-s"></div>
@@ -1984,8 +1984,14 @@
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
-            const allTags = [...new Set(blogPosts.flatMap(p => p.tags))].sort();
-            container.innerHTML = allTags.map(tag => `
+            // Count posts per tag, sort by frequency, cap at 8 filters
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
                 <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
                         onclick="toggleTag('${tag}')">${tag}</button>
             `).join('');
