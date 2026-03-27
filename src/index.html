@@ -1100,6 +1100,128 @@
                 flex-shrink: 0;
             }
 
+            /* === EASTER EGG STYLES === */
+
+            /* BSOD overlay */
+            .bsod-overlay {
+                display: none;
+                position: fixed;
+                top: 0; left: 0; right: 0; bottom: 0;
+                background: #0000aa;
+                color: #fff;
+                font-family: "Courier New", monospace;
+                font-size: 16px;
+                z-index: 99999;
+                padding: 60px 40px;
+                cursor: pointer;
+                line-height: 1.6;
+            }
+            .bsod-overlay .bsod-title {
+                background: #aaa;
+                color: #0000aa;
+                padding: 2px 8px;
+                display: inline-block;
+                margin-bottom: 24px;
+                font-weight: bold;
+            }
+
+            /* My Computer window */
+            #mycomputer-window .spec-row {
+                display: flex;
+                justify-content: space-between;
+                padding: 4px 8px;
+                border-bottom: 1px solid #c0c0c0;
+                font-size: 13px;
+            }
+            #mycomputer-window .spec-label { color: #333; font-weight: bold; }
+            #mycomputer-window .spec-value { color: #000080; }
+            #mycomputer-window .sys-header {
+                background: linear-gradient(90deg, #000080, #1084d0);
+                color: #fff;
+                padding: 6px 10px;
+                font-weight: bold;
+                font-size: 13px;
+                margin-bottom: 4px;
+            }
+            #mycomputer-window .sys-logo {
+                text-align: center;
+                padding: 12px;
+                font-size: 28px;
+                letter-spacing: 2px;
+                color: #000080;
+                border-bottom: 2px groove #c0c0c0;
+                margin-bottom: 8px;
+            }
+
+            /* Defrag window */
+            #defrag-window .defrag-grid {
+                display: grid;
+                grid-template-columns: repeat(32, 1fr);
+                gap: 1px;
+                padding: 8px;
+                background: #000;
+                border: 2px inset #808080;
+            }
+            #defrag-window .defrag-block {
+                aspect-ratio: 1;
+                min-height: 6px;
+            }
+
+            /* Nostalgia Scanner window */
+            #scanner-window .scan-output {
+                background: #000;
+                color: #00ff00;
+                font-family: "Courier New", monospace;
+                font-size: 12px;
+                padding: 8px;
+                height: 200px;
+                overflow-y: auto;
+                border: 2px inset #808080;
+                white-space: pre-wrap;
+            }
+            #scanner-window .scan-progress {
+                height: 16px;
+                background: #c0c0c0;
+                border: 1px inset #dfdfdf;
+                margin: 8px;
+            }
+            #scanner-window .scan-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: #000080;
+                transition: width 0.3s;
+            }
+
+            /* Cursor trail */
+            .cursor-trail-dot {
+                position: fixed;
+                width: 4px;
+                height: 4px;
+                background: #000;
+                pointer-events: none;
+                z-index: 99998;
+                transition: opacity 0.3s;
+            }
+
+            /* Under Construction */
+            .under-construction {
+                position: absolute;
+                bottom: 50px;
+                left: 15px;
+                cursor: pointer;
+                image-rendering: pixelated;
+            }
+            .under-construction:hover { opacity: 0.8; }
+
+            /* Speaker icon in taskbar */
+            .taskbar-speaker {
+                padding: 2px 4px;
+                cursor: pointer;
+                font-size: 14px;
+                margin-right: 4px;
+            }
+            .taskbar-speaker:hover { background: #bbb; }
+
             /* Start Menu */
             .start-menu {
                 display: none;
@@ -1639,6 +1761,12 @@
                 </div>
             </div>
 
+            <!-- My Computer desktop icon -->
+            <div class="desktop-icon" ondblclick="openMyComputer()" onclick="this.classList.toggle('selected')" style="position:absolute;right:15px;bottom:130px;">
+                <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%226%22 width=%2236%22 height=%2226%22 fill=%22%23B0BEC5%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%2210%22 y=%2210%22 width=%2228%22 height=%2218%22 fill=%22%23000080%22/><rect x=%2216%22 y=%2234%22 width=%2216%22 height=%224%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2224%22 height=%224%22 fill=%22%23B0BEC5%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%221%22/><circle cx=%2224%22 cy=%2219%22 r=%224%22 fill=%22%2300ff00%22 opacity=%220.7%22/></svg>')"></div>
+                <label>My Computer</label>
+            </div>
+
             <!-- Hidden "Don't Click" folder on the right side near bottom -->
             <div class="desktop-icon" ondblclick="openWindow('secret-window')" onclick="this.classList.toggle('selected')" style="position:absolute;right:15px;bottom:50px;">
                 <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%2210%22 width=%2232%22 height=%2230%22 fill=%22%23FFD54F%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%228%22 y=%2210%22 width=%2232%22 height=%228%22 fill=%22%23FFC107%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2231%22 text-anchor=%22middle%22 font-size=%2210%22 fill=%22%23333%22 font-family=%22Arial%22>?!</text></svg>')"></div>
@@ -2005,6 +2133,99 @@
                 <div class="resize-handle resize-handle-sw"></div>
             </div>
 
+            <!-- My Computer Easter Egg Window -->
+            <div class="window minimized" id="mycomputer-window" style="left:200px;top:80px;width:340px;height:380px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">💻 System Properties</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('mycomputer-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="closeWindow('mycomputer-window')"><span class="btn-close">×</span></button>
+                    </div>
+                </div>
+                <div class="window-content" style="padding:0;">
+                    <div class="sys-logo">404 Memory Found</div>
+                    <div class="sys-header">System Information</div>
+                    <div class="spec-row"><span class="spec-label">Processor:</span><span class="spec-value">Pentium Nostalgia 166MHz</span></div>
+                    <div class="spec-row"><span class="spec-label">Memory:</span><span class="spec-value">640 KB (ought to be enough)</span></div>
+                    <div class="spec-row"><span class="spec-label">Hard Drive:</span><span class="spec-value">404 MB - Memory Found</span></div>
+                    <div class="spec-row"><span class="spec-label">Display:</span><span class="spec-value">CRT 800x600 @ 60Hz</span></div>
+                    <div class="spec-row"><span class="spec-label">Sound Card:</span><span class="spec-value">SoundBlaster 16</span></div>
+                    <div class="spec-row"><span class="spec-label">Modem:</span><span class="spec-value">56K US Robotics</span></div>
+                    <div class="spec-row"><span class="spec-label">OS:</span><span class="spec-value">Windows Nostalgia Edition</span></div>
+                    <div class="spec-row"><span class="spec-label">Blog Posts:</span><span class="spec-value" id="sys-post-count">--</span></div>
+                    <div class="spec-row"><span class="spec-label">Total Words Written:</span><span class="spec-value" id="sys-word-count">--</span></div>
+                    <div class="spec-row"><span class="spec-label">Uptime:</span><span class="spec-value" id="sys-uptime">--</span></div>
+                    <div style="padding:8px;text-align:center;">
+                        <button onclick="closeWindow('mycomputer-window')" style="padding:4px 24px;">OK</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Defrag Easter Egg Window -->
+            <div class="window minimized" id="defrag-window" style="left:180px;top:60px;width:400px;height:360px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">404 Memory Defragmenter</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('defrag-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="closeWindow('defrag-window'); stopDefrag()"><span class="btn-close">×</span></button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <p style="margin-bottom:8px;font-size:12px;">Defragmenting your nostalgia memories...</p>
+                    <div class="defrag-grid" id="defrag-grid"></div>
+                    <p style="margin-top:8px;font-size:11px;color:#666;" id="defrag-status">Analyzing memory clusters...</p>
+                </div>
+            </div>
+
+            <!-- Nostalgia Scanner Easter Egg Window -->
+            <div class="window minimized" id="scanner-window" style="left:220px;top:70px;width:420px;height:340px;">
+                <div class="title-bar">
+                    <div class="title-bar-title">System Nostalgia Scanner v4.04</div>
+                    <div class="title-bar-controls">
+                        <button class="window-button" onclick="minimizeWindow('scanner-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="closeWindow('scanner-window'); stopScanner()"><span class="btn-close">×</span></button>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <div class="scan-progress"><div class="scan-progress-fill" id="scan-progress-fill"></div></div>
+                    <div class="scan-output" id="scan-output">C:\\NOSTALGIA> scan /deep /all\n\nInitializing scanner...</div>
+                    <div style="text-align:center;margin-top:8px;">
+                        <button onclick="startNostalgiaScanner()" id="scan-start-btn">Start Scan</button>
+                        <button onclick="closeWindow('scanner-window'); stopScanner()">Close</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BSOD Overlay -->
+            <div class="bsod-overlay" id="bsod-overlay" onclick="closeBSOD()">
+                <div class="bsod-title">404 Memory Found</div>
+                <br><br>
+                A fatal exception 0x004E6F73 has occurred at 0028:C0041999 in<br>
+                VXD NOSTALGIA(01) + 00001999. The current application will be<br>
+                terminated.<br><br>
+                *  FATAL ERROR: Too much nostalgia detected.<br>
+                *  Your memories of dial-up internet have overflowed the buffer.<br>
+                *  Attempted to load AIM buddy list from 2003. File corrupted.<br>
+                *  WARNING: 47 unread MySpace notifications found.<br><br>
+                Press any key to return to the 90s. Or click anywhere.<br><br>
+                <span style="opacity:0.6;">Press any key to continue _</span>
+            </div>
+
+            <!-- Under Construction pixel art (hidden in corner) -->
+            <div class="under-construction" onclick="alert('This section is permanently under construction. Just like every GeoCities page in 1997.')" title="Under Construction">
+                <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" style="image-rendering:pixelated;">
+                    <rect x="8" y="28" width="32" height="16" fill="#FFD600" stroke="#000" stroke-width="1"/>
+                    <rect x="8" y="28" width="8" height="8" fill="#000"/>
+                    <rect x="24" y="28" width="8" height="8" fill="#000"/>
+                    <rect x="16" y="36" width="8" height="8" fill="#000"/>
+                    <rect x="32" y="36" width="8" height="8" fill="#000"/>
+                    <rect x="14" y="8" width="20" height="20" fill="#FFD600" rx="2"/>
+                    <rect x="14" y="8" width="20" height="6" fill="#FF8F00" rx="2"/>
+                    <rect x="18" y="16" width="12" height="2" fill="#5D4037"/>
+                    <rect x="22" y="18" width="4" height="8" fill="#5D4037"/>
+                </svg>
+            </div>
+
             <!-- Cookie Banner -->
             <div id="cookie-banner">
                 <div class="cookie-content">
@@ -2031,6 +2252,10 @@
                 <div class="start-menu-item" onclick="openWindow('archives-window'); toggleStartMenu()"><span class="menu-icon">📦</span> Archives</div>
                 <div class="start-menu-item" onclick="openWindow('guestbook-window'); toggleStartMenu()"><span class="menu-icon">✍️</span> Guestbook</div>
                 <div class="start-menu-separator"></div>
+                <div class="start-menu-item" onclick="openDefrag(); toggleStartMenu()"><span class="menu-icon">🧩</span> Memory Defrag</div>
+                <div class="start-menu-item" onclick="openScanner(); toggleStartMenu()"><span class="menu-icon">🔍</span> Nostalgia Scanner</div>
+                <div class="start-menu-item" onclick="toggleCursorTrail(); toggleStartMenu()"><span class="menu-icon">✨</span> <span id="cursor-trail-label">Cursor Trail: OFF</span></div>
+                <div class="start-menu-separator"></div>
                 <div class="start-menu-item" onclick="openWindow('secret-window'); toggleStartMenu()"><span class="menu-icon">📁</span> <span style="color:inherit;">Don't Click Here</span></div>
             </div>
         </div>
@@ -2040,6 +2265,7 @@
             <button class="start-button" onclick="toggleStartMenu()">Start</button>
             <div class="taskbar-buttons" id="taskbar-buttons"></div>
             <div class="taskbar-spacer"></div>
+            <div class="taskbar-speaker" onclick="playDialUpSound()" title="Volume">🔊</div>
             <div class="taskbar-clock" id="taskbar-clock"><span id="visitor-count" style="margin-right:8px;opacity:0.85;"></span><span id="clock-time">00:00</span></div>
         </div>
     </div>
@@ -3188,6 +3414,271 @@
         document.getElementById('pong-name-input').addEventListener('keydown', (e) => {
             if (e.key === 'Enter') submitPongScore();
         });
+
+        // ==========================================
+        // EASTER EGGS
+        // ==========================================
+
+        // --- 1. KONAMI CODE BSOD ---
+        const konamiSequence = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+        let konamiIndex = 0;
+        document.addEventListener('keydown', function(e) {
+            if (document.getElementById('bsod-overlay').style.display === 'flex') {
+                closeBSOD();
+                return;
+            }
+            if (e.key === konamiSequence[konamiIndex] || e.key.toLowerCase() === konamiSequence[konamiIndex]) {
+                konamiIndex++;
+                if (konamiIndex === konamiSequence.length) {
+                    konamiIndex = 0;
+                    showBSOD();
+                }
+            } else {
+                konamiIndex = 0;
+            }
+        });
+
+        function showBSOD() {
+            const bsod = document.getElementById('bsod-overlay');
+            bsod.style.display = 'flex';
+            bsod.style.flexDirection = 'column';
+        }
+
+        function closeBSOD() {
+            document.getElementById('bsod-overlay').style.display = 'none';
+        }
+
+        // --- 2. MY COMPUTER ---
+        function openMyComputer() {
+            // Calculate real blog stats
+            const postCount = blogPosts.length;
+            let totalWords = 0;
+            blogPosts.forEach(p => {
+                const text = (p.content || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+                totalWords += text.split(' ').filter(w => w.length > 0).length;
+            });
+            document.getElementById('sys-post-count').textContent = postCount + ' posts loaded';
+            document.getElementById('sys-word-count').textContent = totalWords.toLocaleString() + ' words';
+            // Blog launched ~2024
+            const launchDate = new Date('2025-01-01');
+            const now = new Date();
+            const days = Math.floor((now - launchDate) / 86400000);
+            document.getElementById('sys-uptime').textContent = days + ' days (since launch)';
+            openWindow('mycomputer-window');
+            makeActive('mycomputer-window');
+        }
+
+        // --- 3. DIAL-UP SOUND (Web Audio API synthesized) ---
+        let dialUpPlaying = false;
+        function playDialUpSound() {
+            if (dialUpPlaying) return;
+            dialUpPlaying = true;
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const duration = 4;
+            const sampleRate = ctx.sampleRate;
+            const buffer = ctx.createBuffer(1, sampleRate * duration, sampleRate);
+            const data = buffer.getChannelData(0);
+
+            // Synthesize dial-up-like sounds
+            for (let i = 0; i < data.length; i++) {
+                const t = i / sampleRate;
+                let v = 0;
+                if (t < 0.5) {
+                    // Dial tone
+                    v = 0.3 * Math.sin(2 * Math.PI * 350 * t) + 0.3 * Math.sin(2 * Math.PI * 440 * t);
+                } else if (t < 1.2) {
+                    // Ring
+                    v = 0.2 * Math.sin(2 * Math.PI * 480 * t) + 0.2 * Math.sin(2 * Math.PI * 620 * t);
+                    v *= (Math.sin(2 * Math.PI * 20 * t) > 0 ? 1 : 0);
+                } else if (t < 2.5) {
+                    // Handshake noise
+                    const f1 = 1200 + 600 * Math.sin(2 * Math.PI * 8 * t);
+                    const f2 = 2400 + 400 * Math.cos(2 * Math.PI * 12 * t);
+                    v = 0.15 * Math.sin(2 * Math.PI * f1 * t) + 0.15 * Math.sin(2 * Math.PI * f2 * t);
+                    v += 0.08 * (Math.random() * 2 - 1);
+                } else {
+                    // Static/white noise fade out
+                    const fade = 1 - ((t - 2.5) / 1.5);
+                    v = 0.12 * (Math.random() * 2 - 1) * fade;
+                    v += 0.08 * Math.sin(2 * Math.PI * 1800 * t) * fade;
+                }
+                data[i] = Math.max(-1, Math.min(1, v));
+            }
+
+            const source = ctx.createBufferSource();
+            source.buffer = buffer;
+            const gain = ctx.createGain();
+            gain.gain.value = 0.4;
+            source.connect(gain);
+            gain.connect(ctx.destination);
+            source.start();
+            source.onended = () => { dialUpPlaying = false; ctx.close(); };
+        }
+
+        // --- 4a. MEMORY DEFRAG ---
+        let defragInterval = null;
+        const defragColors = ['#000080','#00aa00','#ff0000','#ffff00','#ffffff','#808080','#000000'];
+        function openDefrag() {
+            openWindow('defrag-window');
+            makeActive('defrag-window');
+            startDefrag();
+        }
+        function startDefrag() {
+            const grid = document.getElementById('defrag-grid');
+            // 32x16 grid = 512 blocks
+            grid.innerHTML = '';
+            const blocks = [];
+            for (let i = 0; i < 512; i++) {
+                const b = document.createElement('div');
+                b.className = 'defrag-block';
+                b.style.background = defragColors[Math.floor(Math.random() * defragColors.length)];
+                grid.appendChild(b);
+                blocks.push(b);
+            }
+            const statuses = [
+                'Analyzing memory clusters...',
+                'Reading nostalgia sectors...',
+                'Defragmenting AIM away messages...',
+                'Consolidating ICQ chat logs...',
+                'Reorganizing Winamp playlists...',
+                'Compacting MySpace Top 8 data...',
+                'Recovering deleted Neopets saves...',
+                'Optimizing dial-up cache...',
+                'Defragmentation 42% complete...',
+                'Moving LimeWire downloads to safe zone...',
+                'Cleaning GeoCities visitor counters...',
+                'Defragmentation 78% complete...',
+                'Recovering MSN Messenger emoticons...',
+                'Restoring Netscape bookmarks...',
+                'Defragmentation complete! Nostalgia optimized.'
+            ];
+            let step = 0;
+            let statusIdx = 0;
+            defragInterval = setInterval(() => {
+                // Move 3-5 random blocks to "optimized" (blue)
+                for (let j = 0; j < 4; j++) {
+                    const idx = Math.floor(Math.random() * 512);
+                    blocks[idx].style.background = step < 400 ? '#000080' : '#00aa00';
+                }
+                step++;
+                if (step % 30 === 0 && statusIdx < statuses.length) {
+                    document.getElementById('defrag-status').textContent = statuses[statusIdx++];
+                }
+                if (step > 500) {
+                    clearInterval(defragInterval);
+                    defragInterval = null;
+                    blocks.forEach(b => b.style.background = '#000080');
+                    document.getElementById('defrag-status').textContent = statuses[statuses.length - 1];
+                }
+            }, 50);
+        }
+        function stopDefrag() {
+            if (defragInterval) { clearInterval(defragInterval); defragInterval = null; }
+        }
+
+        // --- 4b. NOSTALGIA SCANNER ---
+        let scanInterval = null;
+        function openScanner() {
+            openWindow('scanner-window');
+            makeActive('scanner-window');
+            document.getElementById('scan-output').textContent = 'C:\\NOSTALGIA> scan /deep /all\n\nReady. Click "Start Scan" to begin.';
+            document.getElementById('scan-progress-fill').style.width = '0%';
+            document.getElementById('scan-start-btn').disabled = false;
+        }
+        function startNostalgiaScanner() {
+            document.getElementById('scan-start-btn').disabled = true;
+            const output = document.getElementById('scan-output');
+            const progressFill = document.getElementById('scan-progress-fill');
+            output.textContent = 'C:\\NOSTALGIA> scan /deep /all\n\nScanning system...';
+
+            const findings = [
+                'Scanning C:\\Program Files\\...',
+                'Found: AOL Instant Messenger v5.9 (last login: 2004)',
+                'Found: 23 forgotten passwords in Netscape Password Manager',
+                'Scanning C:\\My Documents\\...',
+                'Found: 47 unread AIM away messages',
+                'Found: 1 Neopet (still alive, somehow)',
+                'WARNING: Neopet is hungry. Very hungry.',
+                'Scanning C:\\Windows\\Temp\\...',
+                'Found: 312 downloaded Winamp skins',
+                'Found: LimeWire folder (94 GB of "linux_distros")',
+                'Scanning C:\\Games\\...',
+                'Found: Minesweeper high score: 12 seconds (suspicious)',
+                'Found: 3 unfinished Oregon Trail saves',
+                'Found: SkiFree.exe (the abominable snowman is waiting)',
+                'Scanning Windows Registry...',
+                'Found: Bonzi Buddy remnants (attempting quarantine...)',
+                'WARNING: 14 Ask Jeeves toolbars detected',
+                'Found: RealPlayer buffering... still buffering...',
+                'Found: 1,247 GeoCities bookmarks (all broken)',
+                'Found: MapQuest directions printed in 2001 (37 pages)',
+                'Scanning email archives...',
+                'Found: 89 chain emails (bad luck if not forwarded)',
+                'Found: "You\'ve Got Mail!" notification stuck in loop',
+                'Found: MySpace profile backup (Top 8 friends preserved)',
+                '',
+                '=== SCAN COMPLETE ===',
+                'Total nostalgia artifacts found: 2,847',
+                'Recommendation: Do not delete. These are precious.',
+                'Estimated emotional value: Priceless'
+            ];
+
+            let idx = 0;
+            scanInterval = setInterval(() => {
+                if (idx < findings.length) {
+                    output.textContent += '\n' + findings[idx];
+                    output.scrollTop = output.scrollHeight;
+                    progressFill.style.width = Math.round(((idx + 1) / findings.length) * 100) + '%';
+                    idx++;
+                } else {
+                    clearInterval(scanInterval);
+                    scanInterval = null;
+                    document.getElementById('scan-start-btn').disabled = false;
+                }
+            }, 400);
+        }
+        function stopScanner() {
+            if (scanInterval) { clearInterval(scanInterval); scanInterval = null; }
+        }
+
+        // --- 6. CURSOR TRAIL ---
+        let cursorTrailEnabled = false;
+        let trailDots = [];
+        const TRAIL_LENGTH = 12;
+
+        function toggleCursorTrail() {
+            cursorTrailEnabled = !cursorTrailEnabled;
+            document.getElementById('cursor-trail-label').textContent = 'Cursor Trail: ' + (cursorTrailEnabled ? 'ON' : 'OFF');
+            if (!cursorTrailEnabled) {
+                trailDots.forEach(d => d.remove());
+                trailDots = [];
+            }
+        }
+
+        document.addEventListener('mousemove', function(e) {
+            if (!cursorTrailEnabled) return;
+
+            const dot = document.createElement('div');
+            dot.className = 'cursor-trail-dot';
+            dot.style.left = e.clientX + 'px';
+            dot.style.top = e.clientY + 'px';
+            document.body.appendChild(dot);
+            trailDots.push(dot);
+
+            if (trailDots.length > TRAIL_LENGTH) {
+                const old = trailDots.shift();
+                old.remove();
+            }
+
+            // Fade effect
+            trailDots.forEach((d, i) => {
+                d.style.opacity = ((i + 1) / trailDots.length) * 0.8;
+                const size = 2 + ((i + 1) / trailDots.length) * 4;
+                d.style.width = size + 'px';
+                d.style.height = size + 'px';
+            });
+        });
+
     </script>
 </body>
 </html>
