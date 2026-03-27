@@ -1665,6 +1665,7 @@ ICQ declined due to several factors: corporate neglect under AOL ownership, feat
 
 <p><strong>How many users did ICQ have at its peak?</strong><br/>
 ICQ reached over 100 million registered accounts by 2001. Daily active users peaked in the tens of millions globally.</p>
+<!-- authored-by: dana -->
                 <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
                     <strong>Related Posts:</strong>
                     <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
@@ -1845,7 +1846,8 @@ A UIN (Unique Identification Number) was ICQ's user identity system. Each accoun
 ICQ declined due to several factors: corporate neglect under AOL ownership, feature bloat that degraded the user experience, competition from MSN Messenger (which came pre-installed with Windows), and failure to adapt quickly to the mobile era. By the time smartphones dominated, WhatsApp and Facebook Messenger had claimed the messaging market.</p>
 
 <p><strong>How many users did ICQ have at its peak?</strong><br/>
-ICQ reached over 100 million registered accounts by 2001. Daily active users peaked in the tens of millions globally.</p><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-ask-jeeves-search-engine.html">What Happened to Ask Jeeves? The Search Engine With a Butler</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
+ICQ reached over 100 million registered accounts by 2001. Daily active users peaked in the tens of millions globally.</p>
+<!-- authored-by: dana --><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-ask-jeeves-search-engine.html">What Happened to Ask Jeeves? The Search Engine With a Butler</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
                 </div>
                 <div class="resize-handle resize-handle-n"></div>
                 <div class="resize-handle resize-handle-s"></div>
@@ -2034,8 +2036,14 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
-            const allTags = [...new Set(blogPosts.flatMap(p => p.tags))].sort();
-            container.innerHTML = allTags.map(tag => `
+            // Count posts per tag, sort by frequency, cap at 8 filters
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
                 <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
                         onclick="toggleTag('${tag}')">${tag}</button>
             `).join('');

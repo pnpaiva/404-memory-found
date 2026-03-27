@@ -1669,6 +1669,7 @@ It's unlikely. Google's PageRank algorithm and its ability to improve results th
 
 <p><strong>Did Ask Jeeves bring Jeeves back?</strong><br/>
 The Jeeves character has made occasional appearances in Ask.com marketing since his retirement, but has never been fully restored as the brand's mascot. The 2006 removal remains one of the most debated branding decisions in internet history.</p>
+<!-- authored-by: dana -->
                 <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
                     <strong>Related Posts:</strong>
                     <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
@@ -1853,7 +1854,8 @@ Ask Jeeves was among the first consumer search engines to focus on natural langu
 It's unlikely. Google's PageRank algorithm and its ability to improve results through massive data analysis represented a fundamentally superior approach to search at the time. However, Ask Jeeves' vision of natural language search was validated decades later by AI assistants and large language models, suggesting the concept was right even if the technology wasn't ready.</p>
 
 <p><strong>Did Ask Jeeves bring Jeeves back?</strong><br/>
-The Jeeves character has made occasional appearances in Ask.com marketing since his retirement, but has never been fully restored as the brand's mascot. The 2006 removal remains one of the most debated branding decisions in internet history.</p><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-icq-instant-messenger.html">What Happened to ICQ? The First Instant Messenger That Changed Everything</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
+The Jeeves character has made occasional appearances in Ask.com marketing since his retirement, but has never been fully restored as the brand's mascot. The 2006 removal remains one of the most debated branding decisions in internet history.</p>
+<!-- authored-by: dana --><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-icq-instant-messenger.html">What Happened to ICQ? The First Instant Messenger That Changed Everything</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
                 </div>
                 <div class="resize-handle resize-handle-n"></div>
                 <div class="resize-handle resize-handle-s"></div>
@@ -2042,8 +2044,14 @@ The Jeeves character has made occasional appearances in Ask.com marketing since 
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
-            const allTags = [...new Set(blogPosts.flatMap(p => p.tags))].sort();
-            container.innerHTML = allTags.map(tag => `
+            // Count posts per tag, sort by frequency, cap at 8 filters
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
                 <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
                         onclick="toggleTag('${tag}')">${tag}</button>
             `).join('');

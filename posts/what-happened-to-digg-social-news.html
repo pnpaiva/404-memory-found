@@ -1667,6 +1667,7 @@
 <h3>Could Digg have survived with different choices?</h3>
 
 <p>Possibly. If the v4 redesign had included community feedback, retained the bury button, and been rolled out more gradually, the backlash might have been survivable. But deeper structural issues — venture capital pressure, competition from Twitter, and the shift toward algorithm-driven personal feeds — suggest that even with perfect execution, Digg's days as a top-tier platform were probably numbered. The v4 redesign didn't just accelerate an inevitable decline; it created a cliff.</p>
+<!-- authored-by: dana -->
                 <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
                     <strong>Related Posts:</strong>
                     <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
@@ -1846,7 +1847,8 @@
 
 <h3>Could Digg have survived with different choices?</h3>
 
-<p>Possibly. If the v4 redesign had included community feedback, retained the bury button, and been rolled out more gradually, the backlash might have been survivable. But deeper structural issues — venture capital pressure, competition from Twitter, and the shift toward algorithm-driven personal feeds — suggest that even with perfect execution, Digg's days as a top-tier platform were probably numbered. The v4 redesign didn't just accelerate an inevitable decline; it created a cliff.</p><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-second-life-virtual-world.html">What Happened to Second Life? The Virtual World That Predicted the Metaverse</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
+<p>Possibly. If the v4 redesign had included community feedback, retained the bury button, and been rolled out more gradually, the backlash might have been survivable. But deeper structural issues — venture capital pressure, competition from Twitter, and the shift toward algorithm-driven personal feeds — suggest that even with perfect execution, Digg's days as a top-tier platform were probably numbered. The v4 redesign didn't just accelerate an inevitable decline; it created a cliff.</p>
+<!-- authored-by: dana --><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-second-life-virtual-world.html">What Happened to Second Life? The Virtual World That Predicted the Metaverse</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
                 </div>
                 <div class="resize-handle resize-handle-n"></div>
                 <div class="resize-handle resize-handle-s"></div>
@@ -2035,8 +2037,14 @@
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
-            const allTags = [...new Set(blogPosts.flatMap(p => p.tags))].sort();
-            container.innerHTML = allTags.map(tag => `
+            // Count posts per tag, sort by frequency, cap at 8 filters
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
                 <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
                         onclick="toggleTag('${tag}')">${tag}</button>
             `).join('');

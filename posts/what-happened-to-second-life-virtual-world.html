@@ -1649,6 +1649,7 @@
 <h3>Is Second Life relevant in 2026?</h3>
 
 <p>Second Life occupies a unique position in 2026. While it has receded from mainstream consciousness, it continues to attract artists, educators, researchers, and creative practitioners. As the broader metaverse hype cycle has matured, Second Life's decades of operational history have paradoxically made it more relevant, not less — a working, stable, community-driven virtual world that does not require corporate hype to justify its existence.</p>
+<!-- authored-by: dana -->
                 <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
                     <strong>Related Posts:</strong>
                     <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
@@ -1810,7 +1811,8 @@
 
 <h3>Is Second Life relevant in 2026?</h3>
 
-<p>Second Life occupies a unique position in 2026. While it has receded from mainstream consciousness, it continues to attract artists, educators, researchers, and creative practitioners. As the broader metaverse hype cycle has matured, Second Life's decades of operational history have paradoxically made it more relevant, not less — a working, stable, community-driven virtual world that does not require corporate hype to justify its existence.</p><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-digg-social-news.html">What Happened to Digg? The Site That Handed the Internet to Reddit</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
+<p>Second Life occupies a unique position in 2026. While it has receded from mainstream consciousness, it continues to attract artists, educators, researchers, and creative practitioners. As the broader metaverse hype cycle has matured, Second Life's decades of operational history have paradoxically made it more relevant, not less — a working, stable, community-driven virtual world that does not require corporate hype to justify its existence.</p>
+<!-- authored-by: dana --><div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;"><strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;"><li style="padding:5px 0;"><a href="/posts/what-happened-to-digg-social-news.html">What Happened to Digg? The Site That Handed the Internet to Reddit</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-microsoft-encarta.html">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</a></li><li style="padding:5px 0;"><a href="/posts/what-happened-to-realplayer-streaming.html">What Happened to RealPlayer? The Most Hated Software That Invented Streaming</a></li></ul></div><div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:'MS Sans Serif',Arial,sans-serif;">&larr; Back to Blog</a></div>
                 </div>
                 <div class="resize-handle resize-handle-n"></div>
                 <div class="resize-handle resize-handle-s"></div>
@@ -1999,8 +2001,14 @@
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
-            const allTags = [...new Set(blogPosts.flatMap(p => p.tags))].sort();
-            container.innerHTML = allTags.map(tag => `
+            // Count posts per tag, sort by frequency, cap at 8 filters
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
                 <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
                         onclick="toggleTag('${tag}')">${tag}</button>
             `).join('');
