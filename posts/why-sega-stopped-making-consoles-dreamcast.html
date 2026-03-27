@@ -1251,24 +1251,146 @@
                 transition: opacity 0.3s;
             }
 
-            /* Under Construction */
-            .under-construction {
-                position: absolute;
-                bottom: 50px;
-                left: 15px;
-                cursor: pointer;
-                image-rendering: pixelated;
-            }
-            .under-construction:hover { opacity: 0.8; }
-
-            /* Speaker icon in taskbar */
-            .taskbar-speaker {
+            /* Taskbar tray icons */
+            .taskbar-speaker, .taskbar-network {
                 padding: 2px 4px;
                 cursor: pointer;
                 font-size: 14px;
                 margin-right: 4px;
             }
-            .taskbar-speaker:hover { background: #bbb; }
+            .taskbar-speaker:hover, .taskbar-network:hover { background: #bbb; }
+
+            /* Dial-up Connection Dialog */
+            .dialup-overlay {
+                display: none;
+                position: fixed;
+                top: 0; left: 0; right: 0; bottom: 0;
+                background: rgba(0,0,0,0.3);
+                z-index: 9000;
+                justify-content: center;
+                align-items: center;
+            }
+            .dialup-dialog {
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                width: 380px;
+                box-shadow: 2px 2px 0 #000;
+                font-family: 'MS Sans Serif', 'Pixelated MS Sans Serif', Arial, sans-serif;
+            }
+            .dialup-titlebar {
+                background: linear-gradient(90deg, #000080, #1084d0);
+                color: white;
+                padding: 3px 4px;
+                font-weight: bold;
+                font-size: 13px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .dialup-titlebar button {
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                width: 18px;
+                height: 18px;
+                font-size: 10px;
+                cursor: pointer;
+                line-height: 1;
+                padding: 0;
+            }
+            .dialup-body {
+                padding: 16px;
+            }
+            .dialup-icon-row {
+                display: flex;
+                align-items: flex-start;
+                gap: 12px;
+                margin-bottom: 12px;
+            }
+            .dialup-computers {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin: 12px auto;
+                justify-content: center;
+            }
+            .dialup-computer-icon {
+                font-size: 28px;
+            }
+            .dialup-signal {
+                display: flex;
+                gap: 2px;
+                align-items: center;
+            }
+            .dialup-signal-dot {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #808080;
+                transition: background 0.2s;
+            }
+            .dialup-signal-dot.active {
+                background: #00aa00;
+            }
+            .dialup-status {
+                font-size: 12px;
+                margin-top: 8px;
+                min-height: 16px;
+            }
+            .dialup-status-line {
+                margin: 3px 0;
+            }
+            .dialup-speed {
+                font-size: 11px;
+                color: #666;
+                margin-top: 4px;
+            }
+            .dialup-buttons {
+                display: flex;
+                justify-content: flex-end;
+                gap: 6px;
+                margin-top: 14px;
+            }
+            .dialup-btn {
+                background: #dfdfdf;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                padding: 3px 16px;
+                font-size: 12px;
+                cursor: pointer;
+                font-family: inherit;
+                min-width: 70px;
+            }
+            .dialup-btn:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+            }
+            .dialup-progress {
+                width: 100%;
+                height: 14px;
+                background: #fff;
+                border: 1px inset #808080;
+                margin-top: 8px;
+                overflow: hidden;
+            }
+            .dialup-progress-fill {
+                height: 100%;
+                width: 0%;
+                background: repeating-linear-gradient(90deg, #000080 0px, #000080 8px, transparent 8px, transparent 10px);
+                transition: width 0.3s ease-out;
+            }
 
             /* Start Menu */
             .start-menu {
@@ -1940,6 +2062,7 @@
             <button class="start-button" onclick="toggleStartMenu()">Start</button>
             <div class="taskbar-buttons" id="taskbar-buttons"></div>
             <div class="taskbar-spacer"></div>
+            <div class="taskbar-network" onclick="openDialUpDialog()" title="Internet Connection">🖧</div>
             <div class="taskbar-speaker" onclick="playDialUpSound()" title="Volume">🔊</div>
             <div class="taskbar-clock" id="taskbar-clock"><span id="visitor-count" style="margin-right:8px;opacity:0.85;"></span><span id="clock-time">00:00</span></div>
         </div>
@@ -2721,7 +2844,7 @@
                 // Only start selection on left-click directly on the desktop area (not on icons or windows)
                 if (e.button !== 0) return;
                 const target = e.target;
-                if (target.closest('.desktop-icon') || target.closest('.window') || target.closest('.under-construction')) return;
+                if (target.closest('.desktop-icon') || target.closest('.window')) return;
 
                 isDragging = true;
                 const rect = desktopArea.getBoundingClientRect();
@@ -3181,6 +3304,78 @@
         document.getElementById('pong-name-input').addEventListener('keydown', (e) => {
             if (e.key === 'Enter') submitPongScore();
         });
+
+        // ==========================================
+        // DIAL-UP CONNECTION DIALOG
+        // ==========================================
+        let dialUpTimer = null;
+        let dialUpConnected = false;
+
+        function openDialUpDialog() {
+            const overlay = document.getElementById('dialup-overlay');
+            overlay.style.display = 'flex';
+            // Reset state
+            dialUpConnected = false;
+            document.getElementById('dialup-status').innerHTML = '<div class="dialup-status-line">Status: Ready to connect</div>';
+            document.getElementById('dialup-progress-fill').style.width = '0%';
+            document.getElementById('dialup-speed').textContent = '';
+            document.getElementById('dialup-connect-btn').textContent = 'Connect';
+            document.getElementById('dialup-connect-btn').disabled = false;
+            document.querySelectorAll('#dialup-signal .dialup-signal-dot').forEach(d => d.classList.remove('active'));
+        }
+
+        function closeDialUp() {
+            document.getElementById('dialup-overlay').style.display = 'none';
+            if (dialUpTimer) { clearTimeout(dialUpTimer); dialUpTimer = null; }
+        }
+
+        function startDialUpConnection() {
+            if (dialUpConnected) { closeDialUp(); return; }
+            const btn = document.getElementById('dialup-connect-btn');
+            btn.textContent = 'Connecting...';
+            btn.disabled = true;
+            const status = document.getElementById('dialup-status');
+            const fill = document.getElementById('dialup-progress-fill');
+            const speed = document.getElementById('dialup-speed');
+            const dots = document.querySelectorAll('#dialup-signal .dialup-signal-dot');
+
+            // Play dial-up sound
+            playDialUpSound();
+
+            const steps = [
+                { msg: 'Dialing 1-800-NOSTALGIA...', pct: 10, delay: 0 },
+                { msg: 'Dialing 1-800-NOSTALGIA...', pct: 15, delay: 600 },
+                { msg: 'Ringing...', pct: 20, delay: 1200 },
+                { msg: 'Ringing...', pct: 25, delay: 1600 },
+                { msg: 'Modem handshaking...', pct: 35, delay: 2000, dotIdx: 0 },
+                { msg: 'Modem handshaking...', pct: 45, delay: 2500, dotIdx: 1 },
+                { msg: 'Verifying username and password...', pct: 55, delay: 3000, dotIdx: 2 },
+                { msg: 'Authenticating... user: webmaster', pct: 65, delay: 3500 },
+                { msg: 'Obtaining IP address from DHCP...', pct: 75, delay: 4000, dotIdx: 3 },
+                { msg: 'IP assigned: 192.168.0.' + Math.floor(Math.random() * 254 + 1), pct: 85, delay: 4400 },
+                { msg: 'Registering on the information superhighway...', pct: 90, delay: 4800, dotIdx: 4 },
+                { msg: 'Connected!', pct: 100, delay: 5400 }
+            ];
+
+            steps.forEach(function(step) {
+                dialUpTimer = setTimeout(function() {
+                    status.innerHTML = '<div class="dialup-status-line">Status: ' + step.msg + '</div>';
+                    fill.style.width = step.pct + '%';
+                    if (typeof step.dotIdx !== 'undefined') {
+                        for (let d = 0; d <= step.dotIdx; d++) {
+                            dots[d].classList.add('active');
+                        }
+                    }
+                    if (step.pct === 100) {
+                        speed.textContent = 'Connected at 56,000 bps  |  Duration: 00:00:0' + Math.floor(Math.random() * 4 + 3);
+                        btn.textContent = 'Disconnect';
+                        btn.disabled = false;
+                        dialUpConnected = true;
+                        dots.forEach(d => d.classList.add('active'));
+                    }
+                }, step.delay);
+            });
+        }
 
         // ==========================================
         // EASTER EGGS
