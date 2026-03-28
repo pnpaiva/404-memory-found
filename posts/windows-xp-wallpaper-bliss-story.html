@@ -1866,7 +1866,7 @@
 
 <p>Here's the thing that blows people's minds: there was zero post-processing. No Photoshop, no color correction, no digital enhancement of any kind. The colors in "Bliss" are exactly what the Velvia film captured that day. The grass really was that green (thanks to recent rain and the absence of grapevines, which had been removed due to a phylloxera infestation). The sky really was that blue. The clouds really were that perfect.</p>
 
-<p>O'Rear submitted the photo to the stock photo agency Corbis, which happened to be owned by Bill Gates. When Microsoft was developing Windows XP in 2000, they needed a default wallpaper that felt calming, universal, and — importantly — that didn't feature any identifiable trademarks, buildings, or people that could cause legal issues in any country. "Bliss" was perfect.</p>
+<p>O'Rear submitted the photo to the stock photo agency Corbis, which happened to be owned by Bill Gates. When <a href="/#/post/microsoft-tried-buy-nintendo" onclick="event.preventDefault(); openPost('microsoft-tried-buy-nintendo')">Microsoft</a> was developing Windows XP in 2000, they needed a default wallpaper that felt calming, universal, and — importantly — that didn't feature any identifiable trademarks, buildings, or people that could cause legal issues in any country. "Bliss" was perfect.</p>
 
 <figure style="margin:20px 0;text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Napa_Valley_grapevines.jpg/960px-Napa_Valley_grapevines.jpg" alt="Napa Valley grapevines and green hills" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The most viewed photograph in history started as a Sonoma County hillside</figcaption></figure>
 
@@ -1886,7 +1886,7 @@
 
 <p>Even without the vines, the conditions that created "Bliss" were a perfect storm that would be extremely difficult to replicate. The unusual green was a result of the specific rainfall pattern that winter combined with the bare soil left after the phylloxera-damaged old vines were removed. The light, the clouds, the season — everything had to align for that one moment. O'Rear himself has said he could never recreate the shot, even if the hill were restored to its original state.</p>
 
-<p>In 2006, photographer Goldin+Senneby visited the location and photographed the hill in its current vineyard state, creating a stark before-and-after comparison that went viral. The contrast is jarring — the dreamlike landscape replaced by agricultural utility. It's almost a metaphor for the internet itself: something beautiful and pure, gradually commercialized.</p>
+<p>In 2006, photographer Goldin+Senneby visited the location and photographed the hill in its current vineyard state, creating a stark before-and-after comparison that went viral. The contrast is jarring — the dreamlike landscape replaced by agricultural utility. It's almost a metaphor for the <a href="/#/post/first-online-purchase-pizza" onclick="event.preventDefault(); openPost('first-online-purchase-pizza')">internet</a> itself: something beautiful and pure, gradually commercialized.</p>
 
 <h2>Cultural Impact: Why Bliss Became Iconic</h2>
 
@@ -1989,7 +1989,7 @@
 
 <p>Here's the thing that blows people's minds: there was zero post-processing. No Photoshop, no color correction, no digital enhancement of any kind. The colors in "Bliss" are exactly what the Velvia film captured that day. The grass really was that green (thanks to recent rain and the absence of grapevines, which had been removed due to a phylloxera infestation). The sky really was that blue. The clouds really were that perfect.</p>
 
-<p>O'Rear submitted the photo to the stock photo agency Corbis, which happened to be owned by Bill Gates. When Microsoft was developing Windows XP in 2000, they needed a default wallpaper that felt calming, universal, and — importantly — that didn't feature any identifiable trademarks, buildings, or people that could cause legal issues in any country. "Bliss" was perfect.</p>
+<p>O'Rear submitted the photo to the stock photo agency Corbis, which happened to be owned by Bill Gates. When <a href="/#/post/microsoft-tried-buy-nintendo" onclick="event.preventDefault(); openPost('microsoft-tried-buy-nintendo')">Microsoft</a> was developing Windows XP in 2000, they needed a default wallpaper that felt calming, universal, and — importantly — that didn't feature any identifiable trademarks, buildings, or people that could cause legal issues in any country. "Bliss" was perfect.</p>
 
 <figure style="margin:20px 0;text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Napa_Valley_grapevines.jpg/960px-Napa_Valley_grapevines.jpg" alt="Napa Valley grapevines and green hills" style="max-width:100%;height:auto;border:2px solid #808080;box-shadow:2px 2px 0px #000;" loading="lazy"><figcaption style="font-size:10px;color:#666;margin-top:6px;font-style:italic;">The most viewed photograph in history started as a Sonoma County hillside</figcaption></figure>
 
@@ -2009,7 +2009,7 @@
 
 <p>Even without the vines, the conditions that created "Bliss" were a perfect storm that would be extremely difficult to replicate. The unusual green was a result of the specific rainfall pattern that winter combined with the bare soil left after the phylloxera-damaged old vines were removed. The light, the clouds, the season — everything had to align for that one moment. O'Rear himself has said he could never recreate the shot, even if the hill were restored to its original state.</p>
 
-<p>In 2006, photographer Goldin+Senneby visited the location and photographed the hill in its current vineyard state, creating a stark before-and-after comparison that went viral. The contrast is jarring — the dreamlike landscape replaced by agricultural utility. It's almost a metaphor for the internet itself: something beautiful and pure, gradually commercialized.</p>
+<p>In 2006, photographer Goldin+Senneby visited the location and photographed the hill in its current vineyard state, creating a stark before-and-after comparison that went viral. The contrast is jarring — the dreamlike landscape replaced by agricultural utility. It's almost a metaphor for the <a href="/#/post/first-online-purchase-pizza" onclick="event.preventDefault(); openPost('first-online-purchase-pizza')">internet</a> itself: something beautiful and pure, gradually commercialized.</p>
 
 <h2>Cultural Impact: Why Bliss Became Iconic</h2>
 
@@ -2460,6 +2460,15 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            }
+        }
+
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
             }
         }
 

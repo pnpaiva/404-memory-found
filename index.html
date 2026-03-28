@@ -2066,6 +2066,7 @@
                             <button class="share-button" onclick="copyPostLink()">Copy Link</button>
                             <button class="share-button" onclick="shareOnTwitter()">Share on Twitter</button>
                             <button class="share-button" onclick="shareOnFacebook()">Share on Facebook</button>
+                            <button class="share-button" onclick="shareOnThreads()">Share on Threads</button>
                         </div>
                         <div class="related-posts">
                             <div class="related-posts-title">Related Posts:</div>
@@ -2857,6 +2858,15 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            }
+        }
+
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
             }
         }
 
@@ -4082,11 +4092,6 @@
 <li><a href="/posts/what-happened-to-blackberry-smartphone.html">What Happened to BlackBerry? The Phone That Ruled Before iPhone</a> - 2026-03-27</li>
 <li><a href="/posts/what-happened-to-digg-social-news.html">What Happened to Digg? The Site That Handed the Internet to Reddit</a> - 2026-03-27</li>
 <li><a href="/posts/what-happened-to-second-life-virtual-world.html">What Happened to Second Life? The Virtual World That Predicted the Metaverse</a> - 2026-03-27</li>
-<li><a href="/posts/what-happened-to-frys-electronics-tech-superstore.html">What Happened to Fry's Electronics? The Tech Superstore That Was Its Own Theme Park</a> - 2026-03-28</li>
-<li><a href="/posts/what-happened-to-friendster-first-social-network.html">What Happened to Friendster? The Social Network That Invented Everything and Lost It All</a> - 2026-03-28</li>
-<li><a href="/posts/how-sony-playstation-was-born-from-nintendo-betrayal.html">How the PlayStation Was Born from Nintendo's Biggest Betrayal</a> - 2026-03-28</li>
-<li><a href="/posts/what-happened-to-altavista-search-engine.html">What Happened to AltaVista? The Search Engine Before Google</a> - 2026-03-28</li>
-<li><a href="/posts/what-happened-to-circuit-city-the-electronics-empire-that-fired-its-way-to-death.html">What Happened to Circuit City? The Store That Fired Its Way to Death</a> - 2026-03-28</li>
 </ul>
 </div>
 </noscript>

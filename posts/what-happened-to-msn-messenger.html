@@ -1857,9 +1857,9 @@
                 <article>
 <p>There was a time when the most important sound in your life was a door opening. Not a real door — the MSN Messenger sign-in sound. That little <em>buh-duh-DING</em> meant your friends were online, school drama was about to unfold, and you were definitely not going to finish your homework.</p>
 
-<p>MSN Messenger wasn't just a chat app. For an entire generation of internet users — roughly anyone born between 1985 and 1995 — it was <em>the</em> social network before social networks existed. It was where crushes were confessed through carefully worded status messages, where friendships were tested by who made it onto your "top contacts" list, and where you spent hours picking the perfect display name with just the right amount of ASCII art and emo lyrics.</p>
+<p>MSN Messenger wasn't just a chat app. For an entire generation of <a href="/#/post/first-online-purchase-pizza" onclick="event.preventDefault(); openPost('first-online-purchase-pizza')">internet</a> users — roughly anyone born between 1985 and 1995 — it was <em>the</em> social network before social networks existed. It was where crushes were confessed through carefully worded status messages, where friendships were tested by who made it onto your "top contacts" list, and where you spent hours picking the perfect display name with just the right amount of ASCII art and emo lyrics.</p>
 
-<p>And then Microsoft killed it. Replaced it with Skype. And nothing was ever the same. So what actually happened to MSN Messenger, and why do so many people still miss it?</p>
+<p>And then <a href="/#/post/microsoft-tried-buy-nintendo" onclick="event.preventDefault(); openPost('microsoft-tried-buy-nintendo')">Microsoft</a> killed it. Replaced it with Skype. And nothing was ever the same. So what actually happened to MSN Messenger, and why do so many people still miss it?</p>
 
 <h2>The Birth of MSN Messenger: Microsoft's Answer to <a href="/#/post/what-happened-to-aim-aol-instant-messenger" onclick="event.preventDefault(); openPost('what-happened-to-aim-aol-instant-messenger')">AIM</a> and <a href="/#/post/what-happened-to-icq-instant-messenger" onclick="event.preventDefault(); openPost('what-happened-to-icq-instant-messenger')">ICQ</a></h2>
 
@@ -1978,9 +1978,9 @@
                     <article>
 <p>There was a time when the most important sound in your life was a door opening. Not a real door — the MSN Messenger sign-in sound. That little <em>buh-duh-DING</em> meant your friends were online, school drama was about to unfold, and you were definitely not going to finish your homework.</p>
 
-<p>MSN Messenger wasn't just a chat app. For an entire generation of internet users — roughly anyone born between 1985 and 1995 — it was <em>the</em> social network before social networks existed. It was where crushes were confessed through carefully worded status messages, where friendships were tested by who made it onto your "top contacts" list, and where you spent hours picking the perfect display name with just the right amount of ASCII art and emo lyrics.</p>
+<p>MSN Messenger wasn't just a chat app. For an entire generation of <a href="/#/post/first-online-purchase-pizza" onclick="event.preventDefault(); openPost('first-online-purchase-pizza')">internet</a> users — roughly anyone born between 1985 and 1995 — it was <em>the</em> social network before social networks existed. It was where crushes were confessed through carefully worded status messages, where friendships were tested by who made it onto your "top contacts" list, and where you spent hours picking the perfect display name with just the right amount of ASCII art and emo lyrics.</p>
 
-<p>And then Microsoft killed it. Replaced it with Skype. And nothing was ever the same. So what actually happened to MSN Messenger, and why do so many people still miss it?</p>
+<p>And then <a href="/#/post/microsoft-tried-buy-nintendo" onclick="event.preventDefault(); openPost('microsoft-tried-buy-nintendo')">Microsoft</a> killed it. Replaced it with Skype. And nothing was ever the same. So what actually happened to MSN Messenger, and why do so many people still miss it?</p>
 
 <h2>The Birth of MSN Messenger: Microsoft's Answer to <a href="/#/post/what-happened-to-aim-aol-instant-messenger" onclick="event.preventDefault(); openPost('what-happened-to-aim-aol-instant-messenger')">AIM</a> and <a href="/#/post/what-happened-to-icq-instant-messenger" onclick="event.preventDefault(); openPost('what-happened-to-icq-instant-messenger')">ICQ</a></h2>
 
@@ -2456,6 +2456,15 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            }
+        }
+
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
             }
         }
 

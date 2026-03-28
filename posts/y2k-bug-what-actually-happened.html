@@ -2453,6 +2453,15 @@
             }
         }
 
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
+            }
+        }
+
         function initializeTaskbar() {
             populateTagFilters();
             updateTaskbar();

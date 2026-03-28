@@ -2036,6 +2036,7 @@
                             <button class="share-button" onclick="copyPostLink()">Copy Link</button>
                             <button class="share-button" onclick="shareOnTwitter()">Share on Twitter</button>
                             <button class="share-button" onclick="shareOnFacebook()">Share on Facebook</button>
+                            <button class="share-button" onclick="shareOnThreads()">Share on Threads</button>
                         </div>
                         <div class="related-posts">
                             <div class="related-posts-title">Related Posts:</div>
@@ -2827,6 +2828,15 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            }
+        }
+
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
             }
         }
 

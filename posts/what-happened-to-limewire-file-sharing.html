@@ -1867,7 +1867,7 @@
 
 <p>LimeWire launched in 2000, created by Mark Gorton, a Wall Street trader turned tech entrepreneur. It was built on the Gnutella peer-to-peer (P2P) network, which meant that instead of downloading files from a central server, you were downloading directly from other people's computers. There was no central library — every LimeWire user's shared folder became part of a massive, decentralized network of files.</p>
 
-<p>The appeal was simple and devastating for the music industry: you could type in the name of literally any song, hit search, and download it for free. No subscription, no credit card, no DRM restrictions. Just click, wait a few minutes (or a few hours, depending on your internet speed), and the MP3 was yours. For a generation that grew up with $18 CDs at Best Buy, this felt like discovering a cheat code for life.</p>
+<p>The appeal was simple and devastating for the music industry: you could type in the name of literally any song, hit search, and download it for free. No subscription, no credit card, no DRM restrictions. Just click, wait a few minutes (or a few hours, depending on your <a href="/#/post/first-online-purchase-pizza" onclick="event.preventDefault(); openPost('first-online-purchase-pizza')">internet</a> speed), and the MP3 was yours. For a generation that grew up with $18 CDs at Best Buy, this felt like discovering a cheat code for life.</p>
 
 <p>LimeWire wasn't the first P2P file-sharing program — <a href="/#/post/napster-destroyed-music" onclick="event.preventDefault(); openPost('napster-destroyed-music')">Napster</a> had pioneered the concept before being shut down in 2001 — but it was arguably the most popular and long-lived. After Napster's court-ordered shutdown, millions of users migrated to alternatives like LimeWire, Kazaa, and BearShare. LimeWire's clean interface, relatively fast downloads, and free basic version made it the Napster successor of choice for most people.</p>
 
@@ -1903,7 +1903,7 @@
 
 <p>The LimeWire era feels like a different universe compared to how we consume music today. In the 2000s, getting music digitally meant either paying $0.99 per song on iTunes (which felt outrageous when LimeWire was free) or taking your chances with file sharing. There was no middle ground.</p>
 
-<p>Today, streaming services have essentially solved the problem that LimeWire exploited. Spotify, Apple Music, YouTube Music, and others offer unlimited access to virtually every song ever recorded for about $10-15 per month. The entire argument for piracy — "music is too expensive and too hard to access legally" — has been largely neutralized by streaming.</p>
+<p>Today, streaming services have essentially solved the problem that LimeWire exploited. Spotify, <a href="/#/post/when-apple-almost-went-bankrupt-1997" onclick="event.preventDefault(); openPost('when-apple-almost-went-bankrupt-1997')">Apple</a> Music, YouTube Music, and others offer unlimited access to virtually every song ever recorded for about $10-15 per month. The entire argument for piracy — "music is too expensive and too hard to access legally" — has been largely neutralized by streaming.</p>
 
 <p>But here's the irony: the music industry's fight against LimeWire and P2P file sharing ultimately forced them to adapt in ways they never would have voluntarily. Without the piracy crisis of the 2000s, the music industry would have happily continued selling $18 CDs forever. Piracy forced them to embrace digital distribution, which eventually led to the streaming model that now generates billions in revenue. In a twisted way, LimeWire and its users dragged the music industry — kicking and screaming — into the modern era.</p>
 
@@ -1997,7 +1997,7 @@
 
 <p>LimeWire launched in 2000, created by Mark Gorton, a Wall Street trader turned tech entrepreneur. It was built on the Gnutella peer-to-peer (P2P) network, which meant that instead of downloading files from a central server, you were downloading directly from other people's computers. There was no central library — every LimeWire user's shared folder became part of a massive, decentralized network of files.</p>
 
-<p>The appeal was simple and devastating for the music industry: you could type in the name of literally any song, hit search, and download it for free. No subscription, no credit card, no DRM restrictions. Just click, wait a few minutes (or a few hours, depending on your internet speed), and the MP3 was yours. For a generation that grew up with $18 CDs at Best Buy, this felt like discovering a cheat code for life.</p>
+<p>The appeal was simple and devastating for the music industry: you could type in the name of literally any song, hit search, and download it for free. No subscription, no credit card, no DRM restrictions. Just click, wait a few minutes (or a few hours, depending on your <a href="/#/post/first-online-purchase-pizza" onclick="event.preventDefault(); openPost('first-online-purchase-pizza')">internet</a> speed), and the MP3 was yours. For a generation that grew up with $18 CDs at Best Buy, this felt like discovering a cheat code for life.</p>
 
 <p>LimeWire wasn't the first P2P file-sharing program — <a href="/#/post/napster-destroyed-music" onclick="event.preventDefault(); openPost('napster-destroyed-music')">Napster</a> had pioneered the concept before being shut down in 2001 — but it was arguably the most popular and long-lived. After Napster's court-ordered shutdown, millions of users migrated to alternatives like LimeWire, Kazaa, and BearShare. LimeWire's clean interface, relatively fast downloads, and free basic version made it the Napster successor of choice for most people.</p>
 
@@ -2033,7 +2033,7 @@
 
 <p>The LimeWire era feels like a different universe compared to how we consume music today. In the 2000s, getting music digitally meant either paying $0.99 per song on iTunes (which felt outrageous when LimeWire was free) or taking your chances with file sharing. There was no middle ground.</p>
 
-<p>Today, streaming services have essentially solved the problem that LimeWire exploited. Spotify, Apple Music, YouTube Music, and others offer unlimited access to virtually every song ever recorded for about $10-15 per month. The entire argument for piracy — "music is too expensive and too hard to access legally" — has been largely neutralized by streaming.</p>
+<p>Today, streaming services have essentially solved the problem that LimeWire exploited. Spotify, <a href="/#/post/when-apple-almost-went-bankrupt-1997" onclick="event.preventDefault(); openPost('when-apple-almost-went-bankrupt-1997')">Apple</a> Music, YouTube Music, and others offer unlimited access to virtually every song ever recorded for about $10-15 per month. The entire argument for piracy — "music is too expensive and too hard to access legally" — has been largely neutralized by streaming.</p>
 
 <p>But here's the irony: the music industry's fight against LimeWire and P2P file sharing ultimately forced them to adapt in ways they never would have voluntarily. Without the piracy crisis of the 2000s, the music industry would have happily continued selling $18 CDs forever. Piracy forced them to embrace digital distribution, which eventually led to the streaming model that now generates billions in revenue. In a twisted way, LimeWire and its users dragged the music industry — kicking and screaming — into the modern era.</p>
 
@@ -2474,6 +2474,15 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            }
+        }
+
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
             }
         }
 

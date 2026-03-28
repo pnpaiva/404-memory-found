@@ -1854,7 +1854,7 @@
 
 <p>Research In Motion, the Canadian company that made BlackBerry, wasn't just successful — it was dominant. At its peak, BlackBerry held over 50 percent of the U.S. smartphone market. The company's revenue hit approximately $20 billion a year. Its stock traded at nearly $150 a share. It employed thousands of engineers in Waterloo, Ontario, and was considered one of the most innovative technology companies on the planet.</p>
 
-<p>Then Apple released the iPhone, and everything fell apart — not immediately, but with the slow, gathering inevitability of a glacier grinding a mountain into dust. Within six years of the iPhone's launch, BlackBerry's smartphone market share had fallen to effectively zero. The company that had defined mobile communication for a generation had been completely erased from the market it helped create.</p>
+<p>Then <a href="/#/post/when-apple-almost-went-bankrupt-1997" onclick="event.preventDefault(); openPost('when-apple-almost-went-bankrupt-1997')">Apple</a> released the iPhone, and everything fell apart — not immediately, but with the slow, gathering inevitability of a glacier grinding a mountain into dust. Within six years of the iPhone's launch, BlackBerry's smartphone market share had fallen to effectively zero. The company that had defined mobile communication for a generation had been completely erased from the market it helped create.</p>
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/BlackBerry_Bold_9900.JPG/960px-BlackBerry_Bold_9900.JPG" alt="BlackBerry Bold 9900, one of the last iconic BlackBerry smartphones with the signature physical QWERTY keyboard" loading="lazy" />
@@ -1893,7 +1893,7 @@
 
 <p>Jim Balsillie was equally unconcerned. In a 2007 interview, he dismissed the iPhone's impact on RIM's enterprise stronghold. The logic wasn't unreasonable: the iPhone was expensive ($499 for the base model), it was locked to AT&T in the U.S., it didn't even have 3G connectivity at launch, and it had no app store. The device RIM should have feared was actually quite limited in its first incarnation.</p>
 
-<p>The problem was that RIM confused the iPhone v1.0 with the iPhone as a platform. Apple's device improved dramatically with each generation. The App Store launched in July 2008 and fundamentally changed what a smartphone could be — suddenly it wasn't just about email, it was about everything. Meanwhile, Google's Android operating system launched in October 2008, creating a second touchscreen ecosystem that would further erode BlackBerry's position.</p>
+<p>The problem was that RIM confused the iPhone v1.0 with the iPhone as a platform. Apple's device improved dramatically with each generation. The App Store launched in July 2008 and fundamentally changed what a smartphone could be — suddenly it wasn't just about email, it was about everything. Meanwhile, <a href="/#/post/yahoo-rejected-google" onclick="event.preventDefault(); openPost('yahoo-rejected-google')">Google</a>'s Android operating system launched in October 2008, creating a second touchscreen ecosystem that would further erode BlackBerry's position.</p>
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BlackBerry_Curve_8520.jpg/960px-BlackBerry_Curve_8520.jpg" alt="BlackBerry Curve 8520, the affordable consumer model that helped BlackBerry reach mass market adoption" loading="lazy" />
@@ -2037,7 +2037,7 @@
 
 <p>Research In Motion, the Canadian company that made BlackBerry, wasn't just successful — it was dominant. At its peak, BlackBerry held over 50 percent of the U.S. smartphone market. The company's revenue hit approximately $20 billion a year. Its stock traded at nearly $150 a share. It employed thousands of engineers in Waterloo, Ontario, and was considered one of the most innovative technology companies on the planet.</p>
 
-<p>Then Apple released the iPhone, and everything fell apart — not immediately, but with the slow, gathering inevitability of a glacier grinding a mountain into dust. Within six years of the iPhone's launch, BlackBerry's smartphone market share had fallen to effectively zero. The company that had defined mobile communication for a generation had been completely erased from the market it helped create.</p>
+<p>Then <a href="/#/post/when-apple-almost-went-bankrupt-1997" onclick="event.preventDefault(); openPost('when-apple-almost-went-bankrupt-1997')">Apple</a> released the iPhone, and everything fell apart — not immediately, but with the slow, gathering inevitability of a glacier grinding a mountain into dust. Within six years of the iPhone's launch, BlackBerry's smartphone market share had fallen to effectively zero. The company that had defined mobile communication for a generation had been completely erased from the market it helped create.</p>
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/BlackBerry_Bold_9900.JPG/960px-BlackBerry_Bold_9900.JPG" alt="BlackBerry Bold 9900, one of the last iconic BlackBerry smartphones with the signature physical QWERTY keyboard" loading="lazy" />
@@ -2076,7 +2076,7 @@
 
 <p>Jim Balsillie was equally unconcerned. In a 2007 interview, he dismissed the iPhone's impact on RIM's enterprise stronghold. The logic wasn't unreasonable: the iPhone was expensive ($499 for the base model), it was locked to AT&T in the U.S., it didn't even have 3G connectivity at launch, and it had no app store. The device RIM should have feared was actually quite limited in its first incarnation.</p>
 
-<p>The problem was that RIM confused the iPhone v1.0 with the iPhone as a platform. Apple's device improved dramatically with each generation. The App Store launched in July 2008 and fundamentally changed what a smartphone could be — suddenly it wasn't just about email, it was about everything. Meanwhile, Google's Android operating system launched in October 2008, creating a second touchscreen ecosystem that would further erode BlackBerry's position.</p>
+<p>The problem was that RIM confused the iPhone v1.0 with the iPhone as a platform. Apple's device improved dramatically with each generation. The App Store launched in July 2008 and fundamentally changed what a smartphone could be — suddenly it wasn't just about email, it was about everything. Meanwhile, <a href="/#/post/yahoo-rejected-google" onclick="event.preventDefault(); openPost('yahoo-rejected-google')">Google</a>'s Android operating system launched in October 2008, creating a second touchscreen ecosystem that would further erode BlackBerry's position.</p>
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BlackBerry_Curve_8520.jpg/960px-BlackBerry_Curve_8520.jpg" alt="BlackBerry Curve 8520, the affordable consumer model that helped BlackBerry reach mass market adoption" loading="lazy" />
@@ -2576,6 +2576,15 @@
             if (currentSlug) {
                 const url = `${baseUrl}/#/post/${currentSlug}`;
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            }
+        }
+
+        function shareOnThreads() {
+            if (currentSlug) {
+                const post = blogPosts.find(p => p.slug === currentSlug);
+                const url = `${baseUrl}/#/post/${currentSlug}`;
+                const text = post.title + ' ' + url;
+                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
             }
         }
 
