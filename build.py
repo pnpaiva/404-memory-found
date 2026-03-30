@@ -393,6 +393,24 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         kw_list = [post['seo'].get('primaryKeyword', '')] + post['seo']['secondaryKeywords']
         seo_keywords = f'\n    <meta name="keywords" content="{", ".join(kw_list)}">'
 
+    # Build noscript fallback for crawlers that don't execute JS
+    noscript_links = ""
+    for other_post in all_posts[:12]:
+        if other_post['id'] != post['id']:
+            other_slug = get_slug_from_id(other_post['id'])
+            noscript_links += f'<li><a href="/posts/{other_slug}.html">{other_post["title"]}</a></li>\n'
+
+    # Strip HTML tags for plain text content (used in noscript)
+    plain_body = re.sub(r'<[^>]+>', ' ', post_body)
+    plain_body = re.sub(r'\s+', ' ', plain_body).strip()[:2000]
+
+    # CSS override for post pages: allow body scrolling for crawlers
+    css_override = """
+        /* Post page overrides for SEO crawlability */
+        html, body { overflow: auto !important; height: auto !important; }
+        .boot-animation { display: none !important; }
+    """
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -425,7 +443,7 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     <meta name="twitter:image" content="{og_image}">
     <meta name="author" content="{post['author']}">{seo_keywords}
     <link rel="canonical" href="{BASE_URL}/posts/{slug}.html">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <script type="application/ld+json">
     {post_schema}
     </script>{extra_schemas}
@@ -435,10 +453,19 @@ def generate_post_html(post, all_posts, html_content, posts_data):
 
     <style>
 {css}
+{css_override}
     </style>
 </head>
 <body>
     <!-- No boot animation on post pages for faster load -->
+
+    <!-- SEO: Semantic article content visible to all crawlers -->
+    <article id="seo-article" itemscope itemtype="https://schema.org/BlogPosting" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+        <h1 itemprop="headline">{post['title']}</h1>
+        <meta itemprop="datePublished" content="{post['date']}">
+        <meta itemprop="author" content="{post['author']}">
+        <div itemprop="articleBody">{post_body}</div>
+    </article>
 
     <!-- Mobile View -->
     <div class="mobile-container">
@@ -466,7 +493,6 @@ def generate_post_html(post, all_posts, html_content, posts_data):
 
     <!-- Desktop View -->
     <div class="desktop-container">
-        <h1 style="position: absolute; left: -9999px; top: -9999px;">{post['title']} | 404 Memory Found</h1>
 
         <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
             {desktop_icons}
@@ -474,6 +500,19 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         </div>
         {taskbar}
     </div>
+
+    <!-- Noscript fallback for crawlers that don't execute JavaScript -->
+    <noscript>
+    <div style="padding:20px;font-family:Arial,sans-serif;max-width:800px;margin:0 auto;">
+        <h1>{post['title']}</h1>
+        <p><em>{post['date']} by {post['author']}</em></p>
+        <div>{post_body}</div>
+        <hr>
+        <h2>More from 404 Memory Found</h2>
+        <ul>{noscript_links}</ul>
+        <p><a href="/">Back to 404 Memory Found homepage</a></p>
+    </div>
+    </noscript>
 
     <script>
 {post_js_wrapper}
