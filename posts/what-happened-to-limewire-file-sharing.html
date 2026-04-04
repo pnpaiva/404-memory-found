@@ -93,7 +93,7 @@
             transform: translateZ(0);
         }
 
-        /* Mobile View */
+        /* Mobile View — Win95 retro flavor */
         @media (max-width: 768px) {
             .desktop-container {
                 display: none;
@@ -104,103 +104,322 @@
                 flex-direction: column;
                 height: 100vh;
                 overflow: hidden;
-                background: #f0f0f0;
+                background: #008080;
             }
 
+            /* === TITLE BAR (Win95 style) === */
             .mobile-header {
-                padding: 20px;
-                background: linear-gradient(135deg, #008080 0%, #106B6B 100%);
+                background: linear-gradient(90deg, #000080 0%, #1084d0 100%);
                 color: white;
-                text-align: center;
+                padding: 8px 12px;
                 flex-shrink: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                border-bottom: 2px solid #000;
             }
 
             .mobile-header h1 {
-                font-size: 29px;
-                margin-bottom: 8px;
+                font-size: 15px;
+                font-weight: bold;
+                margin: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .mobile-header-icon {
+                font-size: 14px;
+                margin-right: 6px;
+                flex-shrink: 0;
+            }
+
+            .mobile-header-left {
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+                flex: 1;
+            }
+
+            .mobile-header-controls {
+                display: flex;
+                gap: 2px;
+                flex-shrink: 0;
+                margin-left: 8px;
+            }
+
+            .mobile-header-btn {
+                width: 18px;
+                height: 18px;
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                font-size: 10px;
+                line-height: 14px;
+                text-align: center;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                font-weight: bold;
+                color: #000;
+                cursor: pointer;
+                padding: 0;
             }
 
             .mobile-header p {
-                font-size: 19px;
-                opacity: 0.9;
+                display: none;
             }
 
+            /* === TOOLBAR (search + filters) === */
+            .mobile-toolbar {
+                background: #c0c0c0;
+                border-bottom: 2px solid;
+                border-bottom-color: #808080;
+                padding: 8px 10px;
+                flex-shrink: 0;
+            }
+
+            .mobile-search-row {
+                display: flex;
+                gap: 6px;
+                margin-bottom: 8px;
+            }
+
+            .mobile-search-input {
+                flex: 1;
+                padding: 4px 8px;
+                font-size: 14px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                border: 2px solid;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+                background: #fff;
+                outline: none;
+            }
+
+            .mobile-search-btn {
+                padding: 4px 12px;
+                font-size: 13px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .mobile-search-btn:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+            }
+
+            .mobile-tag-filters {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4px;
+            }
+
+            .mobile-tag-btn {
+                padding: 3px 10px;
+                font-size: 12px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                color: #000;
+            }
+
+            .mobile-tag-btn:active, .mobile-tag-btn.active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+                background: #a0a0a0;
+            }
+
+            /* === CONTENT AREA (Win95 window body) === */
             .mobile-content {
                 flex: 1;
                 overflow-y: auto;
                 padding: 0;
+                background: #c0c0c0;
+                border-left: 2px solid #fff;
+                border-top: 2px solid #fff;
             }
 
+            /* === POST LIST === */
             .mobile-post-list {
                 list-style: none;
+                padding: 6px;
             }
 
             .mobile-post-item {
-                padding: 16px;
-                border-bottom: 1px solid #ddd;
+                background: #fff;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                margin-bottom: 6px;
                 cursor: pointer;
-                background: white;
-                transition: background 0.2s;
+                display: flex;
+                overflow: hidden;
             }
 
             .mobile-post-item:active {
-                background: #e8e8e8;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+            }
+
+            .mobile-post-thumb {
+                width: 90px;
+                min-height: 80px;
+                background-size: cover;
+                background-position: center;
+                background-color: #ddd;
+                flex-shrink: 0;
+                border-right: 1px solid #c0c0c0;
+            }
+
+            .mobile-post-info {
+                flex: 1;
+                padding: 8px 10px;
+                min-width: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
             }
 
             .mobile-post-item h3 {
-                font-size: 19px;
-                margin-bottom: 6px;
-                color: #333;
+                font-size: 14px;
+                margin-bottom: 3px;
+                color: #000080;
+                font-weight: bold;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
             }
 
             .mobile-post-date {
-                font-size: 19px;
+                font-size: 11px;
                 color: #666;
-                margin-bottom: 8px;
+                margin-bottom: 4px;
+            }
+
+            .mobile-post-reading-time {
+                color: #888;
+                font-size: 11px;
             }
 
             .mobile-post-excerpt {
-                font-size: 16px;
-                color: #555;
-                line-height: 1.5;
+                font-size: 12px;
+                color: #444;
+                line-height: 1.4;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
             }
 
+            .mobile-post-tags {
+                font-size: 10px;
+                color: #008080;
+                margin-top: 3px;
+            }
+
+            /* === POST DETAIL VIEW === */
             .mobile-post-detail {
-                padding: 16px;
-                background: white;
+                padding: 12px;
+                background: #fff;
+                margin: 6px;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
             }
 
             .mobile-back-btn {
-                background: #008080;
-                color: white;
-                border: none;
-                padding: 10px 16px;
-                font-size: 19px;
-                border-radius: 4px;
+                background: #c0c0c0;
+                color: #000;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                padding: 5px 14px;
+                font-size: 13px;
                 cursor: pointer;
-                margin-bottom: 16px;
-                font-family: inherit;
+                margin-bottom: 12px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                border-radius: 0;
             }
 
             .mobile-back-btn:active {
-                background: #006666;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+            }
+
+            /* Reading progress bar (mobile) */
+            .mobile-reading-progress {
+                height: 4px;
+                background: #c0c0c0;
+                border: 1px solid;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+                margin-bottom: 10px;
+                position: sticky;
+                top: 0;
+                z-index: 50;
+            }
+
+            .mobile-reading-progress-fill {
+                height: 100%;
+                background: #000080;
+                width: 0%;
+                transition: width 0.15s linear;
             }
 
             .mobile-post-detail h2 {
-                font-size: 25px;
-                color: #333;
-                margin-bottom: 8px;
+                font-size: 18px;
+                color: #000080;
+                margin-bottom: 4px;
                 line-height: 1.3;
+                font-weight: bold;
             }
 
             .mobile-detail-date {
-                font-size: 19px;
+                font-size: 12px;
                 color: #666;
-                margin-bottom: 16px;
+                margin-bottom: 14px;
+                padding-bottom: 8px;
+                border-bottom: 1px solid #c0c0c0;
             }
 
             .mobile-detail-body {
-                font-size: 19px;
+                font-size: 15px;
                 line-height: 1.7;
                 color: #333;
             }
@@ -208,8 +427,12 @@
             .mobile-detail-body img {
                 max-width: 100%;
                 height: auto;
-                border-radius: 4px;
-                margin: 12px 0;
+                margin: 10px 0;
+                border: 2px solid;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
             }
 
             .mobile-detail-body p {
@@ -217,56 +440,140 @@
             }
 
             .mobile-detail-body h2, .mobile-detail-body h3 {
-                margin-top: 20px;
+                margin-top: 18px;
                 margin-bottom: 8px;
+                color: #000080;
+            }
+
+            .mobile-detail-body a {
+                color: #000080;
+                text-decoration: underline;
             }
 
             .mobile-related {
-                margin-top: 24px;
-                padding-top: 16px;
-                border-top: 1px solid #ddd;
+                margin-top: 20px;
+                padding-top: 12px;
+                border-top: 2px solid #c0c0c0;
             }
 
             .mobile-related-title {
-                font-size: 19px;
+                font-size: 14px;
                 font-weight: bold;
-                color: #333;
-                margin-bottom: 10px;
+                color: #000;
+                margin-bottom: 8px;
             }
 
             .mobile-related-item {
                 display: block;
-                padding: 10px 0;
-                color: #008080;
+                padding: 8px;
+                color: #000080;
                 text-decoration: none;
-                font-size: 19px;
-                border-bottom: 1px solid #eee;
+                font-size: 13px;
+                background: #f0f0f0;
+                border: 1px solid #c0c0c0;
+                margin-bottom: 4px;
             }
 
             .mobile-related-item:active {
-                color: #006666;
+                background: #000080;
+                color: #fff;
             }
 
+            /* === STATUS BAR / FOOTER (Win95 taskbar style) === */
             .mobile-footer {
-                padding: 8px;
-                background: #333;
-                color: #aaa;
-                text-align: center;
-                font-size: 10px;
+                padding: 4px 8px;
+                background: #c0c0c0;
+                color: #000;
+                font-size: 11px;
                 flex-shrink: 0;
-                border-top: 1px solid #555;
+                border-top: 2px solid;
+                border-top-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+            }
+
+            .mobile-footer-left {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+
+            .mobile-footer-start {
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                padding: 2px 10px 2px 4px;
+                font-size: 12px;
+                font-weight: bold;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+
+            .mobile-footer-start:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+            }
+
+            .mobile-footer-status {
+                border: 2px solid;
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
+                padding: 2px 8px;
+                font-size: 11px;
             }
 
             .mobile-footer a {
-                color: #4da6ff;
+                color: #000080;
                 text-decoration: none;
-                margin: 0 4px;
             }
 
             .mobile-tagline {
-                margin-top: 8px;
-                font-size: 19px;
-                opacity: 0.8;
+                display: none;
+            }
+
+            .mobile-footer > p:nth-child(2) {
+                display: none;
+            }
+
+            /* === SHARE BUTTONS (mobile post detail) === */
+            .mobile-share-row {
+                display: flex;
+                gap: 4px;
+                margin-top: 14px;
+                flex-wrap: wrap;
+            }
+
+            .mobile-share-btn {
+                padding: 4px 10px;
+                font-size: 11px;
+                font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+                background: #c0c0c0;
+                border: 2px solid;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                border-right-color: #808080;
+                border-bottom-color: #808080;
+                cursor: pointer;
+                color: #000;
+            }
+
+            .mobile-share-btn:active {
+                border-top-color: #808080;
+                border-left-color: #808080;
+                border-right-color: #fff;
+                border-bottom-color: #fff;
             }
         }
 
@@ -1950,15 +2257,26 @@
 <!-- authored-by: dana --></div>
     </article>
 
-    <!-- Mobile View -->
+    <!-- Mobile View (Win95 retro style) -->
     <div class="mobile-container">
         <div class="mobile-header">
-            <h1>What Happened to LimeWire? The Wild Story of Free Music</h1>
-            <p>2026-03-27 by 404 Memory Found</p>
+            <div class="mobile-header-left">
+                <span class="mobile-header-icon">📖</span>
+                <h1>What Happened to LimeWire? The Wild Story of Free Music</h1>
+            </div>
+            <div class="mobile-header-controls">
+                <span class="mobile-header-btn">_</span>
+                <span class="mobile-header-btn">□</span>
+                <span class="mobile-header-btn">×</span>
+            </div>
         </div>
         <div class="mobile-content">
-            <article style="padding:16px;">
-                <article>
+            <div class="mobile-post-detail" style="display:block;">
+                <a href="/" style="display:inline-block;padding:5px 14px;font-size:13px;font-family:'MS Sans Serif',Tahoma,Arial,sans-serif;background:#c0c0c0;color:#000;text-decoration:none;border:2px solid;border-top-color:#fff;border-left-color:#fff;border-right-color:#808080;border-bottom-color:#808080;margin-bottom:12px;">&#8592; Back</a>
+                <h2>What Happened to LimeWire? The Wild Story of Free Music</h2>
+                <div class="mobile-detail-date">2026-03-27 by 404 Memory Found</div>
+                <div class="mobile-detail-body">
+                    <article>
 <h2>LimeWire: The Green Frog That Terrorized the Music Industry</h2>
 
 <p>If you had a computer between 2000 and 2010, there's a very good chance you committed a federal crime on it. And there's an even better chance that the little green frog icon of LimeWire was your accomplice. LimeWire was the file-sharing program that let millions of people download virtually any song, album, movie, or software for free — and in the process, it became one of the most controversial and culturally significant pieces of software ever created.</p>
@@ -2037,21 +2355,25 @@
 
 </article>
 <!-- authored-by: dana -->
-                <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
-                    <strong>Related Posts:</strong>
-                    <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
-<li style="padding:5px 0;"><a href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li>
-<li style="padding:5px 0;"><a href="/posts/what-happened-to-winamp-mp3-player.html">What Happened to Winamp? The Definitive History of the MP3 Player That Whipped the Llama's Ass</a></li>
-<li style="padding:5px 0;"><a href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li>
+                </div>
+                <div class="mobile-related">
+                    <div class="mobile-related-title">📂 Related Posts</div>
+                    <ul style="list-style:none;margin:0;padding:0;">
+<li style="margin-bottom:4px;"><a class="mobile-related-item" href="/posts/napster-destroyed-music.html">How Napster Destroyed the Music Industry (Forever)</a></li>
+<li style="margin-bottom:4px;"><a class="mobile-related-item" href="/posts/what-happened-to-winamp-mp3-player.html">What Happened to Winamp? The Definitive History of the MP3 Player That Whipped the Llama's Ass</a></li>
+<li style="margin-bottom:4px;"><a class="mobile-related-item" href="/posts/blockbuster-netflix-acquisition.html">Blockbuster's $50M Netflix Blunder (The Deal That Wasn't)</a></li>
 
                     </ul>
                 </div>
-                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">&#8592; Back to Blog</a></div>
-            </article>
+            </div>
         </div>
         <div class="mobile-footer">
-            <p>&copy; 2026 404 Memory Found. All rights reserved.</p>
-            <p style="font-size:10px;margin-top:8px;">Posted on 2026-03-27 by 404 Memory Found</p>
+            <div class="mobile-footer-left">
+                <a href="/" class="mobile-footer-start" style="text-decoration:none;color:#000;">
+                    <span>🪟</span> Start
+                </a>
+            </div>
+            <div class="mobile-footer-status">2026-03-27</div>
         </div>
     </div>
 
@@ -2366,6 +2688,8 @@
         function initializeUI() {
             if (isMobile) {
                 populateMobilePosts();
+                populateMobileTagFilters();
+                initMobileReadingProgress();
                 // Check if arriving on a post URL
                 const hash = location.hash;
                 if (hash.startsWith('#/post/')) {
@@ -2402,17 +2726,117 @@
             }
         }
 
+        let mobileActiveTags = [];
+
         function populateMobilePosts() {
             const list = document.getElementById('mobile-post-list');
-            list.innerHTML = blogPosts.map(post => `
-                <li class="mobile-post-item">
-                    <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+            const filtered = filterMobilePosts();
+            list.innerHTML = filtered.map(post => {
+                const imgUrl = post.image || '';
+                const thumbStyle = imgUrl ? `background-image:url('${imgUrl}')` : 'background:#c0c0c0';
+                return `
+                <li class="mobile-post-item" onclick="openPost('${post.slug}')">
+                    <div class="mobile-post-thumb" style="${thumbStyle}"></div>
+                    <div class="mobile-post-info">
                         <h3>${post.title}</h3>
-                        <div class="mobile-post-date">${post.date} <span class="mobile-post-reading-time">${getReadingTime(post.content)}</span></div>
+                        <div class="mobile-post-date">${post.date} · ${getReadingTime(post.content)}</div>
                         <div class="mobile-post-excerpt">${post.excerpt}</div>
-                    </a>
-                </li>
+                        <div class="mobile-post-tags">${(post.tags || []).slice(0, 3).join(' · ')}</div>
+                    </div>
+                </li>`;
+            }).join('');
+            // Update status bar count
+            const countEl = document.getElementById('mobile-post-count');
+            if (countEl) countEl.textContent = filtered.length + ' post' + (filtered.length !== 1 ? 's' : '');
+        }
+
+        function filterMobilePosts() {
+            let filtered = blogPosts;
+            const searchTerm = document.getElementById('mobile-search-input')?.value?.toLowerCase() || '';
+            if (searchTerm) {
+                filtered = filtered.filter(p =>
+                    p.title.toLowerCase().includes(searchTerm) ||
+                    p.excerpt.toLowerCase().includes(searchTerm) ||
+                    (p.tags || []).some(t => t.toLowerCase().includes(searchTerm))
+                );
+            }
+            if (mobileActiveTags.length > 0) {
+                filtered = filtered.filter(p =>
+                    mobileActiveTags.some(tag => (p.tags || []).includes(tag))
+                );
+            }
+            return filtered;
+        }
+
+        function handleMobileSearch() {
+            populateMobilePosts();
+        }
+
+        function populateMobileTagFilters() {
+            const container = document.getElementById('mobile-tag-filters');
+            if (!container) return;
+            const tagCounts = {};
+            blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
+            const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(e => e[0]);
+            container.innerHTML = topTags.map(tag => `
+                <button class="mobile-tag-btn ${mobileActiveTags.includes(tag) ? 'active' : ''}"
+                        onclick="toggleMobileTag('${tag}')">${tag}</button>
             `).join('');
+        }
+
+        function toggleMobileTag(tag) {
+            const idx = mobileActiveTags.indexOf(tag);
+            if (idx >= 0) { mobileActiveTags.splice(idx, 1); }
+            else { mobileActiveTags.push(tag); }
+            populateMobileTagFilters();
+            populateMobilePosts();
+        }
+
+        // Mobile reading progress
+        function initMobileReadingProgress() {
+            const content = document.getElementById('mobile-content');
+            if (!content) return;
+            content.addEventListener('scroll', function() {
+                const detail = document.getElementById('mobile-post-detail');
+                if (!detail || detail.style.display === 'none') return;
+                const fill = document.getElementById('mobile-reading-progress-fill');
+                if (!fill) return;
+                const scrollTop = content.scrollTop;
+                const scrollHeight = content.scrollHeight - content.clientHeight;
+                const pct = scrollHeight > 0 ? Math.min(100, Math.round((scrollTop / scrollHeight) * 100)) : 0;
+                fill.style.width = pct + '%';
+            });
+        }
+
+        // Mobile share functions
+        function mobileShareTwitter() {
+            if (!currentSlug) return;
+            const post = blogPosts.find(p => p.slug === currentSlug);
+            const url = baseUrl + '/posts/' + currentSlug + '.html';
+            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(post.title) + '&url=' + encodeURIComponent(url), '_blank');
+        }
+        function mobileShareThreads() {
+            if (!currentSlug) return;
+            const post = blogPosts.find(p => p.slug === currentSlug);
+            const url = baseUrl + '/posts/' + currentSlug + '.html';
+            window.open('https://www.threads.net/intent/post?text=' + encodeURIComponent(post.title + ' ' + url), '_blank');
+        }
+        function mobileShareFacebook() {
+            if (!currentSlug) return;
+            const url = baseUrl + '/posts/' + currentSlug + '.html';
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank');
+        }
+        function mobileCopyLink() {
+            if (!currentSlug) return;
+            const url = baseUrl + '/posts/' + currentSlug + '.html';
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = event.target;
+                btn.textContent = 'Copied!';
+                setTimeout(() => { btn.textContent = 'Copy Link'; }, 1500);
+            });
         }
 
         function populateBlogPostsList() {
@@ -2530,11 +2954,20 @@
             if (isMobile) {
                 // Mobile: show post detail view
                 document.getElementById('mobile-post-list').style.display = 'none';
+                // Hide toolbar, update title bar
+                const toolbar = document.getElementById('mobile-toolbar');
+                if (toolbar) toolbar.style.display = 'none';
+                const headerTitle = document.getElementById('mobile-header-title');
+                if (headerTitle) headerTitle.textContent = '📖 ' + post.title;
+
                 const detail = document.getElementById('mobile-post-detail');
                 detail.style.display = 'block';
                 document.getElementById('mobile-post-title').textContent = post.title;
-                document.getElementById('mobile-post-detail-date').textContent = post.date;
+                document.getElementById('mobile-post-detail-date').textContent = post.date + ' · ' + getReadingTime(post.content);
                 document.getElementById('mobile-post-detail-body').innerHTML = post.content;
+                // Reset reading progress
+                const mFill = document.getElementById('mobile-reading-progress-fill');
+                if (mFill) mFill.style.width = '0%';
                 // Add lazy loading to dynamically inserted images
                 document.querySelectorAll('#mobile-post-detail-body img').forEach(img => {
                     if (!img.hasAttribute('loading')) { img.loading = 'lazy'; img.decoding = 'async'; }
@@ -2542,7 +2975,7 @@
 
                 const mobileRelated = document.getElementById('mobile-related-posts');
                 if (related.length > 0) {
-                    mobileRelated.innerHTML = '<div class="mobile-related-title">Related Posts</div>' +
+                    mobileRelated.innerHTML = '<div class="mobile-related-title">📂 Related Posts</div>' +
                         related.map(r => `<a class="mobile-related-item" href="/posts/${r.slug}.html" onclick="event.preventDefault(); openPost('${r.slug}')">${r.title}</a>`).join('');
                 } else {
                     mobileRelated.innerHTML = '';
@@ -2589,6 +3022,11 @@
         function closeMobilePost() {
             document.getElementById('mobile-post-detail').style.display = 'none';
             document.getElementById('mobile-post-list').style.display = '';
+            // Restore toolbar and title bar
+            const toolbar = document.getElementById('mobile-toolbar');
+            if (toolbar) toolbar.style.display = '';
+            const headerTitle = document.getElementById('mobile-header-title');
+            if (headerTitle) headerTitle.textContent = '404 Memory Found';
             location.hash = '';
             updatePageMeta('home');
             document.querySelector('.mobile-content').scrollTop = 0;

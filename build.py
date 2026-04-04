@@ -404,7 +404,7 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     mobile_related = ""
     for rp in related_posts:
         rp_slug = get_slug_from_id(rp['id'])
-        mobile_related += f'<li style="padding:5px 0;"><a href="/posts/{rp_slug}.html">{rp["title"]}</a></li>\n'
+        mobile_related += f'<li style="margin-bottom:4px;"><a class="mobile-related-item" href="/posts/{rp_slug}.html">{rp["title"]}</a></li>\n'
 
     # JS wrapper that skips boot animation and auto-opens post window
     post_js_wrapper = f"""
@@ -510,27 +510,42 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         <div itemprop="articleBody">{post_body}</div>
     </article>
 
-    <!-- Mobile View -->
+    <!-- Mobile View (Win95 retro style) -->
     <div class="mobile-container">
         <div class="mobile-header">
-            <h1>{post['title']}</h1>
-            <p>{post['date']} by {post['author']}</p>
+            <div class="mobile-header-left">
+                <span class="mobile-header-icon">📖</span>
+                <h1>{post['title']}</h1>
+            </div>
+            <div class="mobile-header-controls">
+                <span class="mobile-header-btn">_</span>
+                <span class="mobile-header-btn">□</span>
+                <span class="mobile-header-btn">×</span>
+            </div>
         </div>
         <div class="mobile-content">
-            <article style="padding:16px;">
-                {post_body}
-                <div style="margin-top:20px;padding:10px;background:#f0f0f0;">
-                    <strong>Related Posts:</strong>
-                    <ul style="list-style:none;margin:10px 0 0 0;padding:0;">
+            <div class="mobile-post-detail" style="display:block;">
+                <a href="/" style="display:inline-block;padding:5px 14px;font-size:13px;font-family:'MS Sans Serif',Tahoma,Arial,sans-serif;background:#c0c0c0;color:#000;text-decoration:none;border:2px solid;border-top-color:#fff;border-left-color:#fff;border-right-color:#808080;border-bottom-color:#808080;margin-bottom:12px;">&#8592; Back</a>
+                <h2>{post['title']}</h2>
+                <div class="mobile-detail-date">{post['date']} by {post['author']}</div>
+                <div class="mobile-detail-body">
+                    {post_body}
+                </div>
+                <div class="mobile-related">
+                    <div class="mobile-related-title">📂 Related Posts</div>
+                    <ul style="list-style:none;margin:0;padding:0;">
 {mobile_related}
                     </ul>
                 </div>
-                <div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;color:#000;text-decoration:none;display:inline-block;">&#8592; Back to Blog</a></div>
-            </article>
+            </div>
         </div>
         <div class="mobile-footer">
-            <p>&copy; 2026 404 Memory Found. All rights reserved.</p>
-            <p style="font-size:10px;margin-top:8px;">Posted on {post['date']} by {post['author']}</p>
+            <div class="mobile-footer-left">
+                <a href="/" class="mobile-footer-start" style="text-decoration:none;color:#000;">
+                    <span>🪟</span> Start
+                </a>
+            </div>
+            <div class="mobile-footer-status">{post['date']}</div>
         </div>
     </div>
 
