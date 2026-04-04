@@ -269,17 +269,36 @@ def generate_breadcrumb_schema(post, slug):
 
 
 def extract_faq_schema(post_body):
-    """Extract FAQ questions/answers from post body HTML and generate FAQPage schema"""
-    import re
-    # Find h3 questions followed by p answers in FAQ sections
-    faq_pattern = r'<h3>(.*?)</h3>\s*<p>(.*?)</p>'
-    matches = re.findall(faq_pattern, post_body, re.DOTALL)
+    """Extract FAQ questions/answers from a dedicated FAQ section in the post body.
 
-    # Only generate schema if there are FAQ-like Q&A pairs
+    Only extracts from content that appears AFTER an h2 containing 'FAQ' or
+    'Frequently Asked'. This prevents section headings from being incorrectly
+    included as FAQ items, which causes Google's 'Duplicate field FAQPage' error.
+    """
+    import re
+
+    # Find the FAQ section: look for an h2 heading containing 'FAQ' or 'Frequently Asked'
+    faq_section_match = re.search(
+        r'<h2[^>]*>.*?(?:FAQ|Frequently Asked).*?</h2>(.*)',
+        post_body, re.DOTALL | re.IGNORECASE
+    )
+    if not faq_section_match:
+        return None
+
+    faq_section = faq_section_match.group(1)
+
+    # Only extract h3+p pairs from within the FAQ section
+    # Stop at the next h2 if there is one (to avoid grabbing non-FAQ content after)
+    next_h2 = re.search(r'<h2[^>]*>', faq_section)
+    if next_h2:
+        faq_section = faq_section[:next_h2.start()]
+
+    faq_pattern = r'<h3>(.*?)</h3>\s*<p>(.*?)</p>'
+    matches = re.findall(faq_pattern, faq_section, re.DOTALL)
+
     if len(matches) < 2:
         return None
 
-    # Filter to likely FAQ questions (contain '?' or common FAQ patterns)
     faq_items = []
     for question, answer in matches:
         q = re.sub(r'<[^>]+>', '', question).strip()
