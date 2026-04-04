@@ -268,6 +268,25 @@ def generate_breadcrumb_schema(post, slug):
     return json.dumps(schema)
 
 
+def add_lazy_loading_to_images(html_content):
+    """Add loading='lazy' and decoding='async' to all <img> tags for better performance.
+
+    Skips images that already have loading= attribute set.
+    """
+    def add_attrs(match):
+        tag = match.group(0)
+        if 'loading=' in tag:
+            return tag  # already has loading attribute
+        # Add loading="lazy" and decoding="async" before the closing >
+        tag = tag.rstrip('>')
+        if tag.endswith('/'):
+            tag = tag.rstrip('/')
+            return tag + ' loading="lazy" decoding="async" />'
+        return tag + ' loading="lazy" decoding="async">'
+
+    return re.sub(r'<img\b[^>]*/?>', add_attrs, html_content, flags=re.IGNORECASE)
+
+
 def extract_faq_schema(post_body):
     """Extract FAQ questions/answers from a dedicated FAQ section in the post body.
 
@@ -340,7 +359,7 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     favicon_link = get_favicon_link(html_content)
     javascript = extract_javascript(html_content)
 
-    post_body = post['body']
+    post_body = add_lazy_loading_to_images(post['body'])
     post_schema = generate_post_schema(post, slug)
     breadcrumb_schema = generate_breadcrumb_schema(post, slug)
     faq_schema = extract_faq_schema(post_body)
@@ -436,6 +455,11 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.gstatic.com">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQX7R9W80G"></script>
     <script>

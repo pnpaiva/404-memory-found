@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.gstatic.com">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQX7R9W80G"></script>
     <script>
@@ -64,7 +69,7 @@
             cursor: default;
         }
 
-        /* CRT Scanline effect */
+        /* CRT Scanline effect - GPU composited for performance */
         body::before {
             content: '';
             position: fixed;
@@ -81,6 +86,8 @@
             );
             pointer-events: none;
             z-index: 999;
+            will-change: transform;
+            transform: translateZ(0);
         }
 
         /* Mobile View */
@@ -359,6 +366,12 @@
 
             .window.minimized {
                 display: none;
+            }
+
+            /* Reduce rendering cost for off-screen/hidden windows */
+            .window:not(.active) {
+                content-visibility: auto;
+                contain-intrinsic-size: 850px 620px;
             }
 
             /* Resize handles */
@@ -2418,14 +2431,20 @@
         // On post pages: skip boot animation, just initialize
         var isPostPage = true;
         var postPageSlug = 'definitive-history-macromedia-flash';
-        // Firebase init
-        firebase.initializeApp({
-            apiKey: "AIzaSyAKVA3k7k8neozrd55NwJB-Dugkscbwl0Y",
-            databaseURL: "https://memory-found-404-default-rtdb.firebaseio.com",
-            projectId: "memory-found-404",
-            appId: "1:788154947211:web:01dcbe843386b5d094668e"
-        });
-        const fbDb = firebase.database();
+        // Firebase init - lazy: only initialize when actually needed
+        let fbDb = null;
+        function getFirebaseDb() {
+            if (!fbDb && typeof firebase !== 'undefined') {
+                firebase.initializeApp({
+                    apiKey: "AIzaSyAKVA3k7k8neozrd55NwJB-Dugkscbwl0Y",
+                    databaseURL: "https://memory-found-404-default-rtdb.firebaseio.com",
+                    projectId: "memory-found-404",
+                    appId: "1:788154947211:web:01dcbe843386b5d094668e"
+                });
+                fbDb = firebase.database();
+            }
+            return fbDb;
+        }
 
         let blogPosts = [];
         const baseUrl = 'https://404memoryfound.com';
@@ -2653,6 +2672,10 @@
                 document.getElementById('mobile-post-title').textContent = post.title;
                 document.getElementById('mobile-post-detail-date').textContent = post.date;
                 document.getElementById('mobile-post-detail-body').innerHTML = post.content;
+                // Add lazy loading to dynamically inserted images
+                document.querySelectorAll('#mobile-post-detail-body img').forEach(img => {
+                    if (!img.hasAttribute('loading')) { img.loading = 'lazy'; img.decoding = 'async'; }
+                });
 
                 const mobileRelated = document.getElementById('mobile-related-posts');
                 if (related.length > 0) {
@@ -2676,6 +2699,10 @@
                 if (fill) fill.style.width = '0%';
                 if (label) label.textContent = '0%';
                 document.getElementById('post-body').innerHTML = post.content;
+                // Add lazy loading to dynamically inserted images
+                document.querySelectorAll('#post-body img').forEach(img => {
+                    if (!img.hasAttribute('loading')) { img.loading = 'lazy'; img.decoding = 'async'; }
+                });
 
                 const relatedContainer = document.getElementById('related-posts-container');
                 if (relatedContainer) {
@@ -3036,7 +3063,7 @@
             btn.textContent = 'Sending...';
 
             var entry = { email: email, date: Date.now(), source: 'About Window' };
-            fbDb.ref('subscribers').push(entry, function(err) {
+            getFirebaseDb().ref('subscribers').push(entry, function(err) {
                 if (err) {
                     msgEl.style.display = 'block';
                     msgEl.style.color = '#cc0000';
@@ -3338,7 +3365,7 @@
         // Snake leaderboard helpers (Firebase global leaderboard)
         let lastSnakeScore = 0;
         function fetchSnakeLeaderboard(callback) {
-            fbDb.ref('leaderboard/snake').orderByChild('score').limitToLast(10).once('value', function(snap) {
+            getFirebaseDb().ref('leaderboard/snake').orderByChild('score').limitToLast(10).once('value', function(snap) {
                 const board = [];
                 snap.forEach(function(child) { board.push(child.val()); });
                 board.sort(function(a, b) { return b.score - a.score; });
@@ -3350,7 +3377,7 @@
         }
         function addSnakeScore(name, score, callback) {
             const entry = { name: name.substring(0, 12) || 'Anonymous', score: score, date: Date.now() };
-            fbDb.ref('leaderboard/snake').push(entry, function(err) {
+            getFirebaseDb().ref('leaderboard/snake').push(entry, function(err) {
                 if (err) { console.warn('Firebase write failed:', err); callback([]); return; }
                 // After writing, fetch fresh top 10
                 fetchSnakeLeaderboard(callback);
