@@ -447,6 +447,8 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         /* Post page overrides for SEO crawlability */
         html, body { overflow: auto !important; height: auto !important; }
         .boot-animation { display: none !important; }
+        /* Screen reader only */
+        .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
     """
 
     html = f"""<!DOCTYPE html>
@@ -457,7 +459,6 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     <meta name="referrer" content="no-referrer">
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://www.gstatic.com">
     <!-- Google tag (gtag.js) -->
@@ -510,12 +511,13 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         <div itemprop="articleBody">{post_body}</div>
     </article>
 
+    <main>
     <!-- Mobile View (Win95 retro style) -->
     <div class="mobile-container">
         <div class="mobile-header">
             <div class="mobile-header-left">
                 <span class="mobile-header-icon">📖</span>
-                <h1>{post['title']}</h1>
+                <span style="font-size:15px;font-weight:bold;">{post['title']}</span>
             </div>
             <div class="mobile-header-controls">
                 <span class="mobile-header-btn">_</span>
@@ -558,11 +560,12 @@ def generate_post_html(post, all_posts, html_content, posts_data):
         </div>
         {taskbar}
     </div>
+    </main>
 
     <!-- Noscript fallback for crawlers that don't execute JavaScript -->
     <noscript>
     <div style="padding:20px;font-family:Arial,sans-serif;max-width:800px;margin:0 auto;">
-        <h1>{post['title']}</h1>
+        <h2>{post['title']}</h2>
         <p><em>{post['date']} by {post['author']}</em></p>
         <div>{post_body}</div>
         <hr>

@@ -6,7 +6,6 @@
     <meta name="referrer" content="no-referrer">
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://www.gstatic.com">
     <!-- Google tag (gtag.js) -->
@@ -51,6 +50,19 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        /* Screen reader only - visually hidden but accessible */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
         }
 
         html, body {
@@ -2189,6 +2201,8 @@
         /* Post page overrides for SEO crawlability */
         html, body { overflow: auto !important; height: auto !important; }
         .boot-animation { display: none !important; }
+        /* Screen reader only */
+        .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
     
     </style>
 </head>
@@ -2294,12 +2308,13 @@
 <!-- authored-by: dana --></div>
     </article>
 
+    <main>
     <!-- Mobile View (Win95 retro style) -->
     <div class="mobile-container">
         <div class="mobile-header">
             <div class="mobile-header-left">
                 <span class="mobile-header-icon">📖</span>
-                <h1>What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</h1>
+                <span style="font-size:15px;font-weight:bold;">What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</span>
             </div>
             <div class="mobile-header-controls">
                 <span class="mobile-header-btn">_</span>
@@ -2570,11 +2585,12 @@
             <div class="taskbar-clock" id="taskbar-clock"><span id="visitor-count" style="margin-right:8px;opacity:0.85;"></span><span id="clock-time">00:00</span></div>
         </div>
     </div>
+    </main>
 
     <!-- Noscript fallback for crawlers that don't execute JavaScript -->
     <noscript>
     <div style="padding:20px;font-family:Arial,sans-serif;max-width:800px;margin:0 auto;">
-        <h1>What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</h1>
+        <h2>What Happened to Microsoft Encarta? The Encyclopedia Wikipedia Killed</h2>
         <p><em>2026-03-26 by 404 Memory Found</em></p>
         <div><p>In 1993, <a href="/#/post/microsoft-tried-buy-nintendo" onclick="event.preventDefault(); openPost('microsoft-tried-buy-nintendo')">Microsoft</a> shipped a product that felt like science fiction. For $99.95, you could slide a single CD-ROM into your beige tower PC and gain access to an entire encyclopedia—complete with audio narration, video clips, interactive maps, and 3D animations. It was called <strong>Microsoft Encarta</strong>, and for an entire generation of students, it was the first time knowledge felt alive.</p>
 
@@ -2692,10 +2708,12 @@
         // On post pages: skip boot animation, just initialize
         var isPostPage = true;
         var postPageSlug = 'what-happened-to-microsoft-encarta';
-        // Firebase init - lazy: only initialize when actually needed
+        // Firebase - load on demand (not render-blocking)
         let fbDb = null;
+        let firebaseLoading = false;
         function getFirebaseDb() {
-            if (!fbDb && typeof firebase !== 'undefined') {
+            if (fbDb) return fbDb;
+            if (typeof firebase !== 'undefined') {
                 firebase.initializeApp({
                     apiKey: "AIzaSyAKVA3k7k8neozrd55NwJB-Dugkscbwl0Y",
                     databaseURL: "https://memory-found-404-default-rtdb.firebaseio.com",
@@ -2703,8 +2721,30 @@
                     appId: "1:788154947211:web:01dcbe843386b5d094668e"
                 });
                 fbDb = firebase.database();
+                return fbDb;
             }
-            return fbDb;
+            // Load Firebase scripts dynamically if not yet loaded
+            if (!firebaseLoading) {
+                firebaseLoading = true;
+                const s1 = document.createElement('script');
+                s1.src = 'https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js';
+                s1.onload = function() {
+                    const s2 = document.createElement('script');
+                    s2.src = 'https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js';
+                    s2.onload = function() {
+                        firebase.initializeApp({
+                            apiKey: "AIzaSyAKVA3k7k8neozrd55NwJB-Dugkscbwl0Y",
+                            databaseURL: "https://memory-found-404-default-rtdb.firebaseio.com",
+                            projectId: "memory-found-404",
+                            appId: "1:788154947211:web:01dcbe843386b5d094668e"
+                        });
+                        fbDb = firebase.database();
+                    };
+                    document.head.appendChild(s2);
+                };
+                document.head.appendChild(s1);
+            }
+            return null;
         }
 
         let blogPosts = [];
@@ -2804,15 +2844,48 @@
 
         let mobileActiveTags = [];
 
+        // Lazy-load thumbnail background images via IntersectionObserver
+        let thumbObserver = null;
+        function initThumbObserver() {
+            if (thumbObserver) return;
+            if (!('IntersectionObserver' in window)) {
+                // Fallback: load all immediately
+                document.querySelectorAll('.mobile-post-thumb[data-bg]').forEach(el => {
+                    el.style.backgroundImage = "url('" + el.dataset.bg + "')";
+                });
+                return;
+            }
+            thumbObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        const el = entry.target;
+                        if (el.dataset.bg) {
+                            el.style.backgroundImage = "url('" + el.dataset.bg + "')";
+                            el.removeAttribute('data-bg');
+                        }
+                        thumbObserver.unobserve(el);
+                    }
+                });
+            }, { rootMargin: '200px' });
+        }
+
+        function observeThumbs() {
+            if (!thumbObserver) initThumbObserver();
+            if (!thumbObserver) return;
+            document.querySelectorAll('[data-bg]').forEach(el => {
+                thumbObserver.observe(el);
+            });
+        }
+
         function populateMobilePosts() {
             const list = document.getElementById('mobile-post-list');
             const filtered = filterMobilePosts();
             list.innerHTML = filtered.map(post => {
                 const imgUrl = post.image || '';
-                const thumbStyle = imgUrl ? `background-image:url('${imgUrl}')` : 'background:#c0c0c0';
+                const dataAttr = imgUrl ? `data-bg="${imgUrl}"` : '';
                 return `
                 <li class="mobile-post-item" onclick="openPost('${post.slug}')">
-                    <div class="mobile-post-thumb" style="${thumbStyle}"></div>
+                    <div class="mobile-post-thumb" ${dataAttr} style="background:#e0e0e0;"></div>
                     <div class="mobile-post-info">
                         <h3>${post.title}</h3>
                         <div class="mobile-post-date">${post.date} · ${getReadingTime(post.content)}</div>
@@ -2821,6 +2894,8 @@
                     </div>
                 </li>`;
             }).join('');
+            // Lazy-load thumbnails
+            observeThumbs();
             // Update status bar count
             const countEl = document.getElementById('mobile-post-count');
             if (countEl) countEl.textContent = filtered.length + ' post' + (filtered.length !== 1 ? 's' : '');
@@ -2919,11 +2994,11 @@
             const list = document.getElementById('blog-posts-list');
             const filtered = filterPosts();
             list.innerHTML = filtered.map(post => {
-                const thumbStyle = post.image ? `background-image:url('${post.image}')` : '';
+                const dataAttr = post.image ? `data-bg="${post.image}"` : '';
                 return `
                 <li class="blog-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
-                        <div class="blog-post-thumb" style="${thumbStyle}"></div>
+                        <div class="blog-post-thumb" ${dataAttr} style="background:#e0e0e0;"></div>
                         <div class="blog-post-text">
                             <h3>${post.title}</h3>
                             <div class="date">${post.date} <span class="reading-time">${getReadingTime(post.content)}</span></div>
@@ -2933,6 +3008,8 @@
                     </a>
                 </li>`;
             }).join('');
+            // Lazy-load desktop thumbnails
+            observeThumbs();
         }
 
         function populateArchives() {
@@ -3445,7 +3522,8 @@
             btn.textContent = 'Sending...';
 
             var entry = { email: email, date: Date.now(), source: 'About Window' };
-            getFirebaseDb().ref('subscribers').push(entry, function(err) {
+            var db = getFirebaseDb(); if (!db) { msgEl.style.display='block'; msgEl.textContent='Loading, please try again...'; btn.disabled=false; return; }
+            db.ref('subscribers').push(entry, function(err) {
                 if (err) {
                     msgEl.style.display = 'block';
                     msgEl.style.color = '#cc0000';
@@ -3747,7 +3825,8 @@
         // Snake leaderboard helpers (Firebase global leaderboard)
         let lastSnakeScore = 0;
         function fetchSnakeLeaderboard(callback) {
-            getFirebaseDb().ref('leaderboard/snake').orderByChild('score').limitToLast(10).once('value', function(snap) {
+            var db = getFirebaseDb(); if (!db) { callback([]); return; }
+            db.ref('leaderboard/snake').orderByChild('score').limitToLast(10).once('value', function(snap) {
                 const board = [];
                 snap.forEach(function(child) { board.push(child.val()); });
                 board.sort(function(a, b) { return b.score - a.score; });
@@ -3759,7 +3838,8 @@
         }
         function addSnakeScore(name, score, callback) {
             const entry = { name: name.substring(0, 12) || 'Anonymous', score: score, date: Date.now() };
-            getFirebaseDb().ref('leaderboard/snake').push(entry, function(err) {
+            var db = getFirebaseDb(); if (!db) { callback([]); return; }
+            db.ref('leaderboard/snake').push(entry, function(err) {
                 if (err) { console.warn('Firebase write failed:', err); callback([]); return; }
                 // After writing, fetch fresh top 10
                 fetchSnakeLeaderboard(callback);
