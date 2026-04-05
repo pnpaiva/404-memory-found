@@ -2831,7 +2831,7 @@
                 const dataAttr = imgUrl ? `data-bg="${imgUrl}"` : '';
                 return `
                 <li class="mobile-post-item" onclick="openPost('${post.slug}')">
-                    <div class="mobile-post-thumb" ${dataAttr} style="background:#e0e0e0;"></div>
+                    <div class="mobile-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>${post.title}</h3>
                         <div class="mobile-post-date">${post.date} · ${getReadingTime(post.content)}</div>
@@ -2944,7 +2944,7 @@
                 return `
                 <li class="blog-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
-                        <div class="blog-post-thumb" ${dataAttr} style="background:#e0e0e0;"></div>
+                        <div class="blog-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>${post.title}</h3>
                             <div class="date">${post.date} <span class="reading-time">${getReadingTime(post.content)}</span></div>
