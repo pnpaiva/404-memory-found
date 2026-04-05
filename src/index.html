@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.firebase.com https://*.firebaseio.com https://*.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://upload.wikimedia.org data:; connect-src 'self' https://www.google-analytics.com https://*.firebaseio.com https://*.googleapis.com https://firestore.googleapis.com; frame-ancestors 'none';">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
 
     <!-- Preconnect to external domains for faster resource loading -->
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
@@ -793,8 +796,8 @@
             }
 
             .window-button {
-                width: 16px;
-                height: 14px;
+                width: 24px;
+                height: 24px;
                 background: #c0c0c0;
                 border: 1px solid;
                 border-top-color: #ffffff;
@@ -1053,13 +1056,13 @@
             .blog-post-item .reading-time,
             .mobile-post-reading-time {
                 font-size: 11px;
-                color: #888;
+                color: #595959;
                 display: inline;
                 margin-left: 6px;
             }
 
             .post-meta .reading-time {
-                color: #888;
+                color: #595959;
                 font-size: 12px;
             }
 
@@ -1933,7 +1936,7 @@
                 padding: 2px 8px;
                 font-size: 11px;
                 text-align: center;
-                color: #999;
+                color: #4a4a4a;
                 flex-shrink: 0;
                 z-index: 50;
             }
@@ -2325,9 +2328,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">📝 Blog Posts</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('blog-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('blog-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('blog-window')" aria-label="Minimize blog window"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('blog-window')" aria-label="Maximize blog window"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('blog-window')" aria-label="Close blog window"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
@@ -2354,9 +2357,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">ℹ️ About This Site</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('about-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('about-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('about-window')" aria-label="Minimize about window"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('about-window')" aria-label="Maximize about window"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('about-window')" aria-label="Close about window"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
@@ -2391,9 +2394,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">📚 Archives</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('archives-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('archives-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('archives-window')" aria-label="Minimize archives window"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('archives-window')" aria-label="Maximize archives window"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('archives-window')" aria-label="Close archives window"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
@@ -2414,9 +2417,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">📖 <span id="post-window-title">Post</span></div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('post-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('post-window'); goHome()"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('post-window')" aria-label="Minimize post window"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')" aria-label="Maximize post window"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('post-window'); goHome()" aria-label="Close post window"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="reading-progress-bar" id="reading-progress">
