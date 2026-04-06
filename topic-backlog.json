@@ -7,72 +7,138 @@
       "title": "What Happened to Neopets, the Virtual World That Raised a Generation",
       "slug": "what-happened-to-neopets-virtual-world",
       "persona": "dana",
-      "tags": ["Internet Culture", "Business Blunders"],
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
       "angle": "Viacom's $160M acquisition, Flash apocalypse, JumpStart mismanagement, 2023 management buyout. Rise-fall-resurrection business story. 200M+ accounts created.",
-      "target_keywords": ["what happened to neopets", "neopets history", "why did neopets fail", "neopets comeback"],
+      "target_keywords": [
+        "what happened to neopets",
+        "neopets history",
+        "why did neopets fail",
+        "neopets comeback"
+      ],
       "status": "published"
     },
     {
       "title": "How Doom Changed Everything About PC Gaming and the Internet",
       "slug": "how-doom-changed-pc-gaming-internet",
       "persona": "marcus",
-      "tags": ["Gaming", "Software & Apps"],
+      "tags": [
+        "Gaming",
+        "Software & Apps"
+      ],
       "angle": "Shareware model revolution ($100K/day from 1% conversion), id Software garage origins, Carmack's 3D engine, cultural panic over violence, LAN party catalyst. The business and culture story, not just gameplay.",
-      "target_keywords": ["doom 1993 history", "how doom changed gaming", "id software history", "doom shareware"],
+      "target_keywords": [
+        "doom 1993 history",
+        "how doom changed gaming",
+        "id software history",
+        "doom shareware"
+      ],
       "status": "published"
     },
     {
       "title": "What Happened to Screensavers: Flying Toasters, 3D Pipes, and the Art of Doing Nothing",
       "slug": "what-happened-to-screensavers-flying-toasters",
       "persona": "marcus",
-      "tags": ["Software & Apps", "Then vs Now"],
+      "tags": [
+        "Software & Apps",
+        "Then vs Now"
+      ],
       "angle": "After Dark franchise ($50 for screensavers), Berkeley Systems, 3D Maze and Pipes in Windows, Johnny Castaway. Why CRT burn-in made them necessary and LCD killed the entire category. Universal shared experience.",
-      "target_keywords": ["what happened to screensavers", "flying toasters screensaver", "windows screensavers 90s", "why no more screensavers"],
-      "status": "pending"
+      "target_keywords": [
+        "what happened to screensavers",
+        "flying toasters screensaver",
+        "windows screensavers 90s",
+        "why no more screensavers"
+      ],
+      "status": "published"
     },
     {
       "title": "What Happened to Club Penguin, Disney's Accidental MMO",
       "slug": "what-happened-to-club-penguin",
       "persona": "marcus",
-      "tags": ["Gaming", "Internet Culture"],
+      "tags": [
+        "Gaming",
+        "Internet Culture"
+      ],
       "angle": "200M registered users, Disney's $350M acquisition (2007), the shutdown decision (2017), Club Penguin Island failure, fan-run clones and Disney's legal crackdown. Gen Z's defining online childhood.",
-      "target_keywords": ["what happened to club penguin", "club penguin history", "why did club penguin shut down", "club penguin disney"],
+      "target_keywords": [
+        "what happened to club penguin",
+        "club penguin history",
+        "why did club penguin shut down",
+        "club penguin disney"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to Clippy, the Paperclip Everyone Loved to Hate",
       "slug": "what-happened-to-clippy-microsoft",
       "persona": "dana",
-      "tags": ["Software & Apps", "Then vs Now"],
+      "tags": [
+        "Software & Apps",
+        "Then vs Now"
+      ],
       "angle": "Microsoft Bob predecessor, Office 97 launch, the user research they ignored, disabled by default in Office XP, Time's 50 worst inventions list. Modern AI assistant parallel makes it timely. The UX lessons Microsoft learned the hard way.",
-      "target_keywords": ["what happened to clippy", "clippy microsoft history", "microsoft office assistant", "why was clippy removed"],
-      "status": "pending"
+      "target_keywords": [
+        "what happened to clippy",
+        "clippy microsoft history",
+        "microsoft office assistant",
+        "why was clippy removed"
+      ],
+      "status": "published"
     },
     {
       "title": "The Original Sims: How a Virtual Dollhouse Became the Best-Selling PC Game Ever",
       "slug": "original-sims-best-selling-pc-game",
       "persona": "marcus",
-      "tags": ["Gaming", "Software & Apps"],
+      "tags": [
+        "Gaming",
+        "Software & Apps"
+      ],
       "angle": "Will Wright pitched it as architecture sim, EA almost killed it. Surprise demographic (majority female gamers in 2000). 200M+ franchise copies. The pool ladder removal meme. How it accidentally became a social experiment.",
-      "target_keywords": ["the sims history", "original sims game", "sims 2000", "will wright sims story"],
+      "target_keywords": [
+        "the sims history",
+        "original sims game",
+        "sims 2000",
+        "will wright sims story"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to MiniDisc, Sony's Forgotten Music Format",
       "slug": "what-happened-to-minidisc-sony",
       "persona": "dana",
-      "tags": ["Hardware", "Music & Entertainment"],
+      "tags": [
+        "Hardware",
+        "Music & Entertainment"
+      ],
       "angle": "Sony spent billions on development. Dominated Japan, flopped in US. DRM restrictions killed it before iPod did. The collector revival and Gen Z TikTok trend. Last device made 2013. A format that was technically right but strategically doomed.",
-      "target_keywords": ["what happened to minidisc", "minidisc history", "sony minidisc", "minidisc vs cd", "minidisc comeback"],
+      "target_keywords": [
+        "what happened to minidisc",
+        "minidisc history",
+        "sony minidisc",
+        "minidisc vs cd",
+        "minidisc comeback"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to Polaroid, the Camera That Died and Came Back",
       "slug": "what-happened-to-polaroid-camera",
       "persona": "dana",
-      "tags": ["Hardware", "Then vs Now"],
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
       "angle": "Edwin Land's invention, $3B peak revenue, 2001 and 2008 bankruptcies, Impossible Project rescue mission buying the last factory, rebrand to Polaroid Originals. Gen Z's instant film revival. Analog in a digital world.",
-      "target_keywords": ["what happened to polaroid", "polaroid history", "polaroid comeback", "polaroid camera history", "impossible project polaroid"],
+      "target_keywords": [
+        "what happened to polaroid",
+        "polaroid history",
+        "polaroid comeback",
+        "polaroid camera history",
+        "impossible project polaroid"
+      ],
       "status": "pending"
     }
   ],
@@ -81,36 +147,69 @@
       "title": "What Happened to Kazaa and the P2P Wars After Napster",
       "slug": "what-happened-to-kazaa-p2p-wars",
       "persona": "dana",
-      "tags": ["Software & Apps", "Internet Culture"],
+      "tags": [
+        "Software & Apps",
+        "Internet Culture"
+      ],
       "angle": "Sharman Networks, FastTrack protocol, $100M RIAA settlement, Australian court case. Creates P2P trilogy with existing Napster and LimeWire posts. The legal and technical evolution of file sharing.",
-      "target_keywords": ["what happened to kazaa", "kazaa history", "p2p file sharing history", "kazaa vs napster"],
+      "target_keywords": [
+        "what happened to kazaa",
+        "kazaa history",
+        "p2p file sharing history",
+        "kazaa vs napster"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to Iomega Zip Drives and the Click of Death",
       "slug": "what-happened-to-iomega-zip-drives",
       "persona": "marcus",
-      "tags": ["Hardware", "Then vs Now"],
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
       "angle": "Stock went from $2 to $100 and back. The Click of Death defect and class-action lawsuit. 100MB felt infinite. Killed by CD-R and USB flash drives. A single USB stick now holds 1000x more. The physical ritual of swapping disks.",
-      "target_keywords": ["what happened to zip drives", "iomega zip drive history", "click of death zip", "zip drive nostalgia"],
+      "target_keywords": [
+        "what happened to zip drives",
+        "iomega zip drive history",
+        "click of death zip",
+        "zip drive nostalgia"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to SimCity and How EA Destroyed It",
       "slug": "what-happened-to-simcity-ea",
       "persona": "dana",
-      "tags": ["Gaming", "Business Blunders"],
+      "tags": [
+        "Gaming",
+        "Business Blunders"
+      ],
       "angle": "Will Wright's original vision, SimCity 2000's perfection, SimCity 2013's always-online DRM disaster, server crashes at launch, tiny city sizes, Maxis closure in 2015. How Cities: Skylines ate their lunch. A masterclass in how to kill a franchise.",
-      "target_keywords": ["what happened to simcity", "simcity 2013 disaster", "why did simcity fail", "ea simcity", "maxis closure"],
+      "target_keywords": [
+        "what happened to simcity",
+        "simcity 2013 disaster",
+        "why did simcity fail",
+        "ea simcity",
+        "maxis closure"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to RollerCoaster Tycoon, Built by One Man in Assembly",
       "slug": "what-happened-to-rollercoaster-tycoon",
       "persona": "marcus",
-      "tags": ["Gaming", "Software & Apps"],
+      "tags": [
+        "Gaming",
+        "Software & Apps"
+      ],
       "angle": "Chris Sawyer single-handedly coded RCT in x86 assembly language. 4M+ copies of RCT1. Atari's mismanagement of RCT4/World. Planet Coaster as spiritual successor. One of gaming's most incredible solo development feats.",
-      "target_keywords": ["rollercoaster tycoon history", "chris sawyer assembly", "what happened to rollercoaster tycoon", "rct history"],
+      "target_keywords": [
+        "rollercoaster tycoon history",
+        "chris sawyer assembly",
+        "what happened to rollercoaster tycoon",
+        "rct history"
+      ],
       "status": "pending"
     }
   ],
@@ -119,36 +218,68 @@
       "title": "What Happened to BonziBuddy, the Internet's Friendliest Spyware",
       "slug": "what-happened-to-bonzibuddy-spyware",
       "persona": "dana",
-      "tags": ["Software & Apps", "Internet Culture"],
+      "tags": [
+        "Software & Apps",
+        "Internet Culture"
+      ],
       "angle": "The purple gorilla that harvested your data. FTC complaint, $75K fine (that's it). COPPA violations. The Wild West of early internet software. Now a meme icon. Consumer trust in the pre-privacy era.",
-      "target_keywords": ["what happened to bonzibuddy", "bonzibuddy history", "bonzibuddy spyware", "bonzi buddy purple gorilla"],
+      "target_keywords": [
+        "what happened to bonzibuddy",
+        "bonzibuddy history",
+        "bonzibuddy spyware",
+        "bonzi buddy purple gorilla"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to Oregon Trail, the Game That Taught America to Die of Dysentery",
       "slug": "what-happened-to-oregon-trail-game",
       "persona": "dana",
-      "tags": ["Gaming", "Then vs Now"],
+      "tags": [
+        "Gaming",
+        "Then vs Now"
+      ],
       "angle": "Created in 1971 by three student teachers on a teletype. MECC distributed it to every school. 65M+ copies. One-third of MECC's $30M annual revenue. The educational computing revolution. Modern remakes and the dysentery meme.",
-      "target_keywords": ["oregon trail game history", "what happened to oregon trail", "oregon trail computer game", "mecc oregon trail"],
+      "target_keywords": [
+        "oregon trail game history",
+        "what happened to oregon trail",
+        "oregon trail computer game",
+        "mecc oregon trail"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to Newgrounds, the Internet Before YouTube",
       "slug": "what-happened-to-newgrounds",
       "persona": "marcus",
-      "tags": ["Internet Culture", "Music & Entertainment"],
+      "tags": [
+        "Internet Culture",
+        "Music & Entertainment"
+      ],
       "angle": "Tom Fulp's creation, Flash animation golden age, Salad Fingers, Alien Hominid going retail, early Egoraptor/Game Grumps. Survived Flash's death. Still running. Where internet culture was actually born before YouTube existed.",
-      "target_keywords": ["what happened to newgrounds", "newgrounds history", "newgrounds flash games", "newgrounds before youtube"],
+      "target_keywords": [
+        "what happened to newgrounds",
+        "newgrounds history",
+        "newgrounds flash games",
+        "newgrounds before youtube"
+      ],
       "status": "pending"
     },
     {
       "title": "What Happened to IRC, the Chat Protocol That Built the Internet",
       "slug": "what-happened-to-irc-chat",
       "persona": "dana",
-      "tags": ["Internet Culture", "Software & Apps"],
+      "tags": [
+        "Internet Culture",
+        "Software & Apps"
+      ],
       "angle": "Created by Jarkko Oikarinen in 1988. Gulf War was first event covered on IRC. Channel wars, DCC exploits, the split between EFNet and DALnet. Directly influenced AIM, Slack, Discord, Twitch chat. Still used by open-source communities today.",
-      "target_keywords": ["what happened to irc", "irc history", "irc chat rooms", "internet relay chat history"],
+      "target_keywords": [
+        "what happened to irc",
+        "irc history",
+        "irc chat rooms",
+        "internet relay chat history"
+      ],
       "status": "pending"
     }
   ]
