@@ -3551,33 +3551,50 @@
         }
 
         function loadVisitorCount() {
+            var el = document.getElementById('visitor-count');
+            if (!el) return;
+
             try {
-                // Only increment once per browser session (tab/window lifetime)
+                // Only increment once per browser session
                 var alreadyCounted = sessionStorage.getItem('404mf_counted');
                 if (alreadyCounted) {
-                    var el = document.getElementById('visitor-count');
-                    if (el) el.textContent = 'Visitor #' + parseInt(alreadyCounted).toLocaleString();
+                    el.textContent = 'Visitor #' + parseInt(alreadyCounted).toLocaleString();
                     return;
                 }
             } catch(e) {}
 
-            // First load this session — increment the counter
-            fetch('https://api.counterapi.dev/v1/404memoryfound/visits/up')
-                .then(r => r.json())
-                .then(data => {
-                    var el = document.getElementById('visitor-count');
-                    if (el && data.count) {
-                        el.textContent = 'Visitor #' + data.count.toLocaleString();
-                        try { sessionStorage.setItem('404mf_counted', data.count); } catch(e) {}
+            // Use Firebase Realtime Database for accurate visitor count
+            // Base: 175 (GA4 total users as of April 2026)
+            function tryFirebaseCounter() {
+                var db = getFirebaseDb();
+                if (!db) {
+                    // Firebase still loading — retry in 500ms (up to 5 times)
+                    if (!tryFirebaseCounter._retries) tryFirebaseCounter._retries = 0;
+                    tryFirebaseCounter._retries++;
+                    if (tryFirebaseCounter._retries < 10) {
+                        setTimeout(tryFirebaseCounter, 500);
+                    } else {
+                        // Firebase never loaded — show base count
+                        el.textContent = 'Visitor #175';
                     }
-                })
-                .catch(() => {
-                    var base = 4847;
-                    var daysSinceLaunch = Math.floor((Date.now() - new Date('2024-01-01').getTime()) / 86400000);
-                    var estimate = base + daysSinceLaunch * 3;
-                    var el = document.getElementById('visitor-count');
-                    if (el) el.textContent = 'Visitor #' + estimate.toLocaleString();
+                    return;
+                }
+
+                var counterRef = db.ref('visitorCount');
+                counterRef.transaction(function(current) {
+                    // Initialize at 175 if counter doesn't exist yet
+                    if (current === null) return 175;
+                    return current + 1;
+                }).then(function(result) {
+                    var count = result.snapshot.val();
+                    el.textContent = 'Visitor #' + count.toLocaleString();
+                    try { sessionStorage.setItem('404mf_counted', count); } catch(e) {}
+                }).catch(function() {
+                    el.textContent = 'Visitor #175';
                 });
+            }
+
+            tryFirebaseCounter();
         }
 
         function showCookieBanner() {
