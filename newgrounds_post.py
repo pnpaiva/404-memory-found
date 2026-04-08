@@ -1,0 +1,153 @@
+import json
+
+post = {
+    "id": "what-happened-to-newgrounds",
+    "title": "What Happened to Newgrounds, the Internet Before YouTube",
+    "date": "2026-04-08",
+    "excerpt": "From a kid's Neo Geo fanzine to the birthplace of internet animation. How Newgrounds built the creative web, survived the death of Flash, and keeps going.",
+    "body": """<article>
+<h2>A Kid in Delaware With a Fanzine and a Dream</h2>
+
+<p>Picture this: 1991. A 13-year-old kid named Tom Fulp is sitting in his bedroom in Perkasie, Pennsylvania, completely obsessed with the Neo Geo gaming console. Not the Super Nintendo. Not the Sega Genesis. The Neo Geo, which cost $650 at launch and was basically an arcade cabinet disguised as a home console. Most kids his age couldn't even dream of owning one. But Fulp doesn't care about owning one. He cares about talking about it. So he starts a fanzine called "New Ground" and mails it out to roughly 100 members of a club he found on Prodigy, the online service that predated AOL for most American households.</p>
+
+<p>One hundred people. That was his audience. A hundred strangers who also loved obscure arcade hardware. He was hand-assembling pages about fighting games and mailing them to people he'd never met. If you had told him that within a decade, his little fanzine name would become one of the most important websites in internet history, he probably would have laughed. And then gone back to writing about Fatal Fury.</p>
+
+<p>By 1995, Fulp had moved his operation online. He was a student at Drexel University in Philadelphia, and the web was just becoming a real thing. He launched a site called "New Ground Remix," which started as a simple collection of his own projects and grew into something nobody expected. The site gained serious traction in the summer of 1996 after Fulp created a couple of browser games called "Club a Seal" and "Assassin." They were crude. They were violent in that cartoonish, over-the-top way that the early internet loved. And they spread like wildfire through early web forums and email chains.</p>
+
+<p>But here's the thing about the mid-1990s internet. There was no YouTube. There was no TikTok. There was no Instagram. If you made something creative and wanted people to see it, you had basically two options: build your own website and hope someone stumbled onto it, or find a community that would host it. There was no centralized platform for creative content. No algorithm pushing your work to an audience. You either found your people or you didn't.</p>
+
+<p>Tom Fulp decided to become the platform.</p>
+
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gameboy-Advance-SP-Mk1-Blue.jpg/960px-Gameboy-Advance-SP-Mk1-Blue.jpg" alt="Game Boy Advance SP in blue, the kind of handheld you would play between checking Newgrounds on the family computer" loading="lazy" />
+  <figcaption>The GBA SP: the handheld you'd snap shut and hide when your parents walked in, right before alt-tabbing away from Newgrounds</figcaption>
+</figure>
+
+<h2>The Portal Changes Everything</h2>
+
+<p>In 1999, two things happened that turned Newgrounds from a quirky hobby site into a cultural force. First, Fulp consolidated everything under one domain: newgrounds.com. No more "New Ground Remix." Just Newgrounds. Clean, simple, memorable. Second, he released a Flash game called Pico's School.</p>
+
+<p>If you were on the internet in 1999, you probably played Pico's School. It was a point-and-click game about a school shooting, which sounds absolutely unhinged by today's standards, and honestly it was pretty unhinged by 1999 standards too. But it was also genuinely well-made. Tom Fulp himself has called it "a real defining moment for Newgrounds." The game exhibited a level of design polish that was virtually unseen in amateur Flash development at the time. It wasn't just edgy for the sake of being edgy. It was actually good. People noticed.</p>
+
+<p>The character of Pico became Newgrounds' unofficial mascot. The game proved that Flash could be used to create real interactive experiences, not just spinning logos and animated banner ads. And it drew an audience that was hungry for more. A lot more.</p>
+
+<p>Then in 2000, Fulp did something that changed the trajectory of the entire creative internet. He created "The Portal," an automated submission system where anyone could upload their Flash animations and games, and the Newgrounds community would vote on them. If your submission got enough positive votes, it stayed on the site. If it didn't, it was "blammed," which was Newgrounds slang for being voted off. It was essentially democratic content curation years before Reddit, years before YouTube's algorithm, years before anyone was talking about user-generated content as a business model.</p>
+
+<p>Newgrounds became the first Flash website with this kind of system. And it worked. By 2000, the site was getting roughly ten million visits per month. Ten million. For a site run by one guy who'd started with a Neo Geo fanzine. That's not a typo.</p>
+
+<h2>The Golden Age of Flash Animation</h2>
+
+<p>What happened next was one of the most creatively explosive periods in internet history. Between roughly 2000 and 2008, Newgrounds became the de facto home for independent animation and game development on the internet. And the stuff people made was genuinely incredible.</p>
+
+<p>You had series like "Xiao Xiao," a stick figure martial arts animation by Zhu Zhiqiang that became one of the first truly viral internet videos. You had "Madness Combat" by Krinkels, a relentlessly violent action series that spawned a franchise spanning over two decades. You had musical animations, parodies, game reviews, experimental art pieces. The range was staggering.</p>
+
+<p>The beauty of Newgrounds was that it had zero gatekeepers. There was no network executive deciding what got made. No algorithm suppressing content that didn't fit a monetization model. If you could learn Flash and make something that the community liked, you were in. Your animation sat right next to everyone else's. A teenager in Brazil could upload a cartoon and have it watched by hundreds of thousands of people within a week. That simply didn't exist anywhere else on the internet.</p>
+
+<p>And the community was brutal, in the best possible way. The voting system meant that bad content got filtered out quickly. The review system meant that creators got real feedback, not just likes and heart emojis. People would write paragraph-long critiques of frame rate issues and sound mixing. It was a genuine creative workshop disguised as an entertainment website. Animators learned their craft on Newgrounds in a way that film school couldn't replicate, because film school didn't give you an audience of millions who would tell you exactly what you were doing wrong.</p>
+
+<h2>Alien Hominid Goes Retail</h2>
+
+<p>On August 7, 2002, Tom Fulp and an artist named Dan Paladin uploaded a Flash game called Alien Hominid to The Portal. It was a run-and-gun shooter where you played as a little yellow alien fighting FBI agents. It was fast, it was funny, it was surprisingly well-designed, and it proved something important: Flash games could be as good as "real" games.</p>
+
+<p>Alien Hominid was played over 20 million times on Newgrounds. Twenty million. For a free browser game made by two guys. And here's where it gets really interesting. That success was so overwhelming that Fulp, Paladin, John Baez, and Brandon LaCava decided to form a company called The Behemoth and develop a full console version.</p>
+
+<p>The expanded Alien Hominid shipped on PlayStation 2, GameCube, and Xbox across 2004 and 2005. A Flash game from Newgrounds was now sitting on store shelves at GameStop, right next to Halo 2 and Grand Theft Auto. That was unprecedented. Nobody had ever taken a free browser game and turned it into a retail console release. The Behemoth proved it could be done.</p>
+
+<p>They didn't stop there. In 2008, The Behemoth released Castle Crashers, which became one of the best-selling Xbox Live Arcade games of all time. They followed that with BattleBlock Theater in 2013 and Pit People in 2018. An entire game studio, one of the most beloved independent studios in the industry, exists because Tom Fulp built a website for Flash animations in his college dorm room.</p>
+
+<h2>Salad Fingers and the Birth of Internet Horror</h2>
+
+<p>On July 1, 2004, a British animator named David Firth uploaded the first episode of something called "Salad Fingers" to Newgrounds. The episode was titled "Spoons." It was about a gaunt, green-skinned character with elongated fingers who lived in a desolate landscape and had an unsettling obsession with touching rusty objects.</p>
+
+<p>It was weird. Really weird. And at first, nobody cared. The initial reception on Newgrounds was lukewarm. But then it got featured on the front page, and everything changed. Salad Fingers went viral in a way that almost nothing had gone viral before. By 2005, the San Francisco Chronicle ranked it among the "Top 10" pop culture phenomena of the year. A Flash animation. On a list next to mainstream movies and TV shows.</p>
+
+<p>What Salad Fingers proved was that the internet didn't just want funny. It wanted strange. It wanted uncomfortable. It wanted art that couldn't exist on television because no network would ever greenlight it. Firth created an entire genre of internet horror that eventually spawned things like "Don't Hug Me I'm Scared" and dozens of YouTube channels dedicated to surreal, unsettling animation. The lineage traces directly back to a Flash cartoon on Newgrounds.</p>
+
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/IMac_G3_Grape_%28Rev._D%29.jpg/960px-IMac_G3_Grape_%28Rev._D%29.jpg" alt="iMac G3 in Grape, the type of computer sitting in school labs where kids discovered Newgrounds" loading="lazy" />
+  <figcaption>The iMac G3: the computer in every school library where a generation first discovered Newgrounds during "research time"</figcaption>
+</figure>
+
+<h2>The Slow Decline and the YouTube Problem</h2>
+
+<p>YouTube launched in 2005. And almost immediately, everything changed for Newgrounds.</p>
+
+<p>The problem wasn't that YouTube was better. In many ways, it was worse. YouTube's video compression in 2005 was atrocious compared to the crisp vector animations that Flash produced. YouTube didn't support interactive content. YouTube didn't have a voting system or community review system. YouTube was, in almost every technical dimension, inferior to Newgrounds for the kind of content that Newgrounds hosted.</p>
+
+<p>But YouTube had one thing Newgrounds didn't: it was easy. You didn't need to learn Flash. You didn't need to animate. You could point a webcam at your face and upload. The barrier to entry dropped from "learn a professional animation tool" to "own a camera." And that simplicity meant that YouTube's library grew exponentially while Newgrounds' growth, which depended on people actually making things in Flash, couldn't keep pace.</p>
+
+<p>There was also the money problem. YouTube introduced the Partner Program in 2007, which meant creators could actually earn revenue from their videos. Newgrounds had no equivalent. Animators who had spent years building audiences on Newgrounds started migrating to YouTube because that's where the money was. You couldn't blame them. Making Flash animations takes weeks or months of work. If you could get paid for it on YouTube but not on Newgrounds, the math was simple.</p>
+
+<p>By the late 2000s, the exodus was real. Major Newgrounds creators were either moving to YouTube entirely or using Newgrounds as a secondary platform. The site didn't die. It was still getting traffic, still hosting content, still maintaining a passionate community. But the center of gravity for internet creativity had shifted. YouTube had won the distribution war, even if it hadn't won the quality war.</p>
+
+<h2>Flash Dies, Newgrounds Refuses To</h2>
+
+<p>In July 2017, Adobe announced that Flash would be officially discontinued by the end of 2020. December 31, 2020 was the death date. Every major browser would stop supporting Flash. Every Flash-based website would go dark. Decades of internet culture, millions of animations and games, would simply cease to be accessible.</p>
+
+<p>For most websites, this was a minor inconvenience. For Newgrounds, it was an existential threat. The entire site was built on Flash. Its archive of hundreds of thousands of animations and games was Flash. Everything that made Newgrounds what it was depended on a technology that was about to disappear.</p>
+
+<p>Tom Fulp could have let it go. He could have archived what he could and moved on. Instead, he did what he'd been doing since he was 13 years old. He built something. Newgrounds adopted Ruffle, an open-source Flash emulator written in Rust, and integrated it directly into the site. When Flash died on December 31, 2020, Newgrounds kept working. The animations still played. The games still ran. While the rest of the internet lost its Flash content, Newgrounds preserved it.</p>
+
+<p>It was the most Newgrounds thing possible. A scrappy, independent solution to a problem that billion-dollar companies couldn't be bothered to solve. Adobe killed Flash. Google removed it from Chrome. Mozilla removed it from Firefox. But Tom Fulp made sure that if you went to Newgrounds, you could still play Alien Hominid, still watch Salad Fingers, still experience the entire history of Flash animation. That archive represents one of the most significant preservation efforts in internet cultural history, and it happened because one guy refused to let his site die.</p>
+
+<h2>Friday Night Funkin' and the Impossible Comeback</h2>
+
+<p>In October 2020, right as Flash was dying, a rhythm game called Friday Night Funkin' was uploaded to Newgrounds. It was created by a small team of Newgrounds community members: Cameron Taylor, Isaac Garcia, evilsk8r, and KawaiSprite. It was a love letter to the Flash era, a rhythm game with a Newgrounds aesthetic that felt like it had time-traveled from 2004.</p>
+
+<p>Friday Night Funkin' became the most viewed submission in Newgrounds history. As of early 2026, it has over 83 million views. The game's popularity was so intense that when Week 7 was released, the surge of traffic literally crashed the Newgrounds servers. A website that people had been writing off as a relic of the early internet was suddenly so popular that it couldn't handle the load.</p>
+
+<p>The team launched a Kickstarter for the full game with a goal of $60,000. They passed that within hours. The campaign ultimately raised over $2 million. A game that was born on Newgrounds, built with the Newgrounds ethos, funded by people who loved what Newgrounds represented. The site wasn't just alive. It was culturally relevant again in a way that hadn't been true in over a decade.</p>
+
+<h2>Then vs Now: Where Newgrounds Stands</h2>
+
+<p>Newgrounds in 2026 is not what it was in 2004. It's not getting ten million visits a month anymore. It's not the center of internet culture. YouTube, TikTok, and Twitch have taken that mantle. But Newgrounds is still here, and that alone is remarkable. How many websites from 1995 are still operating, still active, still hosting new content? The answer is: almost none.</p>
+
+<p>The site has adapted. It supports HTML5 games and animations alongside the legacy Flash content running through Ruffle. It still has the voting system, the review system, the community that takes creative work seriously. Tom Fulp still runs it. He never sold it. He never took venture capital money. He never compromised the site's independence for a buyout. In a world where every successful website eventually gets acquired, monetized into oblivion, and stripped of everything that made it special, Newgrounds just kept being Newgrounds.</p>
+
+<p>The list of careers that started on Newgrounds is staggering. Arin Hanson, who became Egoraptor and later founded the Game Grumps YouTube channel with millions of subscribers. Stamper, Ross O'Donovan, and the entire crew that built the animation community that still thrives today. The Behemoth became a legitimate game studio. David Firth built an entire career in surreal animation. Friday Night Funkin' proved that the Newgrounds pipeline from amateur project to commercial success still works.</p>
+
+<p>And here's what really gets me about this story. The internet in 2026 is dominated by algorithms. TikTok shows you what it thinks you want to see. YouTube's recommendation engine optimizes for watch time, not creativity. Instagram rewards consistency and hashtags, not originality. Every major platform has turned creativity into a content machine where the algorithm is the gatekeeper.</p>
+
+<p>Newgrounds never did that. From 1995 to today, the curation was always human. Real people voting. Real people reviewing. Real people deciding what was good and what wasn't. That's why it produced Salad Fingers and Alien Hominid and Friday Night Funkin'. No algorithm would have surfaced those things. They were too weird, too niche, too specific. They needed a community that valued creativity over engagement metrics.</p>
+
+<p>Tom Fulp built that community when he was a teenager mailing fanzines about a Neo Geo console that most people had never heard of. Thirty-five years later, it's still running. I don't know if there's a better internet success story than that.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>When was Newgrounds founded?</h3>
+<p>Tom Fulp started the "New Ground" brand in 1991 as a fanzine about the Neo Geo console, distributed to roughly 100 members of a Prodigy online service club. The website launched in 1995 as "New Ground Remix" while Fulp was a student at Drexel University in Philadelphia. The site consolidated under the newgrounds.com domain in 1999.</p>
+
+<h3>What was the most popular game on Newgrounds?</h3>
+<p>Friday Night Funkin', uploaded in October 2020, is the most viewed submission in Newgrounds history with over 83 million views as of early 2026. Before that, Alien Hominid (2002) was one of the most played games on the platform with over 20 million plays, and it became the first Newgrounds game to receive a retail console release.</p>
+
+<h3>What happened to Flash games on Newgrounds after Flash died?</h3>
+<p>When Adobe discontinued Flash on December 31, 2020, Newgrounds integrated Ruffle, an open-source Flash emulator written in Rust, directly into the site. This allows legacy Flash animations and games to continue running in modern browsers without requiring the Flash plugin. The site also supports new submissions in HTML5.</p>
+
+<h3>Did Newgrounds shut down?</h3>
+<p>No. Newgrounds is still active and operational as of 2026. Tom Fulp continues to run the site. While its traffic has declined significantly from its peak years in the early-to-mid 2000s, the site still hosts new content submissions, maintains its community voting and review system, and preserves its massive archive of Flash content through the Ruffle emulator.</p>
+
+<h3>What careers started on Newgrounds?</h3>
+<p>Many notable creators got their start on Newgrounds. Tom Fulp and Dan Paladin founded The Behemoth, which produced Castle Crashers and other successful games. Arin Hanson (Egoraptor) built his animation career on the platform before co-founding Game Grumps. David Firth created Salad Fingers on Newgrounds in 2004. The Friday Night Funkin' development team were active Newgrounds community members. Dozens of professional animators and game developers trace their origins to the platform.</p>
+
+<h3>What was Salad Fingers on Newgrounds?</h3>
+<p>Salad Fingers was a surreal animated web series created by British animator David Firth, with the first episode uploaded to Newgrounds on July 1, 2004. The series featured a gaunt, green character with elongated fingers living in a desolate landscape. It went viral after being featured on the Newgrounds front page and was ranked among the San Francisco Chronicle's "Top 10" pop culture phenomena in 2005.</p>
+
+<!-- authored-by: marcus -->
+</article>""",
+    "tags": ["Internet Culture", "Music & Entertainment"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gameboy-Advance-SP-Mk1-Blue.jpg/960px-Gameboy-Advance-SP-Mk1-Blue.jpg",
+    "author": "404 Memory Found",
+    "seo": {
+        "title": "What Happened to Newgrounds, the Internet Before YouTube | 404 Memory Found",
+        "description": "From Tom Fulp's 1991 fanzine to Flash golden age to Friday Night Funkin. The full history of Newgrounds and why it still matters.",
+        "keywords": ["what happened to newgrounds", "newgrounds history", "newgrounds flash games", "newgrounds before youtube", "tom fulp", "alien hominid", "salad fingers"],
+        "canonical": "https://404memoryfound.com/posts/what-happened-to-newgrounds"
+    }
+}
+
+with open('/sessions/nifty-nice-thompson/404-memory-found/newgrounds_post.json', 'w') as f:
+    json.dump(post, f, indent=2, ensure_ascii=False)
+
+words = len(post['body'].split())
+print(f"Newgrounds post word count: {words}")
+print(f"Has em dash: {'—' in post['body'] or '—' in post['title'] or '—' in post['excerpt']}")
