@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com. Each topic is a deep-dive narrative (3000-5000 words) written by one of two personas (Marcus or Dana). Generator picks 2 per run (1 Marcus + 1 Dana), top of each tier first. Cross off topics as published.",
-  "_last_updated": "2026-04-05",
+  "_last_updated": "2026-05-08",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_1_high": [
     {
@@ -279,6 +279,43 @@
         "irc history",
         "irc chat rooms",
         "internet relay chat history"
+      ],
+      "status": "published"
+    },
+    {
+      "title": "What Happened to the Nokia 3310, the Phone That Refused to Die",
+      "slug": "what-happened-to-nokia-3310",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "Nokia 3310 launched September 2000, sold 126M units, became the indestructible-phone meme. HMD Global revival at MWC 2017. Snake II, Xpress-on covers, week-long battery life as the unintended cultural symbol.",
+      "target_keywords": [
+        "what happened to nokia 3310",
+        "nokia 3310 history",
+        "nokia 3310 indestructible",
+        "nokia 3310 2017 revival",
+        "snake ii nokia"
+      ],
+      "status": "published"
+    },
+    {
+      "title": "What Happened to NCSA Mosaic, the Browser That Built the World Wide Web",
+      "slug": "what-happened-to-ncsa-mosaic-browser",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Software & Apps"
+      ],
+      "angle": "NCSA Mosaic released Jan 1993 by Andreessen and Bina at U Illinois. IMG tag controversy with Berners-Lee. Spyglass licensing chain to Microsoft IE for $2M+$8M settlement. Distribution-over-invention lesson.",
+      "target_keywords": [
+        "what happened to ncsa mosaic",
+        "ncsa mosaic history",
+        "marc andreessen mosaic",
+        "first web browser",
+        "mosaic to netscape",
+        "spyglass internet explorer"
       ],
       "status": "published"
     }
