@@ -445,7 +445,7 @@ def generate_post_html(post, all_posts, html_content, posts_data):
     # CSS override for post pages: allow body scrolling for crawlers
     css_override = """
         /* Post page overrides for SEO crawlability */
-        html, body { overflow: auto !important; height: auto !important; }
+        html, body { overflow: hidden !important; height: 100% !important; }
         .boot-animation { display: none !important; }
         /* Screen reader only */
         .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
