@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com. Each topic is a deep-dive narrative (3000-5000 words) written by one of two personas (Marcus or Dana). Generator picks 2 per run (1 Marcus + 1 Dana), top of each tier first. Cross off topics as published.",
-  "_last_updated": "2026-05-08",
+  "_last_updated": "2026-05-18",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_1_high": [
     {
@@ -318,6 +318,16 @@
         "spyglass internet explorer"
       ],
       "status": "published"
+    }
+  ],
+  "_note_fallback_run": [
+    {
+      "date": "2026-05-18",
+      "reason": "All backlog topics were already published. Selected 2 fresh fallback topics.",
+      "published": [
+        "what-happened-to-sega-channel (marcus)",
+        "what-happened-to-hypercard-apple (dana)"
+      ]
     }
   ]
 }
