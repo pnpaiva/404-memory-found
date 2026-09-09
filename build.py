@@ -236,6 +236,18 @@ def monetize_links(body, config):
     return re.sub(r"<a [^>]*>", fix, body)
 
 
+def verification_meta(config):
+    """Site-verification tags for Search Console, Bing Webmaster Tools and Pinterest, pasted into site-config.json."""
+    tags = []
+    if config.get("google_verification"):
+        tags.append(f'<meta name="google-site-verification" content="{esc(config["google_verification"])}">')
+    if config.get("bing_verification"):
+        tags.append(f'<meta name="msvalidate.01" content="{esc(config["bing_verification"])}">')
+    if config.get("pinterest_verification"):
+        tags.append(f'<meta name="p:domain_verify" content="{esc(config["pinterest_verification"])}">')
+    return "".join("\n    " + t for t in tags)
+
+
 def adsense_head(config):
     client = config.get("adsense_client") or ""
     if not client:
@@ -400,7 +412,7 @@ def head_html(ctx, *, title, description, canonical, og_type="website", og_image
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     {ctx['csp']}
-{gtag_snippet()}{ctx['adsense']}
+{gtag_snippet()}{ctx['adsense']}{ctx['verification']}
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(description)}">
     <link rel="canonical" href="{canonical}">
@@ -839,7 +851,7 @@ def build_index_html(ctx, posts):
     <meta name="twitter:title" content="{BLOG_NAME}">
     <meta name="twitter:description" content="{esc(DEFAULT_DESCRIPTION)}">
     <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
-    <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">{ctx['adsense']}
+    <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">{ctx['adsense']}{ctx['verification']}
     <script type="application/ld+json">{json.dumps(website_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json">{json.dumps(blog_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json" id="schema-markup"></script>"""
@@ -904,17 +916,23 @@ def build_feed(posts):
     items = []
     for p in posts[:20]:
         cats = "".join(f"      <category>{esc(t)}</category>\n" for t in p["tags"])
+        media = ""
+        og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.png")
+        if os.path.exists(og_local):
+            size = os.path.getsize(og_local)
+            media = (f'      <enclosure url="{p["ogImage"]}" length="{size}" type="image/png"/>\n'
+                     f'      <media:content url="{p["ogImage"]}" medium="image" type="image/png" width="1200" height="630"/>\n')
         items.append(f"""    <item>
       <title>{esc(p['title'])}</title>
       <link>{p['url']}</link>
       <guid isPermaLink="true">{p['url']}</guid>
       <pubDate>{rfc822(p['date'])}</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{esc(p['authorName'])}</dc:creator>
+      <dc:creator>{esc(p['authorName'])}</dc:creator>
       <description>{esc(p['excerpt'])}</description>
-{cats}    </item>""")
+{media}{cats}    </item>""")
     latest = rfc822(posts[0]["date"]) if posts else rfc822("2026-01-01")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{BLOG_NAME}</title>
     <link>{BASE_URL}/</link>
@@ -1079,7 +1097,7 @@ def main():
     ctx = {
         "source": source, "version": version, "tags": tags, "authors": authors, "config": config,
         "csp": "" if adsense else csp,  # a meta CSP would block ad networks; drop it once ads are on
-        "favicons": favicons, "adsense": adsense,
+        "favicons": favicons, "adsense": adsense, "verification": verification_meta(config),
         "desktop_icons": extract_div_by_marker(source, 'class="desktop-icons">'),
         "taskbar": extract_div_by_marker(source, 'class="taskbar">'),
         "footer": extract_div_by_marker(source, 'class="footer">'),

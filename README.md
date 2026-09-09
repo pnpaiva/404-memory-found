@@ -29,8 +29,19 @@ topic-backlog.json ──► generate_post.py ──► posts.json ──► fet
 3. **Affiliate links (optional).** eBay Partner Network campaign id → `ebay_campaign_id`; Amazon Associates tag →
    `amazon_tag`. The build then tags every eBay/Amazon link in post bodies as `rel="sponsored"` with tracking and
    shows the disclosure under the post. Posts about products carry a "Where to find one today" paragraph for this.
-4. **Search Console.** Submit `https://404memoryfound.com/sitemap.xml` and request indexing for `/`, `/posts/` and the
-   eight `/tags/` pages.
+4. **Search Console.** Submit `https://404memoryfound.com/sitemap.xml` (and `/feed.xml` as a second sitemap) and request
+   indexing for `/`, `/posts/` and the eight `/tags/` pages. Paste the HTML-tag verification code into
+   `site-config.json` → `google_verification` if you verify that way.
+5. **Bing Webmaster Tools.** https://www.bing.com/webmasters → Import from Google Search Console (one click), or add
+   the site and paste the `msvalidate.01` code into `site-config.json` → `bing_verification`. IndexNow pings
+   (`indexnow_ping.py`, key file at the repo root) already run after every build, so Bing learns about new posts
+   within minutes once the site is added.
+6. **Pinterest.** Create a business account for the site (not linked to you), claim the website by pasting the
+   `p:domain_verify` code into `site-config.json` → `pinterest_verification`, create a board, then either
+   (a) turn on Pinterest's own *Auto-publish from RSS* with `https://404memoryfound.com/feed.xml` (every item carries
+   its share card as media), or (b) create an app at https://developers.pinterest.com, generate a token with
+   `pins:write` and `boards:read`, and add the secrets `PINTEREST_ACCESS_TOKEN` and `PINTEREST_BOARD_ID`. With (b)
+   the daily workflow pins each new post plus two older ones per day (`pinterest_publish.py`).
 
 ## Local commands
 
@@ -52,6 +63,8 @@ python3 -m http.server 8404      # preview at http://localhost:8404
 | `site-config.json` | AdSense id, ads.txt line, affiliate ids, disclosure text. |
 | `redirects.json` | Old slug → new slug. The build writes canonical + meta-refresh stubs for old URLs. |
 | `images-manifest.json` | Wikimedia URL → local file, written by `fetch_images.py`. |
+| `indexnow.json`, `<key>.txt` | IndexNow key (Bing/Yandex instant indexing). |
+| `pinterest-state.json` | What has been pinned, written by the workflow. |
 | `topic-backlog.json` | Topics to write. The generator refills it with ten researched topics when it runs dry. |
 | `POST_SPEC.md` | The editorial spec the generator enforces. |
 | `CONTENT_CALENDAR.md` | Original 50-topic research from March 2026, still a useful idea list. |

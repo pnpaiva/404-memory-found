@@ -8,5 +8,11 @@
   "ebay_campaign_id": "",
   "ebay_note": "eBay Partner Network campaign id. When set, build.py appends the tracking parameters to every ebay.com link in post bodies and marks it rel=\"sponsored nofollow\".",
   "amazon_tag": "",
-  "amazon_note": "Amazon Associates tracking id (e.g. 404memoryfound-20). When set, build.py appends ?tag= to amazon.com links and marks them rel=\"sponsored nofollow\"."
+  "amazon_note": "Amazon Associates tracking id (e.g. 404memoryfound-20). When set, build.py appends ?tag= to amazon.com links and marks them rel=\"sponsored nofollow\".",
+  "google_verification": "",
+  "google_verification_note": "Search Console → Settings → Ownership verification → HTML tag: paste only the content value.",
+  "bing_verification": "",
+  "bing_verification_note": "Bing Webmaster Tools → Add site → HTML meta tag: paste only the content value of msvalidate.01.",
+  "pinterest_verification": "",
+  "pinterest_verification_note": "Pinterest business settings → Claimed accounts → Website → Add HTML tag: paste only the content value of p:domain_verify."
 }
