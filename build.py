@@ -431,6 +431,7 @@ def head_html(ctx, *, title, description, canonical, og_type="website", og_image
     <meta name="twitter:description" content="{esc(description)}">
     <meta name="twitter:image" content="{og_image}">{extra_meta}
     <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">
+    <link rel="alternate" type="text/plain" title="llms.txt" href="{BASE_URL}/llms.txt">
     {ctx['favicons']}
     <link rel="stylesheet" href="/assets/site.css?v={ctx['version']}">
 {schema_tags}
@@ -640,6 +641,16 @@ def build_hub_page(ctx, filename, posts):
     inner = re.sub(r"<h2([^>]*)>(.*?)</h2>", r"<h1\1>\2</h1>", inner, count=1)
     if filename == "about.html":
         inner += authors_block_html(ctx)
+        inner += ('<section class="editorial-policy"><h2>How we research and correct</h2>'
+                  '<p>Every article starts from primary material: company filings, court records, contemporary newspaper '
+                  'reports, museum collections and the companies\' own announcements. The sources we relied on are listed at '
+                  'the end of each post, and any figure we could not trace to one of them is left out rather than estimated. '
+                  'Posts carry their publication date and, when revised, an update date.</p>'
+                  '<p>We write under pen names and publish no personal details about our writers. If you find an error, email '
+                  '<a href="mailto:hello@404memoryfound.com">hello@404memoryfound.com</a> with the page and the source; '
+                  'corrections are made in the article and dated.</p>'
+                  f'<p>Machine-readable summaries of the whole site are available at <a href="/llms.txt">/llms.txt</a> and '
+                  f'<a href="/llms-full.txt">/llms-full.txt</a>.</p></section>')
     if filename == "terms.html":
         inner += ('<h3 style="font-size:14px;margin:10px 0 4px 0;">Affiliate links and advertising</h3>'
                   '<p style="font-size:13px;margin-bottom:8px;">' + esc(ctx["config"].get("affiliate_disclosure", "")) +
@@ -953,6 +964,69 @@ def build_feed(posts):
 """
 
 
+AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "anthropic-ai", "PerplexityBot",
+           "Perplexity-User", "Google-Extended", "Googlebot", "Bingbot", "Applebot", "Applebot-Extended", "CCBot",
+           "Amazonbot", "Meta-ExternalAgent", "DuckAssistBot", "YouBot", "cohere-ai", "MistralAI-User"]
+
+
+def build_robots():
+    """Allow every search and AI crawler explicitly. Answer engines cite pages they were allowed to read."""
+    out = ["User-agent: *", "Allow: /", ""]
+    for bot in AI_BOTS:
+        out += [f"User-agent: {bot}", "Allow: /", ""]
+    out += [f"Sitemap: {BASE_URL}/sitemap.xml", f"Sitemap: {BASE_URL}/feed.xml", ""]
+    return "\n".join(out)
+
+
+def html_to_text(fragment):
+    """Post body HTML -> Markdown-flavoured plain text for llms-full.txt."""
+    t = fragment
+    t = re.sub(r"<h2[^>]*>(.*?)</h2>", lambda m: "\n\n## " + strip_tags(m.group(1)) + "\n\n", t, flags=re.S)
+    t = re.sub(r"<h3[^>]*>(.*?)</h3>", lambda m: "\n\n### " + strip_tags(m.group(1)) + "\n\n", t, flags=re.S)
+    t = re.sub(r"<li[^>]*>(.*?)</li>", lambda m: "- " + strip_tags(m.group(1)) + "\n", t, flags=re.S)
+    t = re.sub(r"<a [^>]*href=\"([^\"]+)\"[^>]*>(.*?)</a>",
+               lambda m: f"{strip_tags(m.group(2))} ({m.group(1) if m.group(1).startswith('http') else BASE_URL + m.group(1)})", t, flags=re.S)
+    t = re.sub(r"</p>|<br\s*/?>", "\n\n", t)
+    t = re.sub(r"<figcaption[^>]*>.*?</figcaption>", "", t, flags=re.S)
+    t = re.sub(r"<[^>]+>", "", t)
+    t = html.unescape(t)
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+
+def build_llms_txt(posts, tags, authors):
+    lines = [f"# {BLOG_NAME}", "", f"> {DEFAULT_DESCRIPTION}", "",
+             "Every article is written under a pen name by the site's editorial team, sourced from primary documents "
+             "(company filings, court records, contemporary reporting, museum collections) listed at the end of each post, "
+             f"and dated. Full text of every article, in Markdown: {BASE_URL}/llms-full.txt", "",
+             "## Hub pages", f"- [All posts]({BASE_URL}/posts/): every article, newest first",
+             f"- [About and editorial policy]({BASE_URL}/about.html)", f"- [RSS feed]({BASE_URL}/feed.xml)", ""]
+    for t in tags:
+        lines += [f"## {t}"]
+        for p in posts:
+            if t in p["tags"]:
+                lines.append(f"- [{p['title']}]({p['url']}): {p['excerpt']}")
+        lines.append("")
+    lines += ["## Writers"] + [f"- [{a['name']}]({BASE_URL}/authors/{k}.html): {a['beat']}" for k, a in authors.items()] + [""]
+    return "\n".join(lines)
+
+
+def build_llms_full(posts):
+    parts = [f"# {BLOG_NAME}: full text of every article", "", f"> {DEFAULT_DESCRIPTION}", "",
+             f"Source: {BASE_URL}. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.", ""]
+    for p in posts:
+        head = [f"# {p['title']}", "", f"URL: {p['url']}", f"Author: {p['authorName']} ({BLOG_NAME})",
+                f"Published: {p['date']}" + (f"  Updated: {p['updated']}" if p.get("updated") else ""),
+                f"Topics: {', '.join(p['tags'])}", ""]
+        if p.get("summary"):
+            head += ["**Summary:** " + strip_tags(p["summary"]), ""]
+        if p.get("facts"):
+            head += ["**Key facts:**"] + [f"- {f['label']}: {strip_tags(f['value'])}" for f in p["facts"]] + [""]
+        body = html_to_text(p["body"])
+        srcs = [""] + (["**Sources:**"] + [f"- {s['title']}: {s['url']}" for s in p.get("sources", [])] if p.get("sources") else [])
+        parts += head + [body] + srcs + ["", "---", ""]
+    return "\n".join(parts)
+
+
 def posts_index_json(posts):
     return {"posts": [{
         "id": p["slug"], "title": p["title"], "date": p["date"], "excerpt": p["excerpt"], "tags": p["tags"],
@@ -1152,10 +1226,12 @@ def main():
             os.remove(os.path.join(OUTPUT_DIR, "posts", name))
             print(f"   🗑  removed stale posts/{name}")
 
-    print("🗺️  sitemap.xml, feed.xml, robots.txt, CNAME" + (", ads.txt" if config.get("ads_txt") else ""))
+    print("🗺️  sitemap.xml, feed.xml, robots.txt, llms.txt, llms-full.txt, CNAME" + (", ads.txt" if config.get("ads_txt") else ""))
     write("sitemap.xml", build_sitemap(posts, tags, authors, today))
     write("feed.xml", build_feed(posts))
-    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
+    write("robots.txt", build_robots())
+    write("llms.txt", build_llms_txt(posts, tags, authors))
+    write("llms-full.txt", build_llms_full(posts))
     write("CNAME", "404memoryfound.com")
     if config.get("ads_txt"):
         write("ads.txt", config["ads_txt"].strip() + "\n")
