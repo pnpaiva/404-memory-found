@@ -265,20 +265,58 @@ def validate(post, existing_slugs):
 
 # --------------------------------------------------------------------------- image
 
-def commons_search(query):
-    url = ("https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=10"
+def commons_candidates(query):
+    """Free-licence JPEG/PNG hits for a Commons search, with title, description and licence for Claude to judge."""
+    url = ("https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=12"
            f"&gsrsearch={quote(query)}&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize%7Cmime&iiurlwidth=960&format=json")
     req = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(req, timeout=30) as r:
         data = json.load(r)
+    out = []
     for page in sorted(data.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99)):
         ii = page["imageinfo"][0]
-        licence = (ii.get("extmetadata", {}).get("LicenseShortName", {}).get("value") or "").lower()
+        meta = ii.get("extmetadata", {})
+        licence = (meta.get("LicenseShortName", {}).get("value") or "").lower()
         if ii.get("mime") not in ("image/jpeg", "image/png"):
             continue
         if ii.get("width", 0) < 640 or not any(k in licence for k in FREE_LICENCES):
             continue
-        return normalize_commons_url(ii.get("thumburl") or ii.get("url"))
+        desc = re.sub(r"<[^>]+>", "", meta.get("ImageDescription", {}).get("value") or "")[:200]
+        out.append({"title": page["title"], "description": desc, "licence": licence,
+                    "url": normalize_commons_url(ii.get("thumburl") or ii.get("url"))})
+    return out
+
+
+def pick_image(post, candidates):
+    """Commons search matches on file names, so 'Furby' returns church ruins in Sweden. Let Claude choose or reject."""
+    listing = "\n".join(f"{i}. {c['title']} | {c['licence']} | {c['description']}" for i, c in enumerate(candidates))
+    schema = {"type": "object", "properties": {"index": {"type": "integer"}, "caption": {"type": "string"},
+                                               "alt": {"type": "string"}},
+              "required": ["index", "caption", "alt"], "additionalProperties": False}
+    msg = client.messages.create(
+        model=MODEL, max_tokens=2000,
+        output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
+        messages=[{"role": "user", "content": (
+            f"Post title: {post['title']}\nSummary: {post['summary']}\n\nCandidate images from Wikimedia Commons:\n"
+            f"{listing}\n\nReturn the index of the image that actually shows the subject of the post (the product, "
+            "company, website or person), or -1 if none does. Never pick a place, building or unrelated object that "
+            "merely shares the name. Also return a one-sentence caption that is accurate for that exact image "
+            "(say if it is a later model or a museum display) and descriptive alt text.")}],
+    )
+    return json.loads(text_of(msg))
+
+
+def commons_search(query, post=None):
+    candidates = commons_candidates(query)
+    if not candidates:
+        return None
+    if post is None:
+        return candidates[0]["url"]
+    choice = pick_image(post, candidates)
+    if 0 <= choice["index"] < len(candidates):
+        post["imageCaption"] = choice["caption"] or post.get("imageCaption", "")
+        post["imageAlt"] = choice["alt"] or post.get("imageAlt", "")
+        return candidates[choice["index"]]["url"]
     return None
 
 
@@ -291,7 +329,7 @@ def normalize_commons_url(url):
 def find_image(post):
     for q in post.get("imageSearch", [])[:4]:
         try:
-            hit = commons_search(q)
+            hit = commons_search(q, post)
         except Exception as e:  # noqa: BLE001
             print(f"  commons search failed for {q!r}: {e}")
             hit = None
