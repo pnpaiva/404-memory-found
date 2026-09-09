@@ -1664,6 +1664,15 @@
   "thumb": "/img/thumb/asus-eee-pc-compared-to-a-macbook-06398c.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Iridium_Satellite.jpg/960px-Iridium_Satellite.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Iridium_Satellite.jpg",
+  "ext": "jpg",
+  "file": "/img/iridium-satellite-ae29d2.jpg",
+  "height": 640,
+  "status": "ok",
+  "thumb": "/img/thumb/iridium-satellite-ae29d2.jpg",
+  "width": 960
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Baker_Hall_(Carnegie_Mellon_University)_-_IMG_7859.JPG/960px-Baker_Hall_(Carnegie_Mellon_University)_-_IMG_7859.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Baker_Hall_(Carnegie_Mellon_University)_-_IMG_7859.JPG",
   "ext": "jpg",
