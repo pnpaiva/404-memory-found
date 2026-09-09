@@ -1,0 +1,13 @@
+{
+  "_description": "Old post slugs that now live at a new URL. build.py writes a canonical + meta-refresh stub for each old slug and removes any other stale posts/*.html.",
+  "definitive-history-of-ebay-online-auctions": "ebay-broken-laser-pointer-to-global-marketplace",
+  "definitive-history-of-icq-messenger": "what-happened-to-icq-instant-messenger",
+  "definitive-history-of-realplayer": "what-happened-to-realplayer-streaming",
+  "how-sony-playstation-was-born-from-nintendo-betrayal": "playstation-2-best-selling-console-ever",
+  "nintendo-64-vs-playstation-console-war": "playstation-2-best-selling-console-ever",
+  "what-happened-to-circuit-city-the-electronics-empire-that-fired-its-way-to-death": "what-happened-to-circuit-city-electronics",
+  "what-happened-to-friendster-first-social-network": "what-happened-to-friendster-social-network",
+  "what-happened-to-frys-electronics-tech-superstore": "what-happened-to-frys-electronics",
+  "why-blackberry-actually-failed": "what-happened-to-blackberry-smartphone",
+  "why-nokia-phones-actually-failed": "what-happened-to-nokia-3310"
+}

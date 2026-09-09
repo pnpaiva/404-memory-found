@@ -1,394 +1,330 @@
 #!/usr/bin/env python3
 """
-Build script for 404 Memory Found - Windows 95 themed static site generator
+Build script for 404 Memory Found - Windows 95 themed static site generator.
 
-Homepage: Uses the source SPA (src/index.html) with SEO enhancements.
-          Posts load dynamically from posts.json via JavaScript.
-          All interactive features work natively (drag, resize, tag filters, search, etc.)
+Inputs
+  src/index.html         the SPA (desktop + mobile UI, CSS and JS inline)
+  posts.json             every post, body included (source of truth)
+  redirects.json         old slug -> new slug for posts that moved
+  images-manifest.json   written by fetch_images.py: Wikimedia URL -> local copy
+  og/<slug>.png          written by make_og_cards.py: per-post share image
 
-Post pages: Static HTML for SEO crawlers and direct links.
-            Each post gets its own URL with proper meta tags and JSON-LD schema.
-            No boot animation on post pages for smoother UX.
+Outputs (all committed, served by GitHub Pages)
+  index.html             the SPA with SEO meta, pre-rendered post lists, external assets
+  assets/site.css|js     the SPA's CSS and JS, cached once instead of inlined per page
+  posts-index.json       lightweight list the homepage loads (no bodies)
+  posts/<slug>.html      one static page per post, article rendered exactly once
+  posts/<slug>.json      body only, fetched on demand when a post opens in the desktop
+  posts/index.html       crawlable list of every post
+  tags/<tag>.html        one hub page per category
+  about|contact|privacy|terms.html, 404.html, feed.xml, sitemap.xml, robots.txt, CNAME
 """
 
+import hashlib
+import html
 import json
 import os
 import re
 import shutil
-from datetime import datetime
+from datetime import datetime, timezone
+from email.utils import format_datetime
 
-# Configuration
 BASE_URL = "https://404memoryfound.com"
 BLOG_NAME = "404 Memory Found"
-OUTPUT_DIR = "."  # Deploy directly to repo root for GitHub Pages
+OUTPUT_DIR = "."
+ROOT = os.path.dirname(os.path.abspath(__file__))
+SOURCE_PATH = os.path.join(ROOT, "src", "index.html")
+DEFAULT_DESCRIPTION = ("404 Memory Found is a nostalgia blog of long-form stories about the technology, "
+                       "games, websites and companies of the 90s and 2000s, wrapped in a Windows 95 desktop.")
+GA_ID = "G-GQX7R9W80G"
+HUB_TAG_COUNT = 8
+RELATED_COUNT = 5
+WORDS_PER_MINUTE = 230
+DEFAULT_OG_IMAGE = f"{BASE_URL}/og-image.png"
+LOGO = f"{BASE_URL}/logo-512.png"
+
+HUB_PAGES = {
+    # file            window id in the SPA    title bar            page <title>
+    "about.html":   ("about-window",     "ℹ️ About This Site", "About 404 Memory Found"),
+    "privacy.html": ("privacy-window",   "📄 Privacy Policy",  "Privacy Policy"),
+    "terms.html":   ("terms-window",     "📋 Terms of Use",    "Terms of Use"),
+    "contact.html": ("guestbook-window", "✍️ Contact & Guestbook", "Contact 404 Memory Found"),
+}
+HUB_DESCRIPTIONS = {
+    "about.html": "What 404 Memory Found is, who writes it, and how to get in touch.",
+    "privacy.html": "What 404 Memory Found collects, which cookies it sets, and how to have your data removed.",
+    "terms.html": "The terms that apply to reading 404 Memory Found and using its guestbook and games.",
+    "contact.html": "Email 404 Memory Found or sign the guestbook.",
+}
 
 
-def read_source_files():
-    """Read src/index.html (source) and posts.json"""
-    source_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src', 'index.html')
-    with open(source_path, 'r', encoding='utf-8') as f:
-        html_content = f.read()
+# --------------------------------------------------------------------------- helpers
 
-    with open('posts.json', 'r', encoding='utf-8') as f:
-        posts_data = json.load(f)
-
-    return html_content, posts_data
+def read_json(path, default):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    return default
 
 
-def get_slug_from_id(post_id):
-    """Post ID is already a slug"""
-    return post_id
+def esc(text):
+    return html.escape(str(text), quote=True)
 
 
-def create_output_directories():
-    """Create posts directory"""
-    os.makedirs(os.path.join(OUTPUT_DIR, 'posts'), exist_ok=True)
+def tag_slug(tag):
+    """Must match tagSlug() in src/index.html."""
+    return re.sub(r"[^a-z0-9]+", "-", tag.lower().replace("&", " ")).strip("-")
 
 
-def extract_css(html_content):
-    """Extract CSS from <style> block"""
-    match = re.search(r'<style>(.*?)</style>', html_content, re.DOTALL)
-    return match.group(1).strip() if match else ""
+def strip_tags(fragment):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", fragment)).strip()
 
 
-def extract_div_by_marker(html_content, marker):
-    """Extract a div and all its nested content using depth counting.
-    marker: a string that appears inside the opening div tag (e.g. 'class="taskbar"' or 'id="blog-window"')
-    """
-    start_pos = html_content.find(marker)
-    if start_pos == -1:
+def word_count(body):
+    return len([w for w in strip_tags(body).split(" ") if w])
+
+
+def reading_label(body):
+    """Must match getReadingTime() in src/index.html (Math.round semantics)."""
+    minutes = max(1, int(word_count(body) / WORDS_PER_MINUTE + 0.5))
+    return f"{minutes} min read"
+
+
+def content_hash(*parts):
+    h = hashlib.sha1()
+    for p in parts:
+        h.update(p.encode("utf-8"))
+    return h.hexdigest()[:8]
+
+
+def extract_css(source):
+    m = re.search(r"<style>(.*?)</style>", source, re.DOTALL)
+    return m.group(1).strip() if m else ""
+
+
+def extract_javascript(source):
+    start = source.rfind("<script>")
+    end = source.find("</script>", start)
+    return source[start + len("<script>"):end].strip() if start != -1 and end != -1 else ""
+
+
+def extract_div_by_marker(source, marker):
+    """Return the <div ...marker...>...</div> block, matching nested divs."""
+    pos = source.find(marker)
+    if pos == -1:
         return ""
-
-    # Find the opening <div that contains this marker
-    div_start = html_content.rfind('<div', 0, start_pos)
-    if div_start == -1:
-        return ""
-
-    # Count nested divs to find the matching closing </div>
-    depth = 0
-    pos = div_start
-    while pos < len(html_content):
-        if html_content[pos:pos+4] == '<div':
+    start = source.rfind("<div", 0, pos)
+    depth, i = 0, start
+    while i < len(source):
+        if source.startswith("<div", i):
             depth += 1
-        elif html_content[pos:pos+6] == '</div>':
+        elif source.startswith("</div>", i):
             depth -= 1
             if depth == 0:
-                return html_content[div_start:pos+6]
-        pos += 1
+                return source[start:i + 6]
+        i += 1
     return ""
 
 
-def extract_javascript(html_content):
-    """Extract the main JavaScript code from the last <script> block"""
-    last_script_start = html_content.rfind('<script>')
-    if last_script_start == -1:
+def extract_window_content(source, window_id):
+    """Inner HTML of <div class="window-content"> for a given window id."""
+    block = extract_div_by_marker(source, f'id="{window_id}"')
+    m = re.search(r'<div class="window-content"[^>]*>(.*)<div class="resize-handle resize-handle-n">', block, re.DOTALL)
+    if not m:
         return ""
-    last_script_end = html_content.find('</script>', last_script_start)
-    if last_script_end == -1:
-        return ""
-    js_content = html_content[last_script_start + len('<script>'):last_script_end].strip()
-    if js_content and len(js_content) > 100:
-        return js_content
-    return ""
+    inner = m.group(1).rstrip()
+    return inner[:inner.rfind("</div>")] if inner.endswith("</div>") else inner
 
 
-def get_favicon_link(html_content):
-    """Extract favicon link tag and URL-encode the SVG data URI.
-
-    Raw SVG in data URIs breaks HTML parsing because the browser's parser
-    treats < and > inside the href as HTML tags. URL-encoding fixes this.
-    """
-    from urllib.parse import quote
-    for line in html_content.split('\n'):
-        if '<link rel="icon"' in line:
-            line = line.strip()
-            # Extract the SVG data and URL-encode the < > characters
-            prefix = 'href="data:image/svg+xml,'
-            idx = line.find(prefix)
-            if idx == -1:
-                return line
-            svg_start = idx + len(prefix)
-            svg_end = line.rfind('">')
-            if svg_end == -1:
-                return line
-            svg_raw = line[svg_start:svg_end]
-            svg_encoded = quote(svg_raw, safe='')
-            return f'<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{svg_encoded}">'
-    return ""
+def extract_head_bits(source):
+    csp = re.search(r'<meta http-equiv="Content-Security-Policy"[^>]*>', source)
+    favicons = re.findall(r'<link rel="(?:icon|apple-touch-icon)"[^>]*>', source)
+    return (csp.group(0) if csp else ""), "\n    ".join(favicons)
 
 
-def generate_index_html(html_content, posts_data):
-    """Generate index.html - use the source SPA with SEO enhancements.
+# --------------------------------------------------------------------------- posts
 
-    The source HTML already handles everything dynamically:
-    - Loads posts from posts.json
-    - Populates blog list, archives, tag filters via JS
-    - Opens posts in post-window without page navigation
-    - All windows (blog, about, archives, post, guestbook) work
-    - Boot animation, drag, resize, taskbar all functional
+def is_dead(info):
+    """Only a confirmed 404 from Commons removes an image; rate limits and transient errors keep the hotlink."""
+    return bool(info) and info.get("status") == "missing" and info.get("http") in (400, 404)
 
-    We just add SEO meta tags and a noscript fallback for crawlers.
-    """
-    posts = posts_data['posts']
 
-    # Build noscript fallback: a simple list of links for SEO crawlers
-    noscript_html = '\n<noscript>\n<div style="padding:20px;font-family:Arial,sans-serif;">\n'
-    noscript_html += '<h1>404 Memory Found - Nostalgia Blog</h1>\n'
-    noscript_html += '<p>Bizarre stories and curious facts from the 90s and 2000s era.</p>\n<ul>\n'
-    for post in posts:
-        slug = get_slug_from_id(post['id'])
-        noscript_html += f'<li><a href="/posts/{slug}.html">{post["title"]}</a> - {post["date"]}</li>\n'
-    noscript_html += '</ul>\n</div>\n</noscript>\n'
+def localize_images(body, manifest):
+    """Point <img> tags at self-hosted copies, add dimensions, credit Wikimedia; drop dead images."""
+    def fix_img(m):
+        tag = m.group(0)
+        src = re.search(r'src="([^"]+)"', tag)
+        if not src:
+            return tag
+        info = manifest.get(src.group(1))
+        if not info or info.get("status") != "ok":
+            return "" if is_dead(info) else tag  # gone from Commons: remove; unknown or transient: keep hotlink
+        tag = tag.replace(src.group(0), f'src="{info["file"]}"')
+        tag = re.sub(r'\s(width|height)="[^"]*"', "", tag)
+        tag = tag.replace("<img", f'<img width="{info["width"]}" height="{info["height"]}"', 1)
+        if "loading=" not in tag:
+            tag = tag.replace("<img", '<img loading="lazy" decoding="async"', 1)
+        return tag
 
-    # Inject SEO meta tags into <head> (after the comment placeholder in source)
-    og_image = f"{BASE_URL}/og-image.png"
-    seo_meta = f"""    <meta name="description" content="404 Memory Found - A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era with a Windows 95/98 desktop aesthetic.">
-    <meta name="keywords" content="90s nostalgia, 2000s, retro blog, Windows 95, internet history, bizarre stories, then vs now">
-    <meta property="og:title" content="404 Memory Found - Nostalgia Blog">
-    <meta property="og:description" content="Bizarre stories and curious facts from the 90s and 2000s era.">
+    def fix_figure(m):
+        fig = m.group(0)
+        img = re.search(r"<img[^>]*>", fig)
+        if not img:
+            return fig
+        src = re.search(r'src="([^"]+)"', img.group(0))
+        info = manifest.get(src.group(1)) if src else None
+        if is_dead(info):
+            return ""  # image gone from Commons: drop the whole figure
+        fig = fig.replace(img.group(0), fix_img(img))
+        if info and info.get("commons") and "img-credit" not in fig:
+            credit = f' <a class="img-credit" href="{info["commons"]}" rel="noopener" target="_blank">Image: Wikimedia Commons</a>'
+            if "</figcaption>" in fig:
+                fig = fig.replace("</figcaption>", credit + "</figcaption>", 1)
+            else:
+                fig = fig.replace("</figure>", f"<figcaption>{credit.strip()}</figcaption></figure>", 1)
+        return fig
+
+    body = re.sub(r"<figure>.*?</figure>", fix_figure, body, flags=re.DOTALL)
+    body = re.sub(r"<img[^>]*>", fix_img, body)
+    return body
+
+
+def load_posts(manifest):
+    data = read_json("posts.json", {"posts": []})
+    posts = []
+    for raw in data["posts"]:
+        p = dict(raw)
+        p["slug"] = p["id"]
+        p["tags"] = p.get("tags") or []
+        p["author"] = p.get("author") or BLOG_NAME
+        p["body"] = localize_images(p["body"], manifest)
+        p["wordCount"] = word_count(p["body"])
+        p["readingTime"] = reading_label(p["body"])
+        seo = p.get("seo") or {}
+        p["pageTitle"] = seo.get("title") or f"{p['title']} | {BLOG_NAME}"
+        p["metaDescription"] = seo.get("description") or p["excerpt"]
+        hero = manifest.get(p.get("image") or "", {})
+        p["heroLocal"] = hero.get("file") if hero.get("status") == "ok" else None
+        p["thumb"] = hero.get("thumb") if hero.get("status") == "ok" else None
+        if is_dead(hero):
+            p["image"] = None  # hero gone from Commons: grey placeholder instead of a broken request
+        p["heroUrl"] = f"{BASE_URL}{p['heroLocal']}" if p["heroLocal"] else (p.get("image") or None)
+        og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.png")
+        p["ogImage"] = f"{BASE_URL}/og/{p['slug']}.png" if os.path.exists(og_local) else DEFAULT_OG_IMAGE
+        p["url"] = f"{BASE_URL}/posts/{p['slug']}.html"
+        p["path"] = f"/posts/{p['slug']}.html"
+        posts.append(p)
+    posts.sort(key=lambda x: x["date"], reverse=True)
+    return posts
+
+
+def top_tags(posts):
+    counts = {}
+    for p in posts:
+        for t in p["tags"]:
+            counts[t] = counts.get(t, 0) + 1
+    return [t for t, _ in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:HUB_TAG_COUNT]]
+
+
+def related_posts(post, posts, count=RELATED_COUNT):
+    tags = set(post["tags"])
+    scored = [(len(tags & set(o["tags"])), o["date"], o) for o in posts if o["slug"] != post["slug"]]
+    scored = [s for s in scored if s[0] > 0]
+    scored.sort(key=lambda s: s[1], reverse=True)   # newest first...
+    scored.sort(key=lambda s: -s[0])                # ...within the highest tag overlap (stable sort)
+    return [s[2] for s in scored[:count]]
+
+
+def extract_faq_schema(body):
+    m = re.search(r"<h2[^>]*>.*?(?:FAQ|Frequently Asked).*?</h2>(.*)", body, re.DOTALL | re.IGNORECASE)
+    if not m:
+        return None
+    section = m.group(1)
+    nxt = re.search(r"<h2[^>]*>", section)
+    if nxt:
+        section = section[:nxt.start()]
+    items = []
+    for q, a in re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", section, re.DOTALL):
+        q, a = strip_tags(q), strip_tags(a)
+        if "?" in q and len(a) > 20:
+            items.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
+    if len(items) < 2:
+        return None
+    return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": items}
+
+
+# --------------------------------------------------------------------------- shared markup
+
+def gtag_snippet():
+    return f"""    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', '{GA_ID}');
+    </script>"""
+
+
+def head_html(ctx, *, title, description, canonical, og_type="website", og_image=DEFAULT_OG_IMAGE,
+              extra_meta="", schemas=(), og_title=None):
+    schema_tags = "\n".join(
+        f'    <script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in schemas if s)
+    og_title = og_title or title
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    {ctx['csp']}
+{gtag_snippet()}
+    <title>{esc(title)}</title>
+    <meta name="description" content="{esc(description)}">
+    <link rel="canonical" href="{canonical}">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta property="og:site_name" content="{BLOG_NAME}">
+    <meta property="og:type" content="{og_type}">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:title" content="{esc(og_title)}">
+    <meta property="og:description" content="{esc(description)}">
     <meta property="og:image" content="{og_image}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{BASE_URL}">
-    <meta property="og:site_name" content="{BLOG_NAME}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="404 Memory Found">
-    <meta name="twitter:description" content="Bizarre stories and curious facts from the 90s and 2000s era.">
-    <meta name="twitter:image" content="{og_image}">
-    <meta name="author" content="404 Memory Found">
-    <link rel="canonical" href="{BASE_URL}">
-    <meta name="robots" content="index, follow">
-    <script type="application/ld+json">
-    {{
-      "@context": "https://schema.org",
-      "@type": "Blog",
-      "name": "{BLOG_NAME}",
-      "description": "A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era",
-      "url": "{BASE_URL}",
-      "image": "{og_image}",
-      "author": {{
-        "@type": "Organization",
-        "name": "{BLOG_NAME}"
-      }}
-    }}
-    </script>"""
-
-    # Start with the source HTML
-    output = html_content
-
-    # Replace the placeholder comment with actual SEO meta tags
-    output = output.replace(
-        '    <!-- SEO meta tags are injected by build.py - do not duplicate here -->',
-        seo_meta,
-        1
-    )
-
-    # Inject noscript fallback before closing </body>
-    output = output.replace('</body>', f'{noscript_html}</body>', 1)
-
-    return output
+    <meta name="twitter:title" content="{esc(og_title)}">
+    <meta name="twitter:description" content="{esc(description)}">
+    <meta name="twitter:image" content="{og_image}">{extra_meta}
+    <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">
+    {ctx['favicons']}
+    <link rel="stylesheet" href="/assets/site.css?v={ctx['version']}">
+{schema_tags}
+</head>"""
 
 
-def get_related_posts(current_post, all_posts, count=3):
-    """Find posts with the most overlapping tags"""
-    current_tags = set(current_post.get('tags', []))
-    scored_posts = []
-    for post in all_posts:
-        if post['id'] == current_post['id']:
-            continue
-        post_tags = set(post.get('tags', []))
-        overlap = len(current_tags & post_tags)
-        if overlap > 0:
-            scored_posts.append((post, overlap))
-    scored_posts.sort(key=lambda x: (-x[1], x[0]['date']))
-    return [post for post, _ in scored_posts[:count]]
-
-
-def generate_post_schema(post, slug):
-    """Generate JSON-LD BlogPosting schema"""
-    og_image = f"{BASE_URL}/og-image.png"
-    schema = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": post['title'],
-        "description": post['excerpt'],
-        "datePublished": post['date'],
-        "dateModified": post['date'],
-        "image": og_image,
-        "author": {
-            "@type": "Organization",
-            "name": BLOG_NAME,
-            "url": BASE_URL
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": BLOG_NAME,
-            "url": BASE_URL,
-            "logo": {
-                "@type": "ImageObject",
-                "url": og_image
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": f"{BASE_URL}/posts/{slug}.html"
-        },
-        "url": f"{BASE_URL}/posts/{slug}.html"
-    }
-    return json.dumps(schema)
-
-
-def generate_breadcrumb_schema(post, slug):
-    """Generate JSON-LD BreadcrumbList schema"""
-    schema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": BASE_URL
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": f"{BASE_URL}/#/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": post['title'],
-                "item": f"{BASE_URL}/posts/{slug}.html"
-            }
-        ]
-    }
-    return json.dumps(schema)
-
-
-def add_lazy_loading_to_images(html_content):
-    """Add loading='lazy' and decoding='async' to all <img> tags for better performance.
-
-    Skips images that already have loading= attribute set.
-    """
-    def add_attrs(match):
-        tag = match.group(0)
-        if 'loading=' in tag:
-            return tag  # already has loading attribute
-        # Add loading="lazy" and decoding="async" before the closing >
-        tag = tag.rstrip('>')
-        if tag.endswith('/'):
-            tag = tag.rstrip('/')
-            return tag + ' loading="lazy" decoding="async" />'
-        return tag + ' loading="lazy" decoding="async">'
-
-    return re.sub(r'<img\b[^>]*/?>', add_attrs, html_content, flags=re.IGNORECASE)
-
-
-def extract_faq_schema(post_body):
-    """Extract FAQ questions/answers from a dedicated FAQ section in the post body.
-
-    Only extracts from content that appears AFTER an h2 containing 'FAQ' or
-    'Frequently Asked'. This prevents section headings from being incorrectly
-    included as FAQ items, which causes Google's 'Duplicate field FAQPage' error.
-    """
-    import re
-
-    # Find the FAQ section: look for an h2 heading containing 'FAQ' or 'Frequently Asked'
-    faq_section_match = re.search(
-        r'<h2[^>]*>.*?(?:FAQ|Frequently Asked).*?</h2>(.*)',
-        post_body, re.DOTALL | re.IGNORECASE
-    )
-    if not faq_section_match:
-        return None
-
-    faq_section = faq_section_match.group(1)
-
-    # Only extract h3+p pairs from within the FAQ section
-    # Stop at the next h2 if there is one (to avoid grabbing non-FAQ content after)
-    next_h2 = re.search(r'<h2[^>]*>', faq_section)
-    if next_h2:
-        faq_section = faq_section[:next_h2.start()]
-
-    faq_pattern = r'<h3>(.*?)</h3>\s*<p>(.*?)</p>'
-    matches = re.findall(faq_pattern, faq_section, re.DOTALL)
-
-    if len(matches) < 2:
-        return None
-
-    faq_items = []
-    for question, answer in matches:
-        q = re.sub(r'<[^>]+>', '', question).strip()
-        a = re.sub(r'<[^>]+>', '', answer).strip()
-        if '?' in q and len(a) > 20:
-            faq_items.append({
-                "@type": "Question",
-                "name": q,
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": a
-                }
-            })
-
-    if len(faq_items) < 2:
-        return None
-
-    schema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faq_items
-    }
-    return json.dumps(schema)
-
-
-def generate_post_html(post, all_posts, html_content, posts_data):
-    """Generate individual post HTML file for SEO.
-
-    These pages exist so search engines can crawl individual post URLs.
-    They show the post content directly (no boot animation needed).
-    Close/back navigates to the homepage SPA.
-    """
-    slug = get_slug_from_id(post['id'])
-    related_posts = get_related_posts(post, all_posts, count=3)
-
-    css = extract_css(html_content)
-    desktop_icons = extract_div_by_marker(html_content, 'class="desktop-icons">')
-    taskbar = extract_div_by_marker(html_content, 'class="taskbar">')
-    favicon_link = get_favicon_link(html_content)
-    javascript = extract_javascript(html_content)
-
-    post_body = add_lazy_loading_to_images(post['body'])
-    post_schema = generate_post_schema(post, slug)
-    breadcrumb_schema = generate_breadcrumb_schema(post, slug)
-    faq_schema = extract_faq_schema(post_body)
-    og_image = f"{BASE_URL}/og-image.png"
-
-    # Related posts HTML
-    related_html = '<div class="related-posts" style="margin-top:20px;padding:10px;background:#f0f0f0;border:1px solid #999;">'
-    related_html += '<strong>Related Posts:</strong><ul style="list-style:none;margin:10px 0 0 0;padding:0;">'
-    for rp in related_posts:
-        rp_slug = get_slug_from_id(rp['id'])
-        related_html += f'<li style="padding:5px 0;"><a href="/posts/{rp_slug}.html">{rp["title"]}</a></li>'
-    related_html += '</ul></div>'
-
-    back_btn = '<div style="margin:10px 0;"><a href="/" style="padding:5px 10px;background:#c0c0c0;border:2px outset #dfdfdf;color:#000;text-decoration:none;display:inline-block;font-family:\'MS Sans Serif\',Arial,sans-serif;">&larr; Back to Blog</a></div>'
-
-    post_content = post_body + related_html + back_btn
-
-    # Post window - open by default, proper structure
-    post_window = f'''<div class="window" id="post-window" style="left:120px;top:15px;width:850px;height:620px;display:flex;">
+def shell_html(ctx, head, *, body_class, window_icon, window_title, content, status_text, slug=""):
+    """Every generated page is one open Win95 window on the desktop (full-screen window on mobile)."""
+    close_js = "closeWindow('post-window'); if (window.opener || window.history.length <= 1) { window.close(); } else { window.location.href='/'; }"
+    return f"""{head}
+<body class="page-shell {body_class}">
+    <main>
+    <div class="desktop-container">
+        <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
+            {ctx['desktop_icons']}
+            <div class="window" id="post-window" style="left:120px;top:15px;width:850px;height:620px;display:flex;">
                 <div class="title-bar">
-                    <div class="title-bar-title">📖 {post['title']}</div>
+                    <div class="title-bar-title">{window_icon} <span>{esc(window_title)}</span></div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('post-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('post-window'); if (window.opener || window.history.length <= 1) {{ window.close(); }} else {{ window.location.href='/'; }}"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('post-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="{close_js}" aria-label="Close"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
-                    {post_content}
+                    <div class="page-card">
+{content}
+                    </div>
                 </div>
                 <div class="resize-handle resize-handle-n"></div>
                 <div class="resize-handle resize-handle-s"></div>
@@ -398,283 +334,563 @@ def generate_post_html(post, all_posts, html_content, posts_data):
                 <div class="resize-handle resize-handle-nw"></div>
                 <div class="resize-handle resize-handle-se"></div>
                 <div class="resize-handle resize-handle-sw"></div>
-            </div>'''
+            </div>
+        </div>
+        {ctx['footer']}
+        {ctx['start_menu']}
+        {ctx['taskbar']}
+    </div>
+    <div class="mobile-footer page-mobile-footer">
+        <div class="mobile-footer-left"><a href="/" class="mobile-footer-start"><span>🪟</span> Start</a></div>
+        <div class="mobile-footer-status">{esc(status_text)}</div>
+    </div>
+    </main>
+    <script>window.__BUILD__ = '{ctx['version']}'; var isPostPage = true; var postPageSlug = '{slug}';</script>
+    <script src="/assets/site.js?v={ctx['version']}"></script>
+</body>
+</html>
+"""
 
-    # Mobile related posts
-    mobile_related = ""
-    for rp in related_posts:
-        rp_slug = get_slug_from_id(rp['id'])
-        mobile_related += f'<li style="margin-bottom:4px;"><a class="mobile-related-item" href="/posts/{rp_slug}.html">{rp["title"]}</a></li>\n'
 
-    # JS wrapper that skips boot animation and auto-opens post window
-    post_js_wrapper = f"""
-        // On post pages: skip boot animation, just initialize
-        var isPostPage = true;
-        var postPageSlug = '{slug}';
-        {javascript}
-    """
+def nav_links_html(tags, current=None):
+    items = [f'<a href="/posts/">All posts</a>']
+    for t in tags:
+        cls = ' class="active"' if t == current else ""
+        items.append(f'<a href="/tags/{tag_slug(t)}.html"{cls}>{esc(t)}</a>')
+    return '<nav class="page-nav" aria-label="Browse">' + " ".join(items) + "</nav>"
 
-    # Build additional schema scripts
-    extra_schemas = f"""
-    <script type="application/ld+json">
-    {breadcrumb_schema}
-    </script>"""
-    if faq_schema:
-        extra_schemas += f"""
-    <script type="application/ld+json">
-    {faq_schema}
-    </script>"""
 
-    # SEO keyword meta tags from post data
-    seo_keywords = ""
-    if post.get('seo') and post['seo'].get('secondaryKeywords'):
-        kw_list = [post['seo'].get('primaryKeyword', '')] + post['seo']['secondaryKeywords']
-        seo_keywords = f'\n    <meta name="keywords" content="{", ".join(kw_list)}">'
+def post_list_html(posts, heading_level=2):
+    items = []
+    for p in posts:
+        thumb = f'<span class="page-list-thumb" style="background-image:url(\'{p["thumb"]}\')"></span>' if p.get("thumb") else '<span class="page-list-thumb"></span>'
+        tags = ", ".join(esc(t) for t in p["tags"][:3])
+        items.append(
+            f'<li><a href="{p["path"]}">{thumb}<span class="page-list-text">'
+            f'<span class="page-list-title">{esc(p["title"])}</span>'
+            f'<span class="page-list-meta">{p["date"]} · {p["readingTime"]}{" · " + tags if tags else ""}</span>'
+            f'<span class="page-list-excerpt">{esc(p["excerpt"])}</span></span></a></li>')
+    return '<ul class="page-list">' + "\n".join(items) + "</ul>"
 
-    # Build noscript fallback for crawlers that don't execute JS
-    noscript_links = ""
-    for other_post in all_posts[:12]:
-        if other_post['id'] != post['id']:
-            other_slug = get_slug_from_id(other_post['id'])
-            noscript_links += f'<li><a href="/posts/{other_slug}.html">{other_post["title"]}</a></li>\n'
 
-    # Strip HTML tags for plain text content (used in noscript)
-    plain_body = re.sub(r'<[^>]+>', ' ', post_body)
-    plain_body = re.sub(r'\s+', ' ', plain_body).strip()[:2000]
+# --------------------------------------------------------------------------- pages
 
-    # CSS override for post pages: allow body scrolling for crawlers
-    css_override = """
-        /* Post page overrides for SEO crawlability */
-        html, body { overflow: hidden !important; height: 100% !important; }
-        .boot-animation { display: none !important; }
-        /* Screen reader only */
-        .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
-    """
+def build_post_page(ctx, post, posts):
+    related = related_posts(post, posts)
+    related_html = ""
+    if related:
+        related_html = ('<div class="related-posts"><div class="related-posts-title">Related Posts:</div>'
+                        + "".join(f'<a class="related-post" href="{r["path"]}">{esc(r["title"])}</a>' for r in related)
+                        + "</div>")
+    tags_html = " ".join(f'<a href="/tags/{tag_slug(t)}.html">{esc(t)}</a>' for t in post["tags"] if t in ctx["tags"])
 
-    html = f"""<!DOCTYPE html>
+    content = f"""<a class="page-back page-back-mobile" href="/">&larr; Back</a>
+<article class="post-article">
+    <header class="post-header">
+        <h1>{esc(post['title'])}</h1>
+        <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time> | By {esc(post['author'])} | <span class="reading-time">{post['readingTime']}</span></div>
+    </header>
+    <div class="post-body">
+{post['body']}
+    </div>
+    <footer class="post-footer">
+        {'<div class="post-tags">Filed under: ' + tags_html + '</div>' if tags_html else ''}
+        {related_html}
+        <div class="page-back-row"><a class="page-back page-back-desktop" href="/">&larr; Back to Blog</a> <a class="page-back" href="/posts/">All posts</a></div>
+    </footer>
+</article>"""
+
+    images = [post["ogImage"]] + ([post["heroUrl"]] if post.get("heroUrl") else [])
+    blog_posting = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post["title"],
+        "description": post["metaDescription"],
+        "datePublished": post["date"],
+        "dateModified": post.get("updated") or post["date"],
+        "image": images,
+        "wordCount": post["wordCount"],
+        "keywords": post["tags"],
+        "articleSection": post["tags"][0] if post["tags"] else "Technology",
+        "author": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL},
+        "publisher": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL,
+                      "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": post["url"]},
+        "url": post["url"],
+    }
+    breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL + "/"},
+            {"@type": "ListItem", "position": 2, "name": "All posts", "item": f"{BASE_URL}/posts/"},
+            {"@type": "ListItem", "position": 3, "name": post["title"], "item": post["url"]},
+        ],
+    }
+    extra = (f'\n    <meta property="article:published_time" content="{post["date"]}T00:00:00Z">'
+             f'\n    <meta property="article:modified_time" content="{post.get("updated") or post["date"]}T00:00:00Z">'
+             f'\n    <meta property="article:section" content="{esc(post["tags"][0] if post["tags"] else "Technology")}">'
+             + "".join(f'\n    <meta property="article:tag" content="{esc(t)}">' for t in post["tags"])
+             + f'\n    <meta name="author" content="{esc(post["author"])}">')
+    head = head_html(ctx, title=post["pageTitle"], description=post["metaDescription"], canonical=post["url"],
+                     og_type="article", og_image=post["ogImage"], extra_meta=extra, og_title=post["title"],
+                     schemas=(blog_posting, breadcrumbs, extract_faq_schema(post["body"])))
+    return shell_html(ctx, head, body_class="post-page", window_icon="📖", window_title=post["title"],
+                      content=content, status_text=post["date"], slug=post["slug"])
+
+
+def build_hub_page(ctx, filename, posts):
+    window_id, bar_title, page_title = HUB_PAGES[filename]
+    inner = extract_window_content(ctx["source"], window_id)
+    if filename == "contact.html":
+        inner = ('<h2>Contact</h2><p>Email <a href="mailto:hello@404memoryfound.com">hello@404memoryfound.com</a> '
+                 'for corrections, story ideas, or anything else. Or leave a note in the guestbook below.</p>'
+                 '<h3>Sign the guestbook</h3>' + inner)
+    inner = re.sub(r"<h2([^>]*)>(.*?)</h2>", r"<h1\1>\2</h1>", inner, count=1)
+    content = f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n<div class="page-copy">{inner}</div>\n' \
+              f'{nav_links_html(ctx["tags"])}'
+    url = f"{BASE_URL}/{filename}"
+    head = head_html(ctx, title=f"{page_title} | {BLOG_NAME}", description=HUB_DESCRIPTIONS[filename], canonical=url,
+                     schemas=({"@context": "https://schema.org", "@type": "WebPage", "name": page_title, "url": url},))
+    icon, _, title_text = bar_title.partition(" ")
+    return shell_html(ctx, head, body_class="hub-page", window_icon=icon, window_title=title_text, content=content,
+                      status_text=f"{len(posts)} posts")
+
+
+def build_posts_index_page(ctx, posts):
+    by_month = {}
+    for p in posts:
+        key = p["date"][:7]
+        by_month.setdefault(key, []).append(p)
+    sections = []
+    for key in sorted(by_month, reverse=True):
+        label = datetime.strptime(key, "%Y-%m").strftime("%B %Y")
+        sections.append(f"<h2>{label}</h2>\n{post_list_html(by_month[key])}")
+    content = (f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n'
+               f'<h1>All posts</h1>\n<p class="page-intro">{len(posts)} stories about the technology, games and websites '
+               f'of the 90s and 2000s, newest first.</p>\n{nav_links_html(ctx["tags"])}\n' + "\n".join(sections))
+    url = f"{BASE_URL}/posts/"
+    schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"All posts | {BLOG_NAME}", "url": url,
+              "mainEntity": {"@type": "ItemList", "itemListElement": [
+                  {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(posts)]}}
+    head = head_html(ctx, title=f"All posts | {BLOG_NAME}", canonical=url,
+                     description=f"Every story on {BLOG_NAME}: {len(posts)} long-form articles about 90s and 2000s technology, games, websites and companies.",
+                     schemas=(schema,))
+    return shell_html(ctx, head, body_class="hub-page", window_icon="📝", window_title="All posts", content=content,
+                      status_text=f"{len(posts)} posts")
+
+
+def build_tag_page(ctx, tag, posts):
+    tagged = [p for p in posts if tag in p["tags"]]
+    url = f"{BASE_URL}/tags/{tag_slug(tag)}.html"
+    content = (f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n'
+               f'<h1>{esc(tag)}</h1>\n<p class="page-intro">{len(tagged)} posts filed under {esc(tag)}.</p>\n'
+               f'{nav_links_html(ctx["tags"], current=tag)}\n{post_list_html(tagged)}')
+    schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{tag} | {BLOG_NAME}", "url": url,
+              "mainEntity": {"@type": "ItemList", "itemListElement": [
+                  {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(tagged)]}}
+    head = head_html(ctx, title=f"{tag} | {BLOG_NAME}", canonical=url,
+                     description=f"{len(tagged)} stories about {tag.lower()} from the 90s and 2000s on {BLOG_NAME}.",
+                     schemas=(schema,))
+    return shell_html(ctx, head, body_class="hub-page", window_icon="📁", window_title=tag, content=content,
+                      status_text=f"{len(tagged)} posts")
+
+
+def build_404_page(ctx, posts):
+    latest = post_list_html(posts[:5])
+    content = (f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n'
+               '<h1>404: this memory was not found</h1>\n'
+               '<p class="page-intro">The page you asked for is not here. It may have moved, or it never existed. '
+               'Try the <a href="/posts/">list of every post</a>, or start with one of the latest:</p>\n' + latest
+               + nav_links_html(ctx["tags"]))
+    head = head_html(ctx, title=f"Page not found | {BLOG_NAME}", description="This page does not exist on 404 Memory Found.",
+                     canonical=f"{BASE_URL}/404.html")
+    head = head.replace('<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">',
+                        '<meta name="robots" content="noindex">')
+    return shell_html(ctx, head, body_class="hub-page", window_icon="❌", window_title="Page not found", content=content,
+                      status_text="404")
+
+
+def build_redirect_stub(old_slug, target):
+    url = target["url"]
+    return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-    <link rel="dns-prefetch" href="https://www.gstatic.com">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQX7R9W80G"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){{dataLayer.push(arguments);}}
-      gtag('js', new Date());
-      gtag('config', 'G-GQX7R9W80G');
-    </script>
-    <meta name="description" content="{post['excerpt']}">
-    <meta property="og:title" content="{post['title']} | 404 Memory Found">
-    <meta property="og:description" content="{post['excerpt']}">
-    <meta property="og:image" content="{og_image}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="{BASE_URL}/posts/{slug}.html">
-    <meta property="og:site_name" content="{BLOG_NAME}">
-    <meta property="article:published_time" content="{post['date']}T00:00:00Z">
-    <meta property="article:modified_time" content="{post['date']}T00:00:00Z">
-    <meta property="article:section" content="Technology">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{post['title']}">
-    <meta name="twitter:description" content="{post['excerpt']}">
-    <meta name="twitter:image" content="{og_image}">
-    <meta name="author" content="{post['author']}">{seo_keywords}
-    <link rel="canonical" href="{BASE_URL}/posts/{slug}.html">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <script type="application/ld+json">
-    {post_schema}
-    </script>{extra_schemas}
-
-    <title>{post['title']} | 404 Memory Found</title>
-    {favicon_link}
-
-    <style>
-{css}
-{css_override}
-    </style>
+    <title>{esc(target['title'])}</title>
+    <link rel="canonical" href="{url}">
+    <meta http-equiv="refresh" content="0; url={url}">
 </head>
 <body>
-    <!-- No boot animation on post pages for faster load -->
-
-    <!-- SEO: Semantic article content visible to all crawlers -->
-    <article id="seo-article" itemscope itemtype="https://schema.org/BlogPosting" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
-        <h1 itemprop="headline">{post['title']}</h1>
-        <meta itemprop="datePublished" content="{post['date']}">
-        <meta itemprop="author" content="{post['author']}">
-        <div itemprop="articleBody">{post_body}</div>
-    </article>
-
-    <main>
-    <!-- Mobile View (Win95 retro style) -->
-    <div class="mobile-container">
-        <div class="mobile-header">
-            <div class="mobile-header-left">
-                <span class="mobile-header-icon">📖</span>
-                <span style="font-size:15px;font-weight:bold;">{post['title']}</span>
-            </div>
-            <div class="mobile-header-controls">
-                <span class="mobile-header-btn">_</span>
-                <span class="mobile-header-btn">□</span>
-                <span class="mobile-header-btn">×</span>
-            </div>
-        </div>
-        <div class="mobile-content">
-            <div class="mobile-post-detail" style="display:block;">
-                <a href="/" style="display:inline-block;padding:5px 14px;font-size:13px;font-family:'MS Sans Serif',Tahoma,Arial,sans-serif;background:#c0c0c0;color:#000;text-decoration:none;border:2px solid;border-top-color:#fff;border-left-color:#fff;border-right-color:#808080;border-bottom-color:#808080;margin-bottom:12px;">&#8592; Back</a>
-                <h2>{post['title']}</h2>
-                <div class="mobile-detail-date">{post['date']} by {post['author']}</div>
-                <div class="mobile-detail-body">
-                    {post_body}
-                </div>
-                <div class="mobile-related">
-                    <div class="mobile-related-title">📂 Related Posts</div>
-                    <ul style="list-style:none;margin:0;padding:0;">
-{mobile_related}
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-footer">
-            <div class="mobile-footer-left">
-                <a href="/" class="mobile-footer-start" style="text-decoration:none;color:#000;">
-                    <span>🪟</span> Start
-                </a>
-            </div>
-            <div class="mobile-footer-status">{post['date']}</div>
-        </div>
-    </div>
-
-    <!-- Desktop View -->
-    <div class="desktop-container">
-
-        <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
-            {desktop_icons}
-            {post_window}
-        </div>
-        {taskbar}
-    </div>
-    </main>
-
-    <!-- Noscript fallback for crawlers that don't execute JavaScript -->
-    <noscript>
-    <div style="padding:20px;font-family:Arial,sans-serif;max-width:800px;margin:0 auto;">
-        <h2>{post['title']}</h2>
-        <p><em>{post['date']} by {post['author']}</em></p>
-        <div>{post_body}</div>
-        <hr>
-        <h2>More from 404 Memory Found</h2>
-        <ul>{noscript_links}</ul>
-        <p><a href="/">Back to 404 Memory Found homepage</a></p>
-    </div>
-    </noscript>
-
-    <script>
-{post_js_wrapper}
-    </script>
+    <p>This post moved to <a href="{url}">{esc(target['title'])}</a>.</p>
 </body>
-</html>"""
-
-    return html
-
-
-def generate_sitemap(posts_data):
-    """Generate sitemap.xml"""
-    posts = posts_data['posts']
-    sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{BASE_URL}/</loc>
-    <lastmod>{datetime.now().strftime('%Y-%m-%d')}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-"""
-    for post in posts:
-        slug = get_slug_from_id(post['id'])
-        sitemap += f"""  <url>
-    <loc>{BASE_URL}/posts/{slug}.html</loc>
-    <lastmod>{post['date']}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-"""
-    sitemap += """</urlset>"""
-    return sitemap
-
-
-def generate_robots_txt():
-    return f"""User-agent: *
-Allow: /
-Sitemap: {BASE_URL}/sitemap.xml
+</html>
 """
 
 
-def generate_cname():
-    return "404memoryfound.com"
+# --------------------------------------------------------------------------- homepage
+
+def render_desktop_list(posts):
+    items = []
+    for p in posts:
+        thumb = p.get("thumb") or p.get("image") or ""
+        data_attr = f' data-bg="{thumb}"' if thumb else ""
+        items.append(f"""
+                <li class="blog-post-item">
+                    <a href="{p['path']}" onclick="event.preventDefault(); openPost('{p['slug']}')">
+                        <div class="blog-post-thumb"{data_attr} style="background-color:#c0c0c0;"></div>
+                        <div class="blog-post-text">
+                            <h3>{esc(p['title'])}</h3>
+                            <div class="date">{p['date']} <span class="reading-time">{p['readingTime']}</span></div>
+                            <div class="excerpt">{esc(p['excerpt'])}</div>
+                            <div class="tags">{esc(', '.join(p['tags']))}</div>
+                        </div>
+                    </a>
+                </li>""")
+    return "".join(items)
+
+
+def render_mobile_list(posts):
+    items = []
+    for p in posts:
+        thumb = p.get("thumb") or p.get("image") or ""
+        data_attr = f' data-bg="{thumb}"' if thumb else ""
+        items.append(f"""
+                <li class="mobile-post-item">
+                    <a href="{p['path']}" onclick="event.preventDefault(); openPost('{p['slug']}')">
+                    <div class="mobile-post-thumb"{data_attr} style="background-color:#c0c0c0;"></div>
+                    <div class="mobile-post-info">
+                        <h3>{esc(p['title'])}</h3>
+                        <div class="mobile-post-date">{p['date']} · {p['readingTime']}</div>
+                        <div class="mobile-post-excerpt">{esc(p['excerpt'])}</div>
+                        <div class="mobile-post-tags">{esc(' · '.join(p['tags'][:3]))}</div>
+                    </div>
+                    </a>
+                </li>""")
+    return "".join(items)
+
+
+def render_tag_filters(tags, cls, fn):
+    return "".join(
+        f'\n                <a class="{cls}" href="/tags/{tag_slug(t)}.html" onclick="event.preventDefault(); {fn}(\'{esc(t)}\')">{esc(t)}</a>'
+        for t in tags)
+
+
+def render_archives(posts):
+    by_month = {}
+    for p in posts:
+        by_month.setdefault(p["date"][:7], []).append(p)
+    out = []
+    for key in sorted(by_month, reverse=True):
+        label = datetime.strptime(key, "%Y-%m").strftime("%B %Y")
+        entries = "".join(
+            f"""
+                            <li class="archive-post">
+                                <a href="{p['path']}" onclick="event.preventDefault(); openPost('{p['slug']}')">
+                                    <div class="title">{esc(p['title'])}</div>
+                                    <div class="date">{p['date']}</div>
+                                </a>
+                            </li>""" for p in by_month[key])
+        out.append(f"""
+                <li class="archive-tag">
+                    <div class="archive-tag-name">📅 {label}</div>
+                    <ul class="archive-posts">{entries}
+                    </ul>
+                </li>""")
+    return "".join(out)
+
+
+def build_index_html(ctx, posts):
+    source = ctx["source"]
+    tags = ctx["tags"]
+    blog_schema = {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": BLOG_NAME,
+        "description": DEFAULT_DESCRIPTION,
+        "url": BASE_URL + "/",
+        "image": DEFAULT_OG_IMAGE,
+        "publisher": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL,
+                      "logo": {"@type": "ImageObject", "url": LOGO}},
+        "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "url": p["url"], "datePublished": p["date"]}
+                     for p in posts[:20]],
+    }
+    website_schema = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": BLOG_NAME,
+        "url": BASE_URL + "/",
+    }
+    seo_meta = f"""    <meta name="description" content="{esc(DEFAULT_DESCRIPTION)}">
+    <link rel="canonical" href="{BASE_URL}/">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta property="og:site_name" content="{BLOG_NAME}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{BASE_URL}/">
+    <meta property="og:title" content="{BLOG_NAME} - Windows 95 Nostalgia Blog">
+    <meta property="og:description" content="{esc(DEFAULT_DESCRIPTION)}">
+    <meta property="og:image" content="{DEFAULT_OG_IMAGE}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{BLOG_NAME}">
+    <meta name="twitter:description" content="{esc(DEFAULT_DESCRIPTION)}">
+    <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
+    <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">
+    <script type="application/ld+json">{json.dumps(website_schema, ensure_ascii=False)}</script>
+    <script type="application/ld+json">{json.dumps(blog_schema, ensure_ascii=False)}</script>
+    <script type="application/ld+json" id="schema-markup"></script>"""
+
+    out = source.replace("    <!-- SEO meta tags are injected by build.py - do not duplicate here -->", seo_meta, 1)
+
+    # External assets instead of inline CSS/JS
+    out = re.sub(r"<style>.*?</style>", f'<link rel="stylesheet" href="/assets/site.css?v={ctx["version"]}">', out, count=1, flags=re.DOTALL)
+    start = out.rfind("<script>")
+    end = out.find("</script>", start) + len("</script>")
+    out = out[:start] + f"<script>window.__BUILD__ = '{ctx['version']}';</script>\n    <script src=\"/assets/site.js?v={ctx['version']}\"></script>" + out[end:]
+
+    # Pre-rendered lists: crawlable before any JavaScript runs; the SPA re-renders the same markup after it loads
+    replacements = [
+        ('<ul class="blog-posts-list" id="blog-posts-list"></ul>',
+         f'<ul class="blog-posts-list" id="blog-posts-list">{render_desktop_list(posts)}\n                    </ul>'),
+        ('<ul class="mobile-post-list" id="mobile-post-list"></ul>',
+         f'<ul class="mobile-post-list" id="mobile-post-list">{render_mobile_list(posts)}\n            </ul>'),
+        ('<div class="blog-filters" id="tag-filters" role="group" aria-label="Filter by tag"></div>',
+         f'<div class="blog-filters" id="tag-filters" role="group" aria-label="Filter by tag">{render_tag_filters(tags, "tag-button", "toggleTag")}\n                    </div>'),
+        ('<div class="mobile-tag-filters" id="mobile-tag-filters" role="group" aria-label="Filter by tag"></div>',
+         f'<div class="mobile-tag-filters" id="mobile-tag-filters" role="group" aria-label="Filter by tag">{render_tag_filters(tags, "mobile-tag-btn", "toggleMobileTag")}\n            </div>'),
+        ('<ul class="archives-list" id="archives-list"></ul>',
+         f'<ul class="archives-list" id="archives-list">{render_archives(posts)}\n                    </ul>'),
+    ]
+    for old, new in replacements:
+        if old not in out:
+            raise SystemExit(f"build: expected placeholder not found in src/index.html: {old}")
+        out = out.replace(old, new, 1)
+    return out
+
+
+# --------------------------------------------------------------------------- feeds and data
+
+def build_sitemap(posts, tags, today):
+    latest = posts[0]["date"] if posts else today
+
+    def url(loc, lastmod, freq, prio):
+        return f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>\n"
+
+    body = url(f"{BASE_URL}/", latest, "daily", "1.0")
+    body += url(f"{BASE_URL}/posts/", latest, "weekly", "0.9")
+    for t in tags:
+        tagged = [p for p in posts if t in p["tags"]]
+        body += url(f"{BASE_URL}/tags/{tag_slug(t)}.html", tagged[0]["date"] if tagged else latest, "weekly", "0.7")
+    for p in posts:
+        body += url(p["url"], p.get("updated") or p["date"], "monthly", "0.8")
+    for page in ("about.html", "contact.html", "privacy.html", "terms.html"):
+        body += url(f"{BASE_URL}/{page}", latest, "yearly", "0.3")
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n"
+
+
+def build_feed(posts):
+    def rfc822(date):
+        return format_datetime(datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone.utc))
+
+    items = []
+    for p in posts[:20]:
+        cats = "".join(f"      <category>{esc(t)}</category>\n" for t in p["tags"])
+        items.append(f"""    <item>
+      <title>{esc(p['title'])}</title>
+      <link>{p['url']}</link>
+      <guid isPermaLink="true">{p['url']}</guid>
+      <pubDate>{rfc822(p['date'])}</pubDate>
+      <description>{esc(p['excerpt'])}</description>
+{cats}    </item>""")
+    latest = rfc822(posts[0]["date"]) if posts else rfc822("2026-01-01")
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{BLOG_NAME}</title>
+    <link>{BASE_URL}/</link>
+    <description>{esc(DEFAULT_DESCRIPTION)}</description>
+    <language>en</language>
+    <lastBuildDate>{latest}</lastBuildDate>
+    <atom:link href="{BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+
+
+def posts_index_json(posts):
+    return {"posts": [{
+        "id": p["slug"], "title": p["title"], "date": p["date"], "excerpt": p["excerpt"], "tags": p["tags"],
+        "image": p.get("heroLocal") or p.get("image"), "thumb": p.get("thumb") or p.get("heroLocal") or p.get("image"),
+        "readingTime": p["readingTime"],
+    } for p in posts]}
+
+
+def post_json(p):
+    return {"id": p["slug"], "title": p["title"], "date": p["date"], "tags": p["tags"], "readingTime": p["readingTime"],
+            "body": p["body"]}
+
+
+# --------------------------------------------------------------------------- CSS for generated pages
+
+PAGE_SHELL_CSS = """
+/* ---- Generated pages (posts, tags, about...): one open window, article rendered once ---- */
+.page-shell .page-back { display: inline-block; padding: 5px 12px; background: #c0c0c0; color: #000; text-decoration: none;
+    border: 2px solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; font-size: 13px; margin: 0 6px 10px 0; }
+.page-shell .page-back:active { border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
+.page-shell .page-back-row { margin-top: 16px; }
+.page-shell .post-tags { margin: 18px 0 6px; font-size: 13px; color: #444; }
+.page-shell .post-tags a { color: #000080; margin-left: 4px; }
+.page-shell .img-credit { font-size: 11px; color: #666; text-decoration: none; margin-left: 6px; }
+.page-shell .img-credit:hover { text-decoration: underline; }
+.page-shell .post-body figure { margin: 16px auto; max-width: 560px; }
+.page-shell .post-body figure img { max-width: 100%; height: auto; display: block; }
+.page-shell .post-body figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
+.page-shell .page-copy h1, .page-shell .hub-page h1 { font-size: 20px; color: #000080; margin-bottom: 8px; line-height: 1.3; }
+.page-shell .page-intro { margin-bottom: 12px; color: #333; }
+.page-shell .page-nav { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 14px; }
+.page-shell .page-nav a { padding: 2px 8px; background: #dfdfdf; color: #000; text-decoration: none; font-size: 13px;
+    border: 2px solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.page-shell .page-nav a.active { background: #000080; color: #fff; }
+.page-shell .hub-page h2 { font-size: 15px; margin: 16px 0 6px; color: #000080; }
+.page-shell .page-list { list-style: none; margin: 0; padding: 0; }
+.page-shell .page-list li { background: #fff; border-bottom: 1px solid #c0c0c0; margin-bottom: 4px; }
+.page-shell .page-list li:hover { background: #e8e8ff; }
+.page-shell .page-list a { display: flex; align-items: stretch; color: inherit; text-decoration: none; }
+.page-shell .page-list-thumb { width: 72px; min-height: 58px; flex-shrink: 0; background: #c0c0c0 center / contain no-repeat; border-right: 1px solid #a0a0a0; }
+.page-shell .page-list-text { flex: 1; min-width: 0; padding: 8px; display: block; }
+.page-shell .page-list-title { display: block; font-size: 14px; font-weight: bold; color: #0000ff; }
+.page-shell .page-list-meta { display: block; font-size: 11px; color: #666; margin-top: 2px; }
+.page-shell .page-list-excerpt { display: block; font-size: 12px; color: #333; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.page-shell .page-copy p, .page-shell .page-copy h3 { margin-bottom: 8px; }
+.page-shell .page-copy h3 { margin-top: 12px; }
+
+@media (min-width: 769px) {
+    .page-shell .page-back-mobile { display: none; }
+    .page-shell .page-mobile-footer { display: none; }
+    .page-shell .post-header h1 { font-size: 20px; line-height: 1.3; }
+    .page-shell .post-meta { font-size: 13px; }
+    .page-shell .post-body { user-select: text; }
+    .page-shell .page-card { padding: 4px 8px; }
+}
+
+@media (max-width: 768px) {
+    .page-shell .desktop-container { display: flex; flex-direction: column; height: 100vh; }
+    .page-shell .desktop-area { flex: 1; min-height: 0; display: flex; flex-direction: column; position: relative; }
+    .page-shell .desktop-icons, .page-shell .taskbar, .page-shell .footer, .page-shell .start-menu,
+    .page-shell .resize-handle, .page-shell .window-button { display: none !important; }
+    .page-shell #post-window { position: static !important; left: auto !important; top: auto !important;
+        width: 100% !important; height: 100% !important; flex: 1; min-height: 0; display: flex !important; flex-direction: column; background: #008080; }
+    .page-shell .title-bar { background: linear-gradient(90deg, #000080 0%, #1084d0 100%); color: #fff; padding: 8px 12px;
+        display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+        font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; border-bottom: 2px solid #000; }
+    .page-shell .title-bar-title { font-size: 15px; font-weight: bold; display: flex; align-items: center; gap: 6px; overflow: hidden; min-width: 0; }
+    .page-shell .title-bar-title span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .page-shell .window-content { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; background: #c0c0c0; padding: 0; }
+    .page-shell .page-card { background: #fff; margin: 6px; padding: 12px; border: 2px solid;
+        border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080; }
+    .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
+    .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
+    .page-shell .post-body { font-size: 15px; line-height: 1.7; color: #333; }
+    .page-shell .post-body img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
+        border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
+    .page-shell .post-body p { margin-bottom: 12px; }
+    .page-shell .post-body h2, .page-shell .post-body h3 { margin-top: 18px; margin-bottom: 8px; color: #000080; }
+    .page-shell .post-body a { color: #000080; text-decoration: underline; }
+    .page-shell .related-posts { margin-top: 20px; padding-top: 12px; border-top: 2px solid #c0c0c0; }
+    .page-shell .related-posts-title { font-size: 14px; font-weight: bold; color: #000; margin-bottom: 8px; }
+    .page-shell a.related-post { display: block; padding: 8px; color: #000080; text-decoration: none; font-size: 13px;
+        background: #f0f0f0; border: 1px solid #c0c0c0; margin-bottom: 4px; }
+    .page-shell .page-back-desktop { display: none; }
+    .page-shell .page-mobile-footer { display: flex; }
+    .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
+    .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
+}
+"""
+
+
+# --------------------------------------------------------------------------- main
+
+def write(path, text):
+    full = os.path.join(OUTPUT_DIR, path)
+    os.makedirs(os.path.dirname(full) or ".", exist_ok=True)
+    with open(full, "w", encoding="utf-8") as f:
+        f.write(text)
 
 
 def main():
-    """Main build process"""
-    print("🔨 Building 404 Memory Found static site...")
+    print("🔨 Building 404 Memory Found...")
+    with open(SOURCE_PATH, encoding="utf-8") as f:
+        source = f.read()
+    manifest = read_json("images-manifest.json", {})
+    redirects = {k: v for k, v in read_json("redirects.json", {}).items() if not k.startswith("_")}
+    posts = load_posts(manifest)
+    by_slug = {p["slug"]: p for p in posts}
+    tags = top_tags(posts)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    print("📖 Reading source files...")
-    html_content, posts_data = read_source_files()
-    posts = posts_data['posts']
+    css = extract_css(source) + "\n" + PAGE_SHELL_CSS
+    js = extract_javascript(source)
+    version = content_hash(css, js)
+    csp, favicons = extract_head_bits(source)
+    ctx = {
+        "source": source, "version": version, "tags": tags, "csp": csp, "favicons": favicons,
+        "desktop_icons": extract_div_by_marker(source, 'class="desktop-icons">'),
+        "taskbar": extract_div_by_marker(source, 'class="taskbar">'),
+        "footer": extract_div_by_marker(source, 'class="footer">'),
+        "start_menu": extract_div_by_marker(source, 'class="start-menu" id="start-menu">'),
+    }
 
-    print("📁 Creating output directories...")
-    create_output_directories()
+    print(f"📦 assets/site.css + site.js (v{version})")
+    write("assets/site.css", css)
+    write("assets/site.js", js)
 
-    # Homepage: SPA based on source HTML
-    print("📄 Generating index.html (SPA)...")
-    index_html = generate_index_html(html_content, posts_data)
-    with open(os.path.join(OUTPUT_DIR, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(index_html)
+    print("📄 index.html")
+    write("index.html", build_index_html(ctx, posts))
+    write("posts-index.json", json.dumps(posts_index_json(posts), ensure_ascii=False))
 
-    # Copy posts.json to output (needed by SPA JavaScript)
-    print("📋 Copying posts.json...")
-    src_posts = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts.json')
-    dst_posts = os.path.join(OUTPUT_DIR, 'posts.json')
-    if os.path.abspath(src_posts) != os.path.abspath(dst_posts):
-        shutil.copy2(src_posts, dst_posts)
+    print(f"📝 {len(posts)} posts")
+    for p in posts:
+        write(f"posts/{p['slug']}.html", build_post_page(ctx, p, posts))
+        write(f"posts/{p['slug']}.json", json.dumps(post_json(p), ensure_ascii=False))
+    write("posts/index.html", build_posts_index_page(ctx, posts))
 
-    # Individual post pages for SEO
-    print("📝 Generating individual post pages...")
-    for post in posts:
-        slug = get_slug_from_id(post['id'])
-        post_html = generate_post_html(post, posts, html_content, posts_data)
-        post_path = os.path.join(OUTPUT_DIR, 'posts', f'{slug}.html')
-        with open(post_path, 'w', encoding='utf-8') as f:
-            f.write(post_html)
-        print(f"   ✓ {slug}.html")
+    print(f"📁 {len(tags)} tag pages: {', '.join(tags)}")
+    for t in tags:
+        write(f"tags/{tag_slug(t)}.html", build_tag_page(ctx, t, posts))
 
-    # Generate sitemap, robots.txt, CNAME
-    print("🗺️  Generating sitemap.xml...")
-    with open(os.path.join(OUTPUT_DIR, 'sitemap.xml'), 'w', encoding='utf-8') as f:
-        f.write(generate_sitemap(posts_data))
+    print("ℹ️  about, contact, privacy, terms, 404")
+    for filename in HUB_PAGES:
+        write(filename, build_hub_page(ctx, filename, posts))
+    write("404.html", build_404_page(ctx, posts))
 
-    print("🤖 Generating robots.txt...")
-    with open(os.path.join(OUTPUT_DIR, 'robots.txt'), 'w', encoding='utf-8') as f:
-        f.write(generate_robots_txt())
+    print(f"↪️  {len(redirects)} redirect stubs")
+    for old, new in redirects.items():
+        if new in by_slug:
+            write(f"posts/{old}.html", build_redirect_stub(old, by_slug[new]))
+        else:
+            print(f"   ! redirect target missing for {old} -> {new}")
 
-    print("🌐 Generating CNAME...")
-    with open(os.path.join(OUTPUT_DIR, 'CNAME'), 'w', encoding='utf-8') as f:
-        f.write(generate_cname())
+    keep = {f"{s}.html" for s in by_slug} | {f"{s}.json" for s in by_slug} | {f"{o}.html" for o in redirects} | {"index.html"}
+    for name in os.listdir(os.path.join(OUTPUT_DIR, "posts")):
+        if name not in keep and (name.endswith(".html") or name.endswith(".json")):
+            os.remove(os.path.join(OUTPUT_DIR, "posts", name))
+            print(f"   🗑  removed stale posts/{name}")
 
-    print(f"\n✅ Build complete!")
-    print(f"   📂 Output directory: {OUTPUT_DIR}/")
-    print(f"   📄 Files generated: {1 + len(posts) + 3} total")
-    print(f"      - index.html (SPA homepage)")
-    print(f"      - posts.json (data for SPA)")
-    print(f"      - {len(posts)} post pages in posts/")
-    print(f"      - sitemap.xml, robots.txt, CNAME")
+    print("🗺️  sitemap.xml, feed.xml, robots.txt, CNAME")
+    write("sitemap.xml", build_sitemap(posts, tags, today))
+    write("feed.xml", build_feed(posts))
+    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
+    write("CNAME", "404memoryfound.com")
+
+    missing = [u for u, v in manifest.items() if v.get("status") != "ok"]
+    if missing:
+        print(f"⚠️  {len(missing)} images unavailable on Commons and dropped from bodies (see images-manifest.json)")
+    print(f"\n✅ Build complete: {len(posts)} posts, {len(tags)} tag pages, {len(HUB_PAGES) + 2} hub pages, version {version}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
