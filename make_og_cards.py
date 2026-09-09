@@ -130,14 +130,40 @@ def photo_panel(im, path, box):
     return True
 
 
+STOP = {"what", "happened", "the", "that", "with", "from", "and", "how", "why", "who", "its", "was", "for", "into",
+        "then", "now", "story", "history", "real", "behind", "actually", "failed", "lost", "still", "ever", "made"}
+
+
+def subject_words(post):
+    words = set(re.findall(r"[a-z0-9]+", post["title"].lower()))
+    for phrase in post.get("linkPhrases") or []:
+        words |= set(re.findall(r"[a-z0-9]+", phrase.lower()))
+    return {w for w in words if len(w) >= 4 and w not in STOP}
+
+
 def hero_path(post, manifest):
-    """Local hero photo; falls back to the first photo used inside the post body."""
-    candidates = [post.get("image") or ""] + re.findall(r'<img[^>]*src="([^"]+)"', post.get("body", ""))
-    for url in candidates:
+    """Local hero photo. Falls back to a body photo only when its alt text names the post's subject,
+    so a Clippy card never ends up wearing a Netscape screenshot."""
+    def local(url):
         info = manifest.get(url, {})
         if info.get("status") == "ok":
             path = info["file"].lstrip("/")
-            if os.path.exists(path):
+            return path if os.path.exists(path) else None
+        return None
+
+    hero = local(post.get("image") or "")
+    if hero:
+        return hero
+    words = subject_words(post)
+    for tag in re.findall(r"<img[^>]*>", post.get("body", "")):
+        src = re.search(r'src="([^"]+)"', tag)
+        alt = re.search(r'alt="([^"]*)"', tag)
+        if not src or not alt:
+            continue
+        alt_words = set(re.findall(r"[a-z0-9]+", alt.group(1).lower()))
+        if words & alt_words:
+            path = local(src.group(1))
+            if path:
                 return path
     return None
 
