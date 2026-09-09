@@ -24,6 +24,7 @@ One post answers one search query completely in under five minutes of reading, s
 | Sources | 3 to 5 links to primary or reputable sources (company filings, court records, contemporary news, museums, Wikipedia only as a fallback). Rendered as a Sources list. Every specific number in the post must trace to one of them |
 | Affiliate hook | For products that still trade second-hand, one short "Where to find one today" paragraph naming typical prices on eBay, without a link unless the config has an affiliate id |
 | Status questions | Every post about a company, product or service answers, explicitly and early, the questions Search Console shows people typing: is it still around in 2026, who owns it now, how many are left or what it costs today, and what replaced it. One of those belongs in the summary, one in a section heading, one in the quick facts ("Owner today", "Stores left", "Status"), one in the FAQ |
+| Audience | Readers in the United States first, then the UK, Canada and Australia. Write for them: US spelling, prices in US dollars with the year, US retailers and eBay.com for 'where to find one today', US launch dates when they differ from Japan or Europe. Subjects must have had a real presence in those markets; a product or site that was big only in Brazil, India or continental Europe does not belong, however nostalgic it is |
 | Author | one of the pen names in `authors.json`, chosen by beat |
 | Tags | 1 to 3 from the eight site tags only |
 
