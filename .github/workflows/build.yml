@@ -26,6 +26,14 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install pillow
+
+      - name: Resolve and localize images, make share cards
+        run: |
+          python fetch_images.py
+          python make_og_cards.py
+
       - name: Run build script
         run: python build.py
 

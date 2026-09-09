@@ -156,9 +156,65 @@ def process(url):
     return url, info
 
 
+FREE_LICENCES = ("cc0", "cc by", "cc-by", "public domain", "pd", "attribution")
+STOP = {"the", "and", "with", "from", "for", "toy", "photo", "image", "picture", "original"}
+
+
+def commons_lookup(query):
+    """Conservative Commons search: every significant query word must appear in the file title or description."""
+    api = ("https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=12"
+           f"&gsrsearch={quote(query)}&prop=imageinfo&iiprop=url%7Cextmetadata%7Csize%7Cmime&iiurlwidth=960&format=json")
+    with urlopen(Request(api, headers={"User-Agent": USER_AGENT}), timeout=30) as r:
+        data = json.load(r)
+    words = [w for w in re.findall(r"[a-z0-9]+", query.lower()) if len(w) > 2 and w not in STOP]
+    for page in sorted(data.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99)):
+        ii = page["imageinfo"][0]
+        meta = ii.get("extmetadata", {})
+        licence = (meta.get("LicenseShortName", {}).get("value") or "").lower()
+        if ii.get("mime") not in ("image/jpeg", "image/png") or ii.get("width", 0) < 640:
+            continue
+        if not any(k in licence for k in FREE_LICENCES):
+            continue
+        hay = (page["title"] + " " + re.sub(r"<[^>]+>", " ", meta.get("ImageDescription", {}).get("value") or "")).lower()
+        if all(w in hay for w in words):
+            url = (ii.get("thumburl") or ii.get("url")).split("?")[0]
+            return re.sub(r"^https://thumb\.wikimedia\.org/", "https://upload.wikimedia.org/", url), page["title"]
+    return None, None
+
+
+def resolve_missing_heroes(posts):
+    """Posts written where Commons was unreachable carry imageSearch queries instead of an image URL."""
+    changed = False
+    for p in posts:
+        if p.get("image") or not p.get("imageSearch"):
+            continue
+        for q in p["imageSearch"][:4]:
+            try:
+                url, title = commons_lookup(q)
+            except Exception as e:  # noqa: BLE001
+                print(f"  commons lookup failed for {q!r}: {e}")
+                url = None
+            if url:
+                p["image"] = url
+                if not p.get("imageCaption"):
+                    p["imageCaption"] = title.replace("File:", "").rsplit(".", 1)[0].replace("_", " ")
+                print(f"  hero for {p['id']}: {title}  (query: {q})")
+                changed = True
+                break
+            time.sleep(1)
+        if not p.get("image"):
+            print(f"  no matching free image for {p['id']} (queries: {p['imageSearch']})")
+    return changed
+
+
 def main():
     os.makedirs(THUMB_DIR, exist_ok=True)
-    posts = json.load(open("posts.json", encoding="utf-8"))["posts"]
+    data = json.load(open("posts.json", encoding="utf-8"))
+    posts = data["posts"]
+    if resolve_missing_heroes(posts):
+        with open("posts.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
     urls = collect_urls(posts)
     manifest = {}
     if os.path.exists(MANIFEST):
