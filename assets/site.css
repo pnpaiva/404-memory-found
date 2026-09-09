@@ -2240,7 +2240,7 @@
 .post-sources li { margin-bottom: 4px; }
 .post-sources a { color: #000080; }
 .source-host { color: #777; font-size: 11px; margin-left: 4px; }
-.affiliate-disclosure { font-size: 11px; color: #666; margin-top: 10px; font-style: italic; }
+.affiliate-disclosure { font-size: 11px; color: #666; margin: 6px 0 10px 0; font-style: italic; }
 .post-body .table-wrap, .post-body table { max-width: 100%; }
 .post-body table { border-collapse: collapse; font-size: 13px; margin: 12px 0; width: 100%; font-variant-numeric: tabular-nums; }
 .post-body th, .post-body td { border: 1px solid #a0a0a0; padding: 4px 6px; text-align: left; vertical-align: top; }

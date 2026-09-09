@@ -204,12 +204,53 @@ def localize_images(body, manifest):
 
 # --------------------------------------------------------------------------- monetization
 
+def affiliate_partners(config):
+    """Partner table from site-config.json. A partner is active only when its id (and merchant_id, if the template
+    needs one) has been pasted in; until then its links are left as plain outbound links."""
+    out = []
+    for p in config.get("affiliates", []):
+        if not isinstance(p, dict) or not p.get("domains"):
+            continue
+        pid = (p.get("id") or "").strip()
+        tmpl = p.get("template") or ""
+        needs_mid = "{merchant_id}" in tmpl
+        active = bool(pid) and (not needs_mid or bool((p.get("merchant_id") or "").strip()))
+        out.append({**p, "id": pid, "active": active})
+    return out
+
+
+def affiliate_url(url, partner):
+    """Rewrite one merchant URL with the partner's tracking. Templates may use {url}, {url_encoded}, {path},
+    {id} and {merchant_id}; a partner with a 'param' instead of a template gets that query parameter appended."""
+    parts = urlparse(url)
+    if partner.get("param"):
+        query = dict(parse_qsl(parts.query))
+        query[partner["param"]] = partner["id"]
+        return urlunparse(parts._replace(query=urlencode(query)))
+    tmpl = partner.get("template") or ""
+    if not tmpl:
+        return url
+    from urllib.parse import quote
+    path = parts.path + (("?" + parts.query) if parts.query else "")
+    return tmpl.format(url=url, url_encoded=quote(url, safe=""), path=path or "/",
+                       id=partner["id"], merchant_id=(partner.get("merchant_id") or "").strip())
+
+
 def monetize_links(body, config):
-    """Append affiliate ids to eBay / Amazon links and mark them sponsored. No-op until ids are configured."""
-    ebay = config.get("ebay_campaign_id") or ""
-    amazon = config.get("amazon_tag") or ""
-    if not ebay and not amazon:
+    """Tag links to configured affiliate partners. Active partners (id pasted in site-config.json) get tracking plus
+    rel="sponsored nofollow"; partners without an id are still marked nofollow so the build never leaks link equity
+    to a shop. Everything else is left alone."""
+    partners = affiliate_partners(config)
+    if not partners:
         return body
+
+    def match(host):
+        for p in partners:
+            for d in p["domains"]:
+                d = d.lower()
+                if host == d or host.endswith("." + d):
+                    return p
+        return None
 
     def fix(m):
         tag = m.group(0)
@@ -217,21 +258,19 @@ def monetize_links(body, config):
         if not href:
             return tag
         url = href.group(1)
-        host = urlparse(url).netloc.lower()
-        params = None
-        if ebay and host.endswith("ebay.com"):
-            params = {"mkcid": "1", "mkrid": "711-53200-19255-0", "campid": ebay, "toolid": "10001", "mkevt": "1"}
-        elif amazon and host.endswith("amazon.com"):
-            params = {"tag": amazon}
-        if not params:
+        if not url.startswith("http"):
             return tag
-        parts = urlparse(url)
-        query = dict(parse_qsl(parts.query))
-        query.update(params)
-        new_url = urlunparse(parts._replace(query=urlencode(query)))
-        tag = tag.replace(href.group(0), f'href="{new_url}"')
+        host = urlparse(url).netloc.lower()
+        partner = match(host)
+        if not partner:
+            return tag
+        rel = "nofollow noopener"
+        if partner["active"]:
+            tag = tag.replace(href.group(0), f'href="{affiliate_url(url, partner)}"')
+            rel = "sponsored nofollow noopener"
         tag = re.sub(r'\srel="[^"]*"', "", tag)
-        return tag.replace("<a", '<a rel="sponsored nofollow noopener" target="_blank"', 1)
+        tag = re.sub(r'\starget="[^"]*"', "", tag)
+        return tag.replace("<a", f'<a rel="{rel}" target="_blank"', 1)
 
     return re.sub(r"<a [^>]*>", fix, body)
 
@@ -412,7 +451,7 @@ def head_html(ctx, *, title, description, canonical, og_type="website", og_image
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     {ctx['csp']}
 {gtag_snippet()}{ctx['adsense']}{ctx['verification']}
     <title>{esc(title)}</title>
@@ -509,10 +548,30 @@ def post_list_html(posts):
     return '<ul class="page-list">' + "\n".join(items) + "</ul>"
 
 
+ORG_ID = BASE_URL + "/#organization"
+
+
+def organization(ctx, full=False):
+    """The publisher entity. Every schema block references it by @id so the graph is connected; the about page
+    carries the full node with sameAs profiles from site-config.json (social_profiles)."""
+    node = {"@type": "Organization", "@id": ORG_ID, "name": BLOG_NAME, "url": BASE_URL + "/",
+            "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}}
+    if full:
+        node["description"] = DEFAULT_DESCRIPTION
+        node["email"] = "hello@404memoryfound.com"
+        node["foundingDate"] = "2026"
+        node["publishingPrinciples"] = BASE_URL + "/about.html"
+        profiles = [u for u in ctx["config"].get("social_profiles", []) if isinstance(u, str) and u.startswith("http")]
+        if profiles:
+            node["sameAs"] = profiles
+    return node
+
+
 def author_person(ctx, key):
     a = ctx["authors"][key]
-    return {"@type": "Person", "name": a["name"], "url": f"{BASE_URL}/authors/{key}.html", "description": a["bio"],
-            "jobTitle": "Writer", "worksFor": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL}}
+    return {"@type": "Person", "@id": f"{BASE_URL}/authors/{key}.html#person", "name": a["name"],
+            "url": f"{BASE_URL}/authors/{key}.html", "description": a["bio"], "jobTitle": "Writer",
+            "worksFor": {"@id": ORG_ID}}
 
 
 def authors_block_html(ctx):
@@ -578,11 +637,11 @@ def build_post_page(ctx, post, posts):
         <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time>{(' | Updated <time datetime="' + post['updated'] + '">' + post['updated'] + '</time>') if post.get('updated') else ''} | By {byline} | <span class="reading-time">{post['readingTime']}</span></div>
     </header>
     {post_extras_html(post)}
+    {disclosure}
     <div class="post-body">
 {post['body']}
     </div>
     {sources_html(post)}
-    {disclosure}
     <footer class="post-footer">
         {'<div class="post-tags">Filed under: ' + tags_html + '</div>' if tags_html else ''}
         {related_html}
@@ -591,7 +650,7 @@ def build_post_page(ctx, post, posts):
 </article>"""
 
     images = [post["ogImage"]] + ([post["heroUrl"]] if post.get("heroUrl") else [])
-    author_schema = author_person(ctx, key) if key else {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL}
+    author_schema = author_person(ctx, key) if key else {"@id": ORG_ID}
     blog_posting = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -604,8 +663,7 @@ def build_post_page(ctx, post, posts):
         "keywords": post["tags"],
         "articleSection": post["tags"][0] if post["tags"] else "Technology",
         "author": author_schema,
-        "publisher": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL,
-                      "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}},
+        "publisher": organization(ctx),
         "mainEntityOfPage": {"@type": "WebPage", "@id": post["url"]},
         "url": post["url"],
     }
@@ -665,7 +723,9 @@ def build_hub_page(ctx, filename, posts):
               f'{nav_links_html(ctx["tags"])}'
     url = f"{BASE_URL}/{filename}"
     head = head_html(ctx, title=f"{page_title} | {BLOG_NAME}", description=HUB_DESCRIPTIONS[filename], canonical=url,
-                     schemas=({"@context": "https://schema.org", "@type": "WebPage", "name": page_title, "url": url},))
+                     schemas=({"@context": "https://schema.org", "@type": "WebPage", "name": page_title, "url": url,
+                               "isPartOf": {"@id": BASE_URL + "/#website"}, "publisher": {"@id": ORG_ID}},
+                              ({"@context": "https://schema.org", **organization(ctx, full=True)} if filename == "about.html" else None)))
     icon, _, title_text = bar_title.partition(" ")
     return shell_html(ctx, head, body_class="hub-page", window_icon=icon, window_title=title_text, content=content,
                       status_text=f"{len(posts)} posts")
@@ -842,13 +902,13 @@ def build_index_html(ctx, posts):
         "description": DEFAULT_DESCRIPTION,
         "url": BASE_URL + "/",
         "image": DEFAULT_OG_IMAGE,
-        "publisher": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL,
-                      "logo": {"@type": "ImageObject", "url": LOGO}},
+        "publisher": organization(ctx),
         "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "url": p["url"], "datePublished": p["date"],
                       "author": {"@type": "Person", "name": p["authorName"]}}
                      for p in posts[:20]],
     }
-    website_schema = {"@context": "https://schema.org", "@type": "WebSite", "name": BLOG_NAME, "url": BASE_URL + "/"}
+    website_schema = {"@context": "https://schema.org", "@type": "WebSite", "@id": BASE_URL + "/#website",
+                      "name": BLOG_NAME, "url": BASE_URL + "/", "publisher": {"@id": ORG_ID}}
     seo_meta = f"""    <meta name="description" content="{esc(DEFAULT_DESCRIPTION)}">
     <link rel="canonical" href="{BASE_URL}/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -1102,7 +1162,7 @@ PAGE_SHELL_CSS = """
 .post-sources li { margin-bottom: 4px; }
 .post-sources a { color: #000080; }
 .source-host { color: #777; font-size: 11px; margin-left: 4px; }
-.affiliate-disclosure { font-size: 11px; color: #666; margin-top: 10px; font-style: italic; }
+.affiliate-disclosure { font-size: 11px; color: #666; margin: 6px 0 10px 0; font-style: italic; }
 .post-body .table-wrap, .post-body table { max-width: 100%; }
 .post-body table { border-collapse: collapse; font-size: 13px; margin: 12px 0; width: 100%; font-variant-numeric: tabular-nums; }
 .post-body th, .post-body td { border: 1px solid #a0a0a0; padding: 4px 6px; text-align: left; vertical-align: top; }

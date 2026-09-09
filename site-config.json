@@ -5,14 +5,130 @@
   "ads_txt": "google.com, pub-2779742602426192, DIRECT, f08c47fec0942fa0",
   "ads_txt_note": "Paste the ads.txt line AdSense gives you, e.g. google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0",
   "affiliate_disclosure": "Some links on this page are affiliate links. If you buy through them, 404 Memory Found may earn a small commission at no extra cost to you. We only link to things we would look for ourselves.",
-  "ebay_campaign_id": "",
-  "ebay_note": "eBay Partner Network campaign id. When set, build.py appends the tracking parameters to every ebay.com link in post bodies and marks it rel=\"sponsored nofollow\".",
-  "amazon_tag": "",
-  "amazon_note": "Amazon Associates tracking id (e.g. 404memoryfound-20). When set, build.py appends ?tag= to amazon.com links and marks them rel=\"sponsored nofollow\".",
   "google_verification": "",
   "google_verification_note": "Search Console → Settings → Ownership verification → HTML tag: paste only the content value.",
   "bing_verification": "",
   "bing_verification_note": "Bing Webmaster Tools → Add site → HTML meta tag: paste only the content value of msvalidate.01.",
   "pinterest_verification": "820233f60813bb5db988ed9bf6b4c449",
-  "pinterest_verification_note": "Pinterest business settings → Claimed accounts → Website → Add HTML tag: paste only the content value of p:domain_verify."
+  "pinterest_verification_note": "Pinterest business settings → Claimed accounts → Website → Add HTML tag: paste only the content value of p:domain_verify.",
+  "affiliates_note": "Affiliate partners chosen in the 9 Sep 2026 study (AFFILIATES.md). Paste the id the network gives you into 'id' (and 'merchant_id' where the template needs one). build.py then rewrites every link to that partner's domains with tracking and marks it rel=sponsored; until then the links stay plain and nofollow. Templates may use {url}, {url_encoded}, {path}, {id}, {merchant_id}. A partner with 'param' instead of a template gets ?param=id appended.",
+  "affiliates": [
+    {
+      "name": "Etsy (Awin)",
+      "domains": [
+        "etsy.com"
+      ],
+      "id": "",
+      "merchant_id": "6220",
+      "template": "https://www.awin1.com/cread.php?awinmid={merchant_id}&awinaffid={id}&ued={url_encoded}",
+      "signup": "https://www.awin.com/us/publishers",
+      "note": "id = your Awin publisher id. Etsy's Awin merchant id is 6220. Use for artifacts, toys, mall-era ephemera."
+    },
+    {
+      "name": "ScanMyPhotos (Awin)",
+      "domains": [
+        "scanmyphotos.com"
+      ],
+      "id": "",
+      "merchant_id": "",
+      "template": "https://www.awin1.com/cread.php?awinmid={merchant_id}&awinaffid={id}&ued={url_encoded}",
+      "signup": "https://www.awin.com/us/publishers",
+      "note": "Same Awin publisher id as Etsy; paste ScanMyPhotos' merchant id from the Awin dashboard. Use for photo, negative and slide posts."
+    },
+    {
+      "name": "Legacybox / Southtree / Kodak Digitizing (ShareASale)",
+      "domains": [
+        "legacybox.com",
+        "southtree.com",
+        "kodakdigitizing.com"
+      ],
+      "id": "",
+      "merchant_id": "",
+      "template": "https://shareasale.com/r.cfm?b=0&u={id}&m={merchant_id}&urllink={url_encoded}",
+      "signup": "https://www.shareasale.com/info/affiliates/",
+      "note": "id = ShareASale user id; merchant_id from the merchant page after approval. Use for VHS, camcorder and home-video posts."
+    },
+    {
+      "name": "Stone Age Gamer",
+      "domains": [
+        "stoneagegamer.com"
+      ],
+      "id": "",
+      "param": "ref",
+      "signup": "https://stoneagegamer.com/affiliate-program/",
+      "note": "Confirm the tracking parameter name in your approval email; 'ref' is a placeholder. Use for flash carts, repro cartridges and console mods."
+    },
+    {
+      "name": "Anbernic (UpPromote)",
+      "domains": [
+        "anbernic.com"
+      ],
+      "id": "",
+      "param": "sca_ref",
+      "signup": "https://anbernic.com/pages/affiliate-program",
+      "note": "UpPromote links use ?sca_ref=<id>; paste the full ref value. Use for modern-retro handheld posts."
+    },
+    {
+      "name": "GOG",
+      "domains": [
+        "gog.com"
+      ],
+      "id": "",
+      "template": "https://af.gog.com{path}?as={id}",
+      "signup": "https://www.gog.com/affiliate",
+      "note": "id = your GOG affiliate id. Use for 90s and 2000s PC game posts."
+    },
+    {
+      "name": "Humble Bundle (Impact)",
+      "domains": [
+        "humblebundle.com"
+      ],
+      "id": "",
+      "template": "",
+      "signup": "https://www.humblebundle.com/affiliates",
+      "note": "Impact issues per-publisher tracking links; paste the full template Impact gives you with {url_encoded} where the deep link goes."
+    },
+    {
+      "name": "Green Man Gaming (Impact)",
+      "domains": [
+        "greenmangaming.com"
+      ],
+      "id": "",
+      "template": "",
+      "signup": "https://www.greenmangaming.com/affiliates/",
+      "note": "Impact tracking template, same as Humble."
+    },
+    {
+      "name": "Displate",
+      "domains": [
+        "displate.com"
+      ],
+      "id": "",
+      "template": "",
+      "signup": "https://displate.com/affiliate",
+      "note": "Verify the real rate inside the program before writing about it."
+    },
+    {
+      "name": "Walmart (Impact)",
+      "domains": [
+        "walmart.com"
+      ],
+      "id": "",
+      "template": "",
+      "signup": "https://affiliates.walmart.com/",
+      "note": "Impact tracking template. Use where the modern reissue is in stock at a big-box store."
+    },
+    {
+      "name": "Amazon Associates",
+      "domains": [
+        "amazon.com"
+      ],
+      "id": "",
+      "param": "tag",
+      "signup": "https://affiliate-program.amazon.com/",
+      "note": "Fallback layer only. Do not apply until the site can produce 3 orders in 180 days, or the account is closed for good."
+    }
+  ],
+  "social_profiles": [],
+  "social_profiles_note": "Public profiles of the publication (Pinterest, X, YouTube, etc.). Rendered as Organization.sameAs on the about page so answer engines can ground the entity. Add the Pinterest profile URL here."
 }

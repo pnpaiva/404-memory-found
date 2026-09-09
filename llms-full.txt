@@ -2272,7 +2272,7 @@ Atari shipped the future and forgot to also ship the present. The Lynx was a por
 
 When was the Atari Lynx released? The original Atari Lynx launched in North America in September 1989, with a retail price of $179.95. The Lynx II revision arrived in July 1991 at $99.99. The European launch followed in 1990.
 
-How many Atari Lynx units were sold? Atari never released official lifetime sales figures. Industry estimates put US sales at roughly 500,000 units by the end of 1990 and around 800,000 by late 1991. Combined lifetime sales of the Lynx and Sega Game Gear (https://404memoryfound.com/posts/what-happened-to-sega-game-gear-handheld.html) together were estimated at under 7 million by 1995, against more than 16 million Game Boys in the same window.
+How many Atari Lynx units were sold? Atari never released official lifetime sales figures. Industry estimates put US sales at roughly 500,000 units by the end of 1990 and around 800,000 by late 1991. Combined lifetime sales of the Lynx and Sega Game Gear together were estimated at under 7 million by 1995, against more than 16 million Game Boys in the same window.
 
 Who designed the Atari Lynx? The Lynx was designed by RJ Mical and Dave Needle, both of whom previously designed the Commodore Amiga. They started the project at Epyx in 1986 under the codename Handy, and it was sold to Atari Corporation when Epyx ran into financial trouble.
 
@@ -2300,7 +2300,7 @@ Author: Dana Reyes (404 Memory Found)
 Published: 2026-05-11
 Topics: Internet Culture, Business Blunders, Software & Apps
 
-In January 1999, a search engine called Excite had a stock price of around $128 a share, a market value of roughly $35 billion, and a CEO named George Bell who had just turned down the chance to buy a 4-person company called Google for $750,000.
+In January 1999, a search engine called Excite (https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html) had a stock price of around $128 a share, a market value of roughly $35 billion, and a CEO named George Bell who had just turned down the chance to buy a 4-person company called Google for $750,000.
 
 That sentence contains the entire decade of the late dot-com era. The number that's wild is not the $750,000. The number that's wild is the $35 billion.
 
@@ -8702,7 +8702,7 @@ Topics: Hardware, Business Blunders
 
 ## The Best-Selling Home Computer Company You Barely Remember
 
-In 1983, Commodore International had roughly 50% of the U.S. home computer market. Not 50% of some niche subcategory. Half of all home computers sold in America had the Commodore logo on them. The Commodore 64, their flagship machine, would go on to become the best-selling single computer model of all time according to the Guinness Book of World Records, with estimated sales somewhere in the range of 12.5 to 17 million units, depending on which source you trust. Some claims push that number to 30 million, though those figures are disputed by historians who have dug into the actual production records.
+In 1983, Commodore (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html) International had roughly 50% of the U.S. home computer market. Not 50% of some niche subcategory. Half of all home computers sold in America had the Commodore logo on them. The Commodore 64, their flagship machine, would go on to become the best-selling single computer model of all time according to the Guinness Book of World Records, with estimated sales somewhere in the range of 12.5 to 17 million units, depending on which source you trust. Some claims push that number to 30 million, though those figures are disputed by historians who have dug into the actual production records.
 
 By 1994, Commodore was bankrupt.
 
@@ -9520,7 +9520,7 @@ Author: Dana Reyes (404 Memory Found)
 Published: 2026-04-04
 Topics: Internet Culture, Business Blunders, Money & Tech
 
-In April 1999, Lycos was the most visited destination on the entire internet. Not Google. Not Yahoo. Lycos. A search engine named after the Latin word for "wolf spider," born out of a Carnegie Mellon University research project, with a cartoon black Labrador retriever as its mascot. At its peak, the company had a global presence across more than 40 countries, owned nearly two dozen internet brands, and was valued at $12.5 billion. By 2010, it sold for $36 million. That's a 99.7% decline in value over the course of a single decade.
+In April 1999, Lycos (https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html) was the most visited destination on the entire internet. Not Google. Not Yahoo. Lycos. A search engine named after the Latin word for "wolf spider," born out of a Carnegie Mellon University research project, with a cartoon black Labrador retriever as its mascot. At its peak, the company had a global presence across more than 40 countries, owned nearly two dozen internet brands, and was valued at $12.5 billion. By 2010, it sold for $36 million. That's a 99.7% decline in value over the course of a single decade.
 
 The story of Lycos is not a story about bad technology. The search engine worked fine. It's a story about what happens when a company built around one thing decides to become everything, right at the exact moment the market decides it only wants one thing done really, really well.
 
@@ -12844,109 +12844,100 @@ Yes. eBay reported $10.1 billion in revenue in 2023 and remains a profitable, pu
 
 ---
 
-# What Happened to RadioShack? The Store on Every Corner
+# Is RadioShack Still in Business? 2026 Store Count
 
 URL: https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-30
+Published: 2026-03-30  Updated: 2026-09-09
 Topics: Hardware, Business Blunders
 
-## What Happened to RadioShack? The Store That Was on Every Corner in America
+**Summary:** RadioShack is still in business in 2026, but as a brand and a website rather than a chain. Unicomer Group of El Salvador has owned the RadioShack name worldwide since May 2023. No company-owned RadioShack stores are left in the United States after the March 2017 bankruptcy, and the US presence is now more than 170 authorized dealers in 40 states.
 
-There's a specific smell I remember from RadioShack (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html), though I can't quite name it anymore. It was something between soldered circuit boards, plastic packaging, and that vaguely sterile electronics-store air that hasn't changed in thirty years. I walked into one on a Tuesday afternoon in 1998, maybe ten years old, with forty dollars burning a hole in my pocket and the kind of determination only a kid obsessed with building things can muster. The store was maybe 2,000 square feet, packed so densely with merchandise that you had to turn sideways in some aisles. There was a bin of resistors. Another of capacitors. Switches, wire, breadboards, power supplies, LED displays in every color, components I didn't understand but desperately wanted to learn. Behind the counter was a guy who actually knew what all of it did. He could look at what you were building and suggest the right transistor. He could wire you up with exactly the cable you needed. This was what RadioShack was, at least in my neighborhood: a temple of possibility, a place where the barrier between wanting to understand electronics and actually building something was just wide enough that you could jump it with a little help.
+**Key facts:**
+- Founded: 1921, in the United States
+- Peak size: 5,087 US company stores plus 2,099 dealer stores (Dec 1999)
+- Bankruptcies: February 5, 2015 and March 8, 2017
+- Owner today: Unicomer Group, El Salvador, since May 2023
+- Status today: Website plus 170 plus US dealers; no company-owned US stores
 
-RadioShack died in 2015, officially, though it had been dying much longer than that. The bankruptcy filing in February 2015 was just the paperwork acknowledging what every nostalgic Gen X and older millennial already knew: the store that was within five minutes of 94 percent of Americans at its absolute peak had somehow become invisible. Where I grew up, there were three RadioShacks within a twenty-minute drive. Now there are none. But the real story of RadioShack isn't about collapse or obsolescence or the simple march of Amazon killing yet another brick-and-mortar business. The story is much weirder and more frustrating than that. It's about a company that owned the future and then systematically abandoned it, that made catastrophic strategic decisions from the highest levels, that treated its core customers like they didn't matter, and that ultimately got exactly what it deserved while somehow managing to break something irreplaceable in the process.
+## Is RadioShack still in business in 2026?
 
-## When RadioShack Was the Only Game in Town
+RadioShack (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html) still exists, but almost nothing about it matches the chain Americans grew up with. The name, the website and the product line belong to Unicomer Group, a retailer based in El Salvador that bought the global brand in May 2023.
 
-The story starts in 1921, which is older than you probably thought. Theodore and Milton Deutschmann opened the first Radio Shack in Boston as a one-room shop to serve amateur radio operators, the "ham radio" enthusiasts who built their own equipment and needed specialized parts. This is crucial to understanding RadioShack's original DNA: it was built by and for people who wanted to tinker, to understand, to build things with their hands. The name "Radio Shack" referred to the small wooden enclosures on the decks of ships where early radio equipment was housed. For more than forty years, that was what RadioShack was. You went there if you were serious about radio, about electronics, about understanding the technology itself.
+There is no RadioShack chain left to walk into in the United States. What exists is radioshack.com, a wholesale operation that sells into other retailers, and a network of independent stores licensed to hang the sign.
 
-But RadioShack was a specialty store in a specialty market. They were fine, profitable, but not explosive. Then in 1963, a guy named Charles Tandy showed up and changed everything. Tandy owned Tandy Leather, which is not what you'd expect to be a springboard for electronics retail domination. But Tandy was a ruthless businessman with an almost prescient understanding of where retail was heading. He acquired RadioShack for around $300,000, which adjusted for inflation is about $3 million today. It seemed like an odd move at the time. Tandy, a leather goods guy, buying a niche electronics supplier? But Tandy saw something that other executives missed: amateur radio hobbyists weren't just a stable market, they were the early adopters of a much larger wave. They were the people who would want home computers when they existed. They were the people who would build stereo systems and alarm systems and all the electronics that would eventually fill American homes.
+Modern Retail reported in May 2026 that the brand works with more than 170 resellers across 40 states, most of them independent shops or small regional chains. About 60 percent of revenue now comes from business to business sales, and the rest is split between the company's own site and online marketplaces.
 
-Tandy systematized RadioShack in a way that transformed it from a collection of specialty shops into a retail empire. He standardized inventory. He trained staff. He expanded beyond just ham radio enthusiasts to serve anyone who wanted electronics components. And then he did something brilliant: he recognized that the real money wasn't in serving experts. The real money was in democratizing electronics, in making the parts accessible to people who had no idea what a capacitor was but wanted to learn. He built RadioShack into something like a library of possibility for the electronics age.
+The catalog runs to roughly 600 products, built around batteries, power adapters, memory and portable speakers, and about a third of sales come from vintage styled goods such as turntables and AM/FM radios. RadioShack is alive as a brand and finished as a chain. That is a strange answer, but it is the accurate one.
 
-  
-  
+## Who owns RadioShack now?
 
-## The Computer Revolution That RadioShack Actually Started
+Unicomer Group owns it, through an affiliate called Global Franchising Corporation. Unicomer announced the deal on May 9, 2023, buying RadioShack's intellectual property and domains across about 70 countries, a list that includes the United States, Canada, Europe and China.
 
-In August 1977, RadioShack released the TRS-80, and this is where the company stepped into immortality. The TRS-80 was named for Tandy Radio Shack and its Zilog Z80 processor, and it cost $599. In 1977 dollars, that was not cheap, but it was absolutely accessible compared to the alternatives. The Apple II, released the same year, started at $1,298. The Commodore (https://404memoryfound.com/posts/what-happened-to-commodore-computers.html) PET launched at $795. RadioShack undercut both of them and sold 10,000 units in the first month. In the first year, they moved over 100,000. By some estimates, the TRS-80 held roughly half of the entire personal computer market in 1978. Half. One company. One store. That's kind of insane when you think about it.
+This was not a stranger walking in off the street. Unicomer took the RadioShack franchise in El Salvador in January 1998 and spent the next 25 years running RadioShack stores across Central America, South America and the Caribbean. The 2023 purchase turned the franchise it already operated into ownership of the name itself, covering what the company called more than 2,000 points of sale globally.
 
-For a few years there, RadioShack owned the future. Not completely, obviously. IBM would disrupt everything in 1981 with the PC. But RadioShack was in every mall and strip mall in America. When you wanted a computer, you didn't have to special order it or mail order it from some distant company. You went to RadioShack. You could touch it. You could talk to someone who could explain it. The TRS-80 became legendary among the people who programmed the early games and business software that made personal computers relevant.
+The previous owner was Retail Ecommerce Ventures, a US firm that collected distressed retail names and picked up RadioShack in 2020. Under Unicomer the brand was relaunched as a product line in August 2024, which is why RadioShack batteries and cables now show up in stores that have no other connection to the old chain.
 
-And the stores themselves became destinations. On a Saturday afternoon in the early 1980s, the RadioShack in any decent-sized town would be packed with kids staring at the demo units, looking at the walls of cables and connectors, thumbing through programming manuals. There was something about the physicality of it. The weight of the computer. The smell of the cardboard. The actual conversation with an actual human being who could tell you why you needed a certain cable or what a particular programming book was actually about. This wasn't just retail. This was part of the texture of growing up in America during the computer age.
+So the short answer to who owns RadioShack: since 2023, a Latin American retail group, not an American one.
 
-RadioShack even ran something called the Battery of the Month Club, which is exactly as absurd as it sounds and somehow also exactly perfect. You signed up. You got a free battery every month. You were a member of a club dedicated to batteries. And somehow this worked because people actually did need batteries constantly, and RadioShack was the place where you thought to buy them, and there was something in American culture during the 1980s that made joining a battery club seem charming rather than ridiculous.
+## When did RadioShack close, and how many stores are left?
 
-## The Peak: 7,000 Stores and Counting
+RadioShack did not close on a single day. It closed twice, in two bankruptcies filed two years apart.
 
-By the mid-1990s, RadioShack had metastasized across America in the most aggressive retail expansion you could imagine. At the absolute peak, RadioShack operated over 7,000 stores in the United States, with some estimates pushing that number closer to 8,000 when you counted international locations. The company's annual revenue topped $4 billion. For over a decade, from 2000 to 2011, RadioShack posted net sales and operating revenue above $4 billion every single year. At one point the revenue hit $5 billion, though profits were razor thin.
+RadioShack Corporation filed for Chapter 11 on February 5, 2015 in the US Bankruptcy Court for the District of Delaware. On April 1, 2015 it completed the sale of 1,743 company-owned stores and their inventory to General Wireless Inc., an affiliate of the investment firm Standard General, and to Sprint Solutions. The bankruptcy court approved the auction result on March 31, 2015. The price came to about $160.7 million, made up of $47.6 million in cash and a $113.0 million credit bid.
 
-This is worth sitting with for a moment because it's so utterly gone now. RadioShack was a ubiquitous part of American retail for nearly fifty years. It was in every town that had fifty thousand people or more. If you lived in America and wanted to buy a battery, a cable, a computer, computer peripherals, a cordless phone, a burglar alarm kit, a soldering iron, solder, wire, components, a radio, a walkie-talkie, or literally a thousand other things, you went to RadioShack. There were no serious competitors for this niche. Best Buy was growing but focused on big-ticket items. Amazon was selling books. If RadioShack didn't have what you needed, you basically had to order it by mail, which took weeks.
+The rescue lasted two years. General Wireless Operations, the company that then owned the RadioShack brand, filed its own Chapter 11 on March 8, 2017 with roughly 1,740 stores still trading. It said it would close about 200 of them immediately and weigh its options on the remaining 1,300. Very few survived that review, and March 2017 is the date most people mean when they ask when RadioShack closed.
 
-And here's where it gets interesting. Because somewhere in the late 1990s and early 2000s, RadioShack made the decision that still baffles people who remember it. The company decided that it didn't want to serve hobbyists and serious electronics users anymore. It wanted to be a mainstream consumer electronics retailer, competing with Best Buy and Circuit City on their terms. This meant replacing those beautiful bins of components with displays of cell phones and consumer gadgets. It meant replacing the knowledgeable electronics enthusiasts at the counter with sales associates trained to push wireless plans and extended warranties.
+As for stores left in 2026: none owned by the company in the United States. The American footprint is the 170 plus authorized dealers, and the retail that still carries the name day to day sits in Central America, South America and the Caribbean.
 
-## The Moment RadioShack Became a Cell Phone Store
+## What did Tandy Corporation do with RadioShack?
 
-The shift didn't happen overnight, but by the early 2000s it was undeniable. RadioShack was becoming something different. The bins of resistors and capacitors were still there, but increasingly relegated to the back of the store, gathering dust. The front space was dedicated to the same products Best Buy sold, except Best Buy was bigger, had better inventory, and had a better reputation. RadioShack was trying to compete on ground where it had no advantage at all.
+Tandy is the reason RadioShack ended up on every corner. Charles Tandy ran a Fort Worth leather goods company, bought the small Boston electronics chain in the 1960s, and rebuilt it around a format almost nobody else wanted: tiny stores, everywhere, stocked with the parts and accessories other retailers could not be bothered to carry.
 
-The company had made a catastrophic strategic decision: it assumed that the core hobbyist market would be replaced by mainstream consumer electronics revenue. The people who built things with components, the people who actually understood electronics, were seen as a dying breed. Maybe they were. But RadioShack abandoned them without building anything credible to replace them. The company that had been the place to go for amateur radio operators and early computer enthusiasts gradually became just another place to buy a phone, except with worse selection and less knowledgeable staff than the bigger chains.
+The scale that came out of that is easy to underrate now. Tandy Corporation's Form 10-K for 1999 counted 5,087 company-owned RadioShack stores in the United States on December 31 of that year, averaging about 2,300 square feet each, alongside a separate network of 2,099 dealer and franchise stores. That is more than 7,000 outlets selling batteries, connectors, antennas and phone cords.
 
-There's a specific cruelty to this strategy. RadioShack had spent fifty years building a brand identity around serving people who cared about technology. That brand meant something. When you walked into RadioShack, you knew what it represented. And then the company systematically destroyed that identity in pursuit of market share with customers who didn't actually care about RadioShack and would much rather go to Best Buy or Walmart anyway. It's like a beloved local bookstore deciding to compete with Barnes and Noble by removing all the interesting titles and stocking nothing but bestsellers. You've destroyed your actual value proposition in pursuit of a market segment that has no reason to prefer you.
+Tandy also put RadioShack in the computer business. The TRS-80 arrived in the late 1970s and sold through the same stores that sold speaker wire, which dropped a leather goods company into the middle of the personal computer market at the same moment Commodore (https://404memoryfound.com/posts/what-happened-to-commodore-computers.html) was chasing the same customers.
 
-But the decision to abandon the enthusiast market wasn't even the most damaging thing RadioShack did. That honor goes to a customer service policy that might be the single most self-destructive decision I've ever seen a retailer make.
+The parent company eventually took the store's name. The corporate filer registered with the SEC as Tandy Corporation is the same filer that submitted the 2015 bankruptcy paperwork as RadioShack Corporation.
 
-RadioShack decided that it would require you to provide your name and address to purchase almost anything. Including batteries. Just batteries. RadioShack, the company that had built its entire existence around convenience, now required that convenience to come with a mini interrogation. The ostensible reason was marketing and customer database building. The actual effect was that you would choose not to shop there. I have a specific memory of wanting to buy a 9-volt battery at RadioShack and just leaving when the cashier asked for my information. I went to Walmart instead. And I wasn't alone. Thousands of people made the same choice every day. RadioShack was actively discouraging people from buying things, which is the exact opposite of what a retail store is supposed to do.
+## Why did the corner store model stop working?
 
-## Corporate Dysfunction and the Long Decline
+Two forces hit at once. The parts and repair business shrank as consumer electronics became sealed, cheap and disposable, and the accessory business moved to online sellers who did not need a storefront on every commercial strip.
 
-By the mid-2000s, RadioShack was in visible decline. The company had expanded to roughly 8,000 locations, which is a staggering number, but the stores themselves were becoming less relevant. Best Buy had conquered the mainstream consumer electronics market. Amazon was starting to cut into everything. Walmart was selling electronics. Target was selling electronics. RadioShack's entire reason for existing, which was convenience and specialist knowledge, was being erased by the internet and by bigger retailers with better buying power.
+RadioShack's answer was cell phones. Carrier commissions were the richest thing a 2,300 square foot store could sell, so phones took over the shelves and the staff, and a parts retailer turned itself into a middleman in a market run by a handful of carriers. That bet ran straight into the 2015 restructuring, which handed 1,743 stores to General Wireless and Sprint and put Sprint counters inside them. By the time the second filing landed in March 2017, Fortune noted that both companies had been struggling.
 
-Rather than adapting back to what had made the company valuable, RadioShack doubled down on mainstream retail and added layers of corporate dysfunction. The company went through multiple CEOs, each with a different vision, none of which involved actually fixing the fundamental problems.
+The squeeze was not unique to RadioShack. Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) and Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-frys-electronics.html) ran out of road in the same stretch of years, and neither of them was carrying thousands of small strip mall leases while it happened.
 
-In 2006, RadioShack made headlines by laying off 400 employees via email. They received a message telling them they were fired. No meeting, no phone call, just an email. It was emblematic of how disconnected the corporate leadership had become from the actual DNA of the business. You were laying off employees from a store built on personal relationships and human interaction by treating them like they were spam. The tone deafness was breathtaking.
+## What happened to all the abandoned RadioShack stores?
 
-By 2013, the company announced a net trading loss of $400.2 million, well above the 2012 loss of $139.4 million. At the end of October 2014, quarterly figures indicated RadioShack was losing $1.1 million per day. Per day. Let that number sink in for a second. Every single day, RadioShack was bleeding over a million dollars, and nobody could figure out how to stop it.
+Search for an abandoned RadioShack and you get a whole genre of photograph: a dim storefront with the sign still up, shelves half stocked, a handwritten notice taped to the glass. That look comes from how fast 2017 moved. A chain running about 1,740 stores announced immediate closures at 200 of them and put the other 1,300 under review, so leases lapsed in waves instead of in an orderly wind-down.
 
-  
-  
+The buildings were an awkward size. A 2,300 square foot box at the front of a strip mall is too small for a supermarket or a big box tenant and too plain to convert cheaply, so plenty of them simply sat.
 
-## The Super Bowl Ad and the End
+Some RadioShack signs never went dark at all, and that is the part people misread. The dealer stores were always separate businesses. Tandy counted 2,099 of them in 1999, independently owned shops licensed to sell under the name, and they were not company-owned assets in either bankruptcy. A working RadioShack in a small town in 2026 is usually one of those, which is also why the current owner's US strategy is to sign up more of them rather than build stores.
 
-In February 2014, RadioShack aired a Super Bowl ad that might be the most tragically self-aware piece of advertising in history. The premise: the 1980s called and they want their store back. Characters from 1980s pop culture storm through a RadioShack, reclaiming everything. It was funny. It was clever. And it was basically RadioShack telling the entire country, "Yeah, we know. We know we're a relic."
-
-The ad was supposed to signal a rebrand, a new direction. Less than a year later, in February 2015, RadioShack filed for Chapter 11 bankruptcy. The company was delisted from the New York Stock Exchange. General Wireless, a subsidiary of Standard General, bought RadioShack's assets for $26.2 million in May 2015. That's it. The entire company, every store, every piece of inventory, every trademark, for roughly the price of a couple of nice houses in Manhattan.
-
-Theoretically, this should have been the end. But RadioShack persisted in zombie form. General Wireless continued to operate stores, continued to decline, and in March 2017, filed for bankruptcy again. This time the brand was essentially left floating, passing through various hands until Unicomer Group, based in El Salvador, acquired control of the worldwide RadioShack business in 2023.
-
-Today, a handful of RadioShack franchise locations still exist. The number changes constantly. The brand persists online as something that has almost nothing to do with what RadioShack actually was. The store where you could buy a TRS-80 and talk to someone who understood electronics is gone, replaced by a name attached to a memory.
-
-## What Was Actually Lost
-
-The death of RadioShack is usually attributed to the internet, to Amazon, to the simple fact that you don't need to go to a physical store to buy electronics anymore. There's truth in that. But it's not the real story. The real story is that RadioShack was a company that forgot what made it valuable and tried to compete on the terms of companies that would always beat it.
-
-RadioShack's value was never that it had the biggest inventory or the lowest prices. Its value was that it was there. It was accessible. It had staff that actually cared about electronics. It served a genuine community of people who wanted to understand technology, not just consume it. When RadioShack decided to become a cell phone store, it didn't adapt. It surrendered. It said, "We can't win at what we're actually good at, so let's try to win at something we're terrible at."
-
-The internet didn't kill RadioShack. RadioShack killed RadioShack. The company had an opportunity to become the online component supplier, the digital marketplace for hobbyists and enthusiasts. Companies like Digi-Key and Mouser Electronics eventually filled this niche and did incredibly well. But RadioShack could have owned it. Instead, the company tried to compete with Best Buy online, which is an insane strategy when Best Buy already existed and was bigger and better capitalized and actually good at it.
-
-What's genuinely lost is something harder to quantify. It's the physical space where you could go and browse and discover. It's the human expertise available to you in person, on a Saturday, without an appointment. It's the culture of hobbyist electronics, of building things, of understanding how technology worked at a component level. RadioShack was that place. When it became a cell phone store, it abandoned everyone who actually needed it. And the people who needed cell phones never needed RadioShack.
+For collectors, what is left is the merchandise. Old catalogs, store signage and Tandy-era hardware trade steadily on Etsy (https://www.etsy.com/search?q=radioshack+vintage) and at swap meets, where condition drives the price, so compare several listings before paying an asking price.
 
 ## Frequently Asked Questions
 
-When was RadioShack founded? RadioShack was founded in 1921 by Theodore and Milton Deutschmann in Boston, originally to serve amateur radio operators and electronics hobbyists.
+### Does RadioShack still sell electronic components?
 
-What was the TRS-80? The TRS-80, released in August 1977, was one of the earliest mass-market personal computers. Priced at $599, it sold over 100,000 units in its first year and briefly captured roughly half of the entire personal computer market.
+Not in any real sense, at least not yet. A search of radioshack.com for a basic part such as a resistor returns nothing, and the current range is built around batteries, power adapters, memory, speakers and vintage styled audio. The brand's commercial lead told Modern Retail in May 2026 that soldering supplies, components for repair and restoration, and DIY kits are on the roadmap as the catalog grows from roughly 600 products toward 1,000.
 
-Why did RadioShack ask for your name and address? RadioShack's policy was ostensibly for marketing purposes and customer database building, but it became infamous and actively drove customers to competitors. The inconvenience of providing personal information for simple purchases like batteries outweighed whatever convenience RadioShack offered.
+### Who founded RadioShack?
 
-How many stores did RadioShack have at its peak? RadioShack operated over 7,000 stores in the United States at its peak during the 1990s, with some estimates reaching as high as 8,000 locations including international stores.
+RadioShack began operations in 1921 in Boston, started by brothers Theodore and Milton Deutschmann to supply amateur radio operators, and the name comes from the term for the room that housed a ship's radio gear. The man who built the chain most Americans remember was Charles Tandy, whose Fort Worth company bought the small Boston business in the 1960s and turned it into a national format.
 
-When did RadioShack file for bankruptcy? RadioShack filed for Chapter 11 bankruptcy in February 2015. Its assets were purchased by General Wireless for $26.2 million. The company filed for bankruptcy again in March 2017.
+### How many RadioShack stores are left?
 
-Does RadioShack still exist? The RadioShack brand is now owned by Unicomer Group, based in El Salvador, which acquired the worldwide business in 2023. A handful of franchise locations remain, but the company bears little resemblance to the RadioShack of the 20th century.
+In the United States, none are company-owned. The chain ended with the 2017 bankruptcy, and the US presence today is more than 170 authorized dealers and resellers across 40 states. Outside the US the name is still on real stores, mostly in Central America, South America and the Caribbean, part of what Unicomer described in 2023 as more than 2,000 points of sale worldwide.
 
-What killed RadioShack? Rather than external market forces alone, RadioShack was undermined by internal strategic decisions: abandoning the hobbyist electronics market, competing poorly against Best Buy in mainstream consumer goods, implementing the unpopular name-and-address policy, executive turnover, and failing to build an online presence that leveraged its specialist expertise.
-
+**Sources:**
+- Tandy Corporation, Form 10-K for fiscal 1999 (SEC EDGAR): https://www.sec.gov/Archives/edgar/data/0000096289/000009628900000005/0000096289-00-000005.txt
+- RadioShack Corporation, Form 8-K on the Chapter 11 sale, April 2015 (SEC EDGAR): https://www.sec.gov/Archives/edgar/data/0000096289/000119312515117783/d902146d8k.htm
+- Fortune: RadioShack files for bankruptcy again, March 8, 2017: https://fortune.com/2017/03/08/radioshack-bankrupt-chapter-11/
+- Unicomer Group acquires the global RadioShack brand, May 9, 2023: https://grupounicomer.com/en/unicomer-group-acquires-the-global-radioshack-brand/
+- Modern Retail: Inside RadioShack's audio-fueled B-to-B revival, May 7, 2026: https://www.modernretail.co/operations/inside-radioshacks-audio-fueled-b-to-b-revival/
 
 ---
 
@@ -13145,7 +13136,7 @@ Topics: Hardware, Business Blunders
 
 Picture this: 2003. You're twelve years old. Your dad pulls into a parking lot somewhere in the San Fernando Valley, and the building in front of you looks like a crashed alien spaceship. Not metaphorically. There is a literal spaceship crashing through the facade of a building. Smoke effects. Metal panels. Rivets. The whole thing. And your dad just casually goes, "Let's grab some RAM," like this is a normal Saturday.
 
-That was Fry's Electronics. That was the experience. And if you grew up anywhere near Silicon Valley, Southern California, or Texas in the '90s and 2000s, you know exactly what I'm talking about. Fry's wasn't just a store. It was an event. It was a pilgrimage. It was the kind of place where you'd go in for a USB cable and walk out three hours later with a motherboard, a bag of beef jerky, a magazine about Linux, and somehow a lava lamp. The place was chaos, and it was beautiful.
+That was Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html). That was the experience. And if you grew up anywhere near Silicon Valley, Southern California, or Texas in the '90s and 2000s, you know exactly what I'm talking about. Fry's wasn't just a store. It was an event. It was a pilgrimage. It was the kind of place where you'd go in for a USB cable and walk out three hours later with a motherboard, a bag of beef jerky, a magazine about Linux, and somehow a lava lamp. The place was chaos, and it was beautiful.
 
   
   
@@ -13267,7 +13258,7 @@ Topics: Internet Culture, Software & Apps
 
 ## The Search Engine That Was Never Supposed to Be a Search Engine
 
-In December 1995, AltaVista launched with an index of 16 million web documents. On its first day, it handled 300,000 search queries. Within two years, it was processing over 80 million hits per day. By 2000, AltaVista commanded 17.7% of the search market while a small startup called Google sat at just 7%.
+In December 1995, AltaVista (https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html) launched with an index of 16 million web documents. On its first day, it handled 300,000 search queries. Within two years, it was processing over 80 million hits per day. By 2000, AltaVista commanded 17.7% of the search market while a small startup called Google sat at just 7%.
 
 Eight years later, AltaVista was worth $140 million. Not billion. Million. And even that was generous.
 
@@ -13612,159 +13603,94 @@ ICQ reached over 100 million registered accounts by 2001. Daily active users pea
 
 ---
 
-# What Happened to Ask Jeeves? The Search Engine With a Butler
+# Does Ask Jeeves Still Exist? Ask.com Closed in 2026
 
 URL: https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-03-27
-Topics: retro-tech, search-engines, ask-jeeves, ask-com, dot-com-era, 90s-internet, google, iac
+Published: 2026-03-27  Updated: 2026-09-09
+Topics: Internet Culture, Business Blunders
 
-In the late 1990s, when most search engines required you to think like a computer — stringing together keywords separated by Boolean operators and hoping for the best — one search engine (https://404memoryfound.com/#/post/yahoo-rejected-google) had a radically different pitch. Just type your question in plain English, the way you'd ask a real person, and a cartoon butler named Jeeves would find the answer for you.
+**Summary:** Ask Jeeves no longer exists. The site was renamed Ask.com in February 2006, stopped running its own search engine in 2010, and its owner IAC shut it down on May 1, 2026. Garrett Gruener and David Warthen founded the company in Berkeley in June 1996, and IAC bought it for $1.85 billion in July 2005.
 
-It was called Ask Jeeves, and for a brief, glorious window of internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) history, it was one of the most beloved sites on the web. Teachers recommended it to students. Grandparents could actually use it. The Jeeves character appeared as a balloon in the Macy's Thanksgiving Day Parade from 2000 to 2004 — the first internet-born character to earn that distinction. The company's IPO was one of the most successful of the entire dot-com era.
+**Key facts:**
+- Founded: June 1996 in Berkeley, California, by Garrett Gruener and David Warthen
+- Launched: April 1997, natural-language question search
+- Sold for: $1.85 billion to IAC, July 2005
+- Owner: IAC, through its Ask Media Group division
+- Status: Closed. Ask.com shut down on May 1, 2026
 
-And then Google (https://404memoryfound.com/#/post/yahoo-rejected-google) happened. This is the story of the search engine that tried to be your butler — and what went wrong when the internet decided it didn't need one.
+## Does Ask Jeeves still exist in 2026?
 
-  
-  
+No. The search engine that launched as Ask Jeeves, and spent its last twenty years as Ask.com, shut down on May 1, 2026. Visitors who typed the address that week got a farewell page instead of a search box. It opened with a single line: "Every great search must come to an end."
 
-## Two Berkeley Entrepreneurs and a P.G. Wodehouse Character
+The owner was IAC, the New York holding company Barry Diller assembled, which had run the site through a division called Ask Media Group. IAC explained the decision in one sentence: "As IAC continues to sharpen its focus, we have made the decision to discontinue our search business, which includes Ask.com."
 
-Ask Jeeves was founded in 1996 by Garrett Gruener and David Warthen in Berkeley, California. Gruener was a venture capitalist with a background in technology investing. Warthen was a database architect who had spent years thinking about how to structure and retrieve information. Together, they saw a gap in the market that seemed obvious in hindsight: most people don't think in keywords.
+The closing announcement ended a longer fiction. Ask.com had not run a search engine of its own since 2010. For its final sixteen years it was a front end, taking results and paid listings from somebody else while the brand coasted on a butler most of its visitors had never seen.
 
-When a normal person wants to know something, they form a question: "What's the tallest building in the world?" or "How do I remove a red wine stain?" The dominant search engines of the mid-1990s — AltaVista (https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html), Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html), HotBot — were built for power users who understood how to construct effective keyword queries. For everyone else, search was frustrating, confusing, and often useless.
+## Who founded Ask Jeeves, and when?
 
-Gruener and Warthen's insight was to build a search engine that understood natural language — or at least appeared to. The original software was designed and implemented by Gary Chevsky, who built a system that could parse questions, match them against a curated database of question-answer pairs, and return relevant results. It wasn't true natural language processing in the modern AI sense — it was more like a very sophisticated pattern-matching system combined with human editorial curation — but it worked well enough to feel almost magical.
+Garrett Gruener, a venture capitalist, and David Warthen, a software developer, started it in Berkeley, California, in 1996. The company was incorporated in California in June 1996 and reincorporated in Delaware in June 1999, just before it went public. Warthen was still chief technology officer at the IPO, and the prospectus told investors that losing him would hurt the business.
 
-The name "Jeeves" came from P.G. Wodehouse's famous fictional valet — Bertie Wooster's unflappable gentleman's gentleman who could solve any problem with quiet competence. It was a perfect metaphor for what the search engine promised: ask your question, and the butler would handle the rest.
+The service opened to the public in April 1997. The pitch was one sentence long: type your question the way you would say it out loud, and a cartoon butler would go find the answer. The name came from the unflappable valet in P.G. Wodehouse's comic novels, a character built entirely around knowing things his employer did not.
 
-## Launch and the Natural Language Promise
+Underneath, it was less magic than staffing. Human editors mapped common questions to good pages, the software matched your phrasing against those templates, and anything it could not match fell through to an ordinary keyword search. That was still a mercy in 1997, when rivals like AltaVista (https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html) expected you to know Boolean operators to get a decent result.
 
-Ask Jeeves launched as a beta in mid-April 1997 and went fully live on June 1, 1997. The interface was disarmingly simple: a search box, an illustration of Jeeves (a proper English butler in a suit), and the invitation to "just type a question." That was it. No complicated search syntax. No advanced options. Just ask.
+It worked. Ask Jeeves handled around 3,000 questions a day at the start. By April 1999 it was close to a million a day.
 
-Behind the scenes, the system worked through a combination of technology and human effort. A team of editors maintained a massive database of question templates and associated answers. When you typed "What is the population of France?", the system would match your question against its templates, identify the intent, and either serve a direct answer or redirect you to a relevant web page. For questions it couldn't match, it would fall back to a traditional keyword search.
+## The $14 IPO and the $1.85 billion sale to IAC
 
-This hybrid approach — part curated knowledge base, part search engine — gave Ask Jeeves a remarkably high satisfaction rate for common questions. It was especially popular with two demographics that other search engines largely ignored: children doing homework and older adults who were new to the internet. Teachers loved it. Libraries put it on their recommended resources lists. It became many people's first search engine.
+Ask Jeeves sold 3,000,000 shares at $14.00 each in a prospectus dated June 30, 1999, with an over-allotment option on another 450,000. It traded on the NASDAQ as ASKJ from July 1999 until the ticker was retired in the acquisition six years later.
 
-## The IPO: Internet Gold Rush at Its Finest
+The dot-com crash hit it as hard as it hit Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html) and Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), but Ask Jeeves did something the other two never managed. It survived, and it went and bought real technology. On September 18, 2001 it acquired Teoma for more than $1.5 million, giving it a crawler and ranking system of its own instead of a licensed index and a database of scripted answers.
 
-By 1998, Ask Jeeves was growing rapidly. The site reached 300,000 searches per day in October 1998. By May 1999, that figure had grown to one million daily searches. By October 1999, it had doubled again to two million.
+That turnaround is what IAC paid for. IAC bought Ask Jeeves in July 2005 for $1.85 billion. In February 2006 the new owners renamed the site Ask.com and dropped the butler entirely, on the theory that a cartoon servant made the product look like a toy next to Google's blank white page.
 
-On July 1, 1999, Ask Jeeves went public on the NASDAQ under the ticker symbol ASKJ. The IPO was a sensation. Shares were priced at $14 and soared past $80 on the first day of trading — a gain of over 470%. At one point during the dot-com frenzy, shares reached as high as $190.50. The IPO ranked at the time as one of the most successful first-day performances in stock market history.
+## Why did Ask Jeeves fail against Google?
 
-The market was valuing Ask Jeeves at billions of dollars — for a company that was not yet profitable and was competing against much larger, better-funded rivals. But in the summer of 1999, profitability was an afterthought. The internet was going to change everything, and Ask Jeeves had the friendliest front door to the entire World Wide Web.
+Scale, and the cost of keeping up with it. Crawling and indexing the whole web got more expensive every year, and Ask was paying that bill out of a much smaller advertising business than Google, Yahoo or Microsoft.
 
-"People don't want to learn how to search. They just want answers." — Garrett Gruener, Ask Jeeves co-founder
+The math stopped working on November 9, 2010. Ask.com announced it was getting out of algorithmic search, cutting 130 engineers in Edison, New Jersey and Hangzhou, China, and handing its web results to an outside provider. At that point Ask held roughly 2 percent of the United States search market. Google held about 65 percent.
 
-## Surviving the Dot-Com Crash
+Diller, who had told the world in 2005 that four or five search players could thrive together, gave the blunt version in 2010: "We've realized in the last few years you can't compete head on with Google." Ask.com kept a search box, but the thing behind it was rented.
 
-When the dot-com bubble burst in 2000, Ask Jeeves nearly went with it. The company's stock price cratered from its highs above $190 to single digits. Revenue — which depended heavily on advertising — dried up as the broader internet ad market collapsed. Layoffs followed. The future looked grim.
+The natural-language idea was not the problem. Asking a machine a full question and getting a written answer is now the default behavior of every AI assistant on the market. Ask Jeeves was simply doing it in 1997 with editors and pattern matching, and it never found a way to make that scale into a business that could pay for a web-sized index.
 
-But unlike hundreds of other dot-com companies, Ask Jeeves didn't die. The company managed to survive through cost-cutting, a renewed focus on search quality, and a series of strategic acquisitions. In September 2001, Ask Jeeves acquired Teoma Technologies, a search engine founded by Professor Apostolos Gerasoulis and colleagues at Rutgers University. Teoma used a sophisticated link-analysis algorithm that ranked websites (https://404memoryfound.com/#/post/90s-websites-still-online) according to their authority within specific subject communities — a genuinely innovative approach that gave Ask Jeeves a real technological edge in search quality.
+## Is the Jeeves butler coming back?
 
-By 2003, Ask Jeeves was profitable again. The company had weathered the storm that killed Pets.com, Webvan (https://404memoryfound.com/posts/what-happened-to-webvan-grocery-delivery.html), and countless other high-profile dot-com failures. The Jeeves butler mascot was still smiling, and the company was processing millions of searches per day.
+He is not. The butler had a good run in the mainstream: he floated as a balloon in the Macy's Thanksgiving Day Parade every year from 2000 through 2004, which is more cultural reach than most search engines ever managed.
 
-## The IAC Acquisition and the Death of Jeeves
+He was retired in February 2006 with the rename. Then he came back, briefly and only in Britain, when Ask brought him out of retirement in April 2009 as a redesigned CGI character for the UK site. That revival faded too, and he stayed gone.
 
-In March 2005, Barry Diller's IAC/InterActiveCorp announced it was acquiring Ask Jeeves for approximately $1.85 billion in stock — roughly $27.40 per share. The deal closed in July 2005. For a company that had been trading in single digits just a few years earlier, it was a remarkable outcome for shareholders.
+The farewell page in 2026 gave him a last mention, saying "Jeeves' spirit endures." With the search business closed and the domain retired, there is no product left for him to front.
 
-But under IAC's ownership, Ask Jeeves underwent a transformation that would prove fatal to its identity. The most visible change came in February 2006, when IAC dropped the "Jeeves" name entirely. The butler mascot was retired. The search engine was rebranded simply as "Ask.com."
+## What happened to Ask.com at the end?
 
-The rationale was strategic: IAC wanted Ask to be taken seriously as a search engine, not perceived as a novelty or a children's tool. The Jeeves character, executives argued, made the brand seem lightweight and unsophisticated. To compete with Google, they needed a more mature image.
+Money, specifically Google's money. For years IAC's Search segment ran on a services agreement under which Google supplied most of the paid listings shown on Ask Media Group's pages. IAC's annual report for 2025 stated plainly that the Services Agreement "expires by its terms on March 31, 2026."
 
-It was a catastrophic miscalculation. Jeeves wasn't a weakness — he was the entire brand. The butler was what made Ask Jeeves memorable, approachable, and different. Without Jeeves, Ask.com was just another search engine, and not a particularly good one compared to Google. The rebranding stripped away the one thing that made people choose Ask Jeeves in the first place: its personality.
+Ask.com closed one month after that date. The site had reached 100 million users a month worldwide in 2012, but a decade of Google algorithm changes, followed by AI answer engines that gave people the written response Ask Jeeves had promised in 1997, left very little underneath the brand.
 
-  
-  
+What survives is the archive and the phrase. "Ask Jeeves" still gets typed into Google every month by people who assume it is out there somewhere, which is its own kind of afterlife.
 
-## The Google Problem
+## Frequently Asked Questions
 
-Even if Ask Jeeves had kept its butler, it's unclear whether it could have survived the Google juggernaut. Google's rise was not just about better technology — though PageRank was genuinely revolutionary — it was about a fundamental shift in user expectations.
+### Who owns Ask Jeeves now?
 
-Google taught people that search didn't need to be conversational. You didn't need to ask a butler. You could just type a few words — "tallest building world" — and get the right answer instantly. Google was faster, more accurate, and got better with every query thanks to its machine learning systems. By 2004, Google controlled over 35% of the U.S. search market. By 2006, it was above 50%. By 2010, it was above 65%.
+IAC has owned the brand since July 2005, when it bought Ask Jeeves for $1.85 billion, and it ran the site through its Ask Media Group division. IAC discontinued the whole search business in 2026 and closed Ask.com on May 1 of that year, so the brand is owned but no longer operated.
 
-Ask Jeeves' natural language approach — which had been its greatest differentiator — became less relevant as Google got better at understanding intent from keyword fragments. The irony is that Google would eventually adopt conversational search with Google Assistant and AI-powered search, effectively validating Ask Jeeves' original vision. But by then, it was far too late.
+### Was Ask Jeeves before Google?
 
-## The Slow Fade: 2006-2010
+Yes. Ask Jeeves was incorporated in June 1996 and its question service opened to the public in April 1997, before Google existed as a company. By the time IAC bought Ask Jeeves in 2005, though, Google had long since passed it, and Ask was down to roughly 2 percent of United States search by 2010.
 
-After the rebranding, Ask.com tried several strategies to stay relevant. It invested in search technology, improved its results quality, and launched features like "binoculars" previews that let you see a website before clicking. Some of these innovations were genuinely good — Ask.com's search results in the 2007-2008 period were surprisingly competitive with Google for many queries.
+### When did Ask Jeeves come out?
 
-But market share told the real story. Ask.com hovered around 1-2% of the U.S. search market — a rounding error compared to Google. The company couldn't attract enough users to generate the advertising revenue needed to fund the massive infrastructure and R&D investment that search engines require. It was a classic chicken-and-egg problem: fewer users meant less data, which meant less ability to improve results, which meant fewer users.
+The service launched in April 1997, about ten months after the company was incorporated in California in June 1996. It went public on the NASDAQ in July 1999 at $14.00 a share under the ticker ASKJ.
 
-In late 2010, IAC effectively gave up on competing in web search. Ask.com laid off most of its engineering staff and outsourced its web search results to third-party providers. The company pivoted to a question-and-answer model, attempting to leverage its brand heritage as "the place where you ask questions." It was an acknowledgment that the search engine war was over, and Google had won.
-
-## Ask.com Today: A Shadow of Its Former Self
-
-As of the mid-2020s, Ask.com still exists — you can visit the site and type in a search query. But it's a hollow shell of the product that once challenged Google and delighted millions. The search results are powered by third-party technology. The Jeeves character makes occasional cameo appearances in marketing materials, a ghost of the brand's former identity.
-
-The site primarily generates revenue through advertising and toolbar installations — far from the ambitious search engine that once promised to understand your questions in plain English. IAC, its parent company, has long since shifted its focus to other properties like Match.com, Angi, and Dotdash Meredith.
-
-## What Ask Jeeves Got Right (and Wrong)
-
-Looking back, Ask Jeeves' story is more nuanced than a simple tale of failure. The company actually got several things remarkably right:
-
-Natural language search was the right vision. Ask Jeeves bet that people would prefer to search in natural language rather than keywords. It took twenty years, but the entire industry eventually moved in that direction. Google's AI-powered search, Apple's Siri, Amazon's Alexa, and the current wave of AI chatbots all validate Gruener and Warthen's original insight.
-
-Brand personality matters in tech. The Jeeves character gave the search engine a warmth and approachability that no competitor could match. People felt a connection to Jeeves. Removing him in 2006 was a textbook case of a company destroying its own differentiation in pursuit of "professionalism."
-
-But execution couldn't keep pace with the vision. Ask Jeeves' natural language technology was impressive for its time but fundamentally limited. It relied heavily on human curation rather than algorithmic understanding. Google's approach — using vast computing power and mathematical models to understand the web — was more scalable and ultimately more effective.
-
-And timing is everything. Ask Jeeves arrived too late to dominate the way Google did, and too early to leverage the AI technology that would have made its natural language approach truly work. In a different timeline — one where large language models existed in 1997 — Ask Jeeves might have been the one processing 8.5 billion searches per day.
-
-## The Numbers Behind Ask Jeeves
-
-- 1996: Founded in Berkeley, California by Garrett Gruener and David Warthen
-
-- June 1, 1997: Full public launch
-
-- October 1998: 300,000 searches per day
-
-- May 1999: 1 million searches per day
-
-- July 1, 1999: IPO at $14/share, surging past $80 on first day
-
-- Late 1999: Stock peaks at approximately $190.50
-
-- 2001: Acquires Teoma search technology from Rutgers University
-
-- 2003: Returns to profitability
-
-- July 2005: Acquired by IAC/InterActiveCorp for approximately $1.85 billion
-
-- February 2006: Rebranded from Ask Jeeves to Ask.com; Jeeves character retired
-
-- Late 2010: Exits web search; outsources results to third-party providers
-
-## FAQ
-
-Who was Jeeves?
-
-Jeeves was a cartoon butler mascot based on the fictional character Jeeves from P.G. Wodehouse's novels and stories. In Wodehouse's works, Jeeves is the brilliant valet to the hapless Bertie Wooster, always able to solve any problem. The search engine used Jeeves as a metaphor for a helpful assistant who could answer any question.
-
-Why did they get rid of Jeeves?
-
-In February 2006, IAC/InterActiveCorp (which had acquired Ask Jeeves in 2005) rebranded the search engine as Ask.com and retired the Jeeves character. The rationale was that the butler mascot made the brand seem unserious and prevented it from being taken seriously as a search engine competitor. Many brand experts consider this a mistake that destroyed the company's main differentiator.
-
-Is Ask.com still a search engine?
-
-Ask.com still exists as a website, but it no longer operates its own search technology. Since 2010, the site has outsourced its web search results to third-party providers and primarily functions as an advertising-supported question-and-answer site.
-
-How much was Ask Jeeves worth at its peak?
-
-At the height of the dot-com bubble in late 1999, Ask Jeeves' stock reached approximately $190.50 per share. The company was eventually acquired by IAC in 2005 for approximately $1.85 billion in stock.
-
-Was Ask Jeeves the first natural language search engine?
-
-Ask Jeeves was among the first consumer search engines to focus on natural language queries — allowing users to type full questions in plain English rather than keyword strings. While not the first attempt at natural language processing in search, it was the first to make the concept mainstream and accessible to ordinary internet users.
-
-Could Ask Jeeves have beaten Google?
-
-It's unlikely. Google's PageRank algorithm and its ability to improve results through massive data analysis represented a fundamentally superior approach to search at the time. However, Ask Jeeves' vision of natural language search was validated decades later by AI assistants and large language models, suggesting the concept was right even if the technology wasn't ready.
-
-Did Ask Jeeves bring Jeeves back?
-
-The Jeeves character has made occasional appearances in Ask.com marketing since his retirement, but has never been fully restored as the brand's mascot. The 2006 removal remains one of the most debated branding decisions in internet history.
-
+**Sources:**
+- Ask Jeeves, Inc., Form 424B4 IPO prospectus, June 30, 1999 (U.S. Securities and Exchange Commission): https://www.sec.gov/Archives/edgar/data/1054298/0000950149-99-001225.txt
+- IAC Inc., Form 10-K for the year ended December 31, 2025 (U.S. Securities and Exchange Commission): https://www.sec.gov/Archives/edgar/data/1800227/000162828026009997/iaci-20251231.htm
+- PCWorld: Ask.com Gives Up on Search, Site Refocuses on Q&A Service: https://www.pcworld.com/article/498530/rip_ask_com.html
+- PPC Land: Ask.com closes after nearly 30 years as IAC exits the search business: https://ppc.land/ask-com-closes-after-nearly-30-years-as-iac-exits-the-search-business/
+- TechCrunch: Farewell, Jeeves: Ask.com shuts down: https://techcrunch.com/2026/05/02/farewell-jeeves-ask-com-shuts-down/
 
 ---
 
@@ -16938,7 +16864,7 @@ Today the two sit on opposite ends of the internet economy. Yahoo is a private c
 
 The version that circulates every few months goes like this: in 1998, Larry Page and Sergey Brin offered to sell their new search engine to Yahoo for $1 million, and Yahoo turned them down. Wikipedia's Yahoo entry does carry that claim, dated 1998.
 
-Here is the part the viral posts leave out. That claim is sourced to later news retellings, not to a contemporary document, a securities filing, a named Yahoo executive, or an interview with anyone who sat in the room. No public record fixes the meeting, the date, or the price, so the $1 million number is best treated as disputed. The retellings do not even agree on the buyer. Some name Yahoo, some name Excite, and some name the search engine that ruled the web before Google (https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html).
+Here is the part the viral posts leave out. That claim is sourced to later news retellings, not to a contemporary document, a securities filing, a named Yahoo executive, or an interview with anyone who sat in the room. No public record fixes the meeting, the date, or the price, so the $1 million number is best treated as disputed. The retellings do not even agree on the buyer. Some name Yahoo, some name Excite (https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html), and some name the search engine that ruled the web before Google (https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html).
 
 One version does have a first-hand account, and it is not Yahoo's. Excite's chief executive, George Bell, has described his own terms: $750,000 in cash plus roughly 1 percent of Excite, in talks he places around 1998. Bell says the deal died on a condition rather than a price, because Page wanted Excite to rip out its own search technology and run Google's instead. Excite ran the two engines side by side and, by Bell's telling, "couldn't see much difference" in the results.
 

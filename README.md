@@ -29,9 +29,7 @@ topic-backlog.json ──► generate_post.py ──► posts.json ──► fet
 2. **AdSense.** Apply at https://adsense.google.com with the site URL. Once approved, put the publisher id in
    `site-config.json` → `adsense_client` (`ca-pub-…`) and the `ads.txt` line in `ads_txt`, commit, and the next build
    injects Auto ads on every page and writes `/ads.txt`. The privacy page already carries the required disclosure.
-3. **Affiliate links (optional).** eBay Partner Network campaign id → `ebay_campaign_id`; Amazon Associates tag →
-   `amazon_tag`. The build then tags every eBay/Amazon link in post bodies as `rel="sponsored"` with tracking and
-   shows the disclosure under the post. Posts about products carry a "Where to find one today" paragraph for this.
+3. **Affiliate links (optional).** The partner table lives in `site-config.json` under `affiliates` and the sign-up checklist in `AFFILIATES.md`. Paste each network's id into the matching entry; the build then rewrites links to that partner's domains with tracking, marks them `rel="sponsored nofollow"` and renders the FTC disclosure above the article. No eBay.
 4. **Search Console.** Submit `https://404memoryfound.com/sitemap.xml` (and `/feed.xml` as a second sitemap) and request
    indexing for `/`, `/posts/` and the eight `/tags/` pages. Paste the HTML-tag verification code into
    `site-config.json` → `google_verification` if you verify that way.
