@@ -8,6 +8,19 @@
     <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Why Iridium Failed: The $5 Billion Satellite Phone</title>
+      <link>https://404memoryfound.com/posts/iridium-satellite-phone-failure.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/iridium-satellite-phone-failure.html</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Iridium put 66 satellites in orbit for about $5 billion, opened for business in 1998, and filed for bankruptcy nine months later. It sold for $25 million.</description>
+      <enclosure url="https://404memoryfound.com/og/iridium-satellite-phone-failure.png" length="37914" type="image/png"/>
+      <media:content url="https://404memoryfound.com/og/iridium-satellite-phone-failure.png" medium="image" type="image/png" width="1200" height="630"/>
+      <category>Business Blunders</category>
+      <category>Hardware</category>
+      <category>Money &amp; Tech</category>
+    </item>
+    <item>
       <title>The Beanie Babies Bubble: How a $5 Toy Went Bust</title>
       <link>https://404memoryfound.com/posts/beanie-babies-bubble-what-happened.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/beanie-babies-bubble-what-happened.html</guid>
@@ -247,18 +260,6 @@
       <media:content url="https://404memoryfound.com/og/what-happened-to-nokia-3310.png" medium="image" type="image/png" width="1200" height="630"/>
       <category>Hardware</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>What Happened to NCSA Mosaic, the Browser That Built the World Wide Web</title>
-      <link>https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Before Netscape, before Internet Explorer, there was Mosaic. The browser two students built at a public university in 1993 became the front door to the early web, then quietly disappeared while reshaping the next thirty years of the internet.</description>
-      <enclosure url="https://404memoryfound.com/og/what-happened-to-ncsa-mosaic-browser.png" length="50219" type="image/png"/>
-      <media:content url="https://404memoryfound.com/og/what-happened-to-ncsa-mosaic-browser.png" medium="image" type="image/png" width="1200" height="630"/>
-      <category>Internet Culture</category>
-      <category>Software &amp; Apps</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com. Each topic is a deep-dive narrative (3000-5000 words) written by one of two personas (Marcus or Dana). Generator picks 2 per run (1 Marcus + 1 Dana), top of each tier first. Cross off topics as published.",
-  "_last_updated": "2026-05-18",
+  "_last_updated": "2026-09-09",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_1_high": [
     {
@@ -211,6 +211,95 @@
         "rct history"
       ],
       "status": "published"
+    },
+    {
+      "title": "Why Iridium's Satellite Phones Failed in 1999",
+      "slug": "why-iridium-satellite-phones-failed",
+      "persona": "theo",
+      "tags": [
+        "Business Blunders",
+        "Hardware"
+      ],
+      "angle": "Motorola-backed 66-satellite constellation, $3,000 handsets and per-minute calling, Chapter 11 in August 1999 weeks after launch, sold for $25M in 2000, still flying today as Iridium Communications.",
+      "target_keywords": [
+        "why did iridium fail",
+        "iridium satellite phone history",
+        "iridium bankruptcy 1999",
+        "how much did an iridium phone cost",
+        "is iridium still around"
+      ],
+      "status": "published",
+      "published_slug": "iridium-satellite-phone-failure"
+    },
+    {
+      "title": "How Compaq Lost the PC Business It Helped Invent",
+      "slug": "how-compaq-lost-pc-business",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "angle": "1982 sketch on a placemat, fastest company to reach the Fortune 500, world's largest PC maker in the 1990s, Digital acquisition, the $25B HP merger in 2002 and the slow retirement of the brand.",
+      "target_keywords": [
+        "what happened to compaq",
+        "compaq hp merger",
+        "compaq presario history",
+        "why did compaq fail",
+        "is compaq still around"
+      ],
+      "status": "pending"
+    },
+    {
+      "title": "Why Betamax Lost to VHS: The First Format War",
+      "slug": "betamax-vs-vhs-format-war",
+      "persona": "theo",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "Sony's one-hour tape, JVC's open licensing, price gap through the 1980s, the 1984 Supreme Court Betamax decision, Sony shipping Betamax cassettes until March 2016.",
+      "target_keywords": [
+        "why did betamax fail",
+        "betamax vs vhs",
+        "when did betamax stop",
+        "betamax tapes worth",
+        "betamax supreme court case"
+      ],
+      "status": "pending"
+    },
+    {
+      "title": "Broadcast.com: The $5.7 Billion Site Yahoo Erased",
+      "slug": "broadcast-com-yahoo-billion-dollar-deal",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Internet Culture"
+      ],
+      "angle": "AudioNet streaming radio games over 1996 modems, the 1998 IPO pop, Yahoo's all-stock April 1999 purchase, the shutdown, and what the price looks like next to YouTube's $1.65B.",
+      "target_keywords": [
+        "what happened to broadcast.com",
+        "yahoo broadcast.com acquisition",
+        "mark cuban broadcast.com",
+        "worst acquisitions dot com"
+      ],
+      "status": "pending"
+    },
+    {
+      "title": "eToys.com and the Christmas That Killed It",
+      "slug": "etoys-com-dot-com-collapse",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Internet Culture"
+      ],
+      "angle": "1999 valuation above Toys R Us, the shipping meltdown and FTC action over late deliveries, the etoy.com domain lawsuit, bankruptcy in March 2001.",
+      "target_keywords": [
+        "what happened to etoys",
+        "etoys.com bankruptcy",
+        "etoys vs toys r us stock",
+        "etoy domain lawsuit"
+      ],
+      "status": "pending"
     }
   ],
   "priority_3_niche_authority": [
