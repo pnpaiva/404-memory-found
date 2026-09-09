@@ -326,6 +326,7 @@ def load_posts(manifest, authors, config):
         p["authorKey"] = key
         p["authorName"] = authors[key]["name"] if key else BLOG_NAME
         p["body"] = monetize_links(localize_images(p["body"], manifest), config)
+        p["body"] = re.sub(r"<table>(.*?)</table>", r'<div class="table-wrap" style="overflow-x:auto"><table>\1</table></div>', p["body"], flags=re.S)
         p["wordCount"] = word_count(p["body"])
         p["readingTime"] = reading_label(p["body"] + " " + (p.get("summary") or ""))
         seo = p.get("seo") or {}
@@ -1102,6 +1103,12 @@ PAGE_SHELL_CSS = """
 .post-sources a { color: #000080; }
 .source-host { color: #777; font-size: 11px; margin-left: 4px; }
 .affiliate-disclosure { font-size: 11px; color: #666; margin-top: 10px; font-style: italic; }
+.post-body .table-wrap, .post-body table { max-width: 100%; }
+.post-body table { border-collapse: collapse; font-size: 13px; margin: 12px 0; width: 100%; font-variant-numeric: tabular-nums; }
+.post-body th, .post-body td { border: 1px solid #a0a0a0; padding: 4px 6px; text-align: left; vertical-align: top; }
+.post-body th { background: #dfdfdf; font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.post-body tr:nth-child(even) td { background: #f4f4f4; }
+.post-body td a { color: #000080; }
 
 @media (min-width: 769px) {
     .page-shell .page-back-mobile { display: none; }
