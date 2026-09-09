@@ -51,7 +51,7 @@ def create_pin(token, board_id, post):
         "description": pin_description(post),
         "link": f"{BASE_URL}/posts/{post['id']}.html",
         "alt_text": (post.get("imageAlt") or post["title"])[:500],
-        "media_source": {"source_type": "image_url", "url": f"{BASE_URL}/og/{post['id']}.png"},
+        "media_source": {"source_type": "image_url", "url": f"{BASE_URL}/pins/{post['id']}.jpg"},
     }
     req = Request(API, data=json.dumps(payload).encode(), method="POST",
                   headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
@@ -79,7 +79,7 @@ def main():
     older = [p for p in posts if p["date"] < cutoff and p["id"] not in state["pinned"]][:args.backfill]
 
     for post in fresh + older:
-        if not os.path.exists(os.path.join(ROOT, "og", f"{post['id']}.png")):
+        if not os.path.exists(os.path.join(ROOT, "pins", f"{post['id']}.jpg")):
             print(f"  no share card for {post['id']}, skipping")
             continue
         try:

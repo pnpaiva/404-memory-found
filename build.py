@@ -9,7 +9,7 @@ Inputs
   site-config.json       monetization switches (AdSense id, ads.txt, affiliate ids)
   redirects.json         old slug -> new slug for posts that moved
   images-manifest.json   written by fetch_images.py: Wikimedia URL -> local copy
-  og/<slug>.png          written by make_og_cards.py: per-post share image
+  og/<slug>.jpg, pins/   written by make_og_cards.py: per-post share images
 
 Outputs (all committed, served by GitHub Pages)
   index.html             the SPA with SEO meta, pre-rendered post lists, external assets
@@ -338,8 +338,8 @@ def load_posts(manifest, authors, config):
         if is_dead(hero):
             p["image"] = None  # hero gone from Commons: grey placeholder instead of a broken request
         p["heroUrl"] = f"{BASE_URL}{p['heroLocal']}" if p["heroLocal"] else (p.get("image") or None)
-        og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.png")
-        p["ogImage"] = f"{BASE_URL}/og/{p['slug']}.png" if os.path.exists(og_local) else DEFAULT_OG_IMAGE
+        og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.jpg")
+        p["ogImage"] = f"{BASE_URL}/og/{p['slug']}.jpg" if os.path.exists(og_local) else DEFAULT_OG_IMAGE
         p["url"] = f"{BASE_URL}/posts/{p['slug']}.html"
         p["path"] = f"/posts/{p['slug']}.html"
         posts.append(p)
@@ -918,11 +918,17 @@ def build_feed(posts):
     for p in posts[:20]:
         cats = "".join(f"      <category>{esc(t)}</category>\n" for t in p["tags"])
         media = ""
-        og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.png")
-        if os.path.exists(og_local):
-            size = os.path.getsize(og_local)
-            media = (f'      <enclosure url="{p["ogImage"]}" length="{size}" type="image/png"/>\n'
-                     f'      <media:content url="{p["ogImage"]}" medium="image" type="image/png" width="1200" height="630"/>\n')
+        pin_local = os.path.join(OUTPUT_DIR, "pins", f"{p['slug']}.jpg")
+        og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.jpg")
+        if os.path.exists(pin_local):  # vertical card: what Pinterest and feed readers show
+            url, size, w, h = f"{BASE_URL}/pins/{p['slug']}.jpg", os.path.getsize(pin_local), 1000, 1500
+        elif os.path.exists(og_local):
+            url, size, w, h = p["ogImage"], os.path.getsize(og_local), 1200, 630
+        else:
+            url = None
+        if url:
+            media = (f'      <enclosure url="{url}" length="{size}" type="image/jpeg"/>\n'
+                     f'      <media:content url="{url}" medium="image" type="image/jpeg" width="{w}" height="{h}"/>\n')
         items.append(f"""    <item>
       <title>{esc(p['title'])}</title>
       <link>{p['url']}</link>
