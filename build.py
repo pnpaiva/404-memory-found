@@ -573,7 +573,7 @@ def build_post_page(ctx, post, posts):
 <article class="post-article">
     <header class="post-header">
         <h1>{esc(post['title'])}</h1>
-        <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time> | By {byline} | <span class="reading-time">{post['readingTime']}</span></div>
+        <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time>{(' | Updated <time datetime="' + post['updated'] + '">' + post['updated'] + '</time>') if post.get('updated') else ''} | By {byline} | <span class="reading-time">{post['readingTime']}</span></div>
     </header>
     {post_extras_html(post)}
     <div class="post-body">
