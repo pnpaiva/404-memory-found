@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.firebase.com https://*.firebaseio.com https://*.googleapis.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://upload.wikimedia.org data:; connect-src 'self' https://www.google-analytics.com https://*.firebaseio.com https://*.googleapis.com https://firestore.googleapis.com; frame-ancestors 'none';">
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.firebase.com https://*.firebaseio.com https://*.googleapis.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://upload.wikimedia.org https://www.googletagmanager.com https://www.google-analytics.com data:; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.firebaseio.com wss://*.firebaseio.com https://*.googleapis.com https://firestore.googleapis.com; frame-src https://*.firebaseio.com;">
 
     <!-- Preconnect to external domains for faster resource loading -->
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
@@ -29,8 +27,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-    <!-- Posts data - defer to avoid render-blocking -->
-    <script src="posts.js" defer></script>
 
     <style>
         * {
@@ -289,6 +285,19 @@
                 border-left-color: #808080;
                 border-right-color: #fff;
                 border-bottom-color: #fff;
+            }
+
+            .mobile-post-item > a {
+                display: flex;
+                flex: 1;
+                min-width: 0;
+                color: inherit;
+                text-decoration: none;
+            }
+
+            a.mobile-tag-btn {
+                text-decoration: none;
+                display: inline-block;
             }
 
             .mobile-post-thumb {
@@ -996,6 +1005,16 @@
                 color: white;
             }
 
+            a.tag-button {
+                text-decoration: none;
+                color: #000;
+                display: inline-block;
+            }
+
+            a.tag-button.active {
+                color: white;
+            }
+
             .blog-posts-list {
                 list-style: none;
             }
@@ -1357,6 +1376,11 @@
 
             .related-post:hover {
                 text-decoration: underline;
+            }
+
+            a.related-post {
+                display: block;
+                text-decoration: none;
             }
 
             /* Guestbook Window */
@@ -2812,7 +2836,7 @@
 
         <!-- Footer -->
         <div class="footer">
-            &copy; 2026 404 Memory Found. All rights reserved. | <a href="/#about" onclick="event.preventDefault(); openWindow('about-window')">About</a> | <a href="/#contact" onclick="event.preventDefault(); openWindow('guestbook-window')">Contact</a> | <a href="/#privacy" onclick="event.preventDefault(); openWindow('privacy-window')">Privacy Policy</a> | <a href="/#terms" onclick="event.preventDefault(); openWindow('terms-window')">Terms of Use</a> | Powered by nostalgia
+            &copy; 2026 404 Memory Found. All rights reserved. | <a href="/about.html" onclick="event.preventDefault(); openWindow('about-window')">About</a> | <a href="/contact.html" onclick="event.preventDefault(); openWindow('guestbook-window')">Contact</a> | <a href="/privacy.html" onclick="event.preventDefault(); openWindow('privacy-window')">Privacy Policy</a> | <a href="/terms.html" onclick="event.preventDefault(); openWindow('terms-window')">Terms of Use</a> | Powered by nostalgia
         </div>
 
         <!-- Start Menu -->
@@ -2900,13 +2924,20 @@
         async function loadPosts() {
             let data = null;
 
-            // Method 1: Use posts.js loaded via script tag (works on file:// and server)
+            // Generated pages (posts, tags, about...) are fully static: no index needed.
+            if (typeof isPostPage !== 'undefined' && isPostPage) {
+                blogPosts = [];
+                initializeUI();
+                return;
+            }
+
+            // Homepage: load the lightweight index (title/date/excerpt/tags, no bodies).
+            // Post bodies are fetched on demand from /posts/<slug>.json when opened.
             if (window.__POSTS_DATA__ && window.__POSTS_DATA__.posts) {
                 data = window.__POSTS_DATA__;
             } else {
-                // Method 2: Fetch posts.json (server only)
                 try {
-                    const response = await fetch('/posts.json?v=' + Date.now());
+                    const response = await fetch('/posts-index.json?v=' + (window.__BUILD__ || ''));
                     if (!response.ok) throw new Error('HTTP ' + response.status);
                     data = await response.json();
                 } catch (error) {
@@ -2967,9 +2998,13 @@
                     // Homepage: Auto-open Blog Posts window after boot animation
                     setTimeout(() => {
                         const hash = location.hash;
+                        const windowHash = hash.match(/^#(about|archives|guestbook|contact|privacy|terms|blog)$/);
                         if (hash.startsWith('#/post/')) {
                             const slug = hash.substring(7);
                             openPost(slug);
+                        } else if (windowHash) {
+                            const name = windowHash[1] === 'contact' ? 'guestbook' : windowHash[1];
+                            openWindow(name + '-window');
                         } else {
                             openWindow('blog-window');
                         }
@@ -3015,19 +3050,22 @@
 
         function populateMobilePosts() {
             const list = document.getElementById('mobile-post-list');
+            if (!list) return;
             const filtered = filterMobilePosts();
             list.innerHTML = filtered.map(post => {
-                const imgUrl = post.image || '';
+                const imgUrl = post.thumb || post.image || '';
                 const dataAttr = imgUrl ? `data-bg="${imgUrl}"` : '';
                 return `
-                <li class="mobile-post-item" onclick="openPost('${post.slug}')">
+                <li class="mobile-post-item">
+                    <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                     <div class="mobile-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>${post.title}</h3>
-                        <div class="mobile-post-date">${post.date} · ${getReadingTime(post.content)}</div>
+                        <div class="mobile-post-date">${post.date} · ${readingLabel(post)}</div>
                         <div class="mobile-post-excerpt">${post.excerpt}</div>
                         <div class="mobile-post-tags">${(post.tags || []).slice(0, 3).join(' · ')}</div>
                     </div>
+                    </a>
                 </li>`;
             }).join('');
             // Lazy-load thumbnails
@@ -3069,8 +3107,8 @@
                 .slice(0, 8)
                 .map(e => e[0]);
             container.innerHTML = topTags.map(tag => `
-                <button class="mobile-tag-btn ${mobileActiveTags.includes(tag) ? 'active' : ''}"
-                        onclick="toggleMobileTag('${tag}')">${tag}</button>
+                <a class="mobile-tag-btn ${mobileActiveTags.includes(tag) ? 'active' : ''}" href="/tags/${tagSlug(tag)}.html"
+                        onclick="event.preventDefault(); toggleMobileTag('${tag}')">${tag}</a>
             `).join('');
         }
 
@@ -3128,16 +3166,18 @@
 
         function populateBlogPostsList() {
             const list = document.getElementById('blog-posts-list');
+            if (!list) return;
             const filtered = filterPosts();
             list.innerHTML = filtered.map(post => {
-                const dataAttr = post.image ? `data-bg="${post.image}"` : '';
+                const thumbUrl = post.thumb || post.image || '';
+                const dataAttr = thumbUrl ? `data-bg="${thumbUrl}"` : '';
                 return `
                 <li class="blog-post-item">
                     <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
                         <div class="blog-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>${post.title}</h3>
-                            <div class="date">${post.date} <span class="reading-time">${getReadingTime(post.content)}</span></div>
+                            <div class="date">${post.date} <span class="reading-time">${readingLabel(post)}</span></div>
                             <div class="excerpt">${post.excerpt}</div>
                             <div class="tags">${post.tags.join(', ')}</div>
                         </div>
@@ -3150,6 +3190,7 @@
 
         function populateArchives() {
             const list = document.getElementById('archives-list');
+            if (!list) return;
             // Group posts by month/year
             const monthMap = {};
             const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -3184,6 +3225,7 @@
 
         function populateTagFilters() {
             const container = document.getElementById('tag-filters');
+            if (!container) return;
             // Count posts per tag, sort by frequency, cap at 8 filters
             const tagCounts = {};
             blogPosts.forEach(p => (p.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
@@ -3192,8 +3234,8 @@
                 .slice(0, 8)
                 .map(e => e[0]);
             container.innerHTML = topTags.map(tag => `
-                <button class="tag-button ${activeTags.includes(tag) ? 'active' : ''}"
-                        onclick="toggleTag('${tag}')">${tag}</button>
+                <a class="tag-button ${activeTags.includes(tag) ? 'active' : ''}" href="/tags/${tagSlug(tag)}.html"
+                        onclick="event.preventDefault(); toggleTag('${tag}')">${tag}</a>
             `).join('');
         }
 
@@ -3233,6 +3275,14 @@
             const post = blogPosts.find(p => p.slug === slug);
             if (!post) return;
 
+            if (!post.content) {
+                fetch('/posts/' + slug + '.json?v=' + (window.__BUILD__ || ''))
+                    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                    .then(d => { post.content = d.body || ''; openPost(slug); })
+                    .catch(err => console.error('Could not load post', slug, err));
+                return;
+            }
+
             currentSlug = slug;
 
             // Calculate related posts
@@ -3257,7 +3307,7 @@
                 const detail = document.getElementById('mobile-post-detail');
                 detail.style.display = 'block';
                 document.getElementById('mobile-post-title').textContent = post.title;
-                document.getElementById('mobile-post-detail-date').textContent = post.date + ' · ' + getReadingTime(post.content);
+                document.getElementById('mobile-post-detail-date').textContent = post.date + ' · ' + readingLabel(post);
                 document.getElementById('mobile-post-detail-body').innerHTML = post.content;
                 // Reset reading progress
                 const mFill = document.getElementById('mobile-reading-progress-fill');
@@ -3282,7 +3332,7 @@
                 document.getElementById('post-title').textContent = post.title;
                 document.getElementById('post-window-title').textContent = post.title;
                 document.getElementById('post-date').textContent = post.date;
-                document.getElementById('post-reading-time').textContent = getReadingTime(post.content);
+                document.getElementById('post-reading-time').textContent = readingLabel(post);
                 // Reset progress bar
                 const fill = document.getElementById('reading-progress-fill');
                 const label = document.getElementById('reading-progress-label');
@@ -3297,7 +3347,7 @@
                 const relatedContainer = document.getElementById('related-posts-container');
                 if (relatedContainer) {
                     relatedContainer.innerHTML = related.length > 0
-                        ? related.map(r => `<div class="related-post" onclick="openPost('${r.slug}')">${r.title}</div>`).join('')
+                        ? related.map(r => `<a class="related-post" href="/posts/${r.slug}.html" onclick="event.preventDefault(); openPost('${r.slug}')">${r.title}</a>`).join('')
                         : '<div style="color:#666;font-style:italic;">No related posts yet.</div>';
                 }
 
@@ -3338,7 +3388,7 @@
                     document.querySelector('meta[property="og:title"]').content = post.title;
                     document.querySelector('meta[property="og:description"]').content = post.excerpt;
                     document.querySelector('meta[property="og:type"]').content = 'article';
-                    document.querySelector('meta[property="og:url"]').content = `${baseUrl}/#/post/${slug}`;
+                    document.querySelector('meta[property="og:url"]').content = `${baseUrl}/posts/${slug}.html`;
 
                     const schema = {
                         "@context": "https://schema.org",
@@ -3362,6 +3412,14 @@
                 document.querySelector('meta[property="og:type"]').content = 'website';
                 document.querySelector('meta[property="og:url"]').content = baseUrl;
             }
+        }
+
+        function readingLabel(post) {
+            return post.readingTime || getReadingTime(post.content || '');
+        }
+
+        function tagSlug(tag) {
+            return tag.toLowerCase().replace(/&/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
         }
 
         function getReadingTime(htmlContent) {
@@ -3487,7 +3545,13 @@
 
         function openWindow(id) {
             const el = document.getElementById(id);
-            if (!el) return;
+            if (!el) {
+                // Generated pages only carry the post window: open the rest on the homepage
+                if (typeof isPostPage !== 'undefined' && isPostPage) {
+                    location.href = '/#' + id.replace('-window', '');
+                }
+                return;
+            }
             el.classList.remove('minimized');
             el.style.display = 'flex';
             el.dataset.wasOpen = 'true';
@@ -3724,9 +3788,11 @@
         }
 
         function showCookieBanner() {
+            const banner = document.getElementById('cookie-banner');
+            if (!banner) return;
             const hasConsent = localStorage.getItem('cookie-consent');
             if (!hasConsent) {
-                document.getElementById('cookie-banner').classList.add('show');
+                banner.classList.add('show');
             }
         }
 
@@ -3742,6 +3808,7 @@
 
         // Initialize on load
         window.addEventListener('load', () => {
+            observeThumbs();
             loadPosts();
             // Boot animation: skip on post pages, play on homepage
             const bootEl = document.getElementById('boot-animation');
@@ -4294,10 +4361,10 @@
         };
 
         // Enter key to submit scores
-        document.getElementById('snake-name-input').addEventListener('keydown', (e) => {
+        document.getElementById('snake-name-input')?.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') submitSnakeScore();
         });
-        document.getElementById('pong-name-input').addEventListener('keydown', (e) => {
+        document.getElementById('pong-name-input')?.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') submitPongScore();
         });
 

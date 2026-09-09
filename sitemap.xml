@@ -7,6 +7,84 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://404memoryfound.com/posts/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/business-blunders.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/hardware.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/internet-culture.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/gaming.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/then-vs-now.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/money-tech.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/music-entertainment.html</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-sega-channel.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/first-banner-ad-hotwired-1994-history.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://404memoryfound.com/posts/what-happened-to-game-genie-galoob-cheat-device.html</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -14,6 +92,18 @@
   </url>
   <url>
     <loc>https://404memoryfound.com/posts/what-happened-to-geocaching-gps-treasure-hunt.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-nintendo-power-glove.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-theglobe-com-dot-com-ipo.html</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -31,254 +121,422 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-turbografx-16-nec-forgotten-console.html</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/yahoo-rejected-google.html</loc>
-    <lastmod>2026-03-03</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-pointcast-push-technology.html</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html</loc>
-    <lastmod>2026-03-05</lastmod>
+    <loc>https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/first-online-purchase-pizza.html</loc>
-    <lastmod>2026-03-07</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-standalone-gps-tomtom-garmin-magellan.html</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/dialup-speed-then-vs-now.html</loc>
-    <lastmod>2026-03-09</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-techtv-screen-savers-channel.html</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/90s-websites-still-online.html</loc>
-    <lastmod>2026-03-11</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-wine-com-internet-wine-wars.html</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/90s-tech-inflation-calculator.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-nokia-3310.html</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/thousand-dollars-then-now.html</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/napster-destroyed-music.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-sega-cd-add-on.html</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-prodigy-online-service.html</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-3do-700-dollar-console.html</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-microsoft-bob-friendly-interface.html</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-sony-discman-portable-cd-player.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/why-sega-stopped-making-consoles-dreamcast.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-xanga-blogging-platform.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/rise-and-fall-of-myspace.html</loc>
-    <lastmod>2026-03-25</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-starcraft-birth-of-esports.html</loc>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-limewire-file-sharing.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-kodak-digital-camera-bankruptcy.html</loc>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/how-mapquest-lost-to-google-maps.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/why-everyone-had-hotmail-account.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/history-of-geocities-websites.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/how-imac-g3-saved-apple-killed-beige-box.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-msn-messenger.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-tumblr-yahoo-billion-dollar-mistake.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/why-microsoft-zune-actually-failed.html</loc>
-    <lastmod>2026-03-24</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-arcades-golden-age-gaming.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/definitive-history-macromedia-flash.html</loc>
-    <lastmod>2026-03-24</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-livejournal-blogging-platform.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-winamp-mp3-player.html</loc>
-    <lastmod>2026-03-24</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-quake-online-fps.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html</loc>
-    <lastmod>2026-03-24</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-webtv-internet-television.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-3dfx-voodoo-graphics-card.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/when-mtv-actually-played-music-rise-fall.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-flickr-yahoo-photo-sharing.html</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-microsoft-encarta.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-oregon-trail-game.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-realplayer-streaming.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-goldeneye-007-n64.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-icq-instant-messenger.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-irc-chat.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-tony-hawks-pro-skater.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-tivo-dvr-pioneer.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-sega-game-gear-handheld.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-eudora-email-client.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-digg-social-news.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-simcity-ea.html</loc>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-second-life-virtual-world.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-rollercoaster-tycoon.html</loc>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-frys-electronics.html</loc>
-    <lastmod>2026-03-29</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-newgrounds.html</loc>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html</loc>
-    <lastmod>2026-03-29</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-bonzibuddy-spyware.html</loc>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://404memoryfound.com/posts/original-sims-best-selling-pc-game.html</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-polaroid-camera.html</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-iomega-zip-drives.html</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-kazaa-p2p-wars.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-club-penguin.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-minidisc-sony.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-screensavers-flying-toasters.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/the-night-windows-95-launched.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-commodore-computers.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-neopets-virtual-world.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/how-doom-changed-pc-gaming-internet.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-atari-jaguar-64-bit-console.html</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-wordperfect-word-processor.html</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-creative-labs-sound-blaster.html</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-lotus-1-2-3-spreadsheet.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-craigslist-ugliest-website-worth-billions.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-nintendo-wii.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-netbooks-laptops.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-boo-com-fashion-dot-com.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-google-reader-rss.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-nokia-ngage-gaming-phone.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/what-happened-to-apple-newton.html</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -331,447 +589,291 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html</loc>
-    <lastmod>2026-04-01</lastmod>
+    <loc>https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-google-reader-rss.html</loc>
-    <lastmod>2026-04-01</lastmod>
+    <loc>https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-nokia-ngage-gaming-phone.html</loc>
-    <lastmod>2026-04-01</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html</loc>
-    <lastmod>2026-04-01</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html</loc>
-    <lastmod>2026-04-01</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-frys-electronics.html</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-apple-newton.html</loc>
-    <lastmod>2026-04-01</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-limewire-file-sharing.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-icq-instant-messenger.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-boo-com-fashion-dot-com.html</loc>
-    <lastmod>2026-04-02</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-tivo-dvr-pioneer.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-lotus-1-2-3-spreadsheet.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-digg-social-news.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-second-life-virtual-world.html</loc>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-craigslist-ugliest-website-worth-billions.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-nintendo-wii.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://404memoryfound.com/posts/when-mtv-actually-played-music-rise-fall.html</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-netbooks-laptops.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-microsoft-encarta.html</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-atari-jaguar-64-bit-console.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-realplayer-streaming.html</loc>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-wordperfect-word-processor.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <loc>https://404memoryfound.com/posts/rise-and-fall-of-myspace.html</loc>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-creative-labs-sound-blaster.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <loc>https://404memoryfound.com/posts/why-google-glass-actually-failed.html</loc>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <loc>https://404memoryfound.com/posts/why-microsoft-zune-actually-failed.html</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/the-night-windows-95-launched.html</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://404memoryfound.com/posts/definitive-history-macromedia-flash.html</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-commodore-computers.html</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-winamp-mp3-player.html</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-neopets-virtual-world.html</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/how-doom-changed-pc-gaming-internet.html</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://404memoryfound.com/posts/why-google-plus-actually-failed.html</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-screensavers-flying-toasters.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <loc>https://404memoryfound.com/posts/why-sega-stopped-making-consoles-dreamcast.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/original-sims-best-selling-pc-game.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://404memoryfound.com/posts/how-mapquest-lost-to-google-maps.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-polaroid-camera.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://404memoryfound.com/posts/why-everyone-had-hotmail-account.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-iomega-zip-drives.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://404memoryfound.com/posts/history-of-geocities-websites.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-kazaa-p2p-wars.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-msn-messenger.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-club-penguin.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-minidisc-sony.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-simcity-ea.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-rollercoaster-tycoon.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-newgrounds.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-bonzibuddy-spyware.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://404memoryfound.com/posts/napster-destroyed-music.html</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-oregon-trail-game.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://404memoryfound.com/posts/thousand-dollars-then-now.html</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-goldeneye-007-n64.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://404memoryfound.com/posts/90s-tech-inflation-calculator.html</loc>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-irc-chat.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://404memoryfound.com/posts/90s-websites-still-online.html</loc>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-tony-hawks-pro-skater.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://404memoryfound.com/posts/dialup-speed-then-vs-now.html</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-sega-game-gear-handheld.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://404memoryfound.com/posts/first-online-purchase-pizza.html</loc>
+    <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-eudora-email-client.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-quake-online-fps.html</loc>
-    <lastmod>2026-04-10</lastmod>
+    <loc>https://404memoryfound.com/posts/yahoo-rejected-google.html</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-webtv-internet-television.html</loc>
-    <lastmod>2026-04-10</lastmod>
+    <loc>https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html</loc>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-3dfx-voodoo-graphics-card.html</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-flickr-yahoo-photo-sharing.html</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/how-imac-g3-saved-apple-killed-beige-box.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-tumblr-yahoo-billion-dollar-mistake.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-arcades-golden-age-gaming.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-livejournal-blogging-platform.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-starcraft-birth-of-esports.html</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-kodak-digital-camera-bankruptcy.html</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-sony-discman-portable-cd-player.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-xanga-blogging-platform.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-sega-cd-add-on.html</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-prodigy-online-service.html</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-3do-700-dollar-console.html</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-microsoft-bob-friendly-interface.html</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-nokia-3310.html</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-standalone-gps-tomtom-garmin-magellan.html</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-turbografx-16-nec-forgotten-console.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-pointcast-push-technology.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-nintendo-power-glove.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-theglobe-com-dot-com-ipo.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/first-banner-ad-hotwired-1994-history.html</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-sega-channel.html</loc>
+    <loc>https://404memoryfound.com/about.html</loc>
     <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html</loc>
+    <loc>https://404memoryfound.com/contact.html</loc>
     <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/privacy.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/terms.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
