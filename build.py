@@ -252,7 +252,8 @@ def adsense_head(config):
     client = config.get("adsense_client") or ""
     if not client:
         return ""
-    return (f'\n    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={client}" '
+    return (f'\n    <meta name="google-adsense-account" content="{client}">'
+            f'\n    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={client}" '
             'crossorigin="anonymous"></script>')
 
 
