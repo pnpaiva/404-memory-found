@@ -2,6 +2,453 @@
   "_description": "Pre-researched SEO topics for 404memoryfound.com. Each topic is a deep-dive narrative (3000-5000 words) written by one of two personas (Marcus or Dana). Generator picks 2 per run (1 Marcus + 1 Dana), top of each tier first. Cross off topics as published.",
   "_last_updated": "2026-09-09",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
+  "priority_0_search_console": [
+    {
+      "title": "Is Blockbuster Still Open? The Last Store in 2026",
+      "slug": "is-blockbuster-still-open-last-store",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Music & Entertainment"
+      ],
+      "angle": "Status query. One store in Bend, Oregon; 9,000 at the 2004 peak; Dish Network owns the brand; the 2018 closures; what the last store sells today.",
+      "target_keywords": [
+        "is blockbuster still open",
+        "last blockbuster store",
+        "how many blockbusters are left",
+        "who owns blockbuster now"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Toys R Us Still in Business? What Survived 2018",
+      "slug": "is-toys-r-us-still-in-business",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders"
+      ],
+      "angle": "Status query. 2017 bankruptcy, 2018 US liquidation, WHP Global revival, Macy's shop-in-shops, the flagship at American Dream; how many locations exist today.",
+      "target_keywords": [
+        "is toys r us still open",
+        "toys r us still in business",
+        "how many toys r us are left",
+        "who owns toys r us"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Does AOL Still Exist? What You Get for $10 a Month",
+      "slug": "does-aol-still-exist-today",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "Status query. Yahoo (Apollo) owns it; millions still pay for dial-up-era plans; AOL Mail; the 2021 sale for $5B; what the subscription actually includes.",
+      "target_keywords": [
+        "does aol still exist",
+        "is aol still around",
+        "who owns aol",
+        "aol dial up still exists"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Napster Still Around? Every Owner Since 2001",
+      "slug": "is-napster-still-around-owners",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Music & Entertainment"
+      ],
+      "angle": "Status query with an ownership chain: Roxio, Best Buy, Rhapsody, MelodyVR, Algorand, Infinite Reality 2025. Reuse existing Napster post for the origin, link it.",
+      "target_keywords": [
+        "is napster still around",
+        "who owns napster",
+        "napster 2026",
+        "what happened to napster after shutdown"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Netscape Still Around? What Happened After AOL",
+      "slug": "is-netscape-still-around",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Internet Culture"
+      ],
+      "angle": "Status query. AOL bought it 1999 for $4.2B, Netscape Navigator 9 ended 2008, the Mozilla spin-off, netscape.com today.",
+      "target_keywords": [
+        "is netscape still around",
+        "does netscape still exist",
+        "what happened to netscape after aol",
+        "netscape browser today"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Does Yahoo Answers Still Exist? Why It Shut Down",
+      "slug": "does-yahoo-answers-still-exist",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture"
+      ],
+      "angle": "Status query. Shut 4 May 2021 after 16 years; archive; why it lost to Quora and Reddit; the memes that survived.",
+      "target_keywords": [
+        "does yahoo answers still exist",
+        "why did yahoo answers shut down",
+        "yahoo answers archive",
+        "when did yahoo answers end"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Who Owns Sears Now? How Many Stores Are Left",
+      "slug": "who-owns-sears-now-stores-left",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Money & Tech"
+      ],
+      "angle": "Status query. Eddie Lampert and Transformco, the 2018 bankruptcy, from 3,500 stores to a handful; the catalog that was Amazon before Amazon.",
+      "target_keywords": [
+        "is sears still open",
+        "how many sears stores are left",
+        "who owns sears",
+        "sears bankruptcy"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Kmart Still Open? The Stores Left in 2026",
+      "slug": "is-kmart-still-open-stores-left",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders"
+      ],
+      "angle": "Status query. Transformco, the last mainland store, Guam and the Virgin Islands, the Blue Light Special.",
+      "target_keywords": [
+        "is kmart still open",
+        "how many kmarts are left",
+        "last kmart store",
+        "who owns kmart"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is CompUSA Still Around? The Store That Sold You Your First PC",
+      "slug": "is-compusa-still-around",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "angle": "Status query. 229 stores, 2007 closure, Systemax and TigerDirect, the brand today.",
+      "target_keywords": [
+        "is compusa still around",
+        "what happened to compusa",
+        "compusa closed",
+        "compusa tigerdirect"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Palm Still a Company? From Pilot to a $350 Phone",
+      "slug": "is-palm-still-a-company",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "angle": "Status query. HP bought Palm 2010 for $1.2B, webOS to LG, the 2018 Palm phone by TCL. Link the existing Palm Pilot post.",
+      "target_keywords": [
+        "is palm still a company",
+        "who owns palm",
+        "what happened to palm inc",
+        "palm phone 2018"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is MySpace Still Around? What Is Left of the Site",
+      "slug": "is-myspace-still-around-today",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture"
+      ],
+      "angle": "Status query. Viant/Meredith/Dotdash ownership, the 2019 data loss of 50 million songs, who still logs in. Link the existing MySpace post.",
+      "target_keywords": [
+        "is myspace still around",
+        "does myspace still exist",
+        "who owns myspace",
+        "myspace lost music 2019"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Who Owns Atari Now? The Brand That Refuses to Die",
+      "slug": "who-owns-atari-now",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Business Blunders"
+      ],
+      "angle": "Ownership chain: Warner, Tramiel, Hasbro, Infogrames, Atari SA under Wade Rosen; the 2600+ and Atari 50; hotels that never happened.",
+      "target_keywords": [
+        "who owns atari now",
+        "is atari still in business",
+        "atari company today",
+        "atari 2600 plus"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Sega Still Making Games? Life After the Dreamcast",
+      "slug": "is-sega-still-making-games",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Business Blunders"
+      ],
+      "angle": "Status query. Sammy merger 2004, Sonic, Atlus, the 2024 layoffs, Genesis Mini. Link the existing Dreamcast post.",
+      "target_keywords": [
+        "is sega still making games",
+        "is sega still around",
+        "what does sega do now",
+        "sega sammy"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is RuneScape Still Popular? Old School vs RS3 in 2026",
+      "slug": "is-runescape-still-popular-2026",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Internet Culture"
+      ],
+      "angle": "Status query with numbers: Jagex ownership (CVC/Haveli), Old School player counts, membership price, why 2007 came back.",
+      "target_keywords": [
+        "is runescape still popular",
+        "runescape player count",
+        "old school runescape vs runescape 3",
+        "who owns jagex"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Habbo Hotel Still Around? The Pixel Hotel in 2026",
+      "slug": "is-habbo-hotel-still-around",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Gaming"
+      ],
+      "angle": "Status query. Sulake, the 2010 press scandal, Flash death and the 2021 Unity client, Habbo Origins 2024, the furniture economy.",
+      "target_keywords": [
+        "is habbo hotel still around",
+        "habbo hotel 2026",
+        "what happened to habbo",
+        "habbo origins"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "What Happened to Orkut, the Social Network Brazil Loved",
+      "slug": "what-happened-to-orkut-brazil-india",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "Google's social network that owned Brazil and India, the 2014 shutdown, Orkut Buyukkokten's 2024 revival tease. Strong Brazil/India search demand.",
+      "target_keywords": [
+        "what happened to orkut",
+        "orkut coming back",
+        "why did orkut shut down",
+        "orkut 2026"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Why Ask Jeeves Became Ask.com: Is the Butler Coming Back?",
+      "slug": "ask-jeeves-became-ask-com",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "Second angle on the site's highest-impression subject: the 2006 rebrand, the 2010 exit from search, IAC ownership, jeeves returning in the UK.",
+      "target_keywords": [
+        "ask jeeves ask.com",
+        "why did ask jeeves change its name",
+        "who owns ask.com",
+        "is ask.com still a search engine"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "The Pets.com Sock Puppet: Where the Mascot Ended Up",
+      "slug": "pets-com-sock-puppet-mascot",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "Artifact angle the queries ask for: the puppet made by Triumph's creators, the $1.2M Super Bowl ad, the sale to Bar None, the puppet's later life. Link the existing Pets.com post.",
+      "target_keywords": [
+        "pets.com sock puppet",
+        "pets.com mascot",
+        "pets.com super bowl ad",
+        "what happened to the pets.com puppet"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "How Many RadioShack Stores Are Left? The 2026 Count",
+      "slug": "how-many-radioshack-stores-left",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Hardware"
+      ],
+      "angle": "Second angle on the site's top-impression page: the count by year, Unicomer ownership, dealer stores, the 2020 relaunch, radioshack.com today. Link the existing RadioShack post.",
+      "target_keywords": [
+        "how many radioshack stores are left",
+        "is radioshack still in business 2026",
+        "who owns radioshack now",
+        "radioshack near me"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Who Owns Yahoo Now? From $125 Billion to Apollo",
+      "slug": "who-owns-yahoo-now",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Money & Tech"
+      ],
+      "angle": "The queries ask about Yahoo and Google deals; give the whole ownership story: Verizon 2017, Apollo 2021, what Yahoo still runs. Link the Yahoo rejected Google post.",
+      "target_keywords": [
+        "who owns yahoo now",
+        "is yahoo still around",
+        "yahoo verizon apollo",
+        "yahoo net worth"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "The Windows 95 Startup Sound: Brian Eno's 3.25 Seconds",
+      "slug": "windows-95-startup-sound-brian-eno",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Music & Entertainment"
+      ],
+      "angle": "Artifact post. Eno wrote it on a Mac, 84 versions, the 2024 National Recording Registry induction. Link the Windows 95 launch post.",
+      "target_keywords": [
+        "windows 95 startup sound",
+        "brian eno windows 95",
+        "who made the windows 95 sound",
+        "the microsoft sound"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Who Was the 'You've Got Mail' Voice? Elwood Edwards Explained",
+      "slug": "aol-youve-got-mail-voice-elwood-edwards",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture"
+      ],
+      "angle": "Artifact post. Recorded in 1989 for $200 in his living room, the Uber driver years, his 2024 death. Link the AOL and AIM posts.",
+      "target_keywords": [
+        "you've got mail voice",
+        "elwood edwards",
+        "who said you've got mail aol",
+        "aol welcome voice"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "The Dial-Up Sound Explained: What Each Screech Meant",
+      "slug": "dial-up-modem-sound-explained",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Internet Culture"
+      ],
+      "angle": "Artifact post. The handshake step by step, V.90, why 56k was never 56k. Link the dial-up speed post.",
+      "target_keywords": [
+        "dial up sound explained",
+        "what was the dial up noise",
+        "modem handshake sound",
+        "56k modem sound"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Encarta Coming Back? What Replaced It and Why",
+      "slug": "is-encarta-coming-back",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Then vs Now"
+      ],
+      "angle": "Status query on a page that already ranks 12th: the 2009 shutdown, MindMaze, Wikipedia, the 2026 encyclopedia landscape. Link the existing Encarta post.",
+      "target_keywords": [
+        "is encarta coming back",
+        "encarta 2026",
+        "what replaced encarta",
+        "microsoft encarta download"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    },
+    {
+      "title": "Abandoned RadioShack Stores: What Happens to Dead Retail",
+      "slug": "abandoned-radioshack-stores-dead-retail",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "The query 'abandoned radio shack' ranks 10th with a photo intent: what happens to the buildings, the dealer stores that stayed, the urbex fascination, with Commons photos.",
+      "target_keywords": [
+        "abandoned radio shack",
+        "empty radioshack store",
+        "dead malls radioshack",
+        "what happened to radioshack buildings"
+      ],
+      "status": "pending",
+      "source": "search-console-2026-09"
+    }
+  ],
   "priority_1_high": [
     {
       "title": "What Happened to Neopets, the Virtual World That Raised a Generation",
@@ -408,16 +855,6 @@
         "spyglass internet explorer"
       ],
       "status": "published"
-    }
-  ],
-  "_note_fallback_run": [
-    {
-      "date": "2026-05-18",
-      "reason": "All backlog topics were already published. Selected 2 fresh fallback topics.",
-      "published": [
-        "what-happened-to-sega-channel (marcus)",
-        "what-happened-to-hypercard-apple (dana)"
-      ]
     }
   ]
 }

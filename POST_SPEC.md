@@ -10,7 +10,7 @@ One post answers one search query completely in under five minutes of reading, s
 | Part | Rule |
 |---|---|
 | Length | 900 to 1,300 words in the body (FAQ and sources excluded) |
-| Title | 45 to 60 characters, primary keyword in the first half. Rotate patterns; at most one in three titles may start with "What Happened to". Other patterns: "Why X Failed", "X Explained", "How X Lost to Y", "X in 1998 vs Today", "The Real Story of X", "Is X Still Around?" |
+| Title | 45 to 60 characters, primary keyword in the first half. Rotate patterns; at most one in three titles may start with "What Happened to". Other patterns: "Is X Still Around in 2026?", "Who Owns X Now?", "How Many X Are Left?", "Why X Failed", "X Explained", "How X Lost to Y", "X in 1998 vs Today", "The Real Story of X". Status patterns get priority: they match what people actually type |
 | Slug | lowercase, 3 to 7 words, keyword first, no stop words, no year unless it is the query |
 | Meta title | same as title plus " \| 404 Memory Found", max 70 characters total |
 | Meta description | 120 to 155 characters, contains the keyword, ends with a concrete hook (a number, a date, a surprise) |
@@ -23,6 +23,7 @@ One post answers one search query completely in under five minutes of reading, s
 | FAQ | `<h2>Frequently Asked Questions</h2>` then exactly 3 `<h3>` questions people actually search, each answered in 2 to 3 sentences. Becomes FAQPage schema |
 | Sources | 3 to 5 links to primary or reputable sources (company filings, court records, contemporary news, museums, Wikipedia only as a fallback). Rendered as a Sources list. Every specific number in the post must trace to one of them |
 | Affiliate hook | For products that still trade second-hand, one short "Where to find one today" paragraph naming typical prices on eBay, without a link unless the config has an affiliate id |
+| Status questions | Every post about a company, product or service answers, explicitly and early, the questions Search Console shows people typing: is it still around in 2026, who owns it now, how many are left or what it costs today, and what replaced it. One of those belongs in the summary, one in a section heading, one in the quick facts ("Owner today", "Stores left", "Status"), one in the FAQ |
 | Author | one of the pen names in `authors.json`, chosen by beat |
 | Tags | 1 to 3 from the eight site tags only |
 

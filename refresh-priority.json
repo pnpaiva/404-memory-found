@@ -1,0 +1,42 @@
+{
+  "_description": "Slugs the refresh routine rewrites first: pages that already earn impressions in Search Console (Sept 2026 export). Ordered by expected gain: near page one with weak titles first, then high-impression pages ranking 20 to 50. After these, the routine falls back to oldest-first.",
+  "slugs": [
+    "what-happened-to-apple-newton",
+    "y2k-bug-what-actually-happened",
+    "yahoo-rejected-google",
+    "what-happened-to-microsoft-encarta",
+    "motorola-razr-v3-coolest-phone-ever-made",
+    "what-happened-to-netbooks-laptops",
+    "what-happened-to-sega-32x-add-on",
+    "what-happened-to-sony-psp-handheld",
+    "why-pets-com-failed-dot-com-bubble",
+    "what-happened-to-ask-jeeves-search-engine",
+    "what-happened-to-radioshack-electronics",
+    "what-happened-to-tony-hawks-pro-skater"
+  ],
+  "status_queries_seen": {
+    "radioshack": [
+      "is radioshack still in business",
+      "how many radio shack stores are left",
+      "when did radio shack close",
+      "who owns radioshack",
+      "radioshack bankruptcy",
+      "abandoned radio shack"
+    ],
+    "ask jeeves": [
+      "does ask jeeves still exist",
+      "is ask jeeves still around",
+      "who owns ask jeeves",
+      "ask jeeves founder",
+      "why did ask jeeves fail"
+    ],
+    "pets.com": [
+      "pets.com sock puppet",
+      "pets com mascot",
+      "pets.com super bowl ad cost"
+    ],
+    "apple newton": [
+      "messagepad profitable since 1998"
+    ]
+  }
+}
