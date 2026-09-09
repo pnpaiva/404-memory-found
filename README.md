@@ -66,7 +66,7 @@ python3 -m http.server 8404      # preview at http://localhost:8404
 | `site-config.json` | AdSense id, ads.txt line, affiliate ids, disclosure text. |
 | `redirects.json` | Old slug → new slug. The build writes canonical + meta-refresh stubs for old URLs. |
 | `images-manifest.json` | Wikimedia URL → local file, written by `fetch_images.py`. |
-| `indexnow.json`, `<key>.txt` | IndexNow key (Bing/Yandex instant indexing). |
+| `indexnow.json`, `8e27a526d67545f5b42848dda0062e6a.txt` | IndexNow key (Bing/Yandex instant indexing). |
 | `pinterest-state.json` | What has been pinned, written by the workflow. |
 | `topic-backlog.json` | Topics to write. The generator refills it with ten researched topics when it runs dry. |
 | `POST_SPEC.md` | The editorial spec the generator enforces. |
