@@ -4,6 +4,269 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is MySpace Still Around? What Is Left of the Site
+
+URL: https://404memoryfound.com/posts/is-myspace-still-around-today.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-09-09
+Topics: Internet Culture
+
+**Summary:** MySpace is still around in 2026, but not as a social network. myspace.com is online as a music news site owned by Viant Technology Inc., the Nasdaq-listed ad tech company run by the Vanderhook brothers, and reporting since 2024 describes it as read-only. About 50 million songs uploaded before 2016 were destroyed in a 2019 server migration and never came back.
+
+**Key facts:**
+- Status today: Online at myspace.com, reported read-only since 2024
+- Owner today: Viant Technology Inc. (Nasdaq: DSP), Irvine, California
+- Bought for: $580 million by News Corporation in 2005
+- Sold for: $35 million to Specific Media in June 2011
+- Music lost: About 50 million songs in the 2019 server migration
+
+## Is MySpace still around in 2026?
+
+Yes. myspace.com loads, and on September 8, 2026 the front page was still publishing music news, including a piece on Stevie Wonder touring an album for its fiftieth anniversary. Those articles carry a SPIN byline rather than anything written by a MySpace newsroom.
+
+What is gone is the social network. Reporting through August 2026 describes the site as read-only, which means old pages render but nothing new gets posted to them. Tom Anderson's profile, the automatic first friend for a whole generation of American teenagers, still sits at myspace.com/tom with its counters for photos, videos, mixes and connections intact.
+
+The footer on the homepage still reads "© 2014 Myspace LLC." Nothing sums up the level of attention the front end has had since then more efficiently than that.
+
+## Who owns MySpace now?
+
+Viant Technology Inc., an advertising technology company listed on Nasdaq under the ticker DSP, with offices on Michelson Drive in Irvine, California. Viant's annual report for fiscal 2025, filed with the SEC on March 11, 2026, names Myspace.com as one of the sites it owns outright through its subsidiary Myspace LLC.
+
+Viant was founded in 1999 by Tim, Chris and Russ Vanderhook, and the same brothers still run it. The Vanderhook parties hold a majority of the voting power in the company, which makes Viant a "controlled company" under Nasdaq's listing standards and lets it skip several governance requirements that apply to most public companies.
+
+MySpace is a rounding error inside that business. Viant sells a demand side platform for programmatic advertising, and its 2025 filing splits its issued patents into 35 covering the platform and its household identification technology, 15 covering Myspace.com, and 15 covering IRIS.TV. The site's main function on the balance sheet is as a legal risk, listed under a heading about liabilities arising from owning and operating it.
+
+## How MySpace went from $580 million to $35 million
+
+Rupert Murdoch's News Corporation bought MySpace in 2005 for $580 million. On June 29, 2011 it sold the site to the ad targeting firm Specific Media for $35 million in stock and cash, below the $100 million News Corp had been seeking, and held on to a stake of less than 5 percent. Specific Media's chief executive was Tim Vanderhook. Justin Timberlake joined as a co-owner and public face of the deal.
+
+The chain gets stranger after that. In 2016 Time Inc. acquired a 60 percent interest in Viant, which carried MySpace along with it. Meredith Corporation inherited that interest when it bought Time Inc. in 2018. In 2019 Viant bought the 60 percent stake back and became independent again, then completed its initial public offering on February 12, 2021.
+
+So a social network passed from a newspaper empire to an ad tech startup to a magazine publisher to another magazine publisher and back to the ad tech startup, all within fourteen years. The story of how it lost its audience before any of that happened is in the rise and fall of MySpace (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html). This is what came after.
+
+## What the 2019 server migration destroyed
+
+In March 2019 users noticed the music player had stopped working. MySpace then confirmed that roughly 50 million songs uploaded between 2003 and 2015 were gone, along with photos and videos, affecting around 14 million artists.
+
+The company's statement ran to one sentence: "As a result of a server migration project, any photos, videos, and audio files you uploaded more than three years ago may no longer be available on or from Myspace." No recovery plan came with it.
+
+Viant's own language is drier. The fiscal 2025 annual report tells investors that "as a result of a server migration project in 2019, older photo, video or audio files of some users were lost," filed under operational and performance issues.
+
+Twelve years of uploads went with it, and most of it existed nowhere else. Garage bands, bedroom demos, first mixes by producers who later got famous, all posted by people who treated a free website as permanent storage. Anyone who put a childhood into a MySpace profile or a GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html) page learned the same lesson twice: a free host owes you nothing.
+
+## Can you get an old MySpace profile back?
+
+Partly. The sign in and password reset pages still respond in September 2026, and old profile URLs still resolve, so an account tied to an email address you still control is worth an attempt.
+
+The media is a different matter. Anything uploaded before 2016 sat in the batch lost during the migration, and MySpace told users at the time there was no way to recover it.
+
+One partial rescue exists. On April 1, 2019 the Internet Archive published a collection called The Myspace Dragon Hoard (2008-2010): 490,000 MP3 files pulled off MySpace's content delivery network by an anonymous academic study between 2008 and 2010. It runs to more than 1.3 terabytes packed into 144 ZIP files, with a search and playback tool layered on top. Set against 50 million lost songs, that is roughly 1 percent.
+
+There is a security footnote too. Viant has disclosed that in 2016 it found a third-party attack in which about 360 million MySpace account email addresses, usernames and hashed passwords were taken from the old platform, all of it stolen before June 11, 2013. If that password is still in use anywhere else, change it before you go looking for your profile.
+
+## Will MySpace relaunch?
+
+The owners say yes and give no date. In a 2026 documentary about the site, Tim Vanderhook said, "We still own Myspace. We are stewards of the Myspace brand at this point, and we are going to relaunch Myspace," adding that they were waiting for the right moment to do it.
+
+They have already tried once. The brothers rebuilt the site from scratch during their ownership and have said the attempt lost a little over $150 million, because advertisers kept their budgets with Facebook and YouTube instead.
+
+The obstacles have grown since. Music licensing has to be renegotiated from zero. Myspace LLC is bound by a 2012 Federal Trade Commission consent order that requires independent privacy assessments every two years and does not expire until August 2032. And TikTok and Instagram now hold the attention that MySpace would need to win back. Nostalgia alone has not revived a dead social network yet, as Friendster (https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html) demonstrated.
+
+## Frequently Asked Questions
+
+### Can you still log in to MySpace?
+
+The sign in and password reset pages still load as of September 2026, so an account attached to an email address you still have may open. Expect an empty shell, because reporting since 2024 describes the site as read-only and every photo, video and song uploaded before 2016 was destroyed in the 2019 migration.
+
+### How much did News Corp lose on MySpace?
+
+News Corporation paid $580 million for MySpace in 2005 and sold it for $35 million in stock and cash in June 2011, a gap of $545 million before six years of operating costs are counted. It had been asking $100 million and kept a stake of under 5 percent in the buyer.
+
+### Where can I find MySpace songs that were deleted?
+
+The Internet Archive's Myspace Dragon Hoard holds 490,000 MP3 files collected from the site between 2008 and 2010, with a search tool built over the top. The files are named using MySpace's content delivery network keys, so tracking down one specific band means working through the collection's metadata file rather than searching by name.
+
+**Sources:**
+- Viant Technology Inc., Annual Report on Form 10-K for fiscal year 2025 (SEC, filed March 11, 2026): https://www.sec.gov/Archives/edgar/data/1828791/000182879126000019/dsp-20251231.htm
+- NPR: News Corp. Takes Huge Loss, Selling Myspace For $35 Million (June 29, 2011): https://www.npr.org/sections/thetwo-way/2011/06/29/137509647/news-corp-takes-huge-loss-selling-myspace-for-35-million
+- The FADER: MySpace confirms 12 years of music lost in server migration (March 18, 2019): https://www.thefader.com/2019/03/18/myspace-server-migration-loss-music
+- Internet Archive: The Myspace Dragon Hoard (2008-2010): https://archive.org/details/myspace_dragon_hoard_2010
+- Tubefilter: MySpace's owners want to bring it back. But does it belong in 2026? (August 10, 2026): https://www.tubefilter.com/2026/08/10/myspace-2026-relaunch-tim-chris-vanderhook/
+
+---
+
+# Is Kmart Still Open? The 3 Stores Left in 2026
+
+URL: https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-09-09
+Topics: Business Blunders
+
+**Summary:** Kmart is still open in 2026, but only three stores remain: a small one in Kendale Lakes, Florida, a big-box store in Tamuning, Guam, and one in Charlotte Amalie in the U.S. Virgin Islands. The chain is owned by Transform SR Brands LLC, which trades as Transformco, and the last full-size mainland store closed in Bridgehampton, New York, on October 20, 2024.
+
+**Key facts:**
+- Peak size: 2,486 stores worldwide in 1994
+- First bankruptcy: Chapter 11 on January 22, 2002, with 2,114 stores open
+- Owner today: Transform SR Brands LLC (Transformco), tied to Edward Lampert
+- Stores left: 3, in Kendale Lakes, Florida; Tamuning, Guam; and Charlotte Amalie, U.S. Virgin Islands
+- Status: Open, plus Kmart.com shipping to the 50 states and APO/FPO addresses
+
+## Is Kmart still open in 2026?
+
+Yes, barely. As of 2026 there are three Kmart stores left, and only one of them is in the 50 states.
+
+The mainland survivor is in Kendale Lakes, an area of southwest Miami. It runs out of the building's former garden center and carries a limited selection of clothing, appliances and household goods. It is a fragment of a store rather than a discount department store.
+
+The second is a big-box store in Tamuning, Guam, which opened in May 1995 and covers about 170,000 square feet. That makes the largest Kmart on earth a store most Americans will never see. The third is a big-box store in Charlotte Amalie, in the U.S. Virgin Islands, at Tutu Park Mall on St. Thomas.
+
+Kmart.com is still trading and still ships to the 50 states plus APO and FPO addresses, so for almost every American the answer to "is Kmart still open" is now a website rather than a parking lot.
+
+## Who owns Kmart now?
+
+Transform SR Brands LLC, which does business as Transformco, owns Kmart. It is privately held, so it publishes no store counts and no sales figures.
+
+Kmart got there through Edward Lampert. His hedge fund, ESL Investments, bought up a large share of Kmart's debt while the retailer was in Chapter 11, and that debt converted into control when the company came out. In February 2019 a U.S. bankruptcy judge approved the sale of the most valuable pieces of Sears Holdings to Lampert, and those assets, including 202 remaining Kmart stores, went into Transform SR Brands.
+
+Transformco has spent the years since subtracting rather than adding. Closures cut the chain to under a dozen stores by early 2022. In July 2026 its logistics arm filed a Pennsylvania layoff notice to shut a 2.2 million square foot warehouse at 1 Kresge Road in Falls Township, cutting 147 jobs, with a final day of September 16, 2026. The address is a fossil of the founding company, S. S. Kresge, incorporated in 1899.
+
+## How Kmart went from 2,486 stores to three
+
+Kmart hit its peak in 1994 with 2,486 stores worldwide. Then Walmart beat it on price, Target beat it on presentation, and the stores themselves got old.
+
+On January 22, 2002, Kmart Corporation and 37 of its U.S. subsidiaries filed voluntary Chapter 11 petitions in the U.S. Bankruptcy Court for the Northern District of Illinois, case number 02-B02474. All 2,114 Kmart stores stayed open that day, held up by a $2 billion debtor in possession financing package. The company blamed a collapse in fourth quarter sales, the evaporation of the surety bond market and a loss of supplier confidence.
+
+Chief executive Charles C. Conaway said Kmart would use the filing to "make a fresh start and reposition Kmart for the future." In 2005 Kmart and Sears (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html) merged into Sears Holdings Corporation, which filed for bankruptcy of its own in 2018. Two chains that had each been the largest retailer in America ended up losing together.
+
+## The last full-size Kmart closed on October 20, 2024
+
+The final full-size Kmart in the mainland United States stood in Bridgehampton, New York, on the east end of Long Island. It closed on October 20, 2024.
+
+The setting was odd enough to make national news. A discount chain built for the Midwest ended its mainland run in the Hamptons, in a store that had outlived more than 2,000 American Kmarts. Shoppers cleared the shelves of toys and shoes in the final weeks, and the red sign came down.
+
+What was left after that was the small Miami store, plus the stores in Guam and the U.S. Virgin Islands. That pattern is familiar from the rest of the era's big-box collapse. RadioShack (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html) and Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) both ended as brand names attached to a website and a handful of licensed outposts, and Kmart followed the same track: the logo survives the leases.
+
+## The U.S. Virgin Islands lost two Kmarts in one summer
+
+In 2024 the U.S. Virgin Islands still had three Kmart stores, more than the entire mainland. That did not last.
+
+Transform KM LLC issued a notice dated May 9, 2025, saying it would permanently cease operations at the Sunny Isle store on St. Croix, affecting about 96 employees, with severance set at one week per full year of service. The store closed in early July 2025, roughly a month ahead of what most of the staff expected. It was already the second St. Croix closure, after the Sunshine Mall store in Frederiksted shut in 2023 following about 30 years on the island.
+
+The Lockhart Gardens store on St. Thomas went next, closing on August 16, 2025 after a liquidation sale that included the fixtures. That left Tutu Park Mall as the only Kmart in the territory, and one of only three anywhere.
+
+## What happened to the Blue Light Special
+
+The Blue Light Special ran from 1965 to 1991. A rotating blue light was rolled out to a rack or a bin, a loudspeaker said "Attention, Kmart shoppers," and whatever sat under the light was cheap for a few minutes. It was a flash sale decades before anyone used that phrase.
+
+Kmart retired it in 1991 and then kept exhuming it, with revivals running as late as 2015. None of them worked, because the thing that made the original land was scarcity of information. In 1978 a shopper had no way of knowing whether $6.88 for a set of towels was a real deal. By 2015 the same shopper could check three prices on a phone while standing under the light.
+
+That, more than any single bad quarter, is what replaced Kmart. Walmart took the price position, Target took the taste position, and Amazon took the browsing. The blue light was left announcing discounts to people who could already see every price in the country.
+
+## Frequently Asked Questions
+
+### How many Kmart stores are left?
+
+Three, as of 2026. One small store in Kendale Lakes, Florida, one big-box store in Tamuning, Guam, and one big-box store in Charlotte Amalie in the U.S. Virgin Islands.
+
+### Where is the last Kmart in the United States?
+
+The last Kmart in the 50 states is in Kendale Lakes, Florida, in the Miami area. It operates out of the former garden center of a much larger Kmart and sells a narrow range of clothing, appliances and household goods. The Guam and U.S. Virgin Islands stores are in U.S. territories, not states.
+
+### Can you still shop at Kmart online?
+
+Yes. Kmart.com is still operating and ships to all 50 states plus APO and FPO addresses. For most of the country the website is the only Kmart there is.
+
+**Sources:**
+- Kmart Corporation, Form 8-K and Chapter 11 press release, January 22, 2002 (SEC EDGAR): https://www.sec.gov/Archives/edgar/data/56824/000095017202000116/s588140.txt
+- Fortune: Kmart, which once had over 2,000 locations, just closed its last major U.S. store (September 24, 2024): https://fortune.com/2024/09/24/kmart-which-once-had-over-2000-locations-just-closed-its-last-major-u-s-store/
+- VI Consortium: With Sunny Isle Closed and Lockhart Gardens Set to Follow, Tutu Park Stands as Kmart's Final Holdout in USVI (July 2025): https://viconsortium.com/vi-economy/virgin-islands-with-sunny-isle-closed-and-lockhart-gardens-set-to-follow--tutu-park-stands-as-kmart-s-final-holdout-in-usvi
+- LevittownNow: Owner Of Kmart, Sears To Close Falls Twp. Warehouse, Lay Off 147 (July 22, 2026): https://levittownnow.com/2026/07/22/owner-of-kmart-sears-to-close-falls-twp-warehouse-lay-off-147/
+- Wikipedia: Kmart (store list and corporate history): https://en.wikipedia.org/wiki/Kmart
+
+---
+
+# Is CompUSA Still Around? What Happened to the Chain
+
+URL: https://404memoryfound.com/posts/is-compusa-still-around.html
+Author: Marcus Vale (404 Memory Found)
+Published: 2026-09-09
+Topics: Hardware, Business Blunders
+
+**Summary:** CompUSA is not still around, as a store or as a website. The Dallas chain sold its last 103 stores to liquidator Gordon Brothers in December 2007, and Systemax folded the brand into TigerDirect in the fourth quarter of 2012. In 2026 the CompUSA trademarks belong to Source Brand Group, LLC and compusa.com loads an error page.
+
+**Key facts:**
+- Launched: 1984 as Soft Warehouse, Inc. in Dallas; renamed CompUSA in March 1991
+- Peak scale: 211 superstores in 42 states, $6.32 billion in net sales, fiscal 1999
+- Stores left: None. The last 103 stores were sold to a liquidator in December 2007
+- Owner today: Source Brand Group, LLC holds the live COMPUSA.COM trademark
+- What replaced it: TigerDirect, which absorbed the brand in the fourth quarter of 2012
+
+## Is CompUSA still around in 2026?
+
+No. There is no CompUSA store anywhere in the United States, and there has not been one since 2008. The chain's last 103 locations were sold in December 2007 to Specialty Equity LLC, an affiliate of the Boston restructuring firm Gordon Brothers Group, which ran store-closing sales through the holidays and emptied the buildings after.
+
+The name outlived the stores by five years. Systemax, the parent company of TigerDirect, bought the CompUSA brand and website in January 2008 and put the logo back on retail stores and an online shop. That ended in the fourth quarter of 2012, when Systemax folded its United States consumer business into the TigerDirect name and wrote the CompUSA brand off its books.
+
+Type compusa.com into a browser in 2026 and you do not reach a store. The domain resolves to a hosting error page. The CompUSA trademarks, on the other hand, are still live at the United States Patent and Trademark Office, registered to a company that does not sell computers.
+
+## How big did CompUSA actually get?
+
+Bigger than most people remember. The business started in 1984 as Soft Warehouse, Inc., was incorporated in Delaware in 1988, and operated under the Soft Warehouse name until March 1991. After that it was CompUSA, run out of offices on North Dallas Parkway in Dallas, with common stock on the New York Stock Exchange under the ticker CPU.
+
+By the close of fiscal 1999 on June 26 of that year, CompUSA ran 211 computer superstores across 42 states. Net sales for the year were $6.32 billion, up 19.6 percent from $5.29 billion the year before. That is the high-water mark in the company's own SEC filings, and it is why the chain shows up in so many first-PC stories: for a stretch in the late 1990s there was one within driving distance of most American metro areas.
+
+Some of that reach was bought rather than built. On August 31, 1998, CompUSA acquired Computer City from Tandy Corporation for roughly $175 million, taking on 96 stores in the United States. It closed 55 of them, reopened 37 as CompUSA superstores by fiscal year end, and sold seven Canadian locations to Future Shop for about $7 million. This was the same period in which Gateway (https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html) was opening its own storefronts and Best Buy was scaling nationally. Selling personal computers in a warehouse still looked like a growth industry.
+
+## What did Carlos Slim do with CompUSA?
+
+He bought it, then spent years paying for it. The Mexican financier Carlos Slim Helu took his first stake in CompUSA in 1999 and took the whole company private the next year in an $800 million buyout, which is why the detailed public filings stop after fiscal 1999.
+
+Ownership was never the problem. Margin was. PC prices fell year after year, and the profit in consumer electronics moved toward flat-panel televisions, where Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) and Best Buy were already cutting each other's prices. CompUSA cycled through several chief executives and several turnaround plans, including a late attempt to aim the stores at gadget buyers and small-business customers rather than at everyone.
+
+In the spring of 2007 the company closed more than half its stores and took a $440 million cash infusion to restructure around the ones that were left. That bought roughly nine months. By December the owner had stopped funding it.
+
+## Why did CompUSA shut down in December 2007?
+
+Because the smaller CompUSA still lost money. With 103 stores left after the spring cuts, the company was sold in December 2007 to Specialty Equity LLC, the Gordon Brothers affiliate, and those stores went straight into holiday liquidation sales rather than a Christmas selling season.
+
+Gordon Brothers is a restructuring and liquidation firm, not a retailer, and it treated CompUSA as a parts bin. It shopped individual stores in strong retail markets, the CompUSA TechPro technical-services business, and the CompUSA.com online operation as separate lots, and left it to whoever bought each piece to decide whether the CompUSA name came with it.
+
+That is what makes the ending different from the chains it competed against. There was no drawn-out Chapter 11, no reorganization plan, no fight over the whole company. A liquidator bought it in one December transaction, and the warehouse-sized stores, the same format Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-frys-electronics.html) built its business on, went dark over the following weeks.
+
+## Who owns the CompUSA name in 2026?
+
+Systemax moved first. It bought CompUSA's e-commerce business for $18.9 million in cash on January 10, 2008, then took sixteen retail store leases and their fixtures for about $11.7 million during February and March. Most of what it paid for was the name itself: $17.0 million of the purchase was booked as trademarks and trade names and $8.0 million as domain names.
+
+The revival was real for a while. The deal gave Systemax 29 retail storefronts across North America and Puerto Rico, run next to its TigerDirect business, and CompUSA-branded operations produced $63.0 million of sales in the third quarter of 2008 and $139.4 million over the first nine months of that year.
+
+Then Systemax decided one consumer brand was enough. In the fourth quarter of 2012 it concluded that its North American consumer business would work better consolidated under TigerDirect, and wrote off the intangible assets and goodwill of CompUSA and Circuit City (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) together, about $35.3 million. Systemax finished 2012 with 41 retail stores, 17 of them in Florida and 6 in Texas.
+
+The paperwork survived all of it. The COMPUSA.COM trademark, registration number 2582709, filed February 12, 1999 and registered June 18, 2002, is listed at the USPTO as live and was renewed in January 2023. The owner of record is Source Brand Group, LLC of New York. Somebody is still paying to keep the name, and nobody is selling computers with it.
+
+If you want something with the logo on it, the only supply is retail debris. Employee polo shirts with the embroidered CompUSA logo, 1990s store charge cards, plastic shelf talkers and the occasional piece of store signage turn up on Etsy (https://www.etsy.com/search?q=compusa+vintage) and at estate sales, usually from former staff or from people who cleared out a closing location. Prices move with condition and sentiment, and none of it is scarce enough to treat as an investment.
+
+## Frequently Asked Questions
+
+### When did CompUSA close?
+
+CompUSA sold its remaining 103 stores in December 2007 to Specialty Equity LLC, an affiliate of Gordon Brothers Group, and those stores ran closing sales through the holidays before shutting in 2008. More than half the chain had already closed in the spring of 2007, alongside a $440 million cash infusion that failed to turn the business around.
+
+### Did TigerDirect buy CompUSA?
+
+Systemax, which owned TigerDirect, bought CompUSA's e-commerce business for $18.9 million in January 2008 and sixteen store leases for about $11.7 million over the next two months. It ran CompUSA as a separate brand until the fourth quarter of 2012, when it consolidated its United States consumer operations under TigerDirect and wrote off roughly $35.3 million of CompUSA and Circuit City intangibles.
+
+### Does compusa.com still work?
+
+Not as a store. The address loads a hosting error page rather than a shop, and no CompUSA retail site has operated there for years. The COMPUSA.COM trademark itself is still registered and active, held by Source Brand Group, LLC and renewed in January 2023, so the name is owned rather than abandoned.
+
+**Sources:**
+- CompUSA Inc., Form 10-K for fiscal 1999, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/0000880323/000104746999035798/0001047469-99-035798.txt
+- Associated Press via NBC News, "CompUSA is sold; will close all stores," December 2007: https://www.nbcnews.com/id/wbna22153236
+- Systemax Inc., Form 10-Q for the quarter ended September 30, 2008, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/0000945114/000110465908068665/a08-25647_110q.htm
+- Systemax Inc., Form 10-K for fiscal 2012, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/945114/000114036113012535/form10k.htm
+- USPTO Trademark Status and Document Retrieval, COMPUSA.COM, Reg. No. 2582709: https://tsdr.uspto.gov/statusview/sn75639885
+
+---
+
 # Windows 95 Startup Sound: Brian Eno's 3.25 Seconds
 
 URL: https://404memoryfound.com/posts/windows-95-startup-sound-brian-eno.html
@@ -117,7 +380,7 @@ Topics: Business Blunders, Money & Tech
 
 ## Who owns Sears now?
 
-Sears is owned by Transform Holdco LLC, which does business as Transformco. It is a private company set up in 2019 by ESL Investments, the hedge fund run by Edward Lampert, who was chairman of Sears Holdings and, in its final years, its chief executive.
+Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) is owned by Transform Holdco LLC, which does business as Transformco. It is a private company set up in 2019 by ESL Investments, the hedge fund run by Edward Lampert, who was chairman of Sears Holdings and, in its final years, its chief executive.
 
 The handover happened in a courtroom. On February 7, 2019, Judge Robert Drain of the U.S. Bankruptcy Court in White Plains, New York, approved ESL's $5.2 billion bid for the salvageable parts of Sears Holdings. The sale closed on February 11, 2019.
 
@@ -1446,11 +1709,11 @@ Sega produced roughly 800,000 32X units. They sold about 665,000 of them. The re
 
 ## The Retail Experience: Walking Through Toys R Us in 1995
 
-If you were a kid in this era, the 32X experience was specific. You went to Toys R Us, you went to Babbage's, you went to Electronics Boutique, you went to Sears. You saw the 32X games on the shelf in their distinctive black-and-orange boxes. The boxes had a 32X logo that looked like a hot rod decal. There were never more than a handful of titles in stock. The same six or seven games kept reappearing. You read the back of Knuckles' Chaotix and you tried to figure out what the rubber band thing was. You looked at Doom and thought it cost $69.99 for a version of the game your friend already had on his dad's PC for free.
+If you were a kid in this era, the 32X experience was specific. You went to Toys R Us, you went to Babbage's, you went to Electronics Boutique, you went to Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html). You saw the 32X games on the shelf in their distinctive black-and-orange boxes. The boxes had a 32X logo that looked like a hot rod decal. There were never more than a handful of titles in stock. The same six or seven games kept reappearing. You read the back of Knuckles' Chaotix and you tried to figure out what the rubber band thing was. You looked at Doom and thought it cost $69.99 for a version of the game your friend already had on his dad's PC for free.
 
 You went home. You did not buy it. Most people did not buy it. The kids whose parents had bought them a 32X for Christmas 1994 were, by mid-1995, posting on early internet bulletin boards asking if they had made a mistake. Sega did not run national television advertising for the 32X in any significant volume after the first quarter of 1995. The system effectively had no marketing presence for the second half of its life.
 
-And here is the thing that really bothered people who loved Sega: the Sega Saturn (https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html), which launched six months later, also failed. The same internal chaos, the same surprise launch, the same lack of third-party support, the same difficulty in marketing, all of it followed the company forward. The 32X did not just fail on its own. It poisoned the well for everything that came after. Customers who got burned in 1994 did not come back in 1995. The 32X turned into a cautionary tale that retailers used to push back on Sega's next pitches.
+And here is the thing that really bothered people who loved Sega: the Sega Saturn, which launched six months later, also failed. The same internal chaos, the same surprise launch, the same lack of third-party support, the same difficulty in marketing, all of it followed the company forward. The 32X did not just fail on its own. It poisoned the well for everything that came after. Customers who got burned in 1994 did not come back in 1995. The 32X turned into a cautionary tale that retailers used to push back on Sega's next pitches.
 
 ## The Aftermath: Sega's Last Console
 
@@ -2053,7 +2316,7 @@ theGlobe.com is the cleanest case study of the dot-com bubble that exists. Not t
 
 The standard version of the founding goes like this. Stephan Paternot and Todd Krizelman met as freshmen at Cornell University in 1992. Both were undergraduates, both interested in the early commercial internet. In the spring of 1994, they took a computer science course and noticed something about the early web: there was no good way for ordinary people to talk to each other on it. There were Usenet groups, IRC channels, and clunky bulletin boards, but if you were a regular college student who had just gotten an internet account, there was no front door.
 
-So in the spring of 1995, with about $15,000 of seed money from friends and family, they built one. They called it theGlobe.com. The pitch was simple: a website where anyone could create a free homepage, join interest based communities, and chat with strangers across the world. Think of it as GeoCities, Yahoo Groups, and AOL chat rooms in one place, two years before any of those concepts had really crystallized.
+So in the spring of 1995, with about $15,000 of seed money from friends and family, they built one. They called it theGlobe.com. The pitch was simple: a website where anyone could create a free homepage, join interest based communities, and chat with strangers across the world. Think of it as GeoCities (https://404memoryfound.com/posts/is-myspace-still-around-today.html), Yahoo Groups, and AOL chat rooms in one place, two years before any of those concepts had really crystallized.
 
 theGlobe.com was, by 1996 and 1997 standards, a meaningful site. It had hundreds of thousands of registered users by 1997. It had advertising deals. It had press coverage. Paternot and Krizelman raised real venture money, including a $20 million Series D investment in August 1997 from Dancing Bear Investments, led by entrepreneur Michael Egan, that gave Egan a controlling stake. By 1998, the site claimed roughly 2.5 million registered members.
 
@@ -2784,7 +3047,7 @@ Author: Marcus Vale (404 Memory Found)
 Published: 2026-05-10
 Topics: Gaming, Hardware, Business Blunders
 
-Picture this. It is the fall of 1985. You are eight years old. You are walking through the toy aisle of a Sears in suburban America with your mom, and you stop in front of a display you have never seen before. There is a sleek gray plastic box that does not look like the Atari your cousin had. There is a robot called R.O.B. with glowing red eyes. There is a plastic gun shaped like a science fiction laser pistol. And there is a TV running a demo of a tiny Italian plumber jumping over a turtle to the catchiest 8-bit music you have ever heard. You stare at it for ten minutes. You drag your mom over. She squints, reads the price tag, sighs, and says, maybe for Christmas.
+Picture this. It is the fall of 1985. You are eight years old. You are walking through the toy aisle of a Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) in suburban America with your mom, and you stop in front of a display you have never seen before. There is a sleek gray plastic box that does not look like the Atari your cousin had. There is a robot called R.O.B. with glowing red eyes. There is a plastic gun shaped like a science fiction laser pistol. And there is a TV running a demo of a tiny Italian plumber jumping over a turtle to the catchiest 8-bit music you have ever heard. You stare at it for ten minutes. You drag your mom over. She squints, reads the price tag, sighs, and says, maybe for Christmas.
 
 That is the moment Nintendo had been planning for. Because two years earlier, in the fall of 1983, the entire American video game industry had collapsed in on itself. Stores were piling unsold cartridges into landfills in New Mexico. Atari, the company that had been synonymous with the word video game, was hemorrhaging hundreds of millions of dollars and getting carved up by Warner Communications. The phrase video game had become poison at retail. And here was a Japanese playing card company that nobody in middle America had heard of, walking into that wreckage and saying, we are going to sell you a console. In a recession. After the crash. With a robot.
 
@@ -3649,7 +3912,7 @@ Author: Marcus Vale (404 Memory Found)
 Published: 2026-05-07
 Topics: Gaming, Hardware
 
-Picture this. It is the fall of 1992. You are 11 years old, walking into a Sears at the Northridge Fashion Center, and there is a glass display case at the back of the electronics department with a black plastic slab the size of a paperback novel sitting next to a Sega Genesis. The sticker says $299. Your dad whistles, the way dads do when they see a price they have no intention of paying. The TV above the case is playing a game called Sewer Shark, which appears to be actual video footage of an actor screaming at you from inside what looks like a sewer. You have never seen anything like it. Neither has anyone else, because this is the Sega CD, and Sega has spent the last year telling you that this little black box is the future of video games.
+Picture this. It is the fall of 1992. You are 11 years old, walking into a Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) at the Northridge Fashion Center, and there is a glass display case at the back of the electronics department with a black plastic slab the size of a paperback novel sitting next to a Sega Genesis. The sticker says $299. Your dad whistles, the way dads do when they see a price they have no intention of paying. The TV above the case is playing a game called Sewer Shark, which appears to be actual video footage of an actor screaming at you from inside what looks like a sewer. You have never seen anything like it. Neither has anyone else, because this is the Sega CD, and Sega has spent the last year telling you that this little black box is the future of video games.
 
 It was not the future. It was, depending on who you ask, a brilliant misfire, an expensive footnote, or one of the most fascinating disasters in console history. By 1996 it was gone, less than four years after it landed. Sega never released official lifetime sales numbers, but the most commonly cited figure is around 2.24 million units worldwide. For context, the Genesis it bolted onto sold somewhere north of 30 million.
 
@@ -3797,7 +4060,7 @@ Topics: Internet Culture, Business Blunders
 
 By the end of 1990, Prodigy had 465,000 paying subscribers, the second-largest commercial online service in the United States. AOL, then transitioning out of its Quantum Computer Services days, was still much smaller, with subscriber numbers well under six figures. CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html), the elder statesman of the field, was sitting on about 600,000 and watching nervously. By 1993, Prodigy had passed CompuServe and was the largest online service in the country.
 
-By 1996, IBM and Sears, the two corporate parents who had spent more than a billion dollars building it, sold the entire operation for $200 million. Carlos Slim, the Mexican telecom billionaire, came in as a minority investor on the buyer's side. By 2001, the Prodigy brand had effectively been folded into SBC Communications and quietly retired. Today most people under 40 have never heard the name.
+By 1996, IBM and Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html), the two corporate parents who had spent more than a billion dollars building it, sold the entire operation for $200 million. Carlos Slim, the Mexican telecom billionaire, came in as a minority investor on the buyer's side. By 2001, the Prodigy brand had effectively been folded into SBC Communications and quietly retired. Today most people under 40 have never heard the name.
 
 The story of how that happened is more interesting than "AOL won." It is a story about what happens when two of the most powerful corporations in America build a product around what they think users should want, then refuse to listen when users tell them something different.
 
@@ -3955,7 +4218,7 @@ Author: Marcus Vale (404 Memory Found)
 Published: 2026-05-07
 Topics: Gaming, Hardware, Business Blunders
 
-Picture this. It is October 1993. You are wandering through the electronics section at Sears on a Saturday afternoon with your dad, and you stop dead in front of a glass display case. Behind the glass is a sleek black console you have never seen before. It looks like something out of RoboCop. The price tag taped to the front says $699.99. You read it twice, just to make sure your eyes are working. Your dad reads it. You both look at each other. That is more than a month of rent in a lot of American cities in 1993. That is a used car. That is roughly two and a half Super Nintendos with a stack of games on top. And it is the price of a single console called the 3DO Interactive Multiplayer.
+Picture this. It is October 1993. You are wandering through the electronics section at Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) on a Saturday afternoon with your dad, and you stop dead in front of a glass display case. Behind the glass is a sleek black console you have never seen before. It looks like something out of RoboCop. The price tag taped to the front says $699.99. You read it twice, just to make sure your eyes are working. Your dad reads it. You both look at each other. That is more than a month of rent in a lot of American cities in 1993. That is a used car. That is roughly two and a half Super Nintendos with a stack of games on top. And it is the price of a single console called the 3DO Interactive Multiplayer.
 
 If you were a kid in the early 1990s, you probably saw a 3DO at some point. Maybe at a Babbage's. Maybe at an Electronics Boutique. Maybe in a magazine ad with the tagline about being twice as fast as anything else. And then one day, almost overnight, it was gone. Pulled from shelves. Quietly forgotten. By 1996, the company was out of the hardware business entirely.
 
@@ -4079,7 +4342,7 @@ Topics: Software & Apps, Business Blunders, Then vs Now
 
 Microsoft Bob shipped on March 11, 1995, retailed for $99, and sold an estimated 58,000 copies during its entire commercial life. For context, that is fewer copies than a moderately successful Steam indie game sells in its first weekend today. Bob was discontinued by early 1996. PC World later named it the seventh worst tech product of all time. Time magazine put it on its list of the 50 worst inventions in human history, alongside hydrogen blimps and asbestos.
 
-None of which would matter much, except that Microsoft Bob was not a side project from a forgotten division. It was a flagship consumer release. It was personally championed by Bill Gates. It had a marketing budget that included a Murphy Brown crossover, a Sears tie-in, and a media blitz that declared March 31, 1995, to be Microsoft Bob Day. And it was managed by a young woman named Melinda French who, three months earlier, had married the CEO of Microsoft.
+None of which would matter much, except that Microsoft Bob was not a side project from a forgotten division. It was a flagship consumer release. It was personally championed by Bill Gates. It had a marketing budget that included a Murphy Brown crossover, a Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) tie-in, and a media blitz that declared March 31, 1995, to be Microsoft Bob Day. And it was managed by a young woman named Melinda French who, three months earlier, had married the CEO of Microsoft.
 
 So how does a product like that ship, fail, and get pulled from shelves in under twelve months? The short answer is that Microsoft Bob got almost everything wrong about how regular humans actually use computers. The longer answer is more interesting, because it gets at a question that the entire tech industry was asking in 1995, and that we are still arguing about thirty years later: what does a friendly computer actually look like?
 
@@ -4132,7 +4395,7 @@ Microsoft pulled Bob from active production in early 1996, less than a year afte
 
 Bob did not totally die. Pieces of it migrated into other Microsoft products, sometimes in ways that became famous on their own.
 
-The most direct descendant was Office Assistant, which shipped with Office 97. The animated paper clip named Clippy (https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html), the Einstein character, the cat, the dog, all of those animated guides were direct descendants of the Microsoft Bob assistant concept. Clippy was Karen Fries' work refined into a more constrained form. Inside Office, where the user already knew what they were trying to do, the animated guide was less intrusive. It was still annoying enough to become an internet joke for the next twenty-five years, but it sold tens of millions of copies attached to Office, which is more than Bob ever managed on its own.
+The most direct descendant was Office Assistant, which shipped with Office 97. The animated paper clip named Clippy, the Einstein character, the cat, the dog, all of those animated guides were direct descendants of the Microsoft Bob assistant concept. Clippy was Karen Fries' work refined into a more constrained form. Inside Office, where the user already knew what they were trying to do, the animated guide was less intrusive. It was still annoying enough to become an internet joke for the next twenty-five years, but it sold tens of millions of copies attached to Office, which is more than Bob ever managed on its own.
 
 Rover the dog showed up again in Windows XP, released in October 2001. The XP search companion feature, the cute animated yellow dog that walked across the screen while you searched your file system, was Rover from Microsoft Bob. Microsoft had quietly preserved the character and brought him back when the search interface needed a friendly face. Rover lived in XP for years, was disabled by most users immediately, and was finally killed off in Windows Vista in 2007.
 
@@ -4313,7 +4576,7 @@ Topics: Internet Culture, Software & Apps
 
 In 2005, Xanga had roughly 27 million registered user accounts. For a platform most people over 30 have never heard of, that number tends to surprise. For context, Facebook, which had launched just one year earlier, had about 5.5 million users at the same point. MySpace had more, sure. But Xanga was not trying to be MySpace. Xanga was something quieter, stranger, and in many ways more personal. It was where a generation of teenagers learned to write online, to publish their thoughts for strangers, and to discover that the internet could be a diary that talked back.
 
-Then it disappeared. Not in a dramatic flameout like Friendster (https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html), or a slow public decline like MySpace. Xanga just sort of evaporated, one server at a time, until the platform that had hosted millions of teenage confessions, song lyrics, and late-night emotional posts simply stopped existing in any meaningful way.
+Then it disappeared. Not in a dramatic flameout like Friendster (https://404memoryfound.com/posts/is-myspace-still-around-today.html), or a slow public decline like MySpace. Xanga just sort of evaporated, one server at a time, until the platform that had hosted millions of teenage confessions, song lyrics, and late-night emotional posts simply stopped existing in any meaningful way.
 
 The real story of what happened to Xanga is more interesting than "Facebook killed it." It involves a $1 million federal fine, a business model that never quite worked, a last-ditch crowdfunding campaign, and a fundamental misunderstanding of what users actually wanted.
 
@@ -5066,7 +5329,7 @@ The iMac design process started in late 1997. Ive and his team began with a clea
 
 ## Bondi Blue and the Death of Beige
 
-Every personal computer in 1998 was beige. Or light gray. Or off-white. This is not an exaggeration. Walk into any CompUSA, any Circuit City (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html), any Best Buy in the spring of 1998 and you were looking at rows of identical putty-colored boxes. Dell, Compaq, HP, Gateway: they all looked like they came out of the same factory, because functionally, they did. Industrial design in the PC industry at that point meant deciding where to put the power button.
+Every personal computer in 1998 was beige. Or light gray. Or off-white. This is not an exaggeration. Walk into any CompUSA, any Circuit City (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html), any Best Buy in the spring of 1998 and you were looking at rows of identical putty-colored boxes. Dell, Compaq, HP, Gateway: they all looked like they came out of the same factory, because functionally, they did. Industrial design in the PC industry at that point meant deciding where to put the power button.
 
 Ive's team went in the opposite direction entirely. The iMac G3 was egg-shaped, or more precisely, a teardrop. The case was made of translucent polycarbonate plastic, colored in a shade Ive called "Bondi Blue" after the Australian beach. The inspiration came from a piece of beach glass someone on the team brought to the office during early design meetings. The team experimented with solid plastic first, but it looked cheap. Translucent plastic, with the internal components visible as shadowy shapes behind the colored shell, created something that felt alive.
 
@@ -5806,7 +6069,7 @@ The acquisition also fit Microsoft's broader strategy of controlling the platfor
 
 Under Microsoft's ownership, WebTV grew. The subscriber base expanded from approximately 150,000 at acquisition to around 800,000 by mid-1999. It peaked near 1.1 million subscribers in the early 2000s. A second-generation product, WebTV Plus, launched in 1998 with enhanced features and a monthly subscription of $24.95 (the original Classic service remained at $19.95).
 
-Those numbers sound reasonable until you compare them to what was happening in the broader market. By 2000, more than half of American households had a computer, and internet penetration was climbing rapidly. The price of a basic desktop computer had dropped below $1,000. Dell was selling machines directly to consumers online. Gateway (https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html) was shipping computers in cow-spotted boxes to suburban doorsteps. America Online was carpet-bombing the country with free trial CDs, making internet setup as simple as inserting a disc.
+Those numbers sound reasonable until you compare them to what was happening in the broader market. By 2000, more than half of American households had a computer, and internet penetration was climbing rapidly. The price of a basic desktop computer had dropped below $1,000. Dell was selling machines directly to consumers online. Gateway (https://404memoryfound.com/posts/is-compusa-still-around.html) was shipping computers in cow-spotted boxes to suburban doorsteps. America Online was carpet-bombing the country with free trial CDs, making internet setup as simple as inserting a disc.
 
 The fundamental assumption behind WebTV, that most people would never buy a computer, was being disproven in real time. Computers weren't getting simpler, exactly. But they were getting cheaper, faster, and more necessary. Email was becoming essential for work. Kids needed computers for school. The web was evolving from a novelty into a utility. And a utility that ran on a dial-up connection through a television screen, with no ability to run software, download files, or do anything beyond basic browsing and email, started to feel limiting.
 
@@ -8559,7 +8822,7 @@ And you know what? They were right.
   
   
 
-I was seven years old when Windows 95 came out. I didn't fully understand what was happening, but I remember my dad talking about it like it was a moon landing. He worked the floor at Circuit City (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html), so he was on the front lines. He told me later that the store opened at midnight and there was a line wrapped around the building. For software. In a box. That cost $209.
+I was seven years old when Windows 95 came out. I didn't fully understand what was happening, but I remember my dad talking about it like it was a moon landing. He worked the floor at Circuit City (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html), so he was on the front lines. He told me later that the store opened at midnight and there was a line wrapped around the building. For software. In a box. That cost $209.
 
 But here's the thing. Windows 95 wasn't just software. It was a cultural moment. And to understand why people lost their minds over it, you have to understand what came before.
 
@@ -8776,7 +9039,7 @@ In fiscal year 1993, Commodore reported a loss of $357 million. That's not a typ
 
 On April 26, 1994, Commodore shut down its Amiga division. Three days later, on April 29, the company filed for voluntary liquidation in the Bahamas, where it was incorporated. It was not acquired. It was not restructured. It simply ceased to exist.
 
-The brand and technology were eventually purchased at auction by a German company called Escom in April 1995 for approximately $14 million. To put that in perspective, Commodore's annual revenue had been over $1 billion at its peak in the late 1980s. Escom itself went bankrupt the following year, and the Commodore assets passed through several more owners over the next decade, including Gateway (https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html) 2000 (which bought the Amiga technology in 1997) and various smaller companies that licensed the name without ever producing anything significant.
+The brand and technology were eventually purchased at auction by a German company called Escom in April 1995 for approximately $14 million. To put that in perspective, Commodore's annual revenue had been over $1 billion at its peak in the late 1980s. Escom itself went bankrupt the following year, and the Commodore assets passed through several more owners over the next decade, including Gateway (https://404memoryfound.com/posts/is-compusa-still-around.html) 2000 (which bought the Amiga technology in 1997) and various smaller companies that licensed the name without ever producing anything significant.
 
 ## Why Commodore Matters More Than You Think
 
@@ -10499,7 +10762,7 @@ On launch day in America, first-day sales exceeded $250 million. That was more t
 
 Here is the thing that people forget about the PS2's dominance: a huge percentage of early buyers weren't even buying it primarily as a game console. They were buying it as a DVD player.
 
-In 2000, standalone DVD players still cost between $400 and $700. The PlayStation 2 cost $299 and played DVDs out of the box. Do the math. You could get a machine that played every DVD on the market AND every PlayStation game, for less than the cheapest dedicated DVD player at Circuit City (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html). For a lot of families, the PS2 was their first DVD player, period.
+In 2000, standalone DVD players still cost between $400 and $700. The PlayStation 2 cost $299 and played DVDs out of the box. Do the math. You could get a machine that played every DVD on the market AND every PlayStation game, for less than the cheapest dedicated DVD player at Circuit City (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html). For a lot of families, the PS2 was their first DVD player, period.
 
 This was Ken Kutaragi's master stroke. Kutaragi, known as the "Father of PlayStation," had designed the console from the ground up to be more than a gaming machine. He wanted it to be the center of the living room. And the DVD strategy worked so well that analysts estimated the PS2's presence in homes drove a 250% surge in DVD sales across the industry. Movie studios loved it. Retailers loved it. Everyone who sold DVDs suddenly had millions of new customers who had bought a game console.
 
@@ -10632,7 +10895,7 @@ The pricing model reflected the era. CompuServe charged by the hour. Basic servi
 
 ## The Big Three and the Coming Storm
 
-By 1994, the online services landscape had settled into what journalists called "the Big Three": CompuServe, Prodigy (https://404memoryfound.com/posts/what-happened-to-prodigy-online-service.html), and America Online. CompuServe was the oldest and most technically sophisticated. Prodigy, backed by IBM and Sears, had a graphical interface and targeted families. AOL, run by Steve Case, was the most aggressively consumer-friendly, with a simplified interface and flat-rate pricing.
+By 1994, the online services landscape had settled into what journalists called "the Big Three": CompuServe, Prodigy (https://404memoryfound.com/posts/what-happened-to-prodigy-online-service.html), and America Online. CompuServe was the oldest and most technically sophisticated. Prodigy, backed by IBM and Sears (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html), had a graphical interface and targeted families. AOL, run by Steve Case, was the most aggressively consumer-friendly, with a simplified interface and flat-rate pricing.
 
 Here is where CompuServe's strengths became weaknesses. CompuServe's user base was older, more technical, and more willing to pay for quality content. AOL's user base was everyone else, which turned out to be a much larger market. While CompuServe was perfecting its forum structures and professional databases, AOL was flooding every mailbox in America with free trial discs. At one point in the mid-1990s, AOL was producing so many trial CDs that they accounted for roughly half of all CDs manufactured worldwide. That statistic might sound apocryphal, but AOL's own executives have confirmed it.
 
@@ -10704,7 +10967,7 @@ Picture this: 1985, Sioux City, Iowa. Not exactly Silicon Valley. Not even close
 
 Most people would have laughed him out of the room. The personal computer industry in 1985 was dominated by massive corporations with massive retail networks. IBM had their way of doing things. Apple had theirs. You wanted a computer, you went to a computer store. You didn't order one over the phone like you were buying a pizza. You certainly didn't order one from some kids running operations out of farm country.
 
-But here's the thing: Ted Waitt and Mike Hammond weren't trying to play the game everyone else was playing. They were going to do something that seemed genuinely insane at the time, and it was going to change how people bought computers forever. Gateway 2000 wasn't just a computer company. It was a direct-to-consumer revolution wrapped up in one of the most iconic packaging decisions in tech history: black and white spotted boxes that looked like Holstein cow hides.
+But here's the thing: Ted Waitt and Mike Hammond weren't trying to play the game everyone else was playing. They were going to do something that seemed genuinely insane at the time, and it was going to change how people bought computers forever. Gateway (https://404memoryfound.com/posts/is-compusa-still-around.html) 2000 wasn't just a computer company. It was a direct-to-consumer revolution wrapped up in one of the most iconic packaging decisions in tech history: black and white spotted boxes that looked like Holstein cow hides.
 
 ## The Ranch, The Idea, The Cow Box
 
@@ -12117,7 +12380,7 @@ Author: Marcus Vale (404 Memory Found)
 Published: 2026-03-31
 Topics: Hardware, Business Blunders
 
-Picture this: it's a Saturday morning in 1998. You're twelve years old. Your dad just got paid, and he's got that look on his face, the one that means you're about to go somewhere good. He grabs his keys, you grab your jacket, and twenty minutes later you're standing in front of a Circuit City (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html). The red-and-white logo glowing above you. The automatic doors sliding open. And inside, rows and rows of televisions, all tuned to the same channel, playing the same football game in slightly different shades of color.
+Picture this: it's a Saturday morning in 1998. You're twelve years old. Your dad just got paid, and he's got that look on his face, the one that means you're about to go somewhere good. He grabs his keys, you grab your jacket, and twenty minutes later you're standing in front of a Circuit City (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html). The red-and-white logo glowing above you. The automatic doors sliding open. And inside, rows and rows of televisions, all tuned to the same channel, playing the same football game in slightly different shades of color.
 
 That was the magic of Circuit City. It wasn't just a store. It was an event. A destination. You went there the way some families went to church: on a schedule, with reverence, and usually with the intention of spending money you probably shouldn't have been spending.
 
@@ -12862,7 +13125,7 @@ Topics: Hardware, Business Blunders
 
 ## Is RadioShack still in business in 2026?
 
-RadioShack (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html) still exists, but almost nothing about it matches the chain Americans grew up with. The name, the website and the product line belong to Unicomer Group, a retailer based in El Salvador that bought the global brand in May 2023.
+RadioShack (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) still exists, but almost nothing about it matches the chain Americans grew up with. The name, the website and the product line belong to Unicomer Group, a retailer based in El Salvador that bought the global brand in May 2023.
 
 There is no RadioShack chain left to walk into in the United States. What exists is radioshack.com, a wholesale operation that sells into other retailers, and a network of independent stores licensed to hang the sign.
 
@@ -12948,7 +13211,7 @@ Author: Dana Reyes (404 Memory Found)
 Published: 2026-03-30
 Topics: Internet Culture, Business Blunders
 
-In 2003, a Canadian programmer named Jonathan Abrams turned down $30 million from Google. Not because the offer was insulting. Because he thought Friendster would be worth much more.
+In 2003, a Canadian programmer named Jonathan Abrams turned down $30 million from Google. Not because the offer was insulting. Because he thought Friendster (https://404memoryfound.com/posts/is-myspace-still-around-today.html) would be worth much more.
 
 He was wrong. Twelve years later, Friendster would shut down quietly, its servers dark, its millions of user profiles deleted as though they'd never existed. The most ambitious social network of the early web simply ceased to be.
 
@@ -13136,7 +13399,7 @@ Topics: Hardware, Business Blunders
 
 Picture this: 2003. You're twelve years old. Your dad pulls into a parking lot somewhere in the San Fernando Valley, and the building in front of you looks like a crashed alien spaceship. Not metaphorically. There is a literal spaceship crashing through the facade of a building. Smoke effects. Metal panels. Rivets. The whole thing. And your dad just casually goes, "Let's grab some RAM," like this is a normal Saturday.
 
-That was Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html). That was the experience. And if you grew up anywhere near Silicon Valley, Southern California, or Texas in the '90s and 2000s, you know exactly what I'm talking about. Fry's wasn't just a store. It was an event. It was a pilgrimage. It was the kind of place where you'd go in for a USB cable and walk out three hours later with a motherboard, a bag of beef jerky, a magazine about Linux, and somehow a lava lamp. The place was chaos, and it was beautiful.
+That was Fry's Electronics (https://404memoryfound.com/posts/is-compusa-still-around.html). That was the experience. And if you grew up anywhere near Silicon Valley, Southern California, or Texas in the '90s and 2000s, you know exactly what I'm talking about. Fry's wasn't just a store. It was an event. It was a pilgrimage. It was the kind of place where you'd go in for a USB cable and walk out three hours later with a motherboard, a bag of beef jerky, a magazine about Linux, and somehow a lava lamp. The place was chaos, and it was beautiful.
 
   
   
@@ -14139,7 +14402,7 @@ Philip Rosedale founded Linden Lab in 1999 in San Francisco with an unusual plan
 
 So they pivoted. Instead of hardware, they would build software — a massively multiplayer online (https://404memoryfound.com/#/post/first-online-purchase-pizza) world that could run on standard consumer computers. The result, in development for years, finally emerged on June 23, 2003, as Second Life.
 
-This date matters. It was three years before Twitter even existed, a year before Gmail was released, and two years before YouTube launched. The modern internet as we know it had not yet crystallized. Friendster (https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html) was the hottest social networking site, and MySpace had not yet launched. The concept of a persistent, user-generated digital world was so foreign to mainstream thinking that Linden Lab had to work hard just to explain what Second Life was. It was not a game, the company insisted. There was no winning, no losing, no leveling system, no manufactured conflict. It was, instead, a space — a canvas upon which people could project their creativity, their commerce, their community.
+This date matters. It was three years before Twitter even existed, a year before Gmail was released, and two years before YouTube launched. The modern internet as we know it had not yet crystallized. Friendster (https://404memoryfound.com/posts/is-myspace-still-around-today.html) was the hottest social networking site, and MySpace had not yet launched. The concept of a persistent, user-generated digital world was so foreign to mainstream thinking that Linden Lab had to work hard just to explain what Second Life was. It was not a game, the company insisted. There was no winning, no losing, no leveling system, no manufactured conflict. It was, instead, a space — a canvas upon which people could project their creativity, their commerce, their community.
 
 ## The Platform That Defied Easy Explanation
 
@@ -14672,7 +14935,7 @@ The rise and fall of MySpace is one of the most dramatic stories in internet (ht
 
 ## How MySpace Became the Biggest Social Network on Earth
 
-MySpace was founded in August 2003 by Tom Anderson and Chris DeWolfe, who worked at an internet marketing company called eUniverse. They saw Friendster (https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html) — one of the first social networks — struggling with technical issues and user frustrations, and they figured they could do it better. And they were right.
+MySpace was founded in August 2003 by Tom Anderson and Chris DeWolfe, who worked at an internet marketing company called eUniverse. They saw Friendster (https://404memoryfound.com/posts/is-myspace-still-around-today.html) — one of the first social networks — struggling with technical issues and user frustrations, and they figured they could do it better. And they were right.
 
 What made MySpace special wasn't just that it was a social network — it was that it let you be creative. You could customize your profile page with HTML and CSS code. You could change your background, add music players, embed videos, and basically turn your profile into a personal website. Was it often ugly? Absolutely. Were there profiles with auto-playing music, glittery cursors, and eye-searing color combinations? You bet. But that was the charm. Your MySpace page was yours in a way that no social platform before or since has really replicated.
 
@@ -15772,7 +16035,7 @@ Author: Dana Reyes (404 Memory Found)
 Published: 2026-03-23
 Topics: Internet Culture, Then vs Now
 
-Before WordPress, before Squarespace, before you could spin up a website in thirty seconds with AI — there was GeoCities. And it was glorious.
+Before WordPress, before Squarespace, before you could spin up a website in thirty seconds with AI — there was GeoCities (https://404memoryfound.com/posts/is-myspace-still-around-today.html). And it was glorious.
 
 If you were online (https://404memoryfound.com/#/post/first-online-purchase-pizza) in the late 1990s, there's a solid chance you either had a GeoCities page or spent way too long browsing someone else's. It was the platform that turned millions of ordinary people into "webmasters" for the first time. Animated GIFs, auto-playing MIDI files, neon text on black backgrounds, guestbooks nobody signed, and "Under Construction" banners on pages that would never actually be finished. That was the GeoCities experience, and honestly? It was beautiful.
 

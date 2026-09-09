@@ -1142,6 +1142,15 @@
   "thumb": "/img/thumb/blackberry-curve-8520-6daecf.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CompUSA_Santa_Clara_2.jpg/960px-CompUSA_Santa_Clara_2.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:CompUSA_Santa_Clara_2.jpg",
+  "ext": "jpg",
+  "file": "/img/compusa-santa-clara-2-49131d.jpg",
+  "height": 535,
+  "status": "ok",
+  "thumb": "/img/thumb/compusa-santa-clara-2-49131d.jpg",
+  "width": 960
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Netscape_Navigator_2_Screenshot.png/960px-Netscape_Navigator_2_Screenshot.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Netscape_Navigator_2_Screenshot.png",
   "ext": "jpg",
@@ -1625,6 +1634,15 @@
   "thumb": "/img/thumb/xbox-console-wduke-l-6d58e1.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Rupert_Murdoch_Wendi_Deng.jpg/960px-Rupert_Murdoch_Wendi_Deng.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_Wendi_Deng.jpg",
+  "ext": "jpg",
+  "file": "/img/rupert-murdoch-wendi-deng-41aadf.jpg",
+  "height": 626,
+  "status": "ok",
+  "thumb": "/img/thumb/rupert-murdoch-wendi-deng-41aadf.jpg",
+  "width": 960
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Furby_store.jpg/960px-Furby_store.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Furby_store.jpg",
   "ext": "jpg",
@@ -1716,6 +1734,15 @@
   "height": 640,
   "status": "ok",
   "thumb": "/img/thumb/iridium-satellite-ae29d2.jpg",
+  "width": 960
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg/960px-Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg",
+  "ext": "jpg",
+  "file": "/img/kmart-bridgehampton-ny-38-53493436922-7542f4.jpg",
+  "height": 432,
+  "status": "ok",
+  "thumb": "/img/thumb/kmart-bridgehampton-ny-38-53493436922-7542f4.jpg",
   "width": 960
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Baker_Hall_(Carnegie_Mellon_University)_-_IMG_7859.JPG/960px-Baker_Hall_(Carnegie_Mellon_University)_-_IMG_7859.JPG": {

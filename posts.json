@@ -1,6 +1,235 @@
 {
   "posts": [
     {
+      "id": "is-myspace-still-around-today",
+      "title": "Is MySpace Still Around? What Is Left of the Site",
+      "date": "2026-09-09",
+      "author": "dana",
+      "tags": [
+        "Internet Culture"
+      ],
+      "excerpt": "Is MySpace still around? Yes, myspace.com is online in 2026 and owned by Viant Technology. But a 2019 server migration erased 50 million songs.",
+      "summary": "MySpace is still around in 2026, but not as a social network. myspace.com is online as a music news site owned by Viant Technology Inc., the Nasdaq-listed ad tech company run by the Vanderhook brothers, and reporting since 2024 describes it as read-only. About 50 million songs uploaded before 2016 were destroyed in a 2019 server migration and never came back.",
+      "facts": [
+        {
+          "label": "Status today",
+          "value": "Online at myspace.com, reported read-only since 2024"
+        },
+        {
+          "label": "Owner today",
+          "value": "Viant Technology Inc. (Nasdaq: DSP), Irvine, California"
+        },
+        {
+          "label": "Bought for",
+          "value": "$580 million by News Corporation in 2005"
+        },
+        {
+          "label": "Sold for",
+          "value": "$35 million to Specific Media in June 2011"
+        },
+        {
+          "label": "Music lost",
+          "value": "About 50 million songs in the 2019 server migration"
+        }
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Rupert_Murdoch_Wendi_Deng.jpg/960px-Rupert_Murdoch_Wendi_Deng.jpg",
+      "imageAlt": "Rupert Murdoch and Wendi Deng standing with MySpace co-founders Tom Anderson and Chris DeWolfe at a 2006 charity event",
+      "imageCaption": "News Corp chief Rupert Murdoch with Wendi Deng and MySpace co-founders Tom Anderson and Chris DeWolfe at the Oxfam and MySpace Rock for Darfur event in October 2006, roughly a year after News Corp paid $580 million for the site. Photo: Oxfam America, CC BY 2.0.",
+      "imageSearch": [],
+      "body": "<h2>Is MySpace still around in 2026?</h2>\n<p>Yes. myspace.com loads, and on September 8, 2026 the front page was still publishing music news, including a piece on Stevie Wonder touring an album for its fiftieth anniversary. Those articles carry a SPIN byline rather than anything written by a MySpace newsroom.</p>\n<p>What is gone is the social network. Reporting through August 2026 describes the site as read-only, which means old pages render but nothing new gets posted to them. Tom Anderson's profile, the automatic first friend for a whole generation of American teenagers, still sits at myspace.com/tom with its counters for photos, videos, mixes and connections intact.</p>\n<p>The footer on the homepage still reads \"&copy; 2014 Myspace LLC.\" Nothing sums up the level of attention the front end has had since then more efficiently than that.</p>\n<h2>Who owns MySpace now?</h2>\n<p>Viant Technology Inc., an advertising technology company listed on Nasdaq under the ticker DSP, with offices on Michelson Drive in Irvine, California. Viant's annual report for fiscal 2025, filed with the SEC on March 11, 2026, names Myspace.com as one of the sites it owns outright through its subsidiary Myspace LLC.</p>\n<p>Viant was founded in 1999 by Tim, Chris and Russ Vanderhook, and the same brothers still run it. The Vanderhook parties hold a majority of the voting power in the company, which makes Viant a \"controlled company\" under Nasdaq's listing standards and lets it skip several governance requirements that apply to most public companies.</p>\n<p>MySpace is a rounding error inside that business. Viant sells a demand side platform for programmatic advertising, and its 2025 filing splits its issued patents into 35 covering the platform and its household identification technology, 15 covering Myspace.com, and 15 covering IRIS.TV. The site's main function on the balance sheet is as a legal risk, listed under a heading about liabilities arising from owning and operating it.</p>\n<h2>How MySpace went from $580 million to $35 million</h2>\n<p>Rupert Murdoch's News Corporation bought MySpace in 2005 for $580 million. On June 29, 2011 it sold the site to the ad targeting firm Specific Media for $35 million in stock and cash, below the $100 million News Corp had been seeking, and held on to a stake of less than 5 percent. Specific Media's chief executive was Tim Vanderhook. Justin Timberlake joined as a co-owner and public face of the deal.</p>\n<p>The chain gets stranger after that. In 2016 Time Inc. acquired a 60 percent interest in Viant, which carried MySpace along with it. Meredith Corporation inherited that interest when it bought Time Inc. in 2018. In 2019 Viant bought the 60 percent stake back and became independent again, then completed its initial public offering on February 12, 2021.</p>\n<p>So a social network passed from a newspaper empire to an ad tech startup to a magazine publisher to another magazine publisher and back to the ad tech startup, all within fourteen years. The story of how it lost its audience before any of that happened is in <a href=\"/posts/rise-and-fall-of-myspace.html\">the rise and fall of MySpace</a>. This is what came after.</p>\n<h2>What the 2019 server migration destroyed</h2>\n<p>In March 2019 users noticed the music player had stopped working. MySpace then confirmed that roughly 50 million songs uploaded between 2003 and 2015 were gone, along with photos and videos, affecting around 14 million artists.</p>\n<p>The company's statement ran to one sentence: \"As a result of a server migration project, any photos, videos, and audio files you uploaded more than three years ago may no longer be available on or from Myspace.\" No recovery plan came with it.</p>\n<p>Viant's own language is drier. The fiscal 2025 annual report tells investors that \"as a result of a server migration project in 2019, older photo, video or audio files of some users were lost,\" filed under operational and performance issues.</p>\n<p>Twelve years of uploads went with it, and most of it existed nowhere else. Garage bands, bedroom demos, first mixes by producers who later got famous, all posted by people who treated a free website as permanent storage. Anyone who put a childhood into a MySpace profile or a <a href=\"/posts/history-of-geocities-websites.html\">GeoCities</a> page learned the same lesson twice: a free host owes you nothing.</p>\n<h2>Can you get an old MySpace profile back?</h2>\n<p>Partly. The sign in and password reset pages still respond in September 2026, and old profile URLs still resolve, so an account tied to an email address you still control is worth an attempt.</p>\n<p>The media is a different matter. Anything uploaded before 2016 sat in the batch lost during the migration, and MySpace told users at the time there was no way to recover it.</p>\n<p>One partial rescue exists. On April 1, 2019 the Internet Archive published a collection called The Myspace Dragon Hoard (2008-2010): 490,000 MP3 files pulled off MySpace's content delivery network by an anonymous academic study between 2008 and 2010. It runs to more than 1.3 terabytes packed into 144 ZIP files, with a search and playback tool layered on top. Set against 50 million lost songs, that is roughly 1 percent.</p>\n<p>There is a security footnote too. Viant has disclosed that in 2016 it found a third-party attack in which about 360 million MySpace account email addresses, usernames and hashed passwords were taken from the old platform, all of it stolen before June 11, 2013. If that password is still in use anywhere else, change it before you go looking for your profile.</p>\n<h2>Will MySpace relaunch?</h2>\n<p>The owners say yes and give no date. In a 2026 documentary about the site, Tim Vanderhook said, \"We still own Myspace. We are stewards of the Myspace brand at this point, and we are going to relaunch Myspace,\" adding that they were waiting for the right moment to do it.</p>\n<p>They have already tried once. The brothers rebuilt the site from scratch during their ownership and have said the attempt lost a little over $150 million, because advertisers kept their budgets with Facebook and YouTube instead.</p>\n<p>The obstacles have grown since. Music licensing has to be renegotiated from zero. Myspace LLC is bound by a 2012 Federal Trade Commission consent order that requires independent privacy assessments every two years and does not expire until August 2032. And TikTok and Instagram now hold the attention that MySpace would need to win back. Nostalgia alone has not revived a dead social network yet, as <a href=\"/posts/what-happened-to-friendster-social-network.html\">Friendster</a> demonstrated.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>Can you still log in to MySpace?</h3>\n<p>The sign in and password reset pages still load as of September 2026, so an account attached to an email address you still have may open. Expect an empty shell, because reporting since 2024 describes the site as read-only and every photo, video and song uploaded before 2016 was destroyed in the 2019 migration.</p>\n<h3>How much did News Corp lose on MySpace?</h3>\n<p>News Corporation paid $580 million for MySpace in 2005 and sold it for $35 million in stock and cash in June 2011, a gap of $545 million before six years of operating costs are counted. It had been asking $100 million and kept a stake of under 5 percent in the buyer.</p>\n<h3>Where can I find MySpace songs that were deleted?</h3>\n<p>The Internet Archive's Myspace Dragon Hoard holds 490,000 MP3 files collected from the site between 2008 and 2010, with a search tool built over the top. The files are named using MySpace's content delivery network keys, so tracking down one specific band means working through the collection's metadata file rather than searching by name.</p>",
+      "sources": [
+        {
+          "title": "Viant Technology Inc., Annual Report on Form 10-K for fiscal year 2025 (SEC, filed March 11, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1828791/000182879126000019/dsp-20251231.htm"
+        },
+        {
+          "title": "NPR: News Corp. Takes Huge Loss, Selling Myspace For $35 Million (June 29, 2011)",
+          "url": "https://www.npr.org/sections/thetwo-way/2011/06/29/137509647/news-corp-takes-huge-loss-selling-myspace-for-35-million"
+        },
+        {
+          "title": "The FADER: MySpace confirms 12 years of music lost in server migration (March 18, 2019)",
+          "url": "https://www.thefader.com/2019/03/18/myspace-server-migration-loss-music"
+        },
+        {
+          "title": "Internet Archive: The Myspace Dragon Hoard (2008-2010)",
+          "url": "https://archive.org/details/myspace_dragon_hoard_2010"
+        },
+        {
+          "title": "Tubefilter: MySpace's owners want to bring it back. But does it belong in 2026? (August 10, 2026)",
+          "url": "https://www.tubefilter.com/2026/08/10/myspace-2026-relaunch-tim-chris-vanderhook/"
+        }
+      ],
+      "linkPhrases": [
+        "the rise and fall of MySpace",
+        "GeoCities",
+        "Friendster"
+      ],
+      "seo": {
+        "title": "Is MySpace Still Around? What Is Left of the Site | 404 Memory Found",
+        "description": "Is MySpace still around? Yes, myspace.com is online in 2026 and owned by Viant Technology. But a 2019 server migration erased 50 million songs.",
+        "keywords": [
+          "is myspace still around",
+          "does myspace still exist",
+          "who owns myspace",
+          "myspace lost music 2019",
+          "myspace 2026"
+        ]
+      }
+    },
+    {
+      "id": "is-kmart-still-open-stores-left",
+      "title": "Is Kmart Still Open? The 3 Stores Left in 2026",
+      "date": "2026-09-09",
+      "author": "dana",
+      "tags": [
+        "Business Blunders"
+      ],
+      "excerpt": "Is Kmart still open in 2026? Yes, but only three stores are left: Miami, Guam and St. Thomas. It had 2,114 the day it filed for bankruptcy.",
+      "summary": "Kmart is still open in 2026, but only three stores remain: a small one in Kendale Lakes, Florida, a big-box store in Tamuning, Guam, and one in Charlotte Amalie in the U.S. Virgin Islands. The chain is owned by Transform SR Brands LLC, which trades as Transformco, and the last full-size mainland store closed in Bridgehampton, New York, on October 20, 2024.",
+      "facts": [
+        {
+          "label": "Peak size",
+          "value": "2,486 stores worldwide in 1994"
+        },
+        {
+          "label": "First bankruptcy",
+          "value": "Chapter 11 on January 22, 2002, with 2,114 stores open"
+        },
+        {
+          "label": "Owner today",
+          "value": "Transform SR Brands LLC (Transformco), tied to Edward Lampert"
+        },
+        {
+          "label": "Stores left",
+          "value": "3, in Kendale Lakes, Florida; Tamuning, Guam; and Charlotte Amalie, U.S. Virgin Islands"
+        },
+        {
+          "label": "Status",
+          "value": "Open, plus Kmart.com shipping to the 50 states and APO/FPO addresses"
+        }
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg/960px-Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg",
+      "imageAlt": "The red Kmart sign above the entrance of the Bridgehampton, New York store, with shopping carts lined up outside and sale signs on the doors",
+      "imageCaption": "The Bridgehampton, New York Kmart photographed in December 2023, about nine months before it closed as the last full-size Kmart in the mainland United States. Photo by Mike Kalasnik, CC BY-SA 2.0 via Wikimedia Commons.",
+      "imageSearch": [],
+      "body": "<h2>Is Kmart still open in 2026?</h2><p>Yes, barely. As of 2026 there are three Kmart stores left, and only one of them is in the 50 states.</p><p>The mainland survivor is in Kendale Lakes, an area of southwest Miami. It runs out of the building's former garden center and carries a limited selection of clothing, appliances and household goods. It is a fragment of a store rather than a discount department store.</p><p>The second is a big-box store in Tamuning, Guam, which opened in May 1995 and covers about 170,000 square feet. That makes the largest Kmart on earth a store most Americans will never see. The third is a big-box store in Charlotte Amalie, in the U.S. Virgin Islands, at Tutu Park Mall on St. Thomas.</p><p>Kmart.com is still trading and still ships to the 50 states plus APO and FPO addresses, so for almost every American the answer to \"is Kmart still open\" is now a website rather than a parking lot.</p><h2>Who owns Kmart now?</h2><p>Transform SR Brands LLC, which does business as Transformco, owns Kmart. It is privately held, so it publishes no store counts and no sales figures.</p><p>Kmart got there through Edward Lampert. His hedge fund, ESL Investments, bought up a large share of Kmart's debt while the retailer was in Chapter 11, and that debt converted into control when the company came out. In February 2019 a U.S. bankruptcy judge approved the sale of the most valuable pieces of Sears Holdings to Lampert, and those assets, including 202 remaining Kmart stores, went into Transform SR Brands.</p><p>Transformco has spent the years since subtracting rather than adding. Closures cut the chain to under a dozen stores by early 2022. In July 2026 its logistics arm filed a Pennsylvania layoff notice to shut a 2.2 million square foot warehouse at 1 Kresge Road in Falls Township, cutting 147 jobs, with a final day of September 16, 2026. The address is a fossil of the founding company, S. S. Kresge, incorporated in 1899.</p><h2>How Kmart went from 2,486 stores to three</h2><p>Kmart hit its peak in 1994 with 2,486 stores worldwide. Then Walmart beat it on price, Target beat it on presentation, and the stores themselves got old.</p><p>On January 22, 2002, Kmart Corporation and 37 of its U.S. subsidiaries filed voluntary Chapter 11 petitions in the U.S. Bankruptcy Court for the Northern District of Illinois, case number 02-B02474. All 2,114 Kmart stores stayed open that day, held up by a $2 billion debtor in possession financing package. The company blamed a collapse in fourth quarter sales, the evaporation of the surety bond market and a loss of supplier confidence.</p><p>Chief executive Charles C. Conaway said Kmart would use the filing to \"make a fresh start and reposition Kmart for the future.\" In 2005 Kmart and <a href=\"/posts/who-owns-sears-now-stores-left.html\">Sears</a> merged into Sears Holdings Corporation, which filed for bankruptcy of its own in 2018. Two chains that had each been the largest retailer in America ended up losing together.</p><h2>The last full-size Kmart closed on October 20, 2024</h2><p>The final full-size Kmart in the mainland United States stood in Bridgehampton, New York, on the east end of Long Island. It closed on October 20, 2024.</p><p>The setting was odd enough to make national news. A discount chain built for the Midwest ended its mainland run in the Hamptons, in a store that had outlived more than 2,000 American Kmarts. Shoppers cleared the shelves of toys and shoes in the final weeks, and the red sign came down.</p><p>What was left after that was the small Miami store, plus the stores in Guam and the U.S. Virgin Islands. That pattern is familiar from the rest of the era's big-box collapse. <a href=\"/posts/what-happened-to-radioshack-electronics.html\">RadioShack</a> and <a href=\"/posts/what-happened-to-circuit-city-electronics.html\">Circuit City</a> both ended as brand names attached to a website and a handful of licensed outposts, and Kmart followed the same track: the logo survives the leases.</p><h2>The U.S. Virgin Islands lost two Kmarts in one summer</h2><p>In 2024 the U.S. Virgin Islands still had three Kmart stores, more than the entire mainland. That did not last.</p><p>Transform KM LLC issued a notice dated May 9, 2025, saying it would permanently cease operations at the Sunny Isle store on St. Croix, affecting about 96 employees, with severance set at one week per full year of service. The store closed in early July 2025, roughly a month ahead of what most of the staff expected. It was already the second St. Croix closure, after the Sunshine Mall store in Frederiksted shut in 2023 following about 30 years on the island.</p><p>The Lockhart Gardens store on St. Thomas went next, closing on August 16, 2025 after a liquidation sale that included the fixtures. That left Tutu Park Mall as the only Kmart in the territory, and one of only three anywhere.</p><h2>What happened to the Blue Light Special</h2><p>The Blue Light Special ran from 1965 to 1991. A rotating blue light was rolled out to a rack or a bin, a loudspeaker said \"Attention, Kmart shoppers,\" and whatever sat under the light was cheap for a few minutes. It was a flash sale decades before anyone used that phrase.</p><p>Kmart retired it in 1991 and then kept exhuming it, with revivals running as late as 2015. None of them worked, because the thing that made the original land was scarcity of information. In 1978 a shopper had no way of knowing whether $6.88 for a set of towels was a real deal. By 2015 the same shopper could check three prices on a phone while standing under the light.</p><p>That, more than any single bad quarter, is what replaced Kmart. Walmart took the price position, Target took the taste position, and Amazon took the browsing. The blue light was left announcing discounts to people who could already see every price in the country.</p><h2>Frequently Asked Questions</h2><h3>How many Kmart stores are left?</h3><p>Three, as of 2026. One small store in Kendale Lakes, Florida, one big-box store in Tamuning, Guam, and one big-box store in Charlotte Amalie in the U.S. Virgin Islands.</p><h3>Where is the last Kmart in the United States?</h3><p>The last Kmart in the 50 states is in Kendale Lakes, Florida, in the Miami area. It operates out of the former garden center of a much larger Kmart and sells a narrow range of clothing, appliances and household goods. The Guam and U.S. Virgin Islands stores are in U.S. territories, not states.</p><h3>Can you still shop at Kmart online?</h3><p>Yes. Kmart.com is still operating and ships to all 50 states plus APO and FPO addresses. For most of the country the website is the only Kmart there is.</p>",
+      "sources": [
+        {
+          "title": "Kmart Corporation, Form 8-K and Chapter 11 press release, January 22, 2002 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/56824/000095017202000116/s588140.txt"
+        },
+        {
+          "title": "Fortune: Kmart, which once had over 2,000 locations, just closed its last major U.S. store (September 24, 2024)",
+          "url": "https://fortune.com/2024/09/24/kmart-which-once-had-over-2000-locations-just-closed-its-last-major-u-s-store/"
+        },
+        {
+          "title": "VI Consortium: With Sunny Isle Closed and Lockhart Gardens Set to Follow, Tutu Park Stands as Kmart's Final Holdout in USVI (July 2025)",
+          "url": "https://viconsortium.com/vi-economy/virgin-islands-with-sunny-isle-closed-and-lockhart-gardens-set-to-follow--tutu-park-stands-as-kmart-s-final-holdout-in-usvi"
+        },
+        {
+          "title": "LevittownNow: Owner Of Kmart, Sears To Close Falls Twp. Warehouse, Lay Off 147 (July 22, 2026)",
+          "url": "https://levittownnow.com/2026/07/22/owner-of-kmart-sears-to-close-falls-twp-warehouse-lay-off-147/"
+        },
+        {
+          "title": "Wikipedia: Kmart (store list and corporate history)",
+          "url": "https://en.wikipedia.org/wiki/Kmart"
+        }
+      ],
+      "linkPhrases": [
+        "Sears",
+        "RadioShack",
+        "Circuit City"
+      ],
+      "seo": {
+        "title": "Is Kmart Still Open? The 3 Stores Left in 2026 | 404 Memory Found",
+        "description": "Is Kmart still open in 2026? Yes, but only three stores are left: Miami, Guam and St. Thomas. It had 2,114 the day it filed for bankruptcy.",
+        "keywords": [
+          "is kmart still open",
+          "how many kmarts are left",
+          "last kmart store",
+          "who owns kmart",
+          "kmart stores left 2026"
+        ]
+      }
+    },
+    {
+      "id": "is-compusa-still-around",
+      "title": "Is CompUSA Still Around? What Happened to the Chain",
+      "date": "2026-09-09",
+      "author": "marcus",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "excerpt": "Is CompUSA still around? No. The chain sold its last 103 stores in December 2007, and the brand was written off for $35.3 million in 2012.",
+      "summary": "CompUSA is not still around, as a store or as a website. The Dallas chain sold its last 103 stores to liquidator Gordon Brothers in December 2007, and Systemax folded the brand into TigerDirect in the fourth quarter of 2012. In 2026 the CompUSA trademarks belong to Source Brand Group, LLC and compusa.com loads an error page.",
+      "facts": [
+        {
+          "label": "Launched",
+          "value": "1984 as Soft Warehouse, Inc. in Dallas; renamed CompUSA in March 1991"
+        },
+        {
+          "label": "Peak scale",
+          "value": "211 superstores in 42 states, $6.32 billion in net sales, fiscal 1999"
+        },
+        {
+          "label": "Stores left",
+          "value": "None. The last 103 stores were sold to a liquidator in December 2007"
+        },
+        {
+          "label": "Owner today",
+          "value": "Source Brand Group, LLC holds the live COMPUSA.COM trademark"
+        },
+        {
+          "label": "What replaced it",
+          "value": "TigerDirect, which absorbed the brand in the fourth quarter of 2012"
+        }
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CompUSA_Santa_Clara_2.jpg/960px-CompUSA_Santa_Clara_2.jpg",
+      "imageAlt": "The exterior of a CompUSA computer superstore with its red and blue sign above the entrance",
+      "imageCaption": "A CompUSA superstore on El Camino Real in Santa Clara, California, photographed in September 2005, about two years before the chain was sold to a liquidator. Photo by Coolcaesar, CC BY-SA 3.0.",
+      "imageSearch": [],
+      "body": "<h2>Is CompUSA still around in 2026?</h2>\n<p>No. There is no CompUSA store anywhere in the United States, and there has not been one since 2008. The chain's last 103 locations were sold in December 2007 to Specialty Equity LLC, an affiliate of the Boston restructuring firm Gordon Brothers Group, which ran store-closing sales through the holidays and emptied the buildings after.</p>\n<p>The name outlived the stores by five years. Systemax, the parent company of TigerDirect, bought the CompUSA brand and website in January 2008 and put the logo back on retail stores and an online shop. That ended in the fourth quarter of 2012, when Systemax folded its United States consumer business into the TigerDirect name and wrote the CompUSA brand off its books.</p>\n<p>Type compusa.com into a browser in 2026 and you do not reach a store. The domain resolves to a hosting error page. The CompUSA trademarks, on the other hand, are still live at the United States Patent and Trademark Office, registered to a company that does not sell computers.</p>\n\n<h2>How big did CompUSA actually get?</h2>\n<p>Bigger than most people remember. The business started in 1984 as Soft Warehouse, Inc., was incorporated in Delaware in 1988, and operated under the Soft Warehouse name until March 1991. After that it was CompUSA, run out of offices on North Dallas Parkway in Dallas, with common stock on the New York Stock Exchange under the ticker CPU.</p>\n<p>By the close of fiscal 1999 on June 26 of that year, CompUSA ran 211 computer superstores across 42 states. Net sales for the year were $6.32 billion, up 19.6 percent from $5.29 billion the year before. That is the high-water mark in the company's own SEC filings, and it is why the chain shows up in so many first-PC stories: for a stretch in the late 1990s there was one within driving distance of most American metro areas.</p>\n<p>Some of that reach was bought rather than built. On August 31, 1998, CompUSA acquired Computer City from Tandy Corporation for roughly $175 million, taking on 96 stores in the United States. It closed 55 of them, reopened 37 as CompUSA superstores by fiscal year end, and sold seven Canadian locations to Future Shop for about $7 million. This was the same period in which <a href=\"/posts/what-happened-to-gateway-2000-cow-box-computer.html\">Gateway</a> was opening its own storefronts and Best Buy was scaling nationally. Selling personal computers in a warehouse still looked like a growth industry.</p>\n\n<h2>What did Carlos Slim do with CompUSA?</h2>\n<p>He bought it, then spent years paying for it. The Mexican financier Carlos Slim Helu took his first stake in CompUSA in 1999 and took the whole company private the next year in an $800 million buyout, which is why the detailed public filings stop after fiscal 1999.</p>\n<p>Ownership was never the problem. Margin was. PC prices fell year after year, and the profit in consumer electronics moved toward flat-panel televisions, where <a href=\"/posts/what-happened-to-circuit-city-electronics.html\">Circuit City</a> and Best Buy were already cutting each other's prices. CompUSA cycled through several chief executives and several turnaround plans, including a late attempt to aim the stores at gadget buyers and small-business customers rather than at everyone.</p>\n<p>In the spring of 2007 the company closed more than half its stores and took a $440 million cash infusion to restructure around the ones that were left. That bought roughly nine months. By December the owner had stopped funding it.</p>\n\n<h2>Why did CompUSA shut down in December 2007?</h2>\n<p>Because the smaller CompUSA still lost money. With 103 stores left after the spring cuts, the company was sold in December 2007 to Specialty Equity LLC, the Gordon Brothers affiliate, and those stores went straight into holiday liquidation sales rather than a Christmas selling season.</p>\n<p>Gordon Brothers is a restructuring and liquidation firm, not a retailer, and it treated CompUSA as a parts bin. It shopped individual stores in strong retail markets, the CompUSA TechPro technical-services business, and the CompUSA.com online operation as separate lots, and left it to whoever bought each piece to decide whether the CompUSA name came with it.</p>\n<p>That is what makes the ending different from the chains it competed against. There was no drawn-out Chapter 11, no reorganization plan, no fight over the whole company. A liquidator bought it in one December transaction, and the warehouse-sized stores, the same format <a href=\"/posts/what-happened-to-frys-electronics.html\">Fry's Electronics</a> built its business on, went dark over the following weeks.</p>\n\n<h2>Who owns the CompUSA name in 2026?</h2>\n<p>Systemax moved first. It bought CompUSA's e-commerce business for $18.9 million in cash on January 10, 2008, then took sixteen retail store leases and their fixtures for about $11.7 million during February and March. Most of what it paid for was the name itself: $17.0 million of the purchase was booked as trademarks and trade names and $8.0 million as domain names.</p>\n<p>The revival was real for a while. The deal gave Systemax 29 retail storefronts across North America and Puerto Rico, run next to its TigerDirect business, and CompUSA-branded operations produced $63.0 million of sales in the third quarter of 2008 and $139.4 million over the first nine months of that year.</p>\n<p>Then Systemax decided one consumer brand was enough. In the fourth quarter of 2012 it concluded that its North American consumer business would work better consolidated under TigerDirect, and wrote off the intangible assets and goodwill of CompUSA and Circuit City together, about $35.3 million. Systemax finished 2012 with 41 retail stores, 17 of them in Florida and 6 in Texas.</p>\n<p>The paperwork survived all of it. The COMPUSA.COM trademark, registration number 2582709, filed February 12, 1999 and registered June 18, 2002, is listed at the USPTO as live and was renewed in January 2023. The owner of record is Source Brand Group, LLC of New York. Somebody is still paying to keep the name, and nobody is selling computers with it.</p>\n<p>If you want something with the logo on it, the only supply is retail debris. Employee polo shirts with the embroidered CompUSA logo, 1990s store charge cards, plastic shelf talkers and the occasional piece of store signage turn up on <a href=\"https://www.etsy.com/search?q=compusa+vintage\">Etsy</a> and at estate sales, usually from former staff or from people who cleared out a closing location. Prices move with condition and sentiment, and none of it is scarce enough to treat as an investment.</p>\n\n<h2>Frequently Asked Questions</h2>\n<h3>When did CompUSA close?</h3>\n<p>CompUSA sold its remaining 103 stores in December 2007 to Specialty Equity LLC, an affiliate of Gordon Brothers Group, and those stores ran closing sales through the holidays before shutting in 2008. More than half the chain had already closed in the spring of 2007, alongside a $440 million cash infusion that failed to turn the business around.</p>\n<h3>Did TigerDirect buy CompUSA?</h3>\n<p>Systemax, which owned TigerDirect, bought CompUSA's e-commerce business for $18.9 million in January 2008 and sixteen store leases for about $11.7 million over the next two months. It ran CompUSA as a separate brand until the fourth quarter of 2012, when it consolidated its United States consumer operations under TigerDirect and wrote off roughly $35.3 million of CompUSA and Circuit City intangibles.</p>\n<h3>Does compusa.com still work?</h3>\n<p>Not as a store. The address loads a hosting error page rather than a shop, and no CompUSA retail site has operated there for years. The COMPUSA.COM trademark itself is still registered and active, held by Source Brand Group, LLC and renewed in January 2023, so the name is owned rather than abandoned.</p>",
+      "sources": [
+        {
+          "title": "CompUSA Inc., Form 10-K for fiscal 1999, U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000880323/000104746999035798/0001047469-99-035798.txt"
+        },
+        {
+          "title": "Associated Press via NBC News, \"CompUSA is sold; will close all stores,\" December 2007",
+          "url": "https://www.nbcnews.com/id/wbna22153236"
+        },
+        {
+          "title": "Systemax Inc., Form 10-Q for the quarter ended September 30, 2008, U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000945114/000110465908068665/a08-25647_110q.htm"
+        },
+        {
+          "title": "Systemax Inc., Form 10-K for fiscal 2012, U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/Archives/edgar/data/945114/000114036113012535/form10k.htm"
+        },
+        {
+          "title": "USPTO Trademark Status and Document Retrieval, COMPUSA.COM, Reg. No. 2582709",
+          "url": "https://tsdr.uspto.gov/statusview/sn75639885"
+        }
+      ],
+      "linkPhrases": [
+        "Gateway",
+        "Circuit City",
+        "Fry's Electronics"
+      ],
+      "seo": {
+        "title": "Is CompUSA Still Around? What Happened to the Chain | 404 Memory Found",
+        "description": "Is CompUSA still around? No. The chain sold its last 103 stores in December 2007, and Systemax wrote the brand off for $35.3 million in 2012.",
+        "keywords": [
+          "is compusa still around",
+          "what happened to compusa",
+          "compusa closed",
+          "compusa tigerdirect",
+          "who owns compusa"
+        ]
+      }
+    },
+    {
       "id": "windows-95-startup-sound-brian-eno",
       "title": "Windows 95 Startup Sound: Brian Eno's 3.25 Seconds",
       "date": "2026-09-09",
