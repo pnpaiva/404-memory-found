@@ -875,48 +875,21 @@
         function loadVisitorCount() {
             var el = document.getElementById('visitor-count');
             if (!el) return;
-
-            try {
-                // Only increment once per browser session
-                var alreadyCounted = sessionStorage.getItem('404mf_counted');
-                if (alreadyCounted) {
-                    el.textContent = 'Visitor #' + parseInt(alreadyCounted).toLocaleString();
-                    return;
-                }
-            } catch(e) {}
-
-            // Use Firebase Realtime Database for accurate visitor count
-            // Base: 175 (GA4 total users as of April 2026)
-            function tryFirebaseCounter() {
-                var db = getFirebaseDb();
-                if (!db) {
-                    // Firebase still loading — retry in 500ms (up to 5 times)
-                    if (!tryFirebaseCounter._retries) tryFirebaseCounter._retries = 0;
-                    tryFirebaseCounter._retries++;
-                    if (tryFirebaseCounter._retries < 10) {
-                        setTimeout(tryFirebaseCounter, 500);
-                    } else {
-                        // Firebase never loaded — show base count
-                        el.textContent = 'Visitor #175';
-                    }
-                    return;
-                }
-
-                var counterRef = db.ref('visitorCount');
-                counterRef.transaction(function(current) {
-                    // Initialize at 175 if counter doesn't exist yet
-                    if (current === null) return 175;
-                    return current + 1;
-                }).then(function(result) {
-                    var count = result.snapshot.val();
-                    el.textContent = 'Visitor #' + count.toLocaleString();
-                    try { sessionStorage.setItem('404mf_counted', count); } catch(e) {}
-                }).catch(function() {
-                    el.textContent = 'Visitor #175';
-                });
-            }
-
-            tryFirebaseCounter();
+            // Public hit counter (no keys, no Firebase). Counts one visit per browser session:
+            // the first page of a session calls /hit (increment), later pages call /get (read).
+            var base = 'https://abacus.jasoncameron.dev';
+            var counted = null;
+            try { counted = sessionStorage.getItem('404mf_counted'); } catch(e) {}
+            var url = base + (counted ? '/get' : '/hit') + '/404memoryfound/visits';
+            if (counted) el.textContent = 'Visitor #' + parseInt(counted, 10).toLocaleString();
+            fetch(url, { cache: 'no-store' })
+                .then(function(r) { return r.ok ? r.json() : null; })
+                .then(function(data) {
+                    if (!data || typeof data.value !== 'number') return;
+                    el.textContent = 'Visitor #' + data.value.toLocaleString();
+                    if (!counted) { try { sessionStorage.setItem('404mf_counted', data.value); } catch(e) {} }
+                })
+                .catch(function() { if (!counted) el.textContent = ''; });
         }
 
         function showCookieBanner() {
