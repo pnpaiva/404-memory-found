@@ -247,7 +247,8 @@
         "why did compaq fail",
         "is compaq still around"
       ],
-      "status": "pending"
+      "status": "published",
+      "published_slug": "compaq-lost-pc-business-hp-merger"
     },
     {
       "title": "Why Betamax Lost to VHS: The First Format War",
