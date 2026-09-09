@@ -1,5 +1,9 @@
 name: Build and Deploy Site
 
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
 on:
   push:
     branches: [main]
@@ -29,21 +33,24 @@ jobs:
       - name: Install dependencies
         run: pip install pillow
 
-      - name: Resolve and localize images, make share cards
-        run: |
-          python fetch_images.py
-          python make_og_cards.py
-
-      - name: Run build script
-        run: python build.py
-
-      - name: Commit built files
+      - name: Build, commit and push (regenerates from the latest main on every attempt, so a push race never conflicts)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "Auto-build: update generated HTML, feeds and sitemap"
-          git push
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            python fetch_images.py
+            python make_og_cards.py
+            python build.py
+            git add -A
+            if git diff --staged --quiet; then echo "Nothing to commit"; exit 0; fi
+            git commit -m "Auto-build: update generated HTML, feeds and sitemap"
+            if git push origin main; then exit 0; fi
+            echo "push rejected (attempt $attempt), retrying from the latest main"
+            sleep 15
+          done
+          echo "could not push after 4 attempts"; exit 1
 
       - name: Notify search engines (IndexNow)
         run: python indexnow_ping.py
