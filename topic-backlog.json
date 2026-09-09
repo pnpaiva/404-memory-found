@@ -151,8 +151,10 @@
         "last kmart store",
         "who owns kmart"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "is-kmart-still-open-stores-left",
+      "note": "written in the 9 Sep 2026 session (wave 2)"
     },
     {
       "title": "Is CompUSA Still Around? The Store That Sold You Your First PC",
@@ -169,8 +171,10 @@
         "compusa closed",
         "compusa tigerdirect"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "is-compusa-still-around",
+      "note": "written in the 9 Sep 2026 session (wave 2)"
     },
     {
       "title": "Is Palm Still a Company? From Pilot to a $350 Phone",
@@ -206,8 +210,10 @@
         "who owns myspace",
         "myspace lost music 2019"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "is-myspace-still-around-today",
+      "note": "written in the 9 Sep 2026 session (wave 2)"
     },
     {
       "title": "Who Owns Atari Now? The Brand That Refuses to Die",
@@ -244,8 +250,10 @@
         "what does sega do now",
         "sega sammy"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "is-sega-still-making-games",
+      "note": "written in the 9 Sep 2026 session (wave 2)"
     },
     {
       "title": "Is RuneScape Still Popular? Old School vs RS3 in 2026",
@@ -262,8 +270,10 @@
         "old school runescape vs runescape 3",
         "who owns jagex"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "is-runescape-still-popular-2026",
+      "note": "written in the 9 Sep 2026 session (wave 2)"
     },
     {
       "title": "Is Habbo Hotel Still Around? The Pixel Hotel in 2026",
@@ -389,8 +399,10 @@
         "who said you've got mail aol",
         "aol welcome voice"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "aol-youve-got-mail-voice-elwood-edwards",
+      "note": "written in the 9 Sep 2026 session (wave 2)"
     },
     {
       "title": "The Dial-Up Sound Explained: What Each Screech Meant",
