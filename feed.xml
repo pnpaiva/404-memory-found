@@ -8,6 +8,18 @@
     <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How Compaq Lost the PC Business It Helped Invent</title>
+      <link>https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>Compaq went from a pie-shop sketch in 1982 to the world&#x27;s biggest PC maker, then sold itself to HP for $25 billion. Here is what broke first.</description>
+      <enclosure url="https://404memoryfound.com/og/compaq-lost-pc-business-hp-merger.png" length="36501" type="image/png"/>
+      <media:content url="https://404memoryfound.com/og/compaq-lost-pc-business-hp-merger.png" medium="image" type="image/png" width="1200" height="630"/>
+      <category>Hardware</category>
+      <category>Business Blunders</category>
+    </item>
+    <item>
       <title>Why Iridium Failed: The $5 Billion Satellite Phone</title>
       <link>https://404memoryfound.com/posts/iridium-satellite-phone-failure.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/iridium-satellite-phone-failure.html</guid>
@@ -248,18 +260,6 @@
       <category>Business Blunders</category>
       <category>Money &amp; Tech</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>What Happened to the Nokia 3310, the Phone That Refused to Die</title>
-      <link>https://404memoryfound.com/posts/what-happened-to-nokia-3310.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/what-happened-to-nokia-3310.html</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Nokia&#x27;s 3310 sold 126 million units, became an internet meme for being indestructible, and got resurrected from the grave in 2017. Here is the full story of how a small Finnish company built a phone so good it accidentally turned into a cultural symbol.</description>
-      <enclosure url="https://404memoryfound.com/og/what-happened-to-nokia-3310.png" length="41615" type="image/png"/>
-      <media:content url="https://404memoryfound.com/og/what-happened-to-nokia-3310.png" medium="image" type="image/png" width="1200" height="630"/>
-      <category>Hardware</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>

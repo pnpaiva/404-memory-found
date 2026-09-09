@@ -1856,6 +1856,15 @@
   "thumb": "/img/thumb/turbografx16-console-set-5bed02.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Compaq_Portable_1.jpg/960px-Compaq_Portable_1.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Compaq_Portable_1.jpg",
+  "ext": "jpg",
+  "file": "/img/compaq-portable-1-a37090.jpg",
+  "height": 720,
+  "status": "ok",
+  "thumb": "/img/thumb/compaq-portable-1-a37090.jpg",
+  "width": 960
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/First_Web_Server.jpg/960px-First_Web_Server.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg",
   "ext": "jpg",
