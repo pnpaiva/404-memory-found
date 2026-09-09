@@ -1,0 +1,57 @@
+# 404 Memory Found: post specification
+
+Every new post follows this spec. `generate_post.py` enforces it; write by hand to the same shape.
+
+## Goal
+One post answers one search query completely in under five minutes of reading, so that Google can lift the answer into a snippet and a reader who clicks stays to the end. Shorter than the 2026 archive (median 2,800 words), denser, and sourced.
+
+## Shape
+
+| Part | Rule |
+|---|---|
+| Length | 900 to 1,300 words in the body (FAQ and sources excluded) |
+| Title | 45 to 60 characters, primary keyword in the first half. Rotate patterns; at most one in three titles may start with "What Happened to". Other patterns: "Why X Failed", "X Explained", "How X Lost to Y", "X in 1998 vs Today", "The Real Story of X", "Is X Still Around?" |
+| Slug | lowercase, 3 to 7 words, keyword first, no stop words, no year unless it is the query |
+| Meta title | same as title plus " \| 404 Memory Found", max 70 characters total |
+| Meta description | 120 to 155 characters, contains the keyword, ends with a concrete hook (a number, a date, a surprise) |
+| Summary | 2 to 3 sentences that answer the query directly. Rendered as the first paragraph. Contains the keyword. This is the featured-snippet candidate |
+| Quick facts | 3 to 5 short label/value pairs: year launched, company, price then and inflation-adjusted, units sold, what replaced it, status today |
+| Sections | 4 to 6 `<h2>` headings, 120 to 220 words each. Headings are specific and often question-shaped ("Why did the NSA ban Furby?"), never generic ("Background", "Conclusion") |
+| Paragraphs | 1 to 4 sentences. No walls of text. Numbers, dates and prices in every section |
+| Image | one image after the summary, from Wikimedia Commons (CC or public domain), with descriptive alt text and a caption |
+| Internal links | 2 to 3 links to existing posts inside the prose, on the natural phrase, never "click here" |
+| FAQ | `<h2>Frequently Asked Questions</h2>` then exactly 3 `<h3>` questions people actually search, each answered in 2 to 3 sentences. Becomes FAQPage schema |
+| Sources | 3 to 5 links to primary or reputable sources (company filings, court records, contemporary news, museums, Wikipedia only as a fallback). Rendered as a Sources list. Every specific number in the post must trace to one of them |
+| Affiliate hook | For products that still trade second-hand, one short "Where to find one today" paragraph naming typical prices on eBay, without a link unless the config has an affiliate id |
+| Author | one of the pen names in `authors.json`, chosen by beat |
+| Tags | 1 to 3 from the eight site tags only |
+
+## Voice
+Plain, confident, specific. Third person. Contractions are fine. No em dashes. No "Picture this", "Let's dive in", "In conclusion", "game-changer", "iconic", "beloved", "fast forward". No rhetorical questions in a row. Every claim with a number carries a year. When a fact is disputed, say who says what.
+
+## Don'ts
+Never invent a quote, a price or a sales figure. If a number cannot be sourced, leave it out. Never claim a writer did or owned something. Never write a second post on a subject that already has one (check the slug list); write a different angle with a different keyword instead.
+
+## JSON shape (what the generator emits and posts.json stores)
+
+```json
+{
+  "id": "furby-nsa-ban-1999",
+  "title": "Why the NSA Banned Furby in 1999",
+  "date": "2026-09-10",
+  "author": "marcus",
+  "tags": ["Hardware", "Internet Culture"],
+  "excerpt": "meta description, 120 to 155 characters",
+  "summary": "2 to 3 sentence direct answer",
+  "facts": [{"label": "Launched", "value": "October 1998, Tiger Electronics"}],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/.../960px-....jpg",
+  "imageAlt": "descriptive alt text",
+  "imageCaption": "caption shown under the image",
+  "body": "<h2>...</h2><p>...</p> ... <h2>Frequently Asked Questions</h2><h3>...?</h3><p>...</p>",
+  "sources": [{"title": "Source name", "url": "https://..."}],
+  "linkPhrases": ["Furby"],
+  "seo": {"title": "...", "description": "...", "keywords": ["..."]}
+}
+```
+
+`body` holds the sections and the FAQ only. `build.py` renders summary, image, quick facts, sources and byline around it.

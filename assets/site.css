@@ -2184,7 +2184,7 @@
             }
         }
 
-/* ---- Generated pages (posts, tags, about...): one open window, article rendered once ---- */
+/* ---- Generated pages (posts, tags, authors, about...): one open window, article rendered once ---- */
 .page-shell .page-back { display: inline-block; padding: 5px 12px; background: #c0c0c0; color: #000; text-decoration: none;
     border: 2px solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080;
     font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; font-size: 13px; margin: 0 6px 10px 0; }
@@ -2192,13 +2192,15 @@
 .page-shell .page-back-row { margin-top: 16px; }
 .page-shell .post-tags { margin: 18px 0 6px; font-size: 13px; color: #444; }
 .page-shell .post-tags a { color: #000080; margin-left: 4px; }
+.page-shell .post-meta a { color: #000080; }
 .page-shell .img-credit { font-size: 11px; color: #666; text-decoration: none; margin-left: 6px; }
 .page-shell .img-credit:hover { text-decoration: underline; }
-.page-shell .post-body figure { margin: 16px auto; max-width: 560px; }
-.page-shell .post-body figure img { max-width: 100%; height: auto; display: block; }
-.page-shell .post-body figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
+.page-shell .post-body figure, .page-shell .post-hero { margin: 16px auto; max-width: 560px; }
+.page-shell .post-body figure img, .page-shell .post-hero img { max-width: 100%; height: auto; display: block; }
+.page-shell .post-body figcaption, .page-shell .post-hero figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
 .page-shell .page-copy h1, .page-shell .hub-page h1 { font-size: 20px; color: #000080; margin-bottom: 8px; line-height: 1.3; }
 .page-shell .page-intro { margin-bottom: 12px; color: #333; }
+.page-shell .author-beat { font-size: 13px; color: #666; margin-bottom: 8px; }
 .page-shell .page-nav { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 14px; }
 .page-shell .page-nav a { padding: 2px 8px; background: #dfdfdf; color: #000; text-decoration: none; font-size: 13px;
     border: 2px solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080;
@@ -2216,6 +2218,29 @@
 .page-shell .page-list-excerpt { display: block; font-size: 12px; color: #333; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .page-shell .page-copy p, .page-shell .page-copy h3 { margin-bottom: 8px; }
 .page-shell .page-copy h3 { margin-top: 12px; }
+.page-shell .authors-block { margin-top: 18px; padding-top: 12px; border-top: 1px solid #c0c0c0; }
+.page-shell .author-card { background: #fff; border: 1px solid #c0c0c0; padding: 8px 10px; margin: 8px 0; }
+.page-shell .author-name { font-weight: bold; color: #000080; text-decoration: none; font-size: 14px; }
+.page-shell .author-card .author-beat { margin: 2px 0 4px; }
+.page-shell .author-card p { font-size: 13px; margin: 0; }
+
+/* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
+.post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
+    border: 1px solid #c8c86a; border-left: 4px solid #000080; }
+.quick-facts { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 8px 12px; margin: 12px 0 16px; font-size: 13px; }
+.quick-facts-title { font-weight: bold; margin-bottom: 6px; color: #000080; font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.quick-facts dl { margin: 0; }
+.quick-facts .fact-row { display: flex; gap: 8px; padding: 3px 0; border-top: 1px dotted #c0c0c0; }
+.quick-facts .fact-row:first-child { border-top: 0; }
+.quick-facts dt { flex: 0 0 34%; font-weight: bold; color: #333; margin: 0; }
+.quick-facts dd { flex: 1; margin: 0; }
+.post-sources { margin-top: 20px; padding-top: 10px; border-top: 1px solid #c0c0c0; font-size: 13px; }
+.post-sources h2 { font-size: 15px; margin-bottom: 6px; }
+.post-sources ul { margin: 0; padding-left: 18px; }
+.post-sources li { margin-bottom: 4px; }
+.post-sources a { color: #000080; }
+.source-host { color: #777; font-size: 11px; margin-left: 4px; }
+.affiliate-disclosure { font-size: 11px; color: #666; margin-top: 10px; font-style: italic; }
 
 @media (min-width: 769px) {
     .page-shell .page-back-mobile { display: none; }
@@ -2244,7 +2269,7 @@
     .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
     .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
     .page-shell .post-body { font-size: 15px; line-height: 1.7; color: #333; }
-    .page-shell .post-body img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
+    .page-shell .post-body img, .page-shell .post-hero img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
         border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
     .page-shell .post-body p { margin-bottom: 12px; }
     .page-shell .post-body h2, .page-shell .post-body h3 { margin-top: 18px; margin-bottom: 8px; color: #000080; }
@@ -2257,4 +2282,5 @@
     .page-shell .page-mobile-footer { display: flex; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
     .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
+    .quick-facts dt { flex-basis: 40%; }
 }

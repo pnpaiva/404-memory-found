@@ -1,0 +1,61 @@
+name: Daily post
+
+on:
+  schedule:
+    # 11:00 UTC every day (08:00 São Paulo). Change the count below to publish more per run.
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many posts to write in this run'
+        required: false
+        default: '1'
+      topic:
+        description: 'Optional: force a topic (title or subject) instead of picking from the backlog'
+        required: false
+        default: ''
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  write-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install "anthropic>=1.0" pillow
+
+      - name: Write new post(s)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          POST_COUNT: ${{ github.event.inputs.count || '1' }}
+          POST_TOPIC: ${{ github.event.inputs.topic || '' }}
+        run: python generate_post.py --count "$POST_COUNT" --topic "$POST_TOPIC"
+
+      - name: Fetch images and make share cards
+        run: |
+          python fetch_images.py
+          python make_og_cards.py
+
+      - name: Build site
+        run: python build.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "Nothing new" && exit 0
+          TITLE=$(python -c "import json; p=json.load(open('posts.json'))['posts']; print(max(p, key=lambda x: x['date'])['title'])")
+          git commit -m "Daily post: $TITLE"
+          git push

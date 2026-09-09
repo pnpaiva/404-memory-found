@@ -1,0 +1,21 @@
+{
+  "_description": "Pen names used on the site. No photos, no personal details: a name, a beat, and a short description. Posts reference authors by key in their `author` field; build.py renders bylines, /authors/<key>.html pages and Person schema without an image.",
+  "marcus": {
+    "name": "Marcus Vale",
+    "beat": "Consoles, handhelds and PC hardware",
+    "tags": ["Gaming", "Hardware"],
+    "bio": "Marcus covers the consoles, handhelds and PC hardware of the 90s and 2000s: what they cost, why they won or lost, and what became of the companies that built them."
+  },
+  "dana": {
+    "name": "Dana Reyes",
+    "beat": "The dot-com era and internet culture",
+    "tags": ["Business Blunders", "Internet Culture", "Music & Entertainment"],
+    "bio": "Dana covers the dot-com era: the companies, the deals and the websites that shaped the early internet, and what actually happened to them after the headlines moved on."
+  },
+  "theo": {
+    "name": "Theo Lindqvist",
+    "beat": "Software, formats and the then-versus-now math",
+    "tags": ["Software & Apps", "Then vs Now", "Money & Tech"],
+    "bio": "Theo covers the software, file formats and everyday gadgets of the era, and does the then-versus-now math on what things cost, how fast they were, and what replaced them."
+  }
+}

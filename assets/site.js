@@ -437,7 +437,7 @@
                 const detail = document.getElementById('mobile-post-detail');
                 detail.style.display = 'block';
                 document.getElementById('mobile-post-title').textContent = post.title;
-                document.getElementById('mobile-post-detail-date').textContent = post.date + ' · ' + readingLabel(post);
+                document.getElementById('mobile-post-detail-date').textContent = post.date + (post.authorName ? ' · by ' + post.authorName : '') + ' · ' + readingLabel(post);
                 document.getElementById('mobile-post-detail-body').innerHTML = post.content;
                 // Reset reading progress
                 const mFill = document.getElementById('mobile-reading-progress-fill');
@@ -462,6 +462,8 @@
                 document.getElementById('post-title').textContent = post.title;
                 document.getElementById('post-window-title').textContent = post.title;
                 document.getElementById('post-date').textContent = post.date;
+                const authorEl = document.getElementById('post-author');
+                if (authorEl) authorEl.textContent = post.authorName || '404 Memory Found';
                 document.getElementById('post-reading-time').textContent = readingLabel(post);
                 // Reset progress bar
                 const fill = document.getElementById('reading-progress-fill');

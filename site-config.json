@@ -1,0 +1,12 @@
+{
+  "_description": "Monetization switches read by build.py. Leave a value empty to keep that feature off.",
+  "adsense_client": "",
+  "adsense_note": "Set to your AdSense publisher id (ca-pub-XXXXXXXXXXXXXXXX) after approval. build.py then injects the AdSense script on every page (Auto ads) and writes ads.txt.",
+  "ads_txt": "",
+  "ads_txt_note": "Paste the ads.txt line AdSense gives you, e.g. google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0",
+  "affiliate_disclosure": "Some links on this page are affiliate links. If you buy through them, 404 Memory Found may earn a small commission at no extra cost to you. We only link to things we would look for ourselves.",
+  "ebay_campaign_id": "",
+  "ebay_note": "eBay Partner Network campaign id. When set, build.py appends the tracking parameters to every ebay.com link in post bodies and marks it rel=\"sponsored nofollow\".",
+  "amazon_tag": "",
+  "amazon_note": "Amazon Associates tracking id (e.g. 404memoryfound-20). When set, build.py appends ?tag= to amazon.com links and marks them rel=\"sponsored nofollow\"."
+}

@@ -5,6 +5,8 @@ Build script for 404 Memory Found - Windows 95 themed static site generator.
 Inputs
   src/index.html         the SPA (desktop + mobile UI, CSS and JS inline)
   posts.json             every post, body included (source of truth)
+  authors.json           pen names: key -> {name, beat, bio, tags}
+  site-config.json       monetization switches (AdSense id, ads.txt, affiliate ids)
   redirects.json         old slug -> new slug for posts that moved
   images-manifest.json   written by fetch_images.py: Wikimedia URL -> local copy
   og/<slug>.png          written by make_og_cards.py: per-post share image
@@ -17,7 +19,8 @@ Outputs (all committed, served by GitHub Pages)
   posts/<slug>.json      body only, fetched on demand when a post opens in the desktop
   posts/index.html       crawlable list of every post
   tags/<tag>.html        one hub page per category
-  about|contact|privacy|terms.html, 404.html, feed.xml, sitemap.xml, robots.txt, CNAME
+  authors/<key>.html     one page per pen name
+  about|contact|privacy|terms.html, 404.html, feed.xml, sitemap.xml, robots.txt, CNAME, ads.txt
 """
 
 import hashlib
@@ -25,37 +28,41 @@ import html
 import json
 import os
 import re
-import shutil
 from datetime import datetime, timezone
 from email.utils import format_datetime
+from urllib.parse import urlparse, urlencode, parse_qsl, urlunparse
 
 BASE_URL = "https://404memoryfound.com"
 BLOG_NAME = "404 Memory Found"
 OUTPUT_DIR = "."
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SOURCE_PATH = os.path.join(ROOT, "src", "index.html")
-DEFAULT_DESCRIPTION = ("404 Memory Found is a nostalgia blog of long-form stories about the technology, "
-                       "games, websites and companies of the 90s and 2000s, wrapped in a Windows 95 desktop.")
+DEFAULT_DESCRIPTION = ("404 Memory Found is a nostalgia blog about the technology, games, websites and companies "
+                       "of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.")
 GA_ID = "G-GQX7R9W80G"
 HUB_TAG_COUNT = 8
 RELATED_COUNT = 5
+MAX_AUTO_LINKS = 4
 WORDS_PER_MINUTE = 230
 DEFAULT_OG_IMAGE = f"{BASE_URL}/og-image.png"
 LOGO = f"{BASE_URL}/logo-512.png"
 
 HUB_PAGES = {
-    # file            window id in the SPA    title bar            page <title>
-    "about.html":   ("about-window",     "ℹ️ About This Site", "About 404 Memory Found"),
-    "privacy.html": ("privacy-window",   "📄 Privacy Policy",  "Privacy Policy"),
-    "terms.html":   ("terms-window",     "📋 Terms of Use",    "Terms of Use"),
-    "contact.html": ("guestbook-window", "✍️ Contact & Guestbook", "Contact 404 Memory Found"),
+    # file            window id in the SPA    title bar                 page <title>
+    "about.html":   ("about-window",     "ℹ️ About This Site",      "About 404 Memory Found"),
+    "privacy.html": ("privacy-window",   "📄 Privacy Policy",       "Privacy Policy"),
+    "terms.html":   ("terms-window",     "📋 Terms of Use",         "Terms of Use"),
+    "contact.html": ("guestbook-window", "✍️ Contact & Guestbook",  "Contact 404 Memory Found"),
 }
 HUB_DESCRIPTIONS = {
-    "about.html": "What 404 Memory Found is, who writes it, and how to get in touch.",
-    "privacy.html": "What 404 Memory Found collects, which cookies it sets, and how to have your data removed.",
-    "terms.html": "The terms that apply to reading 404 Memory Found and using its guestbook and games.",
+    "about.html": "What 404 Memory Found is, who writes it under which pen names, and how to get in touch.",
+    "privacy.html": "What 404 Memory Found collects, which cookies it sets, how ads work, and how to have your data removed.",
+    "terms.html": "The terms that apply to reading 404 Memory Found, affiliate links, and using its guestbook and games.",
     "contact.html": "Email 404 Memory Found or sign the guestbook.",
 }
+
+# Phrases too generic to auto-link
+LINK_STOPWORDS = {"history", "rise", "story", "everyone", "the", "internet", "when", "how", "why", "what", "night"}
 
 
 # --------------------------------------------------------------------------- helpers
@@ -142,11 +149,17 @@ def extract_head_bits(source):
     return (csp.group(0) if csp else ""), "\n    ".join(favicons)
 
 
-# --------------------------------------------------------------------------- posts
+# --------------------------------------------------------------------------- images
 
 def is_dead(info):
-    """Only a confirmed 404 from Commons removes an image; rate limits and transient errors keep the hotlink."""
+    """Only a confirmed 400/404 from Commons removes an image; rate limits and transient errors keep the hotlink."""
     return bool(info) and info.get("status") == "missing" and info.get("http") in (400, 404)
+
+
+def credit_link(info):
+    if info and info.get("commons"):
+        return f'<a class="img-credit" href="{info["commons"]}" rel="noopener" target="_blank">Image: Wikimedia Commons</a>'
+    return ""
 
 
 def localize_images(body, manifest):
@@ -176,12 +189,12 @@ def localize_images(body, manifest):
         if is_dead(info):
             return ""  # image gone from Commons: drop the whole figure
         fig = fig.replace(img.group(0), fix_img(img))
-        if info and info.get("commons") and "img-credit" not in fig:
-            credit = f' <a class="img-credit" href="{info["commons"]}" rel="noopener" target="_blank">Image: Wikimedia Commons</a>'
+        credit = credit_link(info)
+        if credit and "img-credit" not in fig:
             if "</figcaption>" in fig:
-                fig = fig.replace("</figcaption>", credit + "</figcaption>", 1)
+                fig = fig.replace("</figcaption>", " " + credit + "</figcaption>", 1)
             else:
-                fig = fig.replace("</figure>", f"<figcaption>{credit.strip()}</figcaption></figure>", 1)
+                fig = fig.replace("</figure>", f"<figcaption>{credit}</figcaption></figure>", 1)
         return fig
 
     body = re.sub(r"<figure>.*?</figure>", fix_figure, body, flags=re.DOTALL)
@@ -189,22 +202,125 @@ def localize_images(body, manifest):
     return body
 
 
-def load_posts(manifest):
+# --------------------------------------------------------------------------- monetization
+
+def monetize_links(body, config):
+    """Append affiliate ids to eBay / Amazon links and mark them sponsored. No-op until ids are configured."""
+    ebay = config.get("ebay_campaign_id") or ""
+    amazon = config.get("amazon_tag") or ""
+    if not ebay and not amazon:
+        return body
+
+    def fix(m):
+        tag = m.group(0)
+        href = re.search(r'href="([^"]+)"', tag)
+        if not href:
+            return tag
+        url = href.group(1)
+        host = urlparse(url).netloc.lower()
+        params = None
+        if ebay and host.endswith("ebay.com"):
+            params = {"mkcid": "1", "mkrid": "711-53200-19255-0", "campid": ebay, "toolid": "10001", "mkevt": "1"}
+        elif amazon and host.endswith("amazon.com"):
+            params = {"tag": amazon}
+        if not params:
+            return tag
+        parts = urlparse(url)
+        query = dict(parse_qsl(parts.query))
+        query.update(params)
+        new_url = urlunparse(parts._replace(query=urlencode(query)))
+        tag = tag.replace(href.group(0), f'href="{new_url}"')
+        tag = re.sub(r'\srel="[^"]*"', "", tag)
+        return tag.replace("<a", '<a rel="sponsored nofollow noopener" target="_blank"', 1)
+
+    return re.sub(r"<a [^>]*>", fix, body)
+
+
+def adsense_head(config):
+    client = config.get("adsense_client") or ""
+    if not client:
+        return ""
+    return (f'\n    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={client}" '
+            'crossorigin="anonymous"></script>')
+
+
+# --------------------------------------------------------------------------- posts
+
+def link_phrase_from_title(title):
+    """'What Happened to the Game Genie, the $50 ...' -> 'Game Genie'. Used for automatic internal links."""
+    m = re.match(r"What Happened to (?:the |a )?(.+?)(?:[,:?]| the | and |\s\(|$)", title, re.I)
+    if not m:
+        return None
+    phrase = m.group(1).strip().rstrip(".")
+    words = phrase.split()
+    if not 1 <= len(words) <= 4 or len(phrase) < 4:
+        return None
+    if all(w.lower() in LINK_STOPWORDS for w in words):
+        return None
+    return phrase
+
+
+def link_phrases(post):
+    explicit = post.get("linkPhrases") or []
+    if explicit:
+        return [p for p in explicit if len(p) >= 3]
+    auto = link_phrase_from_title(post["title"])
+    return [auto] if auto else []
+
+
+def add_internal_links(body, post, phrase_index):
+    """Link the first plain-text mention of another post's subject. Skips headings, existing links, captions."""
+    already = set(re.findall(r'href="/posts/([^".]+)\.html"', body))
+    added = 0
+    # Split into tag / text tokens and track context
+    tokens = re.split(r"(<[^>]+>)", body)
+    depth_skip = 0  # inside <a>, <h1-3>, <figcaption>, <aside>
+    out = []
+    for tok in tokens:
+        if tok.startswith("<"):
+            name = re.match(r"</?([a-zA-Z0-9]+)", tok)
+            tag = name.group(1).lower() if name else ""
+            if tag in ("a", "h1", "h2", "h3", "figcaption", "aside", "code"):
+                depth_skip += -1 if tok.startswith("</") else 1
+                depth_skip = max(0, depth_skip)
+            out.append(tok)
+            continue
+        if depth_skip or added >= MAX_AUTO_LINKS or not tok.strip():
+            out.append(tok)
+            continue
+        text = tok
+        for phrase, slug in phrase_index:
+            if slug == post["slug"] or slug in already or added >= MAX_AUTO_LINKS:
+                continue
+            m = re.search(r"(?<![\w-])" + re.escape(phrase) + r"(?![\w-])", text)
+            if not m:
+                continue
+            text = text[:m.start()] + f'<a href="/posts/{slug}.html">{m.group(0)}</a>' + text[m.end():]
+            already.add(slug)
+            added += 1
+        out.append(text)
+    return "".join(out)
+
+
+def load_posts(manifest, authors, config):
     data = read_json("posts.json", {"posts": []})
     posts = []
     for raw in data["posts"]:
         p = dict(raw)
         p["slug"] = p["id"]
         p["tags"] = p.get("tags") or []
-        p["author"] = p.get("author") or BLOG_NAME
-        p["body"] = localize_images(p["body"], manifest)
+        key = p.get("author") if p.get("author") in authors else None
+        p["authorKey"] = key
+        p["authorName"] = authors[key]["name"] if key else BLOG_NAME
+        p["body"] = monetize_links(localize_images(p["body"], manifest), config)
         p["wordCount"] = word_count(p["body"])
-        p["readingTime"] = reading_label(p["body"])
+        p["readingTime"] = reading_label(p["body"] + " " + (p.get("summary") or ""))
         seo = p.get("seo") or {}
         p["pageTitle"] = seo.get("title") or f"{p['title']} | {BLOG_NAME}"
         p["metaDescription"] = seo.get("description") or p["excerpt"]
         hero = manifest.get(p.get("image") or "", {})
         p["heroLocal"] = hero.get("file") if hero.get("status") == "ok" else None
+        p["heroInfo"] = hero if hero.get("status") == "ok" else None
         p["thumb"] = hero.get("thumb") if hero.get("status") == "ok" else None
         if is_dead(hero):
             p["image"] = None  # hero gone from Commons: grey placeholder instead of a broken request
@@ -215,6 +331,11 @@ def load_posts(manifest):
         p["path"] = f"/posts/{p['slug']}.html"
         posts.append(p)
     posts.sort(key=lambda x: x["date"], reverse=True)
+
+    # Automatic internal links, longest phrases first so "Game Boy Camera" wins over "Game Boy"
+    index = sorted(((ph, p["slug"]) for p in posts for ph in link_phrases(p)), key=lambda t: -len(t[0]))
+    for p in posts:
+        p["body"] = add_internal_links(p["body"], p, index)
     return posts
 
 
@@ -279,7 +400,7 @@ def head_html(ctx, *, title, description, canonical, og_type="website", og_image
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     {ctx['csp']}
-{gtag_snippet()}
+{gtag_snippet()}{ctx['adsense']}
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(description)}">
     <link rel="canonical" href="{canonical}">
@@ -353,14 +474,14 @@ def shell_html(ctx, head, *, body_class, window_icon, window_title, content, sta
 
 
 def nav_links_html(tags, current=None):
-    items = [f'<a href="/posts/">All posts</a>']
+    items = ['<a href="/posts/">All posts</a>']
     for t in tags:
         cls = ' class="active"' if t == current else ""
         items.append(f'<a href="/tags/{tag_slug(t)}.html"{cls}>{esc(t)}</a>')
     return '<nav class="page-nav" aria-label="Browse">' + " ".join(items) + "</nav>"
 
 
-def post_list_html(posts, heading_level=2):
+def post_list_html(posts):
     items = []
     for p in posts:
         thumb = f'<span class="page-list-thumb" style="background-image:url(\'{p["thumb"]}\')"></span>' if p.get("thumb") else '<span class="page-list-thumb"></span>'
@@ -368,12 +489,58 @@ def post_list_html(posts, heading_level=2):
         items.append(
             f'<li><a href="{p["path"]}">{thumb}<span class="page-list-text">'
             f'<span class="page-list-title">{esc(p["title"])}</span>'
-            f'<span class="page-list-meta">{p["date"]} · {p["readingTime"]}{" · " + tags if tags else ""}</span>'
+            f'<span class="page-list-meta">{p["date"]} · {esc(p["authorName"])} · {p["readingTime"]}{" · " + tags if tags else ""}</span>'
             f'<span class="page-list-excerpt">{esc(p["excerpt"])}</span></span></a></li>')
     return '<ul class="page-list">' + "\n".join(items) + "</ul>"
 
 
+def author_person(ctx, key):
+    a = ctx["authors"][key]
+    return {"@type": "Person", "name": a["name"], "url": f"{BASE_URL}/authors/{key}.html", "description": a["bio"],
+            "jobTitle": "Writer", "worksFor": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL}}
+
+
+def authors_block_html(ctx):
+    cards = []
+    for key, a in ctx["authors"].items():
+        cards.append(f'<div class="author-card"><a class="author-name" href="/authors/{key}.html">{esc(a["name"])}</a>'
+                     f'<div class="author-beat">{esc(a["beat"])}</div><p>{esc(a["bio"])}</p></div>')
+    return ('<section class="authors-block"><h2>Who writes 404 Memory Found</h2>'
+            '<p>The site is written by a small team under pen names. We publish no photos or personal details of our '
+            'writers, only their beats. Every post is researched from primary sources, which are listed at the end of '
+            'the article.</p>' + "".join(cards) + "</section>")
+
+
 # --------------------------------------------------------------------------- pages
+
+def post_extras_html(post):
+    """Summary, hero image, quick facts (new-format posts). Older posts have none of these fields."""
+    parts = []
+    if post.get("summary"):
+        parts.append(f'<p class="post-summary">{post["summary"]}</p>')
+    if post.get("heroLocal") and "<img" not in post["body"]:
+        info = post["heroInfo"]
+        alt = esc(post.get("imageAlt") or post["title"])
+        caption = post.get("imageCaption") or ""
+        parts.append(
+            f'<figure class="post-hero"><img src="{post["heroLocal"]}" alt="{alt}" width="{info["width"]}" '
+            f'height="{info["height"]}" decoding="async"><figcaption>{caption} {credit_link(info)}</figcaption></figure>')
+    facts = post.get("facts") or []
+    if facts:
+        rows = "".join(f'<div class="fact-row"><dt>{esc(f["label"])}</dt><dd>{f["value"]}</dd></div>' for f in facts)
+        parts.append(f'<aside class="quick-facts" aria-label="Quick facts"><div class="quick-facts-title">Quick facts</div><dl>{rows}</dl></aside>')
+    return "\n".join(parts)
+
+
+def sources_html(post):
+    sources = post.get("sources") or []
+    if not sources:
+        return ""
+    items = "".join(
+        f'<li><a href="{s["url"]}" rel="noopener" target="_blank">{esc(s["title"])}</a>'
+        f' <span class="source-host">{esc(urlparse(s["url"]).netloc.replace("www.", ""))}</span></li>' for s in sources)
+    return f'<section class="post-sources"><h2>Sources</h2><ul>{items}</ul></section>'
+
 
 def build_post_page(ctx, post, posts):
     related = related_posts(post, posts)
@@ -383,16 +550,24 @@ def build_post_page(ctx, post, posts):
                         + "".join(f'<a class="related-post" href="{r["path"]}">{esc(r["title"])}</a>' for r in related)
                         + "</div>")
     tags_html = " ".join(f'<a href="/tags/{tag_slug(t)}.html">{esc(t)}</a>' for t in post["tags"] if t in ctx["tags"])
+    key = post["authorKey"]
+    byline = (f'<a href="/authors/{key}.html" rel="author">{esc(post["authorName"])}</a>' if key else esc(post["authorName"]))
+    disclosure = ""
+    if 'rel="sponsored' in post["body"] and ctx["config"].get("affiliate_disclosure"):
+        disclosure = f'<p class="affiliate-disclosure">{esc(ctx["config"]["affiliate_disclosure"])}</p>'
 
     content = f"""<a class="page-back page-back-mobile" href="/">&larr; Back</a>
 <article class="post-article">
     <header class="post-header">
         <h1>{esc(post['title'])}</h1>
-        <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time> | By {esc(post['author'])} | <span class="reading-time">{post['readingTime']}</span></div>
+        <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time> | By {byline} | <span class="reading-time">{post['readingTime']}</span></div>
     </header>
+    {post_extras_html(post)}
     <div class="post-body">
 {post['body']}
     </div>
+    {sources_html(post)}
+    {disclosure}
     <footer class="post-footer">
         {'<div class="post-tags">Filed under: ' + tags_html + '</div>' if tags_html else ''}
         {related_html}
@@ -401,6 +576,7 @@ def build_post_page(ctx, post, posts):
 </article>"""
 
     images = [post["ogImage"]] + ([post["heroUrl"]] if post.get("heroUrl") else [])
+    author_schema = author_person(ctx, key) if key else {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL}
     blog_posting = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -412,12 +588,14 @@ def build_post_page(ctx, post, posts):
         "wordCount": post["wordCount"],
         "keywords": post["tags"],
         "articleSection": post["tags"][0] if post["tags"] else "Technology",
-        "author": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL},
+        "author": author_schema,
         "publisher": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL,
                       "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}},
         "mainEntityOfPage": {"@type": "WebPage", "@id": post["url"]},
         "url": post["url"],
     }
+    if post.get("sources"):
+        blog_posting["citation"] = [s["url"] for s in post["sources"]]
     breadcrumbs = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -431,7 +609,7 @@ def build_post_page(ctx, post, posts):
              f'\n    <meta property="article:modified_time" content="{post.get("updated") or post["date"]}T00:00:00Z">'
              f'\n    <meta property="article:section" content="{esc(post["tags"][0] if post["tags"] else "Technology")}">'
              + "".join(f'\n    <meta property="article:tag" content="{esc(t)}">' for t in post["tags"])
-             + f'\n    <meta name="author" content="{esc(post["author"])}">')
+             + f'\n    <meta name="author" content="{esc(post["authorName"])}">')
     head = head_html(ctx, title=post["pageTitle"], description=post["metaDescription"], canonical=post["url"],
                      og_type="article", og_image=post["ogImage"], extra_meta=extra, og_title=post["title"],
                      schemas=(blog_posting, breadcrumbs, extract_faq_schema(post["body"])))
@@ -447,6 +625,17 @@ def build_hub_page(ctx, filename, posts):
                  'for corrections, story ideas, or anything else. Or leave a note in the guestbook below.</p>'
                  '<h3>Sign the guestbook</h3>' + inner)
     inner = re.sub(r"<h2([^>]*)>(.*?)</h2>", r"<h1\1>\2</h1>", inner, count=1)
+    if filename == "about.html":
+        inner += authors_block_html(ctx)
+    if filename == "terms.html":
+        inner += ('<h3 style="font-size:14px;margin:10px 0 4px 0;">Affiliate links and advertising</h3>'
+                  '<p style="font-size:13px;margin-bottom:8px;">' + esc(ctx["config"].get("affiliate_disclosure", "")) +
+                  ' Pages may also carry advertising served by Google AdSense; those ads are labelled and never influence what we write.</p>')
+    if filename == "privacy.html":
+        inner += ('<h3 style="font-size:14px;margin:10px 0 4px 0;">Advertising</h3>'
+                  '<p style="font-size:13px;margin-bottom:8px;">When advertising is enabled, Google AdSense and its partners may use '
+                  'cookies to serve ads based on your prior visits to this or other websites. You can opt out of personalised '
+                  'advertising at <a href="https://www.google.com/settings/ads" style="color:#0000ff;">Google Ads Settings</a>.</p>')
     content = f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n<div class="page-copy">{inner}</div>\n' \
               f'{nav_links_html(ctx["tags"])}'
     url = f"{BASE_URL}/{filename}"
@@ -457,11 +646,29 @@ def build_hub_page(ctx, filename, posts):
                       status_text=f"{len(posts)} posts")
 
 
+def build_author_page(ctx, key, posts):
+    a = ctx["authors"][key]
+    mine = [p for p in posts if p["authorKey"] == key]
+    url = f"{BASE_URL}/authors/{key}.html"
+    content = (f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n'
+               f'<h1>{esc(a["name"])}</h1>\n<p class="author-beat">{esc(a["beat"])}</p>\n'
+               f'<p class="page-intro">{esc(a["bio"])} {esc(a["name"])} is a pen name; 404 Memory Found publishes no photos '
+               f'or personal details of its writers.</p>\n{nav_links_html(ctx["tags"])}\n'
+               f'<h2>{len(mine)} posts by {esc(a["name"])}</h2>\n{post_list_html(mine)}')
+    schema = dict(author_person(ctx, key))
+    schema["@context"] = "https://schema.org"
+    schema["mainEntityOfPage"] = url
+    head = head_html(ctx, title=f"{a['name']} | {BLOG_NAME}", canonical=url,
+                     description=f"{a['name']} writes about {a['beat'].lower()} for {BLOG_NAME}. {len(mine)} posts.",
+                     schemas=(schema,))
+    return shell_html(ctx, head, body_class="hub-page", window_icon="✍️", window_title=a["name"], content=content,
+                      status_text=f"{len(mine)} posts")
+
+
 def build_posts_index_page(ctx, posts):
     by_month = {}
     for p in posts:
-        key = p["date"][:7]
-        by_month.setdefault(key, []).append(p)
+        by_month.setdefault(p["date"][:7], []).append(p)
     sections = []
     for key in sorted(by_month, reverse=True):
         label = datetime.strptime(key, "%Y-%m").strftime("%B %Y")
@@ -474,7 +681,7 @@ def build_posts_index_page(ctx, posts):
               "mainEntity": {"@type": "ItemList", "itemListElement": [
                   {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(posts)]}}
     head = head_html(ctx, title=f"All posts | {BLOG_NAME}", canonical=url,
-                     description=f"Every story on {BLOG_NAME}: {len(posts)} long-form articles about 90s and 2000s technology, games, websites and companies.",
+                     description=f"Every story on {BLOG_NAME}: {len(posts)} articles about 90s and 2000s technology, games, websites and companies.",
                      schemas=(schema,))
     return shell_html(ctx, head, body_class="hub-page", window_icon="📝", window_title="All posts", content=content,
                       status_text=f"{len(posts)} posts")
@@ -612,15 +819,11 @@ def build_index_html(ctx, posts):
         "image": DEFAULT_OG_IMAGE,
         "publisher": {"@type": "Organization", "name": BLOG_NAME, "url": BASE_URL,
                       "logo": {"@type": "ImageObject", "url": LOGO}},
-        "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "url": p["url"], "datePublished": p["date"]}
+        "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "url": p["url"], "datePublished": p["date"],
+                      "author": {"@type": "Person", "name": p["authorName"]}}
                      for p in posts[:20]],
     }
-    website_schema = {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": BLOG_NAME,
-        "url": BASE_URL + "/",
-    }
+    website_schema = {"@context": "https://schema.org", "@type": "WebSite", "name": BLOG_NAME, "url": BASE_URL + "/"}
     seo_meta = f"""    <meta name="description" content="{esc(DEFAULT_DESCRIPTION)}">
     <link rel="canonical" href="{BASE_URL}/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -636,12 +839,14 @@ def build_index_html(ctx, posts):
     <meta name="twitter:title" content="{BLOG_NAME}">
     <meta name="twitter:description" content="{esc(DEFAULT_DESCRIPTION)}">
     <meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">
-    <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="{BLOG_NAME}" href="{BASE_URL}/feed.xml">{ctx['adsense']}
     <script type="application/ld+json">{json.dumps(website_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json">{json.dumps(blog_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json" id="schema-markup"></script>"""
 
     out = source.replace("    <!-- SEO meta tags are injected by build.py - do not duplicate here -->", seo_meta, 1)
+    if ctx["adsense"]:
+        out = re.sub(r'\s*<meta http-equiv="Content-Security-Policy"[^>]*>', "", out, count=1)
 
     # External assets instead of inline CSS/JS
     out = re.sub(r"<style>.*?</style>", f'<link rel="stylesheet" href="/assets/site.css?v={ctx["version"]}">', out, count=1, flags=re.DOTALL)
@@ -671,19 +876,22 @@ def build_index_html(ctx, posts):
 
 # --------------------------------------------------------------------------- feeds and data
 
-def build_sitemap(posts, tags, today):
+def build_sitemap(posts, tags, authors, today):
     latest = posts[0]["date"] if posts else today
 
     def url(loc, lastmod, freq, prio):
         return f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>\n"
 
     body = url(f"{BASE_URL}/", latest, "daily", "1.0")
-    body += url(f"{BASE_URL}/posts/", latest, "weekly", "0.9")
+    body += url(f"{BASE_URL}/posts/", latest, "daily", "0.9")
     for t in tags:
         tagged = [p for p in posts if t in p["tags"]]
         body += url(f"{BASE_URL}/tags/{tag_slug(t)}.html", tagged[0]["date"] if tagged else latest, "weekly", "0.7")
     for p in posts:
         body += url(p["url"], p.get("updated") or p["date"], "monthly", "0.8")
+    for key in authors:
+        mine = [p for p in posts if p["authorKey"] == key]
+        body += url(f"{BASE_URL}/authors/{key}.html", mine[0]["date"] if mine else latest, "weekly", "0.4")
     for page in ("about.html", "contact.html", "privacy.html", "terms.html"):
         body += url(f"{BASE_URL}/{page}", latest, "yearly", "0.3")
     return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n"
@@ -701,6 +909,7 @@ def build_feed(posts):
       <link>{p['url']}</link>
       <guid isPermaLink="true">{p['url']}</guid>
       <pubDate>{rfc822(p['date'])}</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{esc(p['authorName'])}</dc:creator>
       <description>{esc(p['excerpt'])}</description>
 {cats}    </item>""")
     latest = rfc822(posts[0]["date"]) if posts else rfc822("2026-01-01")
@@ -723,19 +932,21 @@ def posts_index_json(posts):
     return {"posts": [{
         "id": p["slug"], "title": p["title"], "date": p["date"], "excerpt": p["excerpt"], "tags": p["tags"],
         "image": p.get("heroLocal") or p.get("image"), "thumb": p.get("thumb") or p.get("heroLocal") or p.get("image"),
-        "readingTime": p["readingTime"],
+        "readingTime": p["readingTime"], "authorName": p["authorName"], "authorKey": p["authorKey"],
     } for p in posts]}
 
 
 def post_json(p):
+    """Body for the in-app view: summary, hero and quick facts inlined so the desktop window shows the same article."""
+    body = post_extras_html(p) + "\n" + p["body"] + "\n" + sources_html(p)
     return {"id": p["slug"], "title": p["title"], "date": p["date"], "tags": p["tags"], "readingTime": p["readingTime"],
-            "body": p["body"]}
+            "authorName": p["authorName"], "body": body}
 
 
 # --------------------------------------------------------------------------- CSS for generated pages
 
 PAGE_SHELL_CSS = """
-/* ---- Generated pages (posts, tags, about...): one open window, article rendered once ---- */
+/* ---- Generated pages (posts, tags, authors, about...): one open window, article rendered once ---- */
 .page-shell .page-back { display: inline-block; padding: 5px 12px; background: #c0c0c0; color: #000; text-decoration: none;
     border: 2px solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080;
     font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; font-size: 13px; margin: 0 6px 10px 0; }
@@ -743,13 +954,15 @@ PAGE_SHELL_CSS = """
 .page-shell .page-back-row { margin-top: 16px; }
 .page-shell .post-tags { margin: 18px 0 6px; font-size: 13px; color: #444; }
 .page-shell .post-tags a { color: #000080; margin-left: 4px; }
+.page-shell .post-meta a { color: #000080; }
 .page-shell .img-credit { font-size: 11px; color: #666; text-decoration: none; margin-left: 6px; }
 .page-shell .img-credit:hover { text-decoration: underline; }
-.page-shell .post-body figure { margin: 16px auto; max-width: 560px; }
-.page-shell .post-body figure img { max-width: 100%; height: auto; display: block; }
-.page-shell .post-body figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
+.page-shell .post-body figure, .page-shell .post-hero { margin: 16px auto; max-width: 560px; }
+.page-shell .post-body figure img, .page-shell .post-hero img { max-width: 100%; height: auto; display: block; }
+.page-shell .post-body figcaption, .page-shell .post-hero figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
 .page-shell .page-copy h1, .page-shell .hub-page h1 { font-size: 20px; color: #000080; margin-bottom: 8px; line-height: 1.3; }
 .page-shell .page-intro { margin-bottom: 12px; color: #333; }
+.page-shell .author-beat { font-size: 13px; color: #666; margin-bottom: 8px; }
 .page-shell .page-nav { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 14px; }
 .page-shell .page-nav a { padding: 2px 8px; background: #dfdfdf; color: #000; text-decoration: none; font-size: 13px;
     border: 2px solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080;
@@ -767,6 +980,29 @@ PAGE_SHELL_CSS = """
 .page-shell .page-list-excerpt { display: block; font-size: 12px; color: #333; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .page-shell .page-copy p, .page-shell .page-copy h3 { margin-bottom: 8px; }
 .page-shell .page-copy h3 { margin-top: 12px; }
+.page-shell .authors-block { margin-top: 18px; padding-top: 12px; border-top: 1px solid #c0c0c0; }
+.page-shell .author-card { background: #fff; border: 1px solid #c0c0c0; padding: 8px 10px; margin: 8px 0; }
+.page-shell .author-name { font-weight: bold; color: #000080; text-decoration: none; font-size: 14px; }
+.page-shell .author-card .author-beat { margin: 2px 0 4px; }
+.page-shell .author-card p { font-size: 13px; margin: 0; }
+
+/* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
+.post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
+    border: 1px solid #c8c86a; border-left: 4px solid #000080; }
+.quick-facts { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 8px 12px; margin: 12px 0 16px; font-size: 13px; }
+.quick-facts-title { font-weight: bold; margin-bottom: 6px; color: #000080; font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.quick-facts dl { margin: 0; }
+.quick-facts .fact-row { display: flex; gap: 8px; padding: 3px 0; border-top: 1px dotted #c0c0c0; }
+.quick-facts .fact-row:first-child { border-top: 0; }
+.quick-facts dt { flex: 0 0 34%; font-weight: bold; color: #333; margin: 0; }
+.quick-facts dd { flex: 1; margin: 0; }
+.post-sources { margin-top: 20px; padding-top: 10px; border-top: 1px solid #c0c0c0; font-size: 13px; }
+.post-sources h2 { font-size: 15px; margin-bottom: 6px; }
+.post-sources ul { margin: 0; padding-left: 18px; }
+.post-sources li { margin-bottom: 4px; }
+.post-sources a { color: #000080; }
+.source-host { color: #777; font-size: 11px; margin-left: 4px; }
+.affiliate-disclosure { font-size: 11px; color: #666; margin-top: 10px; font-style: italic; }
 
 @media (min-width: 769px) {
     .page-shell .page-back-mobile { display: none; }
@@ -795,7 +1031,7 @@ PAGE_SHELL_CSS = """
     .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
     .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
     .page-shell .post-body { font-size: 15px; line-height: 1.7; color: #333; }
-    .page-shell .post-body img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
+    .page-shell .post-body img, .page-shell .post-hero img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
         border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
     .page-shell .post-body p { margin-bottom: 12px; }
     .page-shell .post-body h2, .page-shell .post-body h3 { margin-top: 18px; margin-bottom: 8px; color: #000080; }
@@ -808,6 +1044,7 @@ PAGE_SHELL_CSS = """
     .page-shell .page-mobile-footer { display: flex; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
     .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
+    .quick-facts dt { flex-basis: 40%; }
 }
 """
 
@@ -827,7 +1064,9 @@ def main():
         source = f.read()
     manifest = read_json("images-manifest.json", {})
     redirects = {k: v for k, v in read_json("redirects.json", {}).items() if not k.startswith("_")}
-    posts = load_posts(manifest)
+    authors = {k: v for k, v in read_json("authors.json", {}).items() if not k.startswith("_")}
+    config = {k: v for k, v in read_json("site-config.json", {}).items() if not k.startswith("_")}
+    posts = load_posts(manifest, authors, config)
     by_slug = {p["slug"]: p for p in posts}
     tags = top_tags(posts)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -836,8 +1075,11 @@ def main():
     js = extract_javascript(source)
     version = content_hash(css, js)
     csp, favicons = extract_head_bits(source)
+    adsense = adsense_head(config)
     ctx = {
-        "source": source, "version": version, "tags": tags, "csp": csp, "favicons": favicons,
+        "source": source, "version": version, "tags": tags, "authors": authors, "config": config,
+        "csp": "" if adsense else csp,  # a meta CSP would block ad networks; drop it once ads are on
+        "favicons": favicons, "adsense": adsense,
         "desktop_icons": extract_div_by_marker(source, 'class="desktop-icons">'),
         "taskbar": extract_div_by_marker(source, 'class="taskbar">'),
         "footer": extract_div_by_marker(source, 'class="footer">'),
@@ -852,7 +1094,8 @@ def main():
     write("index.html", build_index_html(ctx, posts))
     write("posts-index.json", json.dumps(posts_index_json(posts), ensure_ascii=False))
 
-    print(f"📝 {len(posts)} posts")
+    auto_links = sum(len(re.findall(r'href="/posts/', p["body"])) for p in posts)
+    print(f"📝 {len(posts)} posts ({auto_links} internal links in bodies)")
     for p in posts:
         write(f"posts/{p['slug']}.html", build_post_page(ctx, p, posts))
         write(f"posts/{p['slug']}.json", json.dumps(post_json(p), ensure_ascii=False))
@@ -861,6 +1104,10 @@ def main():
     print(f"📁 {len(tags)} tag pages: {', '.join(tags)}")
     for t in tags:
         write(f"tags/{tag_slug(t)}.html", build_tag_page(ctx, t, posts))
+
+    print(f"✍️  {len(authors)} author pages: {', '.join(a['name'] for a in authors.values())}")
+    for key in authors:
+        write(f"authors/{key}.html", build_author_page(ctx, key, posts))
 
     print("ℹ️  about, contact, privacy, terms, 404")
     for filename in HUB_PAGES:
@@ -880,16 +1127,19 @@ def main():
             os.remove(os.path.join(OUTPUT_DIR, "posts", name))
             print(f"   🗑  removed stale posts/{name}")
 
-    print("🗺️  sitemap.xml, feed.xml, robots.txt, CNAME")
-    write("sitemap.xml", build_sitemap(posts, tags, today))
+    print("🗺️  sitemap.xml, feed.xml, robots.txt, CNAME" + (", ads.txt" if config.get("ads_txt") else ""))
+    write("sitemap.xml", build_sitemap(posts, tags, authors, today))
     write("feed.xml", build_feed(posts))
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
     write("CNAME", "404memoryfound.com")
+    if config.get("ads_txt"):
+        write("ads.txt", config["ads_txt"].strip() + "\n")
 
-    missing = [u for u, v in manifest.items() if v.get("status") != "ok"]
-    if missing:
-        print(f"⚠️  {len(missing)} images unavailable on Commons and dropped from bodies (see images-manifest.json)")
-    print(f"\n✅ Build complete: {len(posts)} posts, {len(tags)} tag pages, {len(HUB_PAGES) + 2} hub pages, version {version}")
+    dead = [u for u, v in manifest.items() if is_dead(v)]
+    if dead:
+        print(f"⚠️  {len(dead)} images no longer exist on Commons and are dropped from bodies (see images-manifest.json)")
+    print(f"\n✅ Build complete: {len(posts)} posts, {len(tags)} tag pages, {len(authors)} author pages, "
+          f"{len(HUB_PAGES) + 2} hub pages, version {version}")
 
 
 if __name__ == "__main__":
