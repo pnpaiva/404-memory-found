@@ -10,9 +10,12 @@ topic-backlog.json ──► generate_post.py ──► posts.json ──► fet
       (topics)          (Claude writes)     (source of truth)   (/img)            (/og)           (html, json, sitemap, feed)
 ```
 
-- **Daily post** (`.github/workflows/daily-post.yml`) runs at 11:00 UTC: writes one post with Claude, fetches its image,
-  makes its share card, rebuilds and pushes. Run it by hand from the Actions tab with a `count` (posts per run) and an
-  optional `topic`.
+- **Publishing routine.** A Claude cloud routine ("404 Memory Found: write and publish one post", managed at
+  https://claude.ai/code/routines) runs four times a day at 06:00, 11:00, 16:00 and 21:00 UTC. Each run clones the
+  repo, picks or researches a topic, writes one post to `POST_SPEC.md`, validates it, fetches the image, makes the
+  share card, builds, pushes to `main` and pings IndexNow. No API key needed; it runs on the Claude subscription.
+- **Fallback writer** (`.github/workflows/daily-post.yml`, manual trigger only) does the same with the Anthropic API
+  (`generate_post.py`) if the routine is ever paused. It needs the `ANTHROPIC_API_KEY` secret.
 - **Build** (`.github/workflows/build.yml`) rebuilds whenever `posts.json`, `build.py` or `src/` change on `main`.
 - Writers are pen names defined in `authors.json`. No photos, no personal details. Bylines link to `/authors/<key>.html`.
 - Every new post follows `POST_SPEC.md`: 900 to 1,300 words, direct answer first, quick facts, three FAQ questions,
@@ -20,9 +23,9 @@ topic-backlog.json ──► generate_post.py ──► posts.json ──► fet
 
 ## One-time setup (owner only)
 
-1. **API key for the writer.** Repository → Settings → Secrets and variables → Actions → New repository secret
-   `ANTHROPIC_API_KEY`. Without it the daily workflow fails at the "Write new post(s)" step and nothing is published.
-   Cost is roughly $0.50 to $1.50 per post at Opus 5 rates (research with web search plus one structured write).
+1. **API key for the fallback writer (optional).** Repository → Settings → Secrets and variables → Actions → New
+   repository secret `ANTHROPIC_API_KEY`. Only needed to run the manual `Daily post` workflow; the Claude routine
+   publishes without it.
 2. **AdSense.** Apply at https://adsense.google.com with the site URL. Once approved, put the publisher id in
    `site-config.json` → `adsense_client` (`ca-pub-…`) and the `ads.txt` line in `ads_txt`, commit, and the next build
    injects Auto ads on every page and writes `/ads.txt`. The privacy page already carries the required disclosure.

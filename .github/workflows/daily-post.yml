@@ -1,9 +1,8 @@
 name: Daily post
 
+# Manual fallback. Daily publishing runs as a Claude routine (see README: "How publishing works");
+# this workflow is kept for on-demand runs with an ANTHROPIC_API_KEY secret and is not scheduled.
 on:
-  schedule:
-    # 11:00 UTC every day (08:00 São Paulo). Change the count below to publish more per run.
-    - cron: '0 11 * * *'
   workflow_dispatch:
     inputs:
       count:
