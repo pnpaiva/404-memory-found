@@ -537,8 +537,15 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
 export const Short: React.FC<{ script: Script }> = ({ script }) => {
   const total = script.scenes.reduce((n, s) => n + s.frames, 0);
   let offset = 0;
+  const { fps } = useVideoConfig();
   return (
     <AbsoluteFill>
+      {/* music bed: synthesised chiptune from gen_music.py, quiet under the voice, fades out with the CRT-off */}
+      <Audio
+        src={staticFile("music.wav")}
+        loop
+        volume={(f) => interpolate(f, [0, fps * 0.8, total - fps * 1.2, total], [0, 0.13, 0.13, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
+      />
       {script.scenes.map((scene, i) => {
         const from = offset;
         offset += scene.frames;

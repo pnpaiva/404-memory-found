@@ -4,3 +4,4 @@ public/*.wav
 public/*.aiff
 public/*.mp3
 .env
+public/music.wav
