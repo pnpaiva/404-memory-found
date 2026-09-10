@@ -1397,6 +1397,16 @@
   "thumb": "/img/thumb/nec-turbografx-16-cd-fl-013cd7.png",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Habbo-logo.png/960px-Habbo-logo.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Habbo-logo.png",
+  "ext": "png",
+  "file": "/img/habbo-logo-c334f6.png",
+  "height": 472,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/habbo-logo-c334f6.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/220_Cambridge_Science_Park_looking_east.jpg/960px-220_Cambridge_Science_Park_looking_east.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:220_Cambridge_Science_Park_looking_east.jpg",
   "ext": "jpg",
