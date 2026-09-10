@@ -1,0 +1,568 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "title": "Is Kmart Still Open? The 3 Stores Left in 2026",
+ "slug": "is-kmart-still-open-stores-left",
+ "subject": "Kmart",
+ "images": {
+  "hero": "img/kmart-bridgehampton-ny-38-53493436922-7542f4.jpg",
+  "hero2": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kmart_in_Kendale_Lakes_FL.jpeg/1280px-Kmart_in_Kendale_Lakes_FL.jpeg"
+ },
+ "scenes": [
+  {
+   "kind": "hook",
+   "text": "Is Kmart still open in 2026?",
+   "words": [
+    {
+     "w": "Is",
+     "s": 0.0,
+     "e": 0.151
+    },
+    {
+     "w": "Kmart",
+     "s": 0.209,
+     "e": 0.592
+    },
+    {
+     "w": "still",
+     "s": 0.65,
+     "e": 0.882
+    },
+    {
+     "w": "open",
+     "s": 0.964,
+     "e": 1.184
+    },
+    {
+     "w": "in",
+     "s": 1.219,
+     "e": 1.277
+    },
+    {
+     "w": "2026?",
+     "s": 1.335,
+     "e": 2.554
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg1.mp3",
+   "seconds": 2.59,
+   "frames": 79
+  },
+  {
+   "kind": "found",
+   "text": "Yes. Three stores are left, and only one of them is in the 50 states.",
+   "words": [
+    {
+     "w": "Yes.",
+     "s": 0.0,
+     "e": 0.488
+    },
+    {
+     "w": "Three",
+     "s": 0.662,
+     "e": 0.906
+    },
+    {
+     "w": "stores",
+     "s": 0.94,
+     "e": 1.219
+    },
+    {
+     "w": "are",
+     "s": 1.254,
+     "e": 1.347
+    },
+    {
+     "w": "left,",
+     "s": 1.382,
+     "e": 1.718
+    },
+    {
+     "w": "and",
+     "s": 1.776,
+     "e": 1.927
+    },
+    {
+     "w": "only",
+     "s": 1.985,
+     "e": 2.183
+    },
+    {
+     "w": "one",
+     "s": 2.276,
+     "e": 2.461
+    },
+    {
+     "w": "of",
+     "s": 2.496,
+     "e": 2.543
+    },
+    {
+     "w": "them",
+     "s": 2.589,
+     "e": 2.74
+    },
+    {
+     "w": "is",
+     "s": 2.798,
+     "e": 2.868
+    },
+    {
+     "w": "in",
+     "s": 2.926,
+     "e": 2.984
+    },
+    {
+     "w": "the",
+     "s": 3.019,
+     "e": 3.088
+    },
+    {
+     "w": "50",
+     "s": 3.135,
+     "e": 3.379
+    },
+    {
+     "w": "states.",
+     "s": 3.425,
+     "e": 4.133
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg2.mp3",
+   "seconds": 4.18,
+   "frames": 127
+  },
+  {
+   "kind": "chart",
+   "text": "Kmart peaked at 2,486 stores in 1994. By 2002 it filed for bankruptcy with 2,114 still open.",
+   "words": [
+    {
+     "w": "Kmart",
+     "s": 0.0,
+     "e": 0.499
+    },
+    {
+     "w": "peaked",
+     "s": 0.546,
+     "e": 0.813
+    },
+    {
+     "w": "at",
+     "s": 0.848,
+     "e": 0.917
+    },
+    {
+     "w": "2,486",
+     "s": 0.987,
+     "e": 2.728
+    },
+    {
+     "w": "stores",
+     "s": 2.775,
+     "e": 3.181
+    },
+    {
+     "w": "in",
+     "s": 3.239,
+     "e": 3.309
+    },
+    {
+     "w": "1994.",
+     "s": 3.367,
+     "e": 4.516
+    },
+    {
+     "w": "By",
+     "s": 4.795,
+     "e": 4.934
+    },
+    {
+     "w": "2002",
+     "s": 4.992,
+     "e": 5.805
+    },
+    {
+     "w": "it",
+     "s": 5.863,
+     "e": 5.921
+    },
+    {
+     "w": "filed",
+     "s": 5.968,
+     "e": 6.2
+    },
+    {
+     "w": "for",
+     "s": 6.223,
+     "e": 6.316
+    },
+    {
+     "w": "bankruptcy",
+     "s": 6.374,
+     "e": 6.943
+    },
+    {
+     "w": "with",
+     "s": 7.268,
+     "e": 7.454
+    },
+    {
+     "w": "2,114",
+     "s": 7.5,
+     "e": 8.812
+    },
+    {
+     "w": "still",
+     "s": 8.858,
+     "e": 9.056
+    },
+    {
+     "w": "open.",
+     "s": 9.114,
+     "e": 9.659
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg3.mp3",
+   "seconds": 9.69,
+   "frames": 292
+  },
+  {
+   "kind": "props",
+   "text": "The last full-size mainland store closed in Bridgehampton, New York, on October 20, 2024. The chain belongs to Transformco.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.112
+    },
+    {
+     "w": "last",
+     "s": 0.193,
+     "e": 0.495
+    },
+    {
+     "w": "full-size",
+     "s": 0.553,
+     "e": 1.203
+    },
+    {
+     "w": "mainland",
+     "s": 1.273,
+     "e": 1.702
+    },
+    {
+     "w": "store",
+     "s": 1.76,
+     "e": 2.039
+    },
+    {
+     "w": "closed",
+     "s": 2.085,
+     "e": 2.387
+    },
+    {
+     "w": "in",
+     "s": 2.422,
+     "e": 2.48
+    },
+    {
+     "w": "Bridgehampton,",
+     "s": 2.526,
+     "e": 3.107
+    },
+    {
+     "w": "New",
+     "s": 3.13,
+     "e": 3.235
+    },
+    {
+     "w": "York,",
+     "s": 3.281,
+     "e": 3.583
+    },
+    {
+     "w": "on",
+     "s": 3.618,
+     "e": 3.745
+    },
+    {
+     "w": "October",
+     "s": 3.792,
+     "e": 4.152
+    },
+    {
+     "w": "20,",
+     "s": 4.221,
+     "e": 4.581
+    },
+    {
+     "w": "2024.",
+     "s": 4.616,
+     "e": 5.591
+    },
+    {
+     "w": "The",
+     "s": 6.033,
+     "e": 6.137
+    },
+    {
+     "w": "chain",
+     "s": 6.195,
+     "e": 6.404
+    },
+    {
+     "w": "belongs",
+     "s": 6.451,
+     "e": 6.752
+    },
+    {
+     "w": "to",
+     "s": 6.787,
+     "e": 6.845
+    },
+    {
+     "w": "Transformco.",
+     "s": 6.892,
+     "e": 8.03
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg4.mp3",
+   "seconds": 8.07,
+   "frames": 243
+  },
+  {
+   "kind": "timeline",
+   "text": "From 2,486 stores to three. And Kmart.com still ships to all 50 states.",
+   "words": [
+    {
+     "w": "From",
+     "s": 0.0,
+     "e": 0.177
+    },
+    {
+     "w": "2,486",
+     "s": 0.27,
+     "e": 1.663
+    },
+    {
+     "w": "stores",
+     "s": 1.698,
+     "e": 1.988
+    },
+    {
+     "w": "to",
+     "s": 2.034,
+     "e": 2.092
+    },
+    {
+     "w": "three.",
+     "s": 2.162,
+     "e": 2.603
+    },
+    {
+     "w": "And",
+     "s": 3.044,
+     "e": 3.195
+    },
+    {
+     "w": "Kmart.com",
+     "s": 3.253,
+     "e": 4.136
+    },
+    {
+     "w": "still",
+     "s": 4.205,
+     "e": 4.414
+    },
+    {
+     "w": "ships",
+     "s": 4.473,
+     "e": 4.693
+    },
+    {
+     "w": "to",
+     "s": 4.728,
+     "e": 4.786
+    },
+    {
+     "w": "all",
+     "s": 4.856,
+     "e": 4.983
+    },
+    {
+     "w": "50",
+     "s": 5.053,
+     "e": 5.285
+    },
+    {
+     "w": "states.",
+     "s": 5.343,
+     "e": 6.063
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg5.mp3",
+   "seconds": 6.11,
+   "frames": 185
+  },
+  {
+   "kind": "outro",
+   "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "words": [
+    {
+     "w": "Full",
+     "s": 0.0,
+     "e": 0.29
+    },
+    {
+     "w": "story",
+     "s": 0.36,
+     "e": 0.697
+    },
+    {
+     "w": "at",
+     "s": 0.743,
+     "e": 0.813
+    },
+    {
+     "w": "404memoryfound.com.",
+     "s": 0.871,
+     "e": 2.902
+    },
+    {
+     "w": "Follow",
+     "s": 3.286,
+     "e": 3.576
+    },
+    {
+     "w": "for",
+     "s": 3.634,
+     "e": 3.738
+    },
+    {
+     "w": "more",
+     "s": 3.796,
+     "e": 3.947
+    },
+    {
+     "w": "of",
+     "s": 3.971,
+     "e": 4.017
+    },
+    {
+     "w": "the",
+     "s": 4.052,
+     "e": 4.122
+    },
+    {
+     "w": "internet",
+     "s": 4.18,
+     "e": 4.493
+    },
+    {
+     "w": "you",
+     "s": 4.551,
+     "e": 4.632
+    },
+    {
+     "w": "grew",
+     "s": 4.69,
+     "e": 4.83
+    },
+    {
+     "w": "up",
+     "s": 4.876,
+     "e": 4.957
+    },
+    {
+     "w": "with.",
+     "s": 5.016,
+     "e": 5.573
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg6.mp3",
+   "seconds": 5.62,
+   "frames": 170
+  }
+ ],
+ "found": {
+  "query": "Kmart stores",
+  "unit": "Stores found",
+  "from": 2486,
+  "to": 3,
+  "result": "Florida, Guam, U.S. Virgin Islands"
+ },
+ "chartTitle": "Kmart stores worldwide",
+ "chart": [
+  {
+   "label": "1994",
+   "value": 2486,
+   "text": "2,486"
+  },
+  {
+   "label": "2002",
+   "value": 2114,
+   "text": "2,114"
+  },
+  {
+   "label": "2026",
+   "value": 3,
+   "text": "3"
+  }
+ ],
+ "propsTitle": "kmart.brand Properties",
+ "propsName": "Kmart",
+ "props": [
+  [
+   "Owner",
+   "Transformco"
+  ],
+  [
+   "Last mainland",
+   "October 20, 2024"
+  ],
+  [
+   "Peak",
+   "2,486 stores (1994)"
+  ],
+  [
+   "Stores left",
+   "3"
+  ]
+ ],
+ "ticker": {
+  "to": 3,
+  "suffix": " stores left"
+ },
+ "timeline": [
+  [
+   "1994",
+   "Peak: 2,486 stores"
+  ],
+  [
+   "2002",
+   "Chapter 11, 2,114 stores"
+  ],
+  [
+   "2022",
+   "Under a dozen left"
+  ],
+  [
+   "2024",
+   "Last mainland store closes"
+  ],
+  [
+   "2026",
+   "Three stores. Kmart.com ships."
+  ]
+ ],
+ "hero": "is-kmart-still-open-stores-left/hero.jpg",
+ "hero2": "is-kmart-still-open-stores-left/hero2.jpg",
+ "voice": "elevenlabs",
+ "cover": {
+  "text": "3 LEFT",
+  "sub": "Kmart in 2026",
+  "pos": "center 0%",
+  "oneLine": true
+ }
+}

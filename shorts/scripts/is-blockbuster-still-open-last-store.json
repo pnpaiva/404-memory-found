@@ -1,0 +1,565 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "hero": "is-blockbuster-still-open-last-store/hero.jpg",
+ "title": "Is Blockbuster Still Open? The Last Store in 2026",
+ "slug": "is-blockbuster-still-open-last-store",
+ "scenes": [
+  {
+   "say": "Is Blockbuster still open in 2026?",
+   "lines": [
+    "Is Blockbuster",
+    "still open in 2026?"
+   ],
+   "kind": "hook",
+   "audio": "is-blockbuster-still-open-last-store/seg1.mp3",
+   "seconds": 2.87,
+   "frames": 88,
+   "text": "Is Blockbuster still open in 2026?",
+   "words": [
+    {
+     "w": "Is",
+     "s": 0.0,
+     "e": 0.151
+    },
+    {
+     "w": "Blockbuster",
+     "s": 0.209,
+     "e": 0.848
+    },
+    {
+     "w": "still",
+     "s": 0.917,
+     "e": 1.138
+    },
+    {
+     "w": "open",
+     "s": 1.207,
+     "e": 1.44
+    },
+    {
+     "w": "in",
+     "s": 1.486,
+     "e": 1.533
+    },
+    {
+     "w": "2026?",
+     "s": 1.591,
+     "e": 2.833
+    }
+   ]
+  },
+  {
+   "say": "Yes. But only one store is left, in Bend, Oregon.",
+   "lines": [
+    "YES.",
+    "One store left.",
+    "Bend, Oregon."
+   ],
+   "kind": "found",
+   "audio": "is-blockbuster-still-open-last-store/seg2.mp3",
+   "seconds": 2.59,
+   "frames": 79,
+   "text": "Yes. But only one store is left, in Bend, Oregon.",
+   "words": [
+    {
+     "w": "Yes.",
+     "s": 0.0,
+     "e": 0.325
+    },
+    {
+     "w": "But",
+     "s": 0.36,
+     "e": 0.488
+    },
+    {
+     "w": "only",
+     "s": 0.522,
+     "e": 0.697
+    },
+    {
+     "w": "one",
+     "s": 0.755,
+     "e": 0.906
+    },
+    {
+     "w": "store",
+     "s": 0.94,
+     "e": 1.173
+    },
+    {
+     "w": "is",
+     "s": 1.207,
+     "e": 1.277
+    },
+    {
+     "w": "left,",
+     "s": 1.347,
+     "e": 1.579
+    },
+    {
+     "w": "in",
+     "s": 1.602,
+     "e": 1.672
+    },
+    {
+     "w": "Bend,",
+     "s": 1.718,
+     "e": 1.916
+    },
+    {
+     "w": "Oregon.",
+     "s": 1.939,
+     "e": 2.554
+    }
+   ]
+  },
+  {
+   "say": "Blockbuster had nine thousand stores worldwide at its peak. Then came the 2010 bankruptcy.",
+   "lines": [
+    "9,000 stores",
+    "at the peak.",
+    "Bankrupt in 2010."
+   ],
+   "kind": "chart",
+   "audio": "is-blockbuster-still-open-last-store/seg3.mp3",
+   "seconds": 5.62,
+   "frames": 170,
+   "text": "Blockbuster had 9,000 stores worldwide at its peak. Then came the 2010 bankruptcy.",
+   "words": [
+    {
+     "w": "Blockbuster",
+     "s": 0.0,
+     "e": 0.639
+    },
+    {
+     "w": "had",
+     "s": 0.697,
+     "e": 0.813
+    },
+    {
+     "w": "9,000",
+     "s": 0.906,
+     "e": 1.451
+    },
+    {
+     "w": "stores",
+     "s": 1.509,
+     "e": 1.834
+    },
+    {
+     "w": "worldwide",
+     "s": 1.892,
+     "e": 2.334
+    },
+    {
+     "w": "at",
+     "s": 2.357,
+     "e": 2.438
+    },
+    {
+     "w": "its",
+     "s": 2.496,
+     "e": 2.601
+    },
+    {
+     "w": "peak.",
+     "s": 2.647,
+     "e": 3.03
+    },
+    {
+     "w": "Then",
+     "s": 3.355,
+     "e": 3.529
+    },
+    {
+     "w": "came",
+     "s": 3.599,
+     "e": 3.785
+    },
+    {
+     "w": "the",
+     "s": 3.808,
+     "e": 3.878
+    },
+    {
+     "w": "2010",
+     "s": 3.924,
+     "e": 4.69
+    },
+    {
+     "w": "bankruptcy.",
+     "s": 4.748,
+     "e": 5.573
+    }
+   ]
+  },
+  {
+   "say": "The brand sold at auction in 2011 for about 320 million dollars. Dish Network owns it today.",
+   "lines": [
+    "Sold at auction: $320M",
+    "Owner today:",
+    "Dish Network"
+   ],
+   "kind": "props",
+   "audio": "is-blockbuster-still-open-last-store/seg4.mp3",
+   "seconds": 5.64,
+   "frames": 171,
+   "text": "The brand sold at auction in 2011 for about $320 million. Dish Network owns it today.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.101
+    },
+    {
+     "w": "brand",
+     "s": 0.147,
+     "e": 0.402
+    },
+    {
+     "w": "sold",
+     "s": 0.46,
+     "e": 0.669
+    },
+    {
+     "w": "at",
+     "s": 0.704,
+     "e": 0.774
+    },
+    {
+     "w": "auction",
+     "s": 0.82,
+     "e": 1.122
+    },
+    {
+     "w": "in",
+     "s": 1.169,
+     "e": 1.227
+    },
+    {
+     "w": "2011",
+     "s": 1.285,
+     "e": 1.842
+    },
+    {
+     "w": "for",
+     "s": 1.912,
+     "e": 2.028
+    },
+    {
+     "w": "about",
+     "s": 2.074,
+     "e": 2.272
+    },
+    {
+     "w": "$320",
+     "s": 2.306,
+     "e": 3.108
+    },
+    {
+     "w": "million.",
+     "s": 3.166,
+     "e": 3.525
+    },
+    {
+     "w": "Dish",
+     "s": 3.967,
+     "e": 4.222
+    },
+    {
+     "w": "Network",
+     "s": 4.28,
+     "e": 4.582
+    },
+    {
+     "w": "owns",
+     "s": 4.64,
+     "e": 4.779
+    },
+    {
+     "w": "it",
+     "s": 4.814,
+     "e": 4.884
+    },
+    {
+     "w": "today.",
+     "s": 4.919,
+     "e": 5.604
+    }
+   ]
+  },
+  {
+   "say": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
+   "lines": [
+    "Last one on Earth",
+    "since March 2019."
+   ],
+   "kind": "timeline",
+   "audio": "is-blockbuster-still-open-last-store/seg5.mp3",
+   "seconds": 5.8,
+   "frames": 175,
+   "text": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
+   "words": [
+    {
+     "w": "It",
+     "s": 0.0,
+     "e": 0.151
+    },
+    {
+     "w": "has",
+     "s": 0.186,
+     "e": 0.267
+    },
+    {
+     "w": "been",
+     "s": 0.313,
+     "e": 0.453
+    },
+    {
+     "w": "the",
+     "s": 0.488,
+     "e": 0.557
+    },
+    {
+     "w": "last",
+     "s": 0.615,
+     "e": 0.848
+    },
+    {
+     "w": "Blockbuster",
+     "s": 0.894,
+     "e": 1.428
+    },
+    {
+     "w": "on",
+     "s": 1.498,
+     "e": 1.579
+    },
+    {
+     "w": "Earth",
+     "s": 1.637,
+     "e": 1.834
+    },
+    {
+     "w": "since",
+     "s": 1.881,
+     "e": 2.09
+    },
+    {
+     "w": "March",
+     "s": 2.136,
+     "e": 2.334
+    },
+    {
+     "w": "2019,",
+     "s": 2.38,
+     "e": 3.32
+    },
+    {
+     "w": "when",
+     "s": 3.646,
+     "e": 3.808
+    },
+    {
+     "w": "the",
+     "s": 3.843,
+     "e": 3.913
+    },
+    {
+     "w": "store",
+     "s": 3.959,
+     "e": 4.214
+    },
+    {
+     "w": "in",
+     "s": 4.249,
+     "e": 4.296
+    },
+    {
+     "w": "Perth,",
+     "s": 4.365,
+     "e": 4.621
+    },
+    {
+     "w": "Australia",
+     "s": 4.644,
+     "e": 5.027
+    },
+    {
+     "w": "closed.",
+     "s": 5.085,
+     "e": 5.759
+    }
+   ]
+  },
+  {
+   "say": "Full story at 404 memory found dot com. Follow for more of the internet you grew up with.",
+   "lines": [
+    "404memoryfound.com",
+    "Follow for more."
+   ],
+   "kind": "outro",
+   "audio": "is-blockbuster-still-open-last-store/seg6.mp3",
+   "seconds": 5.56,
+   "frames": 168,
+   "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "words": [
+    {
+     "w": "Full",
+     "s": 0.0,
+     "e": 0.29
+    },
+    {
+     "w": "story",
+     "s": 0.36,
+     "e": 0.685
+    },
+    {
+     "w": "at",
+     "s": 0.731,
+     "e": 0.801
+    },
+    {
+     "w": "404memoryfound.com.",
+     "s": 0.859,
+     "e": 2.821
+    },
+    {
+     "w": "Follow",
+     "s": 3.204,
+     "e": 3.541
+    },
+    {
+     "w": "for",
+     "s": 3.599,
+     "e": 3.704
+    },
+    {
+     "w": "more",
+     "s": 3.762,
+     "e": 3.901
+    },
+    {
+     "w": "of",
+     "s": 3.924,
+     "e": 3.971
+    },
+    {
+     "w": "the",
+     "s": 4.005,
+     "e": 4.075
+    },
+    {
+     "w": "internet",
+     "s": 4.122,
+     "e": 4.447
+    },
+    {
+     "w": "you",
+     "s": 4.493,
+     "e": 4.574
+    },
+    {
+     "w": "grew",
+     "s": 4.644,
+     "e": 4.795
+    },
+    {
+     "w": "up",
+     "s": 4.841,
+     "e": 4.934
+    },
+    {
+     "w": "with.",
+     "s": 4.981,
+     "e": 5.526
+    }
+   ]
+  }
+ ],
+ "hero2": "is-blockbuster-still-open-last-store/hero2.jpg",
+ "chart": [
+  {
+   "label": "Peak",
+   "value": 9000,
+   "text": "9,000"
+  },
+  {
+   "label": "2011",
+   "value": 1700,
+   "text": "~1,700"
+  },
+  {
+   "label": "2019",
+   "value": 1,
+   "text": "1"
+  }
+ ],
+ "props": [
+  [
+   "Owner",
+   "Dish Network"
+  ],
+  [
+   "Bought",
+   "April 6, 2011"
+  ],
+  [
+   "Price",
+   "about $320 million"
+  ],
+  [
+   "Parent",
+   "EchoStar (since 2023)"
+  ]
+ ],
+ "timeline": [
+  [
+   "2010",
+   "Bankruptcy"
+  ],
+  [
+   "2011",
+   "Dish buys the brand"
+  ],
+  [
+   "2014",
+   "Last company stores"
+  ],
+  [
+   "2018",
+   "Alaska closes"
+  ],
+  [
+   "2019",
+   "Perth closes. Bend is last."
+  ]
+ ],
+ "voice": "elevenlabs",
+ "images": {
+  "hero": "img/the-last-blockbuster-storefront-b8feeb.jpg",
+  "hero2": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Anchorage_Blockbuster_video_store_sign_%2841219885734%29.jpg/1280px-Anchorage_Blockbuster_video_store_sign_%2841219885734%29.jpg"
+ },
+ "subject": "Blockbuster",
+ "found": {
+  "query": "Blockbuster stores",
+  "unit": "Stores found",
+  "from": 9000,
+  "to": 1,
+  "result": "211 NE Revere Ave, Bend, Oregon"
+ },
+ "chartTitle": "Blockbuster stores worldwide",
+ "propsTitle": "blockbuster.brand Properties",
+ "propsName": "Blockbuster LLC",
+ "ticker": {
+  "to": 320,
+  "prefix": "$",
+  "suffix": "M"
+ },
+ "cover": {
+  "text": "STILL OPEN",
+  "sub": "1 store left"
+ }
+}

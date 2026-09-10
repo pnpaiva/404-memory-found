@@ -1,0 +1,567 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "title": "Why Pets.com Failed and Where the Sock Puppet Went",
+ "slug": "why-pets-com-failed-dot-com-bubble",
+ "subject": "Pets.com",
+ "images": {
+  "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Pets.com_Sock_Puppet_%2812935451763%29.jpg/1280px-Pets.com_Sock_Puppet_%2812935451763%29.jpg",
+  "hero2": "img/wall-street-and-the-new-york-stock-exchange-7236994300-ee06f7.jpg"
+ },
+ "scenes": [
+  {
+   "kind": "hook",
+   "text": "Why did Pets.com fail?",
+   "words": [
+    {
+     "w": "Why",
+     "s": 0.0,
+     "e": 0.209
+    },
+    {
+     "w": "did",
+     "s": 0.267,
+     "e": 0.372
+    },
+    {
+     "w": "Pets.com",
+     "s": 0.43,
+     "e": 1.115
+    },
+    {
+     "w": "fail?",
+     "s": 1.196,
+     "e": 1.765
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg1.mp3",
+   "seconds": 1.8,
+   "frames": 55
+  },
+  {
+   "kind": "props",
+   "text": "It sold pet supplies for less than it paid for them. In 1999 it made $5.8 million in sales and lost $61.8 million.",
+   "words": [
+    {
+     "w": "It",
+     "s": 0.0,
+     "e": 0.151
+    },
+    {
+     "w": "sold",
+     "s": 0.197,
+     "e": 0.406
+    },
+    {
+     "w": "pet",
+     "s": 0.453,
+     "e": 0.627
+    },
+    {
+     "w": "supplies",
+     "s": 0.685,
+     "e": 1.103
+    },
+    {
+     "w": "for",
+     "s": 1.161,
+     "e": 1.265
+    },
+    {
+     "w": "less",
+     "s": 1.324,
+     "e": 1.498
+    },
+    {
+     "w": "than",
+     "s": 1.521,
+     "e": 1.637
+    },
+    {
+     "w": "it",
+     "s": 1.672,
+     "e": 1.73
+    },
+    {
+     "w": "paid",
+     "s": 1.765,
+     "e": 1.927
+    },
+    {
+     "w": "for",
+     "s": 1.962,
+     "e": 2.043
+    },
+    {
+     "w": "them.",
+     "s": 2.078,
+     "e": 2.345
+    },
+    {
+     "w": "In",
+     "s": 2.786,
+     "e": 2.937
+    },
+    {
+     "w": "1999",
+     "s": 2.995,
+     "e": 4.005
+    },
+    {
+     "w": "it",
+     "s": 4.122,
+     "e": 4.226
+    },
+    {
+     "w": "made",
+     "s": 4.272,
+     "e": 4.447
+    },
+    {
+     "w": "$5.8",
+     "s": 4.481,
+     "e": 5.143
+    },
+    {
+     "w": "million",
+     "s": 5.19,
+     "e": 5.817
+    },
+    {
+     "w": "in",
+     "s": 5.875,
+     "e": 5.956
+    },
+    {
+     "w": "sales",
+     "s": 6.037,
+     "e": 6.455
+    },
+    {
+     "w": "and",
+     "s": 6.513,
+     "e": 6.629
+    },
+    {
+     "w": "lost",
+     "s": 6.687,
+     "e": 6.896
+    },
+    {
+     "w": "$61.8",
+     "s": 6.92,
+     "e": 7.93
+    },
+    {
+     "w": "million.",
+     "s": 7.988,
+     "e": 9.009
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg2.mp3",
+   "seconds": 9.04,
+   "frames": 272
+  },
+  {
+   "kind": "chart",
+   "text": "It raised $82.5 million in its February 2000 IPO, and lost $84.9 million in the first nine months of that year.",
+   "words": [
+    {
+     "w": "It",
+     "s": 0.0,
+     "e": 0.139
+    },
+    {
+     "w": "raised",
+     "s": 0.186,
+     "e": 0.395
+    },
+    {
+     "w": "$82.5",
+     "s": 0.418,
+     "e": 1.324
+    },
+    {
+     "w": "million",
+     "s": 1.405,
+     "e": 1.649
+    },
+    {
+     "w": "in",
+     "s": 1.695,
+     "e": 1.753
+    },
+    {
+     "w": "its",
+     "s": 1.8,
+     "e": 1.916
+    },
+    {
+     "w": "February",
+     "s": 1.962,
+     "e": 2.38
+    },
+    {
+     "w": "2000",
+     "s": 2.426,
+     "e": 2.914
+    },
+    {
+     "w": "IPO,",
+     "s": 2.949,
+     "e": 3.518
+    },
+    {
+     "w": "and",
+     "s": 3.843,
+     "e": 3.982
+    },
+    {
+     "w": "lost",
+     "s": 4.052,
+     "e": 4.319
+    },
+    {
+     "w": "$84.9",
+     "s": 4.377,
+     "e": 5.515
+    },
+    {
+     "w": "million",
+     "s": 5.573,
+     "e": 5.828
+    },
+    {
+     "w": "in",
+     "s": 5.863,
+     "e": 5.909
+    },
+    {
+     "w": "the",
+     "s": 5.944,
+     "e": 6.014
+    },
+    {
+     "w": "first",
+     "s": 6.06,
+     "e": 6.293
+    },
+    {
+     "w": "nine",
+     "s": 6.351,
+     "e": 6.525
+    },
+    {
+     "w": "months",
+     "s": 6.56,
+     "e": 6.757
+    },
+    {
+     "w": "of",
+     "s": 6.792,
+     "e": 6.838
+    },
+    {
+     "w": "that",
+     "s": 6.885,
+     "e": 7.012
+    },
+    {
+     "w": "year.",
+     "s": 7.059,
+     "e": 7.663
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg3.mp3",
+   "seconds": 7.71,
+   "frames": 232
+  },
+  {
+   "kind": "timeline",
+   "text": "The board approved the wind-down 267 days after the IPO. The sock puppet outlived the company: Bar None bought it in 2002 to sell car loans.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.113
+    },
+    {
+     "w": "board",
+     "s": 0.159,
+     "e": 0.356
+    },
+    {
+     "w": "approved",
+     "s": 0.38,
+     "e": 0.705
+    },
+    {
+     "w": "the",
+     "s": 0.728,
+     "e": 0.798
+    },
+    {
+     "w": "wind-down",
+     "s": 0.844,
+     "e": 1.332
+    },
+    {
+     "w": "267",
+     "s": 1.424,
+     "e": 2.62
+    },
+    {
+     "w": "days",
+     "s": 2.69,
+     "e": 2.911
+    },
+    {
+     "w": "after",
+     "s": 2.957,
+     "e": 3.189
+    },
+    {
+     "w": "the",
+     "s": 3.236,
+     "e": 3.305
+    },
+    {
+     "w": "IPO.",
+     "s": 3.375,
+     "e": 4.141
+    },
+    {
+     "w": "The",
+     "s": 4.582,
+     "e": 4.698
+    },
+    {
+     "w": "sock",
+     "s": 4.791,
+     "e": 5.093
+    },
+    {
+     "w": "puppet",
+     "s": 5.174,
+     "e": 5.5
+    },
+    {
+     "w": "outlived",
+     "s": 5.569,
+     "e": 6.022
+    },
+    {
+     "w": "the",
+     "s": 6.045,
+     "e": 6.115
+    },
+    {
+     "w": "company:",
+     "s": 6.161,
+     "e": 6.707
+    },
+    {
+     "w": "Bar",
+     "s": 7.09,
+     "e": 7.346
+    },
+    {
+     "w": "None",
+     "s": 7.427,
+     "e": 7.694
+    },
+    {
+     "w": "bought",
+     "s": 7.74,
+     "e": 7.996
+    },
+    {
+     "w": "it",
+     "s": 8.019,
+     "e": 8.089
+    },
+    {
+     "w": "in",
+     "s": 8.147,
+     "e": 8.216
+    },
+    {
+     "w": "2002",
+     "s": 8.274,
+     "e": 9.029
+    },
+    {
+     "w": "to",
+     "s": 9.087,
+     "e": 9.133
+    },
+    {
+     "w": "sell",
+     "s": 9.18,
+     "e": 9.354
+    },
+    {
+     "w": "car",
+     "s": 9.424,
+     "e": 9.61
+    },
+    {
+     "w": "loans.",
+     "s": 9.679,
+     "e": 10.353
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg4.mp3",
+   "seconds": 10.4,
+   "frames": 313
+  },
+  {
+   "kind": "outro",
+   "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "words": [
+    {
+     "w": "Full",
+     "s": 0.0,
+     "e": 0.267
+    },
+    {
+     "w": "story",
+     "s": 0.325,
+     "e": 0.627
+    },
+    {
+     "w": "at",
+     "s": 0.673,
+     "e": 0.731
+    },
+    {
+     "w": "404memoryfound.com.",
+     "s": 0.789,
+     "e": 2.577
+    },
+    {
+     "w": "Follow",
+     "s": 3.019,
+     "e": 3.32
+    },
+    {
+     "w": "for",
+     "s": 3.367,
+     "e": 3.471
+    },
+    {
+     "w": "more",
+     "s": 3.518,
+     "e": 3.634
+    },
+    {
+     "w": "of",
+     "s": 3.657,
+     "e": 3.704
+    },
+    {
+     "w": "the",
+     "s": 3.727,
+     "e": 3.796
+    },
+    {
+     "w": "internet",
+     "s": 3.843,
+     "e": 4.156
+    },
+    {
+     "w": "you",
+     "s": 4.203,
+     "e": 4.284
+    },
+    {
+     "w": "grew",
+     "s": 4.342,
+     "e": 4.47
+    },
+    {
+     "w": "up",
+     "s": 4.516,
+     "e": 4.609
+    },
+    {
+     "w": "with.",
+     "s": 4.656,
+     "e": 5.201
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg5.mp3",
+   "seconds": 5.25,
+   "frames": 159
+  }
+ ],
+ "propsTitle": "pets.com Properties",
+ "propsName": "Pets.com",
+ "props": [
+  [
+   "1999 sales",
+   "$5.8 million"
+  ],
+  [
+   "1999 loss",
+   "$61.8 million"
+  ],
+  [
+   "Gross margin",
+   "negative"
+  ],
+  [
+   "IPO",
+   "February 11, 2000, at $11"
+  ]
+ ],
+ "ticker": {
+  "to": 61.8,
+  "prefix": "$",
+  "suffix": "M lost",
+  "decimals": 1
+ },
+ "chartTitle": "Pets.com in 2000, millions of dollars",
+ "chart": [
+  {
+   "label": "Raised in IPO",
+   "value": 82.5,
+   "text": "$82.5M"
+  },
+  {
+   "label": "Lost, 9 months",
+   "value": 84.9,
+   "text": "$84.9M"
+  }
+ ],
+ "timeline": [
+  [
+   "1998",
+   "Store opens in November"
+  ],
+  [
+   "2000",
+   "Super Bowl ad in January"
+  ],
+  [
+   "2000",
+   "IPO at $11, February 11"
+  ],
+  [
+   "2000",
+   "Wind-down, November 4"
+  ],
+  [
+   "2002",
+   "Puppet sold for $125,000"
+  ]
+ ],
+ "cover": {
+  "text": "267 DAYS",
+  "sub": "from IPO to bust"
+ },
+ "hero": "why-pets-com-failed-dot-com-bubble/hero.jpg",
+ "hero2": "why-pets-com-failed-dot-com-bubble/hero2.jpg",
+ "voice": "elevenlabs"
+}
