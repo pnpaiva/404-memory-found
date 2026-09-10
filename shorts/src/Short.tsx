@@ -10,11 +10,8 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
-import { loadFont as loadVT } from "@remotion/google-fonts/VT323";
-
-const inter = loadInter("normal", { weights: ["700", "900"] });
-const vt = loadVT("normal", { weights: ["400"] });
+import { GRAY, TEAL, NAVY, YELLOW, bevel, pixel, inter, vt, Win, Scanlines, KenBurns, Cursor } from "./ui";
+import { VhsPhoto, PolaroidHook, InterlaceHook, FolderScene, BrowserScene, ReceiptScene, CalendarScene, GalleryScene } from "./Extra";
 
 type Word = { w: string; s: number; e: number };
 type Scene = { say: string; text?: string; lines: string[]; kind: string; audio: string; frames: number; words?: Word[] };
@@ -38,166 +35,13 @@ type Script = {
   subject?: string;
   heroPos?: string;
   hero2Pos?: string;
-};
-
-const GRAY = "#c0c0c0";
-const TEAL = "#008080";
-const NAVY = "#000080";
-const YELLOW = "#ffd400";
-
-const bevel = (inset = false): React.CSSProperties => ({
-  borderStyle: "solid",
-  borderWidth: 6,
-  borderColor: inset ? "#808080 #ffffff #ffffff #808080" : "#ffffff #808080 #808080 #ffffff",
-  background: GRAY,
-});
-
-const pixel: React.CSSProperties = { fontFamily: vt.fontFamily, color: "#000" };
-
-/* ---------- reusable chrome ---------- */
-
-const TitleBar: React.FC<{ text: string; small?: boolean }> = ({ text, small }) => (
-  <div
-    style={{
-      background: NAVY,
-      color: "#fff",
-      fontFamily: vt.fontFamily,
-      fontSize: small ? 40 : 54,
-      padding: small ? "6px 16px" : "10px 22px",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-    }}
-  >
-    <span>{text}</span>
-    <span
-      style={{
-        ...bevel(),
-        color: "#000",
-        width: small ? 44 : 56,
-        height: small ? 40 : 50,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: small ? 34 : 44,
-        lineHeight: 1,
-      }}
-    >
-      ×
-    </span>
-  </div>
-);
-
-const Win: React.FC<{ title: string; style?: React.CSSProperties; small?: boolean; children: React.ReactNode }> = ({
-  title,
-  style,
-  small,
-  children,
-}) => (
-  <div style={{ ...bevel(), padding: 8, display: "flex", flexDirection: "column", ...style }}>
-    <TitleBar text={title} small={small} />
-    <div style={{ flex: 1, ...bevel(true), margin: 6, overflow: "hidden", position: "relative", background: "#fff" }}>
-      {children}
-    </div>
-  </div>
-);
-
-const BigText: React.FC<{ lines: string[]; accent?: boolean; delay?: number }> = ({ lines, accent, delay = 0 }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 18, alignItems: "center" }}>
-      {lines.map((l, i) => {
-        const s = spring({ frame: frame - delay - i * 6, fps, config: { damping: 14, stiffness: 160 } });
-        const big = i === 0 && accent;
-        const base = big ? 118 : 84;
-        const size = Math.min(base, Math.floor(1380 / Math.max(l.length, 6)));
-        return (
-          <div
-            key={i}
-            style={{
-              transform: `scale(${0.6 + 0.4 * s}) translateY(${(1 - s) * 30}px)`,
-              opacity: s,
-              fontFamily: inter.fontFamily,
-              fontWeight: big ? 900 : 700,
-              fontSize: size,
-              lineHeight: 1.05,
-              color: big ? YELLOW : "#000",
-              background: big ? NAVY : "#fff",
-              padding: big ? "8px 32px" : "6px 28px",
-              textAlign: "center",
-              boxShadow: "10px 10px 0 #000",
-              letterSpacing: -1,
-            }}
-          >
-            {l}
-          </div>
-        );
-      })}
-    </div>
-  );
-};
-
-/* ---------- effects ---------- */
-
-const Scanlines: React.FC<{ strength?: number }> = ({ strength = 0.12 }) => (
-  <AbsoluteFill
-    style={{
-      pointerEvents: "none",
-      backgroundImage: `repeating-linear-gradient(0deg, rgba(0,0,0,${strength}) 0px, rgba(0,0,0,${strength}) 2px, transparent 2px, transparent 5px)`,
-    }}
-  />
-);
-
-/** VHS look: RGB split that jitters, a tracking bar rolling down, PLAY OSD */
-const VhsPhoto: React.FC<{ src: string; pos?: string }> = ({ src, pos = "center 35%" }) => {
-  const frame = useCurrentFrame();
-  const jitter = Math.sin(frame * 1.7) * 4 + (frame % 23 === 0 ? 14 : 0);
-  const zoom = interpolate(frame, [0, 120], [1.05, 1.14], { extrapolateRight: "clamp" });
-  const bar = ((frame * 9) % 1400) - 200;
-  const img: React.CSSProperties = { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: pos };
-  return (
-    <div style={{ position: "absolute", inset: 0, background: "#000", overflow: "hidden" }}>
-      <Img src={staticFile(src)} style={{ ...img, transform: `scale(${zoom})`, filter: "contrast(1.1) saturate(1.2)" }} />
-      <Img src={staticFile(src)} style={{ ...img, transform: `translateX(${jitter}px) scale(${zoom})`, mixBlendMode: "screen", opacity: 0.35, filter: "sepia(1) hue-rotate(-50deg) saturate(6)" }} />
-      <Img src={staticFile(src)} style={{ ...img, transform: `translateX(${-jitter}px) scale(${zoom})`, mixBlendMode: "screen", opacity: 0.35, filter: "sepia(1) hue-rotate(140deg) saturate(6)" }} />
-      <div style={{ position: "absolute", left: 0, right: 0, top: bar, height: 46, background: "rgba(255,255,255,.35)", filter: "blur(2px)" }} />
-      <Scanlines strength={0.22} />
-      <div style={{ position: "absolute", top: 26, left: 30, fontFamily: vt.fontFamily, fontSize: 64, color: "#fff", textShadow: "3px 3px 0 #000" }}>
-        ▶ PLAY
-      </div>
-      <div style={{ position: "absolute", top: 26, right: 30, fontFamily: vt.fontFamily, fontSize: 56, color: "#fff", textShadow: "3px 3px 0 #000" }}>
-        SP 0:{String(Math.floor(frame / 30)).padStart(2, "0")}:{String(frame % 30).padStart(2, "0")}
-      </div>
-    </div>
-  );
-};
-
-const KenBurns: React.FC<{ src: string; seed: number; dim?: number; pos?: string }> = ({ src, seed, dim = 0, pos = "center 35%" }) => {
-  const frame = useCurrentFrame();
-  const zoom = interpolate(frame, [0, 220], [1.02, 1.18], { extrapolateRight: "clamp" });
-  const dx = interpolate(frame, [0, 220], [0, seed % 2 ? -24 : 24], { extrapolateRight: "clamp" });
-  return (
-    <div style={{ position: "absolute", inset: 0, overflow: "hidden", background: "#000" }}>
-      <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: pos, transform: `scale(${zoom}) translateX(${dx}px)` }} />
-      {dim > 0 && <div style={{ position: "absolute", inset: 0, background: `rgba(0,0,0,${dim})` }} />}
-    </div>
-  );
-};
-
-/** Win95 arrow cursor that glides to a point and clicks */
-const Cursor: React.FC<{ from: [number, number]; to: [number, number]; at: number; clickAt?: number }> = ({ from, to, at, clickAt }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const t = spring({ frame: frame - at, fps, config: { damping: 20, stiffness: 60 } });
-  const x = from[0] + (to[0] - from[0]) * t;
-  const y = from[1] + (to[1] - from[1]) * t;
-  const click = clickAt !== undefined && frame >= clickAt && frame < clickAt + 6;
-  return (
-    <svg style={{ position: "absolute", left: x, top: y, width: 54, height: 72, transform: click ? "scale(0.85)" : "none" }} viewBox="0 0 18 24">
-      <path d="M1 1 L1 19 L6 14 L9 22 L12 21 L9 13 L16 13 Z" fill="#fff" stroke="#000" strokeWidth="1.4" />
-    </svg>
-  );
+  hookStyle?: "vhs" | "polaroid" | "interlace";
+  hookCaption?: string;
+  folder?: { path: string; from: number; to: number; unit: string; keepLabels?: string[] };
+  browser?: { url: string; mode: "error" | "redirect"; message?: string; redirectTo?: string; pageTitle?: string };
+  receipt?: { title: string; sub?: string; lines: [string, string][]; total: [string, string] };
+  calendar?: { start: string; end: string; days: number; startLabel: string; endLabel: string };
+  gallery?: { src: string; caption: string }[];
 };
 
 /* ---------- scene bodies ---------- */
@@ -476,6 +320,18 @@ const entrance = (kind: string, frame: number, fps: number): React.CSSProperties
     case "timeline":
       // wipes open left to right
       return { clipPath: `inset(0 ${(1 - s) * 100}% 0 0)` };
+    case "folder":
+      // cascades open from the top like an Explorer window
+      return { clipPath: `inset(0 0 ${(1 - s) * 100}% 0)` };
+    case "browser":
+      return { transform: `translateY(${(1 - snappy) * 1200}px)` };
+    case "receipt":
+      // rolls in from above like paper
+      return { clipPath: `inset(0 0 ${(1 - s) * 100}% 0)`, transform: `translateY(${(1 - s) * -60}px)` };
+    case "calendar":
+      return { transform: `perspective(1200px) rotateY(${(1 - s) * 80}deg)`, transformOrigin: "left", opacity: Math.min(1, s * 1.5) };
+    case "gallery":
+      return { opacity: Math.min(1, s * 2) };
     default:
       // outro: zooms in with a slight twist
       return { transform: `scale(${0.6 + 0.4 * s}) rotate(${(1 - s) * -6}deg)`, opacity: s };
@@ -486,7 +342,7 @@ const entrance = (kind: string, frame: number, fps: number): React.CSSProperties
 
 const titlesFor = (subject: string): Record<string, string> => {
   const s = subject.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "") || "video";
-  return { hook: `${s}.avi`, found: "find.exe", chart: `${s}.xls`, props: "properties", timeline: "history.txt", outro: "404memoryfound.com" };
+  return { hook: `${s}.avi`, found: "find.exe", chart: `${s}.xls`, props: "properties", timeline: "history.txt", outro: "404memoryfound.com", folder: "Exploring", browser: "Internet Explorer", receipt: "receipt.txt", calendar: "calendar.exe", gallery: "My Pictures" };
 };
 
 const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset: number; total: number }> = ({ scene, script, index, offset, total }) => {
@@ -494,7 +350,14 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
   const { fps } = useVideoConfig();
   const kind = scene.kind;
   const body =
-    kind === "hook" ? <VhsPhoto src={script.hero} pos={script.heroPos} /> :
+    kind === "hook" ? (script.hookStyle === "polaroid" ? <PolaroidHook src={script.hero} pos={script.heroPos} caption={script.hookCaption} />
+      : script.hookStyle === "interlace" ? <InterlaceHook src={script.hero} pos={script.heroPos} label={script.hookCaption} />
+      : <VhsPhoto src={script.hero} pos={script.heroPos} />) :
+    kind === "folder" ? <FolderScene data={script.folder!} /> :
+    kind === "browser" ? <BrowserScene data={script.browser!} bg={script.hero2 || script.hero} pos={script.hero2Pos || script.heroPos} /> :
+    kind === "receipt" ? <ReceiptScene data={script.receipt!} /> :
+    kind === "calendar" ? <CalendarScene data={script.calendar!} /> :
+    kind === "gallery" ? <GalleryScene items={script.gallery || []} /> :
     kind === "found" ? <FoundScene script={script} /> :
     kind === "chart" ? <ChartScene script={script} /> :
     kind === "props" ? <PropsScene script={script} /> :
@@ -508,7 +371,7 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
 
   return (
     <AbsoluteFill style={{ background: TEAL }}>
-      <Audio src={staticFile(scene.audio)} />
+      {scene.audio ? <Audio src={staticFile(scene.audio)} /> : null}
       <AbsoluteFill style={{ backgroundImage: "linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px)", backgroundSize: "40px 40px" }} />
 
       <div style={{ position: "absolute", top: 70, left: 60, right: 60, ...bevel(), display: "flex", alignItems: "center", gap: 18, padding: "10px 18px" }}>

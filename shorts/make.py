@@ -41,13 +41,15 @@ def main():
     os.makedirs(cache, exist_ok=True)
 
     # images -> public/<slug>/heroN.jpg, referenced from the script as "<slug>/heroN.jpg"
-    for key in ("hero", "hero2"):
-        src = (script.get("images") or {}).get(key)
-        if src:
-            dest = os.path.join(cache, f"{key}.jpg")
-            if not os.path.exists(dest):
-                fetch_image(src, dest)
+    for key, src in (script.get("images") or {}).items():
+        dest = os.path.join(cache, f"{key}.jpg")
+        if not os.path.exists(dest):
+            fetch_image(src, dest)
+        if key in ("hero", "hero2"):
             script[key] = f"{slug}/{key}.jpg"
+    for g in script.get("gallery") or []:  # gallery items name an image key
+        if g.get("src") in (script.get("images") or {}):
+            g["src"] = f"{slug}/{g['src']}.jpg"
     shutil.copy(os.path.join(REPO, "logo-512.png"), os.path.join(PUBLIC, "logo.png"))
     if not os.path.exists(os.path.join(PUBLIC, "music.wav")):
         subprocess.run([sys.executable, os.path.join(HERE, "gen_music.py"), "48"], check=True)
@@ -64,15 +66,22 @@ def main():
 
     # voice: cached per slug unless --revoice or the text changed
     need_voice = "--revoice" in sys.argv or any(not sc.get("words") or not sc.get("audio") for sc in script["scenes"])
+    if "--dry" in sys.argv:  # preview without voice: silent scenes get a fixed length
+        for sc in script["scenes"]:
+            if not sc.get("words"):
+                sc["frames"] = 150; sc["audio"] = ""; sc["words"] = []
+        need_voice = False
     if need_voice:
         active = os.path.join(HERE, "script.json")
         json.dump(script, open(active, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
-        subprocess.run([sys.executable, os.path.join(HERE, "tts.py")], check=True, cwd=HERE)
+        args = [sys.executable, os.path.join(HERE, "tts.py")] + ([] if "--revoice" in sys.argv else ["--keep"])
+        subprocess.run(args, check=True, cwd=HERE)
         script = json.load(open(active, encoding="utf-8"))
-        for sc in script["scenes"]:  # move the audio into the slug cache
+        for i, sc in enumerate(script["scenes"], 1):  # move fresh audio into the slug cache, keep cached paths
             name = os.path.basename(sc["audio"])
-            shutil.move(os.path.join(PUBLIC, name), os.path.join(cache, name))
-            sc["audio"] = f"{slug}/{name}"
+            if os.path.exists(os.path.join(PUBLIC, name)):
+                shutil.move(os.path.join(PUBLIC, name), os.path.join(cache, f"seg{i}." + name.rsplit(".", 1)[-1]))
+                sc["audio"] = f"{slug}/seg{i}." + name.rsplit(".", 1)[-1]
         json.dump(script, open(src_path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
     # activate and render

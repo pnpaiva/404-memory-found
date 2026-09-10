@@ -13,417 +13,422 @@
   {
    "kind": "hook",
    "text": "Does Ask Jeeves still exist?",
+   "audio": "what-happened-to-ask-jeeves-search-engine/seg1.mp3",
    "words": [
     {
      "w": "Does",
      "s": 0.0,
-     "e": 0.161
+     "e": 0.17
     },
     {
      "w": "Ask",
-     "s": 0.219,
-     "e": 0.381
+     "s": 0.228,
+     "e": 0.379
     },
     {
      "w": "Jeeves",
-     "s": 0.416,
-     "e": 0.637
+     "s": 0.425,
+     "e": 0.657
     },
     {
      "w": "still",
-     "s": 0.66,
-     "e": 0.869
+     "s": 0.773,
+     "e": 0.959
     },
     {
      "w": "exist?",
-     "s": 0.915,
-     "e": 1.565
+     "s": 1.006,
+     "e": 1.667
     }
    ],
-   "audio": "what-happened-to-ask-jeeves-search-engine/seg1.mp3",
-   "seconds": 1.59,
-   "frames": 49
+   "frames": 52,
+   "seconds": 1.7,
+   "spoken": "Does Ask Jeeves still exist?"
   },
   {
-   "kind": "found",
+   "kind": "browser",
    "text": "No. Ask.com, the site it became, was shut down by its owner IAC on May 1, 2026.",
+   "audio": "what-happened-to-ask-jeeves-search-engine/seg2.mp3",
    "words": [
     {
      "w": "No.",
      "s": 0.0,
-     "e": 0.221
+     "e": 0.43
     },
     {
      "w": "Ask.com,",
-     "s": 0.244,
-     "e": 1.138
+     "s": 0.708,
+     "e": 1.695
     },
     {
      "w": "the",
-     "s": 1.161,
-     "e": 1.242
+     "s": 1.753,
+     "e": 1.858
     },
     {
      "w": "site",
-     "s": 1.289,
-     "e": 1.486
+     "s": 1.904,
+     "e": 2.078
     },
     {
      "w": "it",
-     "s": 1.509,
-     "e": 1.556
+     "s": 2.101,
+     "e": 2.148
     },
     {
      "w": "became,",
-     "s": 1.602,
-     "e": 2.136
+     "s": 2.183,
+     "e": 2.682
     },
     {
      "w": "was",
-     "s": 2.345,
-     "e": 2.496
+     "s": 2.926,
+     "e": 3.077
     },
     {
      "w": "shut",
-     "s": 2.543,
-     "e": 2.752
+     "s": 3.123,
+     "e": 3.332
     },
     {
      "w": "down",
-     "s": 2.798,
-     "e": 2.972
+     "s": 3.379,
+     "e": 3.564
     },
     {
      "w": "by",
-     "s": 3.019,
-     "e": 3.111
+     "s": 3.599,
+     "e": 3.692
     },
     {
      "w": "its",
-     "s": 3.17,
-     "e": 3.274
+     "s": 3.738,
+     "e": 3.843
     },
     {
      "w": "owner",
-     "s": 3.32,
-     "e": 3.506
+     "s": 3.878,
+     "e": 4.063
     },
     {
      "w": "IAC",
-     "s": 3.576,
-     "e": 3.994
+     "s": 4.133,
+     "e": 4.563
     },
     {
      "w": "on",
-     "s": 4.145,
-     "e": 4.214
+     "s": 4.737,
+     "e": 4.818
     },
     {
      "w": "May",
-     "s": 4.284,
-     "e": 4.435
+     "s": 4.876,
+     "e": 5.027
     },
     {
      "w": "1,",
-     "s": 4.493,
-     "e": 4.807
+     "s": 5.097,
+     "e": 5.387
     },
     {
      "w": "2026.",
-     "s": 4.888,
-     "e": 6.037
+     "s": 5.41,
+     "e": 6.548
     }
    ],
-   "audio": "what-happened-to-ask-jeeves-search-engine/seg2.mp3",
-   "seconds": 6.09,
-   "frames": 184
+   "frames": 199,
+   "seconds": 6.58,
+   "spoken": "No. Ask.com, the site it became, was shut down by its owner IAC on May first, twenty twenty-six."
   },
   {
    "kind": "props",
    "text": "Garrett Gruener and David Warthen founded it in Berkeley in 1996. IAC paid $1.85 billion for it in 2005.",
+   "audio": "what-happened-to-ask-jeeves-search-engine/seg3.mp3",
    "words": [
     {
      "w": "Garrett",
      "s": 0.0,
-     "e": 0.304
+     "e": 0.36
     },
     {
      "w": "Gruener",
-     "s": 0.351,
-     "e": 0.653
+     "s": 0.406,
+     "e": 0.72
     },
     {
      "w": "and",
-     "s": 0.699,
-     "e": 0.769
+     "s": 0.766,
+     "e": 0.836
     },
     {
      "w": "David",
-     "s": 0.804,
-     "e": 1.047
+     "s": 0.882,
+     "e": 1.126
     },
     {
      "w": "Warthen",
-     "s": 1.094,
-     "e": 1.477
+     "s": 1.173,
+     "e": 1.533
     },
     {
      "w": "founded",
-     "s": 1.57,
-     "e": 1.883
+     "s": 1.649,
+     "e": 2.009
     },
     {
      "w": "it",
-     "s": 1.918,
-     "e": 1.988
+     "s": 2.067,
+     "e": 2.159
     },
     {
      "w": "in",
-     "s": 2.046,
-     "e": 2.104
+     "s": 2.229,
+     "e": 2.357
     },
     {
      "w": "Berkeley",
-     "s": 2.162,
-     "e": 2.533
+     "s": 2.438,
+     "e": 2.821
     },
     {
      "w": "in",
-     "s": 2.58,
-     "e": 2.638
+     "s": 2.868,
+     "e": 2.926
     },
     {
      "w": "1996.",
-     "s": 2.684,
-     "e": 3.822
+     "s": 2.972,
+     "e": 4.005
     },
     {
      "w": "IAC",
-     "s": 4.263,
-     "e": 4.786
+     "s": 4.516,
+     "e": 5.074
     },
     {
      "w": "paid",
-     "s": 4.937,
-     "e": 5.111
+     "s": 5.283,
+     "e": 5.503
     },
     {
      "w": "$1.85",
-     "s": 5.169,
-     "e": 6.388
+     "s": 5.596,
+     "e": 6.966
     },
     {
      "w": "billion",
-     "s": 6.481,
-     "e": 7.143
+     "s": 7.012,
+     "e": 7.837
     },
     {
      "w": "for",
-     "s": 7.224,
-     "e": 7.386
+     "s": 7.953,
+     "e": 8.162
     },
     {
      "w": "it",
-     "s": 7.421,
-     "e": 7.468
+     "s": 8.231,
+     "e": 8.301
     },
     {
      "w": "in",
-     "s": 7.491,
-     "e": 7.537
+     "s": 8.359,
+     "e": 8.417
     },
     {
      "w": "2005.",
-     "s": 7.595,
-     "e": 8.919
+     "s": 8.464,
+     "e": 9.659
     }
    ],
-   "audio": "what-happened-to-ask-jeeves-search-engine/seg3.mp3",
-   "seconds": 8.96,
-   "frames": 270
+   "frames": 292,
+   "seconds": 9.69,
+   "spoken": "Garrett Gruener and David Warthen founded it in Berkeley in nineteen ninety-six. IAC paid one point eight five billion dollars for it in two thousand five."
   },
   {
    "kind": "timeline",
    "text": "The butler was dropped in 2006, its own search engine stopped in 2010, and the site closed in 2026.",
+   "audio": "what-happened-to-ask-jeeves-search-engine/seg4.mp3",
    "words": [
     {
      "w": "The",
      "s": 0.0,
-     "e": 0.1
+     "e": 0.095
     },
     {
      "w": "butler",
-     "s": 0.146,
-     "e": 0.39
+     "s": 0.153,
+     "e": 0.397
     },
     {
      "w": "was",
-     "s": 0.437,
-     "e": 0.541
+     "s": 0.443,
+     "e": 0.536
     },
     {
      "w": "dropped",
-     "s": 0.588,
-     "e": 0.889
+     "s": 0.583,
+     "e": 0.884
     },
     {
      "w": "in",
-     "s": 0.924,
-     "e": 0.971
+     "s": 0.919,
+     "e": 0.977
     },
     {
      "w": "2006,",
-     "s": 1.029,
-     "e": 1.899
+     "s": 1.035,
+     "e": 2.15
     },
     {
      "w": "its",
-     "s": 1.934,
-     "e": 2.062
+     "s": 2.196,
+     "e": 2.359
     },
     {
      "w": "own",
-     "s": 2.097,
-     "e": 2.236
+     "s": 2.394,
+     "e": 2.533
     },
     {
      "w": "search",
-     "s": 2.283,
-     "e": 2.515
+     "s": 2.603,
+     "e": 2.87
     },
     {
      "w": "engine",
-     "s": 2.573,
-     "e": 2.793
+     "s": 2.928,
+     "e": 3.369
     },
     {
      "w": "stopped",
-     "s": 2.817,
-     "e": 3.084
+     "s": 3.613,
+     "e": 3.961
     },
     {
      "w": "in",
-     "s": 3.107,
-     "e": 3.153
+     "s": 3.996,
+     "e": 4.054
     },
     {
      "w": "2010,",
-     "s": 3.2,
-     "e": 4.163
+     "s": 4.089,
+     "e": 4.82
     },
     {
      "w": "and",
-     "s": 4.489,
-     "e": 4.639
+     "s": 5.145,
+     "e": 5.285
     },
     {
      "w": "the",
-     "s": 4.686,
-     "e": 4.756
+     "s": 5.331,
+     "e": 5.401
     },
     {
      "w": "site",
-     "s": 4.814,
-     "e": 5.127
+     "s": 5.459,
+     "e": 5.772
     },
     {
      "w": "closed",
-     "s": 5.173,
-     "e": 5.58
+     "s": 5.819,
+     "e": 6.132
     },
     {
      "w": "in",
-     "s": 5.626,
-     "e": 5.684
+     "s": 6.179,
+     "e": 6.237
     },
     {
      "w": "2026.",
-     "s": 5.742,
-     "e": 6.961
+     "s": 6.295,
+     "e": 7.607
     }
    ],
-   "audio": "what-happened-to-ask-jeeves-search-engine/seg4.mp3",
-   "seconds": 7.0,
-   "frames": 211
+   "frames": 231,
+   "seconds": 7.65,
+   "spoken": "The butler was dropped in two thousand six, its own search engine stopped in twenty ten, and the site closed in twenty twenty-six."
   },
   {
    "kind": "outro",
    "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "audio": "what-happened-to-ask-jeeves-search-engine/seg5.mp3",
    "words": [
     {
      "w": "Full",
      "s": 0.0,
-     "e": 0.279
+     "e": 0.302
     },
     {
      "w": "story",
-     "s": 0.337,
-     "e": 0.697
+     "s": 0.372,
+     "e": 0.731
     },
     {
      "w": "at",
-     "s": 0.755,
-     "e": 0.871
+     "s": 0.778,
+     "e": 0.859
     },
     {
      "w": "404memoryfound.com.",
-     "s": 0.952,
-     "e": 3.088
+     "s": 0.94,
+     "e": 3.1
     },
     {
      "w": "Follow",
-     "s": 3.471,
-     "e": 3.796
+     "s": 3.541,
+     "e": 3.866
     },
     {
      "w": "for",
-     "s": 3.855,
-     "e": 3.959
+     "s": 3.913,
+     "e": 4.029
     },
     {
      "w": "more",
-     "s": 4.017,
-     "e": 4.168
+     "s": 4.098,
+     "e": 4.249
     },
     {
      "w": "of",
-     "s": 4.191,
-     "e": 4.238
+     "s": 4.272,
+     "e": 4.319
     },
     {
      "w": "the",
-     "s": 4.272,
-     "e": 4.342
+     "s": 4.342,
+     "e": 4.412
     },
     {
      "w": "internet",
-     "s": 4.389,
-     "e": 4.702
+     "s": 4.47,
+     "e": 4.783
     },
     {
      "w": "you",
-     "s": 4.748,
-     "e": 4.818
+     "s": 4.83,
+     "e": 4.899
     },
     {
      "w": "grew",
-     "s": 4.865,
-     "e": 5.004
+     "s": 4.957,
+     "e": 5.085
     },
     {
      "w": "up",
-     "s": 5.05,
-     "e": 5.132
+     "s": 5.132,
+     "e": 5.224
     },
     {
      "w": "with.",
-     "s": 5.19,
-     "e": 5.712
+     "s": 5.271,
+     "e": 5.805
     }
    ],
-   "audio": "what-happened-to-ask-jeeves-search-engine/seg5.mp3",
-   "seconds": 5.75,
-   "frames": 174
+   "frames": 177,
+   "seconds": 5.85,
+   "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with."
   }
  ],
  "found": {
@@ -490,5 +495,12 @@
   "sub": "closed May 2026",
   "pos": "center 10%"
  },
- "heroPos": "center 8%"
+ "heroPos": "center 8%",
+ "hookStyle": "polaroid",
+ "hookCaption": "Jeeves, 1999. Computer History Museum.",
+ "browser": {
+  "url": "www.ask.com",
+  "mode": "error",
+  "message": "Ask.com was shut down by IAC on May 1, 2026."
+ }
 }

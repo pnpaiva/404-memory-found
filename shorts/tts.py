@@ -55,6 +55,101 @@ def load_env():
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
+
+# ---------------------------------------------------------------- numbers spoken as words
+ONES = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen",
+        "fifteen","sixteen","seventeen","eighteen","nineteen"]
+TENS = ["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"]
+ORD = {1:"first",2:"second",3:"third",4:"fourth",5:"fifth",6:"sixth",7:"seventh",8:"eighth",9:"ninth",10:"tenth",11:"eleventh",
+       12:"twelfth",13:"thirteenth",14:"fourteenth",15:"fifteenth",16:"sixteenth",17:"seventeenth",18:"eighteenth",19:"nineteenth",
+       20:"twentieth",21:"twenty-first",22:"twenty-second",23:"twenty-third",24:"twenty-fourth",25:"twenty-fifth",26:"twenty-sixth",
+       27:"twenty-seventh",28:"twenty-eighth",29:"twenty-ninth",30:"thirtieth",31:"thirty-first"}
+MONTHS = {"january","february","march","april","may","june","july","august","september","october","november","december"}
+
+
+def int_words(n):
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + ("-" + ONES[n % 10] if n % 10 else "")
+    if n < 1000:
+        return ONES[n // 100] + " hundred" + (" " + int_words(n % 100) if n % 100 else "")
+    for div, name in ((10**9, "billion"), (10**6, "million"), (1000, "thousand")):
+        if n >= div:
+            rest = n % div
+            return int_words(n // div) + " " + name + (" " + int_words(rest) if rest else "")
+    return str(n)
+
+
+def year_words(n):
+    if 2000 <= n <= 2009:
+        return "two thousand" + (" " + ONES[n - 2000] if n > 2000 else "")
+    if 1100 <= n <= 1999 or 2010 <= n <= 2099:
+        hi, lo = divmod(n, 100)
+        return int_words(hi) + (" " + int_words(lo) if lo >= 10 else (" oh " + ONES[lo] if lo else " hundred"))
+    return int_words(n)
+
+
+def number_words(tok, prev, nxt):
+    """One display token -> spoken words. Handles $, commas, decimals, years, ordinals after a month name."""
+    core = tok.strip(".,;:!?()")
+    trail = tok[len(tok.rstrip(".,;:!?()")):]
+    dollars = core.startswith("$")
+    num = core.lstrip("$").replace(",", "")
+    if not re.fullmatch(r"\d+(\.\d+)?", num):
+        return None
+    if "." in num:
+        a, b = num.split(".")
+        words = int_words(int(a)) + " point " + " ".join(ONES[int(d)] for d in b)
+    else:
+        n = int(a := num)
+        if not dollars and 1100 <= n <= 2099 and "," not in core and len(num) == 4:
+            words = year_words(n)
+        elif not dollars and prev and prev.lower().strip(".,") in MONTHS and 1 <= n <= 31:
+            words = ORD[n]
+        else:
+            words = int_words(n)
+    if dollars:
+        scale = nxt.lower().strip(".,;:") if nxt else ""
+        if scale in ("million", "billion", "thousand"):
+            return words  # "million dollars" is appended when the scale word is processed
+        words += " dollars"
+    return words + trail
+
+
+def spoken_tokens(text):
+    """[(display_token, spoken_string)] so caption words can be timed from the spoken words."""
+    toks = words_of(text)
+    out = []
+    for i, tok in enumerate(toks):
+        prev = toks[i - 1] if i else ""
+        nxt = toks[i + 1] if i + 1 < len(toks) else ""
+        sp = number_words(tok, prev, nxt)
+        if sp is None:
+            low = tok.lower().strip(".,;:!?")
+            if low in ("million", "billion", "thousand") and prev.startswith("$"):
+                sp = tok + " dollars" if not tok.endswith((".", ",")) else tok[:-1] + " dollars" + tok[-1]
+            elif "404memoryfound.com" in low:
+                sp = "four oh four memory found dot com" + tok[len(tok.rstrip(".,")):]
+            else:
+                sp = tok
+        out.append((tok, sp))
+    return out
+
+
+def regroup(pairs, spoken_words):
+    """spoken_words: [{"w","s","e"}] aligned to the spoken string; returns timings per display token."""
+    out, k = [], 0
+    for disp, sp in pairs:
+        n = len(sp.split())
+        chunk = spoken_words[k:k + n]
+        k += n
+        if not chunk:
+            continue
+        out.append({"w": disp, "s": chunk[0]["s"], "e": chunk[-1]["e"]})
+    return out
+
+
 def audio_seconds(path):
     out = subprocess.run(["afinfo", path], capture_output=True, text=True).stdout
     for l in out.splitlines():
@@ -147,13 +242,19 @@ def main():
         text = sc.get("text") or sc["say"]
         ext = "mp3" if use_eleven else "wav"
         out = os.path.join(PUBLIC, f"seg{i}.{ext}")
-        if keep and os.path.exists(out) and sc.get("words"):
+        cached = sc.get("audio") and os.path.exists(os.path.join(PUBLIC, sc["audio"]))
+        if keep and cached and sc.get("words"):
+            print(f"scene {i}: cached")
             continue
         for old in (f"seg{i}.mp3", f"seg{i}.wav"):
             p = os.path.join(PUBLIC, old)
             if os.path.exists(p):
                 os.remove(p)
-        sc["words"] = elevenlabs(text, out) if use_eleven else mac_say(text, out)
+        pairs = spoken_tokens(text)
+        spoken = " ".join(sp for _, sp in pairs)
+        raw = elevenlabs(spoken, out) if use_eleven else mac_say(spoken, out)
+        sc["spoken"] = spoken
+        sc["words"] = regroup(pairs, raw)
         if "--no-trim" not in sys.argv:
             sc["words"] = trim_silence(out, sc["words"])
         dur = audio_seconds(out)
