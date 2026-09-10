@@ -16,7 +16,8 @@ import { loadFont as loadVT } from "@remotion/google-fonts/VT323";
 const inter = loadInter("normal", { weights: ["700", "900"] });
 const vt = loadVT("normal", { weights: ["400"] });
 
-type Scene = { say: string; lines: string[]; kind: string; audio: string; frames: number };
+type Word = { w: string; s: number; e: number };
+type Scene = { say: string; text?: string; lines: string[]; kind: string; audio: string; frames: number; words?: Word[] };
 type Script = {
   fps: number;
   width: number;
@@ -364,6 +365,51 @@ const OutroScene: React.FC = () => {
   );
 };
 
+
+/** Word-by-word captions. Words appear as they are spoken; the current word is highlighted.
+ *  The hook shows its whole sentence from frame 1 so the viewer can read ahead of the voice. */
+const WordCaptions: React.FC<{ scene: Scene }> = ({ scene }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  const words = scene.words || (scene.text || scene.say).split(/\s+/).map((w, i) => ({ w, s: i * 0.3, e: i * 0.3 + 0.3 }));
+  const allFromStart = scene.kind === "hook";
+  const n = words.length;
+  const size = n <= 8 ? 78 : n <= 14 ? 64 : 56;
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px 12px", padding: "0 10px" }}>
+      {words.map((wd, i) => {
+        const spoken = t >= wd.s - 0.04;
+        const current = spoken && t < wd.e + 0.06;
+        const visible = allFromStart || spoken;
+        const key = /[\d$]/.test(wd.w) || /^(YES\.?|Yes\.?|last|one)$/i.test(wd.w.replace(/[.,!?]/g, ""));
+        const pop = spring({ frame: frame - Math.round(wd.s * fps), fps, config: { damping: 12, stiffness: 220 } });
+        const scale = allFromStart ? (current ? 1.08 : 1) : 0.7 + 0.3 * pop;
+        return (
+          <span
+            key={i}
+            style={{
+              fontFamily: inter.fontFamily,
+              fontWeight: 900,
+              fontSize: size,
+              lineHeight: 1.1,
+              padding: "4px 16px",
+              color: current ? NAVY : key && spoken ? YELLOW : "#000",
+              background: current ? YELLOW : key && spoken ? NAVY : "#fff",
+              boxShadow: "7px 7px 0 #000",
+              opacity: visible ? 1 : 0,
+              transform: `scale(${visible ? scale : 0.7})`,
+              transition: "none",
+            }}
+          >
+            {wd.w}
+          </span>
+        );
+      })}
+    </div>
+  );
+};
+
 /* ---------- scene frame ---------- */
 
 const TITLES: Record<string, string> = {
@@ -408,8 +454,8 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
         <Win title={TITLES[kind] || "window"} style={{ height: "100%" }}>{body}</Win>
       </div>
 
-      <div style={{ position: "absolute", top: 1180, left: 60, right: 60, display: "flex", justifyContent: "center", padding: 20 }}>
-        <BigText lines={scene.lines} accent delay={kind === "found" ? 62 : 0} />
+      <div style={{ position: "absolute", top: 1170, left: 40, right: 40, minHeight: 420, display: "flex", alignItems: "center", justifyContent: "center", padding: 10 }}>
+        <WordCaptions scene={scene} />
       </div>
 
       <div style={{ position: "absolute", bottom: 90, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>

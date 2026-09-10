@@ -2,3 +2,5 @@ node_modules
 out
 public/*.wav
 public/*.aiff
+public/*.mp3
+.env

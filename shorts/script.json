@@ -15,7 +15,40 @@
    "kind": "hook",
    "audio": "seg1.wav",
    "seconds": 2.96,
-   "frames": 105
+   "frames": 105,
+   "text": "Is Blockbuster still open in 2026?",
+   "words": [
+    {
+     "w": "Is",
+     "s": 0.06,
+     "e": 0.32
+    },
+    {
+     "w": "Blockbuster",
+     "s": 0.32,
+     "e": 1.249
+    },
+    {
+     "w": "still",
+     "s": 1.249,
+     "e": 1.731
+    },
+    {
+     "w": "open",
+     "s": 1.731,
+     "e": 2.14
+    },
+    {
+     "w": "in",
+     "s": 2.14,
+     "e": 2.4
+    },
+    {
+     "w": "2026?",
+     "s": 2.4,
+     "e": 2.898
+    }
+   ]
   },
   {
    "say": "Yes. But only one store is left, in Bend, Oregon.",
@@ -27,7 +60,60 @@
    "kind": "found",
    "audio": "seg2.wav",
    "seconds": 3.71,
-   "frames": 127
+   "frames": 127,
+   "text": "Yes. But only one store is left, in Bend, Oregon.",
+   "words": [
+    {
+     "w": "Yes.",
+     "s": 0.06,
+     "e": 0.427
+    },
+    {
+     "w": "But",
+     "s": 0.427,
+     "e": 0.716
+    },
+    {
+     "w": "only",
+     "s": 0.716,
+     "e": 1.07
+    },
+    {
+     "w": "one",
+     "s": 1.07,
+     "e": 1.359
+    },
+    {
+     "w": "store",
+     "s": 1.359,
+     "e": 1.777
+    },
+    {
+     "w": "is",
+     "s": 1.777,
+     "e": 2.002
+    },
+    {
+     "w": "left,",
+     "s": 2.002,
+     "e": 2.433
+    },
+    {
+     "w": "in",
+     "s": 2.433,
+     "e": 2.658
+    },
+    {
+     "w": "Bend,",
+     "s": 2.658,
+     "e": 3.089
+    },
+    {
+     "w": "Oregon.",
+     "s": 3.089,
+     "e": 3.648
+    }
+   ]
   },
   {
    "say": "Blockbuster had nine thousand stores worldwide at its peak. Then came the 2010 bankruptcy.",
@@ -38,8 +124,76 @@
    ],
    "kind": "chart",
    "audio": "seg3.wav",
-   "seconds": 5.59,
-   "frames": 184
+   "seconds": 5.53,
+   "frames": 182,
+   "text": "Blockbuster had 9,000 stores worldwide at its peak. Then came the 2010 bankruptcy.",
+   "words": [
+    {
+     "w": "Blockbuster",
+     "s": 0.06,
+     "e": 0.821
+    },
+    {
+     "w": "had",
+     "s": 0.821,
+     "e": 1.095
+    },
+    {
+     "w": "9,000",
+     "s": 1.095,
+     "e": 1.429
+    },
+    {
+     "w": "stores",
+     "s": 1.429,
+     "e": 1.886
+    },
+    {
+     "w": "worldwide",
+     "s": 1.886,
+     "e": 2.525
+    },
+    {
+     "w": "at",
+     "s": 2.525,
+     "e": 2.738
+    },
+    {
+     "w": "its",
+     "s": 2.738,
+     "e": 3.012
+    },
+    {
+     "w": "peak.",
+     "s": 3.012,
+     "e": 3.42
+    },
+    {
+     "w": "Then",
+     "s": 3.42,
+     "e": 3.755
+    },
+    {
+     "w": "came",
+     "s": 3.755,
+     "e": 4.089
+    },
+    {
+     "w": "the",
+     "s": 4.089,
+     "e": 4.363
+    },
+    {
+     "w": "2010",
+     "s": 4.363,
+     "e": 4.698
+    },
+    {
+     "w": "bankruptcy.",
+     "s": 4.698,
+     "e": 5.471
+    }
+   ]
   },
   {
    "say": "The brand sold at auction in 2011 for about 320 million dollars. Dish Network owns it today.",
@@ -51,7 +205,90 @@
    "kind": "props",
    "audio": "seg4.wav",
    "seconds": 6.51,
-   "frames": 211
+   "frames": 211,
+   "text": "The brand sold at auction in 2011 for about $320 million. Dish Network owns it today.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.06,
+     "e": 0.368
+    },
+    {
+     "w": "brand",
+     "s": 0.368,
+     "e": 0.813
+    },
+    {
+     "w": "sold",
+     "s": 0.813,
+     "e": 1.189
+    },
+    {
+     "w": "at",
+     "s": 1.189,
+     "e": 1.429
+    },
+    {
+     "w": "auction",
+     "s": 1.429,
+     "e": 2.011
+    },
+    {
+     "w": "in",
+     "s": 2.011,
+     "e": 2.251
+    },
+    {
+     "w": "2011",
+     "s": 2.251,
+     "e": 2.627
+    },
+    {
+     "w": "for",
+     "s": 2.627,
+     "e": 2.935
+    },
+    {
+     "w": "about",
+     "s": 2.935,
+     "e": 3.38
+    },
+    {
+     "w": "$320",
+     "s": 3.38,
+     "e": 3.688
+    },
+    {
+     "w": "million.",
+     "s": 3.688,
+     "e": 4.352
+    },
+    {
+     "w": "Dish",
+     "s": 4.352,
+     "e": 4.729
+    },
+    {
+     "w": "Network",
+     "s": 4.729,
+     "e": 5.31
+    },
+    {
+     "w": "owns",
+     "s": 5.31,
+     "e": 5.687
+    },
+    {
+     "w": "it",
+     "s": 5.687,
+     "e": 5.927
+    },
+    {
+     "w": "today.",
+     "s": 5.927,
+     "e": 6.454
+    }
+   ]
   },
   {
    "say": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
@@ -62,7 +299,100 @@
    "kind": "timeline",
    "audio": "seg5.wav",
    "seconds": 6.78,
-   "frames": 219
+   "frames": 219,
+   "text": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
+   "words": [
+    {
+     "w": "It",
+     "s": 0.06,
+     "e": 0.267
+    },
+    {
+     "w": "has",
+     "s": 0.267,
+     "e": 0.533
+    },
+    {
+     "w": "been",
+     "s": 0.533,
+     "e": 0.858
+    },
+    {
+     "w": "the",
+     "s": 0.858,
+     "e": 1.124
+    },
+    {
+     "w": "last",
+     "s": 1.124,
+     "e": 1.449
+    },
+    {
+     "w": "Blockbuster",
+     "s": 1.449,
+     "e": 2.188
+    },
+    {
+     "w": "on",
+     "s": 2.188,
+     "e": 2.395
+    },
+    {
+     "w": "Earth",
+     "s": 2.395,
+     "e": 2.78
+    },
+    {
+     "w": "since",
+     "s": 2.78,
+     "e": 3.164
+    },
+    {
+     "w": "March",
+     "s": 3.164,
+     "e": 3.548
+    },
+    {
+     "w": "2019,",
+     "s": 3.548,
+     "e": 3.944
+    },
+    {
+     "w": "when",
+     "s": 3.944,
+     "e": 4.269
+    },
+    {
+     "w": "the",
+     "s": 4.269,
+     "e": 4.535
+    },
+    {
+     "w": "store",
+     "s": 4.535,
+     "e": 4.92
+    },
+    {
+     "w": "in",
+     "s": 4.92,
+     "e": 5.127
+    },
+    {
+     "w": "Perth,",
+     "s": 5.127,
+     "e": 5.582
+    },
+    {
+     "w": "Australia",
+     "s": 5.582,
+     "e": 6.203
+    },
+    {
+     "w": "closed.",
+     "s": 6.203,
+     "e": 6.717
+    }
+   ]
   },
   {
    "say": "Full story at 404 memory found dot com. Follow for more of the internet you grew up with.",
@@ -72,8 +402,81 @@
    ],
    "kind": "outro",
    "audio": "seg6.wav",
-   "seconds": 5.63,
-   "frames": 185
+   "seconds": 5.61,
+   "frames": 184,
+   "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "words": [
+    {
+     "w": "Full",
+     "s": 0.06,
+     "e": 0.394
+    },
+    {
+     "w": "story",
+     "s": 0.394,
+     "e": 0.789
+    },
+    {
+     "w": "at",
+     "s": 0.789,
+     "e": 1.001
+    },
+    {
+     "w": "404memoryfound.com.",
+     "s": 1.001,
+     "e": 2.197
+    },
+    {
+     "w": "Follow",
+     "s": 2.197,
+     "e": 2.653
+    },
+    {
+     "w": "for",
+     "s": 2.653,
+     "e": 2.926
+    },
+    {
+     "w": "more",
+     "s": 2.926,
+     "e": 3.26
+    },
+    {
+     "w": "of",
+     "s": 3.26,
+     "e": 3.472
+    },
+    {
+     "w": "the",
+     "s": 3.472,
+     "e": 3.746
+    },
+    {
+     "w": "internet",
+     "s": 3.746,
+     "e": 4.323
+    },
+    {
+     "w": "you",
+     "s": 4.323,
+     "e": 4.596
+    },
+    {
+     "w": "grew",
+     "s": 4.596,
+     "e": 4.93
+    },
+    {
+     "w": "up",
+     "s": 4.93,
+     "e": 5.142
+    },
+    {
+     "w": "with.",
+     "s": 5.142,
+     "e": 5.549
+    }
+   ]
   }
  ],
  "hero2": "hero2.jpg",
@@ -133,5 +536,6 @@
    "2019",
    "Perth closes. Bend is last."
   ]
- ]
+ ],
+ "voice": "say"
 }
