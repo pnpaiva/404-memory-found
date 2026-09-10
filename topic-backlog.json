@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com, written to POST_SPEC.md (900 to 1,300 words). The writer routine takes the first pending entry in file order, except that when the number of posts in posts.json is a multiple of 5 it takes the first pending entry of 'buyer_intent' instead. Cross off topics as published.",
-  "_last_updated": "2026-09-09",
+  "_last_updated": "2026-09-10",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_0_search_console": [
     {
@@ -835,7 +835,8 @@
         "betamax tapes worth",
         "betamax supreme court case"
       ],
-      "status": "pending"
+      "status": "published",
+      "published_slug": "betamax-vs-vhs-format-war"
     },
     {
       "title": "Broadcast.com: The $5.7 Billion Site Yahoo Erased",
