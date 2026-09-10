@@ -51,6 +51,14 @@ Pick 4 to 6 kinds per video that match the post's data (a store chain gets `char
 - One pen name is never shown; the brand is the byline.
 - Second photo: `python3 -c "import fetch_images as f; print(f.commons_lookup('<query>'))"` from the repo root finds a free Commons image; download the 1280px thumb to `public/hero2.jpg`.
 
+
+## Deliverable checklist (every time a video is handed over)
+
+Always send, in the same message as the video:
+1. **YouTube Shorts title**: under 60 characters, the status question or the surprise first, one number if the post has one, `#Shorts` not needed in the title. Example: "Is Blockbuster Still Open in 2026? One Store Left".
+2. **Description**: 2 to 4 short lines answering the question with the key figures (all from the post), then the post URL on its own line, then 3 to 6 hashtags (#nostalgia #90s #2000s plus the subject). No em dashes. End with "Sources in the article."
+3. Optional: 3 to 5 tag words for the YouTube tag field and a one-line TikTok/Reels caption (same text, shorter, hashtags first).
+
 ## Known gaps / next upgrades
 
 Word timings are estimated with the Mac voice (exact with ElevenLabs). Wanted next: a receipt scene for price-then-vs-now posts, a "loading" scene for websites, automatic upload (YouTube Data API once Pedro creates the channel and pastes credentials into GitHub secrets).
