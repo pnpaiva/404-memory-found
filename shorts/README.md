@@ -27,7 +27,7 @@ Per-video files: authored scripts live in `scripts/<slug>.json`; `python3 make.p
  "timeline":[["2010","Bankruptcy"],["2019","Perth closes. Bend is last."]]}
 ```
 
-`text` is what is spoken AND captioned (write numbers as they should display: `9,000`, `$320 million`). `say` is a legacy field; `text` wins when present.
+`text` is what is captioned; tts.py derives the spoken string from it (numbers, years, ordinals after month names, dollar amounts and the site URL are spelled out in words because ElevenLabs mumbles digit strings; Pedro flagged this on the Kmart video) and regroups the word timings per caption token. `text` is also what is spoken when no number needs conversion (write numbers as they should display: `9,000`, `$320 million`). `say` is a legacy field; `text` wins when present.
 
 ## Scene kinds (src/Short.tsx)
 
@@ -39,6 +39,13 @@ Per-video files: authored scripts live in `scripts/<slug>.json`; `python3 make.p
 | `props` | file "Properties" dialog typed line by line, big number ticks up | `props` (4 rows) and the ticker target in `PropsScene` |
 | `timeline` | dated events light up over `hero2` | `timeline` (4 to 6 rows) |
 | `outro` | Start menu slides up, cursor clicks "Follow", CRT power-off | nothing |
+| `folder` | Explorer window full of folder icons, a "Deleting..." dialog removes them until `to` remain, highlighted with labels | `folder: {path, from, to, unit, keepLabels}` |
+| `browser` | 90s browser types a URL, loads, then an error dialog (closed sites) or a redirect (domains bought by someone else) | `browser: {url, mode: error/redirect, message, redirectTo, pageTitle}`, background = hero2 |
+| `receipt` | till receipt printing line by line, total in red | `receipt: {title, sub, lines, total}` |
+| `calendar` | month pages flip from start to end while a day counter climbs | `calendar: {start, end, days, startLabel, endLabel}` |
+| `gallery` | 2 to 4 photos drop in as prints with captions | `gallery: [{src: image key, caption}]`, images in `images` |
+
+Hook styles (`hookStyle`): `vhs` (default), `polaroid` (photo develops from white, `hookCaption` under it), `interlace` (dial-up band-by-band load, `hookCaption` = file name). Pedro's rule (10 Sep 2026): every story gets its own assets, images and scene mix; only the Win95 template repeats. Never reuse the same scene sequence or hook style as the previous video, and give each video at least two photos of its own subject.
 
 Pick 4 to 6 kinds per video that match the post's data (a store chain gets `chart`, an ownership story gets `props`, a product gets a `timeline`). Vary the order between videos; only `hook` first and `outro` last are fixed. Add new kinds as components in `Short.tsx` and register them in `TITLES` and the `body` switch.
 

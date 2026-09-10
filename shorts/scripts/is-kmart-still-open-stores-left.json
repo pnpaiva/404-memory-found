@@ -235,11 +235,213 @@
   },
   {
    "kind": "gallery",
-   "text": "The survivors are in Kendale Lakes, Florida, Tamuning, Guam, and Charlotte Amalie in the U.S. Virgin Islands."
+   "text": "The survivors are in Kendale Lakes, Florida, Tamuning, Guam, and Charlotte Amalie in the U.S. Virgin Islands.",
+   "spoken": "The survivors are in Kendale Lakes, Florida, Tamuning, Guam, and Charlotte Amalie in the U.S. Virgin Islands.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.108
+    },
+    {
+     "w": "survivors",
+     "s": 0.154,
+     "e": 0.677
+    },
+    {
+     "w": "are",
+     "s": 0.712,
+     "e": 0.816
+    },
+    {
+     "w": "in",
+     "s": 0.851,
+     "e": 0.909
+    },
+    {
+     "w": "Kendale",
+     "s": 0.979,
+     "e": 1.315
+    },
+    {
+     "w": "Lakes,",
+     "s": 1.35,
+     "e": 1.629
+    },
+    {
+     "w": "Florida,",
+     "s": 1.652,
+     "e": 2.221
+    },
+    {
+     "w": "Tamuning,",
+     "s": 2.546,
+     "e": 3.103
+    },
+    {
+     "w": "Guam,",
+     "s": 3.173,
+     "e": 3.73
+    },
+    {
+     "w": "and",
+     "s": 4.009,
+     "e": 4.148
+    },
+    {
+     "w": "Charlotte",
+     "s": 4.206,
+     "e": 4.555
+    },
+    {
+     "w": "Amalie",
+     "s": 4.601,
+     "e": 4.926
+    },
+    {
+     "w": "in",
+     "s": 4.949,
+     "e": 5.007
+    },
+    {
+     "w": "the",
+     "s": 5.031,
+     "e": 5.1
+    },
+    {
+     "w": "U.S.",
+     "s": 5.135,
+     "e": 5.39
+    },
+    {
+     "w": "Virgin",
+     "s": 5.414,
+     "e": 5.681
+    },
+    {
+     "w": "Islands.",
+     "s": 5.739,
+     "e": 6.412
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg4.mp3",
+   "seconds": 6.45,
+   "frames": 195
   },
   {
    "kind": "timeline",
-   "text": "The last full-size mainland store closed in Bridgehampton, New York, on October 20, 2024. Kmart.com still ships to all 50 states."
+   "text": "The last full-size mainland store closed in Bridgehampton, New York, on October 20, 2024. Kmart.com still ships to all 50 states.",
+   "spoken": "The last full-size mainland store closed in Bridgehampton, New York, on October twentieth, twenty twenty-four. Kmart.com still ships to all fifty states.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.109
+    },
+    {
+     "w": "last",
+     "s": 0.19,
+     "e": 0.457
+    },
+    {
+     "w": "full-size",
+     "s": 0.515,
+     "e": 1.084
+    },
+    {
+     "w": "mainland",
+     "s": 1.153,
+     "e": 1.548
+    },
+    {
+     "w": "store",
+     "s": 1.595,
+     "e": 1.85
+    },
+    {
+     "w": "closed",
+     "s": 1.885,
+     "e": 2.14
+    },
+    {
+     "w": "in",
+     "s": 2.175,
+     "e": 2.233
+    },
+    {
+     "w": "Bridgehampton,",
+     "s": 2.28,
+     "e": 2.872
+    },
+    {
+     "w": "New",
+     "s": 2.895,
+     "e": 2.999
+    },
+    {
+     "w": "York,",
+     "s": 3.046,
+     "e": 3.441
+    },
+    {
+     "w": "on",
+     "s": 3.51,
+     "e": 3.638
+    },
+    {
+     "w": "October",
+     "s": 3.696,
+     "e": 4.149
+    },
+    {
+     "w": "20,",
+     "s": 4.195,
+     "e": 4.671
+    },
+    {
+     "w": "2024.",
+     "s": 5.112,
+     "e": 6.088
+    },
+    {
+     "w": "Kmart.com",
+     "s": 6.691,
+     "e": 7.678
+    },
+    {
+     "w": "still",
+     "s": 7.748,
+     "e": 7.957
+    },
+    {
+     "w": "ships",
+     "s": 8.015,
+     "e": 8.259
+    },
+    {
+     "w": "to",
+     "s": 8.282,
+     "e": 8.34
+    },
+    {
+     "w": "all",
+     "s": 8.421,
+     "e": 8.549
+    },
+    {
+     "w": "50",
+     "s": 8.607,
+     "e": 8.851
+    },
+    {
+     "w": "states.",
+     "s": 8.897,
+     "e": 9.605
+    }
+   ],
+   "audio": "is-kmart-still-open-stores-left/seg5.mp3",
+   "seconds": 9.64,
+   "frames": 290
   },
   {
    "kind": "outro",
@@ -417,15 +619,15 @@
  },
  "gallery": [
   {
-   "src": "g1",
+   "src": "is-kmart-still-open-stores-left/g1.jpg",
    "caption": "Kendale Lakes, Florida"
   },
   {
-   "src": "g2",
+   "src": "is-kmart-still-open-stores-left/g2.jpg",
    "caption": "Inside the Florida store"
   },
   {
-   "src": "g3",
+   "src": "is-kmart-still-open-stores-left/g3.jpg",
    "caption": "A Kmart cart, Regency Mall"
   }
  ]

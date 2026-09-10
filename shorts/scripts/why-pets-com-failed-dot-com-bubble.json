@@ -167,15 +167,258 @@
   },
   {
    "kind": "calendar",
-   "text": "It went public on February 11, 2000, and the board approved the wind-down 267 days later."
+   "text": "It went public on February 11, 2000, and the board approved the wind-down 267 days later.",
+   "spoken": "It went public on February eleventh, two thousand, and the board approved the wind-down two hundred sixty-seven days later.",
+   "words": [
+    {
+     "w": "It",
+     "s": 0.0,
+     "e": 0.139
+    },
+    {
+     "w": "went",
+     "s": 0.174,
+     "e": 0.337
+    },
+    {
+     "w": "public",
+     "s": 0.383,
+     "e": 0.697
+    },
+    {
+     "w": "on",
+     "s": 0.755,
+     "e": 0.824
+    },
+    {
+     "w": "February",
+     "s": 0.882,
+     "e": 1.196
+    },
+    {
+     "w": "11,",
+     "s": 1.254,
+     "e": 1.66
+    },
+    {
+     "w": "2000,",
+     "s": 1.718,
+     "e": 2.496
+    },
+    {
+     "w": "and",
+     "s": 2.775,
+     "e": 2.914
+    },
+    {
+     "w": "the",
+     "s": 2.961,
+     "e": 3.03
+    },
+    {
+     "w": "board",
+     "s": 3.077,
+     "e": 3.262
+    },
+    {
+     "w": "approved",
+     "s": 3.297,
+     "e": 3.611
+    },
+    {
+     "w": "the",
+     "s": 3.634,
+     "e": 3.704
+    },
+    {
+     "w": "wind-down",
+     "s": 3.75,
+     "e": 4.226
+    },
+    {
+     "w": "267",
+     "s": 4.284,
+     "e": 5.48
+    },
+    {
+     "w": "days",
+     "s": 5.526,
+     "e": 5.712
+    },
+    {
+     "w": "later.",
+     "s": 5.77,
+     "e": 6.409
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg3.mp3",
+   "seconds": 6.45,
+   "frames": 195
   },
   {
    "kind": "timeline",
-   "text": "The sock puppet outlived the company. Bar None bought it in 2002 to sell car loans."
+   "text": "The sock puppet outlived the company. Bar None bought it in 2002 to sell car loans.",
+   "spoken": "The sock puppet outlived the company. Bar None bought it in two thousand two to sell car loans.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.105
+    },
+    {
+     "w": "sock",
+     "s": 0.151,
+     "e": 0.383
+    },
+    {
+     "w": "puppet",
+     "s": 0.43,
+     "e": 0.697
+    },
+    {
+     "w": "outlived",
+     "s": 0.731,
+     "e": 1.057
+    },
+    {
+     "w": "the",
+     "s": 1.08,
+     "e": 1.149
+    },
+    {
+     "w": "company.",
+     "s": 1.184,
+     "e": 1.695
+    },
+    {
+     "w": "Bar",
+     "s": 2.206,
+     "e": 2.427
+    },
+    {
+     "w": "None",
+     "s": 2.519,
+     "e": 2.763
+    },
+    {
+     "w": "bought",
+     "s": 2.798,
+     "e": 2.995
+    },
+    {
+     "w": "it",
+     "s": 3.019,
+     "e": 3.088
+    },
+    {
+     "w": "in",
+     "s": 3.135,
+     "e": 3.204
+    },
+    {
+     "w": "2002",
+     "s": 3.274,
+     "e": 4.11
+    },
+    {
+     "w": "to",
+     "s": 4.156,
+     "e": 4.214
+    },
+    {
+     "w": "sell",
+     "s": 4.261,
+     "e": 4.423
+    },
+    {
+     "w": "car",
+     "s": 4.493,
+     "e": 4.679
+    },
+    {
+     "w": "loans.",
+     "s": 4.737,
+     "e": 5.422
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg4.mp3",
+   "seconds": 5.46,
+   "frames": 165
   },
   {
    "kind": "browser",
-   "text": "And pets.com still exists as a web address. It redirects to PetSmart today."
+   "text": "And pets.com still exists as a web address. It redirects to PetSmart today.",
+   "spoken": "And pets.com still exists as a web address. It redirects to PetSmart today.",
+   "words": [
+    {
+     "w": "And",
+     "s": 0.0,
+     "e": 0.163
+    },
+    {
+     "w": "pets.com",
+     "s": 0.221,
+     "e": 0.859
+    },
+    {
+     "w": "still",
+     "s": 0.917,
+     "e": 1.115
+    },
+    {
+     "w": "exists",
+     "s": 1.161,
+     "e": 1.474
+    },
+    {
+     "w": "as",
+     "s": 1.509,
+     "e": 1.602
+    },
+    {
+     "w": "a",
+     "s": 1.649,
+     "e": 1.672
+    },
+    {
+     "w": "web",
+     "s": 1.73,
+     "e": 1.881
+    },
+    {
+     "w": "address.",
+     "s": 1.916,
+     "e": 2.357
+    },
+    {
+     "w": "It",
+     "s": 2.798,
+     "e": 2.926
+    },
+    {
+     "w": "redirects",
+     "s": 2.984,
+     "e": 3.402
+    },
+    {
+     "w": "to",
+     "s": 3.437,
+     "e": 3.495
+    },
+    {
+     "w": "PetSmart",
+     "s": 3.553,
+     "e": 3.982
+    },
+    {
+     "w": "today.",
+     "s": 4.017,
+     "e": 4.69
+    }
+   ],
+   "audio": "why-pets-com-failed-dot-com-bubble/seg5.mp3",
+   "seconds": 4.73,
+   "frames": 143
   },
   {
    "kind": "outro",
