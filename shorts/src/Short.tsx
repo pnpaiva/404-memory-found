@@ -458,7 +458,7 @@ const entrance = (kind: string, frame: number, fps: number): React.CSSProperties
       return { transform: `translateX(${(1 - snappy) * 1200}px)` };
     case "chart":
       // maximises from the bottom-left corner like a taskbar button
-      return { transform: `scale(${0.15 + 0.85 * s})`, transformOrigin: "0% 100%", opacity: Math.min(1, s * 2) };
+      return { transform: `scale(${0.15 + 0.85 * s})`, transformOrigin: "0% 100%", opacity: Math.min(1, s * 2), background: "#fff" };
     case "props":
       // drops from the top and settles
       return { transform: `translateY(${(1 - snappy) * -1400}px)` };
@@ -510,8 +510,11 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
         <span style={{ marginLeft: "auto", ...pixel, fontSize: 44 }}>{index + 1}/{script.scenes.length}</span>
       </div>
 
-      <div style={{ position: "absolute", top: 210, left: 60, right: 60, height: 900, ...entrance(kind, frame, fps), ...(off < 1 ? { transform: `scaleY(${off})` } : {}) }}>
-        <Win title={TITLES[kind] || "window"} style={{ height: "100%" }}>{body}</Win>
+      {/* the window stays open for the whole video; only its contents animate in */}
+      <div style={{ position: "absolute", top: 210, left: 60, right: 60, height: 900, ...(off < 1 ? { transform: `scaleY(${off})` } : {}) }}>
+        <Win title={TITLES[kind] || "window"} style={{ height: "100%" }}>
+          <div style={{ position: "absolute", inset: 0, ...entrance(kind, frame, fps) }}>{body}</div>
+        </Win>
       </div>
 
       <div style={{ position: "absolute", top: 1170, left: 40, right: 40, minHeight: 420, display: "flex", alignItems: "center", justifyContent: "center", padding: 10 }}>
