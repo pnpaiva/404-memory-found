@@ -143,6 +143,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Did Yahoo Turn Down Google for $1 Million in 1998?](https://404memoryfound.com/posts/yahoo-rejected-google.html): Yahoo never bought Google and Google never bought Yahoo. The $1 million story is thinly sourced, and the real offer in 2002 was $3 billion.
 
 ## Hardware
+- [Betamax vs VHS: Why Sony Lost the First Format War](https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html): Betamax vs VHS came down to tape length, price and factories, not picture quality. Sony sold 18 million decks and made tapes until 2016.
 - [How to Digitize VHS Tapes in 2026: DIY vs Legacybox](https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html): How to digitize VHS tapes in 2026: about $30 to $80 in capture gear at home, or $15 to $30 a tape by mail. Your tapes are past 25 years old.
 - [Is CompUSA Still Around? What Happened to the Chain](https://404memoryfound.com/posts/is-compusa-still-around.html): Is CompUSA still around? No. The chain sold its last 103 stores in December 2007, and the brand was written off for $35.3 million in 2012.
 - [Is Palm Still a Company? From Pilot to a $349 Phone](https://404memoryfound.com/posts/is-palm-still-a-company.html): Is Palm still a company? No. HP bought it for $1.2 billion in 2010, sold webOS to LG, and TCL has owned the dormant Palm brand since 2014.
@@ -285,6 +286,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [How Napster Destroyed the Music Industry (Forever)](https://404memoryfound.com/posts/napster-destroyed-music.html): Napster didn't just share music files—it shattered the music industry's entire business model. Discover how Napster destroyed music as we knew it.
 
 ## Then vs Now
+- [Betamax vs VHS: Why Sony Lost the First Format War](https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html): Betamax vs VHS came down to tape length, price and factories, not picture quality. Sony sold 18 million decks and made tapes until 2016.
 - [How to Digitize VHS Tapes in 2026: DIY vs Legacybox](https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html): How to digitize VHS tapes in 2026: about $30 to $80 in capture gear at home, or $15 to $30 a tape by mail. Your tapes are past 25 years old.
 - [What Happened to the Sega Channel, the Cable Service That Streamed Games in 1994](https://404memoryfound.com/posts/what-happened-to-sega-channel.html): Before Xbox Game Pass, before the App Store, before broadband was even a word people used, Sega tried to deliver video games to your Genesis through your cable TV box. For a hot minute in the mid '90s, it almost worked.
 - [What Happened to HyperCard, the Apple Software That Quietly Invented the Web](https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html): In 1987 Apple shipped a program with every Macintosh that let anyone build clickable, multimedia documents with no programming experience required. It was called HyperCard, and almost everything you do on the internet today is a copy of it.

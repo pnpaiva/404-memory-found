@@ -8,6 +8,18 @@
     <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Betamax vs VHS: Why Sony Lost the First Format War</title>
+      <link>https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Betamax vs VHS came down to tape length, price and factories, not picture quality. Sony sold 18 million decks and made tapes until 2016.</description>
+      <enclosure url="https://404memoryfound.com/pins/betamax-vs-vhs-format-war.jpg" length="256418" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/betamax-vs-vhs-format-war.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+    </item>
+    <item>
       <title>Who Owns Napster in 2026? Every Owner Since 2001</title>
       <link>https://404memoryfound.com/posts/who-owns-napster-now.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-napster-now.html</guid>
@@ -232,18 +244,6 @@
       <media:content url="https://404memoryfound.com/pins/beanie-babies-bubble-what-happened.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Money &amp; Tech</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Why the NSA Banned Furby: The 1998 Toy Craze Explained</title>
-      <link>https://404memoryfound.com/posts/furby-history-nsa-ban.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/furby-history-nsa-ban.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Furby sold 1.8 million units in its first holiday season, hit $100 on the resale market, and got banned from NSA headquarters in January 1999. Here is why.</description>
-      <enclosure url="https://404memoryfound.com/pins/furby-history-nsa-ban.jpg" length="351603" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/furby-history-nsa-ban.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Internet Culture</category>
     </item>
   </channel>
 </rss>
