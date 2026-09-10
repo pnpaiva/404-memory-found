@@ -1,0 +1,596 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "title": "Is RuneScape Still Popular in 2026? OSRS vs RS3",
+ "slug": "is-runescape-still-popular-2026",
+ "subject": "RuneScape",
+ "hookStyle": "interlace",
+ "hookCaption": "jagex_hq_2025.jpg",
+ "images": {
+  "hero": "img/220-cambridge-science-park-looking-east-029aae.jpg",
+  "hero2": "https://upload.wikimedia.org/wikipedia/commons/3/3b/140_Cambridge_Science_Park_-_geograph.org.uk_-_774860.jpg"
+ },
+ "scenes": [
+  {
+   "kind": "hook",
+   "text": "Is RuneScape still popular in 2026?",
+   "spoken": "Is RuneScape still popular in twenty twenty-six?",
+   "words": [
+    {
+     "w": "Is",
+     "s": 0.0,
+     "e": 0.163
+    },
+    {
+     "w": "RuneScape",
+     "s": 0.279,
+     "e": 0.917
+    },
+    {
+     "w": "still",
+     "s": 0.952,
+     "e": 1.161
+    },
+    {
+     "w": "popular",
+     "s": 1.219,
+     "e": 1.637
+    },
+    {
+     "w": "in",
+     "s": 1.683,
+     "e": 1.73
+    },
+    {
+     "w": "2026?",
+     "s": 1.776,
+     "e": 2.879
+    }
+   ],
+   "audio": "is-runescape-still-popular-2026/v-037064b81e.mp3",
+   "seconds": 2.93,
+   "frames": 89
+  },
+  {
+   "kind": "found",
+   "text": "Yes. Old School RuneScape peaked above 240,000 players online at the same time in August 2025.",
+   "spoken": "Yes. Old School RuneScape peaked above two hundred forty thousand players online at the same time in August twenty twenty-five.",
+   "words": [
+    {
+     "w": "Yes.",
+     "s": 0.0,
+     "e": 0.557
+    },
+    {
+     "w": "Old",
+     "s": 0.998,
+     "e": 1.242
+    },
+    {
+     "w": "School",
+     "s": 1.289,
+     "e": 1.591
+    },
+    {
+     "w": "RuneScape",
+     "s": 1.66,
+     "e": 2.241
+    },
+    {
+     "w": "peaked",
+     "s": 2.287,
+     "e": 2.531
+    },
+    {
+     "w": "above",
+     "s": 2.554,
+     "e": 2.775
+    },
+    {
+     "w": "240,000",
+     "s": 2.81,
+     "e": 4.133
+    },
+    {
+     "w": "players",
+     "s": 4.18,
+     "e": 4.481
+    },
+    {
+     "w": "online",
+     "s": 4.54,
+     "e": 4.899
+    },
+    {
+     "w": "at",
+     "s": 4.923,
+     "e": 4.981
+    },
+    {
+     "w": "the",
+     "s": 5.016,
+     "e": 5.085
+    },
+    {
+     "w": "same",
+     "s": 5.132,
+     "e": 5.352
+    },
+    {
+     "w": "time",
+     "s": 5.387,
+     "e": 5.596
+    },
+    {
+     "w": "in",
+     "s": 5.631,
+     "e": 5.689
+    },
+    {
+     "w": "August",
+     "s": 5.735,
+     "e": 6.002
+    },
+    {
+     "w": "2025.",
+     "s": 6.026,
+     "e": 7.152
+    }
+   ],
+   "audio": "is-runescape-still-popular-2026/v-1523207476.mp3",
+   "seconds": 7.18,
+   "frames": 217
+  },
+  {
+   "kind": "chart",
+   "text": "That is roughly eight times RuneScape 3, which sits near 30,000.",
+   "spoken": "That is roughly eight times RuneScape three, which sits near thirty thousand.",
+   "words": [
+    {
+     "w": "That",
+     "s": 0.0,
+     "e": 0.199
+    },
+    {
+     "w": "is",
+     "s": 0.245,
+     "e": 0.327
+    },
+    {
+     "w": "roughly",
+     "s": 0.396,
+     "e": 0.71
+    },
+    {
+     "w": "eight",
+     "s": 0.791,
+     "e": 0.988
+    },
+    {
+     "w": "times",
+     "s": 1.035,
+     "e": 1.36
+    },
+    {
+     "w": "RuneScape",
+     "s": 1.441,
+     "e": 1.975
+    },
+    {
+     "w": "3,",
+     "s": 2.01,
+     "e": 2.463
+    },
+    {
+     "w": "which",
+     "s": 2.672,
+     "e": 2.881
+    },
+    {
+     "w": "sits",
+     "s": 2.927,
+     "e": 3.171
+    },
+    {
+     "w": "near",
+     "s": 3.229,
+     "e": 3.426
+    },
+    {
+     "w": "30,000.",
+     "s": 3.519,
+     "e": 4.599
+    }
+   ],
+   "audio": "is-runescape-still-popular-2026/v-911cdbb7a6.mp3",
+   "seconds": 4.65,
+   "frames": 141
+  },
+  {
+   "kind": "receipt",
+   "text": "Membership costs $14.99 a month in 2026, up from $12.49 in May 2022, and the free tier still exists.",
+   "spoken": "Membership costs fourteen point nine nine dollars a month in twenty twenty-six, up from twelve point four nine dollars in May twenty twenty-two, and the free tier still exists.",
+   "words": [
+    {
+     "w": "Membership",
+     "s": 0.0,
+     "e": 0.488
+    },
+    {
+     "w": "costs",
+     "s": 0.546,
+     "e": 0.824
+    },
+    {
+     "w": "$14.99",
+     "s": 0.894,
+     "e": 2.612
+    },
+    {
+     "w": "a",
+     "s": 2.647,
+     "e": 2.67
+    },
+    {
+     "w": "month",
+     "s": 2.728,
+     "e": 2.937
+    },
+    {
+     "w": "in",
+     "s": 2.984,
+     "e": 3.042
+    },
+    {
+     "w": "2026,",
+     "s": 3.088,
+     "e": 4.098
+    },
+    {
+     "w": "up",
+     "s": 4.609,
+     "e": 4.748
+    },
+    {
+     "w": "from",
+     "s": 4.807,
+     "e": 4.934
+    },
+    {
+     "w": "$12.49",
+     "s": 5.004,
+     "e": 6.583
+    },
+    {
+     "w": "in",
+     "s": 6.629,
+     "e": 6.687
+    },
+    {
+     "w": "May",
+     "s": 6.734,
+     "e": 6.861
+    },
+    {
+     "w": "2022,",
+     "s": 6.908,
+     "e": 7.825
+    },
+    {
+     "w": "and",
+     "s": 8.069,
+     "e": 8.29
+    },
+    {
+     "w": "the",
+     "s": 8.348,
+     "e": 8.417
+    },
+    {
+     "w": "free",
+     "s": 8.51,
+     "e": 8.766
+    },
+    {
+     "w": "tier",
+     "s": 8.824,
+     "e": 9.114
+    },
+    {
+     "w": "still",
+     "s": 9.183,
+     "e": 9.381
+    },
+    {
+     "w": "exists.",
+     "s": 9.439,
+     "e": 10.17
+    }
+   ],
+   "audio": "is-runescape-still-popular-2026/v-d793f9480a.mp3",
+   "seconds": 10.21,
+   "frames": 308
+  },
+  {
+   "kind": "props",
+   "text": "Jagex, the studio behind both games, was sold to CVC Capital Partners and Haveli in February 2024, with 2.4 million paying subscribers.",
+   "spoken": "Jagex, the studio behind both games, was sold to CVC Capital Partners and Haveli in February twenty twenty-four, with two point four million paying subscribers.",
+   "words": [
+    {
+     "w": "Jagex,",
+     "s": 0.0,
+     "e": 0.615
+    },
+    {
+     "w": "the",
+     "s": 0.639,
+     "e": 0.731
+    },
+    {
+     "w": "studio",
+     "s": 0.778,
+     "e": 1.103
+    },
+    {
+     "w": "behind",
+     "s": 1.161,
+     "e": 1.416
+    },
+    {
+     "w": "both",
+     "s": 1.474,
+     "e": 1.66
+    },
+    {
+     "w": "games,",
+     "s": 1.707,
+     "e": 2.078
+    },
+    {
+     "w": "was",
+     "s": 2.252,
+     "e": 2.403
+    },
+    {
+     "w": "sold",
+     "s": 2.45,
+     "e": 2.647
+    },
+    {
+     "w": "to",
+     "s": 2.67,
+     "e": 2.717
+    },
+    {
+     "w": "CVC",
+     "s": 2.786,
+     "e": 3.239
+    },
+    {
+     "w": "Capital",
+     "s": 3.39,
+     "e": 3.773
+    },
+    {
+     "w": "Partners",
+     "s": 3.831,
+     "e": 4.226
+    },
+    {
+     "w": "and",
+     "s": 4.296,
+     "e": 4.47
+    },
+    {
+     "w": "Haveli",
+     "s": 4.54,
+     "e": 4.981
+    },
+    {
+     "w": "in",
+     "s": 5.364,
+     "e": 5.538
+    },
+    {
+     "w": "February",
+     "s": 5.608,
+     "e": 6.037
+    },
+    {
+     "w": "2024,",
+     "s": 6.072,
+     "e": 6.908
+    },
+    {
+     "w": "with",
+     "s": 7.233,
+     "e": 7.396
+    },
+    {
+     "w": "2.4",
+     "s": 7.43,
+     "e": 8.069
+    },
+    {
+     "w": "million",
+     "s": 8.139,
+     "e": 8.429
+    },
+    {
+     "w": "paying",
+     "s": 8.487,
+     "e": 8.696
+    },
+    {
+     "w": "subscribers.",
+     "s": 8.742,
+     "e": 9.752
+    }
+   ],
+   "audio": "is-runescape-still-popular-2026/v-2c40f5525c.mp3",
+   "seconds": 9.8,
+   "frames": 295
+  },
+  {
+   "kind": "outro",
+   "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with.",
+   "words": [
+    {
+     "w": "Full",
+     "s": 0.0,
+     "e": 0.267
+    },
+    {
+     "w": "story",
+     "s": 0.325,
+     "e": 0.673
+    },
+    {
+     "w": "at",
+     "s": 0.72,
+     "e": 0.789
+    },
+    {
+     "w": "404memoryfound.com.",
+     "s": 0.859,
+     "e": 2.717
+    },
+    {
+     "w": "Follow",
+     "s": 3.158,
+     "e": 3.471
+    },
+    {
+     "w": "for",
+     "s": 3.529,
+     "e": 3.634
+    },
+    {
+     "w": "more",
+     "s": 3.692,
+     "e": 3.831
+    },
+    {
+     "w": "of",
+     "s": 3.855,
+     "e": 3.901
+    },
+    {
+     "w": "the",
+     "s": 3.936,
+     "e": 4.005
+    },
+    {
+     "w": "internet",
+     "s": 4.052,
+     "e": 4.377
+    },
+    {
+     "w": "you",
+     "s": 4.447,
+     "e": 4.528
+    },
+    {
+     "w": "grew",
+     "s": 4.598,
+     "e": 4.76
+    },
+    {
+     "w": "up",
+     "s": 4.807,
+     "e": 4.899
+    },
+    {
+     "w": "with.",
+     "s": 4.946,
+     "e": 5.48
+    }
+   ],
+   "audio": "is-runescape-still-popular-2026/v-5ae4cdadeb.mp3",
+   "seconds": 5.51,
+   "frames": 167
+  }
+ ],
+ "found": {
+  "query": "RuneScape players online",
+  "unit": "Players online",
+  "from": 0,
+  "to": 240851,
+  "result": "Old School RuneScape, August 2025"
+ },
+ "chartTitle": "Concurrent players, August 2025",
+ "chart": [
+  {
+   "label": "Old School",
+   "value": 240851,
+   "text": "240,851"
+  },
+  {
+   "label": "RuneScape 3",
+   "value": 30000,
+   "text": "~30,000"
+  }
+ ],
+ "receipt": {
+  "title": "RUNESCAPE MEMBERSHIP",
+  "sub": "US price per month",
+  "lines": [
+   [
+    "May 2022",
+    "$12.49"
+   ],
+   [
+    "September 2024",
+    "$13.99"
+   ],
+   [
+    "2026",
+    "$14.99"
+   ],
+   [
+    "Free tier",
+    "$0.00"
+   ]
+  ],
+  "total": [
+   "Yearly",
+   "$131.88"
+  ]
+ },
+ "propsTitle": "jagex.studio Properties",
+ "propsName": "Jagex",
+ "props": [
+  [
+   "Owner",
+   "CVC Capital and Haveli"
+  ],
+  [
+   "Since",
+   "February 2024"
+  ],
+  [
+   "Paying subscribers",
+   "2.4 million (2024)"
+  ],
+  [
+   "Free players",
+   "1 million (2024)"
+  ]
+ ],
+ "ticker": {
+  "to": 2.4,
+  "prefix": "",
+  "suffix": "M",
+  "decimals": 1
+ },
+ "timeline": [],
+ "cover": {
+  "text": "STILL HUGE",
+  "sub": "240,851 online at once"
+ },
+ "hero": "is-runescape-still-popular-2026/hero.jpg",
+ "hero2": "is-runescape-still-popular-2026/hero2.jpg",
+ "voice": "elevenlabs"
+}
