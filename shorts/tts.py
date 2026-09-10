@@ -27,7 +27,7 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 PUBLIC = os.path.join(HERE, "public")
 SCRIPT = os.path.join(HERE, "script.json")
-PAD_SECONDS = 0.18   # gap after each sentence; the audio is also trimmed of leading/trailing silence
+PAD_SECONDS = 0.06   # gap after each sentence; the audio is also trimmed of leading/trailing silence
 
 
 def load_keychain():

@@ -441,6 +441,36 @@ const WordCaptions: React.FC<{ scene: Scene }> = ({ scene }) => {
   );
 };
 
+
+/** A different way in for every scene, so the window opening never repeats. */
+const entrance = (kind: string, frame: number, fps: number): React.CSSProperties => {
+  const s = spring({ frame, fps, config: { damping: 16, stiffness: 130 } });
+  const snappy = spring({ frame, fps, config: { damping: 11, stiffness: 200 } });
+  switch (kind) {
+    case "hook": {
+      // CRT power-on: a bright horizontal line that opens vertically
+      const y = interpolate(frame, [0, 10], [0.02, 1], { extrapolateRight: "clamp" });
+      const x = interpolate(frame, [0, 4], [0.4, 1], { extrapolateRight: "clamp" });
+      return { transform: `scale(${x}, ${y})`, filter: frame < 8 ? `brightness(${3 - frame / 4})` : "none" };
+    }
+    case "found":
+      // slides in from the right with a small overshoot
+      return { transform: `translateX(${(1 - snappy) * 1200}px)` };
+    case "chart":
+      // maximises from the bottom-left corner like a taskbar button
+      return { transform: `scale(${0.15 + 0.85 * s})`, transformOrigin: "0% 100%", opacity: Math.min(1, s * 2) };
+    case "props":
+      // drops from the top and settles
+      return { transform: `translateY(${(1 - snappy) * -1400}px)` };
+    case "timeline":
+      // wipes open left to right
+      return { clipPath: `inset(0 ${(1 - s) * 100}% 0 0)` };
+    default:
+      // outro: zooms in with a slight twist
+      return { transform: `scale(${0.6 + 0.4 * s}) rotate(${(1 - s) * -6}deg)`, opacity: s };
+  }
+};
+
 /* ---------- scene frame ---------- */
 
 const TITLES: Record<string, string> = {
@@ -455,7 +485,6 @@ const TITLES: Record<string, string> = {
 const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset: number; total: number }> = ({ scene, script, index, offset, total }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const windowIn = spring({ frame, fps, config: { damping: 18, stiffness: 120 } });
   const kind = scene.kind;
   const body =
     kind === "hook" ? <VhsPhoto src={script.hero} /> :
@@ -481,7 +510,7 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
         <span style={{ marginLeft: "auto", ...pixel, fontSize: 44 }}>{index + 1}/{script.scenes.length}</span>
       </div>
 
-      <div style={{ position: "absolute", top: 210, left: 60, right: 60, height: 900, transform: `scale(${0.9 + 0.1 * windowIn}) scaleY(${off})`, opacity: windowIn }}>
+      <div style={{ position: "absolute", top: 210, left: 60, right: 60, height: 900, ...entrance(kind, frame, fps), ...(off < 1 ? { transform: `scaleY(${off})` } : {}) }}>
         <Win title={TITLES[kind] || "window"} style={{ height: "100%" }}>{body}</Win>
       </div>
 
