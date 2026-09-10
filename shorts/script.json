@@ -24,7 +24,7 @@
     "One store left.",
     "Bend, Oregon."
    ],
-   "kind": "photo",
+   "kind": "found",
    "audio": "seg2.wav",
    "seconds": 3.71,
    "frames": 127
@@ -36,7 +36,7 @@
     "at the peak.",
     "Bankrupt in 2010."
    ],
-   "kind": "photo",
+   "kind": "chart",
    "audio": "seg3.wav",
    "seconds": 5.59,
    "frames": 184
@@ -48,7 +48,7 @@
     "Owner today:",
     "Dish Network"
    ],
-   "kind": "photo",
+   "kind": "props",
    "audio": "seg4.wav",
    "seconds": 6.51,
    "frames": 211
@@ -59,7 +59,7 @@
     "Last one on Earth",
     "since March 2019."
    ],
-   "kind": "photo",
+   "kind": "timeline",
    "audio": "seg5.wav",
    "seconds": 6.78,
    "frames": 219
@@ -75,5 +75,63 @@
    "seconds": 5.63,
    "frames": 185
   }
+ ],
+ "hero2": "hero2.jpg",
+ "chart": [
+  {
+   "label": "Peak",
+   "value": 9000,
+   "text": "9,000"
+  },
+  {
+   "label": "2011",
+   "value": 1700,
+   "text": "~1,700"
+  },
+  {
+   "label": "2019",
+   "value": 1,
+   "text": "1"
+  }
+ ],
+ "props": [
+  [
+   "Owner",
+   "Dish Network"
+  ],
+  [
+   "Bought",
+   "April 6, 2011"
+  ],
+  [
+   "Price",
+   "about $320 million"
+  ],
+  [
+   "Parent",
+   "EchoStar (since 2023)"
+  ]
+ ],
+ "timeline": [
+  [
+   "2010",
+   "Bankruptcy"
+  ],
+  [
+   "2011",
+   "Dish buys the brand"
+  ],
+  [
+   "2014",
+   "Last company stores"
+  ],
+  [
+   "2018",
+   "Alaska closes"
+  ],
+  [
+   "2019",
+   "Perth closes. Bend is last."
+  ]
  ]
 }
