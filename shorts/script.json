@@ -1,0 +1,79 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "hero": "hero.jpg",
+ "title": "Is Blockbuster Still Open? The Last Store in 2026",
+ "slug": "is-blockbuster-still-open-last-store",
+ "scenes": [
+  {
+   "say": "Is Blockbuster still open in 2026?",
+   "lines": [
+    "Is Blockbuster",
+    "still open in 2026?"
+   ],
+   "kind": "hook",
+   "audio": "seg1.wav",
+   "seconds": 2.96,
+   "frames": 105
+  },
+  {
+   "say": "Yes. But only one store is left, in Bend, Oregon.",
+   "lines": [
+    "YES.",
+    "One store left.",
+    "Bend, Oregon."
+   ],
+   "kind": "photo",
+   "audio": "seg2.wav",
+   "seconds": 3.71,
+   "frames": 127
+  },
+  {
+   "say": "Blockbuster had nine thousand stores worldwide at its peak. Then came the 2010 bankruptcy.",
+   "lines": [
+    "9,000 stores",
+    "at the peak.",
+    "Bankrupt in 2010."
+   ],
+   "kind": "photo",
+   "audio": "seg3.wav",
+   "seconds": 5.59,
+   "frames": 184
+  },
+  {
+   "say": "The brand sold at auction in 2011 for about 320 million dollars. Dish Network owns it today.",
+   "lines": [
+    "Sold at auction: $320M",
+    "Owner today:",
+    "Dish Network"
+   ],
+   "kind": "photo",
+   "audio": "seg4.wav",
+   "seconds": 6.51,
+   "frames": 211
+  },
+  {
+   "say": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
+   "lines": [
+    "Last one on Earth",
+    "since March 2019."
+   ],
+   "kind": "photo",
+   "audio": "seg5.wav",
+   "seconds": 6.78,
+   "frames": 219
+  },
+  {
+   "say": "Full story at 404 memory found dot com. Follow for more of the internet you grew up with.",
+   "lines": [
+    "404memoryfound.com",
+    "Follow for more."
+   ],
+   "kind": "outro",
+   "audio": "seg6.wav",
+   "seconds": 5.63,
+   "frames": 185
+  }
+ ]
+}
