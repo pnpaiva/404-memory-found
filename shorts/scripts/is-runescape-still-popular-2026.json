@@ -6,16 +6,19 @@
  "slug": "is-runescape-still-popular-2026",
  "subject": "RuneScape",
  "hookStyle": "interlace",
- "hookCaption": "jagex_hq_2025.jpg",
+ "hookCaption": "corsair_cove.png",
  "images": {
-  "hero": "img/220-cambridge-science-park-looking-east-029aae.jpg",
-  "hero2": "https://upload.wikimedia.org/wikipedia/commons/3/3b/140_Cambridge_Science_Park_-_geograph.org.uk_-_774860.jpg"
+  "hero": "shorts/public/is-runescape-still-popular-2026/g1.jpg",
+  "hero2": "shorts/public/is-runescape-still-popular-2026/g2.jpg",
+  "g1": "shorts/public/is-runescape-still-popular-2026/g1.jpg",
+  "g2": "shorts/public/is-runescape-still-popular-2026/g2.jpg",
+  "g3": "shorts/public/is-runescape-still-popular-2026/g3.jpg"
  },
  "scenes": [
   {
    "kind": "hook",
    "text": "Is RuneScape still popular in 2026?",
-   "spoken": "Is RuneScape still popular in twenty twenty-six?",
+   "audio": "is-runescape-still-popular-2026/v-037064b81e.mp3",
    "words": [
     {
      "w": "Is",
@@ -48,14 +51,14 @@
      "e": 2.879
     }
    ],
-   "audio": "is-runescape-still-popular-2026/v-037064b81e.mp3",
+   "frames": 89,
    "seconds": 2.93,
-   "frames": 89
+   "spoken": "Is RuneScape still popular in twenty twenty-six?"
   },
   {
    "kind": "found",
    "text": "Yes. Old School RuneScape peaked above 240,000 players online at the same time in August 2025.",
-   "spoken": "Yes. Old School RuneScape peaked above two hundred forty thousand players online at the same time in August twenty twenty-five.",
+   "audio": "is-runescape-still-popular-2026/v-1523207476.mp3",
    "words": [
     {
      "w": "Yes.",
@@ -138,79 +141,124 @@
      "e": 7.152
     }
    ],
-   "audio": "is-runescape-still-popular-2026/v-1523207476.mp3",
+   "frames": 217,
    "seconds": 7.18,
-   "frames": 217
+   "spoken": "Yes. Old School RuneScape peaked above two hundred forty thousand players online at the same time in August twenty twenty-five."
   },
   {
-   "kind": "chart",
-   "text": "That is roughly eight times RuneScape 3, which sits near 30,000.",
-   "spoken": "That is roughly eight times RuneScape three, which sits near thirty thousand.",
+   "kind": "gallery",
+   "text": "That is roughly eight times RuneScape 3. This is the game Jagex restored from an August 2007 backup in 2013.",
+   "spoken": "That is roughly eight times RuneScape three. This is the game Jagex restored from an August two thousand seven backup in twenty thirteen.",
    "words": [
     {
      "w": "That",
      "s": 0.0,
-     "e": 0.199
+     "e": 0.267
     },
     {
      "w": "is",
-     "s": 0.245,
-     "e": 0.327
+     "s": 0.325,
+     "e": 0.418
     },
     {
      "w": "roughly",
-     "s": 0.396,
-     "e": 0.71
+     "s": 0.534,
+     "e": 0.929
     },
     {
      "w": "eight",
-     "s": 0.791,
-     "e": 0.988
+     "s": 1.01,
+     "e": 1.219
     },
     {
      "w": "times",
-     "s": 1.035,
-     "e": 1.36
+     "s": 1.254,
+     "e": 1.544
     },
     {
      "w": "RuneScape",
-     "s": 1.441,
-     "e": 1.975
+     "s": 1.602,
+     "e": 2.055
     },
     {
-     "w": "3,",
-     "s": 2.01,
-     "e": 2.463
+     "w": "3.",
+     "s": 2.078,
+     "e": 2.496
     },
     {
-     "w": "which",
-     "s": 2.672,
-     "e": 2.881
+     "w": "This",
+     "s": 2.937,
+     "e": 3.123
     },
     {
-     "w": "sits",
-     "s": 2.927,
-     "e": 3.171
+     "w": "is",
+     "s": 3.17,
+     "e": 3.251
     },
     {
-     "w": "near",
-     "s": 3.229,
-     "e": 3.426
+     "w": "the",
+     "s": 3.297,
+     "e": 3.367
     },
     {
-     "w": "30,000.",
-     "s": 3.519,
-     "e": 4.599
+     "w": "game",
+     "s": 3.413,
+     "e": 3.634
+    },
+    {
+     "w": "Jagex",
+     "s": 3.692,
+     "e": 4.18
+    },
+    {
+     "w": "restored",
+     "s": 4.261,
+     "e": 4.69
+    },
+    {
+     "w": "from",
+     "s": 4.725,
+     "e": 4.853
+    },
+    {
+     "w": "an",
+     "s": 4.899,
+     "e": 4.957
+    },
+    {
+     "w": "August",
+     "s": 5.004,
+     "e": 5.271
+    },
+    {
+     "w": "2007",
+     "s": 5.306,
+     "e": 6.037
+    },
+    {
+     "w": "backup",
+     "s": 6.084,
+     "e": 6.42
+    },
+    {
+     "w": "in",
+     "s": 6.467,
+     "e": 6.513
+    },
+    {
+     "w": "2013.",
+     "s": 6.548,
+     "e": 7.57
     }
    ],
-   "audio": "is-runescape-still-popular-2026/v-911cdbb7a6.mp3",
-   "seconds": 4.65,
-   "frames": 141
+   "audio": "is-runescape-still-popular-2026/v-35872898e5.mp3",
+   "seconds": 7.6,
+   "frames": 229
   },
   {
    "kind": "receipt",
    "text": "Membership costs $14.99 a month in 2026, up from $12.49 in May 2022, and the free tier still exists.",
-   "spoken": "Membership costs fourteen point nine nine dollars a month in twenty twenty-six, up from twelve point four nine dollars in May twenty twenty-two, and the free tier still exists.",
+   "audio": "is-runescape-still-popular-2026/v-d793f9480a.mp3",
    "words": [
     {
      "w": "Membership",
@@ -308,14 +356,14 @@
      "e": 10.17
     }
    ],
-   "audio": "is-runescape-still-popular-2026/v-d793f9480a.mp3",
+   "frames": 308,
    "seconds": 10.21,
-   "frames": 308
+   "spoken": "Membership costs fourteen point nine nine dollars a month in twenty twenty-six, up from twelve point four nine dollars in May twenty twenty-two, and the free tier still exists."
   },
   {
    "kind": "props",
    "text": "Jagex, the studio behind both games, was sold to CVC Capital Partners and Haveli in February 2024, with 2.4 million paying subscribers.",
-   "spoken": "Jagex, the studio behind both games, was sold to CVC Capital Partners and Haveli in February twenty twenty-four, with two point four million paying subscribers.",
+   "audio": "is-runescape-still-popular-2026/v-2c40f5525c.mp3",
    "words": [
     {
      "w": "Jagex,",
@@ -428,14 +476,14 @@
      "e": 9.752
     }
    ],
-   "audio": "is-runescape-still-popular-2026/v-2c40f5525c.mp3",
+   "frames": 295,
    "seconds": 9.8,
-   "frames": 295
+   "spoken": "Jagex, the studio behind both games, was sold to CVC Capital Partners and Haveli in February twenty twenty-four, with two point four million paying subscribers."
   },
   {
    "kind": "outro",
    "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
-   "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with.",
+   "audio": "is-runescape-still-popular-2026/v-5ae4cdadeb.mp3",
    "words": [
     {
      "w": "Full",
@@ -508,9 +556,9 @@
      "e": 5.48
     }
    ],
-   "audio": "is-runescape-still-popular-2026/v-5ae4cdadeb.mp3",
+   "frames": 167,
    "seconds": 5.51,
-   "frames": 167
+   "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with."
   }
  ],
  "found": {
@@ -588,9 +636,25 @@
  "timeline": [],
  "cover": {
   "text": "STILL HUGE",
-  "sub": "240,851 online at once"
+  "sub": "240,851 online at once",
+  "pos": "center 40%"
  },
  "hero": "is-runescape-still-popular-2026/hero.jpg",
  "hero2": "is-runescape-still-popular-2026/hero2.jpg",
- "voice": "elevenlabs"
+ "voice": "elevenlabs",
+ "heroPos": "center 40%",
+ "gallery": [
+  {
+   "src": "is-runescape-still-popular-2026/g1.jpg",
+   "caption": "Old School RuneScape, 2026"
+  },
+  {
+   "src": "is-runescape-still-popular-2026/g2.jpg",
+   "caption": "Gemstone crabs, combat level 99"
+  },
+  {
+   "src": "is-runescape-still-popular-2026/g3.jpg",
+   "caption": "A combat task, 2026"
+  }
+ ]
 }

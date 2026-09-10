@@ -1,0 +1,679 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "title": "Is Toys R Us Still in Business? What Survived 2018",
+ "slug": "is-toys-r-us-still-in-business",
+ "subject": "Toys R Us",
+ "hookStyle": "vhs",
+ "images": {
+  "hero": "img/toys-r-us-store-at-denver-premium-outlets-2026-06-26-6e4fe1.jpg",
+  "hero2": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Toys_%22R%22_Us_Store_Closing_07.jpg/1280px-Toys_%22R%22_Us_Store_Closing_07.jpg",
+  "g1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Toys_%22R%22_Us_Store_Closing_07.jpg/1280px-Toys_%22R%22_Us_Store_Closing_07.jpg",
+  "g2": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/US_Navy_060611-N-8544C-037_Toys_R%27_Us_mascot_Geoffrey_the_Giraffe_entertains_family_and_friends_during_the_homecoming_ceremony_for_the_guided_missile_cruiser_USS_Vicksburg_%28CG_69%29.jpg/1280px-thumbnail.jpg",
+  "g3": "img/toys-r-us-store-at-denver-premium-outlets-2026-06-26-6e4fe1.jpg"
+ },
+ "scenes": [
+  {
+   "kind": "hook",
+   "text": "Is Toys R Us still in business?",
+   "spoken": "Is Toys R Us still in business?",
+   "words": [
+    {
+     "w": "Is",
+     "s": 0.0,
+     "e": 0.163
+    },
+    {
+     "w": "Toys",
+     "s": 0.232,
+     "e": 0.546
+    },
+    {
+     "w": "R",
+     "s": 0.697,
+     "e": 0.731
+    },
+    {
+     "w": "Us",
+     "s": 0.801,
+     "e": 0.859
+    },
+    {
+     "w": "still",
+     "s": 0.906,
+     "e": 1.115
+    },
+    {
+     "w": "in",
+     "s": 1.161,
+     "e": 1.207
+    },
+    {
+     "w": "business?",
+     "s": 1.254,
+     "e": 1.997
+    }
+   ],
+   "audio": "is-toys-r-us-still-in-business/v-1ac50524d2.mp3",
+   "seconds": 2.04,
+   "frames": 62
+  },
+  {
+   "kind": "found",
+   "text": "The brand is. The retailer that ran the big blue box stores is not. All 735 US stores closed on June 29, 2018.",
+   "spoken": "The brand is. The retailer that ran the big blue box stores is not. All seven hundred thirty-five US stores closed on June twenty-ninth, twenty eighteen.",
+   "words": [
+    {
+     "w": "The",
+     "s": 0.0,
+     "e": 0.1
+    },
+    {
+     "w": "brand",
+     "s": 0.146,
+     "e": 0.425
+    },
+    {
+     "w": "is.",
+     "s": 0.495,
+     "e": 0.843
+    },
+    {
+     "w": "The",
+     "s": 1.284,
+     "e": 1.4
+    },
+    {
+     "w": "retailer",
+     "s": 1.493,
+     "e": 1.923
+    },
+    {
+     "w": "that",
+     "s": 1.981,
+     "e": 2.108
+    },
+    {
+     "w": "ran",
+     "s": 2.167,
+     "e": 2.41
+    },
+    {
+     "w": "the",
+     "s": 2.468,
+     "e": 2.538
+    },
+    {
+     "w": "big",
+     "s": 2.596,
+     "e": 2.759
+    },
+    {
+     "w": "blue",
+     "s": 2.817,
+     "e": 2.991
+    },
+    {
+     "w": "box",
+     "s": 3.026,
+     "e": 3.281
+    },
+    {
+     "w": "stores",
+     "s": 3.304,
+     "e": 3.618
+    },
+    {
+     "w": "is",
+     "s": 3.676,
+     "e": 3.757
+    },
+    {
+     "w": "not.",
+     "s": 3.838,
+     "e": 4.221
+    },
+    {
+     "w": "All",
+     "s": 4.5,
+     "e": 4.744
+    },
+    {
+     "w": "735",
+     "s": 4.837,
+     "e": 5.975
+    },
+    {
+     "w": "US",
+     "s": 6.044,
+     "e": 6.242
+    },
+    {
+     "w": "stores",
+     "s": 6.265,
+     "e": 6.694
+    },
+    {
+     "w": "closed",
+     "s": 6.764,
+     "e": 7.054
+    },
+    {
+     "w": "on",
+     "s": 7.101,
+     "e": 7.194
+    },
+    {
+     "w": "June",
+     "s": 7.275,
+     "e": 7.484
+    },
+    {
+     "w": "29,",
+     "s": 7.519,
+     "e": 8.146
+    },
+    {
+     "w": "2018.",
+     "s": 8.32,
+     "e": 9.423
+    }
+   ],
+   "audio": "is-toys-r-us-still-in-business/v-0b0b320fc9.mp3",
+   "seconds": 9.46,
+   "frames": 285
+  },
+  {
+   "kind": "props",
+   "text": "A $6.6 billion buyout in 2005 by Bain Capital, KKR and Vornado left it paying roughly $400 million a year in debt service by 2017.",
+   "spoken": "A six point six billion dollars buyout in two thousand five by Bain Capital, KKR and Vornado left it paying roughly four hundred million dollars a year in debt service by twenty seventeen.",
+   "words": [
+    {
+     "w": "A",
+     "s": 0.0,
+     "e": 0.093
+    },
+    {
+     "w": "$6.6",
+     "s": 0.209,
+     "e": 1.057
+    },
+    {
+     "w": "billion",
+     "s": 1.126,
+     "e": 1.765
+    },
+    {
+     "w": "buyout",
+     "s": 1.834,
+     "e": 2.276
+    },
+    {
+     "w": "in",
+     "s": 2.345,
+     "e": 2.426
+    },
+    {
+     "w": "2005",
+     "s": 2.473,
+     "e": 3.355
+    },
+    {
+     "w": "by",
+     "s": 3.402,
+     "e": 3.518
+    },
+    {
+     "w": "Bain",
+     "s": 3.587,
+     "e": 3.796
+    },
+    {
+     "w": "Capital,",
+     "s": 3.878,
+     "e": 4.481
+    },
+    {
+     "w": "KKR",
+     "s": 4.76,
+     "e": 5.422
+    },
+    {
+     "w": "and",
+     "s": 5.48,
+     "e": 5.561
+    },
+    {
+     "w": "Vornado",
+     "s": 5.608,
+     "e": 6.118
+    },
+    {
+     "w": "left",
+     "s": 6.56,
+     "e": 6.803
+    },
+    {
+     "w": "it",
+     "s": 6.85,
+     "e": 6.92
+    },
+    {
+     "w": "paying",
+     "s": 6.966,
+     "e": 7.21
+    },
+    {
+     "w": "roughly",
+     "s": 7.268,
+     "e": 7.581
+    },
+    {
+     "w": "$400",
+     "s": 7.697,
+     "e": 8.231
+    },
+    {
+     "w": "million",
+     "s": 8.313,
+     "e": 8.951
+    },
+    {
+     "w": "a",
+     "s": 8.998,
+     "e": 9.033
+    },
+    {
+     "w": "year",
+     "s": 9.102,
+     "e": 9.265
+    },
+    {
+     "w": "in",
+     "s": 9.311,
+     "e": 9.358
+    },
+    {
+     "w": "debt",
+     "s": 9.404,
+     "e": 9.578
+    },
+    {
+     "w": "service",
+     "s": 9.625,
+     "e": 10.054
+    },
+    {
+     "w": "by",
+     "s": 10.112,
+     "e": 10.252
+    },
+    {
+     "w": "2017.",
+     "s": 10.298,
+     "e": 11.471
+    }
+   ],
+   "audio": "is-toys-r-us-still-in-business/v-04105d3f36.mp3",
+   "seconds": 11.52,
+   "frames": 347
+  },
+  {
+   "kind": "gallery",
+   "text": "WHP Global bought control of the name in March 2021 and runs it through Macy's shop-in-shops and 1,664 stores across 35 countries.",
+   "spoken": "WHP Global bought control of the name in March twenty twenty-one and runs it through Macy's shop-in-shops and one thousand six hundred sixty-four stores across thirty-five countries.",
+   "words": [
+    {
+     "w": "WHP",
+     "s": 0.0,
+     "e": 0.743
+    },
+    {
+     "w": "Global",
+     "s": 0.917,
+     "e": 1.324
+    },
+    {
+     "w": "bought",
+     "s": 1.37,
+     "e": 1.567
+    },
+    {
+     "w": "control",
+     "s": 1.602,
+     "e": 1.892
+    },
+    {
+     "w": "of",
+     "s": 1.939,
+     "e": 1.985
+    },
+    {
+     "w": "the",
+     "s": 2.02,
+     "e": 2.09
+    },
+    {
+     "w": "name",
+     "s": 2.136,
+     "e": 2.31
+    },
+    {
+     "w": "in",
+     "s": 2.345,
+     "e": 2.403
+    },
+    {
+     "w": "March",
+     "s": 2.473,
+     "e": 2.717
+    },
+    {
+     "w": "2021",
+     "s": 2.763,
+     "e": 3.622
+    },
+    {
+     "w": "and",
+     "s": 3.947,
+     "e": 4.18
+    },
+    {
+     "w": "runs",
+     "s": 4.249,
+     "e": 4.458
+    },
+    {
+     "w": "it",
+     "s": 4.505,
+     "e": 4.563
+    },
+    {
+     "w": "through",
+     "s": 4.586,
+     "e": 4.795
+    },
+    {
+     "w": "Macy's",
+     "s": 4.841,
+     "e": 5.178
+    },
+    {
+     "w": "shop-in-shops",
+     "s": 5.213,
+     "e": 6.072
+    },
+    {
+     "w": "and",
+     "s": 6.118,
+     "e": 6.2
+    },
+    {
+     "w": "1,664",
+     "s": 6.269,
+     "e": 8.348
+    },
+    {
+     "w": "stores",
+     "s": 8.406,
+     "e": 8.707
+    },
+    {
+     "w": "across",
+     "s": 8.742,
+     "e": 9.033
+    },
+    {
+     "w": "35",
+     "s": 9.079,
+     "e": 9.543
+    },
+    {
+     "w": "countries.",
+     "s": 9.59,
+     "e": 10.356
+    }
+   ],
+   "audio": "is-toys-r-us-still-in-business/v-b43bb5dda7.mp3",
+   "seconds": 10.4,
+   "frames": 313
+  },
+  {
+   "kind": "timeline",
+   "text": "Its flagship at American Dream in New Jersey opened on December 16, 2021.",
+   "spoken": "Its flagship at American Dream in New Jersey opened on December sixteenth, twenty twenty-one.",
+   "words": [
+    {
+     "w": "Its",
+     "s": 0.0,
+     "e": 0.197
+    },
+    {
+     "w": "flagship",
+     "s": 0.244,
+     "e": 0.766
+    },
+    {
+     "w": "at",
+     "s": 0.801,
+     "e": 0.848
+    },
+    {
+     "w": "American",
+     "s": 0.882,
+     "e": 1.207
+    },
+    {
+     "w": "Dream",
+     "s": 1.242,
+     "e": 1.416
+    },
+    {
+     "w": "in",
+     "s": 1.463,
+     "e": 1.509
+    },
+    {
+     "w": "New",
+     "s": 1.544,
+     "e": 1.66
+    },
+    {
+     "w": "Jersey",
+     "s": 1.707,
+     "e": 2.101
+    },
+    {
+     "w": "opened",
+     "s": 2.183,
+     "e": 2.461
+    },
+    {
+     "w": "on",
+     "s": 2.496,
+     "e": 2.566
+    },
+    {
+     "w": "December",
+     "s": 2.612,
+     "e": 2.995
+    },
+    {
+     "w": "16,",
+     "s": 3.065,
+     "e": 3.669
+    },
+    {
+     "w": "2021.",
+     "s": 3.785,
+     "e": 4.876
+    }
+   ],
+   "audio": "is-toys-r-us-still-in-business/v-d2b68c335c.mp3",
+   "seconds": 4.91,
+   "frames": 149
+  },
+  {
+   "kind": "outro",
+   "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with.",
+   "words": [
+    {
+     "w": "Full",
+     "s": 0.0,
+     "e": 0.255
+    },
+    {
+     "w": "story",
+     "s": 0.302,
+     "e": 0.615
+    },
+    {
+     "w": "at",
+     "s": 0.662,
+     "e": 0.743
+    },
+    {
+     "w": "404memoryfound.com.",
+     "s": 0.824,
+     "e": 2.937
+    },
+    {
+     "w": "Follow",
+     "s": 3.379,
+     "e": 3.657
+    },
+    {
+     "w": "for",
+     "s": 3.704,
+     "e": 3.808
+    },
+    {
+     "w": "more",
+     "s": 3.878,
+     "e": 4.04
+    },
+    {
+     "w": "of",
+     "s": 4.063,
+     "e": 4.11
+    },
+    {
+     "w": "the",
+     "s": 4.145,
+     "e": 4.214
+    },
+    {
+     "w": "internet",
+     "s": 4.261,
+     "e": 4.586
+    },
+    {
+     "w": "you",
+     "s": 4.644,
+     "e": 4.725
+    },
+    {
+     "w": "grew",
+     "s": 4.783,
+     "e": 4.923
+    },
+    {
+     "w": "up",
+     "s": 4.969,
+     "e": 5.05
+    },
+    {
+     "w": "with.",
+     "s": 5.108,
+     "e": 5.666
+    }
+   ],
+   "audio": "is-toys-r-us-still-in-business/v-5ae4cdadeb.mp3",
+   "seconds": 5.69,
+   "frames": 172
+  }
+ ],
+ "found": {
+  "query": "Toys R Us stores, USA",
+  "unit": "US stores",
+  "from": 735,
+  "to": 0,
+  "result": "All closed June 29, 2018"
+ },
+ "propsTitle": "toysrus.brand Properties",
+ "propsName": "Toys R Us",
+ "props": [
+  [
+   "Owner",
+   "WHP Global, since March 2021"
+  ],
+  [
+   "Buyout",
+   "2005, Bain, KKR, Vornado"
+  ],
+  [
+   "Debt service",
+   "about $400 million a year (2017)"
+  ],
+  [
+   "Chapter 11",
+   "September 18, 2017"
+  ]
+ ],
+ "ticker": {
+  "to": 6.6,
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1
+ },
+ "gallery": [
+  {
+   "src": "is-toys-r-us-still-in-business/g1.jpg",
+   "caption": "A US store closing, 2018"
+  },
+  {
+   "src": "is-toys-r-us-still-in-business/g2.jpg",
+   "caption": "Geoffrey the Giraffe, 2006"
+  },
+  {
+   "src": "is-toys-r-us-still-in-business/g3.jpg",
+   "caption": "Denver Premium Outlets, 2026"
+  }
+ ],
+ "timeline": [
+  [
+   "2005",
+   "$6.6B buyout"
+  ],
+  [
+   "2017",
+   "Chapter 11, September 18"
+  ],
+  [
+   "2018",
+   "735 US stores close"
+  ],
+  [
+   "2019",
+   "First new stores, NJ and Houston"
+  ],
+  [
+   "2021",
+   "WHP Global takes control"
+  ],
+  [
+   "2026",
+   "1,664 stores, 35 countries"
+  ]
+ ],
+ "chart": [],
+ "cover": {
+  "text": "IT'S BACK",
+  "sub": "1,664 stores worldwide"
+ },
+ "hero": "is-toys-r-us-still-in-business/hero.jpg",
+ "hero2": "is-toys-r-us-still-in-business/hero2.jpg",
+ "voice": "elevenlabs"
+}
