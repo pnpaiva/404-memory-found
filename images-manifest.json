@@ -305,6 +305,15 @@
   "thumb": "/img/thumb/imac-bondi-blue-499eec.jpg",
   "width": 822
  },
+ "https://upload.wikimedia.org/wikipedia/commons/c/c2/Napster_Laser_%281197204%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Napster_Laser_%281197204%29.jpg",
+  "ext": "jpg",
+  "file": "/img/napster-laser-1197204-1f44c3.jpg",
+  "height": 887,
+  "status": "ok",
+  "thumb": "/img/thumb/napster-laser-1197204-1f44c3.jpg",
+  "width": 898
+ },
  "https://upload.wikimedia.org/wikipedia/commons/c/c7/Microsoft_Bob_Logo.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Microsoft_Bob_Logo.png",
   "ext": "png",

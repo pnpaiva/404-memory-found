@@ -8,6 +8,19 @@
     <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Who Owns Napster in 2026? Every Owner Since 2001</title>
+      <link>https://404memoryfound.com/posts/who-owns-napster-now.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-napster-now.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Napster is owned by Napster Corporation, formerly Infinite Reality, which paid $207 million in 2025 and killed the music service on January 1, 2026.</description>
+      <enclosure url="https://404memoryfound.com/pins/who-owns-napster-now.jpg" length="190505" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/who-owns-napster-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Music &amp; Entertainment</category>
+      <category>Internet Culture</category>
+    </item>
+    <item>
       <title>How to Digitize VHS Tapes in 2026: DIY vs Legacybox</title>
       <link>https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html</guid>
@@ -231,19 +244,6 @@
       <media:content url="https://404memoryfound.com/pins/furby-history-nsa-ban.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Hardware</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>What Happened to the Sega Channel, the Cable Service That Streamed Games in 1994</title>
-      <link>https://404memoryfound.com/posts/what-happened-to-sega-channel.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/what-happened-to-sega-channel.html</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Before Xbox Game Pass, before the App Store, before broadband was even a word people used, Sega tried to deliver video games to your Genesis through your cable TV box. For a hot minute in the mid &#x27;90s, it almost worked.</description>
-      <enclosure url="https://404memoryfound.com/pins/what-happened-to-sega-channel.jpg" length="231741" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/what-happened-to-sega-channel.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Hardware</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>
