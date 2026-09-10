@@ -27,7 +27,7 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 PUBLIC = os.path.join(HERE, "public")
 SCRIPT = os.path.join(HERE, "script.json")
-PAD_SECONDS = 0.55
+PAD_SECONDS = 0.18   # gap after each sentence; the audio is also trimmed of leading/trailing silence
 
 
 def load_keychain():
@@ -115,6 +115,26 @@ def mac_say(text, out_wav):
     return words
 
 
+def trim_silence(path, words):
+    """Cut leading and trailing silence (below -38 dB) so sentences follow each other tightly,
+    and shift the word timings by the amount removed at the start."""
+    probe = subprocess.run(["ffmpeg", "-hide_banner", "-i", path, "-af", "silencedetect=noise=-38dB:d=0.08", "-f", "null", "-"],
+                           capture_output=True, text=True).stderr
+    ends = [float(m) for m in re.findall(r"silence_end: ([\d.]+)", probe)]
+    starts = [float(m) for m in re.findall(r"silence_start: ([\d.]+)", probe)]
+    total = audio_seconds(path)
+    lead = ends[0] if starts and starts[0] < 0.05 and ends else 0.0
+    tail = starts[-1] if starts and (not ends or starts[-1] > (ends[-1] if ends else 0)) and total - starts[-1] > 0.1 else total
+    lead = max(0.0, lead - 0.04)
+    tail = min(total, tail + 0.06)
+    if lead < 0.03 and tail > total - 0.03:
+        return words
+    tmp = path + ".trim" + os.path.splitext(path)[1]
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", path, "-ss", f"{lead:.3f}", "-to", f"{tail:.3f}", "-c:a", "libmp3lame" if path.endswith(".mp3") else "pcm_s16le", tmp], check=True)
+    os.replace(tmp, path)
+    return [{"w": w["w"], "s": round(max(0.0, w["s"] - lead), 3), "e": round(max(0.0, w["e"] - lead), 3)} for w in words]
+
+
 def main():
     load_env()
     keep = "--keep" in sys.argv
@@ -134,6 +154,8 @@ def main():
             if os.path.exists(p):
                 os.remove(p)
         sc["words"] = elevenlabs(text, out) if use_eleven else mac_say(text, out)
+        if "--no-trim" not in sys.argv:
+            sc["words"] = trim_silence(out, sc["words"])
         dur = audio_seconds(out)
         sc["audio"] = os.path.basename(out)
         sc["seconds"] = round(dur, 2)
