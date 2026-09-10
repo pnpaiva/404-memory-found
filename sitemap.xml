@@ -19,25 +19,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/tags/hardware.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://404memoryfound.com/tags/internet-culture.html</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
+    <loc>https://404memoryfound.com/tags/hardware.html</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://404memoryfound.com/tags/gaming.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -59,6 +59,18 @@
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/is-sega-still-making-games.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/is-runescape-still-popular-2026.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://404memoryfound.com/posts/is-myspace-still-around-today.html</loc>

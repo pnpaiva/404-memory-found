@@ -722,6 +722,15 @@
   "thumb": "/img/thumb/sega-genesis-mod1-set-2c375a.png",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Sega_Genesis_Mini_02.jpg/960px-Sega_Genesis_Mini_02.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sega_Genesis_Mini_02.jpg",
+  "ext": "jpg",
+  "file": "/img/sega-genesis-mini-02-9c8ee5.jpg",
+  "height": 640,
+  "status": "ok",
+  "thumb": "/img/thumb/sega-genesis-mini-02-9c8ee5.jpg",
+  "width": 960
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Qualcomm_Headquarters_La_Jolla.jpg/960px-Qualcomm_Headquarters_La_Jolla.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Qualcomm_Headquarters_La_Jolla.jpg",
   "ext": "jpg",
@@ -1230,6 +1239,15 @@
   "height": 754,
   "status": "ok",
   "thumb": "/img/thumb/nec-turbografx-16-cd-fl-013cd7.png",
+  "width": 960
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/220_Cambridge_Science_Park_looking_east.jpg/960px-220_Cambridge_Science_Park_looking_east.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:220_Cambridge_Science_Park_looking_east.jpg",
+  "ext": "jpg",
+  "file": "/img/220-cambridge-science-park-looking-east-029aae.jpg",
+  "height": 720,
+  "status": "ok",
+  "thumb": "/img/thumb/220-cambridge-science-park-looking-east-029aae.jpg",
   "width": 960
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ber\u00e4ttelsen_om_internet_18.jpg/960px-Ber\u00e4ttelsen_om_internet_18.jpg": {
