@@ -544,7 +544,7 @@ export const Short: React.FC<{ script: Script }> = ({ script }) => {
       <Audio
         src={staticFile("music.wav")}
         loop
-        volume={(f) => interpolate(f, [0, fps * 0.8, total - fps * 1.2, total], [0, 0.13, 0.13, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
+        volume={(f) => interpolate(f, [0, fps * 0.8, total - fps * 1.2, total], [0, 0.06, 0.06, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
       />
       {script.scenes.map((scene, i) => {
         const from = offset;
