@@ -59,6 +59,19 @@ Always send, in the same message as the video:
 2. **Description**: 2 to 4 short lines answering the question with the key figures (all from the post), then the post URL on its own line, then 3 to 6 hashtags (#nostalgia #90s #2000s plus the subject). No em dashes. End with "Sources in the article."
 3. Optional: 3 to 5 tag words for the YouTube tag field and a one-line TikTok/Reels caption (same text, shorter, hashtags first).
 
+
+## Title, cover and description method (Pedro's rule from 10 Sep 2026: use the title and thumbnail analysis method, not ad-hoc copy)
+
+Sources, all local: `reference/title-thumbnail-master-guide.pdf` (Colin & Samir + Creator Hooks: 3 click triggers, 8 title formulas, checklist, CCN test), `reference/guia-de-thumbnails.md` (ViewLab thumbnail method: question + emotion, top-third rule, 1 to 3 words, variations, contrast with the title) and the ViewLab title generator prompt in `~/ekkoa/lib/ai.ts` (`generateTitles`: one hook family per candidate, all CTR-optimised, ranked strongest first).
+
+**Titles.** Generate 6 to 8 candidates, each from a DIFFERENT hook family and never two from the same: curiosity/open loop, number/specificity, contrast/comparison, fear/loss, desire/transformation, authority/proof, contrarian/pattern break, story/confession. Every candidate must still be optimised to perform: a real curiosity gap, specific (a number, a year, a place when the post has one), broad appeal, clear stakes, a promise the video keeps. Under 50 characters is the target (mobile), 60 is the ceiling. Emotional hook inside the first 3 words. No vague "this happened" without context. Run the CCN test (works for a fan of the channel, a casual nostalgia viewer, and someone with zero context). Every fact in a title must be in the post; never promise what the video does not show. No em dashes. Deliver: the recommended title, its hook family and one line of why, plus 2 alternates for an A/B test.
+
+**Cover (the Shorts thumbnail).** YouTube shows a vertical frame from the video in the Shorts shelf and the channel grid, and only the top third reliably survives crops, so: pick the frame (usually the hook frame, whose caption is fully visible from frame 1) and describe 2 concepts, one safe and one bold, each with: scene/focus (one subject), 1 to 3 words of cover text with 2 variations to test, the question and emotion it triggers and how, composition (key element in the top third, one focus, contrast against the teal). The cover must add the question or emotion the title does not already say, not repeat it. Optional: render the frame with `npx remotion still ... --frame=N` and hand it over as the cover image.
+
+**Description.** 2 to 4 lines that answer the question with the post's figures (answer-first, no tease, the same rule as the site's meta descriptions), then the post URL on its own line, then "Sources in the article.", then 3 to 6 hashtags. Tags for the YouTube tag field: 5 to 8 phrases people search. TikTok/Reels caption: one line, hashtags after.
+
+Hand all of this over in the same message as the video file, every time.
+
 ## Known gaps / next upgrades
 
 Word timings are estimated with the Mac voice (exact with ElevenLabs). Wanted next: a receipt scene for price-then-vs-now posts, a "loading" scene for websites, automatic upload (YouTube Data API once Pedro creates the channel and pastes credentials into GitHub secrets).
