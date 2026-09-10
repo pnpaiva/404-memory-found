@@ -41,7 +41,7 @@
    "spoken": "Why did Pets.com fail?"
   },
   {
-   "kind": "receipt",
+   "kind": "crash",
    "text": "It sold pet supplies for less than it paid for them. In 1999 it made $5.8 million in sales and lost $61.8 million.",
    "audio": "why-pets-com-failed-dot-com-bubble/v-7e6975d8e9.mp3",
    "words": [
@@ -166,7 +166,7 @@
    "spoken": "It sold pet supplies for less than it paid for them. In nineteen ninety-nine it made five point eight million dollars in sales and lost sixty-one point eight million dollars."
   },
   {
-   "kind": "calendar",
+   "kind": "crt",
    "text": "It went public on February 11, 2000, and the board approved the wind-down 267 days later.",
    "spoken": "It went public on February eleventh, two thousand, and the board approved the wind-down two hundred sixty-seven days later.",
    "words": [
@@ -256,7 +256,7 @@
    "frames": 195
   },
   {
-   "kind": "timeline",
+   "kind": "calendar",
    "text": "The sock puppet outlived the company. Bar None bought it in 2002 to sell car loans.",
    "spoken": "The sock puppet outlived the company. Bar None bought it in two thousand two to sell car loans.",
    "words": [
@@ -609,5 +609,27 @@
   "message": "PetSmart bought the domain in December 2000.",
   "redirectTo": "www.petsmart.com",
   "pageTitle": "PetSmart"
+ },
+ "crash": {
+  "symbol": "IPET",
+  "tape": [
+   "IPET 11.00",
+   "AMZN +",
+   "IPET 7.10  -35%",
+   "WBVN -",
+   "IPET 2.38  -78%",
+   "KOZM -",
+   "IPET 0.19  -98%"
+  ],
+  "from": 11.0,
+  "to": 0.19,
+  "note": "1999: $5.8M of sales, $61.8M of losses."
+ },
+ "crt": {
+  "mode": "photo",
+  "src": "why-pets-com-failed-dot-com-bubble/hero.jpg",
+  "channel": "CH 04",
+  "stamp": "$1.2M / 30 SEC",
+  "caption": "Super Bowl XXXIV, January 2000"
  }
 }

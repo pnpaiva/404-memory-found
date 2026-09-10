@@ -54,7 +54,7 @@
    "spoken": "Is Kmart still open in twenty twenty-six?"
   },
   {
-   "kind": "folder",
+   "kind": "bluelight",
    "text": "Yes. Three stores are left, and only one of them is in the 50 states.",
    "audio": "is-kmart-still-open-stores-left/v-024b5fc156.mp3",
    "words": [
@@ -630,5 +630,10 @@
    "src": "is-kmart-still-open-stores-left/g3.jpg",
    "caption": "A Kmart cart, Regency Mall"
   }
- ]
+ ],
+ "bluelight": {
+  "announce": "Attention Kmart shoppers",
+  "detail": "Florida. Guam. U.S. Virgin Islands.",
+  "count": "3"
+ }
 }

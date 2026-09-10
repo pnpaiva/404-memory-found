@@ -185,7 +185,7 @@
    "frames": 285
   },
   {
-   "kind": "props",
+   "kind": "aisle",
    "text": "A $6.6 billion buyout in 2005 by Bain Capital, KKR and Vornado left it paying roughly $400 million a year in debt service by 2017.",
    "spoken": "A six point six billion dollars buyout in two thousand five by Bain Capital, KKR and Vornado left it paying roughly four hundred million dollars a year in debt service by twenty seventeen.",
    "words": [
@@ -320,7 +320,7 @@
    "frames": 347
   },
   {
-   "kind": "gallery",
+   "kind": "aisle2",
    "text": "WHP Global bought control of the name in March 2021 and runs it through Macy's shop-in-shops and 1,664 stores across 35 countries.",
    "spoken": "WHP Global bought control of the name in March twenty twenty-one and runs it through Macy's shop-in-shops and one thousand six hundred sixty-four stores across thirty-five countries.",
    "words": [
@@ -675,5 +675,15 @@
  },
  "hero": "is-toys-r-us-still-in-business/hero.jpg",
  "hero2": "is-toys-r-us-still-in-business/hero2.jpg",
- "voice": "elevenlabs"
+ "voice": "elevenlabs",
+ "aisle": {
+  "sign": "Store closing",
+  "sub": "$6.6 billion buyout, $400 million a year in debt",
+  "mode": "closing"
+ },
+ "aisle2": {
+  "sign": "Now open",
+  "sub": "1,664 stores in 35 countries",
+  "mode": "open"
+ }
 }

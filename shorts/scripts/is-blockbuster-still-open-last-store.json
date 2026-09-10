@@ -58,7 +58,7 @@
     "One store left.",
     "Bend, Oregon."
    ],
-   "kind": "found",
+   "kind": "flap",
    "audio": "is-blockbuster-still-open-last-store/v-cdfb1e972b.mp3",
    "seconds": 2.77,
    "frames": 84,
@@ -124,7 +124,7 @@
     "at the peak.",
     "Bankrupt in 2010."
    ],
-   "kind": "chart",
+   "kind": "tape",
    "audio": "is-blockbuster-still-open-last-store/v-9342cd5307.mp3",
    "seconds": 5.69,
    "frames": 172,
@@ -205,7 +205,7 @@
     "Owner today:",
     "Dish Network"
    ],
-   "kind": "props",
+   "kind": "card",
    "audio": "is-blockbuster-still-open-last-store/v-da4c555c67.mp3",
    "seconds": 6.69,
    "frames": 202,
@@ -300,7 +300,7 @@
     "Last one on Earth",
     "since March 2019."
    ],
-   "kind": "timeline",
+   "kind": "duedate",
    "audio": "is-blockbuster-still-open-last-store/v-f1558b8df5.mp3",
    "seconds": 6.71,
    "frames": 203,
@@ -567,5 +567,72 @@
  "cover": {
   "text": "STILL OPEN",
   "sub": "1 store left"
+ },
+ "flap": {
+  "title": "Blockbuster stores still open",
+  "rows": [
+   [
+    "Bend, Oregon",
+    "OPEN"
+   ],
+   [
+    "Perth, AU",
+    "CLOSED"
+   ],
+   [
+    "Anchorage, AK",
+    "CLOSED"
+   ],
+   [
+    "Fairbanks, AK",
+    "CLOSED"
+   ],
+   [
+    "Everywhere else",
+    "CLOSED"
+   ]
+  ],
+  "footer": "One store. Since March 2019."
+ },
+ "tape": {
+  "label": "BLOCKBUSTER VIDEO",
+  "sub": "Peak to bankruptcy, 1985 to 2010",
+  "from": 9000,
+  "to": 1,
+  "unit": "STORES"
+ },
+ "card": {
+  "brand": "BLOCKBUSTER",
+  "name": "Bend, Oregon",
+  "number": "2011 0406 0320",
+  "rows": [
+   [
+    "Owner",
+    "Dish Network"
+   ],
+   [
+    "Bought",
+    "April 6, 2011"
+   ],
+   [
+    "Price",
+    "about $320 million"
+   ],
+   [
+    "Parent",
+    "EchoStar"
+   ]
+  ]
+ },
+ "duedate": {
+  "title": "Blockbuster Video",
+  "dates": [
+   "OCT 12 1997",
+   "JUN 04 2004",
+   "NOV 21 2010",
+   "JUL 16 2018"
+  ],
+  "final": "Last on Earth",
+  "finalNote": "Perth, Australia closed March 2019"
  }
 }

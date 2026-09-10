@@ -56,7 +56,7 @@
    "spoken": "Is RuneScape still popular in twenty twenty-six?"
   },
   {
-   "kind": "found",
+   "kind": "levelup",
    "text": "Yes. Old School RuneScape peaked above 240,000 players online at the same time in August 2025.",
    "audio": "is-runescape-still-popular-2026/v-1523207476.mp3",
    "words": [
@@ -656,5 +656,14 @@
    "src": "is-runescape-still-popular-2026/g3.jpg",
    "caption": "A combat task, 2026"
   }
- ]
+ ],
+ "levelup": {
+  "skill": "OSRS",
+  "line1": "Congratulations, Old School RuneScape",
+  "line2": "just passed 240,000 players online.",
+  "peak": "Peak 240,851 on a Sunday in August 2025",
+  "xpFrom": 0,
+  "xpTo": 240851
+ },
+ "propsSkin": "dialog"
 }

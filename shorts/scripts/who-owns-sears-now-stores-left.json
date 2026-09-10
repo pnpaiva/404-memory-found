@@ -386,7 +386,7 @@
    "frames": 299
   },
   {
-   "kind": "gallery",
+   "kind": "catalog",
    "text": "The catalog ran from 1888 to 1993, 105 years, and the stores quietly became the whole company.",
    "spoken": "The catalog ran from eighteen eighty-eight to nineteen ninety-three, one hundred five years, and the stores quietly became the whole company.",
    "words": [
@@ -602,7 +602,7 @@
  "props": [
   [
    "Owner",
-   "Transformco (ESL Investments)"
+   "Transformco"
   ],
   [
    "Chapter 11",
@@ -645,5 +645,96 @@
  },
  "hero": "who-owns-sears-now-stores-left/hero.jpg",
  "hero2": "who-owns-sears-now-stores-left/hero2.jpg",
- "voice": "elevenlabs"
+ "voice": "elevenlabs",
+ "propsSkin": "manila",
+ "catalog": {
+  "brand": "Sears, Roebuck and Co.",
+  "pages": [
+   {
+    "year": "1897",
+    "items": [
+     [
+      "Sewing machine",
+      "$13.50"
+     ],
+     [
+      "Pocket watch",
+      "$4.15"
+     ],
+     [
+      "Cook stove",
+      "$8.90"
+     ],
+     [
+      "Bicycle",
+      "$21.75"
+     ]
+    ]
+   },
+   {
+    "year": "1932",
+    "items": [
+     [
+      "Radio receiver",
+      "$29.95"
+     ],
+     [
+      "Kit house",
+      "$1,998"
+     ],
+     [
+      "Refrigerator",
+      "$137.50"
+     ],
+     [
+      "Work boots",
+      "$2.35"
+     ]
+    ]
+   },
+   {
+    "year": "1975",
+    "items": [
+     [
+      "Colour television",
+      "$429.95"
+     ],
+     [
+      "Craftsman drill",
+      "$24.99"
+     ],
+     [
+      "Kenmore washer",
+      "$219.95"
+     ],
+     [
+      "Toy train set",
+      "$39.95"
+     ]
+    ]
+   },
+   {
+    "year": "1993",
+    "items": [
+     [
+      "The last catalog",
+      "January 25"
+     ],
+     [
+      "Years in print",
+      "105"
+     ],
+     [
+      "Pages, peak",
+      "1,500+"
+     ],
+     [
+      "Status",
+      "Discontinued"
+     ]
+    ]
+   }
+  ],
+  "footer": "1888 to 1993"
+ }
 }

@@ -12,6 +12,7 @@ import {
 } from "remotion";
 import { GRAY, TEAL, NAVY, YELLOW, bevel, pixel, inter, vt, Win, Scanlines, KenBurns, Cursor } from "./ui";
 import { VhsPhoto, PolaroidHook, InterlaceHook, FolderScene, BrowserScene, ReceiptScene, CalendarScene, GalleryScene } from "./Extra";
+import { VhsTape, SplitFlapBoard, MemberCard, DueDateCard, BlueLight, AskPage, CrtSet, StockCrash, CatalogBook, LevelUp, CartSlot, ToyAisle } from "./Story";
 
 type Word = { w: string; s: number; e: number };
 type Scene = { say: string; text?: string; lines: string[]; kind: string; audio: string; frames: number; words?: Word[] };
@@ -42,6 +43,9 @@ type Script = {
   receipt?: { title: string; sub?: string; lines: [string, string][]; total: [string, string] };
   calendar?: { start: string; end: string; days: number; startLabel: string; endLabel: string };
   gallery?: { src: string; caption: string }[];
+  propsSkin?: "dialog" | "plaque" | "manila";
+  tape?: any; flap?: any; card?: any; duedate?: any; bluelight?: any; ask?: any;
+  crt?: any; crt2?: any; crash?: any; catalog?: any; levelup?: any; cart?: any; aisle?: any; aisle2?: any;
 };
 
 /* ---------- scene bodies ---------- */
@@ -125,6 +129,53 @@ const PropsScene: React.FC<{ script: Script }> = ({ script }) => {
   const tk = script.ticker || { to: 0, prefix: "", suffix: "" };
   const priceRaw = interpolate(frame, [30, 90], [0, tk.to], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const price = tk.decimals ? priceRaw.toFixed(tk.decimals) : Math.round(priceRaw).toLocaleString("en-US");
+  const skin = script.propsSkin || "dialog";
+  const rows = script.props.map(([k, v], i) => {
+    const start = 12 + i * 16;
+    const chars = Math.max(0, Math.floor((frame - start) * 1.6));
+    return [k, v.slice(0, chars) + (frame >= start && chars < v.length ? "_" : ""), frame >= start] as [string, string, boolean];
+  });
+  const big = tk.to > 0 ? `${tk.prefix || ""}${price}${tk.suffix || ""}` : "";
+
+  if (skin === "plaque") {
+    return (
+      <>
+        <KenBurns src={script.hero} seed={2} pos={script.heroPos} dim={0.6} />
+        <div style={{ position: "absolute", left: 60, right: 60, top: 90, background: "linear-gradient(160deg,#d9b24c,#9c7a1e 55%,#e8cd7a)", border: "10px solid #5c4409", padding: "28px 32px", boxShadow: "0 20px 40px rgba(0,0,0,.55)" }}>
+          <div style={{ fontFamily: inter.fontFamily, fontWeight: 900, fontSize: 52, color: "#3a2b04", letterSpacing: 2, textShadow: "1px 1px 0 rgba(255,255,255,.5)", borderBottom: "5px solid #5c4409", paddingBottom: 12 }}>
+            {script.propsName || script.subject}
+          </div>
+          {rows.map(([k, v, on], i) => (
+            <div key={i} style={{ display: "flex", gap: 20, marginTop: 14, fontFamily: "Menlo, monospace", fontWeight: 700, fontSize: 40, color: "#3a2b04", opacity: on ? 1 : 0.2, textShadow: "1px 1px 0 rgba(255,255,255,.45)" }}>
+              <span style={{ width: 300, color: "#6b5210", flexShrink: 0 }}>{k}</span><span>{v}</span>
+            </div>
+          ))}
+          {big && <div style={{ textAlign: "center", marginTop: 14, fontFamily: inter.fontFamily, fontWeight: 900, fontSize: 104, color: "#3a2b04", textShadow: "2px 2px 0 rgba(255,255,255,.5)" }}>{big}</div>}
+        </div>
+      </>
+    );
+  }
+  if (skin === "manila") {
+    return (
+      <div style={{ position: "absolute", inset: 0, background: "#3f4a3a", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ width: 860, background: "#d9c489", border: "4px solid #a48f52", boxShadow: "0 22px 44px rgba(0,0,0,.5)", position: "relative", padding: "34px 34px 42px", transform: "rotate(-1deg)" }}>
+          <div style={{ position: "absolute", left: 40, top: -46, width: 300, height: 50, background: "#d9c489", border: "4px solid #a48f52", borderBottom: "none", borderRadius: "10px 10px 0 0" }} />
+          <div style={{ position: "absolute", left: 60, top: -36, fontFamily: "Menlo, monospace", fontWeight: 700, fontSize: 30, color: "#5b4a1c" }}>FILE</div>
+          <div style={{ background: "#fdfaf0", border: "2px solid #b9a771", padding: "24px 28px" }}>
+            <div style={{ fontFamily: "Menlo, monospace", fontWeight: 700, fontSize: 44, color: "#2b2b2b", borderBottom: "3px solid #2b2b2b", paddingBottom: 10, letterSpacing: 2 }}>
+              {(script.propsName || script.subject || "").toUpperCase()}
+            </div>
+            {rows.map(([k, v, on], i) => (
+              <div key={i} style={{ display: "flex", gap: 20, marginTop: 16, fontFamily: "Menlo, monospace", fontWeight: 700, fontSize: 36, color: "#2b2b2b", opacity: on ? 1 : 0.18 }}>
+                <span style={{ width: 300, color: "#7a6a3a", flexShrink: 0 }}>{k}</span><span>{v}</span>
+              </div>
+            ))}
+            {big && <div style={{ marginTop: 18, textAlign: "center", fontFamily: inter.fontFamily, fontWeight: 900, fontSize: 96, color: "#8b1a1a" }}>{big}</div>}
+          </div>
+        </div>
+      </div>
+    );
+  }
   return (
     <>
       <KenBurns src={script.hero} seed={2} pos={script.heroPos} dim={0.55} />
@@ -136,21 +187,14 @@ const PropsScene: React.FC<{ script: Script }> = ({ script }) => {
               <div style={{ ...pixel, fontSize: 46 }}>{script.propsName || script.subject}</div>
             </div>
             <div style={{ height: 4, background: "#808080" }} />
-            {script.props.map(([k, v], i) => {
-              const start = 12 + i * 16;
-              const chars = Math.max(0, Math.floor((frame - start) * 1.6));
-              const text = v.slice(0, chars);
-              const caret = frame >= start && chars < v.length ? "_" : "";
-              return (
-                <div key={k} style={{ display: "flex", gap: 20, ...pixel, fontSize: 42, opacity: frame >= start ? 1 : 0.25 }}>
-                  <span style={{ width: 300, color: "#555", flexShrink: 0 }}>{k}:</span>
-                  <span>{text}{caret}</span>
-                </div>
-              );
-            })}
-            <div style={{ marginTop: 6, display: "flex", justifyContent: "center" }}>
-              {tk.to > 0 && <div style={{ fontFamily: inter.fontFamily, fontWeight: 900, fontSize: 110, color: NAVY, letterSpacing: -2 }}>{tk.prefix || ""}{price}{tk.suffix || ""}</div>}
-            </div>
+            {rows.map(([k, v, on], i) => (
+              <div key={i} style={{ display: "flex", gap: 20, ...pixel, fontSize: 42, opacity: on ? 1 : 0.25 }}>
+                <span style={{ width: 300, color: "#555", flexShrink: 0 }}>{k}:</span><span>{v}</span>
+              </div>
+            ))}
+            {big && <div style={{ marginTop: 6, display: "flex", justifyContent: "center" }}>
+              <div style={{ fontFamily: inter.fontFamily, fontWeight: 900, fontSize: 110, color: NAVY, letterSpacing: -2 }}>{big}</div>
+            </div>}
           </div>
         </Win>
       </div>
@@ -332,6 +376,28 @@ const entrance = (kind: string, frame: number, fps: number): React.CSSProperties
       return { transform: `perspective(1200px) rotateY(${(1 - s) * 80}deg)`, transformOrigin: "left", opacity: Math.min(1, s * 1.5) };
     case "gallery":
       return { opacity: Math.min(1, s * 2) };
+    case "tape":
+    case "cart":
+      return { transform: `translateY(${(1 - snappy) * -1300}px)` };
+    case "flap":
+      return { clipPath: `inset(${(1 - s) * 100}% 0 0 0)` };
+    case "card":
+    case "crash":
+      return { transform: `translateX(${(1 - snappy) * -1200}px)` };
+    case "duedate":
+    case "catalog":
+      return { transform: `scale(${0.5 + 0.5 * s}) rotate(${(1 - s) * 8}deg)`, opacity: s };
+    case "bluelight":
+    case "levelup":
+      return { opacity: Math.min(1, s * 2.2), transform: `scale(${0.94 + 0.06 * s})` };
+    case "ask":
+      return { clipPath: `inset(0 ${(1 - s) * 100}% 0 0)` };
+    case "crt":
+    case "crt2":
+      return { transform: `scale(${0.2 + 0.8 * s})`, opacity: Math.min(1, s * 2) };
+    case "aisle":
+    case "aisle2":
+      return { transform: `translateX(${(1 - snappy) * 1200}px)` };
     default:
       // outro: zooms in with a slight twist
       return { transform: `scale(${0.6 + 0.4 * s}) rotate(${(1 - s) * -6}deg)`, opacity: s };
@@ -342,7 +408,7 @@ const entrance = (kind: string, frame: number, fps: number): React.CSSProperties
 
 const titlesFor = (subject: string): Record<string, string> => {
   const s = subject.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "") || "video";
-  return { hook: `${s}.avi`, found: "find.exe", chart: `${s}.xls`, props: "properties", timeline: "history.txt", outro: "404memoryfound.com", folder: "Exploring", browser: "Internet Explorer", receipt: "receipt.txt", calendar: "calendar.exe", gallery: "My Pictures" };
+  return { hook: `${s}.avi`, found: "find.exe", chart: `${s}.xls`, props: "properties", timeline: "history.txt", outro: "404memoryfound.com", folder: "Exploring", browser: "Internet Explorer", receipt: "receipt.txt", calendar: "calendar.exe", gallery: "My Pictures", tape: `${s}.vhs`, flap: "departures", card: "member.card", duedate: "due_dates.txt", bluelight: "in_store.avi", ask: "Ask Jeeves", crt: "tv_guide.exe", crt2: "tv_guide.exe", crash: "ticker.exe", catalog: `${s}_catalog`, levelup: "levelup.dat", cart: "cartridge.bin", aisle: "aisle_07.avi", aisle2: "aisle_07.avi" };
 };
 
 const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset: number; total: number }> = ({ scene, script, index, offset, total }) => {
@@ -358,6 +424,20 @@ const SceneView: React.FC<{ scene: Scene; script: Script; index: number; offset:
     kind === "receipt" ? <ReceiptScene data={script.receipt!} /> :
     kind === "calendar" ? <CalendarScene data={script.calendar!} /> :
     kind === "gallery" ? <GalleryScene items={script.gallery || []} /> :
+    kind === "tape" ? <VhsTape data={script.tape} /> :
+    kind === "flap" ? <SplitFlapBoard data={script.flap} /> :
+    kind === "card" ? <MemberCard data={script.card} /> :
+    kind === "duedate" ? <DueDateCard data={script.duedate} /> :
+    kind === "bluelight" ? <BlueLight data={script.bluelight} /> :
+    kind === "ask" ? <AskPage data={script.ask} /> :
+    kind === "crt" ? <CrtSet data={script.crt} /> :
+    kind === "crt2" ? <CrtSet data={script.crt2} /> :
+    kind === "crash" ? <StockCrash data={script.crash} /> :
+    kind === "catalog" ? <CatalogBook data={script.catalog} /> :
+    kind === "levelup" ? <LevelUp data={script.levelup} /> :
+    kind === "cart" ? <CartSlot data={script.cart} /> :
+    kind === "aisle" ? <ToyAisle data={script.aisle} /> :
+    kind === "aisle2" ? <ToyAisle data={script.aisle2} /> :
     kind === "found" ? <FoundScene script={script} /> :
     kind === "chart" ? <ChartScene script={script} /> :
     kind === "props" ? <PropsScene script={script} /> :

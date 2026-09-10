@@ -46,7 +46,7 @@
    "spoken": "Does Ask Jeeves still exist?"
   },
   {
-   "kind": "browser",
+   "kind": "ask",
    "text": "No. Ask.com, the site it became, was shut down by its owner IAC on May 1, 2026.",
    "audio": "what-happened-to-ask-jeeves-search-engine/v-378ec8f275.mp3",
    "words": [
@@ -502,5 +502,12 @@
   "url": "www.ask.com",
   "mode": "error",
   "message": "Ask.com was shut down by IAC on May 1, 2026."
- }
+ },
+ "ask": {
+  "brand": "Ask Jeeves",
+  "question": "Does Ask Jeeves still exist?",
+  "answer": "No. Ask.com was shut down by IAC on May 1, 2026.",
+  "closed": "This site is no longer available."
+ },
+ "propsSkin": "dialog"
 }

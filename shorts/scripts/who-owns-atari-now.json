@@ -46,7 +46,7 @@
    "frames": 47
   },
   {
-   "kind": "receipt",
+   "kind": "cart",
    "text": "Atari SA, a French company listed in Paris. The name has been sold five times since 1984, and once went for just $5 million.",
    "spoken": "Atari SA, a French company listed in Paris. The name has been sold five times since nineteen eighty-four, and once went for just five million dollars.",
    "words": [
@@ -461,7 +461,7 @@
    "frames": 333
   },
   {
-   "kind": "timeline",
+   "kind": "crt2",
    "text": "Today it sells cartridge-compatible reissues, the 2600+ and the 7800+, which launched in 2024 at $129.99.",
    "spoken": "Today it sells cartridge-compatible reissues, the 2600+ and the 7800+, which launched in twenty twenty-four at one hundred twenty-nine point nine nine dollars.",
    "words": [
@@ -662,11 +662,11 @@
  "props": [
   [
    "Owner",
-   "Atari SA, Paris (ALATA)"
+   "Atari SA, Paris"
   ],
   [
    "Control",
-   "Wade Rosen, 39.96% (2026)"
+   "Wade Rosen, 39.96%"
   ],
   [
    "Revenue",
@@ -729,5 +729,41 @@
  },
  "hero": "who-owns-atari-now/hero.jpg",
  "hero2": "who-owns-atari-now/hero2.jpg",
- "voice": "elevenlabs"
+ "voice": "elevenlabs",
+ "cart": {
+  "rows": [
+   [
+    "WARNER COMMUNICATIONS",
+    "1976  $28M"
+   ],
+   [
+    "JACK TRAMIEL",
+    "1984  $240M"
+   ],
+   [
+    "JTS INC",
+    "1996  merger"
+   ],
+   [
+    "HASBRO INTERACTIVE",
+    "1998  $5M"
+   ],
+   [
+    "INFOGRAMES / ATARI SA",
+    "2001  today"
+   ]
+  ],
+  "note": "Five owners since 1972."
+ },
+ "propsSkin": "plaque",
+ "crt2": {
+  "mode": "pong",
+  "channel": "ATARI",
+  "stamp": "7800+  $129.99",
+  "caption": "Still shipping cartridges in 2026",
+  "score": [
+   "2600",
+   "7800"
+  ]
+ }
 }

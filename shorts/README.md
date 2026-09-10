@@ -85,6 +85,30 @@ Hand all of this over in the same message as the video file, every time.
 
 Wikimedia has no free game screenshots. For Old School RuneScape, Pedro's own RuneLite screenshots live in `~/.runelite/screenshots/<player>/` (Levels, Quests, Combat Achievements, 1920x1080 or 840x926). Always crop to the game viewport with PIL (exclude the chat box at the bottom-left, which shows the player name, and the sidebars) before using them; save into `public/<slug>/gN.jpg` and reference them in `images` as `shorts/public/<slug>/gN.jpg`. Jagex's fan content policy covers this use. Never show the player name anywhere.
 
+
+## One visual language per story (Pedro, 10 Sep 2026: "the visuals for each video should be radically different")
+
+The Win95 shell is the ONLY thing that repeats: teal desktop, top strip, bevelled window, caption bars, progress bar, Start-menu outro. Everything inside the window must be built from the subject's own iconography. `src/Story.tsx` holds the bespoke scenes, `src/Extra.tsx` the semi-generic ones, `src/ui.tsx` the shared chrome.
+
+| kind | what it is | owned by | data |
+|---|---|---|---|
+| `tape` | VHS cassette, reels turning, tape counter running a number down | Blockbuster | `tape: {label, sub, from, to, unit}` |
+| `flap` | airport split-flap board, rows clatter and settle, green OPEN / red CLOSED | Blockbuster | `flap: {title, rows, footer}` |
+| `card` | rental member card sliding in, embossed rows | Blockbuster | `card: {brand, name, number, rows}` |
+| `duedate` | library-style date-due slip, dates stamped, last one in red at an angle | Blockbuster | `duedate: {title, dates, final, finalNote}` |
+| `bluelight` | rotating blue beacon, PA announcement, price-tag count | Kmart | `bluelight: {announce, detail, count}` |
+| `ask` | 90s natural-language search page, butler, typed question, answer, then the site goes black | Ask Jeeves | `ask: {brand, question, answer, closed}` |
+| `crash` | ticker tape plus a share price falling off a cliff | Pets.com | `crash: {symbol, tape, from, to, note}` |
+| `crt` / `crt2` | wood-panel CRT playing a photo or a game of Pong, channel OSD, price stamp | Pets.com / Atari | `crt: {mode, src, channel, stamp, caption, score}` |
+| `catalog` | catalog book, pages turning by year with item prices | Sears | `catalog: {brand, pages, footer}` |
+| `levelup` | OSRS-style level-up box over bars climbing to a player count | RuneScape | `levelup: {skill, line1, line2, peak, xpFrom, xpTo}` |
+| `cart` | cartridges labelled with each owner slotting into a console | Atari | `cart: {rows, note}` |
+| `aisle` / `aisle2` | toy aisle emptying under a STORE CLOSING sign, or full under NOW OPEN | Toys R Us | `aisle: {sign, sub, mode}` |
+
+`props` is the one recurring beat (ownership) and carries a `propsSkin`: `dialog` (Win95 properties), `plaque` (engraved brass), `manila` (case file). Use a different skin from the previous video.
+
+Rule when building a new short: pick the scenes from the subject's own world first (its store, its product, its interface, its packaging, its receipt), and only fall back to the generic `chart` / `gallery` / `timeline` when nothing better exists. If two videos in a week would share a scene kind, build a new one instead.
+
 ## Known gaps / next upgrades
 
 Word timings are estimated with the Mac voice (exact with ElevenLabs). Wanted next: a receipt scene for price-then-vs-now posts, a "loading" scene for websites, automatic upload (YouTube Data API once Pedro creates the channel and pastes credentials into GitHub secrets).
