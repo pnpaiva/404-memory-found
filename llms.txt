@@ -143,7 +143,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Y2K Explained: What Really Broke on January 1, 2000](https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html): The Y2K bug was real and the US spent about $100 billion killing it. Here is what still broke on January 1, 2000, from spy satellites to slot machines.
 - [Forgotten 90s Websites That Still Exist (Unchanged)](https://404memoryfound.com/posts/90s-websites-still-online.html): Some of the oldest websites from the 1990s are still live today—and barely changed. Explore these vintage 1990s websites still online.
 - [Dial-Up Was INSANELY Slow (Here's the Math)](https://404memoryfound.com/posts/dialup-speed-then-vs-now.html): Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.
-- [The Internet's First Sale? A Pizza Hut Pepperoni Pizza](https://404memoryfound.com/posts/first-online-purchase-pizza.html): Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.
+- [What Was the First Thing Sold Online? PizzaNet vs a CD](https://404memoryfound.com/posts/first-online-purchase-pizza.html): The first thing sold online was not a pizza. PizzaNet took orders in August 1994, eleven days after a Sting CD sold for $12.48.
 - [Did Yahoo Turn Down Google for $1 Million in 1998?](https://404memoryfound.com/posts/yahoo-rejected-google.html): Yahoo never bought Google and Google never bought Yahoo. The $1 million story is thinly sourced, and the real offer in 2002 was $3 billion.
 
 ## Hardware
@@ -317,7 +317,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [90s Tech Prices in 2026 Dollars: Full 40-Item Table](https://404memoryfound.com/posts/90s-tech-inflation-calculator.html): A PlayStation cost $299 in 1995, or $655 in 2026 dollars. Forty sourced launch prices for 90s and early-2000s tech, adjusted with CPI-U.
 - [Forgotten 90s Websites That Still Exist (Unchanged)](https://404memoryfound.com/posts/90s-websites-still-online.html): Some of the oldest websites from the 1990s are still live today—and barely changed. Explore these vintage 1990s websites still online.
 - [Dial-Up Was INSANELY Slow (Here's the Math)](https://404memoryfound.com/posts/dialup-speed-then-vs-now.html): Dial-up internet at 0.05 Mbps was unbearably slow. See how dial-up speed compares to modern internet—the numbers are shocking.
-- [The Internet's First Sale? A Pizza Hut Pepperoni Pizza](https://404memoryfound.com/posts/first-online-purchase-pizza.html): Before Amazon, before eBay—the first thing ever sold online was a Pizza Hut pizza in 1994. Discover the bizarre first online purchase that started it all.
+- [What Was the First Thing Sold Online? PizzaNet vs a CD](https://404memoryfound.com/posts/first-online-purchase-pizza.html): The first thing sold online was not a pizza. PizzaNet took orders in August 1994, eleven days after a Sting CD sold for $12.48.
 
 ## Money & Tech
 - [Who Owns Sears Now, and How Many Stores Are Left?](https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html): Sears is owned by Eddie Lampert's Transformco and it is still trading. The last count found five full-line stores left, down from about 3,500.
