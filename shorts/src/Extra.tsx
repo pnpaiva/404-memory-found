@@ -73,7 +73,7 @@ const FolderIcon: React.FC<{ label: string; gone: boolean; keep: boolean; delay:
 };
 
 /** Explorer folder full of icons; a delete dialog removes them until only `to` remain (highlighted). */
-export const FolderScene: React.FC<{ data: { path: string; from: number; to: number; unit: string; keepLabels?: string[] } }> = ({ data }) => {
+export const FolderScene: React.FC<{ data: { path: string; from: number; to: number; unit: string; keepLabels?: string[]; note?: string } }> = ({ data }) => {
   const frame = useCurrentFrame();
   const N = 40;
   const removed = Math.round(interpolate(frame, [12, 110], [0, N - data.to], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
@@ -102,6 +102,7 @@ export const FolderScene: React.FC<{ data: { path: string; from: number; to: num
             <div style={{ ...pixel, fontSize: 56 }}>
               {data.unit}s: <span style={{ color: done ? "#008000" : "#c00000" }}>{count.toLocaleString("en-US")}</span>
             </div>
+            {data.note && <div style={{ ...pixel, fontSize: 26, color: "#555" }}>{data.note}</div>}
           </div>
         </Win>
       </div>
