@@ -42,7 +42,7 @@ DEFAULT_DESCRIPTION = ("404 Memory Found is a nostalgia blog about the technolog
 GA_ID = "G-GQX7R9W80G"
 HUB_TAG_COUNT = 8
 RELATED_COUNT = 5
-MAX_AUTO_LINKS = 4
+MAX_AUTO_LINKS = 6
 WORDS_PER_MINUTE = 230
 DEFAULT_OG_IMAGE = f"{BASE_URL}/og-image.png"
 LOGO = f"{BASE_URL}/logo-512.png"
@@ -674,7 +674,8 @@ def build_post_page(ctx, post, posts):
         "@type": "BreadcrumbList",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL + "/"},
-            {"@type": "ListItem", "position": 2, "name": "All posts", "item": f"{BASE_URL}/posts/"},
+            {"@type": "ListItem", "position": 2, "name": post["tags"][0] if post["tags"] else "All posts",
+             "item": f"{BASE_URL}/tags/{tag_slug(post['tags'][0])}.html" if post["tags"] else f"{BASE_URL}/posts/"},
             {"@type": "ListItem", "position": 3, "name": post["title"], "item": post["url"]},
         ],
     }
@@ -731,6 +732,13 @@ def build_hub_page(ctx, filename, posts):
                       status_text=f"{len(posts)} posts")
 
 
+def breadcrumb_schema(*items):
+    """BreadcrumbList from (name, url) pairs, Home first."""
+    trail = [("Home", BASE_URL + "/")] + list(items)
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(trail)]}
+
+
 def build_author_page(ctx, key, posts):
     a = ctx["authors"][key]
     mine = [p for p in posts if p["authorKey"] == key]
@@ -745,7 +753,7 @@ def build_author_page(ctx, key, posts):
     schema["mainEntityOfPage"] = url
     head = head_html(ctx, title=f"{a['name']} | {BLOG_NAME}", canonical=url,
                      description=f"{a['name']} writes about {a['beat'].lower()} for {BLOG_NAME}. {len(mine)} posts.",
-                     schemas=(schema,))
+                     schemas=(schema, breadcrumb_schema(("About", f"{BASE_URL}/about.html"), (a["name"], url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="✍️", window_title=a["name"], content=content,
                       status_text=f"{len(mine)} posts")
 
@@ -767,7 +775,7 @@ def build_posts_index_page(ctx, posts):
                   {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(posts)]}}
     head = head_html(ctx, title=f"All posts | {BLOG_NAME}", canonical=url,
                      description=f"Every story on {BLOG_NAME}: {len(posts)} articles about 90s and 2000s technology, games, websites and companies.",
-                     schemas=(schema,))
+                     schemas=(schema, breadcrumb_schema(("All posts", url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="📝", window_title="All posts", content=content,
                       status_text=f"{len(posts)} posts")
 
@@ -783,7 +791,7 @@ def build_tag_page(ctx, tag, posts):
                   {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(tagged)]}}
     head = head_html(ctx, title=f"{tag} | {BLOG_NAME}", canonical=url,
                      description=f"{len(tagged)} stories about {tag.lower()} from the 90s and 2000s on {BLOG_NAME}.",
-                     schemas=(schema,))
+                     schemas=(schema, breadcrumb_schema(("All posts", f"{BASE_URL}/posts/"), (tag, url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="📁", window_title=tag, content=content,
                       status_text=f"{len(tagged)} posts")
 

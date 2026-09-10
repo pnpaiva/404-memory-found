@@ -29,6 +29,7 @@ One post answers one search query completely in under five minutes of reading, s
 | Status questions | Every post about a company, product or service answers, explicitly and early, the questions Search Console shows people typing: is it still around in 2026, who owns it now, how many are left or what it costs today, and what replaced it. One of those belongs in the summary, one in a section heading, one in the quick facts ("Owner today", "Stores left", "Status"), one in the FAQ |
 | Audience | Readers in the United States first, then the UK, Canada and Australia. Write for them: US spelling, prices in US dollars with the year, US retailers and the partner shops in `AFFILIATES.md` for 'where to find one today', US launch dates when they differ from Japan or Europe. Subjects must have had a real presence in those markets; a product or site that was big only in Brazil, India or continental Europe does not belong, however nostalgic it is |
 | Buyer-intent posts | About one post in five answers a buying or doing question ("How to digitize VHS tapes in 2026", "Best way to play Genesis games today", "How to run 90s PC games on Windows 11"). Same shape, same sourcing rules, one link per partner named, the disclosure rendered by the build. The recommendation must be honest: name the DIY route and its cost before the paid service |
+| Link phrases | `linkPhrases` holds 1 to 3 short names of this post's own subject (for example ["Sears", "Sears Holdings"]); the build links the first mention of those names in other posts back here. It is never the anchor text of the links you wrote to other posts. Each phrase must appear in your own title or slug |
 | Author | one of the pen names in `authors.json`, chosen by beat |
 | Tags | 1 to 3 from the eight site tags only |
 
@@ -55,7 +56,7 @@ Never invent a quote, a price or a sales figure. If a number cannot be sourced, 
   "imageCaption": "caption shown under the image",
   "body": "<h2>...</h2><p>...</p> ... <h2>Frequently Asked Questions</h2><h3>...?</h3><p>...</p>",
   "sources": [{"title": "Source name", "url": "https://..."}],
-  "linkPhrases": ["Furby"],
+  "linkPhrases": ["Furby"],  // 1 to 3 names of THIS post's own subject, used to link OTHER posts here; never the anchor text of your outbound links
   "seo": {"title": "...", "description": "...", "keywords": ["..."]}
 }
 ```

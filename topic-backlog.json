@@ -458,6 +458,606 @@
       ],
       "status": "pending",
       "source": "search-console-2026-09"
+    },
+    {
+      "title": "Is Redbox Still Around? Why the Kiosks Are Still There",
+      "slug": "is-redbox-still-around-kiosks",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Redbox is dead but its hardware is not. Parent company Chicken Soup for the Soul Entertainment filed Chapter 7 in July 2024, killing the app, the streaming service and the payment backend behind roughly 24,000 to 26,000 red kiosks. Thousands of those machines still sit outside Walgreens, grocery stores and gas stations because removal is a legal and logistical problem nobody wants to pay for, and some still power on and dispense discs with no working payment server. Verify the current kiosk count, who legally owns the abandoned machines, and the going eBay price for a decommissioned Redbox before publishing.",
+      "target_keywords": [
+        "is redbox still around",
+        "why are redbox machines still there",
+        "what happened to redbox",
+        "are redbox kiosks still working",
+        "who owns redbox now"
+      ],
+      "demand_note": "Americans physically walk past dead Redbox kiosks every week and search to find out whether the machine in front of them still works.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Skype Gone for Good? What Replaced It After 2025",
+      "slug": "is-skype-gone-for-good",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Then vs Now"
+      ],
+      "angle": "Microsoft retired Skype on May 5, 2025, more than twenty years after it launched and fourteen years after Microsoft paid $8.5 billion for it. Users were pushed to Microsoft Teams Free, which imported contacts and chat history, while Skype Credit and paid calling to landlines were wound down. The number that explains the whole story is usage: Skype was down to roughly 36 million monthly users while Zoom and WhatsApp ran the market. Verify what happens to leftover Skype Credit balances, whether old Skype numbers can still be ported, and the exact date the login screen stopped working.",
+      "target_keywords": [
+        "is skype shut down",
+        "what happened to skype",
+        "is skype gone",
+        "what replaced skype",
+        "when did skype shut down"
+      ],
+      "demand_note": "Millions of Americans still had Skype installed when it died in 2025 and search for what happened to their contacts and credit.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is GameStop Still in Business? The Real 2026 Store Count",
+      "slug": "is-gamestop-still-in-business",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Business Blunders"
+      ],
+      "angle": "GameStop is still open but shrinking fast. It entered 2025 with roughly 2,325 US stores, closed about 590 of them during the year, and announced another 470-plus closures across 43 states to open 2026. The chain that grew out of Babbage's, Software Etc. and FuncoLand now makes more headlines for its cash pile and meme-stock status than for selling games, and it shut down Game Informer in 2024 to cut costs. Verify the current US store count from the latest 10-K, the trade-in revenue trend, and what the company is doing with its collectibles and card-grading pivot.",
+      "target_keywords": [
+        "is gamestop still in business",
+        "how many gamestop stores are left",
+        "is gamestop closing",
+        "gamestop store closures 2026",
+        "is gamestop going out of business"
+      ],
+      "demand_note": "GameStop closure lists run in local news across the country every January, and each round sends people searching whether the chain is finished.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Does Chuck E. Cheese Still Have Animatronics in 2026?",
+      "slug": "chuck-e-cheese-animatronics-still-there",
+      "persona": "dana",
+      "tags": [
+        "Then vs Now",
+        "Hardware"
+      ],
+      "angle": "Munch's Make Believe Band is nearly extinct. Chuck E. Cheese started stripping animatronics out during the CEC 2.0 remodel in 2017, filed Chapter 11 in 2020, and by 2025 had announced the band was gone from every location except a handful of legacy stores, with reporting pointing to Northridge California, Pineville North Carolina, Hicksville and Nanuet New York, and Springfield Illinois. Trampoline zones, dance floors and card-swipe Play Pass replaced the robots. Verify which legacy stages are still standing in 2026, where the removed robots ended up (collectors, Showbiz Pizza preservationists, scrap), and the Nanuet solo-Chuck detail.",
+      "target_keywords": [
+        "does chuck e cheese still have animatronics",
+        "which chuck e cheese still has the band",
+        "chuck e cheese animatronics removed",
+        "last chuck e cheese with animatronics",
+        "what happened to chuck e cheese robots"
+      ],
+      "demand_note": "Parents planning a birthday party and grown-up ShowBiz fans both search for the last locations with a working robot band before driving there.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Boston Market Still Open? How Many Are Left in 2026",
+      "slug": "is-boston-market-still-open",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Boston Market went from roughly 1,200 US locations in its late-90s peak to about 27 restaurants, then 16 by the end of 2024, and near zero operating US stores by 2026. The collapse was not a slow retail decline but unpaid rent, vendor lawsuits, wage claims and mass evictions under owner Jay Pandya, with entire states like Florida, New Jersey and Connecticut going dark. There are reports of a franchised location opening in India while the US chain evaporated. Verify how many US stores are actually serving food this month and the status of the trademark and the frozen-food licensing deal that still puts the name in grocery aisles.",
+      "target_keywords": [
+        "is boston market still open",
+        "how many boston market locations are left",
+        "what happened to boston market",
+        "is boston market out of business",
+        "boston market closing"
+      ],
+      "demand_note": "Boston Market rotisserie chicken was a 1990s American dinner staple, and its near-total disappearance drives constant local-news searches.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Claire's Closing? What the Bankruptcy Means for Stores",
+      "slug": "is-claires-closing-bankruptcy",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Claire's filed Chapter 11 for the second time since 2018, with hundreds of Claire's and Icing locations tagged for closing and a roughly $500 million loan due in December 2026 hanging over the company. The North American business was sold to Ames Watson for about $104 million, so the ear-piercing gun that pierced a generation of American mall kids survives under new owners, just with a smaller footprint. Verify the final closing-store count, which stores are still piercing, and how many mall locations remain versus the 2007 peak.",
+      "target_keywords": [
+        "is claire's closing",
+        "is claire's going out of business",
+        "how many claire's stores are left",
+        "who owns claire's now",
+        "claire's bankruptcy store closings"
+      ],
+      "demand_note": "Claire's is where a huge share of American women got their ears pierced, so every closure list gets shared and searched by name.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Barnes and Noble Still Open? 60 New Stores in 2026",
+      "slug": "is-barnes-and-noble-still-open",
+      "persona": "dana",
+      "tags": [
+        "Then vs Now",
+        "Business Blunders"
+      ],
+      "angle": "The bookstore everyone assumed died with Borders is the one that came back. Barnes & Noble, owned by Elliott Advisors and run by James Daunt, opened more stores in 2024 than in the entire 2009 to 2019 stretch and plans roughly 60 more in 2026 across Ohio, Texas, Florida, Illinois, Colorado, Washington, California, Virginia, Georgia and Washington DC, with an IPO reportedly in preparation. The turnaround came from handing buying decisions back to local store managers. Verify the current total US store count, the IPO status, and where Nook sits in the business now.",
+      "target_keywords": [
+        "is barnes and noble still open",
+        "is barnes and noble opening new stores",
+        "how many barnes and noble stores are left",
+        "who owns barnes and noble now",
+        "barnes and noble comeback"
+      ],
+      "demand_note": "Americans who watched Borders die assume Barnes & Noble went with it and search to check before driving to a store.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Hollywood Video Still Around? The Last Video Store",
+      "slug": "is-hollywood-video-still-around",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Hollywood Video was Blockbuster's biggest US rival until Movie Gallery bought it for about $850 million in 2005, went bankrupt in 2007, converted to Chapter 7 in 2010 and closed the last US Hollywood Video on July 31, 2010. The chain that actually outlived them all was Family Video, which ran roughly 200 Midwest and Southern stores until COVID and a dry release slate ended movie rentals on January 6, 2021. Verify the exact Movie Gallery liquidation dates, how many former Hollywood Video buildings are still recognizable, and whether any independent US video store claims the last-chain title now.",
+      "target_keywords": [
+        "is hollywood video still around",
+        "what happened to hollywood video",
+        "when did hollywood video close",
+        "what happened to family video",
+        "last video rental store in america"
+      ],
+      "demand_note": "Blockbuster gets all the nostalgia coverage, so people who rented at Hollywood Video or Family Video search separately for what happened to theirs.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Borders Still Around? Who Owns the Name Now",
+      "slug": "is-borders-still-around-who-owns",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Borders filed for bankruptcy in February 2011 and liquidated all stores by September 2011, taking mall chain Waldenbooks down with it after Kmart had stitched the two together in the 1990s. The company was late to e-commerce, outsourced its online store to Amazon for years, and bet on oversized superstores and CD and DVD floor space right as both collapsed. Barnes & Noble picked up the Borders brand and customer list in the bankruptcy auction, which is why the two stories have to be told together. Verify the exact IP purchase price and terms, and whether any Borders-branded operation exists anywhere today.",
+      "target_keywords": [
+        "is borders still around",
+        "what happened to borders books",
+        "who owns borders now",
+        "when did borders close",
+        "what happened to waldenbooks"
+      ],
+      "demand_note": "Borders had over 500 US superstores and its 2011 liquidation is still the reference point Americans use when a chain dies.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Does Nokia Still Make Phones? The Brand Ends in 2026",
+      "slug": "does-nokia-still-make-phones",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "The Nokia name is leaving phones entirely. HMD Global has made Nokia-branded handsets under license since 2016, but that license ends in 2026 and HMD is shifting to its own HMD Skyline, Vibe and Arc lines, with the last Nokia-branded devices being feature phones like the 110, 225, 235 4G and retro flips such as the 2660 and 3210 reissue. Nokia the company still exists as a network infrastructure business in Espoo, it just will not be on a phone. Verify the exact license end date, which Nokia-branded models are still for sale in the US, and whether HMD keeps selling them through inventory.",
+      "target_keywords": [
+        "does nokia still make phones",
+        "are nokia phones still sold",
+        "what happened to nokia",
+        "is nokia coming back",
+        "who makes nokia phones now"
+      ],
+      "demand_note": "Nokia was the top-selling phone brand in America before the iPhone, and the retro 3210 reissues keep pulling people back to search whether it is really over.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Columbia House Still Around? The 2026 Shutdown",
+      "slug": "is-columbia-house-still-around",
+      "persona": "theo",
+      "tags": [
+        "Music & Entertainment",
+        "Money & Tech"
+      ],
+      "angle": "Columbia House, the mail-order club that sold 12 CDs for a penny and then billed you forever, is shutting down after 71 years, with the company saying it stops taking new orders after September 15, 2026. It started in 1955 as the Columbia Record Club, peaked around 16 million members in the CD boom, quit music roughly 15 years ago, and spent its final stretch as a niche DVD warehouse. Verify the shutdown date (the notice was reportedly pulled from the site at one point), who owns the brand today, and how the negative-option billing math actually worked.",
+      "target_keywords": [
+        "is columbia house still around",
+        "columbia house shutting down",
+        "what happened to columbia house",
+        "12 cds for a penny club",
+        "does columbia house still exist"
+      ],
+      "demand_note": "The 2026 shutdown is fresh news and every American over 35 remembers filling out the stamp sheet for 12 CDs for a penny.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Can You Still Get Dial-Up Internet in 2026? Who Sells It",
+      "slug": "dial-up-internet-still-available-2026",
+      "persona": "theo",
+      "tags": [
+        "Internet Culture",
+        "Then vs Now"
+      ],
+      "angle": "AOL finally killed its dial-up service at the end of September 2025, but dial-up itself did not die with it. NetZero and Juno, both run by United Online, still sell dial-up in the US, with Juno offering a free tier capped around 10 hours a month and NetZero selling accelerated dial-up for about $29.95, aimed at rural households where broadband never arrived. Verify current pricing pages, whether MSN Dial-Up is still real, how many US households the FCC counts as dial-up only, and whether new modems are even still manufactured.",
+      "target_keywords": [
+        "can you still get dial-up internet",
+        "does dial-up internet still exist",
+        "is netzero still around",
+        "does aol still have dial-up",
+        "dial up internet providers 2026"
+      ],
+      "demand_note": "AOL's 2025 dial-up shutdown made national news and sent people searching whether dial-up is now completely gone in the US.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Does Netflix Still Mail DVDs? The Last Red Envelope",
+      "slug": "does-netflix-still-mail-dvds",
+      "persona": "dana",
+      "tags": [
+        "Then vs Now",
+        "Business Blunders"
+      ],
+      "angle": "Netflix mailed its final red envelopes on September 29, 2023, ending the DVD-by-mail business that shipped more than 5 billion discs and killed Blockbuster. Subscribers were told to keep whatever discs they had out, and the company stuffed final shipments with bonus random discs. The DVD unit was still quietly profitable when it was shut, which is the interesting part of the story. Verify the final subscriber count, the last-day logistics at the Fremont hub, and what happened to the DVD.com inventory and the warehouses.",
+      "target_keywords": [
+        "does netflix still mail dvds",
+        "when did netflix stop sending dvds",
+        "is netflix dvd still a thing",
+        "what happened to netflix dvd service",
+        "netflix last dvd shipped"
+      ],
+      "demand_note": "The red envelope is the single most recognizable object of 2000s American home video and its 2023 ending still surprises people.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Sam Goody Still Around? What Happened to Musicland",
+      "slug": "is-sam-goody-still-around",
+      "persona": "dana",
+      "tags": [
+        "Music & Entertainment",
+        "Business Blunders"
+      ],
+      "angle": "Sam Goody is gone in name but its corpse is still in some malls. Best Buy bought Musicland for about $696 million in 2001, dumped it to Sun Capital in 2003 for no cash, and the group filed Chapter 11 in January 2006, closing 226 Sam Goody stores, 115 Suncoast Motion Picture Company stores and all of Media Play. Trans World Entertainment bought what was left and converted the yellow Sam Goody signs to f.y.e. between 2007 and 2008. Verify how many f.y.e. stores survive today, whether any Suncoast-branded location still operates, and Trans World's current corporate status.",
+      "target_keywords": [
+        "is sam goody still around",
+        "what happened to sam goody",
+        "what happened to suncoast video",
+        "what happened to media play",
+        "is fye still in business"
+      ],
+      "demand_note": "Sam Goody, Suncoast and Media Play were the mall trio for American music and DVD buying and people search all three by name.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is the Disney Store Still Open? How Many Are Left in 2026",
+      "slug": "is-disney-store-still-open",
+      "persona": "dana",
+      "tags": [
+        "Then vs Now",
+        "Business Blunders"
+      ],
+      "angle": "Disney closed more than 200 North American Disney Stores in 2021 to push shoppers to shopDisney and to shop-in-shops inside Target, leaving around 25 in North America and roughly 21 worldwide by 2026. The Paris flagship closed after 33 years, and Disney has since been reported to be pulling back on its own online store while testing limited-time retail pop-ups starting in 2026. Verify the current open-store list, the status of shopDisney, and how the Target partnership counts in any store number you publish.",
+      "target_keywords": [
+        "is the disney store still open",
+        "how many disney stores are left",
+        "did disney close all its stores",
+        "what happened to the disney store",
+        "disney store closing 2026"
+      ],
+      "demand_note": "The Disney Store was a fixture of every big American mall and families still search for the nearest surviving location.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Sharper Image Still a Store? The Brand After 2008",
+      "slug": "is-sharper-image-still-a-store",
+      "persona": "theo",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "angle": "Sharper Image went from roughly 184 stores and $750 million in revenue to bankruptcy and full liquidation by 2008, largely destroyed by the Ionic Breeze air purifier, which Consumer Reports attacked and which triggered lawsuits the company could not survive. The name lives on as a licensed catalog and web brand under ThreeSixty Group with US operations run by Camelot Venture Group, so the massage chairs are still for sale, just not in a mall. Brookstone followed the same script, going bankrupt in 2018 and surviving as a licensed brand with occasional airport stores. Verify who currently holds each license and whether any physical US locations exist.",
+      "target_keywords": [
+        "is sharper image still in business",
+        "is brookstone still around",
+        "what happened to sharper image",
+        "who owns sharper image now",
+        "are there any brookstone stores left"
+      ],
+      "demand_note": "Sharper Image and Brookstone were where Americans went to touch gadgets they would never buy, and both vanished from malls without an obituary.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Woolworth Still in Business? It Became Foot Locker",
+      "slug": "is-woolworth-still-in-business",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "The five-and-dime that invented American mass retail closed its last US variety stores in 1997, but the corporation did not die, it renamed itself Foot Locker in 2001 after its sneaker chain became the only healthy part of the business. The Woolworth name still runs about a thousand stores in Germany, Austria, Poland, Czechia and Slovakia, which is why searches split between the dead US chain and a living European one. Verify the 1997 closing details, the exact corporate renaming timeline, and Foot Locker's current ownership after the Dick's Sporting Goods deal.",
+      "target_keywords": [
+        "is woolworth still in business",
+        "what happened to woolworth",
+        "did woolworth become foot locker",
+        "when did woolworths close in america",
+        "who owns woolworth now"
+      ],
+      "demand_note": "Older Americans search for the store they grew up with and are surprised the company is now Foot Locker rather than gone.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is FAO Schwarz Still Open? The Toy Store After 2015",
+      "slug": "is-fao-schwarz-still-open",
+      "persona": "dana",
+      "tags": [
+        "Then vs Now",
+        "Business Blunders"
+      ],
+      "angle": "FAO Schwarz closed its Fifth Avenue flagship in 2015 after Toys R Us could not afford the rent, then reopened in 2018 at Rockefeller Center under ThreeSixty Group with the giant piano mat from Big rebuilt in the entryway. It now runs as a small set of flagship and licensed locations plus shop-in-shops rather than a chain. Verify how many US FAO Schwarz locations operate in 2026, which retailers carry the shop-in-shop format, and whether the piano is the original or a rebuild.",
+      "target_keywords": [
+        "is fao schwarz still open",
+        "did fao schwarz close",
+        "where is fao schwarz now",
+        "what happened to fao schwarz",
+        "fao schwarz piano still there"
+      ],
+      "demand_note": "Tourists planning New York trips and Big fans both search whether the piano store still exists before making the trip.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is KB Toys Coming Back? What Happened to the Chain",
+      "slug": "is-kb-toys-coming-back",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "KB Toys, founded in 1922 and once the biggest mall toy chain in America with hundreds of cramped storefronts, liquidated in 2009 after two bankruptcies, and Toys R Us bought the brand rights later that year. Former executive Ellia Kassoff announced a comeback in 2018 when Toys R Us collapsed, complete with promised pop-ups, and it never materialized into a real chain. Verify who holds the KB Toys trademark now, what happened to the announced 2018 pop-up plan, and whether any licensed KB Toys product exists today.",
+      "target_keywords": [
+        "is kb toys coming back",
+        "what happened to kb toys",
+        "when did kb toys close",
+        "who owns kb toys now",
+        "is kb toys still in business"
+      ],
+      "demand_note": "The 2018 comeback headlines are still indexed and keep sending Americans to search whether KB Toys ever actually reopened.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Game Informer Still Publishing? Back From the Dead",
+      "slug": "is-game-informer-still-publishing",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Music & Entertainment"
+      ],
+      "angle": "GameStop shut down Game Informer in August 2024 after 33 years and laid off the entire staff, wiping the website archive in the process. In March 2025 the magazine returned under new owner Gunzilla Games with much of the old team back, making it one of the few print gaming magazines to come back from a clean kill. Verify whether print issues are actually shipping to US subscribers in 2026, what happened to the pre-2024 article archive, and how the old GameStop PowerUp Rewards subscription bundle was unwound.",
+      "target_keywords": [
+        "is game informer still publishing",
+        "did game informer come back",
+        "what happened to game informer",
+        "who owns game informer now",
+        "is game informer magazine still around"
+      ],
+      "demand_note": "Game Informer was bundled with GameStop's rewards program, so millions of Americans were subscribers and noticed when it stopped arriving.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Does Yahoo Messenger Still Exist? Why It Shut Down",
+      "slug": "does-yahoo-messenger-still-exist",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Internet Culture"
+      ],
+      "angle": "Yahoo Messenger died on July 17, 2018 after 20 years, and unlike AIM it did not even get a proper wake. Yahoo had already killed the classic client in 2016 for a rebuilt app nobody wanted, then pointed the remaining users at Squirrel, an invite-only group chat beta that also went nowhere. Users had a six-month window to download their chat history before the servers went dark. Verify whether any Yahoo Messenger data export is still retrievable, what became of Squirrel, and how the shutdown fits Apollo's current ownership of Yahoo.",
+      "target_keywords": [
+        "does yahoo messenger still exist",
+        "when did yahoo messenger shut down",
+        "what happened to yahoo messenger",
+        "can i get my yahoo messenger chat history",
+        "is yahoo messenger coming back"
+      ],
+      "demand_note": "Yahoo Messenger was the default chat client for a big slice of American internet users and people still search for their lost archives.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Photobucket Still Around? Why Your Photos Disappeared",
+      "slug": "is-photobucket-still-around",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "Photobucket still exists, but as a paid storage company rather than the free image host that ran a huge share of MySpace layouts, eBay listings and forum avatars. The 2017 policy change that demanded roughly $400 a year for third-party embedding replaced millions of images across the web with a broken-image ransom notice overnight, and free accounts ended entirely in 2023. Current plans run roughly $5 to $13 a month. Verify current pricing, whether lapsed-account images are recoverable, and the reported plan to license old user photos for AI training.",
+      "target_keywords": [
+        "is photobucket still around",
+        "what happened to photobucket",
+        "why are photobucket images broken",
+        "is photobucket free",
+        "can i get my old photobucket photos back"
+      ],
+      "demand_note": "Broken Photobucket images still litter American forums and eBay listings, sending people to search what happened every time they hit one.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is G4 TV Still On? The Relaunch That Lasted a Year",
+      "slug": "is-g4-tv-still-on",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Music & Entertainment"
+      ],
+      "angle": "G4 came back in November 2021 with Attack of the Show and X-Play rebooted, and Comcast pulled the plug on October 16, 2022, shutting the channel down five days later mid-broadcast and cutting 45 jobs. Reporting put some telecasts near 1,000 viewers. The postmortem list is long: no clear audience, leadership churn, cord-cutting, and the fact that Twitch and YouTube already do what G4 invented. Verify where the G4 library lives now, whether the YouTube channel still posts, and what the original 2002 to 2014 run's carriage numbers looked like for contrast.",
+      "target_keywords": [
+        "is g4 tv still on",
+        "what happened to g4",
+        "why did g4 shut down again",
+        "is attack of the show coming back",
+        "g4 tv relaunch failed"
+      ],
+      "demand_note": "G4 was appointment television for American teen gamers and its second death in 2022 is still fresh enough to drive steady searching.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Toonami Still On TV in 2026? The Block That Survived",
+      "slug": "is-toonami-still-on-tv",
+      "persona": "dana",
+      "tags": [
+        "Music & Entertainment",
+        "Internet Culture"
+      ],
+      "angle": "Toonami is the rare 90s block that is still on the air. It ran on Cartoon Network from 1997, was cancelled in 2008, came back as an April Fools joke on Adult Swim in 2012 that stuck, and in 2026 still airs Saturday overnights on Adult Swim, now running roughly midnight to 4am with schedule expansions. The surrounding context is grim, with Cartoon Network's daytime kid audience collapsing and Warner Bros. Discovery restructuring. Verify the current block length and start time, the 2026 schedule additions, and whether TOM is still the host.",
+      "target_keywords": [
+        "is toonami still on",
+        "what time is toonami on",
+        "is cartoon network shutting down",
+        "what happened to toonami",
+        "is toonami coming back to cartoon network"
+      ],
+      "demand_note": "Toonami fans in the US search the block's status and airtime every schedule change, and many assume it ended with the 2008 cancellation.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Kinko's Still Around? What FedEx Did With the Name",
+      "slug": "is-kinkos-still-around",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Kinko's is not gone, it was renamed. FedEx bought the 24-hour copy chain for $2.4 billion in 2004 and retired the Kinko's name in mid-2008, rebranding everything FedEx Office and taking an $891 million charge tied to that decision and the write-down of the acquisition. The all-night copy shop where Americans printed resumes, zines and dissertations became a shipping counter with printers. Verify the exact rebrand date, the current FedEx Office store count, and how much of the original 24-hour service model survives.",
+      "target_keywords": [
+        "is kinkos still around",
+        "what happened to kinkos",
+        "did kinkos become fedex",
+        "when did kinkos change its name",
+        "is kinkos still open 24 hours"
+      ],
+      "demand_note": "Americans still say Kinko's out of habit and search to find out whether the name means anything today.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Rainforest Cafe Still Open? The 2026 Location Count",
+      "slug": "is-rainforest-cafe-still-open",
+      "persona": "dana",
+      "tags": [
+        "Then vs Now",
+        "Business Blunders"
+      ],
+      "angle": "Rainforest Cafe survived, barely. The animatronic-jungle chain peaked near 59 locations and is down to roughly 16 US restaurants across about 11 states in 2026, still running its indoor thunderstorm every 22 minutes at spots like Las Vegas and Disney Springs, now under Landry's. The Disneyland Paris location is expected to close in November 2026. Its 1990s themed-dining rival Planet Hollywood is down to about three restaurants and five hotels, which makes a useful side-by-side. Verify the current US location list and which ones still have the full animatronic elephants and gorillas.",
+      "target_keywords": [
+        "is rainforest cafe still open",
+        "how many rainforest cafe locations are left",
+        "what happened to rainforest cafe",
+        "is planet hollywood still open",
+        "rainforest cafe closing"
+      ],
+      "demand_note": "Families planning theme-park and mall trips search whether the animatronic jungle restaurant is still there before booking.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Discovery Zone Still Around? What Killed the Chain",
+      "slug": "is-discovery-zone-still-around",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Discovery Zone, the padded-tube indoor playground of every early-90s American birthday party, expanded itself to death. It absorbed McDonald's Leaps and Bounds chain in 1994, ran up roughly $366 million in debt against $164 million in assets, filed for bankruptcy in 1996, and closed the last locations by the end of 2001. A revival attempt has been announced under new ownership at least once, including a Cincinnati mall location. Verify whether any Discovery Zone branded location is actually operating in 2026 and who holds the trademark.",
+      "target_keywords": [
+        "is discovery zone still around",
+        "what happened to discovery zone",
+        "when did discovery zone close",
+        "is discovery zone coming back",
+        "what happened to leaps and bounds"
+      ],
+      "demand_note": "Discovery Zone is a core American 90s childhood memory that disappeared with no explanation, and people search to confirm it was real.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Are Heelys Still Sold in 2026? Who Owns Them Now",
+      "slug": "are-heelys-still-sold",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Hardware"
+      ],
+      "angle": "Heelys never actually died. The wheel-in-the-heel shoes peaked around 2006 and 2007 with a public offering and a wave of US mall and school bans, crashed hard, passed through Sequential Brands, and were sold to BBC International for about $11 million in 2021. The brand still ships new models and does collaborations, and the school-ban question is the reason most parents search. Verify current US retail availability, the sales peak numbers from the 2007 filings, and how many school districts still ban them.",
+      "target_keywords": [
+        "are heelys still sold",
+        "do they still make heelys",
+        "who owns heelys now",
+        "why were heelys banned",
+        "are heelys coming back"
+      ],
+      "demand_note": "Parents whose kids ask for Heelys and adults who remember the mall bans both search whether the shoes still exist.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is Angelfire Still Online? Lycos Shut It Down in 2026",
+      "slug": "is-angelfire-still-online",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "Angelfire and Tripod, the free web hosts where a generation of Americans built their first blinking-GIF homepage, were shut down by Lycos on April 24, 2026 after outages earlier that year, deleting the surviving free sites for good. Both had already stopped accepting new free pages years earlier, Tripod in 2009 and Angelfire in 2010, so what died in 2026 was an archive rather than a service. Verify the shutdown date against Lycos statements, what the Internet Archive actually captured, and whether Lycos Mail went down with it.",
+      "target_keywords": [
+        "is angelfire still online",
+        "did angelfire shut down",
+        "is tripod still around",
+        "what happened to angelfire",
+        "how to find my old angelfire site"
+      ],
+      "demand_note": "The 2026 shutdown erased a chunk of American personal-web history and people are searching for their old pages right now.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
+    },
+    {
+      "title": "Is EverQuest Still Active in 2026? Servers and Players",
+      "slug": "is-everquest-still-active",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Internet Culture"
+      ],
+      "angle": "EverQuest, the 1999 MMO that ate American college semesters and earned the nickname EverCrack, is still live in 2026 with official servers, regular patches and roughly 30 expansions, now under Darkpaw Games. The stranger part of the story is the private-server scene, where emulated servers like Project Lazarus report thousands of concurrent players, sometimes rivaling the official game, and Ultima Online has a similar shadow ecosystem. Verify the current official server list, the expansion count and release date, and the legal status of the emulator projects before naming any.",
+      "target_keywords": [
+        "is everquest still active",
+        "does anyone still play everquest",
+        "is everquest still running 2026",
+        "everquest player count",
+        "is ultima online still online"
+      ],
+      "demand_note": "EverQuest defined the American MMO before World of Warcraft, and lapsed players search periodically to see whether their old server survives.",
+      "status": "pending",
+      "source": "status-research-2026-09-10"
     }
   ],
   "buyer_intent": [

@@ -27,7 +27,7 @@ from PIL import Image
 IMG_DIR = "img"
 THUMB_DIR = os.path.join(IMG_DIR, "thumb")
 MANIFEST = "images-manifest.json"
-MAX_WIDTH = 960
+MAX_WIDTH = 1280  # Google Discover wants at least 1200px wide
 THUMB_WIDTH = 240
 USER_AGENT = "404MemoryFound-build/1.0 (https://404memoryfound.com; hello@404memoryfound.com)"
 
@@ -133,26 +133,35 @@ def original_url(url):
     return f"{m.group(1)}/{m.group(2)}" if m else None
 
 
+def upsized_url(url):
+    """Ask Commons for a MAX_WIDTH thumb instead of the size the post referenced (usually 960px)."""
+    return re.sub(r"/\d+px-", f"/{MAX_WIDTH}px-", url, count=1) if "/thumb/" in url else url
+
+
 def process(url):
     name = local_name(url)
-    try:
-        data = fetch(url)
-    except HTTPError as e:
-        fallback = original_url(url)
-        if fallback and e.code in (400, 404):
-            try:
-                data = fetch(fallback)
-            except Exception as e2:  # noqa: BLE001
-                return url, {"status": "missing", "http": e.code, "fallback_error": str(e2), "commons": commons_page(url)}
-        else:
-            return url, {"status": "missing", "http": e.code, "commons": commons_page(url)}
-    except Exception as e:  # noqa: BLE001
-        return url, {"status": "error", "error": str(e), "commons": commons_page(url)}
+    candidates = []
+    for c in (upsized_url(url), url, original_url(url)):
+        if c and c not in candidates:
+            candidates.append(c)
+    data, last = None, None
+    for c in candidates:
+        try:
+            data = fetch(c)
+            break
+        except HTTPError as e:
+            last = e
+            if e.code not in (400, 404, 429):
+                return url, {"status": "missing", "http": e.code, "commons": commons_page(url)}
+        except Exception as e:  # noqa: BLE001
+            return url, {"status": "error", "error": str(e), "commons": commons_page(url)}
+    if data is None:
+        return url, {"status": "missing", "http": getattr(last, "code", None), "commons": commons_page(url)}
     try:
         info = save_variants(data, name)
     except Exception as e:  # noqa: BLE001
         return url, {"status": "error", "error": f"decode: {e}", "commons": commons_page(url)}
-    info.update({"status": "ok", "commons": commons_page(url)})
+    info.update({"status": "ok", "commons": commons_page(url), "requested": MAX_WIDTH})
     return url, info
 
 
@@ -220,8 +229,14 @@ def main():
     if os.path.exists(MANIFEST):
         manifest = json.load(open(MANIFEST, encoding="utf-8"))
 
-    todo = [u for u in urls if manifest.get(u, {}).get("status") != "ok"
-            and os.path.exists(manifest.get(u, {}).get("file", "/nonexistent").lstrip("/")) is False]
+    def needs_fetch(u):
+        m = manifest.get(u, {})
+        if m.get("status") != "ok" or not os.path.exists(m.get("file", "/nonexistent").lstrip("/")):
+            return True
+        # Re-fetch copies stored before the Discover-size change, once
+        return m.get("width", 0) < 1200 and m.get("requested", 0) < MAX_WIDTH
+
+    todo = [u for u in urls if needs_fetch(u)]
     print(f"{len(urls)} image URLs referenced, {len(todo)} to fetch")
 
     done = 0
