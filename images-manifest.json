@@ -69,6 +69,16 @@
   "thumb": "/img/thumb/footer-sony-cd-db2700.jpg",
   "width": 800
  },
+ "https://upload.wikimedia.org/wikipedia/commons/1/18/My_Yahoo_Answers_Stats.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:My_Yahoo_Answers_Stats.png",
+  "ext": "jpg",
+  "file": "/img/my-yahoo-answers-stats-6790f1.jpg",
+  "height": 153,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/my-yahoo-answers-stats-6790f1.jpg",
+  "width": 806
+ },
  "https://upload.wikimedia.org/wikipedia/commons/1/19/Circuit_City_closed.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Circuit_City_closed.JPG",
   "ext": "jpg",

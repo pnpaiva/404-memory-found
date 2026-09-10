@@ -8,6 +8,18 @@
     <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Does Yahoo Answers Still Exist? Why It Shut Down</title>
+      <link>https://404memoryfound.com/posts/does-yahoo-answers-still-exist.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/does-yahoo-answers-still-exist.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Yahoo Answers does not still exist. It went read-only on April 20, 2021 and closed on May 4, 2021, 15 years after launch. Here is what survived.</description>
+      <enclosure url="https://404memoryfound.com/pins/does-yahoo-answers-still-exist.jpg" length="152828" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/does-yahoo-answers-still-exist.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Internet Culture</category>
+      <category>Business Blunders</category>
+    </item>
+    <item>
       <title>Betamax vs VHS: Why Sony Lost the First Format War</title>
       <link>https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html</guid>
@@ -232,18 +244,6 @@
       <category>Business Blunders</category>
       <category>Hardware</category>
       <category>Money &amp; Tech</category>
-    </item>
-    <item>
-      <title>The Beanie Babies Bubble: How a $5 Toy Went Bust</title>
-      <link>https://404memoryfound.com/posts/beanie-babies-bubble-what-happened.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/beanie-babies-bubble-what-happened.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Beanie Babies were a $5 toy people traded like stocks in 1998. How Ty Inc. built the bubble, why it burst in 1999, and what the bears are worth now.</description>
-      <enclosure url="https://404memoryfound.com/pins/beanie-babies-bubble-what-happened.jpg" length="322935" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/beanie-babies-bubble-what-happened.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Money &amp; Tech</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
