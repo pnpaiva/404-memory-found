@@ -5,7 +5,8 @@ Reads script.json, writes one audio file per scene into public/ and fills in
 scenes[].words = [{"w": "Blockbuster", "s": 0.32, "e": 0.71}, ...] and scenes[].frames.
 
 Voice provider:
-  - ElevenLabs when ELEVENLABS_API_KEY is set (environment or shorts/.env, one KEY=value per line).
+  - ElevenLabs when a key is available, looked up in this order: ELEVENLABS_API_KEY in the environment,
+    the macOS Keychain (account "404mf", service "elevenlabs"), then shorts/.env (one KEY=value per line).
     Uses the with-timestamps endpoint, so word timings are exact.
     Optional: ELEVENLABS_VOICE_ID (default "nPczCjzI2devNBz1zQrb", the premade voice "Brian"),
               ELEVENLABS_MODEL (default "eleven_multilingual_v2").
@@ -29,7 +30,22 @@ SCRIPT = os.path.join(HERE, "script.json")
 PAD_SECONDS = 0.55
 
 
+def load_keychain():
+    """macOS Keychain entry created by:  security add-generic-password -a 404mf -s elevenlabs -w <key> -U
+    The key is encrypted by the OS and tied to the login user; nothing is stored in a file or the repo."""
+    if os.environ.get("ELEVENLABS_API_KEY"):
+        return
+    try:
+        out = subprocess.run(["security", "find-generic-password", "-a", "404mf", "-s", "elevenlabs", "-w"],
+                             capture_output=True, text=True, timeout=10)
+        if out.returncode == 0 and out.stdout.strip():
+            os.environ["ELEVENLABS_API_KEY"] = out.stdout.strip()
+    except Exception:  # noqa: BLE001
+        pass
+
+
 def load_env():
+    load_keychain()
     path = os.path.join(HERE, ".env")
     if os.path.exists(path):
         for line in open(path, encoding="utf-8"):
