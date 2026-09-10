@@ -5,8 +5,19 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Was the AOL &#x27;You&#x27;ve Got Mail&#x27; Voice? Elwood Edwards</title>
+      <link>https://404memoryfound.com/posts/aol-youve-got-mail-voice-elwood-edwards.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/aol-youve-got-mail-voice-elwood-edwards.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Elwood Edwards recorded AOL&#x27;s &#x27;You&#x27;ve Got Mail&#x27; on a living room cassette in 1989 and was paid $200 once. He died in 2024, and AOL still plays it.</description>
+      <enclosure url="https://404memoryfound.com/pins/aol-youve-got-mail-voice-elwood-edwards.jpg" length="291792" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/aol-youve-got-mail-voice-elwood-edwards.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Is Sega Still Making Games? Life After the Dreamcast</title>
       <link>https://404memoryfound.com/posts/is-sega-still-making-games.html</link>
@@ -234,19 +245,6 @@
       <category>Software &amp; Apps</category>
       <category>Internet Culture</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>What Happened to the Sega 32X: The Add-On That Broke Sega</title>
-      <link>https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>In November 1994, Sega asked you to bolt a second console on top of your Genesis. It sold 665,000 units, then died in eighteen months. Here is the story.</description>
-      <enclosure url="https://404memoryfound.com/pins/what-happened-to-sega-32x-add-on.jpg" length="185444" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/what-happened-to-sega-32x-add-on.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Hardware</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
