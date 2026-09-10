@@ -366,44 +366,75 @@ const OutroScene: React.FC = () => {
 };
 
 
-/** Word-by-word captions. Words appear as they are spoken; the current word is highlighted.
- *  The hook shows its whole sentence from frame 1 so the viewer can read ahead of the voice. */
+/** Word-by-word captions on continuous bars: each line is one white bar that grows as words are spoken;
+ *  the current word is highlighted inside the bar. The hook shows its whole sentence from frame 1. */
 const WordCaptions: React.FC<{ scene: Scene }> = ({ scene }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const words = scene.words || (scene.text || scene.say).split(/\s+/).map((w, i) => ({ w, s: i * 0.3, e: i * 0.3 + 0.3 }));
+  const words: Word[] = scene.words || (scene.text || scene.say).split(/\s+/).map((w, i) => ({ w, s: i * 0.3, e: i * 0.3 + 0.3 }));
   const allFromStart = scene.kind === "hook";
   const n = words.length;
   const size = n <= 8 ? 78 : n <= 14 ? 64 : 56;
+  const budget = Math.floor(940 / (size * 0.58));
+  // pre-wrap into lines so the bars never reflow while words appear
+  const lines: Word[][] = [[]];
+  let used = 0;
+  for (const wd of words) {
+    const len = wd.w.length + 1;
+    if (used + len > budget && lines[lines.length - 1].length) {
+      lines.push([]);
+      used = 0;
+    }
+    lines[lines.length - 1].push(wd);
+    used += len;
+  }
+  const isKey = (w: string) => /[\d$]/.test(w) || /^(yes|last|one|only)$/i.test(w.replace(/[.,!?]/g, ""));
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px 12px", padding: "0 10px" }}>
-      {words.map((wd, i) => {
-        const spoken = t >= wd.s - 0.04;
-        const current = spoken && t < wd.e + 0.06;
-        const visible = allFromStart || spoken;
-        const key = /[\d$]/.test(wd.w) || /^(YES\.?|Yes\.?|last|one)$/i.test(wd.w.replace(/[.,!?]/g, ""));
-        const pop = spring({ frame: frame - Math.round(wd.s * fps), fps, config: { damping: 12, stiffness: 220 } });
-        const scale = allFromStart ? (current ? 1.08 : 1) : 0.7 + 0.3 * pop;
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+      {lines.map((line, li) => {
+        const shown = line.filter((wd) => allFromStart || t >= wd.s - 0.04);
+        if (!shown.length) return <div key={li} style={{ height: size * 1.25 }} />;
+        const first = line[0];
+        const pop = spring({ frame: frame - Math.round(first.s * fps), fps, config: { damping: 14, stiffness: 200 } });
         return (
-          <span
-            key={i}
+          <div
+            key={li}
             style={{
+              display: "inline-block",
+              background: "#fff",
+              boxShadow: "8px 8px 0 #000",
+              padding: "6px 22px",
               fontFamily: inter.fontFamily,
               fontWeight: 900,
               fontSize: size,
-              lineHeight: 1.1,
-              padding: "4px 16px",
-              color: current ? NAVY : key && spoken ? YELLOW : "#000",
-              background: current ? YELLOW : key && spoken ? NAVY : "#fff",
-              boxShadow: "7px 7px 0 #000",
-              opacity: visible ? 1 : 0,
-              transform: `scale(${visible ? scale : 0.7})`,
-              transition: "none",
+              lineHeight: 1.15,
+              color: "#000",
+              whiteSpace: "nowrap",
+              transform: allFromStart ? "none" : `scale(${0.85 + 0.15 * pop})`,
             }}
           >
-            {wd.w}
-          </span>
+            {line.map((wd, i) => {
+              const spoken = allFromStart || t >= wd.s - 0.04;
+              const current = t >= wd.s - 0.04 && t < wd.e + 0.06;
+              if (!spoken) return null;
+              const key = isKey(wd.w);
+              return (
+                <span
+                  key={i}
+                  style={{
+                    padding: "0 8px",
+                    marginRight: i < line.length - 1 ? 6 : 0,
+                    color: current ? NAVY : key ? YELLOW : "#000",
+                    background: current ? YELLOW : key ? NAVY : "transparent",
+                    borderRadius: 2,
+                  }}
+                >
+                  {wd.w}
+                </span>
+              );
+            })}
+          </div>
         );
       })}
     </div>
