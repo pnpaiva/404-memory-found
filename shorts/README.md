@@ -81,6 +81,10 @@ Sources, all local: `reference/title-thumbnail-master-guide.pdf` (Colin & Samir 
 
 Hand all of this over in the same message as the video file, every time.
 
+## Game screenshots (RuneScape and other games)
+
+Wikimedia has no free game screenshots. For Old School RuneScape, Pedro's own RuneLite screenshots live in `~/.runelite/screenshots/<player>/` (Levels, Quests, Combat Achievements, 1920x1080 or 840x926). Always crop to the game viewport with PIL (exclude the chat box at the bottom-left, which shows the player name, and the sidebars) before using them; save into `public/<slug>/gN.jpg` and reference them in `images` as `shorts/public/<slug>/gN.jpg`. Jagex's fan content policy covers this use. Never show the player name anywhere.
+
 ## Known gaps / next upgrades
 
 Word timings are estimated with the Mac voice (exact with ElevenLabs). Wanted next: a receipt scene for price-then-vs-now posts, a "loading" scene for websites, automatic upload (YouTube Data API once Pedro creates the channel and pastes credentials into GitHub secrets).
