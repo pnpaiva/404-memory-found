@@ -1634,6 +1634,15 @@
   "http": 404,
   "status": "missing"
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg/960px-2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg",
+  "ext": "jpg",
+  "file": "/img/2023-kaseta-vhs-magnetofonowa-i-minikaseta-eaf080.jpg",
+  "height": 598,
+  "status": "ok",
+  "thumb": "/img/thumb/2023-kaseta-vhs-magnetofonowa-i-minikaseta-eaf080.jpg",
+  "width": 960
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/HP_Pre3.jpg/960px-HP_Pre3.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:HP_Pre3.jpg",
   "ext": "jpg",

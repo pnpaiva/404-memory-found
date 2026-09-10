@@ -8,6 +8,18 @@
     <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How to Digitize VHS Tapes in 2026: DIY vs Legacybox</title>
+      <link>https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>How to digitize VHS tapes in 2026: about $30 to $80 in capture gear at home, or $15 to $30 a tape by mail. Your tapes are past 25 years old.</description>
+      <enclosure url="https://404memoryfound.com/pins/how-to-digitize-vhs-tapes-2026.jpg" length="249351" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/how-to-digitize-vhs-tapes-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Then vs Now</category>
+      <category>Hardware</category>
+    </item>
+    <item>
       <title>Who Was the AOL &#x27;You&#x27;ve Got Mail&#x27; Voice? Elwood Edwards</title>
       <link>https://404memoryfound.com/posts/aol-youve-got-mail-voice-elwood-edwards.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/aol-youve-got-mail-voice-elwood-edwards.html</guid>
@@ -231,19 +243,6 @@
       <media:content url="https://404memoryfound.com/pins/what-happened-to-sega-channel.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Hardware</category>
-      <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>What Happened to HyperCard, the Apple Software That Quietly Invented the Web</title>
-      <link>https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>In 1987 Apple shipped a program with every Macintosh that let anyone build clickable, multimedia documents with no programming experience required. It was called HyperCard, and almost everything you do on the internet today is a copy of it.</description>
-      <enclosure url="https://404memoryfound.com/pins/what-happened-to-hypercard-apple.jpg" length="215010" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/what-happened-to-hypercard-apple.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Software &amp; Apps</category>
-      <category>Internet Culture</category>
       <category>Then vs Now</category>
     </item>
   </channel>
