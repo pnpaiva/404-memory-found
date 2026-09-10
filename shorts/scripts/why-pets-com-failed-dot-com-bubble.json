@@ -13,7 +13,7 @@
   {
    "kind": "hook",
    "text": "Why did Pets.com fail?",
-   "audio": "why-pets-com-failed-dot-com-bubble/seg1.mp3",
+   "audio": "why-pets-com-failed-dot-com-bubble/v-25d803afe2.mp3",
    "words": [
     {
      "w": "Why",
@@ -43,7 +43,7 @@
   {
    "kind": "receipt",
    "text": "It sold pet supplies for less than it paid for them. In 1999 it made $5.8 million in sales and lost $61.8 million.",
-   "audio": "why-pets-com-failed-dot-com-bubble/seg2.mp3",
+   "audio": "why-pets-com-failed-dot-com-bubble/v-7e6975d8e9.mp3",
    "words": [
     {
      "w": "It",
@@ -251,7 +251,7 @@
      "e": 6.409
     }
    ],
-   "audio": "why-pets-com-failed-dot-com-bubble/seg3.mp3",
+   "audio": "why-pets-com-failed-dot-com-bubble/v-1d6b600ec9.mp3",
    "seconds": 6.45,
    "frames": 195
   },
@@ -341,7 +341,7 @@
      "e": 5.422
     }
    ],
-   "audio": "why-pets-com-failed-dot-com-bubble/seg4.mp3",
+   "audio": "why-pets-com-failed-dot-com-bubble/v-1f08bfa006.mp3",
    "seconds": 5.46,
    "frames": 165
   },
@@ -416,88 +416,88 @@
      "e": 4.69
     }
    ],
-   "audio": "why-pets-com-failed-dot-com-bubble/seg5.mp3",
+   "audio": "why-pets-com-failed-dot-com-bubble/v-40bf8f4d4a.mp3",
    "seconds": 4.73,
    "frames": 143
   },
   {
    "kind": "outro",
    "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
-   "audio": "why-pets-com-failed-dot-com-bubble/seg5.mp3",
+   "audio": "why-pets-com-failed-dot-com-bubble/v-5ae4cdadeb.mp3",
    "words": [
     {
      "w": "Full",
      "s": 0.0,
-     "e": 0.267
+     "e": 0.279
     },
     {
      "w": "story",
      "s": 0.337,
-     "e": 0.615
+     "e": 0.639
     },
     {
      "w": "at",
-     "s": 0.65,
-     "e": 0.72
+     "s": 0.685,
+     "e": 0.755
     },
     {
      "w": "404memoryfound.com.",
-     "s": 0.789,
-     "e": 2.577
+     "s": 0.813,
+     "e": 2.995
     },
     {
      "w": "Follow",
-     "s": 3.088,
-     "e": 3.402
-    },
-    {
-     "w": "for",
-     "s": 3.46,
-     "e": 3.564
-    },
-    {
-     "w": "more",
-     "s": 3.622,
+     "s": 3.437,
      "e": 3.762
     },
     {
+     "w": "for",
+     "s": 3.831,
+     "e": 3.936
+    },
+    {
+     "w": "more",
+     "s": 3.994,
+     "e": 4.156
+    },
+    {
      "w": "of",
-     "s": 3.796,
-     "e": 3.843
+     "s": 4.191,
+     "e": 4.238
     },
     {
      "w": "the",
-     "s": 3.878,
-     "e": 3.947
+     "s": 4.272,
+     "e": 4.342
     },
     {
      "w": "internet",
-     "s": 4.005,
-     "e": 4.331
+     "s": 4.412,
+     "e": 4.737
     },
     {
      "w": "you",
-     "s": 4.389,
-     "e": 4.458
+     "s": 4.795,
+     "e": 4.865
     },
     {
      "w": "grew",
-     "s": 4.516,
-     "e": 4.656
+     "s": 4.911,
+     "e": 5.039
     },
     {
      "w": "up",
-     "s": 4.702,
-     "e": 4.783
+     "s": 5.074,
+     "e": 5.166
     },
     {
      "w": "with.",
-     "s": 4.83,
-     "e": 5.387
+     "s": 5.213,
+     "e": 5.759
     }
    ],
-   "frames": 164,
-   "seconds": 5.43,
+   "frames": 175,
+   "seconds": 5.8,
    "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with."
   }
  ],

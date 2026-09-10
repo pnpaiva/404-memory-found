@@ -9,6 +9,7 @@ The authored script holds the six scene texts and the visual data (found, chart,
 "images": {"hero": "<path or URL>", "hero2": "<path or URL>"}; paths are relative to the repo root (e.g. img/x.jpg).
 Voice files and word timings are cached in public/<slug>/ so re-renders cost no credits.
 """
+import hashlib
 import json
 import os
 import shutil
@@ -77,11 +78,13 @@ def main():
         args = [sys.executable, os.path.join(HERE, "tts.py")] + ([] if "--revoice" in sys.argv else ["--keep"])
         subprocess.run(args, check=True, cwd=HERE)
         script = json.load(open(active, encoding="utf-8"))
-        for i, sc in enumerate(script["scenes"], 1):  # move fresh audio into the slug cache, keep cached paths
+        for i, sc in enumerate(script["scenes"], 1):  # fresh audio -> slug cache, named by the line's content so lines never collide
             name = os.path.basename(sc["audio"])
             if os.path.exists(os.path.join(PUBLIC, name)):
-                shutil.move(os.path.join(PUBLIC, name), os.path.join(cache, f"seg{i}." + name.rsplit(".", 1)[-1]))
-                sc["audio"] = f"{slug}/seg{i}." + name.rsplit(".", 1)[-1]
+                h = hashlib.sha1((sc.get("text") or sc.get("say") or "").encode()).hexdigest()[:10]
+                ext = name.rsplit(".", 1)[-1]
+                shutil.move(os.path.join(PUBLIC, name), os.path.join(cache, f"v-{h}.{ext}"))
+                sc["audio"] = f"{slug}/v-{h}.{ext}"
         json.dump(script, open(src_path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
     # activate and render

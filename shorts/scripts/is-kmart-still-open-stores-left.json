@@ -16,7 +16,7 @@
   {
    "kind": "hook",
    "text": "Is Kmart still open in 2026?",
-   "audio": "is-kmart-still-open-stores-left/seg1.mp3",
+   "audio": "is-kmart-still-open-stores-left/v-92d3822816.mp3",
    "words": [
     {
      "w": "Is",
@@ -56,7 +56,7 @@
   {
    "kind": "folder",
    "text": "Yes. Three stores are left, and only one of them is in the 50 states.",
-   "audio": "is-kmart-still-open-stores-left/seg2.mp3",
+   "audio": "is-kmart-still-open-stores-left/v-024b5fc156.mp3",
    "words": [
     {
      "w": "Yes.",
@@ -141,7 +141,7 @@
   {
    "kind": "chart",
    "text": "Kmart peaked at 2,486 stores in 1994. By 2002 it filed for bankruptcy with 2,114 still open.",
-   "audio": "is-kmart-still-open-stores-left/seg3.mp3",
+   "audio": "is-kmart-still-open-stores-left/v-6eb9f8328f.mp3",
    "words": [
     {
      "w": "Kmart",
@@ -324,7 +324,7 @@
      "e": 6.412
     }
    ],
-   "audio": "is-kmart-still-open-stores-left/seg4.mp3",
+   "audio": "is-kmart-still-open-stores-left/v-313e9960c8.mp3",
    "seconds": 6.45,
    "frames": 195
   },
@@ -439,14 +439,14 @@
      "e": 9.605
     }
    ],
-   "audio": "is-kmart-still-open-stores-left/seg5.mp3",
+   "audio": "is-kmart-still-open-stores-left/v-2ff80920ad.mp3",
    "seconds": 9.64,
    "frames": 290
   },
   {
    "kind": "outro",
    "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
-   "audio": "is-kmart-still-open-stores-left/seg6.mp3",
+   "audio": "is-kmart-still-open-stores-left/v-5ae4cdadeb.mp3",
    "words": [
     {
      "w": "Full",
