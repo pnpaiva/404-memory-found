@@ -9,6 +9,8 @@ Project: `~/404-memory-found/shorts/` (Remotion 4, React 19, TypeScript). Commit
 
 ## Pipeline (about 4 minutes per video)
 
+Per-video files: authored scripts live in `scripts/<slug>.json`; `python3 make.py <slug>` fetches the images into `public/<slug>/`, voices it once (cached there), renders `out/<slug>.mp4` and `out/<slug>-small.mp4`; `--stills` renders one frame per scene, `--cover` renders the thumbnail `out/<slug>-cover.png` from the `cover` block (`text` 1 to 3 words, `sub`, optional `pos` for the photo focal point and `oneLine`). Scene components are parametrised: `found`, `chart`+`chartTitle`, `props`+`propsTitle`+`propsName`+`ticker`, `timeline`, `subject`, `heroPos`/`hero2Pos`. Portrait photos: lower `pos` percentages move the subject DOWN in the frame; landscape photos ignore vertical position.
+
 1. **Scaffold** from a post slug: `python3 new_short.py <slug>` copies the hero image to `public/hero.jpg`, reads the post's title, summary, facts and sources, and writes a draft `script.json` with six scenes. Then WRITE the six `text` lines by hand (see rules) and fill `chart`, `props`, `timeline` from the post's facts and body. Never use a figure that is not in the post.
 2. **Voice + word timings**: `python3 tts.py`. Uses ElevenLabs when `ELEVENLABS_API_KEY` is set (in the environment or in `shorts/.env`, one `KEY=value` per line; optional `ELEVENLABS_VOICE_ID`, default premade voice "Brian" `nPczCjzI2devNBz1zQrb`), which returns exact per-word timestamps. Falls back to macOS `say` (Samantha) with timings estimated from word length. Writes `scenes[].words`, `scenes[].audio`, `scenes[].frames`.
 3. **Check frames** before a full render: `npx remotion still src/index.ts Short out/f.png --frame=N` and look at one frame per scene.

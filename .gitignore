@@ -5,3 +5,4 @@ shorts/node_modules/
 shorts/out/
 shorts/public/*.wav
 shorts/public/*.aiff
+shorts/public/*/
