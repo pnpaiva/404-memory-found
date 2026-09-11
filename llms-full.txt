@@ -4,6 +4,95 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is Redbox Still Around? Why Kiosks Are Still There
+
+URL: https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-09-11
+Topics: Business Blunders, Then vs Now
+
+**Summary:** Redbox is not still around. Its parent company, Chicken Soup for the Soul Entertainment, was liquidated in a Chapter 7 bankruptcy on July 10, 2024, and all of Redbox's roughly 24,000 kiosks stopped working that month. Thousands of the red machines are still bolted outside American stores because removing one costs a retailer around $500, and nobody in the bankruptcy was left to pay for it.
+
+**Key facts:**
+- Launched: 2002 inside McDonald's Ventures; DVD kiosks from 2004
+- Price then: $1 per night for a DVD
+- Kiosks at shutdown: About 24,000 across the United States
+- Status today: Shut down. Parent liquidated in Chapter 7 on July 10, 2024
+- Owner today: No operator. Trademarks auctioned by the bankruptcy trustee on April 23, 2025
+
+## How a McDonald's side project became 24,000 red boxes
+
+Redbox did not begin as a movie company. It began in 2002 inside McDonald's Ventures, the unit the burger chain used to test new reasons for people to pull into the parking lot.
+
+The first machines sold convenience-store goods. By 2004 the idea had narrowed to DVDs, and the whole pitch fit into one number: a dollar a night.
+
+That number did the work. A new release at a Blockbuster store (https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html) cost several dollars for several days, and a late fee waited at the end of it. Redbox charged a dollar, took the disc back at any kiosk in the network, and never mailed anyone a bill for forgetting.
+
+Coinstar, the company behind the supermarket coin-counting machines, bought its way to full ownership of Redbox in 2009 and pushed the kiosks into every grocery store, pharmacy and gas station that would take one. Renting a movie stopped being a trip and became something you did while waiting for a prescription. When the company finally shut down, about 24,000 kiosks were still standing outside American stores.
+
+## What actually killed Redbox
+
+Streaming did the slow part, and it had help. The DVR (https://404memoryfound.com/posts/what-happened-to-tivo-dvr-pioneer.html) had already moved the video store into the living room, and the HD DVD and Blu-ray format war (https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html) ended just as the disc itself started shrinking as a business. Redbox answered with a streaming app, free ad-supported channels and a digital storefront nobody was waiting for.
+
+The fast part was the balance sheet. Apollo Global Management bought Redbox's parent company, Outerwall, in 2016 and took it private. In October 2021 Redbox went public again through a merger with the blank-check company Seaport Global Acquisition Corp., landing on Nasdaq under the ticker RDBX at an enterprise value of about $693 million.
+
+It traded as a meme stock for a few weeks and then came apart. In August 2022 Chicken Soup for the Soul Entertainment bought Redbox in a deal worth roughly $375 million: about $50 million in stock plus $325 million of assumed Redbox debt.
+
+That is the sentence that mattered. Chicken Soup for the Soul Entertainment had not bought a rental chain so much as a pile of borrowed money with kiosks attached, and it never found a way to pay it down.
+
+## The Delaware hearing that switched off every kiosk
+
+Chicken Soup for the Soul Entertainment filed for Chapter 11 protection in the U.S. Bankruptcy Court for the District of Delaware in late June 2024, carrying close to $1 billion in debt.
+
+Chapter 11 is supposed to be a reorganization. This one lasted under two weeks. HPS Investment Partners, the lender behind the Redbox purchase, declined to put in more money, and on July 10, 2024 the court converted the case into a Chapter 7 liquidation.
+
+There was no soft landing built into it. About 1,000 employees lost their jobs, many of them already owed wages. "There is no means to continue to pay employees, to pay any bills," Judge Thomas Horan said from the bench, in a hearing reported by Deadline in 2024.
+
+The kiosks went with the company. A Redbox machine is a terminal: it checks the card, the account and the title against servers that had just stopped existing. All 24,000 of them quit taking rentals at once, and the app, the website and the free streaming channels went dark on the same schedule.
+
+## Why the machines are still bolted to the pavement
+
+Here is the part nobody planned for. In a Chapter 7 liquidation a trustee sells what has value and walks away from what does not. Twenty-four thousand dead vending machines have negative value, so nobody came to collect them.
+
+That left the bill with the stores. A Redbox kiosk can weigh as much as 900 pounds, is usually bolted into concrete and is often hardwired into the building's power, which makes removal a contractor job. Retailers have put the cost at roughly $500 per unit once labor, mechanical work and disposal are counted.
+
+Walgreens took the problem to the court in August 2024. The chain said it was still powering 5,400 Redbox kiosks across about 3,800 locations at a cost of $184,000 a month in electricity, for machines that no longer sold anything. "Walgreens should not be required to continue to 'store' and power Redbox kiosks across the country without any form of payment," the filing read. CVS asked the same court for permission to scrap the kiosks sitting at its stores.
+
+Two years on, plenty of them are still in place, unplugged or quietly drawing power, some of them still loaded with the discs that were inside on the day the servers died.
+
+## Who owns the Redbox name in 2026?
+
+No one is operating it. The Chapter 7 trustee put the estate's intellectual property up for sale, and the Redbox and Crackle trademarks went to auction on April 23, 2025, alongside film rights held by the parent company's other units.
+
+Buying a trademark is not the same as buying a business. Whoever holds the Redbox name holds a logo and a shade of red, not a kiosk network, not the servers, not the disc supply deals with the studios and not the retail contracts with Walgreens, CVS and the grocery chains. Every one of those was unwound in the bankruptcy.
+
+So the answer to the question people type while standing in front of one of these machines is short. Redbox is not still around. The company was liquidated in 2024, the kiosks are inert, and as of September 2026 no buyer has switched the network back on.
+
+What replaced it is the thing that beat it. Renting a movie now means a digital storefront, and physical rental in the United States has narrowed to libraries, a few independents and the last Blockbuster store in Bend, Oregon.
+
+## Frequently Asked Questions
+
+### Is Redbox still in business in 2026?
+
+No. Redbox stopped operating in July 2024, when parent company Chicken Soup for the Soul Entertainment converted its Delaware bankruptcy into a Chapter 7 liquidation and all of its roughly 24,000 DVD kiosks stopped taking rentals. The Redbox website, app and streaming channels shut down at the same time, and no company has restarted the service since.
+
+### Why are Redbox kiosks still outside stores?
+
+Because nobody was left to pay for hauling them away. When Redbox's parent company was liquidated in July 2024, the Chapter 7 trustee did not remove the kiosks, which left them with the retailers that had hosted them. Each machine can weigh up to 900 pounds, is often bolted into concrete, and costs a retailer around $500 to take out, so thousands have simply been left where they stood.
+
+### Who owns Redbox now?
+
+No operating company owns Redbox. The Redbox trademark was put up for sale by the Chapter 7 trustee at an auction held on April 23, 2025, together with the Crackle brand and film rights from the same parent company, and buying the name bought nothing else: the kiosks, the servers and the retail contracts were all dismantled in the 2024 liquidation.
+
+**Sources:**
+- Variety: RIP Redbox: DVD Kiosk-Rental Business Is Shutting Down With Parent's Bankruptcy Liquidation (2024): https://variety.com/2024/digital/news/redbox-shutting-down-bankruptcy-liquidation-chicken-soup-for-the-soul-1236067161/
+- Deadline: Redbox Owner Chicken Soup For The Soul To Liquidate In Chapter 7 Bankruptcy Shift (2024): https://deadline.com/2024/07/redbox-liquidation-bankruptcy-chicken-soup-for-the-soul-chapter-7-1236006525/
+- Media Play News: Big Box Retailers Grapple With Costs Associated With Abandoned Redbox Kiosks (2024): https://www.mediaplaynews.com/big-box-retailers-grapple-with-abandoned-redbox-kiosks-dvd-movies/
+- Variety: Redbox Is Set to Go Public After Officially Closing SPAC Merger (2021): https://variety.com/2021/digital/news/redbox-public-offering-closes-spac-deal-1235095923/
+- Deadline: Redbox, Crackle And Other Chicken Soup For The Soul Entertainment Assets Set For Post-Bankruptcy Auction (2025): https://deadline.com/2025/04/redbox-crackle-chicken-soup-for-the-soul-entertainment-bankruptcy-auction-1236363107/
+
+---
+
 # Dial-Up Sound Explained: What Each Screech Meant
 
 URL: https://404memoryfound.com/posts/dial-up-modem-sound-explained.html

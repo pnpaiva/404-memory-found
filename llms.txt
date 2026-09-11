@@ -10,6 +10,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [RSS feed](https://404memoryfound.com/feed.xml)
 
 ## Business Blunders
+- [Is Redbox Still Around? Why Kiosks Are Still There](https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html): Redbox is gone: its parent was liquidated in July 2024 and all 24,000 kiosks went dark. Thousands still stand because removal runs about $500 each.
 - [Who Owns Yahoo Now? The $5 Billion Apollo Takeover](https://404memoryfound.com/posts/who-owns-yahoo-now.html): Yahoo is owned by Apollo Global Management, which paid about $5 billion in 2021. Verizon kept 10 percent. Microsoft once offered $44.6 billion.
 - [Does Yahoo Answers Still Exist? Why It Shut Down](https://404memoryfound.com/posts/does-yahoo-answers-still-exist.html): Yahoo Answers does not still exist. It went read-only on April 20, 2021 and closed on May 4, 2021, 15 years after launch. Here is what survived.
 - [Who Owns Napster in 2026? Every Owner Since 2001](https://404memoryfound.com/posts/who-owns-napster-now.html): Napster is owned by Napster Corporation, formerly Infinite Reality, which paid $207 million in 2025 and killed the music service on January 1, 2026.
@@ -295,6 +296,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [How Napster Destroyed the Music Industry (Forever)](https://404memoryfound.com/posts/napster-destroyed-music.html): Napster didn't just share music files—it shattered the music industry's entire business model. Discover how Napster destroyed music as we knew it.
 
 ## Then vs Now
+- [Is Redbox Still Around? Why Kiosks Are Still There](https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html): Redbox is gone: its parent was liquidated in July 2024 and all 24,000 kiosks went dark. Thousands still stand because removal runs about $500 each.
 - [Dial-Up Sound Explained: What Each Screech Meant](https://404memoryfound.com/posts/dial-up-modem-sound-explained.html): The dial-up sound was two modems measuring a phone line: answer tone, capability menus, a 21-tone probe. AOL switched it off on September 30, 2025.
 - [Betamax vs VHS: Why Sony Lost the First Format War](https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html): Betamax vs VHS came down to tape length, price and factories, not picture quality. Sony sold 18 million decks and made tapes until 2016.
 - [How to Digitize VHS Tapes in 2026: DIY vs Legacybox](https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html): How to digitize VHS tapes in 2026: about $30 to $80 in capture gear at home, or $15 to $30 a tape by mail. Your tapes are past 25 years old.

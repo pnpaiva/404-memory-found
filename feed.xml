@@ -8,6 +8,18 @@
     <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Is Redbox Still Around? Why Kiosks Are Still There</title>
+      <link>https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Redbox is gone: its parent was liquidated in July 2024 and all 24,000 kiosks went dark. Thousands still stand because removal runs about $500 each.</description>
+      <enclosure url="https://404memoryfound.com/pins/is-redbox-still-around-kiosks.jpg" length="275098" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/is-redbox-still-around-kiosks.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Then vs Now</category>
+    </item>
+    <item>
       <title>Dial-Up Sound Explained: What Each Screech Meant</title>
       <link>https://404memoryfound.com/posts/dial-up-modem-sound-explained.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/dial-up-modem-sound-explained.html</guid>
@@ -231,18 +243,6 @@
       <media:content url="https://404memoryfound.com/pins/is-palm-still-a-company.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Hardware</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Is Netscape Still Around? What Happened After AOL</title>
-      <link>https://404memoryfound.com/posts/is-netscape-still-around.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-netscape-still-around.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Is Netscape still around? The browser died in 2008, netscape.com redirects to AOL, and the trademark is still live under a new owner as of 2026.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-netscape-still-around.jpg" length="238770" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-netscape-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Software &amp; Apps</category>
-      <category>Internet Culture</category>
     </item>
   </channel>
 </rss>

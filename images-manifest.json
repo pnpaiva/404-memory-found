@@ -2529,6 +2529,16 @@
   "thumb": "/img/thumb/disquette-iomega-zip-100-d4c07a.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Redbox_Kiosk_Closing_Notice.jpg/960px-Redbox_Kiosk_Closing_Notice.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Redbox_Kiosk_Closing_Notice.jpg",
+  "ext": "jpg",
+  "file": "/img/redbox-kiosk-closing-notice-d11f8d.jpg",
+  "height": 944,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/redbox-kiosk-closing-notice-d11f8d.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/The_War_Poets_Exhibition_in_Second_Life_5_%284069599655%29.jpg/960px-The_War_Poets_Exhibition_in_Second_Life_5_%284069599655%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:The_War_Poets_Exhibition_in_Second_Life_5_%284069599655%29.jpg",
   "ext": "jpg",
