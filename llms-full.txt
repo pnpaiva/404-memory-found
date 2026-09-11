@@ -4,6 +4,109 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# How to Run 90s PC Games on Windows 11 in 2026
+
+URL: https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-09-11
+Topics: Software & Apps, Gaming
+
+**Summary:** Most 90s PC games will not start on Windows 11 because Windows 11 ships only in a 64-bit edition, and 64-bit Windows runs no 16-bit code. The fix in 2026 is emulation or a re-release: DOSBox Staging for DOS games, ScummVM for adventure games, and a pre-configured store version such as GOG's for everything else. All three routes work, and two of them are free.
+
+**Key facts:**
+- Why it breaks: Windows 11 is 64-bit only, and 64-bit Windows runs no 16-bit code
+- Free route: DOSBox Staging 0.83.0 (August 28, 2026) for DOS games, ScummVM 2.9.0 for adventures
+- Paid route: Pre-configured re-releases, such as Doom + Doom II at $9.99
+- Games preserved: GOG Preservation Program: 100 at launch in November 2024, past 300 in 2026
+- Status today: All three routes work on Windows 11 in 2026, and two of them cost nothing
+
+## Why does a 1996 game refuse to open on Windows 11?
+
+Windows 11 is the first version of Windows that Microsoft never shipped in a 32-bit edition. It installs on 64-bit processors only, and that single decision is what breaks the 1990s.
+
+A Microsoft support article states the limit in its own title: "64-bit versions of Windows don't support 16-bit components, 16-bit processes, or 16-bit applications." NTVDM, the DOS compatibility layer Microsoft built into Windows NT, was never ported to 64-bit Windows, because a 64-bit processor running in long mode cannot drop into the virtual-8086 mode that DOS software expects.
+
+So a game written for MS-DOS has nowhere to execute. Double-click it on Windows 11 and the refusal arrives before a single frame is drawn.
+
+The trap catches games that are not DOS games at all. Plenty of titles from the late 1990s are 32-bit programs sitting behind a 16-bit setup stub, a small launcher whose only job was to inspect the machine and unpack the real installer. The game underneath would run fine on a modern PC. The installer never gets far enough for anyone to find out.
+
+## Does compatibility mode fix anything, or is it folklore?
+
+Right-click the executable, open Properties, choose the Compatibility tab, pick Windows 95 (https://404memoryfound.com/posts/the-night-windows-95-launched.html) from the list. It is the first thing everyone tries, and for one class of game it genuinely works.
+
+The setting applies a shim, which is a set of small lies Windows tells the program: a different version number, an older privilege model, a fixed color depth, display scaling switched off. A 32-bit Windows game from 1999 that quits because it does not recognize the operating system will often start after nothing more than that.
+
+What a shim cannot do is build a DOS machine. It does not restore the processor mode that DOS software needs, it does not bring back the copy protection drivers Microsoft removed, and it does not hand a game the direct hardware access a 1994 sound routine assumes it has. It also cannot resurrect Glide, the graphics API that 3dfx Voodoo cards (https://404memoryfound.com/posts/what-happened-to-3dfx-voodoo-graphics-card.html) used and that dozens of late-90s games were built against.
+
+The practical order is simple. Try the Compatibility tab first, because it costs about thirty seconds. When the game is DOS-era, skip it and go straight to emulation.
+
+## Which free tool matches which kind of game?
+
+Two free projects cover most of the decade between them, and they split the work along a clean line.
+
+DOSBox emulates the whole machine: an x86 processor, a Sound Blaster, a VGA card, a CD-ROM drive and a working DOS prompt. It is open source and costs nothing. The version to install in 2026 is DOSBox Staging, the actively maintained fork, whose 0.83.0 release landed on August 28, 2026 with an offline manual and named compatibility fixes for Tomb Raider, King's Quest IV, Phantasmagoria and the 1997 Grand Theft Auto.
+
+ScummVM works the other way around. It emulates nothing, because it reimplements the game engines themselves. The project describes the trick plainly: "ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed." Point-and-click adventures from LucasArts, Sierra On-Line and Revolution Software then run as ordinary Windows 11 programs, with modern resolutions and save states attached. Release 2.9.0 shipped on December 22, 2024, and more than 1,600 games are detected and supported.
+
+The dividing question is what the game was written for, not what year it came out. DOS shooters, strategy and simulation go to DOSBox Staging. The LucasArts and Sierra adventure catalog goes to ScummVM. Neither program includes any game data, which is the next problem.
+
+## What can you do with the original discs in the closet?
+
+Owning the disc helps less than it should, and three separate things go wrong.
+
+The first is the drive. Laptops stopped including optical drives years ago, so the disc needs an external USB reader before anything else can happen.
+
+The second is copy protection. Discs pressed with SafeDisc or SecuROM depend on a Windows driver called secdrv.sys, which Microsoft stopped shipping with Windows 10 and later switched off on older versions of Windows through a security update. A game you paid for can refuse to run on a machine more than capable of running it.
+
+The third is the setup stub described above, which fails on Windows 11 whatever the box promises.
+
+For DOS-era discs none of this matters much. Copy the game folder off the disc to the hard drive, point DOSBox Staging at it, and the disc has done its job. For Windows games of the SafeDisc years it matters a great deal, and it is the honest reason so many people who already own a game end up buying it a second time.
+
+## When is paying ten dollars the smarter move?
+
+Emulation is free, but somebody still has to do the configuring. A re-release is how you pay for that work to have been done already.
+
+GOG built a business on exactly this. In November 2024 the store launched the GOG Preservation Program, re-releasing 100 classics under a "Preserved by GOG" stamp with a written commitment attached: "If a game is part of the Preservation Program, it means that we commit our own resources to maintaining its compatibility with modern and future systems." The list passed 300 titles in 2026.
+
+Publishers run their own version of the same idea, and Doom (https://404memoryfound.com/posts/how-doom-changed-pc-gaming-internet.html) is the clearest example. Doom + Doom II arrived in August 2024 at $9.99 on Steam, GOG, the Epic Games Store and the Microsoft Store, and anyone who already owned either game got the new version as a free upgrade. That is worth checking before paying twice, because the modern port is sometimes free to existing owners.
+
+### Where to find one today
+
+Start free. DOSBox Staging and ScummVM cost nothing, install on Windows 11 without special permissions, and for DOS games they are the better experience anyway. Pay when you want the configuration handled for you: Doom + Doom II is $9.99, and prices across the classics shelf sit in that neighborhood rather than at new-release money. GOG sells its classics as DRM-free offline installers, the format that survives a storefront closing: GOG's catalog of classic PC games (https://www.gog.com/en/games). Humble Bundle discounts the same era in its store, usually as Steam keys rather than standalone installers.
+
+## Will these routes still work in 2030?
+
+The free side looks stable. DOSBox Staging and ScummVM are open source, so the code outlives any single maintainer and anyone can build it again. Both are still shipping: ScummVM 2.9.0 in December 2024, DOSBox Staging 0.83.0 in August 2026. Neither depends on a company staying in business.
+
+The paid side carries a storefront's usual risk, which is exactly why the file format matters more than the shop. A GOG purchase downloads as an offline installer with no launcher and no account check, so a copy saved to an external drive today still installs years from now, whatever happens to the store. Steam and the Microsoft Store do not work that way.
+
+The preservation work is ongoing rather than finished. GOG's program started at 100 games in November 2024 and passed 300 in 2026, and every addition is a set of fixes applied to a game that would otherwise drift out of compatibility as Windows changes underneath it.
+
+The answer for 2026, then, and probably for some years after: all three routes work, two of them are free, and the safest move a reader can make is to keep personal copies of the installers on a drive of their own.
+
+## Frequently Asked Questions
+
+### Can you play MS-DOS games on Windows 11?
+
+Yes, through emulation rather than directly. Windows 11 ships only in a 64-bit edition, and 64-bit Windows supports no 16-bit components, processes or applications, so an MS-DOS game from the 1990s will not launch on its own. The standard answer in 2026 is DOSBox Staging, a free emulator whose 0.83.0 release arrived on August 28, 2026, or a pre-configured re-release bought from a store such as GOG.
+
+### Is DOSBox free to use?
+
+Yes. DOSBox and its maintained fork DOSBox Staging are free and open source, and DOSBox Staging 0.83.0, released on August 28, 2026, is the build most Windows 11 users should install. Neither program includes any game data, so the game files still have to come from your own discs or from a store purchase.
+
+### Do old PC game CDs still work on Windows 11?
+
+Often they do not. Discs pressed with SafeDisc or SecuROM copy protection rely on a Windows driver called secdrv.sys that Microsoft stopped shipping with Windows 10 and later disabled on older Windows versions through a security update, and many late-1990s discs use a 16-bit setup stub that 64-bit Windows 11 cannot run at all. DOS-era discs are the exception, because their files can be copied to the hard drive and run in DOSBox Staging.
+
+**Sources:**
+- 64-bit versions of Windows don't support 16-bit components, 16-bit processes, or 16-bit applications (Microsoft Learn): https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/x64-windows-not-support-16-bit-programs
+- DOSBox Staging 0.83.0 release notes (August 2026): https://www.dosbox-staging.org/releases/release-notes/0.83.0/
+- ScummVM: project site, the 2.9.0 release and the compatibility list: https://www.scummvm.org/
+- GOG Preservation Program (GOG.com): https://www.gog.com/en/gog-preservation-program
+- DOOM + DOOM II announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC (Gematsu, August 2024): https://www.gematsu.com/2024/08/doom-doom-ii-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc
+
+---
+
 # Why Did Skype Shut Down? What Replaced It in 2025
 
 URL: https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html

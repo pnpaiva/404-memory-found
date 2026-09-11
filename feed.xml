@@ -8,6 +8,18 @@
     <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How to Run 90s PC Games on Windows 11 in 2026</title>
+      <link>https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.</description>
+      <enclosure url="https://404memoryfound.com/pins/run-90s-pc-games-windows-11.jpg" length="128401" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/run-90s-pc-games-windows-11.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Software &amp; Apps</category>
+      <category>Gaming</category>
+    </item>
+    <item>
       <title>Why Did Skype Shut Down? What Replaced It in 2025</title>
       <link>https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html</guid>
@@ -231,17 +243,6 @@
       <enclosure url="https://404memoryfound.com/pins/who-owns-atari-now.jpg" length="245241" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/who-owns-atari-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
-      <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Is Toys R Us Still in Business? What Survived 2018</title>
-      <link>https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Toys R Us closed all 735 US stores on June 29, 2018. The brand survived: WHP Global owns it, and 1,664 stores now trade in 35 countries.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-toys-r-us-still-in-business.jpg" length="339890" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-toys-r-us-still-in-business.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
     </item>
   </channel>

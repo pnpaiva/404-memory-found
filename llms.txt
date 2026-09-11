@@ -209,6 +209,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [When Apple Almost Went Bankrupt in 1997 (And Microsoft Saved It)](https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html): In 1997, Apple was 90 days from bankruptcy. Then Steve Jobs returned and Microsoft invested $150 million. Here's the full story of Apple's near-death.
 
 ## Gaming
+- [How to Run 90s PC Games on Windows 11 in 2026](https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html): Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.
 - [Sega Genesis Games in 2026: The Best Way to Play](https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html): The best way to play Sega Genesis games in 2026 is a used console and a flash cart, about $65 for the console, or $49.99 a year with no hardware.
 - [Is Habbo Hotel Still Around? The Pixel Hotel in 2026](https://404memoryfound.com/posts/is-habbo-hotel-still-around.html): Habbo Hotel is still online in 2026, run by Sulake and owned by Azerion, with 300 million registered accounts and a 2005 replica running next door.
 - [Is Sega Still Making Games? Life After the Dreamcast](https://404memoryfound.com/posts/is-sega-still-making-games.html): Is Sega still making games? Yes. Its games arm sold 326.6 billion yen worth last fiscal year, and Sonic 3 grossed 492.2 million dollars.
@@ -254,6 +255,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Microsoft Tried to Buy Nintendo and Got Laughed At](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and spent an hour being laughed at. The letter survives, and the Xbox shipped two years later.
 
 ## Software & Apps
+- [How to Run 90s PC Games on Windows 11 in 2026](https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html): Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.
 - [Why Did Skype Shut Down? What Replaced It in 2025](https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html): Skype shut down on May 5, 2025 and Microsoft Teams Free replaced it. Skype Credit still works in Teams, but the old chats were deleted in 2026.
 - [Windows 95 Startup Sound: Brian Eno's 3.25 Seconds](https://404memoryfound.com/posts/windows-95-startup-sound-brian-eno.html): Brian Eno wrote the Windows 95 startup sound to a 3.25-second brief, made 84 versions, and did it on a Mac. The Library of Congress took it in 2025.
 - [Is Netscape Still Around? What Happened After AOL](https://404memoryfound.com/posts/is-netscape-still-around.html): Is Netscape still around? The browser died in 2008, netscape.com redirects to AOL, and the trademark is still live under a new owner as of 2026.
