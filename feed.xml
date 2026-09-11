@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns Yahoo Now? The $5 Billion Apollo Takeover</title>
+      <link>https://404memoryfound.com/posts/who-owns-yahoo-now.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-yahoo-now.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Yahoo is owned by Apollo Global Management, which paid about $5 billion in 2021. Verizon kept 10 percent. Microsoft once offered $44.6 billion.</description>
+      <enclosure url="https://404memoryfound.com/pins/who-owns-yahoo-now.jpg" length="292284" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/who-owns-yahoo-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Money &amp; Tech</category>
+    </item>
     <item>
       <title>Sega Genesis Games in 2026: The Best Way to Play</title>
       <link>https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html</link>
@@ -231,18 +243,6 @@
       <media:content url="https://404memoryfound.com/pins/is-blockbuster-still-open-last-store.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Music &amp; Entertainment</category>
-    </item>
-    <item>
-      <title>Does AOL Still Exist? What You Get for $10 a Month</title>
-      <link>https://404memoryfound.com/posts/does-aol-still-exist-today.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/does-aol-still-exist-today.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Does AOL still exist? Yes. Italy&#x27;s Bending Spoons bought it for about $1.5 billion in January 2026, and dial-up died on September 30, 2025.</description>
-      <enclosure url="https://404memoryfound.com/pins/does-aol-still-exist-today.jpg" length="325053" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/does-aol-still-exist-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Internet Culture</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
