@@ -159,6 +159,16 @@
   "thumb": "/img/thumb/webvan-9c5d9f.jpg",
   "width": 800
  },
+ "https://upload.wikimedia.org/wikipedia/commons/4/4b/Skype_Logo.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Skype_Logo.png",
+  "ext": "png",
+  "file": "/img/skype-logo-213fc9.png",
+  "height": 341,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/skype-logo-213fc9.png",
+  "width": 772
+ },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Server_Room_%2822397102849%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Server_Room_%2822397102849%29.jpg",
   "ext": "jpg",

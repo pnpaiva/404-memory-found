@@ -4,6 +4,107 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Why Did Skype Shut Down? What Replaced It in 2025
+
+URL: https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-09-11
+Topics: Software & Apps, Then vs Now
+
+**Summary:** Skype shut down on May 5, 2025, fourteen years after Microsoft bought it for $8.5 billion in cash. Microsoft replaced it with Microsoft Teams Free, which took over Skype logins, contacts and chat history. Leftover Skype Credit still works inside Teams, but Skype itself is gone and the old message archives were deleted in 2026.
+
+**Key facts:**
+- Launched: 2003, by Niklas Zennström and Janus Friis
+- Owner today: Microsoft, which paid $8.5 billion in cash in May 2011
+- Users: More than 300 million monthly in 2016, about 36 million by 2023
+- Status today: Retired on May 5, 2025; the apps and skype.com sign-in now point to Microsoft Teams Free
+- What replaced it: Microsoft Teams Free, with the Skype Dial Pad kept alive for leftover Skype Credit
+
+## The free call that broke the long distance business
+
+Skype arrived in 2003 as a peer to peer experiment. Niklas Zennström and Janus Friis, the pair behind the file sharing program Kazaa (https://404memoryfound.com/posts/what-happened-to-kazaa-p2p-wars.html), pointed the same distributed network idea at voice calls and then gave the software away.
+
+The pitch needed no explanation. International calls were billed by the minute in 2003, and Skype made them free between computers. Students called home from dorm rooms, grandparents met grandchildren over webcams, and freelancers ran whole businesses through a laptop microphone.
+
+By the time Microsoft came calling, Skype was not a novelty. Microsoft's own announcement said the service had 170 million connected users who logged more than 207 billion minutes of voice and video conversations in 2010. No telephone company had built anything close to that in seven years.
+
+The name became a verb, which is the rarest thing a piece of software can do. People did not say they would place a video call. They said they would Skype you, and they said it on a desktop crowded with chat programs that have since died too, next to MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html) and AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html).
+
+## What Microsoft got for $8.5 billion in 2011
+
+Microsoft announced the purchase on May 10, 2011. The price was $8.5 billion in cash, paid to an investor group led by Silver Lake, and it was the largest acquisition Microsoft had ever made at that point.
+
+"Skype is a phenomenal service that is loved by millions of people around the world," Steve Ballmer said in the press release Microsoft filed with the Securities and Exchange Commission that day. Ballmer was Microsoft's chief executive at the time, and Skype chief executive Tony Bates was named president of a new Microsoft Skype Division.
+
+The plan was distribution. Skype went into Windows, into Xbox and into Outlook.com, and for the next decade it was how Microsoft handled consumer calling.
+
+What Microsoft did not buy was a business that paid for itself at that price. Skype earned its money from the minority of users who bought credit to dial real phone numbers, while the free app to app calling was the part almost everyone actually used. Fourteen years later Microsoft retired the product, and it has never claimed the $8.5 billion came back.
+
+## How 300 million users turned into 36 million
+
+Skype peaked above 300 million monthly users in 2016, according to the figures CNBC published on the day the shutdown was announced in 2025. By 2023 that count was down to roughly 36 million.
+
+The decline had three causes, and no single bad decision among them. Phones came first. WhatsApp and FaceTime put free calling inside apps people already carried, with no separate account to remember and no desktop client to install.
+
+Then Microsoft split its own attention. Teams shipped as the company's serious communication product and took the engineering budget, the enterprise contracts and the marketing, while Skype was redesigned, criticized, and redesigned back again.
+
+Then came 2020. The year the world moved onto video calls should have belonged to the company that had been selling video calls since 2003. Instead Zoom became the shorthand for a work meeting, and Microsoft answered it with Teams rather than with Skype. By the time offices reopened, Skype was software people still had installed rather than software they opened.
+
+## Can you still sign in to Skype in 2026?
+
+No. Skype stopped working on May 5, 2025, and nothing done in 2026 will bring the app back.
+
+Microsoft announced the retirement on February 28, 2025. Jeff Teper, the Microsoft president responsible for Microsoft 365 collaborative apps and platforms, wrote on the Microsoft 365 blog that the company would "be retiring Skype in May 2025 to focus on Microsoft Teams (free)."
+
+Microsoft Teams Free is what replaced it, and the handover was meant to be mechanical. Microsoft told users to sign in to Teams with the same Skype username and password, and said contacts and chat history would come across with them. The Skype apps and the sign-in page on skype.com now point at Teams instead of a login screen.
+
+Teper also wrote the eulogy in that same post: "Skype has been an integral part of shaping modern communications and supporting countless meaningful moments, and we are honored to have been part of the journey."
+
+One clarification, because it confuses people: Skype for Business was a separate corporate product on its own timetable. It is not the thing that shut down in May 2025.
+
+## What happened to Skype Credit and Skype Numbers
+
+This is the part that costs real money, so it is worth being exact.
+
+Skype Credit did not vanish. A balance that was live on shutdown day moved across to Microsoft Teams Free, where it still pays for calls to landlines and mobile numbers through the Skype Dial Pad. Microsoft kept that dial pad running for exactly this reason.
+
+What stopped was buying more. Microsoft closed new Skype Credit purchases and new subscriptions, so a surviving balance can only shrink. There is no top up and no way to reopen the tap.
+
+Skype Numbers, the rented phone lines that let people reach you from an ordinary telephone, were the harder loss. Microsoft said subscriptions would keep renewing until April 3, 2025 and then retire, with no purchase, renewal or reactivation after that date. Anyone who wanted to keep a number had to port it to another carrier before the subscription lapsed. Numbers nobody ported went back into the pool, and in 2026 there is no process for claiming one back.
+
+## Your old chats are gone, and here is the deadline that took them
+
+Microsoft's first promise was that Skype data would stay available until January 2026. That date moved, which is why plenty of people who checked once and relaxed lost everything anyway.
+
+The final schedule published on Microsoft's export page was stricter than it sounded. Deletion of Skype chat and call history began on April 1, 2026. The export portal stayed open until June 15, 2026, with a warning that anything downloaded after April 1 might already be incomplete. Both dates are now in the past.
+
+One group kept its history. People who were active on Skype between December 2024 and February 2025, and who then signed in to Microsoft Teams Free before December 1, 2025, had their Skype chats and call logs carried into Teams, where they remain.
+
+Everyone else is out of luck. If you never moved to Teams Free and never ran an export, those messages are not sitting in an archive waiting for a support ticket. Microsoft deleted them.
+
+## Frequently Asked Questions
+
+### Is Skype shut down for good?
+
+Yes. Microsoft retired Skype on May 5, 2025 and has not reversed the decision since. The Skype apps and the skype.com sign-in page send users to Microsoft Teams Free instead, and Skype has taken no new sign-ups and sold no new Skype Credit since the shutdown.
+
+### What replaced Skype?
+
+Microsoft Teams Free replaced Skype when Skype was retired on May 5, 2025. Skype users were told to sign in to Teams with the same credentials to keep their contacts and chat history, and the Skype Dial Pad survives inside Teams Free so leftover Skype Credit can still call landlines and mobile numbers.
+
+### Can I still get my old Skype messages back?
+
+Almost certainly not. Microsoft began deleting Skype chat and call history on April 1, 2026 and closed the Skype export portal on June 15, 2026. The only surviving copies sit inside Microsoft Teams Free, for people who were active on Skype between December 2024 and February 2025 and signed in to Teams Free before December 1, 2025.
+
+**Sources:**
+- The next chapter: Moving from Skype to Microsoft Teams (Microsoft 365 Blog, February 28, 2025): https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/28/the-next-chapter-moving-from-skype-to-microsoft-teams/
+- Skype is retiring in May 2025: what you need to know (Microsoft Support): https://support.microsoft.com/en-us/skype/skype-is-retiring-in-may-2025-what-you-need-to-know
+- How do I export or delete my Skype data? (Microsoft Support): https://support.microsoft.com/en-us/skype/how-do-i-export-or-delete-my-skype-data-84546e00-2fef-4c45-8ef6-3a27f83242cc
+- Microsoft to Acquire Skype: press release filed as Exhibit 99.1 to Microsoft's Form 8-K (SEC, May 2011): https://www.sec.gov/Archives/edgar/data/789019/000119312511134416/dex991.htm
+- Microsoft is retiring Skype in May, encouraging people to adopt Teams (CNBC, February 28, 2025): https://www.cnbc.com/2025/02/28/microsoft-is-retiring-skype-in-may-encouraging-people-to-adopt-teams.html
+
+---
+
 # Is Redbox Still Around? Why Kiosks Are Still There
 
 URL: https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html
@@ -9242,7 +9343,7 @@ The story of Kazaa is really the story of the P2P wars: a five-year stretch from
 
 ## Built in Estonia, Launched in the Netherlands, Sued in Australia
 
-Kazaa's origin story reads like the setup for a techno-thriller that nobody would believe. The core technology, the FastTrack peer-to-peer protocol, was built by three Estonian programmers: Jaan Tallinn, Ahti Heinla, and Priit Kasesalu, working at a company called BlueMoon Interactive that they had co-founded in 1993. These were serious engineers. Tallinn, in particular, would go on to become one of the founding engineers of Skype and later a prominent figure in artificial intelligence safety research. But in 2000, their immediate project was building a file-sharing protocol that could do what Napster did without Napster's fatal weakness.
+Kazaa's origin story reads like the setup for a techno-thriller that nobody would believe. The core technology, the FastTrack peer-to-peer protocol, was built by three Estonian programmers: Jaan Tallinn, Ahti Heinla, and Priit Kasesalu, working at a company called BlueMoon Interactive that they had co-founded in 1993. These were serious engineers. Tallinn, in particular, would go on to become one of the founding engineers of Skype (https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html) and later a prominent figure in artificial intelligence safety research. But in 2000, their immediate project was building a file-sharing protocol that could do what Napster did without Napster's fatal weakness.
 
 Napster's problem was architectural. Every search query went through Napster's central servers. When a court ordered those servers shut down in July 2001, the whole network went dark. FastTrack solved this with a concept called "supernodes." Instead of routing all traffic through a central server, the protocol designated certain high-bandwidth computers on the network as indexing points. These supernodes maintained searchable databases of nearby files, and queries were distributed across them. There was no single point of failure. You couldn't kill the network by pulling one plug.
 
@@ -14090,7 +14191,7 @@ The range of items sold on the platform during this era was staggering and frequ
 
 The cracks in eBay's dominance started showing around 2005, and they came from two directions simultaneously.
 
-First, the Skype acquisition. In September 2005, Meg Whitman approved the purchase of Skype for approximately $2.6 billion, with potential performance-based earn-out payments that could push the total to $4.1 billion. The thesis was that buyers and sellers would want to communicate via voice and video calls before completing high-value transactions. Which sounds reasonable on paper. If you're buying a $3,000 vintage guitar sight-unseen from a stranger, wouldn't you want to talk to them first? Maybe see the guitar on camera?
+First, the Skype (https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html) acquisition. In September 2005, Meg Whitman approved the purchase of Skype for approximately $2.6 billion, with potential performance-based earn-out payments that could push the total to $4.1 billion. The thesis was that buyers and sellers would want to communicate via voice and video calls before completing high-value transactions. Which sounds reasonable on paper. If you're buying a $3,000 vintage guitar sight-unseen from a stranger, wouldn't you want to talk to them first? Maybe see the guitar on camera?
 
 In practice, almost nobody used Skype that way. eBay's users had been doing fine with photos, descriptions, and email for a decade. The integration never materialized in any meaningful way. In October 2007, eBay took a $1.4 billion impairment writedown on the Skype acquisition, effectively admitting to investors that they had dramatically overpaid. They eventually sold a 65% stake in Skype to Silver Lake Partners and other investors in 2009 at a $2.75 billion valuation. Two years later, Microsoft bought Skype for $8.5 billion. eBay had owned the right asset at the right time and completely failed to capitalize on it.
 
@@ -17130,7 +17231,7 @@ There was a time when the most important sound in your life was a door opening. 
 
 MSN Messenger wasn't just a chat app. For an entire generation of internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) users — roughly anyone born between 1985 and 1995 — it was the social network before social networks existed. It was where crushes were confessed through carefully worded status messages, where friendships were tested by who made it onto your "top contacts" list, and where you spent hours picking the perfect display name with just the right amount of ASCII art and emo lyrics.
 
-And then Microsoft (https://404memoryfound.com/#/post/microsoft-tried-buy-nintendo) killed it. Replaced it with Skype. And nothing was ever the same. So what actually happened to MSN Messenger, and why do so many people still miss it?
+And then Microsoft (https://404memoryfound.com/#/post/microsoft-tried-buy-nintendo) killed it. Replaced it with Skype (https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html). And nothing was ever the same. So what actually happened to MSN Messenger, and why do so many people still miss it?
 
 ## The Birth of MSN Messenger: Microsoft's Answer to AIM and ICQ
 
