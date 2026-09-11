@@ -10,6 +10,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [RSS feed](https://404memoryfound.com/feed.xml)
 
 ## Business Blunders
+- [Is GameStop Still in Business? 1,598 Stores Left](https://404memoryfound.com/posts/is-gamestop-still-in-business.html): GameStop is still in business in 2026, but it closed 727 US stores in one year and ended January with 1,598 left. Games are now under 12% of sales.
 - [Is Redbox Still Around? Why Kiosks Are Still There](https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html): Redbox is gone: its parent was liquidated in July 2024 and all 24,000 kiosks went dark. Thousands still stand because removal runs about $500 each.
 - [Who Owns Yahoo Now? The $5 Billion Apollo Takeover](https://404memoryfound.com/posts/who-owns-yahoo-now.html): Yahoo is owned by Apollo Global Management, which paid about $5 billion in 2021. Verizon kept 10 percent. Microsoft once offered $44.6 billion.
 - [Does Yahoo Answers Still Exist? Why It Shut Down](https://404memoryfound.com/posts/does-yahoo-answers-still-exist.html): Yahoo Answers does not still exist. It went read-only on April 20, 2021 and closed on May 4, 2021, 15 years after launch. Here is what survived.
@@ -209,6 +210,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [When Apple Almost Went Bankrupt in 1997 (And Microsoft Saved It)](https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html): In 1997, Apple was 90 days from bankruptcy. Then Steve Jobs returned and Microsoft invested $150 million. Here's the full story of Apple's near-death.
 
 ## Gaming
+- [Is GameStop Still in Business? 1,598 Stores Left](https://404memoryfound.com/posts/is-gamestop-still-in-business.html): GameStop is still in business in 2026, but it closed 727 US stores in one year and ended January with 1,598 left. Games are now under 12% of sales.
 - [How to Run 90s PC Games on Windows 11 in 2026](https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html): Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.
 - [Sega Genesis Games in 2026: The Best Way to Play](https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html): The best way to play Sega Genesis games in 2026 is a used console and a flash cart, about $65 for the console, or $49.99 a year with no hardware.
 - [Is Habbo Hotel Still Around? The Pixel Hotel in 2026](https://404memoryfound.com/posts/is-habbo-hotel-still-around.html): Habbo Hotel is still online in 2026, run by Sulake and owned by Azerion, with 300 million registered accounts and a 2005 replica running next door.

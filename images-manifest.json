@@ -1367,6 +1367,16 @@
   "thumb": "/img/thumb/imac-g3-grape-side-579a00.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/GameStop_store_Ypsilanti.JPG/960px-GameStop_store_Ypsilanti.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:GameStop_store_Ypsilanti.JPG",
+  "ext": "jpg",
+  "file": "/img/gamestop-store-ypsilanti-56ae64.jpg",
+  "height": 853,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/gamestop-store-ypsilanti-56ae64.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Craig_Newmark_at_Consumer_Reports_in_2009.jpg/960px-Craig_Newmark_at_Consumer_Reports_in_2009.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Craig_Newmark_at_Consumer_Reports_in_2009.jpg",
   "ext": "jpg",
