@@ -8,6 +8,18 @@
     <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Dial-Up Sound Explained: What Each Screech Meant</title>
+      <link>https://404memoryfound.com/posts/dial-up-modem-sound-explained.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/dial-up-modem-sound-explained.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>The dial-up sound was two modems measuring a phone line: answer tone, capability menus, a 21-tone probe. AOL switched it off on September 30, 2025.</description>
+      <enclosure url="https://404memoryfound.com/pins/dial-up-modem-sound-explained.jpg" length="226374" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/dial-up-modem-sound-explained.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Then vs Now</category>
+      <category>Internet Culture</category>
+    </item>
+    <item>
       <title>Who Owns Yahoo Now? The $5 Billion Apollo Takeover</title>
       <link>https://404memoryfound.com/posts/who-owns-yahoo-now.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-yahoo-now.html</guid>
@@ -231,18 +243,6 @@
       <media:content url="https://404memoryfound.com/pins/is-netscape-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Software &amp; Apps</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Is Blockbuster Still Open? The Last Store in 2026</title>
-      <link>https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Is Blockbuster still open? Yes, but only one store, in Bend, Oregon. Who owns the brand in 2026, how 9,000 stores became one, and what it sells.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-blockbuster-still-open-last-store.jpg" length="333685" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-blockbuster-still-open-last-store.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Music &amp; Entertainment</category>
     </item>
   </channel>
 </rss>
