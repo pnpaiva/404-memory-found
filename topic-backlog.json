@@ -501,8 +501,9 @@
         "when did skype shut down"
       ],
       "demand_note": "Millions of Americans still had Skype installed when it died in 2025 and search for what happened to their contacts and credit.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "skype-shut-down-what-replaced-it"
     },
     {
       "title": "Is GameStop Still in Business? The Real 2026 Store Count",
