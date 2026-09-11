@@ -1,6 +1,89 @@
 {
   "posts": [
     {
+      "id": "dial-up-modem-sound-explained",
+      "title": "Dial-Up Sound Explained: What Each Screech Meant",
+      "date": "2026-09-11",
+      "author": "theo",
+      "tags": [
+        "Then vs Now",
+        "Internet Culture"
+      ],
+      "excerpt": "The dial-up sound was two modems measuring a phone line: answer tone, capability menus, a 21-tone probe. AOL switched it off on September 30, 2025.",
+      "summary": "The dial-up sound was not random static. It was a scripted handshake in which two modems disabled the network's echo cancellers, traded capability menus under ITU-T Recommendation V.8, and probed the phone line with 21 tones before agreeing on a speed. You can still hear it in 2026 on the dial-up services NetZero and Juno sell, but not on AOL, which shut its dial-up down on September 30, 2025.",
+      "facts": [
+        {
+          "label": "What it was",
+          "value": "A modem handshake: dial tone, DTMF digits, answer tone, capability menus, line probe, training"
+        },
+        {
+          "label": "The first tone",
+          "value": "2100 Hz, phase-reversed every 450 ms to disable network echo cancellers"
+        },
+        {
+          "label": "The line probe",
+          "value": "21 tones spaced 150 Hz apart, from 150 Hz to 3750 Hz (ITU-T V.34)"
+        },
+        {
+          "label": "Why it stopped",
+          "value": "The Hayes default M1 mutes the speaker once a carrier is detected"
+        },
+        {
+          "label": "Status today",
+          "value": "AOL ended dial-up September 30, 2025; about 100,277 US households still use it"
+        }
+      ],
+      "image": null,
+      "imageAlt": "An external 56k dial-up telephone modem of the kind that produced the handshake sound",
+      "imageCaption": "An external dial-up modem of the type sold to home users in the 1990s. Models varied, but the handshake sequence was the same on all of them.",
+      "imageSearch": [
+        "US Robotics Sportster 56k modem",
+        "56k dial-up modem",
+        "external telephone modem RS-232",
+        "computer modem 1990s"
+      ],
+      "body": "<h2>What are you hearing in the first five seconds?</h2><p>The dial-up sound was never one noise. It was a fixed sequence of steps, each one doing a specific job, and the order barely changed from call to call.</p><p>It opened with the dial tone, then the touch tones of the phone number itself, punched out as DTMF digits. People who connected every day could recognize their own provider's access number by ear, the way you recognize a ringtone.</p><p>Then the far end spoke for the first time: a steady tone at 2100 Hz. That tone was not a greeting. It was a demand. The phone network put echo suppressors and echo cancellers on long trunks because they help human conversation, and they would have wrecked a data call. ITU-T Recommendation V.8 specifies that the answering modem flip the phase of that 2100 Hz tone by 180 degrees every 450 ms, which is the exact signal network echo cancellers are built to stand down for.</p><p>The same tone carried a second message. Amplitude-modulated by a 15 Hz sine wave, it became ANSam, and the wobble was a flag that said this end speaks V.8 and is ready to negotiate. A flat 2100 Hz tone with no wobble meant an older machine at the other end and a slower call ahead.</p><h2>Why two modems had to argue before they could talk</h2><p>Nothing about a residential phone line was guaranteed. The copper between a house and the local exchange had its own length, its own noise and its own quirks, and it could change between one call and the next. Two modems could not assume anything about each other or about the wire in between, so they had to find out in public, out loud.</p><p>That is the negotiation V.8 defines. After the answer tone, the calling modem sends CM, the call menu, listing every modulation, data rate and error-correction scheme it can handle. The answering modem replies with JM, the joint menu, naming the best combination the two of them share. The caller sends CJ to acknowledge, and the argument is settled.</p><p>Oona Räisänen, the Finnish engineer whose 2012 spectrogram of a handshake is still the clearest picture anyone has made of it, put the whole exchange in one line on her blog absorptions: \"The modems are trying to find a common language and determine the weaknesses of the telephone channel originally meant for human speech.\"</p><p>That is why the sequence sounded like an argument. It was one.</p><h2>What the harsh middle stretch was actually measuring</h2><p>The ugliest part of the sound, the burst that came after the negotiation and before the hiss, was a measuring instrument.</p><p>ITU-T Recommendation V.34, the standard behind the 28,800 bit/s modems of the mid-1990s, defines a line probing signal built from 21 tones spaced 150 Hz apart, running from 150 Hz all the way up to 3750 Hz, with the tones at 900, 1200, 1800 and 2400 Hz deliberately left out. The gaps matter as much as the tones, because they let the receiving end hear what the line itself adds.</p><p>The probe goes out twice. L1 is sent 6 dB above the normal power level for 160 ms. L2 repeats the same tones at normal power for no longer than 550 ms plus the round trip delay. The listening modem runs a spectrum analysis on both and reads the damage: which frequencies the line swallows, how much it delays them, how nonlinear it is.</p><p>From that it picks a symbol rate and a carrier frequency, then both ends send scrambled data at each other to train their equalizers and echo cancellers. That training is the long featureless hiss at the end. By then the modems were not negotiating anymore. They were rehearsing.</p><h2>Why the screech stopped the second you were online</h2><p>Here is the part almost nobody gets right: the modem did not go quiet because the noise ended. The noise never ended. The speaker was switched off.</p><p>Consumer modems inherited the Hayes command set, and its default speaker setting, M1, means the speaker stays on until a carrier is detected and then cuts out. Once the two modems agreed on a scheme and locked onto each other, the connection was made, the speaker went dead, and everything that followed happened silently on the same wire.</p><p>The default was a deliberate design choice, not an accident. Leaving the speaker on through the handshake turned the modem into a diagnostic tool that anyone could use without reading a manual. A busy signal, a recorded message, a wrong number, a person picking up an extension upstairs: all of it came through the speaker, and all of it told you the call had failed before the software did. The moment the call worked, the information stopped being useful, so the speaker stopped.</p><p>That also explains why the sound never got faster as modems got faster. The handshake was not the data. It was the setup, and the setup was bound by physics and by protocol timers, not by the <a href=\"/posts/dialup-speed-then-vs-now.html\">dial-up speed</a> you were negotiating toward.</p><h2>Can you still hear a modem connect in 2026?</h2><p>Barely, and almost never by accident.</p><p><a href=\"/posts/does-aol-still-exist-today.html\">AOL</a> shut down the service that produced the sound for more Americans than any other. In a notice posted in August 2025 the company said it \"routinely evaluates its products and services and has decided to discontinue Dial-up Internet,\" and the service, along with the AOL Dialer software and the AOL Shield browser, went dark on September 30, 2025.</p><p>Dial-up itself is not extinct. NetZero and Juno still sell it, and the Census Bureau's American Community Survey counted about 100,277 US households with dial-up as their only home internet subscription in the 2024 data released in September 2025. Those households hear the handshake every time they connect.</p><p>Everyone else has to go looking. Fax machines, alarm panels and some payment terminals still run the same negotiation over the same copper. Räisänen's 2012 recording and spectrogram are still online. So are plenty of the <a href=\"/posts/90s-websites-still-online.html\">websites those modems used to load</a>, which is a stranger kind of survival than the sound itself.</p><h2>Frequently Asked Questions</h2><h3>What was the dial-up sound actually doing?</h3><p>The dial-up sound was two modems setting up a data call over a phone line built for speech. It ran in order: dial tone, the DTMF touch tones of the number, a 2100 Hz answer tone whose 450 ms phase reversals switched off the network's echo cancellers, a V.8 exchange of capability menus, a 21-tone line probe spanning 150 Hz to 3750 Hz under ITU-T Recommendation V.34, and a final training hiss.</p><h3>Why did the dial-up sound stop after you connected?</h3><p>The dial-up sound stopped because the modem muted its own speaker, not because the signaling ended. The Hayes command set that every consumer modem of the 1990s inherited defaults to M1, which keeps the speaker on only until a carrier is detected. The point of hearing the handshake was to catch a busy signal, a wrong number or a human voice before the software reported a failure, and once the call connected there was nothing left to diagnose.</p><h3>Can you still hear a dial-up modem connect in 2026?</h3><p>Yes, but you have to seek it out. AOL ended its dial-up service on September 30, 2025, while NetZero and Juno still sell dial-up access, and the Census Bureau's American Community Survey counted roughly 100,277 US households relying on dial-up alone in its 2024 data. Fax machines and alarm panels still perform the same handshake, and recordings such as Oona Räisänen's 2012 spectrogram remain online.</p>",
+      "sources": [
+        {
+          "title": "ITU-T Recommendation V.8: Procedures for starting sessions of data transmission over the PSTN",
+          "url": "https://www.itu.int/rec/T-REC-V.8/en"
+        },
+        {
+          "title": "ITU-T Recommendation V.34: Modem operating at data signalling rates of up to 33 600 bit/s",
+          "url": "https://www.itu.int/rec/T-REC-V.34/en"
+        },
+        {
+          "title": "Oona Räisänen, 'The sound of the dialup, pictured', absorptions, 2012",
+          "url": "https://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html"
+        },
+        {
+          "title": "CNN Business: AOL will stop offering dial-up internet service after more than 30 years in business (2025)",
+          "url": "https://www.cnn.com/2025/08/11/tech/aol-dial-up-internet-discontinue"
+        },
+        {
+          "title": "Reviews.org: The U.S. Digital Divide Is Shrinking, But Nearly 8 Million Households Remain Offline",
+          "url": "https://www.reviews.org/internet-service/how-many-us-households-are-without-internet-connection/"
+        }
+      ],
+      "linkPhrases": [
+        "dial-up sound",
+        "modem sound"
+      ],
+      "seo": {
+        "title": "Dial-Up Sound Explained: What Each Screech Meant | 404 Memory Found",
+        "description": "The dial-up sound was two modems measuring a phone line: answer tone, capability menus, a 21-tone probe. AOL switched it off on September 30, 2025.",
+        "keywords": [
+          "dial up sound explained",
+          "what was the dial up noise",
+          "modem handshake sound",
+          "56k modem sound",
+          "why did the dial up sound stop",
+          "can you still get dial up internet in 2026",
+          "what did the dial up sound mean"
+        ]
+      }
+    },
+    {
       "id": "who-owns-yahoo-now",
       "title": "Who Owns Yahoo Now? The $5 Billion Apollo Takeover",
       "date": "2026-09-11",
