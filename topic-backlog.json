@@ -480,8 +480,9 @@
         "who owns redbox now"
       ],
       "demand_note": "Americans physically walk past dead Redbox kiosks every week and search to find out whether the machine in front of them still works.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-redbox-still-around-kiosks"
     },
     {
       "title": "Is Skype Gone for Good? What Replaced It After 2025",
