@@ -522,8 +522,9 @@
         "is gamestop going out of business"
       ],
       "demand_note": "GameStop closure lists run in local news across the country every January, and each round sends people searching whether the chain is finished.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-gamestop-still-in-business"
     },
     {
       "title": "Does Chuck E. Cheese Still Have Animatronics in 2026?",
