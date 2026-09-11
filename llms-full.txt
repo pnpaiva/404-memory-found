@@ -4511,7 +4511,7 @@ The category that died was not GPS. It was the dedicated, single-purpose GPS dev
 
 The other lesson, the one about platforms, is harder. Tele Atlas and Navteq spent decades building map databases that looked like an unassailable moat. Two acquisitions closed in 2007 and 2008 worth a combined $11 billion locked those moats up under Nokia and TomTom. Within five years, both moats had been outflanked by Google, which built its own map dataset largely from Street View vehicles, satellite imagery, and crowdsourced corrections from billions of Android users. The thing that looked like the most defensible asset in the entire industry, proprietary high-resolution road data, turned out to be reproducible at scale by a company with a large enough mobile install base.
 
-This is essentially the same story Apple and Spotify lived through with the music industry's licensing catalogs, that Netflix lived through with cable's content catalogs, and that any number of platforms have now lived through with mapping. When the underlying data is reproducible, the company with the larger distribution wins. The standalone GPS market was the first consumer electronics category to learn that lesson. It will not be the last.
+This is essentially the same story Apple and Spotify lived through with the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html)'s licensing catalogs, that Netflix lived through with cable's content catalogs, and that any number of platforms have now lived through with mapping. When the underlying data is reproducible, the company with the larger distribution wins. The standalone GPS market was the first consumer electronics category to learn that lesson. It will not be the last.
 
 ## Frequently Asked Questions
 
@@ -5742,7 +5742,7 @@ Here is a detail that most people do not know. Sony actually retired the "Discma
 
 ## The Peak: 1997 to 2001
 
-The golden age of the Discman, if you want to pin it down, was roughly 1997 to 2001. This was the period when portable CD players were at their cheapest, most reliable, and most ubiquitous. The skip protection was good enough for daily use. The prices had dropped to a point where a basic model cost $30 to $40 at Walmart. And CDs themselves were at the absolute peak of their commercial dominance. In 1999, the U.S. music industry hit its all-time peak for CD revenue, with CD sales generating roughly $13 billion of the industry's record $14.6 billion total. The format had never been bigger, and it would never be this big again.
+The golden age of the Discman, if you want to pin it down, was roughly 1997 to 2001. This was the period when portable CD players were at their cheapest, most reliable, and most ubiquitous. The skip protection was good enough for daily use. The prices had dropped to a point where a basic model cost $30 to $40 at Walmart. And CDs themselves were at the absolute peak of their commercial dominance. In 1999, the U.S. music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) hit its all-time peak for CD revenue, with CD sales generating roughly $13 billion of the industry's record $14.6 billion total. The format had never been bigger, and it would never be this big again.
 
 Think about what the world looked like during peak Discman era. Napster (https://404memoryfound.com/posts/who-owns-napster-now.html) had just launched but had not yet destroyed the music industry's business model. The iPod did not exist yet. Streaming was a fantasy. If you wanted to listen to music away from your home stereo or car, you had two choices: a portable cassette player or a portable CD player. And by 1999, the choice was obvious. CD audio quality was vastly superior to cassette. CDs did not degrade with repeated plays. You could skip to any track instantly instead of fast-forwarding through tape. The Discman had won.
 
@@ -6927,7 +6927,7 @@ The golden age didn't really start until after 1978, but once it started, it mov
 
 And here's where it gets interesting. There's this whole story that gets told about how Space Invaders caused a shortage of 100-yen coins in Japan because people were using so much currency to play the game that there literally weren't enough coins in circulation. It's a great story. It's a fun story. It's also completely false. That's an urban legend that people keep repeating because it sounds plausible and amazing. The Japanese Mint's PR office confirmed that increased yen production in the late 1970s had nothing to do with Space Invaders, and the game's own designer, Toshiro Nishikado, described it as a wild rumor. The actual story is somehow less dramatic but still impressive: arcades were just extraordinarily profitable, and nobody had anticipated that level of profitability.
 
-By 1982, the arcade industry in the United States alone was pulling in eight billion dollars annually. Eight billion. To put that in perspective, the entire American film industry was making three billion dollars a year. The music industry was making four billion dollars a year. Arcades were outearning Hollywood. Arcades were outearning pop music. A bunch of machines that did nothing but display blocky graphics and beep noises were the most profitable entertainment sector in the entire country. There were 10,000 arcades scattered across North America. The number of arcades had doubled between 1980 and 1982. Kids were cutting school to spend quarters. Parents were confused about why their children suddenly cared about a pizza-eating cartoon character.
+By 1982, the arcade industry in the United States alone was pulling in eight billion dollars annually. Eight billion. To put that in perspective, the entire American film industry was making three billion dollars a year. The music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) was making four billion dollars a year. Arcades were outearning Hollywood. Arcades were outearning pop music. A bunch of machines that did nothing but display blocky graphics and beep noises were the most profitable entertainment sector in the entire country. There were 10,000 arcades scattered across North America. The number of arcades had doubled between 1980 and 1982. Kids were cutting school to spend quarters. Parents were confused about why their children suddenly cared about a pizza-eating cartoon character.
 
 ## And Then It All Crashed
 
@@ -9337,7 +9337,7 @@ In May 2003, Kazaa Media Desktop broke a record. It became the single most downl
   
   
 
-And yet, almost nobody talks about Kazaa anymore. It exists in a strange historical blind spot, overshadowed by Napster (https://404memoryfound.com/posts/who-owns-napster-now.html)'s dramatic origin story on one side and BitTorrent's technical elegance on the other. Kazaa was the bridge between those two eras, the application that proved peer-to-peer file sharing could survive a legal shutdown and come back stronger. It was also the application that proved the music industry would spend any amount of money to make sure that didn't happen again.
+And yet, almost nobody talks about Kazaa anymore. It exists in a strange historical blind spot, overshadowed by Napster (https://404memoryfound.com/posts/who-owns-napster-now.html)'s dramatic origin story on one side and BitTorrent's technical elegance on the other. Kazaa was the bridge between those two eras, the application that proved peer-to-peer file sharing could survive a legal shutdown and come back stronger. It was also the application that proved the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) would spend any amount of money to make sure that didn't happen again.
 
 The story of Kazaa is really the story of the P2P wars: a five-year stretch from roughly 2001 to 2006 when the recording industry, the courts, and millions of ordinary internet users fought over who owned digital music. The outcome shaped everything that came after, from iTunes to Spotify to the way copyright law works online today.
 
@@ -9593,7 +9593,7 @@ In Japan, MiniDisc took off. The format captured a substantial share of the Japa
 
 Japanese commuters spent hours on trains and subways. They were willing to adopt new technology if it solved a real problem. MiniDisc solved several: it was small, it held a lot of music, it was shockproof, and crucially, it let you record music yourself. Recording was a bigger deal in Japan because of how the culture consumed media. Students would record songs off the radio or from borrowed CDs. Music fans would create custom compilations. MiniDisc made this faster and more reliable than cassettes, with better audio quality.
 
-Sony's market position in Japan was also just stronger. They had distribution networks, relationships with retailers, and cultural cachet that didn't translate as directly to the American market. In the Japanese music industry, MiniDisc was positioned as the legitimate, high-quality alternative to dubbing cassettes.
+Sony's market position in Japan was also just stronger. They had distribution networks, relationships with retailers, and cultural cachet that didn't translate as directly to the American market. In the Japanese music industry (https://404memoryfound.com/posts/napster-destroyed-music.html), MiniDisc was positioned as the legitimate, high-quality alternative to dubbing cassettes.
 
 Record labels in Japan actually supported MiniDisc pre-recorded releases. This is the key difference. By the late 1990s, major Japanese labels were pressing pre-recorded MiniDisc albums. You could walk into a record store in Tokyo and buy a new album on MiniDisc the same day it came out on CD. This created a virtuous cycle: more music available in the format meant more incentive to buy a player, which meant more pressure on labels to release new content.
 
@@ -11467,7 +11467,7 @@ They understood that you didn't want to spend hours configuring software. You wa
 
 The iPod basically invented the model of the tech company as lifestyle brand. Before the iPod, tech companies made products. Apple, with the iPod, showed that you could make something that people actually wanted to own as a statement about who they were. The white earbuds became iconic not because they were technically superior, but because they were distinctive and they signified cultural membership. You had an iPod because you were the kind of person who owned an iPod.
 
-The iPod also fundamentally changed the music industry. By proving that people would pay for digital music through iTunes, it created a model that persisted for over a decade and that influenced streaming services that came later. Spotify and Apple Music and YouTube Music, they all exist in part because the iPod and iTunes showed that digital music distribution was viable and valuable.
+The iPod also fundamentally changed the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html). By proving that people would pay for digital music through iTunes, it created a model that persisted for over a decade and that influenced streaming services that came later. Spotify and Apple Music and YouTube Music, they all exist in part because the iPod and iTunes showed that digital music distribution was viable and valuable.
 
   
   
@@ -14794,7 +14794,7 @@ At its peak, LimeWire was installed on over 50 million computers worldwide. It w
 
 LimeWire launched in 2000, created by Mark Gorton, a Wall Street trader turned tech entrepreneur. It was built on the Gnutella peer-to-peer (P2P) network, which meant that instead of downloading files from a central server, you were downloading directly from other people's computers. There was no central library — every LimeWire user's shared folder became part of a massive, decentralized network of files.
 
-The appeal was simple and devastating for the music industry: you could type in the name of literally any song, hit search, and download it for free. No subscription, no credit card, no DRM restrictions. Just click, wait a few minutes (or a few hours, depending on your internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) speed), and the MP3 was yours. For a generation that grew up with $18 CDs at Best Buy, this felt like discovering a cheat code for life.
+The appeal was simple and devastating for the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html): you could type in the name of literally any song, hit search, and download it for free. No subscription, no credit card, no DRM restrictions. Just click, wait a few minutes (or a few hours, depending on your internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) speed), and the MP3 was yours. For a generation that grew up with $18 CDs at Best Buy, this felt like discovering a cheat code for life.
 
 LimeWire wasn't the first P2P file-sharing program — Napster (https://404memoryfound.com/#/post/napster-destroyed-music) had pioneered the concept before being shut down in 2001 — but it was arguably the most popular and long-lived. After Napster (https://404memoryfound.com/posts/who-owns-napster-now.html)'s court-ordered shutdown, millions of users migrated to alternatives like LimeWire, Kazaa (https://404memoryfound.com/posts/what-happened-to-kazaa-p2p-wars.html), and BearShare. LimeWire's clean interface, relatively fast downloads, and free basic version made it the Napster successor of choice for most people.
 
@@ -15785,7 +15785,7 @@ TRL turned Carson Daly into a household name and accelerated the careers of arti
 
 ## How the Napster Revolution Pulled the Rug Out
 
-While MTV was wrestling with its own identity, the music industry was getting hit by a truck. Napster (https://404memoryfound.com/#/post/napster-destroyed-music) launched in June 1999, and within a year, millions of people were downloading music for free. By 2001, CD sales were falling off a cliff. Record labels were in panic mode, slashing budgets for everything, including the music videos that had been MTV's core content.
+While MTV was wrestling with its own identity, the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) was getting hit by a truck. Napster (https://404memoryfound.com/#/post/napster-destroyed-music) launched in June 1999, and within a year, millions of people were downloading music for free. By 2001, CD sales were falling off a cliff. Record labels were in panic mode, slashing budgets for everything, including the music videos that had been MTV's core content.
 
 This mattered enormously for MTV. In the channel's early days, record labels essentially provided free programming. They made the videos, they paid for the production, and MTV played them. It was a symbiotic relationship: MTV gave artists exposure, and labels gave MTV content. But as labels cut video budgets, the quality and quantity of new music videos dropped. The pipeline of free, high-quality content that MTV had relied on for almost 20 years started drying up.
 
@@ -16018,7 +16018,7 @@ In 2004, RealNetworks launched Harmony, a technology that allowed songs purchase
 
 After 2004, RealPlayer's decline accelerated. YouTube was founded in February 2005, launched publicly later that year, and within months, it made the entire concept of a dedicated desktop media player feel obsolete for online video. Why download and install software when you could just watch video in your browser?
 
-RealNetworks tried to reinvent itself multiple times. It launched Rhapsody, one of the first music subscription services, in 2003—years before Spotify. It was a genuinely forward-thinking product, but it never achieved critical mass. RealNetworks eventually spun off Rhapsody as a separate company in 2010, and it was later acquired and rebranded as Napster (https://404memoryfound.com/posts/who-owns-napster-now.html) in 2016 (a fitting irony, given that the original Napster had disrupted the music industry in a completely different way).
+RealNetworks tried to reinvent itself multiple times. It launched Rhapsody, one of the first music subscription services, in 2003—years before Spotify. It was a genuinely forward-thinking product, but it never achieved critical mass. RealNetworks eventually spun off Rhapsody as a separate company in 2010, and it was later acquired and rebranded as Napster (https://404memoryfound.com/posts/who-owns-napster-now.html) in 2016 (a fitting irony, given that the original Napster had disrupted the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) in a completely different way).
 
 RealNetworks also pivoted into casual gaming with GameHouse, social gaming, and eventually artificial intelligence and facial recognition technology through a product called SAFR. The company that had once defined streaming media was now a scattered collection of unrelated businesses.
 
@@ -17723,81 +17723,88 @@ Timers in some Unix systems count seconds and will roll over in 2038, in the sam
 
 ---
 
-# How Napster Destroyed the Music Industry (Forever)
+# Did Napster Kill the Music Industry? The 2026 Math
 
 URL: https://404memoryfound.com/posts/napster-destroyed-music.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-17
+Published: 2026-03-17  Updated: 2026-09-11
 Topics: Music & Entertainment, Software & Apps
 
-## The Night Music Stopped Being a Product
+**Summary:** Napster did not kill the music industry, but it did end the CD business the industry was built on. US recorded music revenue fell from an all-time high of $14.6 billion in 1999, the year Napster launched, to about $8.5 billion in 2009. It reached a record $11.5 billion in 2025, with paid streaming subscriptions supplying 55.3% of the total.
 
-It's 1999. Napster (https://404memoryfound.com/posts/who-owns-napster-now.html) launches. Two weeks later, millions of people are using it. Three months later, tens of millions of people have it installed. Six months later, it's the fastest-growing application in the history of the internet (https://404memoryfound.com/#/post/first-online-purchase-pizza). And the music industry is panicking. They should be panicking.
+**Key facts:**
+- Launched: 1999, by Shawn Fanning
+- Shut down: July 2001, to comply with the injunction in A&M Records v. Napster
+- Industry peak before Napster: $14.6 billion in US recorded music sales in 1999
+- Low point after: About $8.5 billion in 2009, roughly $6 billion a year below the peak
+- Status today: US recorded music revenue hit a record $11.5 billion in 2025, across 106.5 million paid subscriptions
 
-Napster was simple. It was almost shockingly simple. You install it. You can share the MP3 files you have on your computer with other Napster users. And you can download MP3 files from other Napster users' computers. It's peer-to-peer file sharing. No servers storing illegal music. No central repository. Just users connecting to each other and swapping files.
+## How far did US music revenue actually fall?
 
-The music you wanted was there. Not just new releases. Not just popular songs. Everything. Every album from every artist ever recorded. Available instantly. Free. Just type the name of a song and it would search millions of computers and find it and download it to your computer.
+US recorded music sales hit an all-time high of $14.6 billion in 1999, the year Napster launched. Ten years later, in 2009, the same industry took in about $8.5 billion.
 
-And here's the thing: it was easy. Much easier than buying CDs. You didn't have to go to a store. You didn't have to pay $15-$17 for a CD when you only wanted one song. You didn't have to wait for anything. You just downloaded. It was the better product. It was faster, cheaper, and more convenient than the legal alternative.
+Roughly $6 billion a year disappeared from a business that had grown almost every year through the 1990s. It did not arrive as a single crash. It arrived as ten consecutive losing years, which is harder to fight and much harder to explain to shareholders.
 
-The music industry's response was panic. They sued Napster. They lobbied Congress. They talked about the "death of music" and "artists going unpaid." They were right to panic, but not for the reasons they thought. They thought Napster would destroy music. What it actually did was destroy the music industry's business model.
+Napster was not the only cause. The CD boom of the 1990s was driven partly by listeners rebuying albums they already owned on vinyl and cassette, and that replacement cycle was running out on its own. Broadband, CD burners and cheap hard drives all landed in the same window.
 
-Here's what they didn't understand: you can't unring a bell. Once users discovered that they could get any music they wanted, instantly and free, through Napster, they would never want to go back to buying CDs. You can sue Napster, you can shut it down, you can prosecute people for using it, but you can't make people forget that it was possible. You can't make the technology disappear. And most importantly, you can't make the genie go back in the bottle.
+What made the fall structural rather than cyclical was unbundling. A CD sold a dozen songs for one price whether you wanted a dozen or one. Once single tracks could be pulled out of an album, the album stopped being the unit of sale, and the pricing model built on it went with it. No court ruling could put that back, because the change was in what listeners expected to buy, not in what any one company was offering.
 
-The music industry tried. They shut down Napster in 2001. They sued P2P services. They prosecuted college students for downloading music. They destroyed LimeWire (https://404memoryfound.com/#/post/what-happened-to-limewire-file-sharing) and other file-sharing services. They did everything in their power to criminalize music sharing.
+## Why did the record labels sue instead of opening a store?
 
-And it didn't work. Because there were other P2P services. BitTorrent came along in 2003. Pirate Bay launched in 2003. Limewire was popular until 2011. And throughout the 2000s, millions of people kept downloading music illegally because the legal alternatives were still worse.
+The Recording Industry Association of America sued Napster in December 1999, months after it appeared. Metallica sued separately, and on July 11, 2000 drummer Lars Ulrich testified before the Senate Judiciary Committee, where he argued there was no honest way to assemble a collection the size of a Napster user's: "Walk into a record store, grab what you want and walk out."
 
-Let that sink in for a second. People had a choice between:
+Ulrich became the public face of the fight, which suited the labels. The quieter argument inside the companies was about margin. A CD at full price funded everything: advances, studios, radio promotion, the retail chains. Any authorized download store would have sold the same music for less, and nobody wanted to be the executive who halved the industry's revenue per customer.
 
-Option A: Pay $15 for a CD, drive to a store to buy it, bring it home, put it in a player, and listen to just that album.
+So they defended the disc. For about five years the most convenient music software in the world was also the illegal kind, and every shutdown produced a replacement: LimeWire (https://404memoryfound.com/posts/what-happened-to-limewire-file-sharing.html), Kazaa (https://404memoryfound.com/posts/what-happened-to-kazaa-p2p-wars.html), BitTorrent trackers. Suing one network never removed the demand that built it.
 
-Option B: Download any song you wanted instantly for free, organize it on your computer, burn it to a CD if you wanted physical media, and listen to it however you wanted.
+## What actually shut Napster down in 2001?
 
-And the music industry was shocked—SHOCKED—that people chose Option B.
+A federal court, in stages. In July 2000, US District Judge Marilyn Hall Patel granted the record companies a preliminary injunction ordering Napster to stop the trading of copyrighted recordings on its network. The Ninth Circuit stayed that order, heard the appeal, and on February 12, 2001 largely upheld it in A&M Records, Inc. v. Napster, Inc.
 
-It took until 2005 for the music industry to figure out what users actually wanted. And guess what? iTunes didn't offer anything fundamentally different from Napster except that you had to pay for it. But iTunes offered it through Apple, which had marketing power, which had brand credibility. And for the first time, the legal option was actually competitive with the illegal option.
+The appeals court held that Napster could be liable for both contributory and vicarious copyright infringement. It knew specific infringing files sat on the system, it had the ability to police them, and it benefited from the traffic they brought. The court also rejected the argument that users swapping complete songs were making fair use.
 
-iTunes charged 99 cents per song. That's more expensive than Napster (which was free), but it was less expensive than buying a whole CD for one song. You could buy just the songs you wanted. You could build a digital collection. And you were supporting artists (well, theoretically—iTunes' split meant artists actually got a tiny percentage).
+A revised injunction followed in March 2001, requiring Napster to keep infringing titles out of its index. Filtering a catalogue named by its own users was never going to work, and in July 2001 Napster switched the network off. The company filed for bankruptcy protection soon after. What survived was a name, bought and sold ever since (https://404memoryfound.com/posts/who-owns-napster-now.html) by companies with no connection to the original service.
 
-And here's what happened: piracy didn't stop, but it stabilized. Some people switched to iTunes. Some people kept pirating. The industry started to recover. They realized that the problem wasn't piracy—piracy was a symptom. The problem was that they weren't offering a product that was better than piracy. Once they did, some customers came back.
+## Is the music industry bigger now than before Napster?
 
-I swear I'm not making this up: the music industry would have been better off if they'd offered their own version of Napster in 2000 instead of suing it. If they'd created a digital music service in 2000 with a sensible pricing model, they could've owned the market. Instead, they fought it for five years, lost billions in revenue, and then watched Apple come in and build iTunes, which became the standard.
+In plain dollars, yes, and only recently. US recorded music revenue reached a record $11.5 billion in 2025, up 3.1% on 2024, according to the RIAA year-end report published in March 2026. Streaming supplied $9.75 billion of that total.
 
-And now, in 2026, the music industry is actually healthy again. Not because they defeated piracy—piracy still exists and always will. But because they finally built products that people wanted to pay for. Spotify costs $12 per month for unlimited music. Apple Music costs $11 per month. YouTube Music costs $12 per month. Amazon (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html) Music costs $9 per month. These services are cheaper than buying one CD, they have everything, and they're legal.
+Paid subscriptions are the business now. They brought in $6.38 billion in 2025, or 55.3% of every dollar the industry earned, across 106.5 million paid accounts in the United States.
 
-But it took 25 years to get there. And they could've had that product in 2000. They just refused to believe that users wanted to pay for convenience and access rather than owning physical media.
+"The last 20 years have been marked by unprecedented transformation for recorded music," RIAA chairman and chief executive Mitch Glazier said in the 2025 year-end report, pointing to the rise of streaming and the return of vinyl.
 
-The real damage Napster did went beyond just copying—it fundamentally broke the bargaining position of artists and labels. Before Napster, if you wanted music, you had to buy it. That gave artists and labels leverage. They controlled supply. After Napster, people realized they could get any music they wanted instantly, for free, completely on demand. That expectation never went away. Spotify didn't invent the idea of unlimited music—Napster did. Spotify just made the reality match the expectation that had already taken root.
+The caveat is inflation. $11.5 billion in 2025 is not the same money as $14.6 billion in 1999, and 26 years sit between those two figures, so the real peak is still the one Napster interrupted. If you want the conversion, we did the math on what a 1999 dollar is worth today (https://404memoryfound.com/posts/thousand-dollars-then-now.html).
 
-The collapsed music industry had a cascade effect that's still playing out. When CD sales cratered and digital sales couldn't compensate, artists lost the revenue stream that had funded albums, studios, and touring infrastructure. For a while, the industry was in actual contraction. Some artists quit. Some never got record deals because the economics didn't work. The survivors adapted—they went on tour more, they licensed music to film and TV, they built Patreon relationships with fans. But the golden era of a musician being able to make a living just from album sales? That ended. Napster proved you couldn't put that bottle back. Streaming services like Spotify are now supposedly "saving" the industry, but they're paying a fraction of what CDs paid, and artists still can't make a living just from streams unless they have millions of listeners.
+## What did listeners actually take from Napster?
 
-## Then vs Now: Music Distribution
+The expectation, not the software. Before 1999, access to music was rationed by what a store stocked and what you could afford that week. Napster replaced that with a search box, and once people had used one, no service could go back to selling scarcity.
 
-In 1999, if you wanted to listen to music, you bought CDs. You went to a store, found the album, paid $15-$17, brought it home, and listened to it. Your music was tied to physical media. You could share the CD with friends but not the digital files. The industry controlled distribution through retail stores and record labels. Artists made money primarily from CD sales and live performances.
+Everything that has made money since has had to match that standard first and charge second. Apple's iTunes Store did it by selling songs one at a time. Subscription streaming did it by dropping ownership altogether: pay monthly, get the catalogue, keep nothing.
 
-By 2026, if you want to listen to music, you subscribe to a streaming service for $9-$15 per month. You have access to every song ever recorded. You don't own anything—you're just renting access. Artists make money primarily from streaming royalties, which pay fractions of a cent per stream. The industry is healthier financially than it was in 2000 despite this model, because volume makes up for the lower per-unit price.
+The trade was real, and artists carry most of it. Album sales paid out in lumps per unit. Streaming pays fractions per play, which rewards deep catalogues and constant releases over one strong record. Touring, merchandise and sync licensing now carry weight they never had to carry in 1999. Vinyl came back as a collector's format in the same stretch, which says something about what people will still pay to own.
 
-The shift from ownership to subscription completely changed the music industry. It also changed how artists make money—now you need billions of streams to make what you used to make from selling thousands of CDs. But the convenience and accessibility are infinitely better than they were in 1999.
+The business survived the thing it said would end it, but not in the form it was defending. The labels won in court in 2001 and still lost the product argument, which is the part worth remembering.
 
 ## Frequently Asked Questions
 
-### Who created Napster?
+### Did Napster kill the music industry?
 
-Napster was created by Shawn Fanning when he was 19 years old and attending Northeastern University. Fanning designed the peer-to-peer file-sharing system that allowed users to share music files directly with each other, creating the first widely-used music file-sharing platform. Sean Parker, who later founded Facebook (https://404memoryfound.com/#/post/rise-and-fall-of-myspace), was Napster's first president.
+No. Napster, the file-sharing service that ran from 1999 until July 2001, ended the CD business the music industry had been built on: US recorded music sales fell from $14.6 billion in 1999 to about $8.5 billion in 2009. The industry itself recovered on subscription streaming and set a record of $11.5 billion in 2025.
 
-### Why was Napster shut down?
+### How much money did the music industry lose after Napster?
 
-Napster was shut down in 2001 following a lawsuit from the Recording Industry Association of America (RIAA). The court ruled that Napster was liable for copyright infringement because they knowingly facilitated the sharing of copyrighted music. Napster was forced to shut down, though the technology and concept inspired numerous other peer-to-peer file-sharing services that followed.
+US recorded music revenue fell from an all-time high of $14.6 billion in 1999, the year Napster launched, to about $8.5 billion in 2009, roughly $6 billion a year. Revenue did not reach record territory again until the streaming era, hitting $11.5 billion in 2025.
 
-### What replaced Napster?
+### Is Napster still around in 2026?
 
-After Napster shut down, other P2P services like Limewire, BitTorrent, and The Pirate Bay became popular for illegal music sharing. Eventually, legal streaming services like iTunes (2003), Spotify (2008), and Apple Music (2015) provided legal alternatives that competed on convenience and price, finally giving consumers reasons to pay for music again.
+The original Napster file-sharing network has been gone since July 2001, when the company switched it off to comply with the injunction in A&M Records v. Napster. The Napster name survived as a brand, has changed hands repeatedly since, and belongs to owners with no connection to the service that launched in 1999.
 
-### How did Napster change the music industry?
-
-Napster proved that users preferred digital distribution over physical media and that they would pirate music rather than pay high prices (https://404memoryfound.com/#/post/90s-tech-inflation-calculator) for CDs. This forced the music industry to develop legal digital distribution methods. It took years, but eventually streaming services emerged as the dominant way people consume music, fundamentally transforming how artists are paid and how the industry operates.
-
+**Sources:**
+- RIAA, 2025 Year-End Music Industry Revenue Report: https://www.riaa.com/reports/2025-year-end-music-industry-revenue-report-riaa/
+- Billboard, 'RIAA 2025 Music Report: Revenue Tops $11.5B as Streaming, Vinyl Grow': https://www.billboard.com/pro/riaa-2025-music-report-revenue-streaming-vinyl/
+- The Music Business Journal, 'A Decade to Remember: Changes in the Music Industry, 1999 to 2009': https://www.thembj.org/2009/10/a-decade-to-remember-changes-in-the-music-industry-1999-2009/
+- CNN transcript, Senate Judiciary Committee hearing on downloading music, July 11, 2000: https://www.cnn.com/TRANSCRIPTS/0007/11/se.01.html
+- A&M Records, Inc. v. Napster, Inc., 239 F.3d 1004 (9th Cir. 2001): https://law.justia.com/cases/federal/appellate-courts/F3/239/1004/636120/
 
 ---
 
