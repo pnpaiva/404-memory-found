@@ -365,8 +365,9 @@
         "yahoo verizon apollo",
         "yahoo net worth"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "who-owns-yahoo-now"
     },
     {
       "title": "The Windows 95 Startup Sound: Brian Eno's 3.25 Seconds",
