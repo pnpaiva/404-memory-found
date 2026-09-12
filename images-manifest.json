@@ -722,6 +722,16 @@
   "thumb": "/img/thumb/superman-pizza-delivery-ee1511.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gretna%2C_Louisiana_Sept_2018_Minit_Mart.jpg/960px-Gretna%2C_Louisiana_Sept_2018_Minit_Mart.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Gretna%2C_Louisiana_Sept_2018_Minit_Mart.jpg",
+  "ext": "jpg",
+  "file": "/img/gretna-louisiana-sept-2018-minit-mart-d85731.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/gretna-louisiana-sept-2018-minit-mart-d85731.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/IBM_PC-5150.JPG/960px-IBM_PC-5150.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:IBM_PC-5150.JPG",
   "ext": "jpg",
