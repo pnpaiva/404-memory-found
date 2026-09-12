@@ -606,8 +606,9 @@
         "barnes and noble comeback"
       ],
       "demand_note": "Americans who watched Borders die assume Barnes & Noble went with it and search to check before driving to a store.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-barnes-and-noble-still-open"
     },
     {
       "title": "Is Hollywood Video Still Around? The Last Video Store",
