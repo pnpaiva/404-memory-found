@@ -585,8 +585,9 @@
         "claire's bankruptcy store closings"
       ],
       "demand_note": "Claire's is where a huge share of American women got their ears pierced, so every closure list gets shared and searched by name.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "who-owns-claires-now"
     },
     {
       "title": "Is Barnes and Noble Still Open? 60 New Stores in 2026",
