@@ -2270,6 +2270,16 @@
   "thumb": "/img/thumb/pizza-margherita-stu-spivack-f4be85.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Hollywood_Video_closing_-_Aloha%2C_Oregon.jpg/960px-Hollywood_Video_closing_-_Aloha%2C_Oregon.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Hollywood_Video_closing_-_Aloha%2C_Oregon.jpg",
+  "ext": "jpg",
+  "file": "/img/hollywood-video-closing-aloha-oregon-8ef12d.jpg",
+  "height": 992,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/hollywood-video-closing-aloha-oregon-8ef12d.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sega-Game-Gear-WB.png/960px-Sega-Game-Gear-WB.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sega-Game-Gear-WB.png",
   "ext": "png",

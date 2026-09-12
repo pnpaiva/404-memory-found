@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Is Hollywood Video Still Around? Every Store Closed</title>
+      <link>https://404memoryfound.com/posts/is-hollywood-video-still-around.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/is-hollywood-video-still-around.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Hollywood Video is gone. Movie Gallery liquidated the last 1,900-plus US stores in 2010, and its late fees chased 3.3 million customers for years.</description>
+      <enclosure url="https://404memoryfound.com/pins/is-hollywood-video-still-around.jpg" length="237008" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/is-hollywood-video-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Then vs Now</category>
+    </item>
+    <item>
       <title>Is Barnes and Noble Still Open? 720+ Stores in 2026</title>
       <link>https://404memoryfound.com/posts/is-barnes-and-noble-still-open.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/is-barnes-and-noble-still-open.html</guid>
@@ -234,18 +246,6 @@
       <media:content url="https://404memoryfound.com/pins/is-sega-still-making-games.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Is RuneScape Still Popular in 2026? OSRS vs RS3</title>
-      <link>https://404memoryfound.com/posts/is-runescape-still-popular-2026.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-runescape-still-popular-2026.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Is RuneScape still popular? Old School RuneScape peaked above 240,000 players at once in 2025, roughly eight times RuneScape 3. Here is who owns Jagex.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-runescape-still-popular-2026.jpg" length="481925" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-runescape-still-popular-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Internet Culture</category>
     </item>
   </channel>
 </rss>
