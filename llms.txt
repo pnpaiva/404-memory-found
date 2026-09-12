@@ -153,6 +153,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Did Yahoo Turn Down Google for $1 Million in 1998?](https://404memoryfound.com/posts/yahoo-rejected-google.html): Yahoo never bought Google and Google never bought Yahoo. The $1 million story is thinly sourced, and the real offer in 2002 was $3 billion.
 
 ## Hardware
+- [Is an Anbernic Handheld Worth It for Game Boy?](https://404memoryfound.com/posts/anbernic-handheld-worth-it-game-boy.html): An Anbernic handheld is worth it for Game Boy games if you bring your own files. Prices start under $60, but US shipping stopped in April 2025.
 - [Does Chuck E. Cheese Still Have Animatronics?](https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html): Chuck E. Cheese still has animatronics, but only in five US stores. Every other stage came out by the end of 2024, and the robots went to Kansas.
 - [Sega Genesis Games in 2026: The Best Way to Play](https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html): The best way to play Sega Genesis games in 2026 is a used console and a flash cart, about $65 for the console, or $49.99 a year with no hardware.
 - [Betamax vs VHS: Why Sony Lost the First Format War](https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html): Betamax vs VHS came down to tape length, price and factories, not picture quality. Sony sold 18 million decks and made tapes until 2016.
@@ -213,6 +214,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [When Apple Almost Went Bankrupt in 1997 (And Microsoft Saved It)](https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html): In 1997, Apple was 90 days from bankruptcy. Then Steve Jobs returned and Microsoft invested $150 million. Here's the full story of Apple's near-death.
 
 ## Gaming
+- [Is an Anbernic Handheld Worth It for Game Boy?](https://404memoryfound.com/posts/anbernic-handheld-worth-it-game-boy.html): An Anbernic handheld is worth it for Game Boy games if you bring your own files. Prices start under $60, but US shipping stopped in April 2025.
 - [Is GameStop Still in Business? 1,598 Stores Left](https://404memoryfound.com/posts/is-gamestop-still-in-business.html): GameStop is still in business in 2026, but it closed 727 US stores in one year and ended January with 1,598 left. Games are now under 12% of sales.
 - [How to Run 90s PC Games on Windows 11 in 2026](https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html): Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.
 - [Sega Genesis Games in 2026: The Best Way to Play](https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html): The best way to play Sega Genesis games in 2026 is a used console and a flash cart, about $65 for the console, or $49.99 a year with no hardware.

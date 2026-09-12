@@ -662,6 +662,16 @@
   "thumb": "/img/thumb/googleplex-patio-aug-2014-ed5db6.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Anbernic_logo.png/960px-Anbernic_logo.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Anbernic_logo.png",
+  "ext": "png",
+  "file": "/img/anbernic-logo-769164.png",
+  "height": 137,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/anbernic-logo-769164.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kodak_Retina_%28Typ_117%29%2C_1934.JPG/960px-Kodak_Retina_%28Typ_117%29%2C_1934.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Kodak_Retina_%28Typ_117%29%2C_1934.JPG",
   "ext": "jpg",
