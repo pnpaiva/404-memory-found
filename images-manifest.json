@@ -1923,6 +1923,16 @@
   "thumb": "/img/thumb/floppy-disk-2009-g1-c151da.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Close_Boston_Market_restaurant.jpg/960px-Close_Boston_Market_restaurant.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Close_Boston_Market_restaurant.jpg",
+  "ext": "jpg",
+  "file": "/img/close-boston-market-restaurant-104722.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/close-boston-market-restaurant-104722.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Napa_Valley_grapevines.jpg/800px-Napa_Valley_grapevines.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Napa_Valley_grapevines.jpg",
   "http": 404,
