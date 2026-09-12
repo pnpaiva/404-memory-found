@@ -627,8 +627,9 @@
         "last video rental store in america"
       ],
       "demand_note": "Blockbuster gets all the nostalgia coverage, so people who rented at Hollywood Video or Family Video search separately for what happened to theirs.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-hollywood-video-still-around"
     },
     {
       "title": "Is Borders Still Around? Who Owns the Name Now",
