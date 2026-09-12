@@ -628,6 +628,16 @@
   "thumb": "/img/thumb/ibookg4-699485.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Barnes_%26_Noble_Bookstore_-_panoramio.jpg/960px-Barnes_%26_Noble_Bookstore_-_panoramio.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Barnes_%26_Noble_Bookstore_-_panoramio.jpg",
+  "ext": "jpg",
+  "file": "/img/barnes-noble-bookstore-panoramio-97e00b.jpg",
+  "height": 720,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/barnes-noble-bookstore-panoramio-97e00b.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Palm_Pilot_Professional_01.JPG/960px-Palm_Pilot_Professional_01.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Palm_Pilot_Professional_01.JPG",
   "http": 404,
