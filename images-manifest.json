@@ -1938,6 +1938,16 @@
   "thumb": "/img/thumb/zune-120-gb-accessories-70b403.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chuck_E._Cheese_animatronic%2C_Laguna_Hills%2C_CA.jpg/960px-Chuck_E._Cheese_animatronic%2C_Laguna_Hills%2C_CA.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Chuck_E._Cheese_animatronic%2C_Laguna_Hills%2C_CA.jpg",
+  "ext": "jpg",
+  "file": "/img/chuck-e-cheese-animatronic-laguna-hills-ca-b81b8a.jpg",
+  "height": 1920,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/chuck-e-cheese-animatronic-laguna-hills-ca-b81b8a.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gdc2010_newell_portal_BSOD.jpg/960px-Gdc2010_newell_portal_BSOD.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Gdc2010_newell_portal_BSOD.jpg",
   "ext": "jpg",

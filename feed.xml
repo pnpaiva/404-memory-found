@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Does Chuck E. Cheese Still Have Animatronics?</title>
+      <link>https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Chuck E. Cheese still has animatronics, but only in five US stores. Every other stage came out by the end of 2024, and the robots went to Kansas.</description>
+      <enclosure url="https://404memoryfound.com/pins/chuck-e-cheese-animatronics-still-there.jpg" length="243803" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/chuck-e-cheese-animatronics-still-there.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Then vs Now</category>
+      <category>Hardware</category>
+    </item>
     <item>
       <title>Is GameStop Still in Business? 1,598 Stores Left</title>
       <link>https://404memoryfound.com/posts/is-gamestop-still-in-business.html</link>
@@ -232,18 +244,6 @@
       <media:content url="https://404memoryfound.com/pins/windows-95-startup-sound-brian-eno.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Software &amp; Apps</category>
       <category>Music &amp; Entertainment</category>
-    </item>
-    <item>
-      <title>Who Owns Sears Now, and How Many Stores Are Left?</title>
-      <link>https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Sears is owned by Eddie Lampert&#x27;s Transformco and it is still trading. The last count found five full-line stores left, down from about 3,500.</description>
-      <enclosure url="https://404memoryfound.com/pins/who-owns-sears-now-stores-left.jpg" length="278063" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/who-owns-sears-now-stores-left.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Money &amp; Tech</category>
     </item>
   </channel>
 </rss>
