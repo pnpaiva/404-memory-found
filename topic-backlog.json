@@ -564,8 +564,9 @@
         "boston market closing"
       ],
       "demand_note": "Boston Market rotisserie chicken was a 1990s American dinner staple, and its near-total disappearance drives constant local-news searches.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "boston-market-locations-left"
     },
     {
       "title": "Is Claire's Closing? What the Bankruptcy Means for Stores",
