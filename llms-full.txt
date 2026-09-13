@@ -4,6 +4,97 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Does Nokia Still Make Phones? Who Makes Them Now
+
+URL: https://404memoryfound.com/posts/does-nokia-still-make-phones.html
+Author: Marcus Vale (404 Memory Found)
+Published: 2026-09-13
+Topics: Hardware, Business Blunders
+
+**Summary:** Nokia does not make phones, and has not made them since it agreed to sell its handset business to Microsoft on September 3, 2013. Since 2016 the Nokia name on a phone has belonged to HMD, a separate Finnish company that discontinued Nokia-branded smartphones at the start of 2025 and stopped selling phones in the United States in July 2025. Nokia itself is a network equipment maker headquartered in Espoo, Finland.
+
+**Key facts:**
+- Sold its phone business: To Microsoft, announced September 3, 2013, for EUR 5.44 billion in cash
+- What Microsoft did with it: Wrote down $7.6 billion and announced 7,800 layoffs on July 8, 2015
+- Brand licensee: HMD global, exclusive ten-year worldwide license signed May 18, 2016
+- Status today: No new Nokia-branded smartphones since early 2025; no HMD or Nokia phones sold in the US since July 2025
+- Owner today: Nokia Corporation, Espoo, Finland, a network equipment maker with EUR 19,889 million in 2025 net sales
+
+## What did Nokia actually sell to Microsoft in 2013?
+
+On September 3, 2013, Nokia agreed to hand its entire phone-making operation to Microsoft. Microsoft would pay EUR 3.79 billion for substantially all of Nokia's Devices and Services business, plus EUR 1.65 billion to license Nokia's patents, for a total transaction price of EUR 5.44 billion in cash.
+
+The headcount says more than the price does. Roughly 32,000 people were expected to transfer to Microsoft at closing, including 4,700 in Finland and 18,300 working directly in the manufacturing, assembly and packaging of products around the world.
+
+What stayed in Espoo was the Nokia name, the patent portfolio, the mapping unit and the network equipment business. Nokia the corporation did not go anywhere. It stopped being a phone company and kept everything else.
+
+That distinction is what trips people up. The Nokia 3310 (https://404memoryfound.com/posts/what-happened-to-nokia-3310.html) and the Nokia N-Gage (https://404memoryfound.com/posts/what-happened-to-nokia-ngage-gaming-phone.html) came out of a division that has not belonged to Nokia since the sale went through.
+
+## How badly did the Microsoft phone deal fail?
+
+Less than two years after that announcement, Microsoft quit. On July 8, 2015 it wrote down $7.6 billion against the Nokia acquisition, announced 7,800 layoffs and took a restructuring charge of roughly $800 million.
+
+The write-down was larger than the euro price Microsoft had paid for the hardware business. It had bought the factories, the supply chain and tens of thousands of workers, and the phones coming out of them were not selling.
+
+Microsoft said the job cuts were "primarily in the phone business", as TechCrunch reported on the day in 2015. The same report described a unit delivering lower revenue and lower unit volume than Microsoft had originally expected.
+
+So the sequence people usually get wrong runs like this. Nokia did not go bankrupt, and Microsoft did not shut Nokia down. Nokia sold one division, Microsoft ran that division into the ground in under two years, and the Nokia name was left sitting in Finland with nobody making a phone to put it on.
+
+## Who put the Nokia name on phones after 2016?
+
+On May 18, 2016, Nokia signed the agreement that has confused shoppers ever since. Nokia Technologies granted HMD global Oy, a newly founded company based in Finland, an exclusive global license to create Nokia-branded mobile phones and tablets for the next ten years.
+
+Nokia did not build those phones, did not own HMD and did not staff it. It licensed a trademark and collected royalties. Ramzi Haidamus, then president of Nokia Technologies, said so in the announcement: "Instead of Nokia returning to manufacturing mobile phones itself, HMD plans to produce mobile phones and tablets that can leverage and grow the value of the Nokia brand."
+
+HMD spent the license years selling budget Android handsets and cheap 4G feature phones, with a run of retro reissues rebuilding the 3310 and the 3210 for buyers who remembered the originals. It was a real business, and it was nothing like the company that had once outsold everyone.
+
+Anyone shopping for a phone in a US carrier store in the years after 2016 and seeing the Nokia logo on the box was looking at an HMD product. The relationship was a naming deal, closer to how Motorola Razr V3 (https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html) nostalgia gets recycled than to a corporate revival.
+
+## Can Americans buy a new Nokia phone in 2026?
+
+No. HMD discontinued the Nokia-branded smartphone range at the start of 2025 and moved the models into a legacy section of its site marked unavailable.
+
+Then it left the country outright. In July 2025 HMD confirmed it was pulling back from the United States and ending sales of both Nokia-branded and HMD-branded phones there, citing a "challenging geopolitical and economic environment", which in practice meant tariffs landing on hardware with very thin margins. HMD said it would keep honoring warranty coverage and supporting existing US customers through its global teams.
+
+The exclusive license that let HMD use the Nokia name on phones expires in 2026, and HMD has already replaced it with its own brand, shipping handsets badged HMD instead. Nokia-branded feature phones, the inexpensive 4G handsets sold in India, Africa and the Middle East, have continued past the smartphone cutoff under an extended arrangement, but they were never a US product and are not one now.
+
+So the answer to the status question is layered. Nokia has not made a phone since 2014, HMD stopped making Nokia smartphones in 2025, and no new Nokia handset is sold at retail in the United States.
+
+Where to find one today. The originals still turn up in quantity, because Nokia built them in enormous numbers and they refuse to break. Working 3310s, 8210s, 6310s and N-Gages circulate along with the parts that keep them alive: charger tips, back covers, swappable fascias and batteries. Most of it surfaces on Etsy's search page for vintage Nokia phones (https://www.etsy.com/search?q=vintage%20nokia%20phone). Price tracks condition and completeness far more than model, so a scuffed handset alone costs a fraction of the same phone boxed with its manual and charger, and any unit that has sat for 20 years needs a fresh battery before it holds a charge.
+
+## What does Nokia the company do now?
+
+Nokia is headquartered in Espoo, Finland and sells network equipment: the radios, routers and optical gear that carriers use to run mobile and fixed broadband networks. Its customers are telecom operators and governments, not shoppers.
+
+For 2025 the company reported net sales of EUR 19,889 million, comparable operating profit of EUR 2.0 billion and free cash flow of EUR 1.5 billion, with roughly 78,000 employees on average across the year. Justin Hotard runs it as president and chief executive.
+
+From January 1, 2026 Nokia operates through two segments, Network Infrastructure and Mobile Infrastructure. Consumer handsets do not appear anywhere in that structure, and brand licensing is a rounding error against a business of that size.
+
+That is the whole answer in one line. Nokia is a live, profitable company that has not built a phone in over a decade, and every Nokia handset sold since the 2016 agreement came from a licensee.
+
+## Frequently Asked Questions
+
+### Are Nokia phones still being made in 2026?
+
+Nokia-branded smartphones are not. HMD, the Finnish company that has held the exclusive license to the Nokia name on phones since the agreement signed on May 18, 2016, discontinued the Nokia smartphone range at the start of 2025 and stopped selling phones in the United States in July 2025. Nokia-branded feature phones are still produced under an extension of that license for markets outside the US.
+
+### Who owns the Nokia brand today?
+
+Nokia Corporation of Espoo, Finland owns the Nokia trademark and has never sold it. It licensed the name for phones and tablets to HMD global in a ten-year deal signed on May 18, 2016, and its own money comes from network equipment: EUR 19,889 million in net sales in 2025, with roughly 78,000 employees.
+
+### Why did Nokia stop making phones?
+
+Nokia sold the business rather than closing it. On September 3, 2013 Nokia agreed to sell substantially all of its Devices and Services operation to Microsoft for EUR 3.79 billion, with a further EUR 1.65 billion for a patent license, and about 32,000 staff moved across. Microsoft wrote down $7.6 billion of that purchase on July 8, 2015 and announced 7,800 layoffs.
+
+**Sources:**
+- Microsoft to acquire Nokia's Devices & Services business, license Nokia's patents and mapping services (Microsoft, September 3, 2013): https://news.microsoft.com/source/2013/09/03/microsoft-to-acquire-nokias-devices-services-business-license-nokias-patents-and-mapping-services/
+- Microsoft Writes Down $7.6B Of Its Nokia Acquisition, Announces 7,800 Layoffs (TechCrunch, July 8, 2015): https://techcrunch.com/2015/07/08/microsoft-writes-down-7-6b-of-its-nokia-acquisition-announces-7800-layoffs
+- Nokia signs strategic brand and intellectual property licensing agreement enabling HMD global to create a new generation of Nokia-branded mobile phones and tablets (Nokia, May 18, 2016): https://www.globenewswire.com/news-release/2016/05/18/841089/27866/en/Nokia-signs-strategic-brand-and-intellectual-property-licensing-agreement-enabling-HMD-global-to-create-new-generation-of-Nokia-branded-mobile-phones-and-tablets.html
+- HMD retreats from US market, ends Nokia phone sales amid economic pressures (TechSpot, July 2025): https://www.techspot.com/news/108640-hmd-global-retreats-us-market-ends-nokia-phone.html
+- Nokia Corporation Financial Report for Q4 2025 and full year 2025 (Nokia): https://www.nokia.com/newsroom/nokia-corporation-financial-report-for-q4-2025-and-full-year-2025/
+
+---
+
 # Who Owns Borders Now? The $13.9 Million Brand Sale
 
 URL: https://404memoryfound.com/posts/who-owns-borders-now-bookstore.html
@@ -5365,7 +5456,7 @@ Tele Atlas was a Belgian-Dutch company, founded in 1984, that had spent two deca
 
 Every consumer GPS device licensed map data from one of these two vendors. TomTom favored Tele Atlas. Garmin favored Navteq. The map updates pushed to consumers cost real money, often $50 to $100 per annual update, and the underlying license fees the device makers paid to Tele Atlas and Navteq were a meaningful part of every device's cost structure.
 
-In 2007, the slow consolidation of this layer turned into a war. On July 23, 2007, TomTom announced an agreed €2 billion bid for Tele Atlas, planning to vertically integrate the map supplier into its navigation business. Just over two months later, on October 1, 2007, Nokia announced it would acquire Navteq for $8.1 billion, a stunning price for a company most consumers had never heard of. Garmin briefly counter-bid for Tele Atlas in late October, forcing TomTom to raise its offer. The bidding war eventually settled at roughly €2.9 billion, and TomTom completed the Tele Atlas acquisition in mid-2008. Within a year, the two companies that controlled the world's road map data had been bought by their two biggest customers, Nokia on the device side and TomTom on the navigation side.
+In 2007, the slow consolidation of this layer turned into a war. On July 23, 2007, TomTom announced an agreed €2 billion bid for Tele Atlas, planning to vertically integrate the map supplier into its navigation business. Just over two months later, on October 1, 2007, Nokia (https://404memoryfound.com/posts/does-nokia-still-make-phones.html) announced it would acquire Navteq for $8.1 billion, a stunning price for a company most consumers had never heard of. Garmin briefly counter-bid for Tele Atlas in late October, forcing TomTom to raise its offer. The bidding war eventually settled at roughly €2.9 billion, and TomTom completed the Tele Atlas acquisition in mid-2008. Within a year, the two companies that controlled the world's road map data had been bought by their two biggest customers, Nokia on the device side and TomTom on the navigation side.
 
 Garmin, having lost out on Navteq, was suddenly in a bad position. Their primary map vendor was now owned by a competitor in the smartphone business. They scrambled, eventually deepening a license deal with Navteq under Nokia, but the writing was already on the wall. The map data layer was no longer a neutral utility. It was being absorbed into vertically integrated platforms.
 
@@ -5774,7 +5865,7 @@ Author: Marcus Vale (404 Memory Found)
 Published: 2026-05-08
 Topics: Hardware, Then vs Now
 
-Picture this. It is the autumn of 2000, and you are standing in a Cingular Wireless kiosk at the mall, holding a Nokia 3310 in your palm for the first time. The thing is hilariously small by year 2000 standards. It feels solid in a way that feels expensive but also somehow casual. The screen is monochrome, the keypad has these chunky tactile buttons that click when you press them, and the back is some swappable plastic shell in a color you actually picked out. A salesperson is telling you the battery lasts a week. You are pretty sure he is exaggerating, but he is not. Nothing about this device looks like the future. Everything about this device feels indestructible.
+Picture this. It is the autumn of 2000, and you are standing in a Cingular Wireless kiosk at the mall, holding a Nokia (https://404memoryfound.com/posts/does-nokia-still-make-phones.html) 3310 in your palm for the first time. The thing is hilariously small by year 2000 standards. It feels solid in a way that feels expensive but also somehow casual. The screen is monochrome, the keypad has these chunky tactile buttons that click when you press them, and the back is some swappable plastic shell in a color you actually picked out. A salesperson is telling you the battery lasts a week. You are pretty sure he is exaggerating, but he is not. Nothing about this device looks like the future. Everything about this device feels indestructible.
 
 Twenty-six years later, that exact same phone is still a meme. Still in drawers. Still in headlines whenever someone drops one and it survives a fall that would have shattered an iPhone into glittering pieces. The Nokia 3310 sold 126 million units, became the punchline of an internet joke that refuses to die, and got resurrected from the grave in 2017 because too many people would not let it go. This is the story of how a small Finnish company built a phone so good it accidentally turned into a cultural symbol, and then watched that exact symbol outlive the company itself.
 
@@ -11735,7 +11826,7 @@ There are law firms in the United States that use WordPerfect today. Not out of 
 
 The U.S. federal court system used WordPerfect as its standard for years. Some government agencies still do. Corel has maintained the product specifically for this market, releasing regular updates and ensuring compatibility with modern Windows versions. WordPerfect Office 2024 is a real product you can buy today.
 
-Which brings us to the modern parallel. This is essentially what happened to BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html), to Nokia, to any dominant platform player that gets disrupted. The technology doesn't vanish. It retreats to the niche where its specific strengths still matter, where the users who truly need it are willing to swim against the current. BlackBerry survived in government security circles. WordPerfect survived in legal document production. The mainstream moved on, but the specialists never left.
+Which brings us to the modern parallel. This is essentially what happened to BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html), to Nokia (https://404memoryfound.com/posts/does-nokia-still-make-phones.html), to any dominant platform player that gets disrupted. The technology doesn't vanish. It retreats to the niche where its specific strengths still matter, where the users who truly need it are willing to swim against the current. BlackBerry survived in government security circles. WordPerfect survived in legal document production. The mainstream moved on, but the specialists never left.
 
 ## What WordPerfect Got Right (and What It Missed)
 
@@ -13287,7 +13378,7 @@ The trade-offs were real. The camera was 0.3 megapixels, storage was minimal, th
 
 Success, mostly. Motorola spent the back half of the decade re-releasing the same phone. The V3i added a better camera and a memory card slot. The V3x and V3xx bolted on 3G. The Razr2 arrived in 2007 as the actual sequel, three years after the original, with the same hinge and the same silhouette.
 
-While that was happening, the rest of the industry moved to software. BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) owned corporate email. Nokia pushed Symbian. Apple shipped the iPhone in 2007, and the iPhone 3G took the US sales crown from the Razr line in the second half of 2008.
+While that was happening, the rest of the industry moved to software. BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) owned corporate email. Nokia (https://404memoryfound.com/posts/does-nokia-still-make-phones.html) pushed Symbian. Apple shipped the iPhone in 2007, and the iPhone 3G took the US sales crown from the Razr line in the second half of 2008.
 
 The V3 was discontinued that same year. Motorola had built the most popular phone in America and had nothing queued behind it, and the phone division spent the following years shrinking. The company whose flip phone had been as much of a status object as the iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html) became an also-ran in a market Apple and Samsung were splitting between them.
 
@@ -13508,7 +13599,7 @@ Topics: Gaming, Hardware, Business Blunders
 
 Picture this: it's late 2003, and you're standing in a Best Buy staring at something that doesn't quite make sense. It's too big to be a phone. It's too small to be a Game Boy (https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html). The screen is vertical when every other gaming device goes horizontal. The buttons are arranged like a phone's keypad, not a D-pad. And to make a phone call on this thing, you have to hold it sideways against your face like you're listening to a taco tell you a secret.
 
-This is the Nokia N-Gage. And if you were there, you know exactly what happened next: nothing. Almost nobody bought it. The people who did became the butt of every joke on every gaming forum on the internet. Nokia, the most powerful mobile phone company on the planet, had just launched what it believed would be the future of portable entertainment. Instead, it became one of the most notorious hardware failures in gaming history.
+This is the Nokia (https://404memoryfound.com/posts/does-nokia-still-make-phones.html) N-Gage. And if you were there, you know exactly what happened next: nothing. Almost nobody bought it. The people who did became the butt of every joke on every gaming forum on the internet. Nokia, the most powerful mobile phone company on the planet, had just launched what it believed would be the future of portable entertainment. Instead, it became one of the most notorious hardware failures in gaming history.
 
 But here's the thing about the N-Gage that I think gets lost in all the memes and the mockery: Nokia wasn't wrong about the idea. They were just horrifically, almost impressively wrong about the execution. And the story of how that happened is wilder than most people realize.
 
@@ -17267,7 +17358,7 @@ In some specific ways, yes. The original Zune had a larger screen, FM radio, and
 
 ### How much money did Microsoft lose on the Zune?
 
-While Microsoft never disclosed exact financials for the Zune division specifically, industry analysts estimated the total investment at between $1.5 billion and $2 billion over five years, covering hardware R&D, the Zune Marketplace platform, marketing campaigns (including a reported $100 million launch campaign), and ongoing software development. Given the device's minimal sales volume and tiny market share, it's reasonable to conclude that Microsoft lost the vast majority of that investment. The Zune was consistently cited as one of Microsoft's most expensive product failures until the $7.6 billion Nokia acquisition writedown in 2015.
+While Microsoft never disclosed exact financials for the Zune division specifically, industry analysts estimated the total investment at between $1.5 billion and $2 billion over five years, covering hardware R&D, the Zune Marketplace platform, marketing campaigns (including a reported $100 million launch campaign), and ongoing software development. Given the device's minimal sales volume and tiny market share, it's reasonable to conclude that Microsoft lost the vast majority of that investment. The Zune was consistently cited as one of Microsoft's most expensive product failures until the $7.6 billion Nokia (https://404memoryfound.com/posts/does-nokia-still-make-phones.html) acquisition writedown in 2015.
 
 
 ---
@@ -18075,81 +18166,102 @@ Hotmail was founded by Sabeer Bhatia and Jack Smith, who launched it on July 4, 
 
 ---
 
-# The History of GeoCities: The Internet's First Neighborhood
+# Does GeoCities Still Exist? Where the Pages Went
 
 URL: https://404memoryfound.com/posts/history-of-geocities-websites.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-23
+Published: 2026-03-23  Updated: 2026-09-13
 Topics: Internet Culture, Then vs Now
 
-Before WordPress, before Squarespace, before you could spin up a website in thirty seconds with AI — there was GeoCities. And it was glorious.
+**Summary:** GeoCities no longer exists. Yahoo shut the service down on October 26, 2009 and deleted roughly 38 million member-built pages, and Yahoo Japan closed the last working version on March 31, 2019. The name now sits with Yahoo Inc., owned by funds managed by affiliates of Apollo Global Management since 2021, while the surviving pages live in the Internet Archive and a 641 GB Archive Team torrent.
 
-If you were online (https://404memoryfound.com/#/post/first-online-purchase-pizza) in the late 1990s, there's a solid chance you either had a GeoCities page or spent way too long browsing someone else's. It was the platform that turned millions of ordinary people into "webmasters" for the first time. Animated GIFs, auto-playing MIDI files, neon text on black backgrounds, guestbooks nobody signed, and "Under Construction" banners on pages that would never actually be finished. That was the GeoCities experience, and honestly? It was beautiful.
+**Key facts:**
+- Launched: 1994 as Beverly Hills Internet, founded by David Bohnett and John Rezner
+- Sold to Yahoo: January 28, 1999, about $3.57 billion in stock
+- Shut down: October 26, 2009 in the US; March 31, 2019 in Japan
+- Status today: Closed. No GeoCities page has been served from geocities.com since 2009
+- Owner today: Yahoo Inc., owned by funds managed by affiliates of Apollo Global Management since September 2021
 
-But GeoCities wasn't just a quirky relic of early web culture. At its peak, it was the third most-visited site on the entire internet (https://404memoryfound.com/#/post/first-online-purchase-pizza). It pioneered the idea that anyone — not just programmers or corporations — could have a presence online. And then Yahoo (https://404memoryfound.com/#/post/yahoo-rejected-google) bought it, ran it into the ground, and deleted nearly the whole thing. So let's talk about what happened.
+## How Beverly Hills Internet became a city of neighborhoods
 
-## How GeoCities Started: Beverly Hills to Area 51
+The service started in 1994 as Beverly Hills Internet, a small Los Angeles company run by David Bohnett and John Rezner. It handed out free web space and did one thing no other host bothered with: it gave every page an address inside a themed neighborhood.
 
-GeoCities launched in 1994 under the name Beverly Hills Internet, founded by David Bohnett and John Rezner. The original concept was simple but revolutionary: give people free web hosting, and organize their pages into themed "neighborhoods." If you were into Hollywood gossip, your page lived in "Hollywood." Science fiction fans set up shop in "Area 51." Tech enthusiasts gathered in "SiliconValley." There was even "Heartland" for family-oriented content and "WallStreet" for finance buffs.
+A science fiction page lived in Area 51. A celebrity fan page went to Hollywood. Programmers took SiliconValley, families took Heartland, and money pages went to WallStreet. The address told you what you were about to open, which mattered on a web that had no search engine worth using yet.
 
-This neighborhood metaphor was pure genius for the time. The internet was overwhelming and chaotic — there was no Google (https://404memoryfound.com/#/post/yahoo-rejected-google) yet, no social media, no algorithm recommending content. GeoCities gave people a sense of place on the web. Your page had an address like geocities.com/SunsetStrip/Palms/1234, and that address told other users something about who you were before they even clicked.
+The company took the GeoCities name and the model worked fast. It signed its millionth "homesteader," the company word for a member, in October 1997. By December 1998, Media Metrix counted more than 19 million unique visitors in a month and ranked the site the third most trafficked on the web, behind only AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) and Yahoo.
 
-By 1997, GeoCities had over a million "homesteaders" (their term for users), and the site was growing at a staggering rate. It ranked as the fifth most popular site on the web, and by 1998, it had climbed to third — behind only AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) and Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) themselves.
+That growth came from members building pages for each other and linking to their neighbors, the same loop MySpace would run on a bigger scale (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html) a few years later.
 
-## The Yahoo Acquisition: $3.6 Billion for a Ghost Town
+## Why the first FTC internet privacy case named GeoCities
 
-In January 1999, Yahoo announced it was acquiring GeoCities for approximately $3.6 billion in stock. At the time, it seemed like a smart play. GeoCities had massive traffic, a huge user base, and the "user-generated content" model that everyone was chasing. Yahoo wanted to own the personal web.
+In August 1998, months before Yahoo made an offer, the company settled charges brought by the Federal Trade Commission. The agency said it had collected personal details through its membership form and passed them on while telling members the data was for something else.
 
-But almost immediately, things started going wrong. Yahoo's first move was to change GeoCities' terms of service, effectively claiming ownership over all content hosted on the platform. The backlash was instant and fierce. Users organized protests, media outlets ran critical stories, and Yahoo was forced to backtrack within days. It was one of the first major internet privacy controversies, years before Facebook would make such scandals routine.
+"GeoCities misled its customers, both children and adults, by not telling the truth about how it was using their personal information," said Jodie Bernstein, director of the FTC's Bureau of Consumer Protection, in the agency's 1998 announcement.
 
-After the terms-of-service fiasco, Yahoo gradually stripped away what made GeoCities special. The neighborhood structure was dismantled. The community tools were neglected. Yahoo tried to monetize the platform with ads and premium tiers, but the magic was already fading. By the mid-2000s, GeoCities was a ghost town — its pages still online but largely abandoned, frozen in 1999-era HTML like digital time capsules.
+The settlement carried no admission of wrongdoing. What it carried instead was a set of rules the rest of the web later inherited: post a clear privacy notice saying what is collected and who receives it, get parental consent before collecting anything from children 12 and under, and give members a way to have their details removed from third-party databases.
 
-Then, on April 23, 2009, Yahoo announced it was shutting GeoCities down entirely. The closure happened on October 26, 2009, and with it, an estimated 38 million user-created pages vanished from the internet. Yahoo didn't just close GeoCities — it deleted it. Years of personal expression, amateur creativity, fan fiction, recipe collections, pet tribute pages, and countless other slices of human life on the early web were gone.
+It was the FTC's first internet privacy case. The privacy policy link at the bottom of almost every page in 2026 traces back to a consent order about a free homepage service.
 
-## The Archive Team and the Fight to Save GeoCities
+## What Yahoo paid, and the protest that followed
 
-When Yahoo announced the shutdown, a group of digital archivists called the Archive Team sprang into action. Led by Jason Scott — the same guy behind textfiles.com and later a key figure at the Internet Archive — volunteers worked frantically to download as many GeoCities pages as possible before the servers went dark.
+Yahoo agreed to buy the company on January 28, 1999 in an all-stock deal valued at about $3.57 billion. Yahoo exchanged 21,640,342 of its own shares for the GeoCities stock it did not already hold. TechCrunch, looking back in 2009, put the value at closing lower, at $2.87 billion, because Yahoo shares moved between announcement and completion.
 
-They managed to save roughly one terabyte of data, which might not sound like much today but represented millions of individual web pages. The archive was eventually made available through the Internet Archive's Wayback Machine and through dedicated projects like the "One Terabyte of Kilobyte Age" Tumblr (https://404memoryfound.com/posts/what-happened-to-tumblr-yahoo-billion-dollar-mistake.html), which automatically posted screenshots of recovered GeoCities pages, one at a time, like postcards from a demolished neighborhood.
+The trouble started with paperwork. Yahoo rewrote the terms of service in 1999 in language that appeared to hand it the right to reuse anything a member had posted, with no payment, credit or notice.
 
-The GeoCities archive has since become a valuable resource for researchers, artists, and anyone interested in understanding what the early web actually looked and felt like. It's messy, chaotic, deeply personal, and completely unlike the polished, algorithm-driven internet we use today.
+Members answered with a boycott that became known as the Haunting. They stripped their own pages back to bare backgrounds, deleted the animated GIFs and the visitor counters, and replaced the content with excerpts of the offending terms. Whole neighborhoods went grey at once.
 
-## Why GeoCities Actually Mattered
+Yahoo backed down inside a week and rewrote the terms to leave rights with the people who had made the pages. A user base had renegotiated a platform contract by refusing to use the platform, five years before Facebook existed.
 
-It's easy to laugh at GeoCities pages today. The blinking text, the tiled backgrounds, the visitor counters stuck at 47. But GeoCities represented something genuinely important: the democratization of online publishing. Before GeoCities, having a website meant knowing HTML (or paying someone who did), finding a hosting provider, and navigating technical setup that was way beyond most people.
+## Who owns GeoCities today?
 
-GeoCities changed that. Its page builder was primitive by modern standards, but it let a 14-year-old in Ohio create a Dragon Ball Z fan page, a retired teacher in Florida share gardening tips, and a small business in Texas put up a contact page — all for free. It was the original "everyone can be a creator" platform, decades before YouTube or TikTok made that phrase a cliché.
+The name belongs to Yahoo Inc., and Yahoo is owned by funds managed by affiliates of Apollo Global Management (https://404memoryfound.com/posts/who-owns-yahoo-now.html), which completed a roughly $5 billion purchase in September 2021. There is no product left for anyone to run. The brand is a dormant asset attached to a domain that serves no pages.
 
-GeoCities also pioneered many concepts we take for granted today. The idea of themed communities? That's basically subreddits. User-generated content driving a platform's value? That's every social media company's business model. Free hosting supported by ads? That's the entire modern web. GeoCities didn't just predict Web 2.0 — it was Web 2.0, just five years too early.
+Yahoo announced the shutdown on April 23, 2009 and stopped taking new members that day. Traffic had already collapsed: comScore counted 11.5 million US unique visitors in March 2009, down 24 percent from 15.1 million a year earlier. The service went dark on October 26, 2009, and roughly 38 million member-built pages went with it.
 
-## Then vs Now: GeoCities vs Modern Website Builders
+Yahoo kept no copy. Members were told to download their own files if they wanted them, and old geocities.com addresses now bounce to a Yahoo page explaining that the service closed.
 
-The contrast between GeoCities and today's website-building tools tells you everything about how the internet has evolved. GeoCities gave you a blank page and some basic tools. You had to figure out HTML tags, choose your own colors (often badly), and manually upload every image. There was no drag-and-drop, no templates, no AI assistant offering to write your About page.
+One outpost lasted a decade longer. Yahoo Japan ran its own version until March 31, 2019, blaming profitability and system problems, and that closure ended the service as a live product anywhere in the world.
 
-Modern platforms like Squarespace, Wix, and WordPress.com give you professionally designed templates, responsive layouts, built-in SEO tools, e-commerce integration, and analytics dashboards. You can have a polished, professional-looking website live in under an hour. That's an incredible advancement in accessibility and functionality.
+## How much of it did anyone manage to save?
 
-But something was lost in that transition. GeoCities pages were weird in the best possible way. They reflected the actual personality of the person who made them, not the aesthetic preferences of a template designer. Every page was different. Every page was someone's attempt to express themselves online, without any algorithm telling them what would "perform" well. There was no engagement metric, no follower count, no monetization strategy. Just a person and their page.
+Two rescue efforts ran at the same time. The Internet Archive ran deep crawls from July to October 2009, including sites nominated by the public, and serves those captures through the Wayback Machine as its GeoCities Special Collection.
 
-Today's web is faster, prettier, more functional, and infinitely more useful. But it's also more homogeneous. Every Squarespace site looks like a Squarespace site. Every Instagram profile follows the same grid logic. GeoCities was messy and amateurish, but it was also genuinely diverse in a way the modern web rarely manages to be.
+Archive Team, a volunteer group co-founded by Jason Scott in 2009, ran its own harvest from April to October 2009 with dozens of people and hundreds of machine instances. In 2010 it published the result as a single 641 GB torrent, still the largest public block of this material anywhere.
+
+Scott did not soften his view of what Yahoo had done. He told Time in 2009 that the site had been "the largest self-created folk-art collection in the history of the world," and that Yahoo "found the way to destroy the most massive amount of history in the shortest amount of time with absolutely no recourse."
+
+Artists Olia Lialina and Dragan Espenschied then built something out of that torrent. Their project One Terabyte of Kilobyte Age began posting automated screenshots of rebuilt pages on February 7, 2013, one every twenty minutes, rendered in period-correct browsers. It has since been shown in galleries and treated as an art archive rather than a backup.
+
+## What replaced it for people who want a homepage?
+
+The direct heir is Neocities, launched in 2013 by Kyle Drake with the stated goal of reviving the free web hosting that GeoCities used to provide. A free site gets 1 GB of storage and 200 GB of bandwidth, runs no server-side code, and by May 2026 the service had hosted more than 1,612,500 sites.
+
+The bigger answer is that the audience moved. Squarespace, Wix and WordPress.com absorbed the people who wanted a presentable page, and social platforms absorbed everyone who only wanted somewhere to post. Both traded the handmade look for templates.
+
+David Bohnett, who started the company, describes the loss as one of purpose rather than design. "GeoCities was not about self-promotion. It was about sharing your interest and your knowledge," he told Gizmodo in 2022. In the same interview he said what surprised him was "how far away we've gotten from that original intent."
+
+A few pages from that era are still served at their original addresses (https://404memoryfound.com/posts/90s-websites-still-online.html), though every one of them is hosted somewhere else.
 
 ## Frequently Asked Questions
 
 ### When did GeoCities shut down?
 
-Yahoo officially shut down GeoCities on October 26, 2009, after announcing the closure in April of that year. The Japanese version of GeoCities lasted longer, finally closing on March 31, 2019. When the main site closed, an estimated 38 million user-created web pages were deleted from Yahoo's servers.
+Yahoo shut GeoCities down in the United States on October 26, 2009, six months after announcing the closure on April 23, 2009. Roughly 38 million member-built pages were deleted, and Yahoo kept no copy of them. Yahoo Japan ran a separate GeoCities until March 31, 2019, which was the last working version of the service anywhere.
 
 ### Can you still see old GeoCities pages?
 
-Yes, many GeoCities pages were preserved by the Archive Team and are accessible through the Internet Archive's Wayback Machine at web.archive.org. You can search for specific GeoCities URLs or browse archived pages. Projects like "One Terabyte of Kilobyte Age" also showcase recovered GeoCities pages. However, not every page was saved — the Archive Team estimated they captured roughly 1 terabyte of the total content.
+Yes. The Internet Archive crawled GeoCities from July to October 2009 and serves those captures through the Wayback Machine as its GeoCities Special Collection. Archive Team's parallel harvest, published in 2010 as a 641 GB torrent, holds more material again. Neither copy is complete, and the pages nobody ever linked to are the ones most likely missing.
 
 ### How much did Yahoo pay for GeoCities?
 
-Yahoo acquired GeoCities in 1999 for approximately $3.57 billion in stock, making it one of the largest internet acquisitions of the dot-com era. Just ten years later, Yahoo shut the entire platform down. The acquisition is now widely considered one of the worst deals in internet history, alongside Yahoo's decision to turn down buying Google for $1 million.
+Yahoo announced its purchase of GeoCities on January 28, 1999 at about $3.57 billion in stock, exchanging 21,640,342 Yahoo shares for the rest of the company. TechCrunch later put the value at closing at $2.87 billion, because Yahoo's share price moved between announcement and completion. Yahoo shut the service down ten years after buying it, in October 2009.
 
-### What was the most popular GeoCities neighborhood?
-
-The most popular GeoCities neighborhoods included "Area 51" (science fiction, fantasy, and paranormal content), "Hollywood" (entertainment and celebrity fan pages), "SiliconValley" (technology and computing), and "Heartland" (family and community content). Area 51 and Hollywood consistently had the most pages and traffic throughout GeoCities' peak years in the late 1990s.
-
+**Sources:**
+- Internet Site Agrees to Settle FTC Charges of Deceptively Collecting Personal Information in Agency's First Internet Privacy Case, Federal Trade Commission, 1998: https://www.ftc.gov/news-events/news/press-releases/1998/08/internet-site-agrees-settle-ftc-charges-deceptively-collecting-personal-information-agencys-first
+- Yahoo Quietly Pulls The Plug On Geocities, TechCrunch, 2009: https://techcrunch.com/2009/04/23/yahoo-quietly-pulls-the-plug-on-geocities
+- Internet Atrocity! GeoCities' Demise Erases Web History, Time, 2009: https://time.com/archive/6906661/internet-atrocity-geocities-demise-erases-web-history/
+- GeoCities Special Collection 2009, Internet Archive: https://archive.org/web/geocities.php
+- The Founder of GeoCities on What Killed the 'Old Internet', Gizmodo, 2022: https://gizmodo.com/interview-with-geocities-founder-on-the-new-web-tiktok-1849179509
 
 ---
 
