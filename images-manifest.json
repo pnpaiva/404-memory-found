@@ -702,6 +702,16 @@
   "thumb": "/img/thumb/ps2-slim-console-set-0cfd62.png",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Closing_Borders_Books_%26_Music_-_Waters_Place%2C_Ann_Arbor%2C_MI_01.jpg/960px-Closing_Borders_Books_%26_Music_-_Waters_Place%2C_Ann_Arbor%2C_MI_01.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Closing_Borders_Books_%26_Music_-_Waters_Place%2C_Ann_Arbor%2C_MI_01.jpg",
+  "ext": "jpg",
+  "file": "/img/closing-borders-books-music-waters-place-ann-arbor-mi-01-fcac73.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/closing-borders-books-music-waters-place-ann-arbor-mi-01-fcac73.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Wall_Street_and_the_New_York_Stock_Exchange_%287236994300%29.jpg/960px-Wall_Street_and_the_New_York_Stock_Exchange_%287236994300%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Wall_Street_and_the_New_York_Stock_Exchange_%287236994300%29.jpg",
   "ext": "jpg",

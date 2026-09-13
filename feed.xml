@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns Borders Now? The $13.9 Million Brand Sale</title>
+      <link>https://404memoryfound.com/posts/who-owns-borders-now-bookstore.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-borders-now-bookstore.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Borders closed its last US stores in September 2011. Barnes &amp; Noble owns the name now, bought for $13.9 million with 48 million customer records.</description>
+      <enclosure url="https://404memoryfound.com/pins/who-owns-borders-now-bookstore.jpg" length="249434" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/who-owns-borders-now-bookstore.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Is Hollywood Video Still Around? Every Store Closed</title>
       <link>https://404memoryfound.com/posts/is-hollywood-video-still-around.html</link>
@@ -234,18 +246,6 @@
       <enclosure url="https://404memoryfound.com/pins/aol-youve-got-mail-voice-elwood-edwards.jpg" length="289379" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/aol-youve-got-mail-voice-elwood-edwards.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Is Sega Still Making Games? Life After the Dreamcast</title>
-      <link>https://404memoryfound.com/posts/is-sega-still-making-games.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-sega-still-making-games.html</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Is Sega still making games? Yes. Its games arm sold 326.6 billion yen worth last fiscal year, and Sonic 3 grossed 492.2 million dollars.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-sega-still-making-games.jpg" length="227369" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-sega-still-making-games.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
