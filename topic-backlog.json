@@ -690,8 +690,9 @@
         "does columbia house still exist"
       ],
       "demand_note": "The 2026 shutdown is fresh news and every American over 35 remembers filling out the stamp sheet for 12 CDs for a penny.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-columbia-house-still-around"
     },
     {
       "title": "Can You Still Get Dial-Up Internet in 2026? Who Sells It",
