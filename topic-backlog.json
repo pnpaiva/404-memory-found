@@ -731,8 +731,9 @@
         "netflix last dvd shipped"
       ],
       "demand_note": "The red envelope is the single most recognizable object of 2000s American home video and its 2023 ending still surprises people.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "netflix-dvd-mail-service-shutdown"
     },
     {
       "title": "Is Sam Goody Still Around? What Happened to Musicland",
