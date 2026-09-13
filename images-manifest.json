@@ -837,6 +837,16 @@
   "thumb": "/img/thumb/blackberry-8820-d33e3b.png",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sam_Goody_Store_at_Northwest_Plaza_%282002%29.jpg/960px-Sam_Goody_Store_at_Northwest_Plaza_%282002%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sam_Goody_Store_at_Northwest_Plaza_%282002%29.jpg",
+  "ext": "jpg",
+  "file": "/img/sam-goody-store-at-northwest-plaza-2002-4942be.jpg",
+  "height": 853,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sam-goody-store-at-northwest-plaza-2002-4942be.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sega-Saturn-Console-Set-Mk1.png/960px-Sega-Saturn-Console-Set-Mk1.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sega-Saturn-Console-Set-Mk1.png",
   "ext": "png",
