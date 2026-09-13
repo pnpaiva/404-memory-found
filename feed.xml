@@ -8,6 +8,18 @@
     <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>When Did Netflix Stop Mailing DVDs? The Last Disc</title>
+      <link>https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Netflix stopped mailing DVDs on September 29, 2023, after 25 years and 5.2 billion discs. The last red envelope held a Blu-ray of True Grit.</description>
+      <enclosure url="https://404memoryfound.com/pins/netflix-dvd-mail-service-shutdown.jpg" length="130609" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/netflix-dvd-mail-service-shutdown.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Music &amp; Entertainment</category>
+      <category>Internet Culture</category>
+    </item>
+    <item>
       <title>Is Columbia House Still Around? The 2026 Shutdown</title>
       <link>https://404memoryfound.com/posts/is-columbia-house-still-around.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/is-columbia-house-still-around.html</guid>
@@ -234,18 +246,6 @@
       <media:content url="https://404memoryfound.com/pins/does-yahoo-answers-still-exist.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Internet Culture</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Betamax vs VHS: Why Sony Lost the First Format War</title>
-      <link>https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Betamax vs VHS came down to tape length, price and factories, not picture quality. Sony sold 18 million decks and made tapes until 2016.</description>
-      <enclosure url="https://404memoryfound.com/pins/betamax-vs-vhs-format-war.jpg" length="263865" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/betamax-vs-vhs-format-war.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>
