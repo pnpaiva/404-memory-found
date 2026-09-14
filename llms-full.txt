@@ -17746,89 +17746,96 @@ A version called RealPlayer 20/20 was released in 2019 focused on personal video
 
 ---
 
-# The Rise and Fall of MySpace: How It Lost to Facebook
+# How MySpace Lost to Facebook and Sold for $35M
 
 URL: https://404memoryfound.com/posts/rise-and-fall-of-myspace.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-25
+Published: 2026-03-25  Updated: 2026-09-14
 Topics: Internet Culture, Business Blunders
 
-## Before Facebook, There Was MySpace (And It Was Everything)
+**Summary:** MySpace lost to Facebook between 2006 and 2009, after News Corporation bought it for $580 million in 2005 and tied its revenue to a $900 million Google advertising agreement that rewarded page views instead of happier users. Facebook overtook MySpace in the United States in 2009, and News Corporation sold the site for $35 million in June 2011. MySpace still exists in 2026 as a music and nostalgia site owned by the Vanderhook brothers, who say a relaunch is coming but have set no date.
 
-There was a time — and this might sound insane to anyone under 25 — when MySpace was the most visited website in the entire United States. Not Google (https://404memoryfound.com/#/post/yahoo-rejected-google). Not Amazon (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html). MySpace. In June 2006, MySpace.com surpassed Google as the most visited website in America, and at its peak, it had over 100 million registered users. It was where you went to discover new music, customize your online (https://404memoryfound.com/#/post/first-online-purchase-pizza) identity, and spend hours arguing about your Top 8 friends list.
+**Key facts:**
+- Launched: 2003, by Tom Anderson and Chris DeWolfe at eUniverse
+- Peak audience: About 70 million unique monthly visitors
+- Sold for: $35 million to Specific Media, June 2011
+- Owner today: Viant Technology, run by Tim and Chris Vanderhook
+- Status today: Online as a music site, relaunch promised with no date
 
-The rise and fall of MySpace is one of the most dramatic stories in internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) history. It went from a scrappy startup to the undisputed king of social media to a cautionary tale about what happens when you stop listening to your users — all in about five years. If you're wondering how MySpace lost to Facebook, the answer is a messy combination of bad corporate ownership, terrible user experience, and a failure to evolve when it mattered most.
+## What made MySpace the biggest site in America?
 
-## How MySpace Became the Biggest Social Network on Earth
+MySpace was created in 2003 by Tom Anderson and Chris DeWolfe, two employees of the internet marketing company eUniverse, which was later renamed Intermix Media. It was not the first social network. It was the first one that handed the page layout to the user.
 
-MySpace was founded in August 2003 by Tom Anderson and Chris DeWolfe, who worked at an internet marketing company called eUniverse. They saw Friendster (https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html) — one of the first social networks — struggling with technical issues and user frustrations, and they figured they could do it better. And they were right.
+Every profile was an editable HTML window. People pasted code into a text box and got tiled backgrounds, autoplaying songs, custom cursors and a Top 8 friends list that ran real social politics in American high schools. The pages were often unreadable. They were also unmistakably personal, which is the part no mainstream platform has matched since.
 
-What made MySpace special wasn't just that it was a social network — it was that it let you be creative. You could customize your profile page with HTML and CSS code. You could change your background, add music players, embed videos, and basically turn your profile into a personal website. Was it often ugly? Absolutely. Were there profiles with auto-playing music, glittery cursors, and eye-searing color combinations? You bet. But that was the charm. Your MySpace page was yours in a way that no social platform before or since has really replicated.
+Music was the second engine. Bands set up profiles, uploaded songs and reached listeners without a label in between, and a generation of American teenagers found new acts on profile pages rather than on the radio.
 
-The music feature was MySpace's secret weapon. Bands could create profiles, upload songs, and connect directly with fans. This was revolutionary. Before MySpace, unsigned bands had almost no way to reach a wide audience without a record label. MySpace changed that overnight. Arctic Monkeys became the first band to reach number one in the UK charts primarily through MySpace buzz. Lily Allen, Sean Kingston, and countless other artists launched their careers through the platform. MySpace wasn't just a social network — it was the most important music discovery platform in the world.
+By the summer of 2006 the combination made MySpace the most visited site in the country. Hitwise put 4.5 percent of all US internet visits on MySpace in the week ending July 8, 2006, ahead of Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) Mail, Google and MSN, although that ranking counted visits and page views rather than unique users. At its peak the site drew about 70 million unique monthly visitors.
 
-By 2005, MySpace was growing so fast that Rupert Murdoch's News Corporation bought it for $580 million. At the time, people thought Murdoch was a genius. MySpace had momentum, cultural relevance, and a massive user base. What could go wrong?
+## How did the News Corporation deal change the site?
 
-## The News Corp Acquisition: When the Suits Took Over
+Rupert Murdoch's News Corporation bought MySpace in 2005 for $580 million. The reasoning was straightforward: the largest audience on the web, bought by a company that knew how to sell advertising against an audience.
 
-Everything. Everything could go wrong.
+A year later, News Corporation put that audience under contract. In August 2006 its internet arm, Fox Interactive Media, made Google the exclusive search and keyword advertising provider across its sites, MySpace included. The announcement filed with the SEC spells out the terms: Google owed "guaranteed minimum revenue share payments to Fox Interactive Media of $900 million based on Fox achieving certain traffic and other commitments," paid between the first quarter of 2007 and the second quarter of 2010.
 
-The News Corp acquisition in July 2005 is widely considered the beginning of the end for MySpace. Rupert Murdoch and News Corp didn't understand social media. They understood media — newspapers, TV networks, movie studios — but they didn't understand the internet, and they certainly didn't understand what made MySpace's community tick.
+Read that clause as a MySpace product manager in 2007 and the job description writes itself. The money was not attached to whether anyone enjoyed the site. It was attached to traffic and to the volume of pages served. Ads multiplied, pages that were already slow under custom HTML got slower, and any change that reduced the number of clicks in a session worked against the number the company had promised Wall Street.
 
-News Corp's approach was to monetize MySpace as aggressively as possible. They signed a $900 million advertising deal with Google in 2006, which required MySpace to hit aggressive page view targets. To meet those targets, MySpace started cramming the site with ads. Banner ads, pop-up ads, auto-playing video ads — the user experience became increasingly miserable. Pages that were already slow because of all the custom HTML became even slower under the weight of advertising bloat.
+The site kept growing for a while anyway, which is the trap. Traffic and page views held up long enough to make the strategy look sound, and by the time the audience numbers turned, the product decisions that would have kept people there had been deferred for three years.
 
-Meanwhile, the actual product barely improved. MySpace's codebase was a mess — years of rapid growth had created massive technical debt. The site was buggy, slow, and frequently crashed. Spam was rampant. Fake profiles were everywhere. And instead of fixing these fundamental problems, News Corp was focused on ad revenue and striking media deals.
+## Why did people switch to Facebook?
 
-The company also made a critical strategic error: they tried to turn MySpace into an "everything portal" — a place for news, entertainment, games, and more — instead of focusing on what made MySpace great in the first place. They were trying to build the next Yahoo (https://404memoryfound.com/#/post/yahoo-rejected-google)! when their users just wanted a better social network.
+Facebook offered the opposite bargain. Every profile looked the same: no autoplay, no glitter, no layout a teenager could break with one unclosed tag. Pages loaded quickly and predictably, which mattered more each month as MySpace profiles grew heavier with custom code and advertising.
 
-## How Facebook Ate MySpace's Lunch
+The News Feed did the rest. Instead of walking profile to profile to find out what friends were doing, a Facebook user got the updates collected in one place. MySpace never shipped an equivalent that users kept.
 
-While MySpace was drowning in ads and corporate bureaucracy, a Harvard dropout named Mark Zuckerberg was building something fundamentally different. Facebook launched in 2004 as a college-only social network, and it took a radically different approach to everything MySpace was doing.
+Facebook also grew in the opposite direction. It started closed, on college campuses, where a university email address was the entry ticket, then opened outward from a base of real names. MySpace was going the other way, fighting spam accounts, fake profiles and a reputation problem with American parents that never attached itself to Facebook.
 
-Where MySpace was chaotic and customizable, Facebook was clean and standardized. Every profile looked the same — blue and white, simple layout, no auto-playing music. This might sound boring compared to MySpace, but it was actually a massive advantage. Facebook loaded fast, it was easy to navigate, and it looked professional. As MySpace profiles became increasingly cluttered and slow, Facebook's simplicity became more and more appealing.
+Network effects reward the leader and punish it just as fast when the direction flips. Once a user's friends had moved, staying on MySpace meant talking to an empty room. Facebook passed MySpace among American users in 2009, and MySpace's traffic never recovered. The same reversal had already taken Friendster (https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html) apart a few years earlier, with MySpace as the beneficiary.
 
-Facebook also had a smarter growth strategy. By starting with colleges and slowly expanding, Facebook created an air of exclusivity. You needed a .edu email address to sign up initially, which meant the early user base was educated, engaged, and relatively spam-free. When Facebook opened to the general public in September 2006, it already had a reputation as the "clean" alternative to MySpace's chaos.
+## What did the collapse cost News Corporation?
 
-The introduction of the News Feed in September 2006 was another game-changer. Instead of having to visit each friend's profile individually to see what they were up to, Facebook brought all the updates to you in one scrollable feed. Users initially hated it (there were massive protests and petitions), but it fundamentally changed how people consumed social media. MySpace never developed anything comparable.
+On June 29, 2011, News Corporation sold MySpace to the advertising targeting firm Specific Media for $35 million in cash and stock. That was well under the $100 million News Corporation had been asking for the site, and a fraction of the $580 million it paid six years earlier. Justin Timberlake joined the buying group as an investor and a public face for the relaunch.
 
-By 2008, Facebook had surpassed MySpace in global users. By 2009, MySpace's traffic was in freefall. The exodus was swift and brutal — once the network effects reversed (your friends are on Facebook, so you go to Facebook, so more of your friends go to Facebook), there was no stopping it.
+The sale price is the number everyone remembers, but it understates the damage. News Corporation also spent six years of management attention, a run of executive turnover, and the traffic commitments it had written into the Google agreement, on a property that ended up worth less than a mid-size office building.
 
-## The Aftermath: What Happened to MySpace After Facebook Won
+The music paid a price too. A later server migration destroyed the audio people had uploaded in MySpace's early years, taking with it recordings by artists who never released their work anywhere else. An independent music archive disappeared while the industry was still working out what the file-sharing era had done to it, a story covered in our look at what Napster did to the music business (https://404memoryfound.com/posts/napster-destroyed-music.html).
 
-After Facebook's takeover, MySpace's decline was almost comically fast. News Corp tried several pivots — MySpace as a music platform, MySpace as an entertainment hub, MySpace as... whatever they thought might work. Nothing stuck. In 2009, MySpace laid off 30% of its staff. In 2011, News Corp sold MySpace to Specific Media and Justin Timberlake (yes, that Justin Timberlake) for just $35 million — a 94% loss on their $580 million investment.
+## Is MySpace still around in 2026?
 
-The Timberlake era tried to rebrand MySpace as a music-focused platform, and the 2013 redesign was actually quite sleek. But it didn't matter. The users were gone, the cultural moment had passed, and no amount of celebrity endorsement could bring them back. MySpace continued to limp along, eventually becoming a music and entertainment portal owned by Meredith Corporation and then Viant Technology.
+Yes, in a narrow sense. The address still resolves, the front page still publishes music news, and old profiles still render. What is gone is the social network: there is no active community, and the site functions as a music and nostalgia property rather than a place people post to. Our companion piece on what is left of the site (https://404memoryfound.com/posts/is-myspace-still-around-today.html) walks through the current state in detail.
 
-In 2019, MySpace admitted it had lost all user-uploaded content — photos, videos, and music — from 2003 to 2015 during a server migration. Twelve years of digital memories, including irreplaceable early recordings from independent musicians, were simply gone. It was a fitting metaphor for the platform itself: something that once felt permanent and essential, erased by carelessness and neglect.
+Ownership traces straight back to the 2011 sale. Specific Media grew into Viant Technology, the advertising technology company run by brothers Tim and Chris Vanderhook, and Viant has held MySpace ever since.
 
-## Then vs Now: Social Media After MySpace
+The owners say they are not finished with it. In a 2026 documentary about the site, Tim Vanderhook said: "We are stewards of the Myspace brand at this point, and we are going to relaunch Myspace." No launch date has been announced, no product has been shown, and Tom Anderson, the first friend on every new account in the 2000s, is not part of the plan.
 
-The MySpace era feels almost quaint compared to today's social media landscape. Back then, social media was about self-expression — you built a page that represented who you were (or who you wanted to be). The modern social media experience, dominated by Facebook, Instagram, TikTok, and Twitter/X, is fundamentally different.
+## What the collapse taught the platforms that came after
 
-Today's platforms prioritize algorithmically-curated content feeds over personal profiles. You don't visit someone's page anymore — you scroll a feed. The customization that defined MySpace has been replaced by standardized templates. And the music discovery that made MySpace revolutionary has been absorbed by Spotify, Apple Music, and YouTube.
+MySpace's real legacy is not a feature. It is the proof that a dominant social network can lose its audience in about three years, from the peak in 2006 to the American crossover in 2009, and that the loss is close to irreversible once it starts.
 
-But there's a growing nostalgia for what MySpace represented. The web design community has seen a resurgence of interest in "old web" aesthetics — personal websites, chaotic design, and digital spaces that feel handmade rather than algorithm-optimized. Projects like Neocities and SpaceHey (a MySpace clone launched in 2020) are attempts to recapture that spirit of creative, messy, personal internet expression.
+The lesson companies took from it was mostly defensive: standardize the layout, keep the feed fast, and buy or copy anything growing. The lesson users took was different. Interest in handmade personal pages never fully went away, and projects like Neocities and SpaceHey, a deliberate MySpace clone, exist because people still want a page that looks like a person made it rather than a template with a photo slot.
 
-In many ways, MySpace's greatest legacy isn't any specific feature — it's the proof that a social network can die. Before MySpace's collapse, people assumed the dominant social platform was permanent. MySpace proved that users will leave if you stop serving them. It's a lesson that today's social media giants would be wise to remember.
+The other lesson holds for everything that followed MySpace onto the web. A site that starts optimizing for the number it promised an advertiser, rather than for the reason people showed up, gets to keep that number for about as long as it takes users to find the next place.
 
 ## Frequently Asked Questions
 
-### Does MySpace still exist in 2026?
+### Why did MySpace lose to Facebook?
 
-Technically, yes — myspace.com is still online, but it's essentially a shell of its former self. The site functions primarily as a music and entertainment portal with virtually no active social community. Most of the original user content from 2003-2015 was permanently lost during a botched server migration in 2019. It's a far cry from the vibrant social network that once had over 100 million users.
+MySpace lost to Facebook because it optimized for advertising volume instead of the experience. After News Corporation bought MySpace for $580 million in 2005 and signed a $900 million search and advertising agreement with Google in 2006 that depended on traffic commitments, the site filled with ads and slowed down, while Facebook offered fast, standardized profiles and the News Feed. Facebook passed MySpace among American users in 2009.
 
-### Why did MySpace fail?
+### When did Facebook overtake MySpace?
 
-MySpace failed due to a combination of factors: the News Corp acquisition led to aggressive monetization that degraded user experience, the site became cluttered with ads and spam, critical technical issues were never fixed, and Facebook offered a cleaner, faster alternative. MySpace also failed to innovate — it never developed an equivalent to Facebook's News Feed, and its leadership was focused on media deals rather than product improvement.
+Facebook overtook MySpace in the United States in 2009, two years before News Corporation sold MySpace in June 2011. MySpace had been the most visited website in the country in the summer of 2006, with about 70 million unique monthly visitors at its peak, so the reversal took roughly three years from peak to defeat.
 
-### Who was Tom from MySpace?
+### Who created MySpace?
 
-Tom Anderson was the co-founder of MySpace and famously appeared as every new user's first friend on the platform. His smiling profile photo (a selfie in a white t-shirt taken in front of a whiteboard) became one of the most recognizable images of early social media. After selling MySpace, Anderson retired from tech and became a travel photographer, occasionally posting on Instagram to his hundreds of thousands of followers.
+MySpace was created in 2003 by Tom Anderson and Chris DeWolfe, who were working at the internet marketing company eUniverse, later renamed Intermix Media. Anderson became the automatic first friend on every new MySpace account, which is why a generation of American users knew him simply as Tom. Neither founder is involved with MySpace under its current owner, Viant Technology, which bought the site as Specific Media in 2011.
 
-### How much was MySpace worth at its peak?
-
-At its peak around 2007, MySpace was estimated to be worth approximately $12 billion based on its traffic and advertising revenue. News Corp had purchased it in 2005 for $580 million, and in 2006 signed a $900 million advertising deal with Google. However, when News Corp sold MySpace in 2011, it went for just $35 million — representing one of the most dramatic value collapses in internet history.
-
+**Sources:**
+- TechCrunch: MySpace hit #1 US destination last week, Hitwise (July 11, 2006): https://techcrunch.com/2006/07/11/myspace-hit-1-us-destination-last-week-hitwise/
+- News Corporation Form 8-K: Fox Interactive Media Enters Into Landmark Agreement With Google Inc. (SEC, August 7, 2006): https://www.sec.gov/Archives/edgar/data/1308161/000118143106046139/rrd126691_15374.htm
+- Encyclopaedia Britannica: Tom Anderson, American entrepreneur: https://www.britannica.com/biography/Tom-Anderson
+- NPR: News Corp. Takes Huge Loss, Selling Myspace For $35 Million (June 29, 2011): https://www.npr.org/sections/thetwo-way/2011/06/29/137509647/news-corp-takes-huge-loss-selling-myspace-for-35-million
+- NBC New York: Could Myspace come back? Owners share plans for social media site (2026): https://www.nbcnewyork.com/news/national-international/myspace-owners-plan-relaunch-social-media-platform/6533194/
 
 ---
 
