@@ -1189,8 +1189,9 @@
         "refurbished game boy",
         "game boy color for sale"
       ],
-      "status": "pending",
-      "source": "affiliate-study-2026-09"
+      "status": "published",
+      "source": "affiliate-study-2026-09",
+      "published_slug": "buy-working-game-boy-2026"
     }
   ],
   "priority_1_high": [
