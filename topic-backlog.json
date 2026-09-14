@@ -795,8 +795,9 @@
         "are there any brookstone stores left"
       ],
       "demand_note": "Sharper Image and Brookstone were where Americans went to touch gadgets they would never buy, and both vanished from malls without an obituary.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "who-owns-sharper-image-now"
     },
     {
       "title": "Is Woolworth Still in Business? It Became Foot Locker",
