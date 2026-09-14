@@ -816,8 +816,9 @@
         "who owns woolworth now"
       ],
       "demand_note": "Older Americans search for the store they grew up with and are surprised the company is now Foot Locker rather than gone.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-woolworth-still-in-business"
     },
     {
       "title": "Is FAO Schwarz Still Open? The Toy Store After 2015",
