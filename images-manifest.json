@@ -299,6 +299,16 @@
   "thumb": "/img/thumb/yahoo-headquarters-1b1638.jpg",
   "width": 700
  },
+ "https://upload.wikimedia.org/wikipedia/commons/8/89/Woolworth_Store_in_Scranton.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Woolworth_Store_in_Scranton.jpg",
+  "ext": "jpg",
+  "file": "/img/woolworth-store-in-scranton-eeb96a.jpg",
+  "height": 481,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/woolworth-store-in-scranton-eeb96a.jpg",
+  "width": 720
+ },
  "https://upload.wikimedia.org/wikipedia/commons/9/9d/VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png",
   "ext": "jpg",
