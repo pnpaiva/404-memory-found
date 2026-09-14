@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Can You Still Get Dial-Up Internet? NetZero Does</title>
+      <link>https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Can you still get dial-up internet? Yes. NetZero, Juno and Microsoft&#x27;s MSN all sell it in 2026, a year after AOL shut its dialer for good.</description>
+      <enclosure url="https://404memoryfound.com/pins/dial-up-internet-still-available-2026.jpg" length="246543" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/dial-up-internet-still-available-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Internet Culture</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>How Many Sam Goody Stores Are Left? Exactly One</title>
       <link>https://404memoryfound.com/posts/sam-goody-stores-left.html</link>
@@ -234,18 +246,6 @@
       <media:content url="https://404memoryfound.com/pins/sega-genesis-games-how-to-play-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Hardware</category>
-    </item>
-    <item>
-      <title>Is Habbo Hotel Still Around? The Pixel Hotel in 2026</title>
-      <link>https://404memoryfound.com/posts/is-habbo-hotel-still-around.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-habbo-hotel-still-around.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Habbo Hotel is still online in 2026, run by Sulake and owned by Azerion, with 300 million registered accounts and a 2005 replica running next door.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-habbo-hotel-still-around.jpg" length="159495" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-habbo-hotel-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Internet Culture</category>
-      <category>Gaming</category>
     </item>
   </channel>
 </rss>

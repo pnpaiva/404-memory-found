@@ -4,6 +4,97 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Can You Still Get Dial-Up Internet? NetZero Does
+
+URL: https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-09-14
+Topics: Internet Culture, Then vs Now
+
+**Summary:** You can still get dial-up internet in 2026. NetZero and Juno, both run by United Online, still sell it in the United States, and Microsoft still charges $21.95 a month for MSN Dial-Up Internet Access. What ended on September 30, 2025 was AOL's dial-up service, not dial-up itself.
+
+**Key facts:**
+- Status today: Still sold in the US in 2026 by NetZero, Juno and MSN Dial-Up
+- Owner today: NetZero and Juno are United Online brands, owned by B. Riley Financial since July 1, 2016
+- Cheapest paid plan: MSN Dial-Up Internet Access, $21.95 a month or $179.95 a year
+- Free option: NetZero and Juno, ad-supported, capped at 10 hours a month
+- US homes on dial-up: 163,401 in 2023, about 0.13% of internet subscriptions (Census Bureau)
+
+## Three companies will still sell you a dial-up account
+
+Dial-up internet is not gone. Three providers were taking new sign-ups in the United States in 2026, and two of them are the same brands that handed out free hours in the late 1990s.
+
+NetZero and Juno both still run national dial-up networks. Microsoft still sells MSN Dial-Up Internet Access through its own online store, a product that never came off the price list.
+
+PCWorld laid the prices side by side after AOL announced its exit in 2025. MSN Dial-Up costs $21.95 a month, or $179.95 paid a year at a time. NetZero charges $29.95 a month for its accelerated dial-up plan, the tier aimed at people who use the connection for more than email. Both prices were still current in 2026.
+
+The free tier survived too. NetZero and Juno each advertise an ad-supported plan capped at 10 hours a month, the same offer both companies built their names on. Ten hours works out to about 20 minutes a day, which felt generous in 1999 and is close to useless for a modern web page.
+
+The practical catch is geography. Dial-up access numbers are local, so the real question is not whether the service exists but whether a provider has a number in your area code that will not bill as a long-distance call.
+
+## What actually ended on September 30, 2025
+
+AOL stopped selling and supporting dial-up internet on September 30, 2025. The notice went up in August of that year, and the wording was as unsentimental as a discontinued printer driver. "AOL routinely evaluates its products and services and has decided to discontinue Dial-up Internet," the company wrote on its site, as CNN reported on August 11, 2025.
+
+Two pieces of software went with it. The AOL Dialer, which stored the access numbers and placed the call, and AOL Shield, a browser built for old operating systems and slow links, were both retired the same day.
+
+What did not end was dial-up as a technology. AOL was one seller among several, and the modems, the copper phone lines and the access numbers that make a dial-up call work were never AOL property. When the company switched off its dialer, nothing changed for a NetZero subscriber in a rural county.
+
+The confusion is understandable. AOL was dial-up to most Americans for a decade, so its exit read in headlines like a funeral for the entire category rather than the retirement of one product. Anyone curious about the mechanics can still hear what each part of the handshake screech meant (https://404memoryfound.com/posts/dial-up-modem-sound-explained.html).
+
+## Who owns NetZero and Juno now?
+
+Both brands belong to United Online, and United Online belongs to B. Riley Financial. The firm agreed to buy the company in 2016 at $11.00 a share, a deal valued at about $170 million, and closed it on July 1, 2016.
+
+B. Riley was blunt about why it wanted a business in decline. The strategy was "purchasing companies with complex business dynamics in challenging or mature industries and then implementing operational changes to generate attractive returns," chairman and chief executive Bryant Riley said in the announcement of the completed deal in July 2016.
+
+That sentence explains dial-up in 2026 better than any nostalgia does. Nobody is winning new dial-up customers. The networks are already built, the billing runs itself, and a subscriber base that renews quietly is worth more to an owner like this than a growth story would be.
+
+The same arithmetic keeps other relics breathing. AOL still charges a monthly subscription (https://404memoryfound.com/posts/does-aol-still-exist-today.html) to customers who could get most of it free, and that is the business, not an accident.
+
+## How many Americans still connect by modem?
+
+The Census Bureau counted 163,401 American homes on dial-up in 2023, roughly 0.13 percent of all internet subscriptions, a figure Smithsonian Magazine cited when AOL announced the shutdown in 2025.
+
+Nationally that is a rounding error. Locally it is a lifeline. Dial-up households cluster where cable and fiber never arrived, where the terrain blocks a clear view of the sky for satellite service, or where the monthly cost of anything faster does not fit the budget.
+
+For those homes the modem is not a nostalgia purchase. It is the only connection that runs over equipment already in the house, on a phone line that was paid for decades ago, and it still delivers email, a bank balance and a weather forecast.
+
+The count has been shrinking for twenty years and will keep shrinking, because the copper telephone network underneath it is being retired region by region. When a carrier turns off a copper exchange, dial-up in that area goes with it whether or not anyone was still selling the service.
+
+## Why dial-up costs more today than it did in 1998
+
+Here is the detail that stings. MSN Dial-Up Internet Access sells for $21.95 a month in 2026. That is exactly what AOL charged for unlimited dial-up after April 1998.
+
+AOL announced that increase on February 9, 1998, raising its unlimited plan by 10 percent from $19.95 to $21.95, and said it needed the money because advertising revenue alone could not cover how heavily subscribers were using the service. CNN's business desk covered the hike the day it was announced.
+
+So the price of a dial-up account has not moved in 28 years. The product has not moved either: the same modem tones, the same tied-up phone line, the same ceiling on speed that looks absurd next to a 2026 broadband plan (https://404memoryfound.com/posts/dialup-speed-then-vs-now.html).
+
+NetZero's $29.95 accelerated plan costs more than the 1998 AOL bill did, in dollars worth considerably less. Nobody buying dial-up in 2026 is buying it for value. They are buying it because the alternative on their road is nothing.
+
+## Frequently Asked Questions
+
+### Can you still get dial-up internet in 2026?
+
+Yes. Dial-up internet was still sold in the United States in 2026 by NetZero and Juno, both operated by United Online, and by Microsoft as MSN Dial-Up Internet Access. AOL left the business on September 30, 2025, but it was only one seller among several, and its exit did not shut down dial-up itself.
+
+### Does AOL still have dial-up?
+
+No. AOL discontinued its dial-up internet service on September 30, 2025, after posting the notice in August of that year, and retired the AOL Dialer and the AOL Shield browser on the same day. AOL still sells other monthly subscription products, but dial-up internet access is no longer one of them.
+
+### How much does dial-up internet cost now?
+
+MSN Dial-Up Internet Access cost $21.95 a month or $179.95 a year in 2026, and NetZero's accelerated dial-up plan cost $29.95 a month. NetZero and Juno also advertise ad-supported free plans capped at 10 hours a month, which is where most remaining dial-up users start.
+
+**Sources:**
+- CNN Business: AOL will stop offering dial-up internet service after more than 30 years in business (2025): https://www.cnn.com/2025/08/11/tech/aol-dial-up-internet-discontinue
+- PCWorld: Despite AOL's exit, dial-up internet isn't going away: https://www.pcworld.com/article/2874440/list-of-dialup-internet-providers-in-2025.html
+- Smithsonian Magazine: The Sounds of AOL Dial-Up Defined the Early Internet (2025): https://www.smithsonianmag.com/smart-news/the-sounds-of-aol-dial-up-defined-the-early-internet-now-the-service-is-shutting-down-for-good-180987177/
+- B. Riley Financial Completes Acquisition of United Online (press release, July 2016): https://www.prnewswire.com/news-releases/b-riley-financial-completes-acquisition-of-united-online-300293239.html
+- CNNMoney: AOL hikes monthly fee, February 9, 1998: https://money.cnn.com/1998/02/09/technology/aol/
+
+---
+
 # How Many Sam Goody Stores Are Left? Exactly One
 
 URL: https://404memoryfound.com/posts/sam-goody-stores-left.html
@@ -1662,7 +1753,7 @@ Barely, and almost never by accident.
 
 AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) shut down the service that produced the sound for more Americans than any other. In a notice posted in August 2025 the company said it "routinely evaluates its products and services and has decided to discontinue Dial-up Internet," and the service, along with the AOL Dialer software and the AOL Shield browser, went dark on September 30, 2025.
 
-Dial-up itself is not extinct. NetZero and Juno still sell it, and the Census Bureau's American Community Survey counted about 100,277 US households with dial-up as their only home internet subscription in the 2024 data released in September 2025. Those households hear the handshake every time they connect.
+Dial-up itself is not extinct. NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) and Juno still sell it, and the Census Bureau's American Community Survey counted about 100,277 US households with dial-up as their only home internet subscription in the 2024 data released in September 2025. Those households hear the handshake every time they connect.
 
 Everyone else has to go looking. Fax machines, alarm panels and some payment terminals still run the same negotiation over the same copper. Räisänen's 2012 recording and spectrogram are still online. So are plenty of the websites those modems used to load (https://404memoryfound.com/posts/90s-websites-still-online.html), which is a stranger kind of survival than the sound itself.
 
@@ -3633,7 +3724,7 @@ AOL charged $25.90 a month for dial-up in 2006, according to a CNET report from 
 
 ## Can you still get dial-up internet anywhere?
 
-Yes, just not from AOL. NetZero still advertises dial-up, including a free tier capped at 10 hours a month and a paid accelerated plan reported at $11.95 a month. EarthLink has offered dial-up at $9.95 a month for an introductory period and $24.95 a month afterward.
+Yes, just not from AOL. NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) still advertises dial-up, including a free tier capped at 10 hours a month and a paid accelerated plan reported at $11.95 a month. EarthLink has offered dial-up at $9.95 a month for an introductory period and $24.95 a month afterward.
 
 So dial-up is not extinct in 2026. It is a niche product for people outside broadband coverage, sold by companies that never made it the center of their identity the way AOL did.
 
@@ -19601,7 +19692,7 @@ It also set a hard ceiling on who could publish. Uploading at 33.6 kilobits per 
 
 Yes, though the biggest name in it is gone. AOL discontinued its dial-up service on September 30, 2025, along with the AOL Dialer and the AOL Shield browser. The company's own notice offered no reason beyond housekeeping: "AOL routinely evaluates its products and services and has decided to discontinue Dial-up Internet."
 
-Smaller providers kept going. PCWorld's roundup of who still sells dial-up after AOL's exit names NetZero and Juno among the operators still taking signups in the United States, with Juno still offering a free plan capped at 10 hours a month.
+Smaller providers kept going. PCWorld's roundup of who still sells dial-up after AOL's exit names NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) and Juno among the operators still taking signups in the United States, with Juno still offering a free plan capped at 10 hours a month.
 
 The remaining customer base is small and mostly rural. Census Bureau figures quoted throughout the 2025 coverage of the AOL shutdown put the number of Americans relying on dial-up alone at about 163,400 in 2023. That is a rounding error against national internet use, and it is also a real set of households where nothing faster reaches the property line.
 
