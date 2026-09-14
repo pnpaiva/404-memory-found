@@ -774,8 +774,9 @@
         "disney store closing 2026"
       ],
       "demand_note": "The Disney Store was a fixture of every big American mall and families still search for the nearest surviving location.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-disney-store-still-open"
     },
     {
       "title": "Is Sharper Image Still a Store? The Brand After 2008",
