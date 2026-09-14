@@ -2544,6 +2544,16 @@
   "thumb": "/img/thumb/ipod1stwikipedia-76e239.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Nintendo_Game_Boy_DMG-01-0247.jpg/960px-Nintendo_Game_Boy_DMG-01-0247.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Nintendo_Game_Boy_DMG-01-0247.jpg",
+  "ext": "jpg",
+  "file": "/img/nintendo-game-boy-dmg-01-0247-78e78d.jpg",
+  "height": 1975,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/nintendo-game-boy-dmg-01-0247-78e78d.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nintendo_64_Konsole_%28Control_Deck%29.JPG/960px-Nintendo_64_Konsole_%28Control_Deck%29.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Nintendo_64_Konsole_%28Control_Deck%29.JPG",
   "ext": "jpg",
