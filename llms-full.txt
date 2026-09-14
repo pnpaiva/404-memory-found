@@ -17938,117 +17938,92 @@ MySpace was created in 2003 by Tom Anderson and Chris DeWolfe, who were working 
 
 ---
 
-# Why Google Glass Actually Failed: The $895 Million Experiment That Made You Look Like a Creep
+# Is Google Glass Still Around? Discontinued in 2023
 
 URL: https://404memoryfound.com/posts/why-google-glass-actually-failed.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-25
+Published: 2026-03-25  Updated: 2026-09-14
 Topics: Business Blunders, Hardware
 
-## The $1,500 Face Computer Nobody Asked For
+**Summary:** Google Glass is no longer sold or supported. Google stopped selling the last version, Glass Enterprise Edition, on March 15, 2023, and ended support on September 15, 2023, a decade after the $1,500 Explorer Edition reached its first buyers. Google's replacement is Android XR eyewear built with Warby Parker and Gentle Monster, shown in May 2026.
 
-In June 2012, Google co-founder Sergey Brin stood on stage at Google I/O and did something that should have been the coolest product launch in tech history. Four skydivers wearing prototype Google Glass units leaped from a blimp above San Francisco, livestreaming their descent directly to the Moscone Center audience below. They landed on the roof. Brin grinned. The crowd went absolutely wild. It was peak Silicon Valley spectacle — the kind of moment that makes you believe the future is arriving right now, today, on your face.
+**Key facts:**
+- Launched: Explorer Edition, February 2013, $1,500
+- Maker: Google (Alphabet)
+- Status today: Discontinued. Sales ended March 15, 2023
+- Support ended: September 15, 2023
+- What replaced it: Android XR eyewear with Gemini, due fall 2026
 
-And then reality happened.
+## What did the $1,500 Explorer Edition actually buy?
 
-Within three years, Google Glass went from "most anticipated gadget in history" to a punchline. The $1,500 Explorer Edition became a symbol of tech industry hubris. Bars banned them. People who wore them in public earned a brand-new slur: "Glassholes." Google hemorrhaged an estimated $895 million on the project before quietly shelving it in January 2015. The device that was supposed to replace the smartphone became one of the most spectacular product failures of the 2010s — and arguably, one of the most instructive. Because why Google Glass failed isn't just a story about a bad gadget. It's a story about what happens when Silicon Valley builds for Silicon Valley and forgets about everyone else.
+Google Glass reached developers in February 2013 as the Explorer Edition, at $1,500. Google's own tech specs page lists what was inside: a 640 by 360 prism display that floated above the right eye, a 5 megapixel camera that shot 720p video, 2 GB of RAM, 16 GB of flash storage with 12 GB usable, and a bone conduction speaker in place of an earpiece. A dual-core Texas Instruments OMAP 4430 ran all of it.
 
-## Inside Google X: Where Google Glass Was Born
+Getting one took more than money. In February 2013 Google ran a contest under the hashtag #ifihadglass, asking applicants to say in 50 words or less what they would do with the device. Roughly 8,000 people were picked, and each still had to pay the $1,500 and collect the unit in person at pop-up events in New York, Los Angeles or San Francisco.
 
-Google Glass didn't come from the regular product division. It emerged from Google X — later rebranded as simply "X" — the company's semi-secret moonshot laboratory that also birthed self-driving cars, internet-beaming balloons, and contact lenses that could measure glucose levels. Google X was led by Astro Teller, whose actual job title was "Captain of Moonshots," which tells you everything you need to know about the culture that produced Google Glass.
+Glass went on open sale to anyone in the United States on April 15, 2014, at the same price. A teardown by the research firm IHS that year put the bill of materials at $152.47, a gap that got quoted back at Google for years. The Cooper Hewitt, Smithsonian Design Museum now holds an Explorer Edition in its permanent collection.
 
-The project started around 2010 under engineer Babak Parviz, with Sergey Brin as its most visible champion. The original vision was genuinely ambitious: create a lightweight, always-on display that would put information directly in your line of sight. No more pulling out your phone. No more looking down. Directions, notifications, messages, and photos would simply appear in a tiny prism mounted above your right eye. The prototype weighed just 36 grams — lighter than most sunglasses.
+## Why did one small camera cause so much trouble?
 
-Internally, the team called it "Project Aura." The early demos were mesmerizing. A promotional video released in April 2012, titled "One Day...," showed a first-person perspective of someone navigating New York City with Glass — getting turn-by-turn directions, video-calling friends, checking the weather, and even playing a ukulele with chord overlays floating in their vision. The video racked up millions of views. Tech journalists lost their minds. Time Magazine named Google Glass one of the best inventions of 2012 — before most people had even seen one in person.
+The camera sat above the display, pointing forward, and that was the whole problem. A phone held up to record is visible. A camera on a face is not.
 
-But here's the thing about moonshot labs: they're designed to dream big, not ship consumer products. Google X had no experience building hardware for regular people. No experience with fashion. No experience with the social dynamics of putting a camera on someone's face and sending them into a coffee shop. These weren't engineering problems. They were human problems. And Google X was spectacularly bad at human problems.
+Sergey Brin had already made the case for moving hardware up there. Talking about smartphones at TED in February 2013, Brin said "You're standing there just rubbing this featureless piece of glass," as CNN reported that month. The public agreed with the diagnosis and rejected the cure.
 
-## The Explorer Program: How Google Created an Exclusive Club That Alienated Everyone
+In March 2013, before Glass had shipped to anyone outside the contest, the 5 Point Cafe in Seattle announced a ban. Owner Dave Meinert posted that "The 5 Point is the first Seattle business to ban in advance Google Glasses," and later told reporters that part of it was a joke and part of it was serious, because the bar does not let customers film each other. Casinos, cinemas, gyms and other bars followed.
 
-Google's go-to-market strategy for Glass was, in retrospect, almost perfectly designed to generate backlash. Rather than launching quietly, iterating, and building word-of-mouth among developers, Google turned Glass into the most exclusive tech product since the original iPhone. In February 2013, Google launched the #IfIHadGlass campaign on Twitter, inviting people to explain in 50 words or less why they deserved to be among the first Glass "Explorers." Out of the avalanche of applications, Google selected roughly 8,000 people. Each one had to pay $1,500 for the privilege and pick up their device in person at special Google pop-up events in New York, Los Angeles, or San Francisco.
+The nickname arrived fast, and Google put it in print first. Its own Glass etiquette guide, published in February 2014, told Explorers: "Don't be creepy or rude (aka, a 'Glasshole')." A company that has to write that sentence about its own product has already lost the argument.
 
-Think about who those 8,000 people were. Tech journalists. Developers. Silicon Valley insiders. VCs. Celebrities. Fashion designers. In other words, people who already lived in a bubble where wearing a face computer to brunch seemed like a reasonable lifestyle choice. Google wasn't testing Glass with regular humans — they were testing it with early adopters who would tolerate almost anything for the clout of being first.
+## Was the hardware good enough to survive the backlash?
 
-The Explorer program created a two-tier system: the chosen few who had Glass, and the 99.99% of the population who didn't. Instead of curiosity, it bred resentment. The $1,500 price tag — for what was openly called a beta product — made Glass look less like a revolutionary tool and more like a status symbol for the tech elite. When Explorers wore Glass in public, they weren't seen as brave pioneers testing the future. They were seen as smug rich people who thought the rules of social interaction didn't apply to them.
+No. The prism was readable indoors and washed out in daylight. Battery life collapsed under video, so Glass recorded in bursts rather than sessions. The frame warmed against the temple. Voice commands opened with the phrase "OK Glass," which meant talking to your own eyebrow in public.
 
-Google compounded this by sending out a list of "Glass Etiquette" tips to Explorers, which included gems like "Don't be creepy or rude" and "Ask for permission before recording." The fact that Google had to explicitly instruct people not to be creepy with their product should have been a five-alarm warning. Instead, the list was widely mocked as proof that even Google knew Glass was socially toxic.
+The tether made the pitch awkward too. Glass had Wi-Fi and Bluetooth but no cellular radio, so it leaned on a phone in your pocket. A device sold as the end of pulling out your phone still required you to carry your phone.
 
-## Why Google Glass Failed: The Privacy Problem That Killed Everything
+Software never caught up. Google opened a Glassware catalogue, but the screen was one small card, the battery could not run anything demanding, and the paying audience was 8,000 people. Developers who did that math walked away. Set it beside Nintendo's Virtual Boy (https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html), another head-worn device shipped before its display was ready, and the shape repeats: the demo works, the second hour does not.
 
-If you had to point to one single reason why Google Glass failed, it would be the camera. A small, forward-facing camera sat just above the display prism, capable of shooting photos and recording video at 720p. Technically, it wasn't much different from what every smartphone had been doing since 2007. But there was a crucial psychological difference: when someone holds up a phone, you know you're being recorded. When someone is wearing Glass, you have no idea.
+## Is Google Glass still supported in 2026?
 
-This distinction sounds trivial. It was anything but. The moment Glass entered public spaces, privacy panic erupted. In 2013, a bar in Seattle called the 5 Point Cafe became the first establishment in America to ban Google Glass, with owner Dave Meinert telling reporters: "I'm a tech-loving guy, but this is prior to the release and people don't know what it does. It's just prior to everyone getting used to the idea." Bars, restaurants, movie theaters, casinos, strip clubs, doctors' offices, and gyms across the country followed suit. Some posted signs reading "Google Glass is banned on these premises." Others simply asked wearers to leave.
+No. Nothing in the Glass line is sold or updated today, and Google has not announced a return of the name.
 
-The backlash went beyond individual businesses. In July 2013, a group called "Stop The Cyborgs" launched a campaign against Glass, creating downloadable "No Glass" signs modeled after "No Smoking" signs. Congressional representatives sent a letter to Google CEO Larry Page expressing "concern regarding the privacy implications" of Glass. The term "Glasshole" — referring to someone obnoxious enough to wear Glass in social situations — entered the cultural lexicon almost overnight and stuck permanently. It was devastatingly effective branding, just not the kind Google wanted.
+The consumer version went first. On January 15, 2015, the Glass team said it was leaving Google's X lab, writing that "we've outgrown the lab" as the project moved to its own team inside Google. The Explorer program closed that month and the $1,500 device stopped being sold.
 
-The privacy problem was particularly ironic for Google. This was the same company that had been photographing every street on Earth with its Street View cars, the same company whose entire business model was built on harvesting user data. Google wasn't exactly coming to the wearable camera conversation with clean hands. When people saw Glass, they didn't just see a gadget — they saw Google's surveillance infrastructure strapped to someone's face. Whether that fear was rational or not, it was real, and Google had no strategy for addressing it.
+Glass then became a work tool. Glass Enterprise Edition arrived in 2017, sold through Google's partners at roughly $1,828, aimed at warehouses, factory floors and hospitals. Glass Enterprise Edition 2 followed on May 20, 2019, at $999, with a Qualcomm Snapdragon XR1 chip, an 8 megapixel camera and USB-C charging.
 
-## The Hardware Was Half-Baked (And Everyone Knew It)
+That line ended as well. Google stopped selling Glass Enterprise Edition on March 15, 2023, and its support page names September 15, 2023 as the end of support. Existing headsets kept working, but no further updates came from Google. Alphabet still owns the brand and has not used it since.
 
-Privacy concerns might have been survivable if Glass had been an incredible product. It wasn't. The Explorer Edition was, by any honest assessment, a prototype being sold at a premium price. The display was a tiny 640×360 pixel prism positioned above the right eye. It was visible in certain lighting conditions and nearly impossible to read in bright sunlight. Battery life was atrocious — roughly 30 minutes of video recording, or a few hours of mixed use. The device ran hot against your temple. Voice commands, activated by saying "OK Glass," worked inconsistently and required you to talk to your own face in public, which was exactly as awkward as it sounds.
+## What replaced Google Glass?
 
-The Texas Instruments OMAP 4430 processor inside was already outdated by the time Glass shipped. The 5-megapixel camera produced mediocre photos. The bone conduction speaker was tinny and nearly inaudible outdoors. Storage was limited to 12 GB (with Google claiming 16 GB but reserving the rest for the OS). There was no cellular connection — Glass tethered to your phone via Bluetooth, meaning you still needed to carry your phone everywhere, which rather undermined the whole "replace your phone" pitch.
+Two things, and neither of them is called Glass.
 
-The software ecosystem was equally thin. Google launched a "Glassware" app store, but never attracted meaningful developer support. At its peak, the Glassware store had only about 100 apps — compared to hundreds of thousands on iOS and Android. Most were basic utilities: weather, news headlines, recipe viewers. The killer app that would justify wearing a computer on your face simply never materialized. There was no "Glass moment" equivalent to the iPhone's App Store explosion in 2008. Developers looked at the tiny display, the limited battery, the hostile public reception, and the $1,500 entry barrier, and quietly backed away.
+The first is ordinary-looking camera eyewear. Meta sells smart glasses with Ray-Ban, built on the same Luxottica relationship Google announced in January 2014 and never turned into a shipping product. The advance was design rather than silicon: glasses that read as glasses draw none of the attention that a titanium arm and a visible prism did in 2013.
 
-The most damning criticism came from the Explorers themselves. Multiple surveys and reports indicated that the majority of early Glass owners stopped wearing the device within weeks of purchase. The novelty wore off fast. Once you'd shown it to your friends and taken a few hands-free photos, there wasn't much left to do. As one Explorer wrote in a widely shared review: "I spent $1,500 to learn that the future of computing is not ready yet."
+The second is Google trying again under a different name. At Google I/O in May 2026, Google and Samsung showed Android XR eyewear built with Warby Parker and Gentle Monster, running Gemini for live translation, navigation and notification summaries. Google's announcement splits the line in two: audio glasses that talk in your ear, arriving in the fall of 2026, and display glasses after them. Making the display optional is the exact reverse of the 2013 bet.
 
-## The Fashion Disaster: Why Nobody Wanted to Look Like a Cyborg
+Glass still belongs to the small club of products that arrived with more press than purpose, next to the Segway (https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html) and Google+ (https://404memoryfound.com/posts/why-google-plus-actually-failed.html). The difference is that this one changed how everybody else designs the category.
 
-Steve Jobs understood something fundamental about technology adoption: people care deeply about how they look. The iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html) wasn't just a music player — it was a fashion accessory, deliberately designed with those iconic white earbuds to be visible and aspirational. Apple spent as much time on industrial design as software. Google Glass took the opposite approach.
+## Where to find a Google Glass unit today
 
-Glass looked weird. There's no polite way to say it. The titanium frame, asymmetric display module, and exposed circuitry gave wearers the appearance of someone who had glued a small computer to a pair of glasses frames from a hospital lost-and-found. Google tried to address this by partnering with luxury eyewear company Luxottica (which owns Ray-Ban and Oakley) in January 2014, and by hiring fashion designer Diane von Furstenberg to create Glass frames for New York Fashion Week. But bolting a computer onto nice frames didn't solve the fundamental problem: Glass made you look like you were trying too hard to look like the future.
+Google sells nothing in the line, so the second-hand market is the only route, and what you are buying is a display piece rather than a working computer. Support ended in September 2023 and no updates have shipped since. Explorer Edition units and their frames turn up alongside other 2010s hardware on Etsy (https://www.etsy.com/search?q=google+glass), usually untested and listed as collectables. Ask the seller whether the unit powers on and whether the charger is included, because Glass used a proprietary connector and replacements are scarce.
 
-Contrast this with the devices that actually did succeed in the wearable space. The Apple Watch, launched in April 2015 — just months after Glass was shelved — succeeded partly because it looked like something people already wore: a watch. AirPods succeeded because they looked like slightly minimalist earbuds. The Fitbit succeeded because it looked like a bracelet. Each of these products slotted into an existing social category. Google Glass had no social category. It was a face computer in a world where nobody had agreed that face computers were okay.
+## Frequently Asked Questions
 
-The fashion problem intersected with the privacy problem in toxic ways. Because Glass looked conspicuous and unusual, it drew attention to itself — which meant it drew attention to its camera. A smartwatch with a camera wouldn't have triggered the same reaction, because watches are socially invisible. But a face-mounted device with a camera was socially radioactive. Every design decision Google made amplified the exact concerns that were already killing the product.
+### Is Google Glass still available in 2026?
 
-## The $895 Million Price Tag and the Quiet Death
+No. Google stopped selling Glass Enterprise Edition on March 15, 2023 and ended support on September 15, 2023, and there is no consumer Google Glass on sale in 2026. The consumer Explorer Edition had already been withdrawn in January 2015. Only second-hand units exist, and they get no software updates.
 
-Google never officially disclosed exactly how much it spent on Glass, but industry analyses have estimated the total investment at approximately $895 million. That figure covers hardware development, the Google X lab resources allocated to the project, marketing (including those elaborate Explorer launch events), the Luxottica and Diane von Furstenberg partnerships, developer relations, and the staffing of a dedicated Glass division that at its peak employed several hundred engineers and designers.
+### How much did Google Glass cost?
 
-On January 15, 2015, Google announced it was "graduating" Glass from Google X — corporate doublespeak for "we're shutting down the consumer product." The Explorer program was officially ended. The Glassware app store was closed. The social media accounts went dormant. In a blog post, Google said the team would "continue to work on future versions of Glass" but gave no timeline or specifics. The future of face computing, it turned out, was not 2015.
+The Google Glass Explorer Edition cost $1,500 when it reached developers in February 2013 and still cost $1,500 when it went on open sale in the United States on April 15, 2014. Glass Enterprise Edition sold through Google's partners at roughly $1,828 in 2017, and Glass Enterprise Edition 2 launched on May 20, 2019 at $999.
 
-The aftermath was instructive. Google pivoted Glass to an enterprise product — "Glass Enterprise Edition" — released quietly in 2017. Priced at $999 (later updated to $1,799 for the Enterprise Edition 2 in 2019), it found modest success in manufacturing, logistics, and healthcare, where workers could view instructions hands-free without the social stigma of wearing Glass at a restaurant. DHL, Boeing, AGCO, and several hospitals adopted Glass for specific workflows. But enterprise was never the original vision. Glass was supposed to change how everyone interacted with information. Instead, it became a niche tool for warehouse workers.
+### Why was Google Glass discontinued?
 
-In March 2023, Google officially discontinued Glass Enterprise Edition, ending the product line entirely after more than a decade of pivoting. The dream was finally, officially dead.
+Google Glass was discontinued because the always-on camera made it socially unwelcome, with bans starting at the 5 Point Cafe in Seattle in March 2013, and because the hardware could not justify $1,500: a washed-out prism display, short battery life under video, and a thin app catalogue. Google withdrew the consumer version in January 2015, pivoted to enterprise, and ended that line in March 2023.
 
-## What Google Got Wrong: The Real Lessons
-
-Google Glass failed for a constellation of reasons, but they all trace back to a central problem: Google built a technology and then went looking for a use case, instead of identifying a problem and building a solution. This is the classic "technology push" versus "market pull" mistake, and it's remarkable that a company as data-driven as Google fell into it so completely.
-
-The first lesson is about social acceptability. Every successful consumer technology has navigated social norms — either by fitting into existing ones (like smartwatches) or by creating a context where new norms can emerge (like smartphones at restaurants, which took years of cultural negotiation). Google tried to force a new social norm — wearing a face camera everywhere — without doing any of that groundwork. There was no gradual introduction, no cultural permission-seeking, no social proof from ordinary people. Just Sergey Brin wearing Glass at fashion shows and expecting the world to follow.
-
-The second lesson is about the Explorer program's fatal elitism. By making Glass exclusive and expensive, Google ensured that the only people wearing it in public were exactly the wrong ambassadors: tech enthusiasts who were already perceived as out of touch. If Google had launched Glass at $300 through regular channels, the reaction might have been entirely different. Mass adoption normalizes behavior. Exclusive adoption polarizes it.
-
-The third lesson is about timing. Google Glass launched in 2013. The AR/VR technology simply wasn't ready. The display was too small, the battery too weak, the processor too slow, the voice recognition too unreliable. Every one of these problems has improved dramatically in the decade since — which is why Meta, Apple, and others are now making credible runs at face-worn computing. Google was right about the destination. They were just a decade too early for the journey.
-
-## Google Glass Then vs Now: The Legacy in 2026
-
-Here's the irony: Google Glass was right about almost everything — just way too early. In 2026, the augmented reality landscape looks completely different. Apple's Vision Pro shipped in February 2024 at $3,499 — more than double what Glass cost — and despite its own rocky launch, demonstrated that spatial computing had genuine consumer appeal when the technology was mature enough. Meta's Ray-Ban smart glasses, launched in partnership with Luxottica (the same company Google partnered with), have become arguably the first socially acceptable smart glasses, largely because they look almost identical to regular Ray-Bans. The camera is invisible. The design is familiar. The social friction is minimal. Meta learned from Google's mistakes.
-
-The broader wearable market that Glass was supposed to pioneer has exploded, just not in the form Google imagined. Smartwatches are a $30+ billion global market. Wireless earbuds with AI assistants are ubiquitous. AR features live in smartphone cameras via apps like Snapchat and Instagram filters. The idea of augmented information overlaid on reality has gone mainstream — it just didn't happen through a face-mounted prism in 2013.
-
-Google itself hasn't abandoned the concept entirely. Reports have surfaced periodically about internal Google projects related to AR glasses, and the company's investment in AR through Android and other platforms continues. But the consumer Glass brand is dead, and it's hard to imagine Google reviving it. The name "Google Glass" carries too much baggage — too many Glasshole jokes, too many bar bans, too many memories of that $1,500 beta test that convinced most people the future was not yet wearable.
-
-In the end, Google Glass might be the most influential failed product in tech history. It didn't succeed as a product, but it succeeded as a warning label. Every smart glasses project since — from Snap Spectacles to Meta's Ray-Bans to Apple's Vision Pro — has been designed with Google Glass's failures as explicit anti-patterns. Don't make it look weird. Don't make the camera obvious. Don't launch to elites. Don't ignore social norms. Google spent $895 million teaching the entire industry what not to do. That's one expensive lesson — but every company building AR hardware today has benefited from it.
-
-### Why did Google Glass fail?
-
-Google Glass failed due to a combination of privacy concerns (its always-on camera made people uncomfortable), high price ($1,500 for a beta product), poor hardware (limited battery life, weak display, outdated processor), lack of compelling apps, and social stigma — wearers were labeled "Glassholes." Google also made strategic errors by launching exclusively to tech elites rather than everyday consumers, and the technology simply wasn't mature enough in 2013 to deliver on its promises.
-
-### How much did Google lose on Google Glass?
-
-Industry estimates put Google's total investment in Google Glass at approximately $895 million, covering hardware development, the Google X lab resources, marketing campaigns, fashion partnerships with Luxottica and Diane von Furstenberg, developer relations, and staffing a dedicated Glass division of several hundred employees. Google never officially confirmed the figure, but it remains one of the most expensive consumer tech failures of the 2010s.
-
-### What happened to Google Glass after it was discontinued?
-
-After shelving the consumer version in January 2015, Google pivoted Glass to an enterprise product. The Glass Enterprise Edition launched in 2017 at $999, finding modest success in manufacturing, logistics, and healthcare where workers could view instructions hands-free. A second enterprise version launched in 2019 at $1,799. However, Google officially discontinued all Glass products in March 2023, ending the product line entirely after more than a decade.
-
-### Was Google Glass the first smart glasses?
-
-Google Glass wasn't technically the first smart glasses — various augmented reality headsets and heads-up displays existed before it, including early academic prototypes and military systems dating back decades. But Glass was the first major consumer-oriented smart glasses from a major tech company, and it remains the product most associated with the concept of smart eyewear. Its high-profile launch and failure shaped the entire smart glasses category that followed.
-
+**Sources:**
+- Google Glass tech specs (Google Glass Help): https://support.google.com/glass/answer/3064128
+- Glass Enterprise Edition Announcement FAQ (Google Support, 2023): https://support.google.com/glass-enterprise/customer/answer/13417888
+- Google Glass Enterprise Edition 2 announced for $999 (CNBC, 2019): https://www.cnbc.com/2019/05/20/google-glass-enterprise-edition-2-announced-price.html
+- Sergey Brin: Smartphones are 'emasculating' (CNN, 2013): https://www.cnn.com/2013/02/28/tech/innovation/brin-google-glass/index.html
+- Intelligent eyewear with Gemini is coming this fall (Google blog, 2026): https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/
 
 ---
 
