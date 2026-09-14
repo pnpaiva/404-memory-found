@@ -711,8 +711,9 @@
         "dial up internet providers 2026"
       ],
       "demand_note": "AOL's 2025 dial-up shutdown made national news and sent people searching whether dial-up is now completely gone in the US.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "dial-up-internet-still-available-2026"
     },
     {
       "title": "Does Netflix Still Mail DVDs? The Last Red Envelope",
