@@ -17238,153 +17238,90 @@ The original LimeWire was legal software, but a federal court ruled in May 2010 
 
 ---
 
-# What Happened to ICQ? The First Instant Messenger That Changed Everything
+# Is ICQ Still Around? VK Shut It Down in June 2024
 
 URL: https://404memoryfound.com/posts/what-happened-to-icq-instant-messenger.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-03-27
-Topics: retro-tech, instant-messaging, icq, aol, 90s-internet, messaging-apps, mirabilis, israel-tech
+Published: 2026-03-27  Updated: 2026-09-15
+Topics: Software & Apps, Internet Culture
 
-If you were online in the late 1990s, you remember the sound. That two-note "Uh Oh!" chime that meant someone — a friend, a stranger from a chatroom, maybe your crush from school — had just sent you a message. It was the sound of ICQ, and for millions of people around the world, it was the sound of the internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) itself.
+**Summary:** ICQ is no longer running. VK, the Russian company that bought it from AOL in 2010, switched the messenger off on June 26, 2024 after twenty-eight years and sent users to VK Messenger. VK still owns the ICQ name, and a volunteer project called NINA now runs free servers that the old ICQ clients can log into.
 
-ICQ wasn't just a chat program. It was the application that proved ordinary people wanted to talk to each other online in real time. Before ICQ, instant messaging existed mostly in closed corporate environments or as features buried inside online services like AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html). ICQ ripped it out, made it free, made it universal, and in doing so created the template that every messaging app — from AIM (https://404memoryfound.com/#/post/what-happened-to-aim-aol-instant-messenger) to MSN (https://404memoryfound.com/#/post/what-happened-to-msn-messenger) Messenger to WhatsApp — would follow.
+**Key facts:**
+- Launched: November 1996, by Mirabilis in Tel Aviv
+- Status today: Shut down on June 26, 2024, after 28 years
+- Owner today: VK Company Limited, formerly Mail.ru Group
+- Peak: Around 100 million users in 2001
+- Price today: Free on NINA's unofficial ICQ servers
 
-And then, somehow, it lost. This is the story of how that happened.
+## What was ICQ and who built it?
 
-  
-  
+ICQ was a free instant messenger written by Mirabilis, a small Israeli company set up in 1996 by Yair Goldfinger, Sefi Vigiser, Amnon Amir and Arik Vardi. Arik's father, the investor Yossi Vardi, put up the money. The first client went out as a free download in November 1996.
 
-## Five Kids in Tel Aviv Build the Future
+The name is a phonetic spelling of the phrase I Seek You, and the problem it solved sounds trivial now. In 1996 you could only chat with people inside the same walled service. CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) members talked to CompuServe members. AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) members talked to AOL members. Everyone else had IRC (https://404memoryfound.com/posts/what-happened-to-irc-chat.html), which assumed you already knew what a server and a channel were.
 
-In the summer of 1996, four young Israelis — Yair Goldfinger, Sefi Vigiser, Amnon Amir, and Arik Vardi — were working at a Tel Aviv software company called Zapa Digital Arts. The internet was exploding, but real-time communication between ordinary users was still a mess. Email was slow. IRC (https://404memoryfound.com/posts/what-happened-to-irc-chat.html) was arcane and intimidating. The big online services like AOL and CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) had chat features, but they were walled gardens — you could only talk to other people on the same service.
+ICQ ignored the walls. Download the client, take a number, add anyone you liked anywhere on the internet. It shipped with a contact list, online and away status, offline messages that waited for you to come back, file transfers and a searchable directory of users. Every one of those features is in the messenger on your phone right now, which is the strongest argument for treating ICQ as the original rather than an also-ran.
 
-The four developers, all in their early twenties, had a deceptively simple idea: what if anyone on the internet could message anyone else, instantly, for free? No service subscription required. No shared server. Just download a program, pick a username, and start talking.
+## Why did AOL pay $287 million for a free chat app?
 
-They founded a company called Mirabilis (Latin for "wonderful") in the summer of 1996, with financial backing from Arik's father, Yossi Vardi — a serial entrepreneur who would later become known as the godfather of Israel's tech scene. Working from a small office in Tel Aviv, the team built and released the first version of ICQ in November 1996.
+By the spring of 1998, America Online had a problem. Its own AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html) mattered only inside AOL's service. ICQ had everyone else, and it was spreading with no advertising at all.
 
-The name was a phonetic play on "I Seek You." And it worked.
+So AOL bought Mirabilis outright. AOL's filing with the Securities and Exchange Commission records that the purchase closed on June 5, 1998, that AOL paid $287 million in cash for 100 percent of the Mirabilis assets, and that it agreed to contingent payments of up to $120 million over three years tied to growth targets. That is about $407 million if everything paid out, and at the time it was the largest sum ever paid for an Israeli software company.
 
-## The UIN System: A Stroke of Genius
+The same filing counts more than 12 million registered ICQ users at the moment of sale. "The acquisition of ICQ technology dramatically increases our presence on the Web," AOL chairman and chief executive Steve Case said in the 1998 announcement. Mirabilis stayed in Tel Aviv, still run by its founders, and ICQ kept its own name and its own client.
 
-What made ICQ different from everything that came before was its architecture. Every user received a unique identification number — a UIN — that served as their permanent address on the network. Your UIN was yours. It didn't matter what computer you were on, what internet service provider you used, or what country you were in. You logged in with your UIN and password, and you were you.
+## What made an ICQ number worth bragging about?
 
-This sounds trivially obvious now, but in 1996 it was revolutionary. The UIN system meant ICQ could scale infinitely. There were no duplicate identity conflicts, no server-specific limitations. Your contact list was stored on ICQ's central servers, so it followed you everywhere. Low UIN numbers became status symbols — proof that you'd been there from the beginning. People traded them, bragged about them, even sold them.
+Every account got a Unique Identification Number, the UIN. It was your address on the network, independent of the computer you sat at, the internet provider you paid or the country you lived in. Type the number and the password anywhere and your contact list followed you. That is ordinary in 2026 and it was not ordinary in 1996.
 
-ICQ also introduced features that we now take for granted in every messaging application: a contact list (they called it a "Contact List" — creative, but it worked), online status indicators showing whether someone was Available, Away, or in Do Not Disturb mode, offline messaging that queued up and delivered when the recipient came online, file transfers, group chats, and even a rudimentary search directory where you could find other users by age, location, or interests.
+Because the numbers were handed out in order, the length of yours announced when you had arrived. Six-digit UINs belonged to people who signed up in the first year. Nine-digit numbers marked you as late. Short numbers were traded, gifted and sold, years before anyone thought of a handle as property.
 
-## Viral Growth Before "Viral" Was a Word
+The other signature was the alert sound, a two-note chime that played the moment a message landed. It is still the first thing people name when ICQ comes up, and it is the reason the shutdown in 2024 made headlines in countries where the service had been dead for a decade.
 
-ICQ grew the way every startup dreams of growing — purely through word of mouth, at a speed that stunned even its creators. Within six months of launching, ICQ had crossed one million registered users. By December 1997, that number had surpassed five million, with a daily audience of 1.3 million. By mid-1998, the installed base had grown to 16 million and was accelerating — adding one million new users every three weeks.
+## How did ICQ lose the messaging war?
 
-There was no marketing budget. No Super Bowl ad. No growth hacking. People downloaded ICQ because their friends told them to, and they told their friends to download it because that was the only way to talk to them. It was perhaps the purest example of network effects in consumer software history up to that point.
+ICQ kept growing after the sale. Its peak was around 100 million users in 2001, which made it one of the most widely installed programs on earth. Then three things went wrong at once.
 
-The "Uh Oh!" notification sound became one of the most recognizable audio signatures on the internet. Entire office buildings would erupt in a cascade of "Uh Oh!" sounds as messages ricocheted between cubicles. Schools started banning ICQ. Parents wondered what their kids were doing all evening. The answer was always the same: talking to their friends on ICQ.
+AOL owned two messengers and never chose between them. AOL Instant Messenger was the default for American members. ICQ was everything outside the United States. The engineering attention went to the American product, and ICQ drifted.
 
-## AOL Comes Knocking with $407 Million
+The client also got heavy. A program that had been small and quick filled up with news tickers, mini games, greeting cards, a browser toolbar and advertising. Meanwhile MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html) was free, plain, tied to a Hotmail (https://404memoryfound.com/posts/why-everyone-had-hotmail-account.html) address and, on Windows XP, already sitting on the machine when the user first switched it on.
 
-By early 1998, ICQ was the fastest-growing application on the internet, and the big players noticed. America Online — at the time the most powerful company in the consumer internet space — saw ICQ as both a threat and an opportunity. AOL had its own messaging system (AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html), launched in 1997), but ICQ had something AIM didn't: the entire non-AOL internet.
+Then phones arrived. ICQ's identity was a number you had to memorise and a client you had to install. WhatsApp's identity was the phone number already in your pocket, and it was drawn for a phone screen from its first release. By the time ICQ had a mobile app worth using, the contacts had moved and there was nothing to come back for.
 
-On June 8, 1998, AOL announced it was acquiring Mirabilis. The price: $287 million in cash upfront, with an additional $120 million in performance-based payments over three years, bringing the total deal value to approximately $407 million. Mirabilis was still a small startup. The founders and Yossi Vardi became multimillionaires overnight.
+## Who owns ICQ today?
 
-The deal was historic for several reasons. It was one of the largest acquisitions of an Israeli tech company at that time. It validated instant messaging as a major product category. And it helped cement Israel's reputation as a technology powerhouse — a narrative that Yossi Vardi would spend the next two decades promoting at conferences around the world.
+VK Company Limited, the Russian internet group formerly called Mail.ru Group, owns the ICQ name in 2026 and has owned it since 2010.
 
-"ICQ was the proof that Israel could build global consumer technology products, not just defense systems and enterprise software." — Yossi Vardi, in multiple interviews
+AOL sold the service on. AOL's 2010 filing with the Securities and Exchange Commission records a securities purchase agreement signed on April 28, 2010 with Digital Sky Technologies Limited, and a price of $187.5 million in cash. AOL had paid $287 million twelve years earlier, so the messenger sold for well under what it cost before inflation is counted at all.
 
-## The Peak: 100 Million Users
+Digital Sky Technologies became Mail.ru Group, and Mail.ru Group later renamed itself VK Company Limited after VKontakte, its largest product. Under that ownership ICQ stopped being a world product and became a Russian one. It was rebuilt more than once, gaining video calls, stickers and a redesigned mobile app, and it held a real audience in Russia and its neighbours long after the rest of the world had forgotten the chime. That audience was not enough.
 
-Under AOL's ownership, ICQ continued to grow. The platform introduced new features: games, a built-in email client, chat rooms, a toolbar, skins for customizing the interface. By 2001, ICQ had surpassed 100 million registered accounts, making it one of the most widely installed applications in the world.
+## Can you still log into ICQ in 2026?
 
-But registered accounts don't tell the whole story. ICQ's active user base was enormous — tens of millions logging in daily across more than 245 countries. In Russia, Eastern Europe, and parts of Latin America, ICQ wasn't just popular; it was the default way people communicated online. The six-digit and seven-digit UIN numbers from the early days became digital heirlooms.
+Not on VK's servers. In late May 2024 a notice went up on the ICQ website: "ICQ will stop working from June 26." It gave no explanation and sent people to VK Messenger for friends and VK WorkSpace for colleagues. The service went dark on June 26, 2024, twenty-eight years after the first download, and VK has run nothing under the name since.
 
-## How ICQ Lost the Messaging War
+Unofficial servers kept the protocol alive. NINA, a volunteer project that also rebuilds AOL Instant Messenger and classic AOL, runs ICQ servers that the original clients connect to: point an old client at login.oscar.nina.chat on port 5190 and it logs in. NINA covers ICQ 2000a through the 8.x releases, describes its ICQ support as a beta still under work, and charges nothing. A separate MIT-licensed project, Open OSCAR Server, reimplements the same protocol in Go for anyone who would rather run their own. NINA does the same job for Yahoo Messenger (https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html), which is how most of these dead messengers are reachable at all.
 
-If ICQ was so dominant, what went wrong? The answer is a combination of corporate neglect, strategic confusion, and the arrival of competitors who understood something ICQ's new corporate parent did not: simplicity wins.
+## Frequently Asked Questions
 
-AOL's conflicted interests. AOL owned both ICQ and AIM, and it never quite figured out what to do with two competing messaging platforms. AIM was the default for American users inside AOL's ecosystem. ICQ was everything else. Instead of merging them or clearly differentiating them, AOL let both products drift. Development resources went to AIM. ICQ got less attention, fewer engineers, and an increasingly bloated feature set that confused new users.
+### When did ICQ shut down?
 
-Feature creep killed the experience. Through the early 2000s, ICQ became heavier and more cluttered with every update. What started as a lightweight, fast messaging client turned into a hulking Swiss Army knife of tools most people never asked for: news tickers, weather widgets, mini-games, greeting cards. The install size ballooned. The interface became confusing. And worst of all, ads started appearing everywhere.
+ICQ shut down on June 26, 2024, twenty-eight years after its first release in November 1996. VK, the Russian company that had owned the messenger since 2010, posted a notice in late May 2024 saying the service would stop working and directing users to VK Messenger and VK WorkSpace.
 
-MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html) and the Windows advantage. Microsoft (https://404memoryfound.com/#/post/microsoft-tried-buy-nintendo) launched MSN Messenger in 1999, and while it wasn't technically superior to ICQ, it had one enormous advantage: it came bundled with Windows. Every new PC that shipped with Windows XP had MSN Messenger built in. You didn't need to download anything. For the next generation of internet users — especially in Europe and Latin America — MSN Messenger became the default, not because it was better, but because it was already there.
+### Who owns ICQ now?
 
-The mobile revolution passed ICQ by. When smartphones began to take over in the late 2000s, ICQ was slow to adapt. By the time it released decent mobile apps, WhatsApp (founded in 2009) and Facebook Messenger had already claimed the space. The new generation of messaging apps were built mobile-first, with clean interfaces and phone number-based identity — no UIN required.
+VK Company Limited, formerly Mail.ru Group, has owned ICQ since Digital Sky Technologies bought it from AOL for $187.5 million under an agreement signed in April 2010. VK still holds the ICQ brand in 2026, but it has operated no ICQ service since June 26, 2024.
 
-  
-  
+### What does ICQ stand for?
 
-## Sold to Russia, Then Shut Down
+ICQ is not an abbreviation. Mirabilis named the messenger in 1996 with a phonetic spelling of the phrase I Seek You, which described what the program did: find other people anywhere on the internet and message them directly, without both sides paying for the same online service.
 
-In April 2010, AOL — itself struggling to reinvent its identity in a post-dial-up world — sold ICQ to Digital Sky Technologies (DST), a Russian investment firm headed by billionaire Alisher Usmanov, for $187.5 million. It was less than half what AOL had paid twelve years earlier, and that's before adjusting for inflation.
-
-DST soon rebranded itself as Mail.Ru Group (later VK Group). Under Russian ownership, ICQ found a second life of sorts. The platform remained hugely popular in Russia and the Commonwealth of Independent States, where it had always been the dominant messaging tool. Mail.Ru invested in modernizing the client, adding video calls, stickers, and a redesigned mobile app.
-
-But globally, ICQ was a ghost of its former self. By the mid-2010s, its worldwide active user count had dropped to a fraction of its peak. WhatsApp alone had over a billion users. Facebook Messenger had 900 million. Telegram, founded by Russian entrepreneur Pavel Durov in 2013, was eating into ICQ's remaining CIS user base.
-
-On May 24, 2024, ICQ's website posted a simple announcement: the service would shut down on June 26, 2024. Users were encouraged to migrate to VK Messenger. After twenty-eight years, the "Uh Oh!" would finally go silent.
-
-## ICQ's Legacy: More Than Nostalgia
-
-It's easy to dismiss ICQ as just another dead dot-com product, but that would be a mistake. ICQ's influence on technology and culture runs deep.
-
-It invented the modern messaging paradigm. Contact lists, online status indicators, typing notifications, offline messaging, file sharing within chat — ICQ either invented or popularized every one of these features. Every messaging app you use today is, architecturally and conceptually, a descendant of ICQ.
-
-It proved consumer software could go viral. ICQ reached 100 million users with essentially zero marketing spend. It was one of the earliest and most dramatic demonstrations that if you build something people genuinely want, distribution takes care of itself.
-
-It launched Israel's tech industry. The Mirabilis acquisition wasn't just a big payday — it was a signal to the world that Israel could produce globally relevant consumer technology. The "ICQ generation" of Israeli entrepreneurs went on to found dozens of companies, and Yossi Vardi became one of the world's most active angel investors.
-
-It shaped how a generation learned to communicate. For millions of people who grew up in the late 1990s, ICQ was where they learned the social norms of online communication — how to manage a contact list, how to navigate the awkwardness of seeing someone "online" and deciding whether to say hello, how to express emotion in text (the precursor to emoji culture). These were new human skills, and ICQ was the training ground.
-
-## The Numbers Behind ICQ
-
-Sometimes the best way to understand a product's trajectory is through its numbers:
-
-- November 1996: ICQ launches, available as a free download
-
-- Mid-1997: 1 million registered users
-
-- Late 1997: Over 5 million users, 1.3 million daily active
-
-- Mid-1998: 16 million users (growing by 1 million every 3 weeks)
-
-- June 1998: AOL acquires Mirabilis for $287M upfront ($407M total)
-
-- 2001: 100 million registered accounts — the peak
-
-- April 2010: AOL sells ICQ to DST for $187.5 million
-
-- 2010: Approximately 42 million daily active users, mostly in Russia and CIS
-
-- June 26, 2024: ICQ shuts down permanently after 28 years
-
-## FAQ
-
-What does ICQ stand for?
-
-ICQ is a phonetic play on the phrase "I Seek You." The name reflected the platform's core function: finding and connecting with other people online.
-
-Who created ICQ?
-
-ICQ was created by four Israeli developers — Yair Goldfinger, Sefi Vigiser, Amnon Amir, and Arik Vardi — who founded a company called Mirabilis in June 1996. Arik's father, Yossi Vardi, provided the initial funding.
-
-Why did AOL buy ICQ?
-
-AOL saw ICQ's explosive growth — over 12 million users with no marketing — as both a competitive threat and an opportunity to dominate instant messaging beyond AOL's own walled garden. The acquisition cost approximately $407 million total.
-
-Is ICQ still available?
-
-No. ICQ officially shut down on June 26, 2024, after 28 years of operation. Its parent company VK Group recommended users migrate to VK Messenger.
-
-What was a UIN?
-
-A UIN (Unique Identification Number) was ICQ's user identity system. Each account received a unique number that served as a permanent address on the network. Low UIN numbers became status symbols among early adopters.
-
-Why did ICQ fail?
-
-ICQ declined due to several factors: corporate neglect under AOL ownership, feature bloat that degraded the user experience, competition from MSN Messenger (which came pre-installed with Windows), and failure to adapt quickly to the mobile era. By the time smartphones dominated, WhatsApp and Facebook Messenger had claimed the messaging market.
-
-How many users did ICQ have at its peak?
-
-ICQ reached over 100 million registered accounts by 2001. Daily active users peaked in the tens of millions globally.
-
+**Sources:**
+- America Online Inc., Form 8-K on the Mirabilis acquisition (1998), SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0000883780/000088378098000023/0000883780-98-000023.txt
+- AOL Inc., Form 8-K on the sale of ICQ to Digital Sky Technologies (2010), SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0001468516/000119312510156846/d8k.htm
+- ICQ, Encyclopaedia Britannica: https://www.britannica.com/technology/ICQ
+- Venerable ICQ messaging service to end operations in June, The Register (2024): https://www.theregister.com/2024/05/27/icq_end_of_service/
+- ICQ connection guides, NINA: https://nina.chat/connect/icq/
 
 ---
 
