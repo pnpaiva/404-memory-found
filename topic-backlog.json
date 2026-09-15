@@ -879,8 +879,9 @@
         "is game informer magazine still around"
       ],
       "demand_note": "Game Informer was bundled with GameStop's rewards program, so millions of Americans were subscribers and noticed when it stopped arriving.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "who-owns-game-informer-now"
     },
     {
       "title": "Does Yahoo Messenger Still Exist? Why It Shut Down",
