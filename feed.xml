@@ -8,6 +8,18 @@
     <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Does Yahoo Messenger Still Exist? Why It Shut Down</title>
+      <link>https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Yahoo Messenger does not exist: Oath shut it down on July 17, 2018 after 20 years. Its replacement, Yahoo Together, lasted until April 4, 2019.</description>
+      <enclosure url="https://404memoryfound.com/pins/does-yahoo-messenger-still-exist.jpg" length="192640" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/does-yahoo-messenger-still-exist.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Software &amp; Apps</category>
+      <category>Internet Culture</category>
+    </item>
+    <item>
       <title>Who Owns Game Informer Now? Gunzilla Games Does</title>
       <link>https://404memoryfound.com/posts/who-owns-game-informer-now.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-game-informer-now.html</guid>
@@ -234,18 +246,6 @@
       <media:content url="https://404memoryfound.com/pins/boston-market-locations-left.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Does Chuck E. Cheese Still Have Animatronics?</title>
-      <link>https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Chuck E. Cheese still has animatronics, but only in five US stores. Every other stage came out by the end of 2024, and the robots went to Kansas.</description>
-      <enclosure url="https://404memoryfound.com/pins/chuck-e-cheese-animatronics-still-there.jpg" length="243803" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/chuck-e-cheese-animatronics-still-there.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Then vs Now</category>
-      <category>Hardware</category>
     </item>
   </channel>
 </rss>
