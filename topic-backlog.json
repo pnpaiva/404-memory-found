@@ -858,8 +858,9 @@
         "is kb toys still in business"
       ],
       "demand_note": "The 2018 comeback headlines are still indexed and keep sending Americans to search whether KB Toys ever actually reopened.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "kb-toys-stores-left"
     },
     {
       "title": "Is Game Informer Still Publishing? Back From the Dead",
