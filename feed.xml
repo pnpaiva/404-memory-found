@@ -8,6 +8,18 @@
     <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How Many KB Toys Stores Are Left? Zero Since 2009</title>
+      <link>https://404memoryfound.com/posts/kb-toys-stores-left.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/kb-toys-stores-left.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>How many KB Toys stores are left? Zero. All 461 closed by February 9, 2009, and the brand now survives online and at a Comic-Con booth.</description>
+      <enclosure url="https://404memoryfound.com/pins/kb-toys-stores-left.jpg" length="206222" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/kb-toys-stores-left.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Then vs Now</category>
+    </item>
+    <item>
       <title>Where Is FAO Schwarz Now? Inside Rockefeller Center</title>
       <link>https://404memoryfound.com/posts/fao-schwarz-store-rockefeller-center.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/fao-schwarz-store-rockefeller-center.html</guid>
@@ -234,18 +246,6 @@
       <media:content url="https://404memoryfound.com/pins/is-gamestop-still-in-business.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>How to Run 90s PC Games on Windows 11 in 2026</title>
-      <link>https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.</description>
-      <enclosure url="https://404memoryfound.com/pins/run-90s-pc-games-windows-11.jpg" length="128401" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/run-90s-pc-games-windows-11.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Software &amp; Apps</category>
-      <category>Gaming</category>
     </item>
   </channel>
 </rss>

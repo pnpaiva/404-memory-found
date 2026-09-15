@@ -1923,6 +1923,16 @@
   "http": 404,
   "status": "missing"
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kay-Bee_mascot.jpg/960px-Kay-Bee_mascot.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Kay-Bee_mascot.jpg",
+  "ext": "jpg",
+  "file": "/img/kay-bee-mascot-6ee245.jpg",
+  "height": 2123,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/kay-bee-mascot-6ee245.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg/960px-2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:2023_Kaseta_VHS%2C_magnetofonowa_i_minikaseta.jpg",
   "ext": "jpg",
