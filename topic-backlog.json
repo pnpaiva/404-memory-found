@@ -837,8 +837,9 @@
         "fao schwarz piano still there"
       ],
       "demand_note": "Tourists planning New York trips and Big fans both search whether the piano store still exists before making the trip.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "fao-schwarz-store-rockefeller-center"
     },
     {
       "title": "Is KB Toys Coming Back? What Happened to the Chain",
