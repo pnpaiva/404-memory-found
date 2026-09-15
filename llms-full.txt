@@ -4,6 +4,105 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is Photobucket Still Around? Why Your Photos Vanished
+
+URL: https://404memoryfound.com/posts/is-photobucket-still-around.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-09-15
+Topics: Internet Culture, Business Blunders
+
+**Summary:** Photobucket is still around in 2026, but not as the free image host that served a large share of the MySpace-era web. It sells subscription storage starting at $5 a month for one terabyte, and it has had no free tier since June 2023. The billions of broken images on forums date to June 20, 2017, when Photobucket began charging $399.99 a year for third-party hosting.
+
+**Key facts:**
+- Launched: 2003, by Alex Welch and Darren Crystal
+- Peak sale: July 2007, to Fox Interactive Media for $250 million plus up to $50 million in performance payments
+- What broke the links: June 20, 2017 terms change: third-party hosting moved to a $399.99-a-year plan
+- Status today: Alive, subscription only. No free accounts since June 2023
+- Owner today: Photobucket Inc., privately held, Denver, Colorado
+
+## What broke every Photobucket link in 2017?
+
+On June 20, 2017, Photobucket quietly updated its terms of service and stopped serving images to other websites. Anyone who had pasted a Photobucket link into a forum thread, a fan page or a marketplace listing watched the photo turn into a gray box asking for money.
+
+The company had folded third-party hosting, the feature that let an image live on Photobucket but appear somewhere else, into a single expensive plan. It was called Plus 500, and it cost $399.99 a year.
+
+Almost nobody was warned. Millions of posts across hobbyist boards, motorcycle forums, quilting communities and shopping listings broke in the same afternoon, and the graphic that replaced each picture told readers the account holder needed to upgrade.
+
+Photobucket chief executive John Corpus defended the decision in a 2017 statement, blaming "the rise of ad blockers and the Company's explosion of 3rd party hosting that generates zero revenue." He said 75 percent of the company's costs came from non-paying users whose images were being loaded elsewhere. "This model is no longer sustainable," Corpus wrote, in remarks 9News reported that July.
+
+## How Photobucket became the photo album of the MySpace era
+
+Photobucket launched in 2003, built by Alex Welch and Darren Crystal, and it answered a question the early web had no good response to: where does a picture live when the site you want to post it on will not store it for you?
+
+That question got much louder once MySpace (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html) arrived. MySpace profiles were endlessly customizable and came with almost no storage, so the glitter graphics, layout backgrounds and profile banners of 2005 and 2006 were served from somewhere else. Photobucket became that somewhere else for a very large share of them.
+
+By 2007 the site had roughly 40 million registered users. Fox Interactive Media, the News Corp division that also owned MySpace, bought Photobucket in July 2007 for $250 million in cash plus performance payments of up to $50 million.
+
+The fit lasted about two years. News Corp sold Photobucket in 2009 to Ontela, a Seattle mobile imaging startup, in a deal that valued the site at about $60 million, roughly a fifth of what News Corp had paid. Ontela took the Photobucket name and has run it independently ever since.
+
+## Why free accounts disappeared in 2023
+
+The 2017 price did not hold. In May 2018 a new management team cut the hosting plan to $1.99 a month, or $19.99 a year, and switched the blocked images back on.
+
+The reprieve did not fix the underlying math. Storing billions of files costs money every month, and an image loaded inside somebody else's forum thread shows none of Photobucket's advertising.
+
+In June 2023 Photobucket ended free accounts altogether. Free users received a message telling them their account had been deactivated because the company no longer supported free subscriptions. The photos were not deleted. The door was simply locked.
+
+The effect on the open web was permanent. Every thread whose author had stopped logging in years earlier stayed broken, and nothing is coming along to fix it. The habit had moved on anyway: free rivals such as Imgur absorbed the forum-posting crowd, Flickr (https://404memoryfound.com/posts/what-happened-to-flickr-yahoo-photo-sharing.html) kept the photographers, and phone backup services took everyone else.
+
+## What does Photobucket cost in 2026, and who owns it?
+
+Photobucket is still running in 2026. It is a subscription storage company now rather than a free image host, and there is no free tier to sign up for.
+
+The entry plan, My Bucket, is $5 a month for one terabyte of photo and video storage. The plan that includes third-party hosting, the feature that made Photobucket essential and then notorious, runs $13 a month.
+
+Ownership has not changed in more than fifteen years. Photobucket Inc. is the former Ontela, privately held and based in Denver, Colorado. There is no parent conglomerate behind it and no larger company covering the storage bill.
+
+So the short answer to the question people type is that the company exists and the service you remember does not. The free image host that carried a chunk of the 2005 web is gone, and the pictures from lapsed accounts sit on Photobucket's servers behind a subscription.
+
+## Can you get your old Photobucket photos back?
+
+Usually yes, if you can still get into the account. Deactivated accounts were locked rather than erased, so the files are generally still there, and starting a paid plan restores access long enough to download the albums.
+
+The obstacles are practical ones. Plenty of accounts were opened with a college address that stopped working in 2008, or under a username nobody wrote down, and password recovery through a dead mailbox goes nowhere.
+
+When the account itself is unreachable, the Internet Archive's Wayback Machine is the next stop. Public forum threads were often crawled while the images still loaded, so an archived copy of the page can hold a picture the original poster lost.
+
+If the originals only ever existed as prints or negatives in a shoebox, that is a different job. Mail-in services such as ScanMyPhotos (https://www.scanmyphotos.com/) handle a box at a time, and scanning them yourself (https://404memoryfound.com/posts/scan-old-photos-negatives-2026.html) costs less if you have the hours to spare.
+
+## Why Photobucket wants to sell 13 billion photos to AI companies
+
+In April 2024 Photobucket chief executive Ted Leonard told Reuters the company was in talks with multiple technology companies about licensing its archive of roughly 13 billion photos and videos to train image-generating models. He put the rates under discussion at 5 cents to $1 per photo, and more than $1 per video.
+
+"We need to pay our bills, and this could give us the ability to continue to support free accounts," Leonard told Reuters in 2024, in comments PetaPixel reported that April.
+
+Users had not clearly agreed to any of it. Photobucket revised its terms and gave account holders a 45-day window to opt out, after which consent was treated as given.
+
+In December 2024 a proposed class action, Pierce v. Photobucket, was filed in federal court in Colorado over biometric privacy and the licensing plan. On March 11, 2026, the court allowed most of the case to go forward, holding that leaving an old account sitting untouched is not the same as agreeing to new terms.
+
+## Frequently Asked Questions
+
+### Is Photobucket still around in 2026?
+
+Yes. Photobucket still operates in 2026 as a paid photo and video storage service run by Photobucket Inc. of Denver, Colorado, with plans starting at $5 a month for one terabyte. What no longer exists is the free image host people used between 2003 and 2023, and free accounts have not been available since June 2023.
+
+### Why are my old Photobucket images broken on forums?
+
+Photobucket stopped serving images to other websites on June 20, 2017 unless the account paid $399.99 a year for third-party hosting, and it deactivated all remaining free accounts in June 2023. Any Photobucket picture embedded in a forum post by an account that has since lapsed will stay broken, because only an active paid subscription makes those links load again.
+
+### Can I get my old Photobucket photos back?
+
+Probably, if you can still sign in. Photobucket locked deactivated free accounts in 2023 rather than deleting them, so subscribing to a paid plan usually restores access and lets you download the albums. If the account email is dead, the Internet Archive's Wayback Machine sometimes holds copies of forum pages captured before the images stopped loading in 2017.
+
+**Sources:**
+- Photobucket (company history): https://en.wikipedia.org/wiki/Photobucket
+- 9News: Free service is unsustainable in an age of online ad blockers, Photobucket CEO says (2017): https://www.9news.com/mobile/article/mobile/money/business/free-service-is-unsustainable-in-an-age-of-online-ad-blockers-photobucket-ceo-says/454952304
+- PetaPixel: Photobucket is in Negotiations With AI Companies to License 13 Billion Images (April 2024): https://petapixel.com/2024/04/08/photobucket-is-in-negotiations-with-ai-companies-to-licence-13-billion-images/
+- Olshan: Colorado Federal Court Allows Privacy and AI Training Claims to Proceed Against Photobucket (2026): https://www.olshanlaw.com/newsroom/alerts/client-alert-colorado-federal-court-allows-privacy-and-ai-training-claims-to-proceed-against-photobucket
+- Photobucket storage plans (official): https://my.photobucket.com/storageplan-ppc-nb
+
+---
+
 # Does Yahoo Messenger Still Exist? Why It Shut Down
 
 URL: https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html
