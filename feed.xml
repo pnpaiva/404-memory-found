@@ -8,6 +8,19 @@
     <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Why G4 TV Failed Twice: The 1,000-Viewer Collapse</title>
+      <link>https://404memoryfound.com/posts/g4-tv-failed-twice.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/g4-tv-failed-twice.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>G4 TV failed twice. Comcast unplugged the gaming channel on December 31, 2014, revived it in November 2021, and shut it down again in October 2022.</description>
+      <enclosure url="https://404memoryfound.com/pins/g4-tv-failed-twice.jpg" length="256055" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/g4-tv-failed-twice.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Business Blunders</category>
+      <category>Music &amp; Entertainment</category>
+    </item>
+    <item>
       <title>Is Photobucket Still Around? Why Your Photos Vanished</title>
       <link>https://404memoryfound.com/posts/is-photobucket-still-around.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/is-photobucket-still-around.html</guid>
@@ -234,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/anbernic-handheld-worth-it-game-boy.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Hardware</category>
-    </item>
-    <item>
-      <title>Who Owns Claire&#x27;s Now? The $140 Million Buyout</title>
-      <link>https://404memoryfound.com/posts/who-owns-claires-now.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-claires-now.html</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Claire&#x27;s is owned by Ames Watson, which bought the chain out of bankruptcy in 2025 for about $140 million. Roughly 900 stores are still open.</description>
-      <enclosure url="https://404memoryfound.com/pins/who-owns-claires-now.jpg" length="266685" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/who-owns-claires-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>
