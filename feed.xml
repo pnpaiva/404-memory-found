@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Where Is FAO Schwarz Now? Inside Rockefeller Center</title>
+      <link>https://404memoryfound.com/posts/fao-schwarz-store-rockefeller-center.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/fao-schwarz-store-rockefeller-center.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>FAO Schwarz is still open, but not on Fifth Avenue. The flagship moved to 30 Rockefeller Plaza in 2018, and Nordstrom shops followed in 2026.</description>
+      <enclosure url="https://404memoryfound.com/pins/fao-schwarz-store-rockefeller-center.jpg" length="346323" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/fao-schwarz-store-rockefeller-center.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Then vs Now</category>
+      <category>Business Blunders</category>
+    </item>
     <item>
       <title>Is Woolworth Still in Business? Only as Foot Locker</title>
       <link>https://404memoryfound.com/posts/is-woolworth-still-in-business.html</link>
@@ -234,18 +246,6 @@
       <media:content url="https://404memoryfound.com/pins/run-90s-pc-games-windows-11.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Software &amp; Apps</category>
       <category>Gaming</category>
-    </item>
-    <item>
-      <title>Why Did Skype Shut Down? What Replaced It in 2025</title>
-      <link>https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Skype shut down on May 5, 2025 and Microsoft Teams Free replaced it. Skype Credit still works in Teams, but the old chats were deleted in 2026.</description>
-      <enclosure url="https://404memoryfound.com/pins/skype-shut-down-what-replaced-it.jpg" length="184670" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/skype-shut-down-what-replaced-it.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Software &amp; Apps</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>

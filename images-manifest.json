@@ -2723,6 +2723,16 @@
   "thumb": "/img/thumb/compaq-presario-4110-1996-46fa9b.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/FAO_Schwarz_Rockefeller_Center.jpg/960px-FAO_Schwarz_Rockefeller_Center.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:FAO_Schwarz_Rockefeller_Center.jpg",
+  "ext": "jpg",
+  "file": "/img/fao-schwarz-rockefeller-center-0238c1.jpg",
+  "height": 853,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/fao-schwarz-rockefeller-center-0238c1.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sega-Genesis-32X-01.jpg/960px-Sega-Genesis-32X-01.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-32X-01.jpg",
   "ext": "jpg",
