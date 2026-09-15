@@ -900,8 +900,9 @@
         "is yahoo messenger coming back"
       ],
       "demand_note": "Yahoo Messenger was the default chat client for a big slice of American internet users and people still search for their lost archives.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "does-yahoo-messenger-still-exist"
     },
     {
       "title": "Is Photobucket Still Around? Why Your Photos Disappeared",
