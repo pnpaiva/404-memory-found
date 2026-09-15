@@ -942,8 +942,9 @@
         "g4 tv relaunch failed"
       ],
       "demand_note": "G4 was appointment television for American teen gamers and its second death in 2022 is still fresh enough to drive steady searching.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "g4-tv-failed-twice"
     },
     {
       "title": "Is Toonami Still On TV in 2026? The Block That Survived",
