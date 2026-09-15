@@ -921,8 +921,9 @@
         "can i get my old photobucket photos back"
       ],
       "demand_note": "Broken Photobucket images still litter American forums and eBay listings, sending people to search what happened every time they hit one.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-photobucket-still-around"
     },
     {
       "title": "Is G4 TV Still On? The Relaunch That Lasted a Year",
