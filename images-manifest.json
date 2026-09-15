@@ -732,6 +732,16 @@
   "thumb": "/img/thumb/wall-street-and-the-new-york-stock-exchange-7236994300-ee06f7.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Game_Informer_logo_%282009-2021%29.png/960px-Game_Informer_logo_%282009-2021%29.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Game_Informer_logo_%282009-2021%29.png",
+  "ext": "png",
+  "file": "/img/game-informer-logo-2009-2021-5b03d1.png",
+  "height": 234,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/game-informer-logo-2009-2021-5b03d1.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Wii_Wiimotea.png/960px-Wii_Wiimotea.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Wii_Wiimotea.png",
   "ext": "png",
