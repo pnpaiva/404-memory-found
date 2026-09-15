@@ -18087,121 +18087,90 @@ Wikipedia was the direct cause, though not the only one. Free volunteer editing 
 
 ---
 
-# What Happened to RealPlayer? The Most Hated Software That Invented Streaming
+# Is RealPlayer Still Around? Yes, Free From Real.com
 
 URL: https://404memoryfound.com/posts/what-happened-to-realplayer-streaming.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-03-26
-Topics: retro-tech, realplayer, streaming, realnetworks, 90s-software, internet-history, media-player
+Published: 2026-03-26  Updated: 2026-09-15
+Topics: Software & Apps, Internet Culture
 
-If you used the internet (https://404memoryfound.com/#/post/first-online-purchase-pizza) in the late 1990s, you remember RealPlayer. Not fondly—but you remember it. You remember the spinning logo while you waited for a 30-second audio clip to buffer over your 56k modem. You remember the constant pop-up messages begging you to upgrade to RealPlayer Plus. You remember the software installing itself into your system tray, your startup folder, and seemingly your very soul, refusing to leave no matter how many times you tried to uninstall it.
+**Summary:** RealPlayer still exists. RealNetworks, private since December 2022 and owned by founder Rob Glaser, still publishes RealPlayer for Windows, Android and iOS, with a free tier and RealPlayer Plus at $39.99. The company's main businesses in 2026 are SAFR computer vision and GameHouse games, not streaming media.
 
-RealPlayer was the dominant streaming media player of the early internet era. At its peak around 2000, it had been downloaded over 100 million times and was installed on an estimated 85% of internet-connected computers. It pioneered live audio and video streaming years before YouTube, Spotify, or Netflix (https://404memoryfound.com/#/post/blockbuster-netflix-acquisition) existed. And yet, through a combination of aggressive business practices, user-hostile software design, and the arrival of better competitors, RealNetworks managed to turn one of the most dominant positions in tech history into a case study in how to alienate your entire user base.
+**Key facts:**
+- Launched: April 1995, as RealAudio 1.0 from Progressive Networks
+- Founder: Rob Glaser, a former Microsoft vice president
+- Status today: Still published; RealPlayer 25 for Windows shipped in 2026
+- Owner today: RealNetworks LLC, private and controlled by Rob Glaser since December 2022
+- Price today: Free tier, Downloader Express $24.99, RealPlayer Plus $39.99
 
-This is the story of the software that brought streaming media to the masses—and made them hate every second of it.
+## How did a Seattle startup make audio stream in 1995?
 
-## Progressive Networks and the Audio Revolution (1994–1997)
+Rob Glaser spent ten years at Microsoft and left as a vice president in 1993. In February 1994 he founded Progressive Networks in Seattle, betting that the internet would end up carrying radio and television.
 
-The story begins with Rob Glaser, a former Microsoft (https://404memoryfound.com/#/post/microsoft-tried-buy-nintendo) vice president who left the company in 1993 after ten years. Glaser was a digital media visionary who believed that the internet would eventually replace broadcast radio and television. In February 1994, he founded Progressive Networks in Seattle with the goal of enabling real-time audio streaming over the internet.
+The obstacle was bandwidth. Most people online in 1994 dialed in at 14.4 kbps, a speed at which a three minute song took close to half an hour to download. Glaser's team stopped trying to move the whole file. They compressed audio hard, sent it in a steady trickle, and buffered a few seconds ahead so playback could start while the rest was still arriving.
 
-  
-  
+In April 1995 Progressive Networks shipped RealAudio 1.0 along with the RealAudio Server. It sounded like a weak AM signal, and it worked. Click a link, wait a moment, hear sound. Radio stations, news organizations and sports leagues picked it up within a year, and in 1997 the company renamed itself RealNetworks and added video to the player.
 
-At the time, the idea of streaming audio over the internet seemed almost absurd. Most internet users connected via 14.4 kbps modems—a speed at which downloading a single three-minute song in MP3 format would take over 25 minutes. Glaser's insight was that you didn't need to download the entire file first. If you could send compressed audio data fast enough and buffer just a few seconds ahead, you could create the illusion of real-time playback.
+## How big did RealPlayer get at its peak?
 
-In April 1995, Progressive Networks released RealAudio Player 1.0 alongside the RealAudio Server. It was the first commercial product to enable real-time audio streaming over the internet. The audio quality was terrible by modern standards—comparable to a bad AM radio signal—but it worked. For the first time, you could click a link on a webpage and hear audio begin playing within seconds, without waiting for a full download.
+RealNetworks went public on the Nasdaq in November 1997 at $12.50 a share under the ticker RNWK. The stock rose almost 50 percent on its first day and left the company valued near $600 million, which in 1997 made it one of the more convincing internet businesses on the market.
 
-The timing was perfect. The web was exploding in popularity—Netscape (https://404memoryfound.com/posts/is-netscape-still-around.html) had just gone public in August 1995 in one of the most spectacular IPOs in history—and content providers were desperate for ways to add multimedia to their websites. ABC News became one of the first major media companies to adopt RealAudio, using it to stream news broadcasts. NPR, the BBC, and hundreds of radio stations followed. By the end of 1995, Progressive Networks claimed over 500 content providers were using RealAudio technology.
+By 2000, more than 115 million people had registered a copy of RealPlayer. A Media Metrix study reported by Variety in 2001 found that in November 2000, 28 percent of United States home computer users had used RealPlayer, against 22 percent for Windows Media Player and 4 percent for QuickTime.
 
-The business model was clever: the player was free, but content providers had to pay for the RealAudio Server software, which cost between $2,000 and $50,000 depending on capacity. It was the classic razor-and-blades strategy, and it worked brilliantly in the early days.
+The money followed for a while. Net revenue reached $241.5 million in 2000, up 84 percent on 1999. That was the top. The company's own annual report for the next year put 2001 revenue at $188.9 million, and it kept sliding while the audience for streaming kept growing.
 
-## RealPlayer Takes Over the Internet (1997–2000)
+## Why did so many people hate the software?
 
-In September 1997, Progressive Networks rebranded itself as RealNetworks and launched RealPlayer 5.0, which added video streaming alongside audio. The quality was primitive—postage-stamp-sized video at maybe 15 frames per second—but it was streaming video on the internet, and the world was impressed.
+The reputation was earned. The free player worked as an advertisement for the paid one: pop-ups on launch, a download page that buried the free link, and a Message Center component that loaded at Windows startup and served promotions whether or not anyone had opened the player.
 
-On November 20, 1997, RealNetworks went public on the NASDAQ at $12.50 per share. The stock surged on its first day of trading, rising significantly from its offering price. By 1999, at the height of the dot-com bubble, RealNetworks' market capitalization had soared into the billions, and the stock had climbed dramatically from its IPO price.
+It also took file associations from other players, planted itself in the system tray, and left pieces behind after an uninstall. On a dial-up line the playback itself was a negotiation, with the buffer counter restarting every time the connection wobbled. Anyone who remembers 56k modems (https://404memoryfound.com/posts/dialup-speed-then-vs-now.html) remembers that counter.
 
-RealPlayer's dominance during this period was almost total. When Major League Baseball began streaming games online (https://404memoryfound.com/#/post/first-online-purchase-pizza), it used RealPlayer. When the Starr Report—the independent counsel's report on President Clinton—was released online in September 1998, millions of people used RealPlayer to access the audio and video content. In March 1999, when a live Victoria's Secret fashion show was webcast for the first time, it used RealPlayer technology (and promptly crashed under the load, with 1.5 million viewers attempting to tune in simultaneously).
+Then came November 1999. Privacy researcher Richard Smith found that RealJukebox, RealNetworks' music companion with roughly 13 million registered users, was sending the company a unique identifier for each installation along with details of the CDs played and the music stored on the drive. Glaser called it a "mistake", RealNetworks patched the software, hired a privacy officer and set up an outside advisory committee. The suspicion stayed.
 
-RealNetworks reported revenue of $131 million in 1999, up from $67 million in 1998. The company employed over 1,000 people and had offices worldwide. Rob Glaser was hailed as a pioneer of internet media.
+## What did RealNetworks win from Microsoft?
 
-## The Dark Side: Why Everyone Hated RealPlayer
+Windows Media Player shipped with Windows. That was the whole argument. A casual user who wanted to play a video file already had a player, and it asked for nothing in return.
 
-Here's where the story turns. Despite its market dominance, RealPlayer was becoming one of the most reviled pieces of software ever created. The problems were numerous, well-documented, and entirely self-inflicted.
+In December 2003 RealNetworks sued Microsoft in the United States District Court in San Jose, seeking about $1 billion and arguing that bundling Windows Media Player with Windows was an illegal use of the operating system monopoly. The European Commission reached a similar conclusion about the bundling in its decision of March 2004.
 
-The Upsell Machine. The free version of RealPlayer was, in practice, a relentless advertisement for the paid version, RealPlayer Plus (later RealOne Player), which cost $29.99 to $49.99. Every time you opened the application, pop-up windows urged you to upgrade. The "free" download page was deliberately designed to make the paid version the obvious choice, with the free download link buried in small text. In 2003, the Washington Post called RealPlayer "the most hated software on the internet."
+On October 11, 2005 the two companies settled for $761 million: $460 million in cash against the damages claim, plus $301 million in cash and services over 18 months, together with a deal to promote RealNetworks' Rhapsody service on MSN and its games through MSN Games and Xbox. "Today we're closing one chapter and opening a new one in our relationship with Microsoft," Glaser said in the joint announcement. The payment cleared. The users did not come back.
 
-The Startup Invasion. RealPlayer installed itself into your Windows startup sequence, your system tray, and your file associations without clear consent. It would hijack media file types that had been assigned to other players. Its "Message Center" component ran at startup and periodically displayed advertising pop-ups, even when you weren't using the player. Uninstalling it was notoriously difficult—components would linger in the registry and continue running background processes.
+## Why did Harmony fail against the iPod?
 
-The Privacy Scandal. In November 1999, security researcher Richard M. Smith discovered that RealJukebox, a companion product, was secretly transmitting data about users' listening habits and the contents of their hard drives back to RealNetworks' servers—all without disclosure or consent. The data included unique hardware identifiers that could be used to track individual users. The revelation triggered a class-action lawsuit and investigations by privacy organizations including TRUSTe and the Electronic Frontier Foundation (EFF). RealNetworks issued a patch and apologized, but the trust damage was permanent.
+RealNetworks' other bet was on Apple's hardware. In 2004 it launched Harmony, which reverse engineered Apple's FairPlay copy protection so that songs bought from RealNetworks' store would play on an iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html).
 
-The Buffering. The eternal, soul-crushing buffering. "Buffering... 15%... Buffering... 32%... Buffering... Reconnecting..." For millions of users on dial-up connections, RealPlayer became synonymous with frustration. The audio would cut out every few seconds, the video (when there was video) was a pixelated smear, and the experience was just good enough to keep you trying but never good enough to be satisfying.
+Apple's response, issued in July 2004, did not hedge: "We are stunned that RealNetworks has adopted the tactics and ethics of a hacker to break into the iPod." Apple added that "when we update our iPod software from time to time it is highly likely that Real's Harmony technology will cease to work with current and future iPods." That is what happened.
 
-  
-  
+The subscription business had better thinking behind it. Rhapsody arrived years before Spotify, was spun out of RealNetworks in 2010, took the Napster (https://404memoryfound.com/posts/who-owns-napster-now.html) name in 2016, and was sold to MelodyVR for $70 million in 2020. None of it ran through the player.
 
-## The Competitors Close In (2000–2004)
+## Who owns RealPlayer today?
 
-RealNetworks' aggressive practices might have been survivable if the competitive landscape had remained static. It didn't. Two companies were about to make RealPlayer irrelevant.
+RealNetworks is private, and Glaser owns it. After the share price spent 2022 under the Nasdaq's $1 minimum, Glaser bid for the stock he did not already control and closed the purchase that December at $0.73 a share (https://www.sec.gov/Archives/edgar/data/1046327/000104632722000089/ex991toformcomletionofacqu.htm). The stock was delisted.
 
-Microsoft had been developing Windows Media Player since 1991, but it became a serious threat with Windows Media Player 7 in 2000 and the dramatically improved version 9 in 2003. Microsoft's advantage was obvious and devastating: Windows Media Player came pre-installed on every Windows PC. You didn't need to download anything. It was already there. For casual users who just wanted to play a video file, there was no reason to deal with RealPlayer's nonsense when Windows Media Player worked out of the box.
+What is left is not a streaming company. RealNetworks sells SAFR, a computer vision platform for live video, and runs the GameHouse mobile games business. Its KONTXT messaging analysis unit, which the company says has blocked more than eight billion spam and scam messages over eight years, went to TransUnion: announced on February 2, 2026 and completed on April 1, 2026.
 
-In December 2003, RealNetworks filed an antitrust lawsuit against Microsoft, alleging that Microsoft had used its Windows monopoly to unfairly promote Windows Media Player at RealPlayer's expense. The case had merit—the European Commission had already ruled against Microsoft on similar grounds. In October 2005, Microsoft settled the lawsuit for $761 million, one of the largest antitrust settlements in tech history. But winning in court couldn't save RealPlayer from the marketplace.
+RealPlayer itself is still published. The Windows build reached version 25 during 2026, with Android and iOS apps alongside it, and real.com (https://www.real.com/realplayer-pricing) lists a free tier, Downloader Express at $24.99 and RealPlayer Plus at $39.99. It is a video downloader and media library now, roughly the shape Winamp (https://404memoryfound.com/posts/what-happened-to-winamp-mp3-player.html) settled into. Glaser's forecast about streaming was correct in every part except the part with his own company in it.
 
-Apple's iTunes and QuickTime represented the other flank of the attack. When the iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html) launched in October 2001 and the iTunes Music Store opened in April 2003, Apple created an entirely new ecosystem for digital media that had no room for RealPlayer. Apple's software was clean, elegant, and deeply integrated with its hardware. It was everything RealPlayer wasn't.
+## Frequently Asked Questions
 
-In 2004, RealNetworks launched Harmony, a technology that allowed songs purchased from RealPlayer's music store to play on the iPod by reverse-engineering Apple's FairPlay DRM. Apple called it "the tactics and ethics of a hacker" and issued firmware updates to break compatibility. The skirmish was brief and embarrassing for RealNetworks.
+### Does RealPlayer still exist in 2026?
 
-## The Long Decline (2004–2019)
+Yes. RealNetworks still publishes RealPlayer, and the Windows version reached release 25 during 2026, with Android and iOS apps as well. The basic player is free, while RealPlayer Plus costs $39.99 as a one time purchase.
 
-After 2004, RealPlayer's decline accelerated. YouTube was founded in February 2005, launched publicly later that year, and within months, it made the entire concept of a dedicated desktop media player feel obsolete for online video. Why download and install software when you could just watch video in your browser?
+### Why was RealPlayer so hated?
 
-RealNetworks tried to reinvent itself multiple times. It launched Rhapsody, one of the first music subscription services, in 2003—years before Spotify. It was a genuinely forward-thinking product, but it never achieved critical mass. RealNetworks eventually spun off Rhapsody as a separate company in 2010, and it was later acquired and rebranded as Napster (https://404memoryfound.com/posts/who-owns-napster-now.html) in 2016 (a fitting irony, given that the original Napster had disrupted the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) in a completely different way).
+RealPlayer, first released as RealAudio in April 1995, wore users down with launch pop-ups pushing the paid version, a Message Center that ran at Windows startup, seized file associations and a messy uninstall. The RealJukebox case of November 1999, in which the software sent listening data and a unique installation identifier back to RealNetworks, turned irritation into distrust.
 
-RealNetworks also pivoted into casual gaming with GameHouse, social gaming, and eventually artificial intelligence and facial recognition technology through a product called SAFR. The company that had once defined streaming media was now a scattered collection of unrelated businesses.
+### How much did Microsoft pay RealNetworks?
 
-RealPlayer itself continued to exist in various forms, receiving periodic updates through the 2010s. A version called RealPlayer 20/20 was released in 2019, focused on personal video management and privacy features. But by that point, it was a product without an audience. The world had moved on to browser-based streaming, and the very concept of a "media player application" had become a relic.
+Microsoft paid RealNetworks $761 million in October 2005 to settle the antitrust suit RealNetworks had filed in December 2003 over the bundling of Windows Media Player with Windows. The package was $460 million in cash plus $301 million in cash and services spread over 18 months.
 
-## The Tragedy of Being First
-
-RealNetworks' story is fundamentally a tragedy of squandered pioneering advantage. Rob Glaser and his team genuinely invented internet streaming media. They were years ahead of everyone else. In 1995, when most people were still figuring out email, RealAudio was streaming live radio over the internet. That's remarkable.
-
-But RealNetworks made a critical strategic error: they treated their users as a resource to be exploited rather than a community to be served. Every pop-up ad, every startup hijack, every piece of secret tracking software was a short-term revenue grab that eroded long-term trust. When alternatives appeared—alternatives that simply played media without demanding anything in return—users fled with relief rather than reluctance.
-
-RealNetworks' revenue tells the story. From a peak of $262 million in 2001, the company's revenue declined to $165 million by 2005, $118 million by 2010, and continued shrinking. Rob Glaser stepped down as CEO in 2010, returned in 2012, and the company limped forward as a shadow of its former self.
-
-The ultimate irony is that Glaser's original vision was completely correct. The internet did replace broadcast media. Streaming did become the dominant way people consume audio and video. Every prediction RealNetworks made about the future of media came true—the future just didn't include RealNetworks.
-
-## FAQ
-
-When was RealPlayer first released?
-
-The original product, called RealAudio Player 1.0, was released in April 1995 by Progressive Networks (later renamed RealNetworks).
-
-Who founded RealNetworks?
-
-Rob Glaser, a former Microsoft vice president, founded Progressive Networks (later RealNetworks) in February 1994.
-
-Why was RealPlayer so hated?
-
-RealPlayer was notorious for aggressive upselling to paid versions, installing itself into system startup without consent, hijacking media file associations, displaying advertising pop-ups, and secretly tracking user behavior.
-
-What happened to RealNetworks?
-
-The company still exists but has pivoted far from its original mission. It has operated in casual gaming, music subscription services (Rhapsody/Napster), and AI-based facial recognition (SAFR). RealPlayer itself received updates through 2019 but has a negligible user base.
-
-How much did Microsoft pay RealNetworks in the antitrust settlement?
-
-Microsoft paid $761 million in October 2005 to settle RealNetworks' antitrust lawsuit alleging that Microsoft used its Windows monopoly to promote Windows Media Player at RealPlayer's expense.
-
-Was RealPlayer really the first streaming media player?
-
-Yes, RealAudio Player 1.0 (1995) was the first widely available commercial product for real-time audio streaming over the internet.
-
-Does RealPlayer still exist?
-
-A version called RealPlayer 20/20 was released in 2019 focused on personal video management, but it has minimal market presence. The era of dedicated desktop media players has largely ended.
-
+**Sources:**
+- RealNetworks, Inc. company history, International Directory of Company Histories: https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/realnetworks-inc
+- RealNetworks caught secretly swiping users' jukebox data, The Register, November 1999: https://www.theregister.com/1999/11/01/realnetworks_caught_secretly_swiping_users/
+- Apple vs. RealNetworks, San Francisco Chronicle, July 2004: https://www.sfgate.com/business/article/Apple-vs-RealNetworks-iPod-maker-calls-rival-a-2704847.php
+- Microsoft and RealNetworks Resolve Antitrust Case, Microsoft, October 2005: https://news.microsoft.com/source/2005/10/11/microsoft-and-realnetworks-resolve-antitrust-case-and-announce-digital-music-and-games-partnership/
+- TransUnion Completes Acquisition of the Mobile Division of RealNetworks, April 2026: https://newsroom.transunion.com/transunion-completes-acquisition-of-the-mobile-division-of-realnetworks/
 
 ---
 
