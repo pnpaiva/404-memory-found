@@ -984,8 +984,9 @@
         "is kinkos still open 24 hours"
       ],
       "demand_note": "Americans still say Kinko's out of habit and search to find out whether the name means anything today.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-kinkos-still-around"
     },
     {
       "title": "Is Rainforest Cafe Still Open? The 2026 Location Count",
