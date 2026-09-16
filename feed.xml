@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Is Toonami Still On TV in 2026? Yes, on Adult Swim</title>
+      <link>https://404memoryfound.com/posts/is-toonami-still-on-tv.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/is-toonami-still-on-tv.html</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Toonami is still on TV in 2026: Adult Swim airs it Saturdays, midnight to 4 a.m. ET. Cartoon Network killed it in 2008 and a 2012 prank revived it.</description>
+      <enclosure url="https://404memoryfound.com/pins/is-toonami-still-on-tv.jpg" length="144518" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/is-toonami-still-on-tv.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Music &amp; Entertainment</category>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Why G4 TV Failed Twice: The 1,000-Viewer Collapse</title>
       <link>https://404memoryfound.com/posts/g4-tv-failed-twice.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/is-barnes-and-noble-still-open.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Then vs Now</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Is an Anbernic Handheld Worth It for Game Boy?</title>
-      <link>https://404memoryfound.com/posts/anbernic-handheld-worth-it-game-boy.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/anbernic-handheld-worth-it-game-boy.html</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>An Anbernic handheld is worth it for Game Boy games if you bring your own files. Prices start under $60, but US shipping stopped in April 2025.</description>
-      <enclosure url="https://404memoryfound.com/pins/anbernic-handheld-worth-it-game-boy.jpg" length="153546" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/anbernic-handheld-worth-it-game-boy.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Hardware</category>
     </item>
   </channel>
 </rss>
