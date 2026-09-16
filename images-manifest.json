@@ -1810,6 +1810,16 @@
   "thumb": "/img/thumb/apple-ibook-g3-f4aaab.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LEGOLAND_Discovery_Center_Osaka.jpg/960px-LEGOLAND_Discovery_Center_Osaka.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:LEGOLAND_Discovery_Center_Osaka.jpg",
+  "ext": "jpg",
+  "file": "/img/legoland-discovery-center-osaka-133538.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/legoland-discovery-center-osaka-133538.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/960px-PSX-Console-wController.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:PSX-Console-wController.png",
   "ext": "png",

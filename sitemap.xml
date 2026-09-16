@@ -37,14 +37,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://404memoryfound.com/tags/then-vs-now.html</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/tags/then-vs-now.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/discovery-zone-failed-indoor-playground.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://404memoryfound.com/posts/rainforest-cafe-locations-left.html</loc>
