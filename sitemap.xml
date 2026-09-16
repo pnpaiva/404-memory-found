@@ -37,20 +37,20 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://404memoryfound.com/tags/then-vs-now.html</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://404memoryfound.com/tags/software-apps.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://404memoryfound.com/tags/money-tech.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://404memoryfound.com/posts/heelys-still-sold-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://404memoryfound.com/posts/discovery-zone-failed-indoor-playground.html</loc>
@@ -1208,7 +1214,7 @@
   </url>
   <url>
     <loc>https://404memoryfound.com/authors/theo.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
