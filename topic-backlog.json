@@ -1026,8 +1026,10 @@
         "what happened to leaps and bounds"
       ],
       "demand_note": "Discovery Zone is a core American 90s childhood memory that disappeared with no explanation, and people search to confirm it was real.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "discovery-zone-failed-indoor-playground",
+      "note": "published 16 Sep 2026 as \"Why Discovery Zone Failed and What's Left in 2026\""
     },
     {
       "title": "Are Heelys Still Sold in 2026? Who Owns Them Now",
