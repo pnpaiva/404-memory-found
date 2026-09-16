@@ -963,8 +963,9 @@
         "is toonami coming back to cartoon network"
       ],
       "demand_note": "Toonami fans in the US search the block's status and airtime every schedule change, and many assume it ended with the 2008 cancellation.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-toonami-still-on-tv"
     },
     {
       "title": "Is Kinko's Still Around? What FedEx Did With the Name",
