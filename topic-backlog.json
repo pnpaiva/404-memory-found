@@ -1048,8 +1048,9 @@
         "are heelys coming back"
       ],
       "demand_note": "Parents whose kids ask for Heelys and adults who remember the mall bans both search whether the shoes still exist.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "heelys-still-sold-2026"
     },
     {
       "title": "Is Angelfire Still Online? Lycos Shut It Down in 2026",
