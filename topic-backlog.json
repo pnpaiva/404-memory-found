@@ -1005,8 +1005,9 @@
         "rainforest cafe closing"
       ],
       "demand_note": "Families planning theme-park and mall trips search whether the animatronic jungle restaurant is still there before booking.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "rainforest-cafe-locations-left"
     },
     {
       "title": "Is Discovery Zone Still Around? What Killed the Chain",
