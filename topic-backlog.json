@@ -1069,8 +1069,9 @@
         "how to find my old angelfire site"
       ],
       "demand_note": "The 2026 shutdown erased a chunk of American personal-web history and people are searching for their old pages right now.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "is-angelfire-still-online"
     },
     {
       "title": "Is EverQuest Still Active in 2026? Servers and Players",
