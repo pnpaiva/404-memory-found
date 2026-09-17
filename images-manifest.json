@@ -1087,6 +1087,16 @@
   "thumb": "/img/thumb/y2k-safe-dishwasher-cae5f5.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/EverQuest_map_of_kael_drakkal.png/960px-EverQuest_map_of_kael_drakkal.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:EverQuest_map_of_kael_drakkal.png",
+  "ext": "jpg",
+  "file": "/img/everquest-map-of-kael-drakkal-536ac6.jpg",
+  "height": 676,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/everquest-map-of-kael-drakkal-536ac6.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blockbuster_video_26g07.JPG/960px-Blockbuster_video_26g07.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Blockbuster_video_26g07.JPG",
   "ext": "jpg",

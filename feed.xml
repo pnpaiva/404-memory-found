@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>EverQuest in 2026: The 1999 MMO That Still Runs</title>
+      <link>https://404memoryfound.com/posts/everquest-still-active-2026.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/everquest-still-active-2026.html</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>EverQuest is still active in 2026: Darkpaw Games runs the 1999 MMO, and a new server called Lethar opened on August 26, 2026.</description>
+      <enclosure url="https://404memoryfound.com/pins/everquest-still-active-2026.jpg" length="197148" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/everquest-still-active-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Is Angelfire Still Online? Lycos Closed It in 2026</title>
       <link>https://404memoryfound.com/posts/is-angelfire-still-online.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/netflix-dvd-mail-service-shutdown.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Music &amp; Entertainment</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Is Columbia House Still Around? The 2026 Shutdown</title>
-      <link>https://404memoryfound.com/posts/is-columbia-house-still-around.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-columbia-house-still-around.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Columbia House stops taking new orders after September 15, 2026, closing after 71 years. The club peaked in 1996 with 16 million members.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-columbia-house-still-around.jpg" length="129831" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-columbia-house-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Money &amp; Tech</category>
-      <category>Music &amp; Entertainment</category>
     </item>
   </channel>
 </rss>
