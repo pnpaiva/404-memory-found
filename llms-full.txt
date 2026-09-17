@@ -17677,187 +17677,92 @@ In the United States, none are company-owned. The chain ended with the 2017 bank
 
 ---
 
-# What Happened to Friendster? The Social Network That Had It First
+# Is Friendster Still Around? It Came Back in 2026
 
 URL: https://404memoryfound.com/posts/what-happened-to-friendster-social-network.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-30
+Published: 2026-03-30  Updated: 2026-09-17
 Topics: Internet Culture, Business Blunders
 
-In 2003, a Canadian programmer named Jonathan Abrams turned down $30 million from Google. Not because the offer was insulting. Because he thought Friendster would be worth much more.
+**Summary:** Friendster still exists in 2026, but not as the site anyone remembers. The original social network deleted every user profile on May 31, 2011 and shut its services down on June 14, 2015. The name returned on April 29, 2026, when Friendster Labs Inc. relaunched it as an iOS app with no ads and no algorithm, where the only way to add a friend is to tap two iPhones together in person.
 
-He was wrong. Twelve years later, Friendster would shut down quietly, its servers dark, its millions of user profiles deleted as though they'd never existed. The most ambitious social network of the early web simply ceased to be.
+**Key facts:**
+- Launched: Founded 2002 by Jonathan Abrams, public beta March 2003
+- Status today: Relaunched April 29, 2026 as an iOS-only app
+- Owner today: Friendster Labs Inc., run by programmer Mike Carson
+- Peak size: 115 million registered users in 2008, over 90% of traffic from Asia
+- Sold for: $39.5 million to MOL Global in December 2009
 
-What makes this story worth revisiting isn't the failure. It's that Friendster did something almost nobody else did: it showed everyone else the blueprint. Facebook didn't invent social networking. It perfected what Friendster had already built. MySpace (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html) copied Friendster's feature set within months. LinkedIn took its DNA and professionalized it. Twitter took the core concept of mapping human connections and stripped it down to 140 characters.
+## Who owns Friendster today?
 
-Friendster was first. And being first in tech, as the saying goes, is like being a test pilot. You get to fly the plane. Everyone else just has to learn from the crash.
+The Friendster name belongs to Friendster Labs Inc., a company set up by Mike Carson, a programmer based in Philadelphia who noticed the lapsed domain resolving again in 2023 and bought it.
 
-## The Origin Story
+The app he built launched on April 29, 2026, and it runs on iOS only. There are no ads, no algorithmic feed, no follower counts and no suggested strangers. The rule that got the relaunch written up everywhere is the friending mechanic: the only way to add someone is to tap two iPhones together, in person, using Apple's NameDrop gesture. Connections also decay. If two people stop seeing each other in real life, the link between them weakens on its own.
 
-Jonathan Abrams wasn't working in a garage. He wasn't a college dropout. By 2002, when he started building Friendster, he was a programmer in his early thirties with professional credibility and a clear understanding of the web's trajectory. He'd seen the internet evolve from novelty to necessity. He understood databases. He understood scale, at least in theory.
+Carson told Cybernews in 2026 that the motive was corrective. "Today I feel that social networks foster a lot of negativity, but I remembered Friendster as being a really positive and enjoyable experience," he said.
 
-What he understood better than almost anyone else was this: the web was ready for a network based on trust rather than anonymity.
+None of the old data came back with the name. Profiles written in 2003 were destroyed in 2011 and no public archive of them survives, so the 2026 app is a new network wearing an old label.
 
-Six Degrees, a service launched in 1997, technically came first. Named after the "six degrees of separation" theory, it let people create profiles and search for connections. It shut down in 2001. Most people never knew it existed. The technology wasn't ready. The culture wasn't ready. The timing was wrong.
+## Why did Jonathan Abrams turn down $30 million from Google?
 
-By 2002, the timing had shifted. Broadband adoption was accelerating. Digital cameras were becoming common. People had started putting photos of themselves online. The infrastructure existed for something new.
+Jonathan Abrams founded Friendster in 2002 and opened the public beta in March 2003. By the fall of that year, still in beta, close to three million people had signed up. Google noticed and offered roughly $30 million to buy the company.
 
-Abrams launched Friendster in beta in March 2003. The premise was deceptively simple: upload a photo, create a profile, invite your friends. Watch the network grow.
+Abrams said no. His investors, who included Peter Thiel and Google's own early backer K. Ram Shriram, argued there was too much money being left on the table. In October 2003, Kleiner Perkins Caufield and Byers and Benchmark Capital put about $13 million into the company at a reported $53 million valuation, well above what Google had offered for all of it.
 
-What happened next was velocity most startups only dream about.
+The decision was not obviously wrong at the time. Friendster had the growth curve, the network effects and the only proof anywhere that ordinary people would put their real names and real photographs on the web and come back daily to look at them. It belongs in the same file as the deal where Yahoo passed on buying Google (https://404memoryfound.com/posts/yahoo-rejected-google.html): a sensible call in the moment that aged into a punchline.
 
-  
-  
+## Why did Friendster pages take 40 seconds to load?
 
-## Three Million Users and a $30 Million Offer
+Friendster kept its social graph in a relational database. That is fine for looking up one person and poor at answering the question the entire product was built around: how am I connected to this stranger? Every new member did not add one row. They added thousands of possible paths the database had to walk in real time.
 
-Three million users in the first few months. Let that number sit for a second.
+Under load the math stopped working. Friendster pages took as long as 40 seconds to appear. In 2003, with most American households on dial-up or early DSL, 40 seconds was not a slow page. It was a closed tab.
 
-This was before smartphones. Before cloud infrastructure. Before social media was a category anyone understood. A site with a confusing name and a novel concept acquired three million users while most people were still on AOL (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html) Instant Messenger.
+The engineering team tried the obvious repairs through 2003: spreading MySQL across more servers, adding load balancers, tuning queries. What it could not do was replace the foundation while the site was still growing and rivals were launching. Management made it worse by shipping features, which added load, and then by slowing user acquisition instead of buying capacity.
 
-The venture capital world noticed. In October 2003, Kleiner Perkins Caufield and Byers and Benchmark Capital invested at a $53 million valuation. For context, that was serious money in 2003. The dot-com crash was still fresh. Investors were cautious. Friendster's traction was convincing enough to override that caution.
+## Why did Friendster delete the Fakesters?
 
-Google noticed too. Around the same time, Google approached Abrams with an acquisition offer: $30 million.
+By mid-2003 users had filled Friendster with profiles for things that were not people: celebrities, pets, bands, cities, Jackalope, God, Beer and more than a dozen Homer Simpsons. Friendster called them Fakesters and treated them as a threat to the premise of the site.
 
-Abrams declined.
+Abrams was blunt about it in Salon in August 2003. "Fake profiles really defeats the whole point of Friendster," he said, explaining that when thousands of people link themselves to one popular Fakester, the connection map stops meaning anything.
 
-It's easy to mock this decision from 2026. But look at what he saw: Friendster had momentum. It had network effects. It had something almost nobody else on the web had, which was a reason for people to come back daily and build permanent profiles tied to their real identities and real photos. The growth curve pointed up. The concept was proven.
+He was right about the mechanic and wrong about the fix. Friendster hired support staff and purged the accounts, and the purge turned into whack-a-mole: deleted profiles came straight back as duplicates. What it also did was punish the most creative users on the platform at the exact moment MySpace was inviting them to customize everything (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html). MySpace had launched in August 2003, months after the Friendster beta, with much the same feature set plus editable HTML profiles and music.
 
-What Abrams missed was what came next.
+## Where did the 115 million users go?
 
-## The Technical Collapse
+Abrams was removed as chief executive in April 2004 and Tim Koogle, the former Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) chief executive, came in on an interim basis. Replacements followed replacements. Facebook had launched that February, restricted to Harvard students, with an architecture built for social graphs and a founder nobody was about to remove.
 
-Here's a technical detail that matters enormously: Friendster was built on a relational database.
+Friendster kept growing anyway, just not where its investors lived. By 2008 it reported more than 115 million registered users, and over 90% of its traffic came from Asia, led by the Philippines, Indonesia, Malaysia and Singapore. In the United States and Europe the argument was already over.
 
-Think of a relational database like a filing cabinet. Each person gets a folder. Each person's friends get listed in that folder. Simple. Clean. Organized. If you need to look up one person's friends, you open one folder. Fast.
+In December 2009 the Malaysian internet payments company MOL Global bought Friendster for $39.5 million. After roughly $13 million in secured debt, fees and executive bonuses, shareholders received $26.4 million, less than Google had offered six years earlier. MOL then sold 18 of Friendster's social networking patents to Facebook for $40 million, transferred on June 7, 2010, which recovered the entire purchase price on paper.
 
-But social networks don't work like filing cabinets. They work like webs. Person A connects to person B, who connects to person C, who connects back to person A through three different paths. The queries required to map these connections don't scale linearly. They scale exponentially. Every new user doesn't just add one folder. They add thousands of potential connection paths that the database has to traverse.
+## What happened to the old profiles and photos?
 
-Imagine pouring a swimming pool through a garden hose. That was Friendster's database under load.
+In April 2011 Friendster told users that all profiles, photos, messages and friend connections would be deleted on May 31 of that year. In June it reopened as a social gaming site. Eight years of user-generated content was erased on schedule, and unlike the volunteer scramble that saved much of GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html), no large-scale rescue of Friendster pages happened before the deadline.
 
-During peak hours, Friendster pages took up to 45 seconds to load.
+The gaming version lasted four years. On June 14, 2015 the site and its services shut down indefinitely, replaced by a notice saying the company was taking a break. The stated reason was demand: "the online gaming community did not engage as much as we had hoped for," Friendster wrote, citing the state of the social gaming industry. The corporate entity was not formally wound up until 2018.
 
-Forty-five seconds. In 2003, when many users were on early broadband or still on dial-up, waiting 45 seconds for a single page was not a minor inconvenience. It was a dealbreaker. It was the difference between checking your social network and going back to AIM.
-
-The company was growing too fast for its infrastructure. And they were solving the wrong problem. They were trying to optimize a relational database for a use case that required a fundamentally different architecture. Replacing those foundations meant rebuilding everything, and rebuilding everything while your user base is growing and your competitors are launching is nearly impossible.
-
-## The Fakester Wars
-
-While the engineering team was drowning in database queries, a different kind of problem was eating into the platform's credibility.
-
-Users began creating profiles for celebrities. For fictional characters. For their pets. For bands, cities, abstract concepts. These profiles were called "Fakesters," and Friendster's management saw them as a direct threat to the platform's core promise: connecting real people.
-
-Abrams stated in a 2003 interview with Salon: "Fake profiles really defeat the whole point of Friendster."
-
-He wasn't wrong about the problem. He was wrong about the solution. Friendster started deleting profiles it suspected were fake. Users pushed back hard. The Justin Timberlake profile created by a teenager in Utah wasn't hurting anyone. The profile for "New York City" was a creative use of the platform. Deleting these felt authoritarian and, worse, anti-fun.
-
-Here's the thing. What Friendster was learning, without knowing how to articulate it, was that enforcing real identity at scale is nearly impossible without alienating a significant portion of your user base. Facebook would solve this problem later, but not through better enforcement. Facebook solved it through ubiquity. When everyone you actually know is already on the platform under their real name, fake profiles become irrelevant. You don't need to police identity when the network itself establishes it.
-
-Friendster never reached that critical mass outside of its initial early-adopter community.
-
-## The Management Collapse
-
-By 2004, Friendster had all the ingredients for sustained dominance: a multi-year head start on Facebook, millions of users, venture funding, and theoretically enough time to fix the technical problems.
-
-What it lacked was consistent leadership.
-
-Jonathan Abrams was pushed out as CEO. The reasons varied depending on who told the story, but the narrative was familiar in Silicon Valley: the brilliant builder who knew how to launch wasn't the person who knew how to scale. The board brought in replacements. Then replaced the replacements.
-
-Leadership instability in other industries might be survivable. But social networks live or die based on weekly engagement. Every month of executive uncertainty was a month where product decisions stalled, engineering priorities shifted, and competitors gained ground.
-
-Facebook launched in February 2004. It was more limited in scope than Friendster. Initially exclusive to Harvard students. It required a .edu email address. It had fewer features.
-
-But it worked. Pages loaded in seconds. The database architecture was built for social graphs from day one. Mark Zuckerberg had a clear product vision and, whatever else can be said about him, stability at the helm.
-
-MySpace launched in August 2003, just months after Friendster's beta. It copied Friendster's core functionality almost directly: profiles, friends, photo albums. MySpace added customizable HTML profiles and music integration, which resonated with musicians and creative communities.
-
-Friendster was caught in the middle. Neither as controlled and exclusive as Facebook nor as culturally alive as MySpace. It was the original, but originality doesn't matter when execution falters.
-
-## The Asian Pivot
-
-By 2008, Friendster had 115 million registered users. That sounds like a success story. It was actually a retreat.
-
-The bulk of those users were in Southeast Asia. Indonesia, the Philippines, Malaysia. In the United States and Europe, Friendster had lost the narrative war to Facebook and MySpace completely. The younger generation was on Facebook. The music crowd was on MySpace. Friendster had become a regional platform, and regional platforms in tech are legacy systems managing decline.
-
-In December 2009, MOL Global, a Malaysian internet company, acquired Friendster for $26.4 million. That's less than Abrams had turned down from Google six years earlier. It was an exit for the VCs. A path to continued operations in Asian markets. It was not a victory by any definition.
-
-## The Deletion
-
-In 2011, Friendster stopped being a social network.
-
-MOL Global converted it into a gaming platform. All user profiles were deleted. All photos were deleted. All connections, messages, and digital artifacts were erased. Eight years of user-generated content vanished.
-
-  
-  
-
-The gaming pivot made business sense if you were trying to monetize a declining platform in a market where gaming was growing. It made no sense at all if you were a user who had treated Friendster as a repository of memories and connections.
-
-Facebook, whatever its flaws, learned from this. Even as Facebook's popularity shifted over the years, users could trust that their data would persist. Their photos wouldn't vanish in a pivot meeting. Permanence became a feature.
-
-Friendster shut down completely on June 14, 2015. The servers went dark. The domain became a placeholder.
-
-## What Friendster Actually Proved
-
-The obvious reading of the Friendster story is as a cautionary tale. First-mover advantage doesn't guarantee dominance. Technical debt kills growth. Management instability matters.
-
-All true. All useful.
-
-But the deeper lesson is more interesting. Friendster proved something that wasn't obvious in 2003: people wanted to map their social lives onto the internet. They wanted to see who they knew. They wanted to find people they'd lost touch with. They wanted to present their real identities to a network of real connections.
-
-Before Friendster, the internet was fundamentally anonymous. Screen names. Pseudonyms. Hidden identities. The idea that millions of people would voluntarily upload their real photos and connect with their real friends under their real names was, in 2002, a genuinely radical concept.
-
-Friendster proved the demand. Facebook perfected the execution. Instagram took it and made photos the centerpiece. LinkedIn stripped it to professional connections. TikTok deemphasized mutual connection entirely. Every social platform that followed was both responding to Friendster and learning from its failures.
-
-Look at how platforms handle architecture today. Nobody builds social graphs on relational databases. Look at how they handle identity. Nobody deletes all user data and pivots to gaming. Look at how they handle scale. Everyone builds for growth they haven't yet reached.
-
-All of these lessons came from watching Friendster.
-
-## The Modern Parallel
-
-The social media landscape of 2026 looks nothing like 2004. Meta dominates with multiple products. TikTok has reshaped what "social" even means. Threads, Bluesky, and a dozen others compete for the rest.
-
-None of them are Friendster. But the underlying tensions are identical.
-
-Platforms still have to balance growth with quality. They still have to maintain infrastructure as user bases scale. They still have to evolve their product without losing the core insight that made people sign up.
-
-When Twitter, now X, stumbled under new management in 2023, the pattern was familiar. Technical instability. Leadership changes. Erosion of cultural relevance among key user groups. A platform that had been dominant in its niche suddenly looking fragile.
-
-The specific failures were different. The shape of the decline was Friendster's.
-
-Which brings us to the real lesson. Being first buys you time, not permanence. What matters is what you do with that time. Can you scale faster than your competition? Can you keep your infrastructure from becoming a liability? Can you maintain focus while managing explosive growth?
-
-Friendster answered no to all three questions. And the internet moved on.
-
-## The Forgotten Network
-
-What's most striking about Friendster now is how completely it has been forgotten.
-
-Ask someone under 30 and the response is usually a blank stare. Maybe a vague sense that it was some old social network that died. Nobody remembers the features. Nobody remembers what it felt like to use it. Nobody remembers that for a brief window, it was the most interesting thing happening on the internet.
-
-Part of this is simply how fast the internet moves. Part of it is that Friendster left no artifacts. When it died, everything died with it. No archive of user profiles. No preserved communities. No cultural record.
-
-Facebook, for all its problems, maintains archives. Researchers can study what people shared on Facebook in 2008. They can understand what the platform meant to its users. Friendster is a ghost. It existed. It mattered. And then it was gone, taking all its evidence with it.
-
-In a way, that's the perfect ending for a platform that taught everyone else how to build social networks. It showed the world the path. Then it vanished, leaving nothing behind but the lessons.
+That is the part of the story the 2026 relaunch cannot undo. A Facebook account opened in 2008 still holds its photos. A Friendster account opened in 2003 holds nothing, because the company that owned it decided storage was a cost rather than a promise.
 
 ## Frequently Asked Questions
 
-When did Friendster launch? Friendster launched in beta in March 2003, making it one of the earliest mainstream social networks.
+### Is Friendster still around in 2026?
 
-Who founded Friendster? Jonathan Abrams, a Canadian programmer, founded Friendster in 2002 and launched it publicly the following year.
+Friendster is around in 2026, but only as a new product. The original social network deleted every user profile on May 31, 2011 and shut its services down on June 14, 2015. The name relaunched on April 29, 2026 as an iOS app from Friendster Labs Inc., with no ads, no algorithm, and friends added only by tapping two iPhones together in person.
 
-Why did Friendster fail? Multiple factors contributed: relational database architecture that couldn't handle social graph queries at scale, the Fakester controversy that degraded user experience, management instability after Abrams was replaced as CEO, and technical performance problems where pages took up to 45 seconds to load. These issues opened the door for Facebook and MySpace to overtake it.
+### Who founded Friendster and who owns it now?
 
-Did Google really try to buy Friendster? Yes. In 2003, Google offered approximately $30 million to acquire Friendster. Jonathan Abrams declined, believing the company would be worth significantly more. Friendster was eventually sold to MOL Global in 2009 for $26.4 million.
+Jonathan Abrams founded Friendster in 2002 and opened it in beta in March 2003, and he was removed as chief executive in April 2004. The company was sold to the Malaysian payments firm MOL Global in December 2009 for $39.5 million. The name is now held by Friendster Labs Inc., the company behind the 2026 app, run by the programmer Mike Carson.
 
-How many users did Friendster have? By 2008, Friendster had 115 million registered users, though the vast majority were in Southeast Asia rather than North America or Europe.
+### Why did Friendster fail?
 
-When did Friendster shut down? Friendster was converted from a social network to a gaming platform in 2011, deleting all user profiles and data. The service shut down completely in 2015.
+Friendster failed for three reasons that compounded between 2003 and 2005. Its relational database could not answer social graph queries at scale, so pages took as long as 40 seconds to load. Its 2003 purge of the joke profiles known as Fakesters turned its most active users against it. And the removal of founder Jonathan Abrams in April 2004 left product decisions to a rotating management team while MySpace and Facebook grew.
 
-Was Friendster the first social network? Six Degrees, launched in 1997, is generally considered the first social networking site. Friendster was the first to achieve mainstream scale and cultural relevance, launching in 2003 before MySpace (August 2003) and Facebook (February 2004).
-
-Did Friendster influence Facebook? Facebook learned from both Friendster's successes and failures. It built better technical architecture from day one, launched with controlled exclusivity (college students only, .edu emails required), and maintained consistent product leadership, avoiding the management instability that plagued Friendster.
-
+**Sources:**
+- Salon: Faking out Friendster (2003): https://www.salon.com/2003/08/14/fakesters/
+- TechCrunch: Friendster Valued At Just $26.4 Million In Sale (2009): https://techcrunch.com/2009/12/15/friendster-valued-at-just-26-4-million-in-sale/
+- VentureBeat: Facebook buys Friendster's social networking patents (2010): https://venturebeat.com/2010/08/04/facebook-friendster-patents
+- Cybernews: The programmer reviving Friendster (2026): https://cybernews.com/news/friendster-revival-no-ads-algorithm-nostalgic/
+- Friendster on the Apple App Store: https://apps.apple.com/us/app/friendster/id6760240416
 
 ---
 
