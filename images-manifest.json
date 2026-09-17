@@ -2664,6 +2664,16 @@
   "thumb": "/img/thumb/schmidt-brin-page-20080520-cropped-691d2c.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1C_Payphone_-_Bell_System%2C_Made_by_Western_Electric%2C_July_1979.png/960px-1C_Payphone_-_Bell_System%2C_Made_by_Western_Electric%2C_July_1979.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:1C_Payphone_-_Bell_System%2C_Made_by_Western_Electric%2C_July_1979.png",
+  "ext": "png",
+  "file": "/img/1c-payphone-bell-system-made-by-western-electric-july-1979-51a05a.png",
+  "height": 2377,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/1c-payphone-bell-system-made-by-western-electric-july-1979-51a05a.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Google%E2%80%99s_First_Production_Server.jpg/960px-Google%E2%80%99s_First_Production_Server.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Google%E2%80%99s_First_Production_Server.jpg",
   "ext": "jpg",

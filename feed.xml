@@ -8,6 +8,18 @@
     <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How Many Payphones Are Left? The FCC Stopped Counting</title>
+      <link>https://404memoryfound.com/posts/payphones-left-united-states.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/payphones-left-united-states.html</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>How many payphones are left? The FCC&#x27;s last count found under 100,000 in 2016, then it quit counting in 2018. New York held one in five of them.</description>
+      <enclosure url="https://404memoryfound.com/pins/payphones-left-united-states.jpg" length="203594" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/payphones-left-united-states.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Then vs Now</category>
+      <category>Hardware</category>
+    </item>
+    <item>
       <title>Are LaserDiscs Worth Anything? The 2026 Collector Market</title>
       <link>https://404memoryfound.com/posts/laserdisc-value-collector-market.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/laserdisc-value-collector-market.html</guid>
@@ -236,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/who-owns-sharper-image-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Hardware</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Is the Disney Store Still Open? 21 Left in 2026</title>
-      <link>https://404memoryfound.com/posts/is-disney-store-still-open.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-disney-store-still-open.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>The Disney Store is still open, but only about 21 locations are left in North America in 2026, down from 747 stores at the 1999 peak.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-disney-store-still-open.jpg" length="317209" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-disney-store-still-open.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>
