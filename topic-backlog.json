@@ -1548,8 +1548,9 @@
         "how much are laserdiscs worth",
         "laserdisc player 2026"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-09-17"
+      "status": "published",
+      "source": "editor-research-2026-09-17",
+      "published_slug": "laserdisc-value-collector-market"
     },
     {
       "title": "How Many Payphones Are Left in the United States?",
