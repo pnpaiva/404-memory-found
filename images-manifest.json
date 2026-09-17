@@ -1067,6 +1067,16 @@
   "thumb": "/img/thumb/sony-d50-discman-573982.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tower_Records_Himeji.jpg/960px-Tower_Records_Himeji.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Tower_Records_Himeji.jpg",
+  "ext": "jpg",
+  "file": "/img/tower-records-himeji-aa1504.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/tower-records-himeji-aa1504.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Carnaby_Street,_London_in_1968.jpg/960px-Carnaby_Street,_London_in_1968.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Carnaby_Street,_London_in_1968.jpg",
   "ext": "jpg",
