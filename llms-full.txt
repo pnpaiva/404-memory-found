@@ -4,6 +4,103 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Broadcast.com: The $5.7 Billion Site Yahoo Shut Down
+
+URL: https://404memoryfound.com/posts/broadcast-com-yahoo-billion-dollar-deal.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-09-17
+Topics: Business Blunders, Internet Culture
+
+**Summary:** Broadcast.com was the Dallas streaming company that Mark Cuban and Todd Wagner sold to Yahoo on July 20, 1999 for $5.7 billion in stock, after 1998 revenue of $22.4 million. Yahoo shut the last of the service down in 2002. In 2026 the name survives only as a domain Yahoo still owns, and Cuban says he has tried to buy it back.
+
+**Key facts:**
+- Launched: 1995 in Dallas as AudioNet; renamed Broadcast.com in 1998
+- 1998 results: $22.4 million revenue, $16.4 million net loss, per its SEC annual report
+- Sold to Yahoo: $5.7 billion in stock, completed July 20, 1999
+- Status today: Service closed in 2002; no site at the address
+- Owner today: Yahoo, owned by Apollo Global Management funds since 2021
+
+## Who built Broadcast.com, and what did it actually stream?
+
+The company began in Dallas in 1995 as AudioNet, a service that put live radio signals onto the internet. Mark Cuban and Todd Wagner, both Indiana University graduates living in Texas, took it over because they wanted to hear Hoosiers basketball games they could not pick up on a radio.
+
+What it sold was simple and, in 1995, close to unheard of: a link in a browser that played live audio. AudioNet carried radio stations, college and professional sports, press conferences and political speeches, then added video.
+
+A second line of business turned out to pay better than advertising. Companies wanted their earnings calls, product launches and training sessions streamed, and almost none of them knew how. The company renamed itself Broadcast.com in 1998 and sold that service to corporate clients.
+
+The quality was poor by any later standard. Most listeners were on 28.8k or 56k modems, and video, when a stream carried it, ran in a window the size of a postage stamp. Nobody minded much, because the alternative was nothing. Most of the decoding was handled by RealPlayer (https://404memoryfound.com/posts/what-happened-to-realplayer-streaming.html), the software almost every streaming site depended on at the time.
+
+## Why was the 1998 IPO a record?
+
+Broadcast.com priced 2.5 million shares at $18 in July 1998, above the $11 to $13 range in its early filings with the Securities and Exchange Commission. The stock closed its first day of trading at $62.75.
+
+That was a gain of 249 percent, the largest first-day jump any US IPO had posted to that point, edging out Secure Computing's 247 percent from 1995, as CBS News reported that week. The record did not last the year: theglobe.com (https://404memoryfound.com/posts/what-happened-to-theglobe-com-dot-com-ipo.html) took it four months later.
+
+The business underneath the stock price was much smaller than the trading suggested. Broadcast.com finished 1998 with $22.4 million in revenue and a net loss of $16.4 million, according to the annual report it filed with the SEC for that year.
+
+Investors were not buying the revenue. They were buying the idea that live audio and video would move to the internet, and that the company carrying the most of it in 1998 would still be carrying the most of it in 2005.
+
+## Why did Yahoo pay $5.7 billion for a company earning $22 million?
+
+Yahoo completed the purchase on July 20, 1999, in an all-stock deal valued at $5.7 billion. "Broadcast.com's tremendous first-to-market advantage has made it the leading destination on the Web for audio and video broadcasts," Yahoo chairman and chief executive Tim Koogle said in the announcement that day.
+
+The reasoning was about inventory. Yahoo was the front door of the web in 1999, with directory, mail and news traffic it could not sell video advertising against, because it had no video. Broadcast.com had the streams, the encoding staff and the contracts with radio stations and sports teams.
+
+The price still worked out to roughly 250 times the previous year's revenue for a company that had never turned a profit. Yahoo paid it in stock, which in 1999 felt free: the shares were going up faster than the cash would have been spent.
+
+The scale of it is easier to judge with hindsight. Google bought YouTube in October 2006 for $1.65 billion, less than a third of what Yahoo paid seven years earlier for a service that no longer existed by then.
+
+## What killed the service after the deal closed?
+
+Bandwidth did most of the damage. Every listener cost money in server capacity and transit, and a free stream with a banner ad beside it did not cover the bill. The advertising market that was supposed to grow into the cost collapsed instead when the dot-com crash hit in 2000 and 2001.
+
+Yahoo folded the operation into Yahoo Broadcast Services and began cutting. The corporate streaming business was sold off, the consumer programming was thinned out, and in 2002, three years after the purchase, Yahoo closed the last of the broadcast operations it had bought, including Yahoo Radio and its FinanceVision video channel.
+
+The technology was not the problem. Live streaming became the biggest thing on the internet within a decade, on YouTube from 2005 and on services built for broadband rather than dial-up. Broadcast.com was early enough to prove the demand and too early to serve it profitably.
+
+It is the purest example of what the 1999 market rewarded. The price Yahoo paid has been on every list of the worst acquisitions of the era since the crash, alongside its own purchase of GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html) the same year.
+
+## Who owns Broadcast.com now, and does the address still work?
+
+Yahoo has kept the domain since 1999 and never sold it. There is no Broadcast.com site to visit: the address forwards to Yahoo's own pages, and has done so for most of the past two decades.
+
+Cuban has tried to get it back at least twice. Fortune reported in August 2017 that he wanted the name for a new venture, and in May 2025 he posted a list of patents his lawyers had drafted for Broadcast.com in January 1999 and never filed, adding: "I tried to buy it back. Still willing to if anyone there cares!"
+
+Yahoo is no longer the company that bought Broadcast.com either. It was sold to Verizon, then sold again to funds managed by Apollo Global Management, which has run it as a standalone business since 2021. The details of that chain are in our piece on who owns Yahoo now (https://404memoryfound.com/posts/who-owns-yahoo-now.html).
+
+So the answer people search for is unglamorous. The company is gone, the service is gone, and the name sits unused in the domain portfolio of a private-equity-owned internet company that has no plans for it.
+
+## What did the $5.7 billion actually leave behind?
+
+It left several hundred people in Dallas with life-changing money. Cuban has said publicly that the great majority of Broadcast.com's roughly 330 employees came out of the sale as millionaires, because the staff held stock and the stock was sold at the top of the market.
+
+It left Cuban himself with Yahoo shares he was smart enough not to hold. He hedged the position with a collar that set a floor under the price, which is why his fortune survived Yahoo's fall after 2000, and in January 2000 he bought the Dallas Mavericks.
+
+It left Wagner running 2929 Entertainment and Landmark Theatres with him. And it left Yahoo with a reputation for overpaying that followed the company into every deal it did afterward.
+
+## Frequently Asked Questions
+
+### What happened to Broadcast.com?
+
+Broadcast.com, the Dallas streaming company founded as AudioNet in 1995, was bought by Yahoo in an all-stock deal completed on July 20, 1999 and valued at $5.7 billion. Yahoo folded it into Yahoo Broadcast Services and shut the last of those operations down in 2002.
+
+### How much did Yahoo pay for Broadcast.com?
+
+Yahoo paid $5.7 billion in stock for Broadcast.com in 1999, against revenue of $22.4 million and a net loss of $16.4 million that Broadcast.com had reported to the SEC for 1998. It remains one of the most expensive acquisitions of the dot-com era.
+
+### Does Broadcast.com still work in 2026?
+
+No. There has been no Broadcast.com service since Yahoo closed it in 2002, and the domain forwards to Yahoo's own pages. Mark Cuban, who ran Broadcast.com before the 1999 sale, said in May 2025 that he had tried to buy the name back and was still willing to.
+
+**Sources:**
+- Broadcast.com, Encyclopaedia Britannica: https://www.britannica.com/topic/Broadcast-com
+- Broadcast.com Inc., Form 10-K405 for fiscal 1998, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0001061236/000095013499002266/0000950134-99-002266.txt
+- Broadcast.com IPO Soars 249%, CBS News, July 1998: https://www.cbsnews.com/news/broadcastcom-ipo-soars-249/
+- Yahoo! Completes Broadcast.com Acquisition, July 20, 1999: https://www.newmediawire.com/news/yahoo-completes-broadcast-com-acquisition-3064719
+- Mark Cuban Reveals Lost Broadcast.com Patents, Benzinga, May 2025: https://www.benzinga.com/tech/25/05/45340957/mark-cuban-reveals-lost-broadcast-com-patents-that-couldve-shaped-techs-future-still-willing-to-buy-it-back-if-anyone-there-cares
+
+---
+
 # EverQuest in 2026: The 1999 MMO That Still Runs
 
 URL: https://404memoryfound.com/posts/everquest-still-active-2026.html

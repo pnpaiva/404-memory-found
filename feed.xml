@@ -8,6 +8,18 @@
     <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Broadcast.com: The $5.7 Billion Site Yahoo Shut Down</title>
+      <link>https://404memoryfound.com/posts/broadcast-com-yahoo-billion-dollar-deal.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/broadcast-com-yahoo-billion-dollar-deal.html</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Yahoo bought Broadcast.com for $5.7 billion in 1999 and closed the service by 2002. The company had booked $22.4 million of revenue in 1998.</description>
+      <enclosure url="https://404memoryfound.com/pins/broadcast-com-yahoo-billion-dollar-deal.jpg" length="131153" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/broadcast-com-yahoo-billion-dollar-deal.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Internet Culture</category>
+    </item>
+    <item>
       <title>EverQuest in 2026: The 1999 MMO That Still Runs</title>
       <link>https://404memoryfound.com/posts/everquest-still-active-2026.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/everquest-still-active-2026.html</guid>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/sam-goody-stores-left.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Music &amp; Entertainment</category>
-    </item>
-    <item>
-      <title>When Did Netflix Stop Mailing DVDs? The Last Disc</title>
-      <link>https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Netflix stopped mailing DVDs on September 29, 2023, after 25 years and 5.2 billion discs. The last red envelope held a Blu-ray of True Grit.</description>
-      <enclosure url="https://404memoryfound.com/pins/netflix-dvd-mail-service-shutdown.jpg" length="130609" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/netflix-dvd-mail-service-shutdown.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Music &amp; Entertainment</category>
-      <category>Internet Culture</category>
     </item>
   </channel>
 </rss>
