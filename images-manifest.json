@@ -1287,6 +1287,16 @@
   "thumb": "/img/thumb/internet-cafe-apizaco-mexico-52402c.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/EToys_logo.png/960px-EToys_logo.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:EToys_logo.png",
+  "ext": "png",
+  "file": "/img/etoys-logo-01179b.png",
+  "height": 1280,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/etoys-logo-01179b.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Zune_120_gb_accessories.JPG/960px-Zune_120_gb_accessories.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Zune_120_gb_accessories.JPG",
   "http": 404,
