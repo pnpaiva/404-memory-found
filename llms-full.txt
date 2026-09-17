@@ -17793,121 +17793,94 @@ No. Zero Fry's Electronics stores have operated anywhere since February 24, 2021
 
 ---
 
-# What Happened to AltaVista? The Search Giant Before Google
+# Does AltaVista Still Exist? Yahoo Closed It in 2013
 
 URL: https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-29
+Published: 2026-03-29  Updated: 2026-09-17
 Topics: Internet Culture, Software & Apps
 
-## The Search Engine That Was Never Supposed to Be a Search Engine
+**Summary:** AltaVista no longer exists. Yahoo shut the search engine down on July 8, 2013, and altavista.com now redirects to Yahoo Search. The name and domain belong to Yahoo Inc., which has been majority-owned by Apollo Global Management funds since September 2021.
 
-In December 1995, AltaVista launched with an index of 16 million web documents. On its first day, it handled 300,000 search queries. Within two years, it was processing over 80 million hits per day. By 2000, AltaVista commanded 17.7% of the search market while a small startup called Google sat at just 7%.
+**Key facts:**
+- Launched: December 15, 1995, by Digital Equipment Corporation
+- Status today: Closed on July 8, 2013; altavista.com redirects to Yahoo Search
+- Owner today: Yahoo Inc., majority-owned by Apollo Global Management funds since 2021
+- Last sale price: $140 million to Overture Services in 2003, down from $2.3 billion in 1999
+- Index at launch: About 16 million pages and 300,000 queries on day one
 
-Eight years later, AltaVista was worth $140 million. Not billion. Million. And even that was generous.
+## Who owns AltaVista today?
 
-The story of AltaVista is not a story about bad technology. The technology was extraordinary. It's a story about what happens when nobody in charge understands what they've built. When the most powerful search engine on earth gets treated as a marketing demo, then as a portal, then as an investment vehicle, then as an afterthought. AltaVista didn't lose to Google because Google was smarter. AltaVista lost because every company that owned it made the same mistake: they looked at the future of the internet and saw something other than search.
+AltaVista has not worked as a search engine since 2013, and the name belongs to Yahoo Inc. Yahoo picked it up in 2003 by buying Overture Services, the company that had bought AltaVista earlier that year, and it has held the brand ever since.
 
-  
-  
+Yahoo itself changed hands in September 2021, when funds managed by the private equity firm Apollo Global Management completed their purchase of the business from Verizon. That deal made Apollo the majority owner of Yahoo, and with it the owner of what is left of AltaVista: a domain name and a trademark.
 
-## A Hardware Demo That Accidentally Changed the Internet
+Typing altavista.com into a browser does not produce an error. It sends you to Yahoo Search. There is no archive of old AltaVista results behind it, no separate index, and no way to run the kind of query the site accepted in 1997. The redirect is the whole of the estate. We traced every owner Yahoo has had (https://404memoryfound.com/posts/who-owns-yahoo-now.html) in more detail separately.
 
-AltaVista was born inside Digital Equipment Corporation's Western Research Laboratory in Palo Alto, California. DEC was one of the great American computer companies, a minicomputer giant that had been building serious hardware since the 1950s. By the mid-1990s, DEC had developed the Alpha processor, a 64-bit chip that was genuinely ahead of its time in terms of raw processing power.
+## How a chip demo turned into the first full-text web search engine
 
-The problem was proving it. DEC needed a compelling demonstration that would show the world what the Alpha could do. And in 1995, researcher Paul Flaherty had an idea while on vacation: what if they used the Alpha's speed to index the entire World Wide Web and let people search through it?
+AltaVista started inside Digital Equipment Corporation, the Massachusetts computer maker usually called DEC. In 1995, researchers at DEC's Western Research Laboratory in Palo Alto, California were trying to prove what the company's Alpha processor could do. Benchmark scores were not convincing customers.
 
-Flaherty, along with engineers Louis Monier and Michael Burrows, built a web crawler that could index content at a speed nobody had achieved before. The key insight was simple but powerful. The Alpha processor was fast enough to crawl, index, and serve search results across the entire known web using a single machine. No other hardware on the market could do that in 1995.
+The demonstration three of them settled on was to index the entire World Wide Web and let anyone search it. Paul Flaherty proposed the project, Louis Monier wrote the crawler that went out and collected the pages, and Michael Burrows wrote the indexer that made them searchable in a fraction of a second.
 
-AltaVista launched on December 15, 1995, at the URL altavista.digital.com. The name literally means "a view from above" in Spanish. And that's exactly what it offered: the first real bird's-eye view of the web. Previous search engines like WebCrawler, Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), and Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html) indexed only fractions of the available pages. AltaVista indexed all of them. For the first time, you could type a question into a box and get a meaningful answer from across the entire internet.
+AltaVista opened to the public on December 15, 1995 with about 16 million pages in its index, an enormous number for the time. It handled 300,000 queries on its first day. Within a year it was fielding tens of millions of requests a day, far past anything DEC's marketing department had planned for a hardware demonstration.
 
-The response was immediate and overwhelming. Three hundred thousand queries on day one. That number kept climbing. Within weeks, AltaVista was the most popular search destination on the internet.
+That is the part of the story that still gets told. The rest of it is a company handing a working product to owners who each wanted it to be something else.
 
-## What Made AltaVista Revolutionary
+## What made AltaVista better than a directory in 1996?
 
-To understand why AltaVista mattered, you need to understand what searching the web was like before it existed. In 1995, finding something online was closer to browsing a library card catalog than using modern search. Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), the dominant player, was essentially a human-curated directory. Actual people organized websites into categories and subcategories. If a site wasn't in the directory, it didn't exist as far as Yahoo was concerned.
+Before AltaVista, finding a page usually meant browsing a directory. Yahoo, the biggest name on the web then, paid people to sort sites into categories by hand. A site that nobody had filed was effectively invisible.
 
-AltaVista changed that completely. It offered full-text search across millions of pages. You could search for a specific phrase, use Boolean operators (AND, OR, NOT), filter by language, and get results in under a second. For researchers, journalists, students, and anyone trying to find specific information, this was transformational.
+AltaVista searched the text of the pages themselves. You could look for an exact phrase, combine terms with AND, OR and NOT, restrict results to one language, and get an answer back in about a second. For research that was a different class of tool, and the rival crawlers of the day, Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html) among them, covered far less of the web.
 
-AltaVista also introduced innovations that are now taken for granted. In 1997, it launched Babel Fish, the internet's first free machine translation service. The name came from Douglas Adams' "The Hitchhiker's Guide to the Galaxy," and the service could translate text and entire web pages between English, Spanish, French, German, Portuguese, Italian, and Russian. This was years before Google Translate existed. Babel Fish became so popular that it drove significant traffic to AltaVista on its own.
+The interface mattered as much as the index. AltaVista was a search box on a nearly empty page, and the results came back as a plain list. Marking the engine's thirtieth anniversary in December 2025, Tom's Hardware described it as the site that pioneered "the fast and uncluttered search results model users loved, before Google stole its clothes and its thunder."
 
-AltaVista also pioneered natural language queries, image search, and multimedia search at a time when most competitors could barely handle text. The engineering team was genuinely world-class. They weren't just building a search engine. They were inventing the vocabulary of how humans interact with the internet.
+It shipped extras that were genuinely new at the time, including free machine translation under the Babel Fish name and search operators that most competitors could not handle.
 
-"AltaVista's engineers built the future of web search. Their corporate owners spent the next eight years trying to turn it into something else."
+## Why did Compaq turn AltaVista into a portal?
 
-## The First Betrayal: DEC Didn't Know What It Had
+Compaq bought DEC in January 1998 for $9.6 billion, the largest acquisition the computer industry had seen, and AltaVista came along with the servers. Compaq (https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html) wanted DEC's enterprise business and its engineering staff. It did not particularly want a search engine, and it had no settled view of what one was worth.
 
-Here's where the logic starts to break down. DEC had accidentally created the most important tool on the internet. Millions of people were using AltaVista every day. The search engine was generating massive traffic and attention. And DEC's leadership looked at all of this and thought: great, now people know our Alpha processors are fast.
+What Compaq did know was that Yahoo was the most valuable property on the web, and that Yahoo was a portal: news, mail, shopping, weather and horoscopes on a single page. So it rebuilt AltaVista in that shape. News feeds, shopping links, free email and advertising modules went onto the home page, and the search box, the only thing most visitors had come for, got pushed down the screen.
 
-That was it. That was the strategic takeaway. AltaVista was conceived as a hardware demo, and DEC's management continued to treat it as one. They never spun it into its own business unit with dedicated resources and a clear revenue strategy. They never hired a CEO for AltaVista. They never developed an advertising model. They had the most valuable piece of internet real estate in the world and they used it to sell servers.
+The pages got busier and slower at the exact moment a competitor was going the other way. Google put one box on a white page and nothing else. People who wanted a search engine went to the site that still behaved like one.
 
-To be fair to DEC, this wasn't stupidity. It was context. DEC was a hardware company. They made their money selling machines. The idea that a free search tool could be worth more than the hardware it ran on was genuinely difficult to grasp in 1996. The internet advertising market barely existed. Google's founders were still in graduate school. The entire concept of "search as a business" hadn't been articulated yet.
+## How much did AltaVista sell for, and to whom?
 
-But that's exactly the point. The companies that won the internet were the ones that saw the future before it arrived. DEC saw their hardware. They missed everything else.
+Compaq did not keep it long. On June 29, 1999 it sold 83 percent of AltaVista to CMGI, an internet holding company, in a stock and notes deal valued at about $2.3 billion, and kept 17 percent for itself. CMGI intended to take AltaVista public.
 
-## The Second Betrayal: Compaq and the Portal Disaster
+The offering never happened. The dot-com market broke first, CMGI's own shares fell with it, and AltaVista went through layoffs and a run of chief executives. The portal strategy was abandoned and the site went back to being a search engine, by which point the audience had already gone.
 
-In 1998, Compaq (https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html) Computer Corporation acquired DEC in a massive $9.6 billion deal. Compaq was primarily interested in DEC's enterprise server business and engineering talent. AltaVista came along as part of the package.
+In February 2003, Overture Services agreed to buy AltaVista's business for $140 million, $60 million of it in cash and the rest in Overture stock. That is a drop of about 94 percent from the CMGI price in under four years. "Adding AltaVista is an important step forward in expanding our capacity and commitment to search," said Ted Meisel, Overture's chief executive, on a conference call reported by InternetNews in 2003. Later the same year Yahoo bought Overture, and AltaVista changed hands for the fourth and final time.
 
-And Compaq proceeded to make one of the worst product decisions of the internet era. Instead of recognizing AltaVista as the world's leading search engine and doubling down on search, Compaq decided to transform it into a "web portal." The logic was straightforward, and wrong. Yahoo was the biggest brand on the internet, and Yahoo was a portal: news, email, shopping, weather, entertainment, all on one homepage. Compaq looked at Yahoo and decided that AltaVista should become Yahoo.
+## What finally killed AltaVista?
 
-So they stuffed AltaVista's clean, fast search interface with news feeds, shopping links, weather widgets, chat features, email, entertainment modules, and advertising. The homepage became cluttered and slow. The search bar, which was the only thing people actually came for, got buried under layers of content that nobody had asked for.
+Nothing dramatic. Yahoo kept altavista.com running for a decade as a second-tier property while its own search moved onto other technology. The index behind the box stopped being AltaVista's. The extras went one at a time, Babel Fish among them, handed off to Microsoft's translation service.
 
-This is essentially what happens when a company that doesn't understand a product tries to make it more "valuable." They add things. They look at what's working for competitors and copy the surface-level features without understanding the underlying dynamic. Yahoo succeeded as a portal because it was built as one from the start. AltaVista succeeded because it was fast and clean and got you the answer you needed. Turning AltaVista into a portal was like turning a sports car into a minivan because minivans sell more units.
+On June 28, 2013, Yahoo posted a list of products it was closing. AltaVista was on it, with a date of July 8 and one line of instruction: "Please visit Yahoo Search for all of your searching needs." The engine went dark that morning, seventeen years and seven months after it opened.
 
-Users started leaving. The people who had come to AltaVista for fast, accurate search results were now greeted by a cluttered homepage that loaded slowly and buried the search functionality. Where did they go? Increasingly, they went to Google.
-
-  
-  
-
-## The Third Betrayal: CMGI and the Bubble
-
-In June 1999, Compaq sold an 83% stake in AltaVista to CMGI, an internet investment firm, in a stock transaction valued at approximately $2.3 billion. CMGI planned to take AltaVista public with an IPO scheduled for April 2000.
-
-The timing could not have been worse. The dot-com bubble was about to burst. When the crash came, CMGI cancelled the IPO. AltaVista's valuation evaporated alongside the rest of the internet economy. The company went through multiple rounds of layoffs and several management changes. The portal strategy was eventually abandoned, and AltaVista tried to refocus on search, but by then it was too late. Google had already taken the crown.
-
-Look at the numbers. In 2000, AltaVista had 17.7% market share according to Media Metrix. Google had just 7%. By 2002, Google had surged past AltaVista and continued to accelerate. The crossover happened fast, and it was irreversible. Google's PageRank algorithm produced better results. Google's interface was cleaner. Google was everything AltaVista had been in 1996, refined and improved, while AltaVista had spent the intervening years being passed between owners who didn't understand it.
-
-## The Final Chapter: Overture, Yahoo, and Deletion
-
-In February 2003, Overture Services acquired AltaVista for $140 million. For context, AltaVista had been valued at $2.3 billion just four years earlier. That's a 94% decline in value. In July 2003, Yahoo acquired Overture, which meant Yahoo now owned AltaVista.
-
-Yahoo kept AltaVista running as a separate search engine for another decade, mostly as a secondary property. The technology was folded into Yahoo's search infrastructure. The brand lingered, increasingly irrelevant, until July 8, 2013, when Yahoo finally shut down altavista.com and redirected it to Yahoo Search.
-
-Eighteen years after its launch, AltaVista was gone. Not with a bang. Not even with a whimper. Just a silent redirect to a Yahoo page that nobody was particularly excited about either.
-
-## The Lesson Nobody Learned in Time
-
-The real question isn't "what happened to AltaVista?" The real question is: how did three consecutive owners of the best search engine in the world fail to see that search was the most valuable thing on the internet?
-
-DEC saw it as a hardware demo. Compaq saw it as a portal candidate. CMGI saw it as an IPO vehicle. None of them saw it as what it actually was: the prototype for a trillion-dollar industry. Google saw it. Larry Page and Sergey Brin looked at search and understood that organizing the world's information was not a feature. It was the product. Everything else, the advertising model, the email, the maps, the cloud services, all of that came later. But it all started with search.
-
-AltaVista had a four-year head start on Google. It had superior hardware, a talented engineering team, massive user traffic, and brand recognition across the internet. It had every advantage except one: an owner who understood what it was worth. And in the end, that was the only advantage that mattered.
-
-Which brings us to the modern parallel. This is essentially what's happening right now with AI. Multiple companies have built impressive technology. The question is whether the people running those companies understand what they've built, or whether they'll make the same mistake DEC made in 1996: treating a transformational product as a demo for something else.
+The explanation the obituaries reached for is roughly the right one. AltaVista had the better index in 1996 and the worse owners from 1998 onward. DEC treated it as an advertisement for processors, Compaq treated it as a Yahoo imitation, CMGI treated it as a stock offering, and Google treated search as the business itself. One of those four readings was correct, and it is the only one still trading.
 
 ## Frequently Asked Questions
 
-### When was AltaVista launched?
+### Does AltaVista still exist in 2026?
 
-AltaVista launched on December 15, 1995, at the URL altavista.digital.com. It was created by researchers Paul Flaherty, Louis Monier, and Michael Burrows at Digital Equipment Corporation's Western Research Laboratory in Palo Alto, California.
+No. AltaVista stopped working as a search engine on July 8, 2013, when Yahoo closed it. The altavista.com address still resolves, but it redirects to Yahoo Search rather than to anything AltaVista built, and no version of the original index is available to search.
 
-### What was AltaVista originally designed to do?
+### Who owns AltaVista now?
 
-AltaVista was originally designed as a technology demonstration for DEC's Alpha processor. The goal was to show the Alpha's processing power by indexing the entire World Wide Web and serving search results from a single machine. The fact that it became the most popular search engine on the internet was essentially an accident.
-
-### When did AltaVista shut down?
-
-AltaVista was officially shut down on July 8, 2013, by Yahoo, which had acquired it through the Overture Services purchase in 2003. After the shutdown, the altavista.com domain was redirected to Yahoo Search.
+The AltaVista name and domain belong to Yahoo Inc., which acquired them in 2003 by buying Overture Services. Yahoo has been majority-owned by funds managed by Apollo Global Management since September 2021, so Apollo controls whatever commercial value the AltaVista brand still carries.
 
 ### Why did AltaVista lose to Google?
 
-AltaVista lost to Google primarily because its successive corporate owners, DEC, Compaq, and CMGI, failed to invest in search as a standalone business. Compaq's decision to transform AltaVista into a web portal drove users away, while Google focused relentlessly on delivering better search results through its PageRank algorithm and a clean, fast interface.
+AltaVista lost to Google because the owners it had between 1998 and 2003 spent those years rebuilding it as a Yahoo-style portal instead of improving search. Compaq buried the search box under news, shopping and email modules, users left for Google's single box, and by the February 2003 sale to Overture Services AltaVista was worth $140 million against the $2.3 billion CMGI had paid in 1999.
 
-### What was Babel Fish?
-
-Babel Fish was the internet's first free machine translation service, launched by AltaVista in 1997. Named after the universal translator in Douglas Adams' "The Hitchhiker's Guide to the Galaxy," it could translate text and web pages between multiple languages. It predated Google Translate by nearly a decade and was one of AltaVista's most popular features.
-
+**Sources:**
+- Tom's Hardware: Search pioneer AltaVista's star shone bright 30 years ago (2025): https://www.tomshardware.com/tech-industry/big-tech/search-pioneer-altavistas-star-shone-bright-with-a-clean-and-minimal-ui-30-years-ago-engine-lost-momentum-after-multiple-ownership-changes-and-the-embrace-of-the-web-portal-trend
+- The Washington Post: CMGI Buys AltaVista From Ailing Compaq (June 30, 1999): https://www.washingtonpost.com/archive/business/1999/06/30/cmgi-buys-altavista-from-ailing-compaq/29b441ce-accf-41bf-aa97-8b01af7897f5/
+- InternetNews: Overture to Buy AltaVista (February 2003): http://www.internetnews.com/IAR/article.php/1587171/Overture+to+Buy+AltaVista.htm
+- Associated Press via Salon: Yahoo shuts down Internet relic AltaVista (July 8, 2013): https://www.salon.com/2013/07/08/yahoo_shuts_down_internet_relic_altavista_ap/
+- Apollo Global Management: Apollo Funds Complete Acquisition of Yahoo (September 2021): https://www.apollo.com/insights-news/pressreleases/2021/09/apollo-funds-complete-acquisition-of-yahoo-161530593
 
 ---
 
