@@ -1090,8 +1090,9 @@
         "is ultima online still online"
       ],
       "demand_note": "EverQuest defined the American MMO before World of Warcraft, and lapsed players search periodically to see whether their old server survives.",
-      "status": "pending",
-      "source": "status-research-2026-09-10"
+      "status": "published",
+      "source": "status-research-2026-09-10",
+      "published_slug": "everquest-still-active-2026"
     }
   ],
   "buyer_intent": [
