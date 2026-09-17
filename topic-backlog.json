@@ -1513,6 +1513,97 @@
       ],
       "status": "published",
       "published_slug": "etoys-com-who-owns-it-now"
+    },
+    {
+      "title": "Is Tower Records Still Around? Online and in Japan",
+      "slug": "tower-records-still-around",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Music & Entertainment"
+      ],
+      "angle": "Status query with a real answer: the 2006 liquidation auction, the 2020 online relaunch, and the separate Japanese chain that never closed.",
+      "target_keywords": [
+        "is tower records still around",
+        "is tower records still in business",
+        "who owns tower records now",
+        "why did tower records go out of business"
+      ],
+      "status": "published",
+      "published_slug": "tower-records-still-around",
+      "source": "editor-research-2026-09-17"
+    },
+    {
+      "title": "Are LaserDiscs Worth Anything? The 2026 Collector Market",
+      "slug": "laserdisc-value-collector-market",
+      "persona": "theo",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "Buying and selling question with strong demand: which titles carry value, why scarce transfers matter, what a player costs now, and what the format cost in the 1980s.",
+      "target_keywords": [
+        "are laserdiscs worth anything",
+        "laserdisc value",
+        "how much are laserdiscs worth",
+        "laserdisc player 2026"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-17"
+    },
+    {
+      "title": "How Many Payphones Are Left in the United States?",
+      "slug": "payphones-left-united-states",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Hardware"
+      ],
+      "angle": "Status count people search for constantly: the FCC stopped auditing payphones in 2018, the decline from over 2 million in 2000, who still runs them and where.",
+      "target_keywords": [
+        "how many payphones are left",
+        "are there still payphones",
+        "payphone near me",
+        "when did payphones disappear"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-17"
+    },
+    {
+      "title": "Is Packard Bell Still a Computer Brand in 2026?",
+      "slug": "packard-bell-computer-brand-today",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "angle": "The best-selling US home PC brand of the mid-1990s, the NEC takeover, the exit from the US market in 2000, and where the name sits today under Acer.",
+      "target_keywords": [
+        "is packard bell still around",
+        "who owns packard bell",
+        "what happened to packard bell",
+        "packard bell computers 1995"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-17"
+    },
+    {
+      "title": "Is Homestar Runner Still Updating? The Site in 2026",
+      "slug": "homestar-runner-still-updating",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Software & Apps"
+      ],
+      "angle": "Flash-era web cartoon that outlived Flash: the Chapman brothers, the 2009 hiatus, the return, and how the archive runs without a Flash plugin.",
+      "target_keywords": [
+        "is homestar runner still updating",
+        "homestar runner 2026",
+        "what happened to homestar runner",
+        "strong bad emails today"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-17"
     }
   ],
   "priority_3_niche_authority": [
