@@ -8,6 +8,19 @@
     <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Are LaserDiscs Worth Anything? The 2026 Collector Market</title>
+      <link>https://404memoryfound.com/posts/laserdisc-value-collector-market.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/laserdisc-value-collector-market.html</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Most LaserDiscs are worth under $5, but scarce pressings run into the hundreds. Tokyo Raiders, the last title ever released, has fetched $5,700.</description>
+      <enclosure url="https://404memoryfound.com/pins/laserdisc-value-collector-market.jpg" length="277591" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/laserdisc-value-collector-market.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+      <category>Money &amp; Tech</category>
+    </item>
+    <item>
       <title>Is Tower Records Still Around? Online and in Japan</title>
       <link>https://404memoryfound.com/posts/tower-records-still-around.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/tower-records-still-around.html</guid>
@@ -235,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/is-disney-store-still-open.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Where to Buy a Game Boy in 2026 and What to Pay</title>
-      <link>https://404memoryfound.com/posts/buy-working-game-boy-2026.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/buy-working-game-boy-2026.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Buying a Game Boy in 2026 costs about $70 for a tested original, over $300 boxed. Check the LCD lines and battery terminals before you pay.</description>
-      <enclosure url="https://404memoryfound.com/pins/buy-working-game-boy-2026.jpg" length="250386" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/buy-working-game-boy-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Hardware</category>
     </item>
   </channel>
 </rss>

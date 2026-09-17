@@ -1820,6 +1820,16 @@
   "http": 404,
   "status": "missing"
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pioneer_CLD-D703.png/960px-Pioneer_CLD-D703.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Pioneer_CLD-D703.png",
+  "ext": "jpg",
+  "file": "/img/pioneer-cld-d703-6e2198.jpg",
+  "height": 627,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/pioneer-cld-d703-6e2198.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Magellan_Triton_2000_handheld_GPS_receiver_01.jpg/960px-Magellan_Triton_2000_handheld_GPS_receiver_01.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Magellan_Triton_2000_handheld_GPS_receiver_01.jpg",
   "ext": "jpg",
