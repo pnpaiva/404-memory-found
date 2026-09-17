@@ -1567,8 +1567,9 @@
         "payphone near me",
         "when did payphones disappear"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-09-17"
+      "status": "published",
+      "source": "editor-research-2026-09-17",
+      "published_slug": "payphones-left-united-states"
     },
     {
       "title": "Is Packard Bell Still a Computer Brand in 2026?",
