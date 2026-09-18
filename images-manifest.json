@@ -359,6 +359,16 @@
   "thumb": "/img/thumb/motorola-iridium-9505-5ffd19.jpg",
   "width": 800
  },
+ "https://upload.wikimedia.org/wikipedia/commons/9/9f/Disquetes_y_CD-ROM_de_instalacion_de_Windows_95.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Disquetes_y_CD-ROM_de_instalacion_de_Windows_95.jpg",
+  "ext": "jpg",
+  "file": "/img/disquetes-y-cd-rom-de-instalacion-de-windows-95-7bd066.jpg",
+  "height": 768,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/disquetes-y-cd-rom-de-instalacion-de-windows-95-7bd066.jpg",
+  "width": 1024
+ },
  "https://upload.wikimedia.org/wikipedia/commons/b/b4/NES_European_Version_with_a_Super_Mario_Bros_sticker_20110723.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:NES_European_Version_with_a_Super_Mario_Bros_sticker_20110723.jpg",
   "ext": "jpg",
@@ -680,8 +690,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Palm_Pilot_Professional_01.JPG/960px-Palm_Pilot_Professional_01.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Palm_Pilot_Professional_01.JPG",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/palm-pilot-professional-01-44d22b.jpg",
+  "height": 1857,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Palm_Pilot_Professional_01.JPG/1280px-Palm_Pilot_Professional_01.JPG",
+  "status": "ok",
+  "thumb": "/img/thumb/palm-pilot-professional-01-44d22b.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sony_Discman_D%E2%80%93E775.JPG/960px-Sony_Discman_D%E2%80%93E775.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sony_Discman_D%E2%80%93E775.JPG",
@@ -874,8 +890,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nokia_3310_original.JPG/960px-Nokia_3310_original.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Nokia_3310_original.JPG",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/nokia-3310-original-1f1e2c.jpg",
+  "height": 1840,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Nokia_3310_original.JPG",
+  "status": "ok",
+  "thumb": "/img/thumb/nokia-3310-original-1f1e2c.jpg",
+  "width": 1058
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/BlackBerry_8820.png/960px-BlackBerry_8820.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:BlackBerry_8820.png",
@@ -1179,8 +1201,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/NCSA_Mosaic_Browser_Screenshot.png/960px-NCSA_Mosaic_Browser_Screenshot.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/ncsa-mosaic-browser-screenshot-f4b684.jpg",
+  "height": 668,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png",
+  "status": "ok",
+  "thumb": "/img/thumb/ncsa-mosaic-browser-screenshot-f4b684.jpg",
+  "width": 772
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nintendo-DS-Fat-Blue.jpg/960px-Nintendo-DS-Fat-Blue.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Fat-Blue.jpg",
@@ -1254,8 +1282,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IMac_Bondi_Blue.jpg/960px-IMac_Bondi_Blue.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:IMac_Bondi_Blue.jpg",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/imac-bondi-blue-91c64f.jpg",
+  "height": 905,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/c/c0/IMac_Bondi_Blue.jpg",
+  "status": "ok",
+  "thumb": "/img/thumb/imac-bondi-blue-91c64f.jpg",
+  "width": 822
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Segway_PT_%282006%29.jpg/960px-Segway_PT_%282006%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Segway_PT_%282006%29.jpg",
@@ -1275,6 +1309,16 @@
   "requested": 1280,
   "status": "ok",
   "thumb": "/img/thumb/lovi-te-osm-mapquest-open-bba685.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Singani_and_wine_bottles_in_shop.jpg/1280px-Singani_and_wine_bottles_in_shop.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Singani_and_wine_bottles_in_shop.jpg",
+  "ext": "jpg",
+  "file": "/img/singani-and-wine-bottles-in-shop-86c39e.jpg",
+  "height": 1707,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/singani-and-wine-bottles-in-shop-86c39e.jpg",
   "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nintendo-Famicom-Console-Set-FL.png/960px-Nintendo-Famicom-Console-Set-FL.png": {
@@ -1329,8 +1373,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Zune_120_gb_accessories.JPG/960px-Zune_120_gb_accessories.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Zune_120_gb_accessories.JPG",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/zune-120-gb-accessories-47893e.jpg",
+  "height": 960,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Zune_120_gb_accessories.JPG/1280px-Zune_120_gb_accessories.JPG",
+  "status": "ok",
+  "thumb": "/img/thumb/zune-120-gb-accessories-47893e.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dell_Dimension_C521.jpg/960px-Dell_Dimension_C521.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Dell_Dimension_C521.jpg",
@@ -1394,8 +1444,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Commodore-64_front_and_back.JPG/960px-Commodore-64_front_and_back.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Commodore-64_front_and_back.JPG",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/commodore-64-front-and-back-a6f123.jpg",
+  "height": 371,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Commodore-64_front_and_back.JPG",
+  "status": "ok",
+  "thumb": "/img/thumb/commodore-64-front-and-back-a6f123.jpg",
+  "width": 373
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Retro_TV_on_suburban_road_%28Unsplash%29.jpg/960px-Retro_TV_on_suburban_road_%28Unsplash%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Retro_TV_on_suburban_road_%28Unsplash%29.jpg",
@@ -1698,8 +1754,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sega-dreamcast-set.png/960px-Sega-dreamcast-set.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sega-dreamcast-set.png",
-  "http": 404,
-  "status": "missing"
+  "ext": "png",
+  "file": "/img/sega-dreamcast-set-5b7fc8.png",
+  "height": 698,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sega-dreamcast-set.png/1280px-Sega-dreamcast-set.png",
+  "status": "ok",
+  "thumb": "/img/thumb/sega-dreamcast-set-5b7fc8.png",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gateway_2000_Destination.jpg/960px-Gateway_2000_Destination.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Gateway_2000_Destination.jpg",
@@ -1720,11 +1782,6 @@
   "status": "ok",
   "thumb": "/img/thumb/sunnyvale-frys-electronics-81f77c.jpg",
   "width": 1280
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Napa_Valley_grapevines.jpg/960px-Napa_Valley_grapevines.jpg": {
-  "commons": "https://commons.wikimedia.org/wiki/File:Napa_Valley_grapevines.jpg",
-  "http": 404,
-  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nasdaq_Composite_dot-com_bubble.svg/960px-Nasdaq_Composite_dot-com_bubble.svg.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Nasdaq_Composite_dot-com_bubble.svg",
@@ -1834,11 +1891,6 @@
   "status": "ok",
   "thumb": "/img/thumb/atari-jaguar-console-set-955f89.png",
   "width": 1280
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Konami_code_google.png/960px-Konami_code_google.png": {
-  "commons": "https://commons.wikimedia.org/wiki/File:Konami_code_google.png",
-  "http": 404,
-  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pioneer_CLD-D703.png/960px-Pioneer_CLD-D703.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Pioneer_CLD-D703.png",
@@ -2019,6 +2071,17 @@
   "thumb": "/img/thumb/next-cube-img-7154-51143d.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Virtual-Boy-Set.jpg/1280px-Virtual-Boy-Set.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-Set.jpg",
+  "ext": "jpg",
+  "file": "/img/virtual-boy-set-96c364.jpg",
+  "height": 1626,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Virtual-Boy-Set.jpg/1280px-Virtual-Boy-Set.jpg",
+  "status": "ok",
+  "thumb": "/img/thumb/virtual-boy-set-96c364.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png/960px-VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png",
   "ext": "jpg",
@@ -2077,11 +2140,6 @@
   "status": "ok",
   "thumb": "/img/thumb/nokia-3310-grey-front-tidied-and-enhanced-f49284.jpg",
   "width": 1280
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Windows_95_at_first_run.png/960px-Windows_95_at_first_run.png": {
-  "commons": "https://commons.wikimedia.org/wiki/File:Windows_95_at_first_run.png",
-  "http": 404,
-  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kay-Bee_mascot.jpg/960px-Kay-Bee_mascot.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Kay-Bee_mascot.jpg",
@@ -2173,11 +2231,6 @@
   "thumb": "/img/thumb/close-boston-market-restaurant-104722.jpg",
   "width": 1280
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Napa_Valley_grapevines.jpg/800px-Napa_Valley_grapevines.jpg": {
-  "commons": "https://commons.wikimedia.org/wiki/File:Napa_Valley_grapevines.jpg",
-  "http": 404,
-  "status": "missing"
- },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Zune_120_gb_accessories.JPG/960px-Zune_120_gb_accessories.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Zune_120_gb_accessories.JPG",
   "ext": "jpg",
@@ -2210,8 +2263,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Garmin_eTrex_30.JPG/960px-Garmin_eTrex_30.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Garmin_eTrex_30.JPG",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/garmin-etrex-30-1f79bc.jpg",
+  "height": 960,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Garmin_eTrex_30.JPG/1280px-Garmin_eTrex_30.JPG",
+  "status": "ok",
+  "thumb": "/img/thumb/garmin-etrex-30-1f79bc.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/RadioShack.JPG/960px-RadioShack.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:RadioShack.JPG",
@@ -2303,8 +2362,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Game-Boy-FL.jpg/960px-Game-Boy-FL.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Game-Boy-FL.jpg",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/game-boy-fl-3c5d06.jpg",
+  "height": 1552,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/1280px-Game-Boy-FL.jpg",
+  "status": "ok",
+  "thumb": "/img/thumb/game-boy-fl-3c5d06.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Garmin_eTrex_30.JPG/960px-Garmin_eTrex_30.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Garmin_eTrex_30.JPG",
@@ -2375,11 +2440,6 @@
   "status": "ok",
   "thumb": "/img/thumb/sega-genesis-mk2-motherboard-01-5948e7.jpg",
   "width": 1280
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Virtual-Boy-wController.png/800px-Virtual-Boy-wController.png": {
-  "commons": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-wController.png",
-  "http": 404,
-  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/IMac_Bondi_Blue.jpg/960px-IMac_Bondi_Blue.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:IMac_Bondi_Blue.jpg",
@@ -2601,8 +2661,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pizza_Margherita_stu_spivack.jpg/960px-Pizza_Margherita_stu_spivack.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Pizza_Margherita_stu_spivack.jpg",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/pizza-margherita-stu-spivack-9438ec.jpg",
+  "height": 851,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/1280px-Pizza_Margherita_stu_spivack.jpg",
+  "status": "ok",
+  "thumb": "/img/thumb/pizza-margherita-stu-spivack-9438ec.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Atari-Lynx-I-Handheld.jpg/960px-Atari-Lynx-I-Handheld.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Atari-Lynx-I-Handheld.jpg",
@@ -2616,8 +2682,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CD-Sammlung.JPG/960px-CD-Sammlung.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:CD-Sammlung.JPG",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/cd-sammlung-ff4e46.jpg",
+  "height": 1686,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/CD-Sammlung.JPG/1280px-CD-Sammlung.JPG",
+  "status": "ok",
+  "thumb": "/img/thumb/cd-sammlung-ff4e46.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/VHS_cassette_tape_04.JPG/960px-VHS_cassette_tape_04.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:VHS_cassette_tape_04.JPG",
@@ -2661,8 +2733,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/NES-Console-Set.png/960px-NES-Console-Set.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.png",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/nes-console-set-e4c5d3.jpg",
+  "height": 695,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/1280px-NES-Console-Set.png",
+  "status": "ok",
+  "thumb": "/img/thumb/nes-console-set-e4c5d3.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Steve_Jobs_and_Macintosh_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_edited.jpg/960px-Steve_Jobs_and_Macintosh_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_edited.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Macintosh_computer%2C_January_1984%2C_by_Bernard_Gotfryd_-_edited.jpg",
@@ -2836,8 +2914,14 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Netscape_Navigator_2_Screenshot.png/960px-Netscape_Navigator_2_Screenshot.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Netscape_Navigator_2_Screenshot.png",
-  "http": 404,
-  "status": "missing"
+  "ext": "jpg",
+  "file": "/img/netscape-navigator-2-screenshot-402896.jpg",
+  "height": 699,
+  "requested": 1280,
+  "resolved": "https://upload.wikimedia.org/wikipedia/commons/6/69/Netscape_Navigator_2_Screenshot.png",
+  "status": "ok",
+  "thumb": "/img/thumb/netscape-navigator-2-screenshot-402896.jpg",
+  "width": 1117
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Atari-Lynx-I-Handheld.png/960px-Atari-Lynx-I-Handheld.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Atari-Lynx-I-Handheld.png",
@@ -2878,11 +2962,6 @@
   "status": "ok",
   "thumb": "/img/thumb/the-war-poets-exhibition-in-second-life-5-4069599655-605f66.jpg",
   "width": 1280
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Windows_95_at_first_run.png/800px-Windows_95_at_first_run.png": {
-  "commons": "https://commons.wikimedia.org/wiki/File:Windows_95_at_first_run.png",
-  "http": 404,
-  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Zip100-drive_hg.jpg/960px-Zip100-drive_hg.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Zip100-drive_hg.jpg",

@@ -7100,6 +7100,9 @@ Irish offered to take over the website. Teague, who was running it alone and get
 
 Irish co-founded a company called Groundspeak with Bryan Roth and Elias Alvord to operate the site. There was no revenue model for the first few years. Irish kept his day job. The site's initial server costs were funded by selling 144 geocaching t-shirts to early community members. Listings grew through word of mouth on outdoor forums and through coverage in early 2000s tech magazines that were hungry for stories about novel uses of the new accurate GPS.
 
+  
+  
+
 ## The device that made it work
 
 The unsung hero of geocaching's first decade was the Garmin eTrex. Garmin had been making professional GPS units for marine and aviation use since 1989 (the company was founded in Lenexa, Kansas in 1989 by Gary Burrell and Min Kao (the company name is a portmanteau of their first names) and later moved to nearby Olathe in 1996). In late 1999 and into 2000 they launched the eTrex, a 5.3-ounce handheld receiver priced at about $120 to $150 depending on the configuration.
@@ -8232,6 +8235,9 @@ If you're old enough to remember TechTV, you remember it the way you remember di
 
 This is the story of a 24-hour cable channel that should have become CNN for nerds and instead became a cautionary tale about what happens when the people running a network do not actually like the people watching it.
 
+  
+  
+
 ## From ZDTV to TechTV: How Ziff-Davis Started a Cable Channel
 
 By the late '90s, Ziff-Davis was the most powerful tech magazine company in the United States. PC Magazine. PC/Computing. MacUser. Computer Shopper, the legendary doorstop of a monthly that you could fracture a toe on if it slid off a desk. The kind of titles you'd see stacked at a Borders (https://404memoryfound.com/posts/who-owns-borders-now-bookstore.html) newsstand thicker than a phonebook.
@@ -8285,6 +8291,9 @@ The channel was not always profitable, and it never had enormous reach. By 2003,
 That was actually fine. The viewership was small but rabid. Forums sprang up around every show. Leo Laporte had email lists with tens of thousands of subscribers. Kevin Rose was building the audience that would eventually become Digg. The audience was the kind of audience that bought magazines, built PCs, and convinced their families to upgrade to broadband. Advertisers like Intel, AMD, NVIDIA, and Logitech understood exactly who was watching.
 
 You could even see the lifestyle creep into the gear getting reviewed on screen. Patrick Norton would unbox a new Garmin eTrex GPS unit on Fresh Gear and walk you through using it. The Screen Savers would do segments comparing the original iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html) against the Creative Nomad Jukebox. Years later, when the Microsoft Zune (https://404memoryfound.com/posts/why-microsoft-zune-actually-failed.html) launched in late 2006, the channel that had been TechTV was already gone, but the heirs to that audience, on G4 and the early podcast networks, gave the Zune the only fair coverage it ever got.
+
+  
+  
 
 This was the audience corporate America did not understand. And in early 2004, corporate America came for it.
 
@@ -8392,6 +8401,9 @@ Over the next six years, three companies would burn through more than $200 milli
 
 This is the story of how three companies tried to do the same thing at the same time, why they all failed for the same reason, and how a quieter operator with less money ended up owning the category.
 
+  
+  
+
 ## The Original: Virtual Vineyards Goes Live
 
 Virtual Vineyards launched in 1995 in Los Altos, California. The company was founded by Robert Olson, who had recently left a job at Silicon Graphics where he had managed a marketing team building software for interactive television, and Peter Granoff, his brother in law and the 15th American to earn the title of Master Sommelier in 1991. They were joined by information architect Harry Max.
@@ -8451,6 +8463,9 @@ In November 2000, the two companies announced a merger. The combined entity woul
 That number was aspirational. The 95 percent assumed that state laws would cooperate. They did not.
 
 The merger closed in 2001. The combined company kept burning cash. Layoffs followed. By spring 2001, the new Wine.com was insolvent.
+
+  
+  
 
 In April 2001, eVineyard stepped in. The Oregon company acquired the Wine.com brand and assets out of bankruptcy. The terms were not disclosed publicly, but eVineyard's leadership made clear that they had not assumed Wine.com's $17 million in liabilities. eVineyard president Larry Gerhard told reporters at the time that they "didn't pay anywhere close to $17 million." Industry coverage described the actual purchase price as a small fraction of the more than $200 million collectively raised by Virtual Vineyards, WineShopper.com, and the original Wine.com.
 
@@ -8552,6 +8567,9 @@ Picture this. It is the autumn of 2000, and you are standing in a Cingular Wirel
 
 Twenty-six years later, that exact same phone is still a meme. Still in drawers. Still in headlines whenever someone drops one and it survives a fall that would have shattered an iPhone into glittering pieces. The Nokia 3310 sold 126 million units, became the punchline of an internet joke that refuses to die, and got resurrected from the grave in 2017 because too many people would not let it go. This is the story of how a small Finnish company built a phone so good it accidentally turned into a cultural symbol, and then watched that exact symbol outlive the company itself.
 
+  
+  
+
 ## Finland in 2000: When Nokia Owned the World
 
 To understand the Nokia 3310, you have to understand what Nokia actually was in the year 2000. This was not some plucky underdog. This was the absolute peak of the company. Nokia held about 30 percent of the global mobile phone market that year, almost twice the share of its nearest competitor Motorola. At its peak, Nokia represented roughly 4 percent of Finland's entire GDP, 21 percent of total Finnish exports, and 70 percent of the market capitalization of the Helsinki stock exchange. Let that sink in for a second. One company. One small Northern European country. The kind of dominance you usually only see in textbook chapters about Standard Oil.
@@ -8613,6 +8631,9 @@ Nokia did what any company would do. They iterated. The 3310 was succeeded by th
 None of them caught on the way the original did. Nokia officially discontinued the 3310 in 2005 after roughly five years on the market, which is an absolutely insane lifespan for a consumer electronics product. By comparison, most phones today have a market life of about 18 months before they are end-of-lifed.
 
 And here is the bigger thing. By 2007, when Apple announced the iPhone, Nokia was still the largest phone maker on Earth. They had something like 50 percent of the smartphone market. They had the supply chain, the carrier deals, the brand recognition, the engineering talent. And they completely failed to see what was coming. Nokia executives reportedly looked at the iPhone and said it was a niche product that would not appeal to mainstream users. Five years later, Nokia's mobile phone division was sold to Microsoft for $7.2 billion. By 2017, Nokia was no longer in the consumer phone business at all.
+
+  
+  
 
 ## The 2017 Resurrection
 
@@ -8752,6 +8773,9 @@ Look, the lesson here is one of the cleanest case studies in the dangers of mism
 ## The Slow Death of NCSA Mosaic
 
 NCSA officially discontinued development of Mosaic in January 1997. The team that had built it was long gone. The market had moved entirely to Netscape and Internet Explorer. The original codebase had been licensed to Spyglass, modified into Internet Explorer, and was about to enter the most consequential antitrust battle in the history of the software industry. Mosaic itself, the program, had become a historical artifact within four years of its initial release.
+
+  
+  
 
 NCSA still maintains a Mosaic archive page on its website. The original FTP server is long gone, but copies of the code float around in the usual places. Running Mosaic in 2026 is technically possible, although you have to either find an old machine, run an emulator, or compile the source against modern libraries. The web it was designed to render is also, in a sense, gone. Modern websites assume CSS, JavaScript, video, fonts, layout engines, and security models that Mosaic was not built to handle.
 
@@ -9597,6 +9621,9 @@ The game was StarCraft. And within two years of its release, it would do somethi
 
 This is the story of how a real-time strategy game built in Irvine, California, accidentally rewired an entire country's culture and invented a new kind of sport.
 
+  
+  
+
 ## The Game That Almost Looked Like Warcraft in Space
 
 Blizzard started working on StarCraft in 1995, right after wrapping up Warcraft II: Tides of Darkness. The original plan was straightforward: take the Warcraft II engine, reskin it with a sci-fi aesthetic, and ship it. Simple enough. When they showed the first build at E3 1996, the reaction was brutal. Journalists called it "Warcraft in Space," and not as a compliment. The game looked derivative, felt clunky, and generated the kind of polite disappointment that kills hype faster than a bad review.
@@ -9636,6 +9663,9 @@ BoxeR wasn't just good at StarCraft. He was entertaining. He pioneered aggressiv
 But BoxeR wasn't alone. The Brood War era produced an incredible roster of legendary players. Lee Young Ho, known as Flash, is widely considered the greatest Brood War player of all time, earning the title "God of StarCraft" for his near-perfect play. Lee Jae Dong, known as Jaedong, was Flash's eternal rival and arguably the greatest Zerg player in history. Hong Jin Ho, known as YellOw, became one of the most popular players despite being famous for his heartbreaking losses in finals.
 
 These players weren't niche internet figures. Flash reportedly earned over $500,000 per year at his peak through tournament winnings, salary, and endorsements. Korean Air, SK Telecom, Samsung, and KT all sponsored professional StarCraft teams. Major Korean corporations were investing real money in competitive gaming years before the rest of the world took esports seriously.
+
+  
+  
 
 ## Why It Worked: The Accidental Brilliance of StarCraft's Design
 
@@ -9763,6 +9793,9 @@ The strange thing about Kodak's decline is that it wasn't sudden. It was a slow,
 In 1991, Kodak developed the Kodak DCS 100, one of the first commercially available digital cameras, in partnership with Nikon. It cost between $20,000 and $25,000 depending on configuration, targeting professional photojournalists rather than consumers. In 1995, Kodak released the DC40, one of the first consumer-oriented digital cameras, at a price point accessible to early-adopter consumers. The company invested heavily in digital imaging research throughout the 1990s and held thousands of patents related to digital photography technology.
 
 So Kodak wasn't ignoring digital. It was hedging. The strategy seemed to be: participate in digital just enough to stay relevant, but never commit so aggressively that it cannibalized the film business. On paper, this looked like prudent corporate strategy. In practice, it meant that Kodak was always two steps behind the companies that had nothing to lose.
+
+  
+  
 
 Canon, Nikon, Sony, and eventually Samsung and the smartphone manufacturers had no legacy film business to protect. They could go all-in on digital without worrying about destroying an existing revenue stream. Kodak could not. Or rather, Kodak chose not to, which amounts to the same thing.
 
@@ -9898,6 +9931,9 @@ Here's the problem with hardware: it doesn't matter how clever your technology i
 The best game on the system, by most accounts, was Wario Land: Virtual Boy. Which is funny because even in 1995, when Wario was still relatively young as a character, the fact that your flagship title was a Wario game instead of a Mario game said something about the console's positioning. This wasn't the main event. This was a spinoff. In some regions, Mario Tennis shipped as the pack-in title, which was fine but also felt like an attempt to create legitimacy through familiar branding rather than through actual innovation.
 
 But here's the thing about the Virtual Boy's software library: it wasn't small because Nintendo couldn't develop games. It was small because developers saw where this was headed almost immediately. You know what it takes to get people excited about buying a console? You need a pipeline of games. You need developers pumped up about the technology. You need momentum. The Virtual Boy had none of that. Even Nintendo's own internal teams seemed confused about what this thing was supposed to be. You could feel it in the software. There was nothing that felt essential, nothing that felt like it could only exist on the Virtual Boy. Everything felt like a demo. Everything felt like a proof of concept. And in the consumer market, proof of concept doesn't translate to sales.
+
+  
+  
 
 ## The Red Monochrome Headache That Wouldn't Go Away
 
@@ -16040,6 +16076,9 @@ By 2005, Google had built a product around this idea. It was called Google Reade
 Then Google killed it. The backlash was enormous, the petitions gathered hundreds of thousands of signatures, and none of it mattered. Google Reader shut down on July 1, 2013, and the way millions of people consumed information on the internet changed permanently.
 
 The question worth asking isn't just why Google killed it. It's what we lost when they did.
+
+  
+  
 
 ## Built in 20% Time, Loved by Millions
 

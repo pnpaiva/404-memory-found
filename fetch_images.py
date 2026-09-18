@@ -138,6 +138,27 @@ def upsized_url(url):
     return re.sub(r"/\d+px-", f"/{MAX_WIDTH}px-", url, count=1) if "/thumb/" in url else url
 
 
+def commons_file_url(filename, width=None):
+    """Ask the Commons API for a file's real URL. Wikimedia puts every file under a directory named
+    after the md5 of its name, so a URL built by pattern instead of by API lookup 404s forever, no
+    matter which width is requested. This repairs those."""
+    width = width or MAX_WIDTH
+    api = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
+           f"&iiprop=url%7Csize%7Cmime&iiurlwidth={width}&titles=File:{quote(unquote(filename))}")
+    try:
+        data = json.loads(fetch(api).decode("utf-8"))
+    except Exception:  # noqa: BLE001
+        return None
+    for page in (data.get("query", {}).get("pages") or {}).values():
+        if "missing" in page:
+            return None
+        for ii in page.get("imageinfo") or []:
+            url = ii.get("thumburl") or ii.get("url")
+            if url:
+                return re.sub(r"^https://thumb\.wikimedia\.org/", "https://upload.wikimedia.org/", url.split("?")[0])
+    return None
+
+
 def process(url):
     name = local_name(url)
     candidates = []
@@ -156,7 +177,20 @@ def process(url):
         except Exception as e:  # noqa: BLE001
             return url, {"status": "error", "error": str(e), "commons": commons_page(url)}
     if data is None:
-        return url, {"status": "missing", "http": getattr(last, "code", None), "commons": commons_page(url)}
+        # every candidate failed: the stored path may have been invented, so resolve the real one by name
+        name = re.sub(r"^\d+px-", "", url.rsplit("/", 1)[-1])
+        real = commons_file_url(name)
+        if real:
+            try:
+                data = fetch(real)
+                print(f"   repaired {name[:52]} -> real Commons URL")
+            except Exception:  # noqa: BLE001
+                data = None
+        if data is None:
+            return url, {"status": "missing", "http": getattr(last, "code", None), "commons": commons_page(url)}
+        info = save_variants(data, local_name(url))
+        info.update({"status": "ok", "commons": commons_page(url), "requested": MAX_WIDTH, "resolved": real})
+        return url, info
     try:
         info = save_variants(data, name)
     except Exception as e:  # noqa: BLE001
@@ -167,6 +201,12 @@ def process(url):
 
 FREE_LICENCES = ("cc0", "cc by", "cc-by", "public domain", "pd", "attribution")
 STOP = {"the", "and", "with", "from", "for", "toy", "photo", "image", "picture", "original"}
+
+
+# Wikimedia Commons is a general media library, so a search for "Feed icon" can return nudity and a
+# search for a brand can return an unrelated person. Anything matching these words is never auto-picked.
+BANNED_IMAGE_WORDS = ("naked", "nude", "nsfw", "topless", "erotic", "porn", "breast", "genital",
+                      "underwear", "lingerie", "bikini", "girls at", "sexy")
 
 
 def commons_lookup(query):
@@ -186,6 +226,8 @@ def commons_lookup(query):
             continue
         hay = (page["title"] + " " + re.sub(r"<[^>]+>", " ", meta.get("ImageDescription", {}).get("value") or "")).lower()
         if all(w in hay for w in words):
+            if any(w in page["title"].lower() for w in BANNED_IMAGE_WORDS):
+                continue
             url = (ii.get("thumburl") or ii.get("url")).split("?")[0]
             return re.sub(r"^https://thumb\.wikimedia\.org/", "https://upload.wikimedia.org/", url), page["title"]
     return None, None
