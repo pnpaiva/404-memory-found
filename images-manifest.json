@@ -2008,6 +2008,16 @@
   "thumb": "/img/thumb/cafe-internet-uninorte-1d3324.jpg",
   "width": 960
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Packard_Bell_EasyNote_TE_%282019%29_24.jpg/960px-Packard_Bell_EasyNote_TE_%282019%29_24.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Packard_Bell_EasyNote_TE_%282019%29_24.jpg",
+  "ext": "jpg",
+  "file": "/img/packard-bell-easynote-te-2019-24-5d91c6.jpg",
+  "height": 2276,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/packard-bell-easynote-te-2019-24-5d91c6.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sega-dreamcast-set.png/960px-Sega-dreamcast-set.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sega-dreamcast-set.png",
   "ext": "png",

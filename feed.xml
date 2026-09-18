@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns Packard Bell Now? Acer Revived the Brand</title>
+      <link>https://404memoryfound.com/posts/packard-bell-computer-brand-today.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/packard-bell-computer-brand-today.html</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>Packard Bell is owned by Acer, which relaunched the dead 1990s PC brand in September 2026 with a 499 euro laptop sold everywhere but the US.</description>
+      <enclosure url="https://404memoryfound.com/pins/packard-bell-computer-brand-today.jpg" length="241725" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/packard-bell-computer-brand-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Business Blunders</category>
+    </item>
     <item>
       <title>How Many Payphones Are Left? The FCC Stopped Counting</title>
       <link>https://404memoryfound.com/posts/payphones-left-united-states.html</link>
@@ -236,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/is-woolworth-still-in-business.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Who Owns Sharper Image Now? No Stores Since 2008</title>
-      <link>https://404memoryfound.com/posts/who-owns-sharper-image-now.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-sharper-image-now.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Sharper Image is owned by ThreeSixty Group, which paid $100 million for the name in December 2016. No stores have existed since the 2008 collapse.</description>
-      <enclosure url="https://404memoryfound.com/pins/who-owns-sharper-image-now.jpg" length="131807" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/who-owns-sharper-image-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
