@@ -6671,169 +6671,90 @@ Yes. The original Sega Channel broadcast ended in 1998 and an adaptor plugged in
 
 ---
 
-# What Happened to HyperCard, the Apple Software That Quietly Invented the Web
+# Is HyperCard Still Around? Apple Killed It in 2004
 
 URL: https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-05-18
+Published: 2026-05-18  Updated: 2026-09-18
 Topics: Software & Apps, Internet Culture, Then vs Now
 
-In 1987, three years before Tim Berners-Lee wrote the first proposal for the World Wide Web, Apple was already shipping a tool that let ordinary users build clickable, multimedia documents and link them together. It came free on every new Macintosh. It was called HyperCard.
+**Summary:** HyperCard is discontinued. Apple shipped it free with every Macintosh from August 1987, moved it to Claris, stopped updating it in 1998 and withdrew it from sale in March 2004 without ever porting it to Mac OS X. In 2026 the program itself is dead, but more than 3,500 HyperCard stacks run inside a web browser through the Internet Archive's Macintosh emulation.
 
-By 1992 it had been used to ship one of the best-selling computer games of all time, prototype consumer airline kiosks, run hospital records systems, build art installations, and teach a generation of kids that a computer was something you could make things with, not just something you bought software for. By 2004 Apple had quietly killed it. The web had won, and HyperCard was archived as the strange thing that came before.
+**Key facts:**
+- Launched: August 11, 1987, Apple Computer, written by Bill Atkinson
+- Price: $49.95 list, bundled free with every new Macintosh
+- Last update: 1998, never ported to Mac OS X
+- Status today: Discontinued March 2004, stacks emulated free at the Internet Archive
+- What replaced it: The web browser, plus LiveCode and SuperCard as direct descendants
 
-The story of HyperCard is the story of what happens when a tool gets the user interface right twenty years before the infrastructure is ready. It's the story of an Apple engineer named Bill Atkinson, a hypertext theorist named Ted Nelson, and a company that didn't quite understand what it had built. And it's the story of a piece of software that quietly seeded the design vocabulary of every web page, every PowerPoint deck, and every mobile app you use.
+## Why did Apple give away a $49.95 program with every Mac?
 
-## The Engineer Who Wanted to Give It Away
+Bill Atkinson, the Apple programmer behind QuickDraw and MacPaint, showed HyperCard at the MacWorld Expo in Boston on August 11, 1987. It listed at $49.95, and Apple bundled it free on every new Macintosh anyway, which was the condition Atkinson attached to handing the program over.
 
-Bill Atkinson was already a legend at Apple by the mid-1980s. He had written QuickDraw, the graphics library that drew everything you saw on the original Macintosh. He had built MacPaint. He had invented the marquee selection tool, the menu bar, and the double-click. If you used a Mac in 1985, you spent most of your time inside code Atkinson had written.
+The pitch was that a teacher, a doctor or a 12 year old could assemble working software out of cards, buttons and fields without ever seeing a compiler. Atkinson described the goal in a 2016 interview quoted by Vice's Motherboard as a way to "give programming abilities to people with a passion, rather than trying to give programmers a passion."
 
-What he wanted to build next was different. Atkinson had become obsessed with the idea of hypertext, the concept that documents could link to each other and to other media, an idea Ted Nelson had been promoting since the 1960s with his Project Xanadu. Atkinson took an acid trip in 1985, came down with what he later described as a vision of a graphical tool for linking ideas, and immediately started prototyping it. The project was called WildCard internally.
+The scripting language underneath was HyperTalk, which read close to English. A button that jumped to another card needed one line. That single design choice turned millions of Mac owners into part time programmers inside a year.
 
-By March 1985 the basic concept was working. By 1986 it had been renamed HyperCard for trademark reasons, and an engineer named Dan Winkler had joined to build HyperTalk, the scripting language that would turn HyperCard from a documentation tool into a programming environment for non-programmers.
+## What did people actually build out of stacks?
 
-Here's where the story gets interesting. Atkinson didn't want to sell HyperCard. He wanted Apple to give it away free with every Mac. He believed the value of the software was in the network effect of millions of users building stacks and sharing them, and the only way to seed that network was to ship it bundled with the hardware. Apple, predictably, balked. They wanted to sell it as a $49.95 product.
+A stack was a file full of cards, and cards linked to other cards. The Internet Archive, which now hosts the largest public pile of them, called the format "the Web-Before-The-Web version of hyperlinks and document reading" in a 2020 post about its emulation work.
 
-Atkinson's response, as he later told the story, was effectively to threaten to walk. He had enough leverage that the bluff worked. Apple agreed to ship HyperCard free with every new Macintosh starting on the day of its launch.
+The range was enormous. The Electronic Whole Earth Catalog, published on CD-ROM in 1989, packed more than 9,000 individual pages and 430 megabytes into HyperCard. Schools shipped chemistry tutors on floppies. Museums ran kiosks on it. Mac user groups traded shareware stacks by mail, and the Berkeley Macintosh Users Group collection alone filled hundreds of megabytes.
 
-Atkinson would give HyperCard to Apple only if the company promised to release it for free on all Macs. That was the deal that made everything that followed possible.HyperCard 1.0 launched on August 11, 1987, at the MacWorld Conference and Expo in Boston. The timing was deliberate. Apple wanted maximum press coverage, and they got it.
+Most of it was amateur work, and that was the point. The Internet Archive's HyperCard Stacks collection holds more than 3,500 examples, from sound samplers and animations to choose-your-own-adventure stories and reference guides built by people who were never paid to write software.
 
-## What HyperCard Actually Was
+## Was Myst really built on it?
 
-If you've never seen HyperCard, the easiest way to describe it is this: imagine PowerPoint, but every shape on the slide is clickable, every click can run a small program, and the program can do almost anything. Each document was called a stack. Each page in the stack was called a card. Cards could contain text, images, sound clips, buttons, and fields. Buttons could be wired up to do things: jump to another card, play a sound, run a script, query a database, dial a modem.
+Yes. Rand and Robyn Miller built the original Myst at Cyan on a modified copy of HyperCard, described by UploadVR in a 2016 interview with Rand Miller as "a card-based slideshow/development program built into early Macs." Each Age of the island was a stack, and the navigation was HyperTalk scripts behind buttons.
 
-The scripting language, HyperTalk, was designed to read like English. A button might contain code that said something like:
+HyperCard was black and white, so the brothers had to add color support themselves. Myst reached the Macintosh in 1993 and became the best selling PC game of the decade, which means the top selling title of the 1990s was authored in a tool Apple gave away for free.
 
-on mouseUp
+Cyan's earlier children's titles, including The Manhole, came out of the same workflow. So did prototypes of business software, hospital record systems and airline kiosks that never carried a HyperCard credit on the box.
 
-  go to card "Contents"
+## Why did Apple let it die?
 
-  play "chime"
+The damage started with ownership. Apple moved HyperCard to its Claris software subsidiary, which tried to sell it as a product instead of bundling it, and Engadget's 2007 retrospective marks that handoff as the moment the momentum broke. Apple took the program back in 1993, and by then the free copy on every Mac was gone.
 
-end mouseUp
+A version that could have saved it existed. HyperCard 3.0 was demonstrated at Apple's developer conference in 1996 with the ability to show stacks inside a web browser. It never shipped. The last real update landed in 1998, and the program was folded in under the QuickTime group.
 
-That's it. That's the program. A kid who had never written a line of code could read that and understand it. And critically, a kid who had never written a line of code could also write it. The barrier between user and programmer dissolved in a way that has, frankly, not really been recreated since.
+Then came the company's own survival fight. Apple was cutting everything that did not sell hardware in the years it came within weeks of running out of money (https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html), and the rebuilt company that followed the iMac G3 turnaround (https://404memoryfound.com/posts/how-imac-g3-saved-apple-killed-beige-box.html) never ported HyperCard to Mac OS X. Apple pulled it from sale in March 2004 without a press release.
 
-Stacks could be saved as files and shared. By the late 1980s there was a thriving culture of HyperCard stack distribution: shareware authors selling stacks for $20 on bulletin board systems, schools distributing custom educational stacks on floppy disks, museums building interactive exhibits with stacks running on Mac kiosks. The Internet Archive estimates that hundreds of thousands of stacks were in circulation by the end of the 1980s, traded on floppies and over university networks.
+## How much of HyperCard is still running inside the modern web?
 
-## Myst Was a HyperCard Stack
+More than Apple ever admitted. The original 1989 proposal for the World Wide Web cites HyperCard by name as prior art, and Robert Cailliau, who co-wrote the proposal with Tim Berners-Lee, worked from it directly. What HyperCard lacked was a network. Its links pointed at cards on one hard drive, so the first real hypertext network arrived instead through the Mosaic browser in 1993 (https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html).
 
-The killer app for HyperCard wasn't a productivity tool. It was a video game.
+The scripting side spread further. Brendan Eich has credited HyperTalk among the influences on JavaScript, and Ward Cunningham traced the wiki back to a HyperCard stack he built in the late 1980s to link ideas, people and projects. Every page you edit on Wikipedia descends from that stack.
 
-In 1991 two brothers in Spokane, Washington, Rand and Robyn Miller, were building children's educational software through their tiny company Cyan. Their early titles were HyperCard stacks distributed on floppy disks. They had a small but devoted audience.
+Direct descendants are still commercial products. SuperCard and LiveCode both grew out of the HyperCard idea and both still sell, three decades after Apple stopped caring.
 
-The Millers decided their next project would be more ambitious. It would be an exploration game for adults, set on a mysterious island, with no instructions, no inventory, no death. Players would simply look around, click on things, and try to figure out what was happening. The game would be built entirely in HyperCard, with pre-rendered 3D imagery and QuickTime video clips triggered by clicks on specific spots on each card.
+## How do you open a HyperCard stack in 2026?
 
-The game was Myst. It took the Miller brothers roughly two years to build. It shipped in September 1993 on CD-ROM, which was still a relatively new medium for consumer software. Myst became the best-selling PC game of the 1990s, holding that title until The Sims (https://404memoryfound.com/posts/original-sims-best-selling-pc-game.html) overtook it in 2002. It sold over six million copies. It spawned a franchise, a series of novels, and a cultural moment that defined what CD-ROM gaming could be.
+The easiest route costs nothing and takes about a minute. The Internet Archive runs emulated Macintosh systems inside a web browser, so the 3,500 stacks in its HyperCard collection boot in a tab with no install, no Apple hardware and no license. The Electronic Whole Earth Catalog runs the same way, though the browser downloads all 430 megabytes of the disc first.
 
-And it was a HyperCard stack. The original Mac version of Myst ran inside HyperCard, with HyperTalk scripts driving every transition and every puzzle. Without Atkinson's tool, Myst as it existed simply could not have been made by two brothers in a basement in Spokane.
+For anything not already uploaded there, the standard method is a vintage Macintosh emulator running System 7 with a copy of HyperCard, which is how preservation projects handle stacks that need a full operating system around them. Mac owners with a pile of old floppies usually go this way.
 
-## How HyperCard Influenced the Web
-
-This is the part of the story that gets glossed over in most histories of the internet, because the relationship is indirect, but it's worth slowing down on.
-
-Tim Berners-Lee wrote his first proposal for what became the World Wide Web in March 1989, while working at CERN in Switzerland. The proposal was for a hypertext system that would let researchers link documents across the institution's network. Berners-Lee was familiar with prior hypertext systems, including HyperCard, although his proposal cited a different system called ENQUIRE that he had built earlier.
-
-The conceptual debt is hard to miss, however. The idea of clickable hot regions in a document. The idea of links that jump to other documents. The idea that anyone, not just programmers, should be able to author hypertext. All of this was in the air in 1989, and a lot of it was in HyperCard on every Mac in every research lab.
-
-The more direct lineage runs through JavaScript. Brendan Eich, who designed JavaScript at Netscape (https://404memoryfound.com/posts/is-netscape-still-around.html) in May 1995 in roughly ten days, has cited HyperTalk as a direct inspiration for the language's event-driven model. Look at a JavaScript event handler today:
-
-button.addEventListener('click', function() { ... });
-
-That is, structurally, a HyperTalk "on mouseUp" handler with different syntax. The whole pattern of "thing happens, run this code" came directly out of HyperCard into the web.
-
-The same is true of the multimedia document metaphor that dominates web design. A web page is a card. A site is a stack. Links jump between cards. Buttons trigger actions. The vocabulary you use to design a website today is the vocabulary HyperCard formalized in 1987.
-
-## The Problem Was the Network
-
-Here's the thing. HyperCard could not have become the web. It had one fatal limitation that nobody could have predicted in 1987 because the thing that exposed the limitation didn't exist yet.
-
-HyperCard stacks were files. They lived on disks. If you wanted to share a stack with someone, you mailed them a floppy. Or you uploaded it to a BBS and they downloaded it. There was no concept of a stack that lived on a server and was rendered on demand by a client. There was no concept of a stack that could link to another stack on a different computer somewhere else in the world. HyperCard's hypertext was local.
-
-The web's killer move, the one HyperCard never had, was the universal addressing scheme. The URL. The idea that any document anywhere could be referenced by a string of text and fetched on demand. That single insight is what made the web a global network and HyperCard a local tool.
-
-By 1993 the web was emerging. Mosaic, the first popular graphical web browser, launched that year, and it took the multimedia interactive document metaphor HyperCard had pioneered and bolted it onto a global network. Suddenly the thing HyperCard had been doing on your hard drive could be done on a server in Switzerland and read from a workstation in California.
-
-The race was over almost before HyperCard knew it had been entered. Web pages exploded. HTML, a simpler markup language with worse interactivity but unlimited reach, became the medium. HyperCard, which had been a candle in the dark, got blown out by sunrise.
-
-## The Stack Economy Nobody Remembers
-
-One detail that history has largely forgotten is how much commerce flowed through HyperCard in its peak years. By 1990 there was a thriving secondary market for stacks. Shareware authors sold productivity stacks for $20 to $50 a copy through user groups and bulletin board systems. Companies like Voyager Company produced commercial stacks on CD-ROM that taught music history, walked you through Beethoven's Ninth Symphony, or explored the photographs of Ansel Adams. These were not toys. They were professional reference works, and they sold.
-
-The 1989 Beethoven's Ninth Symphony CD-ROM, annotated by UCLA music instructor Robert Winter and published by Voyager, was widely cited as one of the first titles that proved CD-ROM could be a serious educational medium. It was built in HyperCard, with custom audio XCMDs used to drive a standard audio CD in the player. The interactive interface, the navigation, the audio synchronization, all of it ran on Atkinson's tool.
-
-Universities used HyperCard for everything from course materials to research databases. The Smithsonian used it for kiosks. Air carriers used it to prototype check-in interfaces. Hospitals built patient record systems on it. The thing was so general that nobody quite knew how to categorize it, which was part of the problem when Apple tried to figure out how to market the product later.
-
-## The Marketing Identity Crisis
-
-Look at how Apple positioned HyperCard over its life and you can see the company struggling to figure out what to call it. The 1987 launch materials described it as an "information construction kit." Later marketing called it a "software erector set." Later still it became a "multimedia authoring environment." The product never settled into a category that mainstream buyers understood, because the truth was that HyperCard didn't fit any existing category.
-
-That ambiguity hurt sales when Apple started charging for it. People knew what a word processor was. They knew what a spreadsheet was. They didn't know what a "hypermedia authoring tool" was, and they weren't sure they needed one. The early '90s spreadsheet and word processor wars between Microsoft and Lotus and WordPerfect (https://404memoryfound.com/posts/what-happened-to-wordperfect-word-processor.html) were comprehensible categories with clear competitors. HyperCard was a category of one, which sounds like an advantage but in practice meant Apple was educating the market rather than fighting for it.
-
-This is the part where it's worth quoting Atkinson directly. In a 2002 interview with Wired's Leander Kahney, Atkinson said he regretted not figuring out the network piece himself. "I have realized over time that I missed the mark with HyperCard," he said. "I grew up in a box-centric culture at Apple. If I'd grown up in a network-centric culture, like Sun, HyperCard might have been the first web browser." The honesty of that admission is striking, and it captures the limitation cleanly. HyperCard was built for a world where computers were islands. The web was built for a world where they were not.
-
-## Apple Stopped Caring
-
-The internal collapse of HyperCard at Apple is its own small tragedy. By the early 1990s, Apple had repeatedly tried to reposition the tool. They moved it from the Apple Personal Software division to Claris, the spin-off subsidiary that sold business software like FileMaker and ClarisWorks. Claris started charging for HyperCard, breaking Atkinson's original promise of free distribution with every Mac. Sales fell. The product languished.
-
-By the mid-1990s Apple itself was in crisis. The company was losing money. Internal projects were getting cut. HyperCard, which had no clear path to revenue and no champion left at the executive level, was an obvious target. Updates slowed to a trickle. The last major update, HyperCard 2.4, shipped in 1998.
-
-Steve Jobs returned to Apple that same year and started ruthlessly cutting product lines. He killed the Newton. He killed OpenDoc. He killed dozens of side projects to focus the company on the iMac and what would eventually become Mac OS X.
-
-HyperCard didn't get killed outright, but it didn't get ported to Mac OS X either. When Apple transitioned from Mac OS 9 to Mac OS X in 2001, HyperCard was left behind. It still ran in the Classic compatibility layer, but it was clearly on its way out. Apple formally discontinued HyperCard in March 2004, twenty seven years after launch. Atkinson, in interviews after the fact, expressed sadness more than anger. He believed HyperCard could have evolved into something like Flash or even something like a native web authoring tool, but Apple never made that investment.
-
-## What HyperCard Tells Us
-
-The real question isn't why HyperCard died. It's why nothing has really replaced it.
-
-Think about what HyperCard offered: a tool that let anyone with a computer build a working interactive multimedia document and share it with anyone else. No coding bootcamp required. No npm install. No deployment pipeline. You opened HyperCard, you dragged buttons onto a card, you typed three lines of English-like script, and you had a working program.
-
-The closest modern analogs are things like Notion, Airtable, and the various no-code platforms that have emerged in the last decade. They share HyperCard's core insight: that the right user interface can collapse the distance between user and programmer. But they all require you to be online, to have an account, to trust a company to keep your data alive. HyperCard ran on your machine. Your stacks were yours.
-
-HyperCard slowly fell by the wayside to the growing World Wide Web. The web was bigger, more accessible, and infinitely more shareable. But it was also, in some ways, a step backward in expressiveness for the average user.This is the part where the analysis starts to break down for me a little, because there's a real argument that we lost something when HyperCard died. The early web had "View Source." Anyone could see how a page was built. That feature is largely gone now, replaced by minified JavaScript and React component trees and build pipelines that mean you can't really see how anything is made anymore. HyperCard, by design, was always inspectable. You could click on a button, hit Edit, and see the script. The tool wanted you to learn it.
-
-The numbers tell the story of an arc. Hundreds of thousands of stacks circulated in the late 1980s. Myst sold over six million copies. By the early 2000s, HyperCard had effectively been abandoned. As of 2026, it is studied as historical software, preserved by the Internet Archive, and emulated by hobbyist projects. There is no commercial successor.
-
-The lesson, if there is one, is that the medium can outlive the tool. HyperCard the product is gone. The interaction model it pioneered, which is to say the model of building interactive multimedia by laying out clickable regions and wiring them to scripts, is the model that runs the entire web. Apple gave it away free for a decade and got, in return, an entire industry that learned how to think in HyperCard's vocabulary without ever knowing where the vocabulary came from.
+The third option is a rebuild. ViperCard, an open source recreation of the 1987 program by Ben Fisher, runs at vipercard.net and lets anyone make new stacks in HyperTalk in a browser. It is not the same software, but it answers the same question HyperCard answered in 1987, which is what a person with an idea and no programming training is supposed to do next.
 
 ## Frequently Asked Questions
 
-When did HyperCard launch?
+### Is HyperCard still available from Apple?
 
-HyperCard 1.0 was released on August 11, 1987, at the MacWorld Conference and Expo in Boston. It was bundled free with every new Macintosh.
+No. Apple withdrew HyperCard from sale in March 2004 and never ported it to Mac OS X, so it will not run natively on any Mac sold since. Its final significant update was released in 1998.
 
-Who created HyperCard?
+### What games were made with HyperCard?
 
-HyperCard was created by Bill Atkinson, the same Apple engineer who built QuickDraw, MacPaint, and many of the original Macintosh user interface elements. Dan Winkler designed HyperTalk, the scripting language.
+The original Myst, released for the Macintosh in 1993, was built on a modified version of HyperCard by Rand and Robyn Miller at Cyan, along with their earlier title The Manhole. Thousands of smaller adventure and puzzle stacks were traded through Mac user groups in the same era.
 
-How much did HyperCard cost?
+### Can you still run old HyperCard stacks today?
 
-Initially, nothing. Atkinson negotiated with Apple to distribute it free with every new Mac. Later, when Apple moved the product to its Claris subsidiary, retail copies were sold at prices around $49.95 to $199 depending on the version. The free bundling stopped in the early 1990s.
+Yes. The Internet Archive emulates classic Macintosh systems in a web browser and hosts more than 3,500 HyperCard stacks that run without any download or Apple hardware. Stacks that are not in that collection can be opened in a vintage Mac emulator running System 7.
 
-Was Myst really built in HyperCard?
-
-Yes. The original Macintosh version of Myst, released by Cyan in September 1993, was a HyperCard stack with HyperTalk scripts and QuickTime media. It went on to become the best-selling PC game of the 1990s with over six million copies sold.
-
-When did Apple discontinue HyperCard?
-
-HyperCard was officially withdrawn from sale by Apple in March 2004. The final substantive update, HyperCard 2.4, had shipped in 1998. It was never ported to Mac OS X.
-
-What was HyperTalk?
-
-HyperTalk was HyperCard's scripting language, designed to read like plain English. Scripts attached to buttons, fields, or cards could trigger actions when events like mouseUp or mouseDown fired. Brendan Eich, the creator of JavaScript, has cited HyperTalk as an inspiration.
-
-Did HyperCard influence the World Wide Web?
-
-Yes, although indirectly. HyperCard popularized the clickable hypertext document metaphor that became the foundation of web design, and its event-driven scripting model directly influenced JavaScript. Some accounts also credit it with influencing Robert Cailliau, who worked alongside Tim Berners-Lee on the early web at CERN.
-
-Can you still run HyperCard today?
-
-Not natively on modern Macs. HyperCard was a Classic Mac OS application and does not run on modern macOS. The Internet Archive has built a browser-based emulator that lets users explore archived stacks, and some hobbyist tools like Stacksmith and Decker attempt to recreate the HyperCard authoring experience for modern systems.
-
-What is the legacy of HyperCard?
-
-HyperCard's design vocabulary, including the card metaphor, clickable regions, and event-driven scripting, underpins the modern web, mobile apps, and presentation software. Its broader cultural legacy is the idea that ordinary users should be able to build interactive software without being programmers. That idea is alive in the no-code and low-code platforms that dominate consumer software development today.
-
+**Sources:**
+- Internet Archive Blogs, The Whole Earth on CD-ROM, in HyperCard, in your browser (2020): https://blog.archive.org/2020/07/08/the-whole-earth-on-cd-rom-in-hypercard-in-your-browser/
+- Engadget, HyperCard's history (2007): https://www.engadget.com/2007-07-24-hypercards-history.html
+- Vice Motherboard, Someone Recreated HyperCard, Apple's 80s Programming Tool: https://vice.com/en/article/59jg73/vipercard-recreated-hypercard-apple-80s-acid
+- UploadVR, Cyan's Rand Miller on Myst and Obduction (2016): https://www.uploadvr.com/cyan-worlds-rand-miller-myst-obduction-interview/
+- Wikipedia, HyperCard: https://en.wikipedia.org/wiki/HyperCard
 
 ---
 
@@ -6938,123 +6859,102 @@ No. The Saturn, which reached US stores on May 11, 1995 at $399, was a full 32-b
 
 ---
 
-# The First Banner Ad: How One Click on October 27, 1994 Built the Modern Web
+# The First Banner Ad of 1994: What AT&T Really Paid
 
 URL: https://404memoryfound.com/posts/first-banner-ad-hotwired-1994-history.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-05-13
-Topics: Internet Culture, Business Blunders, Then vs Now
+Published: 2026-05-13  Updated: 2026-09-18
+Topics: Internet Culture, Then vs Now
 
-In October 1994, an AT&T banner ad on the homepage of a new website called HotWired had a click-through rate of 44 percent. Today, the average banner ad on the open web has a click-through rate of less than 0.1 percent. That ratio, the rise and fall of a single advertising format by a factor of more than four hundred, is the story of the modern web.
+**Summary:** The first banner ad appeared on HotWired on October 27, 1994, one of about a dozen that launched with the site, and AT&T paid roughly $30,000 for a 12 week sponsorship. Reports put its click-through rate near 44 percent, a level no display ad has touched since. Banner advertising grew into the $81.6 billion US display business that IAB and PwC counted for 2025, where the average click rate now sits under half a percent.
 
-The first banner ad ran on October 27, 1994, the day HotWired launched. It was 468 pixels wide, 60 pixels tall, and asked the reader a single question: "Have you ever clicked your mouse right HERE?" An arrow pointed to a second line of text that said, "YOU WILL." Clicking the banner did not take the user to a product page. It took them to a static page hosted by AT&T that displayed a virtual tour of seven art museums around the world. There was no shopping cart. There was no form. There was barely any product. The thing the user had just clicked on was, by any modern standard, a brand awareness exercise built by people who had never run an internet ad before, because nobody had.
+**Key facts:**
+- Launched: October 27, 1994, on HotWired
+- Advertiser: AT&T, using its "You Will" tagline
+- Price: About $30,000 for a 12 week sponsorship
+- Click rate then and now: Reported 44 percent in 1994, 0.46 percent on the Google Display Network in 2025
+- Status today: US display advertising worth $81.6 billion in 2025 (IAB and PwC)
 
-The interesting thing is not the click-through number. The interesting thing is that twelve brands paid for ads that day. AT&T, MCI, Volvo, Club Med, 1-800-Collect, Sprint, IBM, and Zima, among others, were the launch sponsors. The standard contract was approximately $10,000 a month per section, a price modeled on what a one-page color ad in print Wired magazine cost at the time. That is the first thing to notice. The first banner ad was not priced based on data, because there was no data. It was priced based on what print advertising cost.
+## Who actually built the AT&T banner?
 
-Look. The banner ad was not invented as a digital innovation. It was invented as a translation: a way to take what advertisers already understood, page-based display advertising, and put it on a screen.Everything that followed, the entire programmatic ad ecosystem, the click-through tracking, the cookies, the retargeting, the IAB standards, DoubleClick, AdSense, the rise of Google as the most valuable advertising company in history, came from a series of decisions made in a small office in San Francisco between January and October of 1994. The people making those decisions did not think they were inventing an industry. They thought they were finding a way to pay HotWired's rent.
+The banner came out of Modem Media, the Connecticut agency AT&T used for its early interactive work. Creative director Joe McCambley led it, and Craig Kanarick, who later co-founded Razorfish, handled the build.
 
-## The Context: Wired Magazine in 1993
+The credits on thefirstbannerad.com, the project site the team published on October 27, 2014, also list Otto Timmons of TANGENT Design on the creative team, Brent Hood and Dave Evant on production, and Bill Clausen as the AT&T client partner.
 
-To understand the first banner ad you have to understand HotWired. To understand HotWired you have to understand Wired magazine. Wired launched in January 1993, founded by Louis Rossetto and Jane Metcalfe. It was glossy, expensive to produce, and aggressively designed in a way that felt new even in a moment of strong design competition from magazines like Ray Gun and Emigre. The Rolling Stone of the digital revolution, the press called it. The magazine was profitable within its first year. It was widely seen as the publication for the educated, the technical, and the well-paid in a moment when those three things were starting to overlap into a single demographic.
+Nobody on the job had made an internet ad before, because there were none to copy. They were designing for Netscape Navigator (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html) and Mosaic on small screens, with no color standard, no agreed size, and no way to know where on the page the thing would land.
 
-By late 1993, Rossetto and Andrew Anker, then Wired's chief financial officer, had begun talking about a web extension of the magazine. Not a digital version of the print magazine. A separate publication, native to the web, that would do reporting and design specifically for browsers. Anker would leave the CFO role and become HotWired's CEO. The plan was to launch in 1994, monetized through advertising. The decision to go ad-supported, rather than subscription-based, was the first commercial decision that mattered. It was also the decision that set off the entire chain.
+That same project site is blunt about the mythology it helped build. "No, it wasn't the 'first' as there were a handful of other ads that ran on various sections of hotwired.com," the 2014 page says.
 
-Here is the thing about 1993. There were maybe a few hundred commercial websites in existence. Most of the web was university and government. The total population of people using web browsers regularly was estimated in the low millions globally, with most of them in academia. Mosaic 1.0 had launched in March 1993. Netscape (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html) Navigator, the browser that would actually carry HotWired into the mainstream, would not launch its first commercial version until December 1994. The reader base HotWired was targeting was, when the planning began, theoretical.
+## What did the banner say, and where did the click land?
 
-## The Decision to Sell Display Ads
+The copy was one line, "Have you ever clicked your mouse right HERE?", with an arrow pointing to the answer, "YOU WILL." It borrowed the tagline from AT&T's "You Will" television campaign, which was already promising videoconferencing and tablets on network TV.
 
-The case against advertising on the web in 1994 was widely held. Howard Rheingold, who joined HotWired as one of its first executive editors and later left in part over editorial conflicts, was on record as skeptical of ad-supported content. The early online activist community was, as a whole, allergic to commercial advertising. The Cluetrain Manifesto, the famous tech-utopian document arguing that markets are conversations, was still five years in the future, but its mood was already strong in the air. Rossetto himself, recalling the moment in later interviews, said that critics had told him advertisements would make the internet "throw up." He thought the opposition was ridiculous.
+Clicking it did not open a product page or a form. It opened a hand built directory of virtual museum tours, including the Louvre, the Andy Warhol Museum and the Library of Congress, as the Internet History Podcast oral history recorded in 2014.
 
-The case for advertising was simpler. The magazine cost money. Selling subscriptions in 1994 to a website would mean asking users to either send a check or, somehow, transmit a credit card number over a network with no widely adopted encryption layer. Secure Sockets Layer, SSL, would not arrive in Netscape Navigator until February 1995. There was no PayPal. There was no Stripe. There was barely a browser cookie. The only known business model that worked at scale, on any media, was advertising.
+Accounts of the size disagree. The team designed to roughly 468 by 60 pixels, Digiday's 2017 oral history describes the rendered banner as 476 by 56, and the Internet History Podcast puts it at 546 by 56 once browsers added their own borders.
 
-So Andrew Anker and his commercial team made the call. HotWired would sell sponsorships. They would invent a unit. They would charge for it. They had a few months to figure out what the unit was.
+What mattered was the deal underneath. AT&T was buying a placement, not clicks, and HotWired made no promises about traffic.
 
-## Inventing the Banner
+## Was the 44 percent click-through rate real?
 
-The dimensions of the original banner, 468 by 60 pixels, were chosen mostly to fit at the top of a page rendered in Netscape on a 13-inch monitor, the dominant display of the era. Larger and it would push content too far down on the screen. Smaller and there would not be enough room for legible copy. The aspect ratio was an arithmetic compromise. By happy accident, it would become the standard banner size on the web for almost a decade. The Internet Advertising Bureau, when it was founded in 1996, codified the 468-by-60 banner as the industry's primary unit. Designers who had never heard of HotWired would design ads to that size into the early 2000s.
+Close to it, yes, though nobody audited the number the way a 2026 campaign is audited. HotWired sold the AT&T placement as a 12 week sponsorship for about $30,000, roughly $10,000 a month, priced against print magazine page rates, and the banner stayed live for around ten months.
 
-The creative work for the first sponsor wave came from various agencies. The AT&T "You Will" campaign was already running on television and in print. AT&T's television ads, narrated by Tom Selleck, asked questions like "Have you ever borrowed a book from thousands of miles away? You will" and "Have you ever sent someone a fax from the beach? You will." The campaign was directed by David Fincher of the famous "Madonna Express Yourself" video and later Fight Club. The television campaign had been running since 1993. Translating it to a banner ad was, on paper, the easy part. The agency credited with the banner work was Modem Media, a Westport, Connecticut firm. The creative director on the project, Joe McCambley, would later speak about the project in oral histories.
+The people in the room remembered a range rather than one figure. Rick Boyce, who ran ad sales at HotWired, described "click-through rates as high as 50%, maybe even higher" in the Internet History Podcast oral history in 2014.
 
-Here's the thing. McCambley has been clear in interviews that the team did not know what they were inventing. They thought they were buying space on a niche website. They expected almost nobody to click.What they got was a 44 percent click-through rate over the campaign's run. To put that in context, modern banner ads on display networks routinely deliver click-through rates below 0.1 percent. The first banner outperformed the average modern banner by a factor of more than four hundred. The reason is not that the creative was magic. The reason is that almost nobody on the web in October 1994 had ever seen a banner ad before, almost everyone visiting HotWired in October 1994 was technically literate, and the surrounding content was scarce enough that the ad was actually one of the more interesting things on the page.
+The 44 percent figure is the one that stuck in the retrospectives. Andrew Anker, HotWired's first chief executive, gave the sharper benchmark for the era in the same 2014 oral history: "if someone's click-through rates fell below 2%, we knew the banner wasn't good."
 
-## What Was on the Other Side of the Click
+A 2 percent floor in 1995 is more than four times what an average display ad returns in 2026.
 
-Here is where the story gets genuinely strange. The AT&T banner did not go to a sales page. It went to a static landing page that hosted a virtual tour of seven international art museums. The tour was a series of images, hosted by AT&T, of museum exhibits with brief text descriptions. There was no call to action. There was no phone number. There was no order form. The implicit pitch was that AT&T was the company that connected you to the world, and look at all this world you could see when you were connected.
+## How fast did banners spread across the web?
 
-It was, by modern standards, an absurd return on a click. By 1994 standards, it was actually a reasonable execution of a brand-awareness budget. AT&T's marketing organization at the time was operating from a print and television playbook. They believed in repeated brand impressions and prestige association. The art museum tour fit that playbook exactly. It was a beautiful, untracked, unmeasurable brand experience that could be summarized in one slide of a board presentation: AT&T sponsors culture on the new digital frontier.
+Inside a year, everywhere. CNET ran its first banner in June 1995, Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html) and Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html) launched advertising through the spring and summer of that year, and Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) started selling ads in November 1995, according to the 2014 Internet History Podcast oral history.
 
-The team that built it was not thinking about funnel optimization. They were thinking about whether the page would load in under thirty seconds on a 14.4 kilobit modem.
+About a dozen advertisers had shared HotWired's launch day on October 27, 1994, among them MCI, Volvo, Club Med, Sprint, IBM and Zima. By 1996 the banner was simply how a website paid for itself.
 
-## The Knock-On Effect: How One Format Built the Web's Economy
+The people who made it did not see that coming. "I didn't think it was the beginning of a giant industry," Jonathan Nelson, co-founder of the agency Organic, told Digiday in 2017.
 
-Within two years of HotWired's launch, banner ads had spread to almost every commercial website. Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), which incorporated in March 1995, sold banner ads as its primary revenue source. Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html), Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), Infoseek, and every search portal of the era followed. In 1995, the total internet advertising market in the United States was estimated at $54.7 million by the IAB. By 1997, that number was $906.5 million. By 1999, it had passed $4.6 billion. The annualized growth rates were higher than almost any other category of advertising in the postwar era.
+The fight inside Wired had been louder than the launch. "People told us if you put ads online, the internet would throw up on us," Wired co-founder Louis Rossetto told Digiday in 2017.
 
-The economic logic that powered all of that growth came from the banner ad format. Pages had spaces for banners. Advertisers paid per impression, denominated in dollars per thousand views, the CPM, a measurement borrowed directly from print. The IAB standardized formats. Ad networks, companies like DoubleClick, founded in 1995, emerged to broker between publishers and advertisers. DoubleClick would, a little over a decade later in April 2007, be sold to Google for $3.1 billion in cash, becoming the foundation of Google's display advertising business and, by extension, the foundation of the modern web's economy.
+## What is a banner click worth in 2026?
 
-This is essentially the trajectory of every consumer technology pattern. An expedient choice gets made under deadline pressure. A standard accretes around it. A market organizes itself around the standard. A few players consolidate the market. A trillion dollar industry emerges from a 468-by-60-pixel rectangle that originally existed to pay the rent on a small office on Third Street in San Francisco.
+Display advertising did not die. IAB and PwC put US display revenue at $81.6 billion for full year 2025, up 9.8 percent and worth 27.7 percent of all digital media spend, inside a $294.6 billion internet advertising market, in the report published in April 2026.
 
-## The Technical Setup: What HotWired Actually Looked Like
+What changed is what the money buys. "This revenue growth reflects a market that has reoriented around performance channels," IAB chief executive David Cohen said in that 2026 release. Search took $114.2 billion of the 2025 total and video took $78 billion.
 
-The HotWired homepage on launch day was hosted on a Sun SPARCstation running a custom CGI-based publishing system. The site loaded over HTTP 1.0. Pages were authored mostly by hand in HTML 2.0. There was no JavaScript on the launch site, because JavaScript would not exist as a language until December 1995, when Brendan Eich shipped it inside Netscape Navigator 2.0. There were no cookies on the launch site, because cookies as a concept would not appear in the browser until the Netscape implementation in October 1994, the same month HotWired went live. The site that invented the banner ad was, in technical terms, almost entirely static and almost entirely untrackable.
+The click itself is now a rounding error. Focus Digital's December 2025 benchmark study put the average Google Display Network click-through rate at 0.46 percent, ranging from 1.08 percent in real estate to 0.22 percent in B2B services.
 
-The banner unit itself was a GIF image, animated in some cases, served from a directory on the HotWired server. There was no ad server in the modern sense. Clicks were counted by configuring the server logs to record which referrers were arriving at the AT&T museum tour, and those numbers were reconciled monthly. The 44 percent click-through rate is an aggregate over the campaign window, not a real-time number anyone watched on a dashboard, because the concept of a real-time advertising dashboard would not exist for another five years.
+At 0.46 percent, matching the 44 percent of 1994 would take roughly 96 times the impressions.
 
-The implication is small but important. The first banner ad was not optimized. It was not A-B tested. It was not targeted. It was a static piece of creative shown to every visitor, with success measured after the fact. Almost every layer of complexity that modern digital advertising adds to the basic act of placing an image on a page came after October 1994. The original banner is the bedrock, and almost nothing in the modern stack was present at the start.
+## Why the 1994 number can never come back
 
-## What HotWired Got Wrong
+That rate measured novelty, not intent. HotWired's readers in October 1994 were people who had gone to real trouble to find a website at all, and a rectangle that answered a mouse click was itself the thing being demonstrated.
 
-HotWired itself never figured out how to make the math work. The site was sold to Lycos in 1998. The original Wired empire, including the magazine and the digital arm, was carved up across multiple owners through the late 1990s. The HotWired brand was retired in 1999. By 2000, the URL redirected to Wired Digital. The website that invented the banner ad survived less than five years as a meaningful media property.
+Three forces then ground the number down. Volume, as pages filled with banners and readers learned to skip the top 60 pixels. Measurement, as advertisers moved from paying for placements to paying for clicks and conversions. And the auction, which pulled budgets toward search results and later toward feeds, where the user had already said what they wanted.
 
-The deeper reason HotWired died is the same reason a lot of first-mover web publishers died. They were selling a unit, the banner ad, that was easy to copy. By 1997, every magazine on the web had a banner inventory. The premium HotWired had charged on the basis of being first vanished as the supply of inventory caught up to and then dramatically exceeded demand. CPMs fell. The economics that had worked at twelve sponsors paying $10,000 a month did not work when there were ten thousand sites offering similar units.
+Ad blocking finished the job on a large share of desktop screens, and the dot com crash of 2000 and 2001 wiped out the companies that had bought banners hardest, Pets.com (https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html) among them.
 
-This is essentially the same trajectory that newspapers would face online a decade later: a desirable, scarce inventory format becomes commoditized as the supply expands faster than the demand. The publishers who invented the unit captured almost none of the long-term value.
+The AT&T banner still works as a demonstration. It just cannot be run again.
 
-## The Modern Echo
+## Frequently Asked Questions
 
-The 44 percent click-through rate on the first banner ad is the number that should anchor the modern story. Not because anyone could ever reproduce it. Because the reason it was that high in 1994 is the same reason banner ads are dying in 2026: the click was a measure of novelty. When the format was new and rare, attention was high. When the format became standard and saturated, attention collapsed. The format itself did not change. The environment around it changed.
+### What was the first banner ad on the internet?
 
-Banner blindness, the phenomenon of users learning to ignore ad-sized boxes in fixed positions on a webpage, was documented by usability researcher Jakob Nielsen in 1997, only three years after the format was invented. By 1999, click-through rates on display ads had fallen below 1 percent on most websites. By 2010, they were under 0.1 percent. The format never recovered. The industry instead built around the format with retargeting, behavioral data, programmatic auctions, native ad units, and eventually the surveillance infrastructure that would define the 2010s tech debate.
+The first banner ads ran on HotWired, Wired magazine's website, on October 27, 1994. The best remembered is AT&T's, which read "Have you ever clicked your mouse right HERE?" and led to a page of virtual museum tours. About a dozen advertisers launched alongside it that day.
 
-The real question is what the first banner ad's path tells us about every new advertising format that has come since. TikTok's For You feed in 2020 delivered something like 80 percent of users actively engaging with sponsored content because the ads were novel and well-targeted. Within three years, advertiser saturation pulled those engagement numbers down. Instagram's branded content saw the same arc. Newsletter sponsorships, which experienced a renaissance in the early 2020s as desktop browser ads collapsed, are showing the same early signs of fatigue in 2026. The pattern repeats: novelty creates engagement, saturation kills it, the format becomes a commodity, the platforms move on.
+### How much did AT&T pay for the 1994 HotWired banner ad?
 
-## What the People Who Built It Say Now
+AT&T bought a 12 week sponsorship on HotWired for about $30,000, roughly $10,000 a month, and the banner stayed live for around ten months into 1995. The price was set against print magazine page rates, because no online rate card existed in 1994.
 
-Joe McCambley, the Modem Media creative director, has spent the years since the AT&T campaign giving talks and writing essays about what the first banner ad did and did not invent. He has been critical of the way the industry treated the banner as a product to optimize rather than as a moment of attention to respect. In interviews he has said that the team's mistake was not making the format itself, but failing to anticipate that the format would be used at a volume that would destroy its effectiveness. He calls it the tragedy of the banner: too useful, too soon, used too much.
+### What is the average banner ad click-through rate today?
 
-Andrew Anker has spoken less publicly about HotWired in recent years. He moved on to venture capital at August Capital, and then to Facebook as a head of media partnerships, where the digital advertising business that the banner ad started would reach its modern apex. Anker's career trajectory is, in its own way, an emblem of the industry: he was at the launch of the banner ad and at the launch of the largest social ad business in history.
+Focus Digital's December 2025 study put the average Google Display Network click-through rate at 0.46 percent, against the roughly 44 percent reported for the 1994 AT&T banner on HotWired. US display advertising was still worth $81.6 billion in 2025, according to IAB and PwC.
 
-Louis Rossetto returned to writing. He published a novel. He maintained a friendly distance from the company he had founded. Wired magazine continues to operate, owned by Condé Nast since 1998. The print edition still exists. The digital edition still sells display ads.
-
-## FAQ: The First Banner Ad
-
-### When did the first banner ad appear?
-
-The first banner ad appeared on October 27, 1994, the launch day of HotWired, the web extension of Wired magazine. Twelve brands ran ads on launch day, including AT&T, MCI, Volvo, Club Med, 1-800-Collect, Sprint, IBM, and Zima. The AT&T ad has historically received the most attention because of its association with the broader "You Will" campaign.
-
-### What did the AT&T banner ad say?
-
-The text read, "Have you ever clicked your mouse right HERE?" with an arrow pointing to the words "YOU WILL." Clicking the banner led to a static landing page hosting a virtual tour of seven international art museums.
-
-### What was the click-through rate on the first banner ad?
-
-The AT&T banner ad had a click-through rate of approximately 44 percent during its run on HotWired. By comparison, modern display banner ads typically deliver click-through rates well below 0.1 percent. The original rate is widely cited by people who worked on the campaign and has been published in oral histories and trade press.
-
-### Who created the first banner ad?
-
-The AT&T banner was created by Modem Media, a Westport, Connecticut advertising agency. The creative director on the project was Joe McCambley. The banner ran on HotWired, which was led by Andrew Anker, with Louis Rossetto and Jane Metcalfe as the founders of the parent Wired brand.
-
-### Why was the first banner ad 468 by 60 pixels?
-
-The 468-by-60-pixel dimensions were chosen to fit at the top of a page rendered in Netscape on a 13-inch monitor, the dominant display configuration in 1994. Larger sizes would push article content below the fold. The Internet Advertising Bureau later codified those dimensions as the industry standard, and the format remained the default banner size into the early 2000s.
-
-### How much did the first banner ads cost?
-
-HotWired charged advertisers roughly $10,000 a month per section, a price modeled on the cost of a full-page color ad in the print Wired magazine. There was no per-click or per-impression pricing in 1994 because tracking infrastructure for those models did not yet exist.
-
-### Did HotWired survive its own invention?
-
-No. HotWired was sold to Lycos in 1998 and retired as a brand in 1999. The format it invented, the banner ad, outlived the publication that introduced it by decades. The lesson, which would later be repeated by newspapers and other early web media, is that inventing a format is not the same as capturing the long-term value of that format.
-
+**Sources:**
+- Internet History Podcast, An Oral History of the Web's First Banner Ads (2014): https://www.internethistorypodcast.com/banner/
+- Digiday, An oral history of the first banner ad (2017): https://digiday.com/media/history-of-the-banner-ad/
+- thefirstbannerad.com, the AT&T You Will banner project site (2014): http://thefirstbannerad.com/story.html
+- IAB and PwC, Internet Advertising Revenue Report, Full Year 2025 (April 2026): https://www.iab.com/news/digital-ad-revenue-climbs-to-nearly-300b-as-iab-celebrates-30-year-anniversary/
+- Focus Digital, Average CTR for Display Ads benchmarks (December 2025): https://focus-digital.co/average-display-ad-ctr-2025-benchmarks/
 
 ---
 
@@ -7468,127 +7368,102 @@ The line is delivered by the antagonist Lucas Barton in the 1989 film The Wizard
 
 ---
 
-# What Happened to theGlobe.com: The Biggest IPO Pop in History
+# theGlobe.com Today: The 606% IPO That Left a Shell
 
 URL: https://404memoryfound.com/posts/what-happened-to-theglobe-com-dot-com-ipo.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-05-12
+Published: 2026-05-12  Updated: 2026-09-18
 Topics: Internet Culture, Business Blunders, Money & Tech
 
-On November 13, 1998, a website nobody had heard of called theGlobe.com went public on the Nasdaq. The shares were priced at $9. When trading opened at 9:30 in the morning, the first trade printed at $87. By the end of the day, the stock closed at $63.50, a 606 percent gain from the offering price. That number, 606 percent, was the largest first day pop in the history of American IPOs at that point. It still is. No company before or since has gone public and gained more on day one.
+**Summary:** theGlobe.com is not a website anymore. The community site went dark in August 2001, and the company behind it, theglobe.com, inc., is now a shell with no employees, no operations and $15,115 in cash as of June 30, 2026. Its November 13, 1998 IPO closed 606 percent above the $9 offer price, a first-day record no American IPO has broken since.
 
-theGlobe.com had been founded three years earlier by two Cornell undergraduates, Stephan Paternot and Todd Krizelman, who built it as a homemade social network in a dorm room in 1995. By the time the stock closed on that Friday afternoon in 1998, both founders were paper millionaires worth more than $100 million each. They were 24 and 25.
+**Key facts:**
+- Launched: May 1, 1995, by Cornell students Stephan Paternot and Todd Krizelman
+- IPO: November 13, 1998, priced at $9 a share by Bear Stearns
+- First-day close: $63.50, about 606 percent above the offer, still the record
+- Community site: Shut down in August 2001, months after the Nasdaq delisting
+- Status today: Shell company, ticker TGLO, no employees, $15,115 in cash (June 2026)
 
-Here is the part that matters. The company had roughly $5 million in revenue that year. It had never turned a profit. It would not turn a profit in any year of its existence as a publicly traded community website. And by 2001, the stock would be trading for less than 10 cents a share, a 99 percent collapse, on its way to delisting.
+## Who owns theGlobe.com now, and what is left?
 
-  
-  
+theglobe.com, inc. still exists as a Delaware corporation and still files with the Securities and Exchange Commission. There is nothing inside it. Delfin Midstream, a liquefied natural gas developer, has held about 70.9 percent of the stock since a purchase agreement signed on December 20, 2017.
 
-theGlobe.com is the cleanest case study of the dot-com bubble that exists. Not the biggest, not the most consequential, not the one with the most famous tech graveyard. Pets.com (https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html) had the better mascot. Webvan (https://404memoryfound.com/posts/what-happened-to-webvan-grocery-delivery.html) had the bigger flameout. But theGlobe.com captured something specific that you cannot get from the others: the moment when the public market lost its mind, before anyone wanted to admit anything was wrong. It was the canary, except the canary was wearing vinyl pants on television and the miners decided that meant the air was fine.
+The company reported no employees as of March 23, 2026. Its only officer, Frederick Jones, holds the president, chief executive and chief financial officer titles at once and takes no pay for any of them.
 
-## The Cornell Origin Story
+The balance sheet is the real answer. On June 30, 2026 the company held $15,115 in cash, its only asset, and it had lost $123,504 over the first six months of that year. Its own filing puts the risk in one line: "We prefer to avoid filing for protection under the U.S. Bankruptcy Code."
 
-The standard version of the founding goes like this. Stephan Paternot and Todd Krizelman met as freshmen at Cornell University in 1992. Both were undergraduates, both interested in the early commercial internet. In the spring of 1994, they took a computer science course and noticed something about the early web: there was no good way for ordinary people to talk to each other on it. There were Usenet groups, IRC (https://404memoryfound.com/posts/what-happened-to-irc-chat.html) channels, and clunky bulletin boards, but if you were a regular college student who had just gotten an internet account, there was no front door.
+The stock still changes hands over the counter as TGLO, with 441,480,473 shares outstanding as of August 5, 2026. It has not traded on Nasdaq since April 2001.
 
-So in the spring of 1995, with about $15,000 of seed money from friends and family, they built one. They called it theGlobe.com. The pitch was simple: a website where anyone could create a free homepage, join interest based communities, and chat with strangers across the world. Think of it as GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html), Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) Groups, and AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) chat rooms in one place, two years before any of those concepts had really crystallized.
+## How did two Cornell students build a 1995 social network?
 
-theGlobe.com was, by 1996 and 1997 standards, a meaningful site. It had hundreds of thousands of registered users by 1997. It had advertising deals. It had press coverage. Paternot and Krizelman raised real venture money, including a $20 million Series D investment in August 1997 from Dancing Bear Investments, led by entrepreneur Michael Egan, that gave Egan a controlling stake. By 1998, the site claimed roughly 2.5 million registered members.
+theglobe.com, inc. was incorporated on May 1, 1995 and started operating the same day, according to its own filings. Stephan Paternot and Todd Krizelman, both undergraduates at Cornell University, built it so that anyone with a browser could claim a homepage, join a themed club and talk to strangers.
 
-What it did not have was profit. Or a path to profit. Or, increasingly, much of a competitive moat. By 1998, GeoCities had been bought by Yahoo for around $3.6 billion in stock. AOL was buying everything in sight. Tripod and Angelfire had become serious community hosts. theGlobe.com was a credible but mid tier player in a category that was about to consolidate. None of which mattered, because the market was about to lose its mind.
+The product went head to head with GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html), which Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) bought in 1999. theGlobe.com gave members free pages through a tool called uPublish, topic rooms called globeClubs, chat and message boards, plus small business hosting and a games network.
 
-## The IPO Heard Around Wall Street
+At the scale of the time, it worked. The company's Form 10-K for 1999 reported 3.6 million registered members in the United States and abroad, 4.7 million unique visitors in December 1999 and a 7.2 percent reach of the internet as measured by Media Metrix. About 220 people worked there at the end of that year.
 
-The plan, originally, was to price the IPO at $11 to $13 a share and raise about $30 million. That was the underwriter consensus from Bear Stearns. But by early November 1998, the market for internet IPOs was getting frothy. Bear Stearns and the company decided to lower the offering price to $9, which sounds counterintuitive until you understand the game. Pricing it lower at the offering meant retail traders would chase the stock in the secondary market, which would generate buzz, which would prime the well for follow on offerings.
+Advertising paid for all of it. Banner and sponsorship sales produced roughly $15.0 million of the $18.6 million the company booked in 1999, about 80 percent of revenue.
 
-What nobody at Bear Stearns predicted was how much the public market wanted internet stocks. On November 13, 1998, a Friday, theGlobe.com began trading. The opening trade printed at $87. The stock immediately ran to $97 within minutes. CNBC cut into regular programming. Bloomberg terminals lit up across Wall Street. The closing price of $63.50 still represented a 606 percent gain from the $9 offering, which made theGlobe.com the largest first day pop in IPO history.
+## Why did a $9 stock close at $63.50 on day one?
 
-The market capitalization at the close was around $840 million. The company's total revenue for 1998 would come in at roughly $5.5 million. The price to sales ratio at the close of the first trading day was roughly 150 to 1. For context, a normal mature company trades at a price to sales ratio of 1 to 3. theGlobe.com was being valued like the future cash flows of a Fortune 100 company on day one of being public.
+Bear Stearns priced the offering at $9 a share on November 13, 1998, after the deal had slipped twice in October. The company sold 3.1 million shares, a thin slice of its stock, into a market that had decided internet shares were scarce.
 
-Paternot and Krizelman, who each owned about 13 percent of the company, were suddenly worth more than $100 million each on paper. They were both 24 and 25 years old. They were also locked up, meaning they could not sell shares for 180 days. By the time the lockup expired in May 1999, the stock had fallen to around $19. By the end of 1999, it was around $5.
+The first trade printed far above the offer. CBS News reported an opening price of $67 that day, while later accounts put the first print at $87. The rest is not in dispute. The stock touched $97 and closed at $63.50.
 
-## The Vinyl Pants and the Camera Crew
+That close sat about 606 percent above the offer price, the largest first-day gain an American IPO had ever produced. CBS News rounded it to 605 percent in its story that evening. Nothing has beaten it in the 28 years since.
 
-Here is the cultural artifact that came out of the IPO, and it is the part that everyone who lived through the dot-com era remembers. CNN had been following theGlobe.com for a feature piece. They had a camera crew at Paternot's apartment in New York. The night of the IPO, Paternot threw a small party at a club in lower Manhattan called Life. He was wearing tight black vinyl pants. He danced on a banquette while a CNN reporter held a microphone. At one point in the segment, Paternot grinned at the camera and said:
+The business underneath was thin. theGlobe.com had booked $1.2 million of revenue against $5.8 million of losses in the first half of 1998. Tom Taulli of Silicon Investor told CBS News that day, "We're kind of in a mania here. It doesn't make sense."
 
-"Got the girl. Got the money. Now I'm ready to live a disgusting, frivolous life."
+## What did the vinyl pants clip cost theGlobe.com?
 
-The clip aired. It looped on financial television. It became a kind of shorthand for the dot-com excess that everyone could feel but nobody could quite name. Two years later, when the crash came, the clip resurfaced. It got pulled into documentaries. It got referenced in books. Paternot, to his credit, has been candid about the line. He has said in subsequent interviews and in his memoir A Very Public Offering that the comment was meant to be ironic, that he was riffing on the absurdity of suddenly having 100 million dollars on paper at 24. The irony did not translate. What translated was: vinyl pants, frivolous, dot-com kids drunk on money.
+In 1999 a CNN crew followed Paternot to a Manhattan nightclub and filmed him dancing on a table in shiny vinyl pants. On camera he said, "Got the girl. Got the money. Now I'm ready to live a disgusting, frivolous life."
 
-Look. He was 24. He had just been handed a paper net worth larger than the GDP of small island nations. He was in a club in Manhattan with a CNN crew. He was going to say something dumb. But the dumbness became the story, and the story became the bubble.
+The clip traveled the way things traveled before social media. It ran on television, it got quoted in print, and it followed Paternot for decades under a nickname he never shook, the CEO in the plastic pants.
 
-## What theGlobe.com Actually Was, As a Product
+The segment did not cause the collapse, and treating it as the cause is the lazy version of the story. What it did was put a face on a suspicion investors were already forming in 1999, that the people running these companies had no clear idea what the money was for.
 
-Strip away the IPO and the vinyl pants, and theGlobe.com was a reasonable, well executed, fundamentally weak product. The site let users build free homepages with template based editors. It had themed channels: politics, music, sports, dating. It had chat rooms organized by topic. By 1999 it had bought a few smaller properties, including Computer Games magazine and a game site called Happy Puppy. It had close to 4 million registered members at its peak.
+Paternot later wrote a memoir about the run, A Very Public Offering, and was still arguing with the caricature years afterward. "No longer were we the only idiots in town," he wrote of the wave of internet offerings that followed his, in a line Salon quoted in 2001.
 
-The problem was not the product. The problem was the math of the product. Community sites in the late 1990s monetized through banner ads, and the average CPM for a banner ad on a community site in 1998 was around $20. To support a $840 million valuation through advertising alone, theGlobe.com would have needed to scale page views to numbers that no consumer internet company had ever reached. Yahoo had reached that scale, barely, and Yahoo was an aggregator with portal traffic and serious technology behind it. theGlobe.com was a community site competing for the exact same eyeballs that GeoCities, Tripod, and Angelfire were chasing, with worse distribution and a smaller content footprint.
+## Why did 3.6 million members not pay the bills?
 
-Here is the thing. Paternot and Krizelman knew this. They were not stupid. They were not even particularly reckless. They had built a real company, raised real money, and shipped a real product. The 606 percent first day pop was not something they engineered. It was something the market did to them. And then the market did the opposite thing two years later.
+Community sites in 1999 sold banner ads, and banner ads were about to get very cheap. theGlobe.com's revenue grew from $5.5 million in 1998 to $18.6 million in 1999. Its net loss grew faster, from $16.0 million to $49.6 million, which works out to about $2.67 of loss for every dollar of revenue.
 
-  
-  
+There was no second revenue line worth the name, and no protection from anyone who wanted to copy the idea. The 1999 annual report said so in its own risk language, warning that "Barriers to entry are relatively insubstantial" in the business the company had chosen.
 
-## The Slow, Then Fast, Collapse
+When online ad rates fell apart in 2000 and 2001, nothing was left to fall back on. Paternot and Krizelman were pushed out in 2000, Nasdaq delisted the stock in April 2001, and the community site itself was switched off that August.
 
-The unwinding of theGlobe.com is interesting because it happened in two phases. Phase one was the slow erosion of the share price through 1999. The stock peaked at $97 on day one, closed at $63.50 that day, and then mostly drifted down through 1999. By the end of 1999, it was trading around $5. This was not a crash. This was the market gradually figuring out what the company was actually worth, which was not $840 million.
+The arithmetic was not unique to theGlobe.com. Pets.com (https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html) and Webvan (https://404memoryfound.com/posts/what-happened-to-webvan-grocery-delivery.html) died of the same thing, spending heavily to buy customers who were never going to be worth what they cost.
 
-Phase two was the crash itself. In March 2000, the Nasdaq peaked at 5,048. By April 2000, internet stocks were collapsing across the board. theGlobe.com fell with them. By the summer of 2000, it was under $2. By early 2001, it was under 10 cents. The company tried various pivots. It bought a VOIP service. It tried to become a publisher. It laid off most of its staff in two rounds in 2000 and 2001. In August 2001, theGlobe.com formally shut down its community site, the original product, and the founders left the board.
+## Where are Stephan Paternot and Todd Krizelman now?
 
-What was left was a public shell with a Nasdaq listing and a small VOIP business. It was eventually delisted and the corporate entity continued for years as a kind of zombie company, completing reverse mergers, never really doing anything. Paternot moved on, wrote his memoir A Very Public Offering, started a film financing company, and gave occasional interviews about the bubble. Krizelman went into private equity. They are both fine. They cashed out of enough early shares to be comfortable for life, and they have been thoughtful about the experience in interviews since.
+Todd Krizelman moved to the German media group Bertelsmann after theGlobe.com and worked with its publishing businesses. In 2007 he co-founded MediaRadar, an advertising intelligence company he still runs as chief executive. He told TheWrap in 2024 that he "went in with my eyes open" the second time around.
 
-## What the Stock Pop Actually Meant
+Stephan Paternot was worth roughly $97 million on paper at the close of the first trading day, by Salon's 2001 account. He borrowed against that stake, put money into the delivery startup UrbanFetch and lost about a million dollars of his own when it folded. He has spent the years since in film and technology ventures.
 
-Here is the analytical question that is worth sitting with. What does a 606 percent first day IPO pop actually signify, mechanically? Most people read it as evidence that the company was worth a lot. It is not that. A first day pop is a measure of the gap between what underwriters thought institutional buyers would pay and what retail buyers actually paid. If a stock pops 600 percent, it means the institutional allocations got priced way too low, and retail demand was way too high.
+The corporation they started outlived both of their roles in it, on paper only. It sold its last operating business, the .travel registry manager Tralliance, on September 29, 2008, and has had no operations since.
 
-In a healthy IPO market, the pop is 10 to 30 percent. That gap represents the underwriter's safety margin, the risk premium for taking down a block of shares. In late 1998 and 1999, that gap blew open. By the peak of the bubble in early 2000, the average tech IPO was popping more than 80 percent on day one. The market was telling the underwriters that the entire pricing apparatus was broken. The underwriters listened, raised prices, kept underpricing, kept seeing pops. Nobody wanted to be the one who priced an IPO correctly and underdelivered on day one excitement.
-
-theGlobe.com was the first major signal that the apparatus had broken. The signal got ignored because the breakage looked, in the moment, like incredible success. This is essentially what happens in any speculative bubble. The signals that something is wrong arrive disguised as evidence that everything is right. By the time the signal becomes undeniable, the unwind is already underway.
-
-## The Modern Parallel
-
-Every speculative cycle since 1998 has had its theGlobe.com moment. Twitter's 2013 IPO popped 73 percent on day one. Snap popped 44 percent in 2017. In the 2020 to 2021 SPAC boom, there were multiple 200 percent and 300 percent first day pops in shell company mergers. In 2023 and 2024, the AI infrastructure rally produced several public listings that doubled or tripled on day one.
-
-None of these are exactly theGlobe.com. The exact 606 percent number has not been matched. But the underlying mechanism is the same: institutional underpricing, retail demand mania, and a market consensus that this time the math is different. The math is rarely different. What is different is the willingness of the market to wait for the math to assert itself, which can be months or years.
-
-If you want a single, portable lesson from theGlobe.com, here it is. A first day pop is not a signal that the company is worth more than expected. It is a signal that the gap between expert valuation and public enthusiasm has widened. The wider that gap, the louder the noise, the more careful you should be. The companies that survive long term tend not to pop 606 percent on day one. They tend to grind upward over years, with quarterly evidence behind them.
-
-## What Happened to the Founders
-
-Paternot wrote his memoir, A Very Public Offering, which came out in 2001 and was updated in a later edition. He started Slated, a film financing platform, and has remained active in early stage tech and media investing. Krizelman went into private equity and operates more quietly. Both have given interviews over the years acknowledging that the IPO was a strange, lucky, partly absurd moment in their lives. Neither of them takes credit for the 606 percent pop, because neither of them caused it.
-
-The shell company that was theGlobe.com cycled through a few corporate incarnations and was eventually used for reverse merger purposes. The original community site, the actual product these two undergraduates built, has not existed in any meaningful form since 2001. The domain theglobe.com bounces around. The thing itself is gone.
-
-## The Lesson That Did Not Take
-
-The dot-com bubble is one of the most studied financial events of the modern era. There are entire courses on it at MIT Sloan and Harvard Business School. There are dozens of books. There are documentaries. theGlobe.com is a footnote in most of them, mentioned briefly as the holder of the all time first day pop record. And yet, every five to ten years, a new generation of public market investors discovers that you can sometimes triple your money on the first day of an IPO, and they pile in, and the cycle restarts.
-
-The real lesson of theGlobe.com is not that the founders were greedy, or that the underwriters were corrupt, or that 1990s investors were dumb. None of that is quite right. The real lesson is that public markets are very good at pricing established companies with cash flows, and very bad at pricing brand new categories where the future cash flows are speculative. When a category is new enough that nobody really knows what it is worth, the price becomes a function of crowd sentiment, not fundamentals. theGlobe.com was the first time that pattern showed up at maximum volume. It will not be the last.
+What is left is a ticker, a Delaware charter and a set of quarterly filings paid for by a natural gas company. That is the entire estate of the biggest first-day IPO in American history.
 
 ## Frequently Asked Questions
 
-When did theGlobe.com IPO and what was the stock price?
+### Is theGlobe.com still in business in 2026?
 
-theGlobe.com went public on November 13, 1998 on the Nasdaq. The offering price was $9 per share. The stock opened at $87, reached an intraday high of $97, and closed at $63.50. That closing price represented a 606 percent gain over the offering, which remains the largest first day pop in US IPO history.
+No. theglobe.com, inc. is a shell company with no employees and no operating business, and it has been one since it sold the Tralliance registry business on September 29, 2008. Its June 30, 2026 filing reported $15,115 in cash and warned that it may not continue as a going concern beyond the next twelve months.
 
-Who founded theGlobe.com?
+### Was theGlobe.com's IPO really the biggest first-day pop ever?
 
-theGlobe.com was founded in 1995 by Stephan Paternot and Todd Krizelman, who were undergraduates at Cornell University. The company began with about $15,000 in seed capital from friends and family and grew into a community website with millions of registered members by the time of its IPO.
+Yes, and it still is. theGlobe.com priced at $9 a share on November 13, 1998 and closed its first session at $63.50, a gain of about 606 percent. No American IPO has posted a larger first-day rise in the years since.
 
-How much was the company worth at its peak?
+### Why did theGlobe.com shut down?
 
-At the close of the first day of trading on November 13, 1998, theGlobe.com had a market capitalization of roughly $840 million. The company's actual revenue for 1998 was approximately $5.5 million. The price to sales ratio at the close of the first trading day was roughly 150 times, far beyond the range for any sustainable business.
+theGlobe.com sold banner advertising to fund a free community site, and it lost $49.6 million on $18.6 million of revenue in 1999 alone. When online ad rates collapsed, Nasdaq delisted the stock in April 2001 and the community site was turned off that August.
 
-What killed theGlobe.com?
-
-theGlobe.com was undone by a combination of structural issues. Its community website model relied on banner advertising in a category that was rapidly being consolidated by Yahoo, AOL, and other portals. It never reached profitability. Its share price collapsed through 1999 as the market reassessed the valuation, and the dot-com crash in 2000 and 2001 finished the job. The community site shut down in August 2001.
-
-What is the vinyl pants quote and who said it?
-
-The line was delivered by co-founder Stephan Paternot to a CNN camera crew on the night of theGlobe.com's IPO in November 1998. While dancing at a New York City club, wearing tight black vinyl pants, he told the camera: "Got the girl. Got the money. Now I'm ready to live a disgusting, frivolous life." Paternot has since said the line was intended ironically, but it became a defining cultural artifact of the dot-com era.
-
-Does theGlobe.com still exist?
-
-The original community website shut down in August 2001. The publicly traded corporate entity continued for years as a holding shell, eventually delisting from the Nasdaq and being used for various reverse merger and small business purposes. The domain theglobe.com has not hosted the original product since the early 2000s.
-
+**Sources:**
+- theglobe.com, inc., Form 10-K for fiscal year 2025, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1066684/000110465926038019/tglo-20251231x10k.htm
+- theglobe.com, inc., Form 10-Q for the quarter ended June 30, 2026, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1066684/000110465926096764/tglo-20260630x10q.htm
+- theglobe.com, inc., Form 10-K for fiscal year 1999, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0001066684/000089534500000218/0000895345-00-000218.txt
+- Internet IPO Theglobe.com Soars, CBS News, November 13, 1998: https://www.cbsnews.com/news/internet-ipo-theglobecom-soars/
+- Dumb, dumber and theglobe.com, Salon, August 22, 2001: https://www.salon.com/2001/08/22/paternot/
 
 ---
 
