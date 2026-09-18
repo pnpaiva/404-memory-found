@@ -236,6 +236,12 @@ def affiliate_url(url, partner):
                        id=partner["id"], merchant_id=(partner.get("merchant_id") or "").strip())
 
 
+def normalize_internal_links(body):
+    """GitHub Pages serves every post at /posts/x and /posts/x.html, so a link that omits .html
+    creates a second crawlable URL for the same page. Force the .html form at build time."""
+    return re.sub(r'href="(/posts/[a-z0-9][a-z0-9-]*)"', r'href="\1.html"', body)
+
+
 def monetize_links(body, config):
     """Tag links to configured affiliate partners. Active partners (id pasted in site-config.json) get tracking plus
     rel="sponsored nofollow"; partners without an id are still marked nofollow so the build never leaks link equity
@@ -364,7 +370,7 @@ def load_posts(manifest, authors, config):
         key = p.get("author") if p.get("author") in authors else None
         p["authorKey"] = key
         p["authorName"] = authors[key]["name"] if key else BLOG_NAME
-        p["body"] = monetize_links(localize_images(p["body"], manifest), config)
+        p["body"] = normalize_internal_links(monetize_links(localize_images(p["body"], manifest), config))
         p["body"] = re.sub(r"<table>(.*?)</table>", r'<div class="table-wrap" style="overflow-x:auto"><table>\1</table></div>', p["body"], flags=re.S)
         p["wordCount"] = word_count(p["body"])
         p["readingTime"] = reading_label(p["body"] + " " + (p.get("summary") or ""))

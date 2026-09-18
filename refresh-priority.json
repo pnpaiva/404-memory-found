@@ -1,6 +1,10 @@
 {
   "_description": "Slugs the refresh routine rewrites first: pages that already earn impressions in Search Console (Sept 2026 export). Ordered by expected gain: near page one with weak titles first, then high-impression pages ranking 20 to 50. After these, the routine falls back to oldest-first.",
   "slugs": [
+    "what-happened-to-sega-channel",
+    "what-happened-to-quake-online-fps",
+    "what-happened-to-turbografx-16-nec-forgotten-console",
+    "what-happened-to-newgrounds",
     "what-happened-to-apple-newton",
     "y2k-bug-what-actually-happened",
     "yahoo-rejected-google",
@@ -38,5 +42,6 @@
     "apple newton": [
       "messagepad profitable since 1998"
     ]
-  }
+  },
+  "_note_2026_09_18": "Prioridade maxima: os 4 posts que o Google classificou como 'Crawled, currently not indexed' e que ainda estao no formato antigo. Rastreados por ultimo entre 16 abr e 19 ago de 2026."
 }
