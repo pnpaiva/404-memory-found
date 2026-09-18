@@ -16984,117 +16984,90 @@ Yummy Foods, LLC of Los Angeles, the company behind the grocery delivery service
 
 ---
 
-# What Happened to Circuit City? The Store That Fired Its Way to Death
+# Is Circuit City Still in Business? Zero Stores Left
 
 URL: https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-31
+Published: 2026-03-31  Updated: 2026-09-18
 Topics: Hardware, Business Blunders
 
-Picture this: it's a Saturday morning in 1998. You're twelve years old. Your dad just got paid, and he's got that look on his face, the one that means you're about to go somewhere good. He grabs his keys, you grab your jacket, and twenty minutes later you're standing in front of a Circuit City. The red-and-white logo glowing above you. The automatic doors sliding open. And inside, rows and rows of televisions, all tuned to the same channel, playing the same football game in slightly different shades of color.
+**Summary:** Circuit City as shoppers knew it is gone. The chain filed for Chapter 11 on November 10, 2008 and liquidated its last 567 US stores on March 8, 2009, ending about 34,000 jobs. The name still exists as an online-only brand owned by Circuit City Corporation, run by Ronny Shmoel, who bought the trademark from Systemax in 2016, but there are no Circuit City stores.
 
-That was the magic of Circuit City. It wasn't just a store. It was an event. A destination. You went there the way some families went to church: on a schedule, with reverence, and usually with the intention of spending money you probably shouldn't have been spending.
+**Key facts:**
+- Status today: Online-only brand. No stores since March 8, 2009
+- Owner today: Circuit City Corporation, led by Ronny Shmoel (bought the brand from Systemax in 2016)
+- Stores left: Zero. The last 567 closed in March 2009
+- Founded: 1949 in Richmond, Virginia, as Wards, by Samuel Wurtzel
+- Peak: About 700 stores and $12.43 billion in net sales in fiscal 2007
 
-And for decades, it worked. Circuit City was the king of American electronics retail. Before Best Buy was Best Buy, before Amazon (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html) was anything more than a bookstore run out of a garage, Circuit City was where America bought its TVs, its stereos, its VCRs, and eventually its computers. At its peak, the company operated over 700 stores across the country, employed nearly 60,000 people, and pulled in $12.6 billion in annual revenue.
+## Who owns Circuit City today?
 
-Then it all collapsed. Not slowly. Not gracefully. Circuit City went from dominant to dead in less than two years. And the story of how that happened is one of the most baffling, frustrating, and entirely preventable corporate disasters of the 2000s.
+The Circuit City name belongs to Circuit City Corporation, a privately held company run by retail investor Ronny Shmoel, who bought the brand and the trademark rights from Systemax in 2016. Systemax had picked up the name and the CircuitCity.com domain for about $14 million in the 2009 bankruptcy sale and ran it as an online storefront for several years before selling it on.
 
-  
-  
+Shmoel relaunched the brand online in 2018. There is no chain behind it. Circuit City in 2026 is a website and a licensing play, not a retailer with its own buildings, and not one of the 567 stores that closed in 2009 has reopened under the name.
 
-## The Beginning: A Haircut That Changed Everything
+In November 2023 the company announced a Series A funding round and a shop-in-shop program it calls "Powered by Circuit City," with JCPenney named as the first partner. A month later, its Delaware holding company filed paperwork indicating it wanted to raise $25 million. The stated plan has been the same since 2016: kiosks first, then boutiques inside other retailers, then freestanding stores of its own. The freestanding stores have not arrived.
 
-The Circuit City story starts, of all places, in a barber's chair. In 1949, a New York importer-exporter named Samuel Wurtzel was on vacation in Richmond, Virginia. He went in for a haircut, and his barber mentioned that the first commercial television station in the South was about to launch in the city. Wurtzel saw an opportunity. If people in Richmond were about to get local TV broadcasts, they'd need television sets to watch them on.
+## How did a barber's chair start Circuit City?
 
-So he moved his entire family to Virginia and opened a store called Wards. The name wasn't random. It was an acronym built from his family: W for Wurtzel, A for his son Alan, R for his wife Ruth, D for his son David, and S for Samuel himself. It was a family business from day one.
+In 1949 Samuel Wurtzel, a New York importer, was on vacation in Richmond, Virginia, and went in for a haircut. The barber mentioned that the South's first commercial television station, WTVR, was about to go on the air in the city. Wurtzel worked out that people who could suddenly receive local broadcasts would need sets to watch them on.
 
-By 1959, Wards had four stores around Richmond, selling televisions and home appliances. Samuel ran the company until 1972, when his son Alan took over as CEO. And that's when things started to get really interesting.
+He moved his family to Richmond and opened a store called Wards. The name was an acronym of the family: W for Wurtzel, A for his son Alan, R for his wife Ruth, D for his son David, and S for Samuel himself.
 
-## The Rise: Inventing the Electronics Superstore
+Alan Wurtzel took over as chief executive in 1972 and spent the decade building something larger than an appliance shop. The company pioneered the electronics superstore: a big showroom, deep inventory, and salespeople paid on commission who could walk a customer through the difference between two television sets. The format worked well enough that the chain took the Circuit City name in 1984 and spent the next fifteen years as the largest specialty electronics retailer in the United States.
 
-Alan Wurtzel didn't just want to run a chain of appliance shops. He wanted to build something bigger. In the mid-1970s, he pioneered a concept that would reshape American retail: the electronics superstore. The idea was simple but radical. Instead of small stores with limited inventory, why not build massive showrooms packed with every electronic device a consumer could want? Staff them with knowledgeable salespeople who worked on commission. Let customers touch everything, compare everything, and walk out with something they didn't even know they wanted when they walked in.
+## Why did Best Buy pass Circuit City?
 
-It was a hit. The stores were renamed Circuit City in 1984, and the company went on a tear. Through the late '80s and all through the '90s, Circuit City was the place. If you were buying a new TV, a new stereo system, a camcorder, a car stereo, or eventually a desktop computer, you went to Circuit City. The company was so successful that it was one of only eleven companies featured in Jim Collins' famous business book "Good to Great," published in 2001, as an example of a company that had made the leap from mediocre to exceptional performance.
+Best Buy introduced a format it called Concept II in 1989. It removed commissioned salespeople, moved the stock onto the sales floor, and let shoppers pull a box off the rack and carry it to the register. Suppliers disliked it. Shoppers did not.
 
-Think about that for a second. A business professor studied thousands of companies and held Circuit City up as a model of excellence. In 2001.
+Circuit City kept its commissioned floor staff, which was a real advantage for a decade and then became a cost line that Best Buy simply did not carry. The second decision was worse. In July 2000 Circuit City walked away from major appliances to free up floor space for small electronics. It had been the second-largest appliance retailer in the country in 1999, behind only Sears (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html), with close to $1.6 billion in appliance sales that year. The housing boom that followed went to Home Depot, Lowe's and eventually Best Buy.
 
-## The Competition Heats Up
+None of this looked fatal at the time. Jim Collins put Circuit City in "Good to Great" in 2001 as one of eleven companies that made the leap from good to great, noting that between 1982 and 1999 it delivered "cumulative stock returns 22 times better than the market." By fiscal 2008, Best Buy was reporting roughly $40 billion in revenue against Circuit City's $11.6 billion.
 
-But the landscape was shifting. Best Buy, which had been a regional player based in Minnesota, was growing fast. And Best Buy made a critical decision that would end up being the difference between survival and extinction: in 1989, they ditched the commission-based sales model in favor of a no-pressure, self-service shopping experience. Customers could browse without being followed around by a salesperson trying to upsell them on extended warranties.
+## What happened when Circuit City fired 3,400 workers?
 
-Circuit City, meanwhile, stuck with its commissioned salespeople. For a while, this was actually an advantage. Circuit City's sales staff were knowledgeable, experienced, and genuinely helpful. They could explain the difference between a $400 TV and a $900 TV in a way that made you feel like you were making an informed decision, not being hustled. Customers trusted them.
+On March 28, 2007, Circuit City dismissed 3,400 store employees for being paid too much. Not the weakest performers: the highest earners, which in a commissioned environment meant the most experienced people on the floor, roughly 9 percent of an in-store workforce of about 40,000. They received severance and were told they could reapply after ten weeks at the lower market rate.
 
-But Best Buy's approach was cheaper to operate, and it turned out a lot of customers preferred being left alone. By the early 2000s, Best Buy had overtaken Circuit City as the largest electronics retailer in the United States. That should have been a wake-up call. Instead, it was the beginning of a series of decisions that would make things much, much worse.
+The company called it a wage management initiative. "All companies at one time or another need to go through and make sure their cost structure works with market conditions," spokesman Jim Babb told The Washington Post in 2007.
 
-## The Decision That Killed Circuit City
+It did not work. By May 1, 2007, the same paper was reporting that analysts considered the cuts to be backfiring, with large flat-panel and projection televisions singled out as the products that needed knowledgeable staff to sell. Deutsche Bank analyst Mike Baker said the labor change had hurt service levels and allowed Best Buy to "take share." The one thing Circuit City had that Best Buy did not was the person on the floor who knew the answer, and the company had just walked that person out of the building.
 
-On March 28, 2007, Circuit City's leadership made a decision that still makes people in the retail industry shake their heads. The company announced that it was immediately terminating 3,400 of its highest-paid in-store employees. Not the worst performers. Not redundant positions. The highest-paid, which in a commission-based environment meant the most experienced, most knowledgeable, and most effective salespeople on the floor.
+## When did Circuit City close its stores?
 
-The company called it "wage management." CEO Philip Schoonover said the move would make Circuit City "stronger for the long term." The plan was to replace these veteran employees with new hires who would accept lower wages. On paper, the math made sense. In practice, it was corporate suicide.
+Philip Schoonover, chief executive since 2006, resigned in September 2008 with the company unsold and losing money. Board member James Marcum took over as acting chief executive. On November 3, 2008, Circuit City said it would close 155 stores and cut 17 percent of its workforce. Seven days later it filed for Chapter 11 in the US Bankruptcy Court for the Eastern District of Virginia.
 
-Here's what made it especially infuriating. These 3,400 employees were walked out of their stores that same morning. No transition period. No knowledge transfer. Just: you make too much money, here's the door. Meanwhile, Schoonover himself had received $4.5 million in compensation and another $5.4 million in stock options the year before. The combined salaries of those 3,400 fired workers probably didn't add up to what the executive team spent on golf.
+No buyer materialized. On January 16, 2009, the court approved a full liquidation of the remaining 567 stores. "We are extremely disappointed by this outcome," Marcum said in a statement reported by CNNMoney that day. "We were unable to reach an agreement with our creditors and lenders to structure a going-concern transaction in the limited timeframe available."
 
-The Washington Post reported within weeks that the layoffs appeared to be "backfiring." Sales slowed. Customer satisfaction plummeted. The institutional knowledge that had been Circuit City's greatest differentiator, the thing that made it better than Best Buy, was gone. Replaced by minimum-wage workers who couldn't tell you the difference between HDMI and component cables.
+The last stores turned off the lights on March 8, 2009, and about 34,000 jobs went with them. Congress held a hearing on it that year under the title "Circuit City Unplugged: Why Did Chapter 11 Fail to Save 34,000 Jobs?" The short answer was that a retailer whose vendors and lenders stop extending credit has nothing left to restructure. Fewer than two years separated the March 2007 layoffs from the last day of trading.
 
-  
-  
+## What is left of the chain in 2026?
 
-## The Spiral
+In the United States, nothing operational. The stores were re-leased to other retailers, and the long low buildings with the red trim are still easy to spot in strip malls that have changed tenants twice since.
 
-After the layoffs, everything accelerated. The housing crisis hit in 2007 and 2008, and consumer spending on big-ticket electronics cratered. Circuit City, already weakened by its self-inflicted wounds, had no cushion. Best Buy weathered the storm. Circuit City couldn't.
+The Canadian side outlived the parent. InterTAN Canada ran the chain as The Source by Circuit City, and Bell Canada bought it as a going concern for C$135 million on July 1, 2009. Bell rebranded those stores as Best Buy Express in 2024, which means the last physical descendant of Circuit City now carries the name of the company that beat it.
 
-On November 3, 2008, Circuit City announced it would close 155 stores and cut 17% of its workforce. One week later, on November 10, the company filed for Chapter 11 bankruptcy protection. They tried to find a buyer. Two unnamed parties expressed interest, but neither deal materialized.
-
-On January 16, 2009, Circuit City announced it would liquidate all remaining stores. The "going out of business" signs went up. Shoppers flooded in looking for deals on marked-down TVs and laptops. And on March 8, 2009, the last Circuit City store turned off its lights. Over 30,000 people lost their jobs.
-
-The whole thing, from the layoffs to the liquidation, took less than two years.
-
-## What Went Wrong (Besides the Obvious)
-
-The 3,400-employee massacre gets most of the blame, and it deserves it. But Circuit City had been making smaller mistakes for years that added up to a death sentence.
-
-First, they stopped selling appliances in 2000. This was baffling. Appliances were high-margin products with consistent demand. Best Buy eventually moved into appliances. Circuit City voluntarily gave up the category.
-
-Second, their stores were aging. By the mid-2000s, many Circuit City locations looked tired compared to Best Buy's cleaner, more modern layouts. The company underinvested in renovations and store design at exactly the wrong time.
-
-Third, they were late to e-commerce. Amazon was eating the electronics market alive by the mid-2000s, and Circuit City's online presence was an afterthought. Their website was clunky, their inventory system wasn't properly integrated, and they never figured out how to compete on price with an online retailer that didn't have to pay for 700 storefronts.
-
-And fourth, they had a leadership problem. The company cycled through strategies without committing to any of them. They couldn't decide if they were a high-service retailer or a discount chain, and in trying to be both, they ended up being neither.
-
-## The Legacy
-
-There's a sad irony to Circuit City's story. The company that pioneered the electronics superstore, that literally invented the way Americans shopped for technology, couldn't figure out how to evolve when the game changed. The salespeople who made Circuit City special were treated as expenses to be cut rather than assets to be protected. And the executives who made those decisions walked away with golden parachutes while 30,000 regular people lost their livelihoods.
-
-The brand has technically come back. An online-only version of Circuit City launched in 2016, and there have been various attempts to revive the name. None of them have captured anything close to the original. Because Circuit City was never really about the name on the building. It was about the guy on the floor who knew exactly which receiver would work with your speakers, and who was genuinely excited to help you set it up.
-
-You can't fire that and hire it back at a lower wage.
+The collapse was not unique, only fast. Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-frys-electronics.html) shut all 31 of its stores in 2021, and RadioShack (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html) went through two bankruptcies before ending up as a name licensed to other sellers. Circuit City got there first and got there hardest: the largest specialty electronics chain in America through the 1990s, with about 700 stores and $12.43 billion in net sales in fiscal 2007, and then nothing at all two years later.
 
 ## Frequently Asked Questions
 
-When did Circuit City go out of business?
+### When did Circuit City go out of business?
 
-Circuit City filed for Chapter 11 bankruptcy on November 10, 2008, and began liquidating all stores on January 16, 2009. The last store closed on March 8, 2009.
+Circuit City filed for Chapter 11 bankruptcy protection on November 10, 2008, and a court approved the liquidation of its remaining 567 US stores on January 16, 2009. The last Circuit City stores closed on March 8, 2009, ending about 34,000 jobs.
 
-How many stores did Circuit City have at its peak?
+### Is Circuit City coming back?
 
-At its peak, Circuit City operated over 700 stores across the United States and employed nearly 60,000 people.
+Circuit City has been an online-only brand since its relaunch in 2018, owned by Circuit City Corporation under Ronny Shmoel, who bought the name from Systemax in 2016. The company announced a shop-in-shop program called "Powered by Circuit City" in November 2023 with JCPenney as its first partner, but no freestanding Circuit City store has opened anywhere since the chain liquidated in 2009.
 
-Why did Circuit City fire 3,400 employees in 2007?
+### Why did Circuit City fail?
 
-In a move the company called "wage management," Circuit City terminated its 3,400 highest-paid in-store employees and planned to replace them with lower-wage workers. The decision backfired, leading to decreased sales and customer satisfaction.
+Circuit City lost ground to Best Buy after quitting major appliances in July 2000, then fired 3,400 of its highest-paid store staff on March 28, 2007, a cut that analysts told The Washington Post that May was backfiring. The credit crisis of 2008 finished a company that had already given away its main advantage, and Circuit City filed for bankruptcy that November.
 
-Who founded Circuit City?
-
-Samuel Wurtzel founded the company in 1949 as Wards in Richmond, Virginia. The name was an acronym of his family members' names. The company was renamed Circuit City in 1984.
-
-Is Circuit City still in business?
-
-The original Circuit City closed all physical stores in 2009. An online-only version of the brand relaunched in 2016, but it bears little resemblance to the original chain.
-
-Was Circuit City bigger than Best Buy?
-
-Yes. Through the 1990s, Circuit City was the largest specialty electronics retailer in the United States. Best Buy overtook Circuit City in market share in the early 2000s.
-
+**Sources:**
+- Circuit City Cuts 3,400 'Overpaid' Workers, The Washington Post (2007): https://www.washingtonpost.com/wp-dyn/content/article/2007/03/28/AR2007032802185.html
+- Circuit City's Job Cuts Backfiring, Analysts Say, The Washington Post (2007): https://www.washingtonpost.com/wp-dyn/content/article/2007/05/01/AR2007050101623.html
+- Circuit City seeking to liquidate, CNNMoney (2009): https://money.cnn.com/2009/01/16/news/companies/circuit_city/index.htm
+- Circuit City Unplugged: Why Did Chapter 11 Fail to Save 34,000 Jobs? US House Judiciary Committee hearing (2009): https://www.govinfo.gov/content/pkg/CHRG-111hhrg47924/html/CHRG-111hhrg47924.htm
+- Circuit City Announces Series A Funding Round with Plans for 'Powered by Circuit City' Partnerships, Business Wire (2023): https://www.businesswire.com/news/home/20231114272070/en/Circuit-City-Announces-Series-A-Funding-Round-with-Plans-for-Exclusive-Powered-by-Circuit-City-Partnerships
 
 ---
 
