@@ -311,8 +311,10 @@
         "who owns ask.com",
         "is ask.com still a search engine"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "what-happened-to-ask-jeeves-search-engine",
+      "note": "Skipped 2026-09-18: this angle is already answered inside the existing post named in published_slug (its h2 and FAQ cover the same queries)."
     },
     {
       "title": "The Pets.com Sock Puppet: Where the Mascot Ended Up",
@@ -329,8 +331,10 @@
         "pets.com super bowl ad",
         "what happened to the pets.com puppet"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "why-pets-com-failed-dot-com-bubble",
+      "note": "Skipped 2026-09-18: this angle is already answered inside the existing post named in published_slug (its h2 and FAQ cover the same queries)."
     },
     {
       "title": "How Many RadioShack Stores Are Left? The 2026 Count",
@@ -347,8 +351,10 @@
         "who owns radioshack now",
         "radioshack near me"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "what-happened-to-radioshack-electronics",
+      "note": "Skipped 2026-09-18: this angle is already answered inside the existing post named in published_slug (its h2 and FAQ cover the same queries)."
     },
     {
       "title": "Who Owns Yahoo Now? From $125 Billion to Apollo",
@@ -442,8 +448,10 @@
         "what replaced encarta",
         "microsoft encarta download"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "what-happened-to-microsoft-encarta",
+      "note": "Skipped 2026-09-18: this angle is already answered inside the existing post named in published_slug (its h2 and FAQ cover the same queries)."
     },
     {
       "title": "Abandoned RadioShack Stores: What Happens to Dead Retail",
@@ -460,8 +468,10 @@
         "dead malls radioshack",
         "what happened to radioshack buildings"
       ],
-      "status": "pending",
-      "source": "search-console-2026-09"
+      "status": "published",
+      "source": "search-console-2026-09",
+      "published_slug": "what-happened-to-radioshack-electronics",
+      "note": "Skipped 2026-09-18: this angle is already answered inside the existing post named in published_slug (its h2 and FAQ cover the same queries)."
     },
     {
       "title": "Is Redbox Still Around? Why the Kiosks Are Still There",
@@ -1605,8 +1615,9 @@
         "what happened to homestar runner",
         "strong bad emails today"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-09-17"
+      "status": "published",
+      "source": "editor-research-2026-09-17",
+      "published_slug": "homestar-runner-still-updating"
     }
   ],
   "priority_3_niche_authority": [
