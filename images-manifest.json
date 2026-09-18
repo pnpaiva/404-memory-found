@@ -109,6 +109,16 @@
   "thumb": "/img/thumb/the-comet-roller-coaster-at-riverview-park-chicago-de3c69.jpg",
   "width": 748
  },
+ "https://upload.wikimedia.org/wikipedia/commons/2/23/Tom_Fulp_%28cropped%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Tom_Fulp_%28cropped%29.jpg",
+  "ext": "jpg",
+  "file": "/img/tom-fulp-cropped-94e6cb.jpg",
+  "height": 900,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/tom-fulp-cropped-94e6cb.jpg",
+  "width": 657
+ },
  "https://upload.wikimedia.org/wikipedia/commons/2/26/Microsoft_Zune_HD_promo.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Microsoft_Zune_HD_promo.jpg",
   "ext": "jpg",
