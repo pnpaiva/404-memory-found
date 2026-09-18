@@ -8,6 +8,18 @@
     <lastBuildDate>Fri, 18 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Is Homestar Runner Still Updating? The Site in 2026</title>
+      <link>https://404memoryfound.com/posts/homestar-runner-still-updating.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/homestar-runner-still-updating.html</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Homestar Runner is still updating in 2026, just not weekly. The site launched January 1, 2000 and now runs on Ruffle instead of Flash.</description>
+      <enclosure url="https://404memoryfound.com/pins/homestar-runner-still-updating.jpg" length="164252" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/homestar-runner-still-updating.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Internet Culture</category>
+      <category>Software &amp; Apps</category>
+    </item>
+    <item>
       <title>Who Owns Packard Bell Now? Acer Revived the Brand</title>
       <link>https://404memoryfound.com/posts/packard-bell-computer-brand-today.html</link>
       <guid isPermaLink="true">https://404memoryfound.com/posts/packard-bell-computer-brand-today.html</guid>
@@ -236,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/fao-schwarz-store-rockefeller-center.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Then vs Now</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Is Woolworth Still in Business? Only as Foot Locker</title>
-      <link>https://404memoryfound.com/posts/is-woolworth-still-in-business.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-woolworth-still-in-business.html</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Woolworth is still in business, but only as Foot Locker: it renamed itself in 2001, four years after shutting all 400 US five-and-dime stores.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-woolworth-still-in-business.jpg" length="289264" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-woolworth-still-in-business.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>

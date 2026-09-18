@@ -114,6 +114,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Microsoft Tried to Buy Nintendo and Got Laughed At](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and spent an hour being laughed at. The letter survives, and the Xbox shipped two years later.
 
 ## Internet Culture
+- [Is Homestar Runner Still Updating? The Site in 2026](https://404memoryfound.com/posts/homestar-runner-still-updating.html): Homestar Runner is still updating in 2026, just not weekly. The site launched January 1, 2000 and now runs on Ruffle instead of Flash.
 - [Who Owns eToys.com Now? Toys R Us Bought the Name](https://404memoryfound.com/posts/etoys-com-who-owns-it-now.html): Toys R Us has owned eToys.com since February 2009, paying a reported $2.15 million. The original eToys died in 2001, two years after a $76 IPO pop.
 - [Broadcast.com: The $5.7 Billion Site Yahoo Shut Down](https://404memoryfound.com/posts/broadcast-com-yahoo-billion-dollar-deal.html): Yahoo bought Broadcast.com for $5.7 billion in 1999 and closed the service by 2002. The company had booked $22.4 million of revenue in 1998.
 - [EverQuest in 2026: The 1999 MMO That Still Runs](https://404memoryfound.com/posts/everquest-still-active-2026.html): EverQuest is still active in 2026: Darkpaw Games runs the 1999 MMO, and a new server called Lethar opened on August 26, 2026.
@@ -362,6 +363,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [What Was the First Thing Sold Online? PizzaNet vs a CD](https://404memoryfound.com/posts/first-online-purchase-pizza.html): The first thing sold online was not a pizza. PizzaNet took orders in August 1994, eleven days after a Sting CD sold for $12.48.
 
 ## Software & Apps
+- [Is Homestar Runner Still Updating? The Site in 2026](https://404memoryfound.com/posts/homestar-runner-still-updating.html): Homestar Runner is still updating in 2026, just not weekly. The site launched January 1, 2000 and now runs on Ruffle instead of Flash.
 - [Does Yahoo Messenger Still Exist? Why It Shut Down](https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html): Yahoo Messenger does not exist: Oath shut it down on July 17, 2018 after 20 years. Its replacement, Yahoo Together, lasted until April 4, 2019.
 - [How to Run 90s PC Games on Windows 11 in 2026](https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html): Windows 11 is 64-bit only, so 90s PC games need help: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing in 2026.
 - [Why Did Skype Shut Down? What Replaced It in 2025](https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html): Skype shut down on May 5, 2025 and Microsoft Teams Free replaced it. Skype Credit still works in Teams, but the old chats were deleted in 2026.

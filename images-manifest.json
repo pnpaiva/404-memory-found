@@ -149,6 +149,16 @@
   "thumb": "/img/thumb/wikipedia-frontpage-in-monobook-rendered-by-internet-explore-f398a5.jpg",
   "width": 796
  },
+ "https://upload.wikimedia.org/wikipedia/commons/4/48/No_Loafing_sign.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:No_Loafing_sign.png",
+  "ext": "jpg",
+  "file": "/img/no-loafing-sign-35aabf.jpg",
+  "height": 209,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/no-loafing-sign-35aabf.jpg",
+  "width": 800
+ },
  "https://upload.wikimedia.org/wikipedia/commons/4/49/Webvan.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Webvan.jpg",
   "ext": "jpg",
