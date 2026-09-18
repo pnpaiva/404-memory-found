@@ -2,540 +2,310 @@
  "fps": 30,
  "width": 1080,
  "height": 1920,
- "hero": "hero.jpg",
- "title": "Is Blockbuster Still Open? The Last Store in 2026",
- "slug": "is-blockbuster-still-open-last-store",
+ "title": "Who Owns Sears Now, and How Many Stores Are Left?",
+ "slug": "who-owns-sears-now-stores-left",
+ "subject": "Sears",
+ "hookStyle": "polaroid",
+ "hookCaption": "Hanes Mall, Winston-Salem. Closed.",
+ "images": {
+  "hero": "img/closed-sears-store-in-a-mall-a4eaa3.jpg",
+  "hero2": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Lloyd_Center_Sears_store_from_SE_in_2017.jpg/1280px-Lloyd_Center_Sears_store_from_SE_in_2017.jpg",
+  "g1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Lloyd_Center_Sears_store_from_SE_in_2017.jpg/1280px-Lloyd_Center_Sears_store_from_SE_in_2017.jpg",
+  "g2": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Chicago_Sears_Tower.jpg/1280px-Chicago_Sears_Tower.jpg",
+  "g3": "img/closed-sears-store-in-a-mall-a4eaa3.jpg"
+ },
  "scenes": [
   {
-   "say": "Is Blockbuster still open in 2026?",
-   "lines": [
-    "Is Blockbuster",
-    "still open in 2026?"
-   ],
    "kind": "hook",
-   "audio": "seg1.mp3",
-   "seconds": 2.77,
-   "frames": 84,
-   "text": "Is Blockbuster still open in 2026?",
-   "words": [
-    {
-     "w": "Is",
-     "s": 0.0,
-     "e": 0.163
-    },
-    {
-     "w": "Blockbuster",
-     "s": 0.221,
-     "e": 0.859
-    },
-    {
-     "w": "still",
-     "s": 0.906,
-     "e": 1.138
-    },
-    {
-     "w": "open",
-     "s": 1.207,
-     "e": 1.428
-    },
-    {
-     "w": "in",
-     "s": 1.474,
-     "e": 1.521
-    },
-    {
-     "w": "2026?",
-     "s": 1.579,
-     "e": 2.74
-    }
-   ]
+   "text": "How many Sears stores are still open?",
+   "frames": 150,
+   "audio": "",
+   "words": []
   },
   {
-   "say": "Yes. But only one store is left, in Bend, Oregon.",
-   "lines": [
-    "YES.",
-    "One store left.",
-    "Bend, Oregon."
-   ],
-   "kind": "found",
-   "audio": "seg2.mp3",
-   "seconds": 2.69,
-   "frames": 82,
-   "text": "Yes. But only one store is left, in Bend, Oregon.",
-   "words": [
-    {
-     "w": "Yes.",
-     "s": 0.0,
-     "e": 0.325
-    },
-    {
-     "w": "But",
-     "s": 0.36,
-     "e": 0.476
-    },
-    {
-     "w": "only",
-     "s": 0.511,
-     "e": 0.673
-    },
-    {
-     "w": "one",
-     "s": 0.743,
-     "e": 0.906
-    },
-    {
-     "w": "store",
-     "s": 0.94,
-     "e": 1.161
-    },
-    {
-     "w": "is",
-     "s": 1.184,
-     "e": 1.254
-    },
-    {
-     "w": "left,",
-     "s": 1.324,
-     "e": 1.591
-    },
-    {
-     "w": "in",
-     "s": 1.625,
-     "e": 1.695
-    },
-    {
-     "w": "Bend,",
-     "s": 1.753,
-     "e": 1.962
-    },
-    {
-     "w": "Oregon.",
-     "s": 1.985,
-     "e": 2.647
-    }
-   ]
+   "kind": "folder",
+   "text": "Five. That is the whole chain. Braintree, Concord, El Paso, Orlando and Coral Gables.",
+   "frames": 150,
+   "audio": "",
+   "words": []
   },
   {
-   "say": "Blockbuster had nine thousand stores worldwide at its peak. Then came the 2010 bankruptcy.",
-   "lines": [
-    "9,000 stores",
-    "at the peak.",
-    "Bankrupt in 2010."
-   ],
    "kind": "chart",
-   "audio": "seg3.mp3",
-   "seconds": 5.38,
-   "frames": 163,
-   "text": "Blockbuster had 9,000 stores worldwide at its peak. Then came the 2010 bankruptcy.",
-   "words": [
-    {
-     "w": "Blockbuster",
-     "s": 0.0,
-     "e": 0.641
-    },
-    {
-     "w": "had",
-     "s": 0.699,
-     "e": 0.815
-    },
-    {
-     "w": "9,000",
-     "s": 0.908,
-     "e": 1.489
-    },
-    {
-     "w": "stores",
-     "s": 1.535,
-     "e": 1.814
-    },
-    {
-     "w": "worldwide",
-     "s": 1.86,
-     "e": 2.278
-    },
-    {
-     "w": "at",
-     "s": 2.313,
-     "e": 2.394
-    },
-    {
-     "w": "its",
-     "s": 2.441,
-     "e": 2.545
-    },
-    {
-     "w": "peak.",
-     "s": 2.591,
-     "e": 2.963
-    },
-    {
-     "w": "Then",
-     "s": 3.404,
-     "e": 3.578
-    },
-    {
-     "w": "came",
-     "s": 3.636,
-     "e": 3.811
-    },
-    {
-     "w": "the",
-     "s": 3.845,
-     "e": 3.915
-    },
-    {
-     "w": "2010",
-     "s": 3.973,
-     "e": 4.403
-    },
-    {
-     "w": "bankruptcy.",
-     "s": 4.472,
-     "e": 5.343
-    }
-   ]
+   "text": "There were about 3,500 at the Kmart merger in 2005. A thousand by 2018. Then 425.",
+   "frames": 150,
+   "audio": "",
+   "words": []
   },
   {
-   "say": "The brand sold at auction in 2011 for about 320 million dollars. Dish Network owns it today.",
-   "lines": [
-    "Sold at auction: $320M",
-    "Owner today:",
-    "Dish Network"
-   ],
    "kind": "props",
-   "audio": "seg4.mp3",
-   "seconds": 5.51,
-   "frames": 167,
-   "text": "The brand sold at auction in 2011 for about $320 million. Dish Network owns it today.",
-   "words": [
-    {
-     "w": "The",
-     "s": 0.0,
-     "e": 0.116
-    },
-    {
-     "w": "brand",
-     "s": 0.162,
-     "e": 0.417
-    },
-    {
-     "w": "sold",
-     "s": 0.487,
-     "e": 0.696
-    },
-    {
-     "w": "at",
-     "s": 0.731,
-     "e": 0.777
-    },
-    {
-     "w": "auction",
-     "s": 0.812,
-     "e": 1.149
-    },
-    {
-     "w": "in",
-     "s": 1.195,
-     "e": 1.253
-    },
-    {
-     "w": "2011",
-     "s": 1.311,
-     "e": 1.869
-    },
-    {
-     "w": "for",
-     "s": 1.938,
-     "e": 2.054
-    },
-    {
-     "w": "about",
-     "s": 2.101,
-     "e": 2.298
-    },
-    {
-     "w": "$320",
-     "s": 2.333,
-     "e": 3.088
-    },
-    {
-     "w": "million.",
-     "s": 3.134,
-     "e": 3.459
-    },
-    {
-     "w": "Dish",
-     "s": 3.9,
-     "e": 4.156
-    },
-    {
-     "w": "Network",
-     "s": 4.214,
-     "e": 4.493
-    },
-    {
-     "w": "owns",
-     "s": 4.539,
-     "e": 4.701
-    },
-    {
-     "w": "it",
-     "s": 4.748,
-     "e": 4.806
-    },
-    {
-     "w": "today.",
-     "s": 4.829,
-     "e": 5.479
-    }
-   ]
+   "text": "Eddie Lampert's hedge fund bought Sears out of bankruptcy in 2019 for $5.2 billion.",
+   "frames": 150,
+   "audio": "",
+   "words": []
   },
   {
-   "say": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
-   "lines": [
-    "Last one on Earth",
-    "since March 2019."
-   ],
-   "kind": "timeline",
-   "audio": "seg5.mp3",
-   "seconds": 6.58,
-   "frames": 199,
-   "text": "It has been the last Blockbuster on Earth since March 2019, when the store in Perth, Australia closed.",
-   "words": [
-    {
-     "w": "It",
-     "s": 0.0,
-     "e": 0.151
-    },
-    {
-     "w": "has",
-     "s": 0.186,
-     "e": 0.267
-    },
-    {
-     "w": "been",
-     "s": 0.313,
-     "e": 0.476
-    },
-    {
-     "w": "the",
-     "s": 0.522,
-     "e": 0.592
-    },
-    {
-     "w": "last",
-     "s": 0.662,
-     "e": 0.94
-    },
-    {
-     "w": "Blockbuster",
-     "s": 0.987,
-     "e": 1.556
-    },
-    {
-     "w": "on",
-     "s": 1.625,
-     "e": 1.695
-    },
-    {
-     "w": "Earth",
-     "s": 1.741,
-     "e": 1.927
-    },
-    {
-     "w": "since",
-     "s": 1.962,
-     "e": 2.183
-    },
-    {
-     "w": "March",
-     "s": 2.241,
-     "e": 2.473
-    },
-    {
-     "w": "2019,",
-     "s": 2.531,
-     "e": 3.471
-    },
-    {
-     "w": "when",
-     "s": 3.796,
-     "e": 3.959
-    },
-    {
-     "w": "the",
-     "s": 3.994,
-     "e": 4.063
-    },
-    {
-     "w": "store",
-     "s": 4.098,
-     "e": 4.47
-    },
-    {
-     "w": "in",
-     "s": 4.528,
-     "e": 4.632
-    },
-    {
-     "w": "Perth,",
-     "s": 4.748,
-     "e": 5.097
-    },
-    {
-     "w": "Australia",
-     "s": 5.143,
-     "e": 5.712
-    },
-    {
-     "w": "closed.",
-     "s": 5.77,
-     "e": 6.548
-    }
-   ]
+   "kind": "catalog",
+   "text": "The catalog ran 105 years, from 1888 to 1993. Then the stores became the whole company.",
+   "frames": 150,
+   "audio": "",
+   "words": []
   },
   {
-   "say": "Full story at 404 memory found dot com. Follow for more of the internet you grew up with.",
-   "lines": [
-    "404memoryfound.com",
-    "Follow for more."
-   ],
    "kind": "outro",
-   "audio": "seg6.mp3",
-   "seconds": 5.09,
-   "frames": 154,
    "text": "Full story at 404memoryfound.com. Follow for more of the internet you grew up with.",
+   "audio": "who-owns-sears-now-stores-left/v-5ae4cdadeb.mp3",
    "words": [
     {
      "w": "Full",
      "s": 0.0,
-     "e": 0.255
+     "e": 0.279
     },
     {
      "w": "story",
-     "s": 0.302,
-     "e": 0.557
+     "s": 0.348,
+     "e": 0.72
     },
     {
      "w": "at",
-     "s": 0.592,
-     "e": 0.65
+     "s": 0.766,
+     "e": 0.848
     },
     {
      "w": "404memoryfound.com.",
-     "s": 0.708,
-     "e": 2.438
+     "s": 0.929,
+     "e": 3.32
     },
     {
      "w": "Follow",
-     "s": 2.821,
-     "e": 3.111
+     "s": 3.762,
+     "e": 4.087
     },
     {
      "w": "for",
-     "s": 3.158,
-     "e": 3.262
+     "s": 4.145,
+     "e": 4.249
     },
     {
      "w": "more",
-     "s": 3.309,
-     "e": 3.437
+     "s": 4.307,
+     "e": 4.458
     },
     {
      "w": "of",
-     "s": 3.46,
-     "e": 3.506
+     "s": 4.481,
+     "e": 4.528
     },
     {
      "w": "the",
-     "s": 3.541,
-     "e": 3.611
+     "s": 4.563,
+     "e": 4.632
     },
     {
      "w": "internet",
-     "s": 3.657,
-     "e": 3.959
+     "s": 4.679,
+     "e": 4.992
     },
     {
      "w": "you",
-     "s": 4.005,
-     "e": 4.075
+     "s": 5.05,
+     "e": 5.132
     },
     {
      "w": "grew",
-     "s": 4.133,
-     "e": 4.284
+     "s": 5.178,
+     "e": 5.329
     },
     {
      "w": "up",
-     "s": 4.331,
-     "e": 4.423
+     "s": 5.375,
+     "e": 5.468
     },
     {
      "w": "with.",
-     "s": 4.481,
-     "e": 5.062
+     "s": 5.515,
+     "e": 6.037
     }
-   ]
+   ],
+   "frames": 184,
+   "seconds": 6.09,
+   "spoken": "Full story at four oh four memory found dot com. Follow for more of the internet you grew up with."
   }
  ],
- "hero2": "hero2.jpg",
+ "folder": {
+  "path": "C:\\SEARS\\STORES",
+  "from": 3500,
+  "to": 5,
+  "unit": "store",
+  "keepLabels": [
+   "Braintree",
+   "Concord",
+   "El Paso",
+   "Orlando",
+   "Coral Gables"
+  ],
+  "note": "Count: USA Today, December 2025"
+ },
+ "chartTitle": "Sears stores",
  "chart": [
   {
-   "label": "Peak",
-   "value": 9000,
-   "text": "9,000"
+   "label": "2005",
+   "value": 3500,
+   "text": "~3,500"
   },
   {
-   "label": "2011",
-   "value": 1700,
-   "text": "~1,700"
+   "label": "2018",
+   "value": 1002,
+   "text": "1,002"
   },
   {
    "label": "2019",
-   "value": 1,
-   "text": "1"
+   "value": 425,
+   "text": "425"
+  },
+  {
+   "label": "2025",
+   "value": 5,
+   "text": "5"
   }
  ],
+ "propsTitle": "sears.brand Properties",
+ "propsName": "Sears",
  "props": [
   [
    "Owner",
-   "Dish Network"
+   "Transformco"
   ],
   [
-   "Bought",
-   "April 6, 2011"
+   "Chapter 11",
+   "October 2018"
   ],
   [
-   "Price",
-   "about $320 million"
+   "Sale approved",
+   "February 7, 2019"
   ],
   [
-   "Parent",
-   "EchoStar (since 2023)"
+   "Catalog",
+   "1888 to 1993"
   ]
  ],
- "timeline": [
-  [
-   "2010",
-   "Bankruptcy"
-  ],
-  [
-   "2011",
-   "Dish buys the brand"
-  ],
-  [
-   "2014",
-   "Last company stores"
-  ],
-  [
-   "2018",
-   "Alaska closes"
-  ],
-  [
-   "2019",
-   "Perth closes. Bend is last."
-  ]
+ "ticker": {
+  "to": 5.2,
+  "prefix": "$",
+  "suffix": "B",
+  "decimals": 1
+ },
+ "gallery": [
+  {
+   "src": "who-owns-sears-now-stores-left/g1.jpg",
+   "caption": "Lloyd Center, Portland, 2017"
+  },
+  {
+   "src": "who-owns-sears-now-stores-left/g2.jpg",
+   "caption": "The Sears Tower, Chicago"
+  },
+  {
+   "src": "who-owns-sears-now-stores-left/g3.jpg",
+   "caption": "Hanes Mall, closed"
+  }
  ],
- "voice": "elevenlabs"
+ "timeline": [],
+ "cover": {
+  "text": "5 LEFT",
+  "sub": "Sears in 2026",
+  "oneLine": true
+ },
+ "hero": "who-owns-sears-now-stores-left/hero.jpg",
+ "hero2": "who-owns-sears-now-stores-left/hero2.jpg",
+ "voice": "elevenlabs",
+ "propsSkin": "manila",
+ "catalog": {
+  "brand": "Sears, Roebuck and Co.",
+  "pages": [
+   {
+    "year": "1897",
+    "items": [
+     [
+      "Sewing machine",
+      "$13.50"
+     ],
+     [
+      "Pocket watch",
+      "$4.15"
+     ],
+     [
+      "Cook stove",
+      "$8.90"
+     ],
+     [
+      "Bicycle",
+      "$21.75"
+     ]
+    ]
+   },
+   {
+    "year": "1932",
+    "items": [
+     [
+      "Radio receiver",
+      "$29.95"
+     ],
+     [
+      "Kit house",
+      "$1,998"
+     ],
+     [
+      "Refrigerator",
+      "$137.50"
+     ],
+     [
+      "Work boots",
+      "$2.35"
+     ]
+    ]
+   },
+   {
+    "year": "1975",
+    "items": [
+     [
+      "Colour television",
+      "$429.95"
+     ],
+     [
+      "Craftsman drill",
+      "$24.99"
+     ],
+     [
+      "Kenmore washer",
+      "$219.95"
+     ],
+     [
+      "Toy train set",
+      "$39.95"
+     ]
+    ]
+   },
+   {
+    "year": "1993",
+    "items": [
+     [
+      "The last catalog",
+      "January 25"
+     ],
+     [
+      "Years in print",
+      "105"
+     ],
+     [
+      "Pages, peak",
+      "1,500+"
+     ],
+     [
+      "Status",
+      "Discontinued"
+     ]
+    ]
+   }
+  ],
+  "footer": "1888 to 1993"
+ }
 }
