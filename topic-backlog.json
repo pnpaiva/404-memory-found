@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com, written to POST_SPEC.md (900 to 1,300 words). The writer routine takes the first pending entry in file order, except that when the number of posts in posts.json is a multiple of 5 it takes the first pending entry of 'buyer_intent' instead. Cross off topics as published.",
-  "_last_updated": "2026-09-10",
+  "_last_updated": "2026-09-18",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_0_search_console": [
     {
@@ -1618,6 +1618,97 @@
       "status": "published",
       "source": "editor-research-2026-09-17",
       "published_slug": "homestar-runner-still-updating"
+    },
+    {
+      "title": "Why Montgomery Ward Failed and Who Owns It Now",
+      "slug": "montgomery-ward-failed-who-owns-it",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Money & Tech"
+      ],
+      "angle": "The company that invented mail order closed its own catalog in 1985, filed Chapter 11 in 1997 under GE Capital, shut all 250 stores after Christmas 2000, and now exists only as a Colony Brands website.",
+      "target_keywords": [
+        "why did montgomery ward fail",
+        "is montgomery ward still in business",
+        "who owns montgomery ward now",
+        "when did montgomery ward close"
+      ],
+      "status": "published",
+      "source": "editor-research-2026-09-18",
+      "published_slug": "montgomery-ward-failed-who-owns-it"
+    },
+    {
+      "title": "What Happened to SkyMall, the Seat-Pocket Catalog?",
+      "slug": "skymall-catalog-bankruptcy-today",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Internet Culture"
+      ],
+      "angle": "The in-flight catalog that sold garden yetis went bankrupt in January 2015 once phones and wifi reached every seat back; who bought the name and what it is now.",
+      "target_keywords": [
+        "what happened to skymall",
+        "is skymall still around",
+        "skymall bankruptcy",
+        "who owns skymall now"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-18"
+    },
+    {
+      "title": "Do They Still Make Floppy Disks? The 2026 Answer",
+      "slug": "floppy-disks-still-made-today",
+      "persona": "theo",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "Sony stopped making 3.5-inch disks in 2011, yet airlines, embroidery machines and industrial controllers still run on them; who supplies the remaining stock and what it costs.",
+      "target_keywords": [
+        "do they still make floppy disks",
+        "are floppy disks still used",
+        "where to buy floppy disks",
+        "when did floppy disks stop being made"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-18"
+    },
+    {
+      "title": "Is Windows Movie Maker Still Available in 2026?",
+      "slug": "windows-movie-maker-still-available",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Then vs Now"
+      ],
+      "angle": "Microsoft retired Movie Maker in January 2017, the fake download sites that followed, and what actually replaces it on Windows 11 for free.",
+      "target_keywords": [
+        "is windows movie maker still available",
+        "windows movie maker download 2026",
+        "what replaced windows movie maker",
+        "when did windows movie maker end"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-18"
+    },
+    {
+      "title": "What Happened to the Sega Nomad Handheld Genesis?",
+      "slug": "sega-nomad-handheld-genesis",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Hardware"
+      ],
+      "angle": "Sega's 1995 portable Genesis, its battery appetite, why it never left North America, and what a working unit costs second-hand now.",
+      "target_keywords": [
+        "what happened to the sega nomad",
+        "sega nomad price",
+        "is the sega nomad worth it",
+        "sega nomad battery life"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-18"
     }
   ],
   "priority_3_niche_authority": [
