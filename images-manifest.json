@@ -1783,6 +1783,11 @@
   "thumb": "/img/thumb/sunnyvale-frys-electronics-81f77c.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Napa_Valley_grapevines.jpg/960px-Napa_Valley_grapevines.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Napa_Valley_grapevines.jpg",
+  "http": 404,
+  "status": "missing"
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nasdaq_Composite_dot-com_bubble.svg/960px-Nasdaq_Composite_dot-com_bubble.svg.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Nasdaq_Composite_dot-com_bubble.svg",
   "ext": "png",
@@ -1891,6 +1896,11 @@
   "status": "ok",
   "thumb": "/img/thumb/atari-jaguar-console-set-955f89.png",
   "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Konami_code_google.png/960px-Konami_code_google.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Konami_code_google.png",
+  "http": 404,
+  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pioneer_CLD-D703.png/960px-Pioneer_CLD-D703.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Pioneer_CLD-D703.png",
@@ -2141,6 +2151,11 @@
   "thumb": "/img/thumb/nokia-3310-grey-front-tidied-and-enhanced-f49284.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Windows_95_at_first_run.png/960px-Windows_95_at_first_run.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Windows_95_at_first_run.png",
+  "http": 404,
+  "status": "missing"
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kay-Bee_mascot.jpg/960px-Kay-Bee_mascot.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Kay-Bee_mascot.jpg",
   "ext": "jpg",
@@ -2230,6 +2245,11 @@
   "status": "ok",
   "thumb": "/img/thumb/close-boston-market-restaurant-104722.jpg",
   "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Napa_Valley_grapevines.jpg/800px-Napa_Valley_grapevines.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Napa_Valley_grapevines.jpg",
+  "http": 404,
+  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Zune_120_gb_accessories.JPG/960px-Zune_120_gb_accessories.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Zune_120_gb_accessories.JPG",
@@ -2440,6 +2460,11 @@
   "status": "ok",
   "thumb": "/img/thumb/sega-genesis-mk2-motherboard-01-5948e7.jpg",
   "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Virtual-Boy-wController.png/800px-Virtual-Boy-wController.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-wController.png",
+  "http": 404,
+  "status": "missing"
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/IMac_Bondi_Blue.jpg/960px-IMac_Bondi_Blue.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:IMac_Bondi_Blue.jpg",

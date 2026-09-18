@@ -8401,9 +8401,6 @@ Over the next six years, three companies would burn through more than $200 milli
 
 This is the story of how three companies tried to do the same thing at the same time, why they all failed for the same reason, and how a quieter operator with less money ended up owning the category.
 
-  
-  
-
 ## The Original: Virtual Vineyards Goes Live
 
 Virtual Vineyards launched in 1995 in Los Altos, California. The company was founded by Robert Olson, who had recently left a job at Silicon Graphics where he had managed a marketing team building software for interactive television, and Peter Granoff, his brother in law and the 15th American to earn the title of Master Sommelier in 1991. They were joined by information architect Harry Max.
@@ -8773,9 +8770,6 @@ Look, the lesson here is one of the cleanest case studies in the dangers of mism
 ## The Slow Death of NCSA Mosaic
 
 NCSA officially discontinued development of Mosaic in January 1997. The team that had built it was long gone. The market had moved entirely to Netscape and Internet Explorer. The original codebase had been licensed to Spyglass, modified into Internet Explorer, and was about to enter the most consequential antitrust battle in the history of the software industry. Mosaic itself, the program, had become a historical artifact within four years of its initial release.
-
-  
-  
 
 NCSA still maintains a Mosaic archive page on its website. The original FTP server is long gone, but copies of the code float around in the usual places. Running Mosaic in 2026 is technically possible, although you have to either find an old machine, run an emulator, or compile the source against modern libraries. The web it was designed to render is also, in a sense, gone. Modern websites assume CSS, JavaScript, video, fonts, layout engines, and security models that Mosaic was not built to handle.
 
@@ -9931,9 +9925,6 @@ Here's the problem with hardware: it doesn't matter how clever your technology i
 The best game on the system, by most accounts, was Wario Land: Virtual Boy. Which is funny because even in 1995, when Wario was still relatively young as a character, the fact that your flagship title was a Wario game instead of a Mario game said something about the console's positioning. This wasn't the main event. This was a spinoff. In some regions, Mario Tennis shipped as the pack-in title, which was fine but also felt like an attempt to create legitimacy through familiar branding rather than through actual innovation.
 
 But here's the thing about the Virtual Boy's software library: it wasn't small because Nintendo couldn't develop games. It was small because developers saw where this was headed almost immediately. You know what it takes to get people excited about buying a console? You need a pipeline of games. You need developers pumped up about the technology. You need momentum. The Virtual Boy had none of that. Even Nintendo's own internal teams seemed confused about what this thing was supposed to be. You could feel it in the software. There was nothing that felt essential, nothing that felt like it could only exist on the Virtual Boy. Everything felt like a demo. Everything felt like a proof of concept. And in the consumer market, proof of concept doesn't translate to sales.
-
-  
-  
 
 ## The Red Monochrome Headache That Wouldn't Go Away
 
@@ -16076,9 +16067,6 @@ By 2005, Google had built a product around this idea. It was called Google Reade
 Then Google killed it. The backlash was enormous, the petitions gathered hundreds of thousands of signatures, and none of it mattered. Google Reader shut down on July 1, 2013, and the way millions of people consumed information on the internet changed permanently.
 
 The question worth asking isn't just why Google killed it. It's what we lost when they did.
-
-  
-  
 
 ## Built in 20% Time, Loved by Millions
 
