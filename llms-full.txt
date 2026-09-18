@@ -7198,129 +7198,90 @@ The original five-gallon bucket cache included a logbook and pencil, two CD-ROMs
 
 ---
 
-# What Happened to the Nintendo Power Glove: 1989's Worst Best Toy
+# Why the Power Glove Failed but Never Really Died
 
 URL: https://404memoryfound.com/posts/what-happened-to-nintendo-power-glove.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-05-12
+Published: 2026-05-12  Updated: 2026-09-18
 Topics: Gaming, Hardware
 
-Picture this: December 1989. You are 11 years old, standing in the toy aisle of a Toys R Us (https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html) in the San Fernando Valley, and you are looking at a cardboard box that promises the future. On the front, a kid in a striped shirt is wearing what looks like a robotic gauntlet, his fingers flexed, his eyes locked on a TV screen showing Mike Tyson's Punch-Out. The box says POWER GLOVE in chunky 1980s lettering, and underneath, in smaller text: "Now you can step into the game."
+**Summary:** The Power Glove was a motion controller Mattel released for the NES in October 1989 at about $100, and it was off store shelves by 1990 because its ultrasonic tracking was too imprecise to improve any NES game. Nintendo never designed it, the marketing firm Abrams/Gentile Entertainment licensed it, and only two games ever used its extra moves. In 2026 it is a collector item and a maker platform, with loose units near $100 and boxed ones above $200.
 
-You did not need any more convincing than that. You were already gone.
+**Key facts:**
+- Launched: October 1989, Mattel in the US and PAX in Japan
+- US price: About $100, near $200 in 2020 dollars per ACMI
+- Units sold: 1.3 million worldwide per co-creator Chris Gentile, 600,000 of them in Japan
+- Discontinued: 1990, after roughly one year on shelves
+- Status today: Collector item and maker platform, about $100 loose and $216 boxed on PriceCharting in 2026
 
-The Nintendo Power Glove was, depending on who you ask, either the coolest thing that ever happened to gaming or the most embarrassing accessory ever attached to a beloved console. Both things are true. It cost about $100 in 1989 money, which is roughly $250 today, and it barely worked. It had a feature film built around it. It moved real units. And it lasted about a year on shelves before it disappeared into the same closet where the Virtual Boy (https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html) would eventually go to die.
+## How did a $10,000 lab glove become a $100 toy?
 
-  
-  
+The Power Glove descends from the VPL DataGlove, a research instrument sold to labs and simulation programs in the late 1980s. Its core idea came from Thomas G. Zimmerman, who filed a patent on a bend sensor for a glove on September 29, 1982. It was granted on September 17, 1985 as US 4,542,291, "Optical Flex Sensor," and the abstract describes electronics that "detect a combination of direct light rays and reflected rays when the flexible tube is bent."
 
-Here's the thing nobody tells you about the Power Glove. The technology was actually real. It was based on a serious piece of academic work called the Data Glove, designed by Thomas G. Zimmerman in the early 1980s, with later refinements by Jaron Lanier and the team at VPL Research. That glove cost around $9,000 and was used in NASA simulations and medical research. The version on your hand at Toys R Us was a $100 plastic toy descendant of that, and somehow Mattel and a company called Abrams/Gentile Entertainment, or AGE, talked themselves into believing they could ship it as a Christmas product.
+Zimmerman built the first version himself. "I built a glove with an optical sensor that could pick up finger bends," he told Mental Floss in 2017. In the same oral history, VPL co-founder Jaron Lanier put the research version's price plainly: "The glove went for about $10,000."
 
-## How a Research Tool Became a Toy
+Nintendo licensed the consumer rights to Abrams/Gentile Entertainment, a New York marketing firm, and never designed the product itself. Mattel manufactured it for the United States and PAX handled Japan. The engineering brief was brutal. AGE co-founder Chris Gentile told Mental Floss the job "became about taking a $10,000 device and turning it into $26 worth of materials," and that "we had about nine months to get it done."
 
-The story actually starts in 1988. AGE was a New York based toy design and licensing shop, co-founded in 1986 by Marty Abrams, John Gentile, and Anthony Gentile, the kind of company that pitched concepts to bigger toy companies and took licensing deals. They had this idea: take the basic principle of the VPL Data Glove, strip it down to a fraction of the cost, and sell it as a controller for the NES. Nintendo, surprisingly, did not actually design or develop the Power Glove. They licensed the name and the official seal of approval, and Mattel handled manufacturing and distribution in North America. In Japan, a company called PAX handled it.
+## How was the Power Glove supposed to work?
 
-The way it worked was clever, in theory. Inside the glove were bend sensors made of conductive ink printed on flexible plastic strips. When you curled your fingers, the resistance of the ink changed, and the glove could read which fingers were bent. On top of the glove was a small block that broadcast ultrasonic pulses, and you mounted three small microphones in an L shape around your TV. The microphones listened for the pulses and triangulated the glove's position in 3D space. In a perfect world, you flexed your fingers and moved your hand, and Mario punched, jumped, ran. In the real world, you sat on the carpet of your parents' living room in North Hollywood with a glove on, your three microphones on a wonky cardboard frame, and you spent twenty minutes trying to make the calibration screen stop yelling at you.
+Two systems ran at once. Ultrasonic speakers on the glove pinged receivers mounted around the television, and the console worked out where your hand was by triangulating those pings. Separately, bend sensors ran along four fingers, the pinky excluded, so the glove could tell a fist from an open hand.
 
-And here's where it gets interesting. The Power Glove technically did do what it claimed. Sometimes. If you were sitting at exactly the right distance, with exactly the right lighting, with no fans running, with the microphones on a perfectly flat surface, with your fingers held in unnatural positions, it could read your gestures. Most of the time, you ended up using the forearm keypad as a regular controller, because the actual glove part was unreliable. The keypad had the standard NES buttons plus a row of programmable shortcut buttons. So a $100 controller mostly worked like a $20 controller, except heavier and weirder.
+The cost cutting landed on both halves. The lab glove's fiber optic sensors were swapped for cheap resistive strips, and the fine positional resolution that made the DataGlove useful in simulation work did not survive the trip to a $100 retail price. What reached kids in October 1989 was a plastic forearm brace with a directional pad, A and B buttons, and a numeric keypad used to punch in program codes, one per NES game, that mapped arm gestures onto ordinary button presses.
 
-## The Wizard, Or: How to Sell a Toy With a Movie
+Mattel engineer Will Novak told Mental Floss in 2017 that the ultrasonic triangulation genuinely worked, but that calibrating it was hard enough that no kid was ever going to bother. A controller needing a setup ritual before every session is a controller that loses to the one sitting next to it.
 
-If you grew up in 1989, you probably saw The Wizard. If you did not, here's the pitch: a Universal Pictures movie starring Fred Savage, riding the popularity of The Wonder Years, about a kid who travels across the country with his brother to compete in a national Nintendo video game championship. It came out December 15, 1989. It was, almost frame for frame, a 100 minute commercial for Nintendo. Super Mario Bros. 3 made its US debut on screen in that movie. Power Pad games got cameos. And then, in the back half, the villain character Lucas Barton rolls up to a tournament with a sneer and a black gauntlet, looks at Fred Savage's brother, and delivers what is now an immortal piece of cinema:
+## Did The Wizard sell more gloves than the ads?
 
-"I love the Power Glove. It's so bad."
+The Power Glove had a feature film working as its commercial. Universal released The Wizard on December 15, 1989, ten days before Christmas, with Nintendo hardware in nearly every act. The rival gamer Lucas Barton opens a steel briefcase, pulls on the glove, and delivers the line that outlived the product: "I love the Power Glove. It's so bad!"
 
-The line is iconic for being delivered with absolute, deadly seriousness, by an 11 year old, in a Universal Studios production, about a Mattel toy. It is one of the great cynical product placements of the era, and it also worked. The Wizard came out ten days before Christmas, and Mattel had timed the Power Glove rollout to ride that exact wave. By all accounts, the Power Glove did become one of the top selling toys of the 1989 holiday season. Wikipedia and a few oral histories put global sales at around one million units across its production run, with some sources placing US sales lower, around 100,000 units. The exact number is murky. What is clear is that Mattel sold more than they probably should have.
+Novak remembered the scene landing exactly as intended. "The kids were playing Rad Racer with it. 'Oh, it's so bad,'" he told Mental Floss. The film gave a peripheral almost nobody had used a demonstration that looked effortless, on a screen, to an audience of children with two weeks left to ask for it.
 
-## The Two Games Problem
+The trade press was already primed. In 1989, Design News ran a cover story that opened by telling readers to "Throw away your joysticks, kids," a line the Australian Centre for the Moving Image later quoted as the high-water mark of the hype. Nintendo had spent the decade rebuilding an industry that the NES pulled out of the 1983 crash (https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html), and in 1989 almost anything with its logo near it moved.
 
-Now, if you actually bought a Power Glove, here's what you discovered when you got it home and unwrapped it on Christmas morning. It worked, technically, with every NES game. The forearm keypad mapped to the standard NES buttons, so you could play Super Mario Bros. or The Legend of Zelda or Mike Tyson's Punch-Out. But the actual gesture features, the part the commercials kept hyping, only worked properly with games designed for it.
+## What went wrong once kids got it home?
 
-And how many games were designed for the Power Glove?
+Novak said Nintendo's own research showed a typical play session ran 90 to 120 minutes. "With the Glove, your arm would get tired after 15 or 20 minutes," he told Mental Floss. Holding an arm out at a television is exercise, and nobody had tested for that before the tooling was cut.
 
-Two.
+The software was worse. Only two titles, Super Glove Ball and Bad Street Brawler, were built around the glove, and neither shipped in the box. Both played fine with a normal controller, so the glove added nothing you could not already do. Caesar Filori of Nintendo gave Mental Floss the one sentence version: "There was no game experience that became better for having used the Glove."
 
-Just two. Super Glove Ball, a kind of 3D handball game where you flicked your wrist to bounce a ball around a court, and Bad Street Brawler, a side scrolling beat em up that originally launched without Power Glove support and was retrofitted to accept gesture inputs. That's it. Those are the only two games Mattel ever shipped that were actually built around the Power Glove. Neither of them was particularly good. Super Glove Ball was clever in concept and frustrating in execution. Bad Street Brawler felt like every other generic NES brawler, except now you were waving your arm around to do nothing in particular.
+Mattel executive Hall summed up the home experience for Mental Floss: "Your arm getting tired, you have no idea where the center is, there's no 3D. So you shove it into a closet." Mattel pulled the Power Glove from shelves in 1990, after roughly a year. It joined a short list of Nintendo era hardware that sold on promise and died on use, a pattern that repeated six years later with Nintendo's own Virtual Boy (https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html). Nobody cancelled the Power Glove in a press release. It simply stopped being reordered.
 
-You start to see the problem here. You spent $100, which was a serious chunk of money for an NES accessory in 1989, and you got two dedicated games, both mediocre, and a controller that mostly worked like a regular NES controller but heavier and angrier. The novelty wore off fast. By the spring of 1990, the Power Glove was on clearance racks. By the fall of 1990, Mattel had quietly pulled it from production.
+## How many Power Gloves were actually sold?
 
-  
-  
+The numbers depend on who is counting. Chris Gentile told Mental Floss that the debut at CES produced "700,000 orders," with Toys R Us (https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html) and Kmart (https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html) each committing to 100,000 units before a single consumer had touched one.
 
-## Why It Failed (And It Was Never Going to Work)
+On lifetime sales, Gentile's figure is the one from inside the company: "We sold a total of 1.3 million Gloves, including in Japan." His brother John Gentile put the Japanese share at 600,000 units, sold under the PAX brand rather than Mattel's. The Australian Centre for the Moving Image gives a higher estimate, roughly 2 million units and about $88 million in revenue.
 
-People love to argue about why the Power Glove flopped, but the honest answer is that it was several years too early for any of its ideas to actually work. The Wii's Wiimote in 2006 had Bluetooth, accelerometers, a gyroscope, and an infrared sensor bar, and even with all of that, it took Nintendo years of engineering to get motion controls to feel responsive. Kinect, in 2010, used a depth camera and machine learning algorithms running on the Xbox 360 hardware, and even that struggled with latency. The idea that a $100 plastic glove with conductive ink and three ultrasonic microphones could deliver convincing 3D motion control in 1989, running on an NES with 2 kilobytes of RAM, was always fantasy.
+Either way, the Power Glove was not a sales failure. It was a usage failure. The gloves moved at retail on the strength of a movie and a magazine cover, then stopped moving once the first wave of owners told their friends. That gap between units shipped and units used is why the accessory reads as a flop despite seven figures of sales.
 
-But here's the thing. It was beautiful fantasy. And that's what Mattel sold. The commercial showed a kid in his bedroom, his hand cocked back, throwing a virtual baseball, then catching one with a closing fist gesture. The box made it look like you were stepping into the game. The Wizard made it look like the future of competitive gaming. None of that was true. None of it worked. But every single 11 year old who saw that commercial during a Saturday morning cartoon block wanted one anyway.
+## What is a Power Glove worth in 2026?
 
-I had friends in 1989 and 1990 who got the Power Glove. I remember sitting on the floor of one buddy's house in Sherman Oaks, watching him try to calibrate it for forty five minutes while his mom yelled from the kitchen that dinner was getting cold. We never actually played a game with it that day. We played NES instead, with regular controllers, and the Power Glove sat on the coffee table like a museum piece. That was the Power Glove experience for most people. Excited unboxing, failed calibration, quiet disappointment, regular controllers from then on.
+PriceCharting tracks a loose NES Power Glove at $99.94 in September 2026, with a sale logged at $111.20 on August 15, 2026. Complete in box sits at $216.45, sealed examples run to $641, and a graded new one sold for $3,493.05. Condition of the foam and the ultrasonic receiver bar drives most of the spread, because both degrade in storage.
 
-## Nintendo's Accessory Era
+The more interesting market is the one that cuts them open. Hackaday has covered a decade of rebuilds: Dillon Markey converted a glove into a stop motion animation controller in 2015, Nolan Moore rebuilt one as a universal wireless HID that flew an AR Drone in 2016, Alessio Cosenza shipped a Bluetooth nine axis version called Power Glove Ultra in 2017, and Teague Labs bolted one to an HTC Vive the same year. The shell is comfortable, distinctive and cheap, which is exactly what a maker wants around modern sensors.
 
-To understand the Power Glove, you have to understand what Nintendo was doing in 1989, because Nintendo was on an accessory bender. The NES had been killing it in the United States since 1986. Super Mario Bros. had moved the console into living rooms across America. By 1989, the NES had become one of the dominant toy categories in America, in tens of millions of US homes by some industry estimates, and Nintendo was looking at every possible way to extend the platform.
-
-Some of these extensions worked. The Game Genie (https://404memoryfound.com/posts/what-happened-to-game-genie-galoob-cheat-device.html), made by Galoob, was technically an unlicensed cheat cartridge, but it sold by the truckload. The Game Boy (https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html) launched in 1989 and became a phenomenon. Some of the extensions did not work. The Power Pad, a floor mat with pressure sensors, sold reasonably well but was supported by a handful of forgettable games. R.O.B., the Robotic Operating Buddy that had launched alongside the NES in 1985, was already a curiosity by 1989. Only two games supported R.O.B., Gyromite and Stack-Up, and the robot was used mostly as a marketing tool to convince retailers that the NES was a toy and not a video game console, since the video game category was still recovering from the 1983 crash.
-
-The Power Glove fit into this lineage perfectly. It was a high concept, high visibility, high margin accessory that Nintendo could point to as evidence that the NES was still innovating, three years into its US life cycle. It did not really matter whether the Power Glove worked. What mattered was that it existed on shelves, in commercials, and in the imagination of every kid who saw the box. Nintendo got the brand halo without having to engineer the product. Mattel took the manufacturing risk. AGE took the design risk. Nintendo took the licensing fee.
-
-From a pure business strategy standpoint, this was actually brilliant. Nintendo's risk on the Power Glove was minimal. They licensed their brand and seal of quality, and they would collect royalties on every unit sold. If the Power Glove succeeded, great, Nintendo looked like an innovator. If it failed, Mattel took the inventory hit and Nintendo's reputation was insulated by the fact that they technically did not make it. Look at the back of the box. It says "Mattel" in large letters. Nintendo's name appears as a licensor.
-
-## The Christmas of the Calibration Screen
-
-If you were a kid who got a Power Glove for Christmas 1989, the experience went like this. You woke up early. You unwrapped the box. You stared at the gauntlet for a solid five minutes before doing anything else, because it was the most beautiful piece of plastic you had ever seen. Then your dad, who was an engineer, or your mom, who was an office manager, or your older cousin, who was 14 and impatient, sat down to help you set it up.
-
-First problem. The three ultrasonic microphones had to be mounted on a frame around your TV. The frame was a flimsy plastic L bracket that fit around CRT television sets of the era. If your TV was the standard 19 inch console, fine. If your TV was a 27 inch wood paneled monster, less fine. The microphones had to be exactly perpendicular and exactly the right distance apart, and any kid who has tried to mount anything in any orientation knows how that goes.
-
-Second problem. The calibration. You had to start a calibration routine, hold your hand in specific positions, and let the glove read the bend sensors and the ultrasonic positions. The calibration screen was unforgiving. If you sneezed, you started over. If your dog walked through the room, you started over. If the fluorescent kitchen light was on, the ultrasonic signal got noisy and you started over. I have heard stories from people who spent literally hours trying to calibrate the Power Glove the first time, only to give up and use the forearm keypad for the rest of its short life in their house.
-
-Third problem. Even when it worked, the gestures were not intuitive. The bend sensors could distinguish four positions per finger: fully extended, slightly bent, more bent, fist. The forearm keypad let you map combinations of finger positions to standard NES button inputs. So to press the A button, you might have to make a partial fist. To press B, you might have to extend your index finger. To press Start, you might have to do some specific multi finger pose. After a few hours of play, your hand cramped. The novelty died fast.
-
-This is why so many Power Gloves ended up in closets by spring 1990. The dream survived contact with the carpet of your parents' living room for about a week. After that, the regular NES controller went back into rotation, and the Power Glove sat on the shelf next to the unused exercise bike.
-
-## The Strange Afterlife of a Failed Toy
-
-Here's where the story gets weird. The Power Glove was a commercial disappointment by 1990. It was a punchline by 1995. But starting in the late 1990s and early 2000s, something strange happened to it. It became a cultural icon.
-
-The reasons are layered. Part of it is The Wizard line, which lived on as a meme for decades before memes were really a thing. Part of it is that the Power Glove looks incredibly cool. The black gauntlet, the keypad on the forearm, the silver trim, the glowing buttons. It looks like something out of a William Gibson novel, or RoboCop, or any cyberpunk movie from 1987. It is a perfect aesthetic object even when it is a terrible product.
-
-And part of it is that hobbyists fell in love with it. Starting in the early 2000s, hackers and makers began taking Power Gloves apart, swapping out the original ultrasonic hardware for modern sensors, and using them as MIDI controllers, robotic arm controllers, even VR interfaces. The Power Glove of Love, a project by music producer Nolan Moore, modded a Power Glove into a serious instrument and toured with it. Other modders built Bluetooth Power Gloves that could control modern PCs.
-
-The original product was a failure. The artifact, the cultural object, refused to die. Today you can find Power Gloves on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html) in good condition for $150 to $300, more than they cost new. Sealed in box examples have gone for over $1,000. There are documentaries about it, including The Power of Glove from 2017, which is genuinely worth watching if you want to understand how a toy this broken became this beloved.
-
-## What the Power Glove Actually Got Right
-
-It is too easy to laugh at the Power Glove, and people have been doing it for 35 years. But step back for a second. In 1989, almost three decades before Oculus shipped a consumer VR headset, a major toy company looked at academic research on data gloves and decided to put one in millions of American homes. They did not have the technology to make it work. They did not have the software. They did not have the processing power. They tried anyway. They made it cheap enough that kids could own one. And they baked the dream of motion controlled gaming into the brain of an entire generation.
-
-When the Wii came out in 2006 and sold 100 million units, the people who designed it had played with Power Gloves as kids. When the Kinect launched, the engineers were old enough to remember the commercials. The Power Glove was a failed product that planted a seed. It told an entire generation of kids that someday you would not need a controller. You would just move your hand. And then, two decades later, a different generation made that happen.
-
-So yes. The Power Glove was bad. The Power Glove was so bad. But also, in a way that is only visible in hindsight, the Power Glove was right. It just shipped in the wrong year.
+Where to find one today: working loose units turn up in the $100 to $150 range and boxed ones above $200, so expect to pay more than a Wii and its motion controllers (https://404memoryfound.com/posts/what-happened-to-nintendo-wii.html) for something that does far less. Retro specialists such as Stone Age Gamer's NES accessories shop (https://stoneagegamer.com/nintendo/nes/accessories/) are the safer route than an untested auction listing, since the failure points are internal.
 
 ## Frequently Asked Questions
 
-How much did the Power Glove cost in 1989?
+### Does the Power Glove still work on an NES today?
 
-The Power Glove retailed for around $75 to $100 at launch in 1989, with prices varying by retailer. Adjusted for inflation, that is roughly $190 to $250 in 2026 dollars (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html). It was one of the more expensive NES accessories of the era.
+A Power Glove from 1989 will still plug into an original NES and register button presses, since the wired controller portion is simple and durable. The ultrasonic motion tracking is the part that fails, because the receiver bar and the glove's sensors drift with age and the system needed careful calibration even when new. Most 2026 owners use them as display pieces or donor hardware rather than controllers.
 
-Who actually made the Power Glove?
+### How many games used the Power Glove?
 
-The Power Glove was designed by Abrams/Gentile Entertainment in New York, manufactured and distributed by Mattel in North America, and distributed by PAX in Japan. Nintendo licensed the official seal of approval but did not design or develop the accessory itself. The underlying technology was based on the Data Glove research by Thomas G. Zimmerman and later commercialized by VPL Research.
+Only two NES games were designed around the Power Glove: Super Glove Ball and Bad Street Brawler, both from 1990. Neither was packaged with the glove, and both were fully playable with a standard NES controller, so the glove-specific moves were optional. Every other NES game had to be driven through numeric program codes that translated arm motion into ordinary button presses.
 
-How many games were made for the Power Glove?
+### Who invented the Power Glove?
 
-Only two games were specifically designed with Power Glove support: Super Glove Ball and Bad Street Brawler. Every other NES game could technically be played using the forearm keypad, which mimicked a standard NES controller, but no other titles took advantage of the gesture features.
+The underlying bend sensing technology came from Thomas G. Zimmerman, whose optical flex sensor patent was filed in 1982 and granted in 1985, and from the VPL DataGlove he developed with Jaron Lanier. The consumer version was designed by Abrams/Gentile Entertainment under a Nintendo license and manufactured by Mattel for the 1989 US launch. Nintendo itself did not design the Power Glove.
 
-Why did the Power Glove fail?
-
-The Power Glove failed because the technology was not mature enough to deliver on the marketing. The bend sensors were unreliable, the ultrasonic positioning system needed nearly perfect conditions, only two games supported the gesture features, and the controller was uncomfortable and difficult to calibrate. Reviews and word of mouth quickly turned negative after Christmas 1989, and Mattel discontinued the product in 1990.
-
-Is the Power Glove worth anything today?
-
-Yes, surprisingly. A used Power Glove in working condition typically sells for $150 to $300 on eBay as of 2026, and sealed in box examples can sell for over $1,000 to collectors. There is also a vibrant modding community that turns Power Gloves into MIDI controllers, robotic interfaces, and Bluetooth controllers for modern PCs.
-
-What is the famous Power Glove line from The Wizard?
-
-The line is delivered by the antagonist Lucas Barton in the 1989 film The Wizard, played by Jackey Vinson. Lucas, decked out in his Power Glove, looks at the protagonist and says with complete seriousness: "I love the Power Glove. It's so bad." It has become one of the most quoted lines in 1980s gaming history and a perfect summary of the product itself.
-
+**Sources:**
+- An Oral History of Nintendo's Power Glove, Mental Floss (2017): https://www.mentalfloss.com/article/91939/losing-their-grip-oral-history-nintendos-power-glove
+- US Patent 4,542,291, Optical Flex Sensor, Thomas G. Zimmerman: https://patents.google.com/patent/US4542291A/en
+- The promise of the Nintendo Power Glove, Australian Centre for the Moving Image: https://www.acmi.net.au/stories-and-ideas/nintendo-nes-power-glove/
+- NES Power Glove price history, PriceCharting: https://www.pricecharting.com/game/nes/power-glove
+- Power Glove project archive, Hackaday: https://hackaday.com/tag/power-glove/
 
 ---
 
@@ -8061,7 +8022,7 @@ Nintendo of America was not just selling a console. It was building a media empi
 
 Before Nintendo Power, there was the Nintendo Fun Club newsletter, which had been free since 1987. And before that, there was the Nintendo Game Counselor hotline, a phone line you could call to get tips on stuck games. Kids ran up phone bills calling that hotline. Parents got the bills, and you would hear stories about hundreds of dollars of phone charges from a single weekend of trying to beat Battletoads.
 
-Then came the Nintendo World Championships in 1990, a multi-city tournament that Nintendo turned into the gaming equivalent of a Coca-Cola commercial. There was The Wizard, a 1989 film starring Fred Savage that was essentially a 100-minute advertisement for Super Mario Bros 3 and the Power Glove. The Power Glove itself was a colossal flop as a product, but a marketing win because it was so weird that it became iconic.
+Then came the Nintendo World Championships in 1990, a multi-city tournament that Nintendo turned into the gaming equivalent of a Coca-Cola commercial. There was The Wizard, a 1989 film starring Fred Savage that was essentially a 100-minute advertisement for Super Mario Bros 3 and the Power Glove (https://404memoryfound.com/posts/what-happened-to-nintendo-power-glove.html). The Power Glove itself was a colossal flop as a product, but a marketing win because it was so weird that it became iconic.
 
 Nintendo even ran a kids' show on Saturday mornings, The Super Mario Bros Super Show, which ran from 1989 to 1990 with live-action segments featuring Captain Lou Albano as Mario. The show was widely considered terrible. It also reinforced, in the brain of every American child watching cartoons in the bowl-of-cereal hour, that the Nintendo characters were celebrities.
 
