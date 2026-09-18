@@ -1880,6 +1880,16 @@
   "thumb": "/img/thumb/legoland-discovery-center-osaka-133538.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Montgomery_Ward_retail_store_at_the_Wonderland_Shopping_Center_in_San_Antonio%2C_Texas_c1963.jpg/960px-Montgomery_Ward_retail_store_at_the_Wonderland_Shopping_Center_in_San_Antonio%2C_Texas_c1963.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Montgomery_Ward_retail_store_at_the_Wonderland_Shopping_Center_in_San_Antonio%2C_Texas_c1963.jpg",
+  "ext": "jpg",
+  "file": "/img/montgomery-ward-retail-store-at-the-wonderland-shopping-cent-7565be.jpg",
+  "height": 1160,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/montgomery-ward-retail-store-at-the-wonderland-shopping-cent-7565be.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/960px-PSX-Console-wController.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:PSX-Console-wController.png",
   "ext": "png",
