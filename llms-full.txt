@@ -7589,7 +7589,7 @@ The lesson of Excite vs Google is not that George Bell was a bad CEO. The lesson
 
 ## The Other 1999 Decision: The @Home Merger
 
-While the Google offer was on the table, Excite was negotiating something far bigger. In January 1999, Excite agreed to merge with @Home Network, the country's largest broadband cable internet provider, in a deal valued at $6.7 billion in stock. The combined company became Excite@Home (https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html). George Bell became CEO of the combined entity. Tom Jermoluk, who had been running @Home, stayed on as chairman.
+While the Google offer was on the table, Excite was negotiating something far bigger. In January 1999, Excite agreed to merge with @Home Network (https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html), the country's largest broadband cable internet provider, in a deal valued at $6.7 billion in stock. The combined company became Excite@Home. George Bell became CEO of the combined entity. Tom Jermoluk, who had been running @Home, stayed on as chairman.
 
 The thinking behind the merger was elegant on paper. @Home had pipes. Excite had eyeballs. Cable broadband was about to change the home internet experience permanently. If you owned both the pipe into someone's house and the home page they saw when they opened their browser, you owned the most valuable real estate of the next decade. AT&T, which had a controlling stake in @Home through its acquisition of TCI in 1998, was a strategic backer.
 
@@ -16247,109 +16247,92 @@ The Nokia N-Gage, released on October 7, 2003, put its earpiece and microphone o
 
 ---
 
-# What Happened to Excite@Home? The $35 Billion Broadband Bet
+# Is Excite@Home Still Around? AT&T Took the Network
 
 URL: https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-04-01
+Published: 2026-04-01  Updated: 2026-09-19
 Topics: Business Blunders, Internet Culture, Money & Tech
 
-In the first quarter of 1999, a company called Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html)@Home traded at $128.34 per share. Its market capitalization reached $35 billion. It had more high-speed internet subscribers than any other company in the United States. Cable companies like AT&T, Comcast, and Cox were paying it to deliver broadband to their customers. Major advertisers were lining up. Wall Street analysts were calling it the backbone of the broadband revolution.
+**Summary:** Excite@Home is not still around. The company filed for Chapter 11 bankruptcy on September 28, 2001, and AT&T bought its broadband network for $307 million, less than three years after the stock peaked at $128.34 a share and a $35 billion valuation. The Excite portal outlived the company and still loads at excite.com in 2026, run by Ask Media Group for IAC.
 
-By the third quarter of 2001, the stock was worth $1. On October 1, 2001, Excite@Home filed for Chapter 11 bankruptcy protection. Two months later, a federal judge gave the company permission to shut down its network entirely, threatening to cut off internet access for roughly 4 million subscribers across North America. The whole arc, from $35 billion to bankruptcy court, took less than three years.
+**Key facts:**
+- Founded: @Home Network, 1995, by Milo Medin, William Randolph Hearst III and three cable operators
+- Peak: $128.34 a share and about $35 billion in Q1 1999; 4.1 million broadband subscribers
+- Status today: Gone. Chapter 11 on September 28, 2001; network switched off December 1, 2001
+- Owner today: excite.com is an IAC property, operated by Ask Media Group; search by System1
+- Network buyer: AT&T, $307 million in cash, later merged into Comcast
 
-The collapse of Excite@Home is one of the largest and least discussed disasters of the dot-com era. It did not involve a sock puppet or a fleet of orange delivery vans. It involved something far more consequential: the physical infrastructure of the American internet. And the story of how it fell apart reveals a set of mistakes that feel uncomfortably familiar to anyone watching the tech industry today.
+## How did @Home Network become a $35 billion company?
 
-  
-  
+@Home Network started in 1995 on a bet that cable television wiring, not the telephone line, was the fastest way into an American living room. Milo Medin built the engineering side. William Randolph Hearst III ran it as the first chief executive. The money came from Kleiner Perkins and from three cable operators that already had the lines in the ground: Tele-Communications Inc., Comcast and Cox Communications.
 
-## Two Companies That Should Never Have Merged
+The division of labor was clean. The cable companies installed the modems and billed the customer. @Home Network ran the network, the portal and the support. Subscribers got a connection that stayed on all day and moved data at rates no telephone modem could reach, which mattered enormously to anyone used to waiting on a 28.8k modem (https://404memoryfound.com/posts/dialup-speed-then-vs-now.html) to load a single page.
 
-To understand Excite@Home, you need to understand its two halves separately, because they were fundamentally different businesses that got stitched together for reasons that made sense on a spreadsheet and nowhere else.
+The company went public in 1997 and the stock did what broadband stocks did in the late 1990s. By the first quarter of 1999, At Home Corporation, as the filings called it, traded at $128.34 a share and carried a market capitalization of roughly $35 billion. It had about 330,000 broadband subscribers at the time, which works out to more than $100,000 of market value per customer.
 
-The first half was @Home Network, founded in 1995 by William Randolph Hearst III (yes, that Hearst family) and backed by cable giants TCI, Comcast, and Cox Communications. The premise was simple and, in retrospect, completely correct: cable television networks could deliver high-speed internet to homes at speeds that made dial-up look prehistoric. While most Americans in the mid-1990s were connecting at 28.8 or 56 Kbps, @Home could offer speeds of 1 to 3 Mbps over existing coaxial cable lines. That is roughly 50 times faster than a typical dial-up connection.
+## Why did @Home pay $6.7 billion for a losing search portal?
 
-@Home struck deals with the biggest cable operators in the country. Tele-Communications Inc. (TCI), Comcast, Cox Communications, Cablevision, and others signed on to let @Home deliver broadband through their cable infrastructure. @Home would handle the technology, the customer portal, and the content. The cable companies would handle installation and billing. It was a clean division of labor, and it worked. @Home went public in 1997 and the stock climbed steadily as broadband adoption accelerated.
+Excite was a search engine and web portal of the same 1995 vintage, competing with Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html) and AltaVista (https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html) for the job of being the first page anyone saw in the morning. It had the traffic. It did not have the profit.
 
-The second half was Excite, a web portal and search engine that had launched in 1995 alongside Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), AltaVista (https://404memoryfound.com/posts/what-happened-to-altavista-search-engine.html), and a dozen other players competing for the same basic proposition: be the first page people see when they open their browser. Excite offered search, email, news, stock quotes, chat rooms, and personalized homepages. By 1998, it was one of the top five most visited websites in the world. But it had a problem that every portal had: it was burning cash faster than advertising revenue could replace it.
+By December 1998, Excite was negotiating to sell itself to Yahoo for somewhere between $5.5 billion and $6 billion. The merger documents At Home Corporation later filed with the Securities and Exchange Commission describe what happened next: on December 19, at the prompting of Kleiner Perkins, @Home Network chairman and chief executive Thomas Jermoluk met Excite chairman and chief executive George Bell, and the two worked out a rival deal for Excite and its debt.
 
-In January 1999, @Home acquired Excite for approximately $6.7 billion in stock. The logic, as articulated by management, was that combining @Home's broadband network with Excite's portal would create a vertically integrated internet experience. Broadband subscribers would land on the Excite portal as their homepage, generating advertising revenue that would subsidize the cost of building out the network. The combined entity would own the pipe and the content flowing through it.
+The acquisition closed on January 19, 1999 at about $6.7 billion in stock, one of the largest mergers between two internet companies up to that point. The combined business took the public name Excite@Home while the shares kept trading as At Home Corporation.
 
-This is essentially what modern companies like Comcast (which owns NBCUniversal) and AT&T (which briefly owned WarnerMedia) tried to do twenty years later. The idea keeps coming back because it keeps sounding logical. It also keeps not working the way anyone expects.
+The theory was vertical integration. Own the pipe, own the homepage at the end of it, and sell advertising against subscribers you were already billing. Excite's separate life as a search engine (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html) ran on its own track and ended on its own terms.
 
-## The Math That Never Added Up
+## What did the dot-com crash do to the numbers?
 
-The merger created a company with an extraordinary market position and an equally extraordinary burn rate. Excite@Home was spending heavily on three fronts simultaneously: building out its broadband network infrastructure, running the Excite portal with hundreds of editorial and engineering staff, and marketing aggressively to attract both subscribers and advertisers.
+Subscriber growth was never the problem. Excite@Home went from roughly 330,000 broadband customers in early 1999 to more than 3.7 million by August 2001, and peaked at 4.1 million across the United States, Canada, Japan, Australia and the Benelux countries. Demand for cable broadband was real and it was compounding.
 
-The subscriber numbers looked good. Excite@Home grew its broadband customer base from roughly 330,000 in early 1999 to more than 3.7 million by August 2001. At its peak, the company served 4.1 million subscribers across the United States, Canada, Japan, Australia, and the Benelux nations. Growth was not the problem.
+Revenue was the problem. At Home Corporation booked about $616 million in sales for 2000 and lost $7.44 billion that year, against a $1.5 billion loss in 1999. Online advertising, the half of the model that was supposed to pay for the network buildout, went down with the startups that had been buying it.
 
-The problem was that Excite@Home did not actually control its most important asset: the cable lines. The company delivered broadband through infrastructure owned by its cable partners. Those partners, particularly AT&T (which had acquired TCI in 1999 for $48 billion), had increasing leverage over Excite@Home. AT&T was simultaneously the company's largest shareholder, its biggest distribution partner, and its most likely competitor. This created a conflict of interest so obvious that it is remarkable nobody treated it as a dealbreaker before the merger closed.
+Each quarter of 2001 was worse than the one before. Excite@Home lost $832.6 million in the first quarter, $346.3 million in the second and $271.3 million in the third, when sales fell to $138.4 million from $169.9 million a year earlier. A company once valued at $35 billion was burning more cash in a single quarter than it collected in revenue across a full year.
 
-AT&T had its own broadband ambitions. It did not want to be dependent on Excite@Home forever. And as Excite@Home's financial position weakened, AT&T had less and less incentive to bail it out. When Excite@Home's management asked AT&T for a cash infusion in August 2001, AT&T declined. This was the equivalent of your biggest customer and largest investor watching you drown and deciding not to throw the rope.
+## Why did AT&T refuse to save its own investment?
 
-## The Advertising Collapse
+Excite@Home never owned the cable. It rented access to lines that belonged to its partners, and after AT&T absorbed Tele-Communications Inc. the largest of those partners was also the company's controlling shareholder. A restructuring on August 28, 2000 lifted AT&T's voting control from 56 percent to 74 percent. By mid-2001, AT&T held 74 percent of the votes against a 23 percent equity stake.
 
-The dot-com bubble burst in March 2000, and the immediate casualty was online advertising. Hundreds of internet startups that had been spending aggressively on portal ads simply vanished. Excite@Home's advertising revenue, which was supposed to be the engine that made the whole model work, cratered. The company reported quarterly losses of $832.6 million in Q1 2001 and $346.3 million in Q2 2001. These are staggering numbers. To put them in perspective, the entire annual revenue of Excite@Home in 2000 was approximately $640 million. The company was losing more money in a single quarter than it made in an entire year.
+That is an awkward position for everyone involved: enough control to steer the company, not enough ownership to lose much if it died. AT&T was also building its own broadband business and had no lasting reason to keep paying a middleman for access to its own wires. When Excite@Home needed cash in 2001, AT&T did not provide it.
 
-The portal side of the business was particularly brutal. Excite had never been the market leader. Yahoo was bigger. AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) had more users. Google, which had launched in 1998, was quietly eating the search market alive with a cleaner interface and better results. Excite's search technology was adequate but not exceptional, and in a market where "adequate" was free, there was no reason for users to be loyal. The portal's traffic declined steadily throughout 2000 and 2001 as users migrated to competitors.
+Excite@Home filed for Chapter 11 protection in the U.S. Bankruptcy Court for the Northern District of California on September 28, 2001, and announced the filing on October 1. Chief executive Patti Hart called it "a tool to protect the value of the broadband business," and the same announcement set out a deal to sell that business to AT&T for $307 million in cash. That is close to one percent of the 1999 peak valuation.
 
-  
-  
+## How did 850,000 customers lose service overnight?
 
-## The Bankruptcy and the Blackout Threat
+The creditors did not think $307 million was enough. Their leverage was the network itself, and they used it. In court papers, Excite@Home accused them of wanting to "play a 'game of chicken' in which the threat of a blackout is used to extort" the cable companies into paying more for service.
 
-On October 1, 2001, Excite@Home filed for Chapter 11 bankruptcy protection with the U.S. Bankruptcy Court for the Northern District of California. The filing listed assets of $3 billion and debts of $1 billion. Within days, Cox Communications and Comcast announced they would migrate their broadband customers off the Excite@Home network by early 2002.
+The court let it happen. On November 30, 2001, Judge Thomas Carlson ruled that Excite@Home could reject its master distribution agreements with the cable operators, saying the contracts, which executives put at around $6 million a week, were "clearly burdensome." Negotiations with AT&T ran into Saturday morning and broke down. Service to about 850,000 AT&T customers went dark on December 1, 2001. Comcast and Cox Communications had already begun moving their own subscribers onto networks they controlled.
 
-Then came the part that made national news. On November 30, 2001, a federal bankruptcy judge gave Excite@Home permission to shut down its broadband network entirely. The company announced it would pull the plug on February 28, 2002, unless its cable partners agreed to pay higher fees for continued service. This was not an abstract corporate negotiation. It meant that roughly 4 million people, many of whom had no alternative broadband provider, could lose their internet access.
+The remaining 1,350 employees were laid off over the following months. The estate kept litigating for years. In May 2005, AT&T agreed to pay $340 million to settle claims brought by the At Home Corporation bondholders' liquidating trust, with Comcast reimbursing half of that amount; the trust put its total recovery at about $400 million once reserved funds were released.
 
-AT&T scrambled to buy the @Home network infrastructure. On December 1, 2001, AT&T reached a deal to acquire the network for $307 million in cash. For context, the company that built and operated that network had been valued at $35 billion less than three years earlier. AT&T paid less than one percent of the peak valuation. The deal allowed AT&T to transition its broadband customers to its own service (which would eventually become AT&T Broadband, later acquired by Comcast in 2002 for $72 billion).
+## Who owns Excite today, and is the site still up?
 
-The remaining 1,350 Excite@Home employees were laid off over the following months. The Excite portal limped along under various owners. It was sold to iWon.com in 2002, then passed through several more hands. As of 2025, excite.com still exists as a minor web portal, a ghost of a site that once attracted 20 million monthly visitors.
+Excite@Home the company does not exist in 2026. The two assets it held went in opposite directions.
 
-## What Went Wrong: The Three Fatal Mistakes
+The network went to AT&T and became AT&T Broadband. On December 19, 2001, AT&T announced a $72 billion merger of that unit with Comcast, covering more than 22 million subscribers, and the deal closed in November 2002. The coaxial plant @Home Network helped light up in the late 1990s is part of what Comcast sells as Xfinity today, which is the closest thing to a happy ending in this story.
 
-The first mistake was the merger itself. @Home was a strong infrastructure company. Excite was a struggling portal. Combining them created a company that was trying to do two very different things at once, and doing neither well. The integration consumed management attention, generated cultural clashes between the engineering-focused @Home team and the media-focused Excite team, and saddled a capital-intensive infrastructure business with the overhead of a content operation that was losing money.
-
-The second mistake was the dependency on cable partners. Excite@Home built its entire business on infrastructure it did not own. When the cable companies decided they wanted to control their own broadband destiny, Excite@Home had no leverage. The company's relationships with its distribution partners were contractual, not structural. When the contracts became inconvenient, the partners walked away. This is a lesson that every platform business eventually learns: if you do not own the distribution layer, you are always one negotiation away from irrelevance.
-
-The third mistake was timing combined with capital structure. Excite@Home raised most of its money through stock-based transactions during the bubble, when valuations were inflated. When the bubble burst, the stock collapsed, eliminating the company's ability to raise new capital or make acquisitions. The burn rate, which was tolerable at a $35 billion valuation, became fatal at a $1 billion valuation. The company had no path to profitability that was fast enough to outrun its cash depletion.
-
-## The Modern Parallel Nobody Wants to Acknowledge
-
-Look at the streaming wars of the 2020s. Companies spent billions building content libraries and distribution platforms, assuming that subscriber growth would eventually justify the investment. Many of them lost staggering amounts of money for years. The logic was identical to Excite@Home's: build the infrastructure, attract the users, monetize through advertising and subscriptions. The main difference is that modern companies have access to deeper capital markets and more patient investors. The underlying bet, spending heavily now to dominate a market that does not yet generate enough revenue to sustain you, is the same.
-
-Excite@Home also prefigured the ongoing tension between platforms and infrastructure owners. Netflix depends on ISPs it does not control. Spotify depends on record labels it does not own. Every SaaS company depends on cloud providers like AWS, Azure, or Google Cloud. The lesson from Excite@Home is that when your business model depends on a partner who could also be your competitor, the relationship has an expiration date. It is just a question of when, not if.
-
-## What Survived
-
-The @Home network itself survived in a different form. AT&T absorbed the infrastructure, Comcast eventually acquired AT&T Broadband, and the physical network that @Home built became part of the backbone of modern American broadband. Millions of people who use Comcast's Xfinity service today are, in a very real sense, using infrastructure that traces back to @Home's original buildout in the late 1990s.
-
-The Excite search engine effectively died. Its technology was not acquired by any major player. Google, which Excite had famously been offered the chance to acquire for $750,000 in 1999 (a deal that Excite's venture capital firm Kleiner Perkins brokered but that fell apart over price), went on to become the most valuable advertising company in history. That near-miss is sometimes cited as the worst deal that never happened in Silicon Valley, though the details of the negotiation vary depending on who tells the story.
-
-The broader legacy of Excite@Home is cautionary. It demonstrated that being early to a market does not guarantee survival, that vertical integration between content and distribution creates more problems than it solves, and that growth without a sustainable business model is just a more expensive way to fail. The company was right that broadband would transform the internet. It was right that high-speed access would become a utility. It was wrong about nearly everything else.
+The portal changed hands more often. Excite was sold to iWon in 2002, iWon's business was folded into Ask Jeeves, and Ask Jeeves was acquired by IAC. In 2026, excite.com still loads. It is operated by Ask Media Group on behalf of Ask Applications, an IAC business, and its search results are supplied by System1. There is no Excite crawler and no Excite index behind the box. The same parent company shut Ask.com (https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html) down in 2026, which is a fair measure of how much of that business is left.
 
 ## Frequently Asked Questions
 
-## What was Excite@Home and when did it form?
+### What happened to Excite@Home?
 
-Excite@Home was created in January 1999 when @Home Network, a broadband internet service provider, acquired the Excite web portal and search engine for approximately $6.7 billion in stock. The combined company aimed to offer both high-speed internet access and web content through a single integrated platform. At its peak, it had a market capitalization of $35 billion and served 4.1 million broadband subscribers.
+Excite@Home, the broadband company created when @Home Network bought the Excite portal in January 1999, filed for Chapter 11 bankruptcy on September 28, 2001. AT&T agreed to buy its broadband network for $307 million, and the service was switched off on December 1, 2001, cutting off roughly 850,000 AT&T customers.
 
-## Why did Excite@Home go bankrupt?
+### Who owns excite.com now?
 
-Excite@Home filed for Chapter 11 bankruptcy on October 1, 2001, due to a combination of factors: the collapse of online advertising revenue after the dot-com bubble burst, unsustainable operating losses (over $800 million in a single quarter), dependency on cable partners who controlled the physical infrastructure, and the inability to raise new capital after its stock price crashed from $128 to $1 per share.
+excite.com is an IAC property in 2026, operated by Ask Media Group on behalf of Ask Applications. The portal passed through iWon and Ask Jeeves after Excite@Home's 2001 bankruptcy, and its search results are now supplied by System1 rather than by any Excite index of its own.
 
-## How many subscribers did Excite@Home have?
+### How much was Excite@Home worth at its peak?
 
-At its peak, Excite@Home served approximately 4.1 million broadband subscribers across the United States, Canada, Japan, Australia, and the Benelux nations. The subscriber base grew from roughly 330,000 in early 1999 to over 3.7 million by August 2001, demonstrating strong demand for broadband even as the company's finances collapsed.
+Excite@Home traded at $128.34 a share in the first quarter of 1999, for a market capitalization of about $35 billion. Less than three years later, AT&T bought the Excite@Home broadband network out of bankruptcy for $307 million, roughly one percent of that peak value.
 
-## What happened to Excite@Home's network after bankruptcy?
-
-AT&T purchased the @Home broadband network infrastructure for $307 million in December 2001. AT&T then integrated it into its own broadband service. In 2002, Comcast acquired AT&T Broadband for $72 billion, absorbing the former @Home infrastructure into what eventually became the Xfinity internet service used by millions today.
-
-## Did Excite almost buy Google?
-
-Yes. In 1999, Excite was reportedly offered the opportunity to acquire Google for approximately $750,000, a deal brokered by venture capital firm Kleiner Perkins. The acquisition fell apart during negotiations, reportedly over disagreements about price. Google went on to become one of the most valuable companies in history, making the failed deal one of the most cited near-misses in Silicon Valley history.
-
+**Sources:**
+- At Home Corporation press release on the Chapter 11 filing and AT&T transaction (SEC EDGAR, October 1, 2001): https://www.sec.gov/Archives/edgar/data/5907/000089882201500657/october1pressrel.txt
+- Excite@Home pulls the plug on AT&T cable Internet (Computerworld, December 2001): https://www.computerworld.com/article/1351764/excite-home-pulls-the-plug-on-at-t-cable-internet.html
+- Excite@Home company history (Encyclopedia.com): https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/excitehome
+- AT&T Reaches At Home Litigation Settlement (Comcast Corporation, May 2005): https://corporate.comcast.com/news-information/news-feed/att-reaches-at-home-litigation-settlement
+- AT&T Broadband to Merge with Comcast Corporation in $72 Billion Transaction (Comcast Corporation, December 2001): https://corporate.comcast.com/news-information/news-feed/att-broadband-to-merge-with-comcast-corporation-in-72-billion-transaction
 
 ---
 
