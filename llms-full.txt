@@ -15107,181 +15107,90 @@ The first iPod cost $399 when it went on sale on November 10, 2001, with a 5GB h
 
 ---
 
-# What Happened to Craigslist? The Ugliest Website Worth Billions
+# Is Craigslist Still Around in 2026? Who Owns It Now
 
 URL: https://404memoryfound.com/posts/what-happened-to-craigslist-ugliest-website-worth-billions.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-04-03
+Published: 2026-04-03  Updated: 2026-09-19
 Topics: Internet Culture, Money & Tech
 
-In 1995, a software engineer named Craig Newmark sent an email list to a few friends in San Francisco. By 2019, that list had generated roughly $1 billion in annual revenue. By 2025, it was pulling in $302 million. The site that disrupted the entire newspaper classified advertising industry looks almost identical to how it did three decades ago. This is the story of Craigslist: the ugliest website worth billions, and the slow-motion contraction of a company that refused to optimize.
+**Summary:** Craigslist is still in business in 2026, running local sites in more than 570 cities in over 70 countries. The company is private and held by founder Craig Newmark and chief executive Jim Buckmaster, who has run it since November 2000. Revenue has fallen from $1.034 billion in 2018 to $302 million in 2024, its lowest total since 2013.
 
-## The Email That Became an Empire
+**Key facts:**
+- Launched: 1995 as Craig Newmark's San Francisco email list; incorporated 1999
+- Status today: Still operating, in more than 570 cities in over 70 countries
+- Owner today: Private; founder Craig Newmark and CEO Jim Buckmaster
+- Revenue: $302 million in 2024, down from $1.034 billion in 2018 (AIM Group)
+- Price today: Most listings free; paid job ads in big metros are the largest revenue line
 
-Craig Newmark was born December 6, 1952, and spent time on early online communities like the WELL and Usenet before the web existed. In early 1995, he was working as a software engineer when he started forwarding apartment and job listings to friends via email. People asked him to add them to the list. He accommodated. The list grew.
+## Who owns Craigslist today?
 
-By 1996, it became a web-based classifieds board. By 1999, it was formally incorporated. The site had no business model to speak of. It ran on conviction that the internet should be useful and trustworthy. Newmark didn't charge for most listings. He kept running costs absurdly low. The site's infrastructure was minimal. The code was written in Perl. The design was intentionally sparse, almost hostile to visual flourish.
+Craigslist, Inc. is private. It has never sold shares to the public and it has no outside investors pushing it toward a sale. When the AIM (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html) Group's revenue estimate made headlines in January 2019, CNBC described the company as "wholly owned by founder Craig Newmark and CEO Jim Buckmaster," running on a staff of about 50 people in San Francisco.
 
-  
-  
+It was not always that tidy. In 2004 a rival online marketplace bought roughly a quarter of Craigslist from a former employee, and the relationship soured. The shareholder sued in Delaware in 2008 after the Craigslist board adopted a rights plan and other measures that worked against its stake. On September 9, 2010, the Court of Chancery struck the poison pill down, with Chancellor William B. Chandler III writing that "Having chosen a for-profit corporate form, the craigslist directors are bound by the fiduciary duties and standards that accompany that form." The stake went back to Craigslist in June 2015 and the litigation ended with it.
 
-What made Craigslist work wasn't innovation. It was timing and trust. Newspapers had controlled classifieds for a century. They charged $30 to run a 30-word apartment listing. They charged $50 for job postings. The economics were simple: a newspaper could print a few hundred classifieds per issue. Craigslist could host infinite listings, free of charge. The newspaper business had no answer. Readers migrated to the ugly website. Advertisers followed.
+Jim Buckmaster has been chief executive since November 2000, which makes him one of the longest-serving CEOs on the American web. Craig Newmark stepped back from running the site years ago and now spends most of his time funding journalism, veterans' groups and cybersecurity work through Craig Newmark Philanthropies, which he set up in 2015.
 
-The real question is: did Craigslist destroy newspapers, or did newspapers destroy themselves?
+## How much money does Craigslist make now?
 
-## The Jim Buckmaster Era
+Less than a third of what it made at the peak. The AIM Group, a classifieds consultancy that has tracked the site since 2004, estimated Craigslist revenue at $1.034 billion in 2018, the first year it cleared a billion dollars.
 
-Craig Newmark was a builder, not a business operator. In January 2000, Jim Buckmaster joined as lead programmer and CTO. By November of that year, Buckmaster became CEO. This was a pivot point, though not in the direction you'd expect.
+The next year it fell 27 percent to $760 million, the first drop AIM had ever recorded, and a 37 percent fall in job advertising did most of the damage. The slide did not stop there. AIM's 2025 report put 2024 revenue at $302 million, down another 20 percent, a third straight down year and the lowest total since 2013.
 
-Buckmaster understood something crucial: Craigslist's value came from its refusal to behave like a traditional business. He didn't push aggressive monetization. He didn't bombard the site with ads. He didn't optimize the user experience into submission. Instead, he made a choice that would puzzle Wall Street for decades.
+What has not changed is the shape of the business. Most Craigslist listings are still free to post. The money comes from job ads in major metros, brokered apartment listings, commercial real estate and a short list of other paid categories, so a weak year in hiring is a weak year for the whole company. Even after the decline, AIM's 2025 report still ranked Craigslist first among United States horizontal classifieds sites in both revenue and traffic, ahead of Mercari and OfferUp.
 
-"We have little interest in maximizing profit," Buckmaster told Wall Street analysts at the UBS Global Media Conference in December 2006.
+## How a San Francisco email list turned into a classifieds giant
 
-This wasn't modesty. It was a statement of intent. Craigslist had the leverage to extract billions. The company could have charged for every category, increased fees, added aggressive advertising. The market would have borne it. Instead, Craigslist kept most of its service free. It charged for job postings in select major cities. That was almost the entire revenue model.
+Craig Newmark started sending friends in San Francisco a list of local events, apartments and jobs by email in 1995. People asked to be added, the list outgrew email, and it moved to the web in 1996. Newmark incorporated the company in 1999, right as the dot-com bubble (https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html) was inflating around companies with far more funding and far less traffic.
 
-By the peak years of 2018 and 2019, the company was clearing roughly $1 billion annually with approximately 50 employees. Consider the math. That's $20 million per employee in annual revenue. A company that size could have grown into a household name tech giant. It chose not to.
+Jim Buckmaster arrived as a programmer in 2000 and took over as chief executive that November. The pair then did the opposite of what everyone else did. They did not raise venture money, did not expand the paid categories aggressively, and did not grow the staff past about 50 people. Craigslist charged for job ads in a handful of big cities and gave away everything else.
 
-## The Newspaper Apocalypse
+That choice is what made the 2010 Delaware ruling so unusual. A for-profit Delaware corporation that openly declines to maximize its own value had no obvious precedent, and the court said so.
 
-The newspaper industry didn't see Craigslist coming. By the time they did, the damage was structural.
+## What Craigslist did to newspaper classifieds
 
-Here's how the economics worked. A newspaper in a mid-size city might derive 30 to 40 percent of its revenue from classifieds. Those classifieds had massive margins. Craigslist offered that same service for free. When readers moved online, advertisers followed. When advertising revenue evaporated, newspapers couldn't afford their printing presses, their reporters, their delivery trucks.
+American newspapers ran on classified advertising, and the collapse of that line is the closest thing the industry has to a cause of death. Newspaper Association of America figures show classified revenue peaking at $19.6 billion in 2000 and falling to about $6 billion by 2010, a drop of roughly 70 percent in a decade. By 2012 it was down to $4.6 billion.
 
-Newspapers lost billions. Many folded. Some survived by cutting staff and print editions. The industry contracted from a force that shaped American discourse into something fragmented and precarious. Craigslist didn't intend this. The site simply existed and offered something better.
+Craigslist was not the only reason. Monster.com took jobs, Realtor.com took housing and Cars.com took autos, and readers were leaving print for other reasons entirely. But Craigslist took the whole page at once and charged nothing for most of it. One academic study of 1,000 newspapers between 2000 and 2007 estimated that classified advertisers saved $5 billion by posting free on Craigslist instead of buying newspaper space.
 
-This is essentially what online retail did to malls, what streaming did to video stores, what smartphones did to entire categories of consumer electronics. Technology doesn't destroy old institutions because it's aggressive. It destroys them because it's useful. Craigslist was useful enough that everything else became redundant.
+Online display advertising, which started with the first banner ad in 1994 (https://404memoryfound.com/posts/first-banner-ad-hotwired-1994-history.html), never replaced that money for newspapers. Classifieds had carried high margins and low costs. A free listing board with no sales force could not be undercut.
 
-## The Controversy Years
+## Why the personals and adult sections disappeared
 
-By the late 2000s, Craigslist had become big enough to attract serious scrutiny. The site's anonymity and lack of extensive moderation made it a vector for fraud and worse.
+On August 24, 2010, 17 state attorneys general wrote to Craigslist demanding that it close its adult services section, arguing the company could not keep ads for prostitution and trafficking off the site. Craigslist first covered the link with a black and white "censored" bar, then shut the section down in early September 2010.
 
-In September 2010, under pressure from state attorneys general, Craigslist shut down its Adult Services section. The company initially replaced the link with the word "censored" in white-on-black text before removing it entirely. The section had been a significant source of revenue and traffic. Removing it cost money. But the reputational damage from inaction would have cost more.
+The bigger cut came eight years later. On March 23, 2018, two days after Congress passed the Fight Online Sex Trafficking Act, Craigslist deleted its personals section worldwide and posted a notice to users: "Any tool or service can be misused. We can't take such risk without jeopardizing all our other services."
 
-Then came FOSTA-SESTA, the Fight Online Sex Trafficking Act, signed into law on April 11, 2018. The law held platforms legally liable for sex trafficking that occurred on their sites. Craigslist responded by removing the Personals section entirely in March 2018. The site posted a message to users: "Any tool or service can be misused. We can't take such risk without jeopardizing all our other services."
+The new law made platforms liable for sex trafficking ads posted by users, which stripped away the protection that had let a company of 50 people host millions of listings it did not read. Craigslist did not fight it or staff up to moderate. It removed the category, which is what a company built to stay small does when the legal risk arrives.
 
-Here's where the logic starts to break down for any platform hosting user-generated content. Craigslist, a company with 50 employees, couldn't hire enough staff to monitor millions of listings. So it cut entire sections rather than fight. The company's refusal to grow actually made it more vulnerable to regulatory pressure. A massive company with legal resources and government relations teams might have lobbied against FOSTA-SESTA. Craigslist stayed small and paid the price in constrained business options.
+## Why the site still looks like 1996
 
-## The Design That Never Changed
+Craigslist is blue links on a gray page, and has been for close to thirty years. Most of its software is written in Perl, a language that was common when the site was built and rare now. The company has never rebuilt the front end around images, feeds or recommendations, and it has never run an algorithm designed to keep anyone scrolling.
 
-Visit Craigslist today and compare it to a screenshot from 1996. The layout is nearly identical. In 2025, the site still features what has been called a "barebones" 1995-era design. This became its most recognizable feature.
+The clearest sign of how little that philosophy bends: Craigslist did not ship an official smartphone app until December 2019, more than eleven years after the App Store opened. It still belongs on the short list of 90s websites still online (https://404memoryfound.com/posts/90s-websites-still-online.html) in something close to their original form.
 
-This wasn't accidental. Jim Buckmaster defended the design choices explicitly. The site didn't need visual polish. It needed speed, usability, and simplicity. A user could navigate the homepage in seconds. The site loaded in milliseconds. Craigslist refused the modern pattern of loading large image carousels, auto-playing videos, and JavaScript frameworks that bloat everything they touch.
-
-Buckmaster's philosophy: the website exists to connect people with listings. It shouldn't entertain. It shouldn't seduce. It should work.
-
-This approach had consequences. For most of its history, Craigslist didn't have a mobile app. People accessed the site through mobile browsers. The site's lean design actually made it usable on small screens, not pleasant, but usable. In December 2019, more than 24 years after Craigslist's founding, the company finally released native mobile apps for iOS and Android. The delay wasn't laziness. It was principle.
-
-Compare this to Facebook Marketplace or OfferUp, platforms with slick interfaces, recommendation algorithms, and push notifications. Those platforms look modern. They feel frictionless. They're also designed to maximize time spent and engagement metrics. Craigslist refused this playbook entirely.
-
-## The eBay Stake and the Competition
-
-In August 2004, eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html) purchased a 25 percent stake in Craigslist from a former employee. The acquisition sparked concern among Craigslist users that the site's non-commercial nature would change. It didn't, at least not immediately.
-
-The relationship soured. In April 2008, eBay sued Craigslist, claiming that executives had diluted eBay's stake. Craigslist countersued, alleging eBay had used its minority position to gain access to confidential information for its competing service, Kijiji. On June 19, 2015, eBay divested its stake entirely and settled its litigation with Craigslist. The venture had proved strategically misaligned. eBay wanted growth metrics. Craigslist wanted to stay small.
-
-By the time eBay sold its stake, new competitors had emerged. Facebook Marketplace launched in 2016 and leveraged Facebook's massive user base to offer a modern classifieds experience. OfferUp and Mercari launched with slick designs, user ratings, and payment processing built in. These weren't garage startups. They were well-funded operations with experienced management teams and growth ambitions.
-
-Craigslist's response was structural inaction. The company didn't aggressively update its platform. It didn't launch marketing campaigns. It kept doing what it had always done: host listings, keep costs low, maintain trust through consistent service.
-
-The data tells the story. Revenue peaked in 2018-2019 at approximately $1 billion annually. By 2025, revenue had dropped to $302 million, roughly one-third of its peak. The decline wasn't sudden. It was gradual, the kind of erosion that happens when faster, newer, shinier competitors gain market share one user at a time.
-
-## Why Craigslist Still Matters
-
-Here's the thing. Craigslist still operates in over 570 cities across 70 countries. It still facilitates millions of transactions annually. It still generates hundreds of millions in annual revenue with a tiny team. Most people in 2026 have heard of Facebook Marketplace and OfferUp. Most people still use Craigslist for specific categories: apartments, gigs, used furniture, niche items that don't fit neatly into other platforms.
-
-The site's longevity isn't a failure. It's a refusal to compete on terms it never accepted. Craigslist never tried to be the most engaging platform. It tried to be the most useful. For certain purposes, it still is.
-
-Craig Newmark spent his later years as a philanthropist and journalism advocate. In 2001, he helped establish the Craigslist Foundation, a nonprofit focused on community building that operated until it closed in 2012. In 2015, the FBI gave Newmark an award for his cooperation with law enforcement to fight human trafficking on the platform. He stepped back from daily operations but remained involved in the company's direction while channeling resources into journalism and civic engagement initiatives.
-
-  
-  
-
-This matters because Newmark and Buckmaster built something that contradicts the assumption that bigger is always better. They proved that a company could be massively influential without being massively profitable in the Silicon Valley sense. They demonstrated that staying small was a choice, not a limitation.
-
-## Section 230 and the Legal Framework
-
-Craigslist operates under Section 230 of the Communications Decency Act, the provision that shields platforms from liability for user-generated content. Without Section 230, every classified ad would expose Craigslist to potential lawsuits. With it, the company can host millions of listings without moderating every single one.
-
-This legal framework was essential to Craigslist's business model. A small team couldn't moderate millions of listings manually. Section 230 made that unnecessary. The company relied on user flagging systems, where community members could report problematic listings, and automated systems would remove posts after sufficient flags.
-
-The real question is whether Section 230 was designed for platforms like Craigslist or whether it was merely useful for them. The answer is probably both. The law assumed good-faith platforms trying to connect people. Craigslist fit that description. Platforms optimized purely for engagement and profit extraction fit it less well.
-
-Craigslist never maximized engagement. It never A/B tested its interface for addiction. It never built an algorithm to keep users scrolling. In a landscape where Section 230 faces increasing political scrutiny, Craigslist's restraint looks almost quaint.
-
-## What Killed the Growth
-
-If Craigslist peaked in 2018-2019 at $1 billion in revenue, what happened after?
-
-The simplest explanation: competition and complacency. Facebook Marketplace grew because it plugged into an existing platform with billions of users. OfferUp and Mercari built mobile-first experiences that felt contemporary. Craigslist didn't match their pace. The company released a mobile app in 2019, years after smartphones had become the primary way people accessed the internet.
-
-The deeper explanation: Craigslist never wanted to grow into the kind of company that could compete with well-funded tech platforms. Scaling meant hiring more people, building more infrastructure, investing in marketing, updating the design, optimizing the algorithm. All of this contradicted the company's values.
-
-Revenue declined by roughly 70 percent from its peak to 2025. That's significant. But Craigslist still operates. It still generates hundreds of millions in annual revenue. It still connects people more efficiently than any newspaper ever did. The narrative isn't "Craigslist failed." It's "Craigslist peaked and then normalized."
-
-## The Technical Legacy
-
-The codebase is written in Perl, a scripting language that was widely used in the 1990s and early 2000s but that most modern engineers rarely touch. To a contemporary developer, the stack would feel archaeological.
-
-The answer to "why not migrate" is pragmatic: the code works. It's stable. It performs. Migration to a modern language would be expensive and risky. You don't rewrite the infrastructure that handles hundreds of millions in transactions annually on a whim. You maintain it. You patch it. You keep it running.
-
-This is where Craigslist's philosophy shows its teeth. Modern startups are encouraged to move fast and break things. Craigslist moved slowly and fixed things. One approach optimizes for growth. The other optimizes for stability. Given that Craigslist still generates more revenue per employee than most tech companies, the stability approach has its own logic.
-
-## The Numbers Behind the Decline
-
-The trajectory of Craigslist's traffic tells its own story. At its peak, the site was receiving well over 50 billion page views per year. By 2022, Alexa ranked it the 19th most visited website in the United States. The site listed over 700 cities in 70 countries and generated 560 million visits per month as of 2023. Those are not small numbers. But they represent a plateau, and then a decline.
-
-The revenue numbers are more revealing. In 2018, Craigslist generated approximately $1.035 billion. By 2020, that had dropped to roughly $566 million. By 2025, it was down to $302 million. That's a 70 percent decline in seven years. For most companies, that trajectory would trigger panic. For Craigslist, it triggered nothing visible. No layoffs were announced. No pivot was attempted. No venture capital was raised.
-
-Part of the decline is structural. Craigslist charged primarily for job postings in major cities. When the job market shifted during and after the pandemic, when LinkedIn and Indeed consolidated their dominance in online job listings, Craigslist's core revenue stream weakened. The free categories, housing, for-sale items, services, and gigs, still attracted traffic but generated no direct revenue.
-
-The other part is behavioral. A generation of users who grew up with Facebook and Instagram expects a certain level of visual polish and social integration from their apps. Craigslist offers none of that. No user profiles. No ratings. No algorithmic recommendations. No integrated payments. For users accustomed to Venmo and Apple Pay, the idea of meeting a stranger in a parking lot to exchange cash for a used couch feels increasingly anachronistic.
-
-And yet. Craigslist still works for the people who use it. Apartment hunters in New York and San Francisco still check Craigslist daily. Musicians still find bandmates through the site. Small contractors still advertise their services. The site's utility hasn't disappeared. It has simply been surrounded by competitors that do specific things better.
-
-## The Broader Lesson
-
-Craigslist's story is about a company that succeeded by refusing to behave like one. Craig Newmark wasn't trying to build a billion-dollar business. He was trying to solve a problem: his friends needed a way to find apartments and events in San Francisco. The billions came later, as a side effect of solving that problem efficiently.
-
-The modern startup world inverts this. Founders are taught to start with a billion-dollar opportunity, raise capital, and optimize for growth. This approach created Uber, Airbnb, DoorDash: companies that reshaped their industries but also concentrated wealth in venture capital and early investors. Craigslist redistributed value differently. It extracted less rent from transactions. It returned value to users through free or low-cost listings.
-
-This doesn't make Craigslist morally superior. It makes Craigslist a different kind of choice. One that worked for a specific moment and set of founders.
-
-By 2026, that moment has largely passed. Craigslist still operates. It still matters. But it's no longer the inevitable future of classifieds. The ugly website built in Perl by 50 people remains profitable. It also remains, in many ways, a historical artifact: proof that there was once a way to build something large without optimizing relentlessly for growth.
+The trade is visible in the numbers. Facebook Marketplace, OfferUp and Mercari offer profiles, ratings and built-in payments, and they have taken share for a decade. Craigslist offers a text box and a phone number, and for apartments, gigs, free furniture and odd local jobs, a lot of people still prefer it.
 
 ## Frequently Asked Questions
 
-## When did Craigslist start?
+### Is Craigslist still in business in 2026?
 
-Craig Newmark began Craigslist as an email distribution list in early 1995 in San Francisco. It became a web-based service in 1996 and was formally incorporated in 1999.
+Yes. Craigslist is still operating in 2026, with local sites in more than 570 cities in over 70 countries, and it remains the largest general classifieds site in the United States by revenue and traffic. Its estimated revenue was $302 million in 2024, down from $1.034 billion in 2018.
 
-## Does Craigslist still make money?
+### Who owns Craigslist now?
 
-Yes. As of 2025, Craigslist generates approximately $302 million in annual revenue with around 50 employees. This is down from a peak of roughly $1 billion in 2018-2019, but it remains a substantial and profitable business. Revenue comes primarily from paid job postings in select major metropolitan areas.
+Craigslist, Inc. is a private company owned by founder Craig Newmark and chief executive Jim Buckmaster, who has held the CEO job since November 2000. An outside marketplace held about a quarter of the company from 2004 until June 2015, when it sold the stake back and ended its Delaware litigation with Craigslist.
 
-## Why does Craigslist look so outdated?
+### When did Craigslist shut down its personals section?
 
-The design is intentional. Jim Buckmaster and Craig Newmark chose to prioritize speed, usability, and simplicity over visual sophistication. The site loads almost instantly and requires no complex JavaScript frameworks. The founders viewed this as a feature, not a bug.
+Craigslist removed its personals section on March 23, 2018, two days after Congress passed the Fight Online Sex Trafficking Act. The company had already closed its adult services section in September 2010 after 17 state attorneys general demanded it, and neither section has returned.
 
-## What language is Craigslist written in?
-
-Craigslist's backend is written in Perl, a scripting language popular in the 1990s. The company has never migrated to a more contemporary language because the existing codebase is stable and performant.
-
-## When did Craigslist get a mobile app?
-
-Craigslist released its first official mobile app in December 2019, more than 24 years after its founding. The company previously believed a dedicated app was unnecessary given the site's lean design and usability in mobile browsers.
-
-## Why did Craigslist remove its Personals section?
-
-Craigslist removed the Personals section in March 2018 in response to FOSTA-SESTA, the Fight Online Sex Trafficking Act signed into law that year. Rather than attempting to moderate the section, Craigslist chose to eliminate it entirely to reduce legal exposure.
-
-## What happened to eBay's stake in Craigslist?
-
-eBay purchased a 25 percent stake in 2004 from a former employee and divested completely in June 2015, settling its litigation with the company. The two companies had fundamentally different visions: eBay wanted growth, Craigslist wanted stability.
-
-## Did Craigslist really kill newspapers?
-
-Craigslist significantly accelerated the decline of newspaper classified revenue, which many papers depended on for 30 to 40 percent of their income. However, the broader shift to digital media, declining readership, and other factors also contributed. Craigslist offered free listings where newspapers had charged, making the old business model unsustainable.
-
+**Sources:**
+- AIM Group: Craigslist revenue drops once more (2025 Craigslist Report): https://aimgroup.com/2025/03/12/craigslist-revenue-drops-once-more-rival-mercari-unable-to-pull-in-front/
+- CNBC: Craigslist posts annual revenue of $1 billion (2019): https://www.cnbc.com/2019/01/24/craigslist-posts-annual-revenue-of-1-billion-study.html
+- eBay Domestic Holdings, Inc. v. Newmark, Del. Ch. (September 9, 2010): https://caselaw.findlaw.com/court/de-supreme-court/1558886.html
+- NPR: Craigslist shuts down personals section (March 2018): https://www.npr.org/sections/thetwo-way/2018/03/23/596460672/craigslist-shuts-down-personals-section-after-congress-passes-bill-on-traffickin
+- MinnPost: How Craigslist killed the newspapers' golden goose (2014): https://www.minnpost.com/business/2014/02/how-craigslist-killed-newspapers-golden-goose/
 
 ---
 
