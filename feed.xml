@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Do They Still Make Floppy Disks? The 2026 Answer</title>
+      <link>https://404memoryfound.com/posts/floppy-disks-still-made-today.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/floppy-disks-still-made-today.html</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>No one still makes floppy disks. Sony, the last major maker, stopped in March 2011, and what sells in 2026 is 1990s stock at about $1 a disk.</description>
+      <enclosure url="https://404memoryfound.com/pins/floppy-disks-still-made-today.jpg" length="225012" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/floppy-disks-still-made-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Is SkyMall Still Around in 2026? Yes, Online Only</title>
       <link>https://404memoryfound.com/posts/skymall-still-around-who-owns-it.html</link>
@@ -236,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/does-yahoo-messenger-still-exist.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Software &amp; Apps</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Who Owns Game Informer Now? Gunzilla Games Does</title>
-      <link>https://404memoryfound.com/posts/who-owns-game-informer-now.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-game-informer-now.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Game Informer is owned by Gunzilla Games, which bought it in March 2025 after GameStop killed it in 2024. Issue 381 marks 35 years in print.</description>
-      <enclosure url="https://404memoryfound.com/pins/who-owns-game-informer-now.jpg" length="150152" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/who-owns-game-informer-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>

@@ -4,6 +4,103 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Do They Still Make Floppy Disks? The 2026 Answer
+
+URL: https://404memoryfound.com/posts/floppy-disks-still-made-today.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-09-20
+Topics: Hardware, Then vs Now
+
+**Summary:** Nobody manufactures floppy disks anymore. Sony, the last major maker, announced in 2010 that it would stop selling 3.5-inch disks in Japan in March 2011, and no plant has made them since. What sells in 2026 is stock built before 2011, at around $1 for a 3.5-inch disk, bought mostly by embroidery shops, industrial users and aircraft maintenance crews.
+
+**Key facts:**
+- Invented: 1971, the IBM 23FD 'Minnow', an 8-inch disk holding 80 KB
+- Peak sales: More than 5 billion disks sold per year in the mid-1990s
+- Last major maker: Sony, which ended 3.5-inch disk sales in Japan in March 2011
+- Status today: No new production anywhere; every disk sold is pre-2011 stock
+- Price today: About $1 for a 3.5-inch disk from a bulk dealer in 2023
+
+## When did the last factory line shut down?
+
+Sony was the last major manufacturer standing, and it quit in stages. In April 2010 the company announced it would stop selling 3.5-inch floppy disks in Japan in March 2011, closing out about three decades of mass production.
+
+The sales figures explain the decision. Japanese buyers took about 47 million Sony floppy disks in 2002 and about 12 million in 2009, and Sony still held around 70 percent of that shrinking market, CBC News reported in 2010. A 70 percent share of almost nothing is still almost nothing.
+
+Rival makers had already pulled out before Sony did. When the Sony line stopped, no other plant picked the format up. That is the part most people miss when they ask whether floppy disks are still made: the answer has been no for well over a decade, and every disk sold since is stock manufactured before 2011.
+
+The format had further to fall than the 2011 date suggests. At the mid-1990s peak, more than 5 billion floppy disks were sold every year, according to IBM's own history of the medium. The disk that IBM invented had gone from the default way to move a file to a rounding error in under 20 years.
+
+## Is anyone still selling floppy disks in 2026?
+
+Yes, and the best known seller is floppydisk.com, run by Tom Persky from a warehouse in Lake Forest, California. Reuters visited in 2022 and described shelves packed with green, orange, blue, yellow and black diskettes shipped in from around the world.
+
+Persky bills himself as "the last man standing in the floppy disk business," and the business model is simple: buy up what is left, wipe it, relabel it, sell it. Reuters reported in 2022 that he was moving about 500 disks a day and was down to roughly half a million disks in stock.
+
+What does a disk cost? The Hustle reported in 2023 that Persky sells 3.5-inch disks for about $1 each. That is not a collector's premium so much as scarcity pricing on a finite pile, because there is no factory to reorder from.
+
+The stock also gets replenished from the other direction. People and companies clearing out storage rooms mail their old disks in, which is how a seller with no supplier stays in business at all.
+
+## Which machines still need a floppy drive?
+
+The customers are not nostalgists. They are factories, embroidery shops and aircraft maintenance crews running equipment that was built when a floppy drive was the sensible way to get a file into a machine.
+
+Embroidery is the biggest single category. Commercial embroidery machines load stitch patterns from disk, they cost real money to replace, and a machine that still sews correctly is not going to be scrapped over a file format.
+
+Avionics is the other big one. "You would use a floppy disk to get information in and out of some of the avionics of that airplane," Persky told Reuters in 2022, describing aircraft designed 20, 30 or 40 years ago that are still flying and still need their databases updated.
+
+The logic is the same everywhere it shows up. A machine tool or a ship system designed for a 40-year service life outlives several generations of storage media, and recertifying the electronics costs far more than buying another box of disks.
+
+## Why did it take Japan until 2024 to quit?
+
+Japan is the clearest case of a government written into the floppy disk era. Regulations did not merely permit the format, they required it: more than a thousand rules told businesses to submit data to the state on floppy disks and other physical media.
+
+The Digital Agency worked through 1,034 of those regulations. The last one to go covered records kept by automotive recyclers, and it was scrapped on June 28, 2024.
+
+Digital Minister Taro Kono marked the occasion with the least bureaucratic sentence a minister has produced in years. "We have won the war on floppy disks on June 28!" he said in a statement reported by The Register in 2024.
+
+The wider point is that the floppy disk survived long past its usefulness wherever a rule, a certification or a machine made replacing it expensive. Consumers dropped the format in a few years. Institutions needed another decade and a half.
+
+## What actually killed the floppy disk?
+
+File sizes did. A 3.5-inch disk held 1.44 MB, which was fine for a term paper and hopeless for a digital photo, an MP3 or a software installer.
+
+The industry tried to build a bigger floppy first. The Iomega Zip drive (https://404memoryfound.com/posts/what-happened-to-iomega-zip-drives.html) was the most popular attempt, and it sold well enough to look like the successor before cheap recordable CDs undercut it.
+
+Hardware makers then stopped waiting. Apple shipped the iMac G3 with no floppy drive at all, a decision mocked at the time and copied by everyone within a few years. If you want the longer version of how that machine reset Apple's hardware, it is in our piece on how the iMac G3 killed the beige box (https://404memoryfound.com/posts/how-imac-g3-saved-apple-killed-beige-box.html).
+
+USB flash drives finished the job. They were rewritable, they held hundreds of times more, they needed no driver on a modern machine, and they did not die from a magnet or a coffee spill. The floppy disk survived only as a picture: the save icon in Microsoft Word and thousands of other programs is still a 3.5-inch diskette, drawn for users who have never held one.
+
+## Where to find floppy disks today
+
+Blank stock and used disks both circulate. Bulk dealers price 3.5-inch disks at around $1 each, and sealed factory boxes from the 1990s carry a premium because they are genuinely new old stock and nobody is making more. Colored disks, odd brands and 5.25-inch and 8-inch formats cost more again, mostly because collectors and artists want them.
+
+For loose disks, labeled boxes, sleeves and the rest of the desk-drawer archaeology, the deepest supply is on Etsy's floppy disk listings (https://www.etsy.com/search?q=floppy+disks), where sellers break up old office stock by the lot.
+
+One warning worth the paragraph: magnetic media degrades, and disks stored in a garage for 25 years often read badly or not at all. If the files matter, copy them off now rather than later, the same rule that applies to digitizing old VHS tapes (https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html).
+
+## Frequently Asked Questions
+
+### Do they still make floppy disks in 2026?
+
+No. Sony, the last major manufacturer, announced in 2010 that it would stop selling 3.5-inch floppy disks in Japan in March 2011, and no company picked up mass production afterward. Every floppy disk on sale in 2026 was manufactured before 2011, whether it is sealed new old stock or a used disk that has been wiped and relabeled.
+
+### Where can you buy floppy disks now?
+
+Specialist dealers and marketplace sellers are the whole market in 2026. The best known is floppydisk.com in Lake Forest, California, which The Hustle reported in 2023 was selling 3.5-inch disks for about $1 each, and Etsy sellers list used lots and sealed 1990s boxes. There is no retail channel for new floppy disks because none have been made since 2011.
+
+### What still uses floppy disks?
+
+Industrial and aviation equipment, mostly. Reuters reported in 2022 that floppydisk.com's main customers were embroidery shops, industrial users and aircraft maintenance operations running avionics designed decades ago. Governments were the other holdout: Japan's Digital Agency scrapped its last regulation requiring floppy disks on June 28, 2024.
+
+**Sources:**
+- Floppy disk storage (IBM history): https://www.ibm.com/history/floppy-disk
+- Sony to pull plug on floppy disks (CBC News, 2010): https://www.cbc.ca/news/science/sony-to-pull-plug-on-floppy-disks-1.941854
+- A 1990s relic, floppy disks get second life at California warehouse (Reuters via The Globe and Mail, 2022): https://www.theglobeandmail.com/business/international-business/article-a-1990s-relic-floppy-disks-get-second-life-at-california-warehouse/
+- Japan's digital minister claims victory against floppy disks (The Register, 2024): https://www.theregister.com/2024/07/03/japan_floppy_disk_victory
+- The floppy disk is still kickin' (The Hustle, 2023): https://thehustle.co/03092023-floppy-disks
+
+---
+
 # Is SkyMall Still Around in 2026? Yes, Online Only
 
 URL: https://404memoryfound.com/posts/skymall-still-around-who-owns-it.html
