@@ -1672,8 +1672,9 @@
         "where to buy floppy disks",
         "when did floppy disks stop being made"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-09-18"
+      "status": "published",
+      "source": "editor-research-2026-09-18",
+      "published_slug": "floppy-disks-still-made-today"
     },
     {
       "title": "Is Windows Movie Maker Still Available in 2026?",
