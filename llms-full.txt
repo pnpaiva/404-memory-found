@@ -4,6 +4,111 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is Windows Movie Maker Still Available in 2026?
+
+URL: https://404memoryfound.com/posts/windows-movie-maker-still-available.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-09-21
+Topics: Software & Apps, Then vs Now
+
+**Summary:** Windows Movie Maker is not available from Microsoft and has not been since January 10, 2017, when every Windows Essentials 2012 installer was withdrawn. Old copies still run on Windows 10 and Windows 11 but get no patches, and the official replacement is Clipchamp, which ships free on Windows 11.
+
+**Key facts:**
+- Launched: September 14, 2000, with Windows Me
+- Company: Microsoft
+- Price then: Free, bundled with Windows for 17 years
+- Final version: Movie Maker 2012, build 16.4.3528.0331, April 18, 2014
+- Status today: Discontinued January 10, 2017; replaced by Clipchamp, free on Windows 11
+
+## Why did Microsoft stop giving Movie Maker away?
+
+Windows Movie Maker arrived on September 14, 2000, bundled with Windows Me. That first release was thin. It saved to Microsoft's own ASF format and shipped with a short list of transitions and effects.
+
+Windows XP carried a much stronger version from October 25, 2001, and a minor update, version 2.1, went out inside Service Pack 2. That is the release most Americans actually remember: the storyboard strip along the bottom, the free effects, the fade to black.
+
+The Windows Vista edition reported version 6.0.6000, the same build number as Vista itself, and added capture from HDV camcorders on Home Premium and Ultimate.
+
+Then Microsoft unbundled it. Windows 7 shipped without Movie Maker, without Photo Gallery and without Windows Mail, and getting the editor back meant downloading the separate Windows Live Essentials suite. The last packaged release, Windows Essentials 2012, came out on August 7, 2012, and the final Movie Maker build, 16.4.3528.0331, arrived on April 18, 2014.
+
+Microsoft never charged a cent for any of it. Movie Maker was free for its entire 17-year life, which is exactly why its removal caught so many people flat.
+
+## Where did the official download go?
+
+Every program in Windows Essentials 2012 reached end of support on January 10, 2017, and Microsoft pulled the installers on the same day. There has been no official Movie Maker download since.
+
+The company has not softened the wording in the nine years since. "The Windows Essentials applications will continue to run on your Windows devices, however, Downloads are no longer available," Microsoft's support documentation states.
+
+The first half of that sentence is why the program never quite died. Copies already installed kept running, and they still run. Movie Maker 2012 is a small 32-bit application that will usually install on Windows 10 and Windows 11 once .NET Framework 3.5 is turned on.
+
+What it does not get is maintenance. Microsoft has shipped no security patch, no bug fix and no codec update since January 2017, so the editor struggles with what phones record now: HEVC video, variable frame rate footage, 10-bit color. Anything filmed after about 2014 is a coin flip.
+
+Installers do survive on the Internet Archive, including the 2007 release and the 2012 build. Archived is not the same as audited, and an unsigned legacy installer from a community upload deserves a virus scan and a machine you can afford to rebuild.
+
+## How did a fake Movie Maker reach the top of the malware charts?
+
+People kept searching for the installer anyway, and in 2017 somebody monetized the gap. A site called windows-movie-maker.org climbed to the top of Google for the searches "Movie Maker" and "Windows Movie Maker," and placed first on Bing as well.
+
+What it handed over was a working copy of Microsoft's free editor with a nag screen bolted on. The download claimed to be a trial and demanded $29.95 to unlock the full version, presented as a 25 percent discount on the operators' own payment page.
+
+ESET logged the file as Win32/Hoax.MovieMaker. On November 5, 2017, it was the third most detected threat worldwide in the company's telemetry and the single most common threat in Israel, with heavy detection counts in the Philippines, Finland and Denmark the following day.
+
+ESET's advice in its November 2017 write-up was blunt: "don't pay for software that is or was officially offered for free."
+
+The episode is the clearest measure of the demand Microsoft walked away from. A discontinued free program still pulled enough search traffic to push a scam into the global top three.
+
+## Why do people still want the 2012 version specifically?
+
+Because the rewrite took things away. Windows Live Movie Maker appeared as a beta on September 17, 2008 and shipped through Windows Live Essentials on August 19, 2009, and it replaced the classic timeline with a simplified storyboard. Users who had learned the XP and Vista layout complained about the missing controls for years.
+
+The 2012 build gave back enough to win them over: video stabilization, H.264 export, better audio tools, new text effects and a hook into free background music. That is the version people hoard, and it is the one the download sites still advertise.
+
+The other reason is muscle memory. School projects, wedding slideshows and a decade of early YouTube uploads were cut in Movie Maker, and its default titles are a visual signature of 2000s home video the same way Adobe Flash (https://404memoryfound.com/posts/definitive-history-macromedia-flash.html) is a signature of 2000s web animation.
+
+Then there are the old projects. Movie Maker saved its edits as .MSWMM and .WLMP files rather than finished video, so reopening a 2009 family slideshow means finding a working copy of the program that made it. Exported WMV and MP4 files still play anywhere.
+
+## What replaced Windows Movie Maker on Windows 11?
+
+Microsoft's first answer was built in-house. Story Remix became the Video Editor inside the Photos app on Windows 10, a lighter tool than Movie Maker with fewer manual controls.
+
+The second answer was a purchase. Microsoft announced the acquisition of Clipchamp, a browser-based editor, on September 7, 2021, and Clipchamp first shipped as a preloaded Windows 11 app in Insider Preview build 22572 on March 9, 2022.
+
+In September 2023, the rebuilt Photos app dropped its own Video Editor and pointed people at Clipchamp instead. The old editor did not disappear. It still sits inside Photos Legacy, which Microsoft keeps in the Microsoft Store for anyone who wants the Windows 10 tool back.
+
+Clipchamp has taken losses of its own. Microsoft is retiring the Clipchamp app for iOS on June 9, 2026, after which projects that were never exported may be deleted, and there has never been an Android version. "We have found most users prefer editing their video projects on our web and desktop applications," the company's 2026 support notice said. Retiring free bundled software is a Microsoft habit, as anyone who watched Encarta (https://404memoryfound.com/posts/what-happened-to-microsoft-encarta.html) go dark already knows.
+
+## Is the 2026 replacement actually free?
+
+Mostly, and more generously than the free tier of most editors. Clipchamp exports at 480p, 720p and 1080p on the free plan, with no standard watermark and no limit on how many videos you finish.
+
+Clipchamp Premium costs $11.99 a month on its own and adds 4K export, the full stock library and brand kits. It also comes with Microsoft 365 Personal, which runs $9.99 a month or $99.99 a year in 2026 and bundles 1 TB of OneDrive storage with the Office apps.
+
+The wall is not resolution, it is assets. Drop a single premium stock clip, effect or music track into a project and the export is blocked until you either pay or pull the asset back out.
+
+Set against Movie Maker's flat zero, that is the real then-versus-now shift. In 2000 the operating system was the thing you paid for and the editor came along for free. In 2026 the editor is free, the machine arrives with it installed, and the money has moved to stock footage and 4K output. Software that outlives its owner without a price tag, the way Winamp (https://404memoryfound.com/posts/what-happened-to-winamp-mp3-player.html) has, is now the exception.
+
+## Frequently Asked Questions
+
+### Can I download Windows Movie Maker in 2026?
+
+Not from Microsoft. Microsoft removed every Windows Essentials 2012 installer, Windows Movie Maker included, on January 10, 2017, and has never restored the download. Copies preserved on the Internet Archive still install on Windows 10 and Windows 11 with .NET Framework 3.5 enabled, but they receive no patches, and sites that charge for the program are selling something Microsoft gave away free.
+
+### When did Windows Movie Maker stop being supported?
+
+January 10, 2017. That is the date the whole Windows Essentials 2012 suite reached end of support, covering Windows Movie Maker, Photo Gallery, Windows Live Mail and Windows Live Writer. The final Movie Maker build, 16.4.3528.0331, had shipped almost three years earlier on April 18, 2014, and nothing has been released since.
+
+### What is the free replacement for Windows Movie Maker?
+
+Clipchamp, which Microsoft bought on September 7, 2021 and preloaded on Windows 11 from March 2022. Its free plan exports up to 1080p without a standard watermark, and Premium is $11.99 a month in 2026. The older Windows 10 Video Editor that first replaced Movie Maker is still reachable through the Photos Legacy app in the Microsoft Store.
+
+**Sources:**
+- Support for Windows Essentials apps, Microsoft Support: https://support.microsoft.com/en-us/windows/apps/support-for-windows-essentials-apps
+- Windows Movie Maker scam spreads massively due to high Google ranking, ESET WeLiveSecurity, 2017: https://www.welivesecurity.com/2017/11/09/eset-detected-windows-movie-maker-scam-2017/
+- Clipchamp iOS app deprecation, Microsoft Support: https://support.microsoft.com/en-us/clipchamp/clipchamp-ios-app-deprecation
+- Clipchamp pricing, Microsoft: https://clipchamp.com/en/pricing/
+- Windows Movie Maker, Wikipedia: https://en.wikipedia.org/wiki/Windows_Movie_Maker
+
+---
+
 # Do They Still Make Floppy Disks? The 2026 Answer
 
 URL: https://404memoryfound.com/posts/floppy-disks-still-made-today.html
