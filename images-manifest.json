@@ -2726,6 +2726,16 @@
   "thumb": "/img/thumb/cd-sammlung-ff4e46.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sega-Nomad-Front.jpg/960px-Sega-Nomad-Front.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sega-Nomad-Front.jpg",
+  "ext": "jpg",
+  "file": "/img/sega-nomad-front-651386.jpg",
+  "height": 911,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sega-nomad-front-651386.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/VHS_cassette_tape_04.JPG/960px-VHS_cassette_tape_04.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:VHS_cassette_tape_04.JPG",
   "ext": "jpg",

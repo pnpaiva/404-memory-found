@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why the Sega Nomad Failed: Six AA Batteries, $180</title>
+      <link>https://404memoryfound.com/posts/sega-nomad-handheld-genesis.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/sega-nomad-handheld-genesis.html</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>The Sega Nomad failed because it cost $180, drained six AA batteries in hours, and shipped in October 1995 as Sega walked away from the Genesis.</description>
+      <enclosure url="https://404memoryfound.com/pins/sega-nomad-handheld-genesis.jpg" length="202785" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/sega-nomad-handheld-genesis.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Hardware</category>
+    </item>
     <item>
       <title>Is Windows Movie Maker Still Available in 2026?</title>
       <link>https://404memoryfound.com/posts/windows-movie-maker-still-available.html</link>
@@ -236,18 +248,6 @@
       <category>Gaming</category>
       <category>Business Blunders</category>
       <category>Music &amp; Entertainment</category>
-    </item>
-    <item>
-      <title>Is Photobucket Still Around? Why Your Photos Vanished</title>
-      <link>https://404memoryfound.com/posts/is-photobucket-still-around.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-photobucket-still-around.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Photobucket is still around in 2026, but only as paid storage: free accounts ended in June 2023 and plans now start at $5 a month for 1TB.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-photobucket-still-around.jpg" length="131944" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-photobucket-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Internet Culture</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
