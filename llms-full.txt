@@ -10107,153 +10107,92 @@ Yes. At BlizzCon 2026, Blizzard revealed a new StarCraft game targeted at 2030, 
 
 ---
 
-# What Happened to Kodak, the Company That Invented the Digital Camera Then Chose to Ignore It
+# Is Kodak Still in Business in 2026? Yes, and Profitable
 
 URL: https://404memoryfound.com/posts/what-happened-to-kodak-digital-camera-bankruptcy.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-15
+Published: 2026-04-15  Updated: 2026-09-23
 Topics: Hardware, Business Blunders
 
-In 1975, a 24-year-old Kodak engineer named Steve Sasson built the world's first digital camera. It was the size of a toaster, weighed about eight pounds, recorded black-and-white images at a resolution of 0.01 megapixels, and stored them on a cassette tape. The process of capturing a single photograph took 23 seconds.
+**Summary:** Kodak still exists as Eastman Kodak Company, an independent public company traded on the New York Stock Exchange as KODK. It warned in August 2025 that there was substantial doubt it could continue, then cleared the warning by raiding its own overfunded pension plan, and returned to profit in the second quarter of 2026 on 311 million dollars of revenue. It still makes film in Rochester, New York, with about 3,500 employees against 145,300 in 1988.
 
-Sasson brought his invention to Kodak's management. Their response, as he later recalled, was a version of: "That's cute, but don't tell anyone about it." The company that had built its empire on the phrase "Kodak moment" had just been handed the future of photography. And it decided the future could wait.
+**Key facts:**
+- Status today: In business and profitable; Q2 2026 net income of 17 million dollars
+- Owner today: Independent, publicly traded as NYSE: KODK; no parent company
+- Bankruptcy: Chapter 11 filed January 19, 2012; emerged September 3, 2013
+- Employees: About 3,500 at the end of 2025, down from 145,300 in 1988
+- Price today: Kodak Portra 400 in 35mm, roughly 17 to 22 dollars a roll in 2026
 
-Twenty-seven years later, Kodak filed for bankruptcy.
+## Why did Kodak shelve the first digital camera?
 
-  
-  
+In December 1975, a Kodak engineer named Steven Sasson finished a camera that needed no film. It weighed about 3.6 kilograms, produced a 100 by 100 pixel black and white image, and took 23 seconds to write that image onto an audio cassette. It worked, and it pointed straight at the end of Kodak's business.
 
-## The Company That Made Photography Democratic
+Sasson showed it to management. "That's cute, but don't tell anyone about it," was the reaction he later described to The New York Times. That line has carried the whole Kodak story ever since, which is a little unfair to the people who said it.
 
-George Eastman didn't invent photography. But he made it accessible to everyone, which mattered more. In 1888, Eastman launched the original Kodak camera with a slogan that captured its entire value proposition in seven words: "You press the button, we do the rest." Before Eastman, photography required specialized knowledge, bulky equipment, and a darkroom. After Eastman, it required $25 and a functioning index finger.
+They were protecting the most profitable part of the company. Kodak made its money on the consumable, not the hardware: film, chemicals, processing and prints. A camera sale was the entry ticket to decades of repeat purchases. Digital photography deleted every one of those repeat purchases. Kodak did not ignore the technology. It patented Sasson's architecture, kept an electronic imaging research group running through the 1980s and 1990s, and shipped digital cameras. It simply never funded digital at a level that would have damaged film, which is the only level that would have worked.
 
-The business model was elegant in a way that would later be compared to razor-and-blades economics. The camera was the entry point. The real money came from film, processing, and printing. Every photograph taken was a consumable transaction. Every birthday party, every vacation, every first day of school generated revenue for Kodak. And because film needed to be developed, Kodak controlled both ends of the value chain: the capture and the output.
+## How big was Kodak at its peak?
 
-By the mid-20th century, Kodak was one of the most recognizable brands on the planet. The company's yellow-and-red logo was ubiquitous, appearing in camera shops, drugstores, and tourist destinations worldwide. "Kodak moment" entered the English language as shorthand for a memory worth preserving. The company wasn't just selling film. It was selling the idea that your life's important moments deserved to be captured, and that Kodak was the way to do it.
+The numbers explain the caution. As late as 1976, Kodak held roughly 90 percent of film sales and 85 percent of camera sales in the United States. Global employment peaked at 145,300 in 1988. In 1996, revenue reached nearly 16 billion dollars and the company was worth more than 31 billion dollars.
 
-## The Numbers at the Peak
+Rochester, New York was built around it. Kodak was the largest employer in the region, and George Eastman's personal donations funded the University of Rochester, the Eastman School of Music and much of the city's civic infrastructure.
 
-Look at the numbers and you start to understand why Kodak's leadership had a hard time imagining the end. In 1976, Kodak controlled approximately 90% of film sales and 85% of camera sales in the United States. Global employment peaked at 145,300 workers in 1988. Annual revenue hit $16 billion in 1996. The company's market capitalization reached $31 billion in 1997.
+Dominance in a shrinking market is still shrinkage. Digital camera sales passed film camera sales worldwide in 2003. Kodak stopped selling traditional film cameras in North America and Western Europe in 2004. By the time the iPhone shipped in 2007, the standalone digital camera market Kodak had finally committed to was itself about to collapse. Polaroid, which built the same razor-and-blades trap around instant film (https://404memoryfound.com/posts/what-happened-to-polaroid-camera.html), hit the same wall and went through bankruptcy twice.
 
-These weren't the numbers of a company in trouble. These were the numbers of a company that had won. Kodak's dominance in film photography was so complete that it functioned almost like a utility. If you took pictures, you almost certainly used Kodak products somewhere in the process. The company's Rochester, New York headquarters was the economic engine of the entire region, and Kodak was routinely listed among the most valuable brands in America.
+## What happened in the 2012 bankruptcy?
 
-The problem, of course, is that dominance in a declining market is still decline. And by the time Kodak's leadership fully acknowledged what was happening, the market had already moved.
+Eastman Kodak filed for Chapter 11 protection in the U.S. Bankruptcy Court for the Southern District of New York on January 19, 2012. The petition listed 5.1 billion dollars in assets against 6.75 billion dollars in liabilities.
 
-## 1975: The Camera That Should Have Changed Everything
+The patents were supposed to be the rescue. Kodak had told the court that its digital capture portfolio, more than 1,100 patents covering how digital cameras and phone cameras capture and preview images, might fetch 2.2 to 2.6 billion dollars. In December 2012 it went to a consortium of twelve companies assembled by Intellectual Ventures and RPX, among them Apple, Google, Microsoft, Samsung, Adobe and Facebook, for 525 million dollars. The foundational digital imaging patents sold for about a fifth of what Kodak had hoped, partly because a ruling earlier that year had already gutted Kodak's royalty claims against Apple.
 
-Steve Sasson's digital camera prototype was, by any reasonable definition, a breakthrough. He had proven that you could capture an image electronically, without film, without chemicals, without a darkroom. The resolution was terrible. The process was slow. The storage was primitive. But the concept was sound, and concepts are what matter when you're looking at a 15-to-20-year technology horizon.
+The plan of reorganization took effect on September 3, 2013. What came out was a commercial printing and chemicals company with the consumer photography business cut away. The brand survived. The Kodak people remembered did not.
 
-Sasson and his colleague Robert Hills even built a more advanced prototype in 1989 that produced images closer to what consumers would eventually expect from digital photography. They showed it internally. The response from Kodak's film division was predictable. As Sasson later told The New York Times, management's reaction could be summarized as: "Why would anyone ever want to look at their pictures on a television set?"
+## How did Kodak survive the 2025 going-concern warning?
 
-Here's the thing. The people asking that question weren't stupid. They were rational actors protecting a phenomenally profitable business. Kodak's film and processing operations had profit margins estimated between 60% and 70%. Digital photography, by contrast, eliminated the consumable. No film to sell. No processing fees. No prints unless the customer chose to make them. From a pure business perspective, digital photography was a threat to the most profitable part of Kodak's business model.
+On August 11, 2025, Eastman Kodak filed a quarterly report that frightened its own shareholders. Term loans carrying about 477 million dollars had been accelerated to May 22, 2026, and 99 million dollars of Series B preferred stock had to be redeemed six days after that. The filing stated plainly: "These conditions raise substantial doubt about Kodak's ability to continue as a going concern." Headlines read as though the 145-year-old company was about to switch the lights off.
 
-This is the innovator's dilemma in its purest form. Clayton Christensen would later use Kodak as one of his defining case studies. The company that had the most to gain from leading the digital transition was also the company that had the most to lose from it. And Kodak chose to protect what it had rather than build what was coming.
+The answer was sitting in the pension fund. Kodak terminated the Kodak Retirement Income Plan, which was overfunded, and replaced it with a fully funded cash balance plan for employees. By its third-quarter report on November 6, 2025, the company said the conditions behind the going-concern language had been fully resolved. The reversion closed in December 2025: 1.023 billion dollars of excess plan assets, of which about 767 million dollars came back to Kodak, 609 million of that in cash. Roughly 312 million dollars went straight into prepaying the term loans, cutting the balance to 200 million, and Kodak finished with more than 300 million dollars of cash on hand.
 
-## The Slow Decline Nobody Wanted to See
+## Is the company actually making money now?
 
-The strange thing about Kodak's decline is that it wasn't sudden. It was a slow, visible erosion that took roughly 15 years to reach the point of no return. And during that entire period, Kodak made moves that suggested awareness of the digital threat, just never with the conviction required to actually pivot the business.
+Yes, on the most recent results. In the second quarter of 2026, Eastman Kodak reported revenue of 311 million dollars against 263 million a year earlier, an increase of 18 percent, and net income of 17 million dollars against a 26 million dollar loss in the same quarter of 2025. Gross profit rose 61 percent to 82 million dollars, pushing the margin from 19 percent to 26 percent. It was the fourth consecutive quarter of year-over-year improvement in revenue, gross profit and operational EBITDA.
 
-In 1991, Kodak developed the Kodak DCS 100, one of the first commercially available digital cameras, in partnership with Nikon. It cost between $20,000 and $25,000 depending on configuration, targeting professional photojournalists rather than consumers. In 1995, Kodak released the DC40, one of the first consumer-oriented digital cameras, at a price point accessible to early-adopter consumers. The company invested heavily in digital imaging research throughout the 1990s and held thousands of patents related to digital photography technology.
+Film is doing the heavy lifting. The Advanced Materials and Chemicals division, which covers motion picture and still film alongside the chemicals business, grew 40 percent to 105 million dollars. Full-year 2025 revenue was 1.069 billion dollars, about 26 million above 2024. The company employed roughly 3,500 people at the end of 2025.
 
-So Kodak wasn't ignoring digital. It was hedging. The strategy seemed to be: participate in digital just enough to stay relevant, but never commit so aggressively that it cannibalized the film business. On paper, this looked like prudent corporate strategy. In practice, it meant that Kodak was always two steps behind the companies that had nothing to lose.
+The constraint now is capacity, not demand. Coating and finishing photographic emulsion is a specialist trade with a shrinking labor pool, and Kodak cannot hire its way to more film quickly.
 
-  
-  
+## Who owns Kodak and the film brand today?
 
-Canon, Nikon, Sony, and eventually Samsung and the smartphone manufacturers had no legacy film business to protect. They could go all-in on digital without worrying about destroying an existing revenue stream. Kodak could not. Or rather, Kodak chose not to, which amounts to the same thing.
+Eastman Kodak Company is independent and publicly traded on the New York Stock Exchange under the ticker KODK. Nobody bought it out of the 2012 bankruptcy and nobody has bought it since. Jim Continenza has run it as executive chairman and chief executive since 2019.
 
-Consider the timeline. In 1997, when Kodak's market cap hit $31 billion, digital cameras were still expensive toys that produced mediocre images. A reasonable executive could look at the numbers and conclude that digital was years, maybe decades, away from threatening the core business. But technology doesn't move in straight lines. It moves in S-curves. By 2003, digital camera sales surpassed film camera sales globally. By 2006, Nikon had stopped producing film cameras entirely. The transition that seemed distant in 1997 was effectively complete by 2008.
+The film brand is split in two, which is why the ownership question gets contradictory answers online. Eastman Kodak manufactures the film in Rochester. Kodak Alaris, a separate company created in 2013 to settle the UK pension obligations left by the bankruptcy, holds the rights to sell, market and distribute Kodak-branded still film. In August 2024 the UK pension fund sold Kodak Alaris to Kingswood Capital Management, a Los Angeles private equity firm.
 
-Kodak's annual reports from this period make for fascinating reading. The company acknowledged the digital transition explicitly. It discussed its digital strategy at length. It reported digital revenue alongside film revenue. And yet, year after year, the investment balance tilted toward protecting the existing film business rather than accelerating the digital one. The words said "digital transformation." The capital allocation said "maybe next year."
+Kodak has been blunt about staying in the business. "We are committed to manufacturing film as long as there is demand from the filmmakers and photographers worldwide," the company told PetaPixel in 2023. Demand has cooperated, and prices have followed it. A 35mm roll of Kodak Portra 400 cost around 9 dollars in 2016. In 2026 it sells for roughly 17 to 22 dollars depending on the retailer, close to triple.
 
-## The Final Decade
+## Where to find a Kodak camera today
 
-By the early 2000s, the numbers were turning ugly. Digital camera sales surpassed film camera sales in 2003. Kodak's revenue began declining. The company started cutting jobs, closing factories, and restructuring repeatedly. In 2004, Kodak announced it would stop selling traditional film cameras in North America and Europe. In 2005, the company reported its first annual loss in over a decade.
-
-CEO after CEO cycled through, each with a new strategy. Antonio Perez, who took over in 2005, tried to transform Kodak into a digital printing company, leveraging the company's expertise in imaging science for commercial and consumer inkjet printing. The logic was defensible. The execution was too late and too underfunded.
-
-Meanwhile, the technology that would truly kill Kodak's remaining digital camera business was already in people's pockets. When Apple launched the iPhone in 2007, it didn't just disrupt the phone industry. It began the process of making standalone digital cameras unnecessary for most consumers. Why carry a separate camera when your phone took pictures that were good enough to share instantly on social media?
-
-Kodak's digital camera business, which had never been its strongest division anyway, collapsed alongside the rest of the consumer camera market. By 2010, Kodak was bleeding money. The company tried to monetize its vast patent portfolio, which included foundational digital imaging patents. It filed licensing lawsuits against Apple, Samsung, and others, essentially trying to extract revenue from the technology it had helped pioneer but failed to commercialize effectively.
-
-## Bankruptcy and After
-
-On January 19, 2012, the Eastman Kodak Company filed for Chapter 11 bankruptcy protection. The filing listed assets of $5.1 billion and debts of $6.8 billion. A company that had once employed 145,300 people and generated $16 billion in annual revenue was now insolvent.
-
-Kodak emerged from bankruptcy in September 2013 as a much smaller company focused on commercial printing and imaging for business customers. The consumer photography business that had defined the brand for over a century was gone. The workforce had been reduced to a fraction of its former size. Rochester, which had depended on Kodak for generations, was left to reinvent itself.
-
-The Kodak brand still exists today. The company produces commercial printing solutions, advanced materials, and chemicals. In 2020, Kodak briefly made headlines when the Trump administration announced a $765 million loan to help the company produce pharmaceutical ingredients, though the deal was later put on hold amid insider trading allegations. The company's stock briefly surged from around $2 to over $60 before crashing back down.
-
-But the Kodak that most people remember, the one that was synonymous with photography itself, is gone. And the tragedy of it is that the company literally held the technology that would replace its core business 37 years before that replacement actually happened.
-
-## The Fuji Problem and the Antitrust Distraction
-
-While Kodak was wrestling with the digital question internally, it was also fighting a very public battle against Fujifilm on the analog front. Throughout the 1990s, Kodak accused Fuji of unfair trade practices in Japan, where Fuji allegedly blocked Kodak from accessing distribution channels. In 1995, Kodak filed a petition with the U.S. Trade Representative under Section 301 of the Trade Act, escalating the dispute to the World Trade Organization.
-
-The WTO ruled against Kodak in 1998, finding insufficient evidence that Japan's market was systematically closed to foreign competition. The ruling was a blow to Kodak's management, which had invested significant time, money, and executive attention into the trade dispute. But the larger problem wasn't the ruling itself. It was the distraction.
-
-During the years that Kodak was focused on beating Fuji in the film market, the film market itself was shrinking. Fuji, notably, managed the digital transition somewhat better than Kodak, diversifying into healthcare imaging, optical films for LCD screens, and cosmetics (leveraging its expertise in collagen chemistry from film manufacturing). By 2012, while Kodak was filing for bankruptcy, Fujifilm had revenue exceeding $21 billion and remained profitable. Same industry, same disruption, very different outcomes.
-
-The comparison is instructive. Fujifilm's leadership made the painful decision to invest aggressively in non-film businesses even while film was still profitable. They accepted that the core business was dying and looked for adjacent markets where their chemical and optical expertise could be applied. Kodak's leadership, by contrast, kept trying to slow the decline of film while half-heartedly investing in digital. The difference wasn't intelligence or foresight. It was willingness to act on what both companies could clearly see coming.
-
-## The Patent Portfolio: Kodak's Final Card
-
-One of the more poignant chapters in Kodak's decline was its attempt to monetize its intellectual property. Over decades of research and development, Kodak had accumulated a massive portfolio of patents related to digital imaging. More than 1,000 digital imaging patents covered technologies that were fundamental to how digital cameras, smartphones, and image processing systems worked.
-
-Starting in the mid-2000s, Kodak began filing patent infringement lawsuits against major technology companies, including Apple, Samsung, and LG. The company also tried to license its patents directly. In some cases, Kodak won settlements. Samsung paid $550 million to settle patent disputes with Kodak in 2010. LG settled for $414 million in 2009.
-
-But these were one-time windfalls, not a sustainable business model. And the irony was thick: Kodak was now making money from the very technology it had refused to fully embrace when it had the chance. The company that had invented core digital imaging technology decades earlier was reduced to suing the companies that had actually turned that technology into products people wanted to buy.
-
-During the bankruptcy proceedings, Kodak sold a portfolio of 1,100 digital imaging patents to a consortium of buyers including Apple, Google, Microsoft, Samsung, and others for approximately $525 million. The patents that might have been the foundation of a digital imaging empire were instead liquidated to fund the restructuring.
-
-## Rochester: The City Kodak Left Behind
-
-You can't tell the Kodak story without talking about Rochester, New York. For most of the 20th century, Kodak was Rochester, and Rochester was Kodak. The company was the largest employer in the region. It funded hospitals, parks, universities, and cultural institutions. George Eastman himself had donated over $100 million (in early 1900s dollars) to institutions including the University of Rochester, MIT, and what became the Eastman School of Music.
-
-When Kodak began its decline, Rochester felt it in layers. First came the layoffs, wave after wave through the 2000s. Then came the real estate impact as former Kodak employees left the region. Then the secondary effects: restaurants that served Kodak workers closed, small businesses that depended on Kodak supply contracts folded, and the tax base that funded public services eroded.
-
-Rochester has worked hard to reinvent itself in the years since, investing in healthcare, education, optics research, and technology startups. The University of Rochester's optics program, partly Kodak's legacy, has become a hub for photonics research. But the city is still smaller and poorer than it was during the Kodak years, and the memory of what the company's decline cost the community remains vivid.
-
-The story of Kodak's bankruptcy also has an important footnote about timing. When Kodak filed in January 2012, the smartphone camera revolution was still accelerating. Instagram had launched in October 2010 and had already reached 15 million users by the end of 2011. The idea that every person would carry a high-quality camera in their pocket at all times, that photographs would be shared instantly with hundreds or thousands of people, that the "Kodak moment" would be replaced by the Instagram post: all of this was becoming reality while Kodak was negotiating with creditors.
-
-George Eastman's original insight, that photography should be simple and accessible, had been realized more completely than he ever imagined. The camera was now built into the device people already carried everywhere. The "you press the button, we do the rest" promise had evolved into tap the screen and share with the world. Eastman would have understood the appeal immediately. His company just couldn't find a way to be part of it.
-
-## The Real Lesson
-
-It's tempting to frame Kodak's story as simple corporate stupidity. The company that invented the digital camera and then refused to use it. But that framing is too clean. Kodak's leadership understood the digital threat. They invested in digital technology. They held the patents. They released digital products. The problem wasn't ignorance. It was incentive structure.
-
-Every quarter that Kodak sold film and processing services, it generated enormous profits. Every quarter that it invested aggressively in digital, it accelerated the destruction of those profits. The stock market, the board, and the shareholders all rewarded short-term profitability. No CEO wanted to be the one who voluntarily cratered Kodak's earnings by cannibalizing the film business, even if doing so was the only viable long-term survival strategy.
-
-This is essentially what Netflix did when it abandoned its profitable DVD-by-mail business to go all-in on streaming. Reed Hastings took the short-term hit, the stock cratered, customers revolted, and the company was mocked. But it survived. Kodak's leadership never made that leap. Not because they couldn't see the cliff. Because jumping off it voluntarily felt worse than being pushed.
-
-The Kodak story is, at its core, a story about how rational, intelligent people can collectively make decisions that lead to disaster when the incentive structures reward preservation over transformation. Every incumbent industry facing technological disruption should study it. Most of them probably won't act on the lessons, for exactly the same reasons Kodak didn't.
+Old Kodak hardware is cheap and plentiful because the company made so much of it for so long. LoveToKnow's price guide puts most Brownie box cameras in the 30 to 60 dollar range, with the Art Deco Beau Brownie between about 85 and 650 dollars depending on condition and color. Sellers list them by the thousand on Etsy's vintage Kodak camera listings (https://www.etsy.com/search?q=vintage+kodak+camera). Check the bellows against a light for pinholes and fire the shutter at its slowest speed before you pay. If what you actually want is the pictures rather than the camera, the shoebox of prints and negatives in the attic is the better project, and scanning old photos and negatives (https://404memoryfound.com/posts/scan-old-photos-negatives-2026.html) costs less than most people expect. The same logic Kodak refused to accept is the one Netflix applied when it walked away from mailing DVDs (https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html): kill the profitable thing before the market does it for you.
 
 ## Frequently Asked Questions
 
-Did Kodak really invent the digital camera?
+### Is Kodak still in business in 2026?
 
-Yes. In 1975, Kodak engineer Steve Sasson built the first working digital camera prototype. It was the size of a toaster, captured images at 0.01 megapixels, and stored them on a cassette tape. Kodak held numerous foundational patents in digital imaging technology.
+Yes. Eastman Kodak Company is still operating in 2026 and returned to profit in the second quarter, reporting 311 million dollars of revenue and 17 million dollars of net income. It warned in an August 2025 filing that there was substantial doubt about its ability to continue as a going concern, then cleared that warning by November 2025 after terminating its overfunded pension plan and prepaying debt.
 
-When did Kodak file for bankruptcy?
+### Who owns Kodak now?
 
-Kodak filed for Chapter 11 bankruptcy protection on January 19, 2012. The company emerged from bankruptcy in September 2013 as a significantly smaller company focused on commercial printing and imaging.
+No one company owns Kodak. Eastman Kodak Company is independent and publicly traded on the New York Stock Exchange as KODK, with Jim Continenza as executive chairman and chief executive since 2019. Kodak Alaris, the separate business that sells and distributes Kodak-branded still film, was bought by Kingswood Capital Management in August 2024.
 
-Does Kodak still exist?
+### Did Kodak really invent the digital camera?
 
-Yes, but as a very different company. Today's Kodak focuses on commercial printing, advanced materials, and chemicals. The consumer photography business that defined the brand for over a century no longer exists in any meaningful form.
+Yes. Kodak engineer Steven Sasson built the first self-contained digital camera in December 1975, a 3.6 kilogram prototype that recorded a 100 by 100 pixel black and white image onto cassette tape in 23 seconds. Kodak patented the design and held more than 1,100 digital imaging patents, which it sold during its 2012 bankruptcy for 525 million dollars.
 
-How many people did Kodak employ at its peak?
-
-Kodak's global employment peaked at approximately 145,300 workers in 1988. By the time of its bankruptcy in 2012, the workforce had been reduced dramatically through years of layoffs and restructuring.
-
-What was Kodak's peak revenue?
-
-Kodak's annual revenue peaked at approximately $16 billion in 1996. Its market capitalization reached $31 billion in 1997. By the time of its bankruptcy filing in 2012, the company listed assets of $5.1 billion against debts of $6.8 billion.
-
-Could Kodak have survived if it had embraced digital earlier?
-
-Possibly, though it would have required a fundamentally different business model. The core challenge was that digital photography eliminated the consumable (film and processing) that generated most of Kodak's profits. Successfully transitioning would have meant accepting years of lower margins while building a competitive digital business, something Kodak's corporate structure and shareholder expectations made extremely difficult.
-
+**Sources:**
+- Eastman Kodak Company, Form 10-Q, June 30, 2025 (going-concern disclosure): https://www.sec.gov/Archives/edgar/data/31235/000095017025106568/kodk-20250630.htm
+- Kodak Completes Pension Reversion Process, December 2025 (investor release): https://investor.kodak.com/news-releases/news-release-details/kodak-completes-pension-reversion-process-delivering-over-1
+- Kodak Reports Second-Quarter 2026 Financial Results: https://investor.kodak.com/news-releases/news-release-details/kodak-reports-second-quarter-2026-financial-results
+- Kodak's growth and decline: a timeline, Rochester Business Journal, 2012: https://rbj.net/2012/01/19/kodaks-growth-and-decline-a-timeline/
+- Kodak Alaris Announces Acquisition by Kingswood Capital Management, 2024: https://corporate.kodakalaris.com/Pressroom/News/2024/Kodak-Alaris-Announces-Acquisition-by-Kingswood-Ca
 
 ---
 
