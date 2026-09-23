@@ -407,12 +407,40 @@ def top_tags(posts):
     return [t for t, _ in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:HUB_TAG_COUNT]]
 
 
+RELATED_MAP = {}
+
+
+def build_related_map(posts, count=RELATED_COUNT):
+    """Pick each post's related list so link equity spreads instead of piling on the newest posts.
+
+    Sorting candidates by recency alone gave the last few weeks every internal link and left older
+    posts with none, which is how a page ends up discovered and never crawled. Each post still only
+    sees same-tag candidates, but among them the ones with the fewest inbound slots so far win, so
+    every post in the archive collects links from its own neighbourhood.
+    """
+    inbound = {p["slug"]: 0 for p in posts}
+    order = sorted(posts, key=lambda p: p["date"])  # oldest first: the newest still get fresh links
+    for post in order:
+        tags = set(post["tags"])
+        cands = [(len(tags & set(o["tags"])), o) for o in posts if o["slug"] != post["slug"]]
+        cands = [c for c in cands if c[0] > 0]
+        # strongest tag match first, then whoever is starved of inbound links, then the newer post
+        cands.sort(key=lambda c: (-c[0], inbound[c[1]["slug"]], -int(c[1]["date"].replace("-", ""))))
+        picked = [c[1] for c in cands[:count]]
+        for r in picked:
+            inbound[r["slug"]] += 1
+        RELATED_MAP[post["slug"]] = picked
+    return inbound
+
+
 def related_posts(post, posts, count=RELATED_COUNT):
+    if post["slug"] in RELATED_MAP:
+        return RELATED_MAP[post["slug"]][:count]
     tags = set(post["tags"])
     scored = [(len(tags & set(o["tags"])), o["date"], o) for o in posts if o["slug"] != post["slug"]]
     scored = [s for s in scored if s[0] > 0]
-    scored.sort(key=lambda s: s[1], reverse=True)   # newest first...
-    scored.sort(key=lambda s: -s[0])                # ...within the highest tag overlap (stable sort)
+    scored.sort(key=lambda s: s[1], reverse=True)
+    scored.sort(key=lambda s: -s[0])
     return [s[2] for s in scored[:count]]
 
 
@@ -1248,6 +1276,10 @@ def main():
     authors = {k: v for k, v in read_json("authors.json", {}).items() if not k.startswith("_")}
     config = {k: v for k, v in read_json("site-config.json", {}).items() if not k.startswith("_")}
     posts = load_posts(manifest, authors, config)
+    inbound_related = build_related_map(posts)
+    starved = [s for s, n in inbound_related.items() if n == 0]
+    if starved:
+        print(f"⚠️  {len(starved)} posts still receive no related link: {', '.join(starved[:5])}")
     by_slug = {p["slug"]: p for p in posts}
     tags = top_tags(posts)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
