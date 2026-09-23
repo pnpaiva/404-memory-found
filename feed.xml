@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DIVX Explained: Circuit City&#x27;s $337 Million Flop</title>
+      <link>https://404memoryfound.com/posts/divx-circuit-city-dvd-format.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/divx-circuit-city-dvd-format.html</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>DIVX was Circuit City&#x27;s pay-per-view DVD. It ran from June 1998 to June 1999, cost $337 million, and every disc died on June 30, 2001.</description>
+      <enclosure url="https://404memoryfound.com/pins/divx-circuit-city-dvd-format.jpg" length="127151" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/divx-circuit-city-dvd-format.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Hardware</category>
+    </item>
     <item>
       <title>Why the Sega Nomad Failed: Six AA Batteries, $180</title>
       <link>https://404memoryfound.com/posts/sega-nomad-handheld-genesis.html</link>
@@ -235,19 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/is-toonami-still-on-tv.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Music &amp; Entertainment</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Why G4 TV Failed Twice: The 1,000-Viewer Collapse</title>
-      <link>https://404memoryfound.com/posts/g4-tv-failed-twice.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/g4-tv-failed-twice.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>G4 TV failed twice. Comcast unplugged the gaming channel on December 31, 2014, revived it in November 2021, and shut it down again in October 2022.</description>
-      <enclosure url="https://404memoryfound.com/pins/g4-tv-failed-twice.jpg" length="256055" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/g4-tv-failed-twice.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
-      <category>Business Blunders</category>
-      <category>Music &amp; Entertainment</category>
     </item>
   </channel>
 </rss>
