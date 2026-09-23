@@ -18,7 +18,7 @@ One post answers one search query completely in under five minutes of reading, s
 | Quick facts | 3 to 5 short label/value pairs: year launched, company, price then and inflation-adjusted, units sold, what replaced it, status today |
 | Sections | 4 to 6 `<h2>` headings, 120 to 220 words each. Headings are specific and often question-shaped ("Why did the NSA ban Furby?"), never generic ("Background", "Conclusion") |
 | Paragraphs | 1 to 4 sentences. No walls of text. Numbers, dates and prices in every section |
-| Image | one image after the summary, from Wikimedia Commons (CC or public domain), with descriptive alt text and a caption |
+| Image | never write an `upload.wikimedia.org` URL from memory: those URLs live under a hash of the file name and a guessed one 404s forever. Give `imageSearch` keywords and let `fetch_images.py` resolve the real file. Only paste a URL you opened and saw load in this session |
 | Internal links | 2 to 3 links to existing posts inside the prose, on the natural phrase, never "click here" |
 | FAQ | `<h2>Frequently Asked Questions</h2>` then exactly 3 `<h3>` questions people actually search, most-asked first, each answered in 2 to 3 sentences that stand alone (restate the subject, carry their own dates) so the answer still makes sense lifted out of the page. Becomes FAQPage schema |
 | Quotations | At least two short direct quotations (under 30 words each) in quotation marks, with the speaker and the outlet or document named and the year ("as CEO Sandi Harding told The Bulletin in 2023"). Only words that appear in a source you opened or in a search snippet you can cite; never reconstructed from memory. Quoted sentences are what answer engines lift verbatim |
@@ -51,7 +51,7 @@ Never invent a quote, a price or a sales figure. If a number cannot be sourced, 
   "excerpt": "meta description, 120 to 155 characters",
   "summary": "2 to 3 sentence direct answer",
   "facts": [{"label": "Launched", "value": "October 1998, Tiger Electronics"}],
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/.../960px-....jpg",
+  "imageSearch": ["exact subject", "subject logo", "wider fallback"],
   "imageAlt": "descriptive alt text",
   "imageCaption": "caption shown under the image",
   "body": "<h2>...</h2><p>...</p> ... <h2>Frequently Asked Questions</h2><h3>...?</h3><p>...</p>",
@@ -62,3 +62,23 @@ Never invent a quote, a price or a sales figure. If a number cannot be sourced, 
 ```
 
 `body` holds the sections and the FAQ only. `build.py` renders summary, image, quick facts, sources and byline around it.
+
+## Images: the one rule that is never bent
+
+Wikimedia keeps every file in a directory named after the md5 of its file name, so a URL written from
+memory or composed by pattern returns 404 at every width, forever. It cannot be repaired later, because
+nothing about the guessed path points at the real file.
+
+- Never put an `upload.wikimedia.org` URL in a post unless a command in that same session printed it and
+  a follow-up request returned 200. Copy it exactly: never retype a hash directory or a `NNNpx-` width.
+- When Commons is unreachable, or the check did not return 200, set `image` to `null` and give
+  `imageSearch`: three or four short queries naming the exact product or company, most specific first.
+  `fetch_images.py` resolves them against the Commons API after the push. A post with good queries beats
+  a post with an invented URL every time.
+- The same applies to `<img>` inside the body. No verified URL means no figure.
+- Captions stay honest: say when the photo is a later model, a museum display, packaging, or a stand-in
+  for the subject rather than the subject itself. A picture of something else is worse than no picture.
+
+`fetch_images.py` now checks every hero URL against the Commons API and, when the file does not exist,
+drops it and searches instead, and `build.py` ships no image that has no verified local copy. Those are
+safety nets, not permission to guess.

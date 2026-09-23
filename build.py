@@ -171,7 +171,8 @@ def localize_images(body, manifest):
             return tag
         info = manifest.get(src.group(1))
         if not info or info.get("status") != "ok":
-            return "" if is_dead(info) else tag  # gone from Commons: remove; unknown or transient: keep hotlink
+            # No verified local copy means the URL may be invented, so never ship it to a reader.
+            return ""
         tag = tag.replace(src.group(0), f'src="{info["file"]}"')
         tag = re.sub(r'\s(width|height)="[^"]*"', "", tag)
         tag = tag.replace("<img", f'<img width="{info["width"]}" height="{info["height"]}"', 1)
@@ -186,8 +187,8 @@ def localize_images(body, manifest):
             return fig
         src = re.search(r'src="([^"]+)"', img.group(0))
         info = manifest.get(src.group(1)) if src else None
-        if is_dead(info):
-            return ""  # image gone from Commons: drop the whole figure
+        if not info or info.get("status") != "ok":
+            return ""  # no verified local copy: drop the whole figure
         fig = fig.replace(img.group(0), fix_img(img))
         credit = credit_link(info)
         if credit and "img-credit" not in fig:
@@ -381,9 +382,9 @@ def load_posts(manifest, authors, config):
         p["heroLocal"] = hero.get("file") if hero.get("status") == "ok" else None
         p["heroInfo"] = hero if hero.get("status") == "ok" else None
         p["thumb"] = hero.get("thumb") if hero.get("status") == "ok" else None
-        if is_dead(hero):
-            p["image"] = None  # hero gone from Commons: grey placeholder instead of a broken request
-        p["heroUrl"] = f"{BASE_URL}{p['heroLocal']}" if p["heroLocal"] else (p.get("image") or None)
+        if not p["heroLocal"]:
+            p["image"] = None  # no verified local copy: grey placeholder instead of a broken request
+        p["heroUrl"] = f"{BASE_URL}{p['heroLocal']}" if p["heroLocal"] else None
         og_local = os.path.join(OUTPUT_DIR, "og", f"{p['slug']}.jpg")
         p["ogImage"] = f"{BASE_URL}/og/{p['slug']}.jpg" if os.path.exists(og_local) else DEFAULT_OG_IMAGE
         p["url"] = f"{BASE_URL}/posts/{p['slug']}.html"

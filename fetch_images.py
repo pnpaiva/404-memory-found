@@ -233,13 +233,39 @@ def commons_lookup(query):
     return None, None
 
 
-def resolve_missing_heroes(posts):
-    """Posts written where Commons was unreachable carry imageSearch queries instead of an image URL."""
+def commons_file_exists(url):
+    """A Commons URL written by hand can name a file that never existed, in which case no width and no
+    hash directory will ever work. Ask the API whether the file name itself is real."""
+    if "upload.wikimedia.org" not in url:
+        return True
+    name = re.sub(r"^\d+px-", "", url.rsplit("/", 1)[-1])
+    return commons_file_url(name) is not None
+
+
+def fallback_queries(post):
+    """No imageSearch on the post: build queries from its own title and tags so it still gets a hero."""
+    title = re.sub(r"\b(is|are|was|were|the|a|an|still|in|2026|what|who|why|how|now|happened|to|of|and|"
+                   r"around|online|business|explained|owns|own)\b", " ", post["title"].lower())
+    subject = " ".join(w for w in re.findall(r"[a-z0-9']+", title) if len(w) > 2)[:60].strip()
+    if not subject:
+        return []
+    return [subject, subject.split(" ")[0] + " logo", subject.split(" ")[0]]
+
+
+def resolve_missing_heroes(posts, manifest=None):
+    """Posts written where Commons was unreachable carry imageSearch queries instead of an image URL.
+    Posts whose image URL was invented are cleared here so the same search path rescues them."""
+    manifest = manifest or {}
     changed = False
     for p in posts:
-        if p.get("image") or not p.get("imageSearch"):
+        img = p.get("image") or ""
+        if img and manifest.get(img, {}).get("status") != "ok" and not commons_file_exists(img):
+            print(f"  {p['id']}: image URL names a file that does not exist on Commons, searching instead")
+            p["image"] = None
+            changed = True
+        if p.get("image"):
             continue
-        for q in p["imageSearch"][:4]:
+        for q in (p.get("imageSearch") or fallback_queries(p))[:4]:
             try:
                 url, title = commons_lookup(q)
             except Exception as e:  # noqa: BLE001
@@ -254,7 +280,7 @@ def resolve_missing_heroes(posts):
                 break
             time.sleep(1)
         if not p.get("image"):
-            print(f"  no matching free image for {p['id']} (queries: {p['imageSearch']})")
+            print(f"  no matching free image for {p['id']} (queries: {p.get('imageSearch') or fallback_queries(p)})")
     return changed
 
 
@@ -262,14 +288,12 @@ def main():
     os.makedirs(THUMB_DIR, exist_ok=True)
     data = json.load(open("posts.json", encoding="utf-8"))
     posts = data["posts"]
-    if resolve_missing_heroes(posts):
+    manifest = json.load(open(MANIFEST, encoding="utf-8")) if os.path.exists(MANIFEST) else {}
+    if resolve_missing_heroes(posts, manifest):
         with open("posts.json", "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
             f.write("\n")
     urls = collect_urls(posts)
-    manifest = {}
-    if os.path.exists(MANIFEST):
-        manifest = json.load(open(MANIFEST, encoding="utf-8"))
 
     def needs_fetch(u):
         m = manifest.get(u, {})
