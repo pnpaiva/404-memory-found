@@ -10008,139 +10008,102 @@ Xanga's decline was caused by a combination of factors: the rise of Facebook (wh
 
 ---
 
-# What Happened to StarCraft, the Game That Invented Esports
+# Is StarCraft Still Played in 2026? Yes, and Free
 
 URL: https://404memoryfound.com/posts/what-happened-to-starcraft-birth-of-esports.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-15
+Published: 2026-04-15  Updated: 2026-09-23
 Topics: Gaming, Internet Culture
 
-Picture this. It's a Saturday afternoon in 1998, and you've just torn the shrinkwrap off a jewel case with a cover so good it should've been a movie poster. Three alien races. A tagline that promised galactic warfare. And a system requirements sticker on the back that made you pray your family PC could handle it.
+**Summary:** StarCraft is still played in 2026. The Brood War league ASL ran its 21st season from March to May 2026 on the Korean streaming service SOOP, and Blizzard Entertainment, owned by Microsoft since October 2023, revealed a new StarCraft game at BlizzCon 2026 for a 2030 release. The original StarCraft and its Brood War expansion are free on Battle.net, and StarCraft: Remastered costs $14.99.
 
-The game was StarCraft. And within two years of its release, it would do something nobody at Blizzard Entertainment, or anywhere else in the gaming industry, could have predicted. It wouldn't just become the best-selling PC game of its year. It would create an entirely new form of professional competition, turn a generation of South Korean teenagers into millionaire celebrities, and lay the foundation for what we now call esports, an industry worth billions.
+**Key facts:**
+- Released: March 31, 1998, by Blizzard Entertainment
+- Status today: Still played; ASL Season 21 ran March to May 2026
+- Owner today: Microsoft, since the Activision Blizzard deal closed October 13, 2023
+- Price today: StarCraft and Brood War free on Battle.net; Remastered $14.99
+- Copies sold: More than 11 million worldwide by February 2009
 
-This is the story of how a real-time strategy game built in Irvine, California, accidentally rewired an entire country's culture and invented a new kind of sport.
+## Why Blizzard threw out the first StarCraft build
 
-  
-  
+Blizzard Entertainment began StarCraft in 1995, straight after finishing Warcraft II: Tides of Darkness. The first plan was cheap and obvious: reskin the Warcraft II engine with a science fiction look and ship it.
 
-## The Game That Almost Looked Like Warcraft in Space
+The demo at E3 1996 was a failure. Press and fans labelled it "orcs in space" and "Warcraft goes purple", and before the show closed Blizzard had switched most of its StarCraft demo stations over to Diablo.
 
-Blizzard started working on StarCraft in 1995, right after wrapping up Warcraft II: Tides of Darkness. The original plan was straightforward: take the Warcraft II engine, reskin it with a sci-fi aesthetic, and ship it. Simple enough. When they showed the first build at E3 1996, the reaction was brutal. Journalists called it "Warcraft in Space," and not as a compliment. The game looked derivative, felt clunky, and generated the kind of polite disappointment that kills hype faster than a bad review.
+So Blizzard started again. The engine was rebuilt, and Terran, Zerg and Protoss were redesigned to play as three different games rather than one unit list in three colors. That asymmetry was unusual for real-time strategy in the 1990s, where factions were mostly cosmetic variations on each other. The reworked build shown in early 1997 got a very different reception.
 
-And here's where Blizzard did something that most studios wouldn't have the guts to do. They scrapped almost everything and started over. The engine was rebuilt from the ground up. The three playable factions, Terran, Zerg, and Protoss, were redesigned to play in fundamentally different ways rather than being mirror images of each other with different skins. This was a radical design choice for real-time strategy games at the time. Most RTS games gave you factions that were basically cosmetic variations. StarCraft made each race feel like an entirely different game.
+StarCraft shipped on March 31, 1998. It sold more than 1.5 million copies in under a year and finished as the number one selling PC game of 1998. By February 2009 it had passed 11 million copies worldwide, and roughly 4.5 million of those were sold in South Korea alone.
 
-By the time Blizzard showed the overhauled version in early 1997, the reception flipped completely. The game looked gorgeous for its time, the asymmetric balance was unlike anything in the genre, and the hype machine was back on. On March 31, 1998, StarCraft shipped. It sold 1.5 million copies worldwide in its first year, including 746,365 copies in the United States alone, making it the best-selling PC game of 1998. The expansion pack, Brood War, followed in late 1998 and refined the balance even further.
+## What made South Korea the center of the game
 
-But the real story wasn't happening in American living rooms. It was happening ten thousand miles away, in PC rooms packed shoulder to shoulder across South Korea.
+The 1997 Asian financial crisis hit South Korea hard, and the government answered it partly by pouring money into broadband. By the early 2000s the country had some of the fastest and cheapest consumer internet in the world.
 
-## The PC Bang Phenomenon and South Korea's Perfect Storm
+The other half of the story was the PC bang, the Korean internet gaming cafe. There were about 100 of them in 1998. By 2001 there were roughly 23,000, a growth curve that Korean economists nicknamed "Starcnomics" after the game that drove it.
 
-To understand how StarCraft became the biggest thing in South Korean culture, you have to understand what was happening in the country in the late 1990s. The 1997 Asian financial crisis had devastated the Korean economy. Unemployment surged among young people. The government, looking for an economic recovery strategy, made a massive bet on broadband infrastructure. By the early 2000s, South Korea had some of the fastest and cheapest internet access in the world.
+StarCraft fit that room perfectly. It ran on modest hardware, Battle.net let anyone queue against anyone for free, matches lasted twenty minutes, and the state of a game was legible to people standing behind the chair. Watching became as normal as playing. The same thing was happening in the West at LAN parties (https://404memoryfound.com/posts/golden-age-of-lan-parties.html), but at a fraction of the scale and with none of the money.
 
-At the same time, a new type of business was exploding across the country: the PC bang. These were internet cafes, but calling them cafes doesn't really capture it. They were more like gaming arcades rebuilt for the internet age. Rows and rows of high-spec PCs with fast connections, open late, priced cheap enough that teenagers could afford to spend hours there after school. By 2001, there were roughly 23,000 PC bangs across South Korea.
+Korea bought roughly 4.5 million of the 11 million copies StarCraft sold. No other market came close, and no other market built an industry on top of the game.
 
-StarCraft and Brood War landed in this environment like a match in dry grass. The game was perfect for PC bangs: it was competitive, it was social, it rewarded skill in a way that was immediately visible to spectators, and it ran on modest hardware. Korean teenagers didn't just play StarCraft. They lived it. And because Battle.net, Blizzard's free online service, let anyone play anyone, the competition got intense fast.
+## How a computer game got its own television channels
 
-Within a year or two of Brood War's release, the best players in South Korea were becoming local celebrities. People would gather around screens in PC bangs to watch elite matches. And someone, inevitably, realized there was money in this.
+In 2000 the Korea e-Sports Association, known as KeSPA, was founded with the approval of the Ministry of Culture, Sports and Tourism. A government ministry recognized competitive gaming as a sport in 2000, more than a decade before most of the world took the idea seriously.
 
-## When Gaming Became Television
+Two cable channels carried the matches. OnGameNet ran the OnGameNet Starleague and MBC Game ran the MBC Starleague, both with studio audiences, commentators and replay analysis. Team competition followed: Proleague was founded in 2003 and ran for 14 seasons.
 
-In 2000, two things happened that turned StarCraft from a popular game into a professional sport. First, the Korea e-Sports Association, or KeSPA, was established with backing from the South Korean government's Ministry of Culture, Sports and Tourism. This wasn't some grassroots fan organization. This was a government-backed body designed to professionalize competitive gaming. Think about that for a second. In 2000, the South Korean government was officially recognizing gaming as a sport. The rest of the world wouldn't catch up for over a decade.
+The peak was a beach. In 2005 the SKY Proleague grand final between SK Telecom T1 and KTF MagicNs was staged on Gwangalli Beach in Busan, and ESPN reported in 2017 that more than 100,000 people turned up for it. Admission was free, and fans slept on the sand overnight to get near the stage.
 
-Second, two cable television channels began broadcasting StarCraft matches: OnGameNet, known as OGN, and MBC Game. OGN launched the OnGameNet Starleague, or OSL, which became the premier individual StarCraft tournament in the world. MBC Game followed with the MBC Starleague, or MSL. These weren't small operations. The production quality was legitimate: multiple camera angles, professional commentators (called casters), instant replays, player cameras showing their faces during tense moments, and live studio audiences.
+The face of that era was Lim Yo-hwan, the Terran player known as BoxeR. He founded Team Orion in 2002; SK Telecom began sponsoring it in April 2004, creating SK Telecom T1. His fan club passed 600,000 members, and he entered the Korean esports Hall of Fame in 2012.
 
-The prize pools were real too. Top tournaments offered hundreds of thousands of dollars. And the players, many of them barely out of high school, became genuine celebrities. They signed endorsement deals. They appeared on talk shows. Fans made signs and screamed their names.
+## Who owns StarCraft today?
 
-The StarCraft Proleague finals in 2005 drew an estimated 100,000 or more spectators to Gwangalli Beach in Busan, South Korea, one of the largest live audiences for any gaming event in history at that point.
+Microsoft owns StarCraft. Blizzard Entertainment became part of Activision Blizzard, and Microsoft closed its $68.7 billion purchase of Activision Blizzard on October 13, 2023. Every StarCraft decision since then has been a Microsoft decision.
 
-## The Emperor and the Golden Age
+For a while there were very few of them. On October 15, 2020, Blizzard said it would stop making new paid content for StarCraft II. The post framed it as a clearing of the decks: "this change will free us up to think about what's next, not just with regard to StarCraft II, but for the StarCraft universe as a whole."
 
-If StarCraft esports had a Michael Jordan, it was Lim Yo-hwan, better known by his Battle.net handle: BoxeR. Born in 1980, BoxeR started competing professionally in 1999 and quickly earned the nickname "The Emperor" for his dominance of the Terran faction. Between 2001 and 2002, he won two OnGameNet Starleague titles and two World Cyber Games gold medals. He held the number one ranking in KeSPA's official standings for a consecutive 17 months.
+What came next took six years. At BlizzCon 2026 in September, Blizzard revealed a new StarCraft game, shown through a cinematic called Dominion and set decades after StarCraft II. It is not a strategy game. It is an open-world shooter, it is led by Dan Hay, who ran the Far Cry series at Ubisoft, and it is targeted at 2030.
 
-BoxeR wasn't just good at StarCraft. He was entertaining. He pioneered aggressive, creative strategies that made spectators lose their minds. He would do things that other players considered reckless or impossible, and he'd make them work through sheer mechanical skill and tactical instinct. In 2002, he founded Team Orion, which later became SK Telecom T1 in 2004, one of the most legendary esports organizations in history. Yes, that SK Telecom T1, the same organization that would later dominate League of Legends with Faker.
+Hay described it on stage as "an open-world shooter where every step is earned, not from above, but down on the ground, in the mud, in the fire." Blizzard has shown no gameplay.
 
-But BoxeR wasn't alone. The Brood War era produced an incredible roster of legendary players. Lee Young Ho, known as Flash, is widely considered the greatest Brood War player of all time, earning the title "God of StarCraft" for his near-perfect play. Lee Jae Dong, known as Jaedong, was Flash's eternal rival and arguably the greatest Zerg player in history. Hong Jin Ho, known as YellOw, became one of the most popular players despite being famous for his heartbreaking losses in finals.
+## What the Brood War scene looks like in 2026
 
-These players weren't niche internet figures. Flash reportedly earned over $500,000 per year at his peak through tournament winnings, salary, and endorsements. Korean Air, SK Telecom, Samsung, and KT all sponsored professional StarCraft teams. Major Korean corporations were investing real money in competitive gaming years before the rest of the world took esports seriously.
+Brood War never stopped. The ASL, hosted by the Korean streaming service SOOP, is the league that replaced the old cable circuit, and Season 21 ran from March 23 to May 24, 2026, with 28 players and a prize pool of 78 million Korean won.
 
-  
-  
+The final was played on May 24, 2026, on a special stage at the PlayX4 convention at KINTEX in Ilsan, in front of a crowd of about 1,500. Park Sang-hyun, the Zerg player known as Soma, beat Lee Young-ho 4-3 to take a second consecutive title.
 
-## Why It Worked: The Accidental Brilliance of StarCraft's Design
+Lee Young-ho is the Terran player called Flash, long argued to be the best Brood War player who ever lived, and he had come back to the league after a six-year absence to reach that final. Park was careful about what the win meant. "I won today, but I don't think I've surpassed him," he told Inven Global in 2026.
 
-Here's the thing that people who never played Brood War competitively might not understand: the game was almost perfectly balanced despite being absurdly complex. Three completely different races, hundreds of unit interactions, dozens of viable strategies, and yet at the highest level, no single race dominated for long. The win rates between the three matchups hovered remarkably close to 50/50 over the years.
+English-speaking viewers get the same matches rebroadcast on SOOP's YouTube channel by Dan "Artosis" Stemkoski and Nicolas "Tasteless" Plott, the pair who have called Korean StarCraft in English for most of two decades.
 
-Some of this was intentional. Blizzard patched the game periodically for balance. But a lot of it was emergent. Players kept discovering new strategies, new build orders, new ways to exploit the mechanics. The metagame evolved constantly. A strategy that dominated one season would get countered the next. And because the game rewarded both strategic thinking and raw mechanical speed (top players performed over 300 actions per minute), there was always room for a new prodigy to emerge and shake things up.
+## Why StarCraft II never replaced Brood War
 
-The game was also incredibly fun to watch, even if you didn't fully understand what was happening. Big army clashes were visually dramatic. Clutch moments, like a perfectly timed defensive hold or a devastating surprise attack, produced genuine emotional reactions from spectators. The Korean casters, famous for their rapid-fire commentary and excited screaming, turned matches into theater.
+StarCraft II arrived in three parts: Wings of Liberty in 2010, Heart of the Swarm in 2013 and Legacy of the Void in 2015. It sold well and reviewed well, and it went free to play on November 14, 2017.
 
-And then there was the map design. Brood War maps weren't randomly generated. They were hand-crafted, and the competitive map pool rotated regularly. Each map had different characteristics: some favored aggressive play, others rewarded defensive strategies, some had tricky terrain that enabled creative flanking maneuvers. The map pool rotation meant the meta was always shifting, preventing any single strategy from dominating indefinitely. Players who could adapt across map types rose to the top. Specialists got exposed.
+It still lost the room. KeSPA moved Proleague from Brood War to StarCraft II in 2012, and closed the league entirely in October 2016 after 14 seasons. By then League of Legends had taken the Korean audience, and real-time strategy had stopped being the default competitive PC game the way it was when Counter-Strike (https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html) and StarCraft split the genre between them.
 
-The community that formed around competitive Brood War was also remarkably analytical. Korean fans dissected games with a level of detail that would make sports statisticians proud. Build order timings were documented to the second. Win rate statistics were tracked across every matchup on every map. Post-game analysis shows on OGN featured casters breaking down key decision points frame by frame. This wasn't just entertainment. It was a whole analytical culture that grew up around a computer game, years before "data analytics in esports" became a buzzword in the West.
+Brood War outlasted its own sequel because the older game kept the higher skill ceiling and the audience that grew up on it. Blizzard acknowledged that in 2017 with StarCraft: Remastered, which updated the art and audio and left the mechanics untouched.
 
-## The Business of Brood War: When Corporations Came Calling
-
-Here's something that blows my mind every time I think about it. By 2004, professional StarCraft in South Korea wasn't some scrappy grassroots thing anymore. It was a full-blown corporate ecosystem. The biggest Korean conglomerates, companies like Samsung, SK Telecom, KT Corporation, and CJ Group, were sponsoring professional teams. These weren't token sponsorships either. Players received salaries, team houses (shared apartments where the entire roster lived and practiced together), coaching staff, and access to training facilities.
-
-The team house model was particularly fascinating and, honestly, a little intense. Young players, many of them 16 or 17 years old, would move into a shared apartment with their teammates. They'd practice for 10 to 14 hours a day, every day. There was a structured schedule: practice blocks, strategy review, physical exercise (some teams added this later), and very little free time. It was closer to how Olympic athletes train than how most people imagined professional gamers spending their days.
-
-And the competition for spots was brutal. KeSPA ran a draft system similar to professional sports. Teams had rosters with limited slots. Players who couldn't perform got cut. There was a constant stream of hungry teenagers trying to break into the scene, which meant established players could never get comfortable. The pressure was immense, and burnout was a real issue. Several top players retired in their early twenties, not because they'd lost their skills, but because they'd been grinding at that intensity since they were teenagers.
-
-The economics made sense for the corporations involved. A corporate-sponsored esports team provided brand visibility with South Korea's most coveted demographic: young, tech-savvy consumers. A single Proleague match on OGN or MBC Game could reach hundreds of thousands of viewers. For companies like SK Telecom, which was competing fiercely with KT in the telecommunications market, having the best StarCraft team was a legitimate marketing strategy. When SKT T1 won a championship, that logo was all over the broadcast. You can't buy that kind of sustained engagement with traditional advertising.
-
-## The Culture: StarCraft as National Identity
-
-It's hard for people outside South Korea to fully grasp how embedded StarCraft was in the country's cultural fabric during the early 2000s. This wasn't a subculture. This was mainstream entertainment. Pro gamers appeared on variety shows. BoxeR's autobiography sold well. When Lee "Flash" Young Ho was at the height of his dominance, he was recognized on the street the way soccer stars are recognized in Brazil or basketball players in the United States.
-
-The game also became a shared reference point for an entire generation. If you grew up in South Korea in the late 1990s or early 2000s, you played StarCraft. You had opinions about whether Terran was overpowered. You had a favorite pro player. You'd skipped class to watch a crucial Starleague match at a PC bang, or at least knew someone who had. It was the social glue for a generation of young Korean men in particular, a common language that crossed regional and class boundaries.
-
-There's a reason Blizzard chose South Korea for the StarCraft: Remastered launch event in 2017. They knew where the game's spiritual home was. And when they held the event at a venue in Seoul, the response confirmed it. Fans lined up for hours. Former pros came out for exhibition matches. The whole thing had the energy of a reunion concert for a beloved band. Except the band was a 19-year-old video game.
-
-## StarCraft II and the Complicated Sequel
-
-In 2010, Blizzard released StarCraft II: Wings of Liberty, twelve years after the original. It was one of the most anticipated sequels in gaming history. The game sold 1.5 million copies in its first 48 hours and received near-universal critical acclaim. Two expansion packs followed: Heart of the Swarm in 2013 and Legacy of the Void in 2015.
-
-StarCraft II was, by most measures, a great game. But it never quite replicated the cultural phenomenon of Brood War in South Korea. Part of this was timing. By 2010, League of Legends was beginning its own meteoric rise, and the MOBA genre was pulling players and viewers away from real-time strategy. Part of it was the game itself. Many Brood War purists felt that StarCraft II simplified too many mechanics, reducing the skill ceiling that had made the original so compelling to watch at the highest level.
-
-The transition from Brood War to StarCraft II was messy and political. KeSPA and Blizzard fought over broadcasting rights and tournament control. For a period, Brood War and StarCraft II ran parallel competitive scenes, splitting the player base and the audience. Eventually, KeSPA transitioned its leagues to StarCraft II, but by then the damage was done. The viewership numbers never matched the Brood War golden age.
-
-In 2017, Blizzard released StarCraft: Remastered, a graphical overhaul of the original game and Brood War that kept the gameplay identical but updated the visuals and audio. It was a love letter to the competitive community that had kept the original game alive for nearly two decades. And in South Korea, Brood War tournaments continue to this day, with Afreeca TV hosting leagues that draw tens of thousands of viewers.
-
-## The Legacy: What StarCraft Built
-
-It's hard to overstate what StarCraft, and specifically its South Korean competitive scene, did for the broader world of esports. Before StarCraft, the idea of professional gaming existed only in fragments: some Quake (https://404memoryfound.com/posts/what-happened-to-quake-online-fps.html) tournaments here, a few Street Fighter competitions there. StarCraft in South Korea created the template that every major esport would eventually follow: professional teams sponsored by major corporations, salaried players, televised matches with professional production, government recognition, and a fan culture that rivaled traditional sports.
-
-When Riot Games built League of Legends into a global esports phenomenon in the 2010s, they were following a blueprint that StarCraft had written a decade earlier. When the Overwatch League, Call of Duty League, and Valorant Champions Tour adopted franchise models with city-based teams, they were iterating on structures that Korean StarCraft leagues had pioneered. When ESPN started broadcasting esports on television, they were doing what OGN and MBC Game had been doing since 2000.
-
-Even the concept of the esports player as a celebrity, someone with fans, endorsement deals, and a public persona, was forged in the StarCraft scene. BoxeR was famous in Korea before most Western gamers had even heard the word "esports."
-
-StarCraft sold over 11 million copies across its lifetime. But its real impact can't be measured in sales numbers. It proved that competitive gaming could be a spectator sport. That it could generate real revenue. That players could become professionals. That an entire industry could be built around watching other people play video games. Every time you tune into a Twitch stream or watch a League of Legends Worlds final with millions of concurrent viewers, you're watching something that started with a real-time strategy game on a CD-ROM and a million teenagers in South Korean PC bangs who just wanted to see if they could be the best.
-
-And honestly? For a game that started as "Warcraft in Space," that's a pretty incredible legacy.
+Playing either one in 2026 is easy. The original StarCraft and Brood War have been free from Battle.net since patch 1.18 in 2017, and StarCraft: Remastered costs $14.99. Neither needs the tricks involved in running 90s PC games on Windows 11 (https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html), because Blizzard has kept both patched.
 
 ## Frequently Asked Questions
 
-Is StarCraft still played competitively?
+### Can you still play StarCraft for free in 2026?
 
-Yes. While StarCraft II's official competitive scene has slowed significantly, Brood War continues to have an active professional scene in South Korea. Afreeca TV hosts regular Brood War tournaments that attract dedicated viewership. The community remains passionate, even if the audience is smaller than during the golden age.
+Yes. Blizzard made the original 1998 StarCraft and its Brood War expansion free to download with patch 1.18 in 2017, and both still run through the Battle.net desktop app in 2026. StarCraft: Remastered, which adds high definition art and ranked matchmaking, is a separate $14.99 purchase.
 
-How many copies did StarCraft sell?
+### Who owns StarCraft now?
 
-StarCraft and Brood War sold over 11 million copies combined worldwide. It was the best-selling PC game of 1998, moving 1.5 million copies in its first year alone.
+Microsoft owns StarCraft. The game is developed by Blizzard Entertainment, which was part of Activision Blizzard when Microsoft completed its $68.7 billion acquisition on October 13, 2023. Blizzard still runs StarCraft and StarCraft II under Microsoft ownership.
 
-Why was StarCraft so popular in South Korea specifically?
+### Is a new StarCraft game coming out?
 
-A combination of factors: South Korea's massive investment in broadband infrastructure after the 1997 financial crisis, the explosion of PC bangs (internet gaming cafes), government support through organizations like KeSPA, and the game's inherent qualities as a spectator-friendly competitive experience all converged at the right moment.
+Yes. At BlizzCon 2026, Blizzard revealed a new StarCraft game targeted at 2030, its first new entry in the series since StarCraft II: Legacy of the Void in 2015. It is an open-world shooter set decades after StarCraft II rather than a real-time strategy game, and it is led by former Far Cry director Dan Hay.
 
-Who is considered the greatest StarCraft player of all time?
-
-Lee Young Ho, known as Flash, is widely regarded as the greatest Brood War player in history, earning the nickname "God of StarCraft." In StarCraft II, opinions vary, but many consider players like Jung "Mvp" Jong Hyun and Maru among the greatest.
-
-Can you still play StarCraft online?
-
-Yes. In 2017, Blizzard released StarCraft: Remastered, which updated the original game's graphics while keeping gameplay identical. Blizzard also made the original StarCraft and Brood War free to download. Both versions run on Battle.net and have active online communities.
-
+**Sources:**
+- StarCraft Makes #1 Selling PC Game of 1998, Centre for Computing History: https://www.computinghistory.org.uk/det/14614/StarCraft-Makes-1-Selling-PC-Game-of-1998/
+- Beaches of Busan awash in esports history, ESPN (2017): https://www.espn.com/gaming/story/_/id/20184985/starcraft-beaches-busan-awash-esports-history
+- South Korea's KeSPA discontinues StarCraft ProLeague after 14 years, ESPN (2016): https://www.espn.com/gaming/story/_/id/17821061/south-korea-kespa-discontinues-starcraft-proleague-14-years
+- Veteran Zerg champion defends title at ASL Season 21, The Korea Herald (2026): https://www.koreaherald.com/article/10755462
+- Blizzard reveals open-world StarCraft shooter from ex-Far Cry boss, Video Games Chronicle (2026): https://www.videogameschronicle.com/news/blizzard-reveals-open-world-starcraft-shooter-from-ex-far-cry-boss/
 
 ---
 
