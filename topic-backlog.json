@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com, written to POST_SPEC.md (900 to 1,300 words). The writer routine takes the first pending entry in file order, except that when the number of posts in posts.json is a multiple of 5 it takes the first pending entry of 'buyer_intent' instead. Cross off topics as published.",
-  "_last_updated": "2026-09-18",
+  "_last_updated": "2026-09-23",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_0_search_console": [
     {
@@ -1713,6 +1713,101 @@
       "status": "published",
       "source": "editor-research-2026-09-18",
       "published_slug": "sega-nomad-handheld-genesis"
+    },
+    {
+      "title": "DIVX Explained: Circuit City's $337 Million Flop",
+      "slug": "divx-circuit-city-dvd-format",
+      "persona": "theo",
+      "tags": [
+        "Business Blunders",
+        "Hardware"
+      ],
+      "angle": "Circuit City's 1998 pay-per-view disc format, the phone line in every player, why studios and retailers refused it, and why no DIVX disc has played since 2001.",
+      "target_keywords": [
+        "what was divx",
+        "divx circuit city",
+        "do divx discs still work",
+        "why did divx fail",
+        "divx vs dvd"
+      ],
+      "status": "published",
+      "source": "editor-research-2026-09-23",
+      "published_slug": "divx-circuit-city-dvd-format"
+    },
+    {
+      "title": "Is Virgin Megastore Still Around in the US?",
+      "slug": "virgin-megastore-stores-left",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Music & Entertainment"
+      ],
+      "angle": "The Times Square flagship, the 23-store US peak, the April 2009 closure driven by rent rather than sales, and where the brand still trades in 2026.",
+      "target_keywords": [
+        "is virgin megastore still around",
+        "when did virgin megastore close",
+        "virgin megastore times square",
+        "who owns virgin megastore now"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-23"
+    },
+    {
+      "title": "Who Owns Sony Aibo Now? The Robot Dog in 2026",
+      "slug": "sony-aibo-robot-dog-today",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "The 1999 ERS-110, the 2006 cancellation, the 2018 revival at $2,899, and the June 2026 decision to stop Japanese sales while US sales continue.",
+      "target_keywords": [
+        "is sony aibo still made",
+        "sony aibo price 2026",
+        "who owns aibo",
+        "aibo discontinued",
+        "how much does aibo cost"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-23"
+    },
+    {
+      "title": "Are Pagers Still Used in 2026? Who Still Carries One",
+      "slug": "pagers-still-used-today",
+      "persona": "theo",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "angle": "The mid-90s subscriber peak, why hospitals kept pagers when everyone else dropped them, what a pager plan costs now, and what is replacing them.",
+      "target_keywords": [
+        "are pagers still used",
+        "do hospitals still use pagers",
+        "how many pagers are left",
+        "can you still buy a pager",
+        "pager cost 2026"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-23"
+    },
+    {
+      "title": "What Happened to the T-Mobile Sidekick Phone?",
+      "slug": "t-mobile-sidekick-danger-hiptop",
+      "persona": "theo",
+      "tags": [
+        "Hardware",
+        "Internet Culture"
+      ],
+      "angle": "Danger's 2002 Hiptop, the swivel screen, the $500 million Microsoft acquisition in 2008, the 2009 data loss, and the July 2010 discontinuation.",
+      "target_keywords": [
+        "what happened to the sidekick phone",
+        "t-mobile sidekick discontinued",
+        "danger hiptop",
+        "who bought danger inc",
+        "sidekick data loss"
+      ],
+      "status": "pending",
+      "source": "editor-research-2026-09-23"
     }
   ],
   "priority_3_niche_authority": [
