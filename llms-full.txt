@@ -9334,149 +9334,100 @@ Yes, with effort. The original source code is still available, and various enthu
 
 ---
 
-# What Happened to the Sega CD, the Add-On That Promised Gaming's Future
+# Why the Sega CD Failed and What It's Worth in 2026
 
 URL: https://404memoryfound.com/posts/what-happened-to-sega-cd-add-on.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-05-07
+Published: 2026-05-07  Updated: 2026-09-24
 Topics: Gaming, Hardware
 
-Picture this. It is the fall of 1992. You are 11 years old, walking into a Sears (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html) at the Northridge Fashion Center, and there is a glass display case at the back of the electronics department with a black plastic slab the size of a paperback novel sitting next to a Sega (https://404memoryfound.com/posts/is-sega-still-making-games.html) Genesis. The sticker says $299. Your dad whistles, the way dads do when they see a price they have no intention of paying. The TV above the case is playing a game called Sewer Shark, which appears to be actual video footage of an actor screaming at you from inside what looks like a sewer. You have never seen anything like it. Neither has anyone else, because this is the Sega CD, and Sega has spent the last year telling you that this little black box is the future of video games.
+**Summary:** The Sega CD was Sega's $299 CD-ROM add-on for the Genesis, released in North America on October 15, 1992. It sold about 2.24 million units worldwide and was discontinued in 1996, and Sega has never revived the hardware. It survives only second-hand, at roughly $195 to $275 for a working Model 2 in 2026, while a handful of its games have been re-released on modern consoles.
 
-It was not the future. It was, depending on who you ask, a brilliant misfire, an expensive footnote, or one of the most fascinating disasters in console history. By 1996 it was gone, less than four years after it landed. Sega never released official lifetime sales numbers, but the most commonly cited figure is around 2.24 million units worldwide. For context, the Genesis it bolted onto sold somewhere north of 30 million.
+**Key facts:**
+- Launched: October 15, 1992 in North America, $299
+- Units sold: About 2.24 million worldwide
+- Game library: About 216 games worldwide, 148 at US retail
+- Status today: Discontinued in 1996, never revived
+- Owner today: Sega, the entertainment division of Sega Sammy Holdings
 
-If you owned one, you remember. The weight of it. The whir of the disc spinning up. The agonizing load times. Lunar: Silver Star on a Saturday afternoon in your friend's basement, snow falling outside, that incredible animated intro playing while you both tried to figure out what was happening. The Sega CD deserved better than the way it ended. It also, honestly, kind of brought the ending on itself.
+## What did $299 actually buy you in 1992?
 
-## Why Sega Built a CD Drive in the First Place
+Sega shipped the add-on in Japan first, as the Mega-CD, on December 12, 1991 at 49,800 yen. The North American version, renamed the Sega CD, reached stores on October 15, 1992 at $299, and that price did not include the Genesis it bolted onto.
 
-To understand why the Sega CD even exists, you have to remember where Sega was in 1990. The Genesis had launched in North America in August 1989 and was actually winning. By the end of 1991 Sega's bench was deeper than it had any right to be. Sonic the Hedgehog dropped in June of that year and turned a hardware company into a brand. Sega of America, run by Tom Kalinske, was running circles around Nintendo of America with marketing campaigns that practically dared kids to admit they still played SNES. Genesis Does What Nintendon't was on every TV during commercial breaks for The Simpsons.
+Supply was thin. Roughly 50,000 units were available at launch because of production problems. Sales passed 200,000 by the end of 1992 and 300,000 by July 1993. Those are respectable numbers for an accessory and terrible ones for a platform that needed its own software line to survive.
 
-And here is the thing. When you are winning, the temptation is always the same. Push harder. Bigger. Get there first. Sega wanted to leapfrog Nintendo into the next generation before Nintendo even noticed the floor was moving.
+The first model was a front-loading tray unit that sat under the console like a base. Sega redesigned it in 1993 as a cheaper top-loading lid, launching in Japan in April 1993 and overseas later that year.
 
-CD-ROM was the obvious target. Cartridges in 1991 maxed out around 8 megabits, which sounds adorable now. A CD held roughly 650 megabytes of data. That is not a typo. The math is genuinely insane. You could fit hundreds of cartridges' worth of audio, art, and video onto a single disc. Engineers at Sega had been quietly working on a CD add-on for the Mega Drive (the Japanese name for the Genesis) for several years.
+## Why did full motion video look so bad on a Genesis?
 
-The pitch internally was simple. Add-on, not new console. Bolt it to the existing Genesis install base. Use the disc capacity for huge games, full motion video, CD-quality audio. Get a multi-year head start on whatever Nintendo and Sony eventually came up with.
+The pitch was storage. A Genesis cartridge in 1991 topped out in the single-digit megabits. A CD held about 650 megabytes. On paper that gap let developers put filmed actors, recorded music and hours of speech into a console game for the first time.
 
-That last part is its own story, by the way. In 1988, Nintendo had partnered with Sony to develop a CD-ROM add-on for the Super NES. That partnership famously collapsed at CES 1991, which freed Sony to eventually release a console called the PlayStation. Sega's executives were watching all of that play out in real time, and the message they took from it was: get to CD first or die trying.
+The bottleneck was everything downstream of the disc. The Sega CD decompressed video in real time and handed it to a Genesis that could show only a small palette at once. In practice most full motion video games ran in a small window of blocky, smeared footage. Store demo loops and television spots looked sharp. Living rooms did not.
 
-## December 1991 in Japan, October 1992 in America
+Digital Pictures became the platform's main FMV studio and shipped a run of titles built the same way: the pack-in Sewer Shark, Ground Zero Texas, the Make My Video series, and Night Trap. Buyers worked out the gap within a year, and the format meant to define the Sega CD became the reason people dismissed it.
 
-The Mega-CD launched in Japan on December 12, 1991, priced at 49,800 yen. North American gamers had to wait nearly a year. The Sega CD hit US shelves on October 15, 1992, at $299, which is around $660 in 2026 dollars (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html), and that price did not include the Genesis you needed to plug it into. Sega only had about 50,000 launch units available because of production problems. They sold past 200,000 by the end of 1992 and 300,000 by July 1993.
+Sega did get one thing permanently right. Redbook CD audio gave console games real recorded soundtracks, and that never went back in the box.
 
-The packaging strategy was classic early-90s ambition. The original Sega CD was a tray-loading unit that sat under your Genesis like the bottom layer of a cake. There was a little lever you flipped to slide the tray out. The whole thing felt like science fiction in your hands and looked like a piece of professional A/V equipment in your TV cabinet, which is basically what your parents thought it was.
+## How did Night Trap end up in front of the US Senate?
 
-The launch lineup was where the cracks started showing. The pack-in game was Sewer Shark, developed by a studio called Digital Pictures. Sewer Shark was a full motion video on-rails shooter, which is a fancy way of saying you watched grainy live-action footage of a guy yelling at you while you pressed buttons that occasionally fired a gun at things. It was, and this is being charitable, not actually fun. But it looked like nothing else, and that was the point.
+Night Trap was filmed in 1987 for a VHS-based console that never shipped, then released on the Sega CD in 1992. The player watches security cameras and springs traps on hooded intruders. It is campy rather than graphic, which turned out not to matter.
 
-Other launch and early titles included Black Hole Assault, Cobra Command, and a bunch of Genesis ports with redbook audio soundtracks. The killer app, the thing that was supposed to sell hardware, never quite arrived during the launch window. Sonic CD would not show up until November 1993 in North America. By then a lot of people had already made up their minds.
+In December 1993 Senator Joe Lieberman of Connecticut called a press conference and opened with a line reporters repeated for weeks: "Today, we're here to talk about the nightmare before Christmas. Not the movie, but unfortunately, the violent video games."
 
-## The Full Motion Video Promise
+On December 9, 1993, Lieberman, Herb Kohl of Wisconsin and Byron Dorgan of North Dakota ran a Senate hearing on video game violence with Mortal Kombat and Night Trap as the two exhibits. "It has been quite a leap from Pac-Man to Night Trap," Dorgan said at that hearing.
 
-Here is where the Sega CD's whole identity comes from. Full motion video. FMV. The idea that instead of pixel-art sprites bouncing around 2D backgrounds, you could play games made out of actual filmed footage of actual humans pretending to be in a game.
+Retail moved before Congress did. Toys R Us (https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html) announced on December 17, 1993 that it would stop selling Night Trap, Kay-Bee Toy Stores told its 1,200 stores to do the same, and Sega stopped producing copies in January 1994. The industry then built its own ratings body to head off federal regulation. The Entertainment Software Rating Board launched on September 16, 1994, and it still rates every console game sold in North America.
 
-It is hard to explain to someone who did not see it in 1992 how revolutionary this looked. Genesis games were beautiful in their own way, but they were obviously cartoons. The Sega CD let developers cut to footage of a real actor's face on your TV, and your brain registered it as a different category of entertainment entirely. For about six months, kids in arcades and Toys R Us (https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html) aisles all over America stood and stared at FMV demo loops with their jaws somewhere around their sneakers.
+## Why did Sega kill the Sega CD so fast?
 
-And here is where it all falls apart. Because the FMV that the Sega CD could actually display was a tiny, postage-stamp-sized window of compressed, blocky, deeply unimpressive video. The hardware had to decompress motion JPEG-style frames in real time, and the Genesis architecture it was tethered to could only display so many colors at once. The result, in practice, was that most FMV games looked like a smudged VHS tape playing inside a small television inside your big television. The illusion held in commercials. It usually fell apart in your living room.
+Because Sega kept selling against itself. On November 21, 1994, two years after the Sega CD reached American stores, Sega launched the 32X (https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html) at $159, a second add-on that plugged into the Genesis cartridge slot and added 32-bit graphics. Owners of all three stacked them into what fans called the Tower of Power.
 
-Digital Pictures became the main FMV studio for the platform, and they produced a string of titles that, depending on your point of view, are either fascinating cultural artifacts or some of the worst video games ever sold for money. Sewer Shark, Ground Zero Texas, Make My Video Marky Mark and the Funky Bunch edition (yes, that was a real product), and the one that became infamous: Night Trap.
+The 32X did not last either. Sega cut it to $99 within months and cleared the last inventory at $19.95. Tom Kalinske, who ran Sega of America through the Genesis years, later told Arcade Attack that Sega should not have made the 32X at all, and that it existed to stretch the life of 16-bit hardware.
 
-## Night Trap and the Senate Hearings
+Then came the real successor. The Sega Saturn (https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html) launched in Japan on November 22, 1994 and in North America on May 11, 1995, a surprise early release that left the Sega CD about two and a half years before its own parent company competed with it head on. Marketing and development moved to the Saturn through 1995, the last Sega CD titles trickled out in 1996, and the platform was discontinued that year with no announcement. Sega left the hardware business entirely a few years later, after the Dreamcast (https://404memoryfound.com/posts/why-sega-stopped-making-consoles-dreamcast.html).
 
-If you remember one thing about the Sega CD that is not the price, it is probably Night Trap. And if you do not remember Night Trap, the short version is this. It was an FMV game where you, the player, monitored security cameras in a house full of college girls being attacked by hooded figures called Augers. Your job was to trap the Augers using house security mechanisms. It was filmed in 1987 for an unreleased Hasbro VHS-based console concept, then dusted off and shipped on the Sega CD in 1992.
+## Is the Sega CD still supported in 2026?
 
-It was campy, weirdly tame for what it was being accused of, and it became the centerpiece of a national panic over video game violence. On December 9, 1993, the United States Senate held a committee hearing led by Senators Joe Lieberman of Connecticut and Herb Kohl of Wisconsin, focused on violence in video games. The two main exhibits were Mortal Kombat and Night Trap. Lieberman publicly described Night Trap as promoting violence and sexual aggression against women. Toys R Us and Kay-Bee Toys pulled the game from shelves in December 1993. Sega stopped producing copies in January 1994.
+No. Sega discontinued the Sega CD in 1996 and has never revived the hardware. There is no first-party repair program, no replacement drive, and no Sega CD app on any modern console store. The disc mechanism is the weak point on surviving units: the laser sleds and the rubber drive belts in 1992 and 1993 consoles are now more than thirty years old.
 
-The hearings did two things at once. First, they put a target on the Sega CD's back at exactly the moment Sega needed parents to be excited about the platform, not afraid of it. Second, and this is the part that actually mattered long term, the threat of federal regulation pushed the industry to create its own ratings board. The Entertainment Software Rating Board (ESRB) launched in 1994, and that is the same ESRB whose rating is on the back of every game console title sold in North America today. So in a strange way, the most embarrassing game on the Sega CD is also the reason your local GameStop (https://404memoryfound.com/posts/is-gamestop-still-in-business.html) has age ratings on its shelves.
+Sega itself is in good health and still making games (https://404memoryfound.com/posts/is-sega-still-making-games.html), as the entertainment contents division of Sega Sammy Holdings, the holding company created by the October 2004 stock transfer that merged Sega with the pachinko maker Sammy. What Sega has not done is re-license the Sega CD library as a set.
 
-## The Tower of Power and the Beginning of the End
+What exists instead are individual re-releases. The Sega Genesis Mini 2, launched October 27, 2022 at $99.99 with 61 built-in games, was the first Sega hardware in decades to run Sega CD titles, among them Sonic CD, Final Fight CD, Shining Force CD, Silpheed, Sewer Shark and Night Trap. Sonic Origins, released June 23, 2022, carries Sonic CD. Night Trap got a 25th Anniversary Edition on Nintendo Switch on August 24, 2018 from Screaming Villains and Limited Run Games. And GungHo's Lunar Remastered Collection arrived on April 18, 2025 for Switch, PlayStation, Xbox and PC.
 
-By late 1993 it was already clear that something was off. Sega's executives knew Sony was working on the PlayStation. They knew the Saturn was coming. They needed to keep Genesis owners spending money in the meantime. The answer, somehow, was to layer more hardware on top of the existing stack.
+## Which Sega CD games still hold up?
 
-Sega redesigned the Sega CD in 1993 as a top-loading unit (the Sega CD model 2), made smaller and cheaper at around $229 retail. That part was actually a good idea. Then in November 1994, Sega launched the Sega 32X (https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html), a separate add-on cartridge that plugged into the top of your Genesis and added 32-bit graphics processing. If you owned a Genesis, a Sega CD, and a 32X, you stacked them together into a teetering plastic tower with three power supplies, multiple cables, and an aesthetic that can only be described as cyberpunk garage sale. People called it the Tower of Power. Sega did not, officially, but the nickname stuck.
+About 216 games were released for the platform worldwide, 148 of them at US retail between October 1992 and 1996. Most of the FMV catalog is now a curiosity; the rest is why the platform kept a following.
 
-The math on this stack was brutal. By the holiday season of 1994, a Sega fan had been asked to spend roughly $89 on a Genesis, plus $230 on a Sega CD, plus $159 on a 32X, plus games for each, in less than three years. And the Sega Saturn launch was already on the calendar.
+Sonic CD, released in 1993, is still the strongest argument for the hardware, built around a time-travel structure no other 2D Sonic game used and opening with an animated sequence produced with Toei Animation. Lunar: The Silver Star and Lunar: Eternal Blue, developed by Game Arts and localized by Working Designs, are the role-playing games people actually bought the add-on for. Snatcher, the cyberpunk adventure designed by Hideo Kojima before Metal Gear Solid, got its only English console release here for years.
 
-Tom Kalinske, the Sega of America CEO who had built so much of the company's American success, has said in interviews over the years that he was opposed to the 32X internally. He believed Sega should skip the add-on and put everything behind the Saturn. He lost that argument. Whether that decision alone killed the company is debatable, but it definitely killed the trust between Sega and its hardcore fans, the people who had spent their parents' money on every previous Sega product.
+Add Popful Mail, Final Fight CD and Earthworm Jim Special Edition and the short list is real. It was never enough to move hardware, because the box at the front of the store had Sewer Shark on it. If you mostly want the 16-bit catalog rather than the discs, playing Genesis games in 2026 (https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html) is a far cheaper project.
 
-## The Hidden Gems
+## Where to find one today
 
-This is the part that always hurts a little. Because for all the FMV nonsense and the corporate chaos, the Sega CD's library, especially in its second and third year, contained some genuinely excellent games. Forget the marketing for a second.
+Original units are the only way to play the discs on real hardware. In 2026, tested working Model 2 consoles were listed at roughly $195 to $275. The front-loading Model 1 runs higher, past $380 loose and above $500 boxed, because collectors want the original tray design. Budget for a Genesis to attach it to, and prefer a unit with a replaced drive belt.
 
-There is Sonic CD, released in November 1993 in North America, which is one of the best 2D Sonic games ever made and contains, depending on which version you played, one of the most iconic anime intro sequences in console history. The opening cinematic was produced with the involvement of Toei Animation, the studio behind Dragon Ball Z, with the actual animation work handled by Studio Junio. That kind of production budget was unprecedented for a console game in 1993.
+Retro specialists carry refurbished consoles and the cables the stack needs. Stone Age Gamer stocks Sega CD hardware and accessories (https://stoneagegamer.com/catalogsearch/result/?q=sega+cd). The 32X add-on is the cheaper half of the tower if you only want one of them.
 
-There is Lunar: The Silver Star, a JRPG by Game Arts published in North America in 1993 by Working Designs, with a localization that fans still talk about as one of the best of the 16-bit era. There is Lunar: Eternal Blue, the sequel, in 1994.
+## Frequently Asked Questions
 
-There is Snatcher, a cyberpunk noir adventure designed by Hideo Kojima, the same Kojima who would later make Metal Gear Solid. The Sega CD got the only English release of the original Snatcher for years, which is why used copies of that game now go for genuinely deranged amounts of money on eBay.
+### Why did the Sega CD fail?
 
-There is Popful Mail, Eternal Champions: Challenge from the Dark Side, Final Fight CD, the criminally underrated Heart of the Alien, and the Sega Classics Arcade Collection. There is the much-loved Earthworm Jim Special Edition with extra levels and CD-quality audio.
+The Sega CD failed because it asked Genesis owners for another $299 in 1992 for a library built largely around low-resolution full motion video, and because Sega undercut it twice, with the 32X in November 1994 and the Sega Saturn in May 1995. It sold about 2.24 million units worldwide before Sega discontinued it in 1996.
 
-If you only judged the Sega CD by its hidden gems, you would walk away thinking it was a brilliant, niche, beloved platform. The problem is that nobody at the time bought hardware based on hidden gems. They bought based on what was on the front of the box at Toys R Us. And what was on the front of the box was Sewer Shark.
+### How much is a Sega CD worth in 2026?
 
-## Why It Actually Failed
+In 2026 a tested working Sega CD Model 2 was typically listed between $195 and $275, and the original front-loading Model 1 ran higher, past $380 loose and above $500 complete in box. Condition of the disc drive dominates the price, because the rubber belts in 1992 and 1993 units fail first.
 
-People love to say the Sega CD failed because of the games. Or because of the price. Or because of FMV. The truth is that all of those mattered, but the bigger story is structural. The Sega CD failed because it was an answer to a question Sega had asked itself, not a question consumers had asked.
+### Can you still play Sega CD games today?
 
-Consumers in 1992 were asking: I have a Genesis, what is the next great game I can put in it? Sega answered: a $299 hardware upgrade plus an entirely new game library. That is a much harder pitch.
+Yes, but game by game, because Sega has never re-released the Sega CD library as a whole. The Sega Genesis Mini 2, released October 27, 2022, includes Sega CD titles such as Sonic CD, Final Fight CD and Night Trap. Sonic Origins, from June 23, 2022, carries Sonic CD, and the Lunar Remastered Collection, from April 18, 2025, covers both Lunar games.
 
-It also failed because Sega could not decide what the Sega CD was actually for. Was it a multimedia device? A way to play CD-quality music? A platform for interactive movies? A storage upgrade for traditional games? The marketing tried to be all of those things at once, which meant most parents at Sears could not articulate what the box on the shelf actually did.
-
-And it failed because the platform's lifespan got cannibalized. Sega CD games started coming out in late 1992. The Sega Saturn launched in Japan in November 1994 and in North America in May 1995. That gave the Sega CD roughly two and a half years before its parent company started openly competing with it. Compare that to the Genesis, which had years of headroom before the SNES showed up in some markets and was supported well into the mid-90s. The Sega CD never had time to grow up.
-
-## The Long Tail and the Quiet Death
-
-By early 1995, Sega had effectively stopped advertising the Sega CD. Resources moved to the Saturn. The North American release window for major Sega CD titles wound down in 1995, with the last few stragglers limping out in 1996. There was no funeral. There was no Sega press release announcing the end. The platform just stopped getting games, then stopped getting shelf space, then stopped existing.
-
-The retail picture turned ugly fast. By the spring of 1995 you could walk into a Toys R Us and buy a Sega CD for $129, then $99, then bargain bin clearance. Software prices collapsed in parallel. The fire sale created a generation of kids and college students who bought the platform after it was already dead, played 30 weird games on it across two summers, and walked away with weirdly fond memories of a system they had only ever experienced as a clearance item.
-
-That bargain bin chapter is honestly part of why the Sega CD has the cult status it has now. People who could not afford one in 1992 picked one up in 1996 for less than dinner at Olive Garden. It became the platform you discovered, not the platform you bought.
-
-## The Legacy
-
-Here is the strange thing. The Sega CD lost. Commercially, financially, in the public memory, in every metric that matters. And yet most of what console gaming became in the years after, in some real sense, started here.
-
-Optical media as the standard format for console games? PlayStation went all in on CDs in 1995, and within a generation cartridges were a memory. CD-quality soundtracks in games? Sega CD pioneered redbook audio in console gaming, and now nobody ships a console game without a real recorded score. Live action footage in games? FMV cutscenes never went away, they just got better, and the cinematic style of modern games like Death Stranding or the Yakuza series owes more to Sewer Shark than anyone wants to admit.
-
-Even the hardware modularity question never really died. PlayStation 2's hard drive add-on, Xbox 360's Kinect, the Wii's MotionPlus, every weird peripheral that ever shipped after 1995 is in some way a descendant of Sega's belief that you could just keep stapling things to a console.
-
-The Sega CD also, in a way that nobody at Sega meant or wanted, helped create the modern video game ratings system. Without Night Trap and the Senate hearings, the ESRB might not exist in the form it does, and the politics around game content might look very different.
-
-## What It Felt Like
-
-None of this is what you actually remember about the Sega CD if you owned one. What you remember is the weight of the unit, the way the disc tray felt heavier than a CD player tray for some reason, the click of locking it onto your Genesis. The first time you saw the Sega CD bios screen with that floating logo and the orchestral score that played on bootup. You remember the load times, which were genuinely awful, and you remember not caring because there was something on the screen that felt like the future.
-
-You remember Lunar's opening cinematic playing in your friend's basement on a 19-inch Magnavox tube TV with the volume turned down so his mom would not yell. You remember pretending Night Trap was scary even though it was, in retrospect, more campy than scary. You remember reading GamePro previews of FMV games that turned out to be terrible but sounded amazing.
-
-The Sega CD is a story about ambition out-running execution, and a company so addicted to being first that it forgot to ask whether being first was actually winning. It is also, weirdly, a story about hope. Every Sega CD owner I have ever talked to remembers the moment they thought, watching that disc spin up for the first time, that they were holding the future. They were not. But they were not totally wrong either.
-
-## FAQ
-
-When did the Sega CD launch in North America?
-
-The Sega CD launched in North America on October 15, 1992, at a retail price of $299. The Japanese version, called the Mega-CD, had launched in December 1991. The European launch followed in April 1993.
-
-How many Sega CD units were sold?
-
-Sega never released official lifetime sales figures, but the most commonly cited number is approximately 2.24 million units worldwide. By the end of 1992, North American sales had passed 200,000 units, and by July 1993 they had passed 300,000.
-
-Why was Night Trap so controversial?
-
-Night Trap was an FMV game shipped on the Sega CD that depicted hooded figures attacking young women in a house. It became one of the main exhibits at the December 9, 1993 United States Senate hearings on video game violence, led by Senators Joe Lieberman and Herb Kohl. Toys R Us and Kay-Bee pulled it from shelves in December 1993, and Sega stopped producing it in January 1994. The hearings ultimately led to the creation of the Entertainment Software Rating Board (ESRB) in 1994.
-
-What was the Tower of Power?
-
-The Tower of Power was the unofficial nickname for the full Sega hardware stack: a Genesis with a Sega CD attached underneath and a Sega 32X plugged into the cartridge slot on top. By the end of 1994, a fan who owned every piece had spent close to $480 in hardware before buying any games.
-
-What are the best Sega CD games?
-
-The most enduringly praised titles include Sonic CD, Lunar: The Silver Star, Lunar: Eternal Blue, Snatcher by Hideo Kojima, Popful Mail, Final Fight CD, and Earthworm Jim Special Edition. The general FMV catalog from Digital Pictures has aged poorly, but the platform's RPG and action library holds up surprisingly well.
-
-When did Sega discontinue the Sega CD?
-
-Sega began phasing out support for the Sega CD in early 1995, redirecting marketing and development resources toward the Sega Saturn. The last few first-party releases trickled out in 1995 and 1996, but there was no formal discontinuation announcement. The platform simply stopped getting new releases and shelf space.
-
-Was the Sega CD a failure?
-
-Commercially, yes. It sold a fraction of what the Genesis sold, never achieved its sales targets, and contributed to the collapse of trust between Sega and its core audience. Culturally and historically, it is more complicated. The Sega CD pioneered CD-ROM gaming on consoles, popularized redbook audio soundtracks, hosted some genuinely beloved RPGs and action games, and indirectly helped create the modern video game ratings system. It lost, but it left fingerprints on almost everything that came after.
-
+**Sources:**
+- C-SPAN: Video Game Violence, Senate committee hearing, December 9, 1993: https://www.c-span.org/program/senate-committee/video-game-violence/129470
+- ESRB: About the Entertainment Software Rating Board: https://www.esrb.org/about/
+- Bad Game Hall of Fame: Night Trap: https://www.badgamehalloffame.com/night-trap/
+- Wikipedia: Sega CD: https://en.wikipedia.org/wiki/Sega_CD
+- Nintendo Life: Lunar Remastered Collection (2025): https://www.nintendolife.com/games/nintendo-switch/lunar_remastered_collection
 
 ---
 
