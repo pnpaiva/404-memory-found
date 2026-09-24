@@ -563,7 +563,7 @@ def shell_html(ctx, head, *, body_class, window_icon, window_title, content, sta
 
 
 def nav_links_html(tags, current=None):
-    items = ['<a href="/posts/">All posts</a>']
+    items = ['<a href="/posts/">All posts</a>', '<a href="/dead-brand-index.html">Dead brand index</a>']
     for t in tags:
         cls = ' class="active"' if t == current else ""
         items.append(f'<a href="/tags/{tag_slug(t)}.html"{cls}>{esc(t)}</a>')
@@ -815,6 +815,172 @@ def build_posts_index_page(ctx, posts):
                       status_text=f"{len(posts)} posts")
 
 
+BRAND_INDEX_JS = """
+<script>
+(function () {
+    var table = document.getElementById('brand-index');
+    if (!table) return;
+    var body = table.tBodies[0], rows = Array.prototype.slice.call(body.rows);
+    var count = document.getElementById('brand-count'), total = rows.length;
+    var filter = document.getElementById('brand-filter');
+    if (filter) filter.addEventListener('input', function () {
+        var q = filter.value.toLowerCase(), shown = 0;
+        rows.forEach(function (r) {
+            var hit = r.textContent.toLowerCase().indexOf(q) !== -1;
+            r.style.display = hit ? '' : 'none';
+            if (hit) shown++;
+        });
+        if (count) count.firstChild.nodeValue = shown === total
+            ? 'Showing all ' + total + ' entries. The archive holds '
+            : 'Showing ' + shown + ' of ' + total + ' entries. The archive holds ';
+    });
+    var asc = {};
+    Array.prototype.forEach.call(table.tHead.rows[0].cells, function (th, i) {
+        th.addEventListener('click', function () {
+            asc[i] = !asc[i];
+            rows.sort(function (a, b) {
+                var x = a.cells[i].textContent.trim().toLowerCase();
+                var y = b.cells[i].textContent.trim().toLowerCase();
+                return (x < y ? -1 : x > y ? 1 : 0) * (asc[i] ? 1 : -1);
+            });
+            rows.forEach(function (r) { body.appendChild(r); });
+            Array.prototype.forEach.call(table.tHead.rows[0].cells, function (o) { o.className = ''; });
+            th.className = asc[i] ? 'sorted asc' : 'sorted';
+        });
+    });
+})();
+</script>
+"""
+
+
+# The index needs the brand alone. Titles are patterned ("Who Owns X Now?", "How Many X Are Left?") and
+# linkPhrases name the post's own subject, so between the two there is almost always a clean entity.
+INDEX_LEAD = (r"^(?:How Many|Who Owns|Who Was|What Happened to|Whatever Happened to|Where Is|Where to Buy|"
+              r"When Did|Can You Still Get|Is an|Is the|Is|Was the|Was|Are the|Are|Does|Did|"
+              r"Do They Still Make|Why the|Why|How to Run|How to|How|When|The)\s+")
+INDEX_CUT = (r"\s+Still\b", r"\s+Are\s+Left\b", r"\s+Is\s+Left\b", r"\s+Left\b", r"\s+Now\b", r"\s+in\s+20\d\d",
+             r"\s+Stores\b", r"\s+Locations\b", r"\s+Explained\b", r"\s+vs\b", r"\s+Really\b", r"\s+Actually\b",
+             r"\s+That\b", r"\s+Which\b", r"\s+After\b", r"\s+Went\b", r"\s+Died\b", r"\s+Failed\b", r"\s+Saved\b",
+             r"\s+Worth\b", r"\s+Sold\b", r"\s+Turn(?:ed)?\b", r"\s+Lost\b", r"\s+Kill(?:ed)?\b", r"\s+Tried\b",
+             r"\s+Stop(?:ped)?\b", r"\s+Shut\b", r"\s+Open\b", r"\s+Updating\b", r"\s+On TV\b", r"\s+Exist\b",
+             r"\s+Available\b", r"\s+Online\b", r"\s+in Business\b", r"\s+Worth It\b", r"\s+Make\b", r"\s+Mailing\b")
+INDEX_STOPWORD = {"do", "they", "it", "them", "you", "your", "this", "that", "there", "here", "what", "where",
+                  "when", "why", "how", "who", "an", "a", "the", "of", "for", "to", "in", "on", "still",
+                  "really", "actually", "first", "last", "best", "worst", "new", "old"}
+
+
+def index_clean(name):
+    name = re.sub(r"^(?:buy|get|find|run|play|use|using)\s+", "", name.strip(), flags=re.I)
+    name = re.sub(r"^(?:a|an|the)\s+", "", name.strip(), flags=re.I)
+    name = re.sub(r"\s+(?:bankruptcy|acquisition|collapse|failure|shutdown|history|story|deal|ipo|crash|era|"
+                  r"today|now|games|game|playable|handheld|console|consoles|websites|website)$", "",
+                  name.strip(), flags=re.I)
+    return name.strip(" ,-'")
+
+
+def index_valid(name):
+    """A brand name: at most three words, no question words, and it starts like a name (eBay counts)."""
+    if not name:
+        return None
+    words = name.split()
+    if not words or len(words) > 3:
+        return None
+    if any(w.lower() in INDEX_STOPWORD for w in words):
+        return None
+    if not re.match(r"^[A-Z0-9]", name) and not (re.search(r"[A-Z]", name[1:4]) or "." in words[0]):
+        return None   # eBay, iPod and theGlobe.com pass; a plain lowercase phrase does not
+    if re.match(r"^\d", name) and not re.search(r"[A-Za-z]", name[:4]):
+        return None   # "$1,000 in 1999" is an amount, not a brand
+    if re.match(r"^[\d']{1,2}\d?0s\b", name):
+        return None   # "90s PC", "'80s gadgets": an era, not a brand
+    return name
+
+
+def index_name_from_title(title):
+    text = re.split(r"[:?,]", title)[0]
+    text = re.sub(INDEX_LEAD, "", text).strip()
+    for cut in INDEX_CUT:
+        text = re.split(cut, text)[0]
+    parts = re.split(r"\s+and\b", text, maxsplit=1)
+    if len(parts) == 2 and len(parts[0].split()) >= 2:
+        text = parts[0]   # "Montgomery Ward ... and Who Owns It" cuts; "Barnes and Noble" does not
+    return index_valid(index_clean(text))
+
+
+def index_name(post):
+    cands = [n for n in (index_valid(index_clean(x)) for x in (post.get("linkPhrases") or [])) if n]
+    from_title = index_name_from_title(post["title"])
+    if from_title:
+        cands.append(from_title)
+    if not cands:
+        return None
+    title = post["title"].lower()
+    cands.sort(key=lambda c: (c.lower() not in title, -len(c.split()), len(c)))
+    return cands[0]
+
+
+def brand_index_rows(posts):
+    """Every post that answers a status question about a named brand, as one row of the reference table."""
+    rows, seen = [], {}
+    for p in posts:
+        facts = {f["label"].lower(): f["value"] for f in p.get("facts", [])}
+        status = facts.get("status today") or facts.get("status")
+        if not status:
+            continue
+        name = index_name(p)
+        if not name:
+            continue
+        key = name.lower()
+        if key in seen:   # two posts on the same brand: keep the one whose title leads with it
+            if not p["title"].lower().startswith(key):
+                continue
+            rows.remove(seen[key])
+        row = {"name": name, "status": status, "owner": facts.get("owner today") or facts.get("company") or "",
+               "started": facts.get("launched") or facts.get("founded") or facts.get("released") or "",
+               "url": p["path"], "title": p["title"], "tags": p["tags"]}
+        seen[key] = row
+        rows.append(row)
+    rows.sort(key=lambda r: r["name"].lower())
+    return rows
+
+
+def build_brand_index_page(ctx, posts):
+    rows = brand_index_rows(posts)
+    body_rows = "".join(
+        f'<tr><td data-label="Name"><a href="{r["url"]}">{esc(r["name"])}</a></td>'
+        f'<td data-label="Started">{esc(r["started"])}</td>'
+        f'<td data-label="Status in 2026">{esc(r["status"])}</td>'
+        f'<td data-label="Who owns it now">{esc(r["owner"])}</td></tr>' for r in rows)
+    content = (
+        '<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n'
+        f'<h1>The dead brand index</h1>\n'
+        f'<p class="page-intro">{len(rows)} companies, stores, gadgets and websites from the 1990s and 2000s, '
+        'with what became of each one and who holds the name in 2026. Every row links to the full story, '
+        'sourced and dated. Sort by clicking a column, or filter by typing.</p>\n'
+        f'{nav_links_html(ctx["tags"])}\n'
+        '<div class="brand-index-tools"><label for="brand-filter">Filter</label>'
+        '<input id="brand-filter" type="search" placeholder="Type a name, an owner or a year" autocomplete="off"></div>\n'
+        '<table class="brand-index" id="brand-index"><thead><tr>'
+        '<th data-sort="0">Name</th><th data-sort="1">Started</th>'
+        '<th data-sort="2">Status in 2026</th><th data-sort="3">Who owns it now</th>'
+        f'</tr></thead><tbody>{body_rows}</tbody></table>\n'
+        f'<p class="brand-index-note" id="brand-count">Showing all {len(rows)} entries. The archive holds '
+        f'<a href="/posts/">{len(posts)} posts</a> in total, including the ones that do not answer a status question.</p>'
+        + BRAND_INDEX_JS)
+    url = f"{BASE_URL}/dead-brand-index.html"
+    schema = {"@context": "https://schema.org", "@type": "Dataset",
+              "name": "The dead brand index", "url": url,
+              "description": f"What happened to {len(rows)} companies, stores, gadgets and websites of the 1990s and 2000s, and who owns each name in 2026.",
+              "creator": {"@id": ORG_ID}, "isAccessibleForFree": True,
+              "keywords": ["defunct brands", "dead retail chains", "who owns it now", "1990s companies", "2000s websites"]}
+    head = head_html(ctx, title=f"The Dead Brand Index: {len(rows)} Companies and What Happened to Them | {BLOG_NAME}",
+                     canonical=url,
+                     description=f"What happened to {len(rows)} brands of the 90s and 2000s, and who owns each name in 2026. One sortable table, every entry sourced.",
+                     schemas=(schema, breadcrumb_schema(("The dead brand index", url))))
+    return shell_html(ctx, head, body_class="hub-page", window_icon="\U0001f5c3\ufe0f", window_title="Dead brand index",
+                      content=content, status_text=f"{len(rows)} brands")
+
+
 def build_tag_page(ctx, tag, posts):
     tagged = [p for p in posts if tag in p["tags"]]
     url = f"{BASE_URL}/tags/{tag_slug(tag)}.html"
@@ -1012,6 +1178,7 @@ def build_sitemap(posts, tags, authors, today):
 
     body = url(f"{BASE_URL}/", latest, "daily", "1.0")
     body += url(f"{BASE_URL}/posts/", latest, "daily", "0.9")
+    body += url(f"{BASE_URL}/dead-brand-index.html", latest, "weekly", "0.9")
     for t in tags:
         tagged = [p for p in posts if t in p["tags"]]
         body += url(f"{BASE_URL}/tags/{tag_slug(t)}.html", tagged[0]["date"] if tagged else latest, "weekly", "0.7")
@@ -1189,6 +1356,30 @@ PAGE_SHELL_CSS = """
 .page-shell .author-card .author-beat { margin: 2px 0 4px; }
 .page-shell .author-card p { font-size: 13px; margin: 0; }
 
+/* Dead brand index: a reference table people can sort and filter without leaving the page */
+.page-shell .brand-index-tools { display: flex; align-items: center; gap: 8px; margin: 14px 0 8px; }
+.page-shell .brand-index-tools label { font-size: 13px; font-weight: bold; }
+.page-shell .brand-index-tools input { flex: 1; max-width: 340px; padding: 4px 6px; font-family: inherit; font-size: 13px;
+    border: 2px inset #c0c0c0; background: #fff; }
+.page-shell table.brand-index { width: 100%; border-collapse: collapse; font-size: 13px; background: #fff;
+    border: 2px inset #c0c0c0; }
+.page-shell table.brand-index th { position: sticky; top: 0; background: #c0c0c0; text-align: left; padding: 6px 8px;
+    border: 1px solid #fff; border-right-color: #808080; border-bottom-color: #808080; cursor: pointer;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; white-space: nowrap; }
+.page-shell table.brand-index th:hover { background: #d4d0c8; }
+.page-shell table.brand-index th.sorted::after { content: " \25be"; }
+.page-shell table.brand-index th.sorted.asc::after { content: " \25b4"; }
+.page-shell table.brand-index td { padding: 5px 8px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+.page-shell table.brand-index tr:nth-child(even) td { background: #f7f7f7; }
+.page-shell table.brand-index a { color: #000080; font-weight: bold; }
+.page-shell .brand-index-note { font-size: 12px; color: #444; margin-top: 10px; }
+@media (max-width: 640px) {
+    .page-shell table.brand-index thead { display: none; }
+    .page-shell table.brand-index tr { display: block; border: 1px solid #c0c0c0; margin-bottom: 8px; background: #fff; }
+    .page-shell table.brand-index td { display: flex; gap: 8px; border-bottom: 1px dotted #d0d0d0; }
+    .page-shell table.brand-index td::before { content: attr(data-label); flex: 0 0 38%; font-weight: bold; color: #333; }
+}
+
 /* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
 .post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
     border: 1px solid #c8c86a; border-left: 4px solid #000080; }
@@ -1313,6 +1504,9 @@ def main():
         write(f"posts/{p['slug']}.html", build_post_page(ctx, p, posts))
         write(f"posts/{p['slug']}.json", json.dumps(post_json(p), ensure_ascii=False))
     write("posts/index.html", build_posts_index_page(ctx, posts))
+    index_rows = brand_index_rows(posts)
+    write("dead-brand-index.html", build_brand_index_page(ctx, posts))
+    print(f"🗃️  dead-brand-index.html ({len(index_rows)} brands)")
 
     print(f"📁 {len(tags)} tag pages: {', '.join(tags)}")
     for t in tags:

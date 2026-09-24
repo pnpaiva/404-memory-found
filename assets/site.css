@@ -601,6 +601,8 @@
                 transition: all 0.1s;
             }
 
+            .desktop-icon-link { text-decoration: none; color: inherit; }
+
             .desktop-icon:hover {
                 filter: brightness(1.1);
             }
@@ -2223,6 +2225,30 @@
 .page-shell .author-name { font-weight: bold; color: #000080; text-decoration: none; font-size: 14px; }
 .page-shell .author-card .author-beat { margin: 2px 0 4px; }
 .page-shell .author-card p { font-size: 13px; margin: 0; }
+
+/* Dead brand index: a reference table people can sort and filter without leaving the page */
+.page-shell .brand-index-tools { display: flex; align-items: center; gap: 8px; margin: 14px 0 8px; }
+.page-shell .brand-index-tools label { font-size: 13px; font-weight: bold; }
+.page-shell .brand-index-tools input { flex: 1; max-width: 340px; padding: 4px 6px; font-family: inherit; font-size: 13px;
+    border: 2px inset #c0c0c0; background: #fff; }
+.page-shell table.brand-index { width: 100%; border-collapse: collapse; font-size: 13px; background: #fff;
+    border: 2px inset #c0c0c0; }
+.page-shell table.brand-index th { position: sticky; top: 0; background: #c0c0c0; text-align: left; padding: 6px 8px;
+    border: 1px solid #fff; border-right-color: #808080; border-bottom-color: #808080; cursor: pointer;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; white-space: nowrap; }
+.page-shell table.brand-index th:hover { background: #d4d0c8; }
+.page-shell table.brand-index th.sorted::after { content: " be"; }
+.page-shell table.brand-index th.sorted.asc::after { content: " b4"; }
+.page-shell table.brand-index td { padding: 5px 8px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+.page-shell table.brand-index tr:nth-child(even) td { background: #f7f7f7; }
+.page-shell table.brand-index a { color: #000080; font-weight: bold; }
+.page-shell .brand-index-note { font-size: 12px; color: #444; margin-top: 10px; }
+@media (max-width: 640px) {
+    .page-shell table.brand-index thead { display: none; }
+    .page-shell table.brand-index tr { display: block; border: 1px solid #c0c0c0; margin-bottom: 8px; background: #fff; }
+    .page-shell table.brand-index td { display: flex; gap: 8px; border-bottom: 1px dotted #d0d0d0; }
+    .page-shell table.brand-index td::before { content: attr(data-label); flex: 0 0 38%; font-weight: bold; color: #333; }
+}
 
 /* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
 .post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
