@@ -25,6 +25,8 @@ Outputs (all committed, served by GitHub Pages)
 
 import hashlib
 import html
+import csv
+import io
 import json
 import os
 import re
@@ -966,6 +968,13 @@ def build_brand_index_page(ctx, posts):
         f'</tr></thead><tbody>{body_rows}</tbody></table>\n'
         f'<p class="brand-index-note" id="brand-count">Showing all {len(rows)} entries. The archive holds '
         f'<a href="/posts/">{len(posts)} posts</a> in total, including the ones that do not answer a status question.</p>'
+        '<div class="brand-index-reuse"><h2>Using this table</h2>'
+        f'<p>Last checked {esc(ctx["today_label"])}. Every status is taken from the linked post, where the sources are listed. '
+        'The data is free to reuse, including in articles and research, as long as you credit 404 Memory Found and link back to this page.</p>'
+        '<p class="brand-index-downloads">Download: <a href="/dead-brand-index.csv" download>CSV</a> '
+        '<a href="/dead-brand-index.json" download>JSON</a></p>'
+        '<p class="brand-index-cite"><strong>Cite it as:</strong> 404 Memory Found, &ldquo;The dead brand index&rdquo;, '
+        f'{esc(ctx["today_label"])}, https://404memoryfound.com/dead-brand-index.html</p></div>'
         + BRAND_INDEX_JS)
     url = f"{BASE_URL}/dead-brand-index.html"
     schema = {"@context": "https://schema.org", "@type": "Dataset",
@@ -1380,6 +1389,16 @@ PAGE_SHELL_CSS = """
     .page-shell table.brand-index td::before { content: attr(data-label); flex: 0 0 38%; font-weight: bold; color: #333; }
 }
 
+.page-shell .brand-index-reuse { margin-top: 18px; padding: 10px 12px; background: #ffffe1; border: 1px solid #c8c86a;
+    border-left: 4px solid #000080; font-size: 13px; }
+.page-shell .brand-index-reuse h2 { font-size: 15px; margin: 0 0 6px; }
+.page-shell .brand-index-reuse p { margin: 0 0 6px; }
+.page-shell .brand-index-downloads a { display: inline-block; margin-right: 8px; padding: 2px 10px; background: #c0c0c0;
+    border: 2px outset #c0c0c0; color: #000; text-decoration: none; font-weight: bold; }
+.page-shell .brand-index-downloads a:active { border-style: inset; }
+.page-shell .brand-index-cite { font-family: "Courier New", monospace; font-size: 12px; background: #fff;
+    border: 1px solid #c0c0c0; padding: 6px 8px; }
+
 /* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
 .post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
     border: 1px solid #c8c86a; border-left: 4px solid #000080; }
@@ -1484,6 +1503,7 @@ def main():
         "source": source, "version": version, "tags": tags, "authors": authors, "config": config,
         "csp": "" if adsense else csp,  # a meta CSP would block ad networks; drop it once ads are on
         "favicons": favicons, "adsense": adsense, "verification": verification_meta(config),
+        "today_label": datetime.strptime(today, "%Y-%m-%d").strftime("%d %B %Y").lstrip("0"),
         "desktop_icons": extract_div_by_marker(source, 'class="desktop-icons">'),
         "taskbar": extract_div_by_marker(source, 'class="taskbar">'),
         "footer": extract_div_by_marker(source, 'class="footer">'),
@@ -1506,7 +1526,21 @@ def main():
     write("posts/index.html", build_posts_index_page(ctx, posts))
     index_rows = brand_index_rows(posts)
     write("dead-brand-index.html", build_brand_index_page(ctx, posts))
-    print(f"🗃️  dead-brand-index.html ({len(index_rows)} brands)")
+    # A reference table only earns links when other people can take the data with them.
+    write("dead-brand-index.json", json.dumps(
+        {"name": "The dead brand index", "source": f"{BASE_URL}/dead-brand-index.html",
+         "updated": today, "licence": "Free to reuse with credit and a link to the source page.",
+         "count": len(index_rows),
+         "brands": [{"name": r["name"], "started": r["started"], "status2026": r["status"],
+                     "owner2026": r["owner"], "source": BASE_URL + r["url"]} for r in index_rows]},
+        ensure_ascii=False, indent=1))
+    csv_buf = io.StringIO()
+    writer = csv.writer(csv_buf)
+    writer.writerow(["name", "started", "status_2026", "owner_2026", "source"])
+    for r in index_rows:
+        writer.writerow([r["name"], r["started"], r["status"], r["owner"], BASE_URL + r["url"]])
+    write("dead-brand-index.csv", csv_buf.getvalue())
+    print(f"🗃️  dead-brand-index.html + .csv + .json ({len(index_rows)} brands)")
 
     print(f"📁 {len(tags)} tag pages: {', '.join(tags)}")
     for t in tags:

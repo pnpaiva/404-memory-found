@@ -2250,6 +2250,16 @@
     .page-shell table.brand-index td::before { content: attr(data-label); flex: 0 0 38%; font-weight: bold; color: #333; }
 }
 
+.page-shell .brand-index-reuse { margin-top: 18px; padding: 10px 12px; background: #ffffe1; border: 1px solid #c8c86a;
+    border-left: 4px solid #000080; font-size: 13px; }
+.page-shell .brand-index-reuse h2 { font-size: 15px; margin: 0 0 6px; }
+.page-shell .brand-index-reuse p { margin: 0 0 6px; }
+.page-shell .brand-index-downloads a { display: inline-block; margin-right: 8px; padding: 2px 10px; background: #c0c0c0;
+    border: 2px outset #c0c0c0; color: #000; text-decoration: none; font-weight: bold; }
+.page-shell .brand-index-downloads a:active { border-style: inset; }
+.page-shell .brand-index-cite { font-family: "Courier New", monospace; font-size: 12px; background: #fff;
+    border: 1px solid #c0c0c0; padding: 6px 8px; }
+
 /* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
 .post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
     border: 1px solid #c8c86a; border-left: 4px solid #000080; }
