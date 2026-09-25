@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-09-25",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 186,
+ "count": 187,
  "brands": [
   {
    "name": "3dfx",
@@ -746,6 +746,13 @@
    "status2026": "No stores anywhere. Montgomery Ward sells online at wards.com on installment credit",
    "owner2026": "Colony Brands Inc., a family-owned direct-mail company, since 2008",
    "source": "https://404memoryfound.com/posts/montgomery-ward-failed-who-owns-it.html"
+  },
+  {
+   "name": "Motorola Razr V3",
+   "started": "November 16, 2004, Motorola, exclusive to Cingular Wireless",
+   "status2026": "Cannot make a call in the US; last 2G network shut off August 3, 2026",
+   "owner2026": "Lenovo, which sells folding Razrs from $799 to $1,899",
+   "source": "https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html"
   },
   {
    "name": "MSN Messenger",
