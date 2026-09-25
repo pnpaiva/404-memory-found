@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-09-25",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 183,
+ "count": 184,
  "brands": [
   {
    "name": "3dfx",
@@ -914,6 +914,13 @@
    "status2026": "PizzaNet is gone; Pizza Hut takes orders through its own site and app",
    "owner2026": "LongRange Capital, which completed its purchase from Yum! Brands on September 1, 2026",
    "source": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"
+  },
+  {
+   "name": "PointCast",
+   "started": "February 13, 1996, in beta, by PointCast Inc.",
+   "status2026": "Dead. The network sent its last push at the end of March 2000",
+   "owner2026": "AOL, which bought successor company Infogate in March 2003",
+   "source": "https://404memoryfound.com/posts/what-happened-to-pointcast-push-technology.html"
   },
   {
    "name": "Polaroid",
