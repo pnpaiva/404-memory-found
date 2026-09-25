@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-09-25",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 182,
+ "count": 183,
  "brands": [
   {
    "name": "3dfx",
@@ -382,6 +382,13 @@
    "status2026": "Live in 2026. Newest server, Lethar, opened August 26, 2026",
    "owner2026": "Darkpaw Games, part of Daybreak Game Company, owned by Enad Global 7",
    "source": "https://404memoryfound.com/posts/everquest-still-active-2026.html"
+  },
+  {
+   "name": "Excite",
+   "started": "October 1995, from Architext Software, incorporated June 1993 by six Stanford students",
+   "status2026": "Gone. excite.com was shut down in August 2026",
+   "owner2026": "IAC, which ran excite.com through Ask Media Group until the shutdown",
+   "source": "https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html"
   },
   {
    "name": "Excite@Home",
