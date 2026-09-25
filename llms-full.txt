@@ -5539,90 +5539,92 @@ Elwood Edwards worked in broadcasting from 1964 onward, spending years at WKYC i
 
 ---
 
-# Is Sega Still Making Games? Life After the Dreamcast
+# Is Sega Still Making Games in 2026? No New Console
 
 URL: https://404memoryfound.com/posts/is-sega-still-making-games.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-25
 Topics: Gaming, Business Blunders
 
-**Summary:** Sega is still making games. It sits inside Sega Sammy Holdings, formed in October 2004, whose Entertainment Contents division sold 326.6 billion yen in the fiscal year ended March 31, 2026. What Sega no longer makes is consoles, and nothing in its filings suggests that is changing.
+**Summary:** Sega is still making games in 2026, but only as one division of Sega Sammy Holdings, the group formed on October 1, 2004. Its Entertainment Contents segment sold 326.6 billion yen in the year to March 2026, and the group closed that year with a net loss of 5.7 billion yen after write-downs on Rovio and Stakelogic. Sega has not built a home console since the Dreamcast, and nothing in its reporting suggests that is changing.
 
 **Key facts:**
 - Status today: Still publishing games, no home console since the Dreamcast
-- Owner today: Sega Sammy Holdings, formed October 2004
-- Games and content sales: 326.6 billion yen, fiscal year ended March 2026
-- Full games sold: 22.95 million copies, fiscal year ended March 2026
-- Biggest recent hit: Sonic the Hedgehog 3, 492.2 million dollars worldwide
+- Owner today: Sega Sammy Holdings, formed October 1, 2004
+- Games segment sales: 326.6 billion yen, fiscal year ended March 2026
+- Group result: Net loss of 5.7 billion yen after 58.8 billion yen of impairments
+- Price today: Sega Genesis Mini, about 65 to 100 dollars second-hand in 2026
 
-## Is Sega still making games in 2026?
+## Who owns Sega today?
 
-Yes. Sega is owned by Sega Sammy Holdings, and the division that holds the game business, Entertainment Contents, reported sales of 326.6 billion yen for the fiscal year ended March 31, 2026, up from 321.5 billion yen the year before. The consumer games area inside it accounted for 219.9 billion yen.
+Sega belongs to Sega Sammy Holdings, the joint holding company created on October 1, 2004 when Sega merged with the pachinko and pachislot manufacturer Sammy Corporation. Sega had already left console hardware behind, and Sammy's gambling machine money paid for what came next.
 
-Sega Sammy reports in yen, so most figures here stay in yen. What matters for the question is the direction. Sega shipped 22.95 million full game copies in that fiscal year, down from 31.45 million a year earlier, a fall of 27 percent. Segment operating income dropped to 32.4 billion yen from 40.8 billion yen.
+The group is still built that way. For the fiscal year ended March 31, 2026, Sega Sammy reported net sales of 487.5 billion yen, up 13.7 percent on the year before, and operating profit of 47.1 billion yen. Beneath those numbers it posted a net loss of 5.7 billion yen, about 31.6 million dollars.
 
-So the answer is yes, with a wobble. Sega walked away from the console business after the Dreamcast (https://404memoryfound.com/posts/why-sega-stopped-making-consoles-dreamcast.html) and turned itself into a publisher, and the publisher is still shipping. Sega Sammy forecasts 357.0 billion yen in Entertainment Contents sales for the year ending March 2027, built on four new full game releases from its main franchises.
+Games sit in the Entertainment Contents segment, alongside Sonic, Atlus and Total War. Pachislot and pachinko machines are a separate segment, and an overseas gambling business is a third. Sega the publisher has no separate listing or balance sheet of its own: it is one division of a Japanese gambling machine group that owns the brand that walked away from consoles after the Dreamcast (https://404memoryfound.com/posts/why-sega-stopped-making-consoles-dreamcast.html).
 
-## Who owns Sega now, and why does a pachinko company matter?
+## What did Sega's games business actually earn last year?
 
-Sega Sammy Holdings was established in October 2004 through the management integration of Sega and Sammy Corporation. Sammy built pachislot and pachinko machines, the Japanese gambling cabinets, and that side of the house has been the group's profit engine for most of the years since.
+Entertainment Contents sold 326.6 billion yen in the year to March 2026, a rise of 1.5 percent. Segment operating income went the other way, down to 32.4 billion yen from 40.8 billion yen a year earlier. Sales up, profit down, which is the shape of a publisher paying for decisions made elsewhere.
 
-The split in the fiscal year ended March 2026 is worth sitting with. The Pachislot and Pachinko Machines segment sold 132.0 billion yen and delivered 32.1 billion yen of operating income. Entertainment Contents sold 326.6 billion yen and delivered 32.4 billion yen. Games bring in roughly two and a half times the revenue for about the same profit.
+Those decisions were acquisitions. Sega Sammy booked 58.8 billion yen of extraordinary impairment losses for the year, 31.3 billion yen of it written off against Rovio Entertainment, the Finnish Angry Birds studio it bought in 2023 for 706 million euros, and 18.0 billion yen against Stakelogic, an online casino supplier bought in 2024. Those two write-downs are what turned an operating profit into a net loss.
 
-Group wide, Sega Sammy booked 487.5 billion yen in sales and 47.1 billion yen in operating income, then closed the year with a net loss of 5.7 billion yen after 58.8 billion yen of extraordinary losses. The company that lost the Saturn generation (https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html) and then watched the PlayStation 2 (https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html) bury its last console now runs a games publisher inside a gambling machine business.
+The company drew its own conclusion in the results for the nine months to December 31, 2025, saying it would "suspend large-scale M&A for the time being" and putting 20.0 billion yen into a share buyback instead. Sega spent a decade buying growth. In 2026 it stopped.
 
-## What Sega bought after it stopped building hardware
+## Why did Sega cancel Super Game?
 
-Two acquisitions define modern Sega. In 2014 Sega Sammy took over the game division of the collapsed Index Corporation and rebuilt it as Atlus, which brought the Persona and Shin Megami Tensei series in house. That purchase aged well. Atlus role playing games are now among the most reliable earners Sega has.
+Super Game was the plan for a global online hit, announced in 2021 and discussed for five years without ever being shown. In May 2026 Sega confirmed in its full year results that the project was cancelled and that free-to-play development had been pushed down the priority list.
 
-The second one has not aged well at all. Sega acquired Rovio Entertainment, the Finnish studio behind Angry Birds, as a subsidiary in 2023. Rovio's sales were 309 million euros in the fiscal year ended March 2023, before the deal closed. By the fiscal year ended March 2026 they were 181 million euros, and Sega Sammy forecasts 158 million euros for the year ending March 2027.
+Sega president and chief operating officer Shuji Utsumi gave the reasoning to Nikkei xTREND in September 2026. The scale of investment and operations "would have to grow enormously to match the scale of the service", he said, and "taking into account the global situation, we determined that taking on this challenge at this time would be too risky".
 
-That decline is a large part of why the group posted 58.8 billion yen in extraordinary losses in the fiscal year ended March 2026, driven by impairment charges on Rovio and on Stakelogic, an online casino supplier Sega Sammy bought the same year. The mobile bet has cost real money.
+The retreat is not total. Utsumi said there are still "business opportunities" in games as a service, and Sega has not closed that door. But more than 100 developers were moved off free-to-play work and onto full priced games built around franchises players already know. Sega spent five years trying to become a live service company, then went back to selling finished games.
 
-## Sonic earns more at the box office than most Sega games do
+## How much does Sonic earn away from games?
 
-The clearest sign that Sega changed shape is where Sonic makes his money. Sonic the Hedgehog 3 opened in the United States on December 20, 2024 and finished its run on March 27, 2025 with 236.1 million dollars domestic and 492.2 million dollars worldwide. No Sega game release in that window came close to that kind of gross.
+Sonic the Hedgehog 3 opened in the United States on December 20, 2024 and finished its theatrical run on March 27, 2025 with 236.1 million dollars domestic and roughly 492 million dollars worldwide, the biggest gross in the film series. No Sega game released in that window came near that figure.
 
-The films feed a licensing business that has grown every year. Sega Sammy's licensing revenue reached 20.8 billion yen in the fiscal year ended March 2026, up from 17.5 billion yen, spread across 748 licensees. On Sega Sammy's own chart that line rises without a down year, from 5.7 billion yen at the left edge to 20.8 billion yen at the right.
+That is what Sega has become. Licensing Sonic for films, toys, clothing and tie-ins earns money whether or not a given game sells well, and it is the part of the business Sega Sammy now leans on hardest when the publishing side wobbles.
 
-The pipeline is already on the calendar. Sega Sammy's own results materials list The Angry Birds Movie 3 for December 23, 2026 and Sonic the Hedgehog 4 for March 19, 2027, with a Golden Axe project listed as licensing out. Sega is now a character company that also publishes games.
+Two more films are already on the calendar. The Angry Birds Movie 3, made with Rovio, opens on December 23, 2026. Sonic the Hedgehog 4 follows on March 19, 2027. Rovio has cost Sega Sammy 31.3 billion yen in write-downs, but it also brought in a film franchise, which is the business Sega now does well.
 
-## The 2024 layoffs and the studios Sega let go
+## What happened to Sega's studios after the 2024 layoffs?
 
-The restructuring has been real. On March 28, 2024 Sega announced roughly 240 job cuts across Sega Europe, Total War maker Creative Assembly and mobile studio Hardlight, and confirmed that Relic Entertainment, the Company of Heroes developer, would leave the group as an independent studio backed by an outside investor.
+On March 28, 2024 Sega announced about 240 job cuts across Sega Europe, Total War developer Creative Assembly and mobile studio Hardlight, and confirmed that Relic Entertainment, the Company of Heroes developer, would leave the group as an independent studio backed by the UK investment firm Emona Capital.
 
-The cuts did not stop there. In May 2026 Sega Sammy confirmed it had canceled Super Game, the multi year attempt at a big online service title, and lowered the priority of free to play development after new titles underperformed. More than 100 developers were moved off free to play work and onto full game teams built around the main franchises.
+Jurgen Post, who ran Sega Europe, framed the cuts to staff as protection for what was left. "We need to streamline, focus on what we are good at, and position ourselves as best we can for the road ahead", he wrote in 2024, in a message reported by Game Developer and others.
 
-Read together, the two moves say the same thing. Sega tried to be a live service company, it did not work, and it has retreated to what it is good at, which is making finished single purchase games with characters people already know.
+What Sega kept says more than what it sold. Atlus, the studio behind Persona and Shin Megami Tensei, reached Sega through the 2013 sale of the collapsed Index Corporation and took the Atlus name again in April 2014. It is now among the group's most dependable earners. Sega let go of a western strategy studio and held on to a Japanese role-playing one.
 
-## Will Sega make a new console?
+## Will Sega build another console?
 
-Nothing in the company's own filings points that way. Sega Sammy reports three segments, Entertainment Contents, Pachislot and Pachinko Machines, and a Gaming segment covering overseas online casino operations that sold 25.3 billion yen and lost 7.2 billion yen in the fiscal year ended March 2026. There is no consumer hardware line anywhere in the structure.
+Nothing in Sega Sammy's reporting points that way. The group reports games, pachislot and pachinko machines, and overseas gambling, and there is no consumer hardware line anywhere in that structure. There has not been one since the Dreamcast, the console that followed the Saturn generation Sega lost (https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html) and was buried by the PlayStation 2 (https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html).
 
-The closest Sega has come since 2001 is plug and play nostalgia. The Sega Genesis Mini arrived in the United States on September 19, 2019 at 79.99 dollars with 42 built in games, and had sold more than 300,000 units by the end of March 2020. A Genesis Mini 2 followed worldwide on October 27, 2022 with 60 Genesis and Sega CD (https://404memoryfound.com/posts/what-happened-to-sega-cd-add-on.html) games. Before that Sega had licensed the name to AtGames, whose 2017 Sega Genesis Flashback was panned, and dropped that partnership to build the Mini itself. Handheld rumors surface every year or two, but Sega has announced nothing.
+The closest Sega has come since is plug and play nostalgia. The Sega Genesis Mini reached the United States on September 19, 2019 at 79.99 dollars with 42 built in games, and had sold more than 300,000 units by the end of March 2020. A Genesis Mini 2 followed in October 2022. Both are discontinued.
 
-If you want one of the Minis today, Sega no longer sells either model, so the second-hand market is the route; specialist shops such as Stone Age Gamer (https://stoneagegamer.com/) also carry flash carts and accessories that make original hardware easier to live with. The original listed at 79.99 dollars in 2019, and the Mini 2 was made in smaller numbers, so sealed second models are the harder find. Check that a listing includes the power supply and a controller.
+A rumor circulated in June 2026 that Sega or a licensing partner was seeking quotes for a low cost 2D handheld that takes cartridges. It came from an anonymous post, Sega has confirmed nothing, and earlier handheld rumors ended the same way. Utsumi's stated ambition, as he told the BBC in December 2024, is about characters rather than hardware: "I want to make Sega really shiny again."
+
+Where to find one today. Sega sells neither Mini now, so both are second-hand buys. PriceCharting's tracked sales put a loose Genesis Mini at roughly 65 to 70 dollars in 2026 and a boxed one near 90 to 100 dollars, above the 79.99 dollars it cost new in 2019. Specialist retro shops such as Stone Age Gamer (https://stoneagegamer.com/) carry the accessories and flash carts that make original Sega hardware easier to use on a modern television. Check that any listing includes the power supply and at least one controller.
 
 ## Frequently Asked Questions
 
 ### Is Sega still around in 2026?
 
-Yes. Sega operates as part of Sega Sammy Holdings, which reported 487.5 billion yen in group sales for the fiscal year ended March 31, 2026. Its Entertainment Contents division, which contains the game business, accounted for 326.6 billion yen of that.
+Yes. Sega operates as part of Sega Sammy Holdings, which reported net sales of 487.5 billion yen for the fiscal year ended March 31, 2026. The Entertainment Contents segment that holds the game business accounted for 326.6 billion yen of that total.
 
-### Does Sega still own Sonic?
+### Who owns Sega now?
 
-Yes. Sega owns Sonic outright and licenses him out for films and merchandise. Sonic the Hedgehog 3 grossed 492.2 million dollars worldwide after its December 20, 2024 release, and Sega Sammy's materials list Sonic the Hedgehog 4 for March 19, 2027.
+Sega is owned by Sega Sammy Holdings, the Tokyo listed company formed on October 1, 2004 when Sega merged with the pachinko and pachislot manufacturer Sammy Corporation. Sega has had no separate stock listing since that merger.
 
 ### What was the last Sega console?
 
-The Dreamcast was the last home console Sega manufactured, and the company has not shipped a successor. The nearest thing since is the Sega Genesis Mini line, a plug and play reissue that launched in the United States in September 2019 at 79.99 dollars.
+The Dreamcast was the last home console Sega manufactured, and Sega has not shipped a successor. The nearest thing since is the Sega Genesis Mini, a plug and play reissue that launched in the United States on September 19, 2019 at 79.99 dollars with 42 built in games.
 
 **Sources:**
-- SEGA SAMMY HOLDINGS, Full-year results presentation for the fiscal year ended March 2026: https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20260512_q4_presentation_E.pdf
+- SEGA SAMMY HOLDINGS, Full-year results presentation for the fiscal year ended March 2026: https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20260512_q4_presentation_en.pdf
 - SEGA SAMMY HOLDINGS, Corporate history: https://www.segasammy.co.jp/en/corp/history/
-- Box Office Mojo, Sonic the Hedgehog 3: https://www.boxofficemojo.com/release/rl886211329/
-- Game Developer, Sega sells off Relic Entertainment, will axe 240 jobs: https://www.gamedeveloper.com/business/sega-sells-off-relic-entertainment-will-axe-240-jobs
-- Wikipedia, Sega Genesis Mini: https://en.wikipedia.org/wiki/Sega_Genesis_Mini
+- Video Games Chronicle, Sega president explains why it cancelled Super Game (2026): https://www.videogameschronicle.com/news/sega-president-explains-why-it-made-the-decision-to-cancel-its-much-hyped-super-game/
+- Game Developer, Sega sells off Relic Entertainment, will axe 240 jobs (2024): https://www.gamedeveloper.com/business/sega-sells-off-relic-entertainment-will-axe-240-jobs
+- The Numbers, Sonic the Hedgehog 3 box office: https://www.the-numbers.com/movie/Sonic-the-Hedgehog-3-(2024)
 
 ---
 
