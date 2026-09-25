@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns Virgin Megastore Now? Zero US Stores Left</title>
+      <link>https://404memoryfound.com/posts/virgin-megastore-stores-left.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/virgin-megastore-stores-left.html</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Virgin Megastore has had zero US stores since 2009, but the brand lives on: Azadea runs 40-plus stores across nine Middle East markets.</description>
+      <enclosure url="https://404memoryfound.com/pins/virgin-megastore-stores-left.jpg" length="305369" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/virgin-megastore-stores-left.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Music &amp; Entertainment</category>
+    </item>
     <item>
       <title>DIVX Explained: Circuit City&#x27;s $337 Million Flop</title>
       <link>https://404memoryfound.com/posts/divx-circuit-city-dvd-format.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/is-kinkos-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Is Toonami Still On TV in 2026? Yes, on Adult Swim</title>
-      <link>https://404memoryfound.com/posts/is-toonami-still-on-tv.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-toonami-still-on-tv.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Toonami is still on TV in 2026: Adult Swim airs it Saturdays, midnight to 4 a.m. ET. Cartoon Network killed it in 2008 and a 2012 prank revived it.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-toonami-still-on-tv.jpg" length="144518" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-toonami-still-on-tv.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Music &amp; Entertainment</category>
-      <category>Internet Culture</category>
     </item>
   </channel>
 </rss>

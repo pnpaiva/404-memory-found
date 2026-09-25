@@ -1657,6 +1657,16 @@
   "thumb": "/img/thumb/sony-pcm-501es-sony-sl-hf360-25cd6d.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Times_Square_Virgin_Megastore_%282767997242%29.jpg/960px-Times_Square_Virgin_Megastore_%282767997242%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Times_Square_Virgin_Megastore_%282767997242%29.jpg",
+  "ext": "jpg",
+  "file": "/img/times-square-virgin-megastore-2767997242-2c723a.jpg",
+  "height": 1024,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/times-square-virgin-megastore-2767997242-2c723a.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/AOL_promotional_CDs_in_Canada.jpg/960px-AOL_promotional_CDs_in_Canada.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
   "ext": "jpg",
