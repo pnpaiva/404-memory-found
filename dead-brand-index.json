@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 181,
+ "count": 182,
  "brands": [
   {
    "name": "3dfx",
@@ -116,6 +116,13 @@
    "status2026": "Discontinued in 1996; Atari Corporation no longer exists",
    "owner2026": "Atari SA, Euronext Paris, run by CEO Wade Rosen since 2021",
    "source": "https://404memoryfound.com/posts/what-happened-to-atari-jaguar-64-bit-console.html"
+  },
+  {
+   "name": "Atari Lynx",
+   "started": "September 1989, Atari Corporation, $179.99",
+   "status2026": "Discontinued in 1995, never reissued as hardware",
+   "owner2026": "Atari SA, chaired by Wade Rosen",
+   "source": "https://404memoryfound.com/posts/what-happened-to-atari-lynx-handheld.html"
   },
   {
    "name": "Barnes and Noble",
