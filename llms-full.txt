@@ -5743,94 +5743,92 @@ The Dreamcast was the last home console Sega manufactured, and Sega has not ship
 
 URL: https://404memoryfound.com/posts/is-runescape-still-popular-2026.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-25
 Topics: Gaming, Internet Culture
 
-**Summary:** RuneScape is still popular in 2026, and the popular half is the 2007 version. Old School RuneScape peaked above 240,000 concurrent players in August 2025, against roughly 30,000 for RuneScape 3. Jagex, the Cambridge studio behind both games, has been owned by CVC Capital Partners and Haveli Investments since February 2024.
+**Summary:** RuneScape is still popular in 2026, and the popular half is the 2007 version. Old School RuneScape peaked at 240,851 concurrent players in August 2025, roughly eight times the crowd on RuneScape 3. Jagex, the Cambridge studio behind both games, has been owned by CVC Capital Partners and Haveli Investments since February 2024.
 
 **Key facts:**
+- Status today: Both games live, with Old School RuneScape the larger of the two
 - Owner today: CVC Capital Partners and Haveli Investments, since February 2024
 - Peak players: 240,851 at once in Old School RuneScape, August 2025
-- Subscribers: 2.4 million paid plus 1 million free-to-play (2024)
-- Cost today: $14.99 a month or $131.88 a year in the US (2026)
-- Status: Both games live, with Old School roughly eight times larger than RuneScape 3
+- Price today: $14.99 a month or $131.88 a year in the US, since March 2026
+- Subscribers: 2.4 million paid plus 1 million free-to-play (Carlyle, 2024)
 
-## Is RuneScape still popular in 2026?
+## How many people play Old School RuneScape in 2026?
 
-Yes, and the healthy half of the franchise is the version Jagex restored from a 2007 server backup. On a Sunday in early August 2025, Old School RuneScape passed 240,000 people logged in at the same moment, with player screenshots putting the peak at 240,851. The game had crossed 200,000 concurrent players only weeks earlier.
+Old School RuneScape, the 2007 version Jagex restored from a server backup, set its concurrent record on a quiet Sunday in early August 2025. Tracking data put the peak above 240,000, with player screenshots showing 240,851 logged in at the same moment. No event was running that weekend.
 
-Mainline RuneScape, the version players call RuneScape 3, runs at roughly 30,000 concurrent players by the same reporting. That is a gap of about eight to one between a 2007 snapshot and the modern game it was copied from.
+Mainline RuneScape, the version players call RuneScape 3, sat near 26,000 concurrent players at that moment. GamesRadar+ put Old School RuneScape at roughly eight times the size of its sister game, large enough to rank fourth on Steam if every player used the Steam client rather than a third-party one.
 
-The commercial side agrees. When Carlyle announced on February 9, 2024 that it had agreed to sell Jagex, it described a community of 2.4 million active subscribers and one million free-to-play users, sitting on more than 300 million lifetime RuneScape accounts and $1.5 billion in lifetime franchise revenue. A browser game from the era of Neopets and other click-and-wait virtual worlds (https://404memoryfound.com/posts/what-happened-to-neopets-virtual-world.html) is not supposed to be setting attendance records two decades later.
+The commercial numbers point the same way. When Carlyle announced on February 9, 2024 that it had agreed to sell Jagex, it counted 2.4 million active subscribers and one million free-to-play users, more than 300 million lifetime RuneScape accounts and $1.5 billion in lifetime franchise revenue. A browser game from the era of Neopets and the click-and-wait virtual worlds (https://404memoryfound.com/posts/what-happened-to-neopets-virtual-world.html) is not supposed to be setting attendance records two decades later.
 
-## Who owns Jagex now?
+## Who owns Jagex and RuneScape in 2026?
 
-Jagex is owned by CVC Capital Partners Fund VIII and Haveli Investments. Carlyle announced the agreed sale on February 9, 2024, and the two buyers have run the studio since.
+Jagex is owned by CVC Capital Partners Fund VIII and Haveli Investments. Carlyle announced the agreed sale on February 9, 2024, and the two firms have run the Cambridge studio since. Terms were not disclosed.
 
-CVC is a European private equity firm with approximately 188 billion euros of assets under management, better known outside gaming for its stakes in soccer and rugby competitions. Haveli is an Austin firm whose chief investment officer, Brian Sheth, was quoted on the deal. Neither side disclosed a price, though PocketGamer.biz reported that Reuters valued the sale at as much as 1 billion pounds, about $1.25 billion.
+"I'm delighted to welcome CVC Capital Partners and Haveli Investments as strategic partners for Jagex," said Phil Mansell, then the studio's chief executive, in the announcement Carlyle published in 2024. Jon Bellamy has held the job since Mansell left it.
 
-The seller was Carlyle, which had held Jagex since 2021 through Carlyle Partners VII and Carlyle Europe Technology Partners IV, a 1.35 billion euro fund. At the time of the sale Carlyle described Jagex as a Cambridge company employing more than 700 people worldwide, with Phil Mansell as chief executive.
+CVC is a European private equity firm better known outside gaming for its stakes in soccer and rugby competitions. Haveli is an investment firm based in Austin, Texas. Carlyle, the seller, had held Jagex since 2021 and described it at the point of sale as a Cambridge company employing more than 700 people worldwide.
 
-So the plain answer to who owns RuneScape: two private equity firms, one European and one Texan, neither of which was anywhere near the game when it launched.
-
-## How Jagex kept getting sold
-
-The current owners are the sixth set in roughly a decade, a churn PocketGamer.biz laid out when the 2024 deal landed.
-
-Insight Venture Partners, a New York firm, took a majority share in 2012. In 2016 the studio passed to Hongtou, a Chinese investment vehicle later absorbed by Zhongji Holdings, which renamed itself Fukong Interactive Entertainment. In 2020 it moved again, to Macarthur Fortune Holdings, a US asset manager. Carlyle bought it in 2021, a deal PocketGamer.biz put at $530 million. Then CVC and Haveli in 2024.
-
-Reported prices along that chain are inconsistent, partly because several of the transactions were never officially disclosed and partly because the figures were reported by different outlets working from different filings.
-
-What matters for players is the pattern rather than any single number. Every owner arrives with a return to earn and an exit to plan, and on a subscription game the lever closest to hand is the subscription.
+So the plain answer to who owns RuneScape in 2026: two private equity firms, one European and one Texan, neither of which was anywhere near the game when it launched. Every owner arrives with a return to earn and an exit to plan, and on a subscription game the lever closest to hand is the subscription.
 
 ## Why Jagex dug a 2007 backup out of storage
 
-In early 2013, Jagex went digging through old server backups because forum threads kept circling back to the 2006 and 2007 builds of the game. On February 15, 2013 the studio posted that it had recovered a complete, verified snapshot of RuneScape from August 2007. It also admitted that it had changed its backup systems that October, so nothing after August 2007 survived in a usable state.
+In early 2013 Jagex went through its own archives, because forum threads kept circling back to the 2006 and 2007 builds of the game. On February 15, 2013 the studio reported that the search had worked: "we have indeed managed to recover a full RuneScape backup from August 2007." It also admitted that it had changed its backup systems that October, so nothing from later in 2007 survived in usable shape.
 
-Rather than simply switch the old servers on, Jagex put it to a vote, in the same spirit as an earlier poll on restoring the Wilderness and free trade that had drawn 1.4 million votes. The thresholds were blunt. At 50,000 votes the old servers would return with no content updates and an extra fee of around $15. At 250,000 they would get a small development team and roughly $5 extra. At 500,000 they would get a dedicated team and no extra fee at all.
+Rather than switch the old servers on, Jagex put it to a vote, and the thresholds were blunt. At 50,000 votes the old servers would return with no content updates and an extra fee of around $15. At 250,000 they would get a small development team and roughly $5 extra. At 500,000 they would get a dedicated team and no extra fee at all.
 
-The old servers came back as Old School RuneScape, with no surcharge and a dedicated team. The rule that players vote on new content dates from that same promise.
+The vote closed below the 500,000 mark. Jagex switched the old servers on anyway, waived the surcharge, and Old School RuneScape has sat inside the standard membership ever since. The rule that players vote on new content dates from that same promise.
 
 ## How Old School RuneScape outgrew RuneScape 3
 
 The 2007 build was meant to be a nostalgia annex. It became the main game instead.
 
-Part of that is combat. The modern version had moved to an ability-driven system, the Evolution of Combat, and a large share of the audience never accepted it. Part of it is governance, because content in Old School RuneScape has to clear a player poll, so the game changes slowly and in public. Part of it is simply that the older client is lighter, easier to explain to a newcomer, and runs on a phone.
+Part of that is combat. The modern version had moved to an ability-driven system, the Evolution of Combat, and a large share of the audience never accepted it. Part of it is governance, because content in Old School RuneScape has to clear a player poll, so the game changes slowly and in public. Part of it is that the older client is lighter, easier to explain to a newcomer, and runs on a phone.
 
-The result is the trick Counter-Strike pulled on Half-Life (https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html), where the offshoot ends up bigger than the thing it came from. By August 2025 Old School RuneScape was running above 240,000 concurrent players against roughly 30,000 for RuneScape 3.
+Slow is not the same as frozen. Jagex added Sailing, the first new skill in the old game's history, after years of design polls, and it landed without breaking the promise that players decide.
 
-Jagex maintains both, plus a co-op survival game set in the same world called RuneScape: Dragonwilds. An MMO that outlasted Second Life and the first metaverse rush (https://404memoryfound.com/posts/what-happened-to-second-life-virtual-world.html) managed it by shipping a copy of its own past.
+The result is the trick Counter-Strike pulled on Half-Life (https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html), where the offshoot ends up bigger than the thing it came from. In August 2025 Old School RuneScape ran above 240,000 concurrent players against about 26,000 for RuneScape 3. An MMO that has outlasted most of its rivals, including the still-running EverQuest servers (https://404memoryfound.com/posts/everquest-still-active-2026.html), managed it by shipping a copy of its own past.
+
+## What changed for RuneScape players in 2026
+
+The biggest change hit the modern game. Treasure Hunter, the key-based microtransaction system introduced to RuneScape in 2014, was voted out. Jagex ran a poll that needed 100,000 votes and drew 124,985, and on January 19, 2026 Treasure Hunter left the game, along with 225 direct experience and skilling items that had been on sale.
+
+"January 19th is the start of a new era for RuneScape, powered by a shared desire to see this game grow for decades to come," Jagex chief executive Jon Bellamy said in the studio's announcement of the result.
+
+Jagex framed the removal as one part of a wider change of direction, with a year-long integrity roadmap aimed at the interface, the visuals and game balance. Cutting a revenue line out of a subscription game owned by private equity is not the obvious move, which is part of why players noticed.
+
+Both MMOs are still in service, and Jagex now runs a co-op survival spin-off set in the same world, RuneScape: Dragonwilds, alongside them.
 
 ## What RuneScape membership costs in 2026
 
-Membership is $14.99 a month or $131.88 a year in the United States, following an increase Jagex announced on March 10, 2026. In the UK it is 10.99 pounds a month, up by a pound.
+Membership is $14.99 a month or $131.88 a year in the United States. The new prices took effect on March 10, 2026 for new subscriptions, with existing members moving across at renewal.
 
-That is the third increase in four years. In May 2022 membership was $12.49 a month or $79.99 a year. In September 2024 it moved to $13.99 and $99.48. The 2026 change took the monthly price to $14.99, level with World of Warcraft in the US, and pushed the annual plan up by more than $32 in a single step. The six-month plan was dropped, which Jagex presented as simplifying the options.
+That is the second increase in under two years. The September 2024 change had set the monthly price at $13.99 and the annual plan at $99.48, so the yearly cost rose by more than $32 in a single step, about 32 percent, while the monthly price rose by a dollar. Jagex dropped the six-month plan and replaced Premier membership with a single 12-month option, which it presented as simplifying the choices.
 
-Totaled up, the annual price has risen more than 60 percent since May 2022 while the monthly price has risen about 20 percent. The free tier still exists, and Carlyle counted a million people on it in 2024, so trying RuneScape costs nothing.
-
-Players have noticed the direction of travel. PCGamesN framed its report on the 2026 increase around the question of when the hikes stop.
+At $14.99 a month, RuneScape now costs the same as a World of Warcraft subscription in the United States, a comparison PC Gamer drew in its report on the 2026 hike. The free tier still exists on both games, with a reduced set of skills, quests and areas, so trying either one costs nothing.
 
 ## Frequently Asked Questions
 
 ### Is Old School RuneScape bigger than RuneScape 3?
 
-Yes, by a wide margin. In August 2025 Old School RuneScape peaked above 240,000 concurrent players while mainline RuneScape sat near 30,000, a gap of roughly eight to one. Both are made by Jagex and both are covered by the same membership.
+Yes, by a wide margin. In August 2025 Old School RuneScape peaked at 240,851 concurrent players while RuneScape 3 sat near 26,000, a gap GamesRadar+ put at roughly eight to one. Both games are made by Jagex and both are covered by the same membership.
+
+### Who owns RuneScape and Jagex now?
+
+Jagex, the Cambridge studio that makes RuneScape and Old School RuneScape, has been owned by CVC Capital Partners Fund VIII and Haveli Investments since the sale Carlyle announced on February 9, 2024. Terms were not disclosed, and Jon Bellamy is the chief executive.
 
 ### Can you still play RuneScape for free?
 
-Yes. Both games keep a free tier with a reduced set of skills, quests and areas. Carlyle counted one million free-to-play users alongside 2.4 million paying subscribers when it agreed to sell Jagex in February 2024.
-
-### Is Old School RuneScape the same game as the 2007 original?
-
-It started as one. Jagex recovered a complete backup of RuneScape as it stood in August 2007 and relaunched it as a separate game. Years of new content have gone in since, but each addition has to pass a player poll first, which is why it still plays like the older game.
+Yes. Both RuneScape and Old School RuneScape keep a free tier in 2026, with a reduced set of skills, quests and areas. Carlyle counted one million free-to-play users alongside 2.4 million paying subscribers when it agreed to sell Jagex in February 2024.
 
 **Sources:**
 - Carlyle Agrees to Sell Jagex to CVC Capital Partners and Haveli Investments (February 9, 2024): https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-to-sell-jagex-to-cvc-capital-partners-and-haveli
-- PocketGamer.biz: Jagex changes hands for the sixth time in ten years: https://www.pocketgamer.biz/jagex-sold-again/
-- Jagex: 2007 - Old School RuneScape... You Vote! (February 15, 2013): https://secure.runescape.com/m=news/a=427/2007---old-school-runescape-you-vote
 - GamesRadar+: With a new record 240,000 players online, Old School RuneScape is roughly 8x bigger than its sister MMO (August 4, 2025): https://www.gamesradar.com/games/mmo/with-a-new-record-240-000-players-online-old-school-runescape-is-roughly-8x-bigger-than-its-sister-mmo-and-would-be-the-fourth-biggest-game-on-all-of-steam-if-not-for-a-technicality/
-- PCGamesN: Old School RuneScape membership price increase, March 2026: https://www.pcgamesn.com/old-school-runescape/membership-price-increase-march-2026
+- Jagex: 2007 - Old School RuneScape... You Vote! (February 15, 2013): https://secure.runescape.com/m=news/a=427/2007---old-school-runescape-you-vote
+- Jagex: The Players Have Spoken! RuneScape Treasure Hunter Microtransactions to be Removed January 19th: https://www.jagex.com/news/the-players-have-spoken-runescape-treasure-hunter-microtransactions-to-be-removed-january-19th
+- PC Gamer: RuneScape's monthly membership now costs as much as a World of Warcraft subscription (March 2026): https://www.pcgamer.com/games/mmo/runescapes-monthly-membership-now-costs-as-much-as-a-world-of-warcraft-subscription-as-jagex-announces-its-second-price-hike-in-less-than-2-years/
 
 ---
 
