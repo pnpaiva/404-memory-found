@@ -6275,87 +6275,93 @@ Yes. Kmart bought Sears in 2005 and the two have shared an owner ever since, fir
 
 ---
 
-# Who Owns Atari Now? The Brand That Refuses to Die
+# Who Owns Atari Now? Wade Rosen and a 48.8% Stake
 
 URL: https://404memoryfound.com/posts/who-owns-atari-now.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-26
 Topics: Gaming, Business Blunders
 
-**Summary:** Atari is owned by Atari SA, a French company listed in Paris and led by Wade Rosen, whose holding company IRATA LLC held 39.96% of the shares in August 2026. Atari is still in business and reported about $65 million in revenue for the year to March 2026, its best in more than a decade. The name itself has been bought and sold five times since 1984, and once went for $5 million.
+**Summary:** Atari is owned by Atari SA, a listed company that moved from France to Luxembourg on July 6, 2026 and still trades on Euronext Growth Paris under the ticker ALATA. Its controlling shareholder is Wade Rosen, whose holding company IRATA LLC held 48.8% of the share capital after a share issue on September 17, 2026. Atari is still in business and reported 56.0 million euros of revenue for the year to March 2026, its highest in more than a decade.
 
 **Key facts:**
 - Owner today: Atari SA, listed on Euronext Growth Paris as ALATA
-- Controlling shareholder: Wade Rosen's IRATA LLC, 39.96% of capital (August 2026)
-- Status: Active and operationally profitable; about $65 million revenue for the year to March 2026
-- Cheapest the brand ever sold for: $5 million, to Hasbro Interactive, 1998
-- Current hardware: Atari 2600+ (2023) and Atari 7800+ (2024, $129.99)
+- Controlling shareholder: Wade Rosen's IRATA LLC, 48.8% of capital (September 17, 2026)
+- Status today: Active; revenue of 56.0 million euros for the year to March 2026, a decade high
+- Registered home: Luxembourg since July 6, 2026, moved from France
+- Price today: Atari 7800+ announced at $129.99 in August 2024
 
-## Who owns Atari in 2026?
+## Who is Wade Rosen, and how does he control Atari?
 
-Atari is owned by Atari SA, a French holding company that spent most of its life under a different name: Infogrames Entertainment. Its shares trade on Euronext Growth in Paris under the ticker ALATA and on the OTC Pink market in the United States as PONGF.
+Atari is owned by Atari SA, a listed company, and the shareholder with the most say in it is Wade Rosen, an American investor who joined the board as chairman in April 2020 and became chief executive in April 2021.
 
-The controlling shareholder is Wade Rosen, an American investor who became chairman of the board in April 2020 and chief executive in April 2021. His holding company, IRATA LLC, held 39.96% of the capital and 40.2% of the voting rights as of August 17, 2026. The remaining 60% or so is public float.
+Rosen holds his shares through a holding company called IRATA LLC. On September 17, 2026 Atari converted 12.6 million euros of loans from IRATA and other private lenders into equity, issuing 489,289 new shares at 24.00 euros each. After that conversion IRATA held 48.8% of the share capital and 49.1% of the voting rights.
 
-So nobody owns Atari outright. Rosen controls it the way a large minority holder controls a small listed company, and the Atari name is a corporate asset that has now changed hands five times.
+That is not outright ownership. It is close enough to control a company whose remaining shares sit in public float, and Rosen is also Atari's largest creditor: even after the conversion, loans from IRATA stand at roughly 51 million euros in principal.
+
+So the short answer to who owns Atari now is that one American investor holds just under half the stock, lends the company most of its money, and runs it day to day. No family, no publisher and no platform holder sits above him.
+
+## Is Atari still in business in 2026?
+
+Yes, and this is the healthiest Atari has looked in a long time. For the financial year that ended March 31, 2026, the group reported revenue of 56.0 million euros, roughly $65 million, up 66% and the highest in more than a decade. It was the third straight year of growth.
+
+Gross margin reached 32.5 million euros, or 73% of revenue. Current operating income came in at a positive 0.9 million euros, against a loss the year before.
+
+"This year marks another major growth year for Atari, despite a challenging industry," Wade Rosen said in the results statement of August 3, 2026.
+
+The picture below the operating line is messier. Once the Swedish publisher Thunderful is consolidated, the group posted a net loss of about $5.5 million for the year, with Thunderful alone losing $8.8 million at the operating level. Strip Thunderful out and Atari's own business made net income of $0.1 million. That is a thin profit, but it is a profit, and this is a company whose North American arm filed for Chapter 11 bankruptcy protection in 2013.
 
 ## How the Atari name changed hands five times
 
-Nolan Bushnell and Ted Dabney founded Atari in Sunnyvale, California on June 27, 1972. Warner Communications bought the company in 1976 for $28 million.
+Nolan Bushnell and Ted Dabney founded Atari in Sunnyvale, California on June 27, 1972. Warner Communications bought it in 1976 for about $28 million, paid in cash and debentures.
 
-After the video game crash of 1983, Warner broke Atari apart. In 1984 it handed the consumer division to Jack Tramiel, who had just walked out of Commodore (https://404memoryfound.com/posts/what-happened-to-commodore-computers.html), for $240 million in promissory notes and stock. Almost no cash changed hands. Tramiel renamed his half Atari Corporation and spent the next decade shipping computers, the Lynx handheld (https://404memoryfound.com/posts/what-happened-to-atari-lynx-handheld.html) and finally the Jaguar (https://404memoryfound.com/posts/what-happened-to-atari-jaguar-64-bit-console.html).
+After the video game crash of 1983, Warner broke the company apart. In 1984 it handed the consumer division to Jack Tramiel, who had just walked out of Commodore (https://404memoryfound.com/posts/what-happened-to-commodore-computers.html), for $240 million in promissory notes rather than cash. Tramiel renamed his half Atari Corporation and spent a decade shipping computers, the Lynx handheld (https://404memoryfound.com/posts/what-happened-to-atari-lynx-handheld.html) and finally the Jaguar (https://404memoryfound.com/posts/what-happened-to-atari-jaguar-64-bit-console.html).
 
-In 1996 Atari Corporation merged with JTS Inc., a hard drive manufacturer, which left one of the most famous names in gaming parked inside a disk drive company. JTS sold that name and its assets to Hasbro Interactive in 1998 for $5 million. Infogrames acquired Hasbro Interactive in 2001, took the brand with it, and in 2009 renamed the entire French parent company Atari SA. That is the company answering to the name today.
+In 1996 Atari Corporation merged with JTS Inc., a hard drive maker, which parked one of the best known names in gaming inside a disk drive company. JTS sold the name and the assets to Hasbro Interactive in 1998 for $5 million, the cheapest the brand has ever gone.
 
-## Is Atari still in business, and is it profitable?
+Infogrames Entertainment bought Hasbro Interactive in 2001, took the Atari name with it, and in 2009 renamed the whole French parent company Atari SA. That is the company answering to the name today, five owners later.
 
-Yes on both counts, and it took a bankruptcy to get there. Atari's North American subsidiaries filed for Chapter 11 protection in 2013 and emerged about a year later.
+## Is Atari still a French company?
 
-For the fiscal year that ended March 31, 2026, Atari reported revenue of roughly 56 million euros, about $65 million, its highest in more than a decade. Current operating income was 0.9 million euros, against a 0.8 million euro loss the year before. Operations threw off 11.0 million euros in cash.
+Not since the summer of 2026. Atari SA spent seventeen years as a French listed company, the direct descendant of Infogrames, and then it moved out.
 
-Those are small numbers next to any major publisher. They are also the first genuinely healthy ones Atari has posted since the Infogrames years, and they come from a company that spent most of the 2010s losing money on licensing deals and a crowdfunded console nobody bought.
+The move was a cross-border conversion rather than a sale: Atari SA became a Luxembourg company, effective July 6, 2026. Atari said the change was meant to match a group that had grown well past France, and it left the business and the listing alone. The shares still trade on Euronext Growth Paris under the ticker ALATA, with no new securities issued and no exchange of shares.
 
-## What Atari actually sells today
+The share count changed separately. Atari completed a reverse stock split on May 5, 2026, turning 200 old shares with a par value of 0.01 euros into one new share with a par value of 2.00 euros. Shareholders who voted against the Luxembourg move at the meeting of May 27, 2026 were offered 24.00 euros a share to sell out, and holders of about 0.4% of the capital took the offer.
 
-Two things, mostly: an old catalog and modern-retro hardware. Games revenue rose 67.7% to 46.1 million euros in the year to March 2026, driven by new digital and physical releases, platform partnerships and steady management of a library that reaches back past the crash of 1983 (https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html).
+## What Atari sells today, and what the hardware costs
 
-Hardware revenue grew 83% to 7.3 million euros, and that line rests on the Plus consoles. The Atari 2600+ arrived in 2023, a shrunken replica of the original machine with an HDMI output and a working cartridge slot. The Atari 7800+ followed in 2024 at $129.99, made with the German publisher Plaion, playing both 2600 and 7800 cartridges and bundled with a new game called Bentley Bear's Crystal Quest.
+Two things, mostly: an old catalog and modern-retro hardware. Games revenue rose 67.7% to 46.1 million euros in the year to March 2026, helped by new digital and physical releases, platform deals and steady work on a library that reaches back past the crash of 1983 (https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html).
 
-Where to find one today: both Plus consoles are current products rather than collectibles, so the cheapest route is a new unit at or below the $129.99 the 7800+ launched at, with used ones showing up on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html).com for less. Original consoles from the late 1970s and early 1980s are everywhere on eBay too, where condition and a working switch matter far more than which revision you get.
+Hardware revenue grew 83% to 7.3 million euros, and that line rests on the Plus consoles. The Atari 2600+ arrived in November 2023, a smaller replica of the original machine with an HDMI output and a working cartridge slot. The Atari 7800+ followed, announced with the German publisher Plaion in August 2024 at $129.99, and it reads both 2600 and 7800 cartridges. A PAC-MAN Edition and an Intellivision Sprint have since joined the line.
 
-## The buying spree that turned Atari into a retro company
+Where to find one today: the Plus consoles are current products rather than collectibles, so the $129.99 list price is the number to beat and there is no reason to pay a premium for a used one. The cartridges are the part worth hunting, and a specialist retro shop such as Stone Age Gamer (https://stoneagegamer.com/catalogsearch/result/?q=atari+2600) grades and tests what it sells, which a marketplace listing with one blurry photo does not.
 
-Rosen's Atari has spent the 2020s buying the people who preserve old games rather than the people who make new ones. Nightdive Studios, which rebuilds classics like System Shock and Quake (https://404memoryfound.com/posts/what-happened-to-quake-online-fps.html) for modern hardware, and Digital Eclipse, the studio behind Atari's anniversary compilations, are both Atari subsidiaries now.
+## Why Atari bought Intellivision, Nightdive and Crossy Road
 
-On May 23, 2024 Atari bought the Intellivision brand and the rights to more than 200 games from Intellivision Entertainment, which kept its Amico console business and licensed the games back. Rosen called it "a very rare opportunity to unite former competitors." A console rivalry that started in 1979 ended with one company owning both logos.
+Rosen's Atari has spent the 2020s buying the people who preserve old games rather than the people who chase new ones. Nightdive Studios, which rebuilds classics such as System Shock and Quake (https://404memoryfound.com/posts/what-happened-to-quake-online-fps.html) for modern hardware, Digital Eclipse, the studio behind Atari's anniversary compilations, and Implicit Conversions are all Atari subsidiaries now.
 
-The shopping did not stop there. Atari lifted its stake in the Swedish publisher Thunderful to 97%, and after the fiscal year closed it paid an initial $29.3 million for Hipster Whale, the Australian studio behind Crossy Road. That one is a working mobile developer, not a museum piece, which suggests where Rosen wants to take the money the catalog is finally producing.
+On May 23, 2024 Atari bought the Intellivision brand and the rights to more than 200 games. "This was a very rare opportunity to unite former competitors and bring together fans of Atari, Intellivision and the golden age of gaming," Rosen said in the announcement. A console rivalry that started in 1979 ended with one company holding both logos.
 
-## What happened to the Atari hotels?
-
-On January 27, 2020 Atari announced a licensing deal with GSD Group to build Atari Hotels, with the first set to break ground in Phoenix in the middle of that year. Atari was not paying to build them, it was renting out the name to a developer who would.
-
-Nothing was built. The groundbreaking slipped, the pandemic arrived, and more than six years later there is still no Atari hotel open anywhere in the United States. A Phoenix project has since been revived on paper with a different development team and an opening date pushed years past the one originally promised.
-
-The hotels are worth remembering because they show what the brand had been reduced to: a logo rented to whoever wanted instant 1980s shorthand. Under Rosen the company has pulled back toward products it controls end to end. That is why the 2600+ exists, why Atari owns the studios that restore its own games, and why the hotel still does not exist.
+The buying did not stop there. Atari lifted its stake in Thunderful to 97% and took the publisher off the Nasdaq First North market in February 2026, and after the fiscal year closed it paid an initial $29.3 million for Hipster Whale, the Australian studio behind Crossy Road. That last one is a working mobile developer, not a museum piece, which says something about where Rosen wants the catalog money to go.
 
 ## Frequently Asked Questions
 
-### Is Atari still making consoles in 2026?
-
-Yes, in a narrow sense. The Atari 2600+ and 7800+ are cartridge-compatible reissues of 1970s and 1980s hardware, not new platforms, and they helped hardware revenue reach 7.3 million euros in the year to March 2026, up 83%. Atari is not building anything meant to compete with PlayStation or Xbox.
-
 ### Who is the CEO of Atari?
 
-Wade Rosen. He joined the board as chairman in April 2020 and took over as chief executive in April 2021. His holding company IRATA LLC held 39.96% of Atari SA's capital as of August 17, 2026, which makes him both the boss and the largest shareholder.
+Wade Rosen has been chief executive of Atari SA since April 2021 and chairman of its board since April 2020. His holding company, IRATA LLC, held 48.8% of Atari's share capital and 49.1% of the voting rights after the capital increase of September 17, 2026, which makes him the boss and the largest shareholder at the same time.
 
-### Is the Atari 2600+ worth buying?
+### Is Atari still making consoles in 2026?
 
-It depends on whether you own cartridges. The 2600+ and the 7800+ read original 2600 and 7800 games through a real slot, and that slot is the entire reason to buy one; the 7800+ launched at $129.99. If you have no cartridges sitting in a closet, a digital compilation gives you far more games for less money.
+Atari sells cartridge-compatible reissues rather than new platforms. The Atari 2600+ launched in November 2023 and the Atari 7800+ was announced with Plaion in August 2024 at $129.99, and that hardware line lifted Atari's hardware revenue 83% to 7.3 million euros in the year to March 2026. Atari is not building anything meant to compete with PlayStation or Xbox.
+
+### How much was the Atari brand sold for?
+
+The lowest price the Atari name ever fetched was $5 million, paid by Hasbro Interactive in 1998 when the hard drive maker JTS Inc. sold off the assets of Atari Corporation. Warner Communications had paid about $28 million for the original Atari in 1976, and Jack Tramiel took the consumer division off Warner's hands in 1984 for $240 million in promissory notes.
 
 **Sources:**
-- Atari SA investor relations: governance and shareholding: https://atari-investisseurs.fr/en/about-governance/
-- Reuters: Once-bankrupt Atari returns to profit with decade-high revenue (August 3, 2026): https://kfgo.com/2026/08/03/once-bankrupt-atari-returns-to-profit-with-decade-high-revenue/
+- Atari: Fiscal Year 2025-26 Results (August 3, 2026): https://www.actusnews.com/en/atari/pr/2026/08/03/atari-fiscal-year-2025-26-results
+- Atari finalizes refinancing and converts EUR 12.6 million of loans into equity (September 17, 2026): https://www.actusnews.com/en/atari/pr/2026/09/17/atari-finalizes-refinancing-and-converts-eur-12_6-million-of-loans-into-equity
 - Atari press release: Atari Acquires Intellivision Brand (May 23, 2024): https://www.globenewswire.com/news-release/2024/05/23/2887219/0/en/Atari-Acquires-Intellivision-Brand.html
 - Atari and Plaion announce the Atari 7800+ game console (August 20, 2024): https://seekingalpha.com/pr/19823637-get-your-pixel-fix-like-it-s-1986-atari-and-plaion-announce-the-atari-7800-plus-game-console
 - Wikipedia: Atari (ownership history and corporate timeline): https://en.wikipedia.org/wiki/Atari
