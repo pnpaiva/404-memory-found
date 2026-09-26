@@ -1282,7 +1282,7 @@
   {
    "name": "Y2K",
    "started": "",
-   "status2026": "Fixed, though windowing patches and the 2038 Unix rollover are still out there",
+   "status2026": "Fixed. Two-digit years are gone from mainstream systems, but date-overflow bugs still hit production software",
    "owner2026": "",
    "source": "https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html"
   },
