@@ -7110,80 +7110,94 @@ The Beanie Babies craze peaked in 1998, when Ty Inc. sales reached $1.4 billion.
 
 ---
 
-# Why the NSA Banned Furby: The 1998 Toy Craze Explained
+# Are Furbies Still Made? The 1999 NSA Ban Explained
 
 URL: https://404memoryfound.com/posts/furby-history-nsa-ban.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-26
 Topics: Hardware, Internet Culture
 
-**Summary:** Furby was a $35 animatronic toy from Tiger Electronics that launched in October 1998, sold about 1.8 million units before Christmas, and reached 40 million sales within three years. In January 1999 the National Security Agency banned it from its Maryland headquarters over fears that its chip could record conversations. It could not, but the ban made Furby a legend.
+**Summary:** Furby is still in production in 2026. Hasbro put the current model, Furby Vibes, in US stores on July 15, 2026 at $44.99, 28 years after Tiger Electronics launched the original at $35 on October 2, 1998. The 1998 Furby sold about 1.8 million units before Christmas and was barred from the National Security Agency's Fort Meade headquarters by a notice that wrongly described it as a recording device.
 
 **Key facts:**
-- Launched: October 1998, Tiger Electronics (owned by Hasbro since early 1998)
-- Inventors: Dave Hampton and Caleb Chung
-- Price then / now: $35 in 1998, roughly $68 in 2026 dollars; resold for $100 and more that Christmas
-- Sales: 1.8 million in 1998, 14 million in 1999, more than 40 million in three years
-- Status today: Relaunched by Hasbro in 2012, 2016 and 2023; 1998 originals trade on eBay
+- Launched: October 2, 1998, Tiger Electronics, $35
+- Owner today: Hasbro
+- Status today: In production; Furby Vibes shipped July 15, 2026
+- Price today: $44.99 new, or $20 to $100 for a loose 1998 original
+- Sales: About 1.8 million in 1998, 14 million in 1999, more than 40 million in three years
 
-## What was Furby, exactly?
+## What was inside the original 1998 Furby?
 
-Furby was a hamster-sized robot covered in fur that blinked, wiggled its ears, spoke a made-up language called Furbish, and appeared to learn English the longer you played with it. Tiger Electronics showed it at the American International Toy Fair in February 1998 and put it in stores that October at a suggested price of $35.
+Furby was a hamster-sized robot covered in synthetic fur that blinked, wiggled its ears, spoke a made-up language called Furbish, and appeared to pick up English the longer it stayed switched on. Tiger Electronics showed prototypes at the American International Toy Fair in February 1998 and put the toy in US stores on October 2, 1998 at a suggested price of $35.
 
-The idea came from Dave Hampton, an electronics engineer, and Caleb Chung, a toy designer and former street performer. Hampton had watched the Tamagotchi (https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html) craze of 1997 and wanted a pet you could actually touch. The pair built the prototype in about nine months, and Hasbro, which had bought Tiger Electronics earlier in 1998, put its distribution muscle behind it.
+The design came from Dave Hampton, an electronics engineer, and Caleb Chung, a toy designer and former street performer. Hampton had watched the Tamagotchi craze (https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html) at a toy fair and wanted a virtual pet a child could actually hold. The pair spent roughly nine months on the concept and another nine building a working prototype.
 
-Inside the fur was a single motor driving cams for the eyes, ears, mouth and body, a small microcontroller with about 80 KB of program memory, a light sensor, a tilt sensor, touch switches on the back and belly, a microphone that detected loud sounds, and an infrared port so two Furbys could "talk" to each other.
+Under the fur sat a single reversible motor driving cams for the eyes, ears, mouth and body, plus a light sensor, a tilt sensor, touch switches, a microphone and an infrared port so two units could signal each other. The brain was a 6502-style Sunplus microcontroller holding 80 KB of ROM and 128 bytes of RAM, as IEEE Spectrum set out in its 2019 engineering history of the toy. The chip family was the same one behind the Apple II and the Commodore (https://404memoryfound.com/posts/what-happened-to-commodore-computers.html) 64.
 
-## Why did every store sell out in 1998?
+## Why every store sold out in the 1998 holiday season
 
-Tiger built the launch around scarcity, on purpose or not. Furby arrived in stores in October 1998 with limited stock, television news ran segments on parents queuing before dawn, and by December the toy had become the year's hard-to-find gift, the way Cabbage Patch Kids had been in 1983 and Tickle Me Elmo in 1996.
+Furby reached US shelves on October 2, 1998, about three months before Christmas, with limited stock. Television news ran segments on parents queuing before dawn, and by December it was the year's hard-to-find gift, in the way Cabbage Patch Kids had been in 1983 and Tickle Me Elmo in 1996.
 
-About 1.8 million Furbys sold in the last three months of 1998. On the secondary market the $35 toy routinely changed hands for $100, and newspaper reports from that December cited asking prices of $300 for rare colours. The following year Tiger shipped 14 million, and by the end of 2000 total sales had passed 40 million units. For a toy whose only real trick was talking, that put it among the best-selling electronic toys of the decade.
+Tiger Electronics sold roughly 1.8 million Furbys in those last months of 1998. On the secondary market the $35 toy routinely changed hands above $100, and scarce fur colours were advertised for several hundred dollars. Tiger shipped 14 million more in 1999, and sales passed 40 million within three years of launch.
 
-Adjusted for inflation, the $35 sticker is about $68 today. That makes Furby cheaper in real terms than most of the 90s gadgets people remember as expensive (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html), which is part of why parents bought three or four of them.
+The sticker price is the part that surprises people looking back. At $35 the original Furby was one of the cheaper electronics of its decade, far below a Nintendo 64 or a portable CD player, which is part of why households bought two or three of them. Set against the launch prices of other 90s gadgets (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html), it sits near the bottom of the table.
 
-## Did Furby actually learn English?
+Tiger Electronics was no longer independent by then. Hasbro had bought the company earlier in 1998, so the maker of the decade's most wanted toy spent its biggest Christmas inside a much larger corporation.
 
-No. Every Furby left the factory with the same vocabulary: roughly 200 words, about half of them Furbish ("kah" for me, "may-may" for love, "u-nye" for you) and half English. The English words were unlocked gradually by an internal counter that advanced with play time, so a Furby that had been switched on for a few weeks used more English than one fresh from the box. Owners read this as learning, and Tiger's marketing let them.
+## Did Furby really learn English as you played?
 
-The infrared port added to the illusion. Two Furbys placed face to face exchanged short signals and appeared to hold a conversation, and a "sick" Furby could catch a sneeze from another. None of it involved recording or processing speech. The microphone only measured volume, so the toy could react to a clap or a shout.
+No. Every unit left the factory with the same fixed vocabulary, and nothing a child said was ever added to it. A Furby switched on for several weeks used more English than one fresh from the box because an internal counter advanced through preset language stages, swapping Furbish phrases for English ones on a schedule burned into ROM.
 
-## Why did the NSA ban Furby?
+The Furbish dictionary that shipped in the box ran to 42 words, among them kah for me, may-may for love and u-nye for you. Hampton assembled them from fragments of languages he had picked up while travelling, then fitted the lot onto an 8-bit chip. IEEE Spectrum's account of the design makes the point plainly: the inventors built a toy meant to look like it was learning, and the learning was scripted.
 
-In January 1999 an internal memo circulated at the National Security Agency's headquarters at Fort Meade, Maryland, warning staff not to bring Furbys into the building. The memo, reported by the BBC and American newspapers on 13 January 1999, described the toy as having an embedded chip that could record and repeat what it heard, and asked anyone who found one on the premises to contact the security office.
+The infrared port reinforced the impression. Two Furbys placed face to face traded short signals and appeared to hold a conversation, and one could pass a sneeze to another. None of that involved speech. The microphone measured loudness only, so the toy reacted to a clap or a shout without any notion of what had been said.
 
-The fear was that a Furby carried home from a classified area might replay fragments of what it had overheard. Tiger Electronics responded within days. Roger Shiffman, the company's president, said Furby had no recording capability at all: it could not store audio, and everything it said was pre-programmed. The NSA never withdrew the memo, and the story ran for weeks, which was the best advertising the toy ever got.
+## What the NSA Furby Alert actually said
 
-Whether the memo reflected a real assessment or an over-cautious security officer was never confirmed. What is certain is that a toy with less processing power than a graphing calculator became, for a month, the most famous piece of "surveillance equipment" in America.
+In early December 1998 the National Security Agency posted a notice on its internal network at Fort Meade, Maryland, flagged as a Furby alert. The Washington Post reported it on January 13, 1999 under the headline "A Toy Story of Hairy Espionage", and wire pickups turned an internal staff notice into an international story inside a week.
 
-## What happened to Furby after the craze?
+The notice did not accuse the toy of espionage. It restated a standing rule on recording equipment and then named Furby as an example: "This includes toys, such as Furbys, with built-in recorders that repeat the audio with synthesized sound to mimic the original signal." Staff who found one on the premises were told to report it.
 
-Demand fell as fast as it rose. By 2000 stores were discounting the original, Tiger released Furby Babies and licensed variants, and by 2001 the line was quietly wound down. Hasbro brought it back in 2005 as the larger Emoto-Tronic Furby with better voice recognition, but sales were modest.
+The premise was wrong. Roger Shiffman, president of Tiger Electronics, answered within days that "Furby has absolutely no ability to do any recording whatsoever", and said the agency's misgivings rested on "funny yet incorrect rumors". No Furby could store audio, and everything it said was fixed in read-only memory at the factory.
 
-The 2012 relaunch was the one that stuck. Hasbro replaced the plastic eyes with small LCD screens, added a companion app for phones and tablets, and sold it at $54 during another strong Christmas. Furby Boom followed in 2013 and Furby Connect, with Bluetooth, in 2016. In 2023, for the 25th anniversary, Hasbro released a new Furby at $69.99 with five voice-activated modes and, this time, no app. It is still on sale.
+The NSA never withdrew the notice. Its own file on the episode stayed unpublished for 25 years, until a Freedom of Information Act request produced more than 60 pages in January 2024, including the original message thread and staff argument over whether a toy with 80 KB of ROM was a threat at all.
+
+## Who owns Furby now, and what does a new one cost?
+
+Hasbro owns Furby and still sells it. The line has been revived repeatedly: a larger Emoto-Tronic Furby in 2005, a version with LCD eyes and a companion app in 2012, Furby Boom in 2013 and the Bluetooth-equipped Furby Connect in 2016.
+
+The 25th-anniversary model went on sale on July 15, 2023 at $69.99, with light-up ears and, for the first time in a decade, no phone app required to use it.
+
+The current model is Furby Vibes, announced at the American International Toy Fair in February 2026 and sold at US retailers from July 15, 2026 at $44.99. It ships with swappable interactive glasses that select one of three modes, Star Diva, Chill Spa and Punk Rocker, each carrying its own phrases, music and games. Hasbro's Toy Fair announcement frames the glasses as unlocking distinct personalities rather than adding any new sensing, which keeps the 1998 trick intact: the behaviour is authored, not learned.
+
+So the answer to the question people type most often is yes. Furby is in production in 2026, a new one costs less than the 2023 model did, and Hasbro has kept the brand selling for 28 years.
 
 ## Where to find an original Furby today
 
-The 1998 and 1999 Furbys are cheap and common. Working examples typically list on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html) for $20 to $80 depending on colour and condition, with boxed or unusual editions asking more. Buyers should ask whether the motor still runs through a full cycle: the cam mechanism is the first thing to fail, and a Furby that only blinks is a Furby that needs surgery. The batteries are four AA cells in the base, so nothing exotic is required to wake one up.
+The chains that stacked Furbys by the register are gone too, KB Toys (https://404memoryfound.com/posts/kb-toys-stores-left.html) among them, so second-hand is the only market left. Original 1998 and 1999 Furbys are common rather than rare. Collector price guides published in 2025 and 2026 put loose working examples in the ordinary fur colours between $20 and $100, with boxed units in clean condition asking several hundred dollars and rare limited editions going higher still.
+
+The question to put to a seller is whether the motor completes a full cycle. One motor drives every moving part through a cam gearbox, and that gearbox is the first thing to fail, so a Furby that only blinks needs opening up. Vintage Furbys, spare boxes and tags turn up steadily on Etsy (https://www.etsy.com/search?q=1998+furby).
 
 ## Frequently Asked Questions
 
-### Could Furby record conversations?
+### Why were Furbies banned?
 
-No. The original Furby had a microphone that only measured loudness, so it could react to noise, but it had no memory for audio and no way to play anything back. Everything it said was stored in its read-only program memory at the factory.
+Furby was banned from the National Security Agency's Fort Meade headquarters by a notice posted in December 1998 and reported on January 13, 1999, because the agency believed the toy held a recorder that could repeat overheard conversation. Roger Shiffman, president of Tiger Electronics, replied that "The NSA did not do their homework. Furby is not a spy." The ban covered NSA premises only, and Furby was never banned from sale.
 
-### How much was a Furby in 1998?
+### Are Furbies still being made in 2026?
 
-The suggested retail price was $35, roughly $68 in 2026 money. During the shortage in December 1998, resellers regularly asked $100, and some rare colours were advertised at $300.
+Yes. Hasbro still makes Furby, and the current model, Furby Vibes, went on sale at US retailers on July 15, 2026 at $44.99. It follows the 25th-anniversary Furby of July 2023, which listed at $69.99, and earlier revivals in 2005, 2012, 2013 and 2016.
 
-### Is Furby still being made?
+### How much is an original 1998 Furby worth?
 
-Yes. Hasbro relaunched Furby in 2023 for its 25th anniversary at $69.99, following earlier revivals in 2005, 2012, 2013 and 2016. Original 1998 units are no longer produced but are easy to find second-hand.
+An original 1998 Furby cost $35 new from Tiger Electronics. Collector guides published in 2025 and 2026 put loose working examples in common colours between $20 and $100 today, while boxed units in good condition ask several hundred dollars and rare limited editions sell for more.
 
 **Sources:**
-- NSA: a Furby-free zone (BBC News, 13 January 1999): http://news.bbc.co.uk/2/hi/americas/254094.stm
-- Furby brand page (Hasbro): https://www.hasbro.com/en-us/brands/furby
-- Furby (Wikipedia): https://en.wikipedia.org/wiki/Furby
+- A Toy Story of Hairy Espionage (The Washington Post, January 13, 1999): https://www.washingtonpost.com/archive/politics/1999/01/13/a-toy-story-of-hairy-espionage/edb69b8a-1b41-47f8-8166-b8839cd637f3/
+- Coded for Cuteness: How the Furby Conquered Hearts and Minds (IEEE Spectrum, 2019): https://spectrum.ieee.org/furby-toy
+- Hasbro at 2026 Toy Fair: new products including Furby Vibes (Hasbro newsroom, February 2026): https://newsroom.hasbro.com/news-releases/news-release-details/hasbro-inspiring-lifetime-play-2026-toy-fairr-premier
+- Hasbro Gets Funky with New Furby Release with Furby Vibes (Bleeding Cool, 2026): https://bleedingcool.com/collectibles/hasbro-gets-funky-with-new-furby-release-with-furby-vibes/
+- 13 Rarest Furbies and What They Cost (90s Toys collector price guide): https://www.90stoys.com/electronic-toys/rarest-furbies/
 
 ---
 
