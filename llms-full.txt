@@ -6008,86 +6008,84 @@ Yes. Kmart.com is still operating and ships to all 50 states plus APO and FPO ad
 
 ---
 
-# Is CompUSA Still Around? What Happened to the Chain
+# Is CompUSA Still Around in 2026? Zero Stores Left
 
 URL: https://404memoryfound.com/posts/is-compusa-still-around.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-26
 Topics: Hardware, Business Blunders
 
-**Summary:** CompUSA is not still around, as a store or as a website. The Dallas chain sold its last 103 stores to liquidator Gordon Brothers in December 2007, and Systemax folded the brand into TigerDirect in the fourth quarter of 2012. In 2026 the CompUSA trademarks belong to Source Brand Group, LLC and compusa.com loads an error page.
+**Summary:** CompUSA is not still around. The Dallas chain was down to 103 stores when it was sold to a liquidator in December 2007, and the name stopped being a store at the end of 2012, when Systemax folded CompUSA into TigerDirect and wrote the brand off its books. In 2026 CompUSA is a dormant name with no stores, no retailer behind it, and one failed attempt to revive the website as a deal-referral site in 2020.
 
 **Key facts:**
 - Launched: 1984 as Soft Warehouse, Inc. in Dallas; renamed CompUSA in March 1991
 - Peak scale: 211 superstores in 42 states, $6.32 billion in net sales, fiscal 1999
 - Stores left: None. The last 103 stores were sold to a liquidator in December 2007
-- Owner today: Source Brand Group, LLC holds the live COMPUSA.COM trademark
-- What replaced it: TigerDirect, which absorbed the brand in the fourth quarter of 2012
+- Status today: Dormant brand. No CompUSA store since 2008, no CompUSA retailer since 2012
+- What replaced it: TigerDirect, which absorbed the CompUSA brand in the fourth quarter of 2012
 
-## Is CompUSA still around in 2026?
+## Does CompUSA still exist in 2026?
 
-No. There is no CompUSA store anywhere in the United States, and there has not been one since 2008. The chain's last 103 locations were sold in December 2007 to Specialty Equity LLC, an affiliate of the Boston restructuring firm Gordon Brothers Group, which ran store-closing sales through the holidays and emptied the buildings after.
+Not as a store and not as a company. There is no CompUSA location anywhere in the United States, and there has not been one since 2008. The chain was down to 103 stores by December 2007, when it was sold to Specialty Equity LLC, an affiliate of the Boston restructuring firm Gordon Brothers Group, and those stores ran closing sales through the holidays before emptying out.
 
-The name outlived the stores by five years. Systemax, the parent company of TigerDirect, bought the CompUSA brand and website in January 2008 and put the logo back on retail stores and an online shop. That ended in the fourth quarter of 2012, when Systemax folded its United States consumer business into the TigerDirect name and wrote the CompUSA brand off its books.
+The name lasted longer than the buildings. Systemax, the parent company of TigerDirect, bought CompUSA's brand and website in early 2008 and put the logo back over a small group of stores and an online shop. That ended in the fourth quarter of 2012, when Systemax consolidated its United States consumer business under TigerDirect and wrote the CompUSA brand off its books.
 
-Type compusa.com into a browser in 2026 and you do not reach a store. The domain resolves to a hosting error page. The CompUSA trademarks, on the other hand, are still live at the United States Patent and Trademark Office, registered to a company that does not sell computers.
+Since then CompUSA has been a name without a business. The last attempt to use it, in 2020, was not a retailer at all, and it did not sell a single computer.
 
-## How big did CompUSA actually get?
+## How big did CompUSA get before it shrank?
 
-Bigger than most people remember. The business started in 1984 as Soft Warehouse, Inc., was incorporated in Delaware in 1988, and operated under the Soft Warehouse name until March 1991. After that it was CompUSA, run out of offices on North Dallas Parkway in Dallas, with common stock on the New York Stock Exchange under the ticker CPU.
+Bigger than most people remember. The business opened in 1984 as Soft Warehouse, Inc., traded under that name until March 1991, and then ran as CompUSA out of Dallas, with its common stock on the New York Stock Exchange under the ticker CPU.
 
-By the close of fiscal 1999 on June 26 of that year, CompUSA ran 211 computer superstores across 42 states. Net sales for the year were $6.32 billion, up 19.6 percent from $5.29 billion the year before. That is the high-water mark in the company's own SEC filings, and it is why the chain shows up in so many first-PC stories: for a stretch in the late 1990s there was one within driving distance of most American metro areas.
+At the close of fiscal 1999 on June 26 of that year, CompUSA operated 211 computer superstores averaging about 26,000 square feet, across 83 metropolitan areas in 42 states. Net sales for the year were $6.32 billion, up 19.6 percent from $5.29 billion the year before. That is the high-water mark in the company's own filings with the Securities and Exchange Commission, and it is why the chain turns up in so many first-PC stories: for a stretch in the late 1990s there was one within driving distance of most American metro areas.
 
-Some of that reach was bought rather than built. On August 31, 1998, CompUSA acquired Computer City from Tandy Corporation for roughly $175 million, taking on 96 stores in the United States. It closed 55 of them, reopened 37 as CompUSA superstores by fiscal year end, and sold seven Canadian locations to Future Shop for about $7 million. This was the same period in which Gateway (https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html) was opening its own storefronts and Best Buy was scaling nationally. Selling personal computers in a warehouse still looked like a growth industry.
+Some of that reach was bought rather than built. On August 31, 1998, CompUSA completed its purchase of Computer City from Tandy Corporation, the company behind RadioShack (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html), then closed most of the stores it acquired and converted the rest to CompUSA superstores. Selling personal computers out of a warehouse still looked like a growth business.
 
-## What did Carlos Slim do with CompUSA?
+## Who owned CompUSA when it collapsed?
 
-He bought it, then spent years paying for it. The Mexican financier Carlos Slim Helu took his first stake in CompUSA in 1999 and took the whole company private the next year in an $800 million buyout, which is why the detailed public filings stop after fiscal 1999.
+Carlos Slim did. On January 24, 2000, the Mexican financier's Grupo Sanborns announced a definitive agreement to buy every CompUSA share it did not already hold for $10.10 in cash, having controlled roughly 14.8 percent beforehand. The tender offer closed on February 29, 2000, and Grupo Sanborns announced the next day that about 69.5 million shares had been tendered, leaving its acquisition vehicle with roughly 89.9 percent of the company. Microsoft, SBC Communications and Telefonos de Mexico came in as minority investors.
 
-Ownership was never the problem. Margin was. PC prices fell year after year, and the profit in consumer electronics moved toward flat-panel televisions, where Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) and Best Buy were already cutting each other's prices. CompUSA cycled through several chief executives and several turnaround plans, including a late attempt to aim the stores at gadget buyers and small-business customers rather than at everyone.
+Ownership was never the problem. Margin was. PC prices fell year after year, and the profit in consumer electronics moved toward flat-panel televisions, where Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) and Best Buy were already undercutting each other. CompUSA cycled through chief executives and turnaround plans, closed stores through 2007, and still lost money on the ones that were left. By December of that year the owner had stopped funding it.
 
-In the spring of 2007 the company closed more than half its stores and took a $440 million cash infusion to restructure around the ones that were left. That bought roughly nine months. By December the owner had stopped funding it.
+## Why did CompUSA close its stores in December 2007?
 
-## Why did CompUSA shut down in December 2007?
+Because a liquidator bought it, not a retailer. On December 7, 2007, CompUSA was sold to Specialty Equity LLC, the Gordon Brothers affiliate, with 103 stores still trading. Bill Weinstein, the Gordon Brothers principal who took over as CompUSA's interim president, said "an orderly and expedited wind-down and asset sale process is the best option for CompUSA and its creditors at this juncture." Chief executive Roman Ross stayed on as an adviser.
 
-Because the smaller CompUSA still lost money. With 103 stores left after the spring cuts, the company was sold in December 2007 to Specialty Equity LLC, the Gordon Brothers affiliate, and those stores went straight into holiday liquidation sales rather than a Christmas selling season.
+That is what makes the ending different from the chains CompUSA competed against. There was no drawn-out Chapter 11, no reorganization plan and no fight over the whole company. Gordon Brothers treated CompUSA as a parts bin, shopping stores in strong retail markets, the technical-services business and the website as separate lots, and left it to each buyer to decide whether the name came along. The warehouse-sized boxes, the same format Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-frys-electronics.html) built its business on, went dark over the following weeks.
 
-Gordon Brothers is a restructuring and liquidation firm, not a retailer, and it treated CompUSA as a parts bin. It shopped individual stores in strong retail markets, the CompUSA TechPro technical-services business, and the CompUSA.com online operation as separate lots, and left it to whoever bought each piece to decide whether the CompUSA name came with it.
+## What did Systemax do with the CompUSA brand?
 
-That is what makes the ending different from the chains it competed against. There was no drawn-out Chapter 11, no reorganization plan, no fight over the whole company. A liquidator bought it in one December transaction, and the warehouse-sized stores, the same format Fry's Electronics (https://404memoryfound.com/posts/what-happened-to-frys-electronics.html) built its business on, went dark over the following weeks.
+It ran the name beside its own for four years. Systemax, which already owned TigerDirect, bought CompUSA's e-commerce business and intellectual property in January 2008 and took over a small group of store leases in the months after, reopening them under the CompUSA sign. It later picked up the Circuit City name the same way, so one company was selling computers under three consumer brands at once.
 
-## Who owns the CompUSA name in 2026?
+Then it decided one was enough. In the fourth quarter of 2012 Systemax concluded that its North American consumer business would work better consolidated under TigerDirect, its largest brand, and took an impairment charge of about $35.3 million against the trademarks, domain names and goodwill of CompUSA and Circuit City. Both names were folded into TigerDirect in late December 2012.
 
-Systemax moved first. It bought CompUSA's e-commerce business for $18.9 million in cash on January 10, 2008, then took sixteen retail store leases and their fixtures for about $11.7 million during February and March. Most of what it paid for was the name itself: $17.0 million of the purchase was booked as trademarks and trade names and $8.0 million as domain names.
+That charge is the closest thing CompUSA has to a death certificate. It put a number on what the name was worth to the last company that genuinely tried to sell computers with it, and that number went to zero on the books at the end of 2012.
 
-The revival was real for a while. The deal gave Systemax 29 retail storefronts across North America and Puerto Rico, run next to its TigerDirect business, and CompUSA-branded operations produced $63.0 million of sales in the third quarter of 2008 and $139.4 million over the first nine months of that year.
+## Has anyone tried to bring CompUSA back?
 
-Then Systemax decided one consumer brand was enough. In the fourth quarter of 2012 it concluded that its North American consumer business would work better consolidated under TigerDirect, and wrote off the intangible assets and goodwill of CompUSA and Circuit City together, about $35.3 million. Systemax finished 2012 with 41 retail stores, 17 of them in Florida and 6 in Texas.
+Once, and not as a shop. In August 2020 DealCentral, LLC announced that a rebuilt CompUSA.com had entered beta, and the site sold nothing: it graded technology deals and sent shoppers elsewhere to buy them, with price alerts and stock alerts instead of shelves. "We want to be the first place that shoppers check for all of their tech needs," founder Yishai Grossman said in the announcement. That is the last commercial use the name has had.
 
-The paperwork survived all of it. The COMPUSA.COM trademark, registration number 2582709, filed February 12, 1999 and registered June 18, 2002, is listed at the USPTO as live and was renewed in January 2023. The owner of record is Source Brand Group, LLC of New York. Somebody is still paying to keep the name, and nobody is selling computers with it.
-
-If you want something with the logo on it, the only supply is retail debris. Employee polo shirts with the embroidered CompUSA logo, 1990s store charge cards, plastic shelf talkers and the occasional piece of store signage turn up on Etsy (https://www.etsy.com/search?q=compusa+vintage) and at estate sales, usually from former staff or from people who cleared out a closing location. Prices move with condition and sentiment, and none of it is scarce enough to treat as an investment.
+Where to find CompUSA memorabilia today. The only supply is retail debris, most of it from people who worked in the stores or who cleared out a location as it closed: embroidered employee polo shirts, 1990s store charge cards, plastic shelf talkers and the occasional piece of signage. Searches for CompUSA items on Etsy (https://www.etsy.com/search?q=compusa+vintage) turn up a handful at a time, priced on condition and sentiment rather than on scarcity, and none of it is rare enough to treat as an investment.
 
 ## Frequently Asked Questions
 
 ### When did CompUSA close?
 
-CompUSA sold its remaining 103 stores in December 2007 to Specialty Equity LLC, an affiliate of Gordon Brothers Group, and those stores ran closing sales through the holidays before shutting in 2008. More than half the chain had already closed in the spring of 2007, alongside a $440 million cash infusion that failed to turn the business around.
+CompUSA sold its remaining 103 stores in December 2007 to Specialty Equity LLC, an affiliate of Gordon Brothers Group, and those stores ran closing sales through the holidays before shutting in 2008. A smaller CompUSA-branded chain run by Systemax lasted until late December 2012, when it was folded into TigerDirect.
+
+### Who owns CompUSA now?
+
+No operating retailer owns CompUSA. Systemax retired the brand in the fourth quarter of 2012 and wrote it off, and the most recent holder to do anything with the name was DealCentral, LLC, which relaunched CompUSA.com as a deal-referral site in 2020 rather than as a store.
 
 ### Did TigerDirect buy CompUSA?
 
-Systemax, which owned TigerDirect, bought CompUSA's e-commerce business for $18.9 million in January 2008 and sixteen store leases for about $11.7 million over the next two months. It ran CompUSA as a separate brand until the fourth quarter of 2012, when it consolidated its United States consumer operations under TigerDirect and wrote off roughly $35.3 million of CompUSA and Circuit City intangibles.
-
-### Does compusa.com still work?
-
-Not as a store. The address loads a hosting error page rather than a shop, and no CompUSA retail site has operated there for years. The COMPUSA.COM trademark itself is still registered and active, held by Source Brand Group, LLC and renewed in January 2023, so the name is owned rather than abandoned.
+Systemax, which owned TigerDirect, bought CompUSA's e-commerce business and brand in January 2008 and reopened a small group of CompUSA stores. It ran CompUSA as a separate brand until the fourth quarter of 2012, when it consolidated its United States consumer operations under TigerDirect and took an impairment charge of roughly $35.3 million against the CompUSA and Circuit City intangibles.
 
 **Sources:**
 - CompUSA Inc., Form 10-K for fiscal 1999, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/0000880323/000104746999035798/0001047469-99-035798.txt
-- Associated Press via NBC News, "CompUSA is sold; will close all stores," December 2007: https://www.nbcnews.com/id/wbna22153236
-- Systemax Inc., Form 10-Q for the quarter ended September 30, 2008, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/0000945114/000110465908068665/a08-25647_110q.htm
-- Systemax Inc., Form 10-K for fiscal 2012, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/945114/000114036113012535/form10k.htm
-- USPTO Trademark Status and Document Retrieval, COMPUSA.COM, Reg. No. 2582709: https://tsdr.uspto.gov/statusview/sn75639885
+- CompUSA Inc., Schedule TO-C announcing the Grupo Sanborns agreement, January 2000, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/0000880323/000095012300000435/0000950123-00-000435.txt
+- Channel Insider, "CompUSA to Close All 103 Stores," December 2007: https://www.channelinsider.com/news-and-trends/compusa-to-close-all-103-stores/
+- Systemax Inc., Form 10-K for fiscal 2012, U.S. Securities and Exchange Commission: https://www.sec.gov/Archives/edgar/data/0000945114/000114036113012535/form10k.htm
+- PR Newswire, "CompUSA is Back! But Don't Come Looking for Compaq Computers, 3DFX Graphics Cards, or Blank CDs," August 2020: https://www.prnewswire.com/news-releases/compusa-is-back-but-dont-come-looking-for-compaq-computers-3dfx-graphics-cards-or-blank-cds-301117004.html
 
 ---
 
