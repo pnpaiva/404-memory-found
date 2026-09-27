@@ -6479,86 +6479,84 @@ Yes. Babies R Us was part of the same brand portfolio WHP Global took control of
 
 URL: https://404memoryfound.com/posts/is-palm-still-a-company.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-27
 Topics: Hardware, Business Blunders
 
-**Summary:** Palm is not a company anymore. HP completed its roughly $1.2 billion purchase of Palm on July 1, 2010, shut the hardware down in August 2011, sold webOS to LG in February 2013 and sold the Palm trademark in October 2014 to a holding company tied to TCL. TCL still owns the name, and the last Palm phone was the 3.3-inch, $349 Android device sold from November 2018.
+**Summary:** Palm is not a company anymore. HP completed its roughly $1.2 billion purchase of Palm on July 1, 2010, shut the hardware business down in August 2011, and sold webOS to LG Electronics in February 2013. TCL confirmed in January 2015 that it had bought the Palm trademark from HP, and the brand has been dormant since: the last Palm phone was the 3.3-inch, $349 Android device sold from November 2018.
 
 **Key facts:**
-- Founded: 1992, by Jeff Hawkins with Donna Dubinsky and Ed Colligan
-- Bought by HP: July 1, 2010, for about $1.2 billion ($5.70 a share)
-- Owner today: TCL, which bought the Palm trademark from HP in October 2014
-- webOS today: LG Electronics, which bought the software in February 2013 and runs it on TVs
-- Status: Dormant brand, no new Palm phone since the 3.3-inch model of November 2018
+- Status today: Not a company. The Palm name is a dormant trademark, with no new Palm phone since November 2018
+- Owner today: TCL, which confirmed in January 2015 that it had bought the Palm trademark from HP
+- Bought by HP: Announced April 28, 2010 at $5.70 a share, about $1.2 billion, completed July 1, 2010
+- What it cost HP: $3.3 billion in after-tax charges in fiscal 2011, or $1.56 a diluted share
+- webOS today: Owned by LG Electronics since February 2013 and running on its smart TVs
 
-## Is Palm still a company in 2026?
+## Who owns Palm today?
 
-No. Palm stopped being an independent business on July 1, 2010, the day Hewlett-Packard completed its purchase of the company. Everything that carried the name after that was owned by somebody else.
+TCL. The Chinese electronics maker confirmed in January 2015 that it had bought the Palm trademark from HP, and said it would set up a new Palm Inc. in Silicon Valley to work out what to do with the name.
 
-Three pieces of Palm went three different ways. The hardware and phone business was shut down by HP in August 2011. The webOS software was sold to LG Electronics in February 2013. The Palm trademark itself was sold in October 2014 to a holding company tied to the Chinese electronics maker TCL, which still owns it.
+Palm stopped being an independent business on July 1, 2010, the day Hewlett-Packard completed its purchase. Everything that carried the name after that was owned by somebody else, and it went three separate ways. HP shut the hardware and phone business in August 2011. The webOS software went to LG Electronics in February 2013. The trademark went to TCL.
 
-So the status today is split. Palm the company is gone, Palm the name is dormant under a Chinese owner, and Palm's software is alive under a third company, running television sets.
-
-## Who owns Palm now?
-
-TCL. In October 2014, HP sold the Palm trademark to Wide Progress Global Limited, a shelf company controlled by Nicolas Zibell, at the time a regional president at TCL. TCL confirmed the purchase publicly on January 6, 2015 and talked about building a team in Silicon Valley to work out what to do with the name.
-
-What it did with the name took another three and a half years, and then it stopped. A single Palm-branded Android phone was unveiled on October 15, 2018, built by TCL, with Golden State Warriors guard Stephen Curry attached as an investor and the face of the launch.
-
-Since then, nothing. Palm's own store at palm.com is still online in 2026, still describing that 3.3-inch phone in the present tense, with no product available to buy. The trademark is maintained. The company behind it is a portfolio line item.
+So the answer splits three ways in 2026. Palm the company is gone. Palm the name is a dormant trademark held by TCL, which has licensed it out rather than build with it. Palm's software is alive under a third owner, running television sets. The only Palm-branded hardware since 2018 has been a set of wireless earbuds sold under licence, not a phone.
 
 ## What did HP get for $1.2 billion?
 
-HP announced the deal on April 28, 2010: $5.70 a share in cash, an enterprise value of roughly $1.2 billion. Todd Bradley, who ran HP's Personal Systems Group, said Palm's operating system was "an ideal platform to expand HP's mobility strategy." The deal closed on July 1, 2010.
+HP announced the deal on April 28, 2010: $5.70 a share in cash, an enterprise value of roughly $1.2 billion. The transaction closed on July 1, 2010.
 
-What HP bought was a company that had already been through four owners and two identities. Palm was founded in 1992 by Jeff Hawkins, with Donna Dubinsky and Ed Colligan, sold to U.S. Robotics in 1995, absorbed into 3Com in 1997, spun back out as a public company on March 1, 2000, split into a software arm and a hardware arm in 2002 and 2003, and reassembled in 2005 when the hardware side paid $30 million for the other half of its own trademark. That history is the subject of our piece on the rise and fall of the Palm Pilot (https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html).
+Todd Bradley, who ran HP's Personal Systems Group, said in the announcement that Palm's operating system was "an ideal platform to expand HP's mobility strategy and create a unique HP experience spanning multiple mobile connected devices." HP was buying its way into smartphones, and it said so plainly.
 
-By 2010 the good part was the software. webOS launched with the Palm Pre on June 6, 2009 on Sprint, and reviewers liked its card-based multitasking well enough that HP bought the company mostly to get it.
+What HP actually bought was a company that had already been through several owners and two identities since Jeff Hawkins started it, sold to U.S. Robotics, absorbed into 3Com, spun back out as a public company, split in two and reassembled. That corporate history is the subject of our piece on the rise and fall of the Palm Pilot (https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html).
+
+By 2010 the valuable part was the software. webOS shipped with the Palm Pre in 2009, and reviewers liked its card-based multitasking well enough that HP bought the whole company mostly to get hold of it.
 
 ## Why HP killed webOS in 13 months
 
-On August 18, 2011, HP announced it would end production and support of Palm and webOS devices. That was less than 14 months after the acquisition closed and roughly 16 months after HP told investors it was buying its way into the smartphone business.
+On August 18, 2011, alongside its third-quarter results, HP announced it would discontinue operations for webOS devices. That was less than 14 months after the acquisition closed, and about 16 months after HP had told investors it was buying its way into the smartphone business.
 
-The accounting caught up in November. In its fiscal 2011 results, released November 21, 2011, HP excluded $3.3 billion in after-tax costs, or $1.56 per diluted share, tied to winding down the webOS device business plus the related goodwill impairment, amortization, restructuring and acquisition charges. The fourth quarter alone carried $2.1 billion of that.
+The accounting caught up in November. In its fiscal 2011 results, released November 21, 2011, HP reported $3.3 billion in after-tax costs, or $1.56 per diluted share, tied to winding down the webOS device business together with the related goodwill impairment, amortization of purchased intangibles and restructuring charges.
 
-For a company that had spent the previous decade digesting its purchase of Compaq (https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html), it was a familiar shape of problem: buy a strong brand, inherit a losing platform war, discover the war is already over. Apple and Android had taken the market by 2011, and the same squeeze was already flattening BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html).
+Set against a purchase price of roughly $1.2 billion, HP managed to lose close to three times what it paid, in about a year. For a company that had spent the previous decade digesting its purchase of Compaq (https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html), the shape of the problem was familiar: buy a strong brand, inherit a platform war, discover the war is already over. Apple and Android had taken the market by 2011, and the same squeeze was already flattening BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html).
 
 ## Where webOS ended up: LG television sets
 
-On February 25, 2013, LG Electronics announced it had acquired webOS from HP. The deal covered the source code, the documentation, the engineering team and the related websites, plus licenses to HP patents originally filed by Palm covering operating system and user interface work. LG also took over stewardship of the Open webOS and Enyo open source projects, and picked up HP's Sunnyvale and San Francisco research sites.
+On February 25, 2013, LG Electronics announced it had acquired webOS from HP. The deal covered the source code, the documentation, the engineering team and the related websites, plus licenses to HP patents originally filed by Palm covering operating system and user interface work. LG also took over the Open webOS and Enyo open source projects.
 
-HP kept the Palm cloud assets: the source code, the staff, the infrastructure and the contracts behind Palm's online services. Neither company expected the deal to move its numbers, and neither disclosed a price.
+Skott Ahn, then LG's president and chief technology officer, said in the announcement that the purchase "creates a new path for LG to offer an intuitive user experience and Internet services across a range of consumer electronics devices."
 
-LG's plan was smart TVs, and that is where webOS still lives. LG has since turned it into a licensing business, selling the platform to other television manufacturers under the webOS Hub name. Palm's software now ships on sets made by companies that never sold a handheld.
+The range he meant was televisions, and that is where webOS still lives. LG has since turned the platform into a licensing business, selling it to other television manufacturers under the webOS Hub name. Neither company disclosed a price for the 2013 deal, and neither expected it to move their numbers. It turned out to be the piece of Palm with a future: software written for a phone that lost, shipping on sets made by companies that never sold a handheld.
 
 ## The 2018 Palm phone was a $349 accessory
 
-The one product that used the Palm name in the smartphone era was strange by design. Announced October 15, 2018 and sold from November through Verizon, the Palm phone had a 3.3-inch screen, ran Android, and could not be bought unlocked at first. It cost $349 up front, or about $15 a month financed, and it needed a Verizon Connected Device plan at $10 a month plus the carrier's NumberShare feature so it could borrow your real phone number.
+The one product that put the Palm name back on a phone was strange by design. Announced on October 15, 2018 and sold through Verizon from November, it had a 3.3-inch screen and ran Android. It was built not by TCL but by a startup, Palm Ventures Group, which licensed the name, with TCL as its manufacturing partner.
 
-In other words, it was a $349 second phone for the kind of person who already owned a first phone. Reviewers struggled to explain who that was, the idea did not spread, and no Palm phone has followed it in the seven years since.
+It cost $349 outright, or $299 on a two-year Verizon contract, or $14.58 a month for 24 months. It was not really a phone on its own: it needed Verizon's NumberShare feature, at $10 a month on top of an existing plan, so it could borrow the number from the phone you already had. Stephen Curry of the Golden State Warriors was an investor and the face of the launch, and was expected to wear it during warmups.
 
-Where to find one today: nothing Palm-branded is sold new, so the secondhand market on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html).com is the only route, where the small model turns up unlocked, boxed, or as a carrier-locked Verizon unit. Use the launch price as the anchor, $349 in November 2018, and check the battery, because a cell that small, sitting in a drawer since 2019, is the part that fails first.
+In other words, it was a $349 second phone for people who already owned a first one. Reviewers struggled to explain who that was, the idea did not spread, and no Palm phone has followed it in the years since.
+
+## Where to find one today
+
+Nothing Palm-branded is sold new. Palm PDAs from the late 1990s and the 2000s, along with the small 2018 phone, trade as collectibles through sellers on Etsy (https://www.etsy.com/search?q=palm+pilot+pda). The only firm price is the launch price, $349 in November 2018, because secondhand asking prices swing widely with condition and packaging. Check the battery before anything else: a cell that small, sitting in a drawer since 2019, is the part that fails first, and on the older PDAs check that the screen still responds across its whole surface.
 
 ## Frequently Asked Questions
 
 ### Does Palm still make phones?
 
-No. The last Palm-branded phone was the 3.3-inch Android device sold from November 2018, and no successor has been announced. TCL owns the trademark and has kept it dormant.
+No. The last Palm-branded phone was the 3.3-inch Android device sold through Verizon from November 2018, and no successor has been announced. TCL has owned the Palm trademark since it confirmed the purchase in January 2015 and has kept the brand dormant.
 
-### What happened to webOS after HP gave up?
+### Who owns Palm now?
 
-LG Electronics bought it on February 25, 2013, including the source code, the engineers and the patent licenses, and moved it into smart TVs. LG now sells it to other television makers under the webOS Hub name, which is why webOS is still shipping in 2026 while the Palm brand sits idle.
+TCL owns the Palm trademark, confirmed in January 2015, after HP sold the name it had acquired when it bought Palm in 2010. Palm's webOS software is owned separately by LG Electronics, which bought it from HP in February 2013 and runs it on smart TVs.
 
 ### How much did HP lose on Palm?
 
-HP paid about $1.2 billion in 2010 and shut the hardware business on August 18, 2011. In its fiscal 2011 results HP set aside $3.3 billion in after-tax costs for the wind-down and the related impairment, amortization and restructuring charges.
+HP paid about $1.2 billion for Palm in 2010 and announced on August 18, 2011 that it would discontinue webOS devices. In its fiscal 2011 results HP reported $3.3 billion in after-tax charges for the wind-down and the related impairment, amortization and restructuring costs.
 
 **Sources:**
 - HP: HP to Acquire Palm for $1.2 Billion (April 28, 2010): https://investor.hp.com/news-events/news/news-details/2010/HP-to-Acquire-Palm-for-12-Billion/default.aspx
 - HP: HP Reports Fourth Quarter and Full Year 2011 Results (November 21, 2011): https://investor.hp.com/news-events/news/news-details/2011/HP-Reports-Fourth-Quarter-and-Full-Year-2011-Results/default.aspx
-- LG Electronics Acquires webOS from HP to Enhance Smart TV (February 25, 2013): https://www.prnewswire.com/news-releases/lg-electronics-acquires-webos-from-hp-to-enhance-smart-tv-193071841.html
-- 9to5Google: Palm Phone goes official as a companion to your standard phone, $349 Verizon exclusive (October 15, 2018): https://9to5google.com/2018/10/15/palm-phone-launch-date-verizon/
-- Palm, Inc. (company history, trademark sale to TCL): https://en.wikipedia.org/wiki/Palm,_Inc.
+- LG Newsroom: LG Electronics Acquires webOS from HP to Enhance Smart TV (February 25, 2013): https://www.lgnewsroom.com/2013/02/lg-electronics-acquires-webos-from-hp-to-enhance-smart-tv/
+- PR Newswire: TCL Communication co-(re)creates Palm (January 6, 2015): https://www.prnewswire.com/news-releases/tcl-communication-co-recreates-palm-300016924.html
+- Variety: Verizon Launches Palm, a Credit Card-Size Phone, With an Assist From Stephen Curry (October 15, 2018): https://variety.com/2018/digital/news/verizon-palm-android-phone-stephen-curry-1202978461/
 
 ---
 
