@@ -6570,98 +6570,90 @@ HP paid about $1.2 billion for Palm in 2010 and announced on August 18, 2011 tha
 
 ---
 
-# Is Netscape Still Around? What Happened After AOL
+# Is Netscape Still Around in 2026? What Is Left
 
 URL: https://404memoryfound.com/posts/is-netscape-still-around.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-27
 Topics: Software & Apps, Internet Culture
 
-**Summary:** Netscape is not still around as a company or a working browser. AOL bought it in a stock deal announced at $4.2 billion in November 1998 and worth about $10 billion when it closed on March 17, 1999, then ended browser support on March 1, 2008. The name survives only as a live US trademark held by AOL Membership Services LLC, and netscape.com now redirects to aol.com.
+**Summary:** Netscape is not still around as a company or as a working browser. AOL bought Netscape in a stock deal announced at $4.2 billion in November 1998, closed it at roughly $10 billion on March 17, 1999, and ended browser support on March 1, 2008. The name survives as a live US trademark and one AOL web page, and AOL itself was sold to the Italian software group Bending Spoons on January 2, 2026.
 
 **Key facts:**
+- Status today: Browser discontinued March 1, 2008. Netscape Internet Service closed November 30, 2025
+- Owner today: Bending Spoons S.p.A., which completed its purchase of AOL on January 2, 2026
 - Bought by AOL: Announced November 24, 1998 at $4.2 billion, closed March 17, 1999 at about $10 billion
-- Browser status: Discontinued. Support ended March 1, 2008
-- Netscape ISP: Launched January 8, 2004 at $9.95 a month, shut down November 30, 2025
-- Owner today: AOL, acquired by Bending Spoons on January 2, 2026
-- Trademark: US Reg. No. 2027552, live, AOL Membership Services LLC
+- Last version: Netscape Navigator 9.0.0.6, released February 20, 2008
+- Trademark: US Reg. No. 2027552, registered December 31, 1996, registered and renewed
 
-## Is Netscape still around in 2026?
+## What is still running under the Netscape name?
 
-Not as a company, and not as a browser anyone should be running. Netscape Communications stopped existing as an independent business on March 17, 1999, the day AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) closed its acquisition. AOL then ended support for every Netscape browser and client product on March 1, 2008.
+One web page and one trademark. Netscape Communications stopped existing as an independent business on March 17, 1999, the day AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) closed its acquisition, and AOL ended support for every Netscape browser product on March 1, 2008.
 
-What survived was the name. AOL kept the trademark and attached it to a discount dial-up service, a news portal and, more recently, a rebadged Chromium browser. The last of those, Netscape Internet Service, was discontinued on November 30, 2025.
+The brand outlasted the software because AOL attached it to a discount dial-up service. Netscape Internet Service launched on January 8, 2004 at $9.95 a month for unlimited access, and AOL discontinued it on November 30, 2025, two months after shutting down AOL dial-up itself. Subscribers kept their netscape.net and netscape.com email addresses, which now run through AOL Mail at no charge. The wider collapse of that market is covered in what is left of dial-up internet (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html).
 
-So the honest answer to "does Netscape still exist" is that the brand is legally alive and commercially retired. Type netscape.com into any browser in 2026 and the server answers with a permanent redirect to aol.com. There is no Netscape branding waiting on the other side, no archive page, no farewell note.
+The page that survives is isp.netscape.com, a news aggregator wearing the Netscape ISP logo with headlines pulled from AOL feeds. At the bottom sits a "Download Browser" link. It installs a Chromium fork built for AOL by the UK security firm SentryBay, the same code AOL has shipped as AOL Shield, with AOL Search wired in as the default. It shares nothing with the browser released in 1994 except six letters.
 
-## What AOL actually bought in 1999
+## Who owns the Netscape name today?
 
-AOL announced the deal on November 24, 1998 as a tax-free stock swap valued at $4.2 billion. AOL shares kept climbing through the regulatory review, so by the time the transaction closed on March 17, 1999 it was worth roughly $10 billion. Netscape shareholders were paid in AOL paper, not cash, which is why the price moved so much between the handshake and the closing.
+Bending Spoons S.p.A., by way of AOL. Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), controlled by Apollo Global Management, agreed in October 2025 to sell the AOL business to the Milan software group, and Bending Spoons told the US Securities and Exchange Commission that it acquired AOL Holdco I LLC on January 2, 2026 for total cash consideration of about $1.45 billion.
 
-The headline number hid what AOL was really shopping for. Netscape's browser share was already collapsing under Internet Explorer, the fight covered in how Netscape lost the browser war (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html). The assets with real revenue attached were Netcenter, then one of the busiest portals on the web, and Netscape's enterprise server software.
+The same filing describes what came with it: around 8 million daily and 30 million monthly active users, concentrated in email, news and search. Netscape is a line item inside that portfolio rather than a product with a roadmap, which is how AOL has treated the name since it wound down AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html).
 
-AOL split them up. The server business went into an alliance with Sun Microsystems. The portal was fed into AOL's own traffic machine. The browser, the one thing every user associated with the name, got the smallest budget and the least attention.
+The trademark file shows somebody still pays the maintenance bills. US Registration No. 2027552 for the word mark NETSCAPE, filed September 15, 1994 and registered December 31, 1996, is listed by the USPTO as registered and renewed. Trademark databases still name Yahoo Inc. as owner of record, because assignment paperwork lags a corporate sale by months. Either way the registration is live, and a live mark is why nobody else can launch a browser called Netscape.
 
-By July 2003 the Netscape division was disbanded, engineers were laid off and the logo came off the Mountain View building. Four years after the biggest software acquisition of the dot-com boom, the product had no team.
+## What did AOL actually buy in 1999?
 
-## Who owns the Netscape name now?
+AOL announced the deal on November 24, 1998 as a tax-free stock swap valued at $4.2 billion, roughly a tenth of AOL's market value at the time. AOL shares kept climbing through the regulatory review, so by the closing on March 17, 1999 the transaction was worth about $10 billion. Netscape shareholders were paid in AOL stock, not cash, which is why the price moved so far between the handshake and the close.
 
-AOL does, and AOL itself changed hands again in 2026. Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), controlled by Apollo Global Management, sold the AOL business to the Italian software group Bending Spoons, which reported in a US securities filing that it acquired AOL Holdco I LLC on January 2, 2026.
+The deal landed in the middle of the government's antitrust case against Microsoft, and Netscape's chief executive pushed back on the obvious reading. "Netscape is doing this because it's in the best interests of Netscape. This is not about the [Microsoft] case," James Barksdale told reporters on the announcement call, as recorded by Tech Law Journal in 1998.
 
-The trademark file is the clearest evidence that somebody still pays the maintenance bills. US Registration No. 2027552 for the word mark NETSCAPE, registered December 31, 1996, is listed by the USPTO as live, issued and active, with the status "the registration has been renewed." The owner of record is AOL Membership Services LLC of 770 Broadway, New York.
+The headline number hid what AOL was shopping for. Netscape's browser share was already collapsing, the fight covered in the browser war Netscape lost to Internet Explorer (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html). The assets with revenue attached were Netcenter, then one of the busiest portals on the web, and Netscape's enterprise server software. AOL split them up, pushed the server business into an alliance with Sun Microsystems, fed the portal into its own traffic machine, and gave the browser the smallest budget. On July 15, 2003 it disbanded what was left of the Netscape division and laid off or reassigned the staff.
 
-That is the same corporate lineage that shut down AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html) and quietly wound down one legacy product after another. Bending Spoons said AOL arrives with about 8 million daily and 30 million monthly active users, concentrated in email and news. Netscape is a line item inside that portfolio, not a product with a roadmap.
+## Why did AOL stop making the browser?
 
-## What happened to the Netscape browser after AOL
+Because almost nobody was using it, and the releases kept making that worse. Netscape 6 arrived on November 14, 2000 built on Mozilla 0.6, a codebase neither engineering team considered ready, and it shipped with crashes and slow page rendering that burned whatever goodwill was left. Netscape 7 followed in 2002, and version 7.2 on August 17, 2004 was the last built on the old Mozilla suite.
 
-The post-1999 release history is short and unhappy. Netscape 6 arrived on November 14, 2000 and shipped with enough bugs to burn whatever goodwill was left. Netscape 7.0 followed in August 2002, and version 7.2, released August 18, 2004, was the last built on the old Mozilla suite.
+Then AOL outsourced. Netscape Browser 8, released between 2005 and 2007, was Windows only and built on Firefox. Netscape Navigator 9 launched on October 15, 2007 on top of Firefox 2, and the final build, 9.0.0.6, shipped on February 20, 2008.
 
-Then AOL outsourced. Netscape Browser 8.0 through 8.1.3, released between 2005 and 2007, was Windows only and built on Firefox. Netscape Navigator 9, the final version, launched October 15, 2007 on top of Firefox 2 and was the first release produced in house since 2004. The last update, 9.0.0.6, shipped February 20, 2008.
+The measurements explain the decision. Net Applications put Internet Explorer at 77.4 percent of the browser market in November 2007, with Netscape below 1 percent.
 
-The numbers explain the decision. In November 2007, Net Applications measured Internet Explorer at 77.4% of the browser market, Firefox at 16.0% and Netscape at 0.6%.
+AOL announced the end on December 28, 2007, set the cutoff at February 1, 2008, then moved it to March 1, 2008 to allow one last security update and a tool to move users off. "We feel it's the right time to end development of Netscape branded browsers, hand the reins fully to Mozilla, and encourage Netscape users to adopt Firefox," wrote Tom Drapeau, the AOL director responsible for Netscape, on the Netscape blog in 2007.
 
-On December 28, 2007 AOL announced it would stop developing and supporting the browser, setting the cutoff at February 1, 2008 and then extending it to March 1, 2008 to allow one last security update. AOL told the remaining users to install Flock or Firefox instead.
+## How did Mozilla outlive the company that started it?
 
-## The Mozilla spin-off that outlived the company
+The most valuable thing Netscape did in its final independent stretch was give the code away. It announced on January 22, 1998 that the source of Communicator would be free to modify and redistribute, set up mozilla.org in February 1998 to coordinate the work, and shipped the first developer release on March 31, 1998 after an internal sprint named Project Source 331.
 
-The most valuable thing Netscape did in its final independent year was give the code away. In February 1998, about a year before the AOL deal closed, Netscape released the source of its browser and created the Mozilla Organization to coordinate development.
+That project rewrote the browser around the Gecko rendering engine. On July 15, 2003, the same day AOL disbanded the Netscape division, the Mozilla Foundation launched as an independent nonprofit staffed largely by former Netscape engineers, with $2 million from AOL over two years plus hardware and intellectual property.
 
-That project rewrote the browser around the Gecko rendering engine. When AOL scaled back its involvement in the early 2000s, the Mozilla Organization set up the Mozilla Foundation in July 2003 as an independent nonprofit, with financial and other assistance from AOL on the way out the door.
+Gecko still powers Firefox. So the honest answer to what replaced Netscape is not a rival that beat it but a nonprofit that inherited its code and its people, funded on the way out by the company that had bought them. AOL paid roughly $10 billion for a browser and ended up paying the moving costs of the only part of it that lasted. It was not the last time AOL turned a famous name into a write-down: the AOL and Time Warner merger (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html) announced in January 2000 repeated the pattern at far greater scale.
 
-Gecko still powers Firefox. So the practical answer to what replaced Netscape is not a competitor that beat it, but a nonprofit that inherited its code and its engineers. AOL paid roughly $10 billion for a browser and ended up funding the exit of the only part of it that lasted.
+## Where to find a piece of Netscape today
 
-It was not the last time AOL turned a famous name into a write-down. The AOL and Time Warner merger (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html) announced in January 2000 followed the same pattern on a much larger scale.
+The software costs nothing. The Internet Archive hosts a Netscape browser collection with the old installers, and they run inside a virtual machine on a retired copy of Windows, which is the only safe way to point 1990s code at the modern web.
 
-## What netscape.com is today
-
-The main domain is a redirect and nothing more. The one address still serving a page is isp.netscape.com, which loads a generic news aggregator wearing the Netscape ISP logo, with headlines pulled from AOL's feeds and a "Copyright 2026 AOL Media LLC" line at the bottom.
-
-Buried in that footer is a "Download Browser" link. It installs a Chromium fork carrying the Netscape name, developed for AOL by the UK security firm SentryBay, with AOL Search wired in as the default. It shares nothing with the browser that shipped in 1994 except six letters.
-
-The ISP that page was built to sell is gone. Netscape Internet Service launched on January 8, 2004 at $9.95 a month for unlimited dial-up, ran for more than two decades, and was discontinued on November 30, 2025. Subscribers kept their netscape.net and netscape.com email addresses, which now run through AOL Mail at no charge.
-
-If you want a physical piece of it, shrink-wrapped Navigator and Communicator boxes and the retail CD-ROMs bundled with 1990s modems still turn up regularly on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html).com. Condition of the box, not the disc, is what collectors argue about, since the software itself has been a free download from archive sites for years.
+What actually trades is the packaging: shrink-wrapped Navigator and Communicator big boxes, the printed manuals, the promotional shirts and caps from the Mountain View years. Vintage sellers on Etsy list them under Netscape (https://www.etsy.com/market/netscape), and the condition of the box, not the disc, is what collectors argue about.
 
 ## Frequently Asked Questions
 
-### Does Netscape still exist as a company?
+### Does Netscape still exist?
 
-No. Netscape Communications ceased to be an independent company when AOL completed the acquisition on March 17, 1999, and AOL disbanded the Netscape division in July 2003. Only the trademark survives, held by AOL Membership Services LLC.
+Netscape does not exist as a company or a supported browser. Netscape Communications ceased to be independent when AOL completed its acquisition on March 17, 1999, AOL disbanded the Netscape division on July 15, 2003, and browser support ended on March 1, 2008. Only the trademark and one AOL web page still carry the name in 2026.
+
+### Who owns Netscape now?
+
+The Netscape brand belongs to AOL, and AOL was bought by the Italian software group Bending Spoons, which reported completing the purchase on January 2, 2026 for about $1.45 billion in cash. The US trademark registration for NETSCAPE, No. 2027552 from December 31, 1996, remains registered and renewed.
 
 ### Can you still download the Netscape browser?
 
-You can download a Chromium-based browser that carries the Netscape name from the old Netscape ISP site, but it is not the original software. The real Netscape browser has been unsupported since March 1, 2008, and its last build, version 9.0.0.6, dates from February 20, 2008.
-
-### Is Netscape the same thing as Firefox?
-
-They are not the same product, but they share ancestry. Netscape released its browser source code in February 1998 and started the Mozilla Organization, which became the Mozilla Foundation in July 2003 and ships Firefox on the Gecko engine that grew out of that code.
+A Chromium-based browser carrying the Netscape name can still be downloaded from the old Netscape ISP page, but it is not the original software. The real Netscape browser has been unsupported since March 1, 2008, and its last build, Netscape Navigator 9.0.0.6, dates from February 20, 2008.
 
 **Sources:**
-- Netscape (Wikipedia): https://en.wikipedia.org/wiki/Netscape
+- Tech Law Journal: AOL Buys Netscape, November 24, 1998: http://www.techlawjournal.com/atr/81124.htm
 - TechCrunch: A Sad Milestone, AOL To Discontinue Netscape Browser Development (December 28, 2007): https://techcrunch.com/2007/12/28/a-sad-milestone-aol-to-discontinue-netscape-browser-development/
+- Netscape (web browser), Wikipedia: https://en.wikipedia.org/wiki/Netscape_(web_browser)
 - USPTO Trademark Status and Document Retrieval: NETSCAPE, US Reg. No. 2027552: https://tsdr.uspto.gov/statusview/sn74574057
-- Bending Spoons S.p.A., SEC Form DRS/A (2026): https://www.sec.gov/Archives/edgar/data/0002004711/000110465926054644/filename1.htm
-- Bending Spoons to acquire AOL following $2.8B debt financing: https://finance.yahoo.com/news/bending-spoons-buy-aol-yahoo-080640555.html
+- Bending Spoons S.p.A., SEC Form F-1 (2026): https://www.sec.gov/Archives/edgar/data/0002004711/000110465926071170/tm2613674-7_f1.htm
 
 ---
 

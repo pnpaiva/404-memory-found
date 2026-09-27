@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-09-27",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 188,
+ "count": 189,
  "brands": [
   {
    "name": "3dfx",
@@ -816,6 +816,13 @@
    "status2026": "Closed. Final discs mailed September 29, 2023, and never revived",
    "owner2026": "",
    "source": "https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html"
+  },
+  {
+   "name": "Netscape",
+   "started": "",
+   "status2026": "Browser discontinued March 1, 2008. Netscape Internet Service closed November 30, 2025",
+   "owner2026": "Bending Spoons S.p.A., which completed its purchase of AOL on January 2, 2026",
+   "source": "https://404memoryfound.com/posts/is-netscape-still-around.html"
   },
   {
    "name": "Netscape Navigator",
