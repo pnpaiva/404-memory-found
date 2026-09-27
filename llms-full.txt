@@ -5278,88 +5278,90 @@ Old Yahoo Answers pages survive mainly in the Internet Archive's Wayback Machine
 
 URL: https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-10
+Published: 2026-09-10  Updated: 2026-09-27
 Topics: Hardware, Then vs Now
 
-**Summary:** Betamax lost to VHS because a VHS cassette recorded two hours to Betamax's one, the first VHS deck sold in America undercut Sony by $295, and JVC licensed its format to anyone who would build it. Sony's picture-quality edge was 250 lines against 240, and it traded most of that away to add recording time. Sony sold about 18 million Betamax recorders, stopped building them in 2002, and shipped the last blank tapes in March 2016.
+**Summary:** Betamax lost to VHS because a VHS cassette recorded two hours to Betamax's one, the first VHS deck sold in America undercut Sony by $295, and JVC licensed its format to anyone who would build it. Sony's picture advantage was 250 horizontal lines against 240, and the two-hour Beta II mode traded most of that away. Betamax no longer exists in any form: Sony stopped building recorders in 2002 after more than 18 million sales, and the last blank Betamax cassettes shipped in March 2016.
 
 **Key facts:**
-- Launched: May 10, 1975 in Japan, February 1976 in the United States
+- Launched: May 10, 1975 in Tokyo, November 1975 in the United States
 - Company: Sony
-- Launch price: $1,295 for the SL-7200 in 1976, about $7,600 in 2026 dollars
-- Units sold: About 18 million Betamax recorders worldwide
-- Status today: Beaten by VHS, recorders ended in 2002, blank cassettes in March 2016
+- Launch price: $1,295 for the Sony SL-7200, the first stand-alone US deck, February 1976
+- Units sold: More than 18 million Betamax recorders worldwide
+- Status today: Dead format. Recorders ended in 2002, the last blank cassettes shipped in March 2016
 
-## Why did Betamax lose to VHS?
+## What did a Betamax cost, and what did VHS cost?
 
-Betamax lost to VHS on three things: tape length, price, and the number of factories building machines. Sony launched Betamax in Japan on May 10, 1975 with a recorder that held one hour of video. JVC answered on October 31, 1976 with the HR-3300, the first VHS deck, and its cassette held two.
+Sony showed Betamax in Tokyo on May 10, 1975. The first machine Americans could buy was the LV-1901, a 19-inch Trinitron television with a Betamax recorder built into the cabinet, which reached stores in November 1975 at $2,495. The stand-alone deck followed in February 1976: the Sony SL-7200, $1,295, one hour of video on an L-500 cassette.
 
-One hour was enough for a sitcom. It was not enough for a film, a baseball game, or an evening out of the house. Sony had designed the format around a cassette small enough to slip into a coat pocket, and that choice locked in the running time before anyone knew what buyers would actually do with the machine.
+One hour covered a sitcom with room to spare. It did not cover a film, a baseball game or an evening out of the house. Sony had built the Betamax cassette small enough to slip into a coat pocket, and that choice fixed the running time before anyone knew what buyers would do with the machine.
 
-Sony spent the rest of the war catching up. The SL-8200 arrived in 1977 with a half-speed mode that fit two hours onto an L-500 cassette. VHS decks were already recording four hours by then, and later six and eight. Every time Sony matched the number, the number had moved.
+RCA answered on August 23, 1977 and shipped that October. The SelectaVision VBT200 was built by Matsushita, ran VHS tapes and recorded four hours, and RCA sold it with a slogan that made the whole argument in five words: "Four hours, $1,000, SelectaVision."
 
-## What a Betamax cost in 1976, and what VHS cost in 1977
+A shopper in late 1977 was comparing a $1,295 Sony that taped one hour against a $1,000 RCA that taped four. The price gap was $295 and the time gap was four to one, both pointing the same direction.
 
-The first stand-alone Betamax deck sold in the United States, the Sony SL-7200, reached stores in February 1976 at $1,295. Adjusted with the consumer price index, that is roughly $7,600 in 2026 money for a machine that recorded one hour at a time.
+## How did JVC's open license beat Sony's closed one?
 
-RCA announced its answer on August 23, 1977 and put it on sale that October. The SelectaVision VBT200 was built by Matsushita, ran VHS tapes, and recorded four hours. It sold for $1,000, and RCA advertised it with a line that made the entire argument in five words: four hours, $1,000, SelectaVision.
+JVC put the first VHS recorder on sale in Japan on October 31, 1976, and the HR-3300 held two hours on one cassette. Sony answered in 1977 with the slower Beta II speed, which fit two hours onto the same L-500 tape.
 
-A shopper standing in a store in late 1977 was therefore looking at a $295 price gap and a four-to-two gap in recording time, both running the same direction. Sony's answer was that Beta looked slightly better. That is a hard sell against a cheaper box that can record a whole football game unattended.
+The deeper difference was who was allowed to build the machines. Sony treated Betamax as a Sony product and licensed it narrowly. JVC treated VHS as a standard and licensed it to anyone willing to manufacture, starting with its parent company Matsushita, then RCA, Sharp, Zenith and Magnavox. The two formats were not really rival products. They were rival supply chains.
 
-## How JVC's open licence beat Sony's closed one
+That showed up in the tape aisle. By 1984, 40 companies were making VHS cassettes against 12 making Betamax cassettes, which meant lower prices, more shelf space and more rental stock, because video shops stocked whatever most customers could play at home. Betamax was down to about 25 percent of VCR sales by 1981 and 7.5 percent by 1986. In 1988 Sony began selling VHS recorders under its own name, which settled the matter without anyone using the word surrender. Sony ran the closed-format play again with MiniDisc (https://404memoryfound.com/posts/what-happened-to-minidisc-sony.html), and finally won one two decades later in the HD DVD fight (https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html) by lining up studios and hardware partners first.
 
-Sony kept Betamax as a Sony product and licensed it narrowly. JVC treated VHS as a standard and licensed it to anyone willing to build it, including its parent company Matsushita, plus RCA, Sharp, Zenith, and Magnavox. The two formats were not really competing products. They were competing supply chains.
+## Was Betamax actually the sharper format?
 
-The gap shows up in the tape aisle. By 1984 roughly 40 companies were manufacturing VHS cassettes against 12 making Betamax cassettes. More manufacturers meant lower prices, more shelf space, and more rental stock, because video shops carried whatever the most customers could play at home.
+Slightly, at first, and by less than the legend claims. At its original Beta I speed, Betamax resolved 250 horizontal lines against 240 for VHS. Ten lines, on a 1977 television, across a living room.
 
-Market share followed. Beta slipped to around 25 percent of VCR sales by 1981 and 7.5 percent by 1986. In 1988 Sony began selling VHS recorders under its own name, which settled the question without anyone using the word surrender. Sony would run the closed-format play again with MiniDisc (https://404memoryfound.com/posts/what-happened-to-minidisc-sony.html), and would finally win one two decades later in the HD DVD fight (https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html), by signing up studios and hardware partners before the shooting started.
+Sony then gave that edge away itself. The two-hour Beta II mode that answered VHS ran the tape at half speed and dropped the picture to roughly the same 240 lines, so the setting nearly every owner actually used was no longer the sharper one.
 
-## Was Betamax actually the better format?
-
-Slightly, at first, and by less than the legend claims. At its original speed Betamax resolved 250 horizontal lines against 240 for VHS. Ten lines, on a 1977 television, across a living room.
-
-Sony then traded that edge away on its own. The two-hour Beta II mode that answered VHS ran the tape at half speed and gave up picture quality to do it, so the setting nearly everyone actually used was no longer the sharper one.
-
-Sony did eventually build the machine the legend describes. ED Beta, launched in 1988, recorded about 500 lines of luminance resolution and outclassed everything else on the consumer market. It shipped the same year Sony started making VHS decks, to a public that had stopped listening a decade earlier. The one place the engineering paid off was professional: Betacam, a broadcast derivative using a similar cassette shell, became standard equipment in television news long after consumer Beta was finished.
+Sony did eventually build the machine the legend describes. ED Beta, introduced in 1988, reached up to 500 lines of resolution and outclassed everything else sold to consumers. It arrived the same year Sony started making VHS decks, aimed at a public that had stopped listening a decade earlier. Where the engineering did pay off was professional: Betacam, a broadcast derivative that used a similar cassette shell, became standard equipment in television news long after consumer Betamax was finished.
 
 ## Did adult films really decide the format war?
 
-This is the version everyone repeats, and it does not survive contact with the timeline. Sony did have rules about what it would attach its own name to, but that governed what Sony itself produced and distributed. It never stopped anyone from recording whatever they liked onto a blank Beta cassette, and adult titles were duplicated onto both formats, because distributors wanted revenue from both sets of owners.
+This is the version that gets repeated, and it does not survive the timeline. Sony had rules about what it would attach its own name to, and those rules governed what Sony itself produced and distributed. They never stopped anyone recording whatever they liked onto a blank Betamax cassette, and adult titles were duplicated onto both formats, because distributors wanted revenue from both sets of owners.
 
-The bigger problem with the story is that it is not needed. Beta was already losing on the two numbers buyers compared in the shop, and losing badly on the number of companies making tapes and decks. Two hours beat one, $1,000 beat $1,295, and 40 factories beat 12. Nothing about the format war requires a more colourful explanation than that.
+The bigger problem with the story is that it is not needed. Betamax was already losing on the two numbers buyers compared in the shop, and losing badly on the number of companies making tapes and machines. Two hours beat one, $1,000 beat $1,295, and 40 factories beat 12. Nothing about the outcome needs a more colorful explanation than that.
 
-## The 1984 Supreme Court case Sony won
+## Is Betamax still around in 2026?
 
-Universal City Studios and Walt Disney Productions sued Sony in Los Angeles federal court in 1976. Their argument was that a machine built to record television is a machine built to infringe copyright, and that Sony should be liable for what its customers did with it. They asked the court to stop the sale of the Betamax.
+No. Betamax is dead at both ends, hardware and media. Sony stopped manufacturing Betamax recorders in 2002, after selling more than 18 million of them worldwide, then kept the cassette line running for another 14 years for the owners who were still recording.
 
-The case ran for eight years. On January 17, 1984 the Supreme Court ruled 5 to 4 for Sony in Sony Corp. of America v. Universal City Studios, 464 U.S. 417. Recording a broadcast at home to watch it later, which the court called time-shifting, was fair use, and a device capable of substantial non-infringing uses does not make its manufacturer a contributory infringer.
+That ended too. In a Japanese-language statement in November 2015, Sony said it "will end the shipment of Betamax video cassettes and micro MV cassettes in March 2016", as CBC News reported at the time. The last blank tapes shipped that March, about 41 years after the Tokyo launch.
 
-That holding outlasted the format by decades. It is the legal ground under the cassette deck, the CD burner, the DVR (https://404memoryfound.com/posts/what-happened-to-tivo-dvr-pioneer.html), and most of the recording hardware sold since. Sony lost the format and won the case that kept the entire home video business legal, including the VHS trade that had beaten it.
+The peak is worth holding next to the ending. Sony shipped roughly 50 million Betamax cassettes in 1984, the same year it was outnumbered more than three to one by VHS tape manufacturers. Nothing succeeded Betamax in its own line: VHS took the household, DVD took VHS, and streaming took the shelf. A closet full of Betamax tapes in 2026 is content stored on a format whose last new machine was built 24 years ago.
 
-## Where to find a Betamax today
+## What did Sony win in the Supreme Court in 1984?
 
-Working Sony Beta decks still turn up on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html) most weeks. Refurbished players commonly sell for about $50 to $200, while clean high-end Super Beta Hi-Fi machines are listed in the high hundreds and occasionally above $1,000. Tapes are cheap, generally a few dollars to around $20, with rare horror and cult titles reaching $50 and up. Check the belts and the loading tray before paying: forty-year-old rubber is the usual point of failure, and spare parts are scarce.
+Universal City Studios and Walt Disney Productions sued Sony in federal court in Los Angeles in 1976. Their argument was that a machine built to record television was a machine built to infringe copyright, and that Sony should answer for what its customers taped. They asked the court to stop the sale of the Betamax.
+
+The case took eight years. On January 17, 1984 the Supreme Court ruled 5 to 4 for Sony in Sony Corp. of America v. Universal City Studios, 464 U.S. 417. Recording a broadcast at home to watch it later, which the Court called time-shifting, was fair use, and the majority opinion put the rule in one line: "The Betamax is, therefore, capable of substantial noninfringing uses."
+
+That holding outlived the format by decades. It is the legal ground under the cassette deck, the CD burner, the DVR (https://404memoryfound.com/posts/what-happened-to-tivo-dvr-pioneer.html) and most recording hardware sold since. Sony lost the format war and won the case that kept the entire home video business legal, including the VHS trade that had beaten it.
+
+## Where to find one today
+
+Sony has not built a Betamax recorder since 2002 and has not shipped a blank cassette since March 2016, so every working deck in circulation is at least 24 years old, and forty-year-old rubber belts are the usual point of failure. For most households the tapes matter more than the hardware, and a mail-in transfer is the practical route: Legacybox accepts Betamax (https://legacybox.com/products/betamax-conversion) alongside VHS and Hi8, with published 2026 kit prices starting at $34.99 for two tapes and $159.99 for ten. Whichever route you take, read the tape before the machine that can read it becomes the scarce part.
 
 ## Frequently Asked Questions
 
 ### Why did Betamax fail if the picture was better?
 
-The picture advantage was 250 lines against 240 at Betamax's original speed, and Sony gave most of it back when it introduced the slower two-hour Beta II mode in 1977. Buyers were comparing a $1,295 one-hour Sony against a $1,000 four-hour RCA, and the tape length and price decided it.
+Betamax held a 250-line picture against 240 lines for VHS at its original speed, and Sony gave most of that back with the two-hour Beta II mode in 1977. Buyers in late 1977 were comparing a $1,295 one-hour Sony deck with a $1,000 four-hour RCA SelectaVision, and by 1984 there were 40 companies making VHS cassettes against 12 making Betamax.
 
 ### When did Betamax stop being made?
 
-Sony stopped manufacturing Betamax recorders in 2002, then kept producing blank Betamax cassettes for another fourteen years. The last tapes shipped in March 2016, roughly 41 years after the format launched in Japan.
+Sony stopped manufacturing Betamax recorders in 2002 and kept producing blank Betamax cassettes for another 14 years. The last Beta tapes shipped in March 2016, about 41 years after Betamax launched in Tokyo on May 10, 1975.
 
-### Are Betamax tapes worth anything?
+### Can you still play Betamax tapes in 2026?
 
-Most are not. Common blanks and mainstream titles sell for a few dollars to about $20, while scarce horror, sci-fi, and cult releases can reach $50 or more in good condition. The machines are usually worth more than the tapes, with refurbished decks typically listed between $50 and $200.
+Only on a secondhand Betamax deck, because Sony has not built one since 2002, or through a transfer service that still accepts the format. Anyone holding Betamax tapes in 2026 depends on hardware that is at least 24 years old, which is why the tapes are usually worth digitizing before working machines get scarcer.
 
 **Sources:**
-- Betamax: https://en.wikipedia.org/wiki/Betamax
 - Sony's First Betamax VCR, the SL-7200 from 1976: https://www.cedmagic.com/history/betamax-sl-7200-1976.html
 - VBT200: The First RCA SelectaVision VHS Video Cassette Recorder: https://www.cedmagic.com/history/vbt200.html
 - Sony Corp. of America v. Universal City Studios, Inc., 464 U.S. 417 (1984): https://supreme.justia.com/cases/federal/us/464/417/
-- Value of 1976 US dollars today (CPI inflation calculator): https://www.in2013dollars.com/us/inflation/1976
+- Sony announces plan to stop making Betamax video tapes (CBC News, 2015): https://www.cbc.ca/news/science/betamax-death-sony-1.3312556
+- Betamax: https://en.wikipedia.org/wiki/Betamax
 
 ---
 
