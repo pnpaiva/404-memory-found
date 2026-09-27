@@ -6091,98 +6091,98 @@ Systemax, which owned TigerDirect, bought CompUSA's e-commerce business and bran
 
 ---
 
-# Windows 95 Startup Sound: Brian Eno's 3.25 Seconds
+# Who Made the Windows 95 Startup Sound? Brian Eno
 
 URL: https://404memoryfound.com/posts/windows-95-startup-sound-brian-eno.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-27
 Topics: Software & Apps, Music & Entertainment
 
-**Summary:** The Windows 95 startup sound was composed by Brian Eno in 1994 and 1995, working to an agency brief that asked for something optimistic and futuristic and exactly 3.25 seconds long. He made 84 versions, on a Macintosh, for a fee of $35,000. You can still download it free from the Internet Archive, and in April 2025 the Library of Congress added it to the National Recording Registry.
+**Summary:** Brian Eno composed the Windows 95 startup sound in the mid-1990s, working to an agency brief that asked for something optimistic and futuristic and exactly 3.25 seconds long. He made 84 versions, on a Macintosh, for a fee of $35,000. The recording is still a free download at the Internet Archive, and in April 2025 the Library of Congress added it to the National Recording Registry.
 
 **Key facts:**
-- Composer: Brian Eno, commissioned by Microsoft in 1994
+- Composer: Brian Eno, commissioned by Microsoft in the mid-1990s
 - The brief: 3.25 seconds, “optimistic, futuristic, sentimental, emotional”
-- What shipped: The Microsoft Sound.wav, about 6 seconds
-- Fee: $35,000, confirmed by Eno in 2025
-- Status today: Free CC0 download at the Internet Archive; National Recording Registry, 2025
+- What shipped: The Microsoft Sound.wav, about six seconds
+- Fee: $35,000, pledged to Palestinian aid in May 2025
+- Status today: Free download at the Internet Archive; National Recording Registry, 2025
 
 ## Can you still hear the Windows 95 startup sound in 2026?
 
-Yes, and it is free. The Internet Archive hosts the original Windows 95 system sounds as downloadable files, released under a CC0 public domain dedication, with the startup chime available as WAV, FLAC or MP3. A second Archive item offers a cleaned-up stereo transfer of the same recording.
+Yes, and it costs nothing. The Internet Archive hosts the original Windows 95 system sounds (https://archive.org/details/Microsoft_Windows-95-System-Sounds) as free downloads, and a separate item carries a high-quality stereo transfer released under a CC0 public domain dedication. The file to look for is named The Microsoft Sound.wav.
 
 What you cannot do is get it from Microsoft. The company replaced Brian Eno's piece with a new startup sound in Windows 98 and has never shipped it again in a consumer release of Windows.
 
-The file to look for is named The Microsoft Sound.wav. On a 1995 machine it lived alongside Chimes, Chord, Ding and Tada, and it only played at all if the PC had a sound card installed (https://404memoryfound.com/posts/what-happened-to-creative-labs-sound-blaster.html). Plenty of office PCs in 1995 did not, which is why some people who used Windows 95 every day have no memory of the sound whatsoever.
+On a 1995 machine the file sat alongside Chimes, Chord, Ding and Tada, and it only played if the PC had a sound card installed (https://404memoryfound.com/posts/what-happened-to-creative-labs-sound-blaster.html). Plenty of office PCs in 1995 did not, which is why some people who used Windows 95 every day have no memory of the sound at all.
 
-## Who wrote the Windows 95 startup sound?
+## How Brian Eno got the job and what the brief asked for
 
-Brian Eno, the English producer and ambient composer behind "Ambient 1: Music for Airports" and records by U2 and David Bowie. Microsoft designers approached him in 1994, and the piece first appeared in a Windows build in May 1995, three months before Windows 95 went on sale at midnight (https://404memoryfound.com/posts/the-night-windows-95-launched.html) on August 24.
+Brian Eno is the English producer and ambient composer behind "Ambient 1: Music for Airports" and records by U2 and David Bowie. Microsoft reached him through an agency in the mid-1990s, and the finished piece shipped when Windows 95 went on sale on August 24, 1995, the night Microsoft turned a software release into a stadium event (https://404memoryfound.com/posts/the-night-windows-95-launched.html).
 
-Eno described the commission to San Francisco Chronicle critic Joel Selvin in a June 1996 interview. The brief, he said, came from an agency and asked for "a piece of music that is inspiring, universal, blah-blah, da-da-da, optimistic, futuristic, sentimental, emotional," a whole list of adjectives, "and then at the bottom it said, and it must be three and a quarter seconds long."
+Eno described the commission to San Francisco Chronicle critic Joel Selvin in June 1996. The brief, he said, asked for "a piece of music that is inspiring, universal, blah-blah, da-da-da, optimistic, futuristic, sentimental, emotional," followed by a long list of adjectives, and then one line at the bottom saying it had to be three and a quarter seconds long.
 
-He took it because he was stuck. "The idea came up at the time when I was completely bereft of ideas," he told Selvin. "I really appreciated someone coming along and saying, Here's a specific problem, solve it."
+That last constraint is the whole story of the commission. Microsoft was not buying a theme tune. It was buying a signal short enough to sit inside the boot sequence, on hardware where every kilobyte of audio had to load off a spinning disk before the desktop appeared.
 
-Microsoft's own proposal, quoted in the Library of Congress essay on the recording, asked for something that would "capture the spirit of innovation, feel contemporary, and convey a more approachable, human side of the brand."
+## Eighty-four versions, composed on a Macintosh
 
-## Eighty-four versions, written on a Macintosh
+Eno made 84 versions before Microsoft picked one. That is the number he gave Selvin in 1996, and the Library of Congress essay on the recording, written by Eno biographer David Sheppard, puts it in the same range.
 
-Eighty-four is the number Eno gave Selvin in 1996. The Library of Congress essay by Eno biographer David Sheppard puts it at more than 80.
+The scale of the job is what he kept talking about afterward. "It's like making a tiny little jewel," he told the Chronicle, describing a world of very small pieces of music in which he became sensitive to microseconds. When he went back to ordinary work, three-minute tracks felt like oceans of time.
 
-The scale of the job is the part he kept talking about afterward. "It's like making a tiny little jewel," he said. "I got completely into this world of tiny, tiny little pieces of music. I was so sensitive to microseconds at the end of this that it really broke a logjam in my own work." When he went back to normal work, "pieces that were like three minutes long, it seemed like oceans of time." His own 1985 album "Thursday Afternoon" is a single unbroken piece lasting an hour.
+The other detail people remember is the machine. Eno did not own a PC. Asked by BBC Radio 4 in 2009 whether he had written the Windows music on a Windows computer, he said he had used a Mac, and added, "I've never used a PC in my life; I don't like them."
 
-He also did not own a PC. Asked by BBC Radio 4 in 2009 whether he had composed the Windows music on a Windows machine, Eno said he wrote it on a Mac, adding, "I've never used a PC in my life; I don't like them."
+So the sound that introduced Microsoft's operating system to a generation of home users was assembled on Apple hardware, by a composer who had no interest in the product it was selling.
 
 ## Why the brief said 3.25 seconds and the file runs six
 
-The version Microsoft shipped is roughly twice the length it asked for. Download The Microsoft Sound.wav from the Internet Archive and it clocks in at about 6.1 seconds. Wikipedia describes it as a six-second start-up sound, and the German archive winhistory.de lists the Windows 95 chime at about 6 seconds against 7 for Windows 98 and 4 for Windows XP.
+The version Microsoft shipped is roughly twice the length it asked for. Download The Microsoft Sound.wav today and it runs about six seconds, not three and a quarter.
 
-The Library of Congress addressed the gap directly when it took the recording in. The finished clip was twice as long as Microsoft's engineers had asked for, and the company used it anyway because it conveyed the sense of welcome and progress they wanted for the launch.
+The Library of Congress addressed the gap when it took the recording in. The final clip was twice as long as Microsoft's engineers had requested, and the company used it anyway because it carried the sense of welcome and progress they wanted for the launch.
 
-So 3.25 seconds is the brief, not the artifact. The piece Sheppard describes as the chosen one, "all 3.25 seconds of it," is a bell-like attack followed by a decaying electric-piano figure over a synth pad. What plays when the machine boots is that idea with room to breathe.
+So 3.25 seconds is the brief, not the artifact. Sheppard describes the chosen piece as a bright, bell-like timbre with a soft attack followed by a quickly decaying electronic piano figure. What plays when the machine boots is that idea with room to breathe.
 
-One footnote on the famous number. Microsoft's own developer blog, most reprints and the Library of Congress essay all quote the brief as three and a quarter seconds. An archived transcript of the 1996 Chronicle interview reads "three-and-a-half seconds." The 3.25-second figure is the one Microsoft and the Library use.
+The number survives because it is the strange part of the story. A composer known for hour-long ambient records was handed a specification measured to the quarter second, and by his own account the constraint is what made the job worth taking.
 
-## Why later versions of Windows dropped the startup sound
+## Why Windows dropped the startup sound, then brought it back
 
-Windows 98 replaced Eno's piece with a seven-second crescendo by Microsoft sound engineer Ken Kato. Windows XP got a shorter one. For Windows Vista, Microsoft flew in King Crimson guitarist Robert Fripp, and its Channel 9 developer channel published behind-the-scenes footage of the session in January 2006. That Vista sound carried into Windows 7. The same era gave Windows the Bliss wallpaper (https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html) and a house style that treated boot-up as an event.
+Windows 98 replaced Eno's piece with a crescendo by Microsoft sound designer Ken Kato. Windows XP got a shorter one, and for Windows Vista Microsoft brought in King Crimson guitarist Robert Fripp, working with producer Tucker Martine and Microsoft's Steve Ball. That Vista sound carried into Windows 7. The same years gave Windows the Bliss wallpaper (https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html) and a house style that treated switching on a computer as an occasion.
 
-Then it stopped. Jensen Harris, the lead user-interface designer on Windows 8, killed the startup sound partway through development. He told the podcast Twenty Thousand Hertz that opening a laptop with a sleeping baby on his arm and having the machine announce itself convinced him that a device used in bedrooms and libraries should not make noise by default. Dropping it also saved boot time and memory, which mattered as Microsoft pushed Windows onto smaller devices.
+Then it stopped. Jensen Harris, lead user-interface designer on Windows 8, killed the startup sound during development. He told the podcast Twenty Thousand Hertz that opening a laptop with a sleeping baby on his arm, and having the machine announce itself, convinced him that a device used in bedrooms and libraries should not make noise by default.
 
-The sound file stayed in Windows 8, buried and renamed Windows Logon, and stayed off by default through Windows 8.1 and Windows 10.
+The sound stayed off by default through Windows 8, Windows 8.1 and Windows 10.
 
-Windows 11 brought it back in 2021, on by default, playing when the PC reaches the lock screen. Accessibility drove the reversal, because blind and low-vision users needed an audible signal that the machine had finished booting. The new chime is called Petals, designed by Phi Bui, and Microsoft has described it as a small idea blooming into something greater.
+Windows 11 reversed that in 2021 and turned the startup sound back on, playing when the PC reaches the lock screen. The new chime is called Petals, written by Microsoft composer Phi Bui with Josh Cain and Savoy Schuler, and the team has described it as a small idea blooming into something greater.
 
-## What happened to the Microsoft Sound in 2025
+## What happened to the Microsoft Sound in 2025 and 2026
 
-On April 9, 2025, the Library of Congress named the Windows start-up chime to the National Recording Registry, in a class of 25 recordings that also included the original Broadway cast album of "Hamilton," Amy Winehouse's "Back to Black" and the Minecraft soundtrack. The entry is filed as "Windows Start-Up Chime, Brian Eno (1995)," with an essay by David Sheppard, who published the Eno biography "On Some Faraway Beach" in 2008.
+In April 2025 the Library of Congress added the recording to the National Recording Registry, filed as "Windows Start-Up Chime, Brian Eno (1995)," with an essay by David Sheppard. The Library's stated reason had less to do with the music than with the machine. Windows 95 moved more of the computer under a graphical interface and made a home PC usable by people who were not specialists, and the chime is what announced it.
 
-The Library's stated reason had less to do with the music than with the machine. Windows 95 moved more of the computer's operation under a graphical interface and made a home PC usable by people who were not specialists, and the chime is the sound that announced it.
+A month later the fee became public. In May 2025 Eno published an open letter criticizing Microsoft's supply of cloud and AI services to Israel's Ministry of Defense, and said he would give the $35,000 he was paid for the composition to Palestinian aid.
 
-Six weeks later the fee became public. In May 2025 Eno published an open letter criticizing Microsoft's supply of cloud and AI services to Israel's Ministry of Defense and said he would give his original $35,000 composition fee to Palestinian aid. His work for the company in the early 1990s, he wrote, "represented a gateway to a promising technological future."
+The only old Windows sound to resurface since then did so by accident, and it was not Eno's. A bug spotted in Windows 11 Insider builds in June 2025 played the Vista startup sound instead of the Windows 11 one, and Microsoft needed months to clear it, noting in the release notes for Build 27913 (https://www.windowscentral.com/microsoft/windows-11/windows-11-bug-that-unexpectedly-trolled-apple-squashed-by-microsoft-vista-startup-sound-removed) that it had "fixed an issue where the Windows Vista boot sound was unexpectedly being used instead of the Windows 11 boot sound."
 
-Sheppard's essay ends on a flat note for anyone hoping for a sequel: those waiting for a new Brian Eno computer startup sound are probably in for an infinite wait.
+Microsoft has not shipped The Microsoft Sound in a consumer version of Windows since 1998, and nothing announced in 2026 suggests it will. The recording's home now is a public archive and a federal registry, which is a stranger ending than a 3.25-second brief implied.
 
 ## Frequently Asked Questions
 
-### Was the Windows 95 startup sound really 3.25 seconds long?
+### Who composed the Windows 95 startup sound?
 
-The brief was. The shipped file was not. Microsoft's agency asked for three and a quarter seconds, and Eno delivered pieces to that spec, but the version that ended up on the Windows 95 disc runs about six seconds. The Library of Congress noted that the final clip was twice as long as the engineers requested.
+Brian Eno composed the Windows 95 startup sound, known as The Microsoft Sound, for Microsoft in the mid-1990s. He worked to an agency brief that specified 3.25 seconds, made 84 versions, and wrote them on an Apple Macintosh. The piece shipped with Windows 95 on August 24, 1995.
 
-### How much was Brian Eno paid for the Windows 95 sound?
+### How much was Brian Eno paid for the Windows 95 startup sound?
 
-$35,000. Eno confirmed the figure himself in May 2025, when he announced he was donating that fee to Palestinian aid as part of an open letter criticizing Microsoft's contracts with Israel's Ministry of Defense.
+Brian Eno was paid $35,000 for the Windows 95 startup sound. He confirmed the figure in May 2025, when he published an open letter criticizing Microsoft's contracts with Israel's Ministry of Defense and said he would donate that fee to Palestinian aid.
 
 ### Does Windows 11 still have a startup sound?
 
-Yes. Windows 11 restored the startup sound in 2021 and turns it on by default. It is a new composition called Petals by Phi Bui, not Eno's, and you can switch it off in the Sounds control panel by clearing the "Play Windows Startup sound" checkbox.
+Yes. Windows 11 restored the startup sound in 2021 and turns it on by default, playing it when the PC reaches the lock screen. It is a new composition called Petals by Phi Bui, not Brian Eno's Windows 95 chime, and it can be switched off in the Sounds tab under Personalization and Themes.
 
 **Sources:**
 - Library of Congress, “Windows Start-Up Chime, Brian Eno (1995),” National Recording Registry essay by David Sheppard: https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Windows-Start-Up-Chime_Sheppard.pdf
 - San Francisco Chronicle, “Q&A With Brian Eno” by Joel Selvin, June 2, 1996 (archived): https://www.moredarkthanshark.org/eno_int_sfc-jun96.html
+- NME, “Brian Eno pledges fee from Windows 95 chime to Palestine aid,” May 2025: https://www.nme.com/news/music/brian-eno-pledges-fee-from-windows-95-chime-to-palestine-aid-as-he-speaks-out-on-microsofts-support-of-israel-military-3864094
 - Twenty Thousand Hertz, “Why Windows Got Rid of Startup Sounds”: https://www.20k.org/episodes/windowslogonwav
-- Internet Archive, “The Original Windows 95 sounds in WAV format”: https://archive.org/details/win95sounds
-- Engadget, “The Windows 95 start-up chime has been added to the Library of Congress”: https://www.engadget.com/entertainment/music/the-windows-95-start-up-chime-has-been-added-to-the-library-of-congress-203909673.html
+- Neowin, “Windows 95 start up music composed on a Mac”: https://www.neowin.net/news/windows-95-start-up-music-composed-on-a-mac/
 
 ---
 
