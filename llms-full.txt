@@ -6756,96 +6756,98 @@ Yes. Dish Network has held the Blockbuster brand since winning the company's ass
 
 ---
 
-# Does AOL Still Exist? What You Get for $10 a Month
+# Does AOL Still Exist? Bending Spoons Owns It Now
 
 URL: https://404memoryfound.com/posts/does-aol-still-exist-today.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-09-09
+Published: 2026-09-09  Updated: 2026-09-27
 Topics: Internet Culture, Business Blunders
 
-**Summary:** AOL still exists in 2026. It runs free AOL Mail, a news portal and paid plans starting at $9.99 a month, and since January 2, 2026 it has been owned by the Italian software company Bending Spoons, which bought it from Apollo-backed Yahoo for roughly $1.5 billion. The one thing that is gone is dial-up, which AOL switched off on September 30, 2025.
+**Summary:** AOL still exists in 2026. It runs free AOL Mail, a news and lifestyle portal and paid plans starting at $9.99 a month, and since January 2, 2026 it has been owned by Bending Spoons, the Milan software company that also owns Vimeo, Evernote and WeTransfer. The one part that is gone is dial-up, which AOL switched off on September 30, 2025.
 
 **Key facts:**
-- Status today: Active: AOL Mail, news portal and paid plans
+- Status today: Active: free AOL Mail, news portal and paid plans
 - Owner today: Bending Spoons (Milan), since January 2, 2026
-- Last sale price: About $1.5 billion, down from $4.4 billion in 2015
-- What it costs: AOL Desktop Gold $9.99 a month, 30-day trial
-- Dial-up: Discontinued September 30, 2025
+- Price today: AOL Desktop Gold $9.99 a month; Ad-Free AOL Mail $4.99
+- Sale price: About $1.5 billion, paid to Apollo Global Management
+- Dial-up: Switched off September 30, 2025
 
-## Does AOL still exist in 2026?
+## What is left of AOL in 2026?
 
-Yes. AOL still exists, and it is not a shell or a parked domain. It runs a free webmail service, a news and lifestyle portal, and a set of paid subscription plans that real people renew every month.
+More than most people assume, and none of it is dial-up. AOL runs a free webmail service, a news and lifestyle portal, and a set of paid subscription plans that renew every month.
 
-The company that once mailed America hundreds of millions of free trial discs is now a mid-size internet business with a straightforward job: keep tens of millions of email accounts working. When Bending Spoons agreed to buy AOL, chief executive Luca Ferrari put the audience at roughly 8 million daily active users and 30 million monthly active users, and described AOL as one of the ten most-used email providers in the world.
+When Bending Spoons agreed to buy the company on October 29, 2025, it put AOL's audience at roughly 8 million daily active users and 30 million monthly active users, and described AOL as one of the ten most-used email providers in the world. That is the asset. Not the brand, not the discs, the mailboxes.
 
-What no longer exists is the part everyone pictures. The modem handshake is gone. AOL shut off dial-up internet access on September 30, 2025. Email, the portal and the paid plans all survived that cut.
+The modem handshake is the part that ended. AOL switched off dial-up internet access on September 30, 2025 and retired the AOL Dialer and AOL Shield software the same day. Email, the portal and the paid plans all survived that cut.
+
+What has changed since is ownership, staffing and price, in that order. All three happened inside nine months, and all three are the reason the AOL of late 2026 is a different company from the AOL of 2025.
 
 ## Who owns AOL now?
 
-AOL is owned by Bending Spoons, a Milan-based software company that buys aging internet products and rebuilds them. The same firm owns Evernote, Vimeo, Meetup and WeTransfer.
+AOL is owned by Bending Spoons, a Milan-based software company that buys aging internet products and rebuilds them on shared infrastructure. The same firm owns Evernote, Vimeo, Meetup, Eventbrite and WeTransfer.
 
-The deal was announced on October 29, 2025 and reported at roughly $1.5 billion by the Wall Street Journal and Axios, with Reuters putting it closer to $1.4 billion. It closed on January 2, 2026, when Bending Spoons acquired AOL Holdco I LLC, a fact the company later confirmed in its Form F-1 registration statement filed with the U.S. Securities and Exchange Commission.
+The deal was announced on October 29, 2025, funded alongside a $2.8 billion debt package arranged with lenders including Goldman Sachs, J.P. Morgan and BNP Paribas, and reported at roughly $1.5 billion. It closed on January 2, 2026, when Bending Spoons took over AOL Holdco I LLC.
 
-Ferrari said "Bending Spoons has never sold an acquired business" and framed the purchase as a long-term hold rather than a flip.
+The seller was Apollo Global Management, the private equity firm that bought Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), AOL brand included, from Verizon for $5 billion in 2021. Verizon had paid about $4.4 billion for AOL alone in 2015, so AOL changed hands in 2026 for roughly a third of its price eleven years earlier, and for a rounding error against the AOL Time Warner merger (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html) of 2001.
 
-## How AOL got passed down four times
+Chief executive Luca Ferrari framed it as a permanent purchase rather than a flip. "Bending Spoons has never sold an acquired business," he said in the October 2025 announcement. In July 2026 Bending Spoons listed its own shares on Nasdaq under the ticker BSP, so AOL now sits inside a publicly traded company for the first time since 2015.
 
-The ownership chain is short and expensive. Verizon bought AOL in 2015 for $4.4 billion, then bought Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) in 2017 for $4.8 billion, then wrote down about half the combined value of both brands in 2018.
+## What happened to AOL staff after the sale?
 
-In 2021 Verizon sold the whole media group to private equity firm Apollo Global Management for $5 billion. Apollo renamed it Yahoo and kept AOL inside it. Verizon held on to a 10 percent stake.
+They were cut, quickly and in public filings. On February 17, 2026, six weeks after the deal closed, AOL notified Virginia state officials and Fairfax County that 108 workers tied to its office at 11955 Democracy Drive in Reston would lose their jobs, about 94 of them on March 1 and the remaining 14 on May 31.
 
-Five years later Apollo sold AOL alone for about $1.5 billion. That is a third of what Verizon paid for AOL by itself in 2015, and a rounding error against the AOL Time Warner merger (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html) that valued the company in the hundreds of billions in 2001. Each owner bought AOL for a different reason. Verizon wanted an ad business. Apollo wanted cash flow. Bending Spoons wants a subscription base it can price and improve.
+Bending Spoons defended the cuts by pointing at its other purchases. Reducing organizational complexity "leads to faster and more efficient product development," the company told Virginia Business in 2026, arguing that a leaner AOL would serve "its loyal customer base with greater focus and agility." A company spokesperson said departing staff were offered separation packages "exceeding industry standards."
+
+The scale of that pattern shows up in the company's own registration statement filed with the U.S. Securities and Exchange Commission. Bending Spoons added about 1,830 full-time staff through the AOL, Eventbrite and Vimeo acquisitions, and told investors that once those transformations finish later in 2026, only a few hundred of those people are expected to remain.
 
 ## What does an AOL subscription cost in 2026?
 
-AOL Desktop Gold, the paid browser and mail client that most subscribers actually use, is listed at $9.99 a month on AOL's own product page, with a 30-day free trial. That is the $10 a month figure people ask about.
+AOL Desktop Gold, the paid browser and mail client most subscribers actually use, is listed at $9.99 a month on AOL's own product page, with a 30-day free trial. Ad-Free AOL Mail, which strips paid ads out of the webmail inbox, is listed separately at $4.99 a month.
 
-For that price the plan includes anti-keylogging and screen-grab protection, anti-phishing tools, mail filtering that collects every attachment or image from a sender in one place, two-step verification, encryption of information stored in AOL Desktop, and live phone or chat support advertised as available 24 hours a day, seven days a week.
+That $9.99 is new. Desktop Gold was advertised at $6.99 a month earlier in 2026. AOL raised membership pricing from June 25, 2026 and chose not to publish a plain price list, telling customers instead that each subscriber would get an email about their own plan 30 days before renewal, with the option to cancel first.
 
-The wider AOL Advantage plans are harder to price from the outside. The comparison site Allconnect lists AOL Advantage at $9.99 a month, while AOL's own pages have pointed to bundles running from $11.99 to $16.99 a month, mostly built around technical support and identity theft protection from partners such as LifeLock and McAfee.
+For the money, Desktop Gold bundles anti-keylogging and screen-grab protection, anti-phishing tools, mail filtering that gathers every attachment from a sender in one place, two-step verification, encryption of data stored in the client, and phone or chat support advertised around the clock.
 
-None of that includes internet access. It is a software and support subscription that happens to carry the AOL name. A subscriber in 2026 is buying antivirus-style peace of mind and a phone number to call, wrapped in an interface they have used since the Clinton administration.
+None of it includes internet access. An AOL subscription in 2026 is software, security and a phone number to call, sold to people who have used the same interface since the Clinton administration. That is also why the business was worth $1.5 billion: the plans renew quietly and the customers rarely leave.
 
-That is also the reason the business is worth buying. The plans renew quietly, the customers rarely leave, and the cost of keeping the lights on is low compared with what people pay.
+## Why did AOL switch off dial-up in 2025?
 
-## Why did AOL kill dial-up on September 30, 2025?
+AOL announced in August 2025 that dial-up would end on September 30 of that year. The company said only that it "routinely evaluates its products and services" and had decided to discontinue dial-up internet access.
 
-AOL announced in August 2025 that dial-up would end on September 30 of that year, along with the AOL Dialer and AOL Shield software that supported it. The company said only that it "routinely evaluates its products and services" and had decided to discontinue dial-up internet.
+Demand had drained away decades earlier. CNN Business reported at the time that U.S. Census Bureau data for 2023 counted about 163,401 American households relying on dial-up alone to get online, across every provider, not just AOL.
 
-The demand had drained away years earlier. Verizon inherited about 2.2 million dial-up subscribers when it bought AOL in 2015. By 2021 roughly 1.5 million people still paid AOL something every month, but almost none of them were dialing in. Reporting on the shutdown cited 2023 Census Bureau data showing about 163,400 Americans relied on dial-up as their only internet connection, across every provider, not just AOL.
+The technology had also stopped being usable. A dial-up connection topped out near 56 kilobits per second in ideal conditions, and Tom's Hardware calculated in 2025 that an average modern web page of about 3 megabytes would take 20 to 30 minutes to arrive over one. The gap between that and a phone on 5G is covered in the math on how slow 56k really was (https://404memoryfound.com/posts/dialup-speed-then-vs-now.html).
 
-The product itself had stopped being competitive long before that. Reporting at the time of the shutdown pegged AOL dial-up at roughly 0.056 megabits per second, which is not enough to load a modern web page, let alone stream anything.
-
-AOL charged $25.90 a month for dial-up in 2006, according to a CNET report from the time, which was the same price as its DSL service. If you want a sense of what those subscribers were actually getting, the math on how slow dial-up really was (https://404memoryfound.com/posts/dialup-speed-then-vs-now.html) has not aged kindly.
+Shutting it down also removed the last reason AOL needed telephone infrastructure. What remains is a software business with a 1990s brand attached.
 
 ## Can you still get dial-up internet anywhere?
 
-Yes, just not from AOL. NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) still advertises dial-up, including a free tier capped at 10 hours a month and a paid accelerated plan reported at $11.95 a month. EarthLink has offered dial-up at $9.95 a month for an introductory period and $24.95 a month afterward.
+Yes, just not from AOL. NetZero still advertises a free ad-supported dial-up tier capped at 10 hours a month, and EarthLink has listed dial-up at $9.95 a month for an introductory period and $24.95 a month afterward.
 
-So dial-up is not extinct in 2026. It is a niche product for people outside broadband coverage, sold by companies that never made it the center of their identity the way AOL did.
+So the technology survives in 2026 as a niche product for addresses outside broadband coverage, sold by companies that never built their identity on it the way AOL did. The full list of who still sells it is in the rundown on where dial-up is still available (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html).
 
-AOL's other 1990s assets did not all make it this far. AIM was shut down in 2017 (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html), and the AOL Time Warner content empire was broken up and sold in pieces. Email is the one thing that kept compounding, because changing an email address is genuinely annoying and most people never bother.
+AOL's other 1990s assets did not all reach this point. AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html) was shut down in 2017, and the AOL Time Warner content empire was broken up and sold in pieces across the 2000s and 2010s. Email is the one thing that kept compounding, because changing an email address is genuinely annoying and most people never get around to it.
 
 ## Frequently Asked Questions
 
-### Is AOL Mail still free?
+### Is AOL Mail still free in 2026?
 
-Yes. AOL Mail remains free to use with ads in the inbox, and it does not require any paid AOL plan. The paid plans add software such as AOL Desktop Gold, security tools and live support, not access to the mailbox itself.
+Yes. AOL Mail is still free in 2026, with ads in the inbox, and it does not require a paid AOL plan. AOL sells Ad-Free AOL Mail at $4.99 a month for people who want the ads gone, and the paid Desktop Gold plan at $9.99 a month adds security software and live support rather than access to the mailbox.
 
-### Can I still get AOL dial-up internet in 2026?
+### Can you still get AOL dial-up internet?
 
-No. AOL ended dial-up on September 30, 2025 and retired the AOL Dialer and AOL Shield software with it. Other providers including NetZero and EarthLink still sell dial-up, so the technology exists, just not under the AOL brand.
+No. AOL ended dial-up internet access on September 30, 2025 and retired the AOL Dialer and AOL Shield software with it. Other providers including NetZero and EarthLink still sell dial-up in 2026, so the technology exists, just not under the AOL brand.
 
-### Why do people still pay AOL every month?
+### How much does AOL cost a month?
 
-Mostly for support and security rather than internet access. Roughly 1.5 million people were still paying AOL in 2021, and the plans they bought were built around technical help, identity theft protection and the AOL Desktop Gold software, which AOL lists at $9.99 a month.
+AOL Desktop Gold is listed at $9.99 a month in 2026 with a 30-day free trial, up from $6.99 earlier in the year after AOL raised membership prices from June 25, 2026. Ad-Free AOL Mail is $4.99 a month, and a basic AOL Mail account with ads costs nothing.
 
 **Sources:**
-- Bending Spoons S.p.A., Form F-1 registration statement (U.S. SEC): https://www.sec.gov/Archives/edgar/data/0002004711/000110465926071170/tm2613674-7_f1.htm
-- AOL: You've got a new owner: AOL is sold in reputed $1.5B deal: https://www.aol.com/articles/ve-got-owner-aol-sold-201343341.html
+- Bending Spoons to acquire AOL following $2.8B debt financing (Business Wire, October 2025): https://www.businesswire.com/news/home/20251029086811/en/Bending-Spoons-to-acquire-AOL-following-$2.8B-debt-financing
+- Bending Spoons S.p.A., Form F-1 registration statement (U.S. SEC, 2026): https://www.sec.gov/Archives/edgar/data/0002004711/000110465926071170/tm2613674-7_f1.htm
+- AOL to lay off 108 tied to Reston office (Virginia Business, February 2026): https://virginiabusiness.com/aol-to-lay-off-108-tied-to-reston-office/
+- AOL will stop offering dial-up internet service after more than 30 years (CNN Business, August 2025): https://www.cnn.com/2025/08/11/tech/aol-dial-up-internet-discontinue
 - AOL Desktop Gold product page (pricing and features): https://www.aol.com/products/browsers/desktop-gold
-- Currently: How much AOL dial-up service costs in 2025: https://currently.att.yahoo.com/att/much-aol-dial-costs-2025-171205880.html
-- Yahoo News: AOL to shut down dial-up Internet in September: https://www.yahoo.com/news/articles/aol-shut-down-dial-internet-125631260.html
 
 ---
 
