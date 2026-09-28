@@ -16636,92 +16636,91 @@ MTV never announced a stopping date, it tapered off. Videos filled up to eight h
 
 ---
 
-# Is Encarta Still Available? Why Microsoft Killed It
+# Is Encarta Still Available in 2026? Why It Ended
 
 URL: https://404memoryfound.com/posts/what-happened-to-microsoft-encarta.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-03-26  Updated: 2026-09-09
+Published: 2026-03-26  Updated: 2026-09-28
 Topics: Software & Apps, Internet Culture, Business Blunders
 
-**Summary:** Microsoft Encarta is not available in 2026. Microsoft stopped selling the discs in June 2009 and closed the MSN Encarta websites on October 31, 2009, leaving Wikipedia and free web search in its place. The software itself survives: full Encarta 2009 disc images sit on the Internet Archive for anyone willing to run them in a virtual machine.
+**Summary:** Microsoft Encarta is not available in 2026. Microsoft stopped selling the discs in June 2009, closed the MSN Encarta websites on October 31, 2009, and retired the Encarta dictionary in 2011, leaving Wikipedia and web search in its place. The software itself survives: free disc images of Encarta Premium 2009 sit on the Internet Archive for anyone willing to run them in a virtual machine.
 
 **Key facts:**
 - Launched: March 22, 1993, Microsoft
 - Launch price: $395 in 1993, later cut to $99
 - Status today: Discontinued. Disc sales ended June 2009, MSN Encarta closed October 31, 2009
-- Last version: Encarta Premium 2009, released August 23, 2008
-- What replaced it: Wikipedia and free web search
+- Last version: Encarta Premium 2009, released August 2008
+- Price today: Free disc images on the Internet Archive. No official version for sale
+- What replaced it: Wikipedia and web search
 
 ## Is Encarta still available in 2026?
 
-No. Microsoft Encarta has not been sold or hosted by Microsoft since 2009, and nothing has taken its place under that name.
+No. Microsoft has not sold or hosted Microsoft Encarta since 2009, and nothing carries the name today.
 
-The end came in stages. The shutdown was reported on March 30, 2009, when Microsoft confirmed that the reference line was finished. Sales of Microsoft Student and every edition of Encarta Premium stopped worldwide in June 2009. The MSN Encarta websites closed on October 31, 2009 in every country except Japan, where the site ran until December 31, 2009. The Encarta dictionary content lingered online a little longer and was retired in 2011.
+The wind down ran in stages across a single year. Microsoft announced the end on March 30, 2009. Sales of Encarta Premium and the Microsoft Student bundle it shipped inside stopped worldwide in June 2009. The MSN Encarta websites went dark on October 31, 2009 in every country except Japan, where the site ran to the end of December 2009. The Encarta dictionary content stayed online until 2011, and that was the last piece to switch off.
 
-There is no subscription, no download page and no support line. Microsoft did not sell the brand to another publisher the way distressed reference titles often change hands, so no rival version has appeared either. Encarta is one of the rare cases where a market leader was simply switched off, along with other pieces of the MSN family such as MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html).
+There is no subscription, no download page and no support line in 2026. Microsoft never licensed the brand to another publisher the way failing reference titles often change hands, so no rival edition of Encarta exists either. It was turned off rather than sold, the same ending other parts of the MSN family got, including MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html).
 
-## Can you still download or run Encarta today?
+## Can you still download and run Encarta today?
 
-Unofficially, yes. The Internet Archive hosts full disc images of the last release. One item, Microsoft Encarta Premium 2009, was uploaded on April 30, 2024 and offers a 1.9 GB ISO plus a torrent, free to download. Several other Encarta editions in several languages sit alongside it.
+Unofficially, yes, and for nothing. The Internet Archive hosts full disc images of Encarta, including Microsoft Encarta Premium 2009, the final release, with earlier editions from Encarta 95 through Encarta 2006 in several languages beside it.
 
-Getting it running is the harder half. Encarta 2009 was built for the Windows PCs of 2008, so the dependable route is a virtual machine with a period version of Windows rather than a direct install on a current desktop. Nothing about it phones home, since the servers are long gone, which means the whole encyclopedia works offline exactly as it did on release day. It also means the content is frozen in 2008, so every population figure, head of state and space mission in it stops there.
+Getting it running is the harder half. Encarta Premium 2009 was written for the Windows desktops of 2008, so the dependable route is a virtual machine with a period version of Windows rather than a direct install on a 2026 computer. Nothing in it phones home, because the servers are long gone, which means the whole encyclopedia works offline exactly as it did on release day. It also means the content is frozen in 2008: every population figure, head of state and space mission in it stops there.
 
-Where to find one today: physical copies still turn up on eBay (https://404memoryfound.com/posts/ebay-broken-laser-pointer-to-global-marketplace.html).com, mostly the 1995 through 2004 CD editions, with sealed big-box copies listed as collector items and loose discs far more common. Prices swing with condition and packaging, and no edition is scarce enough to be treated as an investment.
+Where to find one today: the disc images at the Internet Archive cost nothing and are the sensible first stop. If the physical box is the point, Encarta CD-ROM and DVD editions from the mid 1990s through 2009 show up regularly in vintage software listings on Etsy (https://www.etsy.com/search?q=microsoft+encarta+cd-rom), loose discs far more often than sealed copies. What a copy costs depends on the edition and the packaging, and no edition of Encarta is scarce.
 
 ## Why did Microsoft shut Encarta down?
 
-Because free won. Wikipedia was written and corrected by volunteers, updated within hours of an event, and cost readers nothing. Encarta paid editors, licensed photographs and video, pressed discs, and shipped a new edition once a year. Broadband made the annual disc look absurd.
+Because free won, and by 2009 it was not close. In January 2009, Wikipedia took 97 percent of the visits United States web users made to online encyclopedias, according to the measurement firm Hitwise. MSN Encarta was second with 1.27 percent, followed by Encyclopedia.com at 0.76 percent, Fact Monster at 0.72 percent and Britannica.com fifth at 0.57 percent.
 
-Microsoft said as much in the notice it posted for customers, which explained that "the category of traditional encyclopedias and reference material has changed."
+Microsoft said the same thing in the notice it posted for customers in 2009: "The category of traditional encyclopedias and reference material has changed. People today seek and consume information in considerably different ways than in years past."
 
-The people who built it were not surprised. Tom Corddry, who ran Microsoft's multimedia group, later put it plainly: "We knew from the beginning that we were a temporary business, eventually to be overtaken by the internet."
+The business model finished the job. Encarta paid editors, licensed photographs and video, pressed discs and shipped a new edition once a year, and Wikipedia was written and corrected by volunteers, updated within hours of an event, and free. Microsoft had also spent years giving Encarta away with new PCs to win the market, which taught buyers to treat the encyclopedia as a free extra. When a free competitor arrived on the web, there was little paying revenue left to defend.
 
-Bundling made the ending worse. Encarta had spent 15 years being given away with new PCs to win the market, which trained a generation to expect the encyclopedia as a free extra. When a free competitor arrived on the web, there was no paying customer base left to defend.
+## What was inside Encarta, and what was MindMaze?
 
-## What was it actually like to use?
+By 2008 the complete English edition, Encarta Premium, held more than 62,000 articles, along with an atlas, timelines, and audio and video clips that no printed set could carry. That was the pitch: an encyclopedia you clicked instead of carried.
 
-Encarta was an encyclopedia you clicked instead of carried. The standard edition held roughly 50,000 articles, and the premium editions passed 62,000 by 2008. The Spanish version ran about 42,000. Across its life it appeared in English, German, French, Spanish, Portuguese, Italian, Dutch and Japanese.
+What people remember is rarely the articles. It is MindMaze, the trivia game hidden inside the encyclopedia, where the player explores a castle by answering questions whose answers sit in the encyclopedia's own entries. Plenty of households met Encarta through a child who never opened it for homework and finished the castle anyway.
 
-The articles came from licensed print stock. Microsoft signed a non-exclusive deal for the Funk and Wagnalls encyclopedia in 1989, then folded in material from Collier's Encyclopedia and the New Merit Scholar's Encyclopedia bought from Macmillan.
+Microsoft was shipping a lot of friendly consumer software in those years, including Clippy (https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html), and Encarta was the one that earned goodwill rather than jokes. It also served a second purpose for Microsoft: a reason to buy a PC with a CD-ROM drive and a sound card at a moment when multimedia hardware needed selling.
 
-What people remember is rarely the text. It is MindMaze, the first-person trivia game hidden inside the encyclopedia, where you unlocked doors in a castle by answering questions drawn from the articles. It is also the atlas, the timelines and the audio clips, all of which felt like a different category of object than a book. Microsoft was shipping a lot of friendly consumer software in those years, including Clippy (https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html), and Encarta was the one that stuck.
+## Where did Encarta's articles come from?
 
-## What did Encarta do to print encyclopedias?
+Not from Microsoft. The company went to Encyclopaedia Britannica first, in 1985, and was turned down, because a CD-ROM did not fit a publisher selling leather-bound prestige door to door. By 1989 Microsoft had a non-exclusive deal for the 29-volume Funk and Wagnalls New Encyclopedia instead, and that text became the basis of the first edition.
 
-It ended them as a mass-market business. In 1980, encyclopedia publishers took around $400 million a year in US retail sales, mostly from salespeople who came to the door. A Britannica set ran about $1,400 in 1988.
+More bought-in material followed. In the late 1990s Microsoft acquired Collier's Encyclopedia and the New Merit Scholar's Encyclopedia from Macmillan and folded both into Encarta. The last version of Encarta was effectively the successor to all three, and none of those encyclopedias stayed in print for long after being merged into it.
 
-Microsoft had approached Britannica first, in 1985, and been turned down, because a CD-ROM did not fit a company selling leather-bound prestige. Funk and Wagnalls said yes instead. Encarta arrived on March 22, 1993 at $395, then dropped to $99 and started shipping free with new machines, including the wave of PCs that followed the Windows 95 launch (https://404memoryfound.com/posts/the-night-windows-95-launched.html).
+The pricing did the rest of the damage to print. Encarta arrived on March 22, 1993 at $395, dropped to $99, and was then handed out with new computers, including the wave of machines that followed the Windows 95 launch (https://404memoryfound.com/posts/the-night-windows-95-launched.html). A household that would never spend four figures on a bookshelf set would take a disc for nothing.
 
-Britannica's answer in 1994 was a CD-ROM at $995, roughly ten times Encarta's standalone price. That year Britannica sold 51,000 print sets, down from more than 100,000 four years earlier. The rest of the category went the same way. Scholastic bought Grolier, the publisher behind one of the earliest digital encyclopedias, for $400 million in 2000, by which point the printed set was a legacy product.
+## Was Encarta ever meant to last?
 
-## What replaced Encarta, and will Microsoft bring it back?
+The people who built it did not think so. Tom Corddry, who ran Microsoft's multimedia group, told Business Insider in 2015: "We knew from the beginning that we were a temporary business, eventually to be overtaken by the internet."
 
-Wikipedia replaced it for practical purposes, backed by free web search for everything else. That is the answer Microsoft itself pointed at in 2009, and it is why the shutdown was covered at the time with the joke that you could read all about it on Wikipedia.
+That is close to what happened, with one correction: the internet did not beat Encarta with a better encyclopedia so much as with a bigger and faster one that cost nothing. Wikipedia replaced it for practical purposes in 2009, backed by web search for everything else, and the joke in the coverage at the time was that you could read all about the shutdown on Wikipedia.
 
-Microsoft has announced no plan to revive Encarta. There has been no Encarta product of any kind since the dictionary was retired in 2011, and the company's reference work now runs through search and its AI assistants rather than a branded encyclopedia. The last version, Encarta Premium 2009, shipped on August 23, 2008 and remains the final edition.
-
-What survives is the expectation Encarta created. It taught households that reference material should be searchable, illustrated, instantly available and cheap. Wikipedia met that expectation better and for nothing, which is the whole story in one sentence.
+Microsoft has announced no plan to revive it. There has been no Encarta product of any kind since the dictionary went offline in 2011, and the company's reference work now runs through search and its AI assistants rather than a branded encyclopedia. What survives is the expectation Encarta created in the 1990s: that reference material should be searchable, illustrated, instant and cheap. Something else met that expectation better and for free, which is the whole story in one sentence.
 
 ## Frequently Asked Questions
 
+### Is Encarta still available to buy in 2026?
+
+No. Microsoft stopped selling every edition of Microsoft Encarta worldwide in June 2009 and closed the MSN Encarta websites on October 31, 2009, and there has been no official version since. Free disc images of Encarta Premium 2009 and earlier editions are hosted on the Internet Archive, and second-hand discs turn up in vintage software listings.
+
 ### Can Encarta run on Windows 11?
 
-Not reliably as a direct install. Encarta Premium 2009 was written for the Windows desktops of 2008, so the usual approach is a virtual machine running a period version of Windows, with the disc image from the Internet Archive mounted inside it.
-
-### What was the last version of Encarta?
-
-Encarta Premium 2009, released on August 23, 2008. Microsoft stopped selling it, and the Microsoft Student bundle it came in, worldwide in June 2009.
+Not reliably as a direct install. Encarta Premium 2009 was written for the Windows desktops of 2008, so the usual approach in 2026 is a virtual machine running a period version of Windows with the disc image from the Internet Archive mounted inside it. Encarta needs no internet connection, since Microsoft shut its servers down in 2009.
 
 ### Did Wikipedia really kill Encarta?
 
-Wikipedia was the direct cause, though not the only one. Free volunteer editing beat a yearly paid edition on both speed and breadth, and Microsoft's own habit of bundling Encarta with new PCs meant there was little paying revenue left to protect by 2009.
+Wikipedia was the direct cause of Encarta's 2009 shutdown, though not the only one. By January 2009 Wikipedia had 97 percent of United States visits to online encyclopedias against 1.27 percent for MSN Encarta, according to Hitwise, and Microsoft's habit of bundling Encarta free with new PCs through the 1990s meant there was little paying revenue left to protect by then.
 
 **Sources:**
-- Microsoft, The History of Microsoft 1993: https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1993
-- TechCrunch, Microsoft To Shutter Encarta (March 30, 2009): https://techcrunch.com/2009/03/30/microsoft-to-shutter-encarta-read-all-about-it-on-wikipedia/
-- Tedium, Who Killed the Encyclopedia: https://tedium.co/2017/07/13/who-killed-the-encyclopedia/
-- Internet Archive, Microsoft Encarta Premium 2009: https://archive.org/details/microsoft-encarta-premium-2009
 - Wikipedia, Encarta: https://en.wikipedia.org/wiki/Encarta
+- Technologizer, Microsoft Encarta: A Casualty of the Web (March 30, 2009): https://technologizer.com/2009/03/30/microsoft-encarta-a-casualty-of-the-web/
+- Network World, Hitwise: Wikipedia squashes encyclopedia rivals (2009): https://www.networkworld.com/article/2273089/hitwise--wikipedia-squashes-encyclopedia-rivals.html
+- Business Insider, Microsoft had a secret, genius reason for making an encyclopedia in the nineties (2015): https://www.businessinsider.in/Microsoft-had-a-secret-genius-reason-for-making-an-encyclopedia-in-the-nineties/articleshow/49824616.cms
+- Internet Archive, Microsoft Encarta Premium 2009: https://archive.org/details/microsoft-encarta-premium-2009
 
 ---
 
