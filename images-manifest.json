@@ -852,6 +852,16 @@
   "thumb": "/img/thumb/sb16-ct2940-472ed4.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Red_Dot_Award_Product_Design_2000-2018_Aibos_%28cropped%29.jpg/960px-Red_Dot_Award_Product_Design_2000-2018_Aibos_%28cropped%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Red_Dot_Award_Product_Design_2000-2018_Aibos_%28cropped%29.jpg",
+  "ext": "jpg",
+  "file": "/img/red-dot-award-product-design-2000-2018-aibos-cropped-ef245b.jpg",
+  "height": 1544,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/red-dot-award-product-design-2000-2018-aibos-cropped-ef245b.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/TomTom_Go_500.JPG/960px-TomTom_Go_500.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:TomTom_Go_500.JPG",
   "ext": "jpg",

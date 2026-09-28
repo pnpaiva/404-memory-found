@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Is the Sony Aibo Still Sold in 2026? Not in Japan</title>
+      <link>https://404memoryfound.com/posts/sony-aibo-robot-dog-today.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/sony-aibo-robot-dog-today.html</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>The Sony Aibo is still sold in the United States, but Sony ended Japanese sales in June 2026, eight years after the $2,899 revival.</description>
+      <enclosure url="https://404memoryfound.com/pins/sony-aibo-robot-dog-today.jpg" length="189872" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/sony-aibo-robot-dog-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Who Owns Virgin Megastore Now? Zero US Stores Left</title>
       <link>https://404memoryfound.com/posts/virgin-megastore-stores-left.html</link>
@@ -233,18 +245,6 @@
       <description>Rainforest Cafe is down to 16 US restaurants in 11 states in 2026, from a peak of 59. Landry&#x27;s owns it, and the Paris location closes in November.</description>
       <enclosure url="https://404memoryfound.com/pins/rainforest-cafe-locations-left.jpg" length="373723" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/rainforest-cafe-locations-left.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Who Owns Kinko&#x27;s Now? FedEx Retired the Brand</title>
-      <link>https://404memoryfound.com/posts/is-kinkos-still-around.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-kinkos-still-around.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Kinko&#x27;s is gone in the US: FedEx bought it for $2.4 billion, then took an $891 million charge in 2008 to stop using the name.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-kinkos-still-around.jpg" length="244903" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-kinkos-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Then vs Now</category>
     </item>

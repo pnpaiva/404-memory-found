@@ -4,6 +4,103 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is the Sony Aibo Still Sold in 2026? Not in Japan
+
+URL: https://404memoryfound.com/posts/sony-aibo-robot-dog-today.html
+Author: Marcus Vale (404 Memory Found)
+Published: 2026-09-28
+Topics: Hardware, Then vs Now
+
+**Summary:** The Sony Aibo is still sold in the United States in 2026, but Sony announced on June 26, 2026 that it would stop selling the ERS-1000 in Japan once stock runs out. Sony still owns the brand, still supports existing robots with parts and cloud subscriptions, and says the Aibo business will continue.
+
+**Key facts:**
+- Launched: June 1, 1999 (ERS-110), Sony
+- Price then: $2,500 in 1999, about $5,000 in 2026 dollars
+- Units sold: More than 150,000 from 1999 to 2006
+- Owner today: Sony, which has never sold or licensed the brand
+- Status today: Sold in the US; Japanese sales ended June 2026
+
+## What did the first Aibo cost in 1999?
+
+Sony showed the ERS-110 on May 11, 1999, and put it on sale on June 1 of that year. It cost 250,000 yen in Japan and $2,500 in the United States, which is about $5,000 in 2026 dollars.
+
+Sony built only 5,000 of them, 3,000 for Japan and 2,000 for the American market. The first batch sold out online in roughly 20 minutes, which made the ERS-110 the rarest Aibo Sony ever shipped.
+
+The machine came out of Sony's Digital Creatures Laboratory under engineer Toshitada Doi, who had worked on the compact disc a generation earlier. The ERS-110 was a beagle-shaped robot with a camera in its nose, microphones in its head and software meant to give every unit a slightly different temperament depending on how its owner treated it.
+
+The name carried the idea. Sony built it from "artificial intelligence robot," and aibo is also a Japanese word for partner or companion, which is what the marketing promised buyers they were getting.
+
+Nothing else on a 1999 shelf worked that way. A Tamagotchi (https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html) was a keychain with three buttons. Aibo walked, chased a pink ball, sulked when it was ignored and cost as much as a used car.
+
+## Why Sony stopped making Aibo in 2006
+
+Four generations followed the ERS-110. The last of them, the ERS-7, reached stores in November 2003 at $1,599, a little more than half the launch price of the original.
+
+It was not enough. By 2006 Sony was in a bad stretch in consumer electronics, and a company-wide clean-up cut the robotics work along with several other side projects. Production stopped that year. More than 150,000 Aibos had been sold since 1999.
+
+The loss reached places Sony had not planned for. Aibo was the standard machine in RoboCup's four-legged robot soccer league, so university teams that had spent years writing code for it had to move to a different platform once the supply dried up.
+
+Sony kept a repair service running for the surviving robots, then closed it in 2014. From that point there were no official spare parts, no official diagnostics and no way to replace a failed joint except by taking one out of another Aibo.
+
+That mattered more than it would for a stereo. Aibo owners had spent years training a machine that was supposed to develop its own habits, and a dead hip joint meant losing the specific robot rather than a replaceable model. Japanese owners started referring to their broken units as sick rather than faulty.
+
+## Why a Japanese temple holds funerals for Aibos
+
+That parts problem created one of the strangest afterlives in consumer electronics. A repair company called A-Fun, founded by former Sony engineer Nobuyuki Norimatsu, began fixing dead Aibos using components stripped from robots that could not be saved.
+
+Norimatsu decided the donor robots deserved a send-off first. A-Fun took them to Kofukuji, a 450-year-old Buddhist temple in Isumi, in Chiba prefecture east of Tokyo, where a priest chants sutras over rows of switched-off robot dogs before they are taken apart.
+
+One 2018 service covered 114 Aibos. By that year A-Fun had sent off around 800 of them.
+
+The head priest, Bungen Oi, told AFP in 2018 that "All things have a bit of soul." Owners send letters with their robots. Some of the dogs arrive with name tags still on.
+
+It is the sort of thing that only happens to a product people talked to. Nobody held a service for a dead Sony Discman (https://404memoryfound.com/posts/what-happened-to-sony-discman-portable-cd-player.html).
+
+## Can Americans still buy an Aibo in 2026?
+
+Yes. Sony brought Aibo back in January 2018 with the ERS-1000, a rounder, 30-centimeter robot with oval eyes on OLED panels and a camera in its nose. The American version, the First Litter Edition, was announced on August 23, 2018 and went on sale that September at $2,899 with a three-year AI Cloud Plan and an individually numbered dog tag.
+
+The engineering answer to the 2006 complaint was the cloud. The ERS-1000 keeps its learned behavior and its photographs on Sony's servers rather than only inside the robot, so a repaired or replaced body can pick up where the old one stopped. That is also why the robot needs a paid plan to stay fully itself.
+
+It worked. Sony sold about 20,000 Aibos in Japan in the first six months.
+
+Eight years later the picture changed. On June 26, 2026 Sony said it would stop selling the ERS-1000 in Japan once existing stock runs out. United States sales continue, and AFP reported that the robot still retails there for more than $3,000.
+
+The support side stays open. Sony said technical support, replacement parts and the cloud subscriptions that hold each robot's memories will be maintained, with no end date announced, which is the opposite of what happened to owners in 2006. Asked about a next generation, Sony told AFP in 2026 that "the aibo business will continue."
+
+## Where to find one today
+
+Old Aibos still change hands, and the tiers are predictable. A working ERS-7 with its charging station and original box sits at the top, a serviced second-generation ERS-210 in the middle, and a non-working parts unit at the bottom. The 1999 ERS-110 is the scarcest of all, since Sony made 5,000.
+
+The weak point is always the battery. Original packs are long dead, and a rebuilt or recelled pack is the difference between a robot that walks and an ornament, so read what a seller says about the battery before anything else.
+
+Units, replacement parts, charging stations and reproduction accessories turn up on Etsy's Sony Aibo listings (https://www.etsy.com/search?q=sony+aibo+robot).
+
+A new ERS-1000 is a different proposition. It is sold through Sony in the United States, and like the Segway (https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html) it is a machine whose price never really came down.
+
+## Frequently Asked Questions
+
+### Is the Sony Aibo discontinued?
+
+Partly. Sony announced on June 26, 2026 that it would stop selling the ERS-1000 Aibo in Japan once stock runs out, while sales in the United States continue. Sony also confirmed it will keep providing technical support, replacement parts and cloud subscriptions for existing Aibos, and told AFP in 2026 that the Aibo business will continue.
+
+### How much does a Sony Aibo cost?
+
+Sony launched the current ERS-1000 Aibo in the United States in September 2018 at $2,899, bundled with a three-year AI Cloud Plan, and AFP reported in June 2026 that it still sells for more than $3,000 there. The first Aibo, the ERS-110 of 1999, cost $2,500, or about $5,000 in 2026 dollars.
+
+### Who owns Aibo now?
+
+Sony has owned Aibo outright since it introduced the ERS-110 in 1999, and the brand was never sold or licensed away during the 12 years between the 2006 production shutdown and the 2018 revival. The robot is designed, sold and supported by Sony in 2026.
+
+**Sources:**
+- Sony discontinues Japan sales of Aibo robot puppy (AFP), The Japan Times, June 26, 2026: https://www.japantimes.co.jp/business/2026/06/26/companies/sony-sales-aibo-robot-stop/
+- Aibo (1999), ROBOTS: Your Guide to the World of Robotics, IEEE: https://robotsguide.com/robots/aibo
+- Fido funeral: In Japan, a send-off for robot dogs (AFP), Phys.org, April 2018: https://phys.org/news/2018-04-fido-funeral-japan-send-off-robot.html
+- Sony Announces Limited First Litter Edition Release of aibo in U.S., Sony press release, August 23, 2018: https://sony.mediaroom.com/2018-08-23-Sony-Announces-Limited-First-Litter-Edition-Release-of-aibo-in-U-S
+- $2,500 in 1999 to 2026 dollars, CPI Inflation Calculator: https://www.in2013dollars.com/us/inflation/1999?amount=2500
+
+---
+
 # Who Owns Virgin Megastore Now? Zero US Stores Left
 
 URL: https://404memoryfound.com/posts/virgin-megastore-stores-left.html
