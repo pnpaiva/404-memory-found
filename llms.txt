@@ -115,7 +115,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Why Netscape Navigator Lost to Internet Explorer](https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html): Netscape Navigator lost to Internet Explorer because Microsoft gave IE away free and wired it into Windows. Navigator led 51% to 40% in 1997, then fell.
 - [Did Blockbuster Turn Down Netflix for $50 Million?](https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html): Blockbuster did turn down Netflix for $50 million in 2000. Netflix booked $45.2 billion in 2025 revenue; EchoStar now owns the Blockbuster name.
 - [Did Yahoo Turn Down Google for $1 Million in 1998?](https://404memoryfound.com/posts/yahoo-rejected-google.html): Yahoo never bought Google and Google never bought Yahoo. The $1 million story is thinly sourced, and the real offer in 2002 was $3 billion.
-- [Microsoft Tried to Buy Nintendo and Got Laughed At](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and spent an hour being laughed at. The letter survives, and the Xbox shipped two years later.
+- [Did Microsoft Try to Buy Nintendo? The 1999 Letter](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and Nintendo refused. The October 20 letter survives, and Nintendo is still independent in 2026.
 
 ## Internet Culture
 - [Is SkyMall Still Around in 2026? Yes, Online Only](https://404memoryfound.com/posts/skymall-still-around-who-owns-it.html): SkyMall is still around in 2026 as an online store. C&A Marketing bought the bankrupt in-flight catalog at auction in 2015 for $1.9 million.
@@ -318,7 +318,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Why the Nintendo GameCube Lost the Console War](https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html): The Nintendo GameCube sold 21.74 million units to the PlayStation 2's 155 million and died in 2007. Its games returned on Switch 2 in June 2025.
 - [Are Tamagotchis Still Made in 2026? Yes, by Bandai](https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html): Tamagotchi is still made by Bandai in 2026. Shipments passed 100 million in July 2025, new models cost $44.99, and 1997 originals fetch $40 to $50.
 - [Why Sega Stopped Making Consoles After Dreamcast](https://404memoryfound.com/posts/why-sega-stopped-making-consoles-dreamcast.html): Sega stopped making consoles on January 31, 2001, after the Dreamcast sold 9.13 million units. It has not built one since, and still will not.
-- [Microsoft Tried to Buy Nintendo and Got Laughed At](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and spent an hour being laughed at. The letter survives, and the Xbox shipped two years later.
+- [Did Microsoft Try to Buy Nintendo? The 1999 Letter](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and Nintendo refused. The October 20 letter survives, and Nintendo is still independent in 2026.
 
 ## Then vs Now
 - [Is Windows Movie Maker Still Available in 2026?](https://404memoryfound.com/posts/windows-movie-maker-still-available.html): Windows Movie Maker is gone: Microsoft pulled the download on January 10, 2017. Clipchamp replaced it, and a fake version once charged $29.95.
