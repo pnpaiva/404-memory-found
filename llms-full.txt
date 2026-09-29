@@ -5163,108 +5163,104 @@ Sega no longer manufactures the Sega Genesis Mini, which launched on September 1
 
 ---
 
-# Is Habbo Hotel Still Around? The Pixel Hotel in 2026
+# Is Habbo Hotel Still Around? Yes, and Up for Sale
 
 URL: https://404memoryfound.com/posts/is-habbo-hotel-still-around.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-09-10
+Published: 2026-09-10  Updated: 2026-09-29
 Topics: Internet Culture, Gaming
 
-**Summary:** Habbo Hotel is still around in 2026. The virtual hotel launched by Finnish studio Sulake in 2000 is owned today by the Dutch group Azerion, which bought Sulake outright in January 2021, and Sulake said in August 2025 that the site had passed 300 million registered accounts with hundreds of thousands of monthly active users. A separate retro version, Habbo Hotel: Origins, has recreated the 2005 client since June 2024.
+**Summary:** Habbo Hotel is still around in 2026. The virtual hotel that Sulake launched in Finland in August 2000 is still free to play and still developed from Helsinki, but its owner, the Dutch group Azerion, told investors in February 2026 that it intends to sell the business, and it was still listing Habbo Hotel as held for sale in its half-year report on August 27, 2026. Sulake said in August 2025 that the site had passed 300 million registered accounts, and a replica of the 2005 version, Habbo Hotel: Origins, has been running since June 2024.
 
 **Key facts:**
-- Launched: August 2000 in Finland as Hotelli Kultakala; UK hotel January 2001, US hotel September 2004
+- Launched: August 2000 in Finland as Hotelli Kultakala; the US hotel at habbo.com opened in September 2004
 - Company: Sulake, founded in Helsinki in 2000 by Sampo Karjalainen and Aapo Kyrola
-- Peak: 200 million registered accounts by January 2011, more than 13 million monthly unique visitors
-- Owner today: Azerion, which took 51 percent in 2018 and the remaining 49 percent in January 2021
-- Status today: Active in 2026: 300 million registered accounts, hundreds of thousands of monthly active users, plus Habbo Hotel: Origins
+- Peak: More than 200 million registered accounts and more than 13 million monthly unique visitors, reported February 2011
+- Owner today: Azerion, sole owner since January 2021, which has classified Habbo Hotel as held for sale through August 2026
+- Status today: Online and free to play in 2026, with hundreds of thousands of monthly active users and Habbo Hotel: Origins on Steam since October 2025
 
-## How a Finnish goldfish tank turned into a virtual hotel
+## How a Finnish goldfish hotel became a global chat room
 
-Habbo Hotel started as a side project in Helsinki. Sampo Karjalainen and Aapo Kyrola founded Sulake in 2000, and their first version of the idea was called Hotelli Kultakala, Finnish for Hotel Goldfish, which went live on a Finnish internet provider's portal in August 2000.
+Habbo Hotel started as a side project in Helsinki. Sampo Karjalainen and Aapo Kyrola founded Sulake in 2000, and the first version of the idea was called Hotelli Kultakala, Finnish for Hotel Goldfish, which went live on a Finnish internet provider's portal in August 2000.
 
-The concept was simple enough to explain in a sentence. You picked a pixel character, walked around isometric rooms drawn at an angle, typed into a speech bubble, and bought furniture for a room of your own.
+The concept fit in one sentence. You picked a pixel character, walked around isometric rooms drawn at an angle, typed into a speech bubble, and bought furniture for a room of your own.
 
-The first hotel outside Finland opened in the United Kingdom in January 2001, built with the British entrepreneur Dee Edwards. The American hotel, at habbo.com, opened in September 2004, and it became one of the busiest rooms in the chain almost immediately.
+The first hotel outside Finland opened in the United Kingdom, in beta at the end of January 2001, built with the British entrepreneur Dee Edwards. The American hotel, at habbo.com, opened in September 2004 and became one of the busiest rooms in the chain almost immediately.
 
-Entry was always free. The money came from virtual furniture, called furni by everyone who played, and from a paid membership called Habbo Club. Sulake dropped the word Hotel from the branding in 2006, though almost nobody who grew up on it ever stopped saying Habbo Hotel.
-
-By the end of the decade there were separate hotels for different countries and languages, each with its own staff, its own economy, and its own cliques. It was one of the largest virtual worlds on the web before Second Life (https://404memoryfound.com/posts/what-happened-to-second-life-virtual-world.html) convinced the press that virtual worlds were a story worth covering.
+Entry was always free. The money came from virtual furniture, called furni by everyone who played, and from a paid membership called Habbo Club. By the end of the decade there were separate hotels for different countries and languages, each with its own staff, its own economy and its own cliques. It was one of the largest virtual worlds on the web before Second Life (https://404memoryfound.com/posts/what-happened-to-second-life-virtual-world.html) convinced the press that virtual worlds were a story worth covering.
 
 ## Why 4chan closed the pool in July 2006
 
-On July 12, 2006, users from the 4chan message board flooded Habbo Hotel with hundreds of identical avatars: dark suits, gray skin, and large afros. They arranged themselves into blockades around the swimming pools in the busiest rooms and announced that the pool was closed.
+On July 12, 2006, users from the 4chan message board flooded Habbo Hotel with hundreds of identical avatars: dark suits, gray skin and large afros. They arranged themselves into blockades around the swimming pools in the busiest rooms and announced that the pool was closed.
 
-The tactic worked because of a design detail. Avatars in Habbo Hotel could not walk through each other, so a line of characters standing shoulder to shoulder was a physical wall that moderators had to remove by hand.
+The tactic worked because of a design detail. Avatars in Habbo Hotel could not walk through each other, so a line of characters standing shoulder to shoulder was a physical wall that moderators had to take apart by hand.
 
-The raids were repeated for years afterward, and the phrase outlived the site that produced it. Pool's Closed became one of the first internet memes to escape its origin completely, showing up on forums and in image macros long after the people sharing it had any idea what Habbo Hotel was.
+The raids were repeated for years, and the phrase outlived the site that produced it. Pool's Closed became one of the first internet memes to escape its origin completely, turning up on forums and in image macros long after the people sharing it had any idea what Habbo Hotel was.
 
 For Sulake the raids were an early warning. A world with millions of teenagers in it, run by a company of a few hundred people, was going to be very hard to police. That problem came back six years later in a far more serious form.
 
 ## What the 2012 Channel 4 News report cost Sulake
 
-On June 12, 2012, Channel 4 News in the United Kingdom aired the results of a two-month investigation into Habbo Hotel. Reporters found sexually explicit chat on a site used by children, and concluded that moderation was far weaker than Sulake had claimed publicly.
+On June 12, 2012, Channel 4 News in the United Kingdom aired the results of a two-month investigation into Habbo Hotel. Reporters posing as children said they were sent explicit messages and pushed to undress on webcam, and concluded that moderation was far weaker than Sulake had claimed in public.
 
 Sulake's response the next day was drastic. On June 13, 2012, the company muted every user in every hotel worldwide at once, an event players still call the Great Mute. Chat, private messages and the console all went silent.
 
 Chief executive Paul LaFontaine said the company had "taken the decision to mute all conversations across the site," in a statement reported by ITV News in 2012.
 
-The financial damage arrived within hours. Balderton Capital gave up its 13 percent stake in Sulake and resigned its board seat, as TechCrunch reported on June 12, 2012, and the investment firm 3i pulled its 16 percent stake the following day. British retailers pulled Habbo gift cards from shelves.
+The financial damage arrived within hours. Balderton Capital, an investor for eight years, gave up its stake in Sulake and its board seat, and the private equity firm 3i pulled out the following day. British retailers took Habbo gift cards off their shelves.
 
-Chat came back on June 19, 2012 with tighter filters and a chat system that limited what younger accounts could type. The site survived, but the growth curve never came back.
+Chat came back on June 19, 2012 with tighter filters and limits on what younger accounts could type. The site survived, but the growth curve never came back, and Sulake spent the rest of the decade as a business that changed hands rather than one that expanded.
 
-## How many people still log in to Habbo Hotel
+## Who owns Habbo Hotel today, and why it is up for sale
+
+Sulake still develops and operates Habbo Hotel from Helsinki, but Sulake itself is not independent. The Dutch company Azerion bought a controlling 51 percent stake in 2018 and acquired the remaining 49 percent from the Finnish telecoms group Elisa in January 2021.
+
+That arrangement is now ending. Azerion has spent the last two years turning itself into an advertising business, selling Whow Games to DoubleU Games in July 2025 and closing its Premium Games division. In its full-year 2025 results, published in February 2026, the company wrote that "The Group has the intention to sell the remaining part of the Premium Games segment." The remaining part is Habbo Hotel and its sister app Hotel Hideaway.
+
+Since then Azerion has reported both games as held for sale, the accounting category for assets a company expects to sell within a year, and it was still reporting them that way in its half-year results on August 27, 2026. No buyer had been announced by the end of September 2026.
+
+For players, a sale is not the same as a shutdown. Habbo Hotel has changed owners repeatedly since 2012 and stayed open through every one of them. What a new owner would mean for the roadmap is the open question, and nobody outside the process can answer it yet.
+
+## How many people still log in to the hotel in 2026
 
 Habbo Hotel is still running in 2026, and the honest answer about its size is that it is a fraction of what it was, but a fraction of a very large number.
 
-The peak is well documented. Sulake announced that Habbo Hotel had passed 200 million registered accounts in January 2011, and VentureBeat reported in February 2011 that the site was drawing more than 13 million unique visitors a month.
+The peak is well documented. VentureBeat reported on February 3, 2011 that Habbo Hotel had passed 200 million registered accounts and was drawing more than 13 million unique visitors a month.
 
-The current figures come from Sulake itself. In August 2025, around the site's 25th anniversary, Sulake product director Mika Timonen told Forbes that Habbo Hotel had passed 300 million total registered users and had hundreds of thousands of monthly active users across nine language communities.
+The current figures come from Sulake. In August 2025, around the site's 25th anniversary, Sulake product director Mika Timonen told Forbes that Habbo Hotel had passed 300 million total registered users and had hundreds of thousands of monthly active users. Registered accounts accumulated over 25 years are not a live audience, and the gap between the two numbers is the whole story of the site since 2012.
 
-That puts it in unusual company. It is smaller than it was, but it is still open, which is more than can be said for Club Penguin (https://404memoryfound.com/posts/what-happened-to-club-penguin.html), and it never needed a rescue campaign from its own players to stay online.
-
-Timonen was blunt about the modern competition. "When we see platforms like Roblox, Fortnite, and others rising, we don't feel threatened, we feel proud," he told Forbes in 2025.
-
-## Who owns Habbo Hotel now, and who runs it
-
-Sulake still develops and operates Habbo Hotel from Helsinki, but Sulake itself is no longer independent. The Dutch company Azerion bought a 51 percent controlling stake in 2018, under the name Orange Games, and acquired the remaining 49 percent in January 2021.
-
-Azerion is a digital entertainment and advertising group listed in Amsterdam, and Habbo Hotel is one of the older assets in its portfolio. That ownership change coincided with the biggest technical rebuild in the site's history.
-
-Habbo Hotel ran on Flash for two decades, and Flash was being switched off. Sulake opened a Unity client in beta on December 23, 2020 and retired the Flash version on January 1, 2021, the same deadline that killed thousands of browser games built on Macromedia Flash (https://404memoryfound.com/posts/definitive-history-macromedia-flash.html).
-
-The reaction was ugly. Long-time players complained that the Unity client had lost features they used daily, the hashtag SaveHabbo spread across social media, and in February 2021 Sulake added an Adobe AIR client alongside Unity to bring some of them back.
+Timonen was not defensive about the modern competition. "When we see platforms like Roblox, Fortnite, and others rising, we don't feel threatened, we feel proud," he told Forbes in 2025. That puts Habbo Hotel in unusual company: smaller than it was, but still open, which is more than can be said for Club Penguin (https://404memoryfound.com/posts/what-happened-to-club-penguin.html).
 
 ## What Habbo Hotel: Origins brought back
 
-The most interesting thing Sulake has done in years is admit that a lot of people preferred the old version. In June 2024 it launched Habbo Hotel: Origins, a recreation of the 2005 client, with the old navigation, the old furniture catalog, and the visual style people actually remember.
+Habbo Hotel ran on Flash for two decades, and Flash was being switched off. Sulake opened a Unity client in open beta on December 23, 2020 and retired the Flash version on January 1, 2021, the same deadline that killed thousands of browser games built on Macromedia Flash (https://404memoryfound.com/posts/definitive-history-macromedia-flash.html). Long-time players said the Unity client had lost features they used daily, the SaveHabbo hashtag spread, and in February 2021 Sulake added an Adobe AIR client alongside Unity to bring some of them back.
 
-Origins is rated for adults rather than children, which is the point. The audience that filled the hotels in 2005 is now in its thirties and forties, and Sulake built a version for them instead of trying to win back a teenage market that has gone to Roblox.
+The more interesting response came three years later. On June 19, 2024 Sulake launched Habbo Hotel: Origins, a recreation of the 2005 client with the old navigation, the old furniture catalog and the visual style people actually remember.
 
-It runs as a separate service with its own hotels, alongside the main Unity version of Habbo Hotel, and it later added a release on Steam. Both versions are live in 2026.
+Origins is rated for adults rather than children, which is the point. The audience that filled the hotels in 2005 is now in its thirties and forties, and Sulake built a version for them instead of chasing a teenage market that has gone to Roblox. It runs as a separate service alongside the main Unity version, and it arrived on Steam on October 15, 2025, free to play.
 
-That is the short answer to what happened to Habbo Hotel. It did not shut down, it did not get sold for parts, and it did not quietly become a shell. It got smaller, changed owners, rebuilt itself twice, and then reopened a replica of its own past next door.
+So the short answer is that Habbo Hotel did not shut down, did not get sold for parts and did not quietly become a shell. It got smaller, changed owners, rebuilt itself twice, reopened a replica of its own past next door, and is now waiting to see who buys it.
 
 ## Frequently Asked Questions
 
 ### Is Habbo Hotel still online in 2026?
 
-Yes. Habbo Hotel is still online in 2026, operated by Sulake in Helsinki and owned by the Dutch group Azerion, which took full control of Sulake in January 2021. Sulake said in August 2025 that the site had passed 300 million registered accounts and had hundreds of thousands of monthly active users.
+Yes. Habbo Hotel is still online and free to play in 2026, developed by Sulake in Helsinki and owned by the Dutch group Azerion, which took full control of Sulake in January 2021. Sulake said in August 2025 that the site had passed 300 million registered accounts and had hundreds of thousands of monthly active users.
 
-### Why did Habbo Hotel mute every user in 2012?
+### Who owns Habbo Hotel now?
 
-Habbo Hotel muted every user worldwide on June 13, 2012, the day after a Channel 4 News investigation in the United Kingdom found explicit chat and weak moderation on a site used by children. Chat returned on June 19, 2012 with stricter filters, but investors Balderton Capital and 3i had already given up their stakes in Sulake.
+Azerion, an Amsterdam-listed digital advertising group, has owned all of Sulake and therefore Habbo Hotel since January 2021, after buying a 51 percent stake in 2018. Azerion said in February 2026 that it intends to sell the business, and it was still reporting Habbo Hotel as held for sale in August 2026, with no buyer announced by the end of September 2026.
 
 ### Can you still play the 2005 version of Habbo Hotel?
 
-Yes. Sulake launched Habbo Hotel: Origins in June 2024, a recreation of the 2005 Habbo Hotel client with the original look and catalog, rated for adult players. It runs as a separate service from the main Habbo Hotel and is still live in 2026.
+Yes. Sulake launched Habbo Hotel: Origins on June 19, 2024, a recreation of the 2005 Habbo Hotel client with the original look and catalog, rated for adult players. It runs as a separate service from the main Habbo Hotel and has been on Steam, free to play, since October 15, 2025.
 
 **Sources:**
-- Habbo (history, hotels, Flash to Unity, Origins): https://en.wikipedia.org/wiki/Habbo
-- Virtual world Habbo hits more than 200M registered users, VentureBeat, 2011: https://venturebeat.com/2011/02/03/virtual-world-habbo-hits-more-than-200m-registered-users
-- Trouble At Habbo Hotel: Balderton Dumps Its 13% Stake In Owner Sulake, TechCrunch, 2012: https://techcrunch.com/2012/06/12/trouble-at-habbo-hotel-balderton-dumps-13-stake-in-owner-sulake-over-dodgy-child-content/
-- 'Greatly saddened' Habbo Hotel CEO suspends chats following accusations, ITV News, 2012: https://www.itv.com/news/update/2012-06-13/greatly-saddened-habbo-hotel-ceo-suspends-chats-following-accusations/
+- Azerion Group N.V., Interim Unaudited Financial Results Q4 2025 and Preliminary Full Year 2025 (intention to sell Premium Games), February 2026: https://www.globenewswire.com/news-release/2026/02/26/3245219/0/en/azerion-publishes-interim-unaudited-financial-results-q4-2025-and-preliminary-unaudited-financial-results-full-year-2025.html
+- Azerion Group N.V., Interim Unaudited Financial Results Q2 and H1 2026 (Habbo and Hotel Hideaway held for sale), August 2026: https://www.globenewswire.com/news-release/2026/08/27/3351773/0/en/azerion-publishes-interim-unaudited-financial-results-q2-and-h1-2026.html
 - How Social MMO Habbo Has Thrived and Survived for Over 25 Years, Forbes, 2025: https://www.forbes.com/sites/davidjagneaux/2025/08/15/how-social-mmo-habbo-has-thrived-and-survived-for-over-25-years/
+- 'Greatly saddened' Habbo Hotel CEO suspends chats following accusations, ITV News, 2012: https://www.itv.com/news/update/2012-06-13/greatly-saddened-habbo-hotel-ceo-suspends-chats-following-accusations/
+- Virtual world Habbo hits more than 200M registered users, VentureBeat, 2011: https://venturebeat.com/2011/02/03/virtual-world-habbo-hits-more-than-200m-registered-users
 
 ---
 
