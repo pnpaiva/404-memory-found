@@ -4973,25 +4973,25 @@ No operating company owns Redbox. The Redbox trademark was put up for sale by th
 
 URL: https://404memoryfound.com/posts/dial-up-modem-sound-explained.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-11
+Published: 2026-09-11  Updated: 2026-09-30
 Topics: Then vs Now, Internet Culture
 
-**Summary:** The dial-up sound was not random static. It was a scripted handshake in which two modems disabled the network's echo cancellers, traded capability menus under ITU-T Recommendation V.8, and probed the phone line with 21 tones before agreeing on a speed. You can still hear it in 2026 on the dial-up services NetZero and Juno sell, but not on AOL, which shut its dial-up down on September 30, 2025.
+**Summary:** The dial-up sound was not random static. It was a scripted handshake in which two modems disabled the network echo cancellers, traded capability menus under ITU-T Recommendation V.8, and probed the phone line with 21 tones before agreeing on a speed. You can still hear it in 2026 on the dial-up service NetZero and Juno sell, but not on AOL, which shut its dial-up down on September 30, 2025.
 
 **Key facts:**
 - What it was: A modem handshake: dial tone, DTMF digits, answer tone, capability menus, line probe, training
-- The first tone: 2100 Hz, phase-reversed every 450 ms to disable network echo cancellers
+- The first tone: 2100 Hz, phase-reversed every 450 ms to disable network echo cancellers (ITU-T V.8)
 - The line probe: 21 tones spaced 150 Hz apart, from 150 Hz to 3750 Hz (ITU-T V.34)
 - Why it stopped: The Hayes default M1 mutes the speaker once a carrier is detected
-- Status today: AOL ended dial-up September 30, 2025; about 100,277 US households still use it
+- Status today: AOL ended dial-up on September 30, 2025; NetZero and Juno still sell it, and about 100,277 US households used dial-up in the 2024 ACS
 
 ## What are you hearing in the first five seconds?
 
 The dial-up sound was never one noise. It was a fixed sequence of steps, each one doing a specific job, and the order barely changed from call to call.
 
-It opened with the dial tone, then the touch tones of the phone number itself, punched out as DTMF digits. People who connected every day could recognize their own provider's access number by ear, the way you recognize a ringtone.
+It opened with the dial tone, then the touch tones of the phone number itself, punched out as DTMF digits. People who connected every day could recognize their own provider's access number by ear.
 
-Then the far end spoke for the first time: a steady tone at 2100 Hz. That tone was not a greeting. It was a demand. The phone network put echo suppressors and echo cancellers on long trunks because they help human conversation, and they would have wrecked a data call. ITU-T Recommendation V.8 specifies that the answering modem flip the phase of that 2100 Hz tone by 180 degrees every 450 ms, which is the exact signal network echo cancellers are built to stand down for.
+Then the far end spoke for the first time: a steady tone at 2100 Hz. That tone was not a greeting. It was a demand. The phone network put echo suppressors and echo cancellers on long trunks because they help human conversation, and they would have wrecked a data call. ITU-T Recommendation V.8 specifies that the answering modem flip the phase of that 2100 Hz tone by 180 degrees every 450 ms, give or take 25 ms, which is the exact signal network echo cancellers are built to stand down for.
 
 The same tone carried a second message. Amplitude-modulated by a 15 Hz sine wave, it became ANSam, and the wobble was a flag that said this end speaks V.8 and is ready to negotiate. A flat 2100 Hz tone with no wobble meant an older machine at the other end and a slower call ahead.
 
@@ -5009,9 +5009,9 @@ That is why the sequence sounded like an argument. It was one.
 
 The ugliest part of the sound, the burst that came after the negotiation and before the hiss, was a measuring instrument.
 
-ITU-T Recommendation V.34, the standard behind the 28,800 bit/s modems of the mid-1990s, defines a line probing signal built from 21 tones spaced 150 Hz apart, running from 150 Hz all the way up to 3750 Hz, with the tones at 900, 1200, 1800 and 2400 Hz deliberately left out. The gaps matter as much as the tones, because they let the receiving end hear what the line itself adds.
+ITU-T Recommendation V.34, the standard behind the 28,800 bit/s modems of the mid-1990s, defines a line probing signal built from 21 tones spaced 150 Hz apart, running from 150 Hz up to 3750 Hz, with the tones at 900, 1200, 1800 and 2400 Hz deliberately left out. The gaps matter as much as the tones, because they let the receiving end hear what the line itself adds.
 
-The probe goes out twice. L1 is sent 6 dB above the normal power level for 160 ms. L2 repeats the same tones at normal power for no longer than 550 ms plus the round trip delay. The listening modem runs a spectrum analysis on both and reads the damage: which frequencies the line swallows, how much it delays them, how nonlinear it is.
+The probe goes out twice. L1 is sent for 160 ms at 6 dB above the nominal power level. L2 repeats the same tones at nominal power for no longer than 550 ms plus the round trip delay. The listening modem runs a spectrum analysis on both and reads the damage: which frequencies the line swallows, how much it delays them, how nonlinear it is.
 
 From that it picks a symbol rate and a carrier frequency, then both ends send scrambled data at each other to train their equalizers and echo cancellers. That training is the long featureless hiss at the end. By then the modems were not negotiating anymore. They were rehearsing.
 
@@ -5027,13 +5027,15 @@ That also explains why the sound never got faster as modems got faster. The hand
 
 ## Can you still hear a modem connect in 2026?
 
-Barely, and almost never by accident.
+Yes, but almost never by accident. The service that produced the sound for more Americans than any other is gone.
 
-AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) shut down the service that produced the sound for more Americans than any other. In a notice posted in August 2025 the company said it "routinely evaluates its products and services and has decided to discontinue Dial-up Internet," and the service, along with the AOL Dialer software and the AOL Shield browser, went dark on September 30, 2025.
+AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) announced in August 2025 that it "routinely evaluates its products and services" and had decided to discontinue Dial-up Internet. The service, along with the AOL Dialer software and the AOL Shield browser, went dark on September 30, 2025, one year ago to the day.
 
-Dial-up itself is not extinct. NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) and Juno still sell it, and the Census Bureau's American Community Survey counted about 100,277 US households with dial-up as their only home internet subscription in the 2024 data released in September 2025. Those households hear the handshake every time they connect.
+W. Patrick McCray, a technology historian at the University of California, Santa Barbara, told NPR in 2025 that "in some ways, it was kind of like the sound of the 1990s."
 
-Everyone else has to go looking. Fax machines, alarm panels and some payment terminals still run the same negotiation over the same copper. Räisänen's 2012 recording and spectrogram are still online. So are plenty of the websites those modems used to load (https://404memoryfound.com/posts/90s-websites-still-online.html), which is a stranger kind of survival than the sound itself.
+Dial-up itself did not die with AOL. NetZero and Juno, both owned by United Online, still sell dial-up access (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html), and the Census Bureau's American Community Survey counted about 100,277 US households with dial-up as their only home internet subscription in the 2024 data released in September 2025. Those households hear the handshake every time they connect.
+
+Everyone else has to go looking. Fax machines, alarm panels and some payment terminals still run the same negotiation over the same copper. Räisänen's 2012 recording and spectrogram are still online, and so are plenty of the websites those modems used to load.
 
 ## Frequently Asked Questions
 
@@ -5053,7 +5055,7 @@ Yes, but you have to seek it out. AOL ended its dial-up service on September 30,
 - ITU-T Recommendation V.8: Procedures for starting sessions of data transmission over the PSTN: https://www.itu.int/rec/T-REC-V.8/en
 - ITU-T Recommendation V.34: Modem operating at data signalling rates of up to 33 600 bit/s: https://www.itu.int/rec/T-REC-V.34/en
 - Oona Räisänen, 'The sound of the dialup, pictured', absorptions, 2012: https://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html
-- CNN Business: AOL will stop offering dial-up internet service after more than 30 years in business (2025): https://www.cnn.com/2025/08/11/tech/aol-dial-up-internet-discontinue
+- NPR: AOL is ending its dial-up internet service (2025): https://www.npr.org/2025/08/12/nx-s1-5499539/aol-dial-up-ending
 - Reviews.org: The U.S. Digital Divide Is Shrinking, But Nearly 8 Million Households Remain Offline: https://www.reviews.org/internet-service/how-many-us-households-are-without-internet-connection/
 
 ---
