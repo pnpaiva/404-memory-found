@@ -293,13 +293,6 @@
    "source": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"
   },
   {
-   "name": "Did Skype",
-   "started": "2003, by Niklas Zennström and Janus Friis",
-   "status2026": "Retired on May 5, 2025; the apps and skype.com sign-in now point to Microsoft Teams Free",
-   "owner2026": "Microsoft, which paid $8.5 billion in cash in May 2011",
-   "source": "https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html"
-  },
-  {
    "name": "Digg",
    "started": "December 5, 2004, by Kevin Rose and three co-founders",
    "status2026": "Live at digg.com as an AI news aggregator, in alpha since May 2026",
@@ -1138,6 +1131,13 @@
    "status2026": "Online store at skymall.com; no standalone seat-pocket catalog",
    "owner2026": "C&A Marketing, since April 2015",
    "source": "https://404memoryfound.com/posts/skymall-still-around-who-owns-it.html"
+  },
+  {
+   "name": "Skype",
+   "started": "2003, by Niklas Zennström and Janus Friis",
+   "status2026": "Retired on May 5, 2025; the apps and the skype.com sign-in point to Microsoft Teams Free",
+   "owner2026": "Microsoft, which paid $8.5 billion in cash in May 2011",
+   "source": "https://404memoryfound.com/posts/skype-shut-down-what-replaced-it.html"
   },
   {
    "name": "Sony Aibo",
