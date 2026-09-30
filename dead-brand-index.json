@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-09-30",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 190,
+ "count": 191,
  "brands": [
   {
    "name": "3dfx",
@@ -900,6 +900,13 @@
    "status2026": "Relaunched September 2026 in Europe, the Middle East and Africa; the DotBook laptop starts at 499 euros",
    "owner2026": "Acer Inc., which took over Packard Bell in 2008 after buying Gateway",
    "source": "https://404memoryfound.com/posts/packard-bell-computer-brand-today.html"
+  },
+  {
+   "name": "Pager",
+   "started": "",
+   "status2026": "Still sold and serviced, mostly to hospitals and emergency services",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/pagers-still-used-today.html"
   },
   {
    "name": "Palm",
