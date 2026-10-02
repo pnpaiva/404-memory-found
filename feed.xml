@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why the T-Mobile Sidekick Died and What It&#x27;s Worth</title>
+      <link>https://404memoryfound.com/posts/t-mobile-sidekick-danger-hiptop.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/t-mobile-sidekick-danger-hiptop.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>T-Mobile stopped selling the Sidekick on July 2, 2010, and Danger&#x27;s servers went dark on May 31, 2011. Here is what killed it and what is left.</description>
+      <enclosure url="https://404memoryfound.com/pins/t-mobile-sidekick-danger-hiptop.jpg" length="230301" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/t-mobile-sidekick-danger-hiptop.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Are Pagers Still Used in 2026? Hospitals Say Yes</title>
       <link>https://404memoryfound.com/posts/pagers-still-used-today.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/heelys-still-sold-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Then vs Now</category>
       <category>Money &amp; Tech</category>
-    </item>
-    <item>
-      <title>Why Discovery Zone Failed and What&#x27;s Left in 2026</title>
-      <link>https://404memoryfound.com/posts/discovery-zone-failed-indoor-playground.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/discovery-zone-failed-indoor-playground.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Discovery Zone failed after two bankruptcies and closed for good by the end of 2001. One unaffiliated center still uses the name in 2026.</description>
-      <enclosure url="https://404memoryfound.com/pins/discovery-zone-failed-indoor-playground.jpg" length="303286" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/discovery-zone-failed-indoor-playground.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>

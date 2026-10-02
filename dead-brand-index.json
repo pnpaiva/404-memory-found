@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-10-02",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 191,
+ "count": 192,
  "brands": [
   {
    "name": "3dfx",
@@ -1173,6 +1173,13 @@
    "status2026": "Still played; ASL Season 21 ran March to May 2026",
    "owner2026": "Microsoft, since the Activision Blizzard deal closed October 13, 2023",
    "source": "https://404memoryfound.com/posts/what-happened-to-starcraft-birth-of-esports.html"
+  },
+  {
+   "name": "T-Mobile Sidekick",
+   "started": "October 1, 2002, as the Danger Hiptop, sold by T-Mobile",
+   "status2026": "Discontinued. Sales ended July 2, 2010; data service ended May 31, 2011",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/t-mobile-sidekick-danger-hiptop.html"
   },
   {
    "name": "Tamagotchi",
