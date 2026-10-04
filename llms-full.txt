@@ -3757,21 +3757,21 @@ Columbia House was run by Edge Line Ventures, John Lippman's company, which took
 
 ---
 
-# Scan Old Photos and Negatives: DIY vs Mail-In Cost
+# Scan Old Photos in 2026: What DIY and Mail-In Cost
 
 URL: https://404memoryfound.com/posts/scan-old-photos-negatives-2026.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-13
+Published: 2026-09-13  Updated: 2026-10-04
 Topics: Then vs Now, Hardware
 
-**Summary:** Scanning old photos in 2026 comes down to two routes. A flat-rate mail-in box from a bulk lab such as ScanMyPhotos digitizes an average of 1,800 4x6 prints for $145 with shipping included, while doing it at home means a film-capable flatbed scanner and roughly ten hours at the desk for the same pile. Scan prints at 400 ppi or better, the minimum US federal agencies must meet, and count negatives and slides separately, because labs bill film per frame.
+**Summary:** Scanning old photos in 2026 comes down to two routes, because Costco left the photo business: its in-store photo centers closed on February 14, 2021 and CostcoPhotoCenter.com on January 27, 2023. A flat-rate mail-in box from a bulk lab such as ScanMyPhotos digitizes an average of 1,800 4x6 prints for $145 with shipping included, about eight cents a print, while doing it at home means a film-capable flatbed scanner and roughly ten hours at the desk for the same pile. Scan prints at 400 ppi or better, the minimum US federal agencies must meet, and count negatives and slides separately, because labs bill film per frame.
 
 **Key facts:**
-- Cheapest bulk route: ScanMyPhotos flat-rate prepaid box, $145 for an average of 1,800 4x6 prints, shipping included (2026)
+- Price today: ScanMyPhotos flat-rate prepaid box, $145 for an average of 1,800 4x6 prints, shipping included (2026)
 - Home scanner: Epson Perfection V600 flatbed with two film holders, priced at $229.99 when DPReview tested it in 2019
-- Free phone option: Google PhotoScan, which merges several frames to kill glare (method published April 2017)
 - Resolution to use: 400 ppi minimum for prints under 36 CFR Part 1236, Subpart E; 600 ppi at home
-- Status today: Costco closed every in-store Photo Center on February 14, 2021; mail-in labs and home scanners took the work
+- Cheaper route: A home flatbed below a few hundred prints; a mail-in box past about 1,000
+- Status today: Costco is out of photos: warehouse photo centers closed February 14, 2021, CostcoPhotoCenter.com on January 27, 2023
 
 ## What does a shoebox of prints cost to digitize?
 
@@ -3797,6 +3797,8 @@ The federal government has already answered this for prints. Under 36 CFR Part 1
 
 Save prints as JPEG at the highest quality the software offers. Reach for TIFF only for the handful of images that are genuinely irreplaceable, since those files are several times larger and a lot of photo apps handle them badly.
 
+A phone held over an album cannot hold 400 ppi across the frame, because every capture sits at a slightly different distance and angle. Free glare-reducing capture apps are worth having for photographs that are staying in somebody else's house, and a scanner is worth the trouble for the box coming home in the car.
+
 Whatever the setting, choose it once and do not change it halfway through the box. A folder scanned at three different resolutions is a folder somebody scans again.
 
 ## Do negatives and slides need different gear?
@@ -3811,27 +3813,17 @@ Dedicated 35mm scanners from Plustek and others do better on grain and on dust, 
 
 Mail-in labs price film per frame rather than per box. That is why a single slide carousel can cost more to digitize than an entire shoebox of prints, and why it is worth counting slides separately before ordering anything.
 
-## Is the phone in your pocket good enough?
+## Does Costco still scan photos in 2026?
 
-For photographs that are not leaving somebody else's house, a phone is the only realistic answer. The problem with photographing a photograph is glare: gloss paper, album sleeves and glass frames all throw the ceiling light straight back into the lens.
-
-Google's free PhotoScan app gets around that by taking several frames instead of one. The user moves the phone through four corner positions and the app merges what it captured.
-
-Google researchers Ce Liu, Michael Rubinstein, Mike Krainin and Bill Freeman described the method on the Google Research blog in April 2017, as software that can "carefully align and combine several slightly different pictures of a print to separate the glare from the image underneath."
-
-What a phone cannot do is hold a measured resolution across the whole frame. Every capture sits at a slightly different distance, angle and white balance, so a phone-scanned album ends up looking like an album somebody photographed.
-
-Use it at a relative's kitchen table, where the alternative is no copy at all. Use a scanner or a lab for the box that is coming home in the car.
-
-## Where can you still get photos scanned in 2026?
-
-Not at the warehouse club, and that still catches people out. Costco closed the photo counter in every one of its US warehouses on February 14, 2021, ending passport photos, photo restoration and the negative and slide digitizing that sat alongside them.
+No, and that still catches people out. Costco closed the photo counter in every one of its US warehouses on February 14, 2021, ending passport photos, photo restoration and the negative and slide digitizing that sat alongside them.
 
 The company was blunt about the reason. As PetaPixel reported in January 2021, Costco told members that "since the introduction of camera phones and social media, the need for printing photos has steeply declined, even though the number of pictures taken continues to grow."
 
-What is left in 2026 is three places. Mail-in labs work by the box and turn a closet into a download link. Independent camera shops work by the hour and charge like it, which is the right call for damaged or oversized originals. The third place is your own desk.
+Two years later the online half went too. Costco shut down CostcoPhotoCenter.com on January 27, 2023, along with CostcoBusinessPrinting.com and CostcoDVD.com, and pointed members at Shutterfly instead. PetaPixel reported in January 2023 that Costco gave no reason beyond calling Shutterfly an "industry leader" that would offer photo services at a "Costco member value."
 
-Chain drugstores still print photographs in most US towns, but scanning a stack of old prints is not a counter service the way it was in the one-hour era.
+Shutterfly prints and makes books and gifts. It is not a bulk scanning lab for the prints already sitting in your closet, so the Costco route is closed in both directions.
+
+What is left in 2026 is three places. Mail-in labs work by the box and turn a closet into a download link. Independent camera shops work by the hour and charge like it, which is the right call for damaged or oversized originals. The third place is your own desk.
 
 Where to find one today. A flat-rate prepaid box from ScanMyPhotos (https://www.scanmyphotos.com/photo-scanning/prepaid-photo-scanning-box.html) runs $145 in 2026 and holds an average of 1,800 4x6 prints with shipping included, which is the cheapest per-print route once the pile passes a thousand. Slides and negatives are billed per frame, so count those before ordering.
 
@@ -3842,6 +3834,8 @@ Scanning is the easy half of the job. One folder on one laptop is not an archive
 Keep three copies: the working folder, an external drive, and a cloud account, with at least one of them outside the house. That covers the two failure modes that actually destroy family pictures, which are hardware death and fire.
 
 Name the files while the box is still open on the table. Something like 1987-summer-lake-01 costs ten minutes now and saves an hour of squinting later, and a date in the filename survives every software migration that follows.
+
+Free hosting is not a plan either. Anyone who kept an album on a hosting service in the 2000s has seen what that is worth, which is the story behind Photobucket (https://404memoryfound.com/posts/is-photobucket-still-around.html) and the links it broke across the web in 2017.
 
 Then keep the paper. Prints have outlasted a long line of formats that were supposed to replace them, and the companies that bet against paper did not all come out well: Kodak (https://404memoryfound.com/posts/what-happened-to-kodak-digital-camera-bankruptcy.html) went through bankruptcy and Polaroid (https://404memoryfound.com/posts/what-happened-to-polaroid-camera.html) went through a long series of owners before the name came back.
 
@@ -3857,16 +3851,16 @@ Scanning old photos costs about eight cents a print through a bulk mail-in box i
 
 Scan prints at 400 ppi or better. That is the minimum US federal agencies must meet under 36 CFR Part 1236, Subpart E, when they digitize permanent photographic records, and 600 ppi is a safe home setting. Negatives and slides need far more, because a 35mm frame is about one inch by one and a half and has to be magnified rather than copied at size.
 
-### Can I scan old photos with my phone instead of a scanner?
+### Does Costco still scan photos and slides?
 
-Yes, and for albums that are staying in somebody else's house it is the practical choice. Google's free PhotoScan app captures several frames of a print and merges them to remove the glare a single phone photo would leave, a method Google researchers described on the Google Research blog in April 2017. A phone still will not hold a measured 400 ppi across the frame the way a flatbed scanner does.
+No. Costco closed the photo center in every US warehouse on February 14, 2021, which ended its in-store negative and slide digitizing, and it shut CostcoPhotoCenter.com on January 27, 2023, sending members to Shutterfly. Shutterfly prints photos and makes books and gifts rather than bulk-scanning the prints you already own.
 
 **Sources:**
 - ScanMyPhotos: prepaid photo scanning box: https://www.scanmyphotos.com/photo-scanning/prepaid-photo-scanning-box.html
 - eCFR: 36 CFR Part 1236, Subpart E, Digitizing Permanent Federal Records: https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1236/subpart-E
 - DPReview: What it's like to scan film on the Epson Perfection V600: https://www.dpreview.com/reviews/1857649076/what-it-s-like-to-scan-film-on-the-epson-v600/
-- Google Research Blog: PhotoScan, Taking Glare-Free Pictures of Pictures: https://research.google/blog/photoscan-taking-glare-free-pictures-of-pictures/
 - PetaPixel: Costco is Closing All Photo Centers by February 14: https://petapixel.com/2021/01/13/costco-is-closing-all-photo-centers-by-february-14/
+- PetaPixel: Costco Shuts Down Online Photo Center, Directs Customers to Shutterfly: https://petapixel.com/2023/01/10/costco-shuts-down-online-photo-center-directs-customers-to-shutterfly
 
 ---
 
