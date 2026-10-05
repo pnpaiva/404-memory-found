@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns EarthLink Now? Trive Capital Bought It</title>
+      <link>https://404memoryfound.com/posts/who-owns-earthlink-now.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-earthlink-now.html</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>EarthLink is still around in 2026: Trive Capital owns it, after paying Windstream $330 million at the end of 2018 for a brand once second only to AOL.</description>
+      <enclosure url="https://404memoryfound.com/pins/who-owns-earthlink-now.jpg" length="128174" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/who-owns-earthlink-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Internet Culture</category>
+      <category>Business Blunders</category>
+    </item>
     <item>
       <title>Why the T-Mobile Sidekick Died and What It&#x27;s Worth</title>
       <link>https://404memoryfound.com/posts/t-mobile-sidekick-danger-hiptop.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/is-angelfire-still-online.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Internet Culture</category>
       <category>Business Blunders</category>
-    </item>
-    <item>
-      <title>Are Heelys Still Sold in 2026? Who Owns Them Now</title>
-      <link>https://404memoryfound.com/posts/heelys-still-sold-2026.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/heelys-still-sold-2026.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Heelys are still sold new in 2026, owned by BBC International, which paid $11 million for the brand in 2021. Peak year: 6.2 million pairs in 2006.</description>
-      <enclosure url="https://404memoryfound.com/pins/heelys-still-sold-2026.jpg" length="276149" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/heelys-still-sold-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Then vs Now</category>
-      <category>Money &amp; Tech</category>
     </item>
   </channel>
 </rss>
