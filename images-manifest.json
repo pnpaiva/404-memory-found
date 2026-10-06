@@ -1234,6 +1234,16 @@
   "thumb": "/img/thumb/mom-s-beanies-9120344523-ff6c65.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/012_365_-_05_12_2012_-_EarthLink_Digital_Camera_%287185810894%29.jpg/960px-012_365_-_05_12_2012_-_EarthLink_Digital_Camera_%287185810894%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:012_365_-_05_12_2012_-_EarthLink_Digital_Camera_%287185810894%29.jpg",
+  "ext": "jpg",
+  "file": "/img/012-365-05-12-2012-earthlink-digital-camera-7185810894-fb94fe.jpg",
+  "height": 850,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/012-365-05-12-2012-earthlink-digital-camera-7185810894-fb94fe.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gateway_2000_Destination.jpg/960px-Gateway_2000_Destination.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Gateway_2000_Destination.jpg",
   "ext": "jpg",
