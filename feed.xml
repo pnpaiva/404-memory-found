@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Is the Philips CD-i Worth Anything? 2026 Prices</title>
+      <link>https://404memoryfound.com/posts/philips-cd-i-worth-today.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/philips-cd-i-worth-today.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>The Philips CD-i is worth $225 to $300 as a working console in 2026, and its Zelda discs far more. Philips lost close to $1 billion on 570,000 units.</description>
+      <enclosure url="https://404memoryfound.com/pins/philips-cd-i-worth-today.jpg" length="247837" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/philips-cd-i-worth-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Hardware</category>
+    </item>
     <item>
       <title>Who Owns EarthLink Now? Trive Capital Bought It</title>
       <link>https://404memoryfound.com/posts/who-owns-earthlink-now.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/everquest-still-active-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Is Angelfire Still Online? Lycos Closed It in 2026</title>
-      <link>https://404memoryfound.com/posts/is-angelfire-still-online.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/is-angelfire-still-online.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Angelfire is not still online. Lycos took the free web host down on April 24, 2026, after a January outage and 30 days of notice.</description>
-      <enclosure url="https://404memoryfound.com/pins/is-angelfire-still-online.jpg" length="203943" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/is-angelfire-still-online.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Internet Culture</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>

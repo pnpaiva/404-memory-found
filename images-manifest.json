@@ -1910,6 +1910,16 @@
   "thumb": "/img/thumb/firefox-rss-feed-9dc06b.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Philips_CD-i_450_Tietokonemuseo.JPG/960px-Philips_CD-i_450_Tietokonemuseo.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Philips_CD-i_450_Tietokonemuseo.JPG",
+  "ext": "jpg",
+  "file": "/img/philips-cd-i-450-tietokonemuseo-9cb23e.jpg",
+  "height": 853,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/philips-cd-i-450-tietokonemuseo-9cb23e.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Schmidt-Brin-Page-20080520_%28cropped%29.jpg/960px-Schmidt-Brin-Page-20080520_%28cropped%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Schmidt-Brin-Page-20080520_%28cropped%29.jpg",
   "ext": "jpg",
