@@ -13993,87 +13993,83 @@ A working Nintendo Wii with a controller and cables typically sells for $40 to $
 
 URL: https://404memoryfound.com/posts/what-happened-to-netbooks-laptops.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-03  Updated: 2026-09-10
+Published: 2026-04-03  Updated: 2026-10-08
 Topics: Hardware, Business Blunders
 
-**Summary:** Nobody makes netbooks in 2026. The category started with the Asus Eee PC in October 2007 at United States prices of $300 to $400, peaked at 38.8 million units shipped in 2010, and ended in 2012 when Asus and Acer stopped building them. Chromebooks, low-cost Windows 11 laptops and tablets took the job, with budget Chromebooks selling under $200 in 2026.
+**Summary:** Nobody makes netbooks in 2026. The category opened with the Asus Eee PC at United States prices of $299.99 to $399.99 in October 2007, peaked at 38.8 million units shipped in 2010, and ended when Asus and Acer stopped building them at the turn of 2013. Chromebooks, low-cost Windows laptops and tablets took over the work, and PCWorld's August 2026 buying guide still finds Chromebooks selling for under $200.
 
 **Key facts:**
-- Launched: October 2007, Asus Eee PC, $300 to $400 in the US
+- Launched: October 2007, Asus Eee PC, $299.99 to $399.99 in the US
 - Peak year: 2010, 38.8 million netbooks shipped (ABI Research)
-- Status today: Dead category; no major brand sells a netbook in 2026
-- What replaced it: Chromebooks, cheap Windows 11 laptops, tablets
-- Cheapest replacement: Chromebooks under $200 (PCWorld, August 2026)
+- Ended: Asus and Acer stopped production for 2013; retailers sold off the rest
+- Status today: Dead category. No major brand has sold a netbook since 2013
+- Price today: Chromebooks under $200, mid-range $400 to $600 (PCWorld, August 2026)
 
 ## What replaced netbooks, and what do those cost in 2026?
 
-No major brand sells a machine called a netbook in 2026. The word left the shelves with the last Asus Eee PC, and three product categories absorbed everything netbooks used to do.
+No major brand has sold a machine called a netbook since 2013. The label left store shelves with the last Asus Eee PC, and three categories absorbed the work netbooks used to do.
 
-Chromebooks took the cheap laptop slot. PCWorld's Chromebook guide, updated August 28, 2026, puts mid-range models in the "$400 to $600 range" and picks the Asus Chromebook CX15 for anyone who needs a laptop "for under $200". PCWorld associate editor Ashley Biancuzzo calls that machine "extremely inexpensive" in the same 2026 guide.
+Chromebooks took the cheap laptop slot. PCWorld's Chromebook buying guide, updated August 28, 2026, puts mid-range models in the "$400 to $600 range" and picks the Asus Chromebook CX15 for anyone who needs a laptop "for under $200". PCWorld associate editor Ashley Biancuzzo calls that machine "extremely inexpensive" in the same 2026 guide.
 
-Low-cost Windows 11 laptops took the second slot. They ship with full-size screens and the same class of budget processor a netbook used, but without the licensing cap that once dictated how much screen and memory a cheap Windows machine was allowed to have.
+Low-cost Windows laptops took the second slot. They ship with full-size screens and the same class of budget processor a netbook used, but without the licensing cap that once dictated how much screen and memory a cheap Windows machine was allowed to have.
 
-Tablets took the third. Apple's iPad went on sale in 2010 and sold 14.8 million units that first year, according to ABI Research figures reported by The Register in 2011. Reading, video and email, which is most of what people actually did on a netbook, moved to a tablet or a phone.
+Tablets took the third. Reading, video and email, which is most of what people actually did on a netbook, moved to a tablet or a phone after 2010. What no 2026 machine sells is the shape itself: a clamshell small enough to hold in one hand, built to cost less than anything else with a keyboard.
 
-## What did the Asus Eee PC actually launch at in 2007?
+## What did the Asus Eee PC cost at launch in 2007?
 
-The category began with one machine. Asus set United States pricing for the Eee PC at the end of October 2007, and Engadget published the lineup on October 29, 2007: three models at $300, $350 and $400. The top model, the Eee PC 4G, went on sale first, on November 1, 2007. The heavily promoted $199 version was missing from that US price list.
+The category began with one machine and one price list. Asus set United States pricing for the Eee PC at the end of October 2007: three models at $299.99, $349.99 and $399.99, which TechSpot published from the information Asus had given its resellers. Those were the 2G Surf, the 4G Surf and the 4G.
 
-Laptop Magazine reviewed the 4G on October 25, 2007 and gave it four stars out of five with an Editors' Choice award. It ran Linux rather than Windows, weighed about two pounds, and had a 7-inch screen, small enough that reviewers kept reaching for book comparisons instead of laptop ones.
+Only the top model shipped first. Newegg began selling the 4G at $399.99 in the last days of October 2007, ahead of the November 1 date Asus had given, and the two cheaper models had no US release date yet. The $199 machine Asus had shown at Computex in June 2007 never appeared on that American list at all.
 
-That price is the whole story of why it sold. By Laptop Magazine's own account in October 2007, a weekend circular was advertising a full-size Windows Vista laptop with a 14.1-inch screen for $399, so the Eee PC was asking laptop money for something a fifth of the weight. Anyone who wanted a small computer before that was carrying a BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) or the last of the PDAs like the Palm Pilot (https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html), and neither one had a real keyboard and a desktop browser.
+The price is the entire reason it sold. Asus got there by shipping Linux rather than Windows and by keeping the screen and the storage small, which is why the first Eee PC had a solid-state drive measured in single-digit gigabytes. Anyone who wanted a computer that small before 2007 was carrying a BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) or one of the last PDAs like the Palm Pilot (https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html), and neither one had a real keyboard and a desktop browser.
 
 ## Why did Microsoft keep Windows XP alive for netbooks?
 
-Netbooks landed while Microsoft was pushing Windows Vista, and Vista would not run on hardware that cheap. Linux shipped on the first Eee PC instead. That is the part that worried Microsoft: an entire new PC category selling well with no Windows license attached to it.
+Netbooks arrived while Microsoft was pushing Windows Vista, and Vista would not run on hardware that cheap. Linux shipped on the first Eee PC instead. That was the part that worried Microsoft: a new PC category selling well with no Windows license attached to it.
 
 So Microsoft extended Windows XP (https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html) for what it called ultra low-cost PCs, and fenced the offer in. Engadget reported the terms on May 10, 2008. A machine qualified only with a screen no larger than 10.2 inches, no more than 80GB of storage, no more than 1GB of RAM, a processor no faster than 1GHz, and no touchscreen. Engadget put the license itself at $26 in developing nations and $32 everywhere else.
 
-Those limits existed to stop cheap XP machines from eating Vista sales, and they froze the netbook in amber. A netbook could not grow a larger screen or more memory without losing its cheap copy of Windows, so the category shipped near-identical machines for two years while ordinary laptops kept getting better and cheaper.
+Those limits existed to stop cheap XP machines from eating Vista sales, and they froze the netbook in place. A netbook could not grow a bigger screen or more memory without losing its cheap copy of Windows, so the category shipped near-identical machines year after year while ordinary laptops kept getting better and cheaper.
 
 ## How big did the netbook boom get before it broke?
 
-Very big, very fast. IDC counted 4.5 million netbooks shipped in the first quarter of 2009, a sevenfold jump on the same quarter of 2008 and 8 percent of all PC shipments worldwide, PCWorld reported on May 3, 2009. IDC expected 22 million for the full year, double the 2008 total.
+Big, and fast. ABI Research put worldwide netbook shipments at 38.8 million units in 2010, roughly 10 percent above the 2009 total, as The Register reported in October 2011. That was the high-water mark, and nothing after it went up.
 
-IDC's definition explains what was being counted: laptops with screens between 7 and 12 inches running low-power processors such as Intel's Atom. Atom was built for exactly this, a small, slow, power-sipping x86 chip that made a $300 laptop possible and also guaranteed it would never feel fast.
+The fall started immediately. ABI was forecasting only about 32 million netbooks for 2011, a 17.5 percent drop on that 38.8 million. Shipments went from 8.4 million units in the first quarter of 2011 to 7.3 million in the second, down 13.1 percent in three months.
 
-Acer chief executive Gianfranco Lanci told the same story from the factory floor, expecting to ship 10 million to 12 million netbooks in 2009 after just over 5 million in 2008. IDC research analyst Jay Chou explained the appeal to PCWorld in 2009: "Vendors are waking up to the fact that people respond to so-called 'good-enough' computing."
+Tablets passed netbooks inside the same quarter. ABI counted 13.6 million tablets shipped in the second quarter of 2011 against those 7.3 million netbooks. Jeff Orr, ABI's consumer research chief, forecast that netbook shipments would "fall year on year from 2011 through 2016", which is close to what happened, except that the category did not last that long.
 
-The high-water mark came the next year. ABI Research put worldwide netbook shipments at 38.8 million units in 2010, roughly 10 percent above 2009, as reported by The Register in October 2011. That was the top, and nothing after it went up.
+Intel felt it on the income statement. Revenue from its Atom line, the small low-power processor that made a $299.99 laptop possible in the first place, fell 32 percent year on year to $269 million in the third quarter of 2011, The Register noted in the same report.
 
-## What killed netbooks: the iPad, the Chromebook, or Intel?
+## What killed netbooks: tablets, Ultrabooks, or Intel?
 
-All three, and the fall took about two years. After that 38.8 million peak in 2010, ABI Research was forecasting only 32 million netbooks for 2011. Shipments went from 8.4 million units in the first quarter of 2011 to 7.3 million in the second, a 13.1 percent drop in three months, The Register reported that October.
+All three pushed, and the category took about two years to go. Tablets took the browsing and the video. Full-size budget laptops took everyone who had bought a netbook as a cheap main computer and then resented the 10.2-inch screen. Intel, meanwhile, was telling PC makers to build Ultrabooks, thin full-size laptops aimed at the MacBook Air, which is where the engineering attention and the marketing money went instead.
 
-Tablets passed netbooks in that same quarter. ABI counted 13.6 million tablets shipped in the second quarter of 2011 against those 7.3 million netbooks. Jeff Orr, ABI's consumer research chief, forecast that netbook shipments would "fall year on year from 2011 through 2016".
+The ending was administrative rather than dramatic. By December 2012, The Register reported, Acer and Asus were the last two companies still building netbooks, and both were on the way out: Asus had announced in September 2012 that it would discontinue the Eee PC line by the end of the year, and Acer said it had no plans for further netbook products. DigiTimes, which The Register cited, said the two were mostly shipping the remaining machines to emerging markets.
 
-Intel felt it on the income statement. Atom revenue fell 32 percent year on year to $269 million in the third quarter of 2011, The Register noted in the same piece. The chip that defined the category was now shrinking with it.
+Retailers finished the job in 2013 by liquidating what was left in the channel. Five years after that first Asus price list, there was nothing new to buy, and no manufacturer has used the word netbook on a flagship product since.
 
-Google applied the other squeeze. Chromebooks went on sale in the United States in June 2011, announced at Google I/O the previous month, as Engadget covered in May 2011. They used the same low-power Intel parts but ran a browser-first operating system with no Windows license to buy and no 10.2-inch ceiling to respect. The idea netbooks had promised, a cheap laptop for web work, shipped again without the handicap.
-
-The end was administrative rather than dramatic. The Register reported in December 2012 that Asus and Acer, the last two companies still building netbooks, were finished with them. HP, Samsung, Sony and Toshiba had already left. Five years after the Eee PC, nothing was left to buy.
-
-Where to find one today. Netbooks were treated as disposable and most went to recycling, but early Eee PC units still turn up with collectors, usually with a dead battery and a storage drive too small for any current operating system. Sellers list them among Etsy's Asus Eee PC listings (https://www.etsy.com/search?q=asus+eee+pc).
+Where to find one today. Netbooks were treated as disposable and most went to recycling, so condition decides the price: nearly every surviving unit has a dead battery, and the storage drive is too small for any current operating system. Collectors who want the original 7-inch machine rather than a later 10-inch model pay a premium for a boxed one. Sellers list them among Etsy's Asus Eee PC listings (https://www.etsy.com/search?q=asus+eee+pc).
 
 ## Frequently Asked Questions
 
 ### Why did netbooks fail?
 
-Netbooks failed because the rules that made them cheap also stopped them from improving. Microsoft's ultra low-cost PC terms for Windows XP, reported by Engadget in May 2008, capped a qualifying netbook at a 10.2-inch screen, 1GB of RAM and a 1GHz processor. Once tablets and full-size budget laptops caught up in 2011, buyers had no reason to keep accepting the compromise.
+Netbooks failed because the rules that made them cheap also stopped them from improving. Microsoft's ultra low-cost PC terms for Windows XP, reported by Engadget in May 2008, capped a qualifying netbook at a 10.2-inch screen, 1GB of RAM and a 1GHz processor. Once tablets and full-size budget laptops caught up in 2011, buyers had no reason to keep accepting the compromise, and shipments fell 13.1 percent between the first and second quarters of that year.
 
 ### What happened to the Asus Eee PC?
 
-The Asus Eee PC created the netbook category in October 2007 at United States prices of $300 to $400, per Engadget's October 29, 2007 pricing report. Asus sold the line for five years and then retired it. The Register reported in December 2012 that Asus and Acer, the last two netbook makers, had both stopped production, and no new Eee PC has been sold since.
+The Asus Eee PC created the netbook category in October 2007 at United States prices of $299.99, $349.99 and $399.99. Asus sold the line for five years and then retired it: the company announced in September 2012 that the Eee PC would be discontinued by the end of that year, as The Register reported in December 2012, and no new Eee PC has been sold since. Acer, the only other company still building netbooks at that point, left the market at the same time.
 
 ### Is a netbook the same as a Chromebook?
 
-No. A netbook was a small Windows XP or Linux laptop sold between 2007 and 2012 with a 7-inch to 12-inch screen and a low-power Intel Atom processor, which is how IDC defined the category in 2009. A Chromebook runs Google's ChromeOS, first went on sale in June 2011, and comes in normal laptop sizes, with budget models under $200 and mid-range models in the $400 to $600 range as of PCWorld's August 2026 guide.
+No. A netbook was a small Windows XP or Linux laptop sold between 2007 and 2013, built around Intel's low-power Atom processor and limited by Microsoft's licensing rules to a 10.2-inch screen and 1GB of RAM. A Chromebook runs Google's ChromeOS, comes in normal laptop sizes, and is still sold in 2026, with budget models under $200 and mid-range models in the $400 to $600 range according to PCWorld's August 2026 guide.
 
 **Sources:**
-- Engadget: Asus lets loose US pricing, launch details for Eee PC (October 29, 2007): https://www.engadget.com/2007-10-29-asus-lets-loose-us-pricing-launch-details-for-eee-pc.html
+- TechSpot: Asus prices up Eee PC for US market (October 2007): https://www.techspot.com/news/27653-asus-prices-up-eee-pc-for-us-market.html
 - Engadget: Microsoft's XP for low-cost PCs defines some boundaries (May 10, 2008): https://www.engadget.com/2008-05-10-microsofts-xp-for-low-cost-pcs-defines-some-boundaries.html
-- PCWorld: Netbook Shipments Jump in First Quarter, IDC data (May 3, 2009): https://www.pcworld.com/article/528856/netbook_shipments_jump.html
 - The Register: Netbook shipments slump, ABI Research data (October 21, 2011): https://www.theregister.com/2011/10/21/netbook_shipments_slump/
+- The Register: 2012, the year that netbooks died (December 28, 2012): https://www.theregister.com/2012/12/28/2012_year_netbooks_died/
 - PCWorld: Best Chromebooks 2026 (updated August 28, 2026): https://www.pcworld.com/article/608636/best-chromebooks.html
 
 ---
