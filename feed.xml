@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Flooz.com Explained: The Dot-Com Cash That Vanished</title>
+      <link>https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Flooz.com raised about $35 million, spent $8 million on Whoopi Goldberg ads, and shut down in August 2001. Every unused balance went to zero.</description>
+      <enclosure url="https://404memoryfound.com/pins/flooz-com-internet-currency-collapse.jpg" length="132826" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/flooz-com-internet-currency-collapse.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Is the Philips CD-i Worth Anything? 2026 Prices</title>
       <link>https://404memoryfound.com/posts/philips-cd-i-worth-today.html</link>
@@ -234,18 +246,6 @@
       <enclosure url="https://404memoryfound.com/pins/broadcast-com-yahoo-billion-dollar-deal.jpg" length="228417" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/broadcast-com-yahoo-billion-dollar-deal.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
-      <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>EverQuest in 2026: The 1999 MMO That Still Runs</title>
-      <link>https://404memoryfound.com/posts/everquest-still-active-2026.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/everquest-still-active-2026.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>EverQuest is still active in 2026: Darkpaw Games runs the 1999 MMO, and a new server called Lethar opened on August 26, 2026.</description>
-      <enclosure url="https://404memoryfound.com/pins/everquest-still-active-2026.jpg" length="197148" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/everquest-still-active-2026.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
       <category>Internet Culture</category>
     </item>
   </channel>

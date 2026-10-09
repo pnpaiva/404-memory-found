@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 196,
+ "count": 197,
  "brands": [
   {
    "name": "3dfx",
@@ -417,6 +417,13 @@
    "status2026": "Still online and taking uploads in 2026",
    "owner2026": "SmugMug, since April 2018",
    "source": "https://404memoryfound.com/posts/what-happened-to-flickr-yahoo-photo-sharing.html"
+  },
+  {
+   "name": "Flooz",
+   "started": "Fall 1999, Flooz.Com, Inc.",
+   "status2026": "Defunct; the bankruptcy case was terminated on July 27, 2012",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html"
   },
   {
    "name": "Floppy disk",
