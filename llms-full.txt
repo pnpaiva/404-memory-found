@@ -2125,75 +2125,75 @@ No. EverQuest Legends is a separate, solo-friendly rebuild of the 1999 game, dev
 
 URL: https://404memoryfound.com/posts/is-angelfire-still-online.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-09-16
+Published: 2026-09-16  Updated: 2026-10-11
 Topics: Internet Culture, Business Blunders
 
-**Summary:** Angelfire is gone. Lycos shut the free web host down on April 24, 2026, about three months after a server outage in January 2026 had already made every hosted page unreachable. The brand still belongs to Lycos, Inc., now a subsidiary of Brightcom Group, but nothing of the service runs and the user pages were purged.
+**Summary:** Angelfire is gone. Lycos shut the free web host down on April 24, 2026, about three months after a server outage in January 2026 had already made every hosted page unreachable. The brand still belongs to Lycos, Inc., whose own ownership has been disputed in court since 2013, and nothing of the service runs.
 
 **Key facts:**
-- Launched: 1996, as a paid website builder and medical transcription service
-- Owner today: Lycos, Inc., a subsidiary of Brightcom Group
-- Status today: Shut down April 24, 2026; hosted pages purged
-- Free signups ended: 2010, when Lycos stopped allowing new free Angelfire sites
-- What replaced it: Neocities and GitHub Pages for new sites, the Wayback Machine for old ones
+- Launched: 1996, as a combined website builder and medical transcription service
+- Status today: Shut down April 24, 2026; hosted pages purged, nothing running
+- Owner today: Lycos, Inc.; control contested since 2013 between Brightcom Group, formerly Ybrant Digital, and Daum
+- Last sale price: $36 million in August 2010, against the $12.5 billion Terra Networks announced for Lycos in May 2000
+- What replaced it: Neocities and GitHub Pages for new pages, the Wayback Machine for old ones
 
-## What did Lycos say before it pulled the plug?
+## What did Lycos say before it shut Angelfire down?
 
-On March 6, 2026, a short notice appeared on the Lycos homepage. It read: "We apologize for the service interruptions. Unfortunately we will be shutting down in the next 30 days."
+On March 6, 2026, Lycos put a note on its homepage saying Angelfire and Tripod were having temporary outages. Later the same day the note was rewritten into a death notice.
 
-Thirty days put the deadline at April 5, 2026. The notice named no backup tool, no download link and no export option. It told people to move their hosting somewhere else.
+"We apologize for the service interruptions. Unfortunately we will be shutting down in the next 30 days," it read, addressed to users of both services. It closed with one instruction: "Please move your hosting to another host as soon as possible."
 
-Lycos then took the message down. Archivists found it still sitting in the homepage source code after it vanished from the visible page, and on April 3, 2026 it reappeared for anyone who looked.
+Thirty days put the deadline at April 5, 2026. The notice named no backup tool, no download link and no export option.
 
-April 5 came and went without a formal goodbye. Angelfire's homepage stayed reachable for another three weeks. On April 24, 2026 it stopped answering, and Tripod, the other free host Lycos had owned since 1998, went dark the same day.
+Lycos then pulled the message off the homepage without saying anything further. It reappeared on April 3, 2026, again with no statement attached.
 
-That is the entire public record. No press release, no blog post, no named executive attached to the decision. A service that had been online for 30 years closed with two sentences of homepage copy.
+April 5 came and went. The Angelfire homepage stayed reachable for another three weeks, and on April 24, 2026 it stopped answering. Tripod, the other free host Lycos had owned since 1998, ceased operations the same day.
 
-## Why did Angelfire pages break in January 2026?
+That is the entire public record. No press release, no blog post, no named executive attached to the decision. A service that had been online for 30 years closed on two sentences of homepage copy.
 
-The March notice was not the first sign. User sites on Angelfire stopped loading in early January 2026, roughly two months before Lycos said anything at all.
+## Why did Angelfire pages stop loading in January 2026?
 
-Visitors got HTTP 502 and HTTP 403 errors instead of pages. The Angelfire homepage itself flickered in and out, which made the whole thing look like a bad week rather than an ending.
+The March notice was not the first sign. User sites on Angelfire went unreachable in early January 2026, roughly two months before Lycos said anything at all.
+
+Visitors got HTTP error codes instead of pages. The Angelfire homepage itself flickered in and out, which made the whole thing look like a bad week rather than an ending.
 
 Nobody outside the company could tell which it was. There was no status page and no support answer, so people who ran Angelfire sites spent the first quarter of 2026 guessing.
 
-The timing matters for anyone hoping to recover a page. Most Angelfire URLs were last crawled before January 2026, because after that the server was handing out error codes rather than HTML. Whatever archives captured in 2025 or earlier is what survives.
+The timing matters for anyone hoping to recover a page. Most Angelfire URLs were last crawled before January 2026, because after that the server was handing out errors rather than HTML. Whatever archives captured in 2025 or earlier is what survives.
 
-It also means the 30-day warning was closer to zero days of real access. By March 6, 2026 the files had already been unreachable for two months.
+It also means the 30-day warning was closer to zero days of real access. By March 6, 2026 the hosted files had already been unreachable for two months, so the instruction to move your hosting somewhere else arrived after the files were gone.
 
 ## Who owns Angelfire now, and is any of it running?
 
 Nothing of Angelfire runs in 2026. The builder is gone, the hosted pages were purged, and the address serves no site.
 
-The brand still has an owner on paper. Angelfire belongs to Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), Inc., which is a subsidiary of Brightcom Group, the digital advertising company that was called Ybrant Digital when it bought Lycos in 2010 for $36 million.
+The brand still has an owner on paper, and that owner is unusually complicated. Angelfire belongs to Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html), Inc., and control of Lycos, Inc. has been fought over in court since 2013.
 
-That $36 million is the punchline of the whole chain. On May 16, 2000, near the top of the dot-com bubble, Lycos announced it would be bought by Terra Networks for $12.5 billion. Terra sold Lycos to South Korea's Daum Communications in 2004, and Daum sold it to Ybrant Digital in 2010.
+The chain of sales explains why. Terra Networks announced it would buy Lycos in May 2000 in a stock deal valued at $12.5 billion, and the merger closed that October. Terra's own Form 20-F records that it "sold 100% of our stock in Lycos, Inc. to Daum Communications Corp." on October 5, 2004, for about $95 million.
 
-Angelfire came along for every one of those rides. It had been a Lycos property since 1998 and was still one 28 years later, which is how a free homepage service outlived three of its own parent companies before the fourth closed it.
+Daum sold Lycos on again in August 2010, to the Indian advertising company Ybrant Digital, for $36 million. Ybrant paid part of that up front and owed the rest later, and the size of the unpaid balance became the lawsuit.
 
-Lycos itself is still trading in 2026. Angelfire is not, and Lycos has published no plan to bring it back.
+Ybrant renamed itself Lycos Internet in 2014 and later became Brightcom Group. In May 2018 a judge in the Southern District of New York appointed Daum Global Holdings receiver of Ybrant's 56 percent interest in Lycos, Inc., against $37 million in arbitration awards. Whoever ends up holding the certificate, nobody has published a plan to bring Angelfire back.
 
-## How a transcription startup became a homepage factory
+## How did a transcription startup become a free homepage factory?
 
 Angelfire launched in 1996 as an odd hybrid: part website builder, part medical transcription service. The transcription half was dropped, and what was left was a paid tool for putting a page on the web.
 
-Free came later, and it came from Lycos money. WhoWhere, a company based in Mountain View, California, picked up Angelfire in 1997. A Lycos filing with the Securities and Exchange Commission records the deal as the purchase of "certain net assets of Angelfire, Inc. for approximately $2,720,000 in cash and notes payable" in October 1997.
+Free came later, and it came from Lycos money. WhoWhere, a company based in Mountain View, California, bought Angelfire in October 1997. Lycos then bought WhoWhere in August 1998 for $133 million in stock, which is how Angelfire, the MailCity email service and WhoWhere's white pages all landed in one portfolio. Lycos had already bought Tripod in February 1998 for $58 million in stock.
 
-Lycos bought WhoWhere in August 1998 for $133 million, which is how Angelfire, the MailCity email service and WhoWhere's white pages all landed in one portfolio. Lycos had already bought Tripod in February 1998 for $58 million in stock.
+Then Lycos made the builder free and paid for it with a banner ad on every hosted page. If you wanted the ad gone, you paid. That trade is the reason a generation of American teenagers had a homepage at all.
 
-Then Lycos made the builder free and paid for it by putting a banner ad on every hosted page. If you wanted the ad gone, you paid. That trade is the reason a generation of American teenagers had a homepage at all.
+The free era ended quietly and years early. Tripod stopped letting new users sign up for free accounts in 2009, and Angelfire went back to being paid-only in 2010. Sites created while it was free stayed online, which is why so many 1990s pages were still answering in 2025.
 
-## What did people actually put on Angelfire?
+## What was actually on Angelfire, and what did April 2026 take with it?
 
-The most-read surviving Angelfire page is probably one its author never meant to be read. In April 2013, The Register and several other outlets reported on a 1999 Angelfire site built under the handle "mez51" whose source code named Mark Zuckerberg as the author. Zuckerberg has never confirmed it, and the reporting has always been careful to call it unverified.
+Angelfire ran on hobby code, band pages, fan shrines, wrestling stats, tiled backgrounds and under-construction signs. GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html) is the name people reach for when they remember that web, but Angelfire and Tripod held a large share of it.
 
-The page was the work of someone who said he was 15, lived in a small town near New York City, and had just finished his freshman year of high school. It carried a set of Java applets: a drawing tool, a base converter, a pong game, and one called The Web that connected visitors to each other.
+The most-read Angelfire page may be one its author never meant to be read. In April 2013 The Register reported on a 1999 Angelfire site built under the handle "mez51" that several outlets linked to a 15-year-old Mark Zuckerberg, five years before Facebook launched. The site carried Java applets, including one that connected visitors to each other by name. Zuckerberg has never confirmed it and the attribution has always rested on circumstantial evidence, including a contact address tied to his father's old AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) handle.
 
-"As of now, the web is pretty small. Hopefully, it will grow into a larger web," the page said of that applet, five years before Facebook launched.
+What the shutdown removed was not one page like that but the whole stratum: roughly three decades of amateur pages at their original addresses, with no notice long enough to save them. GeoCities at least got a documented archiving campaign in 2009, with months of warning. Angelfire users got 30 days of homepage copy posted two months after their files had already stopped loading.
 
-The rest of Angelfire ran in the same register. Hobby code, band pages, fan shrines, wrestling stats, tiled backgrounds and under-construction signs. GeoCities (https://404memoryfound.com/posts/history-of-geocities-websites.html) is the name people reach for when they remember that web, but Angelfire and Tripod held a large share of it, and their 2026 closure removed it in one move.
-
-## Can you still find your old Angelfire page?
+## Can you still find your old Angelfire page, and what replaced it?
 
 Sometimes. The Internet Archive's Wayback Machine is the only realistic route, and angelfire.com is not excluded from it, so archived copies of user sites do exist.
 
@@ -2201,30 +2201,30 @@ Start with the full original URL, including the neighborhood folder that early A
 
 Two things work against you. Angelfire deleted accounts it judged inactive, long before 2026, and no mirror of the pages removed that way is known to exist. The January 2026 outage then meant almost nothing new was captured in the service's final months.
 
-Archive Team ran a dedicated Angelfire grab during the shutdown, with volunteer scripts pointed at as many accounts as its tracker could enumerate. Anything it caught goes to the Internet Archive rather than back to the original address.
+Archive Team ran a dedicated Angelfire grab during the shutdown, with volunteer scripts pointed at as many accounts as its tracker could enumerate. Its own wiki records the result as partially saved, and anything caught goes to the Internet Archive rather than back to the original address.
 
-If you kept your own copy on an old hard drive or a Zip disk (https://404memoryfound.com/posts/what-happened-to-iomega-zip-drives.html), that file is worth more than anything still online. For a new page, free static hosts such as Neocities and GitHub Pages do the job Angelfire did, without the banner ad.
+If you kept your own copy on an old hard drive or a Zip disk (https://404memoryfound.com/posts/what-happened-to-iomega-zip-drives.html), that file is worth more than anything still online. For a new page, Neocities and GitHub Pages both host static sites for nothing, and neither one puts a banner ad on your work.
 
 ## Frequently Asked Questions
 
 ### Is Angelfire still online in 2026?
 
-No. Angelfire, the free web host Lycos had owned since 1998, went offline for good on April 24, 2026, and its hosted user sites had already been unreachable since a server outage in early January 2026. Lycos posted 30 days of notice on March 6, 2026 and the hosted pages were purged.
-
-### Did Tripod shut down at the same time as Angelfire?
-
-Yes. Tripod, the other free hosting service Lycos owned, stopped answering on April 24, 2026, the same day Angelfire's homepage went dark. Lycos had bought Tripod in February 1998 for $58 million in stock, and the single shutdown notice posted on March 6, 2026 covered both services.
+No. Angelfire, the free web host Lycos had owned since 1998, went offline for good on April 24, 2026, and its hosted user sites had already been unreachable since a server outage in early January 2026. Lycos posted 30 days of notice on March 6, 2026, and the hosted pages were purged.
 
 ### How do I find my old Angelfire website?
 
 Search the full original angelfire.com URL, neighborhood folder included, in the Internet Archive's Wayback Machine. Angelfire pages are not excluded from the archive, but Angelfire deleted accounts it considered inactive years before the April 24, 2026 shutdown, and no mirror of those deleted pages is known to exist.
 
+### Did Tripod shut down at the same time as Angelfire?
+
+Yes. Tripod, the other free hosting service Lycos owned, ceased operations on April 24, 2026, the same day Angelfire's homepage went dark. Lycos had bought Tripod in February 1998 for $58 million in stock, and the single shutdown notice posted on March 6, 2026 covered both services.
+
 **Sources:**
-- Angelfire: https://en.wikipedia.org/wiki/Angelfire
-- Angelfire (shutdown record and archiving): https://wiki.archiveteam.org/index.php/Angelfire
-- Lycos, Inc. Form 8-K/A (1998), SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0001007992/000092701698002099/0000927016-98-002099.txt
-- Lycos: https://en.wikipedia.org/wiki/Lycos
-- Ancient website from 1999: By Mark Zuckerberg aged 15 3/4, The Register (2013): https://www.theregister.com/2013/04/04/teenage_zuckerberg_angelfire_website/
+- Angelfire, Wikipedia (shutdown notice, dates and ownership history): https://en.wikipedia.org/wiki/Angelfire
+- Lycos, Wikipedia (Tripod, WhoWhere, Terra, Daum and Ybrant deals): https://en.wikipedia.org/wiki/Lycos
+- Lycos, Inc. Form 8-K/A (1998), SEC EDGAR (Tripod purchase price): https://www.sec.gov/Archives/edgar/data/0001007992/000092701698000906/0000927016-98-000906.txt
+- Terra Networks S.A. Form 20-F for 2004, SEC EDGAR (sale of Lycos to Daum): https://www.sec.gov/Archives/edgar/data/0001097636/000095010305001231/apr0505_20f.txt
+- Daum Global Holdings Corp. v. Ybrant Digital Limited, S.D.N.Y. (May 8, 2018): https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2013cv03135/411679/101/
 
 ---
 
