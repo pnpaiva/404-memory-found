@@ -1,12 +1,12 @@
-# Link report, 2026-10-05
+# Link report, 2026-10-12
 
-210 posts, 822 internal body links, 1157 distinct external URLs.
+213 posts, 835 internal body links, 1174 distinct external URLs.
 
 ## Broken internal links
 
 None.
 
-## Posts with fewer than two inbound body links (52)
+## Posts with fewer than two inbound body links (51)
 
 - 0 inbound: aol-youve-got-mail-voice-elwood-edwards
 - 0 inbound: boston-market-locations-left
@@ -14,12 +14,14 @@ None.
 - 0 inbound: discovery-zone-failed-indoor-playground
 - 0 inbound: divx-circuit-city-dvd-format
 - 0 inbound: ebay-broken-laser-pointer-to-global-marketplace
+- 0 inbound: flooz-com-internet-currency-collapse
 - 0 inbound: iridium-satellite-phone-failure
 - 0 inbound: is-kinkos-still-around
 - 0 inbound: is-toonami-still-on-tv
 - 0 inbound: laserdisc-value-collector-market
+- 0 inbound: nextel-direct-connect-chirp-shutdown
+- 0 inbound: philips-cd-i-worth-today
 - 0 inbound: rainforest-cafe-locations-left
-- 0 inbound: sega-nomad-handheld-genesis
 - 0 inbound: skymall-still-around-who-owns-it
 - 0 inbound: sony-aibo-robot-dog-today
 - 0 inbound: t-mobile-sidekick-danger-hiptop
@@ -36,18 +38,16 @@ None.
 - 0 inbound: who-owns-claires-now
 - 0 inbound: windows-movie-maker-still-available
 - 1 inbound: dial-up-modem-sound-explained
-- 1 inbound: does-yahoo-answers-still-exist
 - 1 inbound: etoys-com-who-owns-it-now
 - 1 inbound: everquest-still-active-2026
 - 1 inbound: first-online-purchase-pizza
 - 1 inbound: furby-history-nsa-ban
 - 1 inbound: heelys-still-sold-2026
 - 1 inbound: is-angelfire-still-online
-- 1 inbound: is-barnes-and-noble-still-open
 - 1 inbound: is-disney-store-still-open
 - 1 inbound: is-hollywood-video-still-around
 - 1 inbound: is-runescape-still-popular-2026
-- 1 inbound: pagers-still-used-today
+- 1 inbound: sega-nomad-handheld-genesis
 - 1 inbound: what-happened-to-arcades-golden-age-gaming
 - 1 inbound: what-happened-to-boo-com-fashion-dot-com
 - 1 inbound: what-happened-to-craigslist-ugliest-website-worth-billions
@@ -57,29 +57,21 @@ None.
 - 1 inbound: what-happened-to-simcity-ea
 - 1 inbound: what-happened-to-tony-hawks-pro-skater
 - 1 inbound: what-happened-to-xanga-blogging-platform
-- 1 inbound: who-owns-earthlink-now
 - 1 inbound: why-microsoft-zune-actually-failed
 - 1 inbound: y2k-bug-what-actually-happened
 
-## Dead external links (73)
+## Dead external links (63)
 
 - ERR timed out http://hrwiki.org/wiki/Post-Flash_Site_Update  (in homestar-runner-still-updating)
 - ERR [Errno -2] Name or service not known https://altaba.gcs-web.com/news-releases/news-release-details/yahoo-introduces-yahoo-answers-beta-service-enables-people-tap  (in does-yahoo-answers-still-exist)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/att-broadband-to-merge-with-comcast-corporation-in-72-billion-transaction  (in what-happened-to-excite-at-home-broadband)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/att-reaches-at-home-litigation-settlement  (in what-happened-to-excite-at-home-broadband)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/comcast-agrees-to-purchase-techtv  (in what-happened-to-techtv-screen-savers-channel)
-- ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/comcast-completes-acquisition-of-techtv  (in g4-tv-failed-twice)
-- ERR The read operation timed out https://investor.activision.com/news-releases/news-release-details/activisionr-set-develop-titles-nokia-n-gagetm-mobile-game-deck  (in what-happened-to-nokia-ngage-gaming-phone)
-- ERR The read operation timed out https://investor.kodak.com/news-releases/news-release-details/kodak-completes-pension-reversion-process-delivering-over-1  (in what-happened-to-kodak-digital-camera-bankruptcy)
-- ERR The read operation timed out https://investor.kodak.com/news-releases/news-release-details/kodak-reports-second-quarter-2026-financial-results  (in what-happened-to-kodak-digital-camera-bankruptcy)
-- ERR The read operation timed out https://ir.daveandbusters.com/news-releases/news-release-details/dave-busters-reports-second-quarter-2026-financial-results  (in what-happened-to-arcades-golden-age-gaming)
-- ERR The read operation timed out https://ir.echostar.com/news-releases/news-release-details/dish-dbs-corporation-and-subsidiaries-initiate-prepackaged  (in is-blockbuster-still-open-last-store)
-- ERR The read operation timed out https://ir.echostar.com/news-releases/news-release-details/tivo-dish-network-and-echostar-announce-half-billion-dollar  (in what-happened-to-tivo-dvr-pioneer)
-- 503 https://money.cnn.com/1998/02/09/technology/aol/  (in dial-up-internet-still-available-2026)
 - 503 https://money.cnn.com/1998/09/24/technology/ebay/  (in ebay-broken-laser-pointer-to-global-marketplace)
 - 503 https://money.cnn.com/1998/10/05/companies/chicken/  (in boston-market-locations-left)
 - 503 https://money.cnn.com/1998/12/21/technology/pcdata/  (in thousand-dollars-then-now)
 - 503 https://money.cnn.com/1999/05/20/technology/etoys/  (in etoys-com-who-owns-it-now)
+- 503 https://money.cnn.com/1999/07/01/technology/askjeeves/  (in what-happened-to-ask-jeeves-search-engine)
 - 503 https://money.cnn.com/1999/08/13/companies/iridium/  (in iridium-satellite-phone-failure)
 - 503 https://money.cnn.com/2000/08/18/deals/kozmo/  (in what-happened-to-kozmo-com-delivery)
 - 503 https://money.cnn.com/2009/01/16/news/companies/circuit_city/index.htm  (in what-happened-to-circuit-city-electronics)
@@ -88,12 +80,11 @@ None.
 - 503 https://money.cnn.com/2015/12/07/media/skymall-returns-from-bankruptcy/index.html  (in skymall-still-around-who-owns-it)
 - 503 https://money.cnn.com/2018/03/19/news/companies/pay-phones/index.html  (in payphones-left-united-states)
 - 503 https://money.cnn.com/magazines/fortune/fortune_archive/1995/06/12/203837/index.htm  (in packard-bell-computer-brand-today)
-- ERR The read operation timed out https://newsroom.hasbro.com/news-releases/news-release-details/hasbro-inspiring-lifetime-play-2026-toy-fairr-premier  (in furby-history-nsa-ban)
-- ERR The read operation timed out https://press.nordstrom.com/news-releases/news-release-details/nordstrom-partners-fao-schwarz-expand-iconic-toy-brand  (in fao-schwarz-store-rockefeller-center)
 - ERR The read operation timed out https://serenescreen.com/about.html  (in what-happened-to-screensavers-flying-toasters)
 - 404 https://stacker.com/stories/retrospective/decline-pay-phones-every-state  (in payphones-left-united-states)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=atari+2600  (in who-owns-atari-now)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=atari+lynx  (in what-happened-to-atari-lynx-handheld)
+- 404 https://stoneagegamer.com/catalogsearch/result/?q=cd-i  (in philips-cd-i-worth-today)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=nomad  (in sega-nomad-handheld-genesis)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=sega+cd  (in what-happened-to-sega-cd-add-on)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=virtual+boy  (in what-happened-to-virtual-boy-nintendo)
@@ -105,11 +96,8 @@ None.
 - ERR The read operation timed out https://www.callofduty.com/blog/2026/08/call-of-duty-modern-warfare-4-nintendo-switch-2-beta  (in microsoft-tried-buy-nintendo)
 - ERR The read operation timed out https://www.cbc.ca/news/science/betamax-death-sony-1.3312556  (in betamax-vs-vhs-format-war)
 - ERR The read operation timed out https://www.cbc.ca/news/science/sony-to-pull-plug-on-floppy-disks-1.941854  (in floppy-disks-still-made-today)
-- ERR The read operation timed out https://www.cmcsa.com/news-releases/news-release-details/comcast-completes-acquisition-techtv  (in what-happened-to-techtv-screen-savers-channel)
 - ERR The read operation timed out https://www.itv.com/news/update/2012-06-13/greatly-saddened-habbo-hotel-ceo-suspends-chats-following-accusations/  (in is-habbo-hotel-still-around)
-- 404 https://www.konicaminolta.com/about/releases/2012/0510_01_01.html  (in is-kinkos-still-around)
-- ERR timed out https://www.mediaplaynews.com/big-box-retailers-grapple-with-abandoned-redbox-kiosks-dvd-movies/  (in is-redbox-still-around-kiosks)
-- ERR timed out https://www.mediaplaynews.com/dvdinbox-carries-on-the-rental-by-mail-legacy-of-netflix/  (in netflix-dvd-mail-service-shutdown)
+- 404 https://www.longrangecapital.com/news-article/longrange-capital-completes-acquisition-of-pizza-hut-from-yum-brands  (in first-online-purchase-pizza)
 - ERR The read operation timed out https://www.npr.org/2018/12/11/675529798/with-52-5-million-users-data-exposed-on-google-google-quickens-shutdown  (in why-google-plus-actually-failed)
 - ERR The read operation timed out https://www.npr.org/2022/05/24/1100931534/last-pay-phone-new-york-city-public-nyc  (in payphones-left-united-states)
 - ERR The read operation timed out https://www.npr.org/2025/08/12/nx-s1-5499539/aol-dial-up-ending  (in dial-up-modem-sound-explained, dialup-speed-then-vs-now)
@@ -119,6 +107,7 @@ None.
 - 404 https://www.prweb.com/releases/2012/6/prweb9611501.htm  (in what-happened-to-kazaa-p2p-wars)
 - 404 https://www.sec.gov/Archives/edgar/data/0000850209/000085020997000006/0000850209-97-000006.txt/seq-2  (in is-woolworth-still-in-business)
 - 404 https://www.sec.gov/Archives/edgar/data/0000924919/000095013000005261/0002.txt  (in rainforest-cafe-locations-left)
+- 410 https://www.securitiesdocket.com/2026/05/01/berkshire-has-a-website-from-the-90s-and-buffett-fans-say-dont-mess-with-it-wsj/  (in 90s-websites-still-online)
 - 404 https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20260512_q4_presentation_en.pdf  (in is-sega-still-making-games)
 - 404 https://www.thehenryford.org/collections-and-research/digital-collections/artifact/449925/  (in why-pets-com-failed-dot-com-bubble)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1990/11/03/dissident-prodigy-users-cut-off-from-network/0af0e589-5435-4395-95ec-27e99ad1fce3/  (in what-happened-to-prodigy-online-service)
