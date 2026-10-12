@@ -1,6 +1,90 @@
 {
   "posts": [
     {
+      "id": "nextel-direct-connect-chirp-shutdown",
+      "title": "Is Nextel Still Around? The Chirp Died in 2013",
+      "date": "2026-10-12",
+      "author": "theo",
+      "tags": [
+        "Hardware",
+        "Then vs Now"
+      ],
+      "excerpt": "Nextel is gone: Sprint switched off the iDEN network at 12:01 a.m. on June 30, 2013. Here is who holds the name now and what replaced the chirp.",
+      "summary": "Nextel is not around in 2026. Sprint began decommissioning the iDEN network that carried Nextel Direct Connect at 12:01 a.m. Eastern on June 30, 2013, and no US carrier has sold a Nextel-branded plan since. The trademarks moved to T-Mobile with the rest of Sprint, and push-to-talk now lives in apps rather than on a carrier of its own.",
+      "facts": [
+        {
+          "label": "Launched",
+          "value": "Fleet Call, April 1987; renamed Nextel in 1993"
+        },
+        {
+          "label": "Bought by Sprint",
+          "value": "August 2005, reported at $35 billion"
+        },
+        {
+          "label": "Written off",
+          "value": "$29.6 billion goodwill impairment for 2007"
+        },
+        {
+          "label": "Status today",
+          "value": "Gone; iDEN decommissioning began June 30, 2013"
+        },
+        {
+          "label": "Owner today",
+          "value": "T-Mobile holds the Nextel trademarks, after buying Sprint"
+        }
+      ],
+      "image": null,
+      "imageAlt": "A Motorola iDEN handset of the kind Nextel sold for its Direct Connect push-to-talk service",
+      "imageCaption": "A Motorola iDEN phone of the type Nextel sold in the United States. The model shown may differ from the one in the text, and no iDEN handset has found a US network since June 2013.",
+      "imageSearch": [
+        "Nextel Motorola iDEN phone",
+        "Motorola i530 Nextel",
+        "Nextel logo",
+        "iDEN mobile phone"
+      ],
+      "body": "<h2>How a fleet radio company talked its way onto the cellular map</h2>\n<p>Nextel started as Fleet Call, founded in April 1987 by Morgan O'Brien, a former Federal Communications Commission attorney. Its business was specialized mobile radio, the dispatch band that taxi fleets, tow trucks and construction crews had used for decades.</p>\n<p>Fleet Call bought those dispatch licenses from small operators and stitched them into something national. RCR Wireless reported that within 15 months of its founding the company was the largest privately held specialized mobile radio operator in the country.</p>\n<p>The company changed its name to Nextel in 1993. In September of that year, one month behind schedule, it switched on its digital dispatch system in Los Angeles.</p>\n<p>The technology underneath was iDEN, built by Motorola, and it was never a conventional cellular system. iDEN packed several users onto a single radio channel, which made it efficient for short dispatch bursts and mediocre for long phone calls.</p>\n<p>That tradeoff defined everything that followed. Nextel sold a two-way radio that happened to be a phone, to customers who had always carried radios, while the cellular carriers sold phones to everyone else.</p>\n\n<h2>Why contractors paid extra for a phone that chirped</h2>\n<p>Direct Connect was the reason to buy one. Press the button on the side of the handset, hear the two-tone chirp, and you were talking to a co-worker or a whole crew without dialing a number or waiting for a ring.</p>\n<p>In July 2003, Nextel and its regional affiliate Nextel Partners completed the rollout of Nationwide Direct Connect, which extended push-to-talk across the continental United States and Hawaii. Before that, the walkie-talkie only reached inside a local or regional footprint.</p>\n<p>Nextel Partners told the Securities and Exchange Commission in its 2003 annual report that the feature, alongside call alert, speakerphone and text messaging, \"has been responsible for our strong appeal to business users in mobile occupations.\" The filing listed transportation, delivery, real property and facilities management, construction and building, and landscaping.</p>\n<p>Those customers paid more per month than the average cellular subscriber and canceled less often. Every other carrier sold minutes. Nextel sold the button, and the chirp became a status marker on job sites, loud enough that everyone in the room heard both halves of the conversation.</p>\n\n<h2>What Sprint paid for Nextel, and what it wrote off</h2>\n<p>Sprint closed its acquisition of Nextel Communications in August 2005 at a price RCR Wireless reported as $35 billion. The combined company had nearly 40 million direct subscribers, and 44 million customers once network partners were counted.</p>\n<p>It also had two incompatible networks: Sprint's CDMA system and Nextel's iDEN. Keeping both running was expensive, moving a customer from one to the other meant selling them a new phone, and the push-to-talk service that made Nextel worth buying did not exist on CDMA at the quality iDEN users expected.</p>\n<p>The accounting caught up in 2007. Sprint Nextel's annual report for 2008 records non-cash goodwill impairment charges of $963 million for 2008 and $29.6 billion for 2007, and states that those charges \"relate solely to the Wireless segment.\"</p>\n<p>After the 2008 assessment, the same filing says, no goodwill remained on the consolidated balance sheet at all. Sprint had written off most of what it paid for Nextel within roughly two years of buying it, and the brand it bought was already losing the business users it was bought for.</p>\n\n<h2>What happened at 12:01 a.m. on June 30, 2013</h2>\n<p>Sprint announced in 2012 that iDEN would be switched off, and in June 2013 it confirmed the schedule. Decommissioning began at 12:01 a.m. Eastern on June 30, 2013, with June 29 the last full day of service for active users.</p>\n<p>After that moment, Sprint said, iDEN devices would no longer receive voice service, including 911 calls, push-to-talk, or data. There was no grace period and no roaming agreement to fall back on, because no other US carrier ran iDEN.</p>\n<p>Bob Azzi, Sprint's senior vice president of network, had spent the previous year pushing customers off the system. \"We strongly urge customers to migrate now to the Sprint Nationwide CDMA network to avoid losing service,\" he said in the company's June 2013 announcement.</p>\n<p>The destination was Sprint Direct Connect, a push-to-talk service on CDMA that Sprint said covered three times the push-to-talk area iDEN had. Plenty of crews took the shutdown as a reason to switch carriers instead. The spectrum was the real prize: once iDEN went dark, Sprint refarmed its 800 MHz holdings for LTE.</p>\n\n<h2>Who holds the Nextel name in 2026?</h2>\n<p>No carrier sells a Nextel-branded plan in the United States, and nothing has carried the name on a US network since June 30, 2013. The trademarks stayed with Sprint after the shutdown and moved to T-Mobile when T-Mobile bought Sprint, which is why the name turns up in trademark paperwork and nowhere on a store shelf.</p>\n<p>Sprint dropped Nextel from its own corporate name soon after the network went dark, which closed the last place the word appeared in public.</p>\n<p>The handsets answer the status question more bluntly. A Motorola iDEN phone from 2006 will still power on if the battery holds a charge, show its menu, and find no signal anywhere, because the only network it can speak to stopped existing in 2013 and nothing replaced it on the same air interface.</p>\n<p>That makes a Nextel phone a display object rather than a spare. Other hardware from those years landed differently: <a href=\"/posts/pagers-still-used-today.html\">pagers are still in daily use</a> in US hospitals, and the <a href=\"/posts/motorola-razr-v3-coolest-phone-ever-made.html\">Motorola Razr V3</a> has a more complicated answer.</p>\n\n<h2>What replaced Direct Connect on today's phones</h2>\n<p>Push-to-talk did not die with iDEN. It moved into software. Sprint Direct Connect ran on CDMA until T-Mobile retired the Sprint CDMA network, and the function now lives in apps and services that carry voice as data over LTE and 5G.</p>\n<p>Zello turns an ordinary phone into a channel-based radio over Wi-Fi or cellular data. Motorola Solutions sells WAVE PTX, which bridges broadband phones with the land mobile radio systems that police forces and utility crews still operate. AT&amp;T sells Enhanced Push-to-Talk to business customers, and Verizon offers a comparable service.</p>\n<p>What none of them rebuilt is the thing Nextel customers were actually buying: one carrier where the button behaved identically for everyone on the account, on hardware designed around it, with a tone every tradesperson recognized across a parking lot.</p>\n<p>An app depends on a data connection, a login and a battery doing more work. Nextel's buyers were the same business users the <a href=\"/posts/what-happened-to-blackberry-smartphone.html\">BlackBerry</a> chased later in the decade, and both brands learned the same lesson: the feature that defines a company can be copied into software by everyone else.</p>\n\n<h2>Frequently Asked Questions</h2>\n<h3>Is Nextel still around in 2026?</h3>\n<p>No. Nextel has not run a network in the United States since Sprint began decommissioning the iDEN system at 12:01 a.m. Eastern on June 30, 2013, and no carrier has sold a Nextel-branded plan in the US since. The Nextel trademarks moved to T-Mobile along with the rest of Sprint, so the name survives on paper rather than on a network.</p>\n<h3>What happened to the Nextel chirp?</h3>\n<p>The Nextel chirp was the two-tone sound that played when a Direct Connect push-to-talk call opened, and it stopped working when Sprint switched off the iDEN network on June 30, 2013. Push-to-talk itself continued in apps such as Zello and in Motorola Solutions' WAVE PTX service, but no US carrier has rebuilt Nextel's version of it.</p>\n<h3>Can you still use a Nextel phone?</h3>\n<p>Not as a phone. The Motorola iDEN handsets Nextel sold through June 2013 worked only on the iDEN network, which has been off since June 30, 2013, and no other US carrier uses iDEN, so they cannot be reactivated or unlocked onto another network. A Nextel handset in 2026 powers on, shows its menu, and finds no service.</p>",
+      "sources": [
+        {
+          "title": "Beyond any expectations: Nextel shakes up cellular and SMR, RCR Wireless (2001)",
+          "url": "https://www.rcrwireless.com/20010409/archived-articles/beyond-any-expectations"
+        },
+        {
+          "title": "Nextel Partners Inc, Form 10-K for 2003, SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001085707/000104746904007814/a2130363z10-k.htm"
+        },
+        {
+          "title": "Sprint closes on $35B Nextel buy, RCR Wireless (2005)",
+          "url": "https://www.rcrwireless.com/article/20050812/sub/sprint-closes-on-35b-nextel-buy/"
+        },
+        {
+          "title": "Sprint Nextel Corp, Form 10-K for 2008, SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000101830/000119312509040575/d10k.htm"
+        },
+        {
+          "title": "iDEN Nextel National Network on Schedule to Shut Down June 30, Sprint via Business Wire (2013)",
+          "url": "https://www.businesswire.com/news/home/20130605005121/en/iDEN-Nextel-National-Network-Schedule-Shut-June"
+        }
+      ],
+      "linkPhrases": [
+        "Nextel",
+        "Nextel Direct Connect",
+        "Direct Connect"
+      ],
+      "seo": {
+        "title": "Is Nextel Still Around? The Chirp Died in 2013 | 404 Memory Found",
+        "description": "Nextel is gone: Sprint switched off the iDEN network at 12:01 a.m. on June 30, 2013. Here is who holds the name now and what replaced the chirp.",
+        "keywords": [
+          "is nextel still around",
+          "what happened to nextel",
+          "who owns nextel now",
+          "nextel chirp sound",
+          "nextel iden shutdown date",
+          "sprint nextel merger",
+          "can you still use a nextel phone"
+        ]
+      }
+    },
+    {
       "id": "flooz-com-internet-currency-collapse",
       "title": "Flooz.com Explained: The Dot-Com Cash That Vanished",
       "date": "2026-10-09",

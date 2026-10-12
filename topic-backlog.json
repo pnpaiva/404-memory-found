@@ -1885,8 +1885,9 @@
         "nextel chirp sound",
         "sprint nextel merger"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-10-05"
+      "status": "published",
+      "source": "editor-research-2026-10-05",
+      "published_slug": "nextel-direct-connect-chirp-shutdown"
     },
     {
       "title": "Neo Geo AES: The $650 Console Nobody Could Afford",
