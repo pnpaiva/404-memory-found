@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Is Nextel Still Around? The Chirp Died in 2013</title>
+      <link>https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Nextel is gone: Sprint switched off the iDEN network at 12:01 a.m. on June 30, 2013. Here is who holds the name now and what replaced the chirp.</description>
+      <enclosure url="https://404memoryfound.com/pins/nextel-direct-connect-chirp-shutdown.jpg" length="156283" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/nextel-direct-connect-chirp-shutdown.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Flooz.com Explained: The Dot-Com Cash That Vanished</title>
       <link>https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html</link>
@@ -233,18 +245,6 @@
       <description>Toys R Us has owned eToys.com since February 2009, paying a reported $2.15 million. The original eToys died in 2001, two years after a $76 IPO pop.</description>
       <enclosure url="https://404memoryfound.com/pins/etoys-com-who-owns-it-now.jpg" length="155736" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/etoys-com-who-owns-it-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Internet Culture</category>
-    </item>
-    <item>
-      <title>Broadcast.com: The $5.7 Billion Site Yahoo Shut Down</title>
-      <link>https://404memoryfound.com/posts/broadcast-com-yahoo-billion-dollar-deal.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/broadcast-com-yahoo-billion-dollar-deal.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Yahoo bought Broadcast.com for $5.7 billion in 1999 and closed the service by 2002. The company had booked $22.4 million of revenue in 1998.</description>
-      <enclosure url="https://404memoryfound.com/pins/broadcast-com-yahoo-billion-dollar-deal.jpg" length="228417" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/broadcast-com-yahoo-billion-dollar-deal.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Internet Culture</category>
     </item>

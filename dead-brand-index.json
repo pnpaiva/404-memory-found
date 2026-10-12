@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-10-12",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 197,
+ "count": 198,
  "brands": [
   {
    "name": "3dfx",
@@ -844,6 +844,13 @@
    "status2026": "Online and independent in 2026, 31 years after launch",
    "owner2026": "Newgrounds, Inc., never sold, no outside investors",
    "source": "https://404memoryfound.com/posts/what-happened-to-newgrounds.html"
+  },
+  {
+   "name": "Nextel",
+   "started": "Fleet Call, April 1987; renamed Nextel in 1993",
+   "status2026": "Gone; iDEN decommissioning began June 30, 2013",
+   "owner2026": "T-Mobile holds the Nextel trademarks, after buying Sprint",
+   "source": "https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html"
   },
   {
    "name": "Nintendo GameCube",
