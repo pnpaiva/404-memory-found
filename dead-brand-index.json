@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 198,
+ "count": 199,
  "brands": [
   {
    "name": "3dfx",
@@ -802,6 +802,13 @@
    "status2026": "Discontinued. Final release Mosaic 3.0, January 7, 1997",
    "owner2026": "University of Illinois holds the name and copyright",
    "source": "https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html"
+  },
+  {
+   "name": "Neo Geo AES",
+   "started": "April 26, 1990 in Japan, by SNK",
+   "status2026": "Discontinued 1997; about $1,020 loose, AES+ reissue due September 16, 2027",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/neo-geo-aes-home-console-price.html"
   },
   {
    "name": "Neopets",
