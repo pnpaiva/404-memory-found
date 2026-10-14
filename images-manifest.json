@@ -761,6 +761,16 @@
   "thumb": "/img/thumb/philips-headphones-66796f.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rainforest_Cafe_at_Grapevine_Mills_%282022%29.jpg/960px-Rainforest_Cafe_at_Grapevine_Mills_%282022%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Rainforest_Cafe_at_Grapevine_Mills_%282022%29.jpg",
+  "ext": "jpg",
+  "file": "/img/rainforest-cafe-at-grapevine-mills-2022-6d4562.jpg",
+  "height": 1707,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/rainforest-cafe-at-grapevine-mills-2022-6d4562.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sony_D50_Discman.JPG/960px-Sony_D50_Discman.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sony_D50_Discman.JPG",
   "ext": "jpg",
