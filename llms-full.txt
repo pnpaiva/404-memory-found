@@ -1713,67 +1713,75 @@ No. The Packard Bell range Acer announced in September 2026, including the 499 e
 
 URL: https://404memoryfound.com/posts/payphones-left-united-states.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-17
+Published: 2026-09-17  Updated: 2026-10-15
 Topics: Then vs Now, Hardware
 
-**Summary:** Nobody can give an exact number of payphones left in the United States, because the Federal Communications Commission stopped requiring payphone audits in March 2018. Its last full count put the total under 100,000 at the end of 2016, down from more than 2.1 million at the 1999 peak. Thousands still work in 2026, run mostly by private operators on rural highways, in parks, prisons, hospitals and transit stations.
+**Summary:** Nobody can give an exact number of payphones left in the United States, because the Federal Communications Commission stopped requiring payphone audits in 2018 and ended its data series. Its last full count put the total under 100,000 at the end of 2016, down from more than 2.1 million at the 1999 peak. Thousands still work in 2026, most of them owned by private operators such as Pacific Telemanagement Services, which said in 2018 that it ran 20,000 phones.
 
 **Key facts:**
 - Peak: More than 2.1 million payphones in 1999
 - Last official count: Under 100,000 at the end of 2016 (FCC)
 - Status today: Still operating, but uncounted since the FCC dropped payphone audits in 2018
-- Largest operator: Pacific Telemanagement Services, which told CNN in 2018 it ran 20,000 phones
+- Owner today: Pacific Telemanagement Services, the largest operator, which said it ran 20,000 phones in 2018
 - Cost of a call: 50 cents on Verizon payphones from September 2001, up from 35 cents
 
-## What the last official payphone count showed
+## What did the FCC's last payphone count find?
 
-The Federal Communications Commission counted payphones for years, and the numbers it published are still the only reliable trend line anyone has.
+The Federal Communications Commission counted payphones for years, and those numbers are still the only national trend line anyone has.
 
-At the 1999 peak there were more than 2.1 million payphones in service in the United States. By the end of 2016 the count was under 100,000, a fall of about 95 percent from 2000.
+At the 1999 peak there were more than 2.1 million payphones in service in the United States. By the end of 2016 the figure was under 100,000, a fall of about 95 percent.
 
-The collapse was close to uniform. Most states lost more than 90 percent of their payphones between 2000 and 2016. Hawaii was the outlier, down only about 60 percent, because remote roads and visitors kept the phones earning.
+The collapse was close to uniform. Most states lost more than 90 percent of their payphones between 2000 and 2016, according to the analysis of FCC data that Spokeo published through Stacker. New York State went from 171,098 phones in 2000 to 20,716 in 2016, an 87.9 percent decline, and that still left it holding about a fifth of every payphone counted in the country.
 
-New York was the other exception, in the opposite direction. In 2016 the state still held roughly one in five of every payphone left in the country, according to FCC figures reported by CNN in 2018.
+Hawaii was the outlier, down only about 60 percent. Hawaiian Telcom told the Honolulu Civil Beat that national trends may simply take longer to arrive there, and other telecom analysts pointed at visitors who find a coin call cheaper than international roaming.
 
-Those two facts explain most of the map. Payphones survived where cell coverage was bad, where travelers arrived without a working plan, and where a sidewalk carried enough traffic to justify the maintenance visit.
+Those two facts explain most of the map. Payphones lasted longest where cell coverage was bad and where travelers turned up without a working plan.
 
-## Why nobody has an official number anymore
+## Why nobody can give you a 2026 number
 
-Congress opened the payphone business to competition in the Telecommunications Act of 1996. The law stopped the Bell companies from favoring their own phones and set up a system to pay independent operators for calls that never touched a coin slot, such as toll-free and calling-card calls.
+Congress opened the payphone business to competition in the Telecommunications Act of 1996. The law stopped the Bell companies from favoring their own phones and set up a system that paid independent operators for calls which never touched a coin slot, such as toll-free and calling-card calls.
 
-That compensation system needed policing, so the FCC made carriers run annual audits of the call tracking systems that counted those calls.
+That compensation system needed policing, so the FCC required carriers to have the call tracking systems behind those payments audited every year by an independent third party.
 
-By 2018 the audits cost more than the calls were worth. On March 15, 2018 the agency adopted an order scrapping them, writing that "Audit requirements are no longer needed as safeguards to ensure that [pay phone service providers] receive the compensation they are due." The rule changes took effect on April 16, 2018.
+By 2018 the audits cost more than the calls were worth. The Commission adopted FCC 18-21, Modernization of Payphone Compensation Rules, on February 22, 2018, and the Federal Register published it on March 15, 2018. The order dropped the annual audit and its reporting requirement, on the reasoning that those rules were no longer needed to make sure payphone providers received the compensation they were due. Carriers still have to track calls and pay operators.
 
-The side effect is that the federal government stopped generating payphone data. Anyone who states an exact number of payphones for 2026 is estimating from the 2016 baseline, from what operators disclose, or from walking around with a camera.
+The side effect is that the federal government stopped generating payphone data. Anyone who quotes an exact national figure for 2026 is estimating from the 2016 baseline, from what operators disclose, or from counting phones by hand.
 
 ## Are there still working payphones in 2026?
 
-Yes. They are just no longer where most Americans walk.
+Yes, and one company accounts for most of them. Pacific Telemanagement Services, based in San Ramon, California, picked up the phones the Bell companies dropped. AT&T said in December 2007 that it was leaving the business and would sell or remove 65,000 payphones, in prisons and in public places, across its original 13 states by the end of 2008. In 2011 Pacific Telemanagement Services agreed to buy nearly all of Verizon's remaining 50,000 payphones, most of them in the Northeast.
 
-The largest operator is Pacific Telemanagement Services of San Ramon, California, which absorbed AT&T's payphone estate in 2008 and most of Verizon's in 2011. Its president, Tom Keane, told CNN in 2018 that the company ran 20,000 phones and that payphones can still turn a profit where there is no cell or landline coverage.
+How many it runs today depends on who you ask. Tom Keane, the company's president, said in 2018 that it operated 20,000 phones nationwide. Later accounts put the number near 25,000, while a company profile has claimed about 45,000 across 48 states. Nobody audits the figure anymore.
 
-Keane named the two conditions that keep a coin phone alive. The first is dead signal: "We have phones in Yosemite Valley that are extremely busy when there's not snow on the ground," he said. The second is everything else failing at once: "Every time there's a disaster our phone use goes through the roof."
+Keane has been consistent about why any of them still earn money. “People tend to forget about pay phones, until their cellphone doesn't get a signal, until there's a natural disaster,” he said in a 2011 Wall Street Journal report that NPR's Planet Money quoted. He was just as blunt about the trend in the same piece: “We have an erosion rate that doesn't have us thinking we'll be in the pay phone business for long.”
 
-That is where the survivors sit. Rural highways, national parks, jails and prisons where inmates cannot hold a handset of their own, hospitals, bus and rail stations, and university campuses. A payphone stopped being street furniture somewhere around 2010 and became emergency infrastructure instead.
+That is where the survivors sit. Rural highways with no signal, correctional facilities where inmates cannot hold a handset of their own, transit stations and hospital lobbies. A payphone stopped being street furniture around 2010 and became emergency equipment instead.
 
-## How New York lost 6,000 street phones and kept four booths
+## How New York removed 6,000 street phones
 
-New York City had more than 6,000 active public payphones on its sidewalks in 2014, when the franchise that became LinkNYC began. Removal started in 2015 and ran for seven years.
+New York City started replacing its sidewalk payphones in 2015 under the franchise that became LinkNYC. Over the next seven years roughly 6,000 phones came out and about 2,000 Wi-Fi kiosks went in.
 
-On May 23, 2022 a crane lifted the last free-standing public payphone off Seventh Avenue at West 50th Street, a block south of Times Square. It went to the Museum of the City of New York for an exhibit about the city before computers.
+On May 23, 2022 a crane lifted the last free-standing public payphone off Seventh Avenue near West 50th Street, a block from Times Square. It went to the Museum of the City of New York for Analog City, an exhibit about the city before computers.
 
-Matthew Fraser, then commissioner of the city's Office of Technology and Innovation, marked the moment: "As a native New Yorker, saying goodbye to the last street payphone is bittersweet because of the prominent place they've held in the city's physical landscape for decades."
+Matthew Fraser, then the commissioner of the city's Office of Technology and Innovation, marked the moment: “As a native New Yorker, saying goodbye to the last street payphone is bittersweet.” He compared the change to the shift from horse and buggy to automobile to airplane.
 
-The title was disputed the same week. Four full-length glass booths still stand on West End Avenue on the Upper West Side, kept there in large part by a neighborhood resident named Alan Flacks, who spent years lobbying to save them. Payphones inside private buildings were never part of the city count either.
+The title was disputed within days. Four full-length glass booths still stand on West End Avenue on the Upper West Side, and payphones inside private buildings were never part of the city's franchise count. New York removed its last public street phone in 2022, not its last phone.
 
-## What a payphone call cost before the coins stopped
+## What did a payphone call cost before the coins stopped?
 
-Coin rates were deregulated in 1997, and the price climbed as the customer base shrank.
+Coin prices climbed as the customer base shrank, and 50 cents became the standard local rate in the early 2000s.
 
-On September 8, 2001 CNN reported that Verizon, then the largest payphone operator in the country, would raise the price of a local call on its 430,000 payphones across 33 states from 35 cents to 50 cents. The company pointed at wireless competition: fewer calls meant each remaining call had to carry more of the cost.
+Verizon, then the largest payphone operator in the country, began converting its 430,000 payphones across 33 states in September 2001 so that a local call took 50 cents instead of 35 cents, with directory assistance moving to the same price. The company blamed wireless competition: payphone use had fallen 23 percent in two years, so each remaining call had to carry more of the cost. Qwest had already gone to 50 cents in May 2001, and SBC Communications and BellSouth announced the same price. New York came last, with 110,000 phones converted later that year.
 
-What emptied the coin boxes is no mystery. Cheap handsets did it, first with phones like the Nokia 3310 (https://404memoryfound.com/posts/what-happened-to-nokia-3310.html) from 2000 and then with the Motorola Razr V3 (https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html) from 2004, which put a dial tone in the pocket of people who had never owned a landline. For what the rest of that decade's hardware cost in current money, see our table of 90s tech prices in 2026 dollars (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html).
+What emptied the coin boxes is no mystery. Cheap handsets did it, first with phones like the Nokia 3310 (https://404memoryfound.com/posts/what-happened-to-nokia-3310.html) from 2000 and then the Motorola Razr V3 (https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html) from 2004, which put a dial tone in the pocket of people who had never owned a landline. For what the rest of that decade's hardware costs in current money, see our table of 90s tech prices in 2026 dollars (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html).
+
+## Can free payphones bring the booth back?
+
+A small movement has been reinstalling payphones that take no money at all. PhilTel, a volunteer collective in Philadelphia, pulls out the coin mechanism, fits a circuit board and a router, and routes calls over VoIP using Asterisk. Its first phone went live at Iffy Books near Chinatown on December 17, 2022, and calls to most North American numbers are free. Progress is slow: PhilTel's own site said in October 2025 that the group was working on installing its second phone.
+
+The idea came from Futel, which an engineer named Karl Anderson started in Portland, Oregon in 2014 and which has run about a dozen free phones across Oregon, Washington and Michigan.
+
+Set against the collapse, these are rounding errors. The Payphone Project counted 4,800 payphones in Philadelphia in the 1990s, and one of PhilTel's organizers estimated about 50 still working in the city in 2022. The revival matters for a different reason. It shows that a payphone now has to be donated infrastructure, because coins no longer cover the line rental and the maintenance visit.
 
 ### Where to find one today
 
@@ -1785,22 +1793,22 @@ Condition drives the price, and the gap between a gutted shell and a unit with a
 
 ### How many payphones are left in the United States?
 
-There is no current official count of payphones in the United States. The Federal Communications Commission's last full figure put the number under 100,000 at the end of 2016, down from more than 2.1 million at the 1999 peak, and the agency eliminated its payphone audit and reporting rules in March 2018, which ended the data series.
+There is no current official count of payphones in the United States. The Federal Communications Commission's last full figure put the number under 100,000 at the end of 2016, down from more than 2.1 million at the 1999 peak, and the Commission eliminated its payphone audit and reporting rules in 2018, which ended the data series.
 
 ### Are there still working payphones in 2026?
 
-Yes, working payphones still exist in the United States in 2026, mostly on rural highways, in national parks, inside jails and prisons, and in hospitals and transit stations. Pacific Telemanagement Services, the largest operator, told CNN in 2018 that it ran 20,000 of them, and its president said payphones remain profitable where cell coverage is poor.
+Yes, working payphones still exist in the United States in 2026, mostly along rural highways with poor cell coverage, in correctional facilities, and in transit stations and hospitals. Pacific Telemanagement Services, the largest operator, said in 2018 that it ran 20,000 of them, and later accounts put its fleet near 25,000.
 
-### When did payphones start disappearing?
+### Who owns the payphones that are left?
 
-Payphones peaked in 1999 at more than 2.1 million and fell by about 95 percent between 2000 and 2016 as cell phones spread. New York City, which held roughly one in five of the country's remaining payphones in 2016, started pulling its street phones in 2015 and removed the last public one on May 23, 2022.
+Most American payphones now belong to private operators rather than phone companies. Pacific Telemanagement Services of San Ramon, California agreed in 2011 to buy nearly all of Verizon's remaining 50,000 payphones, after AT&T announced in December 2007 that it would sell or remove its 65,000 phones by the end of 2008.
 
 **Sources:**
-- CNN Money: There are still 100,000 pay phones in America (2018): https://money.cnn.com/2018/03/19/news/companies/pay-phones/index.html
-- Federal Register: Modernization of Payphone Compensation Rules (FCC, March 15, 2018): https://www.federalregister.gov/documents/2018/03/15/2018-05201/modernization-of-payphone-compensation-rules
-- Stacker and Spokeo: The decline of pay phones in every state: https://stacker.com/stories/retrospective/decline-pay-phones-every-state
-- NPR: New York City removes its last public pay phone, a disputed title (2022): https://www.npr.org/2022/05/24/1100931534/last-pay-phone-new-york-city-public-nyc
-- CNN: Verizon raises pay phone rates to 50 cents (2001): https://www.cnn.com/2001/US/09/08/pay.phone.calls/
+- Federal Register: Modernization of Payphone Compensation Rules (FCC, March 15, 2018): https://www.federalregister.gov/documents/2018/03/15/2018-05201-modernization-of-payphone-compensation-rules
+- Scripps News: There are still more than 100,000 pay phones operating in the US (2018): https://www.ktnv.com/news/national/there-are-still-more-than-100000-pay-phones-operating-in-the-us
+- Stacker and Spokeo: The decline of pay phones in every state (FCC data, 2000 to 2016): https://stacker.com/stories/technology/decline-pay-phones-every-state
+- NBC News: New York City says goodbye to its last public payphone (2022): https://www.nbcnews.com/news/us-news/new-york-city-says-goodbye-last-public-payphone-rcna30226
+- Verizon: New York Is Last State to See Payphone Price Change (2001): https://www.verizon.com/about/news/press-releases/new-york-last-state-see-payphone-price-change
 
 ---
 
