@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns WorldCom Now? Verizon Kept the MCI Name</title>
+      <link>https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>WorldCom is gone: it filed Chapter 11 in July 2002 with $103.9 billion in assets, and Verizon has owned the MCI name since January 6, 2006.</description>
+      <enclosure url="https://404memoryfound.com/pins/worldcom-fraud-who-owns-mci-now.jpg" length="146466" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/worldcom-fraud-who-owns-mci-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Neo Geo AES Price: $649.99 New, $1,020 Used in 2026</title>
       <link>https://404memoryfound.com/posts/neo-geo-aes-home-console-price.html</link>
@@ -236,18 +248,6 @@
       <category>Hardware</category>
       <category>Then vs Now</category>
       <category>Money &amp; Tech</category>
-    </item>
-    <item>
-      <title>Is Tower Records Still Around? Online and in Japan</title>
-      <link>https://404memoryfound.com/posts/tower-records-still-around.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/tower-records-still-around.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Tower Records is still around online and as a Japanese chain owned by NTT Docomo, but all 89 US stores closed in the 2006 auction.</description>
-      <enclosure url="https://404memoryfound.com/pins/tower-records-still-around.jpg" length="295369" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/tower-records-still-around.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Music &amp; Entertainment</category>
     </item>
   </channel>
 </rss>

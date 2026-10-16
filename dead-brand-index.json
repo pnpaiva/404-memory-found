@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-10-16",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 200,
+ "count": 201,
  "brands": [
   {
    "name": "3dfx",
@@ -732,6 +732,13 @@
    "status2026": "Still live at mapquest.com, with apps for iPhone and Android",
    "owner2026": "System1, which bought it from Verizon in October 2019",
    "source": "https://404memoryfound.com/posts/how-mapquest-lost-to-google-maps.html"
+  },
+  {
+   "name": "MCI",
+   "started": "",
+   "status2026": "WorldCom gone; MCI still a wholly owned Verizon subsidiary in 2026",
+   "owner2026": "Verizon Communications, which closed the MCI merger on January 6, 2006",
+   "source": "https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html"
   },
   {
    "name": "Microsoft Bob",

@@ -2040,6 +2040,16 @@
   "thumb": "/img/thumb/aiwa-minidisc-player-am-hx55-1fd926.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/NFI_Group_Inc.png/960px-NFI_Group_Inc.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:NFI_Group_Inc.png",
+  "ext": "png",
+  "file": "/img/nfi-group-inc-e1d6fe.png",
+  "height": 310,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/nfi-group-inc-e1d6fe.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nintendo-64-wController-L.jpg/960px-Nintendo-64-wController-L.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Nintendo-64-wController-L.jpg",
   "ext": "jpg",

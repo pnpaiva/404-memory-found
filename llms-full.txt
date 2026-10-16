@@ -4,6 +4,103 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Who Owns WorldCom Now? Verizon Kept the MCI Name
+
+URL: https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-10-16
+Topics: Business Blunders, Internet Culture
+
+**Summary:** WorldCom no longer exists. The company behind an $11 billion accounting fraud filed for Chapter 11 on July 21, 2002 with $103.9 billion in assets, then reorganized under the MCI name. Verizon Communications closed its purchase of MCI on January 6, 2006, and in 2026 MCI survives as a Verizon subsidiary that shows up on regulatory filings rather than phone bills.
+
+**Key facts:**
+- Deal that built it: $37 billion purchase of MCI, announced November 1997 at $51 a share
+- Fraud size: $11 billion in overstated results
+- Bankruptcy: Chapter 11 on July 21, 2002, with $103.9 billion in assets
+- Owner today: Verizon Communications, which closed the MCI merger on January 6, 2006
+- Status today: WorldCom gone; MCI still a wholly owned Verizon subsidiary in 2026
+
+## How a long-distance reseller came to own MCI
+
+WorldCom started as a reseller. It bought wholesale long-distance capacity, sold calls cheaper than the former Bell companies, and spent the 1990s using its own rising stock to buy competitors.
+
+The purchase that changed its scale was MCI Communications, the carrier that had spent two decades fighting AT&T's long-distance monopoly in court and in Congress. WorldCom agreed to buy it in a $37 billion deal announced in November 1997, valuing MCI at $51 a share, according to CNN/Money's report at the time.
+
+The combined company was expected to book roughly $30 billion in revenue in 1998. That put WorldCom among the largest long-distance carriers in the United States and gave it a national fiber network it had not built.
+
+The logic was simple and, for a while, real. Every network WorldCom bought removed a bill it had been paying another carrier, and investors rewarded each deal with a higher share price that paid for the next one.
+
+The machine only ran while the stock held up. When long-distance prices kept falling and the fiber built for the internet boom turned into overcapacity after 2000, WorldCom had no cheap stock left to spend and a cost base it could not cut fast enough. The deals of those years are mostly remembered now for their size, which is also the fate of AOL Time Warner (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html).
+
+## What the $11 billion in bad accounting actually was
+
+The fraud was not exotic. WorldCom owed other carriers continuing payments for network capacity it had committed to lease, a recurring operating cost the company tracked internally as line costs.
+
+Rather than charge those payments against earnings in the quarter they came due, the finance department moved large amounts of them onto the balance sheet as capital spending, the treatment a company uses when it buys a building. Capital spending is written off slowly over years, so shifting an expense there lifts the current quarter's profit without changing a single customer invoice or a single dollar of cash coming in.
+
+WorldCom's own internal audit team, not the outside firm that signed off on the accounts, pulled the thread in 2002. Once the entries were laid out in order, the company had to tell the market that profits it had already reported did not exist.
+
+The figure the courts worked from was $11 billion of overstated results, the number the Las Vegas Sun used in its 2005 report on the sentencing. No product had failed and no customer had left. The revenue was real and the profit was manufactured, which is why the collapse surprised people who had read the filings.
+
+## How big was the Chapter 11 filing in July 2002?
+
+WorldCom filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets, the figures BankruptcyData compiled for CNBC's ranking of the largest bankruptcies in US history.
+
+Bankruptcy league tables measure what a company says it owns rather than what it owes, which is why that number dwarfs the accounting hole that caused the filing. On the asset measure, WorldCom sat at the top of the US list until the failures of 2008.
+
+Chapter 11 is a reorganization, not a shutdown, and almost nothing visible changed for customers. The fiber kept carrying traffic, the switches kept routing calls, and employees kept showing up while lawyers converted debt into equity.
+
+What did change was the name. The company came out of court under the MCI name rather than WorldCom's, because the brand attached to the fraud was worth less than nothing in a market where every enterprise customer had to explain its vendor choice to a board.
+
+Shareholders got nothing like their money back. In a Chapter 11 reorganization the creditors are paid first in securities and cash, and the common stock that millions of retirement accounts held through the 1990s was wiped out.
+
+## Why Bernard Ebbers got a 25-year sentence
+
+Bernard Ebbers, the chief executive who assembled WorldCom out of acquisitions, was convicted in March 2005 of conspiracy, securities fraud and filing false reports with regulators.
+
+Judge Barbara Jones of the US District Court in Manhattan sentenced him on July 13, 2005. Ebbers was 63, and reporters in the room treated the term as a life sentence rather than a number of years.
+
+Prosecutors had asked for far more. Jones said her reading of the federal sentencing guidelines pointed to a range from 30 years to life, then concluded that "30 years would be excessive" and settled on 25 years, as the Las Vegas Sun reported in 2005.
+
+The defense had argued his health and his record of charitable giving in Mississippi. The judge weighed both and cut the term below the guideline range without accepting that either excused the fraud.
+
+His testimony had been the gamble of the trial. Ebbers told the jury he had left the numbers to his finance chief and did not understand accounting, a defense the jury rejected in a case where the finance chief had already pleaded guilty and testified for the government.
+
+## Where the MCI name still shows up in 2026
+
+Verizon Communications bought MCI and closed the merger on January 6, 2006, and the same day launched a unit called Verizon Business built around the former MCI operations serving companies and government agencies.
+
+The brand left advertising fast. The legal entity did not. MCI stayed inside Verizon as a subsidiary, and in 2026 the name turns up on state and federal telecom paperwork rather than on anybody's phone bill.
+
+Verizon said so plainly in the 2020s. In a February 2024 filing with the Idaho Public Utilities Commission, the company wrote that standalone residential and small business long distance "will not be discontinued at this time", and that "MCI will continue to exist as a wholly owned subsidiary of Verizon Communications Inc."
+
+The local phone side did end. The same filings set the discontinuation of residential and small business local phone service provided by Verizon's MCImetro subsidiary for on or after December 31, 2023, and told the remaining customers to choose another provider.
+
+So the answer in 2026 is split. WorldCom is gone as a company and as a brand, MCI survives as a Verizon subsidiary aimed at business and government buyers, and the most likely place a consumer meets either name is a regulatory docket. CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) ended up in the same condition, and anyone who remembers Nextel (https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html) knows the order these things go in: the network outlives the advertising, and the paperwork outlives both.
+
+## Frequently Asked Questions
+
+### What happened to WorldCom?
+
+WorldCom collapsed in 2002 after an $11 billion accounting fraud and filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets. It reorganized under the MCI name instead of its own, and Verizon Communications closed its purchase of MCI on January 6, 2006. The WorldCom name has not belonged to an operating company since.
+
+### Who owns MCI now?
+
+Verizon Communications owns MCI. Verizon closed the merger on January 6, 2006 and folded the former MCI business into a unit called Verizon Business. In a February 2024 filing with the Idaho Public Utilities Commission, Verizon stated that MCI would continue to exist as a wholly owned subsidiary of Verizon Communications Inc.
+
+### How much was the WorldCom fraud worth?
+
+The WorldCom fraud came to $11 billion in overstated results, the figure the courts used. Chief executive Bernard Ebbers was convicted in March 2005 and sentenced on July 13, 2005 to 25 years in prison by Judge Barbara Jones in Manhattan, who said a longer term of 30 years would have been excessive.
+
+**Sources:**
+- CNN/Money: WorldCom wins MCI (November 10, 1997): https://money.cnn.com/1997/11/10/deals/worldcomwins/
+- CNBC: Largest US bankruptcies, from BankruptcyData: https://www.cnbc.com/2009/11/02/Biggest-Chapter-11-Cases.html
+- Las Vegas Sun: Ebbers sentenced to 25 years in WorldCom fraud case (July 13, 2005): https://m.lasvegassun.com/news/2005/jul/13/ebbers-sentenced-to-25-years-in-worldcom-fraud-cas/
+- Verizon news archive: Verizon and MCI close merger (January 6, 2006): https://www.verizon.com/about/node/866823
+- Idaho Public Utilities Commission: Verizon/MCI service filing addendum (February 2024): https://puc.idaho.gov/Fileroom/PublicFiles/TELE/MCM/MCMT2301/CaseFiles/20240206Addendum%20to%20Filing.pdf
+
+---
+
 # Neo Geo AES Price: $649.99 New, $1,020 Used in 2026
 
 URL: https://404memoryfound.com/posts/neo-geo-aes-home-console-price.html
@@ -8359,7 +8456,7 @@ A 2 percent floor in 1995 is more than four times what an average display ad ret
 
 Inside a year, everywhere. CNET ran its first banner in June 1995, Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html) and Excite (https://404memoryfound.com/posts/what-happened-to-excite-search-engine-google.html) launched advertising through the spring and summer of that year, and Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) started selling ads in November 1995, according to the 2014 Internet History Podcast oral history.
 
-About a dozen advertisers had shared HotWired's launch day on October 27, 1994, among them MCI, Volvo, Club Med, Sprint, IBM and Zima. By 1996 the banner was simply how a website paid for itself.
+About a dozen advertisers had shared HotWired's launch day on October 27, 1994, among them MCI (https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html), Volvo, Club Med, Sprint, IBM and Zima. By 1996 the banner was simply how a website paid for itself.
 
 The people who made it did not see that coming. "I didn't think it was the beginning of a giant industry," Jonathan Nelson, co-founder of the agency Organic, told Digiday in 2017.
 
@@ -14541,7 +14638,7 @@ By 1994 the American online market had settled into three services: CompuServe, 
 
 The open web finished the argument. Once Netscape Navigator (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html) put the internet in front of ordinary buyers in late 1994, a walled service billing by the hour had to explain why its forums were worth more than an unmetered web. CompuServe bolted internet access onto its own client, slowly, and kept losing money.
 
-The exit, announced in September 1997 and closed in February 1998, was a three-way trade rather than a straight sale. WorldCom bought all of CompuServe for $1.2 billion in stock and kept the network infrastructure, which was what it wanted. It then handed the CompuServe Information Service and its 2.6 million consumer subscribers, along with $175 million in cash, to AOL, and took AOL's ANS Communications business-access division in exchange. Bertelsmann paid AOL a further $75 million to keep its half of their European joint venture.
+The exit, announced in September 1997 and closed in February 1998, was a three-way trade rather than a straight sale. WorldCom (https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html) bought all of CompuServe for $1.2 billion in stock and kept the network infrastructure, which was what it wanted. It then handed the CompuServe Information Service and its 2.6 million consumer subscribers, along with $175 million in cash, to AOL, and took AOL's ANS Communications business-access division in exchange. Bertelsmann paid AOL a further $75 million to keep its half of their European joint venture.
 
 H&R Block sold its WorldCom stock on February 2, 1998, and reported net proceeds of $1,032,699,000 from the sale in its annual report that year.
 
