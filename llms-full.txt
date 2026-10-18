@@ -2309,118 +2309,112 @@ No. There has been no Broadcast.com service since Yahoo discontinued it in 2002,
 
 ---
 
-# EverQuest in 2026: The 1999 MMO That Still Runs
+# Is EverQuest Still Active in 2026? Yes, 27 Years On
 
 URL: https://404memoryfound.com/posts/everquest-still-active-2026.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-17
+Published: 2026-09-17  Updated: 2026-10-18
 Topics: Gaming, Internet Culture
 
-**Summary:** EverQuest is still active in 2026. Darkpaw Games, part of Daybreak Game Company, still runs the 1999 MMORPG and opened a new time-locked progression server called Lethar on August 26, 2026. A separate solo-friendly rebuild, EverQuest Legends, launched on July 28, 2026 for $19.99 plus $9.99 a month.
+**Summary:** EverQuest is still active in 2026. Darkpaw Games, part of Daybreak Game Company, still runs the 1999 MMORPG: it opened a time-locked progression server called Lethar on August 26, 2026, and put its 2026 expansion, Favors of Fortune, into beta on October 6, 2026. A separate solo-friendly rebuild, EverQuest Legends, launched on July 28, 2026 for $19.99 plus $9.99 a month.
 
 **Key facts:**
 - Launched: March 16, 1999, by Verant Interactive for Sony Online Entertainment
-- Early sales: 10,000 copies on day one, 225,000 within six months
-- Owner today: Darkpaw Games, part of Daybreak Game Company, owned by Enad Global 7
+- Early sales: 60,000 copies by April 1999, 225,000 within six months
+- Owner today: Darkpaw Games, published by Daybreak Game Company, owned by Enad Global 7
 - Status today: Live in 2026. Newest server, Lethar, opened August 26, 2026
-- Cost now: Client is a free download. EverQuest Legends is $19.99 plus $9.99 a month
+- Price today: EverQuest Legends is $19.99 with one month included, then $9.99 a month
 
-## How a 1999 fantasy game outgrew its own servers
+## How a 1999 fantasy game outsold Ultima Online
 
-EverQuest went on sale on March 16, 1999, built by Sony's 989 Studios and its spinoff Verant Interactive and published by Sony Online Entertainment.
+EverQuest went on sale on March 16, 1999, built by Sony's 989 Studios and its spinoff Verant Interactive, and published by Sony Online Entertainment.
 
-Nobody inside the building expected what followed. Ultima Online, the 1997 game that first proved players would pay every month for a shared world, had sold about 120,000 copies, and by PC Gamer's account of the launch the EverQuest team would have been pleased to sell a quarter of that.
+Ultima Online, the 1997 game that first proved players would pay every month for a shared world, held the sales record for the genre. By PC Gamer's account of the launch, the EverQuest team would have been pleased with a fraction of it.
 
-EverQuest sold 10,000 copies on its first day.
+By April 1999 EverQuest had sold 60,000 copies. Six months in, the figure was 225,000, which PC Gamer's history of the game says "doubled Ultima Online's record in half the time." Servers filled faster than Sony could add them.
 
-By April 1999 it had sold 60,000. Six months after launch the figure was 225,000, roughly double what Ultima Online had managed in twice the time. Servers filled faster than Sony could add them, and the company had to buy more internet capacity to keep the world standing up.
-
-The design is what made it stick. Norrath had no quest markers, no fast travel and a death penalty that sent you running unarmed across a continent to recover your own corpse. It asked for whole evenings rather than sessions, and several hundred thousand people handed them over.
+The design is what made it stick. Norrath had no quest markers, no fast travel, and a death penalty that sent a player running unarmed across a continent to recover their own corpse. It asked for whole evenings rather than sessions, and several hundred thousand people handed them over.
 
 ## Who owns EverQuest now?
 
-Four owners later, the game has outlasted every one of them.
+Three names answer that in 2026. Darkpaw Games builds and operates EverQuest, Daybreak Game Company publishes it, and Enad Global 7 owns Daybreak.
 
-Sony Online Entertainment ran EverQuest from launch. That studio was sold off and renamed Daybreak Game Company, the same organization under a different flag.
+Sony Online Entertainment ran the game from launch. That studio was later sold off and renamed Daybreak Game Company, the same organization under a different flag, and Daybreak set up Darkpaw Games as the studio that handles EverQuest and EverQuest II.
 
-At the start of 2020, Daybreak split itself into three studios, one for each of its biggest properties. Darkpaw Games took EverQuest and EverQuest II, Rogue Planet Games took PlanetSide 2, and Dimensional Ink Games took DC Universe Online. Darkpaw has run EverQuest ever since.
+In December 2020 the Stockholm-listed publisher Enad Global 7 agreed to buy Daybreak for up to $300 million in cash and newly issued EG7 shares, with closing expected no later than December 31, 2020. EG7's announcement put Daybreak's net revenue at $77.6 million for the twelve months to September 30, 2020.
 
-In December 2020 the Swedish publisher Enad Global 7 agreed to buy Daybreak for $300 million, with the sale set to close by the end of that year. EG7 had bought MechWarrior developer Piranha Games the week before.
+Robin Flodin, EG7's chief executive at the time, called the purchase "a perfect fit for EG7" in that 2020 announcement, and added: "Together we have bold and exciting plans for the future."
 
-So the 2026 answer needs three names. Darkpaw Games operates EverQuest day to day, Daybreak Game Company publishes it, and Enad Global 7 owns Daybreak.
+Six years later the chain is unchanged, and EverQuest has outlasted the corporate structure of every company that has held it.
 
-## Which EverQuest servers opened in 2026?
+## Which new EverQuest server opened in August 2026?
 
-Darkpaw Games still ships expansions and still opens new servers, which is the clearest evidence the game is alive rather than merely switched on.
+Darkpaw Games still opens new servers, which is the clearest evidence the game is alive rather than merely switched on.
 
-The newest is Lethar, a time-locked progression server that went live on August 26, 2026 at noon Pacific time.
+The newest is Lethar, which went live on August 26, 2026 at noon Pacific time. Massively Overpowered, covering the opening in 2026, called it "the second time-locked progression server for the classic game" to launch that year.
 
-Progression servers are EverQuest's answer to its own nostalgia. They start the world at an older expansion and unlock the rest on a published schedule, so a returning player can replay the game's history in order instead of landing in a world that moved on without them. Lethar skips the first ten expansions and opens at The Serpent's Spine, then unlocks The Buried Sea twelve weeks later and everything after that every eight weeks.
+Progression servers are EverQuest's answer to its own nostalgia. They start the world at an older expansion and unlock the rest on a published schedule, so a returning player replays the game's history in order instead of landing in a world that moved on without them. Lethar opens at The Serpent's Spine with a level cap of 75, unlocks The Buried Sea twelve weeks later, then adds an expansion every eight weeks.
 
-That schedule runs a long way out. Shattering of Ro, the current expansion, is not due to unlock on Lethar until October 2029, which says something about how long Darkpaw expects the server to be there.
+Lethar also brought in a personal loot ruleset, where bonus loot drops to individual players at the end of a group or raid fight instead of being rolled for.
 
-Lethar also brought in a personal loot ruleset, where bonus loot drops to individual players at the end of a group fight instead of being rolled for.
+Where to find one today: the collecting around EverQuest is all physical, because the game itself lives on Darkpaw's servers. The 1999 big box, the jewel-case reissues and the cloth maps of Norrath that shipped with the early expansions still change hands, and condition decides the price, since the disc is scenery without a live account. Sellers keep them listed among Etsy's EverQuest listings (https://www.etsy.com/search?q=everquest).
 
-Where to find one today: the client itself is a free download, so there is nothing to buy in order to play. The collecting is all physical. The 1999 big box, the jewel-case reissues and the cloth maps of Norrath that shipped with the early expansions still change hands, and condition decides the price, since the disc is scenery without a live account. Sellers keep them listed among Etsy's EverQuest listings (https://www.etsy.com/search?q=everquest).
+## What is Favors of Fortune, the 2026 expansion?
 
-## Why Daybreak sued an EverQuest fan server
+Darkpaw Games has shipped an EverQuest expansion almost every December for two decades, and 2026 is no exception.
 
-EverQuest has a shadow version. Emulated servers have rebuilt old eras of the game for two decades, and Daybreak left most of them alone for most of that time.
+Favors of Fortune was named in the September 2026 producer's letter. Pre-orders and the beta opened together on October 6, 2026 at 10:00 a.m. Pacific time, and pre-ordering is what buys a seat in the beta. A developer livestream is set for November 17, 2026.
 
-The Heroes Journey was the exception. It launched in November 2024, pitched itself as an EverQuest for solo and duo players, and grew quickly.
+The beta build adds a Dark Elf Bard race and class combination, a collection depot, and new zones, quests, missions and raids. The story picks up after the war of the gods, with the villain Scorn returning. Players who take an active part in the beta are promised a gilded ornament after the new year.
 
-Daybreak took it to court. The 41-page complaint named Kristopher Takahashi and Alexander Taylor, and accused the server of copying Daybreak's game content, circumventing its technical protections and diluting the EverQuest trademark. It said the operation "generates revenue through a thinly-disguised 'donation' system."
+The expansion follows Shattering of Ro. For a game whose obituary has been written many times, a public beta running in October 2026 is the most literal answer available to the question of whether anyone is still working on it.
 
-Scale is what made the case unusual for a fan project. US District Judge Cynthia Bashant ruled in Daybreak's favor, and the ruling put The Heroes Journey's income at roughly $100,000 a month in donations.
-
-The server shut down. The client came off every download page and the site came off the web.
-
-Its operators had described the project as a "three-year labor of love aimed at creating an incredible soloduo EQ experience." In 2026 that description is most of what survives it.
-
-## What EverQuest Legends does differently
+## How EverQuest Legends is different from EverQuest
 
 On July 28, 2026, Daybreak launched a second EverQuest.
 
-EverQuest Legends is a rebuilt version of the 1999 game, developed by the independent studio Game Jawn rather than by Darkpaw Games, and published by Daybreak. It keeps the look, the world and the music, and strips out the thing that defined the original: the requirement to find other people.
+EverQuest Legends is a rebuilt version of the 1999 game, developed by the independent studio Game Jawn rather than by Darkpaw Games, and published by Daybreak. It keeps the world and the look, and strips out the thing that defined the original: the requirement to find other people.
 
-The whole game can be finished alone. Groups cap at four players and raids at eight, and one character can carry up to three classes at once, so a single avatar can be a rogue, a paladin and a wizard.
+The whole game can be played alone. Groups cap at four players and raids at eight, and the launch build covers the continents of Antonica, Faydwer and Odus.
 
 The pricing is a deliberate throwback. The base game costs $19.99 and includes one month of subscription time, and after that it runs $9.99 a month.
 
-David Youssefi, executive producer at Daybreak, made the pitch personal when the game was announced in 2026. "I've dreamt of a solo/casual version of EQ for over 20 years," he said.
+David Youssefi, executive producer at Daybreak, made the pitch personal on launch day. "EverQuest Legends is the manifestation of a game I've dreamt of for over 20 years," he said in a statement quoted by RPGSite in 2026.
 
-Legends runs on its own servers and does not replace anything. Darkpaw's EverQuest is still taking new characters on the same day.
+Legends runs on its own servers and replaces nothing. Darkpaw's EverQuest was taking new characters on the same day.
 
-## Why a 27-year-old MMO still has players
+## Why does a 27-year-old MMO still have players?
 
 EverQuest's survival has less to do with the game than with the sunk cost of a character somebody built in 2001 and a guild that still logs in on Tuesday nights.
 
+Neither Daybreak nor Enad Global 7 publishes an EverQuest subscriber figure, and the public trackers see only the players who launch through Steam, so every precise player count in circulation is a guess. The release cadence is the better measure: a new server in August 2026, an expansion in beta in October 2026.
+
 The same force keeps other old worlds open. RuneScape still draws a crowd (https://404memoryfound.com/posts/is-runescape-still-popular-2026.html) in 2026, and Second Life is still running (https://404memoryfound.com/posts/what-happened-to-second-life-virtual-world.html) more than twenty years on, for one reason: a virtual place holding a decade of somebody's life is very hard to switch off.
 
-The business math cooperates. A game with a small, loyal, paying base and a team measured in dozens does not need millions of players to justify itself, which is why the expansions have kept arriving every December.
+The business math cooperates. A game with a small, loyal, paying base and a team measured in dozens does not need millions of players to justify itself, which is why the expansions keep arriving.
 
-What actually ended was the culture around it, the era when playing together meant hauling a tower across town for a LAN party (https://404memoryfound.com/posts/golden-age-of-lan-parties.html) and splitting a phone line. The servers are the part that never stopped.
+What ended was the culture around it, the era when playing together meant hauling a tower across town for a LAN party (https://404memoryfound.com/posts/golden-age-of-lan-parties.html) and splitting a phone line. The servers are the part that never stopped.
 
 ## Frequently Asked Questions
 
 ### Is EverQuest still active in 2026?
 
-Yes. EverQuest, released on March 16, 1999, is still live in 2026 under Darkpaw Games, which is part of Daybreak Game Company. Darkpaw opened a new time-locked progression server named Lethar on August 26, 2026, and Shattering of Ro is the game's current expansion.
+Yes. EverQuest, released on March 16, 1999, is still live in 2026 under Darkpaw Games, which is part of Daybreak Game Company. Darkpaw opened a new time-locked progression server named Lethar on August 26, 2026, and put its 2026 expansion, Favors of Fortune, into public beta on October 6, 2026.
 
 ### Who owns EverQuest now?
 
-EverQuest is operated by Darkpaw Games, a studio Daybreak Game Company created at the start of 2020 to run EverQuest and EverQuest II. Daybreak, the former Sony Online Entertainment, was itself bought by the Swedish publisher Enad Global 7 in a $300 million deal agreed in December 2020.
+EverQuest is developed and operated by Darkpaw Games and published by Daybreak Game Company, the former Sony Online Entertainment. Daybreak was bought by the Stockholm-listed publisher Enad Global 7 in a deal worth up to $300 million agreed in December 2020, which makes EG7 the ultimate owner of EverQuest in 2026.
 
 ### Is EverQuest Legends the same game as EverQuest?
 
-No. EverQuest Legends is a separate, solo-friendly rebuild of the 1999 game, developed by Game Jawn and published by Daybreak on July 28, 2026. It costs $19.99 with one month of subscription included and $9.99 a month after that, and it runs on its own servers alongside the original EverQuest.
+No. EverQuest Legends is a separate, solo-friendly rebuild of the 1999 game, developed by Game Jawn and published by Daybreak on July 28, 2026. It costs $19.99 with one month of subscription time included and $9.99 a month after that, and it runs on its own servers alongside the original EverQuest.
 
 **Sources:**
 - PC Gamer: Breaking the internet, the story of EverQuest: https://www.pcgamer.com/breaking-the-internet-the-story-of-everquest-the-mmo-that-changed-everything/
-- Gematsu: Enad Global 7 to acquire Daybreak Game Company: https://www.gematsu.com/2020/12/enad-global-7-to-acquire-daybreak-game-company
-- MMOHuts: EverQuest's Lethar TLP server starts at The Serpent's Spine on August 26: https://mmohuts.com/news/everquests-lethar-tlp-server-starts-at-the-serpents-spine-on-august-26
-- TweakTown: EverQuest emulator The Heroes' Journey loses copyright suit, shuts down: https://www.tweaktown.com/news/107868/highly-profitable-everquest-emulator-the-heroes-journey-thj-loses-copyright-suit-shuts-down/index.html
-- Gematsu: EverQuest Legends launches July 28: https://www.gematsu.com/2026/06/everquest-legends-launches-july-28
+- Enad Global 7: EG7 enters into an agreement to acquire Daybreak Game Company (December 2020): https://www.enadglobal7.com/mfn_news/eg7-enters-into-an-agreement-to-acquire-daybreak-game-company-and-has-secured-debt-financing-and-intends-to-raise-equity/
+- Massively Overpowered: EverQuest opens the Lethar progression server (August 2026): https://massivelyop.com/2026/08/27/everquest-opens-the-lethar-progression-server-everquest-ii-beta-tests-origins-servers-shadow-odyssey/
+- Massively Overpowered: EverQuest announces its 2026 expansion, Favors of Fortune: https://massivelyop.com/2026/09/30/everquest-announces-its-expansion-for-2026-favors-of-fortune-in-the-newest-producers-letter/
+- RPGSite: EverQuest Legends available today, launch roadmap shared: https://www.rpgsite.net/news/20980-everquest-legends-available-today-launch-roadmap-shared
 
 ---
 
