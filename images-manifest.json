@@ -1687,6 +1687,16 @@
   "thumb": "/img/thumb/closed-sears-store-in-a-mall-a4eaa3.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nortel_Building.JPG/960px-Nortel_Building.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Nortel_Building.JPG",
+  "ext": "jpg",
+  "file": "/img/nortel-building-65fc61.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/nortel-building-65fc61.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sega-Genesis-Mk2-Motherboard-01.jpg/960px-Sega-Genesis-Mk2-Motherboard-01.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-Motherboard-01.jpg",
   "ext": "jpg",

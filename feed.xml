@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why Nortel Failed: The $4.5 Billion Patent Auction</title>
+      <link>https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Nortel failed as carrier spending collapsed and filed for bankruptcy on January 14, 2009. Its 6,000 patents later sold for $4.5 billion.</description>
+      <enclosure url="https://404memoryfound.com/pins/nortel-networks-bankruptcy-patents-sold.jpg" length="378330" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/nortel-networks-bankruptcy-patents-sold.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Hardware</category>
+    </item>
     <item>
       <title>Who Owns WorldCom Now? Verizon Kept the MCI Name</title>
       <link>https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html</link>
@@ -235,19 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/payphones-left-united-states.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Then vs Now</category>
       <category>Hardware</category>
-    </item>
-    <item>
-      <title>Are LaserDiscs Worth Anything? Most Are Under $5</title>
-      <link>https://404memoryfound.com/posts/laserdisc-value-collector-market.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/laserdisc-value-collector-market.html</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Most LaserDiscs are worth under $5 in 2026, but scarce pressings are different: a mint copy of The Matrix averages $134.61 on the LaserDisc Database.</description>
-      <enclosure url="https://404memoryfound.com/pins/laserdisc-value-collector-market.jpg" length="277591" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/laserdisc-value-collector-market.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Then vs Now</category>
-      <category>Money &amp; Tech</category>
     </item>
   </channel>
 </rss>

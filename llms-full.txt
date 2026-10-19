@@ -4,6 +4,103 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Why Nortel Failed: The $4.5 Billion Patent Auction
+
+URL: https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-10-19
+Topics: Business Blunders, Hardware
+
+**Summary:** Nortel Networks was worth more than a third of Canada's main stock index in 2000 and filed for creditor protection in Delaware and Ontario on January 14, 2009. It failed because it sold equipment to telephone carriers that stopped buying, and because four years of accounting restatements destroyed what credibility was left. Nortel does not exist in 2026: its divisions went to Ericsson, Avaya and Ciena, and its patents sold for $4.5 billion in 2011.
+
+**Key facts:**
+- Founded: 1895, as the Northern Electric and Manufacturing Company
+- Peak size: More than 35% of the TSE 300 index in 2000, about 95,000 employees
+- Bankruptcy filed: January 14, 2009, in Delaware and Ontario
+- Patents sold: $4.5 billion for 6,000-plus patents, approved July 11, 2011
+- Status today: Defunct; businesses absorbed by Ericsson, Avaya and Ciena
+
+## What did Nortel Networks actually sell?
+
+Nortel Networks grew out of the Northern Electric and Manufacturing Company, set up in 1895 to build telephone equipment in Canada. It traded as Northern Telecom from 1976 and took the Nortel name in the 1990s.
+
+Almost nothing it made was something a shopper could buy. Its DMS central-office switches routed calls for the phone companies themselves. Its Meridian and Norstar systems ran the phone sitting on an office desk. Its optical division lit long-haul fiber, and its wireless unit built CDMA networks for carriers.
+
+That made Nortel a supplier to the companies building out the internet rather than a brand with customers of its own. It was a good place to be in 1999 and a terrible one in 2002, because when the carriers stopped buying there was no retail business underneath to cushion the fall.
+
+The same wave of telecom money built and then buried a lot of ambitious hardware, from the satellite network behind Iridium (https://404memoryfound.com/posts/iridium-satellite-phone-failure.html) to the cable modems of Excite (https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html)@Home. Nortel was the biggest of the equipment makers caught in it, and the only one that had been, briefly, the most valuable company in its country.
+
+## How big was Nortel at the top of the market?
+
+Big enough to distort a national stock index. The Canadian Encyclopedia puts Nortel at more than 35 percent of the value of the TSE 300 at its height in 2000, which meant that anyone holding a Canadian index fund was holding mostly one telecom equipment maker.
+
+The share price peaked in the summer of 2000 and then fell for two straight years. Pension funds and retail investors who had bought the index without reading it took the loss with the company.
+
+The headcount tells the same story in people. Nortel employed roughly 95,000 at the end of 2000, and the cuts started within weeks of the peak. Round after round of restructuring through 2001 and 2002 took the workforce down by more than half.
+
+What makes the collapse unusual is that it ran for nine years. Nortel did not go from the top of the index to bankruptcy court in one crash the way the dot-com retailers did. It shrank, restated, reorganized, hired new chief executives and shrank again, and only ran out of road in 2009.
+
+## What did the accounting restatements do to the company?
+
+Between 2003 and 2005 Nortel restated its results for 2000, 2001, 2002 and the first half of 2003, more than once. For a company already asking investors to trust a turnaround, restating four years of numbers was close to fatal to its credibility.
+
+In April 2004 the board fired chief executive Frank Dunn, chief financial officer Douglas Beatty and controller Michael Gollogly. Prosecutors in Ontario later charged all three, alleging the books had been managed to trigger about US$12.8 million in bonuses and stock.
+
+The case took almost a decade and ended in acquittal. On January 14, 2013, Justice Frank Marrocco of the Ontario Superior Court wrote that he was "not satisfied beyond a reasonable doubt that Frank A. Dunn, Douglas C. Beatty and Michael J. Gollogly deliberately misrepresented the financial results of Nortel Networks Corporation." His ruling ran about 145 pages, and he found the gaps between the original numbers and the restated ones came from accounting judgment rather than fraud.
+
+The verdict came four years too late to matter commercially. By then the company had been in bankruptcy for four years and its businesses had already been sold. The restatements did their damage in 2004, in the same stretch that accounting scandals were taking down WorldCom (https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html) and others in telecom.
+
+## What happened on January 14, 2009?
+
+Nortel Networks filed for creditor protection on both sides of the border on the same day. Its US units filed for Chapter 11 in the United States Bankruptcy Court for the District of Delaware. The Canadian parent and its Canadian subsidiaries went to the Ontario Superior Court of Justice under the Companies' Creditors Arrangement Act, with Ernst and Young appointed as court monitor. The European arms were placed into administration in London.
+
+Chief executive Mike Zafirovski framed it as a reset rather than a surrender, saying the company "must be put on a sound financial footing once and for all," as The Register reported on the day of the filing in 2009.
+
+It did not work out that way. Within months the plan stopped being a restructuring and became a liquidation, because buyers wanted the individual business lines and nobody wanted the whole company. Nortel never came out of bankruptcy as an operating business. The filing of January 2009 was the last corporate decision it made as one.
+
+## Who bought the pieces after the filing?
+
+The sales ran through 2009 and 2010, one division at a time, each approved by the courts in Delaware and Ontario.
+
+Ericsson took the CDMA and LTE wireless business for $1.13 billion. Avaya bought the enterprise phone business, Meridian and Norstar included, for about $900 million. Ciena took the optical networking and carrier Ethernet unit. Smaller units went to other buyers, and the Ottawa campus went to the Canadian government.
+
+What was left at the end was the patents, and they turned out to be the most valuable thing in the estate. Google opened the auction in 2011 with a stalking-horse bid of $900 million. It lost. A consortium called Rockstar, made up of Apple, EMC, Ericsson, Microsoft, Research In Motion and Sony, paid $4.5 billion in cash for more than 6,000 patents and applications, and the courts in Delaware and Ontario approved the sale at a joint hearing on July 11, 2011.
+
+That one number reframes the whole collapse. A company that could not fund its own operations held a patent portfolio worth five times what its largest operating division sold for, and the buyers were the smartphone makers who had replaced the business Nortel used to serve.
+
+## Is anything left of Nortel in 2026?
+
+No. There is no Nortel Networks to call in 2026, no products shipping under the name, and no company holding the brand as a going concern. The businesses themselves survived inside other firms: wireless at Ericsson, enterprise telephony at Avaya, optical at Ciena.
+
+The hardware is the part that refuses to die. Meridian, Norstar and the later CS1000 systems were built to run for decades, and some are still answering phones in offices, schools and hospitals. Manufacturer support for them ended years ago, so the installations that remain are kept alive by third-party maintenance firms and refurbished parts.
+
+The patents scattered after 2011. The Rockstar consortium members kept some and sold the rest on, which is why former Nortel patents show up in smartphone litigation that has nothing to do with Canada or with telephone switches.
+
+For former employees and pensioners the ending was harsher than the asset sales suggest. Shareholders were wiped out, and Canadian pensioners spent years in court over a pension plan that was not fully funded when the company stopped existing.
+
+## Frequently Asked Questions
+
+### Is Nortel still around in 2026?
+
+No. Nortel Networks filed for creditor protection in Canada and the United States on January 14, 2009, sold its businesses off piece by piece and never resumed operating. Its wireless division is part of Ericsson, its enterprise phone business is part of Avaya, and its optical business is part of Ciena.
+
+### How much did Nortel's patents sell for?
+
+Nortel's remaining patents sold for $4.5 billion in cash in 2011 to Rockstar, a consortium of Apple, EMC, Ericsson, Microsoft, Research In Motion and Sony. The portfolio ran to more than 6,000 patents and applications, and the courts overseeing the Nortel bankruptcy in Delaware and Ontario approved the sale on July 11, 2011.
+
+### Why did Nortel go bankrupt?
+
+Nortel Networks sold equipment to telephone and internet carriers, so when carrier spending collapsed after 2000 it had no consumer business to fall back on. Years of restatements, the firing of three senior executives in April 2004 and continuous restructuring left it short of cash, and it filed for bankruptcy protection on January 14, 2009.
+
+**Sources:**
+- Nortel, The Canadian Encyclopedia: https://www.thecanadianencyclopedia.ca/en/article/nortel
+- Nortel Networks Corporation, Form 10-K for 2009 (SEC): https://www.sec.gov/Archives/edgar/data/0000072911/000119312510055645/d10k.htm
+- Nortel files for bankruptcy protection, The Register, 2009: https://www.theregister.com/2009/01/14/nortel_bankruptcy_protection/
+- Judges approve $4.5bn bid for Nortel's treasures, Computing, 2011: https://www.computing.co.uk/news/2093109/judges-approve-usd45bn-bid-nortels-treasures
+- Top brass at Nortel found not guilty, CARP, 2013: https://www.carp.ca/2013/01/25/top-brass-at-nortel-found-not-guilty/
+
+---
+
 # Who Owns WorldCom Now? Verizon Kept the MCI Name
 
 URL: https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html

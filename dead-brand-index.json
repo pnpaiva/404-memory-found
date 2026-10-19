@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-10-19",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 201,
+ "count": 202,
  "brands": [
   {
    "name": "3dfx",
@@ -900,6 +900,13 @@
    "status2026": "Discontinued; hardware ended November 2005, service closed September 2010",
    "owner2026": "Nokia Corporation, which still holds the N-Gage trademark",
    "source": "https://404memoryfound.com/posts/what-happened-to-nokia-ngage-gaming-phone.html"
+  },
+  {
+   "name": "Nortel",
+   "started": "1895, as the Northern Electric and Manufacturing Company",
+   "status2026": "Defunct; businesses absorbed by Ericsson, Avaya and Ciena",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html"
   },
   {
    "name": "Oregon Trail",
