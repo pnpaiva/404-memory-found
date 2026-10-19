@@ -16044,45 +16044,45 @@ Amazon reported its first profitable quarter in the fourth quarter of 2001: net 
 
 URL: https://404memoryfound.com/posts/what-happened-to-sony-psp-handheld.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-31  Updated: 2026-09-10
+Published: 2026-03-31  Updated: 2026-10-19
 Topics: Gaming, Hardware
 
-**Summary:** The Sony PSP is not supported in 2026. Sony stopped making it, closed the handheld's store in July 2021, and now sells PSP downloads only through the PS3 and PS Vita stores, which close starting July 2027. Sony's last published sales figure for the PSP is more than 76.4 million units, against 154.02 million for the Nintendo DS.
+**Summary:** The Sony PSP is not supported in 2026. Sony stopped making it, closed the handheld's own store in July 2021, and now sells PSP downloads only through the PS3 and PS Vita stores, which Sony confirmed in July 2026 will close in stages ending July 2027. Sony's last published sales figure for the PSP is more than 76.4 million units, against 154.02 million for the Nintendo DS.
 
 **Key facts:**
 - Launched: December 12, 2004 in Japan; March 24, 2005 in the US
-- US launch price: $250 for the PSP Value Pack (2005)
+- US launch price: $249.99 for the PSP Value Pack (Sony, 2005)
 - Units sold: More than 76.4 million (Sony, as of March 31, 2012)
-- Status today: Discontinued, no Sony support; PSP downloads run through the PS3 and PS Vita stores until July 2027
-- Cost today: About $80 to $205 loose depending on model (September 2026)
+- Status today: Discontinued, no Sony support; PSP downloads run through the PS3 and PS Vita stores, closing in stages from August 2026 to July 2027
+- Cost today: About $80 loose for a PSP-1000, $153 complete, above $140 for a PSP Go (PriceCharting, 2026)
 
 ## How many PSPs did Sony actually sell?
 
-Sony's corporate sales page still lists the PSP at "More than 76.4 million (As of March 31, 2012)" and has never replaced that line with a final lifetime total. Software on the platform stopped at more than 331.0 million units on the same date.
+Sony's corporate sales page still lists the PSP at “More than 76.4 million (As of March 31, 2012)” and has never replaced that line with a final lifetime total. Software on the platform stopped at more than 331.0 million units on the same date.
 
-Bigger numbers float around, usually somewhere near 80 million, but Sony has not published them, so 76.4 million is the figure that traces back to the company itself. Sony kept shipping PSPs after 2012 and simply stopped updating the page.
+Sony kept shipping PSPs after 2012 and simply stopped updating the page, so higher numbers circulate without company backing. The 76.4 million figure is the one that traces back to Sony itself, which is why it is the number worth quoting.
 
 The scale problem shows up when you put the handheld next to Sony's own hit. The same page credits the PlayStation 2 (https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html) with more than 160 million units. The PSP, Sony's most successful portable by a wide margin, did not reach half of that.
 
-None of which made the PSP a flop. It outsold every handheld anyone had launched against Nintendo up to that point, including Sega's Game Gear (https://404memoryfound.com/posts/what-happened-to-sega-game-gear-handheld.html). It just never got close to the machine it was built to beat.
+None of that made the PSP a failure. It outsold every handheld anyone had launched against Nintendo up to that point, including Sega's Game Gear (https://404memoryfound.com/posts/what-happened-to-sega-game-gear-handheld.html). It just never got close to the machine it was built to beat.
 
 ## Why did the Nintendo DS win the handheld war?
 
-Nintendo's investor relations site puts lifetime Nintendo DS hardware sales at 154.02 million units as of June 30, 2026. That is roughly twice Sony's published PSP figure, from a console that launched in North America a few months earlier and cost a lot less.
+Nintendo's investor relations site puts lifetime Nintendo DS hardware sales at 154.02 million units as of December 31, 2016, the point at which Nintendo stopped updating the line. That is roughly twice Sony's published PSP figure, and it still makes the Nintendo DS the best-selling handheld ever built.
 
-Price did most of the damage. When Sony confirmed the US launch, the Associated Press reported the PSP Value Pack at $250 while the Nintendo DS sold for $150. Nintendo had also already moved more than 2.8 million units worldwide by early February 2005, before the PSP reached an American store shelf.
+Price did most of the damage. Sony Computer Entertainment America announced the PSP Value Pack at $249.99 in the United States, on sale March 24, 2005. The Nintendo DS had launched the previous November at $149.99. Sony was asking a hundred dollars more for a machine that arrived months later.
 
-Sony was not really aiming at the same buyer. "It has gaming at its core, but it's not a gaming device. It's an entertainment device," Kaz Hirai, then president of Sony Computer Entertainment America, told NBC News in 2005. Analysts liked the logic. "When it comes to entertainment, Sony has advantages over other players in the market," P.J. McNealy of American Technology Research said in the same 2005 report.
+Sony was also not chasing the same buyer. Its launch pitch sold the PSP as portable entertainment rather than a games console: the Value Pack shipped with headphones, a 32 MB Memory Stick Duo and a soft case, and the first one million units came with a UMD copy of Spider-Man 2 from Sony Pictures.
 
-The trouble is that Nintendo was selling something people already understood. Two screens, a stylus, cheap batteries, and a software library aimed at anyone who had ever owned a Game Boy (https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html). Sony was selling a portable media platform in the same year the iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html) became the default answer for portable media.
+Nintendo was selling something people already understood. Two screens, a stylus, cheap batteries, and a software library aimed at anyone who had ever owned a Game Boy (https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html). Sony was selling portable media in the same year the iPod (https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html) became the default answer for portable media.
 
 ## What was UMD, and why did PSP movies fade?
 
-UMD stood for Universal Media Disc, a proprietary 1.8 GB optical disc Sony designed specifically for the PSP. Games shipped on it, and so did films. The first million US Value Packs came with a UMD copy of Spider-Man 2 from Sony Pictures, which tells you how central the movie plan was.
+UMD stood for Universal Media Disc, a proprietary 1.8 GB optical disc Sony designed specifically for the PSP. Games shipped on it, and so did films. Sony's own launch bundle put a Spider-Man 2 UMD in the first million American Value Packs, which tells you how central the movie plan was.
 
-Sony was open about wanting the format to spread. In February 2005 Hirai said the company was in discussions with other movie studios about supporting UMD for future releases. Studios tried it, then drifted away, and the discs became a novelty section that retailers quietly shrank.
+Studios tried the format, then drifted away, and the discs became a novelty section that retailers quietly shrank. The clearest verdict came from Sony itself: when the PSP Go arrived, it had no UMD drive at all, and everything was downloaded to internal flash storage.
 
-The clearest verdict came from Sony itself. When the PSP Go arrived, it had no UMD drive at all: everything was downloaded to internal flash storage. A hardware company does not remove its own format from its own product unless the format has stopped earning its place.
+A hardware company does not remove its own format from its own product unless the format has stopped earning its place.
 
 UMD movies also had a structural problem. A film on UMD played on exactly one device, at 4.3 inches, and could not be ripped, lent, or watched on a television without extra hardware. A DVD cost less and played anywhere.
 
@@ -16098,43 +16098,45 @@ All five play UMD games except the PSP Go, and all five are long out of producti
 
 ## Can you still buy PSP games in 2026?
 
-Yes, for now, and not on the handheld. Sony gives the machine no support, no firmware work, and no official repair path, so everything left runs through two other consoles on a clock.
+Yes, for a little longer, and not on the handheld. Sony gives the PSP no support, no firmware work and no official repair path, so everything left runs through two other consoles on a clock.
 
-Sony's support site explains the sequence. The PlayStation Store on the PSP was first closed in 2016, and then, "Starting July 6th, 2021, you'll no longer be able to perform searches or make in-game purchases" on the handheld. Downloads of content you already bought still work through the Download List on the device.
+The PlayStation Store on the PSP closed in 2016, and the handheld's remaining store searches and in-game purchases ended on July 6, 2021. PSP titles stayed on sale after that through the PS3 and PS Vita stores, which is where the format has been bought ever since.
 
-Buying is the part people get wrong. Sony's own notice says "You'll still be able to purchase and play PSP content that is available on the PS3 and PS Vita stores," so PSP games did not vanish from sale in 2021. They moved to two other consoles. That window is closing too: Sony has confirmed that the PlayStation Store on PS3 and PS Vita closes starting July 2027, after which previously purchased content can still be downloaded "for the foreseeable future" but nothing new can be bought.
+On July 1, 2026 Sony confirmed that those two stores are closing as well, in stages. The PlayStation Store on PS3 shuts down in Mexico, Honduras and Nicaragua starting August 2026, in further Latin American and Middle Eastern countries in late 2026, and in every other country, on both PS3 and PS Vita, in July 2027.
 
-The PS Vita, Sony's follow-up handheld, never got a proper obituary either. Sony's sales page carries a single footnote on the subject: "Sales data on PlayStation Vita are not disclosed." It is the only PlayStation system the company declines to put a number on.
+Sony blamed the plumbing rather than the audience. “PS3 and PS Vita are no longer able to support these updates at the level required,” Sid Shuman of Sony Interactive Entertainment wrote in the July 2026 announcement, pointing at modern payment processing standards. Content already bought stays downloadable after each closure.
 
-What keeps the PSP running in 2026 is the homebrew scene. Custom firmware turns the handheld into an emulator box, a media player, and a way to load game backups from a memory card, and it has been actively maintained by hobbyists for longer than Sony supported the machine officially. That community, not Sony, is the reason a 2004 handheld still has new software in 2026.
+The PS Vita, Sony's follow-up handheld, never got a proper obituary either. Sony's sales page carries a single footnote on the subject: “Sales data on PlayStation Vita are not disclosed.” It is the only PlayStation system the company declines to put a number on.
+
+What keeps the PSP running in 2026 is the homebrew scene. Custom firmware turns the handheld into an emulator box, a media player and a way to load game backups from a memory card, and hobbyists have maintained it for longer than Sony supported the machine officially.
 
 ## What does a used PSP cost today?
 
-PriceCharting's tracked sales in September 2026 put a loose PSP-1000 in black at $79.99 and a complete one at $153.07. A loose PSP-2000 in black runs $89.93, a PSP-3000 sits at $134.95, and a Piano Black PSP Go reaches $204.30 loose, which is more than the machine cost new at several points in its life.
+PriceCharting's tracked sales put a loose PSP-1000 in black at $79.99 and a complete boxed one at $153.07. The later models cost more, and the PSP Go is the one that stings: it trades above $140 loose, more than the machine cost new at several points in its life.
 
-Condition drives most of that spread. The analog nub wears out, the battery swells, and the UMD door snaps, so a cheap listing is often a repair project. Limited editions run higher again, and games are the affordable part of the hobby.
+Condition drives most of that spread. The analog nub wears out, the battery swells and the UMD door snaps, so a cheap listing is often a repair project. Limited editions run higher again, and the games are the affordable part of the hobby.
 
-Where to find one today: most tested PSP systems and refurbished shells trade in the $80 to $200 range depending on model. Sellers who service the batteries and nubs before shipping list on Etsy's Sony PSP console listings (https://www.etsy.com/search?q=sony+psp+console).
+Where to find one today: tested PSP systems and refurbished shells generally trade between $80 and $200 depending on model. Sellers who service the batteries and nubs before shipping list on Etsy's Sony PSP console listings (https://www.etsy.com/search?q=sony+psp+console).
 
 ## Frequently Asked Questions
 
 ### How many PSPs were sold compared with the Nintendo DS?
 
-Sony's last published figure for the PSP is more than 76.4 million units as of March 31, 2012, and the company never issued a final lifetime total. Nintendo reports 154.02 million Nintendo DS units as of June 30, 2026, so the DS outsold Sony's handheld by roughly two to one.
+Sony's last published figure for the PSP is more than 76.4 million units as of March 31, 2012, and the company never issued a final lifetime total. Nintendo reports 154.02 million Nintendo DS units as of December 31, 2016, so the Nintendo DS outsold Sony's handheld by roughly two to one.
 
 ### When did the PSP store shut down?
 
-Sony first closed the PlayStation Store on the PSP in 2016, and on July 6, 2021 it removed the handheld's remaining store searches and in-game purchases. PSP titles stayed on sale through the PS3 and PS Vita stores, which Sony has confirmed will close starting July 2027.
+Sony closed the PlayStation Store on the PSP in 2016 and ended the handheld's remaining store searches and in-game purchases on July 6, 2021. PSP titles stayed on sale through the PS3 and PS Vita stores, which Sony confirmed in July 2026 will close in stages running from August 2026 to July 2027.
 
 ### What PSP models are there?
 
 Sony released five PSP models between 2004 and the end of production: the original PSP-1000, the slimmer PSP-2000, the PSP-3000 with its improved screen, the download-only PSP Go with no UMD drive, and the budget PSP-E1000 sold in Europe. All except the PSP Go take UMD discs.
 
 **Sources:**
-- NBC News (AP): U.S. release date set for PlayStation Portable, February 3, 2005: https://www.nbcnews.com/id/wbna6908316
-- Sony Interactive Entertainment: Business Data and Sales, cumulative hardware unit sales: https://sonyinteractive.com/en/corporate/data.html
-- Nintendo: Dedicated Video Game Sales Units: https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html
-- PlayStation Support: Important notices regarding PlayStation products and services: https://www.playstation.com/en-us/support/important-notice/
+- Sony Computer Entertainment America: PSP (PlayStation Portable) Set to Release on March 24 Across North America, February 3, 2005: https://sony.mediaroom.com/2005-02-03-PSP-PlayStation-Portable-Set-to-Release-on-March-24-Across-North-America
+- Sony Interactive Entertainment: Business Data and Sales, cumulative hardware and software unit sales: https://sonyinteractive.com/en/corporate/data.html
+- Nintendo IR: Hardware and Software Sales Units: https://www.nintendo.co.jp/ir/en/sale/hard_soft/index.html
+- Video Games Chronicle: Sony is closing the PlayStation Store on PS3 and Vita, July 2026: https://videogameschronicle.com/news/sony-is-closing-the-playstation-store-on-ps3-and-vita/
 - PriceCharting: PSP console and game prices: https://www.pricecharting.com/console/psp
 
 ---
