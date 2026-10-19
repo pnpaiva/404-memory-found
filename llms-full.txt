@@ -1713,79 +1713,71 @@ They do. Adobe ended Flash Player on December 31, 2020, and on that same day hom
 
 ---
 
-# Who Owns Packard Bell Now? Acer Revived the Brand
+# Who Owns Packard Bell Now? Acer Relaunched It in 2026
 
 URL: https://404memoryfound.com/posts/packard-bell-computer-brand-today.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-09-18
+Published: 2026-09-18  Updated: 2026-10-19
 Topics: Hardware, Business Blunders
 
-**Summary:** Packard Bell is owned by Acer, which took over the brand in 2008 and then left it dormant for about 13 years. In September 2026 Acer relaunched Packard Bell at IFA in Berlin as a budget lifestyle brand, led by a 14.5-inch DotBook laptop starting at 499 euros. The range is sold across Europe, the Middle East and Africa, and Acer has announced nothing for the United States.
+**Summary:** Packard Bell is owned by Acer, which picked up the brand through its purchase of Gateway and then left it dormant for about 13 years. Acer relaunched Packard Bell at IFA in Berlin in September 2026 as a budget lifestyle brand led by the 14.5-inch DotBook laptop at 499 euros. The collection is sold in Europe, the Middle East and Africa, and Acer has announced nothing for the United States.
 
 **Key facts:**
-- Launched: 1986, Packard Bell Electronics, Inc., on a brand name dating to a 1933 Los Angeles radio maker
-- Peak: Best-selling PC brand in the United States in 1995, above 15 percent of US units shipped
-- What ended it: NEC closed the US business on November 3, 1999 and the name left US shelves by 2000
-- Owner today: Acer Inc., which took over Packard Bell in 2008 after buying Gateway
-- Status today: Relaunched September 2026 in Europe, the Middle East and Africa; the DotBook laptop starts at 499 euros
+- Launched: 1986, Packard Bell Electronics, Inc., built on a radio trademark bought in 1985
+- Peak: Sold more PCs in the United States than any other company from October 1994 through March 1995
+- What ended it: NEC shut the US operations on November 3, 1999 after sinking more than $2 billion in
+- Owner today: Acer Inc., which reached Packard Bell through its 2007 purchase of Gateway
+- Status today: Relaunched September 2026 across Europe, the Middle East and Africa; the DotBook laptop starts at 499 euros
 
-## How a Los Angeles radio maker ended up in every US electronics store
+## How a dead radio name became America's best-selling PC
 
-Packard Bell began in 1933, when Herb Bell and Leon Packard started building radios in Los Angeles. Teledyne bought the company in 1968 and eventually let the name go quiet.
+Packard Bell started out as a Los Angeles radio maker, and by the 1980s the name was a trademark nobody was using. A group led by Beny Alagem bought it in 1985, and in 1986 Alagem and two largely passive investors, Jason Barzilay and Alex Sandel, formed Packard Bell Electronics, Inc.
 
-In 1985 a group led by Beny Alagem, with Jason Barzilay and Alex Sandel, bought the dormant Packard Bell trademark from Teledyne for less than $100,000. They founded Packard Bell Electronics, Inc. in 1986 and aimed it at a customer nobody else wanted: the person buying a first computer from a store that had never sold one.
+The company chased a customer the rest of the industry ignored: the person buying a first computer from a store that had never sold one. That meant Sears (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html), Walmart, Best Buy and Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) rather than computer dealers, and machines that shipped preloaded and cabled so a buyer who had never heard of a sound card could switch one on.
 
-That meant Sears (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html), Walmart, Best Buy and Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) rather than computer dealers. The machines shipped preloaded and cabled, ready to plug in, which mattered to buyers who had no idea what a sound card was.
-
-It worked quickly. Fortune ran a feature on June 12, 1995 built around the fact that Packard Bell sold more PCs in the United States than anyone, and the brand's share of US units shipped passed 15 percent that year. Larry Mondry, then an executive at the retailer CompUSA (https://404memoryfound.com/posts/is-compusa-still-around.html), told the magazine: "In a business in which some companies can't put out a new line in six months, they did it in two weeks."
+It worked quickly. Worldwide sales rose about 120 percent in 1994 to an estimated $3 billion, and from October 1994 through March 1995 Packard Bell sold more PCs in the United States than anyone else. Fortune measured the grip in June 1995: "Over half the shelf space allotted to PCs in stores such as Sears goes to Packard Bell."
 
 ## Why Packard Bell computers earned such a bad reputation
 
-The complaints started early. In 1992 the company disclosed that 17 percent of the computers it sold came back, against an industry norm of 5 to 8 percent, and it shelved a plan to go public that year.
+The machines were cheap, and plenty of buyers felt they were built like it. Packard Bell shipped its own front end, Packard Bell Navigator, aimed at the same nervous first-time owner that Microsoft Bob (https://404memoryfound.com/posts/what-happened-to-microsoft-bob-friendly-interface.html) was chasing, and it drew the same complaint about standing between people and Windows.
 
-Reviewers noticed. PC World, PC Magazine and Consumer Reports rated the machines poorly through the decade, even as they outsold everything else on the shelf.
+The lasting damage came from the parts. Compaq accused Packard Bell in 1995 of taking components out of returned computers and recycling them into machines sold as new, an allegation Fortune reported that June while the company was still the best-selling PC brand in the country.
 
-The bundled software did not help. Packard Bell shipped its own front end, Packard Bell Navigator, aimed at the same nervous first-time buyer that Microsoft Bob (https://404memoryfound.com/posts/what-happened-to-microsoft-bob-friendly-interface.html) was chasing, and it drew the same complaint about standing between people and Windows.
+Federal investigators reached the same subject. In October 1998 Packard Bell agreed to pay the United States government $3.5 million to resolve allegations that it had put used equipment into computers sold as new, in a case that turned on sales to the military and to government resellers under contracts requiring new hardware. The company did not admit wrongdoing. CNN reported at the time that 22 state attorneys general had opened their own investigations into the recycling practice.
 
-Then came the parts. Attorneys general in 22 states found that Packard Bell stripped returned machines, tested the components and built them into computers sold as new. The case settled in 1998. The company paid $3.5 million to the federal government, $70,000 in fees and investigative costs to each of the 22 states, and more than $1 million in refunds and repair bills, without admitting wrongdoing. It also agreed that boxes for products sold after December 31, 1996 would disclose that the contents "may include components from previously sold computers."
+That is the part worth holding on to. A brand built entirely on price has nothing left to trade on once shoppers stop trusting what is in the box.
 
-## What NEC actually bought when it merged its PC business in
+## What NEC bought when it merged its PC business in
 
-NEC had been buying into Packard Bell for years. In April 1996 it added $283 million, lifting a 19 percent holding to roughly 40 percent once preference shares were counted.
+NEC had been buying into Packard Bell for years before it took control. In 1996 Packard Bell also bought Zenith Data Systems from Groupe Bull of France, which handed it a business customer base and a European footprint it had never had, and that year the two sides combined their PC operations as Packard Bell NEC.
 
-Earlier that year Packard Bell had bought Zenith Data Systems from Groupe Bull of France, which handed it a business customer base and a European footprint it had never had.
+The combination briefly put the company back on top of US unit shipments, and it did not hold. Compaq (https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html) pushed past it in retail, the discount maker eMachines attacked from underneath, and Packard Bell could not charge a premium because nobody believed it had earned one.
 
-In June 1996 the two sides announced they would combine their PC operations, with about $300 million of NEC assets transferred across. The merger closed that July and the business became Packard Bell NEC.
-
-The combination briefly returned the company to the top of US unit shipments. It did not hold. Compaq (https://404memoryfound.com/posts/compaq-lost-pc-business-hp-merger.html) took the number one spot in early 1997, and the squeeze underneath was brutal: Compaq from above, the discount maker eMachines from below, and a brand that could not charge a premium because nobody believed it had earned one. Packard Bell NEC lost more than $1 billion in 1997.
+NEC kept feeding the business anyway. By the time it stopped, Forbes put the total at more than $2 billion sunk in since 1995. Very little of that reached the problem, because the problem was a thin-margin retail model carrying a name that had become a punchline in the same stores that made it.
 
 ## When did Packard Bell stop selling computers in the United States?
 
-On November 3, 1999, NEC called it. It would close the Sacramento assembly plant, move the headquarters to Mountain View, and cut 80 percent of the 2,600 people still working there.
+On November 3, 1999, NEC announced it would shut the US operations. Forbes wrote the same day that NEC had poured more than $2 billion into Packard Bell NEC "only to have it continue to bleed red ink like a stuffed pig."
 
-Forbes, writing the same day, put the bill at more than $2 billion poured in by NEC "only to have it continue to bleed red ink like a stuffed pig."
+By 2000 the name was off American shelves. The retail space it had effectively invented for home computers did not disappear with it: that went to Compaq, Hewlett-Packard and Gateway (https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html), and later to cheaper laptops from Acer and Dell.
 
-By 2000 the Packard Bell name was off the US market. The retail shelf space it had effectively invented for home computers did not vanish with it. That space went to Compaq, Hewlett-Packard and Gateway (https://404memoryfound.com/posts/what-happened-to-gateway-2000-cow-box-computer.html), and later to cheaper laptops from Acer and Dell.
+The European business ran on. NEC sold it in 2006 to Lap Shun "John" Hui, a co-founder of eMachines, and that sale carried a condition that decided who owns the brand today. Gateway held a right of first refusal over Hui's interest in Packard Bell under a June 2006 agreement. When Acer agreed in August 2007 to buy Gateway for about $710 million, Gateway said it intended to exercise that right, and Acer agreed to fund the purchase. Packard Bell has been an Acer brand ever since.
 
-No single decision killed it. A model built on volume at thin margins, a return rate that ate the margin, and a name that had become a joke in the same stores that made it are enough on their own.
+## Is Packard Bell still around in 2026?
 
-## How Acer ended up with the name
+Yes, if you live in Europe, the Middle East or Africa. Acer kept Packard Bell selling in Europe for a few years after the takeover, then let it go quiet for roughly 13 years: the website stayed up and the products stopped, which is the usual fate of a name that outlives the company that earned it.
 
-NEC kept the European business running for another six years, then sold that too. In 2006 it agreed to hand Packard Bell BV, run out of the Netherlands, to Lap Shun "John" Hui, co-founder of eMachines. Neither side disclosed a price.
+At IFA in Berlin in September 2026, Acer relaunched the brand as a budget lifestyle range under the line "Tech it easy," timed to what it calls Packard Bell's 100th anniversary. That anniversary takes some liberties, since Acer dates the brand to Los Angeles in 1926 while the Packard Bell partnership itself came later.
 
-Acer had bought Gateway in 2007, and Gateway held a right of first refusal over any sale of Packard Bell. When Hui opened talks with Lenovo, Acer used it. The takeover completed in 2008 and put Packard Bell, Gateway and eMachines under one Taiwanese owner.
+The relaunch covers nine products. The lead item is the DotBook, a 14.5-inch Windows 11 laptop starting at 499 euros, or roughly $580 at 2026 exchange rates. Around it sit the DotLoop turntable at 149 euros, the DotLook audio glasses at 99 euros, the DotLine 4G feature phone at 69 euros, the DotShine ring light at 39 euros and the DotTune speaker at 34.99 euros. Valerie Piau, EMEA vice president at Acer Europe, pitched it in 2026 as everyday technology kept simple and offered "all at a fair price."
 
-Acer kept Packard Bell selling in Europe for a few more years, retired eMachines in 2013, and then let Packard Bell go quiet. The website stayed up. The products stopped. For roughly 13 years the brand existed as a trademark and little else, which is the usual fate of a name that outlives the company that earned it.
+Dates inside Acer's own announcement do not agree. The release describes the collection reaching European retail from the fourth quarter of 2026, while its availability list puts the DotBook on sale in September 2026 and the DotLine in November. Acer has announced nothing for the United States.
 
-## Can you buy a new Packard Bell in 2026?
+## Can you still buy a 1990s Packard Bell?
 
-Yes, if you live in Europe, the Middle East or Africa. At IFA in Berlin in September 2026, Acer relaunched Packard Bell as a budget lifestyle brand under the line "Tech it easy," timed to what it calls the brand's 100th anniversary.
+The beige machines are a separate market from anything Acer sells. Complete towers, keyboards, mice, restore discs and the occasional boxed system turn up through Etsy's vintage Packard Bell listings (https://www.etsy.com/search?q=vintage+packard+bell+computer), mostly out of house clearances.
 
-That anniversary takes some liberties. Acer dates the founding to Los Angeles in 1926, while the Packard Bell partnership between Herb Bell and Leon Packard was formed in 1933. Bell had worked in radio since 1926, which appears to be where the round number comes from.
-
-The relaunch covers nine products. The lead item is the DotBook, a 14.5-inch laptop starting at 499 euros and reaching European retail in the fourth quarter of 2026. Around it sit the DotLoop turntable, the DotTune speaker, the DotLine 4G feature phone, the DotLook audio glasses, the DotShine ring light, the DotCombo keyboard and mouse set and the DotBass headphones. Valerie Piau, EMEA vice president at Acer Europe, framed the pitch this way in 2026: "People need technology that helps them study, work, and stay in touch, all at a fair price." Acer has announced nothing for the United States.
-
-Where to find one today: the beige machines are a separate market. Complete 1990s towers, keyboards, mice, restore discs and the occasional boxed system turn up through Etsy's vintage Packard Bell listings (https://www.etsy.com/search?q=vintage+packard+bell+computer), mostly out of house clearances. Condition and completeness drive the asking price far more than the model does, so compare several listings and assume the hard drive is dead.
+Condition and completeness drive the asking price far more than the model does, so compare several listings before committing. Assume the hard drive is dead, assume the clock battery is flat, and treat the original restore discs as the thing worth paying for, because without them a working machine is a lot harder to put back to how it shipped.
 
 ## Frequently Asked Questions
 
@@ -1795,7 +1787,7 @@ Packard Bell exists in 2026 as a brand owned by Acer, not as an independent comp
 
 ### Why did Packard Bell fail in the United States?
 
-Packard Bell sold on price through general retail, and that model stopped working once Compaq attacked from above and eMachines from below in the mid 1990s. Quality was the other half of it: the company disclosed a 17 percent return rate as early as 1992, and in 1998 it settled with 22 state attorneys general over building parts from returned machines into computers sold as new. NEC closed the US business on November 3, 1999.
+Packard Bell sold on price through general retail, and that model broke once Compaq pressed from above and eMachines from below in the mid 1990s. Trust was the other half of it: Compaq accused the company in 1995 of recycling parts from returned machines into computers sold as new, and in October 1998 Packard Bell paid the United States government $3.5 million to settle similar allegations without admitting wrongdoing. NEC shut the US operations on November 3, 1999.
 
 ### Can you buy a Packard Bell laptop in the United States?
 
@@ -1803,9 +1795,9 @@ No. The Packard Bell range Acer announced in September 2026, including the 499 e
 
 **Sources:**
 - Fortune: Packard Bell sells more PCs in the U.S. than anyone. So just who are these guys? (June 12, 1995): https://money.cnn.com/magazines/fortune/fortune_archive/1995/06/12/203837/index.htm
-- Wikipedia: Packard Bell: https://en.wikipedia.org/wiki/Packard_Bell
-- San Francisco Chronicle: Packard Bell Settles Suit Over Used Parts (1998): https://www.sfgate.com/business/article/packard-bell-settles-suit-over-used-parts-2967237.php
+- CNN Money: Packard Bell settles suit (October 7, 1998): https://money.cnn.com/1998/10/07/technology/packardbell/
 - Forbes: NEC finally pulls plug on Packard Bell (November 3, 1999): https://www.forbes.com/1999/11/03/mu3.html
+- Gateway Inc. SEC Form 8-K: Acer to fund Gateway's purchase of PB Holding and Packard Bell (2007): https://www.sec.gov/Archives/edgar/data/0000895812/000095013407020968/f34218exv99w1.htm
 - Acer newsroom: Acer Relaunches Packard Bell with Full New Lifestyle Collection to 'Tech It Easy' (September 2026): https://news.acer.com/acer-relaunches-packard-bell-with-full-new-lifestyle-collection-to-tech-it-easy
 
 ---
