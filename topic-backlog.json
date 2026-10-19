@@ -1942,8 +1942,9 @@
         "nortel patents sold price",
         "nortel bankruptcy 2009"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-10-16"
+      "status": "published",
+      "source": "editor-research-2026-10-16",
+      "published_slug": "nortel-networks-bankruptcy-patents-sold"
     },
     {
       "title": "Who Owns Sun Microsystems Now? Oracle Bought It",
