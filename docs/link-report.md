@@ -1,12 +1,12 @@
-# Link report, 2026-10-12
+# Link report, 2026-10-19
 
-213 posts, 835 internal body links, 1174 distinct external URLs.
+215 posts, 843 internal body links, 1185 distinct external URLs.
 
 ## Broken internal links
 
 None.
 
-## Posts with fewer than two inbound body links (51)
+## Posts with fewer than two inbound body links (52)
 
 - 0 inbound: aol-youve-got-mail-voice-elwood-edwards
 - 0 inbound: boston-market-locations-left
@@ -19,13 +19,11 @@ None.
 - 0 inbound: is-kinkos-still-around
 - 0 inbound: is-toonami-still-on-tv
 - 0 inbound: laserdisc-value-collector-market
-- 0 inbound: nextel-direct-connect-chirp-shutdown
 - 0 inbound: philips-cd-i-worth-today
 - 0 inbound: rainforest-cafe-locations-left
 - 0 inbound: skymall-still-around-who-owns-it
 - 0 inbound: sony-aibo-robot-dog-today
 - 0 inbound: t-mobile-sidekick-danger-hiptop
-- 0 inbound: virgin-megastore-stores-left
 - 0 inbound: what-happened-to-goldeneye-007-n64
 - 0 inbound: what-happened-to-hypercard-apple
 - 0 inbound: what-happened-to-netbooks-laptops
@@ -47,7 +45,10 @@ None.
 - 1 inbound: is-disney-store-still-open
 - 1 inbound: is-hollywood-video-still-around
 - 1 inbound: is-runescape-still-popular-2026
+- 1 inbound: neo-geo-aes-home-console-price
+- 1 inbound: nextel-direct-connect-chirp-shutdown
 - 1 inbound: sega-nomad-handheld-genesis
+- 1 inbound: virgin-megastore-stores-left
 - 1 inbound: what-happened-to-arcades-golden-age-gaming
 - 1 inbound: what-happened-to-boo-com-fashion-dot-com
 - 1 inbound: what-happened-to-craigslist-ugliest-website-worth-billions
@@ -60,17 +61,23 @@ None.
 - 1 inbound: why-microsoft-zune-actually-failed
 - 1 inbound: y2k-bug-what-actually-happened
 
-## Dead external links (63)
+## Dead external links (74)
 
-- ERR timed out http://hrwiki.org/wiki/Post-Flash_Site_Update  (in homestar-runner-still-updating)
 - ERR [Errno -2] Name or service not known https://altaba.gcs-web.com/news-releases/news-release-details/yahoo-introduces-yahoo-answers-beta-service-enables-people-tap  (in does-yahoo-answers-still-exist)
+- ERR [Errno -2] Name or service not known https://altaba.gcs-web.com/node/28766/html  (in broadcast-com-yahoo-billion-dollar-deal)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/att-broadband-to-merge-with-comcast-corporation-in-72-billion-transaction  (in what-happened-to-excite-at-home-broadband)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/att-reaches-at-home-litigation-settlement  (in what-happened-to-excite-at-home-broadband)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/comcast-agrees-to-purchase-techtv  (in what-happened-to-techtv-screen-savers-channel)
+- ERR [Errno -5] No address associated with hostname https://m.lasvegassun.com/news/2005/jul/13/ebbers-sentenced-to-25-years-in-worldcom-fraud-cas/  (in worldcom-fraud-who-owns-mci-now)
+- 503 https://money.cnn.com/1997/11/10/deals/worldcomwins/  (in worldcom-fraud-who-owns-mci-now)
+- 503 https://money.cnn.com/1998/01/07/companies/rainforest/  (in rainforest-cafe-locations-left)
+- 503 https://money.cnn.com/1998/07/17/technology/techwrap/  (in broadcast-com-yahoo-billion-dollar-deal)
 - 503 https://money.cnn.com/1998/09/24/technology/ebay/  (in ebay-broken-laser-pointer-to-global-marketplace)
 - 503 https://money.cnn.com/1998/10/05/companies/chicken/  (in boston-market-locations-left)
+- 503 https://money.cnn.com/1998/10/07/technology/packardbell/  (in packard-bell-computer-brand-today)
 - 503 https://money.cnn.com/1998/12/21/technology/pcdata/  (in thousand-dollars-then-now)
-- 503 https://money.cnn.com/1999/05/20/technology/etoys/  (in etoys-com-who-owns-it-now)
+- 503 https://money.cnn.com/1999/04/01/deals/yahoo/  (in broadcast-com-yahoo-billion-dollar-deal)
+- 503 https://money.cnn.com/1999/06/30/companies/discovery/  (in discovery-zone-failed-indoor-playground)
 - 503 https://money.cnn.com/1999/07/01/technology/askjeeves/  (in what-happened-to-ask-jeeves-search-engine)
 - 503 https://money.cnn.com/1999/08/13/companies/iridium/  (in iridium-satellite-phone-failure)
 - 503 https://money.cnn.com/2000/08/18/deals/kozmo/  (in what-happened-to-kozmo-com-delivery)
@@ -78,13 +85,13 @@ None.
 - 503 https://money.cnn.com/2011/07/18/news/companies/borders_liquidation/index.htm  (in who-owns-borders-now-bookstore)
 - 503 https://money.cnn.com/2013/11/20/technology/winamp/index.html  (in what-happened-to-winamp-mp3-player)
 - 503 https://money.cnn.com/2015/12/07/media/skymall-returns-from-bankruptcy/index.html  (in skymall-still-around-who-owns-it)
-- 503 https://money.cnn.com/2018/03/19/news/companies/pay-phones/index.html  (in payphones-left-united-states)
 - 503 https://money.cnn.com/magazines/fortune/fortune_archive/1995/06/12/203837/index.htm  (in packard-bell-computer-brand-today)
+- 404 https://puc.idaho.gov/Fileroom/PublicFiles/TELE/MCM/MCMT2301/CaseFiles/20240206Addendum%20to%20Filing.pdf  (in worldcom-fraud-who-owns-mci-now)
 - ERR The read operation timed out https://serenescreen.com/about.html  (in what-happened-to-screensavers-flying-toasters)
-- 404 https://stacker.com/stories/retrospective/decline-pay-phones-every-state  (in payphones-left-united-states)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=atari+2600  (in who-owns-atari-now)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=atari+lynx  (in what-happened-to-atari-lynx-handheld)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=cd-i  (in philips-cd-i-worth-today)
+- 404 https://stoneagegamer.com/catalogsearch/result/?q=neo+geo  (in neo-geo-aes-home-console-price)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=nomad  (in sega-nomad-handheld-genesis)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=sega+cd  (in what-happened-to-sega-cd-add-on)
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=virtual+boy  (in what-happened-to-virtual-boy-nintendo)
@@ -96,26 +103,31 @@ None.
 - ERR The read operation timed out https://www.callofduty.com/blog/2026/08/call-of-duty-modern-warfare-4-nintendo-switch-2-beta  (in microsoft-tried-buy-nintendo)
 - ERR The read operation timed out https://www.cbc.ca/news/science/betamax-death-sony-1.3312556  (in betamax-vs-vhs-format-war)
 - ERR The read operation timed out https://www.cbc.ca/news/science/sony-to-pull-plug-on-floppy-disks-1.941854  (in floppy-disks-still-made-today)
+- ERR The read operation timed out https://www.computinghistory.org.uk/det/14614/StarCraft-Makes-1-Selling-PC-Game-of-1998/  (in what-happened-to-starcraft-birth-of-esports)
+- 404 https://www.federalregister.gov/documents/2018/03/15/2018-05201-modernization-of-payphone-compensation-rules  (in payphones-left-united-states)
 - ERR The read operation timed out https://www.itv.com/news/update/2012-06-13/greatly-saddened-habbo-hotel-ceo-suspends-chats-following-accusations/  (in is-habbo-hotel-still-around)
 - 404 https://www.longrangecapital.com/news-article/longrange-capital-completes-acquisition-of-pizza-hut-from-yum-brands  (in first-online-purchase-pizza)
+- ERR timed out https://www.mediaplaynews.com/big-box-retailers-grapple-with-abandoned-redbox-kiosks-dvd-movies/  (in is-redbox-still-around-kiosks)
+- ERR timed out https://www.mediaplaynews.com/dvdinbox-carries-on-the-rental-by-mail-legacy-of-netflix/  (in netflix-dvd-mail-service-shutdown)
 - ERR The read operation timed out https://www.npr.org/2018/12/11/675529798/with-52-5-million-users-data-exposed-on-google-google-quickens-shutdown  (in why-google-plus-actually-failed)
-- ERR The read operation timed out https://www.npr.org/2022/05/24/1100931534/last-pay-phone-new-york-city-public-nyc  (in payphones-left-united-states)
 - ERR The read operation timed out https://www.npr.org/2025/08/12/nx-s1-5499539/aol-dial-up-ending  (in dial-up-modem-sound-explained, dialup-speed-then-vs-now)
 - ERR The read operation timed out https://www.npr.org/sections/therecord/2010/10/27/130859566/court-order-shuts-down-limewire-s-file-sharing-software  (in what-happened-to-limewire-file-sharing)
 - ERR The read operation timed out https://www.npr.org/sections/thetwo-way/2011/06/29/137509647/news-corp-takes-huge-loss-selling-myspace-for-35-million  (in is-myspace-still-around-today, rise-and-fall-of-myspace)
 - ERR The read operation timed out https://www.npr.org/sections/thetwo-way/2018/03/23/596460672/craigslist-shuts-down-personals-section-after-congress-passes-bill-on-traffickin  (in what-happened-to-craigslist-ugliest-website-worth-billions)
 - 404 https://www.prweb.com/releases/2012/6/prweb9611501.htm  (in what-happened-to-kazaa-p2p-wars)
+- ERR timed out https://www.quakeworld.nu/wiki/QuakeCon  (in golden-age-of-lan-parties)
 - 404 https://www.sec.gov/Archives/edgar/data/0000850209/000085020997000006/0000850209-97-000006.txt/seq-2  (in is-woolworth-still-in-business)
-- 404 https://www.sec.gov/Archives/edgar/data/0000924919/000095013000005261/0002.txt  (in rainforest-cafe-locations-left)
+- 404 https://www.sec.gov/Archives/edgar/data/0000924919/000095017200001793/0002.txt  (in rainforest-cafe-locations-left)
 - 410 https://www.securitiesdocket.com/2026/05/01/berkshire-has-a-website-from-the-90s-and-buffett-fans-say-dont-mess-with-it-wsj/  (in 90s-websites-still-online)
 - 404 https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20260512_q4_presentation_en.pdf  (in is-sega-still-making-games)
-- 404 https://www.thehenryford.org/collections-and-research/digital-collections/artifact/449925/  (in why-pets-com-failed-dot-com-bubble)
+- 404 https://www.thehenryford.org/collections-and-research/digital-collections/artifact/449925  (in why-pets-com-failed-dot-com-bubble)
+- 404 https://www.verizon.com/about/news/press-releases/new-york-last-state-see-payphone-price-change  (in payphones-left-united-states)
+- 404 https://www.verizon.com/about/node/866823  (in worldcom-fraud-who-owns-mci-now)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1990/11/03/dissident-prodigy-users-cut-off-from-network/0af0e589-5435-4395-95ec-27e99ad1fce3/  (in what-happened-to-prodigy-online-service)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1995/08/10/buyers-drive-up-netscape-stock-price/1c05dc83-3328-4a4a-97b5-e6ecf737f83f/  (in how-netscape-lost-the-browser-war)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1996/05/08/prodigy-officials-to-buy-the-firm-from-sears-ibm/1c2b930d-8f0f-420a-b2d2-21fb9d4b5d44/  (in what-happened-to-prodigy-online-service)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1998/10/01/microsofts-web-browser-overtakes-netscapes/385a60e8-3e7e-43b6-9700-8710f178278c/  (in how-netscape-lost-the-browser-war)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1999/04/27/iridium-reports-larger-loss/b375d6a7-5072-4b72-b1c3-0e5ad1f4aa5b/  (in iridium-satellite-phone-failure)
-- ERR The read operation timed out https://www.washingtonpost.com/archive/business/1999/06/26/discovery-zone-abruptly-closes-100-centers/937bb97e-6807-49c6-95bd-f2390edd0263/  (in discovery-zone-failed-indoor-playground)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/1999/06/30/cmgi-buys-altavista-from-ailing-compaq/29b441ce-accf-41bf-aa97-8b01af7897f5/  (in what-happened-to-altavista-search-engine)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/business/2000/03/03/3coms-palm-ipo-gets-a-53-billion-welcome/24f152cb-3b74-425f-aca4-91e543f122fc/  (in what-happened-to-palm-pilot-pda)
 - ERR The read operation timed out https://www.washingtonpost.com/archive/politics/1997/07/18/five-and-dime-farewell/879889fe-6436-4898-8cc7-d211ee068aca/  (in is-woolworth-still-in-business)
