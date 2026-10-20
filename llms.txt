@@ -117,7 +117,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Who Owns MapQuest Now? System1 and the 2026 Surge](https://404memoryfound.com/posts/how-mapquest-lost-to-google-maps.html): MapQuest is still around in 2026, owned by ad tech firm System1 since 2019. Google Maps only passed it in January 2009, by 700,000 users.
 - [Was Apple Really 90 Days From Bankruptcy in 1997?](https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html): Apple lost $1.04 billion in fiscal 1997 and Steve Jobs called it 90 days from insolvent. Microsoft's $150 million check landed on August 6, 1997.
 - [Why Netscape Navigator Lost to Internet Explorer](https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html): Netscape Navigator lost to Internet Explorer because Microsoft gave IE away free and wired it into Windows. Navigator led 51% to 40% in 1997, then fell.
-- [Did Blockbuster Turn Down Netflix for $50 Million?](https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html): Blockbuster did turn down Netflix for $50 million in 2000. Netflix booked $45.2 billion in 2025 revenue; EchoStar now owns the Blockbuster name.
+- [Did Blockbuster Turn Down Netflix for $50 Million?](https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html): Blockbuster did turn down Netflix for $50 million in 2000. Netflix booked $45.2 billion of revenue in 2025; EchoStar owns the Blockbuster name now.
 - [Did Yahoo Turn Down Google for $1 Million in 1998?](https://404memoryfound.com/posts/yahoo-rejected-google.html): Yahoo never bought Google and Google never bought Yahoo. The $1 million story is thinly sourced, and the real offer in 2002 was $3 billion.
 - [Did Microsoft Try to Buy Nintendo? The 1999 Letter](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and Nintendo refused. The October 20 letter survives, and Nintendo is still independent in 2026.
 
@@ -488,7 +488,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Who Owns MTV Now, and Does It Still Play Music?](https://404memoryfound.com/posts/when-mtv-actually-played-music-rise-fall.html): MTV is still on the air in 2026 and owned by Paramount Skydance, but its last five music-only channels went dark on December 31, 2025.
 - [Is Winamp Still Around in 2026? Yes, and It Works](https://404memoryfound.com/posts/what-happened-to-winamp-mp3-player.html): Winamp still exists in 2026: Winamp Group owns it, and the free 5.9.2 player runs on Windows 11. A Deezer-powered version lands in 2027.
 - [Did Napster Kill the Music Industry? The 2026 Math](https://404memoryfound.com/posts/napster-destroyed-music.html): Napster did not kill the music industry. US revenue fell from $14.6 billion in 1999 to $8.5 billion in 2009, then hit a record $11.5 billion in 2025.
-- [Did Blockbuster Turn Down Netflix for $50 Million?](https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html): Blockbuster did turn down Netflix for $50 million in 2000. Netflix booked $45.2 billion in 2025 revenue; EchoStar now owns the Blockbuster name.
+- [Did Blockbuster Turn Down Netflix for $50 Million?](https://404memoryfound.com/posts/blockbuster-netflix-acquisition.html): Blockbuster did turn down Netflix for $50 million in 2000. Netflix booked $45.2 billion of revenue in 2025; EchoStar owns the Blockbuster name now.
 
 ## Writers
 - [Marcus Vale](https://404memoryfound.com/authors/marcus.html): Consoles, handhelds and PC hardware
