@@ -1091,99 +1091,99 @@ Virgin Group still owns the Virgin Megastore name and licenses it out. The store
 
 URL: https://404memoryfound.com/posts/divx-circuit-city-dvd-format.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-09-23
+Published: 2026-09-23  Updated: 2026-10-22
 Topics: Business Blunders, Hardware
 
-**Summary:** DIVX was a pay-per-view disc format from Digital Video Express, a venture 75 percent owned by Circuit City. It launched in June 1998, was discontinued on June 16, 1999, and cost Circuit City $337 million. No DIVX disc has played since the authorization servers went dark on June 30, 2001.
+**Summary:** DIVX was a pay-per-view disc format from Digital Video Express, a venture in which Circuit City held about two-thirds of the equity. It launched in 1998, was discontinued on June 16, 1999, and cost Circuit City a reported $114 million after tax, which Variety put at $337 million in all. No DIVX disc has played since the authorization servers went dark on June 30, 2001.
 
 **Key facts:**
-- Launched: June 1998, Digital Video Express (Circuit City owned about 75 percent)
-- Price then: $4.49 a disc and about $499 for the first player, roughly $9 and $1,030 in 2026 dollars
+- Launched: June 8, 1998 in test markets; national rollout September 25, 1998
+- Owner: Digital Video Express, about two-thirds owned by Circuit City (Form 10-K, fiscal 1998)
+- Price then: $4.49 a disc and $499 for the first Zenith Inteq player, close to $9 and $1,000 in 2026 money
 - Units sold: About 87,000 players and 535,000 discs in the last quarter of 1998
-- What replaced it: Open DVD, then DVD by mail and streaming
 - Status today: Dead. Discontinued June 16, 1999; no disc has played since June 30, 2001
 
 ## How did a DIVX disc actually work?
 
-A DIVX disc looked like an ordinary DVD and cost about $4.49 at Circuit City in 1998, roughly $9 in 2026 dollars. You never returned it. The moment you first played it, a 48 hour clock started, and once that clock ran out the disc stopped playing.
+A DIVX disc looked like an ordinary DVD and sold for about $4.49 at Circuit City in 1998. Buyers never returned it. The first time the disc played, a 48 hour clock started, and when that clock ran out the disc stopped working.
 
-Watching it again meant paying a continuation fee for another two days. Anyone who wanted a film permanently could convert the disc to a DIVX Silver version for an extra charge and then play it without limit.
+Watching the film again meant paying a continuation fee for another two days. Anyone who wanted to keep a title could pay to convert it to a DIVX Silver disc and then play it without limit on their own registered machine.
 
-The enforcement lived inside the hardware. Every DIVX player shipped with a built in modem and had to be connected to a phone line, because it dialed a Digital Video Express account server to register purchases and authorize playback, much the way a satellite box cleared a pay-per-view order.
+Enforcement lived inside the hardware. Every DIVX player shipped with a built in modem and had to sit within reach of a phone line, because it dialed a Digital Video Express account server to register purchases and authorize playback, the way a satellite box cleared a pay-per-view order.
 
-That was also the part customers disliked. A machine in the living room that phoned a company twice a day and knew exactly which movies had been watched was a difficult sell in 1998, and privacy critics said so at volume.
+The discs were also deliberately incompatible. DIVX titles were encrypted and encoded so an ordinary DVD player could not read them, which meant a household that bought into the format could watch those movies only on the machine tied to its account. A machine that phoned a retailer and knew which films had been watched was a hard sell in 1998, and privacy critics said so loudly.
 
 ## Who built DIVX, and why did Circuit City back it?
 
-Digital Video Express was formed in 1997 as a limited partnership between Circuit City and Ziffren, Brittenham, Branca and Fischer, a Los Angeles entertainment law firm. Circuit City held roughly 75 percent of it, which is why the whole venture landed on one retailer's balance sheet.
+Digital Video Express was formed in 1997 as a partnership between Circuit City and Ziffren, Brittenham, Branca and Fischer, a Los Angeles entertainment law firm. Circuit City's Form 10-K for fiscal 1998 recorded a $100 million commitment on top of an earlier $30 million investment, which gave the retailer "approximately two-thirds of the ownership in Divx". That is why one chain carried the whole venture on its balance sheet.
 
-The reasoning came from the film business. Studios had watched the video rental chains build an industry on tapes the studios sold once, and DIVX promised a disc that paid the rights holder on every viewing rather than on every purchase.
+The reasoning came from the film business. Rental chains had built an industry on tapes that studios sold once, and DIVX promised a disc that paid the rights holder every time someone pressed play.
 
-For Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) the appeal was simpler. The chain would own the format, sell the players, sell the discs, and collect the fees afterward. Salespeople had a direct incentive to push the machines on the floor.
+For Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) the pitch was simpler. The chain would own the format, sell the players, sell the discs, and collect the fees afterward.
 
-Testing began in June 1998 in the San Francisco and Richmond, Virginia markets, across 45 stores run by Circuit City and The Good Guys. The national rollout followed on September 25, 1998, with a single Zenith player model and a catalog still measured in the low hundreds of titles.
+Testing started on June 8, 1998 in the San Francisco and Richmond, Virginia markets. The national rollout followed on September 25, 1998 with a single player on the shelf, a Zenith Inteq unit listed at $499. That is close to $1,000 in today's money, because a dollar from the end of the 1990s buys roughly half as much in 2026 (https://404memoryfound.com/posts/thousand-dollars-then-now.html).
 
 ## How did DIVX sell in its one holiday season?
 
-The only Christmas DIVX ever got was 1998, and the numbers were not catastrophic so much as thin. Roughly 87,000 players and 535,000 discs across about 300 titles moved in the final quarter of 1998, with about 375,000 of those discs selling in December alone.
+The only Christmas DIVX ever saw was 1998, and the numbers were thin rather than catastrophic. Digital Video Express announced in January 1999 that about 87,000 players had sold through its retailers between October 1 and December 31, 1998, along with roughly 535,000 discs, about 375,000 of them in December alone.
 
-Set against that, the standard DVD format launched in the United States in 1997 was already running away with the market, backed by every studio and every major retailer rather than two chains and a law firm.
+The monthly split tells the story better than the quarter does. Player sales ran near 7,000 in October, 18,000 in November and 62,000 in December, so almost the entire installed base arrived in one gift-buying month.
 
-The player was the bottleneck. The first DIVX machine, the Zenith Inteq DVX2100, listed around $499, close to $1,030 in 2026 dollars, and about $100 more than a plain DVD player that would play any disc sold anywhere. Thomson later added RCA and ProScan models.
+Set against that, the open DVD format that reached the United States in 1997 was already running away with the market, backed by every studio and every large retailer rather than one chain and a law firm.
 
-Sales fell away sharply once the holidays ended. By early 1999 the third party retailers that had agreed to stock DIVX were backing out, leaving Circuit City carrying a national format almost by itself.
+Sales fell off once the holidays ended. By early 1999 the other chains that had agreed to stock DIVX were stepping back, which left Circuit City carrying a national format close to alone.
 
 ## Why did the studios and the other retailers walk away?
 
-Several studios signed on early, including Disney, DreamWorks, Paramount, Universal and 20th Century Fox, but signing on and committing were different things. A studio could release a title on open DVD and reach every household with a player. A DIVX release reached only the households that had bought a specific machine from a specific chain.
+DIVX had real studio backing at the start. By February 1998, 20th Century Fox Home Entertainment had joined DreamWorks SKG, Paramount Home Video, Disney and Universal in supporting the format.
 
-Retailers did the same arithmetic and reached a harsher answer. Stocking DIVX meant selling hardware and discs that pushed customers back toward a competitor's account system, and it meant a public argument with an internet audience that had turned against the format.
+The holdouts mattered more. Sony and Toshiba, the two companies behind the DVD standard itself, denounced DIVX, and so did Warner Home Video. A studio could release a title on open DVD and reach every household with a player, while a DIVX release reached only the households that had bought one specific kind of machine from one specific chain.
 
-The backlash was real and it was loud. Anti-DIVX banners spread across enthusiast sites through 1998 and early 1999, and the format became a reputational liability for anyone who carried it.
+Retailers ran the same arithmetic and reached a harsher answer. Stocking DIVX meant selling hardware and discs that pushed customers into a competitor's account system, and it meant a public argument with an online audience that had turned on the format. Anti-DIVX banners spread across enthusiast sites through 1998 and early 1999.
 
-On June 16, 1999, Digital Video Express announced it was shutting down. Richard Sharp, chairman of Digital Video Express and Circuit City Stores, told Variety that year: "Unfortunately, we have been unable to obtain adequate support from studios and other retailers." He added: "Despite the significant consumer enthusiasm, we cannot create a viable business without support in these essential areas."
+On June 16, 1999, Digital Video Express announced it was shutting down. Richard Sharp, chairman and chief executive of Digital Video Express and Circuit City Stores, said that year: "Unfortunately, we have been unable to obtain adequate support from studios and other retailers." He added that "we cannot create a viable business without support in these essential areas."
 
-## Is DIVX still around, and do the discs play in 2026?
+## Is DIVX still around in 2026?
 
-No. DIVX is completely dead, and it has been dead longer than it was alive. The format shipped in June 1998, stopped being sold in June 1999, and the last day any DIVX disc could be authorized was June 30, 2001, after which the authorization servers were switched off for good.
+No. DIVX has now been dead far longer than it was alive. The format reached test stores in June 1998, stopped being sold on June 16, 1999, and the last day any DIVX disc could be authorized was June 30, 2001. Digital Video Express gave registered owners those two years of grace, then switched the authorization servers off for good.
 
-That shutdown is why a DIVX disc in 2026 is not a rare movie but a piece of plastic. There is no offline mode and no unlock, because the playback permission was never on the disc. It lived on a server that no longer exists. A DIVX Silver disc bought for unlimited viewing stopped working on the same date as every other one.
+That shutdown is why a DIVX disc in 2026 is a piece of plastic rather than a film. There is no offline mode and no unlock, because playback permission never lived on the disc. It lived on a server that no longer exists, and a DIVX Silver disc bought for unlimited viewing expired on the same date as every other one. Digital Video Express also paid a $100 rebate to customers who had bought a player before the shutdown.
 
-The players did survive the shutdown in one narrow sense. A DIVX machine is still a working DVD player, so the hardware kept a second life long after the service behind it closed.
+The hardware had a softer landing. A DIVX machine was a DVD player with extra circuitry, so it kept playing ordinary discs long after the service behind it closed.
 
 ### Where to find one today
 
-DIVX discs and player boxes now circulate as collectors' artifacts rather than media, and sellers list them that way, since nothing on them will play. A disc that cost $4.49 new in 1998 is worth whatever a collector will pay for an object that documents a failed format. Listings turn up under DIVX and Digital Video Express on Etsy (https://www.etsy.com/search?q=divx+digital+video+express).
+DIVX discs and player boxes now change hands as artifacts rather than media, and honest sellers describe them that way, since nothing on a disc will play. A title that cost $4.49 new in 1998 is worth whatever a collector will pay for an object that documents a failed format, and prices follow curiosity rather than content. Listings turn up under DIVX and Digital Video Express on Etsy (https://www.etsy.com/search?q=divx+digital+video+express).
 
 ## What did the DIVX failure cost Circuit City?
 
-The headline figure is $114 million. That is the after-tax charge Circuit City recorded on the disposal of the DIVX business, on top of a $16.2 million after-tax loss from DIVX operations in the same fiscal year. The company's Form 10-K described the charge as covering "commitments under licensing agreements with movie distributors, the write-down of assets to net realizable value, lease termination cost, employee severance and benefit cost".
+The reported number is $114 million. That is the after-tax charge Circuit City recorded on the disposal of the DIVX business, and its Form 10-K described the provision as covering "commitments under licensing agreements with motion picture distributors, the write-down of assets to net realizable value, lease termination cost, employee severance and benefit cost".
 
-Counting the money already sunk into the venture before the shutdown, Variety put the total hit to Circuit City at $337 million in 1999. Digital Video Express also paid a $100 cash rebate to every customer who had bought a DIVX player before June 16, 1999.
+Counting the money sunk into the venture before the shutdown, Variety put the ultimate loss to Circuit City at $337 million in 1999. That is an estimate rather than a filed figure, and it is the number most later accounts repeat.
 
-Open DVD took the whole market, and rental moved on without a special disc: first to DVD by mail, then to streaming. The industry had already settled formats this way twice, with Betamax and VHS (https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html) in the 1980s and later with HD DVD (https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html) against Blu-ray.
+Open DVD took the whole market, and rental moved on without a special disc, first to DVD by mail and then to streaming. The industry had settled formats this way before and would do it again, with Betamax (https://404memoryfound.com/posts/betamax-vs-vhs-format-war.html) against VHS in the 1980s and later with HD DVD (https://404memoryfound.com/posts/what-happened-to-hd-dvd-format-war.html) against Blu-ray.
 
-The strangest afterlife belongs to the name. Jerome Rota called his video codec DivX as a deliberate dig at Circuit City's format, complete with a winking emoticon. The codec outlived the thing it was mocking by decades.
+The strangest afterlife belongs to the name. Jerome Rota called his video codec DivX as a deliberate dig at Circuit City's format, complete with a winking emoticon, and the codec outlived the thing it mocked by decades.
 
 ## Frequently Asked Questions
 
-### What was DIVX and why did it fail?
-
-DIVX was a pay-per-view disc format launched by Digital Video Express, a venture 75 percent owned by Circuit City, in June 1998. A disc cost about $4.49 and played for 48 hours before charging again. It failed because studios and rival retailers never backed it, and Digital Video Express shut it down on June 16, 1999.
-
 ### Do DIVX discs still work in 2026?
 
-No DIVX disc has played since June 30, 2001, when Digital Video Express switched off the authorization servers that granted playback permission. Because that permission was never stored on the disc itself, DIVX discs cannot be revived, and the ones sold today in 2026 are collectors' artifacts rather than watchable movies.
+No DIVX disc has played since June 30, 2001, when Digital Video Express switched off the authorization servers that granted playback permission. Because that permission was never stored on the disc, DIVX discs cannot be revived, and the ones sold in 2026 are collectors' artifacts rather than watchable movies.
+
+### What was DIVX and why did it fail?
+
+DIVX was a pay-per-view disc format launched in 1998 by Digital Video Express, a venture in which Circuit City held about two-thirds of the equity. A disc cost about $4.49 and played for 48 hours before charging again. It failed because Sony, Toshiba and Warner Home Video opposed it and rival retailers would not stock it, and Digital Video Express shut it down on June 16, 1999.
 
 ### Is the DivX codec the same thing as Circuit City's DIVX?
 
-They are unrelated. Circuit City's DIVX was a physical disc format that ran from 1998 to 1999. The DivX video codec was written separately by Jerome Rota, who named it after the failed disc format as a joke, and it is still in use long after Digital Video Express closed in 1999.
+They are unrelated. Circuit City's DIVX was a physical disc format that ran from 1998 to 1999 and stopped working entirely in 2001. The DivX video codec was written separately by Jerome Rota, who named it after the failed disc format as a joke, and it remained in use long after Digital Video Express closed in 1999.
 
 **Sources:**
 - Divx hits stop button, Variety, June 1999: https://variety.com/1999/digital/news/divx-hits-stop-button-1117503172/
+- Circuit City Stores Inc, Form 10-K fiscal 1998, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0000104599/000092859798000013/0000928597-98-000013.txt
 - Circuit City Stores Inc, Form 10-K fiscal 2000, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0000104599/000092859700000018/0000928597-00-000018.txt
-- DIVX (Digital Video Express) 1998 to 1999, Museum of Obsolete Media: https://obsoletemedia.org/divx-digital-video-express/
-- Circuit City Kills Divx, TWICE, 1999: https://www.twice.com/product/circuit-city-kills-divx-720
+- Digital Video Express 1998 sales announcement, The Digital Bits (CES, January 1999): https://archive.thedigitalbits.com/articles/wces99/divxpress.html
 - DIVX, Wikipedia: https://en.wikipedia.org/wiki/DIVX
 
 ---
