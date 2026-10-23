@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 202,
+ "count": 203,
  "brands": [
   {
    "name": "3dfx",
@@ -1236,6 +1236,13 @@
    "status2026": "Still played; ASL Season 21 ran March to May 2026",
    "owner2026": "Microsoft, since the Activision Blizzard deal closed October 13, 2023",
    "source": "https://404memoryfound.com/posts/what-happened-to-starcraft-birth-of-esports.html"
+  },
+  {
+   "name": "Sun Microsystems",
+   "started": "February 24, 1982, in Santa Clara, California",
+   "status2026": "Brand retired, no products sold under the name",
+   "owner2026": "Oracle Corporation, as Oracle America, Inc.",
+   "source": "https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html"
   },
   {
    "name": "T-Mobile Sidekick",

@@ -10,6 +10,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [RSS feed](https://404memoryfound.com/feed.xml)
 
 ## Business Blunders
+- [Is Sun Microsystems Still Around? Oracle Owns It](https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html): Sun Microsystems is gone: Oracle paid $7.4 billion in 2010 and renamed it Oracle America. Java and Solaris survived, the SPARC line did not.
 - [Why Nortel Failed: The $4.5 Billion Patent Auction](https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html): Nortel failed as carrier spending collapsed and filed for bankruptcy on January 14, 2009. Its 6,000 patents later sold for $4.5 billion.
 - [Who Owns WorldCom Now? Verizon Kept the MCI Name](https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html): WorldCom is gone: it filed Chapter 11 in July 2002 with $103.9 billion in assets, and Verizon has owned the MCI name since January 6, 2006.
 - [Flooz.com Explained: The Dot-Com Cash That Vanished](https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html): Flooz.com raised about $35 million, spent $8 million on Whoopi Goldberg ads, and shut down in August 2001. Every unused balance went to zero.
@@ -394,6 +395,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Did Microsoft Try to Buy Nintendo? The 1999 Letter](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and Nintendo refused. The October 20 letter survives, and Nintendo is still independent in 2026.
 
 ## Software & Apps
+- [Is Sun Microsystems Still Around? Oracle Owns It](https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html): Sun Microsystems is gone: Oracle paid $7.4 billion in 2010 and renamed it Oracle America. Java and Solaris survived, the SPARC line did not.
 - [Is Windows Movie Maker Still Available in 2026?](https://404memoryfound.com/posts/windows-movie-maker-still-available.html): Windows Movie Maker is gone: Microsoft pulled the download on January 10, 2017. Clipchamp replaced it, and a fake version once charged $29.95.
 - [Is Homestar Runner Still Updating? Yes, 26 Years On](https://404memoryfound.com/posts/homestar-runner-still-updating.html): Homestar Runner is still updating in 2026, 26 years on. Mike Chapman and Matt Chapman still own it, and the Flash archive runs on Ruffle.
 - [Does Yahoo Messenger Still Exist? It Closed in 2018](https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html): Yahoo Messenger closed on July 17, 2018 and nothing from Yahoo replaced it. Its successor, Yahoo Together, lasted only until April 4, 2019.

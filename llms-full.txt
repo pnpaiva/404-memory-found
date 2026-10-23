@@ -4,6 +4,107 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is Sun Microsystems Still Around? Oracle Owns It
+
+URL: https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-10-23
+Topics: Software & Apps, Business Blunders
+
+**Summary:** Sun Microsystems is not still around. Oracle bought the company for $9.50 a share, about $7.4 billion, and closed the purchase on January 27, 2010, after which Sun Microsystems, Inc. became Oracle America, Inc. and the brand was retired. Java and Solaris are still Oracle products in 2026; the SPARC processor line stopped with the M8 in 2017.
+
+**Key facts:**
+- Founded: February 24, 1982, in Santa Clara, California
+- Peak revenue: $18.3 billion in fiscal 2001, about 43,700 employees
+- Sold for: $9.50 a share, about $7.4 billion, to Oracle; closed January 27, 2010
+- Status today: Brand retired, no products sold under the name
+- Owner today: Oracle Corporation, as Oracle America, Inc.
+
+## Where the Sun Microsystems name came from
+
+Sun Microsystems was founded on February 24, 1982 in Santa Clara, California, by Scott McNealy, Vinod Khosla and Andy Bechtolsheim, with Bill Joy joining from Berkeley soon after. The name was an acronym: SUN stood for Stanford University Network, the project behind the workstation prototype Bechtolsheim had built as a graduate student.
+
+The product was a Unix workstation, and for most of the 1980s and 1990s that was a very good business to be in. Engineers, banks, animation studios and telephone companies bought Sun machines because the alternatives were either mainframes or PCs, and neither did the job.
+
+Two pieces of Sun software outlived the hardware. Solaris, Sun's version of Unix, shipped on the workstations and later on the servers. Java, announced at SunWorld in San Francisco in May 1995 with Netscape (https://404memoryfound.com/posts/is-netscape-still-around.html) on stage promising to put it inside Navigator, was meant to let the same program run on any machine.
+
+By 1999 Sun was selling the servers that the web itself ran on, and its marketing said so: the company called itself the dot in dot-com.
+
+## How big did the company get before 2001?
+
+Sun's own filings show the peak. In the Form 10-K405 for the fiscal year ended June 30, 2001, the company reported revenues of $18.3 billion and approximately 43,700 employees, up from $15.7 billion the year before.
+
+That growth came directly from the dot-com build-out. Every startup with funding needed servers, and Sun sold expensive ones with high margins. The stock followed: it traded as high as $64 a share in 2000.
+
+Scott McNealy later admitted in public what those numbers meant. At its peak Sun was valued at roughly ten times its annual revenue, which, as he put it in remarks repeated for years afterwards, would have required investors to take every dollar of revenue as a dividend for a decade and pay no employees, no taxes and no suppliers in the meantime.
+
+The headcount figure matters as much as the revenue. Sun added about 7,000 people in fiscal 2001 alone, hiring into demand that was about to disappear.
+
+## What the dot-com crash did to the numbers
+
+The customers went first. Startups that had bought Sun servers on venture money stopped existing in 2001, from names as public as Pets.com (https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html) down to firms nobody remembers, and their nearly new hardware went onto the second-hand market, competing with Sun's own sales force.
+
+Net income fell from $1.85 billion in fiscal 2000 to $927 million in fiscal 2001, and then the losses started. Sun lost $587 million in fiscal 2002 and $2.378 billion in fiscal 2003, when revenue came in at $11.434 billion, down 8.5 percent from $12.496 billion the year before. Most of the fiscal 2003 loss was a non-cash impairment charge of $2.125 billion, much of it written off against Sun's $2 billion purchase of Cobalt Networks.
+
+The deeper problem was architectural. Sun had bet on its own SPARC processors and its own operating system while the market moved to cheap x86 servers running Linux. Analysts who reviewed the collapse afterwards put that missed transition alongside the crash as the reason an independent Sun stopped making sense.
+
+By 2004 the stock that had touched $64 was trading around $4.
+
+Sun was not the only supplier to the build-out that never recovered. Nortel (https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html), which sold the network gear that sat beside Sun's servers, went into bankruptcy in 2009 rather than find a buyer.
+
+## Why the IBM deal fell apart in April 2009
+
+By 2009 Sun was looking for a buyer, and IBM was the obvious one. Talks became public in March, and Sun's share price nearly doubled on the news.
+
+IBM offered $9.40 a share, roughly $7 billion. Sun's board turned it down in early April. Reporting at the time gave two reasons: the price had come down from earlier, higher numbers, and Sun wanted guarantees that IBM would see the deal through a hostile antitrust review. IBM withdrew. Sun's stock fell about 23 percent, to around $6.52.
+
+Oracle stepped in on April 20, 2009 with $9.50 a share in cash, about $7.4 billion in total and $5.6 billion net of Sun's cash and debt. The offer was a 42 percent premium to Sun's previous close of $6.69, and it beat IBM by a dime.
+
+The European Commission held the deal up from August 2009 over what Oracle would do with MySQL, the open-source database Sun had bought for about $1 billion in January 2008. Brussels cleared it on January 21, 2010, and Oracle closed the purchase on January 27, 2010.
+
+## Who owns Sun Microsystems now?
+
+Oracle Corporation does, and it did not keep the name. Sun Microsystems, Inc. was folded into Oracle and renamed Oracle America, Inc., which is how the entity appears in Oracle's own filings with the Securities and Exchange Commission. There is no Sun Microsystems to still be around in 2026: no products sold under the name, no logo, no stock ticker.
+
+The people went in stages. Jonathan Schwartz, who was chief executive when the deal closed, left in February 2010 and announced it on Twitter in the form of a haiku, which made him one of the first large-company chief executives to resign in public that way.
+
+The engineering went in 2017. A Worker Adjustment and Retraining Notification filed on August 31 that year listed 1,008 permanent layoffs across Santa Clara and San Diego counties, effective October 31, and the cuts landed hardest on the Solaris and SPARC teams. Simon Phipps, who had run Solaris at Sun, called it "a classic silent EOL of the product" in comments reported by The Register in 2017. Oracle never announced an end of life, and never confirmed the numbers.
+
+The campus went too. Facebook took over Sun's old Menlo Park site and kept Sun's monument sign, turned around, with the Facebook logo on the front and the Sun logo still readable from behind.
+
+## What happened to Java and Solaris under Oracle
+
+Larry Ellison said at the announcement in April 2009 that Java was "the single most important software asset we have ever acquired", and that Solaris was "by far the best Unix technology available in the market", both quoted by Computerworld that year. Fifteen years on, only one of those statements aged well.
+
+Java is everywhere and is now a revenue line. Oracle sued Google over Android's use of Java interfaces, lost at the Supreme Court in 2021 when the court held the reuse was fair use, and then changed the business model instead: since January 2023 Oracle has licensed Java SE by headcount, charging per employee across an entire organization whether or not those people write Java.
+
+Solaris is alive but closed in. Oracle still ships Solaris 11.4 and still publishes support dates for it well into the 2030s, but the operating system has had no major new version since 2018, and the SPARC M8 of 2017 was the last processor Oracle designed for it. Fujitsu, not Oracle, carried the SPARC hardware line further.
+
+Where to find one today: Sun hardware still turns up second-hand, and it is the small things that are easiest to live with: the Type 5 and Type 6 keyboards, badges, Solaris media kits, SunSoft manuals and Java promotional items from the late 1990s. Parts-only SPARCstations are cheap and complete working machines cost considerably more, and the heavier the machine the more the shipping hurts. For the memorabilia, a search for vintage Sun Microsystems items on Etsy (https://www.etsy.com/search?q=sun%20microsystems%20vintage) is the practical starting point.
+
+## Frequently Asked Questions
+
+### How much did Oracle pay for Sun Microsystems?
+
+Oracle agreed on April 20, 2009 to pay $9.50 a share in cash for Sun Microsystems, about $7.4 billion in total and $5.6 billion net of Sun's cash and debt. The purchase closed on January 27, 2010, six days after the European Commission cleared it. IBM had offered $9.40 a share earlier that month and withdrew when Sun's board said no.
+
+### Is Solaris still supported in 2026?
+
+Yes. Oracle Solaris 11.4, which has been the current release since 2018, is still shipping updates in 2026, and Oracle's published support dates for it run into the 2030s. What ended was new development: the Solaris and SPARC engineering teams were cut in the Oracle layoffs of 2017, and there has been no Solaris 12.
+
+### Does anyone still use SPARC servers?
+
+Yes, mostly where migrating would be expensive. Oracle's SPARC M8, released in 2017, was the last processor Oracle designed for the line, and Fujitsu continued to build SPARC servers afterwards. Customers running Solaris on SPARC in 2026 are doing so on hardware designs that are nearly a decade old, supported rather than developed.
+
+**Sources:**
+- Sun Microsystems, Inc. Form 10-K405 for fiscal 2001, SEC: https://www.sec.gov/Archives/edgar/data/0000709519/000091205701532905/a2058816z10-k405.htm
+- Update: Oracle buying Sun in $7.4B deal, Computerworld, 2009: https://www.computerworld.com/article/1550799/update-oracle-buying-sun-in-7-4b-deal.html
+- Acquisition of Sun Microsystems by Oracle Corporation, Wikipedia: https://en.wikipedia.org/wiki/Acquisition_of_Sun_Microsystems_by_Oracle_Corporation
+- The downfall of Sun Microsystems, Network World: https://www.networkworld.com/article/2268096/the-downfall-of-sun-microsystems.html
+- Oracle staff report big layoffs across Solaris, SPARC teams, The Register, 2017: https://www.theregister.com/2017/09/04/oracle_layoffs_solaris_sparc_teams/
+
+---
+
 # Why Nortel Failed: The $4.5 Billion Patent Auction
 
 URL: https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html
@@ -1501,7 +1602,7 @@ Robert Worsley was an accountant at Price Waterhouse when the idea arrived mid-f
 
 Worsley incorporated SkyMall in Arizona and mailed a 100-page business plan to 50 venture capitalists and individual investors. In February 1990, Alan Ashton, the co-creator of WordPerfect (https://404memoryfound.com/posts/what-happened-to-wordperfect-word-processor.html), agreed to finance it with $250,000.
 
-Getting started cost nearly $3 million. That money bought a 21,000-square-foot warehouse in Phoenix and a customer service center running NeXT computers and Sun Microsystems servers, serious equipment for a mail-order startup in 1990.
+Getting started cost nearly $3 million. That money bought a 21,000-square-foot warehouse in Phoenix and a customer service center running NeXT computers and Sun Microsystems (https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html) servers, serious equipment for a mail-order startup in 1990.
 
 The first SkyMall catalog went out on Eastern Airlines in 1990. It carried goods from Hammacher Schlemmer, Spiegel, The Nature Company, The Wine Enthusiast and Bits and Pieces, which SkyMall bought at a 35 percent discount and resold at list price.
 
@@ -7601,7 +7702,7 @@ AOL announced the deal on November 24, 1998 as a tax-free stock swap valued at $
 
 The deal landed in the middle of the government's antitrust case against Microsoft, and Netscape's chief executive pushed back on the obvious reading. "Netscape is doing this because it's in the best interests of Netscape. This is not about the [Microsoft] case," James Barksdale told reporters on the announcement call, as recorded by Tech Law Journal in 1998.
 
-The headline number hid what AOL was shopping for. Netscape's browser share was already collapsing, the fight covered in the browser war Netscape lost to Internet Explorer (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html). The assets with revenue attached were Netcenter, then one of the busiest portals on the web, and Netscape's enterprise server software. AOL split them up, pushed the server business into an alliance with Sun Microsystems, fed the portal into its own traffic machine, and gave the browser the smallest budget. On July 15, 2003 it disbanded what was left of the Netscape division and laid off or reassigned the staff.
+The headline number hid what AOL was shopping for. Netscape's browser share was already collapsing, the fight covered in the browser war Netscape lost to Internet Explorer (https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html). The assets with revenue attached were Netcenter, then one of the busiest portals on the web, and Netscape's enterprise server software. AOL split them up, pushed the server business into an alliance with Sun Microsystems (https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html), fed the portal into its own traffic machine, and gave the browser the smallest budget. On July 15, 2003 it disbanded what was left of the Netscape division and laid off or reassigned the staff.
 
 ## Why did AOL stop making the browser?
 

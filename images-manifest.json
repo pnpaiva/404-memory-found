@@ -1888,6 +1888,16 @@
   "thumb": "/img/thumb/pizza-margherita-stu-spivack-9438ec.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/SUN_microsystems_logo_ambigram.png/960px-SUN_microsystems_logo_ambigram.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:SUN_microsystems_logo_ambigram.png",
+  "ext": "jpg",
+  "file": "/img/sun-microsystems-logo-ambigram-ec8c5f.jpg",
+  "height": 1280,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sun-microsystems-logo-ambigram-ec8c5f.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Atari-Lynx-I-Handheld.jpg/960px-Atari-Lynx-I-Handheld.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Atari-Lynx-I-Handheld.jpg",
   "ext": "jpg",
