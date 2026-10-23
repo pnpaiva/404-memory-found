@@ -1,6 +1,88 @@
 {
   "posts": [
     {
+      "id": "sun-microsystems-oracle-acquisition-java",
+      "title": "Is Sun Microsystems Still Around? Oracle Owns It",
+      "date": "2026-10-23",
+      "author": "theo",
+      "tags": [
+        "Software & Apps",
+        "Business Blunders"
+      ],
+      "excerpt": "Sun Microsystems is gone: Oracle paid $7.4 billion in 2010 and renamed it Oracle America. Java and Solaris survived, the SPARC line did not.",
+      "summary": "Sun Microsystems is not still around. Oracle bought the company for $9.50 a share, about $7.4 billion, and closed the purchase on January 27, 2010, after which Sun Microsystems, Inc. became Oracle America, Inc. and the brand was retired. Java and Solaris are still Oracle products in 2026; the SPARC processor line stopped with the M8 in 2017.",
+      "facts": [
+        {
+          "label": "Founded",
+          "value": "February 24, 1982, in Santa Clara, California"
+        },
+        {
+          "label": "Peak revenue",
+          "value": "$18.3 billion in fiscal 2001, about 43,700 employees"
+        },
+        {
+          "label": "Sold for",
+          "value": "$9.50 a share, about $7.4 billion, to Oracle; closed January 27, 2010"
+        },
+        {
+          "label": "Status today",
+          "value": "Brand retired, no products sold under the name"
+        },
+        {
+          "label": "Owner today",
+          "value": "Oracle Corporation, as Oracle America, Inc."
+        }
+      ],
+      "image": null,
+      "imageAlt": "The Sun Microsystems logo, the purple four-way wordmark used by the Unix workstation and server maker",
+      "imageCaption": "Sun Microsystems branding from the company's independent years, before Oracle retired the name in 2010.",
+      "imageSearch": [
+        "Sun Microsystems logo",
+        "Sun Microsystems Santa Clara campus",
+        "Sun SPARCstation workstation",
+        "Sun Microsystems server"
+      ],
+      "body": "<h2>Where the Sun Microsystems name came from</h2><p>Sun Microsystems was founded on February 24, 1982 in Santa Clara, California, by Scott McNealy, Vinod Khosla and Andy Bechtolsheim, with Bill Joy joining from Berkeley soon after. The name was an acronym: SUN stood for Stanford University Network, the project behind the workstation prototype Bechtolsheim had built as a graduate student.</p><p>The product was a Unix workstation, and for most of the 1980s and 1990s that was a very good business to be in. Engineers, banks, animation studios and telephone companies bought Sun machines because the alternatives were either mainframes or PCs, and neither did the job.</p><p>Two pieces of Sun software outlived the hardware. Solaris, Sun's version of Unix, shipped on the workstations and later on the servers. Java, announced at SunWorld in San Francisco in May 1995 with <a href=\"/posts/is-netscape-still-around.html\">Netscape</a> on stage promising to put it inside Navigator, was meant to let the same program run on any machine.</p><p>By 1999 Sun was selling the servers that the web itself ran on, and its marketing said so: the company called itself the dot in dot-com.</p><h2>How big did the company get before 2001?</h2><p>Sun's own filings show the peak. In the Form 10-K405 for the fiscal year ended June 30, 2001, the company reported revenues of $18.3 billion and approximately 43,700 employees, up from $15.7 billion the year before.</p><p>That growth came directly from the dot-com build-out. Every startup with funding needed servers, and Sun sold expensive ones with high margins. The stock followed: it traded as high as $64 a share in 2000.</p><p>Scott McNealy later admitted in public what those numbers meant. At its peak Sun was valued at roughly ten times its annual revenue, which, as he put it in remarks repeated for years afterwards, would have required investors to take every dollar of revenue as a dividend for a decade and pay no employees, no taxes and no suppliers in the meantime.</p><p>The headcount figure matters as much as the revenue. Sun added about 7,000 people in fiscal 2001 alone, hiring into demand that was about to disappear.</p><h2>What the dot-com crash did to the numbers</h2><p>The customers went first. Startups that had bought Sun servers on venture money stopped existing in 2001, from names as public as <a href=\"/posts/why-pets-com-failed-dot-com-bubble.html\">Pets.com</a> down to firms nobody remembers, and their nearly new hardware went onto the second-hand market, competing with Sun's own sales force.</p><p>Net income fell from $1.85 billion in fiscal 2000 to $927 million in fiscal 2001, and then the losses started. Sun lost $587 million in fiscal 2002 and $2.378 billion in fiscal 2003, when revenue came in at $11.434 billion, down 8.5 percent from $12.496 billion the year before. Most of the fiscal 2003 loss was a non-cash impairment charge of $2.125 billion, much of it written off against Sun's $2 billion purchase of Cobalt Networks.</p><p>The deeper problem was architectural. Sun had bet on its own SPARC processors and its own operating system while the market moved to cheap x86 servers running Linux. Analysts who reviewed the collapse afterwards put that missed transition alongside the crash as the reason an independent Sun stopped making sense.</p><p>By 2004 the stock that had touched $64 was trading around $4.</p><p>Sun was not the only supplier to the build-out that never recovered. <a href=\"/posts/nortel-networks-bankruptcy-patents-sold.html\">Nortel</a>, which sold the network gear that sat beside Sun's servers, went into bankruptcy in 2009 rather than find a buyer.</p><h2>Why the IBM deal fell apart in April 2009</h2><p>By 2009 Sun was looking for a buyer, and IBM was the obvious one. Talks became public in March, and Sun's share price nearly doubled on the news.</p><p>IBM offered $9.40 a share, roughly $7 billion. Sun's board turned it down in early April. Reporting at the time gave two reasons: the price had come down from earlier, higher numbers, and Sun wanted guarantees that IBM would see the deal through a hostile antitrust review. IBM withdrew. Sun's stock fell about 23 percent, to around $6.52.</p><p>Oracle stepped in on April 20, 2009 with $9.50 a share in cash, about $7.4 billion in total and $5.6 billion net of Sun's cash and debt. The offer was a 42 percent premium to Sun's previous close of $6.69, and it beat IBM by a dime.</p><p>The European Commission held the deal up from August 2009 over what Oracle would do with MySQL, the open-source database Sun had bought for about $1 billion in January 2008. Brussels cleared it on January 21, 2010, and Oracle closed the purchase on January 27, 2010.</p><h2>Who owns Sun Microsystems now?</h2><p>Oracle Corporation does, and it did not keep the name. Sun Microsystems, Inc. was folded into Oracle and renamed Oracle America, Inc., which is how the entity appears in Oracle's own filings with the Securities and Exchange Commission. There is no Sun Microsystems to still be around in 2026: no products sold under the name, no logo, no stock ticker.</p><p>The people went in stages. Jonathan Schwartz, who was chief executive when the deal closed, left in February 2010 and announced it on Twitter in the form of a haiku, which made him one of the first large-company chief executives to resign in public that way.</p><p>The engineering went in 2017. A Worker Adjustment and Retraining Notification filed on August 31 that year listed 1,008 permanent layoffs across Santa Clara and San Diego counties, effective October 31, and the cuts landed hardest on the Solaris and SPARC teams. Simon Phipps, who had run Solaris at Sun, called it \"a classic silent EOL of the product\" in comments reported by The Register in 2017. Oracle never announced an end of life, and never confirmed the numbers.</p><p>The campus went too. Facebook took over Sun's old Menlo Park site and kept Sun's monument sign, turned around, with the Facebook logo on the front and the Sun logo still readable from behind.</p><h2>What happened to Java and Solaris under Oracle</h2><p>Larry Ellison said at the announcement in April 2009 that Java was \"the single most important software asset we have ever acquired\", and that Solaris was \"by far the best Unix technology available in the market\", both quoted by Computerworld that year. Fifteen years on, only one of those statements aged well.</p><p>Java is everywhere and is now a revenue line. Oracle sued Google over Android's use of Java interfaces, lost at the Supreme Court in 2021 when the court held the reuse was fair use, and then changed the business model instead: since January 2023 Oracle has licensed Java SE by headcount, charging per employee across an entire organization whether or not those people write Java.</p><p>Solaris is alive but closed in. Oracle still ships Solaris 11.4 and still publishes support dates for it well into the 2030s, but the operating system has had no major new version since 2018, and the SPARC M8 of 2017 was the last processor Oracle designed for it. Fujitsu, not Oracle, carried the SPARC hardware line further.</p><p><strong>Where to find one today:</strong> Sun hardware still turns up second-hand, and it is the small things that are easiest to live with: the Type 5 and Type 6 keyboards, badges, Solaris media kits, SunSoft manuals and Java promotional items from the late 1990s. Parts-only SPARCstations are cheap and complete working machines cost considerably more, and the heavier the machine the more the shipping hurts. For the memorabilia, a <a href=\"https://www.etsy.com/search?q=sun%20microsystems%20vintage\">search for vintage Sun Microsystems items on Etsy</a> is the practical starting point.</p><h2>Frequently Asked Questions</h2><h3>How much did Oracle pay for Sun Microsystems?</h3><p>Oracle agreed on April 20, 2009 to pay $9.50 a share in cash for Sun Microsystems, about $7.4 billion in total and $5.6 billion net of Sun's cash and debt. The purchase closed on January 27, 2010, six days after the European Commission cleared it. IBM had offered $9.40 a share earlier that month and withdrew when Sun's board said no.</p><h3>Is Solaris still supported in 2026?</h3><p>Yes. Oracle Solaris 11.4, which has been the current release since 2018, is still shipping updates in 2026, and Oracle's published support dates for it run into the 2030s. What ended was new development: the Solaris and SPARC engineering teams were cut in the Oracle layoffs of 2017, and there has been no Solaris 12.</p><h3>Does anyone still use SPARC servers?</h3><p>Yes, mostly where migrating would be expensive. Oracle's SPARC M8, released in 2017, was the last processor Oracle designed for the line, and Fujitsu continued to build SPARC servers afterwards. Customers running Solaris on SPARC in 2026 are doing so on hardware designs that are nearly a decade old, supported rather than developed.</p>",
+      "sources": [
+        {
+          "title": "Sun Microsystems, Inc. Form 10-K405 for fiscal 2001, SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000709519/000091205701532905/a2058816z10-k405.htm"
+        },
+        {
+          "title": "Update: Oracle buying Sun in $7.4B deal, Computerworld, 2009",
+          "url": "https://www.computerworld.com/article/1550799/update-oracle-buying-sun-in-7-4b-deal.html"
+        },
+        {
+          "title": "Acquisition of Sun Microsystems by Oracle Corporation, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acquisition_of_Sun_Microsystems_by_Oracle_Corporation"
+        },
+        {
+          "title": "The downfall of Sun Microsystems, Network World",
+          "url": "https://www.networkworld.com/article/2268096/the-downfall-of-sun-microsystems.html"
+        },
+        {
+          "title": "Oracle staff report big layoffs across Solaris, SPARC teams, The Register, 2017",
+          "url": "https://www.theregister.com/2017/09/04/oracle_layoffs_solaris_sparc_teams/"
+        }
+      ],
+      "linkPhrases": [
+        "Sun Microsystems"
+      ],
+      "seo": {
+        "title": "Is Sun Microsystems Still Around? Oracle Owns It | 404 Memory Found",
+        "description": "Sun Microsystems is gone: Oracle paid $7.4 billion in 2010 and renamed it Oracle America. Java and Solaris survived, the SPARC line did not.",
+        "keywords": [
+          "is sun microsystems still around",
+          "who owns sun microsystems now",
+          "what happened to sun microsystems",
+          "oracle sun acquisition price",
+          "is solaris still supported",
+          "how much did oracle pay for sun",
+          "sun microsystems java oracle"
+        ]
+      }
+    },
+    {
       "id": "nortel-networks-bankruptcy-patents-sold",
       "title": "Why Nortel Failed: The $4.5 Billion Patent Auction",
       "date": "2026-10-19",

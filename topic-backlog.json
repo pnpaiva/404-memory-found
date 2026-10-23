@@ -1961,8 +1961,9 @@
         "oracle sun acquisition price",
         "is solaris still supported"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-10-16"
+      "status": "published",
+      "source": "editor-research-2026-10-16",
+      "published_slug": "sun-microsystems-oracle-acquisition-java"
     },
     {
       "title": "Are Pogs Worth Anything in 2026? What Sets Sell For",
