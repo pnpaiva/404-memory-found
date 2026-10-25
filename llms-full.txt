@@ -697,29 +697,53 @@ Three Zelda games reached the Philips CD-i: Link: The Faces of Evil and Zelda: T
 
 ---
 
-# Who Owns EarthLink Now? Trive Capital Bought It
+# Who Owns EarthLink Now? WaveDivision Capital Does
 
 URL: https://404memoryfound.com/posts/who-owns-earthlink-now.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-10-05
+Published: 2026-10-05  Updated: 2026-10-25
 Topics: Internet Culture, Business Blunders
 
-**Summary:** EarthLink is still in business in 2026, but it is private: Trive Capital bought the consumer internet business from Windstream Holdings for $330 million in cash at the end of 2018 and runs it from Atlanta. The company that charged $19.95 a month for unlimited dial-up in the 1990s now resells fiber, fixed wireless and satellite service under its own brand.
+**Summary:** EarthLink still sells internet service in 2026, and it changed hands again in October 2026. A consortium of WaveDivision Capital, The Pritzker Organization and Stephens Capital Partners, working with EarthLink's own management, closed the purchase on October 20, 2026, and Trive Capital, the owner since 2019, kept only a minority stake. The company that charged $19.95 a month for unlimited dial-up now resells fiber, fixed wireless and satellite service from Atlanta.
 
 **Key facts:**
 - Launched: 1994, EarthLink Network, Los Angeles
 - Price then: $19.95 a month for unlimited dial-up
 - Peak subscribers: 5.4 million at the end of 2004
-- Owner today: Trive Capital, which paid $330 million in 2018
-- Status today: Still selling fiber, fixed wireless and satellite internet from Atlanta
+- Owner today: A WaveDivision Capital consortium, since October 20, 2026
+- Status today: Private, run from Atlanta, more than 500,000 customers
+
+## Is EarthLink still in business in 2026?
+
+Yes. EarthLink is a private company, run from Atlanta, and it is still selling internet service in 2026. It publishes no subscriber count, because a private company does not have to.
+
+The company it announced itself as in October 2026 serves more than 500,000 internet and managed services customers across the United States.
+
+The model changed more than the logo did. EarthLink sells fiber, fixed wireless and satellite plans as a retail layer on top of networks that other carriers own, wrapped in its own billing, support and security extras, rather than digging trenches of its own. Through those fiber and 5G partnerships it can reach more than 68 million homes without owning the wire to any of them.
+
+Prices are quoted by address rather than published as one national rate, which is what happens when the underlying network belongs to somebody else.
+
+Old earthlink.net email addresses still work through the company's webmail, and that is the quietest reason the brand outlasted its own product. An email address printed on 20 years of forms is much harder to abandon than an internet provider.
+
+## What changed when the WaveDivision group took over
+
+On October 15, 2026, WaveDivision Capital, The Pritzker Organization and Stephens Capital Partners announced they had partnered with EarthLink's management team to buy the company. The parties did not disclose a price.
+
+Five days later the seller confirmed the handover. Trive Capital announced on October 20, 2026 that it had closed the sale of EarthLink, LLC to the consortium, and said it would keep a minority investment in the business.
+
+WaveDivision Capital is led by Steve Weed, who spent years building and selling cable systems in the Pacific Northwest. “EarthLink has built a unique, asset light national broadband platform,” Weed, the chief executive of WaveDivision Capital, said in the announcement of the deal in 2026.
+
+Nothing changed at the top of the company. Chief executive Glenn Goad and the existing leadership team stayed on to run it for the new owners, with a stated plan to sell in places EarthLink does not reach yet.
+
+“Together, we plan to expand our footprint into new markets and continue to bring these offers to more consumers and small businesses,” Goad said in the same 2026 announcement.
 
 ## How EarthLink sold unlimited dial-up for $19.95 a month
 
 EarthLink Network started in 1994 in Los Angeles, built by Sky Dayton around one idea: charge a flat monthly fee for internet access instead of billing by the hour.
 
-The price was $19.95 a month for unlimited dial-up, set against rivals that still ran a meter and sent bills that punished anyone who stayed online after dinner.
+By 1995 the price was $19.95 a month for unlimited dial-up, set against rivals that still ran a meter and sent bills that punished anyone who stayed online after dinner.
 
-It worked quickly. By 1995 EarthLink sold dial-up service in 98 cities, and in January 1997 the company went public on Nasdaq.
+It worked quickly. By 1995 EarthLink sold dial-up service in 98 cities.
 
 What EarthLink actually sold was a modem connection, a phone number and a stack of setup software. The advantage was not technology. It was a predictable price and a support line that answered, which mattered a great deal in a decade when getting online meant typing settings into a dialog box by hand.
 
@@ -731,7 +755,7 @@ On January 5, 2000, at Macworld Expo in San Francisco, Apple announced a multi-y
 
 The terms were unusually concrete. EarthLink became the exclusive provider inside the Internet Setup software shipped with every new Macintosh sold in the United States, Apple earned a share of every Mac owner who subscribed, and Apple took a seat on EarthLink's board.
 
-"EarthLink and Apple share a passion for providing the highest-quality Internet access to Macintosh users, and together we're going to do it better than anyone else," Steve Jobs said in Apple's announcement that day.
+“EarthLink and Apple share a passion for providing the highest-quality Internet access to Macintosh users, and together we're going to do it better than anyone else,” Steve Jobs said in Apple's announcement that day.
 
 Weeks after that, EarthLink merged with MindSpring of Atlanta in a deal completed in February 2000, and the combined company became the second-largest internet service provider in the United States, behind AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html).
 
@@ -741,47 +765,35 @@ That was the peak of EarthLink's leverage. It was the default ISP on new Macs, i
 
 The subscriber count peaked in the middle of the decade. EarthLink closed the fourth quarter of 2004 with 5.4 million total subscribers, the largest base it ever reported.
 
-The mix inside that number was the problem. In that same quarter EarthLink added 84,000 broadband subscribers and 118,000 subscribers to its cut-price PeoplePC service, while its premium dial-up base fell by 211,000.
+The mix inside that number was the problem. In that same quarter its premium dial-up base fell by 211,000, while the subscribers it was adding came in on cheap narrowband plans or on broadband lines it had to rent.
 
 Every one of those trades moved money in the wrong direction. A premium dial-up customer paid the most and cost the least to serve. A broadband customer paid more but arrived with a wholesale bill attached, because EarthLink rented the line from the cable or telephone company that owned it.
 
 That squeeze is what finished off the independent broadband sellers of the period, Excite@Home (https://404memoryfound.com/posts/what-happened-to-excite-at-home-broadband.html) among them. Owning the customer is worth much less than owning the wire.
 
-EarthLink kept looking for a second act and kept not finding one. It moved about 30,000 wireless subscribers into a joint venture with SK Telecom in 2005, and it built municipal Wi-Fi networks for Philadelphia and Anaheim before walking away from that business and handing the equipment back.
+Dial-up barely figures in EarthLink's business now, although it has never quite died: a short list of providers still sells 56k access in 2026 (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html).
 
-## How Windstream bought EarthLink and sold it a year later
+## How EarthLink ended up owned by private equity
 
-By 2017 EarthLink was something to be bought rather than a buyer. Windstream Holdings completed its merger with EarthLink Holdings Corp on February 27, 2017, issuing about 88 million Windstream shares and assuming roughly $435 million of EarthLink long-term debt, in a transaction Windstream valued at about $1.1 billion.
+By 2017 EarthLink was something to be bought rather than a buyer. Windstream Holdings took over EarthLink Holdings Corp that February, folding a dial-up brand into a telephone company that was running short of growth of its own.
 
-The fit lasted under two years. On the last trading day of 2018, Windstream agreed to sell the EarthLink consumer internet business to Trive Capital, a Dallas private equity firm, for $330 million in cash.
+The fit lasted under two years. Windstream agreed at the end of 2018 to sell the EarthLink consumer internet business, and in 2019 Trive Capital, a Dallas private equity firm, partnered with EarthLink's management to carve the company out of its former public parent.
 
-What Trive Capital bought was more than a customer list. The package included the Midtown Atlanta office building that became EarthLink's headquarters again, and a brand name that millions of Americans had once paid every month without thinking about it.
+What Trive Capital bought was more than a customer list. The package included the Atlanta office that became EarthLink's headquarters again, and a brand name that millions of Americans had once paid every month without thinking about it.
 
-"Our goal is to provide the right technology at the right price, with a world class consumer experience," chief executive Glenn Goad told Telecompetitor in 2019, setting out a relaunch built on internet access plus privacy and security products.
-
-Dial-up barely figured in that plan, although it has never quite died: a short list of providers still sells 56k access in 2026 (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html).
-
-## What EarthLink sells in 2026 and who runs it
-
-EarthLink is a private company, owned by Trive Capital and run from Atlanta, and it is still selling internet service in 2026. It publishes no subscriber count, because a private company does not have to.
-
-The model changed more than the logo did. EarthLink sells fiber, fixed wireless and satellite plans as a retail layer on top of networks that other carriers own, wrapped in its own billing, support and security extras, rather than digging trenches of its own.
-
-Its business division has been buying regional fixed wireless and fiber operators outright, which is how a brand that went asset-light in 2019 ended up holding network assets again.
-
-Old earthlink.net email addresses still work through the company's webmail, and that is the quietest reason the brand outlasted its own product. An email address printed on 20 years of forms is much harder to abandon than an internet provider.
+Under Trive Capital the company spent the 2020s buying regional fixed wireless and fiber operators outright, which is how a brand that had gone asset-light ended up holding network assets again. That is the business the WaveDivision Capital consortium bought in October 2026, and it is a long way from a Pasadena startup selling modem time at a flat rate.
 
 So EarthLink in 2026 is neither a revival nor a shell. It is the same name, 32 years after the first $19.95 bill, selling internet access in a market where most households take whatever the cable company already ran down the street.
 
 ## Frequently Asked Questions
 
-### Is EarthLink still in business in 2026?
-
-Yes. EarthLink still sells internet service in 2026 as a privately held company owned by Trive Capital, which bought the consumer business from Windstream Holdings at the end of 2018, and it operates out of Atlanta rather than the Los Angeles area where Sky Dayton founded it in 1994.
-
 ### Who owns EarthLink now?
 
-EarthLink is owned by Trive Capital, a Dallas private equity firm that paid Windstream Holdings $330 million in cash for the EarthLink consumer internet business in a deal struck on the last trading day of 2018. Windstream had itself acquired EarthLink Holdings Corp less than two years earlier, on February 27, 2017.
+EarthLink is owned by a consortium of WaveDivision Capital, The Pritzker Organization and Stephens Capital Partners, together with EarthLink's own management team, which closed the purchase on October 20, 2026. Trive Capital, which had owned EarthLink since 2019, kept a minority investment in the company.
+
+### Is EarthLink still in business in 2026?
+
+Yes. EarthLink still sells internet service in 2026 as a privately held company based in Atlanta, serving more than 500,000 internet and managed services customers, rather than in the Los Angeles area where Sky Dayton founded it in 1994. It resells fiber, fixed wireless and satellite connections instead of running its own network.
 
 ### Do earthlink.net email addresses still work?
 
@@ -790,9 +802,9 @@ Yes. EarthLink still runs webmail for earthlink.net addresses in 2026, decades a
 **Sources:**
 - Encyclopedia.com: EarthLink Inc. company history: https://www.encyclopedia.com/books/politics-and-business-magazines/earthlink-inc
 - Apple: Apple and EarthLink Form Partnership to Deliver Best ISP Service to Macintosh Users (January 5, 2000): https://www.apple.com/newsroom/2000/01/05Apple-and-EarthLink-Form-Partnership-to-Deliver-Best-ISP-Service-to-Macintosh-Users/
-- Converge Digest: EarthLink fourth-quarter 2004 subscriber results: https://convergedigest.com/earthlink-reaches-14-million-bb-subs/
-- Windstream Holdings, Inc. Form 10-K for fiscal 2017 (SEC): https://www.sec.gov/Archives/edgar/data/0001282266/000128226618000016/a201710k.htm
-- Telecompetitor: EarthLink reveals expansion plans post-acquisition by Trive Capital (2019): https://www.telecompetitor.com/earthlink-reveals-expansion-plans-post-acquisition-by-trive-capital/
+- NBC News: EarthLink sales won't grow until 2006 (fourth-quarter 2004 results): https://www.nbcnews.com/id/wbna6935395
+- PR Newswire: WaveDivision Capital, Stephens Capital Partners, and The Pritzker Organization Partner with Management to Acquire EarthLink (October 15, 2026): https://www.prnewswire.com/news-releases/wavedivision-capital-stephens-capital-partners-and-the-pritzker-organization-partner-with-management-to-acquire-earthlink-302910600.html
+- PR Newswire: Trive Capital Announces Sale of EarthLink (October 20, 2026): https://www.prnewswire.com/news-releases/trive-capital-announces-sale-of-earthlink-302914673.html
 
 ---
 
