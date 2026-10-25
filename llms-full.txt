@@ -796,100 +796,124 @@ Yes. EarthLink still runs webmail for earthlink.net addresses in 2026, decades a
 
 ---
 
-# Why the T-Mobile Sidekick Died and What It's Worth
+# Is the T-Mobile Sidekick Still Around in 2026?
 
 URL: https://404memoryfound.com/posts/t-mobile-sidekick-danger-hiptop.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-10-02
+Published: 2026-10-02  Updated: 2026-10-25
 Topics: Hardware, Internet Culture
 
-**Summary:** The T-Mobile Sidekick was Danger, Inc.'s Hiptop, sold in the United States from October 2002 at $199 after rebate. T-Mobile stopped selling it on July 2, 2010, and the Danger cloud service that made it work was shut down on May 31, 2011. No Sidekick has been sold since the Samsung-built Sidekick 4G of 2011, and surviving handsets work only as collectibles.
+**Summary:** The T-Mobile Sidekick does not exist as a working phone in 2026. T-Mobile stopped selling the original on July 2, 2010, the Danger cloud service that held every contact, note and photo was switched off on May 31, 2011, and T-Mobile retired the 2G network the handsets needed on August 3, 2026. Microsoft absorbed Danger, Inc. in 2008, and no Sidekick has shipped since the Samsung-built Sidekick 4G of 2011.
 
 **Key facts:**
 - Launched: October 1, 2002, as the Danger Hiptop, sold by T-Mobile
-- Launch price: $199 after a $50 rebate, plus $39.99 a month for unlimited data
-- Units sold: About 1 million by 2009; around 250,000 US users in late 2005
-- What replaced it: Microsoft's Kin in 2010, then the Samsung Sidekick 4G in 2011
-- Status today: Discontinued. Sales ended July 2, 2010; data service ended May 31, 2011
+- Launch price: $199 after a $50 mail-in rebate, plus $39.99 a month
+- Subscribers at peak: About 923,000 on Danger devices as of September 30, 2007
+- Owner today: Microsoft absorbed Danger, Inc. in 2008; T-Mobile US keeps the Sidekick name
+- Status today: Discontinued. Sales ended July 2, 2010, data service May 31, 2011, 2G August 3, 2026
 
 ## What was the Danger Hiptop, and what did it cost in 2002?
 
-Danger, Inc. was founded on December 9, 1999 by Andy Rubin, Joe Britt and Matt Hershenson, three engineers who had worked at Apple, WebTV (https://404memoryfound.com/posts/what-happened-to-webtv-internet-television.html) and Philips. Their product was the Hiptop, a hinged slab whose screen swiveled a quarter turn to reveal a full QWERTY keyboard.
+ Danger, Inc. was founded on December 9, 1999 by Andy Rubin, Joe Britt and Matt Hershenson, engineers out of Apple, WebTV (https://404memoryfound.com/posts/what-happened-to-webtv-internet-television.html) and Philips. Their product was the Hiptop, a hinged slab whose screen swiveled a quarter turn to uncover a full QWERTY keyboard.
 
-The Hiptop reached stores on October 1, 2002. In the United States it was sold by T-Mobile under a different name, the T-Mobile Sidekick, and it cost $199 after a $50 mail-in rebate, with unlimited data on an introductory plan of $39.99 a month.
+ T-Mobile put it on sale nationwide on October 1, 2002 under its own name, the T-Mobile Sidekick. The price was $199 after a $50 mail-in rebate, on an introductory plan of $39.99 a month that bundled unlimited data with 200 anytime minutes and 1,000 weekend minutes.
 
-Flat-rate data was the whole pitch. For one monthly fee a Sidekick owner got email, a real web browser and instant messaging, including AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html), on a keyboard built for typing rather than for dialing.
+ Flat-rate data was the whole pitch. One monthly fee covered email, a real web browser and instant messaging, including AOL Instant Messenger (https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html), on a keyboard built for typing rather than for dialing.
 
-The design decision that defined the Sidekick, and later destroyed it, was where the data lived. Contacts, calendars, notes and photos were held on Danger's servers and mirrored to the handset, which made a lost or broken phone a minor problem. Danger also ran a software Catalog, a downloadable app store that predated Apple's by roughly six years.
+ The decision that defined the Sidekick, and later destroyed it, was where the data lived. Contacts, calendars, notes and photos sat on Danger's servers and mirrored down to the handset, so a lost phone was a minor problem. Danger also ran a software Catalog, a downloadable app store that shipped years before Apple's.
 
-Rubin did not stay to see any of it. He left Danger in 2003 and started a company called Android, which Google bought in 2005.
+ Rubin did not stay to see any of it. He left Danger in 2003 and co-founded Android, Inc., which Google bought in 2005.
+
+ 
 
 ## How many people actually carried a Sidekick?
 
-The Sidekick was never a mass-market phone in the way the Motorola Razr V3 (https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html) was. By late 2005, an estimated 250,000 people were using one on T-Mobile's network in the United States. By 2009, roughly 1 million Sidekicks had been sold across the whole run.
+ Danger filed to go public in 2007, and that filing is the only hard count of its users. The Form S-1 told the Securities and Exchange Commission that subscribers on Danger-enabled devices rose "from approximately 136,000 as of September 30, 2004 to approximately 923,000 as of September 30, 2007." Nearly all of them were T-Mobile customers.
 
-What the numbers miss is who was carrying them. The Sidekick landed with American teenagers and with the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) at the exact moment those two groups were living on MySpace (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html) and in chat windows, and a phone with unlimited typing was worth more to them than a camera or a thin profile.
+ The same filing describes a company that never turned that base into profit: $56.4 million in revenue for the year ended September 30, 2007, against an accumulated deficit of $188.1 million. Danger sold itself to Microsoft before the offering reached the market.
 
-It also produced one of the first celebrity data leaks. In February 2005, the contents of Paris Hilton's Sidekick account, including her address book, her notes and her photos, were pulled out of T-Mobile's systems and posted online, and the phone numbers of a long list of musicians and actors spread from there.
+ So the Sidekick was never a mass-market phone the way the Motorola Razr V3 (https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html) was. What the subscriber count misses is who was carrying one. The Sidekick landed with American teenagers and with the music industry (https://404memoryfound.com/posts/napster-destroyed-music.html) at the moment both were living on MySpace (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html) and in chat windows, and unlimited typing was worth more to that crowd than a camera or a thin profile.
 
-The case ended in court the same year. A Massachusetts teenager who admitted breaking into T-Mobile's computers, along with other offenses, was sentenced in September 2005 to 11 months in a juvenile detention facility.
+ It also produced one of the first celebrity data leaks. Someone broke into T-Mobile's systems in January 2005 and pulled Paris Hilton's Sidekick account, and her address book, notes and photos went online that February. A Massachusetts teenager pleaded guilty and, as The Register reported in September 2005, was sentenced to 11 months in a juvenile facility.
 
-## Who bought Danger Inc., and what did Microsoft do with it?
+ 
 
-Microsoft announced on February 11, 2008 that it was buying Danger, and closed the deal that April. Neither company disclosed the price. The figure reported at the time, and repeated ever since, was around $500 million.
+## Why did Microsoft buy Danger in 2008?
 
-Danger's staff were folded into a group called Premium Mobile Experiences inside Microsoft's Entertainment and Devices Division, and set to work on a project codenamed Pink. Pink shipped in 2010 as the Kin, a pair of social phones that Microsoft withdrew the same year.
+ Microsoft announced the purchase on February 11, 2008 at Mobile World Congress in Barcelona and closed it that April. Neither company disclosed the price. The figure reported at the time, and repeated ever since, was around $500 million, which neither side confirmed.
 
-The purchase also pointed Danger's engineering in a new direction. Microsoft wanted the platform rebuilt on a Windows CE kernel instead of the Java-based system Danger already had running, and the original Sidekick line was wound down in favor of the Kin.
+ Danger's staff went into a group called Premium Mobile Experiences and onto a project codenamed Pink. Pink shipped in May 2010 as the Kin, a pair of social phones aimed at the same young audience the Sidekick already had, and Microsoft withdrew them weeks later.
 
-That left an awkward gap. For most of 2008 and 2009 the Sidekick was a product whose owner was busy replacing it, still serving around a million handsets from a data center it had inherited rather than designed.
+ The purchase pointed Danger's engineering somewhere new. Microsoft wanted the platform rebuilt on a Windows CE kernel instead of the Java-based system Danger had running, and the original Sidekick line was wound down in favor of the Kin.
+
+ That left two awkward years. Through 2008 and 2009 the Sidekick was a product whose owner was busy replacing it, still serving hundreds of thousands of handsets from a data center Microsoft had inherited rather than designed. Microsoft later conceded that the data center was not "updated to run on Microsoft technology."
+
+ 
 
 ## What caused the 2009 Sidekick data loss?
 
-In the first days of October 2009, Sidekick data service failed and stayed down for about two weeks. Microsoft had contracted Hitachi Data Systems to work on the storage area network holding Sidekick user data.
+ In the first days of October 2009 Sidekick data service failed and stayed broken for about two weeks. An estimated 800,000 users in the United States lost access to email, contacts, calendars and photos. The Register reported that the trigger was remedial work by the contractor Hitachi Data Systems on the storage area network holding Sidekick user data.
 
-A backup was running when the work began. It was two days into a planned six-day job when the backup was stopped so the upgrade could go ahead, on assurances that a backup was not necessary and over the objections of Danger's own engineers. The main database and its backup then both failed.
+ On October 10, 2009, T-Mobile told Sidekick owners that content no longer on their handsets "almost certainly has been lost as a result of a server failure at Microsoft/Danger," and rated the chance of recovery extremely low. For a platform sold on the premise that the server held the safe copy, that sentence ended the argument.
 
-On October 10, 2009, T-Mobile told Sidekick owners that contacts, calendar entries, to-do lists and photos no longer on their handsets "almost certainly has been lost as a result of a server failure at Microsoft/Danger." For a platform built on the premise that the server was the safe copy, that sentence was the end of the argument.
+ A class action filed in November 2009 alleged that a backup had been halted so the storage upgrade could proceed. That account came from an unnamed insider and was never established in court. Microsoft's own explanation was a failure that struck the main database and its backup at the same time.
 
-The data came back anyway. Microsoft restored from an offsite tape copy about a month old and roughly 800 GB in size, and on October 15, 2009 Roz Ho, the corporate vice president running Premium Mobile Experiences, said in a Microsoft statement that "We rebuilt the system component by component, recovering data along the way." Most customer data was recovered, though full restoration took more than two months.
+ Most of the data came back. Microsoft said on October 15, 2009 that it had recovered most, if not all, customer data, and T-Mobile resumed selling the phone on November 17. Owners with permanent losses were offered a $100 customer appreciation voucher, and the class action settled in 2011 with gift cards, small checks or free downloads.
 
-T-Mobile gave affected customers a free month of data service and, where content was permanently lost, a $100 card. A class action followed and settled in 2011, with class members offered a $35 T-Mobile gift card, a $17.50 check, or up to 12 free downloads.
+ 
 
 ## When did T-Mobile stop selling the Sidekick?
 
-T-Mobile stopped selling the original Sidekick on July 2, 2010, eight days after Microsoft killed the Kin. Application development for the platform was halted on September 21, 2010, and the Danger Developer Zone and its archives closed on September 30, 2010.
+ T-Mobile pulled the Sidekick LX and the Sidekick 2008 from retail, care, telesales and its website on July 2, 2010, days after Microsoft killed the Kin. RCR Wireless News reported the withdrawal that week, with T-Mobile still promising support to existing owners.
 
-The real ending came on May 31, 2011, when Danger's cloud services were switched off after almost nine years. After that date a Sidekick could still make calls, but email, messaging, the browser and the whole synced account were gone, because none of it had ever run on the phone.
+ The real ending came on May 31, 2011, when Danger's cloud services were switched off after almost nine years. T-Mobile announced the date on March 1, 2011 and offered export tools and in-store transfers so owners could get their contacts out first. After that date a Sidekick could still place a call, but email, messaging, the browser and the synced account were gone, because none of it had ever run on the phone.
 
-T-Mobile did reuse the name. The Sidekick 4G, built by Samsung as the SGH-T839, went on sale on April 20, 2011 running Android 2.2 with a 5-row keyboard under a 3.5-inch touchscreen. It kept the hinge and the name and almost nothing else, and T-Mobile had it on the discontinued list inside a year.
+ T-Mobile reused the name once. The Sidekick 4G, built by Samsung as the SGH-T839, went on sale on April 20, 2011 running Android 2.2, with a five-row keyboard under a 3.5-inch touchscreen. It kept the hinge and the name and almost nothing else. T-Mobile discontinued it in 2012, less than a year in, while telling The Verge that retiring the 4G did not mean it was discontinuing the Sidekick line.
 
-Nothing has carried the Sidekick name since. The brand shows up in nostalgia clips and fan concept art rather than in a carrier lineup, and no new model has been announced as of October 2026. The answer to the question people type is that the Sidekick is discontinued twice over: the hardware in 2010 and 2012, and the service that made it a Sidekick in 2011.
+ 
+
+## Who owns the Sidekick and Danger today?
+
+ Microsoft still owns what Danger became. The company was absorbed in 2008, the Kin was withdrawn in 2010, and Danger has not traded as a separate business since. T-Mobile US kept the Sidekick name and has put it on nothing since the Sidekick 4G in 2011. No Sidekick sits in any carrier lineup as of October 2026, and no manufacturer has announced one.
+
+ The last thread holding the original hardware to a network snapped this year. T-Mobile retired its 2G GSM network on August 3, 2026, the final 2G shutdown among the three large US carriers, after AT&T in 2017 and Verizon in 2020. The first Sidekicks were GPRS and EDGE devices, so they have nothing left to register on, which puts them where the Nokia 3310 (https://404memoryfound.com/posts/what-happened-to-nokia-3310.html) already sits.
+
+ What circulates in 2026 is fan work rather than product news: concept renders of a swivel phone with 5G and USB-C, and clips of the old keyboard action. T-Mobile has announced no revival, and a real one would be a new phone wearing an old name, since nothing in the 2002 design has a network or a server left to reach.
+
+ 
 
 ### Where to find one today
 
-Original Sidekick and Sidekick II handsets still trade among collectors, usually as display pieces, since the service behind them is gone and the phones predate the US networks still in operation. Rough, untested units go cheap; a clean working one with its box sits in the low hundreds and climbs from there. Collector marketplaces such as Etsy's T-Mobile Sidekick listings (https://www.etsy.com/market/t_mobile_sidekick) are the practical place to look.
+ Original Sidekick and Sidekick II handsets still change hands among collectors, as display pieces rather than as phones. Rough, untested units go cheaply; a clean working one with its box asks well into three figures, and rare colors ask more. Collector marketplaces such as Etsy's T-Mobile Sidekick listings (https://www.etsy.com/market/t_mobile_sidekick) are the practical place to look.
+
+ 
 
 ## Frequently Asked Questions
 
-### Why was the T-Mobile Sidekick discontinued?
-
-Microsoft bought Danger, Inc., the company behind the T-Mobile Sidekick, in 2008 and moved its engineers onto a replacement phone, the Kin. T-Mobile stopped selling the original Sidekick on July 2, 2010, and the Danger cloud service the phone depended on was shut down on May 31, 2011, which left the hardware unable to do most of what it was sold to do.
+ 
 
 ### Can you still use a T-Mobile Sidekick in 2026?
 
-Not as a phone. The T-Mobile Sidekick kept its owner's email, contacts, calendar and browser on Danger's servers, and those servers were turned off on May 31, 2011. A surviving Sidekick in 2026 powers on and works as a collectible, but there is no account to sync, and the 2G networks the original models used are no longer running in the United States.
+ No. The T-Mobile Sidekick kept its owner's email, contacts, calendar and browsing on Danger's servers, and those servers were switched off on May 31, 2011. T-Mobile then retired the 2G GSM network the original handsets used on August 3, 2026, so a surviving Sidekick in 2026 powers on as a collectible with no service to join.
+
+ 
+
+### Why was the T-Mobile Sidekick discontinued?
+
+ Microsoft bought Danger, Inc., the company behind the T-Mobile Sidekick, in 2008 and moved its engineers onto a replacement phone, the Kin. T-Mobile stopped selling the original Sidekick on July 2, 2010, and the Danger cloud service the phone depended on was shut down on May 31, 2011, which left the hardware unable to do most of what it had been sold to do.
+
+ 
 
 ### What replaced the T-Mobile Sidekick?
 
-Microsoft replaced the Sidekick platform with the Kin, which it launched and withdrew in 2010. T-Mobile then put the name on the Samsung-built Sidekick 4G, an Android 2.2 phone released on April 20, 2011 and dropped within a year. After that, the keyboard phone market the Sidekick had created went to Android handsets and the iPhone.
+ Microsoft replaced the Sidekick platform with the Kin, which it launched in May 2010 and withdrew weeks later. T-Mobile then put the name on the Samsung-built Sidekick 4G, an Android 2.2 phone released on April 20, 2011 and dropped in 2012. After that the keyboard-phone market the Sidekick had opened went to Android handsets and the iPhone.
 
 **Sources:**
-- T-Mobile Sidekick, Wikipedia: https://en.wikipedia.org/wiki/T-Mobile_Sidekick
-- 2009 Sidekick data loss, Wikipedia: https://en.wikipedia.org/wiki/2009_Sidekick_data_loss
-- Microsoft Confirms Data Recovery for Sidekick Users, Microsoft News Center, October 15, 2009: https://news.microsoft.com/source/2009/10/15/microsoft-confirms-data-recovery-for-sidekick-users/
-- Microsoft acquires Sidekick designer, The Register, February 11, 2008: https://www.theregister.com/2008/02/11/microsoft_acquires_danger/
-- Paris Hilton hacker jailed, The Register, September 15, 2005: https://www.theregister.com/2005/09/15/paris_hilton_hacker_jailed/
+- Revolutionary T-Mobile Sidekick Wireless Device Now Available, T-Mobile press release, October 1, 2002: https://www.t-mobile.com/news/press/revolutionary-t-mobile-sidekick-wireless-device-now-available
+- Danger, Inc. Form S-1, U.S. Securities and Exchange Commission, 2007: https://www.sec.gov/Archives/edgar/data/0001156378/000119312507268313/ds1.htm
+- T-Mobile: Microsoft Lost All the Sidekick Backups, Data Center Knowledge, October 10, 2009: https://www.datacenterknowledge.com/archives/2009/10/10/t-mobile-microsoft-lost-all-the-sidekick-backups
+- Sidekick kicks the can, RCR Wireless News, July 6, 2010: https://www.rcrwireless.com/20100706/devices/sidekick-kicks-the-can
+- T-Mobile sets an official end date for its 2G network, Android Authority, 2026: https://www.androidauthority.com/t-mobile-2g-shutdown-date-3683679/
 
 ---
 
