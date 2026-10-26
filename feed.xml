@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Are Pogs Worth Anything in 2026? What Sets Sell For</title>
+      <link>https://404memoryfound.com/posts/pogs-worth-anything-collector-prices.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/pogs-worth-anything-collector-prices.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>Are Pogs worth anything in 2026? Almost nothing loose: complete sets run about $25 to $69, and one EarthBound set sold for $255 in 2009.</description>
+      <enclosure url="https://404memoryfound.com/pins/pogs-worth-anything-collector-prices.jpg" length="131092" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/pogs-worth-anything-collector-prices.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Money &amp; Tech</category>
+    </item>
     <item>
       <title>Is Sun Microsystems Still Around? Oracle Owns It</title>
       <link>https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/homestar-runner-still-updating.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Internet Culture</category>
       <category>Software &amp; Apps</category>
-    </item>
-    <item>
-      <title>Who Owns Packard Bell Now? Acer Relaunched It in 2026</title>
-      <link>https://404memoryfound.com/posts/packard-bell-computer-brand-today.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/packard-bell-computer-brand-today.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>Packard Bell is owned by Acer, which relaunched the dormant 1990s PC brand in 2026 with a 499 euro DotBook laptop sold everywhere but the US.</description>
-      <enclosure url="https://404memoryfound.com/pins/packard-bell-computer-brand-today.jpg" length="241725" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/packard-bell-computer-brand-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>

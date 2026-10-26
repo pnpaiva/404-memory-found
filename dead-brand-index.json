@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 203,
+ "count": 204,
  "brands": [
   {
    "name": "3dfx",
@@ -991,6 +991,13 @@
    "status2026": "PizzaNet is gone; Pizza Hut takes orders through its own site and app",
    "owner2026": "LongRange Capital, which completed its purchase from Yum! Brands on September 1, 2026",
    "source": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"
+  },
+  {
+   "name": "Pogs",
+   "started": "",
+   "status2026": "Loose caps carry no premium; documented set sales $25 to $255",
+   "owner2026": "World POG Federation, acquired by Julien Savino in 2019",
+   "source": "https://404memoryfound.com/posts/pogs-worth-anything-collector-prices.html"
   },
   {
    "name": "PointCast",
