@@ -20085,21 +20085,21 @@ The Wayback Machine at web.archive.org holds snapshots of most of the web since 
 
 URL: https://404memoryfound.com/posts/dialup-speed-then-vs-now.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-09  Updated: 2026-09-11
+Published: 2026-03-09  Updated: 2026-10-27
 Topics: Internet Culture, Then vs Now
 
-**Summary:** Dial-up internet still exists in 2026, but only just. AOL discontinued its dial-up service on September 30, 2025, and Census Bureau figures put the number of Americans relying on dial-up alone at about 163,400 in 2023. A 56k modem in the United States peaked at 53.3 kilobits per second, roughly 1,876 times slower than the 100 Mbps floor the FCC has used to define broadband since March 2024.
+**Summary:** Dial-up internet still exists in 2026, but only just. AOL discontinued its dial-up service on September 30, 2025, and the 2024 American Community Survey counted about 127,000 US households with dial-up as their only internet subscription, down from about 163,400 in 2023. A 56k modem in the United States peaked at 53.3 kilobits per second, roughly 1,876 times slower than the 100 Mbps broadband floor the FCC set in March 2024 and kept in its August 2026 report.
 
 **Key facts:**
 - Status today: Still sold by NetZero and Juno; AOL ended dial-up on September 30, 2025
 - Peak speed: 53.3 kbit/s downstream, 33.6 kbit/s upstream (V.90, 1998)
-- Broadband floor today: 100 Mbps down, 20 Mbps up (FCC benchmark, March 2024)
-- Users left: About 163,400 Americans on dial-up alone in 2023 (Census Bureau)
-- Price today: Juno still offers a free dial-up plan capped at 10 hours a month
+- Broadband floor today: 100 Mbps down, 20 Mbps up, kept in the FCC's August 2026 report
+- Users left: About 127,000 US households on dial-up alone in 2024 (American Community Survey)
+- Price today: Free 10-hour plans from NetZero and Juno; about $11.95 a month beyond that
 
 ## How fast was 56k dial-up in real numbers?
 
-V.90, the standard that ended the 56k modem wars, arrived in 1998. It replaced two incompatible schemes, x2 from US Robotics and K56flex from Rockwell and Lucent, and for the first time the speed you got did not depend on whose equipment your provider had bought.
+V.90, the standard that ended the 56k modem wars, arrived in 1998. It replaced two incompatible schemes, x2 from US Robotics and K56flex from Rockwell and Lucent, and for the first time the speed a customer got did not depend on whose equipment the provider had bought.
 
 On paper V.90 ran 56 kilobits per second downstream and 33.6 kilobits per second upstream. It never reached 56 in the United States. FCC rules cap how much signal power can be pushed down a copper pair, and that cap set the real ceiling at 53.3 kilobits per second. EE Times, in its introduction to the standard, put typical downstream throughput at 40 to 50 kilobits per second once line noise was accounted for.
 
@@ -20131,31 +20131,31 @@ It also set a hard ceiling on who could publish. Uploading at 33.6 kilobits per 
 
 Yes, though the biggest name in it is gone. AOL discontinued its dial-up service on September 30, 2025, along with the AOL Dialer and the AOL Shield browser. The company's own notice offered no reason beyond housekeeping: "AOL routinely evaluates its products and services and has decided to discontinue Dial-up Internet."
 
-Smaller providers kept going. PCWorld's roundup of who still sells dial-up after AOL's exit names NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) and Juno among the operators still taking signups in the United States, with Juno still offering a free plan capped at 10 hours a month.
+NetZero (https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html) and Juno are still signing up dial-up customers in the United States. Both still run the free plan that built their subscriber lists in 1999, capped at 10 hours a month, and Allconnect reported NetZero charging about $11.95 a month once those free hours run out. The modem is the same 56k hardware. What changed is how few people are left to sell it to.
 
-The remaining customer base is small and mostly rural. Census Bureau figures quoted throughout the 2025 coverage of the AOL shutdown put the number of Americans relying on dial-up alone at about 163,400 in 2023. That is a rounding error against national internet use, and it is also a real set of households where nothing faster reaches the property line.
+The Census Bureau's American Community Survey counted about 127,000 US households in 2024 whose only internet subscription was dial-up, roughly 0.1 percent of households, down from about 163,400 in 2023. Most of them are rural, and for many the choice is not nostalgia: nothing faster reaches the property line.
 
 For most people the service died long before the technology did. AOL still sells a paid membership (https://404memoryfound.com/posts/does-aol-still-exist-today.html), just not one that dials anything.
 
 ## How much faster is internet in 2026?
 
-The cleanest comparison is the regulatory one. In March 2024 the FCC raised the benchmark for fixed broadband in the United States to 100 megabits per second down and 20 megabits per second up, a four-fold increase on the 25/3 standard it had set in 2015.
+The cleanest comparison is the regulatory one. In March 2024 the FCC raised its benchmark for fixed broadband in the United States to 100 megabits per second down and 20 megabits per second up, a four-fold increase on the 25/3 standard set in 2015. Chairwoman Jessica Rosenworcel was blunt about the delay in her statement on that decision: "Honestly, this fix is overdue."
 
-Chairwoman Jessica Rosenworcel was blunt about the delay in her statement on the decision: "Honestly, this fix is overdue."
+That floor survived a change of administration. The FCC's 2026 broadband deployment report, adopted in August 2026, says plainly: "We maintain 100/20 Mbps as our benchmark in defining advanced telecommunications capability." The same report scrapped the long-term target of 1 gigabit down and 500 megabits up that the 2024 report had set, describing that earlier report as "a lone outlier" that "strayed from the statute's plain language."
 
-Run the ratio. 100 megabits per second is 100,000 kilobits per second, which divided by dial-up's 53.3 comes to about 1,876 times faster. That is the floor, the slowest connection the federal government is willing to call broadband. The FCC also set a long-term goal of 1 gigabit down and 500 megabits up, which would be roughly 18,760 times a 56k modem's best day.
+Run the ratio. 100 megabits per second is 100,000 kilobits per second, which divided by dial-up's 53.3 comes to about 1,876 times faster. That is the floor, the slowest connection the federal government is willing to call broadband.
 
-Stated in time rather than multiples: the four-megabyte MP3 that cost ten minutes on a clean 53.3 kbit/s line takes about a third of a second at 100 megabits per second. The wait did not get shorter. It stopped existing.
+Coverage moved as well. The 2026 report put 96.9 percent of people in the United States within reach of fixed terrestrial service at 100/20 Mbps as of June 2025, up from 94.5 percent two years earlier. Stated in time rather than multiples: the four-megabyte MP3 that cost ten minutes on a clean 53.3 kbit/s line takes about a third of a second at 100 megabits per second. The wait did not get shorter. It stopped existing.
 
 ## Frequently Asked Questions
 
 ### How slow was dial-up internet?
 
-Dial-up internet on a 56k modem topped out at 53.3 kilobits per second in the United States, about 6.5 kilobytes a second, with typical real-world speeds of 40 to 50 kilobits per second. At that rate a 500 KB photograph took roughly 75 seconds and a four-megabyte MP3 took about ten minutes. The FCC broadband benchmark set in March 2024, 100 megabits per second, is about 1,876 times faster.
+Dial-up internet on a 56k modem topped out at 53.3 kilobits per second in the United States, about 6.5 kilobytes a second, with typical real-world speeds of 40 to 50 kilobits per second. At that rate a 500 KB photograph took roughly 75 seconds and a four-megabyte MP3 took about ten minutes. The FCC broadband benchmark of 100 megabits per second, set in March 2024 and kept in August 2026, is about 1,876 times faster.
 
 ### Does dial-up internet still exist in 2026?
 
-Dial-up internet still exists in 2026, but AOL, the service most Americans associate with it, discontinued its dial-up product on September 30, 2025. Smaller providers including NetZero and Juno still sell dial-up access, and Juno still offers a free plan limited to 10 hours a month. Census Bureau figures put the number of Americans relying on dial-up alone at about 163,400 in 2023.
+Dial-up internet still exists in 2026, but AOL, the service most Americans associate with it, discontinued its dial-up product on September 30, 2025. NetZero and Juno still sell dial-up access in the United States, including free plans limited to 10 hours a month. The 2024 American Community Survey counted about 127,000 US households with dial-up as their only internet subscription, down from about 163,400 in 2023.
 
 ### Why did dial-up modems make that screeching sound?
 
@@ -20163,10 +20163,10 @@ A dial-up modem session was an ordinary voice phone call, so the negotiation bet
 
 **Sources:**
 - NPR: Say bye-bye to the beeps and boops of AOL's dial-up internet service (2025): https://www.npr.org/2025/08/12/nx-s1-5499539/aol-dial-up-ending
-- Forbes: AOL Ditches Dial-Up, Sparking Nostalgia (2025): https://www.forbes.com/sites/lesliekatz/2025/08/11/aol-ditches-dial-up-sparking-nostalgia-and-wait-thats-still-a-thing/
+- FCC: 2026 Section 706 Report on broadband deployment, FCC 26-55 (August 2026): https://docs.fcc.gov/public/attachments/FCC-26-55A1.pdf
 - FCC: Rosenworcel Statement, FCC Increases Broadband Speed Benchmark (March 2024): https://www.fcc.gov/document/fcc-increases-broadband-speed-benchmark/rosenworcel-statement-0
 - EE Times: An Introduction to the V.90 (56K) Modem: https://www.eetimes.com/an-introduction-to-the-v-90-56k-modem/
-- PCWorld: Despite AOL's exit, dial-up internet isn't going away (2025): https://www.pcworld.com/article/2874440/list-of-dialup-internet-providers-in-2025.html
+- Allconnect: Dial-up internet providers still exist (2024 ACS household count, NetZero and Juno plans): https://www.allconnect.com/internet/dial-up-internet
 
 ---
 
