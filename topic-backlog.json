@@ -1999,8 +1999,9 @@
         "flip ultra worth 2026",
         "cisco flip shutdown"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-10-16"
+      "status": "published",
+      "source": "editor-research-2026-10-16",
+      "published_slug": "flip-video-camcorder-cisco-shutdown"
     }
   ],
   "priority_3_niche_authority": [
