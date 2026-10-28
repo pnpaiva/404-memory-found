@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Is the Flip Video Camera Still Made? 2026 Prices</title>
+      <link>https://404memoryfound.com/posts/flip-video-camcorder-cisco-shutdown.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/flip-video-camcorder-cisco-shutdown.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>The Flip Video camera has not been made since April 2011, when Cisco closed the line it paid $590 million for. Working units now ask $20 to $50.</description>
+      <enclosure url="https://404memoryfound.com/pins/flip-video-camcorder-cisco-shutdown.jpg" length="202431" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/flip-video-camcorder-cisco-shutdown.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Are Pogs Worth Anything in 2026? What Sets Sell For</title>
       <link>https://404memoryfound.com/posts/pogs-worth-anything-collector-prices.html</link>
@@ -235,18 +247,6 @@
       <media:content url="https://404memoryfound.com/pins/montgomery-ward-failed-who-owns-it.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
       <category>Money &amp; Tech</category>
-    </item>
-    <item>
-      <title>Is Homestar Runner Still Updating? Yes, 26 Years On</title>
-      <link>https://404memoryfound.com/posts/homestar-runner-still-updating.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/homestar-runner-still-updating.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>Homestar Runner is still updating in 2026, 26 years on. Mike Chapman and Matt Chapman still own it, and the Flash archive runs on Ruffle.</description>
-      <enclosure url="https://404memoryfound.com/pins/homestar-runner-still-updating.jpg" length="164252" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/homestar-runner-still-updating.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Internet Culture</category>
-      <category>Software &amp; Apps</category>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-10-28",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 204,
+ "count": 205,
  "brands": [
   {
    "name": "3dfx",
@@ -417,6 +417,13 @@
    "status2026": "Still online and taking uploads in 2026",
    "owner2026": "SmugMug, since April 2018",
    "source": "https://404memoryfound.com/posts/what-happened-to-flickr-yahoo-photo-sharing.html"
+  },
+  {
+   "name": "Flip Video Camera",
+   "started": "September 12, 2007, Pure Digital Technologies",
+   "status2026": "Discontinued April 12, 2011; FlipShare support ended December 31, 2013",
+   "owner2026": "Cisco Systems, which closed the line rather than sell it",
+   "source": "https://404memoryfound.com/posts/flip-video-camcorder-cisco-shutdown.html"
   },
   {
    "name": "Flooz",
