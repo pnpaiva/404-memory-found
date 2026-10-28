@@ -16858,77 +16858,77 @@ Friendster failed for three reasons that compounded between 2003 and 2005. Its r
 
 URL: https://404memoryfound.com/posts/what-happened-to-frys-electronics.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-29  Updated: 2026-09-16
+Published: 2026-03-29  Updated: 2026-10-28
 Topics: Hardware, Business Blunders
 
-**Summary:** Fry's Electronics no longer exists. The San Jose chain shut all 31 of its remaining stores on February 24, 2021, without a bankruptcy filing or a closing sale, and handed its assets to creditors that April. What survives of the family business is First Electronic Bank, a Utah industrial bank, while the themed buildings are being demolished or converted.
+**Summary:** Fry's Electronics no longer exists. The San Jose chain shut all 31 of its remaining stores on February 24, 2021, without a bankruptcy filing or a closing sale, and handed its assets to creditors that April. What survives of the family business is First Electronic Bank in Salt Lake City, while the themed buildings come down or change hands: Burbank was demolished in April 2025 and San Jose belongs to Supermicro.
 
 **Key facts:**
 - Status today: Closed since February 24, 2021
 - Stores left: Zero, in any state
+- Owner today: No operator; the brand has not been revived or licensed
 - Founded: May 17, 1985, Sunnyvale, California
-- Peak size: 34 stores in nine states, 2019
 - What is left: First Electronic Bank, Salt Lake City
 
 ## What happened on the night of February 24, 2021?
 
-Employees at Fry's Electronics found out the chain was finished at roughly the same time customers did. On the evening of February 23, 2021, word spread that every remaining store would not reopen. By the early hours of February 24 the frys.com storefront had been replaced with a single letter.
+Employees at Fry's Electronics learned the chain was finished at roughly the same moment customers did. Word spread on the evening of February 23, 2021 that no store would reopen. By the early hours of February 24 the frys.com storefront had been replaced by a single letter.
 
-The notice was blunt. Fry's Electronics said it had made "the difficult decision to shut down its operations and close its business permanently as a result of changes in the retail industry and the challenges posed by the Covid-19 pandemic." It counted the damage in one line: nearly 36 years, nine states, 31 stores.
+The notice was blunt. Fry's Electronics said it had decided to close permanently "as a result of changes in the retail industry and the challenges posed by the Covid-19 pandemic." It counted the damage in one line: nearly 36 years, nine states, 31 stores.
 
-There was no Chapter 11 filing, no going-out-of-business sale and no last weekend for anyone to walk the aisles one more time. The company called it an orderly wind down. On April 2, 2021 it entered a general assignment for the benefit of creditors, and Hilco Global took over liquidating the inventory and the real estate.
+There was no Chapter 11 filing, no going-out-of-business sale and no last weekend to walk the aisles. The company called the process an "orderly wind down." On April 2, 2021 it entered a general assignment for the benefit of creditors, and Hilco Global took over liquidating the inventory and the real estate.
 
-That silence is part of why the closure still feels unfinished. Retailers that die in bankruptcy court leave a paper trail of filings, hearings and creditor lists that reporters can read for years afterward. Fry's Electronics, privately held for its entire life, left a letter.
+That silence is part of why the closure still feels unfinished. Retailers that die in bankruptcy court leave filings, hearings and creditor lists that reporters can read for years afterward. Fry's Electronics, privately held for its entire life, left a letter.
 
 ## Why were the shelves empty two years before the end?
 
-Anyone who visited after 2018 saw it coming. Aisles that once held rows of graphics cards, cases and power supplies had bare metal shelving instead. On September 10, 2019, The Mercury News reported the empty shelves across most locations and asked whether the chain was about to fold.
+Anyone who visited after 2018 saw it coming. Aisles that once held rows of graphics cards, cases and power supplies carried bare metal shelving instead. On September 10, 2019, The Mercury News reported empty shelves across most locations and asked whether the chain was about to fold.
 
-Fry's Electronics had an explanation ready. It was moving suppliers to a consignment model, in which vendors keep ownership of the goods and get paid only after a sale. The company said 245 vendors had agreed to the new terms and that stock would be back within weeks.
+Fry's Electronics had an explanation ready. It was moving suppliers to a consignment model, in which vendors keep ownership of the goods and get paid only after a sale. The company said 245 vendors had agreed to the new terms and that stock would return within weeks. The only store it planned to close, it said, was Palo Alto, which had lost its lease.
 
-In November 2019, company spokesman Manuel Valerio told The Dallas Morning News, "We are not liquidating, or planning to close any stores." The one exception, he said, was Palo Alto, which had lost its lease. The other 34 stores in nine states would have product again over the next several weeks.
+Consignment only works when suppliers trust the retailer holding their goods. Distributors began refusing shipments over unpaid invoices, and vendors that had already placed products on consignment started collecting them back. The pivot meant to cut risk drained the stores instead.
 
-Consignment only works when suppliers trust the retailer holding their goods. Distributors and manufacturers began refusing shipments over unpaid invoices, and vendors that had already placed products on consignment started collecting them back. The pivot meant to cut risk drained the stores instead, and four more locations closed before the end came.
+More locations went dark through 2019 and 2020, including a Duluth, Georgia store shuttered without notice during the 2019 holiday season. The chain entered 2021 with 31 stores and shelves that had never refilled.
 
 ## Who owns Fry's Electronics today?
 
 Nobody operates it. Fry's Electronics, Inc. stopped trading in February 2021, has not reopened under new ownership, and the name has not been licensed onto a replacement site the way some dead retail brands have. There is no Fry's store, no catalog and no working storefront at frys.com.
 
-The family business did not vanish, though. Forbes reported in December 2023 that the operation lives on as First Electronic Bank, a state-chartered, FDIC-insured industrial bank in Salt Lake City that partners with fintech lenders. Utah's rules let those partners charge rates that are capped in other states, and Forbes put some of the resulting loans as high as 180 percent interest.
+The family business did not vanish. Forbes reported in December 2023 that the Fry family's capital now sits in First Electronic Bank, a state-chartered, FDIC-insured industrial bank in Salt Lake City that lends through fintech partners. Forbes put some of the resulting consumer loans at rates as high as 180 percent, which Utah's rules permit and most other states cap.
 
-The money moved in the opposite direction to the stores. Forbes reported that First Electronic Bank's net income rose from $1.7 million in 2020 to $10.6 million in 2021, then to $25.8 million in 2022, over the same stretch that the retail chain was being liquidated.
+The bank rejects the rent-a-bank label that consumer groups apply to those partnerships. Its chief legal officer told Forbes in 2023 that "the programs offered by FEB are FEB programs with credit originated by FEB." Forbes also reported that Randy Fry, one of the brothers who opened the first store, remains a director there.
 
-So the answer splits in two. As a place to buy a hard drive, Fry's Electronics has been dead since 2021. As a balance sheet, the Fry family's capital kept working, in consumer credit rather than consumer electronics.
+So the answer splits in two. As a place to buy a hard drive, Fry's Electronics has been dead since February 2021. As a balance sheet, the family money kept working, in consumer credit rather than consumer electronics.
 
-## What happened to the themed buildings?
+## What stands on the old Fry's sites in 2026?
 
-Every location had its own theme, and the buildings outlived the business. The Burbank store, opened in 1995 at Hollywood Way and Vanowen, had a flying saucer crashed through its facade, built by movie prop designer Eric Christensen into a Googie building from 1962. Woodland Hills ran on Alice in Wonderland. Fountain Valley was ancient Rome. Anaheim was a NASA space center. Campbell was Egyptian.
+Every store had its own theme, and several of the buildings outlived the business. Burbank had a flying saucer crashed through the front wall. San Jose was a Mayan temple, Woodland Hills ran on Alice in Wonderland, Fountain Valley was ancient Rome and Campbell was Egyptian.
 
-Burbank is gone. LaTerra Development began demolition in April 2025 to clear the eight-acre site for Burbank Aero Crossings, two seven-story buildings holding 862 apartments above about 9,700 square feet of ground-floor shops and restaurants.
+Burbank is gone. LaTerra Development bulldozed the store at 2311 Hollywood Way in April 2025, four years after it closed, clearing the site for Burbank Aero Crossings, the mixed-use project the city approved in 2021 for 862 apartments with offices and ground-floor shops.
 
-San Jose went the other way. Supermicro bought the 19.7-acre former headquarters at 550 East Brokaw Road in February 2024 for roughly $80 million, after years of leasing space there. City planners approved a 333,400-square-foot manufacturing and warehouse building that reuses the old retail shell and keeps the store's Mayan-themed facade, with the industrial wing built behind it.
+San Jose went the other way. Supermicro bought the roughly 20-acre former headquarters at 550 East Brokaw Road in February 2024 for about $80 million, after years of leasing space there, and the plans keep the Mayan-themed facade while the retail shell becomes warehouse and manufacturing space for the server maker.
 
-The result is the strangest monument in Silicon Valley: a fake stone temple that now fronts a server plant. The theme survived the retailer that paid for it.
+The result is the strangest monument in Silicon Valley: a fake stone temple fronting a factory floor. The theme survived the retailer that paid for it.
 
 ## How did a grocery family end up selling motherboards?
 
-Fry's Electronics came out of a supermarket. Charles Fry built a chain of 41 Fry's Food Stores across California and Arizona through the 1960s and sold it in 1972 for about $14 million, a deal company histories credit to Dillon Companies.
+Fry's Electronics came out of a supermarket. Charles Fry built a chain of Fry's Food Stores in California, and his sons grew up inside the grocery trade. The plan was to take the model they knew, wide aisles and high volume, and point it at computer parts.
 
-John Fry had managed the computer systems for his father's supermarkets. On May 17, 1985, he opened a 20,000-square-foot store in Sunnyvale, California with his brothers Randy and David and a fourth partner, Kathryn Kolder. The pitch was one-stop shopping for the high-tech professional: integrated circuits and test equipment on the same floor as software, televisions and snacks.
+On May 17, 1985, John Fry opened the first store in Sunnyvale, California with his brothers Randy and David and a fourth partner, Kathryn Kolder, who became an executive vice president. The pitch was one-stop shopping for the high-tech professional: integrated circuits and test equipment on the same floor as software, televisions and magazines.
 
-The snack aisle was the supermarket habit showing through. Chips, candy and soda sat a few steps from the components, because a shopper who stays longer buys more, and the floor plan was built to keep people wandering past things they had not come for.
+The snack aisle was the supermarket habit showing through. The first store stocked groceries and fresh produce before narrowing to chips, candy and soda a few steps from the components, because a shopper who stays longer buys more.
 
-It worked for two decades. The chain reached 34 stores in nine states by 2019, spread across California, Texas, Arizona, Georgia, Illinois, Indiana, Nevada, Oregon and Washington, and became the default parts counter for anyone building a PC on the West Coast.
+It worked for two decades. The chain reached 34 stores in nine states by 2019, across California, Texas, Arizona, Georgia, Illinois, Indiana, Nevada, Oregon and Washington, and became the default parts counter for anyone building a PC on the West Coast.
 
 ## Why did Fry's lose to Amazon and Best Buy?
 
-The pandemic took the blame in the closing letter, but the chain had been losing for years before 2020. The shutdown "represents the end of an era and a sad day for its army of loyal shoppers," Neil Saunders, managing director of GlobalData, said in February 2021. He argued the elaborate store themes had turned from an attraction into a burden as the shelves thinned out.
+The pandemic took the blame in the closing letter, but the chain had been losing for years before 2020. Fry's Electronics never built a real online business. Its website stayed an afterthought while Newegg and Amazon (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html) took the component buyers who had made the chain necessary in the first place.
 
-Fry's Electronics never built a real online business. Its website stayed an afterthought while Newegg and Amazon (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html) took the component buyers who had made the chain necessary in the first place. Best Buy spent the 2010s rebuilding around price matching, vendor shop-in-shops and Geek Squad services. Fry's kept running the 1995 format.
+Best Buy spent the 2010s rebuilding around price matching, vendor shop-in-shops and Geek Squad services. Fry's kept running the 1995 format in buildings that cost a fortune to light and staff, with themed decor that read as charming when the shelves were full and as a stage set when they were not.
 
-The rivals it outlived show how narrow the window was. Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) went down in 2009, CompUSA (https://404memoryfound.com/posts/is-compusa-still-around.html) had already stopped being a national chain, and RadioShack (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html) shrank to a brand attached to a website. Big-box electronics retail had no room left for a company that treated the internet as optional.
+The rivals it outlived show how narrow the window was. Circuit City (https://404memoryfound.com/posts/what-happened-to-circuit-city-electronics.html) went down in 2009, CompUSA (https://404memoryfound.com/posts/is-compusa-still-around.html) had already stopped being a national chain, and RadioShack (https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html) shrank to a brand attached to a website.
 
-Jefferies analyst Jonathan Matuszewski estimated in 2021 that Best Buy stood to pick up more than $400 million in sales from the Fry's exit. Micro Center absorbed part of the enthusiast trade. Neither one replaced the experience of walking into a building with a spaceship stuck in the front of it.
+What is left for anyone who wants to handle a graphics card before buying it is Best Buy, Walmart and, in the cities that have one, Micro Center. None of them replaces walking into a building with a spaceship stuck in the front of it.
 
 ## Frequently Asked Questions
 
@@ -16936,20 +16936,20 @@ Jefferies analyst Jonathan Matuszewski estimated in 2021 that Best Buy stood to 
 
 Fry's Electronics closed every remaining store on February 24, 2021, after nearly 36 years in business. All 31 stores across nine states shut on the same day, with no bankruptcy filing and no closing sale, and the company entered a general assignment for the benefit of creditors on April 2, 2021.
 
-### Why did Fry's Electronics go out of business?
-
-Fry's Electronics blamed changes in the retail industry and the Covid-19 pandemic in its February 2021 closing notice, but the chain had been failing since at least 2019, when a shift to a consignment inventory model left shelves bare and suppliers stopped shipping over unpaid invoices. It never built an online business capable of competing with Amazon and Newegg.
-
 ### Are any Fry's Electronics stores still open?
 
-No. Zero Fry's Electronics stores have operated anywhere since February 24, 2021, and the brand has not been revived. The former San Jose headquarters at 550 East Brokaw Road was bought by Supermicro in February 2024, and the Burbank store with the crashed flying saucer was demolished in April 2025.
+No. Zero Fry's Electronics stores have operated anywhere since February 24, 2021, and the brand has not been revived or licensed to another retailer. The Burbank store with the crashed flying saucer was demolished in April 2025, and the former San Jose headquarters at 550 East Brokaw Road has belonged to Supermicro since February 2024.
+
+### Why did Fry's Electronics go out of business?
+
+Fry's Electronics blamed changes in the retail industry and the Covid-19 pandemic in its February 2021 closing notice, but the chain had been failing since at least 2019, when a shift to a consignment inventory model left shelves bare and suppliers stopped shipping over unpaid invoices. It never built an online business able to compete with Amazon and Newegg.
 
 **Sources:**
 - Fry's Electronics abruptly goes out of business, closes stores (Retail Dive, 2021): https://www.retaildive.com/news/frys-electronics-abruptly-goes-out-of-business-closes-stores/595614/
-- Fry's Electronics says it's not going out of business (The Dallas Morning News, 2019): https://www.dallasnews.com/business/retail/2019/11/15/frys-electronics-says-its-not-going-out-of-business/
 - How Fry's Electronics Pivoted From Retail To Backing 180%-Interest Consumer Loans (Forbes, 2023): https://www.forbes.com/sites/brandonkochkodin/2023/12/05/how-frys-electronics-pivoted-from-selling-tech-to-backing-consumer-loans-with-180-interest/
 - LaTerra bulldozes Burbank site of crashed UFO for apartments (The Real Deal, 2025): https://therealdeal.com/la/2025/04/16/laterra-bulldozes-iconic-site-of-crashed-ufo-in-burbank/
 - Supermicro moves in on old Fry's, turning San Jose icon into new tech hub (Hoodline, 2026): https://hoodline.com/2026/01/supermicro-moves-in-on-old-fry-s-turning-san-jose-icon-into-new-tech-hub/
+- Fry's Electronics (Wikipedia): https://en.wikipedia.org/wiki/Fry%27s_Electronics
 
 ---
 
