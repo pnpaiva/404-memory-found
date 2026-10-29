@@ -20271,17 +20271,17 @@ A dial-up modem session was an ordinary voice phone call, so the negotiation bet
 
 URL: https://404memoryfound.com/posts/first-online-purchase-pizza.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-07  Updated: 2026-09-10
+Published: 2026-03-07  Updated: 2026-10-29
 Topics: Internet Culture, Then vs Now
 
-**Summary:** Pizza Hut's PizzaNet went live in Santa Cruz, California in August 1994 and took a large pepperoni, mushroom and extra cheese pizza as its first order, which is why Pizza Hut still calls it the world's first online purchase. The stronger claim belongs to NetMarket, which sold a Sting CD for $12.48 plus shipping on August 11, 1994, in the first secure credit card sale of a physical good. PizzaNet itself is long gone, and Pizza Hut changed hands in 2026.
+**Summary:** Pizza Hut's PizzaNet went live in Santa Cruz, California in August 1994 and took a large pepperoni, mushroom and extra cheese pizza as its first order, which is why Pizza Hut still calls it the world's first online purchase. The stronger claim belongs to the Net Market Company, which sold a Sting CD for $12.48 plus shipping on August 11, 1994, in the first secure credit card sale of a physical good. PizzaNet is long gone, and Pizza Hut itself was sold for $2.7 billion in 2026.
 
 **Key facts:**
 - First PizzaNet order: A large pepperoni, mushroom and extra cheese pizza, Santa Cruz, California, 1994
 - Announced: August 22, 1994, by Pizza Hut and The Santa Cruz Operation
-- Earlier claim: A Sting CD sold on NetMarket for $12.48 plus shipping, August 11, 1994
+- Earlier claim: A Sting CD sold by the Net Market Company for $12.48 plus shipping, August 11, 1994
 - Status today: PizzaNet is gone; Pizza Hut takes orders through its own site and app
-- Owner today: LongRange Capital, which completed its purchase from Yum! Brands on September 1, 2026
+- Owner today: LongRange Capital outside mainland China since September 1, 2026, and Yum China Holdings inside it
 
 ## What did PizzaNet actually sell in August 1994?
 
@@ -20289,7 +20289,7 @@ PizzaNet was a pilot run out of a single Pizza Hut franchise in Santa Cruz, Cali
 
 The form lived at pizza.net. A customer chose a size, checked off toppings, typed an address and a phone number, and submitted it. The order travelled to a Pizza Hut server in Wichita, Kansas running SCO software, and was relayed back to the Santa Cruz restaurant. Pizza Hut's own account of the launch says the first order to arrive that way was a large pepperoni, mushroom and extra cheese pizza.
 
-Two details are worth holding on to, because both get garbled in the retellings. PizzaNet was a web page, not a dial-up bulletin board, and using it meant having a graphical browser at a time when almost nobody did. NCSA Mosaic (https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html), released in 1993, was barely a year old.
+Two details get garbled in the retellings. PizzaNet was a web page, not a dial-up bulletin board, and using it meant having a graphical browser at a time when almost nobody did. NCSA Mosaic (https://404memoryfound.com/posts/what-happened-to-ncsa-mosaic-browser.html), released in 1993, was barely a year old.
 
 ## How PizzaNet worked without taking a single payment
 
@@ -20297,13 +20297,13 @@ PizzaNet did not process money. There was no card field, no encryption and no me
 
 The callback was a fraud control as much as a courtesy. An open web form with no identity check is an invitation to send forty pizzas to someone you dislike, and the staff worked that out fast.
 
-This matters for the record, because the fight over what came first is really a fight about definitions. If placing an order counts, PizzaNet is in the running. If the sale has to complete online, with the payment crossing the network, PizzaNet is not a sale at all. It is an early order form bolted onto an ordinary phone-and-cash transaction. Pizza Hut has never been shy about the claim regardless. Chief marketing officer Carrie Walsh said in 2014 that the company wanted to celebrate that "before consumers could buy books, clothes, music or vacation packages via the internet, they could place an online order for a Pizza Hut pizza."
+This matters for the record, because the fight over what came first is really a fight about definitions. If placing an order counts, PizzaNet is in the running. If the sale has to complete online, with the payment crossing the network, PizzaNet is not a sale at all. It is an early order form bolted onto an ordinary phone-and-cash transaction. Pizza Hut has never been shy about the claim regardless. Chief marketing officer Carrie Walsh said in a 2014 statement reported by NBC News that the company wanted to celebrate that "before consumers could buy books, clothes, music or vacation packages via the internet, they could place an online order for a Pizza Hut pizza."
 
 ## Why a Sting CD beat the pizza by eleven days
 
-On August 11, 1994, a 21-year-old named Dan Kohn ran a transaction through NetMarket, the online store he had helped start. A friend in Philadelphia bought a compact disc of Sting's album Ten Summoner's Tales for $12.48 plus shipping, and the card number crossed the network encrypted. The New York Times covered it the next day under the headline Attention Shoppers: Internet Is Open.
+On August 11, 1994, the Net Market Company of Nashua, New Hampshire ran a transaction through its online store. Phil Brandenberger, a buyer in Philadelphia, paid $12.48 plus shipping for a compact disc of Sting's album Ten Summoner's Tales, and his card number crossed the network encrypted. The New York Times covered it the next day under the headline Attention Shoppers: Internet Is Open.
 
-Kohn's line to the paper is the one people still repeat: "Even if the N.S.A. was listening in, they couldn't get his credit card number." The point was never the CD. The point was that a stranger's card details could travel over a public network without being readable in transit, which is the foundation every online store since has been built on.
+The line that stuck came from Daniel M. Kohn, the 21-year-old chief executive who told the paper: "Even if the N.S.A. was listening in, they couldn't get his credit card number." The point was never the CD. The point was that a stranger's card details could travel over a public network without being readable in transit, which is the foundation every online store since has been built on.
 
 Eleven days later, Pizza Hut and SCO announced PizzaNet. On the ordinary reading, where a first sale means the first time money and goods changed hands through the network, the CD wins on the date and on the mechanism. The pizza is the better story, which is most of why it is the one that stuck. Retail on the web needed the encryption more than it needed the pepperoni.
 
@@ -20315,34 +20315,42 @@ The oldest claim is a drug deal. In his 2005 book What the Dormouse Said, John M
 
 The second direction is commercial and much less romantic. Shopping over closed, subscription-only networks predates the web by a decade. CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) ran a shopping mall where subscribers ordered real merchandise from real retailers through a dial-up service that was not the internet. By that standard the web in 1994 did not invent online shopping. It took online shopping out of a walled garden and put it somewhere anyone with a modem and a browser could reach, which is also why 1994 produced the first banner ad (https://404memoryfound.com/posts/first-banner-ad-hotwired-1994-history.html) ten weeks after the pizza.
 
-## Who owns Pizza Hut today, and does PizzaNet still exist?
+## Who owns Pizza Hut today?
 
-PizzaNet does not exist. It ran in one city, for a pilot period, and pizza.net is not a Pizza Hut ordering site now. What replaced it is the thing PizzaNet was built to test: a national ordering site, then an app, then delivery marketplaces that route orders the restaurant never sees a phone call for.
+Pizza Hut has two owners, and neither of them is the company that held it through almost the whole of the chain's online life. Yum! Brands began a strategic review of the brand in November 2025, agreed to sell it in two pieces on June 16, 2026, and finished the job before the autumn.
 
-Pizza Hut itself changed hands in 2026. Yum! Brands, its parent for more than two decades, sold the chain in two pieces. Yum China Holdings bought the mainland China business for $1.2 billion in a deal that closed on August 7, 2026. The private equity firm LongRange Capital bought everything else for about $1.5 billion and announced the acquisition complete on September 1, 2026.
+Yum China Holdings bought the Pizza Hut brand in mainland China for about $1.2 billion, a deal it reported complete on August 7, 2026 in a filing with the Securities and Exchange Commission. The private equity firm LongRange Capital, founded by Bob Berlin in 2019, bought everything outside mainland China for about $1.5 billion, with a further $75 million payable to Yum! Brands as an earn-out by 2030. That purchase closed on September 1, 2026, and Eduardo Luz runs the business as interim chief executive.
 
-So the answer people are searching for is that Pizza Hut is owned by LongRange Capital outside mainland China, and by Yum China Holdings inside it. Yum! Brands, the parent through almost the whole of the chain's online life, no longer owns any of it. The company that ran the first famous online pizza order spent 2026 being taken apart and sold.
+Add the two together and Pizza Hut sold for $2.7 billion. So the answer people are searching for in 2026 is that Pizza Hut is owned by LongRange Capital outside mainland China and by Yum China Holdings inside it, and that Yum! Brands no longer owns any of it.
+
+## Does PizzaNet still exist, and how is Pizza Hut doing now?
+
+PizzaNet is gone. It ran in one city for a pilot period, and the pizza.net form stopped being how anyone ordered a pizza long before most customers had heard of it. What replaced it is the thing PizzaNet was built to test: a national ordering site, then an app, then delivery marketplaces that route orders the restaurant never takes a phone call for.
+
+The chain that ran the famous 1994 order is shrinking in its home market. Pizza Hut closed 275 restaurants in the United States during 2026 through August 18, all of them franchised locations, according to a franchise disclosure document amended on October 8, 2026 and reported by Fast Company. The same filing projects only 33 new United States franchise openings for the year. Yum! Brands had announced in February 2026 that it planned to close about 250 underperforming American locations in the first half of the year, so the closures ran ahead of the plan.
+
+Globally the brand is still large, with just under 20,000 restaurants at the end of 2025, and Yum China expects to open more than 800 Pizza Hut locations a year in mainland China in 2027 and 2028. The pattern is the one that shows up again and again in companies that got to the web early, from Pets.com (https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html) onward: being first online buys a line in the history books, not a permanent lead.
 
 ## Frequently Asked Questions
 
 ### What was the first thing sold online?
 
-The most commonly cited answer is a compact disc. On August 11, 1994, NetMarket sold a copy of Sting's Ten Summoner's Tales for $12.48 plus shipping, which The New York Times reported the next day as the first secure retail transaction on the internet. Pizza Hut's PizzaNet, whose first order was a large pepperoni, mushroom and extra cheese pizza, was announced eleven days later on August 22, 1994.
+The most commonly cited answer is a compact disc. On August 11, 1994, the Net Market Company sold a copy of Sting's Ten Summoner's Tales to a buyer in Philadelphia for $12.48 plus shipping, which The New York Times reported the next day as the first secure retail transaction on the internet. Pizza Hut's PizzaNet, whose first order was a large pepperoni, mushroom and extra cheese pizza, was announced eleven days later on August 22, 1994.
 
 ### Was the first online purchase really a Pizza Hut pizza?
 
-Not by the usual test. Pizza Hut's PizzaNet, launched in Santa Cruz, California in August 1994, collected orders through a web form but took no payment online, and staff phoned each customer to confirm before money changed hands at the door. The NetMarket sale of a Sting CD on August 11, 1994 moved the order and the encrypted card number over the network together, which is why it is usually credited first.
+Not by the usual test. Pizza Hut's PizzaNet, launched in Santa Cruz, California in August 1994, collected orders through a web form but took no payment online, and staff phoned each customer to confirm before money changed hands at the door. The Net Market sale of a Sting CD on August 11, 1994 moved the order and the encrypted card number over the network together, which is why it is usually credited first.
 
 ### Who owns Pizza Hut now?
 
-Pizza Hut is owned by LongRange Capital, a private equity firm that completed its roughly $1.5 billion purchase of the chain from Yum! Brands on September 1, 2026. The mainland China business went separately to Yum China Holdings for $1.2 billion in a transaction that closed on August 7, 2026.
+Pizza Hut is owned by LongRange Capital, a private equity firm that completed its roughly $1.5 billion purchase of the chain from Yum! Brands on September 1, 2026, with an earn-out of up to $75 million payable to Yum! by 2030. The mainland China business went separately to Yum China Holdings for about $1.2 billion in a transaction completed on August 7, 2026, which put the total price for Pizza Hut at $2.7 billion.
 
 **Sources:**
-- SCO and Pizza Hut Announce Pilot Program (biz.sco.announce, August 1994): https://groups.google.com/g/biz.sco.announce/c/YSc-pXPPOig
-- Pizza Hut Celebrates 20th Anniversary of World's First Online Purchase (PR Newswire, 2014): https://www.prnewswire.com/news-releases/pizza-hut-celebrates-20th-anniversary-of-worlds-first-online-purchase-with-50-percent-off-online-deal-for-hut-lovers-members-238428021.html
 - Attention Shoppers: Internet Is Open (The New York Times, August 12, 1994): https://www.nytimes.com/1994/08/12/business/attention-shoppers-internet-is-open.html
-- What Was the First Thing Sold on the Internet? (Smithsonian Magazine): https://www.smithsonianmag.com/smart-news/what-was-first-thing-sold-internet-180957414/
-- LongRange Capital Completes Acquisition of Pizza Hut from Yum! Brands (September 1, 2026): https://www.longrangecapital.com/news-article/longrange-capital-completes-acquisition-of-pizza-hut-from-yum-brands
+- SCO and Pizza Hut Announce Pilot Program (biz.sco.announce, August 1994): https://groups.google.com/g/biz.sco.announce/c/YSc-pXPPOig
+- Pizza Hut Offers Big Discount to Celebrate 20th Anniversary of the World's First Online Purchase (NBC News, 2014): https://www.nbcnews.com/news/wbna53973791
+- Yum China Completes the Acquisition of Ownership of the Pizza Hut Brand in Mainland China (SEC Form 8-K exhibit, August 2026): https://www.sec.gov/Archives/edgar/data/0001673358/000119312526339048/yumc-ex99_1.htm
+- Pizza Hut store closures update: list of doomed locations grows in 2026 (Fast Company, October 2026): https://www.fastcompany.com/91627412/pizza-hut-store-closures-2026-list-doomed-locations-grows
 
 ---
 
