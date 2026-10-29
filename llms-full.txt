@@ -19435,35 +19435,35 @@ After Apple bought NeXT in December 1996 and Gil Amelio was pushed out in July 1
 
 URL: https://404memoryfound.com/posts/what-happened-to-aim-aol-instant-messenger.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-03-22  Updated: 2026-09-11
+Published: 2026-03-22  Updated: 2026-10-29
 Topics: Software & Apps, Internet Culture
 
-**Summary:** AOL Instant Messenger, the chat client almost everyone called AIM, no longer exists. Oath, the Verizon unit that owned AOL, closed the service on December 15, 2017 after 20 years and never launched a replacement. The AOL brand behind it has changed hands twice since and has belonged to the Italian software company Bending Spoons since January 2, 2026.
+**Summary:** AOL Instant Messenger, the chat client almost everyone called AIM, no longer exists. Oath, the Verizon unit that owned AOL, closed the service on December 15, 2017 after 20 years and never launched a replacement. The AOL brand behind it has belonged to the Italian software company Bending Spoons since January 2, 2026.
 
 **Key facts:**
 - Launched: May 1997, by America Online
 - Status today: Shut down. No official service since December 15, 2017
-- Owner today: AOL brand held by Bending Spoons, since January 2, 2026
-- Peak users: 36 million active users in 2001, 63 million by 2007
+- Owner today: AOL brand held by Bending Spoons, deal completed January 2, 2026
+- Peak users: 36 million active users in 2001, about 500,000 monthly visitors by 2017
 - What replaced it: Phone texting, Facebook messaging, later Discord and iMessage
 
 ## Who actually built AOL Instant Messenger?
 
-AOL Instant Messenger came off AOL's engineering floor rather than out of a product plan. Barry Appelman, an AOL engineer who had worked on early TCP/IP standards at IBM, built the Buddy List, the panel that showed which of your friends were signed on at that moment.
+AOL Instant Messenger came off AOL's engineering floor rather than out of a product plan. Barry Appelman, an AOL engineer who had worked on early TCP/IP standards at IBM, built the Buddy List: the panel that showed which of your friends were signed on at that moment.
 
-"Buddy List was done without telling anybody, because we didn't have any product management then," Appelman told Mashable in 2014. "So I just decided to do it." His first version broke often enough that colleagues called it the Buggy List.
+"Buddy List was done without telling anybody, because we didn't have any product management then," Appelman told Mashable in 2014, in an interview Smithsonian Magazine quoted again in 2022. "So I just decided to do it." His first version broke often enough that colleagues called it the Buggy List.
 
-By 1997 he had it working and filed a US patent for what the paperwork called "User definable on-line co-user lists." Strip the legal phrasing and that is the buddy list, and every contact panel in every messaging app since has worked the same way: a list of people, each one marked present or absent.
+By 1997 he had it working and filed a US patent application for what the paperwork called "User definable on-line co-user lists." Strip the legal phrasing and that is the buddy list, and every contact panel in every messaging app since has worked the same way: a list of people, each one marked present or absent.
 
 AOL released AOL Instant Messenger in May 1997. The decision that mattered was giving the client away to anyone with an internet connection instead of only to paying AOL subscribers. A teenager on a rival dial-up service could download it, pick a screen name and talk to AOL members for free. AIM grew fastest outside AOL's own walls, which is precisely what AOL's subscription business was not built to reward.
 
-## How big did AIM get at its peak?
+## How big did AIM get, and how fast did it empty out?
 
-AIM peaked as a desktop product. TechSpot puts the high point at 36 million active users in 2001, and 63 million by 2007. Those are large numbers for software that required both people to be sitting at a computer, signed in, at the same moment.
+AIM peaked as a desktop product. MIT Technology Review put the high point at 36 million active users in 2001, and reported that by the summer of 2017 the service was down to roughly 500,000 unique visitors a month. The collapse took 16 years, and almost nobody watched it happen.
 
 The culture around it grew faster than the feature list. Screen names worked as pseudonyms years before real-name social networks arrived. Away messages were status updates before the phrase existed: song lyrics, inside jokes, a note that dinner was happening. The buddy icon was a profile picture. Sorting buddies into groups was the first social graph most American teenagers ever edited by hand.
 
-AIM also normalized the small signals that chat apps still use. Presence, typing indicators, one-to-one windows stacked across a desktop, file transfers between friends. MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html), Yahoo (https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html) Messenger and ICQ all competed hard for the same users, and none of them was close to a monopoly. In American schools through the early 2000s, though, the default question was which screen name you used.
+AIM also normalized the small signals that chat apps still use: presence, typing indicators, one-to-one windows stacked across a desktop, file transfers between friends. MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html), Yahoo (https://404memoryfound.com/posts/does-yahoo-messenger-still-exist.html) Messenger and ICQ competed hard for the same users, and none of them held a monopoly. In American schools through the early 2000s, though, the default question was which screen name you used.
 
 ## Is AIM still in business in 2026?
 
@@ -19471,7 +19471,9 @@ No. AOL Instant Messenger has not run since December 15, 2017. Oath, the Verizon
 
 "AIM tapped into new digital technologies and ignited a cultural shift, but the way in which we communicate with each other has profoundly changed," wrote Michael Albers, Oath's vice president of communications product, in the announcement Variety reported that week.
 
-The brand behind it kept moving. Verizon later sold the AOL and Yahoo businesses to Apollo Global Management, and AOL still exists (https://404memoryfound.com/posts/does-aol-still-exist-today.html) as a going concern. On January 2, 2026, the Italian software company Bending Spoons completed its purchase of AOL Holdco I LLC for about $1.45 billion, a transaction recorded in the Form F-1 registration statement it filed with the US Securities and Exchange Commission. That filing describes AOL as an email service, news portal and search engine with roughly 8 million daily and 30 million monthly active users. None of them is AIM. The trademark now sits inside a company that sells email subscriptions.
+The brand behind it kept moving. Verizon sold its AOL and Yahoo businesses to Apollo Global Management in 2021, and AOL still exists (https://404memoryfound.com/posts/does-aol-still-exist-today.html) as a going concern. The Italian software company Bending Spoons agreed to buy AOL Holdco I LLC on October 29, 2025, and "the acquisition was completed on January 2, 2026," according to the Form F-1 registration statement Bending Spoons filed with the US Securities and Exchange Commission. No purchase price was disclosed.
+
+That filing describes AOL as an email service, news portal and search engine with roughly 8 million daily and 30 million monthly active users, and it covers the share sale that turned Bending Spoons into a public company trading on the Nasdaq under the ticker BSP. Not one of those users is on AIM. The trademark now sits inside a company that sells email subscriptions.
 
 ## What actually killed AIM?
 
@@ -19479,15 +19481,15 @@ Three pressures arrived at once. The iPhone shipped in 2007, and the generation 
 
 Social networks then absorbed the function. Facebook and MySpace (https://404memoryfound.com/posts/is-myspace-still-around-today.html) put messaging inside the place people already spent their evenings, so a separate client and a separate screen name became an extra step rather than the point. AIM shipped mobile apps, but it was answering a question the market had already moved past.
 
-AOL's own attention was the third pressure. The company spent the 2000s inside the AOL and Time Warner merger (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html) and the long unwinding that followed, and its revenue came from dial-up subscriptions rather than from a free chat client whose biggest gains came from people who were not customers. AIM was strategically awkward at AOL for its entire life. The product with 63 million users in 2007 was not the product AOL was organized to defend.
+AOL's own attention was the third pressure. The company spent the 2000s inside the AOL and Time Warner merger and the long unwinding that followed, and its revenue came from dial-up subscriptions rather than from a free chat client whose biggest gains came from people who were not customers. AIM was strategically awkward at AOL for its entire life, and by the 2010s it had shed so much of its audience that there was little left to defend.
 
 ## Can you still log in to an AIM screen name today?
 
 Not the original one. AOL deleted the service and its account data in December 2017, so an old screen name and password open nothing. What exists instead are independent servers that speak OSCAR, the protocol the classic AIM clients used.
 
-AIM Phoenix, run by the hobbyist group Wildman Productions, operates a private network that period AIM clients can connect to once you register a fresh account. A developer publishing as mk6i has since released Open OSCAR Server, an MIT-licensed reimplementation written in Go that anyone can host and that decades-old Windows clients connect to without modification.
+The actively maintained one is Open OSCAR Server, an MIT-licensed reimplementation written in Go that began life as Retro AIM Server and that anyone can host. Decades-old Windows clients connect to it without modification, and it also answers the TOC protocols that third-party clients such as Gaim and early versions of Miranda used. Private hobby networks have run on the same protocol family for years.
 
-These are reconstructions, not a restoration. The project's own repository describes it as "Independently developed, not affiliated with or endorsed by AOL or Yahoo! Inc." and entirely non-commercial. Nobody's buddy list is waiting on these servers unless two people agree to install a 2002 client on purpose. What they preserve is the behavior: the sign-on sound, the window stack, the away message sitting there all afternoon. ICQ (https://404memoryfound.com/posts/what-happened-to-icq-instant-messenger.html) fans have the same option, because the same protocol family served both services.
+These are reconstructions, not a restoration. The project's own README states that it is "not affiliated with, endorsed by, or associated with AOL or Yahoo! Inc." Nobody's buddy list is waiting on these servers unless two people agree to install a 2002 client on purpose. What they preserve is the behavior: the sign-on sound, the window stack, the away message sitting there all afternoon. ICQ (https://404memoryfound.com/posts/what-happened-to-icq-instant-messenger.html) fans have the same option, because the same protocol family served both services.
 
 ## Frequently Asked Questions
 
@@ -19497,16 +19499,16 @@ AOL Instant Messenger shut down on December 15, 2017, after 20 years of service.
 
 ### Can you still use AIM in 2026?
 
-There is no official AOL Instant Messenger service in 2026 and there has not been one since December 2017. Enthusiast networks such as AIM Phoenix, and the open-source Open OSCAR Server that people host themselves, let classic AIM clients sign in again, but they need a new account and none of them is run by AOL.
+There is no official AOL Instant Messenger service in 2026 and there has not been one since December 2017. Open OSCAR Server, an MIT-licensed project that people host themselves, lets classic AIM clients sign in again with a freshly created account, but it is not run by AOL and nothing brings back a buddy list from 2005.
 
-### Why did AOL Instant Messenger fail?
+### Who owns AOL now?
 
-AOL Instant Messenger lost its users to phones and social networks. The iPhone arrived in 2007, texting and in-platform messaging took over the habit of signing on at a desktop, and AOL, whose money came from subscriptions, never turned its free chat client into a business before closing it in 2017.
+AOL has belonged to the Italian software company Bending Spoons since January 2, 2026, when it completed its purchase of AOL Holdco I LLC from the Apollo-backed Yahoo. AOL ran AOL Instant Messenger until December 15, 2017 and has offered no instant messenger since, so its new owner holds the AIM trademark and no AIM service.
 
 **Sources:**
 - Variety: RIP AIM: AOL Instant Messenger Is Shutting Down December 15 (2017): https://variety.com/2017/digital/news/rip-aim-1202582611/
 - Smithsonian Magazine: In the 25 Years Since Its Launch, AOL Instant Messenger Has Never Been 'Away': https://www.smithsonianmag.com/innovation/in-25-years-since-its-launch-aol-instant-messenger-has-never-been-away-180980086/
-- TechSpot: What Ever Happened to AIM?: https://www.techspot.com/article/2184-aim/
+- MIT Technology Review: AOL Instant Messenger Made Social Media What It Is Today (2017): https://medium.com/mit-technology-review/aol-instant-messenger-made-social-media-what-it-is-today-959ed17ab581
 - Bending Spoons S.p.A., Form F-1 registration statement (U.S. SEC): https://www.sec.gov/Archives/edgar/data/0002004711/000110465926071170/tm2613674-7_f1.htm
 - Open OSCAR Server: AIM and ICQ compatible server project (GitHub): https://github.com/mk6i/open-oscar-server
 
