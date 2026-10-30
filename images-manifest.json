@@ -429,6 +429,16 @@
   "thumb": "/img/thumb/atari-2600-wood-4sw-set-14f031.png",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/960px-N64-Console-Set.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:N64-Console-Set.png",
+  "ext": "png",
+  "file": "/img/n64-console-set-b55f8d.png",
+  "height": 689,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/n64-console-set-b55f8d.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg/960px-Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg",
   "ext": "jpg",
