@@ -4,6 +4,113 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Who Owns Travelocity Now? The Roaming Gnome in 2026
+
+URL: https://404memoryfound.com/posts/who-owns-travelocity-now.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-11-02
+Topics: Business Blunders, Internet Culture
+
+**Summary:** Expedia Group has owned Travelocity since January 23, 2015, when it bought the site from Sabre for $280 million in cash. Travelocity still takes bookings in 2026, but it runs on Expedia's platform and inventory rather than its own, and it sits among Expedia Group's secondary consumer brands. The Roaming Gnome, introduced in 2004, is still the face of the brand.
+
+**Key facts:**
+- Launched: March 12, 1996, by Sabre Interactive
+- Owner today: Expedia Group, since January 23, 2015
+- Sale price: $280 million in cash
+- Peak bookings: $2.5 billion in gross travel bookings in 2000
+- Status today: Live, running on Expedia's booking platform
+
+## Who built Travelocity, and when did it launch?
+
+Travelocity went live on March 12, 1996. It was not a startup in a garage. It was built by Sabre Interactive, the consumer arm of the Sabre reservation system that AMR Corporation, the parent of American Airlines, controlled at the time.
+
+The site launched as a joint venture between Sabre and Worldview Systems, a travel content publisher. Terry Jones, Sabre's chief information officer, ran the project and went on to lead the company.
+
+The pitch was blunt. Let travelers search the same airline inventory that travel agents had been querying on Sabre terminals for two decades, from a browser, for free.
+
+That was a strange thing to hand the public in 1996. Booking a flight still meant calling an agent or the airline and taking their word for the fare. Travelocity put the schedule, the price and the seat map on a web page, in the same stretch of years when people were still arguing about whether anything would really sell online (https://404memoryfound.com/posts/first-online-purchase-pizza.html).
+
+It worked quickly. By February 2000 Travelocity was the most visited travel site on the web, ahead of Microsoft's Expedia, and its gross travel bookings for 2000 came to $2.5 billion, more than double the 1999 figure.
+
+## What did the Preview Travel merger change?
+
+In 2000 Sabre merged its Travelocity division with Preview Travel, a publicly traded rival. The combined business took over Preview's Nasdaq listing, which made Travelocity a public company without an initial public offering of its own, with Sabre holding the controlling stake.
+
+On paper, that was the moment Travelocity arrived: the biggest travel site on the internet, with public stock to spend and a parent that owned the plumbing of the airline industry.
+
+Rich Barton, who founded Expedia, read it differently. He later pointed to the Preview Travel merger and to Travelocity's reliance on distribution deals with the big portals as the reasons it lost the lead, in comments to Skift in 2014.
+
+Travelocity paid to sit inside other people's front pages, including AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) and Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html), instead of building a destination people typed in by name. Those deals bought traffic and spent margin, and when the portals faded, the rented audience faded with them.
+
+Expedia, meanwhile, went after hotel rooms, where the markup lives, rather than airline tickets, where it does not.
+
+## Why did Travelocity bet $80 million on a garden gnome?
+
+In January 2004 Travelocity introduced the Roaming Gnome, a kidnapped lawn ornament who mailed back smug postcards from places the viewer was not. It ran as an $80 million multimedia campaign, the most expensive in the company's history at that point.
+
+The work came from McKinney and Silver, a Raleigh, North Carolina agency then operating as part of the Havas group, which had been hired in October 2003. A teaser spot ran during the Rose Bowl on January 1, 2004, before anyone knew whose gnome it was.
+
+The reasoning was straightforward. Flights are a commodity, the three big online agencies were selling the same seats at nearly the same prices, and the only thing left to compete on was whether anyone remembered your name.
+
+The gnome did that job better than the product behind him. He became the company mascot, outlasted two agency changes, and in 2026 he is still the face of Travelocity's advertising, which is why plenty of people searching for the company end up searching for him instead.
+
+## What went wrong after Sabre took the company back?
+
+In 2002 Sabre bought out Travelocity's public shareholders and folded the business back in as a wholly owned subsidiary. The independent run had lasted two years.
+
+Terry Jones, who founded the site, described both halves of that arrangement to Skift in 2014: "It was nice to be owned by Sabre and it was hell to be owned by Sabre." After the 2002 buy-in, he said, things "slowed way down".
+
+What slowed was the technology. Travelocity's competitors spent the next decade rebuilding their booking engines and their hotel supply, and Travelocity did not keep pace.
+
+By 2013 Sabre stopped trying. It handed the running of Travelocity's United States and Canadian sites to Expedia, which supplied the technology, the inventory and the customer service while Travelocity kept the brand and the marketing. Staff went with the work, and the company told the press it was becoming a marketing-led travel company.
+
+Jones called Sabre's retreat "sad" in the same 2014 interview, while allowing that the numbers made sense for a parent heading toward its own stock listing.
+
+## Is Travelocity still a real booking site in 2026?
+
+Yes, with a caveat. Travelocity still sells flights, hotels, rental cars and packages in 2026, and Expedia Group's annual report for 2025 lists it among the company's portfolio brands, alongside Orbitz, ebookers and Wotif, while the group concentrates its consumer marketing on Expedia, Hotels.com and Vrbo.
+
+The caveat is what sits behind the logo. Travelocity is a brand, not a company. There is no separate Travelocity headquarters, no separate contracts with hotels, no separate booking engine.
+
+The ownership chain is short. Sabre ran it from 1996 to 2015. Expedia Group announced on January 23, 2015 that it was buying Travelocity for $280 million in cash, ending the arrangement under which it had already been powering the sites.
+
+Tom Klein, then Sabre's chief executive, called the sale "a logical next step for us both" in the announcement. The same release described the deal as "a marriage of Travelocity's strong brand with our best-in-class booking platform, supply base, and customer service", which is a fair description of what a brand is worth once the technology behind it belongs to someone else.
+
+For scale, $280 million was roughly a tenth of the gross bookings Travelocity had been running through the site in a single year at the turn of the century.
+
+## Should you book on Travelocity or Expedia?
+
+Since both sites draw on the same Expedia Group supply, the answer is usually whichever one is showing the better total on the day, and the difference is rarely the base airfare.
+
+Where they do split is at the edges: package bundles, promotion codes, loyalty programs and the fees added at checkout can differ between the two brands even when the flight price matches exactly.
+
+So compare the final total, not the headline fare, and check the airline or hotel directly before booking either one. Changes and refunds are simpler to argue about with the company that actually holds the reservation.
+
+The habit the gnome sold in 2004, that one travel site is as good as another as long as you like the ads, turned out to be literally true twenty years later. The sites are the same site.
+
+## Frequently Asked Questions
+
+### Who owns Travelocity now?
+
+Expedia Group owns Travelocity. Expedia announced the purchase on January 23, 2015, paying Sabre $280 million in cash, and Travelocity has been an Expedia Group brand ever since. Sabre, which built the site in 1996, no longer has any stake in it.
+
+### Is Travelocity still around in 2026?
+
+Yes. Travelocity still sells flights, hotels, cars and vacation packages in 2026, and Expedia Group's annual report for 2025 lists Travelocity among its consumer travel brands. It operates on Expedia's booking platform and inventory rather than any technology of its own.
+
+### Is Travelocity the same as Expedia?
+
+Travelocity and Expedia are separate brands owned by the same company, Expedia Group, which has owned Travelocity since January 2015. Travelocity's United States site has run on Expedia's technology, supply and customer service since the two companies signed a marketing agreement in 2013, so the inventory is shared.
+
+**Sources:**
+- Travelocity.com, Inc. company history: https://www.fundinguniverse.com/company-histories/travelocity-com-inc-history/
+- Travelocity Launches Roaming Gnome Ad Campaign, Breaking Travel News, January 2004: https://www.breakingtravelnews.com/news/article/btn20040105125826271/
+- Post-Collapse, Travelocity's Founder Opens Up About What Might Have Been, Skift, March 2014: https://skift.com/2014/03/17/post-collapse-travelocitys-founder-opens-up-about-what-might-have-been
+- Sabre and Expedia Announce Expedia's Acquisition of Travelocity, January 23, 2015: https://investors.sabre.com/news-releases/news-release-details/sabre-and-expedia-announce-expedias-acquisition-travelocity
+- Expedia Group, Inc. Form 10-K for fiscal year 2025: https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm
+
+---
+
 # Nintendo 64 Value in 2026: What an N64 Is Worth
 
 URL: https://404memoryfound.com/posts/nintendo-64-value-used-prices.html

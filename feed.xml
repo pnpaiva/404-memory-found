@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Owns Travelocity Now? The Roaming Gnome in 2026</title>
+      <link>https://404memoryfound.com/posts/who-owns-travelocity-now.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/who-owns-travelocity-now.html</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Dana Reyes</dc:creator>
+      <description>Travelocity is owned by Expedia Group, which paid Sabre $280 million in cash in January 2015. The site still books trips, and the gnome still works.</description>
+      <enclosure url="https://404memoryfound.com/pins/who-owns-travelocity-now.jpg" length="200691" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/who-owns-travelocity-now.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Business Blunders</category>
+      <category>Internet Culture</category>
+    </item>
     <item>
       <title>Nintendo 64 Value in 2026: What an N64 Is Worth</title>
       <link>https://404memoryfound.com/posts/nintendo-64-value-used-prices.html</link>
@@ -236,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/floppy-disks-still-made-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Hardware</category>
       <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Is SkyMall Still Around in 2026? Yes, Online Only</title>
-      <link>https://404memoryfound.com/posts/skymall-still-around-who-owns-it.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/skymall-still-around-who-owns-it.html</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Dana Reyes</dc:creator>
-      <description>SkyMall is still around in 2026, but online only: C+A Global bought the bankrupt in-flight catalog for $1.9 million back in 2015.</description>
-      <enclosure url="https://404memoryfound.com/pins/skymall-still-around-who-owns-it.jpg" length="265472" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/skymall-still-around-who-owns-it.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Business Blunders</category>
-      <category>Internet Culture</category>
     </item>
   </channel>
 </rss>

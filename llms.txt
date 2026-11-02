@@ -10,6 +10,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [RSS feed](https://404memoryfound.com/feed.xml)
 
 ## Business Blunders
+- [Who Owns Travelocity Now? The Roaming Gnome in 2026](https://404memoryfound.com/posts/who-owns-travelocity-now.html): Travelocity is owned by Expedia Group, which paid Sabre $280 million in cash in January 2015. The site still books trips, and the gnome still works.
 - [Is Sun Microsystems Still Around? Oracle Owns It](https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html): Sun Microsystems is gone: Oracle paid $7.4 billion in 2010 and renamed it Oracle America. Java and Solaris survived, the SPARC line did not.
 - [Why Nortel Failed: The $4.5 Billion Patent Auction](https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html): Nortel failed as carrier spending collapsed and filed for bankruptcy on January 14, 2009. Its 6,000 patents later sold for $4.5 billion.
 - [Who Owns WorldCom Now? Verizon Kept the MCI Name](https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html): WorldCom is gone: it filed Chapter 11 in July 2002 with $103.9 billion in assets, and Verizon has owned the MCI name since January 6, 2006.
@@ -206,6 +207,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Was Apple Really 90 Days From Bankruptcy in 1997?](https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html): Apple lost $1.04 billion in fiscal 1997 and Steve Jobs called it 90 days from insolvent. Microsoft's $150 million check landed on August 6, 1997.
 
 ## Internet Culture
+- [Who Owns Travelocity Now? The Roaming Gnome in 2026](https://404memoryfound.com/posts/who-owns-travelocity-now.html): Travelocity is owned by Expedia Group, which paid Sabre $280 million in cash in January 2015. The site still books trips, and the gnome still works.
 - [Who Owns WorldCom Now? Verizon Kept the MCI Name](https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html): WorldCom is gone: it filed Chapter 11 in July 2002 with $103.9 billion in assets, and Verizon has owned the MCI name since January 6, 2006.
 - [Flooz.com Explained: The Dot-Com Cash That Vanished](https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html): Flooz.com is still defunct in 2026: the online gift currency suspended its site on August 8, 2001 and filed Chapter 7, with $35 million gone.
 - [Who Owns EarthLink Now? WaveDivision Capital Does](https://404memoryfound.com/posts/who-owns-earthlink-now.html): EarthLink is still in business in 2026, but Trive Capital no longer controls it: a WaveDivision Capital group closed the purchase on October 20, 2026.
