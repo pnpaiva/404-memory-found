@@ -479,6 +479,16 @@
   "thumb": "/img/thumb/netflix-envelope-2655128664-198b8c.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/PKZIP_floppy.jpg/960px-PKZIP_floppy.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:PKZIP_floppy.jpg",
+  "ext": "jpg",
+  "file": "/img/pkzip-floppy-ba774f.jpg",
+  "height": 1280,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/pkzip-floppy-ba774f.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Atari-Lynx-II-Handheld-Angled.jpg/960px-Atari-Lynx-II-Handheld-Angled.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Atari-Lynx-II-Handheld-Angled.jpg",
   "ext": "jpg",

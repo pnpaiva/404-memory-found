@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>WinZip Price in 2026: What the $29 Shareware Costs</title>
+      <link>https://404memoryfound.com/posts/winzip-price-shareware-cost.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/winzip-price-shareware-cost.html</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>WinZip price in 2026: about $35 a year for Standard, more than the $29 the whole program cost outright in 1991. Corel still sells it, Vector-backed.</description>
+      <enclosure url="https://404memoryfound.com/pins/winzip-price-shareware-cost.jpg" length="300699" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/winzip-price-shareware-cost.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Software &amp; Apps</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Who Owns Travelocity Now? The Roaming Gnome in 2026</title>
       <link>https://404memoryfound.com/posts/who-owns-travelocity-now.html</link>
@@ -235,18 +247,6 @@
       <enclosure url="https://404memoryfound.com/pins/windows-movie-maker-still-available.jpg" length="225403" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/windows-movie-maker-still-available.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Software &amp; Apps</category>
-      <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Do They Still Make Floppy Disks? No, Not Since 2011</title>
-      <link>https://404memoryfound.com/posts/floppy-disks-still-made-today.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/floppy-disks-still-made-today.html</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>No one has made floppy disks since Sony stopped by March 2011. Every disk sold in 2026 is older stock at about $1, and Muni still boots from them.</description>
-      <enclosure url="https://404memoryfound.com/pins/floppy-disks-still-made-today.jpg" length="225012" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/floppy-disks-still-made-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
       <category>Then vs Now</category>
     </item>
   </channel>

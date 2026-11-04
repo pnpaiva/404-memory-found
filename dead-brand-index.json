@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 207,
+ "count": 208,
  "brands": [
   {
    "name": "3dfx",
@@ -1397,6 +1397,13 @@
    "status2026": "Operating; privately held, San Francisco",
    "owner2026": "The private company founded as eVineyard, buyer of the brand in April 2001",
    "source": "https://404memoryfound.com/posts/what-happened-to-wine-com-internet-wine-wars.html"
+  },
+  {
+   "name": "WinZip Price",
+   "started": "April 1991, Nico Mak Computing (WinZip 1.0 for Windows)",
+   "status2026": "Still sold and updated, but Windows 11 and 7-Zip unzip files for free",
+   "owner2026": "Corel Corporation, independent and backed by Vector Capital since May 5, 2026",
+   "source": "https://404memoryfound.com/posts/winzip-price-shareware-cost.html"
   },
   {
    "name": "Woolworth",
