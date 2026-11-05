@@ -19166,88 +19166,88 @@ No. Sega has published only for other companies' platforms since it left hardwar
 
 ---
 
-# Palm Pilot Explained: The PDA That Phones Replaced
+# Is the Palm Pilot Still Made? What It Costs in 2026
 
 URL: https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-23  Updated: 2026-09-12
+Published: 2026-03-23  Updated: 2026-11-05
 Topics: Hardware, Business Blunders
 
-**Summary:** The Palm Pilot was a pocket organizer that Palm Computing launched in March 1996 for $299, and about a million sold in the first 18 months. It is finished as a product: Palm released its last two handhelds, the Palm TX and the $99 Palm Z22, in October 2005, and smartphones took over everything a PDA did. The Palm name survives as a dormant trademark owned by TCL since 2014.
+**Summary:** The Palm Pilot is not made any more. Palm Computing launched the first one, the Pilot 1000, in March 1996 at $299, sold about a million units in 18 months, and released its last new handhelds, the Palm TX and the $99 Palm Z22, in October 2005. The Palm name has belonged to the Chinese manufacturer TCL since 2014 and sits unused, while the company's software side survives as webOS inside LG television sets.
 
 **Key facts:**
 - Launched: March 1996, Pilot 1000, $299, Palm Computing under U.S. Robotics
 - Units sold: About 1 million in the first 18 months
-- Last handhelds: Palm TX and the $99 Palm Z22, October 2005
-- Status today: Discontinued. Trademark owned by TCL, webOS owned by LG
-- Price today: About $15 to $25 for a working used unit on Etsy
+- Last new handhelds: Palm TX and the $99 Palm Z22, October 12, 2005
+- Status today: Discontinued. The Palm trademark is owned by TCL and unused
+- Price today: About $13 to $15 untested, around $40 working, on Etsy
 
 ## How did a block of wood become the Palm Pilot?
 
-Jeff Hawkins founded Palm Computing in 1992 and built the product backwards, starting with the shape. He cut a piece of scrap lumber to shirt-pocket size in his garage, glued a paper face on it showing where a screen and buttons would go, carried a chopstick for a stylus, and used the thing in meetings for months.
+Jeff Hawkins founded Palm Computing in 1992 and built the product backwards, starting with the shape. He cut a piece of scrap lumber to shirt-pocket size, glued a paper face on it showing where a screen and buttons would go, carried a chopstick for a stylus, and used the thing in meetings for months. The Computer History Museum holds that wooden model in its collection.
 
-"I walked around answering phone calls with this block of wood, and of course it didn't do anything," Hawkins said of the exercise, in an account kept by the Computer History Museum, which now holds the wooden prototype in its collection.
+"I walked around answering phone calls with this block of wood, and of course it didn't do anything," Hawkins told the PalmSource conference in 1999, in remarks reported by Wired News. He added: "I did it to see if it worked. I decided it worked pretty well."
 
-The block produced one rule: do four things well instead of everything badly. Calendar, address book, to-do list, memo pad. The Pilot 1000 shipped in March 1996 with 128 KB of memory, a monochrome touchscreen and a cradle that synced to a PC, at $299. Palm Computing was a division of U.S. Robotics by then, and about a million units sold in the first 18 months. The PalmPilot Professional followed in March 1997 at $399 with 1 MB of memory. Where the Apple Newton (https://404memoryfound.com/posts/what-happened-to-apple-newton.html) had promised a computer in your pocket and failed at it, Palm promised a better pocket notebook, and that was the version people bought.
+The block produced one rule: do four things well instead of everything badly. Calendar, address book, to-do list, memo pad. The Pilot 1000 shipped in March 1996 with 128 KB of memory, a monochrome touchscreen and a cradle that synced to a PC, at $299. Palm Computing was a division of U.S. Robotics by then, and the Computer History Museum puts sales at about a million units in the product's first 18 months. Where the Apple Newton (https://404memoryfound.com/posts/what-happened-to-apple-newton.html) promised a computer in your pocket and failed at it, Palm promised a better pocket notebook, and that was the version people bought.
 
 ## Why was Palm worth $53 billion for a single day?
 
 The ownership moved faster than the products did. U.S. Robotics bought Palm Computing in 1995. 3Com bought U.S. Robotics in 1997. Hawkins and Donna Dubinsky left in 1998 to found Handspring, which built Palm OS machines called the Visor and competed with the company they had started.
 
-3Com said in September 1999 that it would spin the handheld business out as Palm, Inc. Roughly 23 million shares, about 5 percent of the company, went public on March 2, 2000. The stock closed near $95, and The Washington Post reported the result the next morning as a "$53 Billion Welcome." 3Com kept about 94 percent of the shares.
+3Com said in September 1999 that it would spin the handheld business out as Palm, Inc. The shares were priced at $38 on March 1, 2000, and started trading the next day. They touched $165 before closing at $95.06, which valued Palm at about $53.4 billion on paper. 3Com, which still held roughly 94 percent of Palm, finished that day worth closer to $28 billion.
 
-Finance professors still teach that day, because 3Com's own share price implied that the Palm stake it retained was worth more than all of 3Com put together. Palm never grew into the number. Within two years it had split itself into a hardware company and a software company, then absorbed Handspring in 2003 and renamed the hardware half palmOne.
+Finance professors still teach the arithmetic, because 3Com's own share price implied that the Palm stake it retained was worth more than all of 3Com put together. Palm never grew into the number. Within two years it had split itself into a hardware company and a software company, then absorbed Handspring in 2003 and renamed the hardware half palmOne.
 
 ## What did the Xerox lawsuit do to Graffiti?
 
-Palm's text entry system, Graffiti, asked users to learn a simplified alphabet of one stroke per letter. Xerox said it owned the idea. Its patent, U.S. 5,596,656, covered a method called Unistrokes developed at its research labs.
+Palm's text entry system, Graffiti, asked users to learn a simplified alphabet of one stroke per letter. Xerox said it owned the idea. Its patent, U.S. 5,596,656, covered a method called Unistrokes developed at its research labs, and Xerox sued 3Com, U.S. Robotics and Palm Computing over it in 1997.
 
-Xerox sued 3Com, U.S. Robotics and Palm Computing. A district court granted summary judgment of non-infringement in June 2000, holding that Graffiti's symbols were not "graphically separated" enough to qualify as unistroke symbols. A federal appeals court sent that ruling back in 2001, and Graffiti was found to infringe.
+A district court first granted summary judgment of non-infringement in 2000, a federal appeals court sent that ruling back, and Graffiti was found to infringe in 2001. The case turned again in May 2004, when Judge Michael Telesca of the Western District of New York threw the patent out. The Register reported that he found it "anticipated and rendered obvious by two pieces of 'prior art'", a 1983 paper by D. J. Burr and a 1984 Japanese patent filed by Tadahiro Nagayama.
 
-The case turned again in May 2004, when Judge Michael A. Telesca ruled the Xerox patent invalid because "prior art references anticipate and render obvious the claim," citing a 1983 Bell Labs paper by D. J. Burr and a 1984 Japanese patent as prior art. Palm won, seven years after the first filing. By then the fight was over a way of entering text that on-screen keyboards had already made beside the point.
+Palm won, seven years after the first filing. By then the fight was over a way of entering text that on-screen keyboards had already made beside the point, on devices that were themselves being replaced.
 
 ## What actually killed the PDA?
 
-Arithmetic, mostly. Gartner counted a peak of 13.1 million handhelds shipped worldwide in 2001, then 12.1 million in 2002, 11.5 million in 2003, 9.2 million in 2004 and 7.5 million in 2005. Palm took about 33.8 percent of that market in the third quarter of 2002, up from 29.1 percent a year earlier, which meant a bigger slice of a shrinking pie.
+Arithmetic, mostly. Gartner counted about 13 million handhelds shipped worldwide in 2001, then 11.5 million in 2003, a 5.3 percent fall on the year, and by late 2003 its analysts were recording the eighth quarterly decline in a row. Gartner blamed smartphones for squeezing the cheap end of the market.
 
 Buyers had not stopped wanting a pocket computer. They had started buying phones that did the same work and rang. Handspring's Treo 600 reached carriers in late 2003, after Handspring had merged into Palm, and it put the calendar, the contacts and the email behind a phone number. BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) had already done that for corporate email and had the mail servers to back it up.
 
-Palm read the room and left the room. The Palm TX and the $99 Palm Z22 arrived in October 2005 and were the last handhelds the company released. Everything Palm shipped after that was a phone.
+Palm read the room and left the room. The Palm Z22 arrived on October 12, 2005 at $99, with a color screen and about three ounces of weight, alongside the $299 Palm TX. They were the last new handheld organizers Palm designed. Chief executive Ed Colligan later confirmed the company was done with traditional handhelds, and everything Palm launched afterward was a phone.
 
 ## Did Palm see the iPhone coming?
 
-Not clearly. Ed Colligan, one of the three people who built the first Pilot and by then Palm's chief executive, was asked at a Churchill Club breakfast in November 2006 whether Apple could walk into the phone business. He was widely reported as answering: "PC guys are not going to just figure this out. They're not going to just walk in." Audio released years later has him phrasing it less flatly, and he was talking about the whole PC industry rather than Apple alone, but the reading stuck. Apple announced the iPhone about two months afterward.
+Not clearly. Colligan, one of the three people behind the first Pilot, was asked at a Churchill Club breakfast in November 2006 whether Apple could walk into the phone business. Macworld and other outlets reported his answer that month as "PC guys are not going to just figure this out. They're not going to just walk in." Daring Fireball published a closer transcription in 2022 showing he phrased it less flatly and was talking about the PC industry as a whole, but the reading stuck. Apple announced the iPhone about two months afterward.
 
-Palm's real answer came two and a half years late. The Palm Pre launched on Sprint in June 2009 with webOS, a new operating system whose card-based multitasking and merged notifications were better than what shipped on phones at the time and were later copied widely. The problem was everything around it: one carrier, a small app catalogue, and a company with no money left to advertise against Apple and Google.
+Palm's real answer came two and a half years late. The Palm Pre launched on Sprint in June 2009 with webOS, a new operating system whose card-based multitasking and merged notifications were better than what shipped on phones at the time and were copied widely afterward. The problem was everything around it: one carrier, a small app catalog, and a company with no money left to advertise against Apple and Google.
 
 ## Who owns the Palm Pilot name in 2026?
 
-TCL, and it is not using it. Hewlett-Packard bought Palm in 2010, stopped webOS hardware in 2011, sold the webOS software to LG Electronics in 2013, and sold the Palm trademark in 2014 to a holding company tied to the Chinese manufacturer TCL. TCL put out one product under the name, a 3.3 inch Android companion phone in 2018, and nothing since. Our separate piece on whether Palm is still a company (https://404memoryfound.com/posts/is-palm-still-a-company.html) traces the paperwork in detail.
+TCL, and it is not using it. Hewlett-Packard bought Palm for $1.2 billion in 2010, stopped webOS hardware in 2011, sold the webOS software to LG Electronics in February 2013, and sold the Palm trademark in October 2014 to a holding company tied to the Chinese manufacturer TCL. A licensee, Palm Ventures Group, put out a small Android companion phone under the name in 2018 and a set of earbuds in 2021. BGR reported in 2026 that the brand remains dormant and still sits with TCL. Our separate piece on whether Palm is still a company (https://404memoryfound.com/posts/is-palm-still-a-company.html) traces the paperwork in detail.
 
-Hawkins did not follow the brand. He co-founded Numenta in 2005 to work on brain theory and machine intelligence, and that is still what he does. The most active piece of Palm in 2026 is webOS, running on LG television sets in millions of living rooms, where nobody thinks of it as Palm at all.
+The software outlived the hardware by a wide margin. LG put webOS into television sets from 2014 and its 2026 sets run a version called webOS 26, which means the operating system Palm built for a failed phone now runs in living rooms where nobody connects it to Palm at all. Hawkins left the brand behind entirely and went into brain science at Numenta, the company he co-founded after Palm.
 
-Where to find one today: working Palm III, Palm V and Palm m105 units turn up steadily on Etsy (https://www.etsy.com/search?q=vintage+palm+pilot+pda), commonly listed between about $15 and $25 with a stylus and a dock. Check two things before buying. The rechargeable models often have a dead internal battery, and the cradle and stylus are easy to lose and awkward to replace.
+Where to find one today: working Palm III, Palm V and Palm VIIx units turn up steadily on Etsy (https://www.etsy.com/market/palm_pilot). Untested units with no charger list from about $13 to $15, tested working ones with a stylus commonly ask around $40, and boxed or sealed examples run from $65 upward. Check two things before buying. The rechargeable models often have a dead internal battery, and the cradle and stylus are easy to lose and awkward to replace.
 
 ## Frequently Asked Questions
 
 ### When did the Palm Pilot stop being made?
 
-Palm released its last two handheld organizers, the Palm TX and the $99 Palm Z22, in October 2005, and every device it launched after that was a phone. Production of the remaining Palm handheld models wound down over the following years, so a Palm Pilot bought new after 2005 was old stock rather than a current product.
+Palm released its last new handheld organizers, the $299 Palm TX and the $99 Palm Z22, on October 12, 2005, and every device it launched after that was a phone. The Palm TX stayed on sale until about 2009, so a Palm Pilot bought new after 2005 was old stock rather than a current product.
 
 ### How much did a Palm Pilot cost when it came out?
 
-The Pilot 1000 launched in March 1996 at $299 with 128 KB of memory, and the PalmPilot Professional followed in March 1997 at $399 with 1 MB. Those were 1996 and 1997 prices for a device that held a calendar, a contact list, a to-do list and notes, and nothing else.
+The Pilot 1000 launched in March 1996 at $299 with 128 KB of memory, from Palm Computing, then a division of U.S. Robotics. That was a 1996 price for a device that held a calendar, a contact list, a to-do list and notes, and nothing else.
 
 ### Why did PDAs disappear?
 
-PDAs disappeared because phones absorbed them. Gartner counted 13.1 million handhelds shipped in 2001 and 7.5 million in 2005, a fall that tracks the arrival of devices such as the Treo 600 in 2003 and the BlackBerry line, which carried a calendar and contacts inside something users already had to carry. After the iPhone arrived in 2007, a separate organizer had no job left to do.
+PDAs disappeared because phones absorbed them. Gartner counted about 13 million handhelds shipped in 2001 and 11.5 million in 2003, and blamed smartphones such as the Treo 600, which arrived in late 2003, and the BlackBerry line for taking the low end. After the iPhone arrived in 2007, a separate pocket organizer had no job left to do.
 
 **Sources:**
-- Computer History Museum: The PalmPilot (CHM Revolution): https://www.computerhistory.org/revolution/mobile-computing/18/321
+- Computer History Museum: The PalmPilot (CHM Revolution): https://www.computerhistory.org/revolution/story/321
 - Computerworld: A brief history of Palm: https://www.computerworld.com/article/1522788/a-brief-history-of-palm.html
-- The Washington Post: 3Com's Palm IPO Gets A $53 Billion Welcome (March 3, 2000): https://www.washingtonpost.com/archive/business/2000/03/03/3coms-palm-ipo-gets-a-53-billion-welcome/24f152cb-3b74-425f-aca4-91e543f122fc/
+- CNN Money: Palm's IPO debut (March 2, 2000): https://money.cnn.com/2000/03/02/technology/palm/
 - The Register: PalmOne overturns Xerox Graffiti patent (May 24, 2004): https://www.theregister.com/2004/05/24/palm_vs_xerox/
-- The Register: Handheld sales fall in 2005 (Gartner figures): https://www.theregister.com/2006/02/03/handheld_sales_fall_in_2005/
+- BGR: Tech brands you might not realize are owned by TCL (2026): https://www.bgr.com/2226201/tech-brands-owned-by-tcl/
 
 ---
 
