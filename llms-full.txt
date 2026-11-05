@@ -693,100 +693,96 @@ Nortel Networks sold equipment to telephone and internet carriers, so when carri
 
 ---
 
-# Who Owns WorldCom Now? Verizon Kept the MCI Name
+# Who Owns WorldCom Now? Verizon and MCI in 2026
 
 URL: https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-10-16
+Published: 2026-10-16  Updated: 2026-11-05
 Topics: Business Blunders, Internet Culture
 
-**Summary:** WorldCom no longer exists. The company behind an $11 billion accounting fraud filed for Chapter 11 on July 21, 2002 with $103.9 billion in assets, then reorganized under the MCI name. Verizon Communications closed its purchase of MCI on January 6, 2006, and in 2026 MCI survives as a Verizon subsidiary that shows up on regulatory filings rather than phone bills.
+**Summary:** WorldCom no longer exists as a company. It filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets after an accounting fraud the courts put at $11 billion, then reorganized under the MCI name. Verizon Communications closed its purchase of MCI on January 6, 2006, and in 2026 MCI Communications Services still files with regulators as a Verizon Business entity rather than selling anything to consumers.
 
 **Key facts:**
-- Deal that built it: $37 billion purchase of MCI, announced November 1997 at $51 a share
-- Fraud size: $11 billion in overstated results
+- Fraud size: $11 billion in overstated results, starting with the $3.8 billion of line costs admitted on June 25, 2002
 - Bankruptcy: Chapter 11 on July 21, 2002, with $103.9 billion in assets
-- Owner today: Verizon Communications, which closed the MCI merger on January 6, 2006
-- Status today: WorldCom gone; MCI still a wholly owned Verizon subsidiary in 2026
+- Owner today: Verizon Communications, which closed the MCI merger on January 6, 2006 for about $8.5 billion
+- Status today: WorldCom gone; MCI Communications Services still files as a Verizon Business entity in 2026
+- What replaced it: Verizon Business, the unit Verizon built around the former MCI operations
 
-## How a long-distance reseller came to own MCI
+## What was the WorldCom accounting fraud?
 
-WorldCom started as a reseller. It bought wholesale long-distance capacity, sold calls cheaper than the former Bell companies, and spent the 1990s using its own rising stock to buy competitors.
+WorldCom sold long distance. It bought wholesale network capacity from other carriers, resold calls below the prices of the former Bell companies, and spent the 1990s buying rivals, including MCI Communications, with its own rising stock. The deals of those years are mostly remembered now for their size, which is also the fate of AOL Time Warner (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html).
 
-The purchase that changed its scale was MCI Communications, the carrier that had spent two decades fighting AT&T's long-distance monopoly in court and in Congress. WorldCom agreed to buy it in a $37 billion deal announced in November 1997, valuing MCI at $51 a share, according to CNN/Money's report at the time.
+The payments to those other carriers were where the fraud sat. "Line costs are what WorldCom pays other companies for using their communications networks," the Congressional Research Service wrote in its 2002 report on the scandal, and they were an operating expense that hit earnings every quarter.
 
-The combined company was expected to book roughly $30 billion in revenue in 1998. That put WorldCom among the largest long-distance carriers in the United States and gave it a national fiber network it had not built.
+The finance department moved large amounts of them onto the balance sheet as capital spending instead, the treatment a company uses when it buys a building. On June 25, 2002 WorldCom admitted it had classified over $3.8 billion in line-cost payments as capital expenditures. Booked that way, the Congressional Research Service noted, the expense could be pushed into the future, "perhaps for 10 years or even longer."
 
-The logic was simple and, for a while, real. Every network WorldCom bought removed a bill it had been paying another carrier, and investors rewarded each deal with a higher share price that paid for the next one.
-
-The machine only ran while the stock held up. When long-distance prices kept falling and the fiber built for the internet boom turned into overcapacity after 2000, WorldCom had no cheap stock left to spend and a cost base it could not cut fast enough. The deals of those years are mostly remembered now for their size, which is also the fate of AOL Time Warner (https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html).
-
-## What the $11 billion in bad accounting actually was
-
-The fraud was not exotic. WorldCom owed other carriers continuing payments for network capacity it had committed to lease, a recurring operating cost the company tracked internally as line costs.
-
-Rather than charge those payments against earnings in the quarter they came due, the finance department moved large amounts of them onto the balance sheet as capital spending, the treatment a company uses when it buys a building. Capital spending is written off slowly over years, so shifting an expense there lifts the current quarter's profit without changing a single customer invoice or a single dollar of cash coming in.
-
-WorldCom's own internal audit team, not the outside firm that signed off on the accounts, pulled the thread in 2002. Once the entries were laid out in order, the company had to tell the market that profits it had already reported did not exist.
-
-The figure the courts worked from was $11 billion of overstated results, the number the Las Vegas Sun used in its 2005 report on the sentencing. No product had failed and no customer had left. The revenue was real and the profit was manufactured, which is why the collapse surprised people who had read the filings.
+WorldCom's own internal auditor, Cynthia Cooper, pulled the thread in 2002, not the outside firm that signed off on the accounts. The revenue was real and the profit was manufactured, and by the time the courts were finished the overstatement stood at $11 billion.
 
 ## How big was the Chapter 11 filing in July 2002?
 
-WorldCom filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets, the figures BankruptcyData compiled for CNBC's ranking of the largest bankruptcies in US history.
+WorldCom filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets, the figure BankruptcyData compiled for CNBC's ranking of the largest bankruptcies in United States history.
 
-Bankruptcy league tables measure what a company says it owns rather than what it owes, which is why that number dwarfs the accounting hole that caused the filing. On the asset measure, WorldCom sat at the top of the US list until the failures of 2008.
+Bankruptcy league tables measure what a company says it owns rather than what it owes, which is why that number dwarfs the accounting hole that caused the filing. On the asset measure, WorldCom sat at the top of the American list until the failures of 2008.
 
 Chapter 11 is a reorganization, not a shutdown, and almost nothing visible changed for customers. The fiber kept carrying traffic, the switches kept routing calls, and employees kept showing up while lawyers converted debt into equity.
 
-What did change was the name. The company came out of court under the MCI name rather than WorldCom's, because the brand attached to the fraud was worth less than nothing in a market where every enterprise customer had to explain its vendor choice to a board.
+Shareholders got nothing like their money back. Creditors are paid first in a reorganization, and the common stock that millions of retirement accounts held through the 1990s was wiped out.
 
-Shareholders got nothing like their money back. In a Chapter 11 reorganization the creditors are paid first in securities and cash, and the common stock that millions of retirement accounts held through the 1990s was wiped out.
+What did change was the name. The company came out of court under the MCI name rather than WorldCom's, because the brand attached to the fraud was worth less than nothing to the enterprise customers who had to defend their vendor choice to a board.
 
-## Why Bernard Ebbers got a 25-year sentence
+## Why did Bernard Ebbers get 25 years?
 
 Bernard Ebbers, the chief executive who assembled WorldCom out of acquisitions, was convicted in March 2005 of conspiracy, securities fraud and filing false reports with regulators.
 
-Judge Barbara Jones of the US District Court in Manhattan sentenced him on July 13, 2005. Ebbers was 63, and reporters in the room treated the term as a life sentence rather than a number of years.
+Judge Barbara Jones of the United States District Court in Manhattan sentenced him on July 13, 2005. Ebbers was 63, and reporters in the room treated the term as a life sentence rather than a number of years.
 
-Prosecutors had asked for far more. Jones said her reading of the federal sentencing guidelines pointed to a range from 30 years to life, then concluded that "30 years would be excessive" and settled on 25 years, as the Las Vegas Sun reported in 2005.
+Prosecutors had asked for more. Jones said her reading of the federal sentencing guidelines pointed to a range from 30 years to life, then concluded that "30 years would be excessive" and settled on 25, as the Las Vegas Sun reported in 2005.
 
 The defense had argued his health and his record of charitable giving in Mississippi. The judge weighed both and cut the term below the guideline range without accepting that either excused the fraud.
 
 His testimony had been the gamble of the trial. Ebbers told the jury he had left the numbers to his finance chief and did not understand accounting, a defense the jury rejected in a case where the finance chief had already pleaded guilty and testified for the government.
 
-## Where the MCI name still shows up in 2026
+## How did Verizon end up owning the MCI name?
 
-Verizon Communications bought MCI and closed the merger on January 6, 2006, and the same day launched a unit called Verizon Business built around the former MCI operations serving companies and government agencies.
+Verizon Communications bought the reorganized company. Verizon and MCI closed their merger on January 6, 2006, a transaction Verizon valued at about $8.5 billion in the 2005 annual report it filed with the Securities and Exchange Commission.
 
-The brand left advertising fast. The legal entity did not. MCI stayed inside Verizon as a subsidiary, and in 2026 the name turns up on state and federal telecom paperwork rather than on anybody's phone bill.
+Verizon did not keep MCI as a consumer brand. It put the former MCI operations serving companies and government agencies into a new unit called Verizon Business, and sold everything else under the Verizon name.
 
-Verizon said so plainly in the 2020s. In a February 2024 filing with the Idaho Public Utilities Commission, the company wrote that standalone residential and small business long distance "will not be discontinued at this time", and that "MCI will continue to exist as a wholly owned subsidiary of Verizon Communications Inc."
+That left MCI where corporate names usually end up after a merger: on the filings the operating entities still have to make with regulators, rather than on anything a customer buys.
 
-The local phone side did end. The same filings set the discontinuation of residential and small business local phone service provided by Verizon's MCImetro subsidiary for on or after December 31, 2023, and told the remaining customers to choose another provider.
+So the ownership answer has two parts in 2026. WorldCom has not been the name of an operating company since the Chapter 11 reorganization, and MCI belongs to Verizon, which has run the business as Verizon Business since January 2006.
 
-So the answer in 2026 is split. WorldCom is gone as a company and as a brand, MCI survives as a Verizon subsidiary aimed at business and government buyers, and the most likely place a consumer meets either name is a regulatory docket. CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) ended up in the same condition, and anyone who remembers Nextel (https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html) knows the order these things go in: the network outlives the advertising, and the paperwork outlives both.
+## Where does the MCI name still show up in 2026?
+
+In regulatory dockets. On June 23, 2026 the Florida Public Service Commission logged document 03694-2026, a filing from MCI Communications Services LLC, doing business as Verizon Business Services.
+
+It is an application under Section 214 of the Communications Act and Section 63.71 of the Federal Communications Commission's rules for permission to stop selling four legacy business services: ISDN Primary Rate Interface, Full T1, Digital PBX Trunks and Virtual Foreign Exchange. The area covered runs across the contiguous 48 states and the District of Columbia.
+
+Those are the products that tied an office phone system to the network before voice moved to IP. Twenty years after the merger, the MCI entity is still filing paperwork, and what it is filing is the retirement of the circuit-switched catalog it was built on.
+
+What a consumer will not find is an MCI bill. The name survives as a filer, not as a product. CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) ended up in the same condition, a name that outlived its own service, and anyone who followed Nextel (https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html) knows the order these things go in: the advertising stops first, the network goes next, and the filings outlast both.
 
 ## Frequently Asked Questions
 
 ### What happened to WorldCom?
 
-WorldCom collapsed in 2002 after an $11 billion accounting fraud and filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets. It reorganized under the MCI name instead of its own, and Verizon Communications closed its purchase of MCI on January 6, 2006. The WorldCom name has not belonged to an operating company since.
+WorldCom collapsed in 2002 after an accounting fraud the courts put at $11 billion, and it filed for Chapter 11 protection on July 21, 2002 with $103.9 billion in assets. It reorganized under the MCI name instead of its own, and Verizon Communications closed its purchase of MCI on January 6, 2006. No operating company has carried the WorldCom name since.
 
 ### Who owns MCI now?
 
-Verizon Communications owns MCI. Verizon closed the merger on January 6, 2006 and folded the former MCI business into a unit called Verizon Business. In a February 2024 filing with the Idaho Public Utilities Commission, Verizon stated that MCI would continue to exist as a wholly owned subsidiary of Verizon Communications Inc.
+Verizon Communications owns MCI, and has since the two companies closed their merger on January 6, 2006, a deal Verizon valued at about $8.5 billion. Verizon folded the former MCI business into a unit called Verizon Business. In a filing the Florida Public Service Commission logged on June 23, 2026, the entity still appears as MCI Communications Services LLC, doing business as Verizon Business Services.
 
 ### How much was the WorldCom fraud worth?
 
-The WorldCom fraud came to $11 billion in overstated results, the figure the courts used. Chief executive Bernard Ebbers was convicted in March 2005 and sentenced on July 13, 2005 to 25 years in prison by Judge Barbara Jones in Manhattan, who said a longer term of 30 years would have been excessive.
+The WorldCom fraud reached $11 billion in overstated results. It began with the company's admission on June 25, 2002 that it had booked over $3.8 billion of line costs as capital spending, and it ended with chief executive Bernard Ebbers sentenced to 25 years in prison on July 13, 2005 by Judge Barbara Jones in Manhattan.
 
 **Sources:**
-- CNN/Money: WorldCom wins MCI (November 10, 1997): https://money.cnn.com/1997/11/10/deals/worldcomwins/
+- Congressional Research Service: WorldCom, The Accounting Scandal (RS21253, August 29, 2002): https://www.everycrsreport.com/reports/RS21253.html
 - CNBC: Largest US bankruptcies, from BankruptcyData: https://www.cnbc.com/2009/11/02/Biggest-Chapter-11-Cases.html
 - Las Vegas Sun: Ebbers sentenced to 25 years in WorldCom fraud case (July 13, 2005): https://m.lasvegassun.com/news/2005/jul/13/ebbers-sentenced-to-25-years-in-worldcom-fraud-cas/
-- Verizon news archive: Verizon and MCI close merger (January 6, 2006): https://www.verizon.com/about/node/866823
-- Idaho Public Utilities Commission: Verizon/MCI service filing addendum (February 2024): https://puc.idaho.gov/Fileroom/PublicFiles/TELE/MCM/MCMT2301/CaseFiles/20240206Addendum%20to%20Filing.pdf
+- Verizon Communications 2005 annual report excerpt filed with the SEC (MCI merger closed January 6, 2006): https://www.sec.gov/Archives/edgar/data/732712/000119312506053710/dex13.htm
+- Florida Public Service Commission document 03694-2026: MCI Communications Services discontinuance application (filed June 23, 2026): https://www.psc.state.fl.us/library/filings/2026/03694-2026/03694-2026.pdf
 
 ---
 
