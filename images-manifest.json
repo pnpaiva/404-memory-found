@@ -1655,6 +1655,16 @@
   "thumb": "/img/thumb/chuck-e-cheese-animatronic-laguna-hills-ca-b81b8a.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tiger-Game-Com-FL.jpg/960px-Tiger-Game-Com-FL.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Tiger-Game-Com-FL.jpg",
+  "ext": "jpg",
+  "file": "/img/tiger-game-com-fl-e5b4f6.jpg",
+  "height": 969,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/tiger-game-com-fl-e5b4f6.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Garmin_eTrex_30.JPG/960px-Garmin_eTrex_30.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Garmin_eTrex_30.JPG",
   "ext": "jpg",

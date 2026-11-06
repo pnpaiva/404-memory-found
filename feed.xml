@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Are Tiger Electronics Handhelds Worth Anything Now?</title>
+      <link>https://404memoryfound.com/posts/tiger-electronics-handhelds-value.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/tiger-electronics-handhelds-value.html</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>Tiger Electronics handhelds are cheap loose and costly sealed: working copies run $20 to $30 in 2026, a sealed Pokemon Pokedex $350 to $600.</description>
+      <enclosure url="https://404memoryfound.com/pins/tiger-electronics-handhelds-value.jpg" length="204838" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/tiger-electronics-handhelds-value.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Hardware</category>
+    </item>
     <item>
       <title>WinZip Price in 2026: What the $29 Shareware Costs</title>
       <link>https://404memoryfound.com/posts/winzip-price-shareware-cost.html</link>
@@ -236,18 +248,6 @@
       <media:content url="https://404memoryfound.com/pins/sega-nomad-handheld-genesis.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Gaming</category>
       <category>Hardware</category>
-    </item>
-    <item>
-      <title>Is Windows Movie Maker Still Available in 2026?</title>
-      <link>https://404memoryfound.com/posts/windows-movie-maker-still-available.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/windows-movie-maker-still-available.html</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Windows Movie Maker is gone: Microsoft pulled the download on January 10, 2017. Clipchamp replaced it, and a fake version once charged $29.95.</description>
-      <enclosure url="https://404memoryfound.com/pins/windows-movie-maker-still-available.jpg" length="225403" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/windows-movie-maker-still-available.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Software &amp; Apps</category>
-      <category>Then vs Now</category>
     </item>
   </channel>
 </rss>
