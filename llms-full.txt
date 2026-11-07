@@ -11869,90 +11869,84 @@ Tumblr's adult content ban took effect on December 17, 2018, while the site was 
 
 ---
 
-# Are Arcades Still Around in 2026? The Real Count
+# Are Arcades Still Around in 2026? 7,100 Are Left
 
 URL: https://404memoryfound.com/posts/what-happened-to-arcades-golden-age-gaming.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-13  Updated: 2026-09-23
+Published: 2026-04-13  Updated: 2026-11-07
 Topics: Gaming, Then vs Now
 
-**Summary:** Arcades still exist in 2026, but almost entirely as food and entertainment venues rather than rooms full of cabinets. IBISWorld counts 7,113 US arcade, food and entertainment complex businesses on about $6.0 billion in revenue in 2026, led by Dave & Buster's with 184 stores in 43 states. The pure coin-op arcade peaked in 1982 at an estimated $8 billion in quarters, more than Hollywood films and pop music combined.
+**Summary:** Arcades are still around in 2026, but almost entirely as food and entertainment venues rather than rooms full of cabinets. IBISWorld counts about 7,100 US arcade, food and entertainment complex businesses on roughly $6.0 billion in revenue in 2026, and the largest of them is Dave & Buster's, which reported 184 Dave & Buster's stores in 43 states, Puerto Rico and Canada in August 2026. The pure coin-op arcade peaked in 1982, when US machines took an estimated $8 billion in quarters, more than pop music and Hollywood films combined.
 
 **Key facts:**
 - Peak year: 1982, about $8 billion in quarters in the United States
-- Arcades at the peak: About 10,000 dedicated arcades in North America, 1980 to 1982
-- Status today: Still operating: 7,113 US arcade, food and entertainment businesses in 2026
-- Biggest operator today: Dave & Buster's, 184 stores in 43 states plus 66 Main Event venues
-- Price today: $25 unlimited play at Galloping Ghost, the largest US arcade
+- Arcades at the peak: More than 13,000 in the United States, Time, January 1982
+- Status today: Still operating, as food and entertainment venues
+- Venues left: About 7,100 US arcade, food and entertainment businesses on $6.0 billion, 2026
+- Biggest operator today: Dave & Buster's, 184 stores in 43 states, Puerto Rico and Canada
 
 ## How big did arcades get in 1982?
 
-Taito released Space Invaders in 1978, and within four years coin-op video games were the largest entertainment business in the United States. Histories of the golden age of arcade video games put 1982 arcade takings at about $8 billion in quarters, against roughly $4 billion for pop music and $3 billion for Hollywood films that year. Arcades outearned both combined.
+Taito put Space Invaders in Japanese cabinets in 1978, and within four years coin-op video games were the largest entertainment business in the United States. Histories of the golden age of arcade video games put 1982 arcade takings at about $8 billion in quarters, against roughly $4 billion for pop music and $3 billion for Hollywood films that year. Arcades outearned both combined.
 
-The machines were everywhere. North America peaked at about 10,000 dedicated video game arcades between 1980 and 1982, and a January 1982 cover story in Time counted around 13,000. Add the bars, laundromats, pizza places and bowling alleys and roughly 1.5 million coin-op machines were installed across the continent.
+The machines were everywhere. Time counted more than 13,000 arcades in the United States in January 1982, and once the bars, laundromats, pizza places and bowling alleys are added, an estimated 1.5 million coin-op machines were on location by the end of that year.
 
-Pac-Man did most of the damage to allowances. Namco released it in Japan on May 22, 1980, and Midway began distributing it in North America on October 10 of that year, with profits split evenly between the two companies. More than 100,000 cabinets sold in the first year and took in over $1 billion in quarters. Pac-Man is still the highest-grossing arcade cabinet ever built, and the decline started almost the moment the peak was reached.
-
-## Did Space Invaders really cause a coin shortage in Japan?
-
-No, and the legend is worth putting down because it resurfaces every time arcades come up. The story says Space Invaders swallowed so many 100-yen coins that Japan ran short and the Mint had to strike more of them.
-
-The mintage figures say otherwise. Japan produced fewer 100-yen coins in 1978 and 1979 than in the years on either side, and a coin fed into a cabinet does not leave circulation: the operator empties the cash box and banks it.
-
-A researcher put the question to the Japanese Mint's public relations office for the 2013 investigation published by The Golden Age Arcade Historian. The answer was that the rise in yen production in the late 1970s "had nothing to do with Space Invaders." The same account cites an interview in which the game's designer, Tomohiro Nishikado, "believed it all to be a wild rumour." The Bank of Japan could find no evidence for the shortage either. What the myth gets right is the scale: operators in 1979 were emptying cash boxes faster than they could count them.
+Pac-Man did most of the damage to allowances. Namco released it in 1980 and Midway began distributing it in North America that October. About 100,000 cabinets sold in the first year and took more than $1 billion in quarters. The decline started almost the moment the peak was reached.
 
 ## What actually killed the arcade business?
 
-The collapse began at the peak rather than decades later. US arcade coin drop fell from about $7.7 billion in 1982 to $5.4 billion in 1983, a 30 percent contraction in one year. Profits fell 35 percent to $2.9 billion, industry losses ran to roughly $1.5 billion, and more than 2,000 arcades closed in 1983 alone. About 30 percent of operators went out of business, and 400,000 fewer coin-op games were installed than at the height of the boom.
+The collapse began at the peak rather than decades later. US arcade revenue fell from about $8 billion in 1982 to roughly $5 billion in 1983 and bottomed near $4 billion in 1984, a drop of about 30 percent in a single year followed by another leg down.
 
-Home hardware finished the job. The Nintendo Entertainment System (https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html) reached North America in 1985 and proved that home gaming was not a cheap imitation of the arcade. Super Mario Bros. and The Legend of Zelda had no cabinet equivalent, and after the console they cost nothing per play.
+Home hardware finished the job. The Nintendo Entertainment System (https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html) reached North America in 1985 and proved that home gaming was not a cheap imitation of the arcade. Super Mario Bros. and The Legend of Zelda had no cabinet equivalent, and once the console was paid for they cost nothing per play.
 
 The industry had also overbuilt. Single malls carried competing arcades, cabinets got more expensive to buy and to keep running, and earnings per machine dropped as the novelty wore off. Games were tuned to end quickly rather than to be finished, a design that looked reasonable when there was no alternative and hostile the moment there was one.
 
 ## Why did Street Fighter II bring players back?
 
-Capcom put Street Fighter II in arcades in March 1991, and it was the highest-grossing video game in the world that year. Across all its versions the game has sold more than 200,000 arcade cabinets and 15 million software units for an estimated $10 billion in revenue. By 1994 an estimated 25 million people in the United States had played it.
+Capcom put Street Fighter II in arcades in 1991, and it stands as one of the three highest-grossing video games ever released, alongside Space Invaders and Pac-Man. Across all its versions the game has sold more than 200,000 arcade cabinets and over 15 million software units worldwide, for estimated gross revenue above $10 billion. By 1994 an estimated 25 million people in the United States had played it.
 
 The second joystick is what made it work. High-score games were solitary. Street Fighter II was public competition, judged by whoever stood behind the cabinet. Players traveled between arcades looking for better opponents, tournaments formed, and the first recognizable competitive gaming scene grew out of the line of quarters along the cabinet edge.
 
-It extended the arcade's life without reversing the decline. The revival was concentrated in cities that already had arcade communities and skewed heavily toward young men, a far narrower audience than the families of 1982. In Japan, where game centers were understood as social space rather than pure coin drop, the scene had somewhere permanent to grow.
+It extended the arcade's life without reversing the decline. The revival concentrated in cities that already had arcade communities and skewed heavily toward young men, a far narrower audience than the families who filled the rooms in 1982.
 
-## How many arcades are left in the United States?
+## Who runs the arcades that are left in 2026?
 
-Arcades did not vanish. They changed owners and business models. IBISWorld counts 7,113 businesses in the US arcade, food and entertainment complex industry in 2026, on revenue of about $6.0 billion. Revenue has grown at a 2.7 percent compound annual rate over five years, with a dip of 1.0 percent in 2026, while the number of businesses has risen about 3.1 percent a year since 2021.
+Arcades did not vanish. They changed owners and business models. IBISWorld counts about 7,100 businesses in the US arcade, food and entertainment complex industry in 2026, on revenue of roughly $6.0 billion. The number of businesses has grown about 3.1 percent a year since 2021, while revenue slipped 1.0 percent in 2026.
 
-Almost none of that is a room full of cabinets. Dave & Buster's, which opened its first location in 1982, reported 184 Dave & Buster's stores in 43 states plus 66 Main Event venues in its second-quarter fiscal 2026 results on September 14, 2026. Comparable store sales fell 2.9 percent, and the company named chief financial officer Davin Harper to succeed Tarun Lal as chief executive. Round1, the Japanese operator, passed 50 US locations in 2026 and keeps taking over abandoned department store space, including a former Sears (https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html) at Valencia Town Center due to reopen as a bowling alley and arcade in 2027.
+Almost none of that is a room full of cabinets. The largest operator is Dave & Buster's, which reported 184 Dave & Buster's stores in 43 states, Puerto Rico and Canada for the quarter ended August 4, 2026, alongside its Main Event bowling and games brand. That quarter brought revenue of $544.1 million, down 2.4 percent, and comparable store sales down 2.9 percent. The company told investors it had seen "continued improvement in overall same store sales during the third quarter to date," which is the careful version of a business trying to stop a slide.
 
-The economics are now food and drink with games attached. Chuck E. Cheese (https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html) has run on that arithmetic since the 1970s: the games bring the family in, the pizza pays the bill.
+The economics are now food and drink with games attached. Chuck E. Cheese (https://404memoryfound.com/posts/chuck-e-cheese-animatronics-still-there.html) has run on that arithmetic since the 1970s: the games bring the family in, the pizza pays the bill. Round1, the Japanese operator, keeps filling dead mall anchor space with bowling lanes, crane machines and imported Japanese cabinets.
 
-## Where can you still play or buy a cabinet today?
+## Where can you still play a wall of cabinets?
 
-The pure arcade survives at the margins. Galloping Ghost Arcade in Brookfield, Illinois opened on August 13, 2010 and lists 1,094 games behind a single $25 door fee with unlimited play, the largest video arcade in the country.
+The pure arcade survives at the margins, and the bar format carries most of it. Barcade opened in a former metal shop on Union Avenue in Williamsburg, Brooklyn in 2004, pairing craft beer with cabinets on free play, and it now runs eight other locations, three of them in Manhattan.
 
-The bar format did the rest. Paul Kermizian bought his first cabinet, a Mappy, for $200 at the age of 27, added three more, and noticed the machines ran his parties. "I had always talked about opening a bar, and I was a collector of classic games," he told Fox Business, describing a combination "we hadn't seen before anywhere else." Barcade opened in Brooklyn on October 1, 2004 and now runs eight bars in five states. A bar earns on drinks, so a 1982 machine taking a few dollars a night is decor with a working joystick rather than a failing asset.
+Even that model is not safe. In late July 2026 the owners gave notice that the Williamsburg lease ends in under 1,000 days. "This neighborhood has changed so much, as far as nightlife goes, that it financially just doesn't make a lot of sense," co-founder and chief executive Paul Kermizian told News 12 Brooklyn in 2026, adding that an extension was possible but that he did not expect one. The bar that proved beer and Donkey Kong could cover a Brooklyn rent is leaving because the rent won.
 
-Where to find one today: a working but unrestored Pac-Man upright generally runs $600 to $800, well-kept machines average around $700, and restored examples list from $1,999 to $4,199. Cocktail tables sell for less than uprights. Restored machines, control panels, marquees and side art turn up on Etsy (https://www.etsy.com/search?q=arcade+cabinet). The cheaper route is emulation, and the best way to play Sega Genesis games today (https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html) costs a fraction of a cabinet.
+For a full wall of machines, Galloping Ghost Arcade in Brookfield, Illinois charges one all-day admission with every game set to free play, and Funspot in Laconia, New Hampshire carries the Guinness World Records title for the largest arcade in the world.
+
+Where to find one today: original uprights move mostly through specialist dealers and collector shows rather than general marketplaces, and the cheaper way in is a piece of the real thing. Marquees, control panel overlays, instruction cards and reproduction side art turn up on Etsy (https://www.etsy.com/search?q=arcade+marquee). If what you want is the games rather than the furniture, emulation costs a fraction of a cabinet, and the best ways to play Sega Genesis games today (https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html) need no quarters at all.
 
 ## Frequently Asked Questions
 
 ### Are arcades still around in 2026?
 
-Yes. Arcades still operate across the United States in 2026, though mostly as food and entertainment venues rather than rooms of cabinets. IBISWorld counts 7,113 US arcade, food and entertainment complex businesses on about $6.0 billion in revenue in 2026, and Dave & Buster's alone ran 184 stores in 43 states as of its second-quarter fiscal 2026 report.
+Yes. Arcades still operate across the United States in 2026, though mostly as food and entertainment venues rather than rooms of cabinets. IBISWorld counts about 7,100 US arcade, food and entertainment complex businesses on roughly $6.0 billion in revenue in 2026, and the largest operator, Dave & Buster's, reported 184 Dave & Buster's stores in 43 states, Puerto Rico and Canada in August 2026.
+
+### How many arcades are left in the United States?
+
+IBISWorld puts the US arcade, food and entertainment complex industry at about 7,100 businesses in 2026, a count growing around 3.1 percent a year since 2021. That figure covers bowling and games complexes and family entertainment centers rather than coin-op arcades alone, which is why it is larger than the number of traditional arcades, a group that has shrunk steadily since the 13,000 US arcades Time counted in January 1982.
 
 ### Why did arcades die out?
 
-Arcades collapsed because the business peaked and home consoles arrived at the same time. US arcade coin drop fell from about $7.7 billion in 1982 to $5.4 billion in 1983, more than 2,000 arcades closed that year, and the Nintendo Entertainment System's 1985 North American launch gave players games no arcade had, at no cost per play.
-
-### What is the largest arcade in the United States?
-
-Galloping Ghost Arcade in Brookfield, Illinois is the largest video arcade in the United States. It opened on August 13, 2010 and lists 1,094 playable arcade games behind a single $25 door fee with unlimited play, adding machines most weeks. Guinness World Records separately recognizes Funspot in New Hampshire as the largest arcade in the world.
+Arcades collapsed because the business peaked and home consoles arrived at the same time. US arcade revenue fell from about $8 billion in 1982 to roughly $5 billion in 1983 and bottomed near $4 billion in 1984, and the Nintendo Entertainment System's 1985 North American launch gave players games no arcade had, at no cost per play.
 
 **Sources:**
 - Golden age of arcade video games: https://en.wikipedia.org/wiki/Golden_age_of_arcade_video_games
+- Street Fighter II: https://en.wikipedia.org/wiki/Street_Fighter_II
 - IBISWorld: Arcade, Food & Entertainment Complexes in the US, 2026: https://www.ibisworld.com/united-states/industry/arcade-food-entertainment-complexes/1647/
-- Dave & Buster's Reports Second Quarter 2026 Financial Results: https://ir.daveandbusters.com/news-releases/news-release-details/dave-busters-reports-second-quarter-2026-financial-results
-- The Golden Age Arcade Historian: The Space Invaders Yen Shortage (2013): http://allincolorforaquarter.blogspot.com/2013/11/video-game-myth-busters-space-invaders.html
-- Fox Business: Barcade, a business model that offers something old, something new and something boozy: https://www.foxbusiness.com/small-business/barcade-a-business-model-that-offers-something-old-something-new-and-something-boozy
+- Dave & Buster's Reports Second Quarter 2026 Financial Results, Form 8-K Exhibit 99.1 (September 2026): https://www.sec.gov/Archives/edgar/data/0001525769/000152576926000039/play-2026q2er8kxexx991.htm
+- News 12 Brooklyn: Barcade plans to close original location in Williamsburg (August 1, 2026): https://brooklyn.news12.com/2026/08/01/game-over-barcade-plans-to-close-original-location-in-williamsburg/6YuAgCzvxmolz8jOMLUcyb
 
 ---
 
