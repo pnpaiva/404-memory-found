@@ -19451,94 +19451,94 @@ Google Maps passed MapQuest in January 2009, when comScore measured 42.2 million
 
 URL: https://404memoryfound.com/posts/why-everyone-had-hotmail-account.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-23  Updated: 2026-09-13
+Published: 2026-03-23  Updated: 2026-11-07
 Topics: Internet Culture, Software & Apps
 
-**Summary:** Hotmail still exists, but only as an address. Microsoft bought the service on December 31, 1997, launched Outlook.com in 2012 and retired the Hotmail name in May 2013, moving 300 million accounts across. Every @hotmail.com address still sends and receives mail in 2026, and new ones can still be created.
+**Summary:** Hotmail still exists, but only as an address. Microsoft bought the service on December 31, 1997, announced Outlook.com on July 31, 2012 and finished moving more than 300 million accounts across on May 2, 2013, when the Hotmail name was retired. Every @hotmail.com address still sends and receives mail in 2026 through Outlook.com, on 15 GB of free mailbox storage.
 
 **Key facts:**
 - Launched: July 4, 1996, by Sabeer Bhatia and Jack Smith
 - Owner today: Microsoft, since December 31, 1997
-- Status today: Brand retired May 2013; @hotmail.com addresses still work on Outlook.com
-- Price today: Free, with ads in the inbox
+- Status today: Brand retired May 2, 2013; @hotmail.com addresses still work on Outlook.com
+- Price today: Free; a Microsoft 365 subscription raises the mailbox from 15 GB to 100 GB
 - Free storage: 15 GB mailbox plus 5 GB Microsoft cloud storage
 
 ## What did email look like before Hotmail?
 
-Before 1996, an email address was something you rented. It came bundled with whoever sold you your internet connection, and it vanished the day you switched providers. AOL subscribers wrote from @aol.com, CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) members from a string of digits, students from a .edu account that expired at graduation.
+Before 1996, an email address came bundled with whoever sold the internet connection, and it died the day the subscriber switched providers. AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) members wrote from @aol.com, CompuServe (https://404memoryfound.com/posts/what-happened-to-compuserve-online-service.html) members from a string of digits, students from .edu accounts that expired at graduation.
 
-Mail also lived in exactly one place. You read it in a program installed on a single computer, configured for a single provider's servers. A friend's PC, a library terminal or an office machine could not reach your inbox at all.
+Mail also lived in exactly one place. It was read in a program installed on a single computer and configured for a single provider's servers. A friend's PC, a library terminal or an office machine could not reach the inbox at all.
 
-That is the problem Sabeer Bhatia and Jack Smith set out to solve. Both were engineers in Silicon Valley, and both were blocked by a workplace firewall from reaching their personal mail during the day. Their fix was to move the inbox into the web browser itself, so any machine with a browser and a connection could open it. The service launched on July 4, 1996, a date the founders chose to advertise independence from the internet providers. The name was a pun: HoTMaiL, with the letters of HTML buried inside it. Eudora (https://404memoryfound.com/posts/what-happened-to-eudora-email-client.html) and the other desktop mail clients suddenly had a rival that needed no installation and no setup wizard.
+Sabeer Bhatia and Jack Smith, two engineers in Silicon Valley, were blocked by a workplace firewall from reaching their personal mail during the day. Their fix was to move the inbox into the web browser, so any machine with a browser and a connection could open it. The service launched on July 4, 1996, a date chosen to advertise independence from the internet providers, and the name was a pun: HoTMaiL, with the letters of HTML buried inside it, as TechSpot's history of the service records. Eudora (https://404memoryfound.com/posts/what-happened-to-eudora-email-client.html) and the other desktop mail clients suddenly had a rival that needed no installation and no setup wizard.
 
-## How did a footer turn Hotmail into the world's largest email service?
+## Who owns Hotmail today?
+
+Microsoft owns Hotmail, and has since December 31, 1997. What disappeared was the name, not the mail.
+
+Microsoft announced Outlook.com on July 31, 2012 and spent the following months moving Hotmail users onto it. The switch finished on May 2, 2013, when Microsoft program manager Dick Craddock wrote that "we've completed upgrading all Hotmail customers to Outlook.com," in a post reported by GeekWire that day. Microsoft put the job at more than 300 million active accounts and 150 petabytes of mail in about six weeks, and said Outlook.com then held roughly 400 million active accounts, 125 million of them reaching mail on a phone.
+
+Nothing was deleted along the way. An @hotmail.com address sends and receives exactly as it did, it simply does so through Outlook.com, behind a Microsoft account sign-in. The domain survives as a suffix rather than as a product.
+
+So Hotmail was not shut down, sold off or discontinued, which is what most people typing the question expect to hear. It was absorbed. The company that bought it in 1997 still runs it in 2026, under a different name, on the same domain, for a user base far larger than the one it acquired.
+
+## How did a footer make Hotmail the world's largest email service?
 
 Hotmail had no advertising budget. Its investors at Draper Fisher Jurvetson proposed a substitute: attach a line of promotion to the bottom of every message a Hotmail user sent. The footer read "Get your free e-mail at Hotmail," and it rode along under every birthday note, every argument and every forwarded joke.
 
 It worked because the audience was ideal. Anyone reading a Hotmail message was already using email and already curious about the sender. One signup produced dozens of impressions, and those impressions produced more signups. Marketers later named the pattern viral marketing, and Hotmail is the case study that every telling of the story begins with.
 
-The numbers moved quickly. Hotmail passed one million subscribers in under six months. By early 1999 the service had more than 30 million users and was adding roughly 150,000 a day, according to TechSpot's history of it. Microsoft had already announced in December 1998 that Hotmail was the world's largest email provider and, by its own count, twice the size of the email base at AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html).
+The numbers moved fast. On December 1, 1998, Microsoft announced that MSN Hotmail had passed 30 million members and called it the world's largest email provider, two and a half years after launch. Growth of that shape, bought with one sentence in a signature instead of a media budget, is why the footer still turns up in marketing courses thirty years later.
 
 ## Why did Microsoft buy Hotmail 18 months after launch?
 
-Microsoft announced the acquisition on December 31, 1997. Its press release said Hotmail was serving "more than 9 million members worldwide" and presented the deal as a way to bolt a mass-market inbox onto The Microsoft Network.
+Microsoft announced the acquisition on December 31, 1997, when Hotmail was 18 months old. The press release described a service with "more than 9 million members worldwide" and presented the deal as a way to bolt a mass-market inbox onto The Microsoft Network.
 
-"Hotmail has been a Web-mail pioneer," said Laura Jennings, vice president of The Microsoft Network, in that announcement. She described the appeal as "a free, high-quality e-mail service that lets its members access a permanent e-mail address from any PC with an Internet connection."
+"Hotmail has been a Web-mail pioneer," said Laura Jennings, vice president of The Microsoft Network, in that announcement. Hotmail stayed in Sunnyvale, California as a wholly owned subsidiary of Microsoft reporting to her.
 
-Microsoft did not publish a price. The transaction was a stock swap reported at a value as high as $400 million, which made a company 18 months old one of the most expensive properties on the web at the time.
+Microsoft did not disclose the financial terms, and it never published a price. The valuations repeated since are third-party estimates rather than company figures, which is worth knowing before quoting any of them.
 
-What Microsoft bought was not really software. It was a list of names and a habit. An email address is among the hardest things on the internet to change, because changing it means telling everyone you know. Every Hotmail account was a person who would return to a Microsoft page, see Microsoft advertising, and later sign in to MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html) with the same credentials. A year after the purchase, Jennings put the logic plainly: "E-mail is the most popular online activity and an important part of our portal site MSN.com."
+What Microsoft bought was not really software. It was a list of names and a habit. An email address is among the hardest things on the internet to change, because changing it means telling everyone you know. Every Hotmail account was a person who would return to a Microsoft page, see Microsoft advertising, and later sign in to MSN Messenger (https://404memoryfound.com/posts/what-happened-to-msn-messenger.html) with the same credentials.
 
 ## How did Gmail end Hotmail's lead in 2004?
 
-Google opened Gmail to the public on April 1, 2004 with one gigabyte of free storage, more than 100 times what Hotmail and Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) Mail were offering, by TechSpot's accounting. The date was improbable enough that reporters checked whether the whole thing was a prank.
+Google opened Gmail on April 1, 2004 with one gigabyte of free storage, more than 100 times what Hotmail and Yahoo (https://404memoryfound.com/posts/who-owns-yahoo-now.html) Mail offered, by TechSpot's accounting, which puts the free Hotmail mailbox of the day at 2 MB. The date was improbable enough that reporters checked whether the whole thing was a prank.
 
 Storage was the argument, and Hotmail lost it. Hotmail users spent real time deleting messages to stay under a cap measured in megabytes. Gmail asked them to stop deleting anything, then added conversation threading and Google's search on top.
 
-Hotmail answered within months by raising free storage to 250 MB and lifting attachment limits, and it kept raising the ceiling for years afterward. But answering is not the same as setting the terms, and from 2004 onward Hotmail was the incumbent rather than the innovator.
+Hotmail answered within months by raising free storage to 250 MB, and it kept lifting the ceiling for years afterward. Answering is not the same as setting the terms, and from 2004 onward Hotmail was the incumbent rather than the pioneer.
 
-The branding did not help. Microsoft renamed the service MSN Hotmail, then Windows Live Hotmail, finishing that rollout in 2007. Each change asked users to learn a new name for a product they had picked precisely because they never had to think about it.
+The branding did not help either. Microsoft renamed the service MSN Hotmail, then Windows Live Hotmail, finishing that rollout in 2007. Each change asked users to learn a new name for a product they had picked precisely because they never had to think about it.
 
-## Who owns Hotmail today?
+## What does a Hotmail address get you in 2026?
 
-Microsoft owns Hotmail, and has since December 1997. The name is what disappeared. Microsoft launched Outlook.com on July 31, 2012 and spent the months afterward moving Hotmail users onto it.
+A free Outlook.com account, whatever suffix it carries, comes with 15 GB of mailbox storage for mail, contacts and calendar items, plus 5 GB of Microsoft cloud storage shared with OneDrive files and mail attachments, according to Microsoft's storage documentation. The two quotas are separate, and the smaller one tends to fill first.
 
-The switch finished in the first days of May 2013. Microsoft said it had moved 300 million Hotmail accounts, roughly 150 petabytes of mail, in six weeks, and that Outlook.com then held more than 400 million active accounts, as GeekWire reported at the time.
+Going over either one stops the mail. Microsoft's own support answers describe accounts over quota being blocked from sending and receiving until they are back under the limit, which is the 2026 version of the deleting ritual Gmail was supposed to end in 2004.
 
-Nothing was deleted in the process. An @hotmail.com address sends and receives exactly as it did, it simply does so through Outlook.com. Mail addressed to a Hotmail account still arrives, the sign-in page says Microsoft, and the interface says Outlook. The domain survives as a suffix rather than as a product.
+A Microsoft 365 consumer subscription raises the mailbox to 100 GB, the largest mailbox figure Microsoft publishes for a consumer account.
 
-So Hotmail was not shut down, sold off or discontinued, which is what most people typing the question expect to hear. It was absorbed. The company that bought it in 1997 still runs it in 2026, under a different name, on the same domain, for a user base far larger than the one it acquired.
-
-## What does a free Hotmail address get you in 2026?
-
-A free Outlook.com account, whatever suffix it carries, comes with 15 GB of mailbox storage for mail, contacts and calendar items, plus 5 GB of Microsoft cloud storage for attachments and files, according to Microsoft's support documentation. The two quotas are separate, and the smaller one tends to fill first.
-
-The free tier carries advertising in the inbox, which is the same bargain Hotmail struck in 1996: you pay with attention rather than money. Microsoft sells an ad-free inbox and a larger mailbox as part of a Microsoft 365 subscription.
-
-New @hotmail.com addresses are still available. Microsoft's signup flow offers hotmail.com alongside outlook.com when you create a free account, so the 1990s suffix can still be claimed in 2026 if the name you want is unused.
-
-The one thing that cannot be recovered is an address you walked away from. Microsoft's support answers are consistent on this point: an address that was once attached to a Microsoft account cannot be handed to a new one, even long after that account was closed. The sk8erboi handle is either yours or gone. Email turned out to be the most permanent identity the early web produced, which is roughly what the search engines of that era (https://404memoryfound.com/posts/yahoo-rejected-google.html) spent the following decade discovering.
+The one thing that cannot be recovered is an address someone walked away from. Microsoft's support answers are consistent on this: an address once attached to a Microsoft account cannot be handed to a new one, even long after that account was closed. The sk8erboi handle is either yours or gone. Email turned out to be the most durable identity the early web produced, which is roughly what the search engines of that era (https://404memoryfound.com/posts/yahoo-rejected-google.html) spent the following decade discovering.
 
 ## Frequently Asked Questions
 
 ### Does Hotmail still exist in 2026?
 
-Hotmail still exists as an email domain, though not as a separate product. Microsoft retired the Hotmail brand in May 2013 and migrated every account to Outlook.com, so an @hotmail.com address created in the 1990s still sends and receives mail in 2026 through the Outlook.com interface and a Microsoft account sign-in.
+Hotmail still exists as an email domain, though no longer as a separate product. Microsoft retired the Hotmail brand on May 2, 2013 and moved every account to Outlook.com, so an @hotmail.com address created in the 1990s still sends and receives mail in 2026 through the Outlook.com interface and a Microsoft account sign-in.
 
-### Can I still create a new @hotmail.com email address?
+### When did Hotmail shut down?
 
-Yes. Microsoft still offers hotmail.com as an option alongside outlook.com when you create a new free Microsoft account, so a new @hotmail.com address can be registered in 2026 if the name is unused. An address that once belonged to a closed Microsoft account, however, cannot be claimed again.
+Hotmail was never shut down. Microsoft announced Outlook.com on July 31, 2012 and completed the migration on May 2, 2013, reporting that it had moved more than 300 million active accounts and 150 petabytes of mail in about six weeks. The Hotmail name was retired at that point, while the @hotmail.com addresses kept working.
 
-### Who founded Hotmail and when did Microsoft buy it?
+### Who founded Hotmail and who owns it now?
 
-Hotmail was founded by Sabeer Bhatia and Jack Smith, who launched it on July 4, 1996. Microsoft announced the acquisition on December 31, 1997, when Hotmail reported more than 9 million members worldwide, in a stock transaction reported at a value as high as $400 million.
+Hotmail was founded by Sabeer Bhatia and Jack Smith, who launched it on July 4, 1996. Microsoft has owned it since announcing the acquisition on December 31, 1997, when the service reported more than 9 million members worldwide, and Microsoft did not disclose what it paid.
 
 **Sources:**
 - Microsoft, "Microsoft Acquires Hotmail" (December 31, 1997): https://news.microsoft.com/source/1997/12/31/microsoft-acquires-hotmail/
 - Microsoft, "MSN Hotmail, World's Largest E-Mail Provider, Surpasses 30 Million Member Milestone" (December 1, 1998): https://news.microsoft.com/source/1998/12/01/msn-hotmail-worlds-largest-e-mail-provider-surpasses-30-million-member-milestone/
-- TechSpot, "What Ever Happened to Hotmail?": https://www.techspot.com/article/2376-hotmail/
 - GeekWire, "Hotmail is officially toast, but Microsoft says Outlook.com is on fire" (May 2, 2013): https://www.geekwire.com/2013/microsoft-400m-outlook-users-hotmail-migration-125m-mobile/
-- Microsoft Support, "Storage limits in Outlook.com": https://support.microsoft.com/en-us/office/storage-limits-in-outlook-com-7ac99134-69e5-4619-ac0b-2d313bba5e9e
+- Microsoft Support, "Microsoft storage quotas" (Outlook.com and OneDrive limits): https://support.microsoft.com/en-us/onedrive/microsoft-storage-quotas
+- TechSpot, "What Ever Happened to Hotmail?": https://www.techspot.com/article/2376-hotmail/
 
 ---
 
