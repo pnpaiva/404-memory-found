@@ -1999,6 +1999,16 @@
   "thumb": "/img/thumb/napa-valley-grapes-2-5601f3.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sony_Memory_Stick_Pro_Duo_4GB.jpg/960px-Sony_Memory_Stick_Pro_Duo_4GB.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sony_Memory_Stick_Pro_Duo_4GB.jpg",
+  "ext": "jpg",
+  "file": "/img/sony-memory-stick-pro-duo-4gb-df58a0.jpg",
+  "height": 1637,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sony-memory-stick-pro-duo-4gb-df58a0.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/NES-Console-Set.png/960px-NES-Console-Set.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.png",
   "ext": "jpg",

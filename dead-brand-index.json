@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 209,
+ "count": 210,
  "brands": [
   {
    "name": "3dfx",
@@ -739,6 +739,13 @@
    "status2026": "WorldCom gone; MCI Communications Services still files as a Verizon Business entity in 2026",
    "owner2026": "Verizon Communications, which closed the MCI merger on January 6, 2006 for about $8.5 billion",
    "source": "https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html"
+  },
+  {
+   "name": "Memory Stick",
+   "started": "October 1998, Sony",
+   "status2026": "Out of production; used PRO Duo cards run about $12 to $24",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/sony-memory-stick-still-made.html"
   },
   {
    "name": "Microsoft Bob",

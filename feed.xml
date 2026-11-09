@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Memory Stick: Is Sony&#x27;s Card Still Made in 2026?</title>
+      <link>https://404memoryfound.com/posts/sony-memory-stick-still-made.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/sony-memory-stick-still-made.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Memory Stick is out of production: Sony put SD slots in its own cameras in 2010 and never shipped past 32 GB. Used PRO Duo cards run $12 to $24.</description>
+      <enclosure url="https://404memoryfound.com/pins/sony-memory-stick-still-made.jpg" length="341183" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/sony-memory-stick-still-made.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Hardware</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Are Tiger Electronics Handhelds Worth Anything Now?</title>
       <link>https://404memoryfound.com/posts/tiger-electronics-handhelds-value.html</link>
@@ -235,18 +247,6 @@
       <enclosure url="https://404memoryfound.com/pins/divx-circuit-city-dvd-format.jpg" length="273619" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/divx-circuit-city-dvd-format.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Business Blunders</category>
-      <category>Hardware</category>
-    </item>
-    <item>
-      <title>Is the Sega Nomad Worth Anything? 2026 Prices</title>
-      <link>https://404memoryfound.com/posts/sega-nomad-handheld-genesis.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/sega-nomad-handheld-genesis.html</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>The Sega Nomad is worth about $300 in 2026: tested units sold for $259.95 to $390. Sega&#x27;s portable Genesis launched at $180 in October 1995.</description>
-      <enclosure url="https://404memoryfound.com/pins/sega-nomad-handheld-genesis.jpg" length="202785" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/sega-nomad-handheld-genesis.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Gaming</category>
       <category>Hardware</category>
     </item>
   </channel>
