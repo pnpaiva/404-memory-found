@@ -19661,95 +19661,97 @@ Hotmail was founded by Sabeer Bhatia and Jack Smith, who launched it on July 4, 
 
 URL: https://404memoryfound.com/posts/history-of-geocities-websites.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-23  Updated: 2026-09-13
+Published: 2026-03-23  Updated: 2026-11-10
 Topics: Internet Culture, Then vs Now
 
-**Summary:** GeoCities no longer exists. Yahoo shut the service down on October 26, 2009 and deleted roughly 38 million member-built pages, and Yahoo Japan closed the last working version on March 31, 2019. The name now sits with Yahoo Inc., owned by funds managed by affiliates of Apollo Global Management since 2021, while the surviving pages live in the Internet Archive and a 641 GB Archive Team torrent.
+**Summary:** GeoCities no longer exists. Yahoo shut the service down on October 26, 2009 and deleted the member-built pages, which Wired put at 38 million, and Yahoo Japan closed the last working version on March 31, 2019. The name now sits with Yahoo Inc., about 90 percent owned by funds managed by affiliates of Apollo Global Management since 2021, while the surviving pages live in the Internet Archive and an Archive Team torrent of about 641 GB.
 
 **Key facts:**
 - Launched: 1994 as Beverly Hills Internet, founded by David Bohnett and John Rezner
-- Sold to Yahoo: January 28, 1999, about $3.57 billion in stock
+- Sold to Yahoo: January 28, 1999, valued by CNN that day at about $3.57 billion in stock
 - Shut down: October 26, 2009 in the US; March 31, 2019 in Japan
 - Status today: Closed. No GeoCities page has been served from geocities.com since 2009
-- Owner today: Yahoo Inc., owned by funds managed by affiliates of Apollo Global Management since September 2021
+- Owner today: Yahoo Inc., about 90 percent owned by funds managed by affiliates of Apollo Global Management since September 2021, with Verizon holding 10 percent
 
 ## How Beverly Hills Internet became a city of neighborhoods
 
 The service started in 1994 as Beverly Hills Internet, a small Los Angeles company run by David Bohnett and John Rezner. It handed out free web space and did one thing no other host bothered with: it gave every page an address inside a themed neighborhood.
 
-A science fiction page lived in Area 51. A celebrity fan page went to Hollywood. Programmers took SiliconValley, families took Heartland, and money pages went to WallStreet. The address told you what you were about to open, which mattered on a web that had no search engine worth using yet.
+A science fiction page lived in Area 51. A celebrity fan page went to Hollywood. Programmers took SiliconValley, families took Heartland, and money pages went to WallStreet. The address told a visitor what the page was about, on a web with no search engine worth using yet.
 
-The company took the GeoCities name and the model worked fast. It signed its millionth "homesteader," the company word for a member, in October 1997. By December 1998, Media Metrix counted more than 19 million unique visitors in a month and ranked the site the third most trafficked on the web, behind only AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) and Yahoo.
+The company took the GeoCities name and grew fast. Yahoo's announcement of the purchase in January 1999 counted more than 3.5 million members, called homesteaders, who had built over 32 million pages between them. The same release cited Media Metrix figures putting GeoCities above 19 million unique visitors in December 1998 and third among the most trafficked sites on the internet, behind AOL (https://404memoryfound.com/posts/does-aol-still-exist-today.html) and Yahoo.
 
-That growth came from members building pages for each other and linking to their neighbors, the same loop MySpace would run on a bigger scale (https://404memoryfound.com/posts/rise-and-fall-of-myspace.html) a few years later.
+Free hosting was a crowded business by then, and the rivals aged the same way. Angelfire outlived GeoCities by seventeen years (https://404memoryfound.com/posts/is-angelfire-still-online.html) before Lycos (https://404memoryfound.com/posts/what-happened-to-lycos-search-engine.html) closed it in 2026.
 
 ## Why the first FTC internet privacy case named GeoCities
 
-In August 1998, months before Yahoo made an offer, the company settled charges brought by the Federal Trade Commission. The agency said it had collected personal details through its membership form and passed them on while telling members the data was for something else.
+In August 1998, months before Yahoo made an offer, the company settled charges brought by the Federal Trade Commission. The agency said GeoCities had collected personal details through its membership form and passed them to advertisers while telling members the data was for something else.
 
 "GeoCities misled its customers, both children and adults, by not telling the truth about how it was using their personal information," said Jodie Bernstein, director of the FTC's Bureau of Consumer Protection, in the agency's 1998 announcement.
 
-The settlement carried no admission of wrongdoing. What it carried instead was a set of rules the rest of the web later inherited: post a clear privacy notice saying what is collected and who receives it, get parental consent before collecting anything from children 12 and under, and give members a way to have their details removed from third-party databases.
+The settlement carried no fine and no admission of wrongdoing. What it carried instead was a set of rules the rest of the web later inherited: post a clear privacy notice saying what is collected and who receives it, get parental consent before collecting anything from children 12 and under, and link to the FTC's own privacy education material for five years.
 
-It was the FTC's first internet privacy case. The privacy policy link at the bottom of almost every page in 2026 traces back to a consent order about a free homepage service.
+It was the FTC's first internet privacy case. Critics at the time called the terms a slap on the wrist, since nobody paid anything. The privacy policy link at the bottom of almost every page in 2026 traces back to a consent order about a free homepage service.
 
 ## What Yahoo paid, and the protest that followed
 
-Yahoo agreed to buy the company on January 28, 1999 in an all-stock deal valued at about $3.57 billion. Yahoo exchanged 21,640,342 of its own shares for the GeoCities stock it did not already hold. TechCrunch, looking back in 2009, put the value at closing lower, at $2.87 billion, because Yahoo shares moved between announcement and completion.
+Yahoo agreed to buy GeoCities on January 28, 1999 in an all-stock deal. CNN reported the value that day at about $3.57 billion, calculated from Yahoo's closing price of $335.875 against the 31.4 million GeoCities shares outstanding, against a market capitalization of $2.3 billion before the news.
 
-The trouble started with paperwork. Yahoo rewrote the terms of service in 1999 in language that appeared to hand it the right to reuse anything a member had posted, with no payment, credit or notice.
+Later accounts of the same deal do not agree. TechCrunch, writing about the shutdown in 2009, put the purchase at $2.87 billion. eWeek that same week called it $3.6 billion. The gap is Yahoo's share price, which moved hard between the announcement in January and Yahoo taking control in May 1999.
 
-Members answered with a boycott that became known as the Haunting. They stripped their own pages back to bare backgrounds, deleted the animated GIFs and the visitor counters, and replaced the content with excerpts of the offending terms. Whole neighborhoods went grey at once.
+The trouble started with paperwork. On June 25, 1999 Yahoo posted new terms of service that appeared to hand it the right to reuse anything a member had published, and locked members out of editing their own sites until they accepted.
 
-Yahoo backed down inside a week and rewrote the terms to leave rights with the people who had made the pages. A user base had renegotiated a platform contract by refusing to use the platform, five years before Facebook existed.
+Members answered with a boycott that became known as the Haunting. They stripped their pages back to bare backgrounds, deleted the animated GIFs and the visitor counters, and replaced the content with excerpts of the offending terms. Whole neighborhoods went grey at once.
+
+Yahoo gave in within days. The rewritten terms stated plainly that "Yahoo does not claim ownership of the Content you place on your Yahoo GeoCities Site," and the organizers called the boycott off on July 6, 1999. A user base had renegotiated a platform contract by refusing to use the platform, five years before Facebook existed.
 
 ## Who owns GeoCities today?
 
-The name belongs to Yahoo Inc., and Yahoo is owned by funds managed by affiliates of Apollo Global Management (https://404memoryfound.com/posts/who-owns-yahoo-now.html), which completed a roughly $5 billion purchase in September 2021. There is no product left for anyone to run. The brand is a dormant asset attached to a domain that serves no pages.
+The name belongs to Yahoo Inc., and Yahoo is roughly 90 percent owned by funds managed by affiliates of Apollo Global Management (https://404memoryfound.com/posts/who-owns-yahoo-now.html), which completed a roughly $5 billion purchase in September 2021. Verizon kept the other 10 percent. There is no product left for anyone to run, and the brand is a dormant asset attached to a domain that serves no pages.
 
-Yahoo announced the shutdown on April 23, 2009 and stopped taking new members that day. Traffic had already collapsed: comScore counted 11.5 million US unique visitors in March 2009, down 24 percent from 15.1 million a year earlier. The service went dark on October 26, 2009, and roughly 38 million member-built pages went with it.
+Yahoo announced the shutdown on April 23, 2009 and stopped taking new members that day. Traffic had already collapsed: comScore counted 11.5 million US unique visitors in March 2009, down 24 percent from 15.1 million a year earlier, though VentureBeat cited slightly different comScore numbers at the time.
 
-Yahoo kept no copy. Members were told to download their own files if they wanted them, and old geocities.com addresses now bounce to a Yahoo page explaining that the service closed.
+The service went dark on October 26, 2009, and the pages went with it. Wired put the count at 38 million at last measure, a figure it attributed to Yahoo rather than to any audit. Yahoo kept no copy. Members were told to download their own files, and old geocities.com addresses now land on a Yahoo page explaining that the service closed.
 
-One outpost lasted a decade longer. Yahoo Japan ran its own version until March 31, 2019, blaming profitability and system problems, and that closure ended the service as a live product anywhere in the world.
+One outpost lasted a decade longer. Yahoo Japan announced on October 1, 2018 that its own version was closing, blaming profitability and system problems. It stopped serving pages on March 31, 2019, and deleted the stored files a year later, on March 31, 2020.
 
 ## How much of it did anyone manage to save?
 
-Two rescue efforts ran at the same time. The Internet Archive ran deep crawls from July to October 2009, including sites nominated by the public, and serves those captures through the Wayback Machine as its GeoCities Special Collection.
+Two rescue efforts ran at the same time. The Internet Archive ran deep crawls from July to October 2009, including sites the public nominated, and serves those captures through the Wayback Machine as its GeoCities Special Collection.
 
-Archive Team, a volunteer group co-founded by Jason Scott in 2009, ran its own harvest from April to October 2009 with dozens of people and hundreds of machine instances. In 2010 it published the result as a single 641 GB torrent, still the largest public block of this material anywhere.
+Archive Team, the volunteer group Jason Scott started in 2009, ran its own harvest with dozens of people and hundreds of machines. In 2010 it published the result as a single torrent, listed on its own wiki at 641.4 GB, which iTnews reported at the time as 652 GB. It is still the largest public block of this material anywhere.
 
 Scott did not soften his view of what Yahoo had done. He told Time in 2009 that the site had been "the largest self-created folk-art collection in the history of the world," and that Yahoo "found the way to destroy the most massive amount of history in the shortest amount of time with absolutely no recourse."
 
-Artists Olia Lialina and Dragan Espenschied then built something out of that torrent. Their project One Terabyte of Kilobyte Age began posting automated screenshots of rebuilt pages on February 7, 2013, one every twenty minutes, rendered in period-correct browsers. It has since been shown in galleries and treated as an art archive rather than a backup.
+Artists Olia Lialina and Dragan Espenschied then built something out of that torrent. Their project One Terabyte of Kilobyte Age started posting automated screenshots of rebuilt pages in 2013, one every twenty minutes, captured at 800 by 600 pixels in period-correct browsers. Rhizome has since treated it as an art archive rather than a backup.
 
 ## What replaced it for people who want a homepage?
 
-The direct heir is Neocities, launched in 2013 by Kyle Drake with the stated goal of reviving the free web hosting that GeoCities used to provide. A free site gets 1 GB of storage and 200 GB of bandwidth, runs no server-side code, and by May 2026 the service had hosted more than 1,612,500 sites.
+The direct heir is Neocities, launched by Kyle Drake in 2013 with the stated goal of reviving the free hosting GeoCities used to provide. A free site gets 1 GB of storage and 200 GB of monthly bandwidth, runs no server-side code, and the service counted more than 1,763,200 sites hosted as of May 2026.
+
+Scale brings its own problem. Ars Technica reported on February 5, 2026 that Bing had dropped roughly 1.5 million Neocities sites from search results under its low-quality content policy, cutting Drake's traffic from that source to near zero and routing his appeals to an automated support bot. Microsoft restored the front page within a day of being asked about it, and most member subdomains stayed blocked.
 
 The bigger answer is that the audience moved. Squarespace, Wix and WordPress.com absorbed the people who wanted a presentable page, and social platforms absorbed everyone who only wanted somewhere to post. Both traded the handmade look for templates.
 
-David Bohnett, who started the company, describes the loss as one of purpose rather than design. "GeoCities was not about self-promotion. It was about sharing your interest and your knowledge," he told Gizmodo in 2022. In the same interview he said what surprised him was "how far away we've gotten from that original intent."
-
-A few pages from that era are still served at their original addresses (https://404memoryfound.com/posts/90s-websites-still-online.html), though every one of them is hosted somewhere else.
+Bohnett describes the loss as one of purpose rather than design. "GeoCities was not about self-promotion. It was about sharing your interest and your knowledge," he told Gizmodo in 2022. A few pages from that era are still served at their original addresses (https://404memoryfound.com/posts/90s-websites-still-online.html), though every one of them is hosted somewhere else.
 
 ## Frequently Asked Questions
 
 ### When did GeoCities shut down?
 
-Yahoo shut GeoCities down in the United States on October 26, 2009, six months after announcing the closure on April 23, 2009. Roughly 38 million member-built pages were deleted, and Yahoo kept no copy of them. Yahoo Japan ran a separate GeoCities until March 31, 2019, which was the last working version of the service anywhere.
+Yahoo shut GeoCities down in the United States on October 26, 2009, six months after announcing the closure on April 23, 2009. Wired put the number of pages deleted at 38 million, a figure Yahoo supplied, and Yahoo kept no copy of them. Yahoo Japan ran a separate GeoCities until March 31, 2019 and deleted its stored files on March 31, 2020.
 
 ### Can you still see old GeoCities pages?
 
-Yes. The Internet Archive crawled GeoCities from July to October 2009 and serves those captures through the Wayback Machine as its GeoCities Special Collection. Archive Team's parallel harvest, published in 2010 as a 641 GB torrent, holds more material again. Neither copy is complete, and the pages nobody ever linked to are the ones most likely missing.
+Yes. The Internet Archive crawled GeoCities from July to October 2009 and serves those captures through the Wayback Machine as its GeoCities Special Collection. Archive Team's parallel harvest, published in 2010 as a torrent its wiki lists at 641.4 GB, holds more material again. Neither copy of GeoCities is complete, and the pages nobody ever linked to are the ones most likely missing.
 
 ### How much did Yahoo pay for GeoCities?
 
-Yahoo announced its purchase of GeoCities on January 28, 1999 at about $3.57 billion in stock, exchanging 21,640,342 Yahoo shares for the rest of the company. TechCrunch later put the value at closing at $2.87 billion, because Yahoo's share price moved between announcement and completion. Yahoo shut the service down ten years after buying it, in October 2009.
+Yahoo announced its purchase of GeoCities on January 28, 1999, and CNN valued the all-stock deal that day at about $3.57 billion, based on Yahoo's closing price of $335.875. Later accounts differ: TechCrunch put the purchase at $2.87 billion in 2009 and eWeek at $3.6 billion, because Yahoo stock moved between the announcement and the closing in May 1999. Yahoo shut the service down ten years after buying it, in October 2009.
 
 **Sources:**
 - Internet Site Agrees to Settle FTC Charges of Deceptively Collecting Personal Information in Agency's First Internet Privacy Case, Federal Trade Commission, 1998: https://www.ftc.gov/news-events/news/press-releases/1998/08/internet-site-agrees-settle-ftc-charges-deceptively-collecting-personal-information-agencys-first
-- Yahoo Quietly Pulls The Plug On Geocities, TechCrunch, 2009: https://techcrunch.com/2009/04/23/yahoo-quietly-pulls-the-plug-on-geocities
+- Yahoo! buys GeoCities, CNN Money, 1999: https://money.cnn.com/1999/01/28/technology/yahoo_a/
 - Internet Atrocity! GeoCities' Demise Erases Web History, Time, 2009: https://time.com/archive/6906661/internet-atrocity-geocities-demise-erases-web-history/
 - GeoCities Special Collection 2009, Internet Archive: https://archive.org/web/geocities.php
 - The Founder of GeoCities on What Killed the 'Old Internet', Gizmodo, 2022: https://gizmodo.com/interview-with-geocities-founder-on-the-new-web-tiktok-1849179509
