@@ -610,39 +610,39 @@ ClayFighter Sculptor's Cut, a 1998 Blockbuster rental exclusive, is the most exp
 
 URL: https://404memoryfound.com/posts/flip-video-camcorder-cisco-shutdown.html
 Author: Theo Lindqvist (404 Memory Found)
-Published: 2026-10-28
+Published: 2026-10-28  Updated: 2026-11-11
 Topics: Hardware, Then vs Now
 
-**Summary:** No. The Flip Video camera has not been manufactured since April 12, 2011, when Cisco Systems closed the business it had bought from Pure Digital Technologies for about $590 million in 2009. Cisco still owns the brand and has never revived it, and a working second-hand Flip typically asks between $20 and $50 in 2026.
+**Summary:** No. The Flip Video camera has not been manufactured since April 12, 2011, when Cisco Systems closed the business it had bought from Pure Digital Technologies for about $590 million in 2009. Cisco never sold or licensed the brand and stopped maintaining the name, so its US FLIP VIDEO camcorder registration was cancelled in December 2016. A working second-hand Flip asks roughly $17 to $60 in late 2026.
 
 **Key facts:**
 - Launched: September 12, 2007, Pure Digital Technologies
-- Price then: $179.99 for the 2 GB Flip Video Ultra in 2007, about $290 in 2026 dollars
-- Units sold: Nearly 5 million worldwide by September 2010
+- Price then: $149 for the 1 GB Flip Video Ultra, $179 for the 2 GB model
 - Status today: Discontinued April 12, 2011; FlipShare support ended December 31, 2013
-- Owner today: Cisco Systems, which closed the line rather than sell it
+- Owner today: Cisco Systems; its US FLIP VIDEO camcorder registration was cancelled in December 2016
+- Price today: About $17 to $60 for a working second-hand unit in late 2026
 
-## How a one-time-use camcorder from CVS became the Flip
+## How a single-use camcorder from CVS became the Flip
 
-Pure Digital Technologies started in San Francisco in 2001, and its first hit was not a camera anyone kept. It was a single-use video camera sold at CVS pharmacy counters. Shoppers filmed, handed the camera back, and collected a DVD.
+Pure Digital Technologies, a San Francisco company, did not start with a camera anyone kept. Its first products were single-use digital cameras and, from 2005, a single-use digital camcorder sold over CVS pharmacy counters. Shoppers filmed, handed the camera back and collected their footage on a DVD.
 
-That product taught the company two things. Most people wanted to shoot video, and almost nobody wanted to learn a menu system to do it.
+That business taught the company two things. Most people wanted to shoot video, and almost nobody wanted to learn a menu system to do it.
 
-In 2006 Pure Digital turned the idea into a reusable device called the Pure Digital Point and Shoot. A year later it renamed the line Flip Video.
+In 2006 Pure Digital turned the idea into a reusable device, and a year later it renamed the line Flip Video.
 
 Chief executive Jonathan Kaplan described the gap plainly to CNN Money in 2007: "There is no simple, affordable device to capture video so we decided to address that." The target buyer was a parent who wanted a clip on YouTube that evening, not a hobbyist.
 
-The design choices that made it work were the ones rivals mocked. No tape, no disc, no memory card slot, no optical zoom, no lens cap. A plastic arm flipped out of the side with a USB plug on the end, so the camera was also its own cable. Two AA batteries ran it. There was one red button.
+The design choices that made it work were the ones rivals mocked. No tape, no disc, no memory card slot, no optical zoom, no lens cap. A plastic arm flipped out of the side with a USB plug on the end, so the camera was also its own cable. Two AA batteries ran it, and there was one red button.
 
 ## What a Flip Video Ultra cost in 2007
 
-The Flip Video Ultra went on sale on September 12, 2007 in two versions. Macworld listed the 1 GB model, good for about 30 minutes, at $149.99, and the 2 GB model, good for about 60 minutes, at $179.99.
+The Flip Video Ultra went on sale on September 12, 2007 in two versions. The 1 GB model, good for about 30 minutes, listed at $149, and the 2 GB model, good for about 60 minutes, listed at $179.
 
-That $179.99 works out to roughly $290 in 2026 dollars, which is a useful reminder of how the math on tech prices from that era (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html) actually lands. The Flip was not cheap in absolute terms. It was cheap next to a MiniDV camcorder with a tape transport, a battery pack and a FireWire card.
+That was not cheap in absolute terms, and it lands in the same band as most of the tech prices of that era (https://404memoryfound.com/posts/90s-tech-inflation-calculator.html) once they are carried forward. It was cheap next to a MiniDV camcorder with a tape transport, a battery pack and a FireWire card.
 
-What buyers got for the money was 640 by 480 video at 30 frames per second, stored as AVI files on fixed internal flash memory. There was no viewfinder, only a small LCD on the back, and the zoom was digital, which meant it simply enlarged pixels.
+What buyers got was 640 by 480 video at 30 frames per second, written as AVI files to fixed internal flash memory. There was no viewfinder, only a small LCD on the back, and the zoom was digital, which meant it enlarged pixels rather than moving glass.
 
-None of that stopped it. The Flip Video Ultra and the slimmer Flip Mino that followed in 2008 turned a company best known for disposable cameras at a pharmacy counter into an acquisition target, and within 18 months a networking giant was making an offer.
+None of that stopped it. The Ultra and the slimmer Flip Mino that followed in 2008 turned a company known for throwaway cameras at a pharmacy counter into an acquisition target, and within 18 months a networking giant was making an offer.
 
 ## Why Cisco paid $590 million for a pocket camcorder
 
@@ -650,58 +650,58 @@ Cisco Systems announced on March 19, 2009 that it was buying Pure Digital Techno
 
 The logic made sense on a slide. Cisco sold the routers and switches that carry internet traffic, video was the fastest-growing share of that traffic, and the Flip put a video camera in more hands. Owning the camera meant owning a reason for the network to get bigger.
 
-For a while the numbers cooperated. By September 2010 Cisco said nearly 5 million Flip cameras had been sold worldwide, and it refreshed the line that month with an 8 GB UltraHD at $199.99 and an 8 GB MinoHD at $229.99. A Flip SlideHD with a sliding touchscreen arrived at around $280.
+For a while the numbers cooperated. Nearly 5 million Flip cameras had been sold worldwide by September 2010, and Cisco refreshed the line that month with an 8 GB UltraHD at $199.99 and an 8 GB MinoHD at $229.99. The Flip SlideHD, with a sliding touchscreen, had arrived that April at $279.99.
 
 What Cisco never solved was the margin. A $200 camcorder sold through Best Buy and Target earns a fraction of what a telecom switch earns, and it has to be marketed, boxed and supported every quarter.
 
-## What actually killed the Flip in April 2011
+## What killed the Flip in April 2011
 
-The warning came first. Kaplan left Cisco in February 2011, days after the company reported that orders in its consumer division had fallen 15 percent in the quarter ended January.
+The warning came first. Kaplan left Cisco in February 2011, two months before the end, after a quarter in which the consumer division disappointed.
 
-On April 12, 2011, Cisco said it would exit aspects of its consumer business. One bullet in the announcement read: "Close down its Flip business and support current FlipShare customers and partners with a transition plan." Chairman and chief executive John Chambers framed it as discipline rather than retreat, saying "We are making key, targeted moves as we align operations in support of our network-centric platform strategy."
+On April 12, 2011, Cisco said it would exit aspects of its consumer business. One bullet in the announcement read: "Close down its Flip business and support current FlipShare customers and partners with a transition plan." Chairman and chief executive John Chambers framed it as discipline rather than retreat: "We are making key, targeted moves as we align operations in support of our network-centric platform strategy."
 
-The restructuring carried pre-tax charges of up to $300 million for the fiscal year and eliminated about 550 jobs. Cisco did not sell the Flip business or license the brand to anyone else. It closed the operation and kept the technology.
+Cisco put the aggregate pre-tax restructuring charge at no more than $300 million and cut about 550 jobs in the fourth quarter of its 2011 fiscal year. It did not sell the Flip business or license the brand to anyone else. It closed the operation.
 
 Smartphones are the usual explanation and they are part of it. By 2010 a phone already in a pocket shot HD video and uploaded it over the air, with no second device to charge and no plastic arm to plug in. The Flip's one advantage, being simpler than a camcorder, stopped mattering once the thing people already carried was simpler still.
 
-## Does a Flip camera still work in 2026?
+## Who owns the Flip Video brand today?
 
-The hardware does. A Flip records to internal flash and shows up on a computer as a removable drive, so files copy across with no software and no account. That is the same reason the standalone GPS units of the same period (https://404memoryfound.com/posts/what-happened-to-standalone-gps-tomtom-garmin-magellan.html) still boot: nothing about them depends on a server.
+Cisco Systems still holds what it bought in 2009, but it has let the name go stale. Cisco Technology registered FLIP VIDEO in the United States for camcorders as registration number 3789499, then stopped maintaining it. The USPTO record shows the status "710 - Cancelled - Section 8" with a status date of December 23, 2016, which is what happens when the owner does not file the six-year maintenance declaration. Sister FLIP VIDEO registrations covering retail services and software were cancelled on the same ground between 2016 and 2019.
 
-Everything Cisco ran around the camera is gone. FlipShare, the bundled desktop software, was supported only through December 31, 2013, and the online storage that went with it was wiped earlier, in April 2012. Anything a family uploaded to FlipShare and did not keep a local copy of was deleted at that point.
+So there is no 2026 model, no firmware, no support line and no live US trademark registration. No other company has revived the name either.
 
-Cisco still owns the Flip name and has never brought it back, licensed it or sold it. There is no 2026 model, no firmware, no support line.
+The software went with it. FlipShare, the bundled desktop application, was supported only through December 31, 2013, and the videos people had uploaded to Cisco's online platform were deleted on April 15, 2012. Anything a family put there without keeping a local copy went at that point.
 
-Practical cautions for anyone restoring one: the AA-powered Ultra models are the easy case, while the Mino and UltraHD use a built-in lithium pack that is now 15 years old and often holds minutes rather than hours. The flip-out USB arm is the common breakage point, since the hinge was plastic.
+## Do Flip cameras still work, and what do they cost in 2026?
 
-## Where to find a Flip camera today
+The hardware works. A Flip records to internal flash and mounts on a computer as a removable drive, so files copy across with no software and no account. That is the same reason the standalone GPS units of the same period (https://404memoryfound.com/posts/what-happened-to-standalone-gps-tomtom-garmin-magellan.html) still boot: nothing about them depends on a server.
 
-Flips are plentiful and cheap. Tested, working Ultra, Mino and UltraHD units typically ask between $20 and $50 on the general second-hand market, with sealed or boxed examples listed far higher by sellers hoping the retro camcorder trend reaches them. Buy on condition, not on model number.
+Two cautions for anyone restoring one. The AA-powered Ultra models are the easy case, while the Mino and UltraHD use a built-in lithium pack that is now 15 years old and often holds minutes rather than hours. The flip-out USB arm is the common breakage point, because the hinge was plastic.
 
-Ask the seller for a clip shot that week, check that the USB arm latches, and prefer an AA model if the camera is going to sit unused between family events. Vintage Flip camcorders turn up regularly on Etsy (https://www.etsy.com/search?q=flip+video+camcorder), usually from sellers who have tested them.
+Prices are low. Asking prices on the US resale market in late 2026 run from about $17 for a bare MinoHD to roughly $60 for a tested UltraHD, with sealed or boxed examples listed well above that. Buy on condition rather than model number: ask the seller for a clip shot that week, and check that the USB arm latches.
 
-If the goal is rescuing old footage rather than shooting new footage, the same logic applies as with digitizing VHS tapes (https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html): get the files onto a drive you control before the hardware decides otherwise.
+Where to find one today: vintage Flip camcorders turn up regularly on Etsy (https://www.etsy.com/search?q=flip+video+camcorder), usually from sellers who have tested them and photographed the unit powered on. If the goal is rescuing old footage rather than shooting new footage, the same rule applies as with digitizing VHS tapes (https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html): get the files onto a drive you control first.
 
 ## Frequently Asked Questions
 
 ### Why did Cisco discontinue the Flip video camera?
 
-Cisco announced on April 12, 2011 that it was closing the Flip Video business as part of an exit from parts of its consumer division, two years after buying maker Pure Digital Technologies for about $590 million. The restructuring carried charges of up to $300 million and cut about 550 jobs, and Cisco chose to shut the line down rather than sell it, keeping the technology in-house.
+Cisco Systems announced on April 12, 2011 that it was closing the Flip Video business as part of an exit from parts of its consumer division, two years after buying maker Pure Digital Technologies for about $590 million. The restructuring carried an aggregate pre-tax charge of no more than $300 million and cut about 550 jobs, and Cisco shut the line down rather than sell it or license the brand to anyone else.
 
 ### How much is a Flip video camera worth in 2026?
 
-A tested, working Flip camcorder generally asks between $20 and $50 in 2026, well below the $149.99 to $229.99 the various models cost new between 2007 and 2010. Sealed or boxed units are listed for much more, but those are asking prices rather than evidence of a collector market for Flip Video hardware.
+A working Flip camcorder generally asks between about $17 and $60 on the US resale market in late 2026, well below the $149 to $229.99 the various models cost new between 2007 and 2010. Sealed or boxed Flip Video units are listed for much more, but those are asking prices rather than evidence of a collector market.
 
 ### Can you still transfer videos off a Flip camera?
 
-Yes. A Flip camcorder mounts as a standard USB drive on Windows and macOS, so the video files can be dragged off without FlipShare, which Cisco supported only until December 31, 2013. The FlipShare online storage service was emptied in April 2012, so anything uploaded there and not saved locally is gone.
+Yes. A Flip camcorder mounts as a standard USB drive on Windows and macOS, so the video files can be dragged off without FlipShare, which Cisco supported only until December 31, 2013. Cisco deleted the videos held in FlipShare's online storage on April 15, 2012, so anything uploaded there and not saved locally is gone.
 
 **Sources:**
-- CNN Money: Pure Digital's pocket video camera (2007): https://money.cnn.com/2007/04/30/technology/flipvideo/
-- Macworld: Flip Video Ultra pricing and specifications: https://www.macworld.com/article/187293/flip-2.html
-- eWeek: Cisco to Shut Down Flip Business, Revamp Consumer Unit: https://www.eweek.com/networking/cisco-to-shut-down-flip-business-revamp-consumer-unit/
-- Technologizer: What happens to FlipShare now: https://technologizer.com/2011/05/13/flipshare/
-- PetaPixel: The Successful Life and Abrupt Death of Flip Video Cameras: https://petapixel.com/2024/08/21/the-story-of-the-successful-life-and-abrupt-death-of-flip-video-cameras/
+- Cisco news release: Cisco Restructures Consumer Business (April 12, 2011): https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2011/m04/cisco-restructures-consumer-business.html
+- CNN Money: Pure Digital's pocket video camera (2007): https://money.cnn.com/2007/04/30/technology/flipvideo/index.htm
+- Justia Trademarks: FLIP VIDEO, Reg. No. 3789499, Cisco Technology Inc.: https://trademarks.justia.com/777/27/flip-video-77727589.html
+- Wikipedia: Flip Video, model lineup, pricing and FlipShare timeline: https://en.wikipedia.org/wiki/Flip_Video
+- Mercari: Flip Video camcorder listings and asking prices: https://www.mercari.com/us/brand/flip-video-13455/cameras-photography-80/
 
 ---
 
