@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-11-11",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 210,
+ "count": 211,
  "brands": [
   {
    "name": "3dfx",
@@ -732,6 +732,13 @@
    "status2026": "Live at mapquest.com, with free apps for iPhone and Android",
    "owner2026": "System1, which bought it from Verizon in October 2019",
    "source": "https://404memoryfound.com/posts/how-mapquest-lost-to-google-maps.html"
+  },
+  {
+   "name": "Mavis Beacon",
+   "started": "Late 1987, The Software Toolworks",
+   "status2026": "Still sold: $39.99 Windows download in 2026",
+   "owner2026": "HMH Consumer Company Limited, published under license by Encore Software, LLC",
+   "source": "https://404memoryfound.com/posts/mavis-beacon-real-person.html"
   },
   {
    "name": "MCI",

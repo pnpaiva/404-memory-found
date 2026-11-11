@@ -209,6 +209,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Was Apple Really 90 Days From Bankruptcy in 1997?](https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html): Apple lost $1.045 billion in fiscal 1997 and Steve Jobs called it 90 days from insolvent. It never filed, and fiscal 2026 revenue hit $478.8 billion.
 
 ## Internet Culture
+- [Is Mavis Beacon a Real Person? The 1987 Answer](https://404memoryfound.com/posts/mavis-beacon-real-person.html): Mavis Beacon is not a real person. The Software Toolworks invented her in 1987 and paid the model on the box a flat $500, with no royalties.
 - [Who Owns Travelocity Now? The Roaming Gnome in 2026](https://404memoryfound.com/posts/who-owns-travelocity-now.html): Travelocity is owned by Expedia Group, which paid Sabre $280 million in cash in January 2015. The site still books trips, and the gnome still works.
 - [Who Owns WorldCom Now? Verizon and MCI in 2026](https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html): WorldCom is gone: Chapter 11 in July 2002 with $103.9 billion in assets. Verizon has owned the MCI name since January 6, 2006, and MCI still files in 2026.
 - [Flooz.com Explained: The Dot-Com Cash That Vanished](https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html): Flooz.com is still defunct in 2026: the online gift currency suspended its site on August 8, 2001 and filed Chapter 7, with $35 million gone.
@@ -408,6 +409,7 @@ Every article is written under a pen name by the site's editorial team, sourced 
 - [Did Microsoft Try to Buy Nintendo? The 1999 Letter](https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html): Microsoft tried to buy Nintendo in 1999 and Nintendo refused. The October 20 letter survives, and Nintendo is still independent in 2026.
 
 ## Software & Apps
+- [Is Mavis Beacon a Real Person? The 1987 Answer](https://404memoryfound.com/posts/mavis-beacon-real-person.html): Mavis Beacon is not a real person. The Software Toolworks invented her in 1987 and paid the model on the box a flat $500, with no royalties.
 - [WinZip Price in 2026: What the $29 Shareware Costs](https://404memoryfound.com/posts/winzip-price-shareware-cost.html): WinZip price in 2026: about $35 a year for Standard, more than the $29 the whole program cost outright in 1991. Corel still sells it, Vector-backed.
 - [Is Sun Microsystems Still Around? Oracle Owns It](https://404memoryfound.com/posts/sun-microsystems-oracle-acquisition-java.html): Sun Microsystems is gone: Oracle paid $7.4 billion in 2010 and renamed it Oracle America. Java and Solaris survived, the SPARC line did not.
 - [Is Windows Movie Maker Still Available in 2026?](https://404memoryfound.com/posts/windows-movie-maker-still-available.html): Windows Movie Maker is gone: Microsoft pulled the download on January 10, 2017. Clipchamp replaced it, and a fake version once charged $29.95.

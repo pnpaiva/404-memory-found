@@ -4,6 +4,105 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Is Mavis Beacon a Real Person? The 1987 Answer
+
+URL: https://404memoryfound.com/posts/mavis-beacon-real-person.html
+Author: Theo Lindqvist (404 Memory Found)
+Published: 2026-11-11
+Topics: Software & Apps, Internet Culture
+
+**Summary:** Mavis Beacon is a fictional typing instructor invented by The Software Toolworks for its 1987 typing tutor, not a teacher who ever existed. The woman photographed for the box was model Renee L'Esperance, paid a flat $500 with no share of the royalties. The software is still sold in 2026: Encore Software lists the Anniversary Edition download at $39.99, and the trademarks belong to HMH Consumer Company Limited.
+
+**Key facts:**
+- Launched: Late 1987, The Software Toolworks
+- Model on the box: Renee L'Esperance, paid a flat $500 with no royalties
+- Price in 1992: $99.95 for Version 2.0 for Multimedia
+- Status today: Still sold: $39.99 Windows download in 2026
+- Owner today: HMH Consumer Company Limited, published under license by Encore Software, LLC
+
+## Who was the woman on the Mavis Beacon box?
+
+The face belonged to Renee L'Esperance, a Haitian-born model with no connection to typing instruction of any kind.
+
+Mental Floss reported in 2017 that Les Crane, a former television talk show host who had become a partner in The Software Toolworks, met L'Esperance in 1985 while she was working at the Saks Fifth Avenue perfume counter in Beverly Hills. He asked her to sit for a photograph. That photograph became the face of a product still on sale in 2026.
+
+She was paid once. Variety wrote in 2024 that L'Esperance was "paid a measly $500 for her work and didn't get to share in any royalties" from everything that followed.
+
+Later editions swapped her picture for other models and retouched her clothes to keep up with the decade, so the box a 1990s student remembers is not the box their younger sibling saw. L'Esperance gave no interviews and has stayed out of public view ever since.
+
+## Where did the name Mavis Beacon come from?
+
+Crane picked the first name, and Mental Floss reported in 2017 that it was a nod to the singer Mavis Staples. The surname was chosen for what a beacon does, which is guide someone who cannot see where they are going. That is a reasonable description of anyone learning to touch type without looking down.
+
+Joe Abrams, one of the founders of The Software Toolworks, has been blunt about the rest of it. "She was not a real person, and we never said she was," Abrams told Mental Floss in 2017.
+
+That distinction matters, because it is the part most retellings get wrong. The company never printed a biography for Mavis Beacon, never gave her a hometown and never claimed a teaching credential. The box carried a name, a photograph and a promise about words per minute.
+
+Buyers supplied everything else. Mental Floss described the result as a kind of mass delusion that took in the press as much as the public, which is roughly what happened a decade later when a generation decided the paperclip in Microsoft Word (https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html) had opinions about their letters.
+
+## What did the typing tutor do for The Software Toolworks?
+
+It turned a small software house into a public company inside a year.
+
+Before 1987 the Toolworks catalog leaned on chess programs and a version of ELIZA. Typing was a far bigger business, and the company said so in its own filing. In the Form 10-K for the fiscal year ended March 31, 1988, its first annual report as a public company, Toolworks described the typing market it had just entered as "significantly larger than chess."
+
+The same filing shows what that was worth. Total revenues for fiscal 1987/88 came to $3,793,606, against $2,172,536 the year before. That is growth of about 75 percent in twelve months, and the filing credits the new typing tutor as the main reason for it.
+
+Put plainly, a fictional instructor and a photograph bought at a perfume counter carried a public company's first annual report. The product that did it shipped in late 1987, which means the revenue jump in the March 1988 filing covers barely two quarters of selling it.
+
+## How much did Mavis Beacon Teaches Typing cost?
+
+Far more than software that teaches one skill would cost now.
+
+COMPUTE! reviewed Mavis Beacon Teaches Typing Version 2.0 for Multimedia in its December 1992 issue and listed the price at $99.95, from The Software Toolworks of Novato, California. That was for a boxed product with disks, a manual and a CD-ROM, sold through computer stores and office supply chains.
+
+Prices like that were normal for 1990s education software sold at retail. A single reference title could run past a hundred dollars, which is how Microsoft Encarta (https://404memoryfound.com/posts/what-happened-to-microsoft-encarta.html) ended up on so many family PCs as a bundled extra rather than a purchase.
+
+In 2026 the brand costs less in plain dollars than it did in 1992. Encore Software lists the Mavis Beacon Teaches Typing Anniversary Edition as a $39.99 download for Windows. No inflation math is needed to see the direction: a typing tutor was once a $99.95 retail box and is now a $39.99 file.
+
+## Who owns Mavis Beacon now, and can you still buy it?
+
+Yes, it is still sold in 2026, and the answer to who owns it is a licensing chain rather than a company that still builds typing software for a living.
+
+The marks belong to HMH Consumer Company Limited. Encore's own product page for the Anniversary Edition carries the notice in plain text: "Mavis Beacon and Broderbund are registered trademarks of HMH Consumer Company Limited, used under license." The publisher named on that page is Encore Software, LLC, and the listing shows the Windows download at $39.99 and in stock.
+
+The system requirements on that page are a clue to the product's age. Encore lists Windows Vista, 7, 8 and 10 as the supported systems, which is not the list a product written this decade would carry.
+
+Where to find one today: the 1990s boxed editions turn up on collector marketplaces such as Etsy (https://www.etsy.com/search?q=mavis+beacon+teaches+typing), usually as later CD-ROM releases or as part of vintage software bundles. Buy one as an artifact, for the artwork and the disks. Anyone who actually wants to learn to type is better served by the $39.99 download, with the caveat that Encore's supported systems stop at Windows 10.
+
+## Why did people think Mavis Beacon was their teacher?
+
+Because the software acted like one. It greeted the user by name, set the next lesson, scolded slow fingers and reported words per minute like a grade. Software in 1987 rarely did any of that, and the name on the box was the only human-sounding thing in the room.
+
+School computer labs did the rest. For millions of American students the program arrived on a shared machine with a teacher nearby, which made the name on the screen feel like staff. That is the same path that turned The Oregon Trail (https://404memoryfound.com/posts/what-happened-to-oregon-trail-game.html) into a shared memory for a generation that never bought a copy.
+
+The belief outlasted the floppy disks. Seeking Mavis Beacon, a documentary directed by Jazmin Jones about the search for the woman on the box, premiered at the Sundance Film Festival in January 2024, and Variety covered it from the festival. A film about hunting for a person who was never a person is a fair measure of how convincing the packaging was.
+
+The short version: the typing teacher was real enough to teach a generation, and she was never there.
+
+## Frequently Asked Questions
+
+### Is Mavis Beacon a real person?
+
+No. Mavis Beacon is a fictional typing instructor created by The Software Toolworks for Mavis Beacon Teaches Typing, which shipped in late 1987. Joe Abrams, one of the company's founders, told Mental Floss in 2017 that "she was not a real person, and we never said she was."
+
+### Who was the model on the Mavis Beacon box?
+
+The original Mavis Beacon photograph was of Renee L'Esperance, a Haitian-born model. Mental Floss reported in 2017 that Les Crane of The Software Toolworks met her in 1985 at the Saks Fifth Avenue perfume counter in Beverly Hills, and Variety reported in 2024 that she was paid $500 with no share of the royalties. Later editions of the software used different models.
+
+### Can you still buy Mavis Beacon Teaches Typing in 2026?
+
+Yes. Encore Software lists the Mavis Beacon Teaches Typing Anniversary Edition as a $39.99 download for Windows in 2026, with Windows Vista, 7, 8 and 10 given as the supported systems. The Mavis Beacon and Broderbund trademarks are held by HMH Consumer Company Limited and licensed to the publisher.
+
+**Sources:**
+- The Software Toolworks, Form 10-K for the fiscal year ended March 31, 1988: https://toolworks.com/history/Toolworks%20First%20Public%20Annual%20Report%203-88.pdf
+- Mental Floss: Typecast: Mavis Beacon, the Typing Teacher Who Never Was (2017): https://www.mentalfloss.com/article/503528/typecast-mavis-beacon-typing-teacher-who-never-was-turning-30
+- Variety: Seeking Mavis Beacon director Jazmin Jones on the typing teacher (2024): https://variety.com/2024/film/news/seeking-mavis-beacon-director-jazmin-jones-typing-teacher-sundance-1235881667/
+- COMPUTE! issue 147, December 1992: Mavis Beacon Teaches Typing Version 2.0 for Multimedia: https://www.atarimagazines.com/compute/issue147/S5_Mavis_Beacon_Teaches.php
+- Encore Software: Mavis Beacon Teaches Typing Anniversary Edition download for Windows: https://www.encore.com/mavis-beacon-teaches-typing-anniversary-edition-windows
+
+---
+
 # Memory Stick: Is Sony's Card Still Made in 2026?
 
 URL: https://404memoryfound.com/posts/sony-memory-stick-still-made.html
