@@ -86,7 +86,9 @@ def create_pin(token, board_id, post):
         "board_id": board_id,
         "title": post["title"][:100],
         "description": pin_description(post),
-        "link": f"{BASE_URL}/posts/{post['id']}.html",
+        # Pinterest's in-app browser often drops the referrer, so pinned traffic lands in GA as
+        # "direct" and cannot be told apart from noise. The tag makes every pin click attributable.
+        "link": f"{BASE_URL}/posts/{post['id']}.html?utm_source=pinterest&utm_medium=social&utm_campaign=auto-pin",
         "alt_text": (post.get("imageAlt") or post["title"])[:500],
         "media_source": {"source_type": "image_url", "url": f"{BASE_URL}/pins/{post['id']}.jpg"},
     }
