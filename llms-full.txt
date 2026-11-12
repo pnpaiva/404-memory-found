@@ -519,89 +519,91 @@ Travelocity and Expedia are separate brands owned by the same company, Expedia G
 
 URL: https://404memoryfound.com/posts/nintendo-64-value-used-prices.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-10-30
+Published: 2026-10-30  Updated: 2026-11-12
 Topics: Hardware, Gaming
 
-**Summary:** A Nintendo 64 is worth about $65 to $105 loose in 2026 and close to $200 complete in its box, on PriceCharting's tracked sales, under the $199.99 the console cost at its US launch on September 29, 1996. Nintendo discontinued the N64 worldwide on April 30, 2002 after building 32.93 million of them, which is why used hardware stayed cheap. The money moved to the cartridges, where ClayFighter Sculptor's Cut passes $1,232 loose.
+**Summary:** A Nintendo 64 is worth about $65 to $90 loose in 2026 and roughly $202 to $246 complete in its box, on the SportsCardPro guide built from PriceCharting's completed sales, all of it under the $199.99 the console cost at its US launch on September 29, 1996. The Nintendo 64 still exists only as used hardware: Nintendo retired it in Japan on April 30, 2002, ended North American production in 2003, and offers no repair or warranty service today. The money moved to the cartridges, where ClayFighter Sculptor's Cut reaches about $948 loose and $6,444 complete.
 
 **Key facts:**
 - Launched: September 29, 1996 in the United States, Nintendo
-- Launch price: $199.99 with Super Mario 64 and Pilotwings 64 at retail
+- Launch price: $199.99 at US retail
 - Units sold: 32.93 million worldwide, 20.63 million in the Americas
-- Status today: Discontinued April 30, 2002; no Nintendo hardware support
-- Value today: About $65 to $105 loose, near $200 complete in box
+- Status today: Discontinued; no Nintendo repair, warranty or new hardware
+- Price today: About $65 to $90 loose, $202 to $246 complete in box
 
-## What a console, a controller and the cables cost in 2026
+## What a console, its box and a complete set cost now
 
-PriceCharting, which tracks completed sales rather than asking prices, puts a loose Nintendo 64 console at roughly $65 to $105 in 2026, depending on which of its snapshots you read. Add the original box and the figure moves to about $140. A genuinely complete package with box, inserts and manual sits near $200.
+A loose Nintendo 64, meaning the console with a controller and the cables and nothing else, runs about $65 to $90 in 2026. The SportsCardPro guide, which is built on PriceCharting's completed-sales data rather than asking prices, has logged the gray NTSC console at $65.76 and at $69.00 in its 2026 snapshots, and a BGR price roundup published this year put the average loose sale nearer $90.
 
-Individual sold listings run under the guide. Tested working consoles bundled with a controller and the right cables have changed hands for $35 to $94, which in plain dollars is less than the $199.99 Nintendo charged on September 29, 1996.
+Keeping the cardboard changes the math. The same guide puts a console with its original box at about $140, and a genuinely complete package with box, inserts and manual between about $202 and $246, depending on which snapshot you read. Complete is where the money sits, and complete is scarce, because the box was the first thing thrown out in 1997.
+
+Every one of those figures is under the $199.99 Nintendo charged at the US launch on September 29, 1996, and that is before any adjustment for three decades of inflation. A console that outsold almost everything in its first Christmas is now a cheap shelf item.
 
 Two parts decide whether a cheap console is a good one. The original controller's analog stick wears down with use, and a worn stick drifts in menus and in Super Mario 64. The console also needs its power brick and a composite or S-Video cable, and the listings at the bottom of the market are exactly the ones that leave those out.
 
 ### Where to find one today
 
-Tested hardware costs more than the loose guide price, and for a 1996 console that is usually money well spent. Stone Age Gamer's Nintendo 64 section (https://stoneagegamer.com/nintendo/nintendo-64/) stocks consoles, controllers and replacement parts, which beats gambling on an untested unit at the $35 end of the range.
+Tested hardware costs more than the loose guide price, and for a 1996 console that is usually money well spent. Stone Age Gamer's Nintendo 64 section (https://stoneagegamer.com/nintendo/nintendo-64/) stocks consoles, controllers and replacement parts, which beats gambling on an untested unit from a marketplace seller.
 
-## Why one ClayFighter cartridge outprices every console
+## Are Nintendo 64 games worth anything in 2026?
 
-The expensive part of this system is not the system. ClayFighter Sculptor's Cut, which Blockbuster handed out as a rental exclusive in 1998 and then sold off to customers once the promotion ended, sits at about $1,232 loose and $5,824 complete on PriceCharting in 2026.
+More than the console, in several cases. The SportsCardPro guide lists Super Mario 64 at $34.99 loose and $116.73 complete, Mario Kart 64 at about $46 loose and about $116 complete, and The Legend of Zelda: Ocarina of Time at $32.46 loose and $122.50 complete in 2026.
 
-That single cartridge, with no box and no manual, costs more than a dozen complete consoles. It is the clearest sign of where the Nintendo 64 market went: the hardware stayed cheap because 32.93 million of them were built, while the short print runs kept climbing.
+Read those next to the hardware numbers and the market looks strange. A single loose copy of Super Mario 64 is worth roughly half a loose console, and a complete copy of Ocarina of Time at $122.50 is worth close to a boxed console at $140.
 
-The pattern repeats below that top price. Late releases, licensed sports titles with small runs and the games Blockbuster (https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html) stocked for rental rather than sale are the ones that cost real money, while the titles that sold millions can be had for a few dollars.
+The reason is that cartridges survived differently. Consoles sat in closets intact while boxes and manuals went in the bin, so complete software is rarer than working hardware even for titles that sold in the millions.
 
-So the honest answer for most people holding an old console in a closet in 2026 is that the box of cartridges is worth checking first, and the console itself is worth about what a new controller for a current system costs.
+The practical advice for anyone clearing out a cupboard in 2026 is to price the games before the machine. Three common complete cartridges can be worth more than the console, the controller and the cables put together.
 
-## How 460,000 units in four weeks set today's supply
+## Which Nintendo 64 cartridge costs the most?
+
+ClayFighter Sculptor's Cut, a 1998 release that Blockbuster (https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html) handed out as a rental exclusive before selling the stock to customers, is the most expensive standard Nintendo 64 release. The SportsCardPro guide puts it at about $948 for the cartridge alone and about $6,444 complete in 2026.
+
+That cartridge, with no box and no manual, is worth more than ten complete consoles. It is the clearest measure of where this market went. The hardware stayed cheap because 32.93 million consoles were built, while cartridges that shipped in the thousands kept climbing.
+
+The pattern repeats below the record. Late releases, licensed sports titles with small print runs and the games stocked for rental rather than sale are the ones that cost real money, while the titles that sold millions can be had for the price of lunch.
+
+It also means the grail prices and the ordinary prices are moving in opposite directions, which is why a guide figure from three years ago is no help when you are pricing a shelf today.
+
+## Is the Nintendo 64 still supported by Nintendo?
+
+No. Nintendo retired the console in Japan on April 30, 2002 and ended production for North America in 2003, and there has been no warranty service, no first-party repair and no new hardware since. Lifetime sales came to 32.93 million units, 20.63 million of them in the Americas, so about 63 percent of every Nintendo 64 ever built was sold in this hemisphere.
+
+Its replacement was the GameCube (https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html), which reached US stores in late 2001 and moved Nintendo to a small optical disc. The N64 kept selling alongside it for two more years at the budget end before the line closed.
+
+What Nintendo still sells is the software. A rotating set of Nintendo 64 games runs on the Nintendo Switch through the Expansion Pack tier of Nintendo Switch Online, emulated, with save states and a wireless controller that copies the 1996 shape.
+
+That is the real fork for anyone pricing this out in 2026. The subscription is the cheap way to play the famous titles, and original hardware is the only way to play a cartridge you already own on the console it was cut for.
+
+## How the 1996 sell-out set today's supply
 
 Nintendo put the console in US stores on September 29, 1996 with two games, Super Mario 64 and Pilotwings 64. By October 24, 1996, UPI reported that Nintendo of America had sold 460,000 of them at $200 each.
 
-Then the shelves emptied. Stores ran short through November and December 1996, and Nintendo of America told reporters late that month that it expected to pass 1.6 million systems in the United States by December 31.
+Then the shelves emptied. Stores ran short through November and December 1996, and Nintendo of America told reporters late that month that it expected to top 1.6 million systems in the United States by December 31.
 
-Peter Main, Nintendo of America's executive vice president of sales and marketing, told The Seattle Times in December 1996 that those three months made the console "easily the fastest selling system ever." He added that it was selling at three times the rate of its nearest competitor a year earlier.
+Peter Main, Nintendo of America's executive vice president of sales and marketing, told The Seattle Times in December 1996 that the quarter made the console "easily the fastest selling system ever." In an Associated Press report the same week, carried by The Spokesman-Review, Main put a dollar figure on it: "Nintendo 64 hardware and software retail sales will have averaged more than $5 million a day from our Sept. 29 launch through Dec. 31."
 
-All of that matters to a buyer three decades later. A console that moved 20.63 million units in the Americas left a deep second-hand pool, and that supply is the reason gray plastic consoles have stayed flat in price while the rare cartridges have not.
-
-## Did 1996 reviewers think the hardware earned its $199.99?
-
-GameSpot reviewed Super Mario 64 on December 1, 1996 and scored it 9.4, calling it a game that "rewards the curious, the original, and in some cases the bludgeoningly stubborn and tenacious." The launch lineup was two games deep, and one of them carried the console.
-
-The hardware's selling point was the analog stick in the middle of the controller, which gave players fine control of a character in three dimensions instead of eight fixed directions. Nintendo's second selling point was the cartridge. Game Paks loaded instantly where CD consoles stopped to read a disc.
-
-The cost of that choice shows in the catalog. The Nintendo 64 shipped a library of 388 games across its life, small for a console of its era, because cartridges were expensive to manufacture and held a fraction of what a CD held.
-
-The library did produce the system's anchors, and GoldenEye 007 (https://404memoryfound.com/posts/what-happened-to-goldeneye-007-n64.html) in 1997 is the one that sold consoles to people who had already bought Super Mario 64.
-
-## When Nintendo stopped making it, and what replaced it
-
-Nintendo discontinued the Nintendo 64 worldwide on April 30, 2002. Lifetime sales came to 32.93 million units, 20.63 million of them in the Americas, so roughly 63 percent of every Nintendo 64 ever built was sold in this hemisphere.
-
-Its replacement was the GameCube (https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html), which reached US stores in late 2001 and moved Nintendo to a small optical disc. Nothing about the Nintendo 64 is supported now: there is no warranty service, no first-party repair and no new hardware.
-
-What Nintendo does still sell is the software. A rotating set of Nintendo 64 games runs on the Nintendo Switch through the Expansion Pack tier of Nintendo Switch Online, emulated, with save states and a wireless controller that copies the 1996 shape.
-
-That is the real fork for anyone pricing this out in 2026. The subscription is the cheap way to play the big titles, and the hardware is the only way to play a cartridge you already own on the console it was cut for.
+All of that matters to a buyer three decades later. A console that moved 20.63 million units in the Americas left a deep second-hand pool, and that supply is why gray plastic consoles have stayed flat while scarce cartridges have not. The system's anchors hold their value better, and GoldenEye 007 (https://404memoryfound.com/posts/what-happened-to-goldeneye-007-n64.html) in 1997 is the title that sold consoles to people who had already finished Super Mario 64.
 
 ## Frequently Asked Questions
 
 ### How much is a Nintendo 64 worth in 2026?
 
-A loose Nintendo 64 console runs about $65 to $105 in 2026 on PriceCharting's tracked sales, around $140 with its original box and close to $200 for a complete package with inserts and manual. Individual tested consoles sold with a controller and cables have gone for as little as $35, well under the $199.99 the console cost at its US launch on September 29, 1996.
+A loose Nintendo 64 console runs about $65 to $90 in 2026 on the SportsCardPro guide, which uses PriceCharting's completed-sales data, rising to roughly $140 with its original box and about $202 to $246 for a complete package with inserts and manual. All of those figures sit below the $199.99 the console cost at its US launch on September 29, 1996.
 
 ### Is the Nintendo 64 still supported by Nintendo?
 
-No. Nintendo discontinued the Nintendo 64 worldwide on April 30, 2002, and there is no repair service, warranty or new hardware for it in 2026. Nintendo still licenses the games, and a rotating selection of Nintendo 64 titles is playable on the Nintendo Switch through the Expansion Pack tier of Nintendo Switch Online.
+No. Nintendo retired the Nintendo 64 in Japan on April 30, 2002 and ended North American production in 2003, and there is no repair service, warranty or new hardware for it in 2026. Nintendo still licenses the games, and a rotating selection of Nintendo 64 titles is playable on the Nintendo Switch through the Expansion Pack tier of Nintendo Switch Online.
 
 ### What is the most expensive Nintendo 64 game?
 
-ClayFighter Sculptor's Cut, a 1998 Blockbuster rental exclusive, is the most expensive standard Nintendo 64 release, at roughly $1,232 for the cartridge alone and $5,824 complete on PriceCharting in 2026. That is more than a dozen complete consoles, which is the clearest example of how the Nintendo 64 market split between cheap hardware and scarce cartridges.
+ClayFighter Sculptor's Cut, a 1998 Blockbuster rental exclusive, is the most expensive standard Nintendo 64 release, at about $948 for the cartridge alone and about $6,444 complete on the SportsCardPro guide in 2026. That is more than ten complete Nintendo 64 consoles, which is the clearest example of how this market split between cheap hardware and scarce cartridges.
 
 **Sources:**
 - UPI Archives: Nintendo 64 U.S. sales at 460,000 (October 24, 1996): https://www.upi.com/Archives/1996/10/24/Nintendo-64-US-sales-at-460000/6046846129600/
 - The Seattle Times: Nintendo 64 Sales To Top 1.6 Million Units (December 28, 1996): https://archive.seattletimes.com/archive/19961228/2367210/nintendo-64-sales-to-top-16-million-units
-- GameSpot: Super Mario 64 Review (December 1, 1996): https://www.gamespot.com/reviews/super-mario-64-review/1900-2544714/
-- PriceCharting: Nintendo 64 prices and value guide: https://www.pricecharting.com/console/nintendo-64
+- The Spokesman-Review (AP): Nintendo 64 Sales Set Record Pace (December 28, 1996): https://www.spokesman.com/stories/1996/dec/28/nintendo-64-sales-set-record-pace-video-game
+- SportsCardPro: Nintendo 64 prices and value guide (PriceCharting data): https://sportscardpro.com/console/nintendo-64
 - Wikipedia: Nintendo 64: https://en.wikipedia.org/wiki/Nintendo_64
 
 ---
