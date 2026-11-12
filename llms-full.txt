@@ -18834,35 +18834,33 @@ MySpace was created in 2003 by Tom Anderson and Chris DeWolfe, who were working 
 
 URL: https://404memoryfound.com/posts/why-google-glass-actually-failed.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-25  Updated: 2026-09-14
+Published: 2026-03-25  Updated: 2026-11-12
 Topics: Business Blunders, Hardware
 
-**Summary:** Google Glass is no longer sold or supported. Google stopped selling the last version, Glass Enterprise Edition, on March 15, 2023, and ended support on September 15, 2023, a decade after the $1,500 Explorer Edition reached its first buyers. Google's replacement is Android XR eyewear built with Warby Parker and Gentle Monster, shown in May 2026.
+**Summary:** No. Google Glass is discontinued. Google stopped selling the last version, Glass Enterprise Edition, on March 15, 2023 and ended support on September 15, 2023, a decade after the $1,500 Explorer Edition reached its first buyers. Google still owns the Glass name but has not used it since, and its replacement carries a different one: Android XR Intelligent Eyewear, built with Samsung, Warby Parker and Gentle Monster, which opened for pre-order on November 12, 2026 from $395 and reaches stores on December 10, 2026.
 
 **Key facts:**
 - Launched: Explorer Edition, February 2013, $1,500
-- Maker: Google (Alphabet)
-- Status today: Discontinued. Sales ended March 15, 2023
-- Support ended: September 15, 2023
-- What replaced it: Android XR eyewear with Gemini, due fall 2026
+- Owner today: Google, part of Alphabet
+- Status today: Discontinued. Sales ended March 15, 2023, support September 15, 2023
+- Price today: Not sold new. Second-hand units mostly $100 to $350
+- What replaced it: Android XR Intelligent Eyewear, from $395, in stores December 10, 2026
 
-## What did the $1,500 Explorer Edition actually buy?
+## What did $1,500 buy in 2013?
 
-Google Glass reached developers in February 2013 as the Explorer Edition, at $1,500. Google's own tech specs page lists what was inside: a 640 by 360 prism display that floated above the right eye, a 5 megapixel camera that shot 720p video, 2 GB of RAM, 16 GB of flash storage with 12 GB usable, and a bone conduction speaker in place of an earpiece. A dual-core Texas Instruments OMAP 4430 ran all of it.
+Google Glass reached its first buyers in February 2013 as the Explorer Edition, at $1,500. A titanium band held a small prism display above the right eye, a forward-facing camera, and a bone conduction speaker that passed sound through the skull instead of an earpiece.
 
-Getting one took more than money. In February 2013 Google ran a contest under the hashtag #ifihadglass, asking applicants to say in 50 words or less what they would do with the device. Roughly 8,000 people were picked, and each still had to pay the $1,500 and collect the unit in person at pop-up events in New York, Los Angeles or San Francisco.
+Getting one took more than money. Google ran a contest in February 2013 under the hashtag #ifihadglass, asking applicants to say in 50 words or less what they would do with the device. About 8,000 people were picked, and each still had to pay the $1,500 and collect the unit in person at events in New York, Los Angeles or San Francisco.
 
-Glass went on open sale to anyone in the United States on April 15, 2014, at the same price. A teardown by the research firm IHS that year put the bill of materials at $152.47, a gap that got quoted back at Google for years. The Cooper Hewitt, Smithsonian Design Museum now holds an Explorer Edition in its permanent collection.
+Google then opened a one-day sale to any United States resident over 18 on April 15, 2014, at the same price, and the stock ran out that day. A teardown by the research firm IHS in 2014 put the parts and assembly cost at $152.47, a figure that got quoted back at Google for years. IHS added its own caveat: most of what buyers paid covered engineering, software and tooling rather than components.
 
 ## Why did one small camera cause so much trouble?
 
 The camera sat above the display, pointing forward, and that was the whole problem. A phone held up to record is visible. A camera on a face is not.
 
-Sergey Brin had already made the case for moving hardware up there. Talking about smartphones at TED in February 2013, Brin said "You're standing there just rubbing this featureless piece of glass," as CNN reported that month. The public agreed with the diagnosis and rejected the cure.
+In March 2013, before Glass had shipped to anyone outside the contest, the 5 Point Cafe in Seattle announced a ban. Owner Dave Meinert said the bar does not let customers film each other, and described the ban as part joke and part policy. Casinos, cinemas, gyms and other bars followed, and several state legislatures debated whether wearing Glass behind the wheel counted as distracted driving.
 
-In March 2013, before Glass had shipped to anyone outside the contest, the 5 Point Cafe in Seattle announced a ban. Owner Dave Meinert posted that "The 5 Point is the first Seattle business to ban in advance Google Glasses," and later told reporters that part of it was a joke and part of it was serious, because the bar does not let customers film each other. Casinos, cinemas, gyms and other bars followed.
-
-The nickname arrived fast, and Google put it in print first. Its own Glass etiquette guide, published in February 2014, told Explorers: "Don't be creepy or rude (aka, a 'Glasshole')." A company that has to write that sentence about its own product has already lost the argument.
+The nickname arrived fast, and Google put it in print first. Its own etiquette guide for Explorers, published in February 2014 and reported by CNBC that week, told owners: "Don't be creepy or rude (aka, a 'Glasshole')." The same guide told wearers to ask permission before filming people, to switch Glass off anywhere phones had to be off, and not to stare into the display. A company that has to write those sentences about its own product has already lost the argument.
 
 ## Was the hardware good enough to survive the backlash?
 
@@ -18870,52 +18868,52 @@ No. The prism was readable indoors and washed out in daylight. Battery life coll
 
 The tether made the pitch awkward too. Glass had Wi-Fi and Bluetooth but no cellular radio, so it leaned on a phone in your pocket. A device sold as the end of pulling out your phone still required you to carry your phone.
 
-Software never caught up. Google opened a Glassware catalogue, but the screen was one small card, the battery could not run anything demanding, and the paying audience was 8,000 people. Developers who did that math walked away. Set it beside Nintendo's Virtual Boy (https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html), another head-worn device shipped before its display was ready, and the shape repeats: the demo works, the second hour does not.
+Software never caught up. Google opened a catalogue it called Glassware, but the screen was one small card, the battery could not run anything demanding, and the paying audience numbered in the thousands. Developers who did that math walked away. Set it beside Nintendo's Virtual Boy (https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html), another head-worn device shipped before its display was ready, and the shape repeats: the demo works, the second hour does not.
 
-## Is Google Glass still supported in 2026?
+## Who owns Google Glass now, and is any of it supported?
 
-No. Nothing in the Glass line is sold or updated today, and Google has not announced a return of the name.
+Google still owns Google Glass, and nothing in the line is sold or updated. The company holds the Glass trademark and has not put the name on a product since 2023.
 
-The consumer version went first. On January 15, 2015, the Glass team said it was leaving Google's X lab, writing that "we've outgrown the lab" as the project moved to its own team inside Google. The Explorer program closed that month and the $1,500 device stopped being sold.
+The consumer version went first. On January 15, 2015 the Glass team said it was leaving Google's X lab to become its own group, writing that it had "outgrown the lab" and that "We're closing the Explorer Program so we can focus on what's coming next." Sales of the $1,500 Explorer Edition stopped days later.
 
-Glass then became a work tool. Glass Enterprise Edition arrived in 2017, sold through Google's partners at roughly $1,828, aimed at warehouses, factory floors and hospitals. Glass Enterprise Edition 2 followed on May 20, 2019, at $999, with a Qualcomm Snapdragon XR1 chip, an 8 megapixel camera and USB-C charging.
+Glass then became a work tool. Glass Enterprise Edition arrived in 2017 for warehouses, factory floors and hospitals, sold through Google's partners rather than in shops. Glass Enterprise Edition 2 followed on May 20, 2019 at $999, with a Qualcomm Snapdragon XR1 chip and USB-C charging, undercutting Microsoft's HoloLens on price.
 
-That line ended as well. Google stopped selling Glass Enterprise Edition on March 15, 2023, and its support page names September 15, 2023 as the end of support. Existing headsets kept working, but no further updates came from Google. Alphabet still owns the brand and has not used it since.
+That line ended as well. Google's support page is blunt about it: "As of March 15, 2023, we will no longer be selling Glass Enterprise Edition." The same page set September 15, 2023 as the end of support, with replacements ending on that date and system images available until April 1, 2024. Existing headsets still switch on. Nothing new arrives on them.
 
-## What replaced Google Glass?
+## What replaced Google Glass in 2026?
 
 Two things, and neither of them is called Glass.
 
-The first is ordinary-looking camera eyewear. Meta sells smart glasses with Ray-Ban, built on the same Luxottica relationship Google announced in January 2014 and never turned into a shipping product. The advance was design rather than silicon: glasses that read as glasses draw none of the attention that a titanium arm and a visible prism did in 2013.
+The first is ordinary-looking camera eyewear from other companies. Meta sells smart glasses with Ray-Ban, a brand from the eyewear group Google itself signed a Glass deal with and never shipped a product with. The advance was design rather than silicon: glasses that read as glasses draw none of the attention that a titanium arm and a visible prism drew in 2013.
 
-The second is Google trying again under a different name. At Google I/O in May 2026, Google and Samsung showed Android XR eyewear built with Warby Parker and Gentle Monster, running Gemini for live translation, navigation and notification summaries. Google's announcement splits the line in two: audio glasses that talk in your ear, arriving in the fall of 2026, and display glasses after them. Making the display optional is the exact reverse of the 2013 bet.
+The second is Google trying again under a different name. Google and Samsung opened pre-orders for Android XR Intelligent Eyewear on November 12, 2026, with Warby Parker frames starting at $395 and Gentle Monster frames at $449, reaching stores on December 10, 2026. Samsung engineered the hardware. Shahram Izadi, Google's vice president for XR, had promised the line at Google I/O in May 2026, posting that "Intelligent eyewear is coming this fall!"
 
-Glass still belongs to the small club of products that arrived with more press than purpose, next to the Segway (https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html) and Google+ (https://404memoryfound.com/posts/why-google-plus-actually-failed.html). The difference is that this one changed how everybody else designs the category.
+The first pairs carry speakers, microphones and a camera, run Gemini for live translation and questions about whatever you are looking at, and have no display at all. Versions with a display come later, with no date attached. Making the screen optional is the reverse of the 2013 bet. Glass still sits in the small club of products that arrived with more press than purpose, next to the Segway (https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html) and Google+ (https://404memoryfound.com/posts/why-google-plus-actually-failed.html).
 
 ## Where to find a Google Glass unit today
 
-Google sells nothing in the line, so the second-hand market is the only route, and what you are buying is a display piece rather than a working computer. Support ended in September 2023 and no updates have shipped since. Explorer Edition units and their frames turn up alongside other 2010s hardware on Etsy (https://www.etsy.com/search?q=google+glass), usually untested and listed as collectables. Ask the seller whether the unit powers on and whether the charger is included, because Glass used a proprietary connector and replacements are scarce.
+Google sells nothing in the line, so the second-hand market is the only route, and what you are buying is a display piece rather than a working computer. Support ended in September 2023 and no updates have shipped since. Asking prices for Explorer Edition units mostly run between about $100 and $350, a fraction of the $1,500 they cost new, with complete kits at the top of that range. Frames, pouches and boxed units turn up alongside other 2010s hardware on Etsy (https://www.etsy.com/search?q=google+glass), usually untested and listed as collectables. Ask the seller whether the unit powers on and whether the charger is included, because Glass used a proprietary connector and replacements are scarce. To see one without buying it, the Cooper Hewitt, Smithsonian Design Museum in New York holds an Explorer Edition in its permanent collection.
 
 ## Frequently Asked Questions
 
 ### Is Google Glass still available in 2026?
 
-No. Google stopped selling Glass Enterprise Edition on March 15, 2023 and ended support on September 15, 2023, and there is no consumer Google Glass on sale in 2026. The consumer Explorer Edition had already been withdrawn in January 2015. Only second-hand units exist, and they get no software updates.
+No. Google stopped selling Glass Enterprise Edition, the last version of Google Glass, on March 15, 2023 and ended support on September 15, 2023, and there is no new Google Glass on sale in 2026. The consumer Explorer Edition had already been withdrawn in January 2015. Only second-hand units exist, and they get no software updates.
+
+### What replaced Google Glass?
+
+Google's replacement for Google Glass is Android XR Intelligent Eyewear, engineered with Samsung and sold under the Warby Parker and Gentle Monster brands. Pre-orders opened on November 12, 2026 from $395, and the first pairs reach stores on December 10, 2026. They run Gemini with a camera and speakers but no display, and versions with a display are promised later.
 
 ### How much did Google Glass cost?
 
-The Google Glass Explorer Edition cost $1,500 when it reached developers in February 2013 and still cost $1,500 when it went on open sale in the United States on April 15, 2014. Glass Enterprise Edition sold through Google's partners at roughly $1,828 in 2017, and Glass Enterprise Edition 2 launched on May 20, 2019 at $999.
-
-### Why was Google Glass discontinued?
-
-Google Glass was discontinued because the always-on camera made it socially unwelcome, with bans starting at the 5 Point Cafe in Seattle in March 2013, and because the hardware could not justify $1,500: a washed-out prism display, short battery life under video, and a thin app catalogue. Google withdrew the consumer version in January 2015, pivoted to enterprise, and ended that line in March 2023.
+The Google Glass Explorer Edition cost $1,500 when it reached its first buyers in February 2013, and still cost $1,500 in the one-day United States sale on April 15, 2014. Glass Enterprise Edition 2, the last model Google shipped, launched on May 20, 2019 at $999. A 2014 teardown by the research firm IHS put the parts and assembly cost of the Explorer Edition at $152.47.
 
 **Sources:**
-- Google Glass tech specs (Google Glass Help): https://support.google.com/glass/answer/3064128
 - Glass Enterprise Edition Announcement FAQ (Google Support, 2023): https://support.google.com/glass-enterprise/customer/answer/13417888
+- Google warns Glass users: don't be creepy or rude (CNBC, 2014): https://www.cnbc.com/2014/02/19/google-warns-glass-users-dont-be-creepy-or-rude.html
+- Google Glass costs just $152 to make (IEEE Spectrum, 2014): https://spectrum.ieee.org/google-glass-costs-just-152-to-make
 - Google Glass Enterprise Edition 2 announced for $999 (CNBC, 2019): https://www.cnbc.com/2019/05/20/google-glass-enterprise-edition-2-announced-price.html
-- Sergey Brin: Smartphones are 'emasculating' (CNN, 2013): https://www.cnn.com/2013/02/28/tech/innovation/brin-google-glass/index.html
-- Intelligent eyewear with Gemini is coming this fall (Google blog, 2026): https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/
+- Intelligent eyewear collections with Gemini features (Google blog, 2026): https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/
 
 ---
 
