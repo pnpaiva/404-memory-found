@@ -1,6 +1,6 @@
 ---
 name: 404mf-shorts
-description: Make a vertical short video (YouTube Shorts, TikTok, Reels) from a 404memoryfound.com post with the Win95 house style, word-by-word captions and a voiceover. Use when Pedro asks for a short, a video, a Reel or a TikTok for 404 Memory Found.
+description: Make a vertical short video (YouTube Shorts, TikTok, Reels) from a 404memoryfound.com post with the Win95 house style, word-by-word captions and a voiceover. Use when the editor asks for a short, a video, a Reel or a TikTok for 404 Memory Found.
 ---
 
 # 404 Memory Found shorts
@@ -27,7 +27,7 @@ Per-video files: authored scripts live in `scripts/<slug>.json`; `python3 make.p
  "timeline":[["2010","Bankruptcy"],["2019","Perth closes. Bend is last."]]}
 ```
 
-`text` is what is captioned; tts.py derives the spoken string from it (numbers, years, ordinals after month names, dollar amounts and the site URL are spelled out in words because ElevenLabs mumbles digit strings; Pedro flagged this on the Kmart video) and regroups the word timings per caption token. `text` is also what is spoken when no number needs conversion (write numbers as they should display: `9,000`, `$320 million`). `say` is a legacy field; `text` wins when present.
+`text` is what is captioned; tts.py derives the spoken string from it (numbers, years, ordinals after month names, dollar amounts and the site URL are spelled out in words because ElevenLabs mumbles digit strings; the editor flagged this on the Kmart video) and regroups the word timings per caption token. `text` is also what is spoken when no number needs conversion (write numbers as they should display: `9,000`, `$320 million`). `say` is a legacy field; `text` wins when present.
 
 ## Scene kinds (src/Short.tsx)
 
@@ -45,17 +45,17 @@ Per-video files: authored scripts live in `scripts/<slug>.json`; `python3 make.p
 | `calendar` | month pages flip from start to end while a day counter climbs | `calendar: {start, end, days, startLabel, endLabel}` |
 | `gallery` | 2 to 4 photos drop in as prints with captions | `gallery: [{src: image key, caption}]`, images in `images` |
 
-Hook styles (`hookStyle`): `vhs` (default), `polaroid` (photo develops from white, `hookCaption` under it), `interlace` (dial-up band-by-band load, `hookCaption` = file name). Pedro's rule (10 Sep 2026): every story gets its own assets, images and scene mix; only the Win95 template repeats. Never reuse the same scene sequence or hook style as the previous video, and give each video at least two photos of its own subject.
+Hook styles (`hookStyle`): `vhs` (default), `polaroid` (photo develops from white, `hookCaption` under it), `interlace` (dial-up band-by-band load, `hookCaption` = file name). the editor's rule (10 Sep 2026): every story gets its own assets, images and scene mix; only the Win95 template repeats. Never reuse the same scene sequence or hook style as the previous video, and give each video at least two photos of its own subject.
 
 Pick 4 to 6 kinds per video that match the post's data (a store chain gets `chart`, an ownership story gets `props`, a product gets a `timeline`). Vary the order between videos; only `hook` first and `outro` last are fixed. Add new kinds as components in `Short.tsx` and register them in `TITLES` and the `body` switch.
 
-## Style rules (Pedro approved this look on 10 Sep 2026)
+## Style rules (the editor approved this look on 10 Sep 2026)
 
 - Win95 desktop: teal `#008080`, grey bevel windows `#c0c0c0`, navy title bars `#000080`, yellow accent `#ffd400`, VT323 for chrome text, Inter 900 for captions. Top strip with logo and scene counter, bottom Win95 progress bar and the line "Sourced. Dated. No invented numbers."
 - Captions are word-by-word, one continuous white bar per line (never one box per word), current word highlighted yellow, numbers and key words (`yes`, `one`, `only`, `last`, anything with a digit or `$`) navy with yellow text once spoken. The hook caption is fully visible from frame 1 so the viewer reads ahead of the voice; every other scene reveals word by word.
-- Length 28 to 40 seconds, six scenes, 3 to 7 seconds each; scene length = trimmed audio + 0.06 s (tts.py cuts leading and trailing silence and shifts the word timings). Pedro wants sentences to run tight, no dead air.
-- The main window stays open for the whole video; only its CONTENTS animate in (Pedro: no opening and closing the page). Content entrances never repeat within a video (the `entrance()` map in Short.tsx): hook = CRT power-on, found = slide from the right, chart = maximise from the bottom-left, props = drop from the top, timeline = wipe left to right, outro = zoom with a twist. Add a new entrance when adding a new scene kind.
-- Music bed: `python3 gen_music.py 48` synthesises a royalty-free chiptune loop (A minor, 96 BPM) into `public/music.wav` (git-ignored, regenerate after a fresh clone); Short.tsx plays it looped at volume 0.04 (Pedro-approved level, do not raise it) with a 0.8 s fade-in and a 1.2 s fade-out. Change `--seed` for a different arpeggio pattern; keep it quiet and unmelodic so it never fights the voice.
+- Length 28 to 40 seconds, six scenes, 3 to 7 seconds each; scene length = trimmed audio + 0.06 s (tts.py cuts leading and trailing silence and shifts the word timings). the editor wants sentences to run tight, no dead air.
+- The main window stays open for the whole video; only its CONTENTS animate in (the editor: no opening and closing the page). Content entrances never repeat within a video (the `entrance()` map in Short.tsx): hook = CRT power-on, found = slide from the right, chart = maximise from the bottom-left, props = drop from the top, timeline = wipe left to right, outro = zoom with a twist. Add a new entrance when adding a new scene kind.
+- Music bed: `python3 gen_music.py 48` synthesises a royalty-free chiptune loop (A minor, 96 BPM) into `public/music.wav` (git-ignored, regenerate after a fresh clone); Short.tsx plays it looped at volume 0.04 (the editor-approved level, do not raise it) with a 0.8 s fade-in and a 1.2 s fade-out. Change `--seed` for a different arpeggio pattern; keep it quiet and unmelodic so it never fights the voice.
 - Every number, date and name comes from the post's `facts`, `summary` or body. No em dashes. US audience.
 - One pen name is never shown; the brand is the byline.
 - Second photo: `python3 -c "import fetch_images as f; print(f.commons_lookup('<query>'))"` from the repo root finds a free Commons image; download the 1280px thumb to `public/hero2.jpg`.
@@ -69,9 +69,9 @@ Always send, in the same message as the video:
 3. Optional: 3 to 5 tag words for the YouTube tag field and a one-line TikTok/Reels caption (same text, shorter, hashtags first).
 
 
-## Title, cover and description method (Pedro's rule from 10 Sep 2026: use the title and thumbnail analysis method, not ad-hoc copy)
+## Title, cover and description method (the editor's rule from 10 Sep 2026: use the title and thumbnail analysis method, not ad-hoc copy)
 
-Sources, all local: `reference/title-thumbnail-master-guide.pdf` (Colin & Samir + Creator Hooks: 3 click triggers, 8 title formulas, checklist, CCN test), `reference/guia-de-thumbnails.md` (ViewLab thumbnail method: question + emotion, top-third rule, 1 to 3 words, variations, contrast with the title) and the ViewLab title generator prompt in `~/ekkoa/lib/ai.ts` (`generateTitles`: one hook family per candidate, all CTR-optimised, ranked strongest first).
+Method: three click triggers, eight title formulas, a pre-publish checklist and the CCN test (works for a fan, a casual viewer and someone with zero context); thumbnails are a question plus an emotion, the key element in the top third, 1 to 3 words, tested in variations, adding what the title does not say; titles come as several candidates, one hook family each, ranked strongest first.
 
 **Titles.** Generate 6 to 8 candidates, each from a DIFFERENT hook family and never two from the same: curiosity/open loop, number/specificity, contrast/comparison, fear/loss, desire/transformation, authority/proof, contrarian/pattern break, story/confession. Every candidate must still be optimised to perform: a real curiosity gap, specific (a number, a year, a place when the post has one), broad appeal, clear stakes, a promise the video keeps. Under 50 characters is the target (mobile), 60 is the ceiling. Emotional hook inside the first 3 words. No vague "this happened" without context. Run the CCN test (works for a fan of the channel, a casual nostalgia viewer, and someone with zero context). Every fact in a title must be in the post; never promise what the video does not show. No em dashes. Deliver: the recommended title, its hook family and one line of why, plus 2 alternates for an A/B test.
 
@@ -83,10 +83,10 @@ Hand all of this over in the same message as the video file, every time.
 
 ## Game screenshots (RuneScape and other games)
 
-Wikimedia has no free game screenshots. For Old School RuneScape, Pedro's own RuneLite screenshots live in `~/.runelite/screenshots/<player>/` (Levels, Quests, Combat Achievements, 1920x1080 or 840x926). Always crop to the game viewport with PIL (exclude the chat box at the bottom-left, which shows the player name, and the sidebars) before using them; save into `public/<slug>/gN.jpg` and reference them in `images` as `shorts/public/<slug>/gN.jpg`. Jagex's fan content policy covers this use. Never show the player name anywhere.
+Wikimedia has no free game screenshots. For games, use screenshots from the editor's own play sessions. Always crop to the game viewport with PIL (exclude the chat box at the bottom-left, which shows the player name, and the sidebars) before using them; save into `public/<slug>/gN.jpg` and reference them in `images` as `shorts/public/<slug>/gN.jpg`. Jagex's fan content policy covers this use. Never show the player name anywhere.
 
 
-## One visual language per story (Pedro, 10 Sep 2026: "the visuals for each video should be radically different")
+## One visual language per story (the editor, 10 Sep 2026: "the visuals for each video should be radically different")
 
 The Win95 shell is the ONLY thing that repeats: teal desktop, top strip, bevelled window, caption bars, progress bar, Start-menu outro. Everything inside the window must be built from the subject's own iconography. `src/Story.tsx` holds the bespoke scenes, `src/Extra.tsx` the semi-generic ones, `src/ui.tsx` the shared chrome.
 
@@ -111,4 +111,4 @@ Rule when building a new short: pick the scenes from the subject's own world fir
 
 ## Known gaps / next upgrades
 
-Word timings are estimated with the Mac voice (exact with ElevenLabs). Wanted next: a receipt scene for price-then-vs-now posts, a "loading" scene for websites, automatic upload (YouTube Data API once Pedro creates the channel and pastes credentials into GitHub secrets).
+Word timings are estimated with the Mac voice (exact with ElevenLabs). Wanted next: a receipt scene for price-then-vs-now posts, a "loading" scene for websites, automatic upload (YouTube Data API once the editor creates the channel and pastes credentials into GitHub secrets).
