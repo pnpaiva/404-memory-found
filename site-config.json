@@ -1,7 +1,7 @@
 {
   "_description": "Monetization switches read by build.py. Leave a value empty to keep that feature off.",
-  "adsense_client": "",
-  "adsense_note": "PAUSED 13 Nov 2026. Search Console crawl stats showed AdsBot taking 29% of all Google crawl requests to this site while the indexing bots got 25%, on a site with 3 indexed pages and 2 clicks in 90 days. The ads earned cents. Paste the ca-pub id back here to switch Auto ads on again.",
+  "adsense_client": "ca-pub-2779742602426192",
+  "adsense_note": "Auto ads on. Set to empty to switch them off. (Paused 13 to 14 Nov 2026 on a wrong reading of the crawl stats: AdsBot is the Google Ads landing-page crawler, AdSense pages are read by Mediapartners-Google.)",
   "ads_txt": "google.com, pub-2779742602426192, DIRECT, f08c47fec0942fa0",
   "ads_txt_note": "Paste the ads.txt line AdSense gives you, e.g. google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0",
   "affiliate_disclosure": "Some links on this page are affiliate links. If you buy through them, 404 Memory Found may earn a small commission at no extra cost to you. We only link to things we would look for ourselves.",
