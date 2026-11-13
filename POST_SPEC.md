@@ -9,14 +9,14 @@ One post answers one search query completely in under five minutes of reading, s
 
 | Part | Rule |
 |---|---|
-| Length | 900 to 1,300 words in the body (FAQ and sources excluded) |
+| Length | Set by the question, recorded in the post's `format` field. **quick**: 550 to 850 words, for one factual question ("Is X worth anything?", "Is X still open?") where the reader wants the answer and a price table, not a history. **standard**: 900 to 1,400 words, a status question with a real story behind it. **deep**: 1,600 to 2,400 words, only for a big multi-part subject people research at length. Count is the body before the FAQ. A mix across the archive is the point: identical lengths everywhere read as a template |
 | Title | 45 to 60 characters, primary keyword in the first half. Rotate patterns; at most one in three titles may start with "What Happened to". Other patterns: "Is X Still Around in 2026?", "Who Owns X Now?", "How Many X Are Left?", "Why X Failed", "X Explained", "How X Lost to Y", "X in 1998 vs Today", "The Real Story of X". Status patterns get priority: they match what people actually type |
 | Slug | lowercase, 3 to 7 words, keyword first, no stop words, no year unless it is the query |
 | Meta title | same as title plus " \| 404 Memory Found", max 70 characters total |
 | Meta description | 120 to 155 characters, contains the keyword, ends with a concrete hook (a number, a date, a surprise) |
 | Summary | 2 to 3 sentences that answer the query directly. Rendered as the first paragraph. Contains the keyword. This is the featured-snippet candidate |
 | Quick facts | 3 to 5 short label/value pairs: year launched, company, price then and inflation-adjusted, units sold, what replaced it, status today |
-| Sections | 4 to 6 `<h2>` headings, 120 to 220 words each. Headings are specific and often question-shaped ("Why did the NSA ban Furby?"), never generic ("Background", "Conclusion") |
+| Sections | quick: 3 or 4 `<h2>`; standard: 4 to 6; deep: 6 to 9. Each section 100 to 250 words. Headings are specific and often question-shaped ("Why did the NSA ban Furby?"), never generic ("Background", "Conclusion") |
 | Paragraphs | 1 to 4 sentences. No walls of text. Numbers, dates and prices in every section |
 | Image | never write an `upload.wikimedia.org` URL from memory: those URLs live under a hash of the file name and a guessed one 404s forever. Give `imageSearch` keywords and let `fetch_images.py` resolve the real file. Only paste a URL you opened and saw load in this session |
 | Internal links | 2 to 3 links to existing posts inside the prose, on the natural phrase, never "click here" |
@@ -62,6 +62,39 @@ Never invent a quote, a price or a sales figure. If a number cannot be sourced, 
 ```
 
 `body` holds the sections and the FAQ only. `build.py` renders summary, image, quick facts, sources and byline around it.
+
+## Choosing a topic: only fight searches we can win
+
+A domain this young, with no links pointing at it, cannot outrank newspapers and Wikipedia. "Is Kmart
+still open" returns a full page of national news; "are old Nintendo Power magazines worth anything"
+returns forum threads, an analysis from years ago and a scraped copy. The second kind is where this site
+wins, and it is the only kind worth writing now.
+
+Before writing, search the exact query and read the first page of results. Count how many results are
+authoritative pages that already answer the question fully and recently: Wikipedia, national or major
+trade press, the brand's own site, a dedicated price database. **Write only when that count is 3 or
+fewer** and the rest are forum threads, Reddit, marketplace listings, thin or dated pages (nothing newer
+than 2023), or copies. Otherwise skip the topic and record it as `skipped_competitive` so nobody tries
+it again.
+
+Where winnable demand lives:
+- **What is it worth.** "Is X worth anything", "how much is X worth", "X value" for 1990s and 2000s
+  toys, handhelds, games, magazines, cards, gadgets and media. Collectors type these constantly, the
+  answers online are usually forum guesses, and money questions carry the best ad rates. Mainstream
+  subjects with a big price database (Pokémon cards, Beanie Babies, Funko) are not winnable; second-tier
+  ones usually are.
+- **Second-tier brands.** "What happened to X" and "who owns X now" for companies, websites, toy lines
+  and gadgets that were famous to one generation but are not national news anymore.
+- **Dated moments.** Anniversaries and news, handled by the freshness desk on existing posts.
+
+## Price guides
+
+A worth post carries a table of typical recent sold prices by model, variant and condition (loose,
+complete, sealed or graded), using `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`, each
+range supported by a source you list (an auction archive, a price-guide page, a dated article quoting
+sales). Then: how to tell the valuable version from the common one, what lowers the price, where to
+sell or buy one (one partner shop link, never eBay or Amazon as a destination). Prices are always
+ranges with the month and year they describe, never a single figure presented as exact.
 
 ## Images: the one rule that is never bent
 
