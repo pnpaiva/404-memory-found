@@ -1,1 +1,3 @@
 # Fast lane for the daily Search Console indexing run: YYYY-MM-DD URL, one per line.
+2026-11-13 https://404memoryfound.com/posts/what-happened-to-original-xbox-microsoft-gaming.html
+2026-11-13 https://404memoryfound.com/posts/what-happened-to-nintendo-wii.html
