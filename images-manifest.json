@@ -1696,6 +1696,16 @@
   "thumb": "/img/thumb/floppy-disk-drives-8-5-3-f189af.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/MotorolaStarTAC.jpg/960px-MotorolaStarTAC.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:MotorolaStarTAC.jpg",
+  "ext": "jpg",
+  "file": "/img/motorolastartac-db0125.jpg",
+  "height": 969,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/motorolastartac-db0125.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg/960px-Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg",
   "ext": "jpg",

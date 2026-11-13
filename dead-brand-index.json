@@ -1,9 +1,9 @@
 {
  "name": "The dead brand index",
  "source": "https://404memoryfound.com/dead-brand-index.html",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 211,
+ "count": 212,
  "brands": [
   {
    "name": "3dfx",
@@ -788,6 +788,13 @@
    "status2026": "Cannot make a call in the US; the last 2G GSM network shut off August 3, 2026",
    "owner2026": "Lenovo, which bought Motorola's phone business on October 30, 2014",
    "source": "https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html"
+  },
+  {
+   "name": "Motorola StarTAC",
+   "started": "January 3, 1996, Motorola",
+   "status2026": "Will not connect to any US network; used units ask about $45 to $140",
+   "owner2026": "",
+   "source": "https://404memoryfound.com/posts/motorola-startac-price-1996.html"
   },
   {
    "name": "MSN Messenger",
