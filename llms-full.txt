@@ -15418,14 +15418,14 @@ Craigslist removed its personals section on March 23, 2018, two days after Congr
 
 ---
 
-# Does the Nintendo Wii Still Work Online in 2026?
+# Nintendo Wii at 20: Still Plays Every Disc Offline
 
 URL: https://404memoryfound.com/posts/what-happened-to-nintendo-wii.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-03  Updated: 2026-09-20
+Published: 2026-04-03  Updated: 2026-11-13
 Topics: Gaming, Hardware
 
-**Summary:** The Nintendo Wii still works in 2026 as an offline console, and every disc in its library runs without touching a server. Nintendo ended official online play on May 20, 2014, stopped selling through the Wii Shop Channel on January 30, 2019, and took its last repair request in Japan on March 31, 2020. Games already purchased can still be redownloaded, and used consoles sell for about $40 to $75.
+**Summary:** The Nintendo Wii still works in 2026 as an offline console, and every disc in its library runs without touching a server. The console turns 20 on November 19, 2026, and Nintendo has announced no celebration, re-release or anniversary hardware for the date. Nintendo ended official online play on May 20, 2014, stopped selling through the Wii Shop Channel on January 30, 2019, and took its last repair request in Japan on March 31, 2020. Games already purchased can still be redownloaded, and used consoles sell for about $40 to $75.
 
 **Key facts:**
 - Launched: November 19, 2006 in North America at $249.99
@@ -15444,31 +15444,33 @@ The strategy came from Satoru Iwata, who had run Nintendo since 2002 and worried
 
 Iwata opened his 2005 Game Developers Conference keynote with a line the industry still repeats: "On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer." The Nintendo Wii was that sentence turned into hardware.
 
-## How did Wii Sports sell 82.9 million copies?
+## How old is the Nintendo Wii in 2026?
+
+The Nintendo Wii turns 20 on November 19, 2026; it reached North American stores on November 19, 2006 at $249.99. Nintendo has announced no event, re-release or anniversary hardware for the date. The Wii is also the one Nintendo system still missing from Nintendo Classics, the company's subscription back catalog: the October 27, 2026 update to that service covered GameCube, Game Boy (https://404memoryfound.com/posts/what-happened-to-game-boy-nintendo-handheld.html) Advance, Nintendo 64 (https://404memoryfound.com/posts/nintendo-64-value-used-prices.html), Super NES (https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html), Game Boy, NES and Genesis games, and no Wii titles. Motion control is the obstacle, because a game built around pointing a Wii Remote at a sensor bar has to be rebuilt before it works on a Nintendo Switch 2 controller.
+
+The closest thing to a party is a sequel. Nintendo Switch Sports Resort, a Nintendo Switch 2 exclusive set on Wuhu Island, the same island used by Wii Sports Resort in 2009, came out on October 22, 2026. Twenty years on, the 2006 console is still the only way to play most of what made the Wii famous.
+
+## How Wii Sports sold 82.9 million copies and beat the PlayStation 3
 
 Nintendo bundled Wii Sports with the console in every market except Japan and South Korea. That one decision made it the best-selling game on the system, at 82.90 million copies in Nintendo's own sales data, and the best-selling game ever released on a single platform.
 
-The game held five events: tennis, baseball, bowling, golf and boxing. None of them were deep. All of them could be explained in a sentence and played with one hand. Someone who had never held a controller could bowl a strike within two minutes, and the Wii Remote's pointer did the rest of the teaching.
+The game held five events: tennis, baseball, bowling, golf and boxing. None were deep, all could be explained in a sentence, and someone who had never held a controller could bowl a strike within two minutes.
 
 The effect spread past living rooms. Retirement homes ran bowling leagues on it, physical therapists used it for range-of-motion work, and local news stations filed the same segment about grandparents playing video games through 2007 and 2008.
 
 Nintendo kept feeding the audience it had found. Mario Kart Wii, released in April 2008, sold 37.38 million copies and is still the best-selling Wii game never bundled with hardware. Wii Fit, which shipped with the Wii Balance Board in 2008, sold 22.67 million and created the fitness-game aisle that Ring Fit Adventure later inherited.
 
-## Did the Wii really beat the PlayStation 3 and Xbox 360?
-
-Yes, and not narrowly. Nintendo puts lifetime Nintendo Wii shipments at 101.63 million units. Sony's PlayStation 3 finished its run at 87.4 million. Microsoft has never published a lifetime figure for the Xbox 360, which is its own sort of answer.
+The sales race was not close. Nintendo puts lifetime Nintendo Wii shipments at 101.63 million units. Sony's PlayStation 3 finished its run at 87.4 million. Microsoft has never published a lifetime figure for the Xbox 360, which is its own sort of answer.
 
 The scale looks stranger next to what came immediately before. The GameCube sold 21.74 million units (https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html) across its entire life. The Wii passed that total inside its first year on sale.
 
-Supply was the story of 2007 and 2008. Shoppers called stores in the morning to ask what had come off the truck, and retailers ran lotteries instead of stocking shelves.
-
 The Wii never took the all-time crown. Sony's PlayStation 2 still leads every home console ever built (https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html), and Nintendo's own Switch has since passed the Wii by more than 50 million units. But for one generation, the cheapest and technically weakest machine on the shelf outsold both expensive rivals.
 
-## Why did the Wii fade after 2009?
+## Why did the Wii fade after 2009, and what replaced it?
 
 The audience Nintendo recruited turned out to be the audience that leaves. Households that bought a Wii for Wii Sports and Wii Fit had little reason to buy a third or fourth game, and by 2010 a lot of consoles were sitting under televisions in the off position.
 
-Third-party publishers never solved the machine either. A studio building for the PlayStation 3 and Xbox 360 could not move that work onto a 480p console with motion controls without rebuilding it, so most shipped cheap originals instead. The library filled with party compilations and licensed filler sold on cover art alone.
+Third-party publishers never solved the machine either. Work built for the PlayStation 3 and Xbox 360 could not move onto a 480p console with motion controls without a rebuild, so most shipped cheap originals: party compilations and licensed filler sold on cover art alone.
 
 Then the phone arrived. The same buyers who wanted five minutes of something simple were now carrying a device that delivered it for a dollar, with no extra hardware and no television to borrow. Nintendo had proved a huge casual market existed and then watched Apple and Google serve it more conveniently.
 
@@ -15484,13 +15486,7 @@ Redownloads survived that shutdown. A console still signed in to its original ac
 
 Hardware support is finished. Nintendo Japan accepted its last Wii repair request on March 31, 2020, citing a shortage of parts. Anything that breaks now is a job for an independent repair shop.
 
-## What replaced the Nintendo Wii?
-
-The Wii U arrived on November 18, 2012 and sold 13.56 million units in its entire life, less than a seventh of what the Wii managed. The name was the first problem: shoppers could not tell whether they were buying a new console or an accessory for the one they owned.
-
-The Nintendo Switch, released in March 2017, is where the Wii's ideas actually landed. Detachable controllers with motion sensing, a machine built around people playing in the same room, and a deliberate refusal to compete on raw graphics. It has shipped 155.92 million units as of March 31, 2026, which is more than the Wii and the Wii U combined and then some.
-
-Nintendo also kept mining the catalog: Wii Sports returned as Nintendo Switch Sports in 2022.
+The Wii U arrived on November 18, 2012 and sold 13.56 million units in its whole life, less than a seventh of what the Wii managed, partly because shoppers could not tell whether they were buying a console or an accessory for the one they owned. The Nintendo Switch, released in March 2017, is where the Wii's ideas landed: detachable controllers with motion sensing, a machine built for people in the same room, and no interest in competing on raw graphics. It had shipped 155.92 million units as of March 31, 2026.
 
 ## Can you still play a Wii in 2026, and what does one cost?
 
@@ -15508,9 +15504,9 @@ Used Wii hardware is cheap because Nintendo built more than 100 million of them.
 
 Yes. A Nintendo Wii still boots and plays every game disc in its library in 2026, because disc-based games never needed Nintendo's servers. What no longer works is online play, which Nintendo ended on May 20, 2014, and the WiiConnect24 channels, which closed on June 27, 2013.
 
-### Can you still buy games on the Wii Shop Channel?
+### When is the Nintendo Wii's 20th anniversary?
 
-No. The Wii Shop Channel stopped selling WiiWare and Virtual Console games on January 30, 2019, and points cards stopped being redeemable in March 2018. Owners can still redownload titles they bought before that date, but Nintendo has warned that the redownload service will end at an unannounced future date.
+The Nintendo Wii's 20th anniversary falls on November 19, 2026, 20 years after the console reached North American stores at $249.99. Europe reaches the same milestone on December 8, 2026, because the Wii went on sale there on December 8, 2006. Nintendo has announced no official celebration, re-release or anniversary hardware for either date.
 
 ### How much is a used Nintendo Wii worth in 2026?
 
@@ -15522,6 +15518,8 @@ A working Nintendo Wii with a controller and cables typically sells for $40 to $
 - Game Developer: Satoru Iwata's 'Heart of a Gamer' keynote at GDC 2005: https://www.gamedeveloper.com/business/video-satoru-iwata-s-heart-of-a-gamer-keynote-at-gdc-2005
 - Video Games Chronicle: Nintendo ends Wii repair support after 13 years: https://www.videogameschronicle.com/news/nintendo-ends-wii-repair-support-after-13-years/
 - Engadget: Nintendo's Wii Shop Channel shuts down today: https://www.engadget.com/2019-01-30-wii-shop-channel-shuts-down.html
+- Nintendo: Nintendo Switch Sports Resort for Nintendo Switch 2, released October 22, 2026: https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Nintendo-Switch-Sports-Resort-3115652.html
+- Nintendo: New updates for the Nintendo Classics library of games, October 27, 2026: https://www.nintendo.com/my/news/article/3XkLFrNv1U1hFwXSdFC79Q
 
 ---
 
@@ -16546,14 +16544,14 @@ Not quite. Apple reported net income of $309 million in fiscal 1998, $601 millio
 
 ---
 
-# Is the Original Xbox Still Supported in 2026?
+# Original Xbox at 25: 25 Games Now Playable on PC
 
 URL: https://404memoryfound.com/posts/what-happened-to-original-xbox-microsoft-gaming.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-31  Updated: 2026-09-17
+Published: 2026-03-31  Updated: 2026-11-13
 Topics: Gaming, Hardware, Business Blunders
 
-**Summary:** The original Xbox has not been supported since Microsoft stopped making it in 2006, and the console's Xbox Live service shut down on April 15, 2010. Microsoft still owns the Xbox brand, 39 original Xbox games run on Xbox Series X and Series S through backward compatibility, and a free fan-run service called Insignia has put 199 of the old online games back on the internet. Working consoles sell for roughly $60 to $100 in 2026.
+**Summary:** The original Xbox has not been supported since Microsoft stopped making it in 2006, and the console's Xbox Live service shut down on April 15, 2010. The console turns 25 on November 15, 2026, and Microsoft marked the date by taking its Windows 11 backward compatibility list for original Xbox games to 25 titles. Microsoft still owns the Xbox brand, 39 original Xbox games run on Xbox Series X and Series S through backward compatibility, and a free fan-run service called Insignia has put 199 of the old online games back on the internet. Working consoles sell for roughly $60 to $100 in 2026.
 
 **Key facts:**
 - Launched: November 15, 2001 in the US, at $299
@@ -16562,23 +16560,23 @@ Topics: Gaming, Hardware, Business Blunders
 - Owner today: Microsoft, which still runs the Xbox brand
 - Price today: About $60 to $100 used in 2026, near $275 complete in box
 
-## How four DirectX engineers talked Microsoft into a console
+## How Microsoft built the Xbox and lost $4 billion on it
 
 In 1998, four members of Microsoft's DirectX team, Seamus Blackley, Kevin Bachus, Ted Hase and Otto Berkes, started building a games machine out of PC parts after hours. Sony was about to ship the PlayStation 2, and Sony was selling it as a living room computer rather than a toy.
 
 The obstacle was internal. Microsoft in 1999 was a Windows company, and a rival team out of the WebTV group (https://404memoryfound.com/posts/what-happened-to-webtv-internet-television.html) wanted a cheap set-top box running a cut-down copy of Windows. The DirectX plan called for custom silicon, a built-in hard drive and an Ethernet port, none of which looked like Windows at all.
 
-So the engineers described it as a Windows device anyway. "We absolutely, intentionally hoodwinked [Bill Gates]," Blackley told GamesRadar in 2021, saying he had told Gates in writing, many times, that the team was building a Windows console. By the time senior management understood what the hardware actually was, the project was too far along to stop.
-
-Microsoft had already tried to buy Nintendo (https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html) and been turned down, so building the box was the only route left into the living room.
-
-## Why did Microsoft lose money on every Xbox it sold?
+So the engineers described it as a Windows device anyway. "We absolutely, intentionally hoodwinked [Bill Gates]," Blackley told GamesRadar in 2021, saying he had told Gates in writing, many times, that the team was building a Windows console. Microsoft had already tried to buy Nintendo (https://404memoryfound.com/posts/microsoft-tried-buy-nintendo.html) and been turned down, so building the box was the only route left into the living room.
 
 The Xbox reached US stores on November 15, 2001 at $299, a year after the PlayStation 2 and three days before the Nintendo GameCube (https://404memoryfound.com/posts/why-nintendo-gamecube-lost-console-war.html). Inside the case was a 733 MHz Intel Pentium III, an Nvidia graphics chip, 64 MB of memory, a hard drive and an Ethernet port. No other console of that generation shipped with a hard drive and a network port as standard.
 
-Those parts cost more than the sticker. Digital Trends' history of the console puts the build cost near $425 a unit against the $299 price, which is a loss of more than $100 before a single game changed hands. The plan was the usual console plan: give away the hardware, take a licensing fee on every game sold for it.
+Those parts cost more than the sticker. Digital Trends' history of the console puts the build cost near $425 a unit against the $299 price, a loss of more than $100 before a single game changed hands. The plan was the usual console plan: give away the hardware, take a licensing fee on every game sold for it. That plan needs volume, and the volume never arrived. The Xbox sold about 24.65 million units worldwide before Microsoft ended production in 2006, against more than 160 million for the PlayStation 2 (https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html), a lifetime figure Sony finally confirmed in 2024. Microsoft's losses on the first Xbox ran past $4 billion.
 
-That plan needs volume, and the volume never arrived. The Xbox sold about 24.65 million units worldwide before Microsoft ended production in 2006, against more than 160 million for the PlayStation 2 (https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html), a lifetime figure Sony finally confirmed in 2024. Microsoft's losses on the first Xbox ran past $4 billion.
+## How old is the original Xbox in 2026?
+
+The original Xbox turns 25 on November 15, 2026; it went on sale in the United States on November 15, 2001 at $299. Microsoft is treating the date as a birthday for the brand rather than for the hardware, and the clearest gift went to the 2001 library. On November 12, 2026 the company added 21 original Xbox games to backward compatibility on Windows 11, taking that PC list from four titles to 25, with The Elder Scrolls III: Morrowind and several Star Wars games among them.
+
+The hardware tribute is a lookalike rather than a reissue. The Xbox Series X25 Limited Edition, a translucent green Series X carrying a 25th anniversary logo, individually engraved with its own number and bundled with a download of Halo: Campaign Evolved, went on sale on November 13, 2026 at $899.99 after pre-orders opened on August 26, 2026. Nothing new has been announced for the 2001 console itself, which has gone 20 years without first-party support.
 
 ## What did Halo and Xbox Live actually change?
 
@@ -16602,7 +16600,7 @@ Not on Microsoft's servers. Larry "Major Nelson" Hryb announced the end of the s
 
 It came back without Microsoft. Insignia, a free fan-built reverse engineering of the old Xbox Live servers, has been running since 2020 and reopened Halo 2 matchmaking in a public beta in March 2024. As of August 2026 it had more than 34,000 registered users and supported 199 of the 381 games that used Xbox Live, with friends lists, clans, voice chat and leaderboards working again.
 
-Offline, the disc in your hand still boots. Microsoft's backward compatibility library also lists 39 original Xbox titles that run on Xbox One and Xbox Series X and Series S, a list frozen in November 2021 when licensing and technical limits ended new additions. Microsoft said in 2026 that the program will restart for the brand's 25th anniversary.
+Offline, the disc in your hand still boots. Microsoft's backward compatibility library also lists 39 original Xbox titles that run on Xbox One and Xbox Series X and Series S, a list frozen in November 2021 when licensing and technical limits ended new additions. That console list has not grown, but a separate program that launched in July 2026 with four games brought original Xbox titles to Windows 11, and it reached 25 of them on November 12, 2026.
 
 ## Where to find one today
 
@@ -16620,9 +16618,9 @@ A used original Xbox from 2001 sells for roughly $60 to $100 in 2026 with a cont
 
 Microsoft's Xbox Live service for the original Xbox was switched off on April 15, 2010, and it has not returned. Online play on the 2001 console now runs on Insignia, a free fan-run replacement that supported 199 of the 381 Xbox Live games as of August 2026, including Halo 2.
 
-### How many original Xbox consoles were sold?
+### When is the original Xbox's 25th anniversary?
 
-The original Xbox sold about 24.65 million units worldwide between its US launch on November 15, 2001 and the end of production in 2006. That is a fraction of the PlayStation 2's confirmed lifetime total of more than 160 million, and Microsoft lost over $4 billion on the console.
+The original Xbox's 25th anniversary falls on November 15, 2026, 25 years after the console went on sale in the United States at $299. Microsoft marked the week by adding 21 more original Xbox games to backward compatibility on Windows 11 on November 12, 2026, and by releasing the $899.99 Xbox Series X25 Limited Edition console on November 13, 2026.
 
 **Sources:**
 - Xbox (console), Wikipedia: launch, hardware, sales and Japan figures: https://en.wikipedia.org/wiki/Xbox_(console)
@@ -16630,6 +16628,9 @@ The original Xbox sold about 24.65 million units worldwide between its US launch
 - NBC News: 'Halo 2' reports $125 million in first-day sales, November 2004: https://www.nbcnews.com/id/wbna6456214
 - GamesRadar: Seamus Blackley on tricking Bill Gates into approving the original Xbox: https://www.gamesradar.com/seamus-blackley-on-tricking-bill-gates-and-the-jedi-mind-tricks-that-were-needed-to-make-the-original-xbox/
 - Insignia: the fan-run Xbox Live replacement for the original Xbox: https://insignia.live/
+- Xbox Wire: 25 Original Xbox Games Available Today on PC via Xbox Backward Compatibility, November 12, 2026: https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc/
+- Gematsu: Xbox Backward Compatibility on PC adds 21 titles, November 2026: https://www.gematsu.com/2026/11/xbox-backward-compatibility-on-pc-adds-21-titles
+- Xbox Wire: Pre-orders begin for the Xbox 25th Anniversary Collection, August 26, 2026: https://news.xbox.com/en-us/2026/08/26/pre-orders-begin-today-xbox-25th-anniversary-collection/
 
 ---
 
