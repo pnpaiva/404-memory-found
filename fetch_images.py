@@ -29,6 +29,8 @@ THUMB_DIR = os.path.join(IMG_DIR, "thumb")
 MANIFEST = "images-manifest.json"
 MAX_WIDTH = 1280  # Google Discover wants at least 1200px wide
 THUMB_WIDTH = 240
+MEDIUM_DIR = os.path.join(IMG_DIR, "m")
+MEDIUM_WIDTH = 720  # what a phone actually needs for a full-width hero; the 1280 copy stays for Discover
 USER_AGENT = "404MemoryFound-build/1.0 (https://404memoryfound.com; hello@404memoryfound.com)"
 
 
@@ -126,6 +128,25 @@ def save_variants(data, name):
         "ext": ext,
     }
 
+
+
+def ensure_medium(file_path):
+    """A 720px copy of a stored image for phones. Made from the local file, so it costs no download,
+    and only when the original is wider than that (otherwise the original already is the small one)."""
+    src = file_path.lstrip("/")
+    dst = os.path.join(MEDIUM_DIR, os.path.basename(src))
+    if os.path.exists(dst) or not os.path.exists(src):
+        return os.path.exists(dst)
+    im = Image.open(src)
+    if im.width <= MEDIUM_WIDTH:
+        return False
+    os.makedirs(MEDIUM_DIR, exist_ok=True)
+    out = im.resize((MEDIUM_WIDTH, round(im.height * MEDIUM_WIDTH / im.width)), Image.LANCZOS)
+    if src.lower().endswith(".png"):
+        out.save(dst, "PNG", optimize=True)
+    else:
+        out.convert("RGB").save(dst, "JPEG", quality=80, optimize=True, progressive=True)
+    return True
 
 def original_url(url):
     """Thumb URL -> original upload URL (works when the requested thumb size is refused)."""
@@ -318,6 +339,8 @@ def main():
                 json.dump(manifest, open(MANIFEST, "w", encoding="utf-8"), indent=1, sort_keys=True)
 
     json.dump(manifest, open(MANIFEST, "w", encoding="utf-8"), indent=1, sort_keys=True)
+    made = sum(1 for v in manifest.values() if v.get("status") == "ok" and v.get("file") and ensure_medium(v["file"]))
+    print(f"{made} images have a {MEDIUM_WIDTH}px phone copy in /{MEDIUM_DIR}")
     ok = sum(1 for v in manifest.values() if v["status"] == "ok")
     bad = [u for u, v in manifest.items() if v["status"] != "ok"]
     total = sum(os.path.getsize(os.path.join(dp, f)) for dp, _, fs in os.walk(IMG_DIR) for f in fs)

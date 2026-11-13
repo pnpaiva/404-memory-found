@@ -633,9 +633,15 @@ def post_extras_html(post):
         info = post["heroInfo"]
         alt = esc(post.get("imageAlt") or post["title"])
         caption = post.get("imageCaption") or ""
+        # The hero is usually the largest thing on screen, so it loads first; phones get the 720px copy.
+        medium = "/img/m/" + os.path.basename(post["heroLocal"])
+        srcset = ""
+        if os.path.exists(os.path.join(OUTPUT_DIR, medium.lstrip("/"))):
+            srcset = (f' srcset="{medium} 720w, {post["heroLocal"]} {info["width"]}w"'
+                      ' sizes="(max-width: 768px) calc(100vw - 32px), 760px"')
         parts.append(
-            f'<figure class="post-hero"><img src="{post["heroLocal"]}" alt="{alt}" width="{info["width"]}" '
-            f'height="{info["height"]}" decoding="async"><figcaption>{caption} {credit_link(info)}</figcaption></figure>')
+            f'<figure class="post-hero"><img src="{post["heroLocal"]}"{srcset} alt="{alt}" width="{info["width"]}" '
+            f'height="{info["height"]}" fetchpriority="high" decoding="async"><figcaption>{caption} {credit_link(info)}</figcaption></figure>')
     facts = post.get("facts") or []
     if facts:
         rows = "".join(f'<div class="fact-row"><dt>{esc(f["label"])}</dt><dd>{f["value"]}</dd></div>' for f in facts)
@@ -653,6 +659,43 @@ def sources_html(post):
     return f'<section class="post-sources"><h2>Sources</h2><ul>{items}</ul></section>'
 
 
+def human_date(iso):
+    """2026-09-27 -> September 27, 2026 (what a US reader expects to see)."""
+    try:
+        d = datetime.strptime(iso, "%Y-%m-%d")
+    except (TypeError, ValueError):
+        return iso or ""
+    return f"{d.strftime('%B')} {d.day}, {d.year}"
+
+
+def add_heading_ids(body):
+    """Give every <h2> a stable id so the table of contents (and Google's jump links) can point at it."""
+    used, out = set(), []
+
+    def repl(m):
+        attrs, inner = m.group(1), m.group(2)
+        if "id=" in attrs:
+            return m.group(0)
+        base = re.sub(r"[^a-z0-9]+", "-", strip_tags(inner).lower()).strip("-")[:60] or "section"
+        slug, n = base, 2
+        while slug in used:
+            slug, n = f"{base}-{n}", n + 1
+        used.add(slug)
+        out.append((slug, strip_tags(inner)))
+        return f'<h2{attrs} id="{slug}">{inner}</h2>'
+
+    body = re.sub(r"<h2([^>]*)>(.*?)</h2>", repl, body, flags=re.S)
+    return body, out
+
+
+def toc_html(headings):
+    """"In this article" box: only worth showing when there is something to navigate."""
+    if len(headings) < 4:
+        return ""
+    items = "".join(f'<li><a href="#{slug}">{esc(text)}</a></li>' for slug, text in headings)
+    return f'<nav class="post-toc" aria-label="In this article"><div class="post-toc-title">In this article</div><ol>{items}</ol></nav>'
+
+
 def build_post_page(ctx, post, posts):
     related = related_posts(post, posts)
     related_html = ""
@@ -667,16 +710,28 @@ def build_post_page(ctx, post, posts):
     if 'rel="sponsored' in post["body"] and ctx["config"].get("affiliate_disclosure"):
         disclosure = f'<p class="affiliate-disclosure">{esc(ctx["config"]["affiliate_disclosure"])}</p>'
 
+    body_with_ids, headings = add_heading_ids(post["body"])
+    first_tag = post["tags"][0] if post["tags"] else None
+    crumb_mid = (f'<a href="/tags/{tag_slug(first_tag)}.html">{esc(first_tag)}</a>' if first_tag
+                 else '<a href="/posts/">All posts</a>')
+    if post.get("updated") and post["updated"] != post["date"]:
+        dates = (f'Updated <time datetime="{post["updated"]}">{human_date(post["updated"])}</time>'
+                 f' <span class="post-meta-sep">&middot;</span> First published <time datetime="{post["date"]}">{human_date(post["date"])}</time>')
+    else:
+        dates = f'Published <time datetime="{post["date"]}">{human_date(post["date"])}</time>'
+
     content = f"""<a class="page-back page-back-mobile" href="/">&larr; Back</a>
 <article class="post-article">
     <header class="post-header">
+        <nav class="post-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">&rsaquo;</span> {crumb_mid}</nav>
         <h1>{esc(post['title'])}</h1>
-        <div class="post-meta"><time datetime="{post['date']}">{post['date']}</time>{(' | Updated <time datetime="' + post['updated'] + '">' + post['updated'] + '</time>') if post.get('updated') else ''} | By {byline} | <span class="reading-time">{post['readingTime']}</span></div>
+        <div class="post-meta">By {byline} <span class="post-meta-sep">&middot;</span> {dates} <span class="post-meta-sep">&middot;</span> <span class="reading-time">{post['readingTime']}</span></div>
     </header>
     {post_extras_html(post)}
+    {toc_html(headings)}
     {disclosure}
     <div class="post-body">
-{post['body']}
+{body_with_ids}
     </div>
     {sources_html(post)}
     <footer class="post-footer">
@@ -725,7 +780,7 @@ def build_post_page(ctx, post, posts):
                      og_type="article", og_image=post["ogImage"], extra_meta=extra, og_title=post["title"],
                      schemas=(blog_posting, breadcrumbs, extract_faq_schema(post["body"])))
     return shell_html(ctx, head, body_class="post-page", window_icon="📖", window_title=post["title"],
-                      content=content, status_text=post["date"], slug=post["slug"])
+                      content=content, status_text=human_date(post.get("updated") or post["date"]), slug=post["slug"])
 
 
 def build_hub_page(ctx, filename, posts):
@@ -1365,6 +1420,19 @@ PAGE_SHELL_CSS = """
 .page-shell .author-card .author-beat { margin: 2px 0 4px; }
 .page-shell .author-card p { font-size: 13px; margin: 0; }
 
+/* Post header and in-page navigation */
+.page-shell .post-breadcrumb { font-size: 13px; color: #555; margin-bottom: 8px; }
+.page-shell .post-breadcrumb a { color: #000080; text-decoration: none; }
+.page-shell .post-breadcrumb a:hover { text-decoration: underline; }
+.page-shell .post-meta-sep { color: #999; margin: 0 2px; }
+.page-shell .post-toc { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 10px 14px 10px; margin: 14px 0 22px; }
+.page-shell .post-toc-title { font-weight: bold; color: #000080; font-size: 14px; margin-bottom: 6px;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.page-shell .post-toc ol { margin: 0; padding-left: 22px; font-size: 15px; line-height: 1.6; }
+.page-shell .post-toc a { color: #000080; text-decoration: none; }
+.page-shell .post-toc a:hover { text-decoration: underline; }
+.page-shell .post-body h2 { scroll-margin-top: 52px; }
+
 /* Dead brand index: a reference table people can sort and filter without leaving the page */
 .page-shell .brand-index-tools { display: flex; align-items: center; gap: 8px; margin: 14px 0 8px; }
 .page-shell .brand-index-tools label { font-size: 13px; font-weight: bold; }
@@ -1423,33 +1491,64 @@ PAGE_SHELL_CSS = """
 .post-body tr:nth-child(even) td { background: #f4f4f4; }
 .post-body td a { color: #000080; }
 
+/* Reading mode. The article used to sit in an 850x620 window with its own scrollbar, so readers
+   scrolled a box inside the page and the browser's own scroll, find-in-page and reader view did not
+   apply. Generated pages now open the window "maximized" into the document: the page scrolls like any
+   site, the Win95 title bar sticks to the top and the taskbar to the bottom. */
+/* Only the root scrolls. If body also gets overflow, it becomes the scroll container that sticky
+   elements attach to, and since body itself never scrolls the title bar and taskbar stop sticking. */
+html:has(body.page-shell) { height: auto; min-height: 100%; overflow-x: hidden; overflow-y: auto; }
+body.page-shell { height: auto; min-height: 100%; overflow: visible; }
+body.page-shell { user-select: text; }
+.page-shell .post-body, .page-shell .page-card { user-select: text; }
+
 @media (min-width: 769px) {
     .page-shell .page-back-mobile { display: none; }
     .page-shell .page-mobile-footer { display: none; }
-    .page-shell .post-header h1 { font-size: 20px; line-height: 1.3; }
+    .page-shell .desktop-container { height: auto; min-height: 100vh; }
+    .page-shell .desktop-area { flex: 1 0 auto; overflow: visible; padding: 18px 0 28px; }
+    .page-shell #post-window { position: relative !important; left: auto !important; top: auto !important;
+        width: min(920px, calc(100% - 250px)) !important; height: auto !important; margin: 0 auto !important;
+        overflow: visible !important; }
+    .page-shell #post-window .title-bar { position: sticky; top: 0; z-index: 30; }
+    .page-shell #post-window .window-content { flex: none; overflow: visible !important; height: auto !important; padding: 10px; }
+    .page-shell .resize-handle { display: none !important; }
+    .page-shell .taskbar { position: sticky; bottom: 0; }
+    .page-shell .start-menu { position: fixed; bottom: 38px; }
+    .page-shell .page-card { max-width: 760px; margin: 0 auto; padding: 24px 36px 32px; background: #fff;
+        border: 2px solid; border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
+    .page-shell .post-header h1 { font-size: 30px; line-height: 1.2; margin-bottom: 8px; }
     .page-shell .post-meta { font-size: 13px; }
-    .page-shell .post-body { user-select: text; }
-    .page-shell .page-card { padding: 4px 8px; }
+    .page-shell .post-body { font-size: 18px; line-height: 1.7; color: #1a1a1a; }
+    .page-shell .post-body h2 { font-size: 23px; line-height: 1.3; margin: 30px 0 10px; color: #000080; }
+    .page-shell .post-body h3 { font-size: 19px; margin: 22px 0 8px; color: #000080; }
+    .page-shell .post-body p { margin-bottom: 16px; }
+    .page-shell .post-summary { font-size: 18px; }
+}
+@media (min-width: 769px) and (max-width: 1099px) {
+    .page-shell .desktop-icons { display: none; }
+    .page-shell #post-window { width: calc(100% - 40px) !important; }
 }
 
 @media (max-width: 768px) {
-    .page-shell .desktop-container { display: flex; flex-direction: column; height: 100vh; }
-    .page-shell .desktop-area { flex: 1; min-height: 0; display: flex; flex-direction: column; position: relative; }
+    .page-shell .desktop-container { display: block; height: auto; min-height: 100vh; }
+    .page-shell .desktop-area { display: block; position: relative; overflow: visible; }
     .page-shell .desktop-icons, .page-shell .taskbar, .page-shell .footer, .page-shell .start-menu,
     .page-shell .resize-handle, .page-shell .window-button { display: none !important; }
     .page-shell #post-window { position: static !important; left: auto !important; top: auto !important;
-        width: 100% !important; height: 100% !important; flex: 1; min-height: 0; display: flex !important; flex-direction: column; background: #008080; }
+        width: 100% !important; height: auto !important; display: block !important; overflow: visible !important; background: #008080; }
     .page-shell .title-bar { background: linear-gradient(90deg, #000080 0%, #1084d0 100%); color: #fff; padding: 8px 12px;
         display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
-        font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; border-bottom: 2px solid #000; }
+        font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; border-bottom: 2px solid #000;
+        position: sticky; top: 0; z-index: 30; }
     .page-shell .title-bar-title { font-size: 15px; font-weight: bold; display: flex; align-items: center; gap: 6px; overflow: hidden; min-width: 0; }
     .page-shell .title-bar-title span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .page-shell .window-content { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; background: #c0c0c0; padding: 0; }
+    .page-shell .window-content { overflow: visible; background: #c0c0c0; padding: 0 0 64px; }
     .page-shell .page-card { background: #fff; margin: 6px; padding: 12px; border: 2px solid;
         border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080; }
     .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
     .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
-    .page-shell .post-body { font-size: 15px; line-height: 1.7; color: #333; }
+    .page-shell .post-body { font-size: 17px; line-height: 1.7; color: #1a1a1a; }
     .page-shell .post-body img, .page-shell .post-hero img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
         border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
     .page-shell .post-body p { margin-bottom: 12px; }
@@ -1460,7 +1559,7 @@ PAGE_SHELL_CSS = """
     .page-shell a.related-post { display: block; padding: 8px; color: #000080; text-decoration: none; font-size: 13px;
         background: #f0f0f0; border: 1px solid #c0c0c0; margin-bottom: 4px; }
     .page-shell .page-back-desktop { display: none; }
-    .page-shell .page-mobile-footer { display: flex; }
+    .page-shell .page-mobile-footer { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
     .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
     .quick-facts dt { flex-basis: 40%; }

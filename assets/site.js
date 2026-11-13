@@ -138,7 +138,7 @@
                         } else {
                             openWindow('blog-window');
                         }
-                    }, 3600);
+                    }, (window.BOOT_MS || 0) + 100);
                 }
             }
         }
@@ -911,6 +911,17 @@
             document.getElementById('cookie-banner').classList.remove('show');
         }
 
+        // The boot animation is the site saying hello, not a toll: it plays once per browser, about
+        // twice as fast as before, and returning visitors land straight on the desktop.
+        window.BOOT_SEEN = (function () {
+            try {
+                var seen = !!localStorage.getItem('404mf_booted');
+                localStorage.setItem('404mf_booted', '1');
+                return seen;
+            } catch (e) { return false; }
+        })();
+        window.BOOT_MS = window.BOOT_SEEN ? 0 : 1900;
+
         // Initialize on load
         window.addEventListener('load', () => {
             observeThumbs();
@@ -921,29 +932,32 @@
                 if (typeof isPostPage !== 'undefined' && isPostPage) {
                     bootEl.classList.add('hidden');
                     setTimeout(() => { bootEl.style.display = 'none'; }, 50);
+                } else if (window.BOOT_SEEN) {
+                    bootEl.classList.add('hidden');
+                    setTimeout(() => { bootEl.style.display = 'none'; showTutorialIfFirstVisit(); }, 50);
                 } else {
                     // Sequenced terminal boot animation
                     const lines = ['boot-l1','boot-l2','boot-l3','boot-l4','boot-l5'];
-                    let delay = 200;
+                    let delay = 100;
                     lines.forEach((id, i) => {
                         setTimeout(() => {
                             const el = document.getElementById(id);
                             if (el) el.classList.add('visible');
                         }, delay);
-                        delay += 350;
+                        delay += 170;
                     });
                     // Show 404 title
                     setTimeout(() => {
                         const el = document.getElementById('boot-404');
                         if (el) el.classList.add('visible');
                     }, delay);
-                    delay += 300;
+                    delay += 150;
                     // Show "memory found"
                     setTimeout(() => {
                         const el = document.getElementById('boot-found');
                         if (el) el.classList.add('visible');
                     }, delay);
-                    delay += 200;
+                    delay += 100;
                     // Show progress bar and fill it
                     setTimeout(() => {
                         const bar = document.getElementById('boot-bar');
@@ -953,14 +967,14 @@
                             if (fill) fill.style.width = '100%';
                         }, 50);
                     }, delay);
-                    delay += 300;
+                    delay += 150;
                     // Show enter text
                     setTimeout(() => {
                         const el = document.getElementById('boot-enter');
                         if (el) el.classList.add('visible');
                     }, delay);
                     // Fade out and hide, then show tutorial if first visit
-                    delay += 800;
+                    delay += 450;
                     setTimeout(() => {
                         bootEl.classList.add('hidden');
                         setTimeout(() => {
@@ -992,9 +1006,13 @@
             if (hash.startsWith('#/post/')) {
                 const slug = hash.substring(7);
                 openPost(slug);
-            } else {
-                goHome();
+                return;
             }
+            // Plain anchors (#which-three-kmart-stores...) are the table of contents and FAQ links,
+            // not routes. Treating them as "go home" reset the page title and meta description.
+            if (hash && !hash.startsWith('#/')) return;
+            if (typeof isPostPage !== 'undefined' && isPostPage) return;
+            goHome();
         });
 
         // Windows-style click-and-drag selection rectangle

@@ -2226,6 +2226,19 @@
 .page-shell .author-card .author-beat { margin: 2px 0 4px; }
 .page-shell .author-card p { font-size: 13px; margin: 0; }
 
+/* Post header and in-page navigation */
+.page-shell .post-breadcrumb { font-size: 13px; color: #555; margin-bottom: 8px; }
+.page-shell .post-breadcrumb a { color: #000080; text-decoration: none; }
+.page-shell .post-breadcrumb a:hover { text-decoration: underline; }
+.page-shell .post-meta-sep { color: #999; margin: 0 2px; }
+.page-shell .post-toc { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 10px 14px 10px; margin: 14px 0 22px; }
+.page-shell .post-toc-title { font-weight: bold; color: #000080; font-size: 14px; margin-bottom: 6px;
+    font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.page-shell .post-toc ol { margin: 0; padding-left: 22px; font-size: 15px; line-height: 1.6; }
+.page-shell .post-toc a { color: #000080; text-decoration: none; }
+.page-shell .post-toc a:hover { text-decoration: underline; }
+.page-shell .post-body h2 { scroll-margin-top: 52px; }
+
 /* Dead brand index: a reference table people can sort and filter without leaving the page */
 .page-shell .brand-index-tools { display: flex; align-items: center; gap: 8px; margin: 14px 0 8px; }
 .page-shell .brand-index-tools label { font-size: 13px; font-weight: bold; }
@@ -2284,33 +2297,64 @@
 .post-body tr:nth-child(even) td { background: #f4f4f4; }
 .post-body td a { color: #000080; }
 
+/* Reading mode. The article used to sit in an 850x620 window with its own scrollbar, so readers
+   scrolled a box inside the page and the browser's own scroll, find-in-page and reader view did not
+   apply. Generated pages now open the window "maximized" into the document: the page scrolls like any
+   site, the Win95 title bar sticks to the top and the taskbar to the bottom. */
+/* Only the root scrolls. If body also gets overflow, it becomes the scroll container that sticky
+   elements attach to, and since body itself never scrolls the title bar and taskbar stop sticking. */
+html:has(body.page-shell) { height: auto; min-height: 100%; overflow-x: hidden; overflow-y: auto; }
+body.page-shell { height: auto; min-height: 100%; overflow: visible; }
+body.page-shell { user-select: text; }
+.page-shell .post-body, .page-shell .page-card { user-select: text; }
+
 @media (min-width: 769px) {
     .page-shell .page-back-mobile { display: none; }
     .page-shell .page-mobile-footer { display: none; }
-    .page-shell .post-header h1 { font-size: 20px; line-height: 1.3; }
+    .page-shell .desktop-container { height: auto; min-height: 100vh; }
+    .page-shell .desktop-area { flex: 1 0 auto; overflow: visible; padding: 18px 0 28px; }
+    .page-shell #post-window { position: relative !important; left: auto !important; top: auto !important;
+        width: min(920px, calc(100% - 250px)) !important; height: auto !important; margin: 0 auto !important;
+        overflow: visible !important; }
+    .page-shell #post-window .title-bar { position: sticky; top: 0; z-index: 30; }
+    .page-shell #post-window .window-content { flex: none; overflow: visible !important; height: auto !important; padding: 10px; }
+    .page-shell .resize-handle { display: none !important; }
+    .page-shell .taskbar { position: sticky; bottom: 0; }
+    .page-shell .start-menu { position: fixed; bottom: 38px; }
+    .page-shell .page-card { max-width: 760px; margin: 0 auto; padding: 24px 36px 32px; background: #fff;
+        border: 2px solid; border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
+    .page-shell .post-header h1 { font-size: 30px; line-height: 1.2; margin-bottom: 8px; }
     .page-shell .post-meta { font-size: 13px; }
-    .page-shell .post-body { user-select: text; }
-    .page-shell .page-card { padding: 4px 8px; }
+    .page-shell .post-body { font-size: 18px; line-height: 1.7; color: #1a1a1a; }
+    .page-shell .post-body h2 { font-size: 23px; line-height: 1.3; margin: 30px 0 10px; color: #000080; }
+    .page-shell .post-body h3 { font-size: 19px; margin: 22px 0 8px; color: #000080; }
+    .page-shell .post-body p { margin-bottom: 16px; }
+    .page-shell .post-summary { font-size: 18px; }
+}
+@media (min-width: 769px) and (max-width: 1099px) {
+    .page-shell .desktop-icons { display: none; }
+    .page-shell #post-window { width: calc(100% - 40px) !important; }
 }
 
 @media (max-width: 768px) {
-    .page-shell .desktop-container { display: flex; flex-direction: column; height: 100vh; }
-    .page-shell .desktop-area { flex: 1; min-height: 0; display: flex; flex-direction: column; position: relative; }
+    .page-shell .desktop-container { display: block; height: auto; min-height: 100vh; }
+    .page-shell .desktop-area { display: block; position: relative; overflow: visible; }
     .page-shell .desktop-icons, .page-shell .taskbar, .page-shell .footer, .page-shell .start-menu,
     .page-shell .resize-handle, .page-shell .window-button { display: none !important; }
     .page-shell #post-window { position: static !important; left: auto !important; top: auto !important;
-        width: 100% !important; height: 100% !important; flex: 1; min-height: 0; display: flex !important; flex-direction: column; background: #008080; }
+        width: 100% !important; height: auto !important; display: block !important; overflow: visible !important; background: #008080; }
     .page-shell .title-bar { background: linear-gradient(90deg, #000080 0%, #1084d0 100%); color: #fff; padding: 8px 12px;
         display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
-        font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; border-bottom: 2px solid #000; }
+        font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; border-bottom: 2px solid #000;
+        position: sticky; top: 0; z-index: 30; }
     .page-shell .title-bar-title { font-size: 15px; font-weight: bold; display: flex; align-items: center; gap: 6px; overflow: hidden; min-width: 0; }
     .page-shell .title-bar-title span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .page-shell .window-content { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; background: #c0c0c0; padding: 0; }
+    .page-shell .window-content { overflow: visible; background: #c0c0c0; padding: 0 0 64px; }
     .page-shell .page-card { background: #fff; margin: 6px; padding: 12px; border: 2px solid;
         border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080; }
     .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
     .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
-    .page-shell .post-body { font-size: 15px; line-height: 1.7; color: #333; }
+    .page-shell .post-body { font-size: 17px; line-height: 1.7; color: #1a1a1a; }
     .page-shell .post-body img, .page-shell .post-hero img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
         border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
     .page-shell .post-body p { margin-bottom: 12px; }
@@ -2321,7 +2365,7 @@
     .page-shell a.related-post { display: block; padding: 8px; color: #000080; text-decoration: none; font-size: 13px;
         background: #f0f0f0; border: 1px solid #c0c0c0; margin-bottom: 4px; }
     .page-shell .page-back-desktop { display: none; }
-    .page-shell .page-mobile-footer { display: flex; }
+    .page-shell .page-mobile-footer { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
     .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
     .quick-facts dt { flex-basis: 40%; }
