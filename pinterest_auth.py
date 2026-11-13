@@ -34,7 +34,15 @@ SCOPES = "boards:read,pins:read,pins:write"
 AUTH_URL = "https://www.pinterest.com/oauth/"
 TOKEN_URL = "https://api.pinterest.com/v5/oauth/token"
 API = "https://api.pinterest.com/v5"
-REPO = "pnpaiva/404-memory-found"
+def current_repo():
+    """owner/name from the git remote, so no account name is written into the source."""
+    import subprocess
+    url = subprocess.run(["git", "remote", "get-url", "origin"], capture_output=True, text=True,
+                         cwd=__import__("os").path.dirname(__import__("os").path.abspath(__file__))).stdout.strip()
+    return url.rstrip("/").removesuffix(".git").split("github.com")[-1].lstrip(":/")
+
+
+REPO = current_repo()
 
 
 class CodeCatcher(http.server.BaseHTTPRequestHandler):
