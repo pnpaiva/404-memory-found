@@ -6,3 +6,4 @@ shorts/out/
 shorts/public/*.wav
 shorts/public/*.aiff
 shorts/public/*/
+.indexing-state.json
