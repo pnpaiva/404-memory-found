@@ -1,0 +1,1 @@
+# Fast lane for the daily Search Console indexing run: YYYY-MM-DD URL, one per line.

@@ -14,6 +14,10 @@ so the browser part stays dumb: it asks for the next URLs, tries them, and repor
 
 State lives in .indexing-state.json next to this file and is not committed.
 
+indexing-priority.txt (committed) is the fast lane: lines of "YYYY-MM-DD URL" written by the cloud
+routines when a post is refreshed for an anniversary or a news story. Such a URL is asked for first
+if it has not been requested since that date, even when an older request is still inside RETRY_DAYS.
+
 Order: hub pages first (they lead Google to everything else), then posts that answer a status
 question ("Is X still...", "Who owns...", "How many... left"), rewritten posts before untouched
 ones, newest first. A URL requested less than RETRY_DAYS ago is not asked for again; after that, if
@@ -30,6 +34,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, ".indexing-state.json")
 BASE = "https://404memoryfound.com"
 RETRY_DAYS = 21
+PRIORITY = os.path.join(ROOT, "indexing-priority.txt")
 HUBS = [f"{BASE}/dead-brand-index.html", f"{BASE}/posts/"]
 STATUS_TITLE = re.compile(r"^(Is |Are |Does |Who Owns |How Many )|Still (Around|Open|in Business|Made|Sold)", re.I)
 
@@ -67,10 +72,29 @@ def due(entry, today):
     return True  # failed earlier: try again
 
 
+def priority_urls(state):
+    """Fast-lane URLs not yet requested since they were flagged, oldest flag first."""
+    if not os.path.exists(PRIORITY):
+        return []
+    picks = []
+    for line in open(PRIORITY, encoding="utf-8"):
+        parts = line.split()
+        if len(parts) != 2 or not parts[1].startswith(BASE):
+            continue
+        flagged, url = parts
+        entry = state["urls"].get(url)
+        if entry and entry["status"] in ("requested", "indexed") and entry["date"] >= flagged:
+            continue
+        if url not in picks:
+            picks.append(url)
+    return picks
+
+
 def cmd_next(n):
     state, today = load_state(), date.today()
-    picks = [u for u in ranked_urls() if due(state["urls"].get(u), today)][:n]
-    print("\n".join(picks))
+    fast = priority_urls(state)
+    rest = [u for u in ranked_urls() if u not in fast and due(state["urls"].get(u), today)]
+    print("\n".join((fast + rest)[:n]))
 
 
 def cmd_mark(url, status):
