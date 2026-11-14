@@ -14239,21 +14239,21 @@ Not from Microsoft. 3D Pipes shipped with Windows from NT 3.5 in 1994 through Wi
 
 ---
 
-# Is Clippy Still Around in 2026? Microsoft's Paperclip
+# Clippy at 30: Gone From Office, Hidden in Copilot
 
 URL: https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-04-06  Updated: 2026-09-20
+Published: 2026-04-06  Updated: 2026-11-14
 Topics: Software & Apps, Then vs Now
 
-**Summary:** Clippy, officially named Clippit, has not shipped as a working Microsoft Office feature since Office 2007 stripped out the Office Assistant. The character still exists inside Microsoft software in 2026, as the paperclip emoji in Microsoft 365 since 2021 and as a hidden avatar in the consumer Copilot app since October 2025. It has never come back as an assistant that watches what you type.
+**Summary:** Clippy, officially named Clippit, has not shipped as a working Microsoft Office feature since Office 2007 stripped out the Office Assistant. The paperclip turns 30 on November 19, 2026, with no official celebration from Microsoft. The character still exists inside Microsoft software in 2026, as the paperclip emoji in Microsoft 365 since 2021 and as a hidden avatar in the consumer Copilot app since October 2025. It has never come back as an assistant that watches what you type.
 
 **Key facts:**
 - Launched: November 19, 1996, in Microsoft Office 97
 - Official name: Clippit, drawn by illustrator Kevan Atteberry
 - Switched off: Office XP, announced April 11, 2001
 - Removed: Office 2007, along with every Office Assistant character
-- Status today: Not a feature. A Microsoft 365 emoji and a hidden Copilot avatar
+- Status today: Not a feature. An emoji and a hidden Copilot avatar; 30 years old on November 19, 2026
 
 ## Why did Microsoft put a cartoon inside Office 97?
 
@@ -14265,6 +14265,14 @@ Alan Cooper, the programmer known as the father of Visual Basic, later argued th
 
 The internal lesson from Bob was not that the premise was wrong but that the scope had been too large. Shrink the character down, put it inside one application instead of the whole desktop, and it might work. That decision produced the Office Assistant, which shipped with Microsoft Office 97 on November 19, 1996.
 
+## How old is Clippy in 2026?
+
+Clippy turns 30 on November 19, 2026, thirty years to the day after Microsoft released Office 97, the version that introduced the Office Assistant. Microsoft has announced nothing for the birthday, which is consistent for a character the company fired on stage in 2001.
+
+The paperclip did make news twice in 2026 without any help from a marketing department. In January the Windows researcher known as Albacore demonstrated a developer credits screen hidden inside Word 97 that nobody had documented in 29 years: hold Ctrl while dragging the Standard toolbar left, down, right and up, then ask Clippy to search for the phrase "This is not a contest." and the Office 97 team's credits roll with the paperclip commenting over them. Write-ups differ on the exact sequence, and the egg only exists in a genuine Office 97 build, not in any current release of Office.
+
+The second story was not a celebration. In early October 2026 Microsoft's main account on X was hijacked and used to promote a fake "$Clippy" crypto token, with the profile picture swapped to the paperclip and reposts pointing at an impersonator account. Microsoft confirmed the unauthorized posts, disavowed the token and said it would pursue legal action to have it removed.
+
 ## How did a paperclip beat 250 other characters?
 
 Illustrator Kevan Atteberry was one of the artists hired to draw candidates. "We designed about 250 characters, and I had about 15 or 20 of 'em in there," he told Mental Floss in 2017. The pool ran from animals and robots to household objects and cartoon humans.
@@ -14275,21 +14283,15 @@ Its official name was Clippit. Almost nobody used it. Within a year of Office 97
 
 Atteberry drew the winner on an Apple Macintosh, a detail he has repeated in interviews for years, and which remains the neatest irony in the story.
 
-## What made Clippy unbearable once real work started?
+## Why did people hate Clippy enough for Microsoft to fire him?
 
 Clippy was enabled by default, which is the detail that turned a feature into a grievance. Everyone who installed Office 97 got him whether they wanted him or not. Start typing something that pattern-matched to correspondence and he appeared: "It looks like you're writing a letter. Would you like help?"
 
-The complaint was never that help existed. It was that the help arrived unrequested, animated itself to pull your eye away from the document, and rarely matched the problem you actually had. Dismissing him was temporary. He came back.
-
-The focus groups had measured the wrong thing. A test session lasts minutes, and over minutes the paperclip reads as charming. Office work lasts hours, days and years, and the same twitching character reads as an interruption. The research that picked Clippy captured first impressions, not the fiftieth impression.
+The complaint was never that help existed. It was that the help arrived unrequested, animated itself to pull your eye away from the document, and rarely matched the problem you actually had. Dismissing him was temporary. He came back. The focus groups had measured the wrong thing, because a test session lasts minutes and office work lasts years, so the research that picked Clippy captured first impressions rather than the fiftieth.
 
 By 1999 disabling the Office Assistant had become a standard step in corporate PC setup, the same way turning off BonziBuddy (https://404memoryfound.com/posts/what-happened-to-bonzibuddy-spyware.html) became standard on home machines a couple of years later. Office was the dominant productivity suite on the planet, so hundreds of millions of people had to learn how to switch off a feature Microsoft had spent years researching.
 
-## How did Microsoft fire its own mascot in 2001?
-
-On April 11, 2001, Microsoft announced that the Office Assistant would be switched off by default in the next release. Then the company did something stranger than a quiet retirement. It made the firing into the marketing campaign.
-
-At the Office XP launch in New York on May 31, 2001, a performer in a Clippit costume interrupted the presentation, begged for his job back and was hauled off the stage by an oversized magnet. Microsoft put up a promotional site, officeclippy.com, carrying three Flash cartoons about an unemployed paperclip looking for work: "Clippy Gets Clipped", "Clippy Goes Undercover" and "Clippy Faces Facts". There was also a Flash game, X-tract Paperclip. Gilbert Gottfried voiced Clippy for the campaign.
+On April 11, 2001, Microsoft announced that the Office Assistant would be switched off by default in the next release, then did something stranger than a quiet retirement and made the firing into the marketing campaign. At the Office XP launch in New York on May 31, 2001, a performer in a Clippit costume interrupted the presentation, begged for his job back and was hauled off the stage by an oversized magnet. Microsoft put up a promotional site, officeclippy.com, carrying three Flash cartoons about an unemployed paperclip looking for work: "Clippy Gets Clipped", "Clippy Goes Undercover" and "Clippy Faces Facts". Gilbert Gottfried voiced Clippy for the campaign.
 
 Office XP still contained the Assistant in code, just off unless a user went looking. The final cut came with Office 2007, which removed every Office Assistant character. No version of Microsoft Office since has shipped one.
 
@@ -14317,9 +14319,9 @@ Clippy answered it by counterexample. Do not turn the assistant on for everyone 
 
 Clippy, officially named Clippit, was switched off by default in Office XP after Microsoft announced the change on April 11, 2001, and every Office Assistant character was removed outright in Office 2007. No version of Microsoft Office released since 2007 has shipped the Office Assistant.
 
-### Who designed Clippy?
+### When is Clippy's 30th anniversary?
 
-Clippy was drawn by the illustrator Kevan Atteberry, who contributed 15 to 20 of the roughly 250 character designs Microsoft tested for the Office Assistant in Office 97. Atteberry drew the paperclip on an Apple Macintosh, and has said he left Clippy out of his portfolio for years because he was embarrassed by it.
+Clippy's 30th anniversary falls on November 19, 2026, thirty years after Microsoft released Office 97, the version that introduced the Office Assistant. Microsoft has announced no celebration, and the paperclip has not been a working Office feature since Office 2007 removed it. The only Clippy news of 2026 has been a Word 97 credits Easter egg documented in January and a crypto scam that hijacked Microsoft's account on X in October.
 
 ### Is Clippy coming back as an AI assistant?
 
@@ -14331,6 +14333,9 @@ Not as a product. Microsoft's consumer Copilot assistant uses an avatar called M
 - Clippy creator was 'so embarrassed' after its Office arrival, The Register (2023): https://www.theregister.com/2023/06/12/clippy_designer_embarrassed
 - Clippy's comeback as a Microsoft 365 emoji, GeekWire (2021): https://www.geekwire.com/2021/clippys-comeback-microsoft-tweet-promises-return-software-assistant-office-365-emoji/
 - Clippy rises from the dead in major Copilot update, The Register (2025): https://www.theregister.com/2025/10/24/microsoft_clippy_copilot_update/
+- Someone discovered a cute Easter egg involving Clippy in Office 97, Neowin (2026): https://www.neowin.net/news/someone-discovered-a-cute-easter-egg-involving-clippy-in-office-97/
+- Someone found an Office 97 Easter egg that nobody spotted for 29 years, XDA Developers (2026): https://www.xda-developers.com/someone-found-an-office-97-easter-egg-that-nobody-spotted-for-29-years/
+- Microsoft X account hijacked to push Clippy crypto scam, Cybernews (2026): https://cybernews.com/news/microsoft-x-account-hijacked-clippy-crypto-scam/
 
 ---
 
@@ -18492,20 +18497,20 @@ Yes. Second Life Residents still sell virtual goods and services for Linden doll
 
 ---
 
-# Are Tamagotchis Still Made in 2026? Yes, by Bandai
+# Tamagotchi at 30: Yes, Bandai Still Makes Them
 
 URL: https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-03-26  Updated: 2026-09-15
+Published: 2026-03-26  Updated: 2026-11-14
 Topics: Gaming, Software & Apps
 
-**Summary:** Tamagotchi still exists and Bandai still makes it. The company reported that cumulative worldwide shipments passed 100 million units as of July 31, 2025, and it is running a 30th anniversary line through 2026. The original virtual pet launched in Japan on November 23, 1996 and reached the United States on May 1, 1997 at $17.99; current models sell for $44.99 to $59.99.
+**Summary:** Tamagotchi still exists and Bandai still makes it. The company reported that cumulative worldwide shipments passed 100 million units as of July 31, 2025, and the brand turns 30 on November 23, 2026, marked by a free Tamagotchi Times Square Spectacular in New York on November 22. The original virtual pet launched in Japan on November 23, 1996 and reached the United States on May 1, 1997 at $17.99; current models sell for $44.99 to $59.99.
 
 **Key facts:**
 - Launched: November 23, 1996, by Bandai in Japan
 - US launch: May 1, 1997, at $17.99
 - Owner today: Bandai, part of Bandai Namco Holdings since 2005
-- Status today: Still in production, with a 30th anniversary line in 2026
+- Status today: Still in production; 30th anniversary on November 23, 2026
 - Price today: $44.99 for Tamagotchi Paradise, $59.99 for Tamagotchi Uni
 
 ## Who invented the Tamagotchi and why was it an egg?
@@ -18516,6 +18521,14 @@ The name is a compound of tamago, Japanese for egg, and the Japanese pronunciati
 
 The design decision that drove everything else was the absence of a pause button. Neglect the creature for a few hours and it got sick. Neglect it longer and it died, with a small angel or a headstone on the screen and no way to undo it. Bandai put the original Tamagotchi on sale in Japan on November 23, 1996.
 
+## How old is Tamagotchi in 2026?
+
+Tamagotchi turns 30 on November 23, 2026, three decades after Bandai put the first egg-shaped virtual pet on sale in Japan on November 23, 1996. The American launch followed on May 1, 1997, so the US anniversary falls in 2027.
+
+Bandai Namco is marking the date in New York with the free Tamagotchi Times Square Spectacular, at Duffy Square on Sunday, November 22, 2026, from 9 a.m. to 7:30 p.m. Eastern, with product demos, Mametchi and Mimitchi meet-and-greets and first-come giveaways. At 7 p.m. Eastern the screens around Times Square carry a 30-minute anniversary takeover, timed to land at 8 a.m. on November 23 in Japan. A Miniso pop-up is running from November 7 to 29 at the American Dream mall in East Rutherford, New Jersey.
+
+The anniversary hardware stayed in Japan. The Tamagotchi ring, announced in September 2026 and billed by Bandai as the smallest model yet, is a working color-screen pet worn on a finger at 7,700 yen. Both preorder rounds have closed, deliveries begin in February 2027, and no North American release has been announced.
+
 ## How fast did Tamagotchi sell in the United States?
 
 Bandai brought the Tamagotchi to American stores on May 1, 1997, at $17.99. The price was doing real work: cheap enough to be an impulse buy at a checkout counter, expensive enough that a child treated it as a possession rather than a party favor.
@@ -18524,21 +18537,15 @@ The launch did not behave like a toy launch. The FAO Schwarz (https://404memoryf
 
 The worldwide numbers ran past anything Bandai had modeled. Cumulative shipments passed 40 million within roughly two and a half years of the 1996 Japanese launch, split close to evenly between Japan and the rest of the world. For a keychain toy with a screen the size of a postage stamp, that put it in the sales bracket of a home console.
 
-## Why did schools confiscate Tamagotchi?
+## Why did schools ban Tamagotchi in 1997?
 
 The toy had no pause, so a child who left it in a locker risked coming back to a dead pet. Tamagotchi went into classrooms instead, and it beeped whenever it wanted food, attention or cleaning. Teachers were losing lesson plans to it within weeks of the American launch.
 
-Schools in Florida, Massachusetts and California banned them outright during 1997, and schools in the United Kingdom, Australia and Japan did the same. Confiscation created a second problem, because a device locked in a desk drawer would starve by the end of the day. Students set up informal rotas, handing pets to friends who had a free period.
+Schools in Florida, Massachusetts and California banned them outright during 1997, and schools in the United Kingdom, Australia and Japan did the same. A device locked in a desk drawer would starve by the end of the day, so students set up informal rotas, handing pets to friends who had a free period. Administrators ended up negotiating with parents rather than students. A dean at Hale Middle School in Woodland Hills, California, told the Deseret News in 1997 that the school required a note from home reading "I realize they are a disruption and I will keep them at home."
 
-Administrators ended up negotiating with parents rather than students. A dean at Hale Middle School in Woodland Hills, California, told the Deseret News in 1997 that the school required a note from home reading "I realize they are a disruption and I will keep them at home." That is close to the policy language American schools would write for mobile phones a decade later.
+The grief was real enough to need somewhere to put it. In January 1997 two teenagers buried their dead Tamagotchi, named Sid and Arty, in small wooden coffins at a pet cemetery at Pontsmill in Cornwall, England. The owner, Terry Squires, fenced off part of the field for digital pets after devices began arriving by post from Switzerland, Germany, France, Canada and the United States. Memorial pages collected eulogies, ages at death and causes of death in the tiled-background HTML of the period, and a handful sit alongside the other 90s websites still online (https://404memoryfound.com/posts/90s-websites-still-online.html) today.
 
-## Did people really bury Tamagotchi in pet cemeteries?
-
-Yes. In January 1997, two teenagers took their dead Tamagotchi, named Sid and Arty, to a pet cemetery at Pontsmill in Cornwall, England, and buried them in small wooden coffins. The owner, Terry Squires, fenced off a section of the field for digital pets after devices began arriving by post from Switzerland, Germany, France, Canada and the United States.
-
-Online, memorial pages collected eulogies, ages at death and causes of death, in the tiled-background HTML of the period. A handful of them sit alongside the other 90s websites still online (https://404memoryfound.com/posts/90s-websites-still-online.html) today, abandoned but intact.
-
-Researchers gave the behavior a name. The Tamagotchi effect describes emotional attachment to a machine or a piece of software, and it remains the standard term for what happens when a device simulates dependency convincingly enough. The loop was crude: feed it and it grows, ignore it and it suffers. That was sufficient. The same mechanic later carried Neopets (https://404memoryfound.com/posts/what-happened-to-neopets-virtual-world.html) and most of the mobile pet games that followed.
+Researchers gave the behavior a name. The Tamagotchi effect describes emotional attachment to a machine or a piece of software, and it remains the standard term for what happens when a device simulates dependency convincingly enough. The loop was crude: feed it and it grows, ignore it and it suffers. That was sufficient, and the same mechanic later carried Neopets (https://404memoryfound.com/posts/what-happened-to-neopets-virtual-world.html) and most of the mobile pet games that followed.
 
 ## Who owns Tamagotchi today?
 
@@ -18562,9 +18569,9 @@ The vintage market is where the money goes. Loose originals from 1996 and 1997 c
 
 Yes. Bandai has kept Tamagotchi in production since 1996 and is running a 30th anniversary line through 2026. The current devices include Tamagotchi Paradise, which reached North America on August 1, 2025 at $44.99, and the Wi-Fi connected Tamagotchi Uni from 2023 at $59.99.
 
-### How many Tamagotchis have been sold worldwide?
+### When is Tamagotchi's 30th anniversary?
 
-Bandai reported that cumulative worldwide Tamagotchi shipments passed 100 million units as of July 31, 2025, a milestone it announced at the Tokyo Toy Show that August. Roughly 49 percent went to Japan and 33 percent to the United States. The first 40 million shipped within about two and a half years of the November 1996 Japanese launch.
+Tamagotchi's 30th anniversary falls on November 23, 2026, thirty years after Bandai released the first virtual pet in Japan on November 23, 1996. Bandai Namco is holding a free all-day Tamagotchi Times Square Spectacular in New York on Sunday, November 22, 2026, with a 30-minute takeover of the Times Square screens at 7 p.m. Eastern. The toy did not reach American stores until May 1, 1997, so the US anniversary falls in 2027.
 
 ### How much is an original 1997 Tamagotchi worth?
 
@@ -18576,6 +18583,9 @@ A loose original Tamagotchi from 1996 or 1997 commonly sells for $40 to $50 in 2
 - Mental Floss: A Brief History of the Tamagotchi: https://www.mentalfloss.com/article/642373/tamagotchi-history
 - Time Extension: The Tamagotchi boom cost Bandai $38 million: https://www.timeextension.com/news/2024/05/tamagotchi-boom-cost-bandai-usd38-million-and-unsold-stock-was-buried-atari-style
 - Bandai: official Tamagotchi brand page: https://www.bandai.com/brands/tamagotchi/
+- Tamagotchi Times Square Spectacular, official Tamagotchi US site (2026): https://tamagotchi-official.com/us/news/01_1721/
+- Tamagotchi takes over Times Square for its 30th anniversary, PR Newswire (2026): https://www.prnewswire.com/news-releases/tamagotchi-takes-over-times-square-for-its-30th-anniversary-302902572.html
+- Tamagotchi evolves into a ring for its 30th anniversary, SoraNews24 (2026): https://soranews24.com/2026/09/01/tamagotchi-evolves-into-a-ring-for-its-30th-anniversary-preorders-now-open/
 
 ---
 
