@@ -16065,10 +16065,10 @@ Not as a site of its own. Boo.com has not sold clothes since May 2000, and the t
 
 URL: https://404memoryfound.com/posts/motorola-razr-v3-coolest-phone-ever-made.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-01  Updated: 2026-11-08
+Published: 2026-04-01  Updated: 2026-11-14
 Topics: Hardware, Business Blunders
 
-**Summary:** The Motorola Razr V3 no longer works as a phone in the United States. It was a 2G-only GSM handset, and T-Mobile shut off the last major US 2G GSM network on August 3, 2026, after AT&T switched its own off in 2017 and Verizon followed in 2020. Lenovo has owned the Razr name since October 30, 2014 and sells folding Razrs from $799 to $1,899, while original V3s trade as collectibles.
+**Summary:** The Motorola Razr V3 no longer works as a phone in the United States. It was a 2G-only GSM handset, and T-Mobile shut off the last major US 2G GSM network on August 3, 2026, after AT&T switched its own off in 2017 and Verizon followed in 2020. Lenovo has owned the Razr name since October 30, 2014 and sells folding Razrs from $799 to $1,899, while original V3s trade as collectibles. The original V3 turns 22 on November 16, 2026.
 
 **Key facts:**
 - Launched: November 16, 2004, Motorola, exclusive to Cingular Wireless
@@ -16087,6 +16087,14 @@ A T-Mobile spokesperson told Fierce Network in 2026 that the remaining 2G user b
 
 So a V3 in 2026 powers on, lights the etched keypad and snaps shut with the same sound, and cannot register on a carrier. No calls, no texts, no 911. It is hardware that outlived its own infrastructure, the way the pay phones still standing in the United States (https://404memoryfound.com/posts/payphones-left-united-states.html) did.
 
+## How old is the Motorola Razr V3 in 2026?
+
+The Motorola Razr V3 turns 22 on November 16, 2026; it went on sale in the United States on November 16, 2004 as a Cingular Wireless exclusive at $499 with a two-year contract.
+
+Nothing is planned for the date. Motorola has spent 2026 on the name rather than the phone: the Razr 2026 line was announced on April 29, 2026, and on September 10, 2026 the company put a Razr 2026 with Crystals by Swarovski on sale at motorola.com for $899.99, with 35 hand-placed crystals in Silver Night across the back panel and the outer display.
+
+No reissue of the 2004 hardware has been announced, and a new 2G handset would have no network to join. The 22nd anniversary falls a little over three months after the last major US 2G GSM network was switched off on August 3, 2026, so the V3 reaches 22 as the first birthday on which no American can use one as a phone.
+
 ## What did the Razr V3 cost when it launched?
 
 Motorola released the V3 in the United States on November 16, 2004, exclusively through Cingular Wireless, at $499 with a two-year contract. NBC News put the price at about $500 and described the phone as the star of a portfolio of 20 new Motorola handsets, which is a fair measure of how much the company was betting on one design.
@@ -16097,25 +16105,17 @@ The body justified the premium. The V3 measured 13.9 millimeters thick and weigh
 
 Motorola sold roughly 130 million V3s across every variant over about four years of production. The company never published an audited lifetime total, so that figure is a tally assembled afterwards and repeated by the tech press rather than a certified number. The phone sold on how it looked, in the same way the Nokia 3310 (https://404memoryfound.com/posts/what-happened-to-nokia-3310.html) sold on how much abuse it survived.
 
-## How long was the Razr V3 America's best-selling phone?
+## Why did America's best-selling phone disappear?
 
-Twelve straight quarters, which is three full years at number one. The Razr led The NPD Group's ranking of handsets bought by US adults until the third quarter of 2008, when the iPhone 3G took the top spot.
+The Razr led The NPD Group's ranking of handsets bought by US adults for twelve straight quarters, three full years at number one, until the third quarter of 2008.
 
-NPD's figures for that quarter, published on November 10, 2008 and reported by Engadget, put the top five as the iPhone 3G, the Motorola Razr V3, the BlackBerry Curve, the LG Rumor and the LG enV2. Ross Rubin, NPD's director of industry analysis, called the result a "watershed shift in handset design from fashion to fashionable functionality."
+NPD's figures for that quarter, published on November 10, 2008 and reported by Engadget, put the top five as the iPhone 3G, the Motorola Razr V3, the BlackBerry Curve, the LG Rumor and the LG enV2. Ross Rubin, NPD's director of industry analysis, called the result a "watershed shift in handset design from fashion to fashionable functionality." Phones with QWERTY keyboards had climbed to 30 percent of US sales from 11 percent a year earlier.
 
-The rest of that data explains the shift. US adult handset purchases fell 15 percent year over year to 32 million units in the quarter, and consumer handset revenue fell 10 percent to $2.9 billion, while phones with QWERTY keyboards climbed to 30 percent of sales from 11 percent a year earlier.
+Buyers had started paying for keyboards and software, and the V3 offered neither. BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) owned corporate email by then, and Apple had made a touchscreen the thing to beat.
 
-Buyers had started paying for keyboards and software. The V3 offered neither. BlackBerry (https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html) owned corporate email by then, and Apple had made a touchscreen the thing to beat.
+Motorola's answer was to re-release the same phone. The V3i added a better camera and a memory card slot, the V3x and V3xx bolted on 3G, and the Razr2 arrived in 2007 with the same hinge and the same silhouette. None of them changed what the phone was underneath: a 0.3-megapixel camera, almost no storage and no way to add software, which nobody minded in 2004 and everybody minded by 2007.
 
-## What ended the original Razr's run?
-
-Success, mostly. Motorola spent the back half of the decade re-releasing the same phone. The V3i added a better camera and a memory card slot. The V3x and V3xx bolted on 3G. The Razr2 arrived in 2007 as the actual sequel, three years after the original, with the same hinge and the same silhouette.
-
-None of them changed what the phone was underneath. The V3 shipped with a 0.3-megapixel camera, almost no storage and no way to add software, which nobody minded in 2004 and everybody minded by 2007.
-
-The bill came due fast. Motorola's handset business was losing money by the end of 2007, and in March 2008 the company said it would separate its mobile devices unit into a standalone public company. The V3 was discontinued that same year, after holding the top of the US rankings for most of the previous four.
-
-Motorola had built the most popular phone in America with nothing queued behind it, and its handset division spent the following years shrinking into a takeover target.
+The bill came due fast. Motorola's handset business was losing money by the end of 2007, in March 2008 the company said it would separate its mobile devices unit into a standalone public company, and the V3 was discontinued that year, after holding the top of the US rankings for most of the previous four.
 
 ## Who owns the Razr name today?
 
@@ -16155,6 +16155,7 @@ Lenovo owns Motorola's phone business, having bought it from Google in a deal th
 - Lenovo: Lenovo completes acquisition of Motorola Mobility from Google (October 30, 2014): https://news.lenovo.com/pressroom/press-releases/lenovo-completes-full-acquisition-motorola-mobility-from-google/
 - Fierce Network: T-Mobile to shut down 2G GSM network this summer (2026): https://www.fierce-network.com/wireless/t-mobile-shut-down-2g-gsm-network-summer
 - 9to5Google: Motorola Razr (2026) specs, price and release date (April 29, 2026): https://9to5google.com/2026/04/29/motorola-razr-2026-specs-price-release-date/
+- PhoneArena: Motorola Razr 2026 gets 35 Swarovski crystals and a price that humbles the Z Flip 8 (September 2026): https://www.phonearena.com/news/motorola-razr-2026-gets-35-swarovski-crystals-and-a-price-that-humbles-the-z-flip-8_id183081
 
 ---
 
