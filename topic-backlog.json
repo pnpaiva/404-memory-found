@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com, written to POST_SPEC.md (900 to 1,300 words). The writer routine takes the first pending entry in file order, except that when the number of posts in posts.json is a multiple of 5 it takes the first pending entry of 'buyer_intent' instead. Cross off topics as published.",
-  "_last_updated": "2026-10-16",
+  "_last_updated": "2026-11-14",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_0_search_console": [
     {
@@ -2189,6 +2189,277 @@
       ],
       "status": "pending",
       "source": "editor-research-2026-11-11"
+    },
+    {
+      "title": "Are Nintendo Power Magazines Worth Anything Now?",
+      "slug": "nintendo-power-magazine-value",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Money & Tech"
+      ],
+      "angle": "Price table by issue and grade: common issues, lots, issue #1 with and without its poster, the CGC 9.8 record, and Nintendo Fun Club News.",
+      "target_keywords": [
+        "are nintendo power magazines worth anything",
+        "nintendo power magazine value",
+        "nintendo power issue 1 value"
+      ],
+      "format": "quick",
+      "status": "published",
+      "source": "editor-discovery-2026-11-14",
+      "published_slug": "nintendo-power-magazine-value"
+    },
+    {
+      "title": "Are Micro Machines Worth Anything in 2026?",
+      "slug": "micro-machines-toys-value",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Galoob's tiny vehicles: what loose cars, sealed playsets and the Super Van City set bring now, which licensed and promotional sets are scarce, and what loose paint wear costs.",
+      "target_keywords": [
+        "are micro machines worth anything",
+        "micro machines value",
+        "micro machines super van city price"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Lisa Frank Folders Worth Anything in 2026?",
+      "slug": "lisa-frank-school-supplies-value",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Binders, folders and sticker sheets from the 1990s: sold price bands by item type, why zip binders outrun folders, and how to spot later reprints.",
+      "target_keywords": [
+        "are lisa frank folders worth anything",
+        "lisa frank binder value",
+        "vintage lisa frank stickers worth"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Old Trapper Keepers Worth Anything Now?",
+      "slug": "trapper-keeper-value-vintage",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Mead's ring binder: what original 1980s and 1990s designs sell for, which licensed covers carry a premium, and how the retro reissues cap the market.",
+      "target_keywords": [
+        "are trapper keepers worth anything",
+        "vintage trapper keeper value",
+        "trapper keeper price"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Tiger HitClips Worth Anything in 2026?",
+      "slug": "hitclips-tiger-electronics-value",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "The 2000 micro-music format: what players and the one-minute song cartridges sell for loose and sealed, and which artist clips are scarce.",
+      "target_keywords": [
+        "are hitclips worth anything",
+        "hitclips value",
+        "tiger hitclips price"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Starting Lineup Figures Worth Anything Now?",
+      "slug": "starting-lineup-figures-value",
+      "persona": "marcus",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Kenner's sports figures: why pre-1992 boxed pieces carry the money, what loose commons bring, and how to spot the later reprints.",
+      "target_keywords": [
+        "are starting lineup figures worth anything",
+        "starting lineup value",
+        "kenner starting lineup price"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Sky Dancers Worth Anything After the Recall?",
+      "slug": "sky-dancers-value-recall",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Galoob recalled 8.9 million flying dolls in 2000 after 150 injury reports. What surviving dolls and launchers sell for, and what the recall means for resale.",
+      "target_keywords": [
+        "are sky dancers worth anything",
+        "sky dancers value",
+        "sky dancers recall"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Treasure Troll Dolls Worth Anything in 2026?",
+      "slug": "treasure-troll-dolls-value",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Ace Novelty and Russ trolls from the 1990s: what common dolls bring, which gemstone and flocked versions carry a premium, and why 1960s Dam originals are the real money.",
+      "target_keywords": [
+        "are troll dolls worth anything",
+        "treasure troll value",
+        "90s troll dolls worth"
+      ],
+      "format": "quick",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Who Owns Lisa Frank Now? The Brand in 2026",
+      "slug": "who-owns-lisa-frank-now",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "The Tucson company behind the neon binders: the 2005 divorce settlement that decided control, what the brand licenses now, and who holds the trademarks.",
+      "target_keywords": [
+        "who owns lisa frank now",
+        "what happened to lisa frank",
+        "lisa frank company today"
+      ],
+      "format": "standard",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Who Owns eMachines Now? Acer Retired It in 2013",
+      "slug": "who-owns-emachines-now",
+      "persona": "theo",
+      "tags": [
+        "Business Blunders",
+        "Hardware"
+      ],
+      "angle": "The $399 PC brand: the Free-PC origin, the 2004 Gateway merger, Acer's $710 million purchase, and the January 2013 write-off that ended the name.",
+      "target_keywords": [
+        "who owns emachines now",
+        "what happened to emachines",
+        "emachines discontinued"
+      ],
+      "format": "standard",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Is Juno Still Around? The Free Email Service in 2026",
+      "slug": "is-juno-email-still-around",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Business Blunders"
+      ],
+      "angle": "D. E. Shaw's free email experiment, the 1999 IPO, the 2001 NetZero merger into United Online, and who owns the domain now.",
+      "target_keywords": [
+        "is juno still around",
+        "juno email still work",
+        "who owns juno now"
+      ],
+      "format": "standard",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Who Owns Trapper Keeper Now? ACCO Brands Does",
+      "slug": "who-owns-trapper-keeper-now",
+      "persona": "theo",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "angle": "Mead invented it in 1978; MeadWestvaco's consumer business merged into ACCO Brands on May 1, 2012. What ACCO still sells under the name.",
+      "target_keywords": [
+        "who owns trapper keeper now",
+        "are trapper keepers still made",
+        "trapper keeper brand owner"
+      ],
+      "format": "standard",
+      "status": "pending",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are 90s Polly Pocket Sets Worth Anything?",
+      "slug": "polly-pocket-bluebird-value",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Money & Tech"
+      ],
+      "angle": "Tested 2026-11-14: first page is saturated with national lifestyle press (Romper, Bustle, Mental Floss, Scary Mommy, Apartment Therapy, Yahoo Finance) that already answers it. Not winnable.",
+      "target_keywords": [
+        "are polly pocket worth anything",
+        "polly pocket value",
+        "bluebird polly pocket price"
+      ],
+      "format": "quick",
+      "status": "skipped_competitive",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Is the Game Boy Camera Worth Anything in 2026?",
+      "slug": "game-boy-camera-printer-value",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Money & Tech"
+      ],
+      "angle": "Tested 2026-11-14: PriceCharting owns the entire first page with loose, complete and graded averages for both the Camera and the Printer. Not winnable.",
+      "target_keywords": [
+        "game boy camera value",
+        "game boy printer worth",
+        "game boy camera price"
+      ],
+      "format": "quick",
+      "status": "skipped_competitive",
+      "source": "editor-discovery-2026-11-14"
+    },
+    {
+      "title": "Are Old Strategy Guides Worth Anything in 2026?",
+      "slug": "video-game-strategy-guides-value",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Money & Tech"
+      ],
+      "angle": "Tested 2026-11-14: PriceCharting and SportsCardsPro carry a dedicated strategy-guide price database across the whole first page. Not winnable.",
+      "target_keywords": [
+        "are strategy guides worth anything",
+        "prima strategy guide value",
+        "bradygames guide price"
+      ],
+      "format": "quick",
+      "status": "skipped_competitive",
+      "source": "editor-discovery-2026-11-14"
     }
   ],
   "priority_3_niche_authority": [
