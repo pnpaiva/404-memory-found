@@ -931,6 +931,16 @@
   "thumb": "/img/thumb/nokia-ngage-r-c649c6.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Nintendo-Power-Flash-Writer.jpg/960px-Nintendo-Power-Flash-Writer.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Nintendo-Power-Flash-Writer.jpg",
+  "ext": "jpg",
+  "file": "/img/nintendo-power-flash-writer-ab4fab.jpg",
+  "height": 739,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/nintendo-power-flash-writer-ab4fab.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/NCSA_Mosaic_Browser_Screenshot.png/960px-NCSA_Mosaic_Browser_Screenshot.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
   "ext": "jpg",

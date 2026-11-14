@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Are Nintendo Power Magazines Worth Anything Now?</title>
+      <link>https://404memoryfound.com/posts/nintendo-power-magazine-value.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/nintendo-power-magazine-value.html</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Marcus Vale</dc:creator>
+      <description>Nintendo Power magazines are worth $10 to $30 each, but a graded first issue hit $108,000 in April 2023. Here is what each issue sells for.</description>
+      <enclosure url="https://404memoryfound.com/pins/nintendo-power-magazine-value.jpg" length="255125" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/nintendo-power-magazine-value.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Gaming</category>
+      <category>Money &amp; Tech</category>
+    </item>
     <item>
       <title>Motorola StarTAC Price in 1996: What $1,000 Bought</title>
       <link>https://404memoryfound.com/posts/motorola-startac-price-1996.html</link>
@@ -234,18 +246,6 @@
       <description>Pagers are still used in 2026: Spok had about 645,000 units in service on June 30, 2026, and hospitals are what keeps the network alive.</description>
       <enclosure url="https://404memoryfound.com/pins/pagers-still-used-today.jpg" length="229110" type="image/jpeg"/>
       <media:content url="https://404memoryfound.com/pins/pagers-still-used-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Then vs Now</category>
-    </item>
-    <item>
-      <title>Is the Sony Aibo Still Made in 2026? US Sales Only</title>
-      <link>https://404memoryfound.com/posts/sony-aibo-robot-dog-today.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/sony-aibo-robot-dog-today.html</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Marcus Vale</dc:creator>
-      <description>The Sony Aibo is still made and sold in the US for over $3,000, but Sony ended Japan sales in June 2026 and now lends prototypes to labs.</description>
-      <enclosure url="https://404memoryfound.com/pins/sony-aibo-robot-dog-today.jpg" length="189872" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/sony-aibo-robot-dog-today.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
       <category>Hardware</category>
       <category>Then vs Now</category>
     </item>
