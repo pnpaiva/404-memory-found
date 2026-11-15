@@ -469,6 +469,16 @@
   "thumb": "/img/thumb/apple-historic-ipod-584b9a.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/SNU-Two-Line-Gotham-2020.png/960px-SNU-Two-Line-Gotham-2020.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:SNU-Two-Line-Gotham-2020.png",
+  "ext": "png",
+  "file": "/img/snu-two-line-gotham-2020-92e629.png",
+  "height": 236,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/snu-two-line-gotham-2020-92e629.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/BlackBerry_8820%2C_BlackBerry_Bold_9900_and_BlackBerry_Classic.jpg/960px-BlackBerry_8820%2C_BlackBerry_Bold_9900_and_BlackBerry_Classic.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:BlackBerry_8820%2C_BlackBerry_Bold_9900_and_BlackBerry_Classic.jpg",
   "ext": "jpg",

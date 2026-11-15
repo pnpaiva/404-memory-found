@@ -4,6 +4,84 @@
 
 Source: https://404memoryfound.com. Each article below carries its URL, author, publication date, last update, a direct-answer summary, key facts, the article text and its sources.
 
+# Who Owns Sierra On-Line Now? The Brand in 2026
+
+URL: https://404memoryfound.com/posts/who-owns-sierra-on-line-now.html
+Author: Dana Reyes (404 Memory Found)
+Published: 2026-11-15
+Topics: Gaming, Business Blunders
+
+**Summary:** Sierra On-Line no longer exists as a company. The name is a trademark held by Activision Publishing, which Microsoft bought on October 13, 2023, and no new game has carried the Sierra label since King's Quest ended its run in 2016. The classic adventure catalog is still sold as digital collections, and founders Ken and Roberta Williams now publish on their own.
+
+**Key facts:**
+- Founded: 1979 as On-Line Systems, renamed Sierra On-Line in 1982
+- Sold for: About $1.06 billion in CUC International stock, July 1996
+- Owner today: Microsoft, through Activision Publishing
+- Status today: Dormant brand, no new release since 2016
+- Catalog today: King's Quest, Space Quest and Police Quest collections sold as digital downloads
+
+## Why a membership-club company paid $1.06 billion for King's Quest
+
+Ken and Roberta Williams started the company in 1979 as On-Line Systems and renamed it Sierra On-Line in 1982, after the mountains near its offices in Oakhurst, California. Roberta Williams wrote Mystery House, the graphical adventure that launched the catalog in 1980, and the company spent the next decade building King's Quest, Space Quest, Police Quest, Leisure Suit Larry and Quest for Glory into the biggest adventure game library in the United States.
+
+Then it sold itself to a company that had nothing to do with games. CUC International of Stamford, Connecticut ran discount membership clubs, and in 1996 it bought Sierra On-Line in an all-stock deal. The merger closed on July 24, 1996. Each Sierra share converted into 1.225 CUC shares, and CUC's own filing with the Securities and Exchange Commission put the aggregate value at roughly $1.06 billion.
+
+Sierra was not only a game publisher by then. It had also built The Sierra Network, one of the first services that let people play games against each other over a modem, and sold it off before the web arrived. Ken Williams stepped down as chief executive almost immediately and left the company in November 1997. The studio he built in a California mountain town was now a line item inside a conglomerate whose other units sold auto clubs and coupon books.
+
+## The accounting fraud that wrecked Sierra's new owner
+
+CUC merged with HFS Incorporated in 1997 and renamed itself Cendant. Within months the new company discovered that CUC's pre-merger books had been faked. The disclosure in April 1998 triggered one of the largest accounting scandals of the decade, years before Enron made the genre famous.
+
+Walter Forbes, CUC's chairman, was tried three times. On January 17, 2007 a federal judge in Connecticut sentenced him to 151 months in prison, 12 years and seven months, and ordered $3.275 billion in restitution. The announcement from the United States Attorney for the District of New Jersey described Forbes as "the principal architect of an accounting fraud that presaged others like Enron, WorldCom (https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html), Tyco and others."
+
+Sierra's games had nothing to do with any of it. The fallout still decided the studio's future: the stock collapsed, shareholder suits followed, and Cendant needed both cash and a smaller story to tell. The software division was the easiest thing to sell.
+
+## How Sierra ended up in France, then at Activision
+
+On November 20, 1998, Cendant agreed to sell Cendant Software, which held Sierra On-Line, Blizzard Entertainment, Davidson & Associates and Knowledge Adventure, to Havas S.A. of Paris. The filing describes the terms as "$800 million in cash plus future cash contingent payments of up to approximately $200 million due through 1999." Havas was controlled by Vivendi, so Sierra became part of a French media group better known for water utilities and pay television.
+
+Under Vivendi the brand got smaller every year. Sierra On-Line was renamed Sierra Entertainment in 2002. Its biggest release of that period was not an adventure game at all: Sierra published Valve's Half-Life in 1998, the shooter whose modding scene produced the free mod that became Counter-Strike (https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html). The Bellevue, Washington office closed in 2004. When Vivendi Games merged with Activision in 2008 to create Activision Blizzard, the Sierra label was disbanded and several of its franchises were sold off to other publishers. Blizzard, the small studio that traveled in the same box as Sierra through all of it, became the most valuable part of the deal.
+
+## Did the 2014 relaunch go anywhere?
+
+Activision brought the name back on August 12, 2014, not as a studio but as a small label for independent games. The press release quoted the founder: "We're very proud of what we created all those years ago with Sierra Online, and today's news about carrying Sierra forward as an indie-specific brand is very encouraging," said Ken Williams.
+
+There was no new Sierra studio and no team in Oakhurst. The label was a few people inside Activision Publishing with a licensing budget and a logo. It shipped Geometry Wars 3: Dimensions from Lucid Games, Shiftlings, and an episodic King's Quest reimagining from The Odd Gentlemen. That series ran five chapters and finished with The Good Knight in 2016. After that the label stopped announcing anything. Trade press reported that the division had effectively ceased to exist, Activision denied it, and no new game has carried the Sierra name since.
+
+Ownership moved once more without the brand moving at all. Microsoft completed its $68.7 billion purchase of Activision Blizzard on October 13, 2023, so the Sierra trademarks now sit with Microsoft, held through Activision Publishing. The name is an asset nobody is using. Compare that with the Atari logo, which still ships on new hardware (https://404memoryfound.com/posts/who-owns-atari-now.html): a dormant trademark and an active one are two different kinds of afterlife.
+
+## Which Sierra games can you still buy?
+
+The catalog outlived every company that owned it. The King's Quest, Space Quest, Police Quest, Quest for Glory and Phantasmagoria collections are still sold as digital downloads, most of them repackaged to run on current versions of Windows through the ScummVM interpreter, which is also the easiest route for running 90s PC games on Windows 11 (https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html). Leisure Suit Larry went to a different owner and is published separately.
+
+Where to find one today: the Sierra adventure collections are sold DRM-free, with no launcher and no activation, at GOG's Sierra catalog (https://www.gog.com/en/games?query=sierra), and they go on sale several times a year. Original big-box copies from the 1990s trade as collectibles, but the disks inside them are 5.25 and 3.5 inch floppies, so buy those for the box art rather than for playing.
+
+Ken and Roberta Williams also came back on their own terms. Their studio Cygnus Entertainment released a 3D version of Colossal Cave, the text adventure that started the whole genre, decades after Roberta Williams last shipped a game. Reviews were mixed, but it was the first new Williams release since the Sierra years, and it was not made for Microsoft, Activision or anyone else.
+
+## Frequently Asked Questions
+
+### Is Sierra still making games in 2026?
+
+No. Sierra has not released a new game since King's Quest finished its five chapters in 2016, and the label has no announced projects. The name belongs to Microsoft, which acquired Activision Blizzard in October 2023, and it is currently dormant.
+
+### Who owns King's Quest now?
+
+King's Quest belongs to Microsoft, through Activision Publishing, which has held the Sierra catalog since the Vivendi Games merger of 2008. The classic King's Quest games are still sold as digital collections, and the 2015 and 2016 episodic reboot by The Odd Gentlemen remains available.
+
+### Why did Sierra On-Line disappear?
+
+Sierra On-Line was never bankrupted by its games; it was sold four times in twelve years. CUC International bought it for about $1.06 billion in 1996, an accounting fraud at CUC forced the sale of the software division to Havas of Paris in 1998, Vivendi shrank the label through the early 2000s, and Activision disbanded it after the 2008 merger.
+
+**Sources:**
+- CUC International merger filing on the Sierra On-Line acquisition (SEC, 1996): https://www.sec.gov/Archives/edgar/data/0000723612/000090951896000040/0000909518-96-000040.txt/seq-2
+- Cendant Form 8-K: sale of Cendant Software to Havas S.A. (SEC, 1998): https://www.sec.gov/Archives/edgar/data/0000723612/000095013698002262/0000950136-98-002262.txt
+- Walter Forbes sentenced to 151 months and $3.275 billion restitution (U.S. Attorney, District of New Jersey, 2007): https://www.justice.gov/archive/usao/nj/Press/files/pdffiles/Older/forb0117rel.pdf
+- Sierra Is Back: Activision press release on the label's return (2014): https://investor.activision.com/node/21101
+- Microsoft completes its Activision Blizzard acquisition (Video Games Chronicle, 2023): https://videogameschronicle.com/news/microsoft-has-officially-completed-its-acquisition-of-activision-blizzard
+- Sierra Entertainment company history (Wikipedia): https://en.wikipedia.org/wiki/Sierra_Entertainment
+
+---
+
 # Are Nintendo Power Magazines Worth Anything Now?
 
 URL: https://404memoryfound.com/posts/nintendo-power-magazine-value.html
@@ -6603,7 +6681,7 @@ Two free projects cover most of the decade between them, and they split the work
 
 DOSBox emulates the whole machine: an x86 processor, a Sound Blaster (https://404memoryfound.com/posts/what-happened-to-creative-labs-sound-blaster.html), a VGA card, a CD-ROM drive and a working DOS prompt. It is open source and costs nothing. The version to install in 2026 is DOSBox Staging, the actively maintained fork, whose 0.83.0 release arrived in August 2026 with CRT color emulation, a video deinterlacer for full-motion video, automatic disc mounting and hardware-accurate Roland Sound Canvas SC-55 music.
 
-ScummVM works the other way around. It emulates nothing, because it reimplements the game engines themselves. The project describes the trick plainly on its own site: "ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed." Point-and-click adventures from LucasArts, Sierra On-Line and Revolution Software then run as ordinary Windows 11 programs, with modern resolutions and save states attached.
+ScummVM works the other way around. It emulates nothing, because it reimplements the game engines themselves. The project describes the trick plainly on its own site: "ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed." Point-and-click adventures from LucasArts, Sierra On-Line (https://404memoryfound.com/posts/who-owns-sierra-on-line-now.html) and Revolution Software then run as ordinary Windows 11 programs, with modern resolutions and save states attached.
 
 The dividing question is what the game was written for, not what year it came out. DOS shooters, strategy and simulation go to DOSBox Staging. The LucasArts and Sierra adventure catalog goes to ScummVM. Neither program includes any game data, which is the next problem.
 
@@ -12104,7 +12182,7 @@ The design ran against everything else on the market. Rounds were short, players
 
 By early 2000 the free mod was doing something Valve's own multiplayer could not. It was keeping servers full night after night, and it was doing it on Valve's engine, with Valve's engine required to play it. Buying the mod cost the company very little next to what it protected.
 
-Valve hired Le and Cliffe in 2000 and acquired the rights to the intellectual property. Version 1.0 shipped on November 9, 2000, and Sierra Studios put a boxed copy into North American stores on November 14, 2000. The free download now had a price and a publisher.
+Valve hired Le and Cliffe in 2000 and acquired the rights to the intellectual property. Version 1.0 shipped on November 9, 2000, and Sierra (https://404memoryfound.com/posts/who-owns-sierra-on-line-now.html) Studios put a boxed copy into North American stores on November 14, 2000. The free download now had a price and a publisher.
 
 The bet paid off. Valve told Game Informer (https://404memoryfound.com/posts/who-owns-game-informer-now.html) in November 2008 that the Counter-Strike series had sold more than 25 million units. Its own lifetime retail figures, published that December, put the original game at 4.2 million boxed copies, behind only Half-Life and Half-Life 2 in the company's catalog, and those totals excluded every copy sold through Steam.
 
@@ -14250,7 +14328,7 @@ The design was modular. Instead of blanking the screen, After Dark ran swappable
 
 The origin is as small as it sounds. "I drifted into the kitchen, and the toaster caught my eye. My sleep-deprived brain put wings on it," Eastman told Low End Mac in 2007. He drew the frames in the development system's icon editor and gave the toasters what he called "little stubby plucked-chicken wings" and a flapping electrical cord.
 
-By the mid-1990s Berkeley Systems employed about 120 people and was taking in roughly $30 million a year. Boyd and Blades sold the company to the Sierra On-Line division of CUC International in 1997, then went on to found MoveOn.org.
+By the mid-1990s Berkeley Systems employed about 120 people and was taking in roughly $30 million a year. Boyd and Blades sold the company to the Sierra On-Line (https://404memoryfound.com/posts/who-owns-sierra-on-line-now.html) division of CUC International in 1997, then went on to found MoveOn.org.
 
 ## Why did Microsoft build 3D Pipes in the first place?
 
@@ -14976,7 +15054,7 @@ Topics: Hardware, Gaming
 
 Through the mid 1980s an IBM compatible PC had exactly one audio device: the small internal speaker soldered to the motherboard. It made square wave tones and little else. Programmers found tricks to squeeze crude music out of it, but next to a Commodore (https://404memoryfound.com/posts/what-happened-to-commodore-computers.html) Amiga or an Atari (https://404memoryfound.com/posts/who-owns-atari-now.html) ST, machines that shipped with real sound chips, the PC sounded broken.
 
-The fix came from Quebec City. Ad Lib, founded in 1987 by Martin Prevel, a former music professor, sold the Ad Lib Music Synthesizer Card built around the Yamaha YM3812 FM synthesis chip, better known as the OPL2. Sierra On-Line supported it, other studios followed, and by 1990 "Ad Lib compatible" was printed on game boxes as the standard.
+The fix came from Quebec City. Ad Lib, founded in 1987 by Martin Prevel, a former music professor, sold the Ad Lib Music Synthesizer Card built around the Yamaha YM3812 FM synthesis chip, better known as the OPL2. Sierra On-Line (https://404memoryfound.com/posts/who-owns-sierra-on-line-now.html) supported it, other studios followed, and by 1990 "Ad Lib compatible" was printed on game boxes as the standard.
 
 Ad Lib had one blind spot. The card synthesized music but could not play back recorded digital audio: no sampled voices, no recorded gunshots, no speech. That gap was the opening.
 
