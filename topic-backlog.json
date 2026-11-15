@@ -4,6 +4,25 @@
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_0_search_console": [
     {
+      "title": "Who Owns Shop.com Now? Shopify's $100M Domain Buy",
+      "slug": "who-owns-shop-com-now",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Internet Culture"
+      ],
+      "angle": "News peg: Market America announced on September 28, 2026 that it had completed the sale of the SHOP.COM domain to Shopify, and the roughly $100 million price, first put out by domain broker Andrew Rosener and repeated on Shopify's Q3 2026 earnings call in early November 2026 without being confirmed by either company, would make it the largest public domain sale on record; trace who held the shop.com address through the dot-com era and what Shopify is moving there from shop.app.",
+      "target_keywords": [
+        "who owns shop.com",
+        "shop.com domain sale",
+        "shopify shop.com",
+        "how much did shopify pay for shop.com",
+        "what happened to shop.com"
+      ],
+      "status": "pending",
+      "source": "freshness-news-2026-11-15"
+    },
+    {
       "title": "Is Blockbuster Still Open? The Last Store in 2026",
       "slug": "is-blockbuster-still-open-last-store",
       "persona": "dana",
