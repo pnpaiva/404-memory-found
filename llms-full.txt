@@ -9596,10 +9596,10 @@ Yes. The Internet Archive emulates classic Macintosh systems in a web browser an
 
 URL: https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-05-13  Updated: 2026-10-12
+Published: 2026-05-13  Updated: 2026-11-16
 Topics: Gaming, Hardware, Business Blunders
 
-**Summary:** The Sega 32X was a $159.99 add-on that turned a Genesis into a 32-bit machine when it reached North American stores on November 21, 1994. It sold about 665,000 units, got a library of 40 games, and Sega discontinued it in 1996 after launching the Saturn six months into its life. Sega has never supported it since, and a used 32X ran about $199.50 loose and about $306 boxed in October 2026.
+**Summary:** The Sega 32X was a $159.99 add-on that turned a Genesis into a 32-bit machine when it reached North American stores on November 21, 1994. It sold about 665,000 units, got a library of 40 games, and Sega discontinued it in 1996 after launching the Saturn six months into its life. Sega has never supported it since, and a used 32X ran about $199.50 loose and about $306 boxed in October 2026. It turns 32 on November 21, 2026, and the only new 32X hardware in sight is an unofficial FPGA console.
 
 **Key facts:**
 - Launched: November 21, 1994 in North America, $159.99
@@ -9615,6 +9615,14 @@ The 32X was a black plastic wedge that sat in the cartridge slot of a Sega (http
 It reached North American stores on November 21, 1994 at $159.99, with no game in the box. Sega had advertised a $150 price before launch, and the pitch was 32-bit gaming for a fraction of what a new console would cost. Sega's own Saturn arrived six months later at $399.
 
 Setting one up was a project. The 32X needed its own power supply, a link cable to the Genesis, and an extra conversion cable for owners of the first Genesis model. A Sega CD (https://404memoryfound.com/posts/what-happened-to-sega-cd-add-on.html) owner who wanted everything running at once ended up with three boxes, two power bricks and a tangle of cables behind the TV.
+
+## How old is the Sega 32X in 2026?
+
+The Sega 32X turns 32 on November 21, 2026; it went on sale in North America on November 21, 1994 at $159.99. Sega has never re-released the hardware and has announced nothing for the date, so everything happening around the add-on in 2026 comes from outside the company.
+
+The hardware news is the GF-1 Neptune, an FPGA console from the Brazilian company GamesCare built to run Genesis and 32X cartridges in one box, which is what Sega itself announced in 1995 and never shipped. Its launch slipped out of a December 2025 window into 2026, and in May 2026 GamesCare put out video of the machine running a 32X core, with Knuckles' Chaotix loaded from a flash cartridge. No release date and no final price have been confirmed.
+
+Software is moving as well. Time Extension reported in March 2026 that the homebrew developer Jenovi has three 32X projects going: an English translation of Koei’s Sangokushi IV, which never came out in the West, a new puzzler called Meld, and SignalFall, a space exploration game in the style of Elite.
 
 ## Why did Sega bolt 32-bit chips onto the Genesis?
 
@@ -9686,6 +9694,10 @@ The Sega 32X library finished at 40 games worldwide, six of which also required 
 - Sega Retro: History of the Sega 32X: https://segaretro.org/History_of_the_Sega_32X
 - Wikipedia: 32X: https://en.wikipedia.org/wiki/32X
 - PriceCharting: Sega 32X unit prices: https://www.pricecharting.com/game/sega-32x/sega-32x-unit
+- Time Extension: Unofficial FPGA Sega Neptune gets pushed into 2026 (December 2025): https://www.timeextension.com/news/2025/12/we-believe-this-is-the-right-step-unofficial-fpga-sega-neptune-gets-pushed-into-2026
+- Time Extension: FPGA GF1 Neptune console shown running Sega 32X core (May 2026): https://www.timeextension.com/news/2026/05/greetings-straight-from-the-32-bit-era-fpga-gf1-neptune-console-shown-running-sega-32x-core
+- GamesRadar: Sega's cancelled Neptune console is now running 32X games (May 2026): https://www.gamesradar.com/hardware/retro/segas-cancelled-neptune-console-is-finally-a-thing-thanks-to-fpga-and-its-now-running-32x-games/
+- Time Extension: Sega 32X is getting an Elite-style space game called SignalFall (March 2026): https://www.timeextension.com/news/2026/03/sega-32x-is-getting-an-ambitious-elite-style-space-exploration-game-called-signalfall
 
 ---
 
