@@ -18,8 +18,9 @@
         "gymboree bankruptcy 2026",
         "are gymboree stores closing"
       ],
-      "status": "pending",
-      "source": "freshness-news-2026-11-16"
+      "status": "skipped_competitive",
+      "source": "freshness-news-2026-11-16",
+      "skip_reason": "First page for \"who owns Gymboree now\", plus the November 2026 Children's Place Chapter 11, is saturated with national and trade press (Good Morning America, NBC Boston, Fortune, Boston.com, Chain Store Age, Modern Retail)."
     },
     {
       "title": "Who Owns Shop.com Now? Shopify's $100M Domain Buy",
@@ -37,8 +38,10 @@
         "how much did shopify pay for shop.com",
         "what happened to shop.com"
       ],
-      "status": "pending",
-      "source": "freshness-news-2026-11-15"
+      "status": "published",
+      "source": "freshness-news-2026-11-15",
+      "published_slug": "who-owns-shop-com-now",
+      "format": "standard"
     },
     {
       "title": "Is Blockbuster Still Open? The Last Store in 2026",
