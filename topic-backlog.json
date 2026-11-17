@@ -1,6 +1,6 @@
 {
   "_description": "Pre-researched SEO topics for 404memoryfound.com, written to POST_SPEC.md (900 to 1,300 words). The writer routine takes the first pending entry in file order, except that when the number of posts in posts.json is a multiple of 5 it takes the first pending entry of 'buyer_intent' instead. Cross off topics as published.",
-  "_last_updated": "2026-11-16",
+  "_last_updated": "2026-11-17",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
   "priority_0_search_console": [
     {
@@ -2211,8 +2211,9 @@
         "did t-mobile buy sprint",
         "sprint shut down date"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-11-11"
+      "status": "skipped_competitive",
+      "source": "editor-research-2026-11-11",
+      "skip_reason": "Tested \"is sprint still around\" on 2026-11-17: first page is T-Mobile owned pages plus Android Central, PhoneArena and RCR Wireless, all answering the merger fully. Not winnable."
     },
     {
       "title": "What Happened to FuncoLand Game Stores?",
@@ -2229,8 +2230,10 @@
         "funcoland stores",
         "funcoland price guide"
       ],
-      "status": "pending",
-      "source": "editor-research-2026-11-11"
+      "status": "published",
+      "source": "editor-research-2026-11-11",
+      "published_slug": "funcoland-stores-what-happened",
+      "format": "standard"
     },
     {
       "title": "Are Nintendo Power Magazines Worth Anything Now?",
