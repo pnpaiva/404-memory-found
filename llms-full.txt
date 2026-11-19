@@ -16726,15 +16726,15 @@ Feedly is the closest mainstream successor to Google Reader, with a free tier fo
 
 URL: https://404memoryfound.com/posts/what-happened-to-nokia-ngage-gaming-phone.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-01  Updated: 2026-09-19
+Published: 2026-04-01  Updated: 2026-11-19
 Topics: Gaming, Hardware, Business Blunders
 
-**Summary:** The Nokia N-Gage is not still around. Nokia discontinued the handheld in November 2005 after shipping about 3 million units against a 6 million target, and the N-Gage software service that replaced it closed in September 2010. Nokia Corporation still owns the N-Gage trademark in 2026, but no N-Gage hardware, store or service exists.
+**Summary:** The Nokia N-Gage is not still around as a Nokia product. Nokia discontinued the handheld in November 2005 after shipping about 3 million units against a 6 million target, and the N-Gage software service that replaced it closed in September 2010. Nokia Corporation still owns the trademark in 2026, and in November 2026 a volunteer project called PhantomLink put the N-Gage Arena online features back for one game, Pocket Kingdom: Own the World.
 
 **Key facts:**
 - Launched: October 7, 2003, $299.99 in the United States
 - Units sold: About 3 million by 2007, against a 6 million target
-- Status today: Discontinued; hardware ended November 2005, service closed September 2010
+- Status today: Discontinued; hardware ended November 2005, Nokia's service closed September 2010; N-Gage Arena partly revived by volunteers in November 2026
 - Owner today: Nokia Corporation, which still holds the N-Gage trademark
 - Price today: About $60 to $290 used, depending on condition
 
@@ -16774,11 +16774,15 @@ Nokia discontinued the hardware in November 2005. Close to 60 games were release
 
 ## Is the N-Gage still around in 2026, and who owns it?
 
-No. There has been no N-Gage hardware since November 2005 and no N-Gage service since 2010. Nokia made one more attempt in between: a software platform, also called N-Gage, that put games on Nokia's existing Symbian smartphones. It went live on April 3, 2008 for the N81, N82 and N95. Apple's App Store opened three months later, and on October 30, 2009 Nokia announced there would be no more N-Gage games. Online support ended in September 2010, with 49 titles released.
+No, not as a Nokia product. There has been no N-Gage hardware since November 2005 and no Nokia-run N-Gage service since 2010, although volunteers put part of the online side back in November 2026. Nokia made one more attempt in between: a software platform, also called N-Gage, that put games on Nokia's existing Symbian smartphones. It went live on April 3, 2008 for the N81, N82 and N95. Apple's App Store opened three months later, and on October 30, 2009 Nokia announced there would be no more N-Gage games. Online support ended in September 2010, with 49 titles released.
 
 The name still has an owner. N-Gage is a registered trademark of Nokia Corporation, which kept its patents and brands when it sold the phone business to Microsoft for about $7.2 billion in a deal that closed on April 25, 2014. Nokia is a networks company in Espoo, Finland today, and the Nokia name on handsets (https://404memoryfound.com/posts/does-nokia-still-make-phones.html) has been licensed out ever since. HMD Global stopped making Nokia-branded smartphones at the start of 2025 and now builds only Nokia feature phones under that licence. None of it covers N-Gage.
 
 The games outlived the company that made them. EKA2L1, an open source Symbian and N-Gage emulator, runs both the 2003 cartridge games and the 2008 service titles on Windows, macOS, Linux and Android.
+
+The online side came back in November 2026, from volunteers rather than Nokia. PhantomLink, an open source project run by Michael Fitzmayer and the MUPF team, supplies what its GitHub README calls "drop-in replacements for GameComms", the multiplayer library in Nokia's N-Gage SDK, so a 2003 game card can reach a modern server without being modified. A bridge device connects to the handheld over Bluetooth and relays the traffic.
+
+Work on N-Gage Arena support opened as a PhantomLink issue on November 10, 2026, and the first game through it was Pocket Kingdom: Own the World, which Time Extension calls Sega's N-Gage MMO and which went dark when Nokia closed N-Gage Arena in 2010. Fitzmayer announced on November 16, 2026 that the game was fully supported and that the team is hosting a permanent server for it, with battles, auctions and ranking tables tested on real hardware. It takes an actual N-Gage and an original game card, because the EKA2L1 emulator will not run the restored service.
 
 ### Where to find one today
 
@@ -16796,7 +16800,7 @@ Nokia read the map correctly and drove off the road. By 2008, when the idea was 
 
 ### Is the Nokia N-Gage still around in 2026?
 
-No. Nokia discontinued the Nokia N-Gage handheld in November 2005, and the N-Gage software service that replaced it stopped taking new games in October 2009 and closed its online features in September 2010. Nokia Corporation still owns the N-Gage trademark in 2026, but there is no N-Gage hardware, store or service.
+No. Nokia discontinued the Nokia N-Gage handheld in November 2005, and the N-Gage software service that replaced it stopped taking new games in October 2009 and closed its online features in September 2010. Nokia Corporation still owns the N-Gage trademark in 2026, and there is no N-Gage hardware or store, though volunteers restored N-Gage Arena play for one game, Pocket Kingdom: Own the World, in November 2026.
 
 ### How many Nokia N-Gage units were sold?
 
@@ -16812,6 +16816,8 @@ The Nokia N-Gage, released on October 7, 2003, put its earpiece and microphone o
 - N-Gage price descends again, GameSpot, 2003: https://www.gamespot.com/articles/n-gage-price-descends-again/1100-6083629/
 - Activision Set to Develop Titles for Nokia N-Gage, Activision investor relations, 2003: https://investor.activision.com/news-releases/news-release-details/activisionr-set-develop-titles-nokia-n-gagetm-mobile-game-deck
 - EKA2L1, Symbian OS and N-Gage emulator: https://eka2l1.github.io/
+- Sega N-Gage MMO Pocket Kingdom: Own The World is back online via PhantomLink, Time Extension, November 2026: https://www.timeextension.com/news/2026/11/sega-n-gage-mmo-pocket-kingdom-own-the-world-is-back-online-via-phantomlink
+- PhantomLink: bringing the Nokia N-Gage back online, GitHub: https://github.com/ngagesdk/PhantomLink
 
 ---
 
