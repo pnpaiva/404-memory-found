@@ -1916,14 +1916,14 @@ No. When Flooz.com shut down in August 2001, unused flooz balances became worthl
 
 ---
 
-# Is the Philips CD-i Worth Anything? 2026 Prices
+# Philips CD-i at 35: Still Worth About $300 in 2026
 
 URL: https://404memoryfound.com/posts/philips-cd-i-worth-today.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-10-07  Updated: 2026-10-27
+Published: 2026-10-07  Updated: 2026-11-19
 Topics: Gaming, Hardware
 
-**Summary:** The Philips CD-i is worth real money in 2026, but modestly: a working console runs about $300, while the Nintendo-licensed CD-i discs are the expensive part of the platform. Philips launched it in the United States on December 3, 1991 as a multimedia player, sold about 570,000 units worldwide, and dropped the product line in 1998. Nobody has revived the format since.
+**Summary:** The Philips CD-i is worth real money in 2026, but modestly: a working console runs about $300, while the Nintendo-licensed CD-i discs are the expensive part of the platform. Philips launched it in the United States on December 3, 1991 as a multimedia player, sold about 570,000 units worldwide, and dropped the product line in 1998. Nobody has revived the format since. It turns 35 on December 3, 2026, with no reissue or official celebration announced.
 
 **Key facts:**
 - Launched: December 3, 1991 in the United States, by Philips
@@ -1941,6 +1941,14 @@ The first US players went on sale on December 3, 1991. Sources disagree on what 
 Early players shipped with a multimedia remote instead of a gamepad, so anything that needed timing felt wrong from the first minute. The catalog leaned on encyclopedias, golf instruction and children's stories, which is what Philips thought people wanted from a disc player attached to the living room television.
 
 The strategy had a logic to it in 1991. One machine for music, video and software was a reasonable bet before cheap PCs took the multimedia work and purpose-built consoles took the games. The CD-i ended up in the middle, doing neither job well, at a price that assumed it did both.
+
+## How old is the Philips CD-i in 2026?
+
+The Philips CD-i turns 35 on December 3, 2026, the date the first US players went on sale in 1991. Philips is not marking it. The Dutch group that built the machine sells health technology now, and no reissue, anniversary edition or event has been announced for the date.
+
+The work being done on the platform is coming from the people who rebuild the hardware in logic. Developer Slamy started an FPGA core for the CD-i in August 2024, as Time Extension reported at the time, and the project is still shipping: stable CD-i core builds went up on GitHub on October 19 and October 24, 2026.
+
+What still resists is the Digital Video Cartridge, the add-on the platform's full motion video titles expect. A cartridge branch of the core opened on the MiSTer FPGA forum in January 2026 with color conversion changes and new interrupt handling that fixes a hang at the end of the Space Ace intro, and Metal Game Solid reported the Dragon's Lair and Space Ace intros running on the updated core. Neither game runs start to finish on the stable core, which is part of why a real player with a real cartridge fitted still carries a price.
 
 ## How Nintendo handed Philips the rights to Zelda and Mario
 
@@ -1972,7 +1980,7 @@ What exists instead is a second-hand market and emulation. MAME covers a good pa
 
 The nearest thing to a revival is a tribute. Arzette: The Jewel of Faramore, released in February 2024, developed by Seedy Eye Software and published by Limited Run Games, copies the hand-painted look of the CD-i Zelda cutscenes. Jeffrey Rath and Bonniejean Wilbur, the original CD-i voices of Link and Zelda, recorded new lines for it. It runs on Nintendo Switch, PlayStation and Xbox consoles and on Windows, which makes it the cheapest way to see what the platform looked like without owning one.
 
-## What breaks on a 30-year-old CD-i, and which discs cost the most
+## What breaks on a 35-year-old CD-i, and which discs cost the most
 
 A working Philips CD-i is roughly a $300 machine in 2026. PriceCharting's record for the Philips CD-i System shows about $299.99 loose and the same complete, around $600 sealed, about $120 for a box alone and about $75 for a manual.
 
@@ -1982,7 +1990,7 @@ Condition on these players is mostly the disc drive and the clock. CD-i hardware
 
 The discs carry the real money, and they are the Nintendo ones. PriceCharting puts Zelda: The Wand of Gamelon at about $222 complete in box, about $496 sealed and about $150 loose, with disc-and-manual copies selling between roughly $137 and $175 in late 2025. Graded sealed copies are asked at several thousand dollars, but confirmed sales at that level are rare enough that the asking prices are not a guide.
 
-Where to find one today. Budget about $300 for a tested console with a controller, and more for a boxed set with the Digital Video Cartridge included. A retro hardware specialist is a safer route than an unknown seller for a 30-year-old optical drive, and Stone Age Gamer's catalog search (https://stoneagegamer.com/catalogsearch/result/?q=cd-i) is a reasonable place to start looking for players and accessories.
+Where to find one today. Budget about $300 for a tested console with a controller, and more for a boxed set with the Digital Video Cartridge included. A retro hardware specialist is a safer route than an unknown seller for a 35-year-old optical drive, and Stone Age Gamer's catalog search (https://stoneagegamer.com/catalogsearch/result/?q=cd-i) is a reasonable place to start looking for players and accessories.
 
 ## Frequently Asked Questions
 
@@ -1990,13 +1998,13 @@ Where to find one today. Budget about $300 for a tested console with a controlle
 
 Yes, modestly. A working Philips CD-i console runs about $300 in 2026, with PriceCharting showing roughly $299.99 loose and about $600 for a sealed system. The real money on the platform sits in its Nintendo-licensed discs: Zelda: The Wand of Gamelon averages about $222 complete in box and about $496 sealed.
 
-### Why did the Philips CD-i fail?
-
-The Philips CD-i failed because the first US players cost $700 or more at launch in December 1991, the best software wanted a $250 add-on for full-motion video, and the machine was weak at games against the $299 Sega (https://404memoryfound.com/posts/is-sega-still-making-games.html) CD and later the PlayStation. Philips abandoned the system with about 570,000 units sold worldwide and dropped the product line in 1998.
-
 ### What Zelda games came out on the Philips CD-i?
 
 Three Zelda games reached the Philips CD-i: Link: The Faces of Evil and Zelda: The Wand of Gamelon, both released in North America on October 10, 1993, and Zelda's Adventure, dated 1996. Philips also published Hotel Mario. All four came from a licence Nintendo granted Philips in 1991 after their Super NES CD-ROM partnership collapsed, and Nintendo does not treat them as canon.
+
+### When is the Philips CD-i's 35th anniversary?
+
+The Philips CD-i's 35th anniversary falls on December 3, 2026, thirty-five years after the first US players went on sale on December 3, 1991. Philips has announced no reissue, anniversary edition or event for the date. The company now sells health technology, and the only active CD-i projects are emulation and FPGA work by hobbyists.
 
 **Sources:**
 - PriceCharting: CD-i prices and values: https://www.pricecharting.com/console/cd-i
@@ -2004,6 +2012,9 @@ Three Zelda games reached the Philips CD-i: Link: The Faces of Evil and Zelda: T
 - Zelda Universe: An interview with the creator of the CD-i Zelda games (2013): https://zeldauniverse.net/2013/03/28/an-interview-with-the-creator-of-the-cd-i-zelda-games/
 - Time Extension: Uncovering The Tragic Tale Of The Philips CD-i: https://www.timeextension.com/features/flashback-uncovering-the-tragic-tale-of-the-philips-cd-i
 - Wikipedia: CD-i: https://en.wikipedia.org/wiki/CD-i
+- GitHub: CDi_MiSTer stable core build, October 24, 2026: https://github.com/MiSTer-DB9/CDi_MiSTer/releases/tag/stable/main/20261024-6bd0275
+- Time Extension: The Ill-Fated Philips CD-i Is Getting Its Own MiSTer FPGA Core (2024): https://www.timeextension.com/news/2024/08/the-ill-fated-philips-cd-i-is-getting-its-own-mister-fpga-core
+- MiSTer FPGA Forum: CD-i Core, Digital Video Cartridge Games: https://misterfpga.org/viewtopic.php?t=9700
 
 ---
 
@@ -8843,27 +8854,29 @@ The lowest price the Atari name ever fetched was $5 million, paid by Hasbro Inte
 
 URL: https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-09-09  Updated: 2026-09-27
+Published: 2026-09-09  Updated: 2026-11-19
 Topics: Business Blunders
 
-**Summary:** Toys R Us is still in business as a brand, but the retailer that ran the superstores is not. All 735 US stores closed on June 29, 2018 after a Chapter 11 filing in 2017, and WHP Global has owned the name since March 2021. On September 17, 2026 the brand announced 120 new US standalone stores for the holiday season, taking the count to 160.
+**Summary:** Toys R Us is still in business as a brand, but the retailer that ran the superstores is not. All 735 US stores closed on June 29, 2018 after a Chapter 11 filing in 2017, and WHP Global has owned the name since March 2021. The brand announced 120 new US standalone stores in September 2026, and on November 13, 2026 it said more than 160 standalone stores were open, with a Grand Central Terminal shop in New York opening on November 20, 2026.
 
 **Key facts:**
 - Status today: Brand active; the original US retailer is gone
 - Owner today: WHP Global, controlling stake since March 15, 2021
 - US stores closed: 735, all shut by June 29, 2018
-- US standalone stores: 40 now, 160 after the 2026 holiday openings
+- US standalone stores: More than 160 open as of November 13, 2026, up from 40
 - Stores worldwide: 1,664 in 35 countries as of 2026
 
-## Why is Toys R Us opening 120 stores in 2026?
+## How many Toys R Us stores opened in 2026?
 
-On September 17, 2026 the brand announced the largest US store expansion since the superstores closed: 120 new standalone Toys R Us stores for the holiday season, opened with the retail operator Go! Retail Group. That takes the standalone count from 40 to 160.
+On September 17, 2026 the brand announced the largest US store expansion since the superstores closed: 120 new standalone Toys R Us stores for the holiday season, opened with the retail operator Go! Retail Group. That took the standalone count from 40 to 160.
+
+They are open now. On November 13, 2026 the brand said more than 160 standalone US stores were trading across the country, and announced a grand opening at Grand Central Terminal in New York, at 89 East 42nd Street, for 10 a.m. on Friday, November 20, 2026, with Geoffrey the Giraffe on hand and giveaways for the first 50 people in line.
 
 "This is a major moment for Toys R Us as we significantly expand our presence across the United States," said Jamie Uitdenhowen, executive vice president of Toys R Us at WHP Global, in the September 2026 announcement.
 
 The stores are stocked around LEGO, Barbie, Hot Wheels and Pokemon, and selected locations carry a Creator Studio, a space set aside for toy brands and online creators to film product reveals and launches. Adult collectors, not only parents, are part of the pitch this time.
 
-The company expects many of the 120 to trade past January rather than shut with the decorations, on the strength of how earlier holiday openings performed. None of that rebuilds the chain that existed in 1998. These are small shops run by a partner, in malls and strip centers, under a name a licensing company owns.
+The company expects many of the 120 to trade past January rather than shut with the decorations. None of that rebuilds the chain that existed in 1998: these are small shops run by a partner, under a name a licensing company owns.
 
 ## Who owns Toys R Us now?
 
@@ -8901,7 +8914,7 @@ American toy retail had already lost KB Toys (https://404memoryfound.com/posts/k
 
 More than there were on the day the American superstores closed. In 2026 the brand counted 1,664 stores across 35 countries, according to Jamie Uitdenhowen of WHP Global, and 2025 was the largest year of international expansion in its history, with openings in six new countries and more than 100 new locations. Outside the United States the name never stopped trading at all.
 
-The US number depends on what you count. There are the standalone stores, 40 before this holiday season and 160 after it. There are 451 Toys R Us shops inside Macy's, installed in a rollout that finished on October 15, 2022 and put the name back in front of American shoppers without signing a single big-box lease. Then there are the outliers: stores on Navy bases, airport locations and seasonal holiday shops.
+The US number depends on what you count. The standalone stores went from 40 before this holiday season to more than 160 open by November 13, 2026, the New York store at Grand Central Terminal included. There are 451 Toys R Us shops inside Macy's, installed in a rollout that finished on October 15, 2022 and put the name back in front of American shoppers without signing a single big-box lease. Then there are the outliers: stores on Navy bases, airport locations and seasonal holiday shops.
 
 The showpiece is at American Dream in East Rutherford, New Jersey, a two-story, 20,000 square foot flagship that opened in December 2021. It is a fraction of the floor space of the superstores it replaced, and it is the closest thing left to the original.
 
@@ -8925,7 +8938,7 @@ It is an unusual second life, closer to what happened at Polaroid (https://404me
 
 ### Is Toys R Us still open in the United States?
 
-Yes, in smaller formats. Toys R Us runs 40 standalone US stores as of September 2026, with 120 more opening for the holiday season to reach 160, plus 451 shops inside Macy's stores and locations on Navy bases and in airports. The 735 superstores that closed on June 29, 2018 are not coming back.
+Yes, in smaller formats. Toys R Us had more than 160 standalone US stores open as of November 13, 2026, up from 40 before the holiday openings, plus 451 shops inside Macy's stores and locations on Navy bases and in airports. The 735 superstores that closed on June 29, 2018 are not coming back.
 
 ### Did Toys R Us go bankrupt or go out of business?
 
@@ -8941,6 +8954,8 @@ Yes. Babies R Us was part of the same brand portfolio WHP Global took control of
 - Toys R Us Inc, Form 8-K exhibit 99.3, statement of CEO Dave Brandon (SEC, March 2018): https://www.sec.gov/Archives/edgar/data/0001005414/000119312518083225/d552404dex993.htm
 - Bain and KKR establish a severance fund for Toys R Us workers (CNBC, November 20, 2018): https://www.cnbc.com/2018/11/20/bain-and-kkr-establish-a-severance-fund-for-toys-r-us-workers.html
 - State of the Industry Q&A 2026: Jamie Uitdenhowen, Toys “R” Us, WHP Global (The Toy Book): https://toybook.com/state-of-the-industry-qa-2026-jamie-uitdenhowen-toys-r-us-whp-global/
+- Toys“R”Us Expands to More Than 160 U.S. Stores, Plans Grand Central Terminal Opening (citybiz, November 2026): https://www.citybiz.co/article/933390/toysrus-expands-to-more-than-160-u-s-stores-plans-grand-central-terminal-opening-in-new-york/
+- Toys R Us expands to New York's Grand Central (CoStar, November 2026): https://www.costar.com/article/1474659558/toys-r-us-expands-to-new-yorks-grand-central
 
 ---
 
