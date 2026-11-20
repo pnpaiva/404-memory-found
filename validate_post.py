@@ -19,7 +19,8 @@ FORMATS = {"quick": (550, 850, 3, 4), "standard": (900, 1400, 4, 6), "deep": (16
 DASHES = ("—", "–")
 BRAND = "404 Memory Found"
 # A title that answers its own question gets impressions and no clicks ("Is X Still Around? Yes, Online Only").
-VERDICT = re.compile(r"[?:]\s*(Yes|No|Nope|Yep|Only|Not|Gone|Closed|Dead|Sort of|Mostly|Partly)\b|\b(Yes|No),", re.I)
+VERDICT = re.compile(r"[?:]\s*(Yes|No|Nope|Yep|Only|Not|Gone|Closed|Dead|Sort of|Mostly|Partly)\b|\b(Yes|No),"
+                     r"|[?:]\s*(It|They|[A-Z][\w.&'-]*)\s+(Closed|Shut|Died|Ended|Folded|Sold Out|Went Bankrupt)\b", re.I)
 
 
 def load():
