@@ -582,20 +582,23 @@ READING_JS = """    <script>
 
 def shell_html(ctx, head, *, body_class, window_icon, window_title, content, status_text, slug=""):
     """Every generated page is one open Win95 window on the desktop (full-screen window on mobile)."""
-    close_js = "closeWindow('post-window'); if (window.opener || window.history.length <= 1) { window.close(); } else { window.location.href='/'; }"
+    # Every control on the window either works or is visibly unavailable. Minimize leaves a taskbar button that
+    # brings the page back (data-was-open), Close goes to the desktop (window.close() is ignored in a tab opened
+    # from search, which used to leave readers on an empty desktop), and Maximize is greyed out because the page
+    # already fills the reading width, like a fixed-size Win95 dialog.
     return f"""{head}
 <body class="page-shell {body_class}">
     <main>
     <div class="desktop-container">
         <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
             {ctx['desktop_icons']}
-            <div class="window" id="post-window" style="left:120px;top:15px;width:850px;height:620px;display:flex;">
+            <div class="window" id="post-window" data-was-open="true" data-title="{window_icon} {esc(window_title)}" style="left:120px;top:15px;width:850px;height:620px;display:flex;">
                 <div class="title-bar">
                     <div class="title-bar-title">{window_icon} <span>{esc(window_title)}</span></div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('post-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('post-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="{close_js}" aria-label="Close"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('post-window')" aria-label="Minimize to the taskbar" title="Minimize to the taskbar"><span class="btn-minimize"></span></button>
+                        <button class="window-button" disabled aria-label="Maximize (this window is already full width)" title="Already full width"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="location.href='/'" aria-label="Close and go to the desktop" title="Close (back to the desktop)"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
@@ -690,11 +693,49 @@ def authors_block_html(ctx):
 
 # --------------------------------------------------------------------------- pages
 
+def post_summary_html(post):
+    return f'<p class="post-summary">{post["summary"]}</p>' if post.get("summary") else ""
+
+
+# Section headings that only restate the answer the summary already gave ("Who owns X today?") make poor teasers.
+ANSWER_HEADING = re.compile(r"\b(who owns|still (around|open|in business|exist|exists|work|works|updating|going|available|alive|made)"
+                            r"|today|now\b|in 20\d\d|frequently asked)", re.I)
+
+
+def ahead_html(headings):
+    """One line under the summary that points at the strangest part of the story still to come, taken from the
+    post's own section headings. The summary answers the search; this gives the reader a reason to keep going."""
+    cands = []
+    for i, (slug, text) in enumerate(headings):
+        if i == 0 or ANSWER_HEADING.search(text):
+            continue
+        # A scene ("The day...", "The 30-hour auction that...") beats an explainer, a statement beats a question.
+        score = (3 if re.match(r"The\b", text) else 0) + (0 if text.rstrip().endswith("?") else 1) \
+            + (1 if re.search(r"\d", text) else 0) + (1 if i <= max(1, len(headings) * 2 // 3) else 0)
+        cands.append((score, -i, slug, text))
+    if not cands:
+        return ""
+    _, _, slug, text = max(cands)
+    return (f'<p class="post-ahead" data-nosnippet>Still ahead in this story: '
+            f'<a href="#{slug}" data-ev="ahead_click">{esc(text)}</a></p>')
+
+
+def quick_facts_html(post):
+    facts = post.get("facts") or []
+    if not facts:
+        return ""
+    rows = "".join(f'<div class="fact-row"><dt>{esc(f["label"])}</dt><dd>{f["value"]}</dd></div>' for f in facts)
+    return f'<aside class="quick-facts" aria-label="Quick facts"><div class="quick-facts-title">Quick facts</div><dl>{rows}</dl></aside>'
+
+
 def post_extras_html(post):
-    """Summary, hero image, quick facts (new-format posts). Older posts have none of these fields."""
+    """Summary, hero, quick facts in one block: the homepage reader's JSON. Article pages place them separately."""
+    return "\n".join(x for x in (post_summary_html(post), post_hero_html(post), quick_facts_html(post)) if x)
+
+
+def post_hero_html(post):
+    """The lead photo, unless the body already carries its own images."""
     parts = []
-    if post.get("summary"):
-        parts.append(f'<p class="post-summary">{post["summary"]}</p>')
     if post.get("heroLocal") and "<img" not in post["body"]:
         info = post["heroInfo"]
         alt = esc(post.get("imageAlt") or post["title"])
@@ -708,10 +749,6 @@ def post_extras_html(post):
         parts.append(
             f'<figure class="post-hero"><img src="{post["heroLocal"]}"{srcset} alt="{alt}" width="{info["width"]}" '
             f'height="{info["height"]}" fetchpriority="high" decoding="async"><figcaption>{caption} {credit_link(info)}</figcaption></figure>')
-    facts = post.get("facts") or []
-    if facts:
-        rows = "".join(f'<div class="fact-row"><dt>{esc(f["label"])}</dt><dd>{f["value"]}</dd></div>' for f in facts)
-        parts.append(f'<aside class="quick-facts" aria-label="Quick facts"><div class="quick-facts-title">Quick facts</div><dl>{rows}</dl></aside>')
     return "\n".join(parts)
 
 
@@ -759,7 +796,17 @@ def toc_html(headings):
     if len(headings) < 4:
         return ""
     items = "".join(f'<li><a href="#{slug}">{esc(text)}</a></li>' for slug, text in headings)
-    return f'<nav class="post-toc" aria-label="In this article"><div class="post-toc-title">In this article</div><ol>{items}</ol></nav>'
+    return f'<nav class="post-toc" aria-label="In this article"><div class="post-toc-title">Jump to:</div><ol>{items}</ol></nav>'
+
+
+def insert_before_faq(body, html):
+    """Put the next-story cards where the story ends, ahead of the FAQ and the sources: that is the moment a
+    reader decides whether to open a second page, and the first links they meet used to point off the site."""
+    if not html:
+        return body
+    faq = re.search(r"<h2[^>]*>\s*Frequently Asked Questions", body, flags=re.I)
+    at = faq.start() if faq else len(body)
+    return body[:at] + html + "\n" + body[at:]
 
 
 def archive_card(r, event):
@@ -802,6 +849,9 @@ def build_post_page(ctx, post, posts):
     body_with_ids, headings = add_heading_ids(post["body"])
     if related:
         body_with_ids = insert_keep_reading(body_with_ids, archive_card(related[0], "keep_reading_click"))
+    body_with_ids = insert_before_faq(body_with_ids, related_html)
+    # The headline on the page matches the title Google shows (seo.title), so the click lands where it promised.
+    display_title = ((post.get("seo") or {}).get("title") or post["title"]).replace(f" | {BLOG_NAME}", "").strip()
     first_tag = post["tags"][0] if post["tags"] else None
     crumb_mid = (f'<a href="/tags/{tag_slug(first_tag)}.html">{esc(first_tag)}</a>' if first_tag
                  else '<a href="/posts/">All posts</a>')
@@ -815,19 +865,21 @@ def build_post_page(ctx, post, posts):
 <article class="post-article">
     <header class="post-header">
         <nav class="post-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">&rsaquo;</span> {crumb_mid}</nav>
-        <h1>{esc(post['title'])}</h1>
+        <h1>{esc(display_title)}</h1>
         <div class="post-meta">By {byline} <span class="post-meta-sep">&middot;</span> {dates} <span class="post-meta-sep">&middot;</span> <span class="reading-time">{post['readingTime']}</span></div>
     </header>
-    {post_extras_html(post)}
+    {post_summary_html(post)}
+    {ahead_html(headings) if post.get("summary") else ""}
+    {post_hero_html(post)}
     {toc_html(headings)}
     {disclosure}
     <div class="post-body">
 {body_with_ids}
     </div>
+    {quick_facts_html(post)}
     {sources_html(post)}
     <footer class="post-footer">
         {'<div class="post-tags">Filed under: ' + tags_html + '</div>' if tags_html else ''}
-        {related_html}
         <div class="page-back-row"><a class="page-back page-back-desktop" href="/">&larr; Back to Blog</a> <a class="page-back" href="/posts/">All posts</a></div>
     </footer>
 </article>"""
@@ -837,7 +889,7 @@ def build_post_page(ctx, post, posts):
     blog_posting = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": post["title"],
+        "headline": display_title,
         "description": post["metaDescription"],
         "datePublished": post["date"],
         "dateModified": post.get("updated") or post["date"],
@@ -859,7 +911,7 @@ def build_post_page(ctx, post, posts):
             {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL + "/"},
             {"@type": "ListItem", "position": 2, "name": post["tags"][0] if post["tags"] else "All posts",
              "item": f"{BASE_URL}/tags/{tag_slug(post['tags'][0])}.html" if post["tags"] else f"{BASE_URL}/posts/"},
-            {"@type": "ListItem", "position": 3, "name": post["title"], "item": post["url"]},
+            {"@type": "ListItem", "position": 3, "name": display_title, "item": post["url"]},
         ],
     }
     extra = (f'\n    <meta property="article:published_time" content="{post["date"]}T00:00:00Z">'
@@ -870,7 +922,7 @@ def build_post_page(ctx, post, posts):
     head = head_html(ctx, title=post["pageTitle"], description=post["metaDescription"], canonical=post["url"],
                      og_type="article", og_image=post["ogImage"], extra_meta=extra, og_title=post["title"],
                      schemas=(blog_posting, breadcrumbs, extract_faq_schema(post["body"])))
-    return shell_html(ctx, head, body_class="post-page", window_icon="📖", window_title=post["title"],
+    return shell_html(ctx, head, body_class="post-page", window_icon="📖", window_title=display_title,
                       content=content, status_text=human_date(post.get("updated") or post["date"]), slug=post["slug"])
 
 
@@ -1533,12 +1585,20 @@ PAGE_SHELL_CSS = """
 .page-shell .post-breadcrumb a { color: #000080; text-decoration: none; }
 .page-shell .post-breadcrumb a:hover { text-decoration: underline; }
 .page-shell .post-meta-sep { color: #999; margin: 0 2px; }
-.page-shell .post-toc { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 10px 14px 10px; margin: 14px 0 22px; }
-.page-shell .post-toc-title { font-weight: bold; color: #000080; font-size: 14px; margin-bottom: 6px;
+/* "Jump to" strip: the section list as one toolbar row instead of a tall box standing between the answer and the story */
+.page-shell .post-toc { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 7px 10px; margin: 12px 0 22px;
+    font-size: 14px; line-height: 1.65; }
+.page-shell .post-toc-title { display: inline; margin-right: 6px; font-weight: bold; color: #000080;
     font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
-.page-shell .post-toc ol { margin: 0; padding-left: 22px; font-size: 15px; line-height: 1.6; }
+.page-shell .post-toc ol { display: inline; margin: 0; padding: 0; list-style: none; }
+.page-shell .post-toc li { display: inline; }
+.page-shell .post-toc li + li::before { content: "\\00B7"; color: #808080; margin: 0 8px; }
 .page-shell .post-toc a { color: #000080; text-decoration: none; }
-.page-shell .post-toc a:hover { text-decoration: underline; }
+.page-shell .post-toc a:hover, .page-shell .post-toc a:focus-visible { text-decoration: underline; }
+/* The one line under the summary that points at the best part of the story still to come */
+.page-shell .post-ahead { margin: 0 0 14px; font-size: 16px; line-height: 1.45; color: #444; }
+.page-shell .post-ahead a { color: #000080; font-weight: bold; text-decoration: none; }
+.page-shell .post-ahead a:hover, .page-shell .post-ahead a:focus-visible { text-decoration: underline; }
 .page-shell .post-body h2 { scroll-margin-top: 52px; }
 
 /* Dead brand index: a reference table people can sort and filter without leaving the page */
@@ -1679,7 +1739,7 @@ body.page-shell { user-select: text; }
     .page-shell .window-content { overflow: visible; background: #c0c0c0; padding: 0 0 64px; }
     .page-shell .page-card { background: #fff; margin: 6px; padding: 12px; border: 2px solid;
         border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080; }
-    .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
+    .page-shell .post-header h1 { font-size: 25px; color: #000080; margin-bottom: 6px; line-height: 1.2; font-weight: bold; }
     .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
     .page-shell .post-body { font-size: 17px; line-height: 1.7; color: #1a1a1a; }
     .page-shell .post-body img, .page-shell .post-hero img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
@@ -1692,6 +1752,45 @@ body.page-shell { user-select: text; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
     .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
     .quick-facts dt { flex-basis: 40%; }
+    /* The headline that tells a searcher "right page" must outrank the section headings below it */
+    .page-shell .post-body h2 { font-size: 21px; line-height: 1.3; }
+    .page-shell .post-body h3 { font-size: 18px; line-height: 1.35; }
+    .page-shell .post-ahead { font-size: 15px; }
+    /* A portrait photo used to fill a whole phone screen before the story; show it whole in a short viewer */
+    .page-shell .post-hero img { width: 100%; max-height: 220px; object-fit: contain; background: #c0c0c0; }
+    .page-shell .post-body a.archive-card img { width: 72px; height: 54px; }
+}
+
+/* CRT scanlines stay on the teal desktop. Over the article they cut the contrast of every line of text and every photo,
+   so on generated pages they are painted into the desktop background, under the window, instead of over it. */
+body.page-shell::before { display: none; }
+body.page-shell { background: repeating-linear-gradient(0deg, rgba(0, 0, 0, .08) 0 2px, transparent 2px 4px),
+    linear-gradient(135deg, #008080 0%, #106B6B 100%); }
+
+/* Maximize is shown the way Win95 shows a control a fixed-size window cannot use: greyed and embossed */
+.page-shell .window-button:disabled { cursor: default; }
+.page-shell .window-button:disabled .btn-maximize { border-color: #808080; box-shadow: 1px 1px 0 #fff; }
+.page-shell .window-button:disabled .btn-maximize::after { background: #808080; }
+
+/* Next-story cards now sit inside the article body, where body link styles would otherwise restyle them */
+.page-shell .post-body .related-posts { margin: 32px 0 28px; }
+.page-shell .post-body a.archive-card { color: #000; text-decoration: none; }
+.page-shell .post-body a.archive-card:hover, .page-shell .post-body a.archive-card:focus { color: #fff; }
+.page-shell .post-body a.archive-card img { width: 96px; height: 72px; max-width: none; margin: 0; border: 1px solid #808080; }
+@media (max-width: 768px) {
+    .page-shell .post-body a.archive-card img { width: 72px; height: 54px; }
+}
+
+/* Wide screens: Quick facts becomes a Properties pane beside the article, so the story starts right after the answer.
+   Narrower screens get the same box as a recap at the end of the story. */
+@media (min-width: 1400px) {
+    .page-shell.post-page #post-window { width: min(1100px, calc(100% - 250px)) !important; }
+    .page-shell.post-page .page-card { margin: 0 300px 0 0; }
+    .page-shell.post-page .quick-facts { position: absolute; top: 32px; right: 13px; width: 270px; margin: 0; padding: 0 3px 3px;
+        background: #c0c0c0; border: 2px solid; border-color: #fff #808080 #808080 #fff; }
+    .page-shell.post-page .quick-facts-title { background: linear-gradient(90deg, #000080, #1084d0); color: #fff; font-size: 12px;
+        padding: 3px 6px; margin: 0 -3px 3px; }
+    .page-shell.post-page .quick-facts dl { background: #fff; border: 1px solid; border-color: #808080 #fff #fff #808080; padding: 6px 10px; }
 }
 """
 

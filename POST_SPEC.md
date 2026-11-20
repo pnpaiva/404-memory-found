@@ -10,7 +10,11 @@ One post answers one search query completely, so that Google can lift the answer
 - Formats that need the click come first: price guides with a table, how to play, run, watch or digitize it today, every model or version ranked or listed, and stories with a real mystery.
 - Every post carries 1 or 2 photos inside the body (see Images) in addition to the hero, placed after the second or third section. Walls of text lose readers; a photo of the real thing keeps them.
 - Every section ends on a sentence that makes the next heading the obvious next question.
-- The build adds a "Keep reading" card mid-article and "Next in the archive" cards at the end, so a related post with a curiosity-driven title matters: link phrases and tags decide which posts surface there.
+- The build adds a "Keep reading" card mid-article and "Next in the archive" cards where the story ends (before the FAQ), so a related post with a curiosity-driven title matters: link phrases and tags decide which posts surface there.
+- The page headline is `seo.title` (the title Google shows), so the click lands on the promise it made. Keep `seo.title` a headline a person would want to read, not a keyword string.
+- Under the summary the build prints "Still ahead in this story:" with one of the post's own section headings, picked automatically: a statement heading with a concrete detail (a date, a number, a scene) wins over a question, and headings that only restate the answer ("Who owns X today?", "Is X still open?") are never picked. So at least one heading after the first must be that kind of statement, the strangest moment in the story ("The day two soldiers carried the chairman out of his office", "The 30-hour auction that ended the American stores").
+- The last section before the FAQ ends on a closing line that finishes the story, because the next-story cards come right after it.
+- FAQ answers add something the summary does not already say (a second detail, a number, a how-to). An FAQ that repeats the summary word for word reads as filler at the moment readers decide whether to stay.
 
 ## Shape
 
