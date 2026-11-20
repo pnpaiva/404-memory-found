@@ -18,8 +18,9 @@ indexing-priority.txt (committed) is the fast lane: lines of "YYYY-MM-DD URL" wr
 routines when a post is refreshed for an anniversary or a news story. Such a URL is asked for first
 if it has not been requested since that date, even when an older request is still inside RETRY_DAYS.
 
-Order: hub pages first (they lead Google to everything else), then posts that answer a status
-question ("Is X still...", "Who owns...", "How many... left"), rewritten posts before untouched
+Order: hub pages first (they lead Google to everything else), then posts not yet passed over by Google
+("Crawled, currently not indexed" waits until the post is upgraded), posts already carrying a table (the current
+spec), then posts that answer a status question ("Is X still...", "Who owns...", "How many... left"), rewritten posts before untouched
 ones, newest first. A URL requested less than RETRY_DAYS ago is not asked for again; after that, if
 it is still not indexed, it goes back in the line.
 """
@@ -51,11 +52,30 @@ def save_state(state):
         f.write("\n")
 
 
+def search_console():
+    try:
+        return json.load(open(os.path.join(ROOT, "seo", "search-console.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def known_indexed():
+    """Pages with impressions in the latest Search Console snapshot are on Google already: a manual request there
+    spends one of the ~ten daily slots on a page that does not need it (the fast lane still re-asks after a rewrite)."""
+    return {f"{BASE}/" if row[0] == "home" else f"{BASE}/{row[0]}.html" if row[0] == "dead-brand-index"
+            else f"{BASE}/posts/{row[0]}.html" for row in search_console().get("pages", [])}
+
+
 def ranked_urls():
     posts = json.load(open(os.path.join(ROOT, "posts.json"), encoding="utf-8"))["posts"]
+    crawled = set(search_console().get("crawled_not_indexed", []))
 
     def rank(p):
-        return (0 if STATUS_TITLE.search(p["title"]) else 1,
+        # Google already crawled and passed on these; a request rarely changes its mind until the post is upgraded
+        stale_crawl = p["id"] in crawled and not p.get("upgraded")
+        return (1 if stale_crawl else 0,
+                0 if "<table" in p.get("body", "") else 1,   # upgraded to the current spec: the best version to show
+                0 if STATUS_TITLE.search(p["title"]) else 1,
                 0 if p.get("updated") else 1,
                 -int((p.get("updated") or p["date"]).replace("-", "")))
 
@@ -93,7 +113,8 @@ def priority_urls(state):
 def cmd_next(n):
     state, today = load_state(), date.today()
     fast = priority_urls(state)
-    rest = [u for u in ranked_urls() if u not in fast and due(state["urls"].get(u), today)]
+    skip = known_indexed()
+    rest = [u for u in ranked_urls() if u not in fast and u not in skip and due(state["urls"].get(u), today)]
     print("\n".join((fast + rest)[:n]))
 
 
