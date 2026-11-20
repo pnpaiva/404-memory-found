@@ -3,7 +3,7 @@
  "source": "https://404memoryfound.com/dead-brand-index.html",
  "updated": "2026-11-20",
  "licence": "Free to reuse with credit and a link to the source page.",
- "count": 215,
+ "count": 209,
  "brands": [
   {
    "name": "3dfx",
@@ -35,16 +35,16 @@
   },
   {
    "name": "Amazon",
-   "started": "",
+   "started": "July 5, 1994, as Cadabra, Inc., in Bellevue, Washington",
    "status2026": "Still public as AMZN; market value passed $3 trillion in August 2026",
-   "owner2026": "",
+   "owner2026": "Amazon.com, Inc., public on Nasdaq as AMZN",
    "source": "https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html"
   },
   {
    "name": "Anbernic",
-   "started": "",
+   "started": "2017, in Shenzhen; first RG handheld in November 2017",
    "status2026": "Still trading in 2026, but direct China-to-US shipping was suspended on April 21, 2025, so US orders depend on warehouse stock",
-   "owner2026": "",
+   "owner2026": "Shenzhen YangLiMing Electronic Technology, its trademark holder",
    "source": "https://404memoryfound.com/posts/anbernic-handheld-worth-it-game-boy.html"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "name": "AOL",
-   "started": "",
+   "started": "May 1985, as Quantum Computer Services; AOL name from 1989",
    "status2026": "Active: free AOL Mail, news portal and paid plans",
    "owner2026": "Bending Spoons (Milan), since January 2, 2026",
    "source": "https://404memoryfound.com/posts/does-aol-still-exist-today.html"
@@ -70,14 +70,14 @@
   },
   {
    "name": "AOL Time Warner",
-   "started": "",
+   "started": "January 11, 2001, when the AOL and Time Warner merger closed",
    "status2026": "Dissolved. AOL was spun off in 2009 and the name is gone",
    "owner2026": "AOL: Bending Spoons. Time Warner assets: Warner Bros. Discovery",
    "source": "https://404memoryfound.com/posts/aol-time-warner-merger-worst-deal-in-history.html"
   },
   {
    "name": "Apple",
-   "started": "",
+   "started": "April 1, 1976, as Apple Computer Company, Los Altos, California",
    "status2026": "Apple Inc. is public on Nasdaq as AAPL; fiscal 2026 revenue was a record $478.8 billion",
    "owner2026": "Shareholders, led by index fund managers. Microsoft no longer holds its 1997 stake",
    "source": "https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html"
@@ -90,18 +90,18 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-apple-newton.html"
   },
   {
-   "name": "Arcades",
-   "started": "",
-   "status2026": "Still operating, as food and entertainment venues",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/what-happened-to-arcades-golden-age-gaming.html"
-  },
-  {
    "name": "Ask Jeeves",
    "started": "Beta in April 1997, full launch June 1, 1997",
    "status2026": "Closed. Ask.com went dark on May 1, 2026",
    "owner2026": "IAC, which shut the search business down",
    "source": "https://404memoryfound.com/posts/what-happened-to-ask-jeeves-search-engine.html"
+  },
+  {
+   "name": "Atari",
+   "started": "June 27, 1972, as Atari, Inc., by Nolan Bushnell and Ted Dabney",
+   "status2026": "Active; revenue of 56.0 million euros for the year to March 2026, a decade high; VCS store closes February 1, 2027",
+   "owner2026": "Atari SA, listed on Euronext Growth Paris as ALATA",
+   "source": "https://404memoryfound.com/posts/who-owns-atari-now.html"
   },
   {
    "name": "Atari Jaguar",
@@ -119,7 +119,7 @@
   },
   {
    "name": "Barnes and Noble",
-   "started": "",
+   "started": "1886, as Arthur Hinds & Company in New York City",
    "status2026": "Open and expanding, with more than 735 US bookstores in November 2026",
    "owner2026": "Elliott Investment Management, which paid about $683 million in 2019",
    "source": "https://404memoryfound.com/posts/is-barnes-and-noble-still-open.html"
@@ -132,7 +132,7 @@
    "source": "https://404memoryfound.com/posts/beanie-babies-bubble-what-happened.html"
   },
   {
-   "name": "Betamax vs VHS",
+   "name": "Betamax",
    "started": "May 10, 1975 in Tokyo, November 1975 in the United States",
    "status2026": "Dead format. Recorders ended in 2002, the last blank cassettes shipped in March 2016",
    "owner2026": "Sony",
@@ -146,8 +146,15 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-blackberry-smartphone.html"
   },
   {
+   "name": "Bliss (Windows XP wallpaper)",
+   "started": "October 25, 2001, as the Windows XP default wallpaper",
+   "status2026": "Planted vineyard; briefly bare and green again on 18 February 2026",
+   "owner2026": "Microsoft, which obtained full rights to the photo in 2000",
+   "source": "https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html"
+  },
+  {
    "name": "Blockbuster",
-   "started": "",
+   "started": "October 19, 1985, first store in Dallas, Texas",
    "status2026": "Open, one franchise store in Bend, Oregon",
    "owner2026": "Dish Network, part of EchoStar; Dish DBS filed Chapter 11 on June 30, 2026",
    "source": "https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html"
@@ -209,10 +216,10 @@
    "source": "https://404memoryfound.com/posts/who-owns-claires-now.html"
   },
   {
-   "name": "Clippy at 30",
+   "name": "Clippy",
    "started": "November 19, 1996, in Microsoft Office 97",
    "status2026": "Not a feature. An emoji and a hidden Copilot avatar; 30 years old on November 19, 2026",
-   "owner2026": "",
+   "owner2026": "Microsoft",
    "source": "https://404memoryfound.com/posts/what-happened-to-clippy-microsoft.html"
   },
   {
@@ -259,7 +266,7 @@
   },
   {
    "name": "Counter-Strike",
-   "started": "",
+   "started": "June 1999, as a free Half-Life mod beta",
    "status2026": "Live as Counter-Strike 2, released September 27, 2023",
    "owner2026": "Valve Corporation, since 2000",
    "source": "https://404memoryfound.com/posts/what-happened-to-counter-strike-half-life-mod.html"
@@ -273,24 +280,10 @@
   },
   {
    "name": "Dial-Up Internet",
-   "started": "",
+   "started": "1989, The World, the first commercial dial-up ISP in the US",
    "status2026": "Still sold in the US in 2026 by NetZero, Juno and MSN Dial-Up Internet Access",
    "owner2026": "NetZero and Juno are United Online brands, owned by BRC Group Holdings, the company renamed from B. Riley Financial on January 1, 2026",
    "source": "https://404memoryfound.com/posts/dial-up-internet-still-available-2026.html"
-  },
-  {
-   "name": "Dial-Up Sound",
-   "started": "",
-   "status2026": "AOL ended dial-up on September 30, 2025; NetZero and Juno still sell it, and about 100,277 US households used dial-up in the 2024 ACS",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/dial-up-modem-sound-explained.html"
-  },
-  {
-   "name": "Dial-Up Speed",
-   "started": "",
-   "status2026": "Still sold by NetZero and Juno; AOL ended dial-up on September 30, 2025",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/dialup-speed-then-vs-now.html"
   },
   {
    "name": "Digg",
@@ -298,13 +291,6 @@
    "status2026": "Live in alpha at di.gg as an AI news aggregator, since May 2026",
    "owner2026": "Kevin Rose and Alexis Ohanian, who bought Digg in March 2025",
    "source": "https://404memoryfound.com/posts/what-happened-to-digg-social-news.html"
-  },
-  {
-   "name": "Digitize VHS Tapes",
-   "started": "",
-   "status2026": "Still doable at home; Legacybox, Southtree and Kodak Digitizing are one Chattanooga company, AMB Media LLC",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/how-to-digitize-vhs-tapes-2026.html"
   },
   {
    "name": "Discovery Zone",
@@ -324,7 +310,7 @@
    "name": "DIVX",
    "started": "June 8, 1998 in test markets; national rollout September 25, 1998",
    "status2026": "Dead. Discontinued June 16, 1999; no disc has played since June 30, 2001",
-   "owner2026": "",
+   "owner2026": "No one for the disc format; DivX LLC holds DIVX for its codec",
    "source": "https://404memoryfound.com/posts/divx-circuit-city-dvd-format.html"
   },
   {
@@ -352,14 +338,14 @@
    "name": "Eee PC",
    "started": "October 2007, Asus Eee PC, $299.99 to $399.99 in the US",
    "status2026": "Dead category. No major brand has sold a netbook since 2013",
-   "owner2026": "",
+   "owner2026": "Asus (ASUSTeK Computer)",
    "source": "https://404memoryfound.com/posts/what-happened-to-netbooks-laptops.html"
   },
   {
    "name": "Encarta",
    "started": "March 22, 1993, Microsoft",
    "status2026": "Discontinued. Disc sales ended June 2009, MSN Encarta closed October 31, 2009",
-   "owner2026": "",
+   "owner2026": "Microsoft, which retired it in 2009",
    "source": "https://404memoryfound.com/posts/what-happened-to-microsoft-encarta.html"
   },
   {
@@ -412,7 +398,7 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-flickr-yahoo-photo-sharing.html"
   },
   {
-   "name": "Flip Video Camera",
+   "name": "Flip Video",
    "started": "September 12, 2007, Pure Digital Technologies",
    "status2026": "Discontinued April 12, 2011; FlipShare support ended December 31, 2013",
    "owner2026": "Cisco Systems; its US FLIP VIDEO camcorder registration was cancelled in December 2016",
@@ -422,19 +408,19 @@
    "name": "Flooz",
    "started": "1999, Flooz.Com, Inc., New York; chief executive Robert Levitan",
    "status2026": "Defunct. Flooz.Com, Inc. was liquidated; the case closed in 2012",
-   "owner2026": "",
+   "owner2026": "No one: Flooz.Com was liquidated and its mark cancelled in 2008",
    "source": "https://404memoryfound.com/posts/flooz-com-internet-currency-collapse.html"
   },
   {
    "name": "Floppy disk",
-   "started": "",
+   "started": "1971, IBM's 8-inch floppy disk",
    "status2026": "No factory anywhere makes floppy disks; every disk sold is pre-2011 stock",
    "owner2026": "",
    "source": "https://404memoryfound.com/posts/floppy-disks-still-made-today.html"
   },
   {
    "name": "Flying Toasters",
-   "started": "",
+   "started": "1990, in Berkeley Systems' After Dark 2.0 for the Macintosh",
    "status2026": "Still built into Windows 11 and macOS; the boxed screensaver business is gone",
    "owner2026": "After Dark went to the Sierra On-Line division of CUC International in 1997, with no version sold since",
    "source": "https://404memoryfound.com/posts/what-happened-to-screensavers-flying-toasters.html"
@@ -454,14 +440,14 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-frys-electronics.html"
   },
   {
-   "name": "Funco",
+   "name": "FuncoLand",
    "started": "1988 in Minneapolis by David R. Pomije, first leasing games, then selling used ones by mail",
    "status2026": "No stores. The name was still above doors in February 2003 and went in the years after",
    "owner2026": "GameStop, Inc., which holds the FUNCOLAND trademark, registration 2085805",
    "source": "https://404memoryfound.com/posts/funcoland-stores-what-happened.html"
   },
   {
-   "name": "Furbies",
+   "name": "Furby",
    "started": "October 2, 1998, Tiger Electronics, $35",
    "status2026": "In production; Furby Vibes shipped July 15, 2026",
    "owner2026": "Hasbro",
@@ -478,14 +464,14 @@
    "name": "Game Boy",
    "started": "July 31, 1989 in the United States, $89.95, Nintendo",
    "status2026": "Used market only, no factory warranty since 2003",
-   "owner2026": "",
+   "owner2026": "Nintendo",
    "source": "https://404memoryfound.com/posts/buy-working-game-boy-2026.html"
   },
   {
    "name": "Game Genie",
    "started": "1990, designed by Codemasters, sold in the US by Galoob",
    "status2026": "Discontinued; Galoob owned by Hasbro since 1998; loose units about $22",
-   "owner2026": "",
+   "owner2026": "Hyperkin, which bought the trademark and revived it in 2012",
    "source": "https://404memoryfound.com/posts/what-happened-to-game-genie-galoob-cheat-device.html"
   },
   {
@@ -511,7 +497,7 @@
   },
   {
    "name": "Geocaching",
-   "started": "",
+   "started": "May 3, 2000, first cache near Beavercreek, Oregon",
    "status2026": "Active, with more than 3.4 million caches in 191 countries",
    "owner2026": "Groundspeak, Inc. (Geocaching HQ), Seattle, privately held",
    "source": "https://404memoryfound.com/posts/what-happened-to-geocaching-gps-treasure-hunt.html"
@@ -541,7 +527,7 @@
    "name": "Google Reader",
    "started": "October 7, 2005, through Google Labs",
    "status2026": "Gone. No revival announced as of September 2026",
-   "owner2026": "",
+   "owner2026": "Google (Alphabet)",
    "source": "https://404memoryfound.com/posts/what-happened-to-google-reader-rss.html"
   },
   {
@@ -597,14 +583,14 @@
    "name": "HotWired",
    "started": "October 27, 1994, on HotWired",
    "status2026": "US display advertising worth $81.6 billion in 2025 (IAB and PwC)",
-   "owner2026": "",
+   "owner2026": "Condé Nast, which bought the domain in 2006; it redirects to Wired",
    "source": "https://404memoryfound.com/posts/first-banner-ad-hotwired-1994-history.html"
   },
   {
    "name": "HyperCard",
    "started": "August 11, 1987, Apple Computer, written by Bill Atkinson",
    "status2026": "Discontinued March 2004, stacks emulated free at the Internet Archive",
-   "owner2026": "",
+   "owner2026": "Apple",
    "source": "https://404memoryfound.com/posts/what-happened-to-hypercard-apple.html"
   },
   {
@@ -618,7 +604,7 @@
    "name": "iMac G3",
    "started": "Announced May 6, 1998; on sale August 15, 1998",
    "status2026": "Discontinued March 2003; the iMac line continues",
-   "owner2026": "",
+   "owner2026": "Apple",
    "source": "https://404memoryfound.com/posts/how-imac-g3-saved-apple-killed-beige-box.html"
   },
   {
@@ -630,9 +616,9 @@
   },
   {
    "name": "iPod",
-   "started": "",
+   "started": "November 10, 2001, announced October 23, 2001",
    "status2026": "Discontinued. Apple ended the iPod line on May 10, 2022",
-   "owner2026": "",
+   "owner2026": "Apple",
    "source": "https://404memoryfound.com/posts/ipod-wasnt-first-mp3-player-heres-why-it-won.html"
   },
   {
@@ -672,14 +658,14 @@
   },
   {
    "name": "Kmart",
-   "started": "",
+   "started": "1962, first Kmart store; S.S. Kresge dates to 1899",
    "status2026": "Open, plus Kmart.com shipping to the 50 states and APO/FPO addresses",
    "owner2026": "Transform SR Brands LLC (Transformco), tied to Edward Lampert",
    "source": "https://404memoryfound.com/posts/is-kmart-still-open-stores-left.html"
   },
   {
    "name": "Kodak",
-   "started": "",
+   "started": "1881, as Eastman Dry Plate Company; Kodak name from 1888",
    "status2026": "In business and profitable; Q2 2026 net income of 17 million dollars",
    "owner2026": "Independent, publicly traded as NYSE: KODK; no parent company",
    "source": "https://404memoryfound.com/posts/what-happened-to-kodak-digital-camera-bankruptcy.html"
@@ -690,13 +676,6 @@
    "status2026": "Defunct since April 11, 2001; the domain is dark",
    "owner2026": "Yummy Foods, LLC (Yummy.com), Los Angeles, since January 2013",
    "source": "https://404memoryfound.com/posts/what-happened-to-kozmo-com-delivery.html"
-  },
-  {
-   "name": "LAN parties",
-   "started": "",
-   "status2026": "Still running: QuakeCon held its BYOC hall August 6 to 9, 2026",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/golden-age-of-lan-parties.html"
   },
   {
    "name": "LaserDisc",
@@ -735,7 +714,7 @@
   },
   {
    "name": "MapQuest",
-   "started": "",
+   "started": "February 1996, as mapquest.com",
    "status2026": "Live at mapquest.com, with free apps for iPhone and Android",
    "owner2026": "System1, which bought it from Verizon in October 2019",
    "source": "https://404memoryfound.com/posts/how-mapquest-lost-to-google-maps.html"
@@ -749,7 +728,7 @@
   },
   {
    "name": "MCI",
-   "started": "",
+   "started": "October 3, 1963, as Microwave Communications, Inc.",
    "status2026": "WorldCom gone; MCI Communications Services still files as a Verizon Business entity in 2026",
    "owner2026": "Verizon Communications, which closed the MCI merger on January 6, 2006 for about $8.5 billion",
    "source": "https://404memoryfound.com/posts/worldcom-fraud-who-owns-mci-now.html"
@@ -758,7 +737,7 @@
    "name": "Memory Stick",
    "started": "October 1998, Sony",
    "status2026": "Out of production; used PRO Duo cards run about $12 to $24",
-   "owner2026": "",
+   "owner2026": "Sony",
    "source": "https://404memoryfound.com/posts/sony-memory-stick-still-made.html"
   },
   {
@@ -777,7 +756,7 @@
   },
   {
    "name": "MiniDisc",
-   "started": "",
+   "started": "November 1992, in Japan; December 1992 in the US and Europe",
    "status2026": "Discontinued. Last players sold March 2013, blank discs ended February 2025",
    "owner2026": "Sony still owns the format and the trademark but sells nothing for it",
    "source": "https://404memoryfound.com/posts/what-happened-to-minidisc-sony.html"
@@ -800,7 +779,7 @@
    "name": "Motorola StarTAC",
    "started": "January 3, 1996, Motorola",
    "status2026": "Will not connect to any US network; used units ask about $45 to $140",
-   "owner2026": "",
+   "owner2026": "Motorola Mobility (Lenovo), via Motorola Trademark Holdings",
    "source": "https://404memoryfound.com/posts/motorola-startac-price-1996.html"
   },
   {
@@ -819,14 +798,14 @@
   },
   {
    "name": "MySpace",
-   "started": "",
+   "started": "August 1, 2003, by eUniverse staff",
    "status2026": "Online at myspace.com, described as read-only in 2026",
    "owner2026": "Viant Technology Inc. (Nasdaq: DSP), Irvine, California",
    "source": "https://404memoryfound.com/posts/is-myspace-still-around-today.html"
   },
   {
    "name": "Napster",
-   "started": "",
+   "started": "June 1, 1999, by Shawn Fanning and Sean Parker",
    "status2026": "Music streaming shut down January 1, 2026; the company now sells AI agents at about one cent a minute",
    "owner2026": "Napster Corporation, called Infinite Reality until May 2025",
    "source": "https://404memoryfound.com/posts/who-owns-napster-now.html"
@@ -842,7 +821,7 @@
    "name": "Neo Geo AES",
    "started": "April 26, 1990 in Japan, by SNK",
    "status2026": "Discontinued 1997; $567 to $1,020 loose, AES+ reissue $249.99 due September 16, 2027",
-   "owner2026": "",
+   "owner2026": "SNK, owned by Saudi Arabia's EGDC (Misk Foundation) since 2022",
    "source": "https://404memoryfound.com/posts/neo-geo-aes-home-console-price.html"
   },
   {
@@ -856,19 +835,19 @@
    "name": "NES",
    "started": "Famicom in Japan July 15, 1983; NES tested in New York October 18, 1985",
    "status2026": "Hardware retired; 87 NES games on Nintendo Switch Online in September 2026",
-   "owner2026": "",
+   "owner2026": "Nintendo",
    "source": "https://404memoryfound.com/posts/how-nintendo-nes-saved-video-games-1983-crash.html"
   },
   {
    "name": "Netflix",
    "started": "April 14, 1998, as the first online DVD rental store",
    "status2026": "Closed since September 29, 2023. DVDInbox mails discs instead, from $9.99 a month in 2026",
-   "owner2026": "",
+   "owner2026": "Netflix, Inc.",
    "source": "https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html"
   },
   {
    "name": "Netscape",
-   "started": "",
+   "started": "April 4, 1994, as Mosaic Communications; Netscape from November 1994",
    "status2026": "Browser discontinued March 1, 2008. Netscape Internet Service closed November 30, 2025",
    "owner2026": "Bending Spoons S.p.A., which completed its purchase of AOL on January 2, 2026",
    "source": "https://404memoryfound.com/posts/is-netscape-still-around.html"
@@ -881,7 +860,7 @@
    "source": "https://404memoryfound.com/posts/how-netscape-lost-the-browser-war.html"
   },
   {
-   "name": "Newgrounds Is",
+   "name": "Newgrounds",
    "started": "July 6, 1995, by Tom Fulp, from a 1991 paper fanzine",
    "status2026": "Online and independent in 2026, 31 years after launch",
    "owner2026": "Newgrounds, Inc., never sold, no outside investors",
@@ -889,16 +868,16 @@
   },
   {
    "name": "Nextel",
-   "started": "",
+   "started": "1987, as Fleet Call; renamed Nextel in 1993",
    "status2026": "Gone; iDEN shutdown began 12:01 a.m. Eastern, June 30, 2013",
    "owner2026": "Sprint Communications, part of T-Mobile; marks upheld in 2024",
    "source": "https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html"
   },
   {
-   "name": "Nintendo 64 Value",
+   "name": "Nintendo 64",
    "started": "September 29, 1996 in the United States, Nintendo",
    "status2026": "Discontinued; no Nintendo repair, warranty or new hardware",
-   "owner2026": "",
+   "owner2026": "Nintendo",
    "source": "https://404memoryfound.com/posts/nintendo-64-value-used-prices.html"
   },
   {
@@ -912,12 +891,12 @@
    "name": "Nintendo Wii",
    "started": "November 19, 2006 in North America at $249.99",
    "status2026": "Discontinued October 21, 2013; consoles still play discs offline",
-   "owner2026": "",
+   "owner2026": "Nintendo",
    "source": "https://404memoryfound.com/posts/what-happened-to-nintendo-wii.html"
   },
   {
    "name": "Nokia",
-   "started": "",
+   "started": "May 12, 1865, as a pulp mill near Tampere, Finland",
    "status2026": "No Nokia-branded smartphones since the start of 2025; feature phones only, under a September 2025 license extension",
    "owner2026": "Nokia Corporation, Espoo, Finland, a network equipment maker with EUR 4.81 billion in Q2 2026 net sales",
    "source": "https://404memoryfound.com/posts/does-nokia-still-make-phones.html"
@@ -944,6 +923,13 @@
    "source": "https://404memoryfound.com/posts/nortel-networks-bankruptcy-patents-sold.html"
   },
   {
+   "name": "Old School RuneScape",
+   "started": "February 22, 2013, for Windows and macOS",
+   "status2026": "Both games live, with Old School RuneScape the larger of the two",
+   "owner2026": "CVC Capital Partners and Haveli Investments, since February 2024",
+   "source": "https://404memoryfound.com/posts/is-runescape-still-popular-2026.html"
+  },
+  {
    "name": "Oregon Trail",
    "started": "December 3, 1971, by Don Rawitsch, Bill Heinemann and Paul Dillenberger",
    "status2026": "Still sold new in 2026, on Steam, Switch, Xbox and Apple Arcade",
@@ -958,13 +944,6 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-original-xbox-microsoft-gaming.html"
   },
   {
-   "name": "OSRS",
-   "started": "",
-   "status2026": "Both games live, with Old School RuneScape the larger of the two",
-   "owner2026": "CVC Capital Partners and Haveli Investments, since February 2024",
-   "source": "https://404memoryfound.com/posts/is-runescape-still-popular-2026.html"
-  },
-  {
    "name": "Packard Bell",
    "started": "1986, Packard Bell Electronics, Inc., built on a radio trademark bought in 1985",
    "status2026": "Relaunched September 2026 across Europe, the Middle East and Africa; the DotBook laptop starts at 499 euros",
@@ -973,14 +952,14 @@
   },
   {
    "name": "Pager",
-   "started": "",
+   "started": "1949, Al Gross patents the first telephone pager system",
    "status2026": "Still sold and serviced, mainly to hospitals and emergency services",
    "owner2026": "",
    "source": "https://404memoryfound.com/posts/pagers-still-used-today.html"
   },
   {
    "name": "Palm",
-   "started": "",
+   "started": "1992, as Palm Computing, by Jeff Hawkins",
    "status2026": "Not a company. The Palm name is a dormant trademark, with no new Palm phone since November 2018",
    "owner2026": "TCL, which confirmed in January 2015 that it had bought the Palm trademark from HP",
    "source": "https://404memoryfound.com/posts/is-palm-still-a-company.html"
@@ -989,12 +968,12 @@
    "name": "Palm Pilot",
    "started": "March 1996, Pilot 1000, $299, Palm Computing under U.S. Robotics",
    "status2026": "Discontinued. The Palm trademark is owned by TCL and unused",
-   "owner2026": "",
+   "owner2026": "TCL, which bought the Palm trademark from HP (confirmed 2015)",
    "source": "https://404memoryfound.com/posts/what-happened-to-palm-pilot-pda.html"
   },
   {
    "name": "Payphones",
-   "started": "",
+   "started": "1889, a coin phone at the Hartford Bank in Connecticut",
    "status2026": "Still operating, but uncounted since the FCC dropped payphone audits in 2018",
    "owner2026": "Pacific Telemanagement Services, the largest operator, which said it ran 20,000 phones in 2018",
    "source": "https://404memoryfound.com/posts/payphones-left-united-states.html"
@@ -1010,7 +989,7 @@
    "name": "Philips CD-i",
    "started": "December 3, 1991 in the United States, by Philips",
    "status2026": "Discontinued in 1998, never revived. Koninklijke Philips now sells health technology",
-   "owner2026": "",
+   "owner2026": "Philips (Koninklijke Philips N.V.)",
    "source": "https://404memoryfound.com/posts/philips-cd-i-worth-today.html"
   },
   {
@@ -1022,14 +1001,14 @@
   },
   {
    "name": "PizzaNet",
-   "started": "",
+   "started": "August 22, 1994, as a pilot in Santa Cruz, California",
    "status2026": "PizzaNet is gone; Pizza Hut takes orders through its own site and app",
    "owner2026": "LongRange Capital outside mainland China since September 1, 2026, and Yum China Holdings inside it",
    "source": "https://404memoryfound.com/posts/first-online-purchase-pizza.html"
   },
   {
    "name": "Pogs",
-   "started": "",
+   "started": "1971 as Haleakala Dairy's POG juice; caps craze from 1991",
    "status2026": "Loose caps carry no premium; best documented sale is $255 for an EarthBound set in 2009",
    "owner2026": "POG Unlimited, trading as the World POG Federation, acquired by Julien Savino in 2019",
    "source": "https://404memoryfound.com/posts/pogs-worth-anything-collector-prices.html"
@@ -1066,14 +1045,14 @@
    "name": "PS2",
    "started": "March 4, 2000 in Japan; October 26, 2000 in North America at $299",
    "status2026": "Discontinued in January 2013; still the best-selling console ever",
-   "owner2026": "",
+   "owner2026": "Sony Interactive Entertainment",
    "source": "https://404memoryfound.com/posts/playstation-2-best-selling-console-ever.html"
   },
   {
    "name": "PSP",
    "started": "December 12, 2004 in Japan; March 24, 2005 in the US",
    "status2026": "Discontinued, no Sony support; PSP downloads run through the PS3 and PS Vita stores, closing in stages from August 2026 to July 2027",
-   "owner2026": "",
+   "owner2026": "Sony Interactive Entertainment",
    "source": "https://404memoryfound.com/posts/what-happened-to-sony-psp-handheld.html"
   },
   {
@@ -1085,7 +1064,7 @@
   },
   {
    "name": "RadioShack",
-   "started": "",
+   "started": "1921, as Radio Shack in Boston",
    "status2026": "Brand, website and dealer network; no US chain",
    "owner2026": "Unicomer Group, El Salvador, since May 2023",
    "source": "https://404memoryfound.com/posts/what-happened-to-radioshack-electronics.html"
@@ -1112,13 +1091,6 @@
    "source": "https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html"
   },
   {
-   "name": "Roaming Gnome",
-   "started": "March 12, 1996, by Sabre Interactive",
-   "status2026": "Live, running on Expedia's booking platform",
-   "owner2026": "Expedia Group, since January 23, 2015",
-   "source": "https://404memoryfound.com/posts/who-owns-travelocity-now.html"
-  },
-  {
    "name": "RollerCoaster Tycoon",
    "started": "March 22, 1999 in North America, Hasbro Interactive under the MicroProse label",
    "status2026": "Active. RollerCoaster Tycoon Wonderworks in Steam early access, winter 2026",
@@ -1133,15 +1105,8 @@
    "source": "https://404memoryfound.com/posts/sam-goody-stores-left.html"
   },
   {
-   "name": "Screen Savers",
-   "started": "May 11, 1998, as ZDTV, owned by Ziff-Davis",
-   "status2026": "Off the air since February 15, 2005, with no revival announced",
-   "owner2026": "Comcast, which has held the TechTV name since 2004",
-   "source": "https://404memoryfound.com/posts/what-happened-to-techtv-screen-savers-channel.html"
-  },
-  {
    "name": "Sears",
-   "started": "",
+   "started": "1886, as R.W. Sears Watch Company in Minneapolis",
    "status2026": "Open and trading. Not in bankruptcy since the February 2019 sale",
    "owner2026": "Transform Holdco LLC, trading as Transformco, controlled by Eddie Lampert's ESL Investments",
    "source": "https://404memoryfound.com/posts/who-owns-sears-now-stores-left.html"
@@ -1155,7 +1120,7 @@
   },
   {
    "name": "Sega",
-   "started": "",
+   "started": "June 3, 1960, as Nihon Goraku Bussan; roots in 1940 Honolulu",
    "status2026": "Still publishing games, no home console since the Dreamcast",
    "owner2026": "Sega Sammy Holdings, formed October 1, 2004",
    "source": "https://404memoryfound.com/posts/is-sega-still-making-games.html"
@@ -1164,7 +1129,7 @@
    "name": "Sega 32X",
    "started": "November 21, 1994 in North America, $159.99",
    "status2026": "Discontinued in 1996, no official support and no Sega re-release",
-   "owner2026": "",
+   "owner2026": "Sega, part of Sega Sammy Holdings",
    "source": "https://404memoryfound.com/posts/what-happened-to-sega-32x-add-on.html"
   },
   {
@@ -1178,7 +1143,7 @@
    "name": "Sega Channel",
    "started": "December 12, 1994, by Sega of America with TCI and Time Warner",
    "status2026": "Dead since 1998, but 144 recovered ROMs were published free by Gaming Alexandria on December 15, 2025",
-   "owner2026": "",
+   "owner2026": "Sega, part of Sega Sammy Holdings",
    "source": "https://404memoryfound.com/posts/what-happened-to-sega-channel.html"
   },
   {
@@ -1192,40 +1157,40 @@
    "name": "Sega Genesis",
    "started": "August 14, 1989 in North America, by Sega, at $189.99 with Altered Beast packed in",
    "status2026": "No new Sega Genesis hardware from Sega since the Sega Genesis Mini 2 in October 2022",
-   "owner2026": "",
+   "owner2026": "Sega, part of Sega Sammy Holdings",
    "source": "https://404memoryfound.com/posts/sega-genesis-games-how-to-play-2026.html"
   },
   {
    "name": "Sega Nomad",
    "started": "October 1995, Sega of America, North America only",
    "status2026": "Discontinued since 1999, second-hand only, no reissue",
-   "owner2026": "",
+   "owner2026": "Sega, part of Sega Sammy Holdings",
    "source": "https://404memoryfound.com/posts/sega-nomad-handheld-genesis.html"
   },
   {
    "name": "Sega Saturn",
    "started": "November 22, 1994 in Japan; May 11, 1995 in North America",
    "status2026": "Discontinued; dropped in the US in 1998, sold in Japan until 2000",
-   "owner2026": "",
+   "owner2026": "Sega, part of Sega Sammy Holdings",
    "source": "https://404memoryfound.com/posts/what-happened-to-sega-saturn-console.html"
   },
   {
    "name": "Segway",
-   "started": "",
+   "started": "July 1999, as Segway Inc., by Dean Kamen",
    "status2026": "Brand active; Personal Transporter production ended July 15, 2020",
    "owner2026": "Segway-Ninebot of Beijing, listed in Shanghai as 689009",
    "source": "https://404memoryfound.com/posts/what-happened-to-segway-personal-transporter.html"
   },
   {
    "name": "Sharper Image",
-   "started": "",
+   "started": "1977, by Richard Thalheimer in San Francisco",
    "status2026": "A licensed brand selling through sharperimage.com, a catalog and other retailers, with the Axis 4D massage chair listed at $6,999 in 2026",
    "owner2026": "ThreeSixty Group of Irvine, California, which paid $100 million in December 2016",
    "source": "https://404memoryfound.com/posts/who-owns-sharper-image-now.html"
   },
   {
    "name": "Shop.com",
-   "started": "",
+   "started": "June 2005, when CatalogCity renamed itself Shop.com",
    "status2026": "Home of Shopify's Shop service, moved from shop.app",
    "owner2026": "Shopify, since September 28, 2026",
    "source": "https://404memoryfound.com/posts/who-owns-shop-com-now.html"
@@ -1243,13 +1208,6 @@
    "status2026": "Franchise dormant on PC, alive on mobile through SimCity BuildIt",
    "owner2026": "Electronic Arts, taken private in August 2026 by a consortium led by Saudi Arabia's Public Investment Fund",
    "source": "https://404memoryfound.com/posts/what-happened-to-simcity-ea.html"
-  },
-  {
-   "name": "Sims 1",
-   "started": "February 4, 2000, by Maxis and Electronic Arts",
-   "status2026": "Sold as The Sims: Legacy Collection since January 31, 2025",
-   "owner2026": "Electronic Arts, private since August 4, 2026 under a PIF-led consortium",
-   "source": "https://404memoryfound.com/posts/original-sims-best-selling-pc-game.html"
   },
   {
    "name": "SkyMall",
@@ -1287,7 +1245,7 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-creative-labs-sound-blaster.html"
   },
   {
-   "name": "Standalone GPS Devices",
+   "name": "Standalone GPS devices",
    "started": "TomTom Go, March 2004, the first all-in-one car navigator",
    "status2026": "Still sold. Garmin Drive 53 at $149.99; TomTom exited US device sales",
    "owner2026": "Magellan brand held by MiTAC International since 2008",
@@ -1315,17 +1273,31 @@
    "source": "https://404memoryfound.com/posts/t-mobile-sidekick-danger-hiptop.html"
   },
   {
-   "name": "Tamagotchi at 30",
+   "name": "Tamagotchi",
    "started": "November 23, 1996, by Bandai in Japan",
    "status2026": "Still in production; 30th anniversary on November 23, 2026",
    "owner2026": "Bandai, part of Bandai Namco Holdings since 2005",
    "source": "https://404memoryfound.com/posts/tamagotchi-digital-pet-that-made-us-feel.html"
   },
   {
+   "name": "TechTV",
+   "started": "May 11, 1998, as ZDTV, owned by Ziff-Davis",
+   "status2026": "Off the air since February 15, 2005, with no revival announced",
+   "owner2026": "Comcast, which has held the TechTV name since 2004",
+   "source": "https://404memoryfound.com/posts/what-happened-to-techtv-screen-savers-channel.html"
+  },
+  {
+   "name": "The Sims",
+   "started": "February 4, 2000, by Maxis and Electronic Arts",
+   "status2026": "Sold as The Sims: Legacy Collection since January 31, 2025",
+   "owner2026": "Electronic Arts, private since August 4, 2026 under a PIF-led consortium",
+   "source": "https://404memoryfound.com/posts/original-sims-best-selling-pc-game.html"
+  },
+  {
    "name": "theGlobe.com",
    "started": "May 1, 1995, by Cornell students Stephan Paternot and Todd Krizelman",
    "status2026": "Shell company, ticker TGLO, no employees, $15,115 in cash (June 2026)",
-   "owner2026": "",
+   "owner2026": "Delfin Midstream LLC, majority stockholder since December 2017",
    "source": "https://404memoryfound.com/posts/what-happened-to-theglobe-com-dot-com-ipo.html"
   },
   {
@@ -1358,10 +1330,17 @@
   },
   {
    "name": "Toys R Us",
-   "started": "",
+   "started": "April 1948, by Charles Lazarus; Toys R Us name from June 1957",
    "status2026": "Brand active; the original US retailer is gone",
    "owner2026": "WHP Global, controlling stake since March 15, 2021",
    "source": "https://404memoryfound.com/posts/is-toys-r-us-still-in-business.html"
+  },
+  {
+   "name": "Travelocity",
+   "started": "March 12, 1996, by Sabre Interactive",
+   "status2026": "Live, running on Expedia's booking platform",
+   "owner2026": "Expedia Group, since January 23, 2015",
+   "source": "https://404memoryfound.com/posts/who-owns-travelocity-now.html"
   },
   {
    "name": "Tumblr",
@@ -1371,7 +1350,7 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-tumblr-yahoo-billion-dollar-mistake.html"
   },
   {
-   "name": "TurboGrafx-16 Won Japan",
+   "name": "TurboGrafx-16",
    "started": "October 30, 1987 in Japan as the PC Engine; August 1989 in the United States",
    "status2026": "Discontinued in North America in May 1994. Konami's 99.99 dollar TurboGrafx-16 Mini from 2020 is the only official hardware; original consoles sell for about 207 dollars loose",
    "owner2026": "Konami, which merged Hudson Soft into its games arm in March 2012",
@@ -1388,15 +1367,8 @@
    "name": "Virtual Boy",
    "started": "July 21, 1995 in Japan; August 14, 1995 in North America at $179.95",
    "status2026": "Discontinued in 1996; back on Nintendo Switch since February 17, 2026",
-   "owner2026": "",
+   "owner2026": "Nintendo",
    "source": "https://404memoryfound.com/posts/what-happened-to-virtual-boy-nintendo.html"
-  },
-  {
-   "name": "Wade Rosen",
-   "started": "",
-   "status2026": "Active; revenue of 56.0 million euros for the year to March 2026, a decade high; VCS store closes February 1, 2027",
-   "owner2026": "Atari SA, listed on Euronext Growth Paris as ALATA",
-   "source": "https://404memoryfound.com/posts/who-owns-atari-now.html"
   },
   {
    "name": "WebTV",
@@ -1420,7 +1392,7 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-winamp-mp3-player.html"
   },
   {
-   "name": "Windows 95 Launch",
+   "name": "Windows 95",
    "started": "August 24, 1995, by Microsoft",
    "status2026": "Unsupported since December 31, 2001; runs only in emulators",
    "owner2026": "Microsoft, which still owns the code",
@@ -1434,21 +1406,14 @@
    "source": "https://404memoryfound.com/posts/windows-movie-maker-still-available.html"
   },
   {
-   "name": "Windows XP wallpaper",
-   "started": "",
-   "status2026": "Planted vineyard; briefly bare and green again on 18 February 2026",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/windows-xp-wallpaper-bliss-story.html"
-  },
-  {
    "name": "Wine.com",
-   "started": "",
+   "started": "1994, as Virtual Vineyards in Los Altos, California",
    "status2026": "Operating; privately held, San Francisco",
    "owner2026": "The private company founded as eVineyard, buyer of the brand in April 2001",
    "source": "https://404memoryfound.com/posts/what-happened-to-wine-com-internet-wine-wars.html"
   },
   {
-   "name": "WinZip Price",
+   "name": "WinZip",
    "started": "April 1991, Nico Mak Computing (WinZip 1.0 for Windows)",
    "status2026": "Still sold and updated, but Windows 11 and 7-Zip unzip files for free",
    "owner2026": "Corel Corporation, independent and backed by Vector Capital since May 5, 2026",
@@ -1476,15 +1441,8 @@
    "source": "https://404memoryfound.com/posts/what-happened-to-xanga-blogging-platform.html"
   },
   {
-   "name": "Y2K",
-   "started": "",
-   "status2026": "Fixed. Two-digit years are gone from mainstream systems, but date-overflow bugs still hit production software",
-   "owner2026": "",
-   "source": "https://404memoryfound.com/posts/y2k-bug-what-actually-happened.html"
-  },
-  {
    "name": "Yahoo",
-   "started": "",
+   "started": "January 1994, as Jerry and David's Guide to the World Wide Web",
    "status2026": "Private and operating in 2026: Yahoo Finance, Yahoo Mail, Yahoo Sports, Yahoo News, Yahoo Search and the Scout answer engine",
    "owner2026": "Funds managed by affiliates of Apollo Global Management, about 90 percent; Verizon holds the other 10 percent",
    "source": "https://404memoryfound.com/posts/who-owns-yahoo-now.html"
@@ -1505,7 +1463,7 @@
   },
   {
    "name": "You've Got Mail",
-   "started": "",
+   "started": "October 1989, in America Online's new software",
    "status2026": "Still AOL Mail's alert; no replacement voice announced",
    "owner2026": "Bending Spoons, which closed its $1.45 billion purchase of AOL on January 2, 2026",
    "source": "https://404memoryfound.com/posts/aol-youve-got-mail-voice-elwood-edwards.html"

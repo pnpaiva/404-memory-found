@@ -349,6 +349,7 @@ Topics: Internet Culture, Money & Tech
 - Previous owner: Market America Worldwide, Greensboro, North Carolina, from 2011
 - Earlier domain sale: $3.5 million in 2003, to Altura International
 - Status today: Home of Shopify's Shop service, moved from shop.app
+- Launched: June 2005, when CatalogCity renamed itself Shop.com
 
 ## What Shopify bought, and what it did not
 
@@ -419,6 +420,7 @@ Yes. Market America Worldwide sold only the Shop.com domain name in September 20
 - Market America Acquires Bill Gates-Backed Shopping Site Shop.com (TechCrunch, December 2010): https://techcrunch.com/2010/12/15/market-america-acquires-bill-gates-backed-shopping-site-shop-com/
 - Shop is now at shop.com (Shopify changelog, September 2026): https://changelog.shopify.com/posts/shop-is-now-at-shop-com
 - AI.com domain sells for $70 million (The Register, February 2026): https://www.theregister.com/2026/02/09/70m_aicom_domain_sale/
+- Chief Marketer: CatalogCity coming out as Shop.com: https://chiefmarketer.com/live-from-shop-org-catalogcity-coming-out-as-shop-com/
 
 ---
 
@@ -591,6 +593,7 @@ Topics: Hardware, Money & Tech
 - Weight: 3.1 ounces, about the size of a pager
 - Units sold: About 60 million claimed in retrospectives, a figure Motorola never confirmed
 - Status today: Will not connect to any US network; used units ask about $45 to $140
+- Owner today: Motorola Mobility (Lenovo), via Motorola Trademark Holdings
 
 ## How Motorola got a cellular phone down to 3.1 ounces
 
@@ -678,6 +681,7 @@ In November 2026, sellers ask roughly $45 to $140 for a used Motorola StarTAC, d
 - Wikipedia: StarTAC: https://en.wikipedia.org/wiki/StarTAC
 - U.S. Bureau of Labor Statistics: Consumer Price Index Summary, October 2026: https://www.bls.gov/news.release/cpi.nr0.htm
 - T-Mobile: Network Evolution, 2G GSM retirement: https://www.t-mobile.com/support/coverage/t-mobile-network-evolution
+- Markinton: StarTAC trademark record: https://markinton.com/trademark/startac-85954173
 
 ---
 
@@ -795,6 +799,7 @@ Topics: Hardware, Then vs Now
 - Largest card: 32 GB, released August 21, 2009
 - What replaced it: SD, SDHC and SDXC, which Sony's own cameras adopted at CES in January 2010
 - Status today: Out of production; used PRO Duo cards run about $12 to $24
+- Owner today: Sony
 
 ## Why Sony built a card that only Sony devices wanted
 
@@ -1207,6 +1212,7 @@ Topics: Hardware, Gaming
 - Units sold: 32.93 million worldwide, 20.63 million in the Americas
 - Status today: Discontinued; no Nintendo repair, warranty or new hardware
 - Price today: About $65 to $90 loose, $202 to $246 complete in box
+- Owner today: Nintendo
 
 ## What a console, its box and a complete set cost now
 
@@ -1399,6 +1405,7 @@ Topics: Gaming, Money & Tech
 - Status today: Loose caps carry no premium; best documented sale is $255 for an EarthBound set in 2009
 - Owner today: POG Unlimited, trading as the World POG Federation, acquired by Julien Savino in 2019
 - Price today: $119.99 for the official Authentic POG Hobby Box of 12 packs
+- Launched: 1971 as Haleakala Dairy's POG juice; caps craze from 1991
 
 ## Where the milk caps and the POG name came from
 
@@ -1472,6 +1479,7 @@ The POG brand is owned by POG Unlimited, which trades as the World POG Federatio
 - Fast Company: POGs briefly took over the world. Can the game make a comeback? (2024): https://www.fastcompany.com/91228022/pogs-are-back-90s-craze
 - Complex: The 10 Rarest Pogs from the '90s: https://www.complex.com/style/a/jian-deleon/the-rarest-pogs-from-the-90s
 - World POG Federation official store: The Authentic POG Hobby Box: https://pogunlimited.com/products/contains-12-packs
+- Wikipedia: Milk caps (game): https://en.wikipedia.org/wiki/Milk_caps_(game)
 
 ---
 
@@ -1686,6 +1694,7 @@ Topics: Business Blunders, Internet Culture
 - Owner today: Verizon Communications, which closed the MCI merger on January 6, 2006 for about $8.5 billion
 - Status today: WorldCom gone; MCI Communications Services still files as a Verizon Business entity in 2026
 - What replaced it: Verizon Business, the unit Verizon built around the former MCI operations
+- Founded: October 3, 1963, as Microwave Communications, Inc.
 
 ## What was the WorldCom accounting fraud?
 
@@ -1761,6 +1770,7 @@ The WorldCom fraud reached $11 billion in overstated results. It began with the 
 - Las Vegas Sun: Ebbers sentenced to 25 years in WorldCom fraud case (July 13, 2005): https://m.lasvegassun.com/news/2005/jul/13/ebbers-sentenced-to-25-years-in-worldcom-fraud-cas/
 - Verizon Communications 2005 annual report excerpt filed with the SEC (MCI merger closed January 6, 2006): https://www.sec.gov/Archives/edgar/data/732712/000119312506053710/dex13.htm
 - Florida Public Service Commission document 03694-2026: MCI Communications Services discontinuance application (filed June 23, 2026): https://www.psc.state.fl.us/library/filings/2026/03694-2026/03694-2026.pdf
+- Wikipedia: MCI Communications: https://en.wikipedia.org/wiki/MCI_Communications
 
 ---
 
@@ -1779,6 +1789,7 @@ Topics: Gaming, Hardware, Money & Tech
 - Cartridges: $200 to $300 each when new
 - Units sold: About 410,000 AES consoles worldwide
 - Status today: Discontinued 1997; $567 to $1,020 loose, AES+ reissue $249.99 due September 16, 2027
+- Owner today: SNK, owned by Saudi Arabia's EGDC (Misk Foundation) since 2022
 
 ## What did $649.99 actually buy at US retail?
 
@@ -1860,6 +1871,7 @@ Yes. SNK and Plaion announced the NEOGEO AES+ in April 2026, a hardware-based re
 - "We're Genuinely Sorry": The Neo Geo AES+ Has Been Delayed (Time Extension, 2026): https://www.timeextension.com/news/2026/09/were-genuinely-sorry-the-neo-geo-aesplus-has-been-delayed
 - Neo Geo AES Prices and Value Guide (PriceCharting): https://www.pricecharting.com/console/neo-geo-aes
 - Neo Geo AES Prices and Value Guide (SportsCardPro): https://www.sportscardpro.com/console/neo-geo-aes
+- Wikipedia: SNK: https://en.wikipedia.org/wiki/SNK
 
 ---
 
@@ -1878,6 +1890,7 @@ Topics: Hardware, Then vs Now, Business Blunders
 - Written off: $29.6 billion goodwill impairment for 2007
 - Status today: Gone; iDEN shutdown began 12:01 a.m. Eastern, June 30, 2013
 - Owner today: Sprint Communications, part of T-Mobile; marks upheld in 2024
+- Founded: 1987, as Fleet Call; renamed Nextel in 1993
 
 ## Why contractors paid extra for a phone that chirped
 
@@ -1959,6 +1972,7 @@ Not as a phone. The Motorola iDEN handsets Nextel sold through June 2013 worked 
 - Sprint Nextel Corp, Form 10-K for 2008, SEC: https://www.sec.gov/Archives/edgar/data/0000101830/000119312509040575/d10k.htm
 - iDEN Nextel National Network on Schedule to Shut Down June 30, Sprint via Business Wire (2013): https://www.businesswire.com/news/home/20130605005121/en/iDEN-Nextel-National-Network-Schedule-Shut-June
 - Sprint Communications LLC v. Retrobrands USA, LLC, No. 22-11717 (11th Cir. April 4, 2024): https://law.justia.com/cases/federal/appellate-courts/ca11/22-11717/22-11717-2024-04-04.html
+- Wikipedia: Nextel Communications: https://en.wikipedia.org/wiki/Nextel_Communications
 
 ---
 
@@ -1977,6 +1991,7 @@ Topics: Business Blunders, Internet Culture
 - Launch campaign: $8 million, fronted by Whoopi Goldberg
 - Shut down: Site suspended August 8, 2001; Chapter 7 filed August 31, 2001
 - Status today: Defunct. Flooz.Com, Inc. was liquidated; the case closed in 2012
+- Owner today: No one: Flooz.Com was liquidated and its mark cancelled in 2008
 
 ## How did the flooz gift currency work?
 
@@ -2070,6 +2085,7 @@ No. When Flooz.com shut down in August 2001, unused flooz balances became worthl
 - Deseret News: Flooz.com shuts down, perhaps a victim of fraud (August 27, 2001): https://www.deseret.com/2001/8/27/19603623/flooz-com-shuts-down-perhaps-a-victim-of-fraud/
 - CNNMoney: 10 big dot.com flops, Flooz.com (2010): https://money.cnn.com/galleries/2010/technology/1003/gallery.dot_com_busts/7.html
 - US Bankruptcy Court, S.D.N.Y.: Flooz.Com, Inc., case 1:01-bk-14833: https://www.inforuptcy.com/browse-filings/new-york-southern-bankruptcy-court/1:01-bk-14833/bankruptcy-case-floozcom-inc
+- Justia Trademarks: Flooz.com, Inc. records: https://trademarks.justia.com/owners/flooz-com-inc-979209
 
 ---
 
@@ -2088,6 +2104,7 @@ Topics: Gaming, Hardware
 - Units sold: About 570,000 worldwide
 - Status today: Discontinued in 1998, never revived. Koninklijke Philips now sells health technology
 - Console price today: About $300 for a working console in 2026
+- Owner today: Philips (Koninklijke Philips N.V.)
 
 ## What was the Philips CD-i supposed to be?
 
@@ -2172,6 +2189,7 @@ The Philips CD-i's 35th anniversary falls on December 3, 2026, thirty-five years
 - GitHub: CDi_MiSTer stable core build, October 24, 2026: https://github.com/MiSTer-DB9/CDi_MiSTer/releases/tag/stable/main/20261024-6bd0275
 - Time Extension: The Ill-Fated Philips CD-i Is Getting Its Own MiSTer FPGA Core (2024): https://www.timeextension.com/news/2024/08/the-ill-fated-philips-cd-i-is-getting-its-own-mister-fpga-core
 - MiSTer FPGA Forum: CD-i Core, Digital Video Cartridge Games: https://misterfpga.org/viewtopic.php?t=9700
+- Wikipedia: Philips CD-i: https://en.wikipedia.org/wiki/Philips_CD-i
 
 ---
 
@@ -2422,6 +2440,7 @@ Topics: Hardware, Then vs Now
 - Price today: $8.20 per unit per month, Spok average, second quarter 2026
 - Largest carrier: Spok Holdings of Plano, Texas, listed on Nasdaq as SPOK
 - Peak: About 45 million US paging subscribers in 1998
+- Launched: 1949, Al Gross patents the first telephone pager system
 
 ## How many pagers are still in service in the United States?
 
@@ -2499,6 +2518,7 @@ Spok Holdings reported about 645,000 wireless units in service on June 30, 2026,
 - Spok Announces Sale of Spectrum Licenses to Sensus, Business Wire, June 24, 2026: https://www.businesswire.com/news/home/20260624977611/en/Spok-Announces-Sale-of-Spectrum-Licenses-to-Sensus
 - Hospital-Based Clinicians' Use of Technology for Patient Care-Related Communication: A National Survey, Journal of Hospital Medicine (2017): https://pubmed.ncbi.nlm.nih.gov/28699941/
 - Opinion: Whatever happened to paging?, Computerworld: https://www.computerworld.com/article/1586613/opinion-whatever-happened-to-paging.html
+- Wikipedia: Pager: https://en.wikipedia.org/wiki/Pager
 
 ---
 
@@ -2727,6 +2747,7 @@ Topics: Business Blunders, Hardware
 - Price then: $4.49 a disc and $499 for the first Zenith Inteq player, close to $9 and $1,000 in 2026 money
 - Units sold: About 87,000 players and 535,000 discs in the last quarter of 1998
 - Status today: Dead. Discontinued June 16, 1999; no disc has played since June 30, 2001
+- Owner today: No one for the disc format; DivX LLC holds DIVX for its codec
 
 ## How did a DIVX disc actually work?
 
@@ -2810,6 +2831,7 @@ They are unrelated. Circuit City's DIVX was a physical disc format that ran from
 - Circuit City Stores Inc, Form 10-K fiscal 2000, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0000104599/000092859700000018/0000928597-00-000018.txt
 - Digital Video Express 1998 sales announcement, The Digital Bits (CES, January 1999): https://archive.thedigitalbits.com/articles/wces99/divxpress.html
 - DIVX, Wikipedia: https://en.wikipedia.org/wiki/DIVX
+- Justia Trademarks: DIVX Digital Video Express record: https://trademark.justia.com/753/67/divx-digital-video-express-75367710.html
 
 ---
 
@@ -2828,6 +2850,7 @@ Topics: Gaming, Hardware
 - Units sold: About 1 million before Sega discontinued it in 1999
 - Price today: $259.95 to $390 for tested units in 2026 sales
 - Status today: Discontinued since 1999, second-hand only, no reissue
+- Owner today: Sega, part of Sega Sammy Holdings
 
 ## What exactly was the Sega Nomad?
 
@@ -3020,6 +3043,7 @@ Topics: Hardware, Then vs Now
 - Price today: About $1 for a 3.5-inch disk from a reseller (The Hustle, 2023)
 - Still in service: San Francisco's Muni Metro train control, installed in 1998
 - Last government mandate: Japan scrapped its final floppy disk rule on June 28, 2024
+- Launched: 1971, IBM's 8-inch floppy disk
 
 ## When did the last factory line shut down?
 
@@ -3101,6 +3125,7 @@ Industrial, aviation and transit equipment, mostly. Reuters reported in 2022 tha
 - The floppy disk is still kickin' (The Hustle, 2023): https://thehustle.co/03092023-floppy-disks
 - SFMTA board votes to upgrade Muni's rail system from floppy disks (ABC7 News, 2024): https://abc7news.com/post/san-francisco-municipal-transportation-agency-board-votes-upgrade-munis-rail-system-floppy-disks/15447819/
 - Japan's digital minister claims victory against floppy disks (The Register, 2024): https://www.theregister.com/2024/07/03/japan_floppy_disk_victory
+- Wikipedia: Floppy disk: https://en.wikipedia.org/wiki/Floppy_disk
 
 ---
 
@@ -3537,6 +3562,7 @@ Topics: Then vs Now, Hardware
 - Status today: Still operating, but uncounted since the FCC dropped payphone audits in 2018
 - Owner today: Pacific Telemanagement Services, the largest operator, which said it ran 20,000 phones in 2018
 - Cost of a call: 50 cents on Verizon payphones from September 2001, up from 35 cents
+- Launched: 1889, a coin phone at the Hartford Bank in Connecticut
 
 ## What did the FCC's last payphone count find?
 
@@ -3622,6 +3648,7 @@ Most American payphones now belong to private operators rather than phone compan
 - Stacker and Spokeo: The decline of pay phones in every state (FCC data, 2000 to 2016): https://stacker.com/stories/technology/decline-pay-phones-every-state
 - NBC News: New York City says goodbye to its last public payphone (2022): https://www.nbcnews.com/news/us-news/new-york-city-says-goodbye-last-public-payphone-rcna30226
 - Verizon: New York Is Last State to See Payphone Price Change (2001): https://www.verizon.com/about/news/press-releases/new-york-last-state-see-payphone-price-change
+- Wikipedia: Payphone: https://en.wikipedia.org/wiki/Payphone
 
 ---
 
@@ -5422,6 +5449,7 @@ Topics: Hardware, Business Blunders
 - Owner today: ThreeSixty Group of Irvine, California, which paid $100 million in December 2016
 - Stores left: None in the United States; the last retail space was a 2017 Times Square pop-up
 - Status today: A licensed brand selling through sharperimage.com, a catalog and other retailers, with the Axis 4D massage chair listed at $6,999 in 2026
+- Founded: 1977, by Richard Thalheimer in San Francisco
 
 ## How big was Sharper Image before the collapse?
 
@@ -5503,6 +5531,7 @@ The Ionic Breeze was Sharper Image's best-selling product and the source of its 
 - Court Dismisses Sharper Image Lawsuit against Consumers Union, Quackwatch: https://quackwatch.org/legal/ionicbreeze/
 - Sharper Image Reported Sold for $49 Million, Chief Marketer (2008): https://www.chiefmarketer.com/sharper-image-reported-sold-for-49-million/
 - Iconix Sells Sharper Image to Licensee ThreeSixty Group, Licensing International (2016): https://licensinginternational.org/news/iconix-sells-sharper-image-to-licensee-threesixty-group/
+- Wikipedia: Sharper Image: https://en.wikipedia.org/wiki/Sharper_Image
 
 ---
 
@@ -5616,6 +5645,7 @@ Topics: Gaming, Hardware
 - Status today: Used market only, no factory warranty since 2003
 - Price today: About $70 for a tested working original in 2026, past $300 boxed
 - What replaced it: Game Boy Advance SP in 2003, and the $239.99 Analogue Pocket in 2026
+- Owner today: Nintendo
 
 ## Which Game Boy model fits what you actually want to play?
 
@@ -5705,6 +5735,7 @@ Topics: Internet Culture, Then vs Now
 - Price today: MSN Dial-Up Internet Access, $21.95 a month or $179.95 a year; NetZero accelerated dial-up, $29.95 a month
 - Free option: NetZero and Juno, ad-supported, capped at 10 hours a month
 - US homes on dial-up: 163,401 households reported dial-up as their only internet subscription in 2023 (Census Bureau)
+- Launched: 1989, The World, the first commercial dial-up ISP in the US
 
 ## Which companies still sell dial-up in the United States?
 
@@ -5784,6 +5815,7 @@ MSN Dial-Up Internet Access cost $21.95 a month or $179.95 a year in 2026, and t
 - Smithsonian Magazine: The Sounds of AOL Dial-Up Defined the Early Internet (2025): https://www.smithsonianmag.com/smart-news/the-sounds-of-aol-dial-up-defined-the-early-internet-now-the-service-is-shutting-down-for-good-180987177/
 - B. Riley Financial Completes Acquisition of United Online (press release, July 2016): https://www.prnewswire.com/news-releases/b-riley-financial-completes-acquisition-of-united-online-300293239.html
 - B. Riley Financial Announces Corporate Name Change to BRC Group Holdings, Inc. (press release, November 2025): https://www.prnewswire.com/news-releases/b-riley-financial-announces-corporate-name-change-to-brc-group-holdings-inc-302612089.html
+- Wikipedia: Dial-up Internet access: https://en.wikipedia.org/wiki/Dial-up_Internet_access
 
 ---
 
@@ -5911,6 +5943,7 @@ Topics: Music & Entertainment, Internet Culture
 - Discs shipped: 5.2 billion in the United States over 25 years
 - Peak subscriptions: 13.93 million domestic DVD subscriptions, September 30, 2011
 - Status today: Closed since September 29, 2023. DVDInbox mails discs instead, from $9.99 a month in 2026
+- Owner today: Netflix, Inc.
 
 ## What did a Netflix DVD rental cost in 1998?
 
@@ -5996,6 +6029,7 @@ Yes, but not from Netflix, which closed DVD.com in September 2023 and has not re
 - Netflix Inc, Form 10-Q for the quarter ended September 30, 2011 (SEC): https://www.sec.gov/Archives/edgar/data/0001065280/000119312511284366/d222257d10q.htm
 - GeekWire: Reed Hastings to Netflix customers, I messed up (September 19, 2011): https://www.geekwire.com/2011/reed-hastings-netflix-customers-i-messed-up/
 - Media Play News: DVDInbox Carries On the Rental-by-Mail Legacy of Netflix: https://www.mediaplaynews.com/dvdinbox-carries-on-the-rental-by-mail-legacy-of-netflix/
+- Wikipedia: Netflix: https://en.wikipedia.org/wiki/Netflix
 
 ---
 
@@ -6206,6 +6240,7 @@ Topics: Hardware, Business Blunders
 - Brand licensee: HMD, exclusive ten-year worldwide license signed May 18, 2016
 - Status today: No Nokia-branded smartphones since the start of 2025; feature phones only, under a September 2025 license extension
 - Owner today: Nokia Corporation, Espoo, Finland, a network equipment maker with EUR 4.81 billion in Q2 2026 net sales
+- Founded: May 12, 1865, as a pulp mill near Tampere, Finland
 
 ## What did Nokia actually sell to Microsoft in 2013?
 
@@ -6277,6 +6312,7 @@ Nokia sold the business rather than closing it. On September 3, 2013 Nokia agree
 - Nokia signs strategic brand and intellectual property licensing agreement enabling HMD global to create a new generation of Nokia-branded mobile phones and tablets (Nokia, May 18, 2016): https://www.globenewswire.com/news-release/2016/05/18/841089/27866/en/Nokia-signs-strategic-brand-and-intellectual-property-licensing-agreement-enabling-HMD-global-to-create-new-generation-of-Nokia-branded-mobile-phones-and-tablets.html
 - Nokia, HMD Global extend licence deal over sale of Nokia branded feature phones (Press Trust of India via The Week, September 15, 2025): https://www.theweek.in/wire-updates/business/2025/09/15/dcm96-biz-nokia-hmd.html
 - Nokia factsheet, Q2 2026 (Nokia Corporation, July 2026): https://www.nokia.com/system/files/2026-07/nokia_factsheet_2026_q2.pdf
+- Wikipedia: Nokia: https://en.wikipedia.org/wiki/Nokia
 
 ---
 
@@ -6495,6 +6531,7 @@ Topics: Then vs Now, Business Blunders
 - Stores today: More than 735 in the United States, up from fewer than 600 in 2023
 - Opening in 2026: 60 new stores, 15 of them in November 2026 alone
 - Closing in 2026: Six stores, nearly all at the end of a lease
+- Founded: 1886, as Arthur Hinds & Company in New York City
 
 ## The chain that was supposed to go the way of Borders
 
@@ -6579,6 +6616,7 @@ Elliott Investment Management has owned Barnes & Noble since 2019, when it paid 
 - TheStreet: 153-year-old bookstore chain confirms more closures in 2026: https://www.thestreet.com/retail/153-year-old-bookstore-chain-confirms-more-closures-in-2026-barnes-noble
 - Axios: Barnes & Noble, independent bookstores mount a comeback (July 2026): https://www.axios.com/2026/07/03/bookstores-barnes-noble-james-daunt
 - Bloomberg: Elliott said to tap banks to run Barnes & Noble's London IPO (May 2026): https://www.bloomberg.com/news/articles/2026-05-07/elliott-said-to-pick-banks-to-run-barnes-noble-s-london-ipo
+- Wikipedia: Barnes & Noble: https://en.wikipedia.org/wiki/Barnes_%26_Noble
 
 ---
 
@@ -6597,6 +6635,8 @@ Topics: Gaming, Hardware
 - Status today: Still trading in 2026, but direct China-to-US shipping was suspended on April 21, 2025, so US orders depend on warehouse stock
 - What you do not get: Games. Anbernic ships no licensed titles, and preloaded microSD cards come from resellers rather than the maker
 - Cheapest licensed alternative: Nintendo Switch Online at $19.99 a year for Game Boy, or $49.99 a year with the Expansion Pack for Game Boy Advance
+- Founded: 2017, in Shenzhen; first RG handheld in November 2017
+- Owner today: Shenzhen YangLiMing Electronic Technology, its trademark holder
 
 ## What does an Anbernic handheld cost in 2026?
 
@@ -6674,6 +6714,8 @@ Anbernic sells its handhelds without licensed games, but many resellers include 
 - Analogue Pocket gets hit with a price increase 'due to recent tariff announcements', Time Extension, 2026: https://www.timeextension.com/news/2026/03/analogue-pocket-gets-hit-with-a-price-increase-due-to-recent-tariff-announcements
 - Retro gaming YouTuber faces possible jail time for reviewing gaming handhelds, Android Authority, 2025: https://www.androidauthority.com/once-were-nerd-youtuber-copyright-lawsuit-3577995/
 - Compare Nintendo Switch Online membership plans, Nintendo official site: https://www.nintendo.com/us/online/compare-memberships/
+- Anbernic: About us: https://anbernic.com/pages/about-us
+- Wikipedia: Anbernic: https://en.wikipedia.org/wiki/Anbernic
 
 ---
 
@@ -7484,6 +7526,7 @@ Topics: Business Blunders, Money & Tech
 - Deal closed: September 1, 2021, when Apollo renamed Verizon Media as Yahoo
 - Previous owner: Verizon, which closed its $4.48 billion purchase of Yahoo's operating business on June 13, 2017
 - Status today: Private and operating in 2026: Yahoo Finance, Yahoo Mail, Yahoo Sports, Yahoo News, Yahoo Search and the Scout answer engine
+- Founded: January 1994, as Jerry and David's Guide to the World Wide Web
 
 ## What exactly did Apollo buy in 2021?
 
@@ -7575,6 +7618,7 @@ Microsoft made an unsolicited offer of $44.6 billion for Yahoo on February 1, 20
 - Yahoo! Inc. Form 8-K exhibit: board statement on Microsoft's proposal, SEC, February 11, 2008: https://www.sec.gov/Archives/edgar/data/0001011006/000095013408002131/f37925exv99w1.htm
 - Bending Spoons S.p.A. Form DRS/A: acquisition of AOL Holdco I LLC, SEC, 2026: https://www.sec.gov/Archives/edgar/data/0002004711/000110465926054644/filename1.htm
 - Introducing Yahoo Scout, a New AI Answer Engine, Yahoo Inc., January 2026: https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine
+- Wikipedia: Yahoo: https://en.wikipedia.org/wiki/Yahoo
 
 ---
 
@@ -7593,6 +7637,7 @@ Topics: Gaming, Hardware
 - Cheapest legal route: Nintendo Switch Online plus Expansion Pack, $49.99 a year, includes a Sega Genesis library
 - Status today: No new Sega Genesis hardware from Sega since the Sega Genesis Mini 2 in October 2022
 - Best new hardware option: Clone consoles with real cartridge slots and HDMI output, still manufactured in 2026
+- Owner today: Sega, part of Sega Sammy Holdings
 
 ## Which of the five routes fits your budget?
 
@@ -7680,6 +7725,7 @@ Sega no longer manufactures the Sega Genesis Mini, which launched on September 1
 - Sega Genesis Mini pre-order guide, games list and review, GameSpot, 2019: https://www.gamespot.com/articles/sega-genesis-mini-pre-order-guide-full-games-list/1100-6465948/
 - Sega producer says high costs are preventing a Dreamcast or Saturn mini console, Video Games Chronicle, 2022: https://www.videogameschronicle.com/news/sega-says-high-costs-are-preventing-a-dreamcast-or-saturn-mini-console/
 - Nintendo Switch Online + Expansion Pack, Nintendo official site: https://www.nintendo.com/us/online/nintendo-switch-online/expansion-pack/
+- Wikipedia: Sega Genesis: https://en.wikipedia.org/wiki/Sega_Genesis
 
 ---
 
@@ -7992,6 +8038,7 @@ Topics: Business Blunders, Music & Entertainment, Internet Culture
 - Owners since 2001: Six: Roxio, Best Buy, Rhapsody International, MelodyVR, Hivemind and Algorand, Napster Corporation
 - Last sale price: $207 million in March 2025, against $5.3 million in 2002
 - Status today: Music streaming shut down January 1, 2026; the company now sells AI agents at about one cent a minute
+- Launched: June 1, 1999, by Shawn Fanning and Sean Parker
 
 ## How a bankrupt file-sharing site became a trademark for sale
 
@@ -8075,6 +8122,7 @@ No. Napster stopped streaming licensed music on January 1, 2026, and pointed sub
 - Music Business Worldwide: Napster acquired in $207m deal by Infinite Reality (2025): https://www.musicbusinessworldwide.com/napster-acquired-in-207m-deal-by-12-25bn-valued-tech-startup-infinite-reality1/
 - Music Ally: Napster exits music streaming with shutdown of its service (2026): https://musically.com/2026/01/05/napster-exits-music-streaming-with-shutdown-of-its-service/
 - SEC litigation release LR-26563: SEC v. Charles J. Cole and Torben M. Welch (2026): https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26563
+- Wikipedia: Napster: https://en.wikipedia.org/wiki/Napster
 
 ---
 
@@ -8192,6 +8240,7 @@ Topics: Internet Culture
 - Died: November 5, 2024, New Bern, North Carolina, age 74
 - Owner today: Bending Spoons, which closed its $1.45 billion purchase of AOL on January 2, 2026
 - Status today: Still AOL Mail's alert; no replacement voice announced
+- Launched: October 1989, in America Online's new software
 
 ## The $200 cassette recorded in a living room in 1989
 
@@ -8275,6 +8324,7 @@ Elwood Edwards' recording appears uncredited in the Warner Bros. film You've Got
 - Axios: AOL to be sold to Bending Spoons for roughly $1.5B (2025): https://www.axios.com/2025/10/29/aol-bending-spoons-deal
 - Bending Spoons S.p.A., Form 6-K, U.S. Securities and Exchange Commission (2026): https://www.sec.gov/Archives/edgar/data/0002004711/000200471126000009/bsp_ex99-1.htm
 - Wikipedia: You've Got Mail (1998 film): https://en.wikipedia.org/wiki/You%27ve_Got_Mail
+- Wikipedia: Elwood Edwards: https://en.wikipedia.org/wiki/Elwood_Edwards
 
 ---
 
@@ -8293,6 +8343,7 @@ Topics: Gaming, Business Blunders
 - Games segment sales: 326.6 billion yen, fiscal year ended March 2026
 - Group result: Net loss of 5.7 billion yen after 58.8 billion yen of impairments
 - Price today: Sega Genesis Mini, about 65 to 100 dollars second-hand in 2026
+- Founded: June 3, 1960, as Nihon Goraku Bussan; roots in 1940 Honolulu
 
 ## Who owns Sega today?
 
@@ -8364,6 +8415,7 @@ The Dreamcast was the last home console Sega manufactured, and Sega has not ship
 - Video Games Chronicle, Sega president explains why it cancelled Super Game (2026): https://www.videogameschronicle.com/news/sega-president-explains-why-it-made-the-decision-to-cancel-its-much-hyped-super-game/
 - Game Developer, Sega sells off Relic Entertainment, will axe 240 jobs (2024): https://www.gamedeveloper.com/business/sega-sells-off-relic-entertainment-will-axe-240-jobs
 - The Numbers, Sonic the Hedgehog 3 box office: https://www.the-numbers.com/movie/Sonic-the-Hedgehog-3-(2024)
+- Wikipedia: Sega: https://en.wikipedia.org/wiki/Sega
 
 ---
 
@@ -8382,6 +8434,7 @@ Topics: Gaming, Internet Culture
 - Peak players: 240,851 at once in Old School RuneScape, August 2025
 - Price today: $14.99 a month or $131.88 a year in the US, since March 2026
 - Subscribers: 2.4 million paid plus 1 million free-to-play (Carlyle, 2024)
+- Launched: February 22, 2013, for Windows and macOS
 
 ## How many people play Old School RuneScape in 2026?
 
@@ -8457,6 +8510,7 @@ Yes. Both RuneScape and Old School RuneScape keep a free tier in 2026, with a re
 - Jagex: 2007 - Old School RuneScape... You Vote! (February 15, 2013): https://secure.runescape.com/m=news/a=427/2007---old-school-runescape-you-vote
 - Jagex: The Players Have Spoken! RuneScape Treasure Hunter Microtransactions to be Removed January 19th: https://www.jagex.com/news/the-players-have-spoken-runescape-treasure-hunter-microtransactions-to-be-removed-january-19th
 - PC Gamer: RuneScape's monthly membership now costs as much as a World of Warcraft subscription (March 2026): https://www.pcgamer.com/games/mmo/runescapes-monthly-membership-now-costs-as-much-as-a-world-of-warcraft-subscription-as-jagex-announces-its-second-price-hike-in-less-than-2-years/
+- Wikipedia: Old School RuneScape: https://en.wikipedia.org/wiki/Old_School_RuneScape
 
 ---
 
@@ -8475,6 +8529,7 @@ Topics: Internet Culture, Business Blunders
 - Bought for: $580 million by News Corporation in 2005
 - Sold for: About $35 million to Specific Media in June 2011
 - Music lost: About 50 million songs from 14 million artists in 2019
+- Launched: August 1, 2003, by eUniverse staff
 
 ## Who owns MySpace now?
 
@@ -8544,6 +8599,7 @@ The Internet Archive's Myspace Dragon Hoard holds 490,000 MP3 files collected fr
 - Viant Technology Inc., Annual Report on Form 10-K (SEC): https://www.sec.gov/Archives/edgar/data/1828791/000182879124000011/dsp-20231231.htm
 - Internet Archive: The Myspace Dragon Hoard (2008-2010): https://archive.org/details/myspace_dragon_hoard_2010
 - Tubefilter: MySpace's owners want to bring it back. But does it belong in 2026? (August 10, 2026): https://www.tubefilter.com/2026/08/10/myspace-2026-relaunch-tim-chris-vanderhook/
+- Wikipedia: Myspace: https://en.wikipedia.org/wiki/Myspace
 
 ---
 
@@ -8562,6 +8618,7 @@ Topics: Business Blunders
 - Owner today: Transform SR Brands LLC (Transformco), tied to Edward Lampert
 - Stores left: 3, in Kendale Lakes, Florida; Tamuning, Guam; and St. Thomas, U.S. Virgin Islands
 - Status today: Open, plus Kmart.com shipping to the 50 states and APO/FPO addresses
+- Founded: 1962, first Kmart store; S.S. Kresge dates to 1899
 
 ## Which three Kmart stores are still trading?
 
@@ -8635,6 +8692,7 @@ The last full-size Kmart in the mainland United States, in Bridgehampton, New Yo
 - VI Consortium: With Sunny Isle Closed and Lockhart Gardens Set to Follow, Tutu Park Stands as Kmart's Final Holdout in USVI (July 2025): https://viconsortium.com/vi-economy/virgin-islands-with-sunny-isle-closed-and-lockhart-gardens-set-to-follow--tutu-park-stands-as-kmart-s-final-holdout-in-usvi
 - The Virgin Islands Daily News: Tutu Park Mall confirms Kmart to remain open in the Virgin Islands (September 2025): https://www.virginislandsdailynews.com/tutu-park-mall-confirms-kmart-to-remain-open-in-the-virgin-islands/article_269992e4-092f-4163-9120-05e52d6e86b9.html
 - LevittownNow: Owner Of Kmart, Sears To Close Falls Twp. Warehouse, Lay Off 147 (July 22, 2026): https://levittownnow.com/2026/07/22/owner-of-kmart-sears-to-close-falls-twp-warehouse-lay-off-147/
+- Wikipedia: Kmart: https://en.wikipedia.org/wiki/Kmart
 
 ---
 
@@ -8829,6 +8887,7 @@ Topics: Business Blunders, Money & Tech
 - Status today: Open and trading. Not in bankruptcy since the February 2019 sale
 - Bankruptcy: Chapter 11 filed October 2018; $5.2 billion sale approved February 7, 2019
 - Catalog run: 1888 to January 25, 1993, 105 years
+- Founded: 1886, as R.W. Sears Watch Company in Minneapolis
 
 ## Is Sears still in business in 2026?
 
@@ -8910,6 +8969,7 @@ Yes. Kmart bought Sears in 2005 and the two have shared an owner ever since, fir
 - Bloomberg Law: Sears' $175 Million Bankruptcy Deal with Ex-CEO Lampert Approved: https://news.bloomberglaw.com/bankruptcy-law/sears-175-million-bankruptcy-deal-with-ex-ceo-lampert-approved
 - USA Today: Sears once dominated retail. Now only 5 stores remain.: https://www.yahoo.com/news/articles/sears-once-dominated-retail-now-195606317.html
 - Smithsonian Magazine: Before Folding 30 Years Ago, the Sears Catalog Sold Some Surprising Products: https://www.smithsonianmag.com/innovation/before-folding-30-years-ago-the-sears-catalog-sold-some-surprising-products-180981504/
+- Wikipedia: Sears: https://en.wikipedia.org/wiki/Sears
 
 ---
 
@@ -8928,6 +8988,7 @@ Topics: Gaming, Business Blunders
 - Status today: Active; revenue of 56.0 million euros for the year to March 2026, a decade high; VCS store closes February 1, 2027
 - Registered home: Luxembourg since July 6, 2026, moved from France
 - Price today: Atari 7800+ announced at $129.99 in August 2024
+- Founded: June 27, 1972, as Atari, Inc., by Nolan Bushnell and Ted Dabney
 
 ## Who is Wade Rosen, and how does he control Atari?
 
@@ -9025,6 +9086,7 @@ Topics: Business Blunders
 - US stores closed: 735, all shut by June 29, 2018
 - US standalone stores: More than 160 open as of November 13, 2026, up from 40
 - Stores worldwide: 1,664 in 35 countries as of 2026
+- Founded: April 1948, by Charles Lazarus; Toys R Us name from June 1957
 
 ## How many Toys R Us stores opened in 2026?
 
@@ -9116,6 +9178,7 @@ Yes. Babies R Us was part of the same brand portfolio WHP Global took control of
 - State of the Industry Q&A 2026: Jamie Uitdenhowen, Toys “R” Us, WHP Global (The Toy Book): https://toybook.com/state-of-the-industry-qa-2026-jamie-uitdenhowen-toys-r-us-whp-global/
 - Toys“R”Us Expands to More Than 160 U.S. Stores, Plans Grand Central Terminal Opening (citybiz, November 2026): https://www.citybiz.co/article/933390/toysrus-expands-to-more-than-160-u-s-stores-plans-grand-central-terminal-opening-in-new-york/
 - Toys R Us expands to New York's Grand Central (CoStar, November 2026): https://www.costar.com/article/1474659558/toys-r-us-expands-to-new-yorks-grand-central
+- Wikipedia: Toys "R" Us: https://en.wikipedia.org/wiki/Toys_%22R%22_Us
 
 ---
 
@@ -9134,6 +9197,7 @@ Topics: Hardware, Business Blunders
 - Bought by HP: Announced April 28, 2010 at $5.70 a share, about $1.2 billion, completed July 1, 2010
 - What it cost HP: $3.3 billion in after-tax charges in fiscal 2011, or $1.56 a diluted share
 - webOS today: Owned by LG Electronics since February 2013 and running on its smart TVs
+- Founded: 1992, as Palm Computing, by Jeff Hawkins
 
 ## Who owns Palm today?
 
@@ -9201,6 +9265,7 @@ HP paid about $1.2 billion for Palm in 2010 and announced on August 18, 2011 tha
 - LG Newsroom: LG Electronics Acquires webOS from HP to Enhance Smart TV (February 25, 2013): https://www.lgnewsroom.com/2013/02/lg-electronics-acquires-webos-from-hp-to-enhance-smart-tv/
 - PR Newswire: TCL Communication co-(re)creates Palm (January 6, 2015): https://www.prnewswire.com/news-releases/tcl-communication-co-recreates-palm-300016924.html
 - Variety: Verizon Launches Palm, a Credit Card-Size Phone, With an Assist From Stephen Curry (October 15, 2018): https://variety.com/2018/digital/news/verizon-palm-android-phone-stephen-curry-1202978461/
+- Wikipedia: Palm, Inc.: https://en.wikipedia.org/wiki/Palm,_Inc.
 
 ---
 
@@ -9219,6 +9284,7 @@ Topics: Software & Apps, Internet Culture
 - Bought by AOL: Announced November 24, 1998 at $4.2 billion, closed March 17, 1999 at about $10 billion
 - Last version: Netscape Navigator 9.0.0.6, released February 20, 2008
 - Trademark: US Reg. No. 2027552, registered December 31, 1996, registered and renewed
+- Founded: April 4, 1994, as Mosaic Communications; Netscape from November 1994
 
 ## What is still running under the Netscape name?
 
@@ -9288,6 +9354,7 @@ A Chromium-based browser carrying the Netscape name can still be downloaded from
 - Netscape (web browser), Wikipedia: https://en.wikipedia.org/wiki/Netscape_(web_browser)
 - USPTO Trademark Status and Document Retrieval: NETSCAPE, US Reg. No. 2027552: https://tsdr.uspto.gov/statusview/sn74574057
 - Bending Spoons S.p.A., SEC Form F-1 (2026): https://www.sec.gov/Archives/edgar/data/0002004711/000110465926071170/tm2613674-7_f1.htm
+- Wikipedia: Netscape: https://en.wikipedia.org/wiki/Netscape
 
 ---
 
@@ -9306,6 +9373,7 @@ Topics: Business Blunders, Music & Entertainment
 - Owner today: Dish Network, part of EchoStar; Dish DBS filed Chapter 11 on June 30, 2026
 - Brand sold for: About $320 million at the bankruptcy auction on April 6, 2011
 - Last in the world since: March 2019, when the Perth, Australia store closed
+- Founded: October 19, 1985, first store in Dallas, Texas
 
 ## What is left of Blockbuster in Bend, Oregon?
 
@@ -9387,6 +9455,7 @@ Yes. Dish Network has held the Blockbuster brand since winning the company's ass
 - TIME: Meet the Manager Running the World's Last Blockbuster (March 2019): https://time.com/5547624/worlds-last-blockbuster/
 - Retail Dive: Blockbuster is trapped in brand limbo. Will it ever get out? (November 2021): https://www.retaildive.com/news/blockbuster-is-trapped-in-brand-limbo-will-it-ever-get-out/609054/
 - EchoStar: DISH DBS Corporation and Subsidiaries Initiate Prepackaged Restructuring (June 30, 2026): https://ir.echostar.com/news-releases/news-release-details/dish-dbs-corporation-and-subsidiaries-initiate-prepackaged
+- Wikipedia: Blockbuster (retailer): https://en.wikipedia.org/wiki/Blockbuster_(retailer)
 
 ---
 
@@ -9405,6 +9474,7 @@ Topics: Internet Culture, Business Blunders
 - Price today: AOL Desktop Gold $9.99 a month; Ad-Free AOL Mail $4.99
 - Sale price: About $1.5 billion, paid to Apollo Global Management
 - Dial-up: Switched off September 30, 2025
+- Founded: May 1985, as Quantum Computer Services; AOL name from 1989
 
 ## What is left of AOL in 2026?
 
@@ -9482,6 +9552,7 @@ AOL Desktop Gold is listed at $9.99 a month in 2026 with a 30-day free trial, up
 - AOL to lay off 108 tied to Reston office (Virginia Business, February 2026): https://virginiabusiness.com/aol-to-lay-off-108-tied-to-reston-office/
 - AOL will stop offering dial-up internet service after more than 30 years (CNN Business, August 2025): https://www.cnn.com/2025/08/11/tech/aol-dial-up-internet-discontinue
 - AOL Desktop Gold product page (pricing and features): https://www.aol.com/products/browsers/desktop-gold
+- Wikipedia: AOL: https://en.wikipedia.org/wiki/AOL
 
 ---
 
@@ -9866,6 +9937,7 @@ Topics: Gaming, Hardware, Then vs Now
 - Peak subscribers: Just over 250,000, against Sega's target of one million in year one
 - Shut down: July 31, 1998, after the partners announced the withdrawal in late 1997
 - Status today: Dead since 1998, but 144 recovered ROMs were published free by Gaming Alexandria on December 15, 2025
+- Owner today: Sega, part of Sega Sammy Holdings
 
 ## How did games travel down a coaxial cable in 1994?
 
@@ -9965,6 +10037,7 @@ Topics: Software & Apps, Internet Culture, Then vs Now
 - Last update: 1998, never ported to Mac OS X
 - Status today: Discontinued March 2004, stacks emulated free at the Internet Archive
 - What replaced it: The web browser, plus LiveCode and SuperCard as direct descendants
+- Owner today: Apple
 
 ## Why did Apple give away a $49.95 program with every Mac?
 
@@ -10052,6 +10125,7 @@ Topics: Gaming, Hardware, Business Blunders
 - Game library: 40 games, six of them needing a Sega CD too
 - Status today: Discontinued in 1996, no official support and no Sega re-release
 - Price today: About $199.50 loose, $306 boxed (PriceCharting, October 2026)
+- Owner today: Sega, part of Sega Sammy Holdings
 
 ## What was the Sega 32X, and what did it cost in 1994?
 
@@ -10161,6 +10235,7 @@ Topics: Internet Culture, Then vs Now
 - Price: About $30,000 for a 12 week sponsorship
 - Click rate then and now: Reported 44 percent in 1994, 0.46 percent on the Google Display Network in 2025
 - Status today: US display advertising worth $81.6 billion in 2025 (IAB and PwC)
+- Owner today: Condé Nast, which bought the domain in 2006; it redirects to Wired
 
 ## Who actually built the AT&T banner?
 
@@ -10242,6 +10317,7 @@ Focus Digital's December 2025 study put the average Google Display Network click
 - thefirstbannerad.com, the AT&T You Will banner project site (2014): http://thefirstbannerad.com/story.html
 - IAB and PwC, Internet Advertising Revenue Report, Full Year 2025 (April 2026): https://www.iab.com/news/digital-ad-revenue-climbs-to-nearly-300b-as-iab-celebrates-30-year-anniversary/
 - Focus Digital, Average CTR for Display Ads benchmarks (December 2025): https://focus-digital.co/average-display-ad-ctr-2025-benchmarks/
+- Wikipedia: HotWired: https://en.wikipedia.org/wiki/HotWired
 
 ---
 
@@ -10252,7 +10328,7 @@ Author: Marcus Vale (404 Memory Found)
 Published: 2026-05-12  Updated: 2026-09-18
 Topics: Gaming, Hardware
 
-**Summary:** The Game Genie is discontinued and has been since the mid 1990s, when cartridge consoles gave way to disc systems. Galoob, the toy company that sold it in the United States, was bought by Hasbro in 1998, so the name sits inside Hasbro today. What survives is the 1992 Ninth Circuit ruling that made home game modification legal, and a second-hand NES unit that costs about $22.
+**Summary:** The Game Genie is discontinued and has been since the mid 1990s, when cartridge consoles gave way to disc systems. Galoob, the toy company that sold it in the United States, was bought by Hasbro in 1998, and the Game Genie trademark later passed to accessory maker Hyperkin, which revived the name in 2012. What survives is the 1992 Ninth Circuit ruling that made home game modification legal, and a second-hand NES unit that costs about $22.
 
 **Key facts:**
 - Launched: 1990, designed by Codemasters, sold in the US by Galoob
@@ -10260,6 +10336,7 @@ Topics: Gaming, Hardware
 - Units sold: About 2.5 million NES units through 1993
 - Court outcome: Galoob won in 1992 and collected Nintendo's $15 million bond
 - Status today: Discontinued; Galoob owned by Hasbro since 1998; loose units about $22
+- Owner today: Hyperkin, which bought the trademark and revived it in 2012
 
 ## How did a plastic sleeve rewrite a NES game?
 
@@ -10335,6 +10412,7 @@ An NES Game Genie was worth about $22 loose on PriceCharting in September 2026, 
 - Mental Floss, When the Game Genie Made Beating Nintendo Games Easy: https://www.mentalfloss.com/article/655393/when-game-genie-made-beating-nintendo-games-easy
 - Galoob, company history (Wikipedia): https://en.wikipedia.org/wiki/Galoob
 - PriceCharting, Game Genie (NES) price guide: https://www.pricecharting.com/game/nes/game-genie
+- The Escapist: Hyperkin resurrects the Game Genie (2012): https://www.escapistmagazine.com/hyperkin-resurrects-the-game-genie/
 
 ---
 
@@ -10353,6 +10431,7 @@ Topics: Hardware, Internet Culture
 - Status today: Active, with more than 3.4 million caches in 191 countries
 - Owner today: Groundspeak, Inc. (Geocaching HQ), Seattle, privately held
 - Price today: Free to play; Geocaching Premium $39.99 a year
+- Launched: May 3, 2000, first cache near Beavercreek, Oregon
 
 ## Why did geocaching start on May 3, 2000?
 
@@ -10426,6 +10505,7 @@ Geocaching is free to play: a basic Geocaching.com account and the official app 
 - Geocaching.com: The History of Geocaching: https://www.geocaching.com/about/history.aspx
 - Geocaching Newsroom: Fast Facts: https://newsroom.geocaching.com/fast-facts
 - Geocaching: This June, we're updating our pricing for new subscribers (2023): https://www.geocaching.com/blog/2023/04/this-june-were-updating-our-pricing-for-new-subscribers/
+- Wikipedia: Geocaching: https://en.wikipedia.org/wiki/Geocaching
 
 ---
 
@@ -10531,6 +10611,7 @@ Topics: Internet Culture, Business Blunders, Money & Tech
 - First-day close: $63.50, about 606 percent above the offer, still the record
 - Community site: Shut down in August 2001, months after the Nasdaq delisting
 - Status today: Shell company, ticker TGLO, no employees, $15,115 in cash (June 2026)
+- Owner today: Delfin Midstream LLC, majority stockholder since December 2017
 
 ## Who owns theGlobe.com now, and what is left?
 
@@ -10612,6 +10693,7 @@ theGlobe.com sold banner advertising to fund a free community site, and it lost 
 - theglobe.com, inc., Form 10-K for fiscal year 1999, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/0001066684/000089534500000218/0000895345-00-000218.txt
 - Internet IPO Theglobe.com Soars, CBS News, November 13, 1998: https://www.cbsnews.com/news/internet-ipo-theglobecom-soars/
 - Dumb, dumber and theglobe.com, Salon, August 22, 2001: https://www.salon.com/2001/08/22/paternot/
+- theglobe.com Form 10-Q, quarter ended September 30, 2026 (SEC): https://www.sec.gov/Archives/edgar/data/1066684/000110465926126843/tglo-20260930x10q.htm
 
 ---
 
@@ -11018,6 +11100,7 @@ Topics: Gaming, Hardware, Business Blunders
 - Discontinued: North America August 14, 1995; Famicom repairs ended October 31, 2007
 - Status today: Hardware retired; 87 NES games on Nintendo Switch Online in September 2026
 - Price today: $19.99 a year for Nintendo Switch Online; used consoles about $35 to $170
+- Owner today: Nintendo
 
 ## What did the 1983 crash actually do to the market?
 
@@ -11293,6 +11376,7 @@ Topics: Business Blunders, Money & Tech, Internet Culture
 - First online wine sale: Virtual Vineyards, January 1995
 - Sold out of collapse: April 2001, to eVineyard, debt not assumed
 - Last revenue published: $165 million, fiscal year ended March 31, 2020
+- Founded: 1994, as Virtual Vineyards in Los Altos, California
 
 ## Who sold the first bottle of wine over the internet?
 
@@ -11374,6 +11458,7 @@ The online wine companies of the late 1990s failed on alcohol law rather than on
 - Granholm v. Heald, 544 U.S. 460 (2005): https://caselaw.findlaw.com/court/us-supreme-court/544/460.html
 - Court of Master Sommeliers Americas: Peter D. Granoff: https://www.mastersommeliers.org/sommelier/peter-granoff/
 - GlobeNewswire: Wine.com releases Fiscal 2020 and April results: https://www.globenewswire.com/news-release/2020/05/14/2033576/0/en/Wine-com-releases-Fiscal-2020-and-April-results.html
+- Wikipedia: Wine.com: https://en.wikipedia.org/wiki/Wine.com
 
 ---
 
@@ -12187,6 +12272,7 @@ Topics: Hardware, Business Blunders
 - Bankruptcy: Chapter 11 filed January 19, 2012; emerged September 3, 2013
 - Employees: About 3,500 at the end of 2025, down from 145,300 in 1988
 - Price today: Kodak Portra 400 in 35mm, roughly 17 to 22 dollars a roll in 2026
+- Founded: 1881, as Eastman Dry Plate Company; Kodak name from 1888
 
 ## Why did Kodak shelve the first digital camera?
 
@@ -12258,6 +12344,7 @@ Yes. Kodak engineer Steven Sasson built the first self-contained digital camera 
 - Kodak Reports Second-Quarter 2026 Financial Results: https://investor.kodak.com/news-releases/news-release-details/kodak-reports-second-quarter-2026-financial-results
 - Kodak's growth and decline: a timeline, Rochester Business Journal, 2012: https://rbj.net/2012/01/19/kodaks-growth-and-decline-a-timeline/
 - Kodak Alaris Announces Acquisition by Kingswood Capital Management, 2024: https://corporate.kodakalaris.com/Pressroom/News/2024/Kodak-Alaris-Announces-Acquisition-by-Kingswood-Ca
+- Wikipedia: Kodak: https://en.wikipedia.org/wiki/Kodak
 
 ---
 
@@ -12276,6 +12363,7 @@ Topics: Gaming, Hardware
 - Games released: 22 in total, 14 of them in North America
 - Status today: Discontinued in 1996; back on Nintendo Switch since February 17, 2026
 - Price today: $300 to $500 for an original console; $99.99 for Nintendo's 2026 viewer
+- Owner today: Nintendo
 
 ## Why did Nintendo bet on a red 3D headset in 1995?
 
@@ -12341,6 +12429,7 @@ A working 1995 Virtual Boy with its stand and controller generally sells for $30
 - Kotaku: Game Boy Creator Said He Didn't Leave Nintendo Because Of The Virtual Boy (2018): https://kotaku.com/game-boy-creator-explains-why-he-left-nintendo-1825818754
 - Nintendo, Teleroboxer Virtual Boy instruction booklet (1995): http://www.world-of-nintendo.com/manuals/virtual_boy/teleroboxer.shtml
 - PriceCharting: Virtual Boy price guide: https://www.pricecharting.com/console/virtual-boy
+- Wikipedia: Virtual Boy: https://en.wikipedia.org/wiki/Virtual_Boy
 
 ---
 
@@ -12359,6 +12448,7 @@ Topics: Hardware, Business Blunders
 - Units sold: About 140,000 in nearly 19 years
 - Owner today: Segway-Ninebot of Beijing, listed in Shanghai as 689009
 - Status today: Brand active; Personal Transporter production ended July 15, 2020
+- Founded: July 1999, as Segway Inc., by Dean Kamen
 
 ## Why was the Segway famous before anyone had seen it?
 
@@ -12430,6 +12520,7 @@ The Segway Human Transporter went on sale to American consumers on November 18, 
 - Time: The Segway Riddle (2006): https://content.time.com/time/magazine/article/0,9171,1226171,00.html
 - The Washington Post: Segway-Ninebot will halt production in July (2020): https://www.washingtonpost.com/technology/2020/06/24/segway-stops-production/
 - CPSC: Segway Recalls Ninebot Max G30P and Max G30LP KickScooters (2025): https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-Max-G30P-and-Max-G30LP-KickScooters-Due-to-Fall-Hazard-and-Risk-of-Serious-Injury
+- Wikipedia: Segway Inc.: https://en.wikipedia.org/wiki/Segway_Inc.
 
 ---
 
@@ -12543,6 +12634,7 @@ Topics: Hardware, Then vs Now
 - Units sold: About six million iMac G3s, 1998 to 2003
 - Status today: Discontinued March 2003; the iMac line continues
 - Price today: M4 iMac from $1,499 after Apple's June 2026 increase
+- Owner today: Apple
 
 ## What shape was Apple in when the iMac was designed?
 
@@ -12608,6 +12700,7 @@ Jonathan Ive led the design of the iMac G3 as head of Apple's Industrial Design 
 - Michael Dell says he'd shut down Apple (Cult of Mac): https://www.cultofmac.com/news/today-apple-history-michael-dell-says-hed-shut-apple-refund-shareholders
 - Hiawatha Bray on the Original iMac (Daring Fireball): https://daringfireball.net/linked/2020/05/08/bray-original-imac
 - Apple Has Raised Prices on 14 Products (MacRumors, June 2026): https://www.macrumors.com/2026/06/29/apple-raised-prices-on-14-products/
+- Wikipedia: IMac G3: https://en.wikipedia.org/wiki/IMac_G3
 
 ---
 
@@ -12626,6 +12719,7 @@ Topics: Gaming, Software & Apps
 - Owner today: Valve Corporation, since 2000
 - Status today: Live as Counter-Strike 2, released September 27, 2023
 - Price today: Counter-Strike 2 is free; the 2000 original is $9.99 on Steam
+- Launched: June 1999, as a free Half-Life mod beta
 
 ## How did two modders build Counter-Strike in 1999?
 
@@ -12697,6 +12791,7 @@ Counter-Strike 1.6, the 2003 version of the original 2000 game, is still sold on
 - Game Developer: Valve's lifetime retail sales for the Half-Life and Counter-Strike franchises (2008): https://www.gamedeveloper.com/game-platforms/analysis-valve-s-lifetime-retail-sales-for-i-half-life-counter-strike-i-franchises
 - SteamDB: Counter-Strike 2 Steam charts and concurrent player records: https://steamdb.info/app/730/charts/
 - Variety: CS:GO goes free-to-play and adds Danger Zone (December 2018): https://variety.com/2018/gaming/news/cs-go-free-to-play-battle-royale-1203083164/
+- Valve Developer Community: Counter-Strike: https://developer.valvesoftware.com/wiki/Counter-Strike
 
 ---
 
@@ -14679,6 +14774,7 @@ Topics: Hardware, Music & Entertainment
 - Status today: Discontinued. Last players sold March 2013, blank discs ended February 2025
 - Owner today: Sony still owns the format and the trademark but sells nothing for it
 - Price today: About $100 to $400 for a working used recorder
+- Launched: November 1992, in Japan; December 1992 in the US and Europe
 
 ## What problem was MiniDisc built to solve?
 
@@ -14748,6 +14844,7 @@ Standard MiniDisc does not, because it uses Sony's lossy ATRAC compression and p
 - Slate: Remember MiniDiscs? Neither Did We Until Radiohead's Old Recordings Were Hacked (2019): https://slate.com/technology/2019/06/radiohead-minidisc-hack-leak-history.html
 - The FPS Review: Sony to End Production of Blu-ray Disc Media, MiniDisc for Recording, and More in February (2025): https://www.thefpsreview.com/2025/01/23/sony-to-end-production-of-blu-ray-disc-media-minidisc-for-recording-and-more-in-february-there-will-be-no-successor-models/
 - Headphonesty: The Music Format Everyone Mocked Is Now Selling for Thousands (2026): https://www.headphonesty.com/2026/07/mocked-music-format-selling-thousands/
+- Wikipedia: MiniDisc: https://en.wikipedia.org/wiki/MiniDisc
 
 ---
 
@@ -14766,6 +14863,7 @@ Topics: Software & Apps, Then vs Now
 - Status today: Still built into Windows 11 and macOS; the boxed screensaver business is gone
 - Owner today: After Dark went to the Sierra On-Line division of CUC International in 1997, with no version sold since
 - Price today: SereneScreen Marine Aquarium, $14.95
+- Launched: 1990, in Berkeley Systems' After Dark 2.0 for the Macintosh
 
 ## What did burn-in actually do to a CRT monitor?
 
@@ -14865,6 +14963,7 @@ Topics: Software & Apps, Then vs Now
 - Switched off: Office XP, announced April 11, 2001
 - Removed: Office 2007, along with every Office Assistant character
 - Status today: Not a feature. An emoji and a hidden Copilot avatar; 30 years old on November 19, 2026
+- Owner today: Microsoft
 
 ## Why did Microsoft put a cartoon inside Office 97?
 
@@ -15889,6 +15988,8 @@ Topics: Hardware, Music & Entertainment
 - Launch price: $399 for 5GB, Mac only
 - Status today: Discontinued. Apple ended the iPod line on May 10, 2022
 - Price today: About $80 to $250 for a working iPod classic in 2026
+- Launched: November 10, 2001, announced October 23, 2001
+- Owner today: Apple
 
 ## Who built the MP3 player that beat Apple by three years?
 
@@ -15956,6 +16057,7 @@ The first iPod cost $399 when it went on sale on November 10, 2001, with a 5GB h
 - RIAA v. Diamond Multimedia Systems, 180 F.3d 1072 (9th Cir. 1999): https://caselaw.findlaw.com/court/us-9th-circuit/1054784.html
 - Apple Launches the iTunes Music Store (Apple Newsroom, April 28, 2003): https://www.apple.com/newsroom/2003/04/28Apple-Launches-the-iTunes-Music-Store/
 - Apple discontinues the last iPod model (CNBC, May 10, 2022): https://www.cnbc.com/2022/05/10/apple-discontinues-the-last-ipod-model.html
+- Wikipedia: IPod: https://en.wikipedia.org/wiki/IPod
 
 ---
 
@@ -16061,6 +16163,7 @@ Topics: Gaming, Hardware
 - Status today: Discontinued October 21, 2013; consoles still play discs offline
 - Online today: Nintendo's servers ended May 20, 2014; fan services Wiimmfi and WiiLink fill the gap
 - Price today: About $40 to $75 used in 2026, $80 to $120 boxed with Wii Sports
+- Owner today: Nintendo
 
 ## Why did Nintendo build a console with last-generation graphics?
 
@@ -16148,6 +16251,7 @@ A working Nintendo Wii with a controller and cables typically sells for $40 to $
 - Engadget: Nintendo's Wii Shop Channel shuts down today: https://www.engadget.com/2019-01-30-wii-shop-channel-shuts-down.html
 - Nintendo: Nintendo Switch Sports Resort for Nintendo Switch 2, released October 22, 2026: https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Nintendo-Switch-Sports-Resort-3115652.html
 - Nintendo: New updates for the Nintendo Classics library of games, October 27, 2026: https://www.nintendo.com/my/news/article/3XkLFrNv1U1hFwXSdFC79Q
+- Wikipedia: Wii: https://en.wikipedia.org/wiki/Wii
 
 ---
 
@@ -16166,6 +16270,7 @@ Topics: Hardware, Business Blunders
 - Ended: Asus and Acer stopped production for 2013; retailers sold off the rest
 - Status today: Dead category. No major brand has sold a netbook since 2013
 - Price today: Chromebooks under $200, mid-range $400 to $600 (PCWorld, August 2026)
+- Owner today: Asus (ASUSTeK Computer)
 
 ## What replaced netbooks, and what do those cost in 2026?
 
@@ -16233,6 +16338,7 @@ No. A netbook was a small Windows XP or Linux laptop sold between 2007 and 2013,
 - The Register: Netbook shipments slump, ABI Research data (October 21, 2011): https://www.theregister.com/2011/10/21/netbook_shipments_slump/
 - The Register: 2012, the year that netbooks died (December 28, 2012): https://www.theregister.com/2012/12/28/2012_year_netbooks_died/
 - PCWorld: Best Chromebooks 2026 (updated August 28, 2026): https://www.pcworld.com/article/608636/best-chromebooks.html
+- Wikipedia: Eee PC: https://en.wikipedia.org/wiki/Eee_PC
 
 ---
 
@@ -16251,6 +16357,7 @@ Topics: Gaming, Hardware
 - Status today: Discontinued in January 2013; still the best-selling console ever
 - Closest challenger: Nintendo Switch, 155.92 million units by mid-2026
 - Price today: $75 to $150 for a tested used console in 2026
+- Owner today: Sony Interactive Entertainment
 
 ## Why did Sony ship only half the consoles it promised?
 
@@ -16320,6 +16427,7 @@ A PlayStation 5 cannot read a PlayStation 2 disc. The only official route in 202
 - Newsweek, Here Comes PlayStation 2 (2000): https://www.newsweek.com/here-comes-playstation-2-156589
 - Deseret News, Export limits put on video game (April 17, 2000): https://www.deseret.com/2000/4/17/19502394/export-limits-put-on-video-game-br-playstation2-could-be-used-for-weaponry/
 - VGChartz, Switch vs PS2 sales comparison (July 2026): https://www.vgchartz.com/article/468794/switch-vs-ps2-sales-comparison-july-2026/
+- Wikipedia: PlayStation 2: https://en.wikipedia.org/wiki/PlayStation_2
 
 ---
 
@@ -16721,6 +16829,7 @@ Topics: Software & Apps, Internet Culture
 - Shut down: July 1, 2013, data deleted July 15, 2013
 - Status today: Gone. No revival announced as of September 2026
 - Price today: Feedly free for 100 sources, Pro about $6 a month annually
+- Owner today: Google (Alphabet)
 
 ## How did Google Reader start, and who built it?
 
@@ -16804,6 +16913,7 @@ Feedly is the closest mainstream successor to Google Reader, with a free tier fo
 - Om Malik: Google Reader creator Chris Wetherell reflects: https://om.co/gigaom/chris-wetherll-google-reader/
 - The Next Web: Save Google Reader petition passes 100,000 signatures: https://thenextweb.com/google/2013/03/15/petition-to-save-google-reader-passes-100000-signatures-but-dont-expect-google-to-reverse-its-decision
 - Archive Team: Google Reader preservation project: https://wiki.archiveteam.org/index.php/Google_Reader
+- Wikipedia: Google Reader: https://en.wikipedia.org/wiki/Google_Reader
 
 ---
 
@@ -17010,6 +17120,7 @@ Topics: Gaming, Hardware, Business Blunders
 - Units sold: 9.26 million worldwide, 1.83 million in North America
 - Status today: Discontinued; dropped in the US in 1998, sold in Japan until 2000
 - Price today: $180 to $280 for a working console with controllers, 2026
+- Owner today: Sega, part of Sega Sammy Holdings
 
 ## Why did Sega surprise-launch the Saturn in 1995?
 
@@ -17284,6 +17395,7 @@ Topics: Business Blunders, Internet Culture, Money & Tech
 - Owner today: AOL: Bending Spoons. Time Warner assets: Warner Bros. Discovery
 - Worst year: A loss of about $99 billion in 2002
 - Price today: AOL sold for about $1.5 billion in the deal agreed in October 2025
+- Founded: January 11, 2001, when the AOL and Time Warner merger closed
 
 ## Why was a dial-up company able to buy Time Warner?
 
@@ -17361,6 +17473,7 @@ Apollo Global Management agreed in October 2025 to sell AOL to Bending Spoons, a
 - The Biggest Mistake in Corporate History (Forbes, 2010): https://www.forbes.com/sites/trevorbutterworth/2010/09/30/the-biggest-mistake-in-corporate-history/
 - AOL to be sold to Bending Spoons for roughly $1.5B (Axios, 2025): https://www.axios.com/2025/10/29/aol-bending-spoons-deal
 - Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge (CNBC, 2026): https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html
+- Wikipedia: WarnerMedia: https://en.wikipedia.org/wiki/WarnerMedia
 
 ---
 
@@ -17634,6 +17747,8 @@ Topics: Business Blunders, Internet Culture, Money & Tech
 - Worst of the crash: Shares fell more than 90%, from a 1999 high near $113 to $5.51 in late 2001
 - The lifeline: $672 million convertible bond sold to European investors, February 2000
 - First profitable quarter: Q4 2001: $5 million net income, one cent a share, on $1.12 billion of sales
+- Founded: July 5, 1994, as Cadabra, Inc., in Bellevue, Washington
+- Owner today: Amazon.com, Inc., public on Nasdaq as AMZN
 
 ## Why Amazon looked like every other doomed dot-com
 
@@ -17713,6 +17828,7 @@ Amazon reported its first profitable quarter in the fourth quarter of 2001: net 
 - Amazon.com Form 10-K405 for fiscal year 2001, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1018724/000103221002000059/d10k405.htm
 - Scathing Report of Amazon Is a Must-Read for Stock Owners, San Francisco Chronicle, 2000: https://www.sfgate.com/business/networth/article/scathing-report-of-amazon-is-a-must-read-for-2750932.php
 - Amazon tops $3 trillion market cap, CNBC, August 2026: https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html
+- Wikipedia: Amazon (company): https://en.wikipedia.org/wiki/Amazon_(company)
 
 ---
 
@@ -17731,6 +17847,7 @@ Topics: Gaming, Hardware
 - Units sold: More than 76.4 million (Sony, as of March 31, 2012)
 - Status today: Discontinued, no Sony support; PSP downloads run through the PS3 and PS Vita stores, closing in stages from August 2026 to July 2027
 - Cost today: About $80 loose for a PSP-1000, $153 complete, above $140 for a PSP Go (PriceCharting, 2026)
+- Owner today: Sony Interactive Entertainment
 
 ## How many PSPs did Sony actually sell?
 
@@ -17814,6 +17931,7 @@ Sony released five PSP models between 2004 and the end of production: the origin
 - Nintendo IR: Hardware and Software Sales Units: https://www.nintendo.co.jp/ir/en/sale/hard_soft/index.html
 - Video Games Chronicle: Sony is closing the PlayStation Store on PS3 and Vita, July 2026: https://videogameschronicle.com/news/sony-is-closing-the-playstation-store-on-ps3-and-vita/
 - PriceCharting: PSP console and game prices: https://www.pricecharting.com/console/psp
+- Wikipedia: PlayStation Portable: https://en.wikipedia.org/wiki/PlayStation_Portable
 
 ---
 
@@ -18109,6 +18227,7 @@ Topics: Hardware, Business Blunders
 - Stores left: Zero company-owned US stores; 170 plus dealers in 40 states
 - Peak size: 5,087 US company stores plus 2,099 dealer stores (Dec 1999)
 - Bankruptcies: First in 2015, second on March 8, 2017
+- Founded: 1921, as Radio Shack in Boston
 
 ## Is RadioShack still in business in 2026?
 
@@ -18196,6 +18315,7 @@ Partly. The RadioShack site in 2026 lists soldering irons, soldering stations, e
 - Unicomer Group acquires the global RadioShack brand, May 9, 2023: https://grupounicomer.com/en/unicomer-group-acquires-the-global-radioshack-brand/
 - Modern Retail: Inside RadioShack's audio-fueled B-to-B revival, May 7, 2026: https://www.modernretail.co/operations/inside-radioshacks-audio-fueled-b-to-b-revival/
 - Maryland Matters: The last RadioShack in Maryland is closing its doors, April 14, 2025: https://marylandmatters.org/2025/04/14/end-of-an-era-the-last-radioshack-in-maryland-is-closing-its-doors/
+- Wikipedia: RadioShack: https://en.wikipedia.org/wiki/RadioShack
 
 ---
 
@@ -19324,6 +19444,7 @@ Topics: Software & Apps, Internet Culture, Business Blunders
 - Last version: Encarta Premium 2009, released August 2008
 - Price today: Free disc images on the Internet Archive. No official version for sale
 - What replaced it: Wikipedia and web search
+- Owner today: Microsoft, which retired it in 2009
 
 ## Is Encarta still available in 2026?
 
@@ -20240,6 +20361,7 @@ Topics: Hardware, Business Blunders
 - Last new handhelds: Palm TX and the $99 Palm Z22, October 12, 2005
 - Status today: Discontinued. The Palm trademark is owned by TCL and unused
 - Price today: About $13 to $15 untested, around $40 working, on Etsy
+- Owner today: TCL, which bought the Palm trademark from HP (confirmed 2015)
 
 ## How did a block of wood become the Palm Pilot?
 
@@ -20325,6 +20447,7 @@ Topics: Software & Apps, Business Blunders
 - Price today: Free to use; developer free tier raised to 50,000 transactions in August 2026
 - Sold to AOL: About $1.1 billion in stock, announced December 22, 1999
 - Overtaken: January 2009, when comScore put Google Maps ahead by 700,000 users
+- Launched: February 1996, as mapquest.com
 
 ## How did MapQuest get a ten-year head start?
 
@@ -20404,6 +20527,7 @@ Google Maps passed MapQuest in January 2009, when comScore measured 42.2 million
 - Newsweek: Who owns MapQuest? App surges after defying Trump on Lake America renaming (2026): https://www.newsweek.com/lake-ontario-america-mapquest-donald-trump-name-map-12387309
 - System1 investor relations: MapQuest opens its mapping platform to AI agents (August 5, 2026): https://ir.system1.com/news/news-details/2026/MapQuest-Opens-Its-Mapping-Platform-to-AI-Agents-with-a-New-Model-Context-Protocol-MCP-Server-Plus-1-Billion-Free-Transactions-to-Celebrate/default.aspx
 - U.S. Securities and Exchange Commission: System1, Inc., Form 10-Q for the quarter ended June 30, 2026: https://www.sec.gov/Archives/edgar/data/0001805833/000180583326000050/sst-20260630.htm
+- Wikipedia: MapQuest: https://en.wikipedia.org/wiki/MapQuest
 
 ---
 
@@ -20709,6 +20833,7 @@ Topics: Business Blunders, Hardware
 - Worst year: Fiscal 1997: a net loss of $1.045 billion, after $816 million lost in fiscal 1996
 - The lifeline: About $150 million of non-voting preferred stock, bought by Microsoft on August 6, 1997
 - Back in profit: Fiscal 1998: net income of $309 million, the first profitable year since 1995
+- Founded: April 1, 1976, as Apple Computer Company, Los Altos, California
 
 ## How much money was Apple losing in 1996 and 1997?
 
@@ -20790,6 +20915,7 @@ Apple Inc. is owned by its shareholders and trades on Nasdaq as AAPL, with index
 - Microsoft and Apple Affirm Commitment to Build Next Generation Software for Macintosh, 6 August 1997: https://news.microsoft.com/1997/08/06/microsoft-and-apple-affirm-commitment-to-build-next-generation-software-for-macintosh/
 - AppleInsider, Apple's 15 years of NeXT (21 December 2011): https://appleinsider.com/articles/11/12/21/apples_15_years_of_next.html
 - CNBC, Apple touches $5 trillion market cap for first time (28 July 2026): https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html
+- Wikipedia: Apple Inc.: https://en.wikipedia.org/wiki/Apple_Inc.
 
 ---
 
@@ -20986,6 +21112,8 @@ Topics: Software & Apps, Internet Culture
 - Location: Private land off Highway 121, southern Sonoma County, California
 - Status today: Planted vineyard; briefly bare and green again on 18 February 2026
 - Windows XP: Shipped 2001, support ended 8 April 2014, 0.05 percent of Windows web traffic in September 2026
+- Launched: October 25, 2001, as the Windows XP default wallpaper
+- Owner today: Microsoft, which obtained full rights to the photo in 2000
 
 ## Who took the Windows XP Bliss wallpaper photo?
 
@@ -21055,6 +21183,8 @@ Charles O'Rear has never disclosed what Microsoft paid him for Bliss, because he
 - PetaPixel: Microsoft Paid 'Bliss' Photog $100K+ and 'Autumn' Photog $45 (2017): https://petapixel.com/2017/12/23/microsoft-xp-bliss-photog-paid-100k-autumn-photog-paid-45/
 - Tom's Hardware: 30 years later, the green hill from Windows XP's Bliss wallpaper: https://www.tomshardware.com/software/windows/30-years-later-the-iconic-green-hill-from-windows-xps-bliss-wallpaper-is-still-thriving-new-picture-captures-the-hill-looking-almost-identical-to-the-original
 - StatCounter: Windows version market share, desktop worldwide: https://gs.statcounter.com/windows-version-market-share/desktop/worldwide
+- Wikipedia: Windows XP: https://en.wikipedia.org/wiki/Windows_XP
+- Wikipedia: Bliss (image): https://en.wikipedia.org/wiki/Bliss_(image)
 
 ---
 
@@ -21650,6 +21780,7 @@ Topics: Internet Culture, Then vs Now
 - Earlier claim: A Sting CD sold by the Net Market Company for $12.48 plus shipping, August 11, 1994
 - Status today: PizzaNet is gone; Pizza Hut takes orders through its own site and app
 - Owner today: LongRange Capital outside mainland China since September 1, 2026, and Yum China Holdings inside it
+- Launched: August 22, 1994, as a pilot in Santa Cruz, California
 
 ## What did PizzaNet actually sell in August 1994?
 
@@ -21719,6 +21850,7 @@ Pizza Hut is owned by LongRange Capital, a private equity firm that completed it
 - Pizza Hut Offers Big Discount to Celebrate 20th Anniversary of the World's First Online Purchase (NBC News, 2014): https://www.nbcnews.com/news/wbna53973791
 - Yum China Completes the Acquisition of Ownership of the Pizza Hut Brand in Mainland China (SEC Form 8-K exhibit, August 2026): https://www.sec.gov/Archives/edgar/data/0001673358/000119312526339048/yumc-ex99_1.htm
 - Pizza Hut store closures update: list of doomed locations grows in 2026 (Fast Company, October 2026): https://www.fastcompany.com/91627412/pizza-hut-store-closures-2026-list-doomed-locations-grows
+- Interesting People list: PizzaNet announcement (August 1994): https://seclists.org/interesting-people/1994/Aug/57
 
 ---
 
