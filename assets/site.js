@@ -901,13 +901,22 @@
             }
         }
 
+        function setAdConsent(state) {
+            if (typeof gtag === 'function') {
+                gtag('consent', 'update', { analytics_storage: state, ad_storage: state, ad_user_data: state, ad_personalization: state });
+            }
+        }
+
         function acceptCookies() {
             localStorage.setItem('cookie-consent', 'accepted');
+            setAdConsent('granted');
             document.getElementById('cookie-banner').classList.remove('show');
         }
 
         function declineCookies() {
             localStorage.setItem('cookie-consent', 'declined');
+            setAdConsent('denied');
+            (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
             document.getElementById('cookie-banner').classList.remove('show');
         }
 

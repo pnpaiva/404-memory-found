@@ -11,13 +11,14 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      var __declined=false;try{__declined=localStorage.getItem('cookie-consent')==='declined';}catch(e){}var __c=__declined?'denied':'granted';gtag('consent','default',{analytics_storage:__c,ad_storage:__c,ad_user_data:__c,ad_personalization:__c});if(__declined){(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;}
       gtag('js', new Date());
       gtag('config', 'G-GQX7R9W80G');
     </script>
     <meta name="google-adsense-account" content="ca-pub-2779742602426192">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2779742602426192" crossorigin="anonymous"></script>
     <meta name="p:domain_verify" content="820233f60813bb5db988ed9bf6b4c449">
-    <title>Is IRC Still Around in 2026? Yes, 162,000 Users | 404 Memory Found</title>
+    <title>Is IRC Still Around in 2026? Yes, 162,000 Users</title>
     <meta name="description" content="IRC still exists in 2026: over 162,000 users across the top 100 networks. Libera.Chat leads at 31,500 after freenode fell from 90,000 to 5,000.">
     <link rel="canonical" href="https://404memoryfound.com/posts/what-happened-to-irc-chat.html">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -45,7 +46,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="stylesheet" href="/assets/site.css?v=ca3a86d1">
+    <link rel="stylesheet" href="/assets/site.css?v=b6ee3133">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Is IRC Still Around in 2026? Yes, 162,000 Users", "description": "IRC still exists in 2026: over 162,000 users across the top 100 networks. Libera.Chat leads at 31,500 after freenode fell from 90,000 to 5,000.", "datePublished": "2026-04-09", "dateModified": "2026-09-22", "image": ["https://404memoryfound.com/og/what-happened-to-irc-chat.jpg", "https://404memoryfound.com/img/internet-map-1024-c65de7.jpg"], "wordCount": 1297, "keywords": ["Internet Culture", "Software & Apps"], "articleSection": "Internet Culture", "author": {"@type": "Person", "@id": "https://404memoryfound.com/authors/dana.html#person", "name": "Dana Reyes", "url": "https://404memoryfound.com/authors/dana.html", "description": "Dana covers the dot-com era: the companies, the deals and the websites that shaped the early internet, and what actually happened to them after the headlines moved on.", "jobTitle": "Writer", "worksFor": {"@id": "https://404memoryfound.com/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://404memoryfound.com/#organization", "name": "404 Memory Found", "url": "https://404memoryfound.com/", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/logo-512.png", "width": 512, "height": 512}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/what-happened-to-irc-chat.html"}, "url": "https://404memoryfound.com/posts/what-happened-to-irc-chat.html", "citation": ["https://daniel.haxx.se/irchistory.html", "https://netsplit.de/networks/top100.php", "https://www.pingdom.com/blog/irc-is-dead-long-live-irc/", "https://www.vice.com/en/article/freenode-open-source-korea-crown-prince-takeover/", "https://exple.tive.org/blarg/2019/04/26/synchronous-text/"]}</script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com/"}, {"@type": "ListItem", "position": 2, "name": "Internet Culture", "item": "https://404memoryfound.com/tags/internet-culture.html"}, {"@type": "ListItem", "position": 3, "name": "Is IRC Still Around in 2026? Yes, 162,000 Users", "item": "https://404memoryfound.com/posts/what-happened-to-irc-chat.html"}]}</script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is IRC dead in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "IRC is not dead. In April 2026 the top 100 IRC networks tracked by netsplit.de carried more than 162,000 users at the same time, and Libera.Chat, founded in May 2021, was the largest at roughly 31,500. IRC is a niche rather than a default now, but it has run continuously since August 1988."}}, {"@type": "Question", "name": "How do you connect to IRC today?", "acceptedAnswer": {"@type": "Answer", "text": "Connecting to IRC in 2026 needs a client and a network address, and nothing else. HexChat, Irssi and WeeChat are free, mIRC still covers Windows, and the largest network, Libera.Chat, is free to join. There is no single IRC service to sign up for, because IRC is a protocol and every network runs its own servers."}}, {"@type": "Question", "name": "What replaced IRC?", "acceptedAnswer": {"@type": "Answer", "text": "Discord took most of IRC's casual and gaming users after arriving in the mid-2010s, and Slack took the workplace ones. Open source projects that left IRC mostly moved to Matrix, as Mozilla did after announcing in April 2019 that it would shut its own IRC network. All three copied IRC's channels, direct messages and bots, then put them on servers a single company controls."}}]}</script>
@@ -114,6 +115,7 @@
 <p>The first serious fight came in August 1990 over a machine at Berkeley called eris.berkeley.edu, which accepted any connection with no password and no limit on how many. Operators who wanted limits quarantined it and called themselves the Eris Free network, which is where the name EFnet comes from. The servers that stayed with eris became A-net.</p>
 <p>That set the pattern for the decade. Undernet split off in October 1992. DALnet forked from Undernet's server software in 1994, started by people who had already walked away from EFnet. James Ng, quoted in Stenberg's history, describes the founders as "ops in #StarTrek sick from the constant splits/lags/takeovers/etc".</p>
 <p>The largest break came in July 1996, when a policy disagreement cut EFnet in half. The European servers, plus Australia and Japan, left to form IRCnet. The American servers kept the EFnet name. Users still call that one the Great Split. Gaming networks grew up beside them, QuakeNet out of the <a href="/posts/what-happened-to-quake-online-fps.html">Quake</a> scene, where clans arranged matches and <a href="/posts/golden-age-of-lan-parties.html">LAN parties</a> in channels run by bots.</p>
+<aside class="keep-reading" data-nosnippet><div class="keep-reading-bar">📂 Keep reading</div><a class="archive-card" href="/posts/what-happened-to-aim-aol-instant-messenger.html" data-ev="keep_reading_click"><img src="/img/thumb/motorola-razr-v3-4899-608a70.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Is AIM Still Around? AOL Instant Messenger in 2026</strong><span>AOL Instant Messenger, the chat client almost everyone called AIM, no longer exists. Oath, the Verizon unit that...</span></span></a></aside>
 <h2 id="who-owns-irc-today-and-who-runs-the-networks">Who owns IRC today, and who runs the networks?</h2>
 <p>Nobody owns IRC. It is a published protocol, not a company asset, which is the main reason it has outlived almost every commercial chat service built alongside it. What people own are individual networks: the servers, the domain names and the registered channel databases.</p>
 <p>The largest network in 2026 is Libera.Chat, which the crawler at netsplit.de records at roughly 31,500 users and 22,500 channels. It is run by volunteer staff, funded by donations, and free to join. The older networks are still underneath it, including EFnet, IRCnet, Undernet and DALnet, each with its own server list and its own rules about bots and channel ownership.</p>
@@ -137,7 +139,7 @@
     <section class="post-sources"><h2>Sources</h2><ul><li><a href="https://daniel.haxx.se/irchistory.html" rel="noopener" target="_blank">History of IRC, Daniel Stenberg</a> <span class="source-host">daniel.haxx.se</span></li><li><a href="https://netsplit.de/networks/top100.php" rel="noopener" target="_blank">IRC network statistics, top 100 networks, netsplit.de</a> <span class="source-host">netsplit.de</span></li><li><a href="https://www.pingdom.com/blog/irc-is-dead-long-live-irc/" rel="noopener" target="_blank">IRC is dead, long live IRC, Pingdom</a> <span class="source-host">pingdom.com</span></li><li><a href="https://www.vice.com/en/article/freenode-open-source-korea-crown-prince-takeover/" rel="noopener" target="_blank">Developers Flee Open Source Project After &#x27;Takeover&#x27; By Korean Crown Prince, Vice (2021)</a> <span class="source-host">vice.com</span></li><li><a href="https://exple.tive.org/blarg/2019/04/26/synchronous-text/" rel="noopener" target="_blank">Synchronous Text, Mike Hoye (2019)</a> <span class="source-host">exple.tive.org</span></li></ul></section>
     <footer class="post-footer">
         <div class="post-tags">Filed under: <a href="/tags/internet-culture.html">Internet Culture</a> <a href="/tags/software-apps.html">Software &amp; Apps</a></div>
-        <div class="related-posts"><div class="related-posts-title">Related Posts:</div><a class="related-post" href="/posts/windows-xp-wallpaper-bliss-story.html">Is the Windows XP Bliss Hill Still There in 2026?</a><a class="related-post" href="/posts/mavis-beacon-real-person.html">Is Mavis Beacon a Real Person? The 1987 Answer</a><a class="related-post" href="/posts/homestar-runner-still-updating.html">Is Homestar Runner Still Updating? Yes, 26 Years On</a><a class="related-post" href="/posts/does-yahoo-messenger-still-exist.html">Does Yahoo Messenger Still Exist? It Closed in 2018</a><a class="related-post" href="/posts/is-netscape-still-around.html">Is Netscape Still Around in 2026? What Is Left</a></div>
+        <nav class="related-posts" data-nosnippet aria-label="Next in the archive"><div class="related-posts-title">📁 Next in the archive</div><a class="archive-card" href="/posts/what-happened-to-compuserve-online-service.html" data-ev="next_click"><img src="/img/thumb/packard-bell-multimedia-d160-59bb18.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Who Owns CompuServe Now? Yahoo Runs the Portal</strong><span>CompuServe still exists in 2026, but only as compuserve.com, a news portal operated under an AOL Media copyright and...</span></span></a><a class="archive-card" href="/posts/what-happened-to-google-reader-rss.html" data-ev="next_click"><img src="/img/thumb/firefox-rss-feed-9dc06b.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Why Google Reader Died and What Replaced It in 2026</strong><span>Google Reader is gone. Google retired the RSS reader on July 1, 2013, less than eight years after launching it...</span></span></a><a class="archive-card" href="/posts/what-happened-to-altavista-search-engine.html" data-ev="next_click"><img src="/img/thumb/dec-vt100-terminal-21a08f.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Does AltaVista Still Exist? Yahoo Closed It in 2013</strong><span>AltaVista no longer exists. Yahoo shut the search engine down on July 8, 2013, and altavista.com now redirects to...</span></span></a><a class="archive-card" href="/posts/what-happened-to-icq-instant-messenger.html" data-ev="next_click"><img src="/img/thumb/vtbs-internet-cafe-6c629b.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Is ICQ Still Around? VK Shut It Down in June 2024</strong><span>ICQ is no longer running. VK, the Russian company that bought it from AOL in 2010, switched the messenger off on...</span></span></a></nav>
         <div class="page-back-row"><a class="page-back page-back-desktop" href="/">&larr; Back to Blog</a> <a class="page-back" href="/posts/">All posts</a></div>
     </footer>
 </article>
@@ -184,7 +186,43 @@
         <div class="mobile-footer-status">September 22, 2026</div>
     </div>
     </main>
-    <script>window.__BUILD__ = 'ca3a86d1'; var isPostPage = true; var postPageSlug = 'what-happened-to-irc-chat';</script>
-    <script src="/assets/site.js?v=ca3a86d1"></script>
+    <script>window.__BUILD__ = 'b6ee3133'; var isPostPage = true; var postPageSlug = 'what-happened-to-irc-chat';</script>
+    <script src="/assets/site.js?v=b6ee3133"></script>
+    <script>
+    (function () {
+        var body = document.querySelector('.post-body');
+        if (!body) return;
+        var html = '<span class="read-meter" aria-hidden="true"><span class="read-meter-track"><span class="read-meter-fill"></span></span><span class="read-meter-pct">0%</span></span>';
+        var spacer = document.querySelector('.taskbar .taskbar-spacer');
+        if (spacer) spacer.insertAdjacentHTML('afterend', html);
+        var mob = document.querySelector('.page-mobile-footer .mobile-footer-status');
+        if (mob) mob.innerHTML = html;
+        var fills = document.querySelectorAll('.read-meter-fill'), pcts = document.querySelectorAll('.read-meter-pct');
+        var sent = {}, ticking = false, slug = window.postPageSlug || '';
+        function send(name, params) { if (typeof gtag === 'function') gtag('event', name, params); }
+        function update() {
+            ticking = false;
+            var r = body.getBoundingClientRect();
+            var seen = Math.min(Math.max(window.innerHeight - r.top, 0), r.height);
+            var p = r.height ? Math.round(seen / r.height * 100) : 0;
+            for (var i = 0; i < fills.length; i++) fills[i].style.width = p + '%';
+            for (var j = 0; j < pcts.length; j++) pcts[j].textContent = p + '%';
+            [25, 50, 75, 100].forEach(function (t) {
+                if (p >= t && !sent[t]) {
+                    sent[t] = 1;
+                    send('read_progress', { percent: t, post_slug: slug });
+                    if (t === 100) send('read_complete', { post_slug: slug });
+                }
+            });
+        }
+        document.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true, capture: true });
+        window.addEventListener('resize', update);
+        update();
+        document.addEventListener('click', function (e) {
+            var a = e.target.closest && e.target.closest('a[data-ev]');
+            if (a) send(a.getAttribute('data-ev'), { link_url: a.href, post_slug: slug, transport_type: 'beacon' });
+        });
+    })();
+    </script>
 </body>
 </html>

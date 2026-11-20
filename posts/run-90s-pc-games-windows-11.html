@@ -11,13 +11,14 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      var __declined=false;try{__declined=localStorage.getItem('cookie-consent')==='declined';}catch(e){}var __c=__declined?'denied':'granted';gtag('consent','default',{analytics_storage:__c,ad_storage:__c,ad_user_data:__c,ad_personalization:__c});if(__declined){(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;}
       gtag('js', new Date());
       gtag('config', 'G-GQX7R9W80G');
     </script>
     <meta name="google-adsense-account" content="ca-pub-2779742602426192">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2779742602426192" crossorigin="anonymous"></script>
     <meta name="p:domain_verify" content="820233f60813bb5db988ed9bf6b4c449">
-    <title>How to Run 90s PC Games on Windows 11 in 2026 | 404 Memory Found</title>
+    <title>How to Run 90s PC Games on Windows 11 in 2026</title>
     <meta name="description" content="90s PC games do run on Windows 11 in 2026, but never alone: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing.">
     <link rel="canonical" href="https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -45,7 +46,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="stylesheet" href="/assets/site.css?v=ca3a86d1">
+    <link rel="stylesheet" href="/assets/site.css?v=b6ee3133">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to Run 90s PC Games on Windows 11 in 2026", "description": "90s PC games do run on Windows 11 in 2026, but never alone: DOSBox Staging, ScummVM or a GOG re-release. Two of the three cost nothing.", "datePublished": "2026-09-11", "dateModified": "2026-09-30", "image": ["https://404memoryfound.com/og/run-90s-pc-games-windows-11.jpg", "https://404memoryfound.com/img/dos-printscreen-approximations-e4dd82.jpg"], "wordCount": 1504, "keywords": ["Software & Apps", "Gaming"], "articleSection": "Software & Apps", "author": {"@type": "Person", "@id": "https://404memoryfound.com/authors/theo.html#person", "name": "Theo Lindqvist", "url": "https://404memoryfound.com/authors/theo.html", "description": "Theo covers the software, file formats and everyday gadgets of the era, and does the then-versus-now math on what things cost, how fast they were, and what replaced them.", "jobTitle": "Writer", "worksFor": {"@id": "https://404memoryfound.com/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://404memoryfound.com/#organization", "name": "404 Memory Found", "url": "https://404memoryfound.com/", "logo": {"@type": "ImageObject", "url": "https://404memoryfound.com/logo-512.png", "width": 512, "height": 512}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html"}, "url": "https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html", "citation": ["https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/x64-windows-not-support-16-bit-programs", "https://www.dosbox-staging.org/releases/release-notes/0.83.0/", "https://www.scummvm.org/news/20260620/", "https://www.gog.com/blog/the-gog-preservation-program/", "https://www.gog.com/pressroom/making-games-live-forever-together/"]}</script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://404memoryfound.com/"}, {"@type": "ListItem", "position": 2, "name": "Software & Apps", "item": "https://404memoryfound.com/tags/software-apps.html"}, {"@type": "ListItem", "position": 3, "name": "How to Run 90s PC Games on Windows 11 in 2026", "item": "https://404memoryfound.com/posts/run-90s-pc-games-windows-11.html"}]}</script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you play MS-DOS games on Windows 11?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, through emulation rather than directly. Windows 11 ships only in a 64-bit edition, and 64-bit Windows supports no 16-bit components, processes or applications, so an MS-DOS game from the 1990s will not launch on its own. The standard answer in September 2026 is DOSBox Staging, a free emulator whose 0.83.0 release arrived in August 2026, or a pre-configured re-release bought from a store such as GOG."}}, {"@type": "Question", "name": "Is DOSBox free to use?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. DOSBox and its maintained fork DOSBox Staging are free and open source, and DOSBox Staging 0.83.0, released in August 2026, is the build most Windows 11 users should install. Neither program includes any game data, so the game files still have to come from your own discs or from a store purchase."}}, {"@type": "Question", "name": "Do old PC game CDs still work on Windows 11?", "acceptedAnswer": {"@type": "Answer", "text": "Often they do not. Discs pressed with SafeDisc copy protection rely on a Windows driver called secdrv.sys that a Microsoft security update disabled in September 2015 and that stays off by default on Windows 10 and Windows 11, and many late-1990s discs use a 16-bit setup stub that 64-bit Windows 11 cannot run at all. DOS-era discs are the exception, because their files can be copied to the hard drive and run in DOSBox Staging."}}]}</script>
@@ -118,6 +119,7 @@
 <p>ScummVM works the other way around. It emulates nothing, because it reimplements the game engines themselves. The project describes the trick plainly on its own site: "ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed." Point-and-click adventures from LucasArts, <a href="/posts/who-owns-sierra-on-line-now.html">Sierra On-Line</a> and Revolution Software then run as ordinary Windows 11 programs, with modern resolutions and save states attached.</p>
 <p>The dividing question is what the game was written for, not what year it came out. DOS shooters, strategy and simulation go to DOSBox Staging. The LucasArts and Sierra adventure catalog goes to ScummVM. Neither program includes any game data, which is the next problem.</p>
 
+<aside class="keep-reading" data-nosnippet><div class="keep-reading-bar">📂 Keep reading</div><a class="archive-card" href="/posts/how-doom-changed-pc-gaming-internet.html" data-ev="keep_reading_click"><img src="/img/thumb/john-carmack-gdc-2010-1a1def.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Who Owns Doom Now, and Can You Still Play It?</strong><span>Doom still exists, and Microsoft owns it: the company finalized its purchase of ZeniMax Media, the parent of...</span></span></a></aside>
 <h2 id="what-can-you-do-with-the-original-discs-in-the-closet">What can you do with the original discs in the closet?</h2>
 <p>Owning the disc helps less than it should, and three separate things go wrong.</p>
 <p>The first is the drive. Laptops dropped optical drives years ago, so the disc needs an external USB reader first.</p>
@@ -150,7 +152,7 @@
     <section class="post-sources"><h2>Sources</h2><ul><li><a href="https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/x64-windows-not-support-16-bit-programs" rel="noopener" target="_blank">64-bit versions of Windows don&#x27;t support 16-bit components, 16-bit processes, or 16-bit applications (Microsoft Learn)</a> <span class="source-host">learn.microsoft.com</span></li><li><a href="https://www.dosbox-staging.org/releases/release-notes/0.83.0/" rel="noopener" target="_blank">DOSBox Staging 0.83.0 release notes (August 2026)</a> <span class="source-host">dosbox-staging.org</span></li><li><a href="https://www.scummvm.org/news/20260620/" rel="noopener" target="_blank">ScummVM 2026.3.0 &quot;Carousels &amp; Killer Whales&quot; release announcement (June 20, 2026)</a> <span class="source-host">scummvm.org</span></li><li><a href="https://www.gog.com/blog/the-gog-preservation-program/" rel="noopener" target="_blank">The GOG Preservation Program (GOG.com, November 2024)</a> <span class="source-host">gog.com</span></li><li><a href="https://www.gog.com/pressroom/making-games-live-forever-together/" rel="noopener" target="_blank">Making games live forever together: 267 games and 1,461 preservation improvements (GOG Pressroom, February 2026)</a> <span class="source-host">gog.com</span></li></ul></section>
     <footer class="post-footer">
         <div class="post-tags">Filed under: <a href="/tags/software-apps.html">Software &amp; Apps</a> <a href="/tags/gaming.html">Gaming</a></div>
-        <div class="related-posts"><div class="related-posts-title">Related Posts:</div><a class="related-post" href="/posts/what-happened-to-counter-strike-half-life-mod.html">Who Owns Counter-Strike Now? Valve Bought the Mod</a><a class="related-post" href="/posts/what-happened-to-quake-online-fps.html">Is Quake Still Playable in 2026? Who Owns It Today</a><a class="related-post" href="/posts/what-happened-to-rollercoaster-tycoon.html">Who Owns RollerCoaster Tycoon Now? Atari Publishes It</a><a class="related-post" href="/posts/original-sims-best-selling-pc-game.html">Is The Sims 1 Still Playable in 2026? Yes, $19.99</a><a class="related-post" href="/posts/how-doom-changed-pc-gaming-internet.html">Who Owns Doom Now, and Can You Still Play It?</a></div>
+        <nav class="related-posts" data-nosnippet aria-label="Next in the archive"><div class="related-posts-title">📁 Next in the archive</div><a class="archive-card" href="/posts/what-happened-to-3dfx-voodoo-graphics-card.html" data-ev="next_click"><img src="/img/thumb/3dfx-voodoo-graphics-card-230080711-1a243a.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Who Owns 3dfx Now? Nvidia Bought the Voodoo Brand</strong><span>3dfx Interactive no longer exists. Nvidia bought the company&#x27;s patents, trademarks, brand names and chip inventory...</span></span></a><a class="archive-card" href="/posts/original-sims-best-selling-pc-game.html" data-ev="next_click"><img src="/img/thumb/will-wright-game-developers-conference-2010-2-2ef27f.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Is The Sims 1 Still Playable in 2026? Yes, $19.99</strong><span>The Sims 1 is still playable in 2026. Electronic Arts reissued the February 2000 original as The Sims: Legacy...</span></span></a><a class="archive-card" href="/posts/what-happened-to-creative-labs-sound-blaster.html" data-ev="next_click"><img src="/img/thumb/sb16-ct2940-472ed4.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Who Owns Sound Blaster Now? Creative Labs in 2026</strong><span>Yes, Sound Blaster is still made, and Creative Technology still owns it. The Singapore company, which trades in the...</span></span></a><a class="archive-card" href="/posts/tamagotchi-digital-pet-that-made-us-feel.html" data-ev="next_click"><img src="/img/thumb/tamagotchi-0124-ubt-30f752.jpg" alt="" width="96" height="72" loading="lazy" decoding="async"><span class="archive-card-text"><strong>Tamagotchi at 30: Yes, Bandai Still Makes Them</strong><span>Tamagotchi still exists and Bandai still makes it. The company reported that cumulative worldwide shipments passed...</span></span></a></nav>
         <div class="page-back-row"><a class="page-back page-back-desktop" href="/">&larr; Back to Blog</a> <a class="page-back" href="/posts/">All posts</a></div>
     </footer>
 </article>
@@ -197,7 +199,43 @@
         <div class="mobile-footer-status">September 30, 2026</div>
     </div>
     </main>
-    <script>window.__BUILD__ = 'ca3a86d1'; var isPostPage = true; var postPageSlug = 'run-90s-pc-games-windows-11';</script>
-    <script src="/assets/site.js?v=ca3a86d1"></script>
+    <script>window.__BUILD__ = 'b6ee3133'; var isPostPage = true; var postPageSlug = 'run-90s-pc-games-windows-11';</script>
+    <script src="/assets/site.js?v=b6ee3133"></script>
+    <script>
+    (function () {
+        var body = document.querySelector('.post-body');
+        if (!body) return;
+        var html = '<span class="read-meter" aria-hidden="true"><span class="read-meter-track"><span class="read-meter-fill"></span></span><span class="read-meter-pct">0%</span></span>';
+        var spacer = document.querySelector('.taskbar .taskbar-spacer');
+        if (spacer) spacer.insertAdjacentHTML('afterend', html);
+        var mob = document.querySelector('.page-mobile-footer .mobile-footer-status');
+        if (mob) mob.innerHTML = html;
+        var fills = document.querySelectorAll('.read-meter-fill'), pcts = document.querySelectorAll('.read-meter-pct');
+        var sent = {}, ticking = false, slug = window.postPageSlug || '';
+        function send(name, params) { if (typeof gtag === 'function') gtag('event', name, params); }
+        function update() {
+            ticking = false;
+            var r = body.getBoundingClientRect();
+            var seen = Math.min(Math.max(window.innerHeight - r.top, 0), r.height);
+            var p = r.height ? Math.round(seen / r.height * 100) : 0;
+            for (var i = 0; i < fills.length; i++) fills[i].style.width = p + '%';
+            for (var j = 0; j < pcts.length; j++) pcts[j].textContent = p + '%';
+            [25, 50, 75, 100].forEach(function (t) {
+                if (p >= t && !sent[t]) {
+                    sent[t] = 1;
+                    send('read_progress', { percent: t, post_slug: slug });
+                    if (t === 100) send('read_complete', { post_slug: slug });
+                }
+            });
+        }
+        document.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true, capture: true });
+        window.addEventListener('resize', update);
+        update();
+        document.addEventListener('click', function (e) {
+            var a = e.target.closest && e.target.closest('a[data-ev]');
+            if (a) send(a.getAttribute('data-ev'), { link_url: a.href, post_slug: slug, transport_type: 'beacon' });
+        });
+    })();
+    </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 # 404 Memory Found
 
-> 404 Memory Found is a nostalgia blog about the technology, games, websites and companies of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.
+> What happened to the gadgets, games, stores and websites of the 90s and 2000s: who owns them now, what they're worth, and how to still play, use or visit them today.
 
 Every article is written under a pen name by the site's editorial team, sourced from primary documents (company filings, court records, contemporary reporting, museum collections) listed at the end of each post, and dated. Full text of every article, in Markdown: https://404memoryfound.com/llms-full.txt
 
