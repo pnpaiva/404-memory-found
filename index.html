@@ -52,7 +52,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
 
-    <link rel="stylesheet" href="/assets/site.css?v=ff8c053f">
+    <link rel="stylesheet" href="/assets/site.css?v=f788373a">
 </head>
 <body>
     <!-- Boot Animation (Desktop only) -->
@@ -96,12 +96,14 @@
         <div class="mobile-header">
             <div class="mobile-header-left">
                 <span class="mobile-header-icon">📁</span>
-                <h1 id="mobile-header-title">404 Memory Found</h1>
+                <div id="mobile-header-title" class="mobile-header-title">404 Memory Found</div>
             </div>
             <div class="mobile-header-controls">
                 <span class="mobile-header-btn" onclick="closeMobilePost()" role="button" aria-label="Close" tabindex="0">×</span>
             </div>
         </div>
+
+        <p class="mobile-intro">What happened to the gadgets, games, stores and websites of the 90s and 2000s.</p>
 
         <!-- Toolbar: search + tag filters -->
         <div class="mobile-toolbar" id="mobile-toolbar">
@@ -2722,7 +2724,6 @@
 
     <!-- Desktop View -->
     <div class="desktop-container">
-        <h1 style="position: absolute; left: -9999px; top: -9999px;">404 Memory Found: what happened to the tech, games, stores and websites of the 90s and 2000s</h1>
 
         <div class="desktop-area" id="desktop-area">
             <div class="selection-rect" id="selection-rect"></div>
@@ -2773,6 +2774,11 @@
                     </div>
                 </div>
                 <div class="window-content">
+                    <!-- The site's one H1, as a Win95 Explorer address bar: visitors and Google both read what the site is -->
+                    <div class="blog-address">
+                        <span class="blog-address-label">Address</span>
+                        <h1 class="blog-address-field">404 Memory Found: what happened to the tech, games, stores and websites of the 90s and 2000s</h1>
+                    </div>
                     <h2 class="sr-only">Blog Posts</h2>
                     <div class="blog-search">
                         <label for="search-input" class="sr-only">Search posts</label>
@@ -7284,7 +7290,7 @@
     </div>
     </main>
 
-    <script>window.__BUILD__ = 'ff8c053f';</script>
-    <script src="/assets/site.js?v=ff8c053f"></script>
+    <script>window.__BUILD__ = 'f788373a';</script>
+    <script src="/assets/site.js?v=f788373a"></script>
 </body>
 </html>

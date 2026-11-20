@@ -90,7 +90,10 @@
                 border-bottom: 2px solid #000;
             }
 
-            .mobile-header h1 {
+            .mobile-intro { margin: 0; padding: 7px 10px; background: #ffffe1; color: #000; font-size: 13px; line-height: 1.4;
+                border-bottom: 1px solid #808080; }
+
+            .mobile-header .mobile-header-title {
                 font-size: 15px;
                 font-weight: bold;
                 margin: 0;
@@ -931,6 +934,12 @@
             .blog-search {
                 margin-bottom: 8px;
             }
+
+            .blog-address { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; font-size: 13px; }
+            .blog-address-label { flex: none; color: #000; }
+            .blog-address-field { flex: 1; min-width: 0; margin: 0; padding: 3px 6px; background: #fff; color: #000;
+                font-size: 13px; font-weight: normal; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+                border: 2px solid; border-color: #808080 #fff #fff #808080; }
 
             .blog-search input {
                 width: 100%;
