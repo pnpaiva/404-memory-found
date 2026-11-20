@@ -580,14 +580,25 @@ READING_JS = """    <script>
     </script>"""
 
 
+def branded(title):
+    """Page title with the site name appended only when it adds something and still fits in Google's ~60 characters."""
+    if BLOG_NAME in title or len(title) + len(BLOG_NAME) + 3 > 60:
+        return title
+    return f"{title} | {BLOG_NAME}"
+
+
 def shell_html(ctx, head, *, body_class, window_icon, window_title, content, status_text, slug=""):
     """Every generated page is one open Win95 window on the desktop (full-screen window on mobile)."""
     # Every control on the window either works or is visibly unavailable. Minimize leaves a taskbar button that
     # brings the page back (data-was-open), Close goes to the desktop (window.close() is ignored in a tab opened
     # from search, which used to leave readers on an empty desktop), and Maximize is greyed out because the page
     # already fills the reading width, like a fixed-size Win95 dialog.
+    # Back buttons return to the previous page on this site when there is one (site.js), else they go home
+    content = content.replace('class="page-back page-back-mobile"', 'class="page-back page-back-mobile" data-back')
+    content = content.replace('class="page-back page-back-desktop"', 'class="page-back page-back-desktop" data-back')
     return f"""{head}
 <body class="page-shell {body_class}">
+    <a class="skip-link" href="#content">Skip to content</a>
     <main>
     <div class="desktop-container">
         <div class="desktop-area" onclick="document.querySelectorAll('.desktop-icon.selected').forEach(i => i.classList.remove('selected'))">
@@ -602,7 +613,7 @@ def shell_html(ctx, head, *, body_class, window_icon, window_title, content, sta
                     </div>
                 </div>
                 <div class="window-content">
-                    <div class="page-card">
+                    <div class="page-card" id="content" tabindex="-1">
 {content}
                     </div>
                 </div>
@@ -621,9 +632,10 @@ def shell_html(ctx, head, *, body_class, window_icon, window_title, content, sta
         {ctx['taskbar']}
     </div>
     <div class="mobile-footer page-mobile-footer">
-        <div class="mobile-footer-left"><a href="/" class="mobile-footer-start"><span>🪟</span> Start</a></div>
+        <div class="mobile-footer-left"><a href="/" class="mobile-footer-start" role="button" aria-expanded="false" aria-controls="mobile-start-menu" onclick="return toggleMobileStart(event)"><span>🪟</span> Start</a></div>
         <div class="mobile-footer-status">{esc(status_text)}</div>
     </div>
+    {ctx['mobile_start_menu']}
     </main>
     <script>window.__BUILD__ = '{ctx['version']}'; var isPostPage = true; var postPageSlug = '{slug}';</script>
     <script src="/assets/site.js?v={ctx['version']}"></script>
@@ -644,7 +656,8 @@ def nav_links_html(tags, current=None):
 def post_list_html(posts):
     items = []
     for p in posts:
-        thumb = f'<span class="page-list-thumb" style="background-image:url(\'{p["thumb"]}\')"></span>' if p.get("thumb") else '<span class="page-list-thumb"></span>'
+        thumb = (f'<span class="page-list-thumb"><img src="{p["thumb"]}" alt="" width="96" height="72" loading="lazy" decoding="async"></span>'
+                 if p.get("thumb") else '<span class="page-list-thumb"></span>')
         tags = ", ".join(esc(t) for t in p["tags"][:3])
         items.append(
             f'<li><a href="{p["path"]}">{thumb}<span class="page-list-text">'
@@ -744,8 +757,13 @@ def post_hero_html(post):
         medium = "/img/m/" + os.path.basename(post["heroLocal"])
         srcset = ""
         if os.path.exists(os.path.join(OUTPUT_DIR, medium.lstrip("/"))):
+            ratio = info["width"] / max(1, info["height"])
+            # Drawn size: phones fit the photo in a 220px-tall box, desktop in 560 x 400 (PAGE_SHELL_CSS)
+            phone_w = round(220 * ratio)
+            phone = f"{phone_w}px" if phone_w < 343 else "calc(100vw - 32px)"
+            desk = min(560, round(400 * ratio), info["width"])
             srcset = (f' srcset="{medium} 720w, {post["heroLocal"]} {info["width"]}w"'
-                      ' sizes="(max-width: 768px) calc(100vw - 32px), 760px"')
+                      f' sizes="(max-width: 768px) {phone}, {desk}px"')
         parts.append(
             f'<figure class="post-hero"><img src="{post["heroLocal"]}"{srcset} alt="{alt}" width="{info["width"]}" '
             f'height="{info["height"]}" fetchpriority="high" decoding="async"><figcaption>{caption} {credit_link(info)}</figcaption></figure>')
@@ -953,7 +971,7 @@ def build_hub_page(ctx, filename, posts):
     content = f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n<div class="page-copy">{inner}</div>\n' \
               f'{nav_links_html(ctx["tags"])}'
     url = f"{BASE_URL}/{filename}"
-    head = head_html(ctx, title=f"{page_title} | {BLOG_NAME}", description=HUB_DESCRIPTIONS[filename], canonical=url,
+    head = head_html(ctx, title=branded(f"{page_title}"), description=HUB_DESCRIPTIONS[filename], canonical=url,
                      schemas=({"@context": "https://schema.org", "@type": "WebPage", "name": page_title, "url": url,
                                "isPartOf": {"@id": BASE_URL + "/#website"}, "publisher": {"@id": ORG_ID}},
                               ({"@context": "https://schema.org", **organization(ctx, full=True)} if filename == "about.html" else None)))
@@ -981,7 +999,7 @@ def build_author_page(ctx, key, posts):
     schema = dict(author_person(ctx, key))
     schema["@context"] = "https://schema.org"
     schema["mainEntityOfPage"] = url
-    head = head_html(ctx, title=f"{a['name']} | {BLOG_NAME}", canonical=url,
+    head = head_html(ctx, title=branded(f"{a['name']}"), canonical=url,
                      description=f"{a['name']} writes about {a['beat'].lower()} for {BLOG_NAME}. {len(mine)} posts.",
                      schemas=(schema, breadcrumb_schema(("About", f"{BASE_URL}/about.html"), (a["name"], url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="✍️", window_title=a["name"], content=content,
@@ -1003,7 +1021,7 @@ def build_posts_index_page(ctx, posts):
     schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"All posts | {BLOG_NAME}", "url": url,
               "mainEntity": {"@type": "ItemList", "itemListElement": [
                   {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(posts)]}}
-    head = head_html(ctx, title=f"All posts | {BLOG_NAME}", canonical=url,
+    head = head_html(ctx, title=branded(f"All posts"), canonical=url,
                      description=f"Every story on {BLOG_NAME}: {len(posts)} articles about 90s and 2000s technology, games, websites and companies.",
                      schemas=(schema, breadcrumb_schema(("All posts", url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="📝", window_title="All posts", content=content,
@@ -1036,11 +1054,13 @@ BRAND_INDEX_JS = """
             rows.sort(function (a, b) {
                 var x = a.cells[i].textContent.trim().toLowerCase();
                 var y = b.cells[i].textContent.trim().toLowerCase();
+                if (!x || !y) return x === y ? 0 : (x ? -1 : 1);  // blank cells stay at the bottom either way
                 return (x < y ? -1 : x > y ? 1 : 0) * (asc[i] ? 1 : -1);
             });
             rows.forEach(function (r) { body.appendChild(r); });
-            Array.prototype.forEach.call(table.tHead.rows[0].cells, function (o) { o.className = ''; });
+            Array.prototype.forEach.call(table.tHead.rows[0].cells, function (o) { o.className = ''; o.setAttribute('aria-sort', 'none'); });
             th.className = asc[i] ? 'sorted asc' : 'sorted';
+            th.setAttribute('aria-sort', asc[i] ? 'ascending' : 'descending');
         });
     });
 })();
@@ -1156,8 +1176,10 @@ def build_brand_index_page(ctx, posts):
         '<div class="brand-index-tools"><label for="brand-filter">Filter</label>'
         '<input id="brand-filter" type="search" placeholder="Type a name, an owner or a year" autocomplete="off"></div>\n'
         '<table class="brand-index" id="brand-index"><thead><tr>'
-        '<th data-sort="0">Name</th><th data-sort="1">Started</th>'
-        '<th data-sort="2">Status in 2026</th><th data-sort="3">Who owns it now</th>'
+        '<th data-sort="0" aria-sort="none"><button type="button">Name</button></th>'
+        '<th data-sort="1" aria-sort="none"><button type="button">Started</button></th>'
+        '<th data-sort="2" aria-sort="none"><button type="button">Status in 2026</button></th>'
+        '<th data-sort="3" aria-sort="none"><button type="button">Who owns it now</button></th>'
         f'</tr></thead><tbody>{body_rows}</tbody></table>\n'
         f'<p class="brand-index-note" id="brand-count">Showing all {len(rows)} entries. The archive holds '
         f'<a href="/posts/">{len(posts)} posts</a> in total, including the ones that do not answer a status question.</p>'
@@ -1180,7 +1202,7 @@ def build_brand_index_page(ctx, posts):
               "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE_URL + "/dead-brand-index.csv"},
                                {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE_URL + "/dead-brand-index.json"}],
               "keywords": ["defunct brands", "dead retail chains", "who owns it now", "1990s companies", "2000s websites"]}
-    head = head_html(ctx, title=f"The Dead Brand Index: {len(rows)} Companies and What Happened to Them | {BLOG_NAME}",
+    head = head_html(ctx, title=branded(f"The Dead Brand Index: What Happened to {len(rows)} Brands"),
                      canonical=url,
                      description=f"What happened to {len(rows)} brands of the 90s and 2000s, and who owns each name in 2026. One sortable table, every entry sourced.",
                      schemas=(schema, breadcrumb_schema(("The dead brand index", url))))
@@ -1219,7 +1241,7 @@ def build_tag_page(ctx, tag, posts):
     schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{tag} | {BLOG_NAME}", "url": url,
               "mainEntity": {"@type": "ItemList", "itemListElement": [
                   {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(tagged)]}}
-    head = head_html(ctx, title=f"{tag} | {BLOG_NAME}", canonical=url,
+    head = head_html(ctx, title=branded(f"{tag}"), canonical=url,
                      description=TAG_COPY.get(tag, (f"{len(tagged)} stories about {tag.lower()} from the 90s and 2000s on {BLOG_NAME}.",))[0],
                      schemas=(schema, breadcrumb_schema(("All posts", f"{BASE_URL}/posts/"), (tag, url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="📁", window_title=tag, content=content,
@@ -1233,7 +1255,7 @@ def build_404_page(ctx, posts):
                '<p class="page-intro">The page you asked for is not here. It may have moved, or it never existed. '
                'Try the <a href="/posts/">list of every post</a>, or start with one of the latest:</p>\n' + latest
                + nav_links_html(ctx["tags"]))
-    head = head_html(ctx, title=f"Page not found | {BLOG_NAME}", description="This page does not exist on 404 Memory Found.",
+    head = head_html(ctx, title=branded(f"Page not found"), description="This page does not exist on 404 Memory Found.",
                      canonical=f"{BASE_URL}/404.html")
     head = head.replace('<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">',
                         '<meta name="robots" content="noindex">')
@@ -1260,14 +1282,27 @@ def build_redirect_stub(old_slug, target):
 
 # --------------------------------------------------------------------------- homepage
 
+# The homepage lists render one page of posts; "Show more" (src/index.html LIST_STEP) adds the rest. Every post is still
+# linked from the homepage through the Archives list, and from /posts/ and the topic pages.
+LIST_STEP = 24
+
+
+def list_more_html(total, fn):
+    remaining = total - LIST_STEP
+    if remaining <= 0:
+        return ""
+    return (f'\n                <li class="list-more"><button type="button" class="list-more-btn" onclick="{fn}()">'
+            f'Show {min(remaining, LIST_STEP)} more posts <span class="list-more-left">({remaining} left)</span></button></li>')
+
+
 def render_desktop_list(posts):
     items = []
-    for p in posts:
+    for p in posts[:LIST_STEP]:
         thumb = p.get("thumb") or p.get("image") or ""
         data_attr = f' data-bg="{thumb}"' if thumb else ""
         items.append(f"""
                 <li class="blog-post-item">
-                    <a href="{p['path']}" onclick="event.preventDefault(); openPost('{p['slug']}')">
+                    <a href="{p['path']}">
                         <div class="blog-post-thumb"{data_attr} style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>{esc(p['title'])}</h3>
@@ -1277,17 +1312,17 @@ def render_desktop_list(posts):
                         </div>
                     </a>
                 </li>""")
-    return "".join(items)
+    return "".join(items) + list_more_html(len(posts), "showMoreDesktop")
 
 
 def render_mobile_list(posts):
     items = []
-    for p in posts:
+    for p in posts[:LIST_STEP]:
         thumb = p.get("thumb") or p.get("image") or ""
         data_attr = f' data-bg="{thumb}"' if thumb else ""
         items.append(f"""
                 <li class="mobile-post-item">
-                    <a href="{p['path']}" onclick="event.preventDefault(); openPost('{p['slug']}')">
+                    <a href="{p['path']}">
                     <div class="mobile-post-thumb"{data_attr} style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>{esc(p['title'])}</h3>
@@ -1297,7 +1332,7 @@ def render_mobile_list(posts):
                     </div>
                     </a>
                 </li>""")
-    return "".join(items)
+    return "".join(items) + list_more_html(len(posts), "showMoreMobile")
 
 
 def render_tag_filters(tags, cls, fn):
@@ -1316,7 +1351,7 @@ def render_archives(posts):
         entries = "".join(
             f"""
                             <li class="archive-post">
-                                <a href="{p['path']}" onclick="event.preventDefault(); openPost('{p['slug']}')">
+                                <a href="{p['path']}">
                                     <div class="title">{esc(p['title'])}</div>
                                     <div class="date">{p['date']}</div>
                                 </a>
@@ -1328,6 +1363,25 @@ def render_archives(posts):
                     </ul>
                 </li>""")
     return "".join(out)
+
+
+def start_topics_html(tags):
+    return "".join(f'<a class="start-menu-item" role="menuitem" href="/tags/{tag_slug(t)}.html">{esc(t)}</a>' for t in tags)
+
+
+def mobile_start_menu_html(tags):
+    topics = "".join(f'<li class="mobile-start-topic"><a href="/tags/{tag_slug(t)}.html">{esc(t)}</a></li>' for t in tags)
+    return ('<nav class="mobile-start-menu" id="mobile-start-menu" aria-label="Start menu">'
+            '<div class="mobile-start-sidebar" aria-hidden="true"><span>404 Memory Found</span></div><ul>'
+            '<li><a href="/"><span aria-hidden="true">🏠</span> Latest posts</a></li>'
+            '<li><a href="/posts/"><span aria-hidden="true">📰</span> All posts</a></li>'
+            '<li><a href="/dead-brand-index.html"><span aria-hidden="true">🗃️</span> Dead Brand Index</a></li>'
+            '<li class="mobile-start-sep" role="separator"></li>'
+            '<li class="mobile-start-head"><span aria-hidden="true">📂</span> Topics</li>'
+            f'{topics}'
+            '<li class="mobile-start-sep" role="separator"></li>'
+            '<li><a href="/about.html"><span aria-hidden="true">ℹ️</span> About this site</a></li>'
+            '</ul></nav>')
 
 
 def build_index_html(ctx, posts):
@@ -1390,6 +1444,8 @@ def build_index_html(ctx, posts):
         ('<ul class="archives-list" id="archives-list"></ul>',
          f'<ul class="archives-list" id="archives-list">{render_archives(posts)}\n                    </ul>'),
     ]
+    replacements += [("<!-- MOBILE_START_MENU -->", mobile_start_menu_html(tags)),
+                     ("<!-- START_TOPICS -->", start_topics_html(tags))]
     for old, new in replacements:
         if old not in out:
             raise SystemExit(f"build: expected placeholder not found in src/index.html: {old}")
@@ -1563,10 +1619,11 @@ PAGE_SHELL_CSS = """
 .page-shell .post-tags { margin: 18px 0 6px; font-size: 13px; color: #444; }
 .page-shell .post-tags a { color: #000080; margin-left: 4px; }
 .page-shell .post-meta a { color: #000080; }
-.page-shell .img-credit { font-size: 11px; color: #666; text-decoration: none; margin-left: 6px; }
+.page-shell .img-credit { font-size: 12px; color: #555; text-decoration: none; margin-left: 6px; }
 .page-shell .img-credit:hover { text-decoration: underline; }
 .page-shell .post-body figure, .page-shell .post-hero { margin: 16px auto; max-width: 560px; }
 .page-shell .post-body figure img, .page-shell .post-hero img { max-width: 100%; height: auto; display: block; }
+.page-shell .post-hero img { width: auto; max-height: 400px; margin: 0 auto; }
 .page-shell .post-body figcaption, .page-shell .post-hero figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
 .page-shell .page-copy h1, .page-shell .hub-page h1 { font-size: 20px; color: #000080; margin-bottom: 8px; line-height: 1.3; }
 .page-shell .page-intro { margin-bottom: 12px; color: #333; }
@@ -1581,10 +1638,12 @@ PAGE_SHELL_CSS = """
 .page-shell .page-list li { background: #fff; border-bottom: 1px solid #c0c0c0; margin-bottom: 4px; }
 .page-shell .page-list li:hover { background: #e8e8ff; }
 .page-shell .page-list a { display: flex; align-items: stretch; color: inherit; text-decoration: none; }
-.page-shell .page-list-thumb { width: 72px; min-height: 58px; flex-shrink: 0; background: #c0c0c0 center / contain no-repeat; border-right: 1px solid #a0a0a0; }
+.page-shell .page-list-thumb { width: 72px; min-height: 58px; flex-shrink: 0; background: #c0c0c0; border-right: 1px solid #a0a0a0;
+  display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.page-shell .page-list-thumb img { width: 72px; height: 58px; object-fit: contain; display: block; }
 .page-shell .page-list-text { flex: 1; min-width: 0; padding: 8px; display: block; }
 .page-shell .page-list-title { display: block; font-size: 14px; font-weight: bold; color: #0000ff; }
-.page-shell .page-list-meta { display: block; font-size: 11px; color: #666; margin-top: 2px; }
+.page-shell .page-list-meta { display: block; font-size: 12px; color: #555; margin-top: 2px; }
 .page-shell .page-list-excerpt { display: block; font-size: 12px; color: #333; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .page-shell .page-copy p, .page-shell .page-copy h3 { margin-bottom: 8px; }
 .page-shell .page-copy h3 { margin-top: 12px; }
@@ -1626,6 +1685,8 @@ PAGE_SHELL_CSS = """
     border: 1px solid #fff; border-right-color: #808080; border-bottom-color: #808080; cursor: pointer;
     font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; white-space: nowrap; }
 .page-shell table.brand-index th:hover { background: #d4d0c8; }
+.page-shell table.brand-index th button { all: unset; cursor: pointer; display: block; width: 100%; }
+.page-shell table.brand-index th button:focus-visible { outline: 1px dotted #000; outline-offset: 2px; }
 .page-shell table.brand-index th.sorted::after { content: " \25be"; }
 .page-shell table.brand-index th.sorted.asc::after { content: " \25b4"; }
 .page-shell table.brand-index td { padding: 5px 8px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
@@ -1689,8 +1750,8 @@ a.archive-card img { width: 96px; height: 72px; object-fit: cover; flex: 0 0 96p
 .post-sources ul { margin: 0; padding-left: 18px; }
 .post-sources li { margin-bottom: 4px; }
 .post-sources a { color: #000080; }
-.source-host { color: #777; font-size: 11px; margin-left: 4px; }
-.affiliate-disclosure { font-size: 11px; color: #666; margin: 6px 0 10px 0; font-style: italic; }
+.source-host { color: #555; font-size: 12px; margin-left: 4px; }
+.affiliate-disclosure { font-size: 12px; color: #555; margin: 6px 0 10px 0; font-style: italic; }
 .post-body .table-wrap, .post-body table { max-width: 100%; }
 .post-body table { border-collapse: collapse; font-size: 13px; margin: 12px 0; width: 100%; font-variant-numeric: tabular-nums; }
 .post-body th, .post-body td { border: 1px solid #a0a0a0; padding: 4px 6px; text-align: left; vertical-align: top; }
@@ -1848,7 +1909,9 @@ def main():
         "desktop_icons": extract_div_by_marker(source, 'class="desktop-icons">'),
         "taskbar": extract_div_by_marker(source, 'class="taskbar">'),
         "footer": extract_div_by_marker(source, 'class="footer">'),
-        "start_menu": extract_div_by_marker(source, 'class="start-menu" id="start-menu">'),
+        "start_menu": extract_div_by_marker(source, 'class="start-menu" id="start-menu">').replace(
+            "<!-- START_TOPICS -->", start_topics_html(tags)),
+        "mobile_start_menu": mobile_start_menu_html(tags),
     }
 
     print(f"📦 assets/site.css + site.js (v{version})")

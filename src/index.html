@@ -340,7 +340,7 @@
             }
 
             .mobile-post-date {
-                font-size: 11px;
+                font-size: 12px;
                 color: #666;
                 margin-bottom: 4px;
             }
@@ -362,7 +362,7 @@
             }
 
             .mobile-post-tags {
-                font-size: 10px;
+                font-size: 12px;
                 color: #008080;
                 margin-top: 3px;
             }
@@ -1083,13 +1083,13 @@
             }
 
             .blog-post-item .date {
-                font-size: 11px;
+                font-size: 12px;
                 color: #666;
             }
 
             .blog-post-item .reading-time,
             .mobile-post-reading-time {
-                font-size: 11px;
+                font-size: 12px;
                 color: #595959;
                 display: inline;
                 margin-left: 6px;
@@ -1112,7 +1112,7 @@
             }
 
             .blog-post-item .tags {
-                font-size: 11px;
+                font-size: 12px;
                 color: #666;
                 margin-top: 3px;
             }
@@ -1973,7 +1973,7 @@
                 background: #dfdfdf;
                 border-top: 1px solid #c0c0c0;
                 padding: 2px 8px;
-                font-size: 11px;
+                font-size: 12px;
                 text-align: center;
                 color: #4a4a4a;
                 flex-shrink: 0;
@@ -2229,6 +2229,68 @@
                 border-bottom-color: #ffffff;
             }
         }
+
+        /* ---- usability pass 20/11/2026 ---- */
+        .skip-link {
+            position: absolute; left: -9999px; top: 8px; z-index: 100000;
+            background: #ffffe1; color: #000; border: 1px solid #000; padding: 8px 12px;
+            font: bold 14px "MS Sans Serif", Tahoma, Arial, sans-serif; text-decoration: none;
+        }
+        .skip-link:focus { left: 8px; }
+        .desktop-icon:focus-visible { outline: 1px dotted #fff; outline-offset: 2px; }
+        .desktop-icon:focus-visible label { background: #000080; color: #fff; }
+        .start-menu-item:focus-visible, .mobile-start-menu a:focus-visible, .list-more-btn:focus-visible {
+            outline: 1px dotted #000; outline-offset: -4px;
+        }
+        a.start-menu-item { color: inherit; text-decoration: none; }
+        .start-menu-item:focus-visible { background: #000080; color: #fff; outline-color: #fff; }
+        .start-menu-item.has-submenu { position: relative; }
+        .start-menu-item .submenu-arrow { margin-left: auto; font-size: 12px; }
+        .start-submenu {
+            display: none; position: absolute; left: 100%; top: -4px; min-width: 220px; padding: 4px 0;
+            background: #dfdfdf; color: #000; border: 2px solid;
+            border-color: #fff #808080 #808080 #fff; box-shadow: 1px 1px 0 #000; z-index: 2001;
+        }
+        .start-menu-item.has-submenu:hover > .start-submenu,
+        .start-menu-item.has-submenu:focus-within > .start-submenu { display: block; }
+        .start-submenu .start-menu-item { font-size: 15px; padding: 7px 14px; }
+
+        .list-more { list-style: none; padding: 10px 6px 16px; text-align: center; background: transparent !important; border: 0 !important; }
+        .list-more-btn {
+            min-height: 44px; padding: 8px 18px; cursor: pointer; background: #c0c0c0; color: #000;
+            font: bold 14px "MS Sans Serif", Tahoma, Arial, sans-serif;
+            border: 2px solid; border-color: #fff #808080 #808080 #fff; box-shadow: 1px 1px 0 #000;
+        }
+        .list-more-btn:active { border-color: #808080 #fff #fff #808080; box-shadow: none; }
+        .list-more-left { font-weight: normal; color: #333; }
+        .list-empty { list-style: none; padding: 16px 12px; background: #ffffe1; border: 1px solid #000; margin: 6px; font-size: 14px; line-height: 1.5; }
+        .list-empty a { color: #000080; }
+
+        .mobile-start-menu {
+            display: none; position: fixed; left: 4px; bottom: 44px; z-index: 5000; width: min(300px, calc(100vw - 8px));
+            max-height: calc(100vh - 64px); overflow-y: auto; background: #c0c0c0; color: #000;
+            border: 2px solid; border-color: #fff #808080 #808080 #fff; box-shadow: 2px 2px 0 rgba(0,0,0,.45);
+            font-family: "MS Sans Serif", Tahoma, Arial, sans-serif;
+        }
+        .mobile-start-menu.open { display: flex; }
+        .mobile-start-sidebar {
+            flex: 0 0 26px; background: linear-gradient(180deg, #000080 0%, #1084d0 100%);
+            display: flex; align-items: flex-end; justify-content: center; padding-bottom: 8px;
+        }
+        .mobile-start-sidebar span { writing-mode: vertical-rl; transform: rotate(180deg); color: #fff; font-weight: bold; font-size: 13px; letter-spacing: .5px; }
+        .mobile-start-menu ul { list-style: none; margin: 0; padding: 4px 0; flex: 1; }
+        .mobile-start-menu a { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 14px; color: #000; text-decoration: none; font-size: 16px; }
+        .mobile-start-menu a:active, .mobile-start-menu a:hover { background: #000080; color: #fff; }
+        .mobile-start-menu .mobile-start-head { padding: 8px 14px 2px; font-size: 13px; font-weight: bold; color: #333; }
+        .mobile-start-menu .mobile-start-topic a { padding-left: 38px; font-size: 15px; }
+        .mobile-start-menu .mobile-start-sep { height: 0; margin: 4px 6px; border-top: 1px solid #808080; border-bottom: 1px solid #fff; }
+        a.mobile-footer-start { text-decoration: none; color: #000; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html, body, .window-content, .mobile-content { scroll-behavior: auto !important; }
+            .boot-animation { display: none !important; }
+            .boot-enter, .tutorial-overlay { animation: none !important; }
+        }
     </style>
 </head>
 <body>
@@ -2269,6 +2331,7 @@
     <main>
     <!-- Mobile View -->
     <div class="mobile-container">
+        <a class="skip-link" href="#mobile-post-list">Skip to the posts</a>
         <!-- Win95 title bar -->
         <div class="mobile-header">
             <div class="mobile-header-left">
@@ -2276,7 +2339,6 @@
                 <div id="mobile-header-title" class="mobile-header-title">404 Memory Found</div>
             </div>
             <div class="mobile-header-controls">
-                <span class="mobile-header-btn" onclick="closeMobilePost()" role="button" aria-label="Close" tabindex="0">×</span>
             </div>
         </div>
 
@@ -2316,32 +2378,34 @@
         <!-- Win95 taskbar-style footer -->
         <div class="mobile-footer">
             <div class="mobile-footer-left">
-                <button class="mobile-footer-start" onclick="closeMobilePost(); document.querySelector('.mobile-content').scrollTop = 0;">
+                <a href="/" class="mobile-footer-start" role="button" aria-expanded="false" aria-controls="mobile-start-menu" onclick="return toggleMobileStart(event)">
                     <span>🪟</span> Start
-                </button>
+                </a>
             </div>
             <div class="mobile-footer-status" id="mobile-footer-status">
                 <span id="mobile-post-count"></span>
             </div>
         </div>
+        <!-- MOBILE_START_MENU -->
     </div>
 
     <!-- Desktop View -->
     <div class="desktop-container">
+        <a class="skip-link" href="#blog-posts-list">Skip to the posts</a>
 
         <div class="desktop-area" id="desktop-area">
             <div class="selection-rect" id="selection-rect"></div>
             <!-- Desktop Icons -->
             <div class="desktop-icons">
-                <div class="desktop-icon" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
+                <div class="desktop-icon" role="button" tabindex="0" ondblclick="openWindow('blog-window')" onclick="this.classList.toggle('selected')">
                     <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%224%22 y=%228%22 width=%2240%22 height=%2236%22 fill=%22%23FFD54F%22 rx=%222%22/><rect x=%224%22 y=%228%22 width=%2240%22 height=%228%22 fill=%22%23FBC02D%22 rx=%222%22/><rect x=%228%22 y=%2220%22 width=%2232%22 height=%224%22 fill=%22%23F9A825%22 rx=%221%22/><rect x=%228%22 y=%2226%22 width=%2228%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2231%22 width=%2232%22 height=%223%22 fill=%22%23666%22 rx=%221%22/><rect x=%228%22 y=%2236%22 width=%2224%22 height=%223%22 fill=%22%23666%22 rx=%221%22/></svg>')"></div>
                     <label>Blog Posts</label>
                 </div>
-                <div class="desktop-icon" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
+                <div class="desktop-icon" role="button" tabindex="0" ondblclick="openWindow('about-window')" onclick="this.classList.toggle('selected')">
                     <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%224%22 width=%2236%22 height=%2240%22 fill=%22%23E3F2FD%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%224%22 width=%2236%22 height=%228%22 fill=%22%231565C0%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2211%22 text-anchor=%22middle%22 font-size=%228%22 font-weight=%22bold%22 fill=%22white%22 font-family=%22Arial%22>?</text><rect x=%2212%22 y=%2218%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2223%22 width=%2220%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2228%22 width=%2224%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2233%22 width=%2218%22 height=%222%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2222%22 height=%222%22 fill=%22%23999%22/></svg>')"></div>
                     <label>About</label>
                 </div>
-                <div class="desktop-icon" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
+                <div class="desktop-icon" role="button" tabindex="0" ondblclick="openWindow('archives-window')" onclick="this.classList.toggle('selected')">
                     <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%226%22 width=%2232%22 height=%2236%22 fill=%22%23A1887F%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%222%22/><rect x=%228%22 y=%226%22 width=%2232%22 height=%2210%22 fill=%22%238D6E63%22 rx=%222%22/><rect x=%2212%22 y=%2220%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2222%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/><rect x=%2212%22 y=%2230%22 width=%2224%22 height=%227%22 fill=%22%23D7CCC8%22 stroke=%22%23999%22 stroke-width=%221%22 rx=%221%22/><rect x=%2220%22 y=%2232%22 width=%228%22 height=%223%22 fill=%22%23795548%22 rx=%221%22/></svg>')"></div>
                     <label>Archives</label>
                 </div>
@@ -2349,20 +2413,20 @@
                     <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%228%22 width=%2236%22 height=%2232%22 fill=%22%23ECEFF1%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%226%22 y=%228%22 width=%2236%22 height=%228%22 fill=%22%23000080%22 rx=%222%22/><rect x=%2210%22 y=%2220%22 width=%2212%22 height=%223%22 fill=%22%23607D8B%22/><rect x=%2226%22 y=%2220%22 width=%2212%22 height=%223%22 fill=%22%23B0BEC5%22/><rect x=%2210%22 y=%2226%22 width=%2212%22 height=%223%22 fill=%22%23607D8B%22/><rect x=%2226%22 y=%2226%22 width=%2212%22 height=%223%22 fill=%22%23B0BEC5%22/><rect x=%2210%22 y=%2232%22 width=%2212%22 height=%223%22 fill=%22%23607D8B%22/><rect x=%2226%22 y=%2232%22 width=%2212%22 height=%223%22 fill=%22%23B0BEC5%22/></svg>')"></div>
                     <label>Brand Index</label>
                 </a>
-                <div class="desktop-icon" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
+                <div class="desktop-icon" role="button" tabindex="0" ondblclick="openWindow('guestbook-window')" onclick="this.classList.toggle('selected')">
                     <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%2210%22 width=%2236%22 height=%2228%22 fill=%22%23FFFDE7%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><polygon points=%2224,22 6,10 42,10%22 fill=%22%23FDD835%22 stroke=%22%23333%22 stroke-width=%221%22/><rect x=%2212%22 y=%2226%22 width=%2224%22 height=%222%22 fill=%22%23CCC%22/><rect x=%2212%22 y=%2230%22 width=%2220%22 height=%222%22 fill=%22%23CCC%22/></svg>')"></div>
                     <label>Guestbook</label>
                 </div>
             </div>
 
             <!-- My Computer desktop icon -->
-            <div class="desktop-icon" ondblclick="openMyComputer()" onclick="this.classList.toggle('selected')" style="position:absolute;right:15px;bottom:130px;">
+            <div class="desktop-icon" role="button" tabindex="0" ondblclick="openMyComputer()" onclick="this.classList.toggle('selected')" style="position:absolute;right:15px;bottom:130px;">
                 <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%226%22 y=%226%22 width=%2236%22 height=%2226%22 fill=%22%23B0BEC5%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%2210%22 y=%2210%22 width=%2228%22 height=%2218%22 fill=%22%23000080%22/><rect x=%2216%22 y=%2234%22 width=%2216%22 height=%224%22 fill=%22%23999%22/><rect x=%2212%22 y=%2238%22 width=%2224%22 height=%224%22 fill=%22%23B0BEC5%22 stroke=%22%23333%22 stroke-width=%221%22 rx=%221%22/><circle cx=%2224%22 cy=%2219%22 r=%224%22 fill=%22%2300ff00%22 opacity=%220.7%22/></svg>')"></div>
                 <label>My Computer</label>
             </div>
 
             <!-- Hidden "Don't Click" folder on the right side near bottom -->
-            <div class="desktop-icon" ondblclick="openWindow('secret-window')" onclick="this.classList.toggle('selected')" style="position:absolute;right:15px;bottom:50px;">
+            <div class="desktop-icon" role="button" tabindex="0" ondblclick="openWindow('secret-window')" onclick="this.classList.toggle('selected')" style="position:absolute;right:15px;bottom:50px;">
                 <div class="icon-image" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect x=%228%22 y=%2210%22 width=%2232%22 height=%2230%22 fill=%22%23FFD54F%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><rect x=%228%22 y=%2210%22 width=%2232%22 height=%228%22 fill=%22%23FFC107%22 stroke=%22%23333%22 stroke-width=%222%22 rx=%222%22/><text x=%2224%22 y=%2231%22 text-anchor=%22middle%22 font-size=%2210%22 fill=%22%23333%22 font-family=%22Arial%22>?!</text></svg>')"></div>
                 <label style="color:#ff4444;">Don't Click</label>
             </div>
@@ -2422,7 +2486,7 @@
                         <p>Email: <a href="mailto:hello@404memoryfound.com">hello@404memoryfound.com</a></p>
                         <div class="newsletter-signup">
                             <h3>Subscribe for Updates</h3>
-                            <input type="email" id="subscribe-email" placeholder="your@email.com">
+                            <input type="email" id="subscribe-email" placeholder="your@email.com" aria-label="Your email address">
                             <button onclick="handleSubscribe()">Subscribe</button>
                             <div id="subscribe-msg" style="font-size:12px;margin-top:4px;display:none;"></div>
                         </div>
@@ -2511,19 +2575,19 @@
                 <div class="title-bar">
                     <div class="title-bar-title">✍️ Guestbook</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('guestbook-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('guestbook-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('guestbook-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('guestbook-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('guestbook-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('guestbook-window')" aria-label="Close"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content">
                     <div class="guestbook-form">
                         <label>Name:</label>
-                        <input type="text" placeholder="Your name">
+                        <input type="text" placeholder="Your name" aria-label="Your name">
                         <label>Email:</label>
-                        <input type="email" placeholder="your@email.com">
+                        <input type="email" placeholder="your@email.com" aria-label="Your email (optional)">
                         <label>Message:</label>
-                        <textarea placeholder="Leave your memories..."></textarea>
+                        <textarea placeholder="Leave your memories..." aria-label="Your message"></textarea>
                         <button class="guestbook-button" onclick="alert('Thanks for signing the guestbook!')">Sign Guestbook</button>
                     </div>
                 </div>
@@ -2542,9 +2606,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">📄 Privacy Policy</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('privacy-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('privacy-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('privacy-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('privacy-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('privacy-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('privacy-window')" aria-label="Close"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content" style="font-size:13px;line-height:1.5;">
@@ -2583,9 +2647,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">📋 Terms of Use</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('terms-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('terms-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('terms-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('terms-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('terms-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('terms-window')" aria-label="Close"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content" style="font-size:13px;line-height:1.5;">
@@ -2630,9 +2694,9 @@
                 <div class="title-bar">
                     <div class="title-bar-title">📁 Don't Click Here</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('secret-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('secret-window')"><span class="btn-maximize"></span></button>
-                        <button class="window-button" onclick="closeWindow('secret-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('secret-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('secret-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="closeWindow('secret-window')" aria-label="Close"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content" style="display:flex;gap:20px;padding:20px;align-items:flex-start;">
@@ -2660,8 +2724,8 @@
                 <div class="title-bar">
                     <div class="title-bar-title">🐍 Snake.exe</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('snake-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('snake-window')"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="minimizeWindow('snake-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('snake-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
                         <button class="window-button" onclick="closeWindow('snake-window'); stopSnake()"><span class="btn-close">×</span></button>
                     </div>
                 </div>
@@ -2674,7 +2738,7 @@
                     <div class="game-over-overlay" id="snake-gameover" style="display:none;">
                         <h3>GAME OVER</h3>
                         <div class="final-score" id="snake-final-score">Score: 0</div>
-                        <input type="text" id="snake-name-input" placeholder="Your name" maxlength="12">
+                        <input type="text" id="snake-name-input" placeholder="Your name" maxlength="12" aria-label="Your name for the leaderboard">
                         <div>
                             <button onclick="submitSnakeScore()">Save Score</button>
                             <button onclick="hideSnakeOverlay(); restartSnake();">Play Again</button>
@@ -2697,8 +2761,8 @@
                 <div class="title-bar">
                     <div class="title-bar-title">🏓 Pong.exe</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('pong-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="toggleMaximizeWindow('pong-window')"><span class="btn-maximize"></span></button>
+                        <button class="window-button" onclick="minimizeWindow('pong-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="toggleMaximizeWindow('pong-window')" aria-label="Maximize"><span class="btn-maximize"></span></button>
                         <button class="window-button" onclick="closeWindow('pong-window'); stopPong()"><span class="btn-close">×</span></button>
                     </div>
                 </div>
@@ -2717,7 +2781,7 @@
                     <div class="game-over-overlay" id="pong-gameover" style="display:none;">
                         <h3 id="pong-result-title">YOU WIN!</h3>
                         <div class="final-score" id="pong-final-score">5 - 3</div>
-                        <input type="text" id="pong-name-input" placeholder="Your name" maxlength="12">
+                        <input type="text" id="pong-name-input" placeholder="Your name" maxlength="12" aria-label="Your name for the leaderboard">
                         <div>
                             <button onclick="submitPongScore()">Save Score</button>
                             <button onclick="hidePongOverlay(); stopPong();">Play Again</button>
@@ -2740,8 +2804,8 @@
                 <div class="title-bar">
                     <div class="title-bar-title">💻 System Properties</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('mycomputer-window')"><span class="btn-minimize"></span></button>
-                        <button class="window-button" onclick="closeWindow('mycomputer-window')"><span class="btn-close">×</span></button>
+                        <button class="window-button" onclick="minimizeWindow('mycomputer-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="closeWindow('mycomputer-window')" aria-label="Close"><span class="btn-close">×</span></button>
                     </div>
                 </div>
                 <div class="window-content" style="padding:0;">
@@ -2768,7 +2832,7 @@
                 <div class="title-bar">
                     <div class="title-bar-title">404 Memory Defragmenter</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('defrag-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="minimizeWindow('defrag-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
                         <button class="window-button" onclick="closeWindow('defrag-window'); stopDefrag()"><span class="btn-close">×</span></button>
                     </div>
                 </div>
@@ -2784,7 +2848,7 @@
                 <div class="title-bar">
                     <div class="title-bar-title">System Nostalgia Scanner v4.04</div>
                     <div class="title-bar-controls">
-                        <button class="window-button" onclick="minimizeWindow('scanner-window')"><span class="btn-minimize"></span></button>
+                        <button class="window-button" onclick="minimizeWindow('scanner-window')" aria-label="Minimize"><span class="btn-minimize"></span></button>
                         <button class="window-button" onclick="closeWindow('scanner-window'); stopScanner()"><span class="btn-close">×</span></button>
                     </div>
                 </div>
@@ -2867,23 +2931,29 @@
         <!-- Start Menu -->
         <div class="start-menu" id="start-menu">
             <div class="start-menu-sidebar"><span>404 Memory Found</span></div>
-            <div class="start-menu-items">
-                <div class="start-menu-item" onclick="openWindow('blog-window'); toggleStartMenu()"><span class="menu-icon">📝</span> Blog Posts</div>
-                <div class="start-menu-item" onclick="openWindow('about-window'); toggleStartMenu()"><span class="menu-icon">ℹ️</span> About</div>
-                <div class="start-menu-item" onclick="openWindow('archives-window'); toggleStartMenu()"><span class="menu-icon">📦</span> Archives</div>
-                <div class="start-menu-item" onclick="openWindow('guestbook-window'); toggleStartMenu()"><span class="menu-icon">✍️</span> Guestbook</div>
+            <div class="start-menu-items" role="menu" aria-label="Start menu">
+                <a class="start-menu-item" role="menuitem" href="/posts/"><span class="menu-icon">📰</span> All posts</a>
+                <a class="start-menu-item" role="menuitem" href="/dead-brand-index.html"><span class="menu-icon">🗃️</span> Dead Brand Index</a>
+                <div class="start-menu-item has-submenu" role="menuitem" tabindex="0" aria-haspopup="true"><span class="menu-icon">📂</span> Topics <span class="submenu-arrow" aria-hidden="true">▸</span>
+                    <div class="start-submenu" role="menu" aria-label="Topics"><!-- START_TOPICS --></div>
+                </div>
                 <div class="start-menu-separator"></div>
-                <div class="start-menu-item" onclick="openDefrag(); toggleStartMenu()"><span class="menu-icon">🧩</span> Memory Defrag</div>
-                <div class="start-menu-item" onclick="openScanner(); toggleStartMenu()"><span class="menu-icon">🔍</span> Nostalgia Scanner</div>
-                <div class="start-menu-item" onclick="toggleCursorTrail(); toggleStartMenu()"><span class="menu-icon">✨</span> <span id="cursor-trail-label">Cursor Trail: OFF</span></div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openWindow('blog-window'); toggleStartMenu()"><span class="menu-icon">📝</span> Blog Posts</div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openWindow('about-window'); toggleStartMenu()"><span class="menu-icon">ℹ️</span> About</div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openWindow('archives-window'); toggleStartMenu()"><span class="menu-icon">📦</span> Archives</div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openWindow('guestbook-window'); toggleStartMenu()"><span class="menu-icon">✍️</span> Guestbook</div>
                 <div class="start-menu-separator"></div>
-                <div class="start-menu-item" onclick="openWindow('secret-window'); toggleStartMenu()"><span class="menu-icon">📁</span> <span style="color:inherit;">Don't Click Here</span></div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openDefrag(); toggleStartMenu()"><span class="menu-icon">🧩</span> Memory Defrag</div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openScanner(); toggleStartMenu()"><span class="menu-icon">🔍</span> Nostalgia Scanner</div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="toggleCursorTrail(); toggleStartMenu()"><span class="menu-icon">✨</span> <span id="cursor-trail-label">Cursor Trail: OFF</span></div>
+                <div class="start-menu-separator"></div>
+                <div class="start-menu-item" role="menuitem" tabindex="0" onclick="openWindow('secret-window'); toggleStartMenu()"><span class="menu-icon">📁</span> <span style="color:inherit;">Don't Click Here</span></div>
             </div>
         </div>
 
         <!-- Taskbar -->
         <div class="taskbar">
-            <button class="start-button" onclick="toggleStartMenu()">Start</button>
+            <button class="start-button" onclick="toggleStartMenu()" aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">Start</button>
             <div class="taskbar-buttons" id="taskbar-buttons"></div>
             <div class="taskbar-spacer"></div>
             <div class="taskbar-network" onclick="openDialUpDialog()" title="Internet Connection"><svg width="16" height="14" viewBox="0 0 16 14" style="vertical-align:middle;"><rect x="0" y="2" width="6" height="5" fill="#0a0" stroke="#000" stroke-width="1"/><rect x="1" y="3" width="4" height="3" fill="#0f0"/><rect x="10" y="2" width="6" height="5" fill="#00a" stroke="#000" stroke-width="1"/><rect x="11" y="3" width="4" height="3" fill="#00f"/><line x1="6" y1="5" x2="10" y2="5" stroke="#000" stroke-width="1"/><rect x="1" y="8" width="5" height="2" fill="#808080"/><rect x="10" y="8" width="5" height="2" fill="#808080"/></svg></div>
@@ -2893,6 +2963,9 @@
     </main>
 
     <script>
+        // Old shared links (#/post/<slug>) go straight to the article page, before any boot animation
+        if (/^#\/post\/[a-z0-9-]+$/.test(location.hash)) location.replace('/posts/' + location.hash.slice(7) + '.html');
+
         // Firebase - load on demand (not render-blocking)
         let fbDb = null;
         let firebaseLoading = false;
@@ -3073,16 +3146,47 @@
             });
         }
 
-        function populateMobilePosts() {
+        // Lists show a page at a time: all 233 posts at once made the homepage 600 KB and slow to scroll on a phone.
+        const LIST_STEP = 24;
+        let desktopShown = LIST_STEP, mobileShown = LIST_STEP;
+        function escText(t) {
+            return String(t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'})[c]);
+        }
+        function listMore(remaining, fn) {
+            return `<li class="list-more"><button type="button" class="list-more-btn" onclick="${fn}()">Show ${Math.min(remaining, LIST_STEP)} more posts <span class="list-more-left">(${remaining} left)</span></button></li>`;
+        }
+        function listEmpty(term) {
+            return `<li class="list-empty"><strong>No posts match ${term ? '"' + escText(term) + '"' : 'these topics'}.</strong> Try a single word, like a brand name, or browse the <a href="/dead-brand-index.html">Dead Brand Index</a>.</li>`;
+        }
+        function focusNewItem(list, index) {
+            const links = list.querySelectorAll(':scope > li > a');
+            if (links[index]) links[index].focus({ preventScroll: true });
+        }
+        function showMoreDesktop() {
+            const before = desktopShown;
+            desktopShown += LIST_STEP;
+            populateBlogPostsList(true);
+            focusNewItem(document.getElementById('blog-posts-list'), before);
+        }
+        function showMoreMobile() {
+            const before = mobileShown;
+            mobileShown += LIST_STEP;
+            populateMobilePosts(true);
+            focusNewItem(document.getElementById('mobile-post-list'), before);
+        }
+
+        function populateMobilePosts(keepPage) {
             const list = document.getElementById('mobile-post-list');
             if (!list) return;
+            if (!keepPage) mobileShown = LIST_STEP;
             const filtered = filterMobilePosts();
-            list.innerHTML = filtered.map(post => {
+            const term = document.getElementById('mobile-search-input')?.value?.trim() || '';
+            list.innerHTML = filtered.slice(0, mobileShown).map(post => {
                 const imgUrl = post.thumb || post.image || '';
                 const dataAttr = imgUrl ? `data-bg="${imgUrl}"` : '';
                 return `
                 <li class="mobile-post-item">
-                    <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+                    <a href="/posts/${post.slug}.html">
                     <div class="mobile-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>${post.title}</h3>
@@ -3092,7 +3196,8 @@
                     </div>
                     </a>
                 </li>`;
-            }).join('');
+            }).join('') + (filtered.length > mobileShown ? listMore(filtered.length - mobileShown, 'showMoreMobile') : '')
+                        + (filtered.length ? '' : listEmpty(term));
             // Lazy-load thumbnails
             observeThumbs();
             // Update status bar count
@@ -3189,16 +3294,18 @@
             });
         }
 
-        function populateBlogPostsList() {
+        function populateBlogPostsList(keepPage) {
             const list = document.getElementById('blog-posts-list');
             if (!list) return;
+            if (!keepPage) desktopShown = LIST_STEP;
             const filtered = filterPosts();
-            list.innerHTML = filtered.map(post => {
+            const term = document.getElementById('search-input')?.value?.trim() || '';
+            list.innerHTML = filtered.slice(0, desktopShown).map(post => {
                 const thumbUrl = post.thumb || post.image || '';
                 const dataAttr = thumbUrl ? `data-bg="${thumbUrl}"` : '';
                 return `
                 <li class="blog-post-item">
-                    <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+                    <a href="/posts/${post.slug}.html">
                         <div class="blog-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>${post.title}</h3>
@@ -3208,7 +3315,8 @@
                         </div>
                     </a>
                 </li>`;
-            }).join('');
+            }).join('') + (filtered.length > desktopShown ? listMore(filtered.length - desktopShown, 'showMoreDesktop') : '')
+                        + (filtered.length ? '' : listEmpty(term));
             // Lazy-load desktop thumbnails
             observeThumbs();
         }
@@ -3237,7 +3345,7 @@
                     <ul class="archive-posts">
                         ${monthMap[key].posts.map(post => `
                             <li class="archive-post">
-                                <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+                                <a href="/posts/${post.slug}.html">
                                     <div class="title">${post.title}</div>
                                     <div class="date">${post.date}</div>
                                 </a>
@@ -3270,7 +3378,8 @@
             if (searchTerm) {
                 filtered = filtered.filter(p =>
                     p.title.toLowerCase().includes(searchTerm) ||
-                    p.excerpt.toLowerCase().includes(searchTerm)
+                    p.excerpt.toLowerCase().includes(searchTerm) ||
+                    (p.tags || []).some(t => t.toLowerCase().includes(searchTerm))
                 );
             }
             if (activeTags.length > 0) {
@@ -3297,6 +3406,13 @@
         }
 
         function openPost(slug) {
+            // Every article has one reader: its own page, with a real URL, a working Back button, the reading aids
+            // and what to read next. Old #/post/<slug> links land there too; an unknown slug gets the 404 page.
+            if (/^[a-z0-9-]+$/.test(slug || '')) location.replace('/posts/' + slug + '.html');
+        }
+
+        // The in-window reader below is no longer reachable; kept for reference until it is deleted.
+        function openPostLegacyReader(slug) {
             const post = blogPosts.find(p => p.slug === slug);
             if (!post) return;
 
@@ -3824,7 +3940,8 @@
                 return seen;
             } catch (e) { return false; }
         })();
-        window.BOOT_MS = window.BOOT_SEEN ? 0 : 1900;
+        window.REDUCED_MOTION = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+        window.BOOT_MS = (window.BOOT_SEEN || window.REDUCED_MOTION) ? 0 : 1900;
 
         // Initialize on load
         window.addEventListener('load', () => {
@@ -4021,15 +4138,79 @@
         })();
 
         // Start Menu
+        function setStartMenu(open) {
+            const menu = document.getElementById('start-menu');
+            if (!menu) return;
+            menu.classList.toggle('open', open);
+            document.querySelectorAll('.start-button').forEach(b => b.setAttribute('aria-expanded', String(open)));
+        }
         function toggleStartMenu() {
             const menu = document.getElementById('start-menu');
-            menu.classList.toggle('open');
+            if (!menu) return;
+            const open = !menu.classList.contains('open');
+            setStartMenu(open);
+            if (open) { const first = menu.querySelector('.start-menu-item'); if (first) first.focus({ preventScroll: true }); }
         }
         document.addEventListener('click', (e) => {
             const menu = document.getElementById('start-menu');
             if (menu && menu.classList.contains('open') && !e.target.closest('.start-menu') && !e.target.closest('.start-button')) {
-                menu.classList.remove('open');
+                setStartMenu(false);
             }
+            const mob = document.getElementById('mobile-start-menu');
+            if (mob && mob.classList.contains('open') && !e.target.closest('#mobile-start-menu') && !e.target.closest('.mobile-footer-start')) {
+                setMobileStart(false);
+            }
+        });
+
+        // Mobile Start: the same places as the desktop Start menu, sized for thumbs
+        function setMobileStart(open) {
+            const menu = document.getElementById('mobile-start-menu');
+            if (!menu) return;
+            menu.classList.toggle('open', open);
+            document.querySelectorAll('.mobile-footer-start').forEach(b => b.setAttribute('aria-expanded', String(open)));
+        }
+        function toggleMobileStart(e) {
+            const menu = document.getElementById('mobile-start-menu');
+            if (!menu) return true;  // no menu on this page: let the link go home
+            if (e) { e.preventDefault(); e.stopPropagation(); }
+            setMobileStart(!menu.classList.contains('open'));
+            return false;
+        }
+
+        // Keyboard: desktop icons open with Enter or Space like a double-click, menu items like a click,
+        // and Escape closes whichever Start menu is open.
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                const menu = document.getElementById('start-menu');
+                if (menu && menu.classList.contains('open')) { setStartMenu(false); document.querySelector('.start-button')?.focus(); }
+                const mob = document.getElementById('mobile-start-menu');
+                if (mob && mob.classList.contains('open')) { setMobileStart(false); document.querySelector('.mobile-footer-start')?.focus(); }
+                return;
+            }
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+            const el = e.target;
+            if (!el || !el.matches) return;
+            if (el.matches('.desktop-icon[role="button"]')) {
+                e.preventDefault();
+                el.dispatchEvent(new MouseEvent('dblclick', { bubbles: true }));
+            } else if (el.matches('.start-menu-item[role="menuitem"]:not(a):not(.has-submenu)')) {
+                e.preventDefault();
+                el.click();
+            } else if (el.matches('.has-submenu')) {
+                e.preventDefault();
+                const first = el.querySelector('.start-submenu a');
+                if (first) first.focus();
+            }
+        });
+
+        // Back buttons on article and topic pages return to where the reader came from on this site
+        // (a topic page, a search, a related post) instead of always dumping them on the homepage.
+        document.addEventListener('click', function (e) {
+            const back = e.target.closest && e.target.closest('a.page-back[data-back]');
+            if (!back) return;
+            let sameSite = false;
+            try { sameSite = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (err) {}
+            if (sameSite && history.length > 1) { e.preventDefault(); history.back(); }
         });
 
         // ====== LEADERBOARD SYSTEM ======
