@@ -62,8 +62,21 @@ def main():
             print(f"IndexNow: HTTP {r.status} for {len(urls)} URLs")
     except HTTPError as e:
         print(f"IndexNow: HTTP {e.code} {e.read().decode()[:200]}")
-        return 0  # never fail the publish because a search engine ping did
-    return 0
+    websub_ping()
+    return 0  # never fail the publish because a search engine ping did
+
+
+def websub_ping():
+    """feed.xml names Google's WebSub hub; telling the hub the feed changed lets subscribers (Google among them)
+    fetch new posts right away instead of on their next crawl of the feed."""
+    from urllib.parse import urlencode
+    data = urlencode({"hub.mode": "publish", "hub.url": f"https://{HOST}/feed.xml"}).encode()
+    try:
+        with urlopen(Request("https://pubsubhubbub.appspot.com/", data=data,
+                             headers={"User-Agent": "404MemoryFound-build/1.0"}), timeout=30) as r:
+            print(f"WebSub: HTTP {r.status}")
+    except Exception as e:  # noqa: BLE001
+        print(f"WebSub: {e}")
 
 
 if __name__ == "__main__":

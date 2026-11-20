@@ -16,7 +16,6 @@ Outputs (all committed, served by GitHub Pages)
   assets/site.css|js     the SPA's CSS and JS, cached once instead of inlined per page
   posts-index.json       lightweight list the homepage loads (no bodies)
   posts/<slug>.html      one static page per post, article rendered exactly once
-  posts/<slug>.json      body only, fetched on demand when a post opens in the desktop
   posts/index.html       crawlable list of every post
   tags/<tag>.html        one hub page per category
   authors/<key>.html     one page per pen name
@@ -430,6 +429,13 @@ def build_related_map(posts, count=RELATED_COUNT):
     every post in the archive collects links from its own neighbourhood.
     """
     inbound = {p["slug"]: 0 for p in posts}
+    # Pages Google already shows in search get crawled often; their related cards lean toward pages it has not
+    # indexed yet, so the crawler reaches them through pages it actually visits (Search Console snapshot).
+    seen = set()
+    try:
+        seen = {row[0] for row in json.load(open(os.path.join(ROOT, "seo", "search-console.json"), encoding="utf-8")).get("pages", [])}
+    except (OSError, ValueError):
+        pass
     stop = {"what", "happened", "still", "around", "who", "owns", "now", "the", "and", "how", "why", "did",
             "does", "is", "are", "was", "in", "of", "to", "a", "an", "it", "its", "2026", "today", "for", "on"}
     words = {p["slug"]: {w for w in re.findall(r"[a-z0-9]+", p["title"].lower()) if w not in stop and len(w) > 2}
@@ -451,7 +457,9 @@ def build_related_map(posts, count=RELATED_COUNT):
         # still favour whoever is starved of inbound links so link equity spreads across the archive.
         cands.sort(key=lambda c: (-c[0], -int(c[1]["date"].replace("-", ""))))
         first = [cands[0][1]] if cands else []
-        rest = sorted(cands[1:], key=lambda c: (-min(c[0], 4), inbound[c[1]["slug"]], -int(c[1]["date"].replace("-", ""))))
+        source_seen = post["slug"] in seen
+        rest = sorted(cands[1:], key=lambda c: (-min(c[0], 4), source_seen and c[1]["slug"] in seen,
+                                               inbound[c[1]["slug"]], -int(c[1]["date"].replace("-", ""))))
         picked = first + [c[1] for c in rest[:count - 1]]
         for r in picked:
             inbound[r["slug"]] += 1
@@ -755,18 +763,28 @@ def post_hero_html(post):
         caption = post.get("imageCaption") or ""
         # The hero is usually the largest thing on screen, so it loads first; phones get the 720px copy.
         medium = "/img/m/" + os.path.basename(post["heroLocal"])
-        srcset = ""
-        if os.path.exists(os.path.join(OUTPUT_DIR, medium.lstrip("/"))):
-            ratio = info["width"] / max(1, info["height"])
-            # Drawn size: phones fit the photo in a 220px-tall box, desktop in 560 x 400 (PAGE_SHELL_CSS)
-            phone_w = round(220 * ratio)
-            phone = f"{phone_w}px" if phone_w < 343 else "calc(100vw - 32px)"
-            desk = min(560, round(400 * ratio), info["width"])
-            srcset = (f' srcset="{medium} 720w, {post["heroLocal"]} {info["width"]}w"'
-                      f' sizes="(max-width: 768px) {phone}, {desk}px"')
+        srcset, source = "", ""
+        ratio = info["width"] / max(1, info["height"])
+        # Drawn size: phones fit the photo in a 220px-tall box, desktop in 560 x 400 (PAGE_SHELL_CSS)
+        phone_w = round(220 * ratio)
+        phone = f"{phone_w}px" if phone_w < 343 else "calc(100vw - 32px)"
+        desk = min(560, round(400 * ratio), info["width"])
+        sizes = f' sizes="(max-width: 768px) {phone}, {desk}px"'
+        has_medium = os.path.exists(os.path.join(OUTPUT_DIR, medium.lstrip("/")))
+        if has_medium:
+            srcset = f' srcset="{medium} 720w, {post["heroLocal"]} {info["width"]}w"{sizes}'
+        # WebP twins (fetch_images.ensure_webp) are about a third lighter; the JPEG/PNG stays as the fallback
+        webp = lambda p: re.sub(r"\.(jpe?g|png)$", ".webp", p, flags=re.I)
+        if os.path.exists(os.path.join(OUTPUT_DIR, webp(post["heroLocal"]).lstrip("/"))):
+            if has_medium and os.path.exists(os.path.join(OUTPUT_DIR, webp(medium).lstrip("/"))):
+                source = f'<source type="image/webp" srcset="{webp(medium)} 720w, {webp(post["heroLocal"])} {info["width"]}w"{sizes}>'
+            elif not has_medium:
+                source = f'<source type="image/webp" srcset="{webp(post["heroLocal"])}">'
+        img = (f'<img src="{post["heroLocal"]}"{srcset} alt="{alt}" width="{info["width"]}" '
+               f'height="{info["height"]}" fetchpriority="high" decoding="async">')
+        picture = f"<picture>{source}{img}</picture>" if source else img
         parts.append(
-            f'<figure class="post-hero"><img src="{post["heroLocal"]}"{srcset} alt="{alt}" width="{info["width"]}" '
-            f'height="{info["height"]}" fetchpriority="high" decoding="async"><figcaption>{caption} {credit_link(info)}</figcaption></figure>')
+            f'<figure class="post-hero">{picture}<figcaption>{caption} {credit_link(info)}</figcaption></figure>')
     return "\n".join(parts)
 
 
@@ -898,7 +916,7 @@ def build_post_page(ctx, post, posts):
     {sources_html(post)}
     <footer class="post-footer">
         {'<div class="post-tags">Filed under: ' + tags_html + '</div>' if tags_html else ''}
-        <div class="page-back-row"><a class="page-back page-back-desktop" href="/">&larr; Back to Blog</a> <a class="page-back" href="/posts/">All posts</a></div>
+        <div class="page-back-row"><button type="button" class="page-back share-post" data-share><span aria-hidden="true">📤</span> Send this story to a friend</button> <a class="page-back page-back-desktop" href="/">&larr; Back to Blog</a> <a class="page-back" href="/posts/">All posts</a></div>
     </footer>
 </article>"""
 
@@ -1151,7 +1169,7 @@ def brand_index_rows(posts):
                 continue
             rows.remove(seen[key])
         row = {"name": name, "status": status, "owner": facts.get("owner today") or facts.get("company") or "",
-               "started": facts.get("launched") or facts.get("founded") or facts.get("released") or "",
+               "started": facts.get("launched") or facts.get("founded") or facts.get("released") or facts.get("created") or "",
                "url": p["path"], "title": p["title"], "tags": p["tags"]}
         seen[key] = row
         rows.append(row)
@@ -1523,6 +1541,7 @@ def build_feed(posts):
     <language>en</language>
     <lastBuildDate>{latest}</lastBuildDate>
     <atom:link href="{BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
 {chr(10).join(items)}
   </channel>
 </rss>
@@ -1600,6 +1619,26 @@ def posts_index_json(posts):
     } for p in posts]}
 
 
+PUBLIC_ENTRIES = {
+    "index.html", "404.html", "about.html", "contact.html", "privacy.html", "terms.html",
+    "dead-brand-index.html", "dead-brand-index.csv", "dead-brand-index.json", "posts-index.json",
+    "assets", "posts", "tags", "authors", "img", "og", "pins",
+    "feed.xml", "sitemap.xml", "robots.txt", "llms.txt", "llms-full.txt", "CNAME", "ads.txt",
+    "favicon.ico", "favicon-16x16.png", "favicon-32x32.png", "apple-touch-icon.png", "logo-512.png", "og-image.png",
+}
+
+
+def build_jekyll_config():
+    """GitHub Pages (branch deploy) runs Jekyll over the repository: everything not listed here stays unpublished.
+    Search-engine ownership files (IndexNow key, google*.html, BingSiteAuth.xml) are kept public by pattern."""
+    keep_pattern = re.compile(r"^(?:[0-9a-f]{32}\.txt|google[0-9a-f]+\.html|BingSiteAuth\.xml|yandex_[0-9a-f]+\.html)$")
+    private = sorted(n for n in os.listdir(OUTPUT_DIR)
+                     if n not in PUBLIC_ENTRIES and not n.startswith((".", "_")) and not keep_pattern.match(n))
+    lines = ["# Generated by build.py: GitHub Pages publishes only the site, not the tools and data behind it.",
+             "exclude:"] + [f'  - "{n}"' for n in private]
+    return "\n".join(lines) + "\n"
+
+
 def post_json(p):
     """Body for the in-app view: summary, hero and quick facts inlined so the desktop window shows the same article."""
     body = post_extras_html(p) + "\n" + p["body"] + "\n" + sources_html(p)
@@ -1616,6 +1655,8 @@ PAGE_SHELL_CSS = """
     font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; font-size: 13px; margin: 0 6px 10px 0; }
 .page-shell .page-back:active { border-top-color: #808080; border-left-color: #808080; border-right-color: #fff; border-bottom-color: #fff; }
 .page-shell .page-back-row { margin-top: 16px; }
+.page-shell button.page-back { cursor: pointer; line-height: inherit; }
+.page-shell .share-post { font-weight: bold; }
 .page-shell .post-tags { margin: 18px 0 6px; font-size: 13px; color: #444; }
 .page-shell .post-tags a { color: #000080; margin-left: 4px; }
 .page-shell .post-meta a { color: #000080; }
@@ -1624,6 +1665,7 @@ PAGE_SHELL_CSS = """
 .page-shell .post-body figure, .page-shell .post-hero { margin: 16px auto; max-width: 560px; }
 .page-shell .post-body figure img, .page-shell .post-hero img { max-width: 100%; height: auto; display: block; }
 .page-shell .post-hero img { width: auto; max-height: 400px; margin: 0 auto; }
+.page-shell .post-hero picture { display: block; }
 .page-shell .post-body figcaption, .page-shell .post-hero figcaption { font-size: 12px; color: #555; margin-top: 4px; line-height: 1.4; }
 .page-shell .page-copy h1, .page-shell .hub-page h1 { font-size: 20px; color: #000080; margin-bottom: 8px; line-height: 1.3; }
 .page-shell .page-intro { margin-bottom: 12px; color: #333; }
@@ -1926,7 +1968,6 @@ def main():
     print(f"📝 {len(posts)} posts ({auto_links} internal links in bodies)")
     for p in posts:
         write(f"posts/{p['slug']}.html", build_post_page(ctx, p, posts))
-        write(f"posts/{p['slug']}.json", json.dumps(post_json(p), ensure_ascii=False))
     write("posts/index.html", build_posts_index_page(ctx, posts))
     index_rows = brand_index_rows(posts)
     write("dead-brand-index.html", build_brand_index_page(ctx, posts))
@@ -1966,11 +2007,14 @@ def main():
         else:
             print(f"   ! redirect target missing for {old} -> {new}")
 
-    keep = {f"{s}.html" for s in by_slug} | {f"{s}.json" for s in by_slug} | {f"{o}.html" for o in redirects} | {"index.html"}
+    # posts/<slug>.json fed the retired in-window reader; nothing reads them now, so the cleanup below removes them
+    keep = {f"{s}.html" for s in by_slug} | {f"{o}.html" for o in redirects} | {"index.html"}
     for name in os.listdir(os.path.join(OUTPUT_DIR, "posts")):
         if name not in keep and (name.endswith(".html") or name.endswith(".json")):
             os.remove(os.path.join(OUTPUT_DIR, "posts", name))
             print(f"   🗑  removed stale posts/{name}")
+
+    write("_config.yml", build_jekyll_config())
 
     print("🗺️  sitemap.xml, feed.xml, robots.txt, llms.txt, llms-full.txt, CNAME" + (", ads.txt" if config.get("ads_txt") else ""))
     write("sitemap.xml", build_sitemap(posts, tags, authors, today))

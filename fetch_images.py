@@ -148,6 +148,25 @@ def ensure_medium(file_path):
         out.convert("RGB").save(dst, "JPEG", quality=80, optimize=True, progressive=True)
     return True
 
+def webp_path(path):
+    return re.sub(r"\.(jpe?g|png)$", ".webp", path, flags=re.I)
+
+
+def ensure_webp(file_path):
+    """A WebP twin of a stored image (about a third lighter than the JPEG). Pages serve it through <picture> with the
+    JPEG/PNG as the fallback, so no image URL that search engines already know ever changes."""
+    src = file_path.lstrip("/")
+    dst = webp_path(src)
+    if dst == src or not os.path.exists(src):
+        return False
+    if os.path.exists(dst):
+        return True
+    im = Image.open(src)
+    im = im.convert("RGBA") if im.mode in ("RGBA", "LA", "P") else im.convert("RGB")
+    im.save(dst, "WEBP", quality=80, method=6)
+    return True
+
+
 def original_url(url):
     """Thumb URL -> original upload URL (works when the requested thumb size is refused)."""
     m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons)/thumb/([^/]+/[^/]+/[^/]+)/[^/]+$", url)
@@ -349,6 +368,14 @@ def main():
     json.dump(manifest, open(MANIFEST, "w", encoding="utf-8"), indent=1, sort_keys=True)
     made = sum(1 for v in manifest.values() if v.get("status") == "ok" and v.get("file") and ensure_medium(v["file"]))
     print(f"{made} images have a {MEDIUM_WIDTH}px phone copy in /{MEDIUM_DIR}")
+    webp = 0
+    for v in manifest.values():
+        if v.get("status") == "ok" and v.get("file"):
+            webp += ensure_webp(v["file"])
+            medium = os.path.join(MEDIUM_DIR, os.path.basename(v["file"]))
+            if os.path.exists(medium):
+                ensure_webp(medium)
+    print(f"{webp} images have a WebP twin")
     ok = sum(1 for v in manifest.values() if v["status"] == "ok")
     bad = [u for u, v in manifest.items() if v["status"] != "ok"]
     total = sum(os.path.getsize(os.path.join(dp, f)) for dp, _, fs in os.walk(IMG_DIR) for f in fs)

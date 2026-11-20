@@ -107,6 +107,9 @@ def check_post(posts, slug, mode):
         errs.append("needs image or imageSearch")
     if not p.get("summary") or not p.get("facts"):
         errs.append("summary and facts are required")
+    labels = {f.get("label", "").lower() for f in p.get("facts") or []}
+    if "status today" in labels and not labels & {"launched", "founded", "released", "created"} and mode in ("new", "upgrade"):
+        errs.append('a post with "Status today" needs a "Launched" or "Founded" fact with the year (Dead Brand Index Started column)')
     if mode in ("new", "upgrade") and "<table" not in b:
         errs.append("needs at least one <table> (prices, versions, timeline or stores left; see Tables in POST_SPEC.md)")
     if mode in ("upgrade", "fresh") and not p.get("updated"):
