@@ -650,7 +650,7 @@
                 const isMinimized = el.classList.contains('minimized');
                 const isActive = el.classList.contains('active');
                 const isOpen = !isMinimized || el.dataset.wasOpen;
-                const title = titles[id];
+                const title = el.dataset.title || titles[id];
                 // Show taskbar button for any window that has been opened
                 if (isMinimized && !el.dataset.wasOpen) return '';
                 return `
@@ -1580,7 +1580,10 @@
         const konamiSequence = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
         let konamiIndex = 0;
         document.addEventListener('keydown', function(e) {
-            if (document.getElementById('bsod-overlay').style.display === 'flex') {
+            // Generated article pages carry no BSOD overlay; without this guard every keypress threw an error there
+            const bsodOverlay = document.getElementById('bsod-overlay');
+            if (!bsodOverlay) return;
+            if (bsodOverlay.style.display === 'flex') {
                 closeBSOD();
                 return;
             }
@@ -1593,6 +1596,13 @@
             } else {
                 konamiIndex = 0;
             }
+        });
+
+        // Esc brings a minimized article back, the same as clicking its taskbar button
+        document.addEventListener('keydown', function(e) {
+            if (e.key !== 'Escape' || typeof isPostPage === 'undefined' || !isPostPage) return;
+            const pw = document.getElementById('post-window');
+            if (pw && pw.classList.contains('minimized')) toggleWindowTaskbar('post-window');
         });
 
         function showBSOD() {

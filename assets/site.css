@@ -2231,12 +2231,20 @@
 .page-shell .post-breadcrumb a { color: #000080; text-decoration: none; }
 .page-shell .post-breadcrumb a:hover { text-decoration: underline; }
 .page-shell .post-meta-sep { color: #999; margin: 0 2px; }
-.page-shell .post-toc { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 10px 14px 10px; margin: 14px 0 22px; }
-.page-shell .post-toc-title { font-weight: bold; color: #000080; font-size: 14px; margin-bottom: 6px;
+/* "Jump to" strip: the section list as one toolbar row instead of a tall box standing between the answer and the story */
+.page-shell .post-toc { background: #f4f4f4; border: 1px solid #a0a0a0; padding: 7px 10px; margin: 12px 0 22px;
+    font-size: 14px; line-height: 1.65; }
+.page-shell .post-toc-title { display: inline; margin-right: 6px; font-weight: bold; color: #000080;
     font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
-.page-shell .post-toc ol { margin: 0; padding-left: 22px; font-size: 15px; line-height: 1.6; }
+.page-shell .post-toc ol { display: inline; margin: 0; padding: 0; list-style: none; }
+.page-shell .post-toc li { display: inline; }
+.page-shell .post-toc li + li::before { content: "\00B7"; color: #808080; margin: 0 8px; }
 .page-shell .post-toc a { color: #000080; text-decoration: none; }
-.page-shell .post-toc a:hover { text-decoration: underline; }
+.page-shell .post-toc a:hover, .page-shell .post-toc a:focus-visible { text-decoration: underline; }
+/* The one line under the summary that points at the best part of the story still to come */
+.page-shell .post-ahead { margin: 0 0 14px; font-size: 16px; line-height: 1.45; color: #444; }
+.page-shell .post-ahead a { color: #000080; font-weight: bold; text-decoration: none; }
+.page-shell .post-ahead a:hover, .page-shell .post-ahead a:focus-visible { text-decoration: underline; }
 .page-shell .post-body h2 { scroll-margin-top: 52px; }
 
 /* Dead brand index: a reference table people can sort and filter without leaving the page */
@@ -2377,7 +2385,7 @@ body.page-shell { user-select: text; }
     .page-shell .window-content { overflow: visible; background: #c0c0c0; padding: 0 0 64px; }
     .page-shell .page-card { background: #fff; margin: 6px; padding: 12px; border: 2px solid;
         border-top-color: #fff; border-left-color: #fff; border-right-color: #808080; border-bottom-color: #808080; }
-    .page-shell .post-header h1 { font-size: 18px; color: #000080; margin-bottom: 4px; line-height: 1.3; font-weight: bold; }
+    .page-shell .post-header h1 { font-size: 25px; color: #000080; margin-bottom: 6px; line-height: 1.2; font-weight: bold; }
     .page-shell .post-meta { font-size: 12px; color: #666; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #c0c0c0; }
     .page-shell .post-body { font-size: 17px; line-height: 1.7; color: #1a1a1a; }
     .page-shell .post-body img, .page-shell .post-hero img { max-width: 100%; height: auto; margin: 10px 0; border: 2px solid;
@@ -2390,4 +2398,43 @@ body.page-shell { user-select: text; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }
     .page-shell .page-copy { font-size: 14px; line-height: 1.6; }
     .quick-facts dt { flex-basis: 40%; }
+    /* The headline that tells a searcher "right page" must outrank the section headings below it */
+    .page-shell .post-body h2 { font-size: 21px; line-height: 1.3; }
+    .page-shell .post-body h3 { font-size: 18px; line-height: 1.35; }
+    .page-shell .post-ahead { font-size: 15px; }
+    /* A portrait photo used to fill a whole phone screen before the story; show it whole in a short viewer */
+    .page-shell .post-hero img { width: 100%; max-height: 220px; object-fit: contain; background: #c0c0c0; }
+    .page-shell .post-body a.archive-card img { width: 72px; height: 54px; }
+}
+
+/* CRT scanlines stay on the teal desktop. Over the article they cut the contrast of every line of text and every photo,
+   so on generated pages they are painted into the desktop background, under the window, instead of over it. */
+body.page-shell::before { display: none; }
+body.page-shell { background: repeating-linear-gradient(0deg, rgba(0, 0, 0, .08) 0 2px, transparent 2px 4px),
+    linear-gradient(135deg, #008080 0%, #106B6B 100%); }
+
+/* Maximize is shown the way Win95 shows a control a fixed-size window cannot use: greyed and embossed */
+.page-shell .window-button:disabled { cursor: default; }
+.page-shell .window-button:disabled .btn-maximize { border-color: #808080; box-shadow: 1px 1px 0 #fff; }
+.page-shell .window-button:disabled .btn-maximize::after { background: #808080; }
+
+/* Next-story cards now sit inside the article body, where body link styles would otherwise restyle them */
+.page-shell .post-body .related-posts { margin: 32px 0 28px; }
+.page-shell .post-body a.archive-card { color: #000; text-decoration: none; }
+.page-shell .post-body a.archive-card:hover, .page-shell .post-body a.archive-card:focus { color: #fff; }
+.page-shell .post-body a.archive-card img { width: 96px; height: 72px; max-width: none; margin: 0; border: 1px solid #808080; }
+@media (max-width: 768px) {
+    .page-shell .post-body a.archive-card img { width: 72px; height: 54px; }
+}
+
+/* Wide screens: Quick facts becomes a Properties pane beside the article, so the story starts right after the answer.
+   Narrower screens get the same box as a recap at the end of the story. */
+@media (min-width: 1400px) {
+    .page-shell.post-page #post-window { width: min(1100px, calc(100% - 250px)) !important; }
+    .page-shell.post-page .page-card { margin: 0 300px 0 0; }
+    .page-shell.post-page .quick-facts { position: absolute; top: 32px; right: 13px; width: 270px; margin: 0; padding: 0 3px 3px;
+        background: #c0c0c0; border: 2px solid; border-color: #fff #808080 #808080 #fff; }
+    .page-shell.post-page .quick-facts-title { background: linear-gradient(90deg, #000080, #1084d0); color: #fff; font-size: 12px;
+        padding: 3px 6px; margin: 0 -3px 3px; }
+    .page-shell.post-page .quick-facts dl { background: #fff; border: 1px solid; border-color: #808080 #fff #fff #808080; padding: 6px 10px; }
 }
