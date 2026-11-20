@@ -5,8 +5,20 @@
     <link>https://404memoryfound.com/</link>
     <description>What happened to the gadgets, games, stores and websites of the 90s and 2000s: who owns them now, what they&#x27;re worth, and how to still play, use or visit them today.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://404memoryfound.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Are Old Trapper Keepers Worth Anything? Which Designs Pay</title>
+      <link>https://404memoryfound.com/posts/trapper-keeper-value-vintage.html</link>
+      <guid isPermaLink="true">https://404memoryfound.com/posts/trapper-keeper-value-vintage.html</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Theo Lindqvist</dc:creator>
+      <description>Are old Trapper Keepers worth anything? Common 1980s and 1990s covers ran $7 to $45 in November 2026, while Lisa Frank versions ask $113.</description>
+      <enclosure url="https://404memoryfound.com/pins/trapper-keeper-value-vintage.jpg" length="253035" type="image/jpeg"/>
+      <media:content url="https://404memoryfound.com/pins/trapper-keeper-value-vintage.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+      <category>Money &amp; Tech</category>
+      <category>Then vs Now</category>
+    </item>
     <item>
       <title>Are Lisa Frank Folders Worth Anything? 2026 Prices</title>
       <link>https://404memoryfound.com/posts/lisa-frank-folders-value.html</link>
@@ -235,19 +247,6 @@
       <category>Gaming</category>
       <category>Hardware</category>
       <category>Money &amp; Tech</category>
-    </item>
-    <item>
-      <title>Is Nextel Still Around in 2026? Chirp Died in 2013</title>
-      <link>https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html</link>
-      <guid isPermaLink="true">https://404memoryfound.com/posts/nextel-direct-connect-chirp-shutdown.html</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>Theo Lindqvist</dc:creator>
-      <description>Nextel is gone: Sprint killed the iDEN network on June 30, 2013. T-Mobile owns the name now, upheld by a federal appeals court in 2024.</description>
-      <enclosure url="https://404memoryfound.com/pins/nextel-direct-connect-chirp-shutdown.jpg" length="156283" type="image/jpeg"/>
-      <media:content url="https://404memoryfound.com/pins/nextel-direct-connect-chirp-shutdown.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
-      <category>Hardware</category>
-      <category>Then vs Now</category>
-      <category>Business Blunders</category>
     </item>
   </channel>
 </rss>
