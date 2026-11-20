@@ -39,9 +39,15 @@ BLOG_NAME = "404 Memory Found"
 OUTPUT_DIR = "."
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SOURCE_PATH = os.path.join(ROOT, "src", "index.html")
-DEFAULT_DESCRIPTION = ("404 Memory Found is a nostalgia blog about the technology, games, websites and companies "
-                       "of the 90s and 2000s: what they cost, why they won or lost, and what happened to them.")
+DEFAULT_DESCRIPTION = ("What happened to the gadgets, games, stores and websites of the 90s and 2000s: who owns them now, "
+                       "what they're worth, and how to still play, use or visit them today.")
 GA_ID = "G-GQX7R9W80G"
+# "Decline" on the cookie banner has to mean something: a visitor who declined gets analytics and ad
+# storage denied (Google Consent Mode) and non-personalized AdSense ads, on every page, before any tag runs.
+CONSENT_JS = ("var __declined=false;try{__declined=localStorage.getItem('cookie-consent')==='declined';}catch(e){}"
+              "var __c=__declined?'denied':'granted';"
+              "gtag('consent','default',{analytics_storage:__c,ad_storage:__c,ad_user_data:__c,ad_personalization:__c});"
+              "if(__declined){(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;}")
 HUB_TAG_COUNT = 8
 RELATED_COUNT = 5
 MAX_AUTO_LINKS = 6
@@ -378,7 +384,10 @@ def load_posts(manifest, authors, config):
         p["wordCount"] = word_count(p["body"])
         p["readingTime"] = reading_label(p["body"] + " " + (p.get("summary") or ""))
         seo = p.get("seo") or {}
-        p["pageTitle"] = seo.get("title") or f"{p['title']} | {BLOG_NAME}"
+        # Google cuts titles near 60 characters and shows the site name above the result anyway, so the
+        # brand suffix is added only when it still fits; otherwise the searcher's words get all the room.
+        base_title = (seo.get("title") or p["title"]).replace(f" | {BLOG_NAME}", "").strip()
+        p["pageTitle"] = f"{base_title} | {BLOG_NAME}" if len(base_title) + len(BLOG_NAME) + 3 <= 60 else base_title
         p["metaDescription"] = seo.get("description") or p["excerpt"]
         hero = manifest.get(p.get("image") or "", {})
         p["heroLocal"] = hero.get("file") if hero.get("status") == "ok" else None
@@ -421,14 +430,29 @@ def build_related_map(posts, count=RELATED_COUNT):
     every post in the archive collects links from its own neighbourhood.
     """
     inbound = {p["slug"]: 0 for p in posts}
+    stop = {"what", "happened", "still", "around", "who", "owns", "now", "the", "and", "how", "why", "did",
+            "does", "is", "are", "was", "in", "of", "to", "a", "an", "it", "its", "2026", "today", "for", "on"}
+    words = {p["slug"]: {w for w in re.findall(r"[a-z0-9]+", p["title"].lower()) if w not in stop and len(w) > 2}
+             for p in posts}
     order = sorted(posts, key=lambda p: p["date"])  # oldest first: the newest still get fresh links
     for post in order:
         tags = set(post["tags"])
-        cands = [(len(tags & set(o["tags"])), o) for o in posts if o["slug"] != post["slug"]]
-        cands = [c for c in cands if c[0] > 0]
-        # strongest tag match first, then whoever is starved of inbound links, then the newer post
-        cands.sort(key=lambda c: (-c[0], inbound[c[1]["slug"]], -int(c[1]["date"].replace("-", ""))))
-        picked = [c[1] for c in cands[:count]]
+        text = strip_tags(post["body"]).lower()
+
+        def relevance(o):
+            # A reader who finished a post about Sears wants Kmart or Montgomery Ward next, not whatever
+            # shares the broad "Business Blunders" tag: subjects this post names and shared title words
+            # count for more than the tag.
+            named = any(ph.lower() in text for ph in (o.get("linkPhrases") or []) if len(ph) > 3)
+            return 2 * len(tags & set(o["tags"])) + 3 * named + len(words[post["slug"]] & words[o["slug"]])
+
+        cands = [(relevance(o), o) for o in posts if o["slug"] != post["slug"] and (tags & set(o["tags"]))]
+        # The first pick (the mid-article "Keep reading" card) is simply the most relevant story; the rest
+        # still favour whoever is starved of inbound links so link equity spreads across the archive.
+        cands.sort(key=lambda c: (-c[0], -int(c[1]["date"].replace("-", ""))))
+        first = [cands[0][1]] if cands else []
+        rest = sorted(cands[1:], key=lambda c: (-min(c[0], 4), inbound[c[1]["slug"]], -int(c[1]["date"].replace("-", ""))))
+        picked = first + [c[1] for c in rest[:count - 1]]
         for r in picked:
             inbound[r["slug"]] += 1
         RELATED_MAP[post["slug"]] = picked
@@ -473,6 +497,7 @@ def gtag_snippet():
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
+      {CONSENT_JS}
       gtag('js', new Date());
       gtag('config', '{GA_ID}');
     </script>"""
@@ -513,6 +538,46 @@ def head_html(ctx, *, title, description, canonical, og_type="website", og_image
     <link rel="stylesheet" href="/assets/site.css?v={ctx['version']}">
 {schema_tags}
 </head>"""
+
+
+# Post pages: a Win95 progress meter in the taskbar shows how far through the story the reader is, and
+# GA4 gets read_progress (25/50/75/100) plus clicks on the reading-flow cards, so retention is measurable.
+READING_JS = """    <script>
+    (function () {
+        var body = document.querySelector('.post-body');
+        if (!body) return;
+        var html = '<span class="read-meter" aria-hidden="true"><span class="read-meter-track"><span class="read-meter-fill"></span></span><span class="read-meter-pct">0%</span></span>';
+        var spacer = document.querySelector('.taskbar .taskbar-spacer');
+        if (spacer) spacer.insertAdjacentHTML('afterend', html);
+        var mob = document.querySelector('.page-mobile-footer .mobile-footer-status');
+        if (mob) mob.innerHTML = html;
+        var fills = document.querySelectorAll('.read-meter-fill'), pcts = document.querySelectorAll('.read-meter-pct');
+        var sent = {}, ticking = false, slug = window.postPageSlug || '';
+        function send(name, params) { if (typeof gtag === 'function') gtag('event', name, params); }
+        function update() {
+            ticking = false;
+            var r = body.getBoundingClientRect();
+            var seen = Math.min(Math.max(window.innerHeight - r.top, 0), r.height);
+            var p = r.height ? Math.round(seen / r.height * 100) : 0;
+            for (var i = 0; i < fills.length; i++) fills[i].style.width = p + '%';
+            for (var j = 0; j < pcts.length; j++) pcts[j].textContent = p + '%';
+            [25, 50, 75, 100].forEach(function (t) {
+                if (p >= t && !sent[t]) {
+                    sent[t] = 1;
+                    send('read_progress', { percent: t, post_slug: slug });
+                    if (t === 100) send('read_complete', { post_slug: slug });
+                }
+            });
+        }
+        document.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true, capture: true });
+        window.addEventListener('resize', update);
+        update();
+        document.addEventListener('click', function (e) {
+            var a = e.target.closest && e.target.closest('a[data-ev]');
+            if (a) send(a.getAttribute('data-ev'), { link_url: a.href, post_slug: slug, transport_type: 'beacon' });
+        });
+    })();
+    </script>"""
 
 
 def shell_html(ctx, head, *, body_class, window_icon, window_title, content, status_text, slug=""):
@@ -559,6 +624,7 @@ def shell_html(ctx, head, *, body_class, window_icon, window_title, content, sta
     </main>
     <script>window.__BUILD__ = '{ctx['version']}'; var isPostPage = true; var postPageSlug = '{slug}';</script>
     <script src="/assets/site.js?v={ctx['version']}"></script>
+{READING_JS if body_class == "post-page" else ""}
 </body>
 </html>
 """
@@ -696,13 +762,36 @@ def toc_html(headings):
     return f'<nav class="post-toc" aria-label="In this article"><div class="post-toc-title">In this article</div><ol>{items}</ol></nav>'
 
 
+def archive_card(r, event):
+    """One related post as a small Win95 'file' card: thumbnail, curiosity title, one-line teaser."""
+    thumb = (f'<img src="{r["thumb"]}" alt="" width="96" height="72" loading="lazy" decoding="async">'
+             if r.get("thumb") else '<span class="archive-card-icon" aria-hidden="true">📄</span>')
+    teaser = strip_tags(r.get("summary") or r.get("excerpt") or "")
+    teaser = teaser if len(teaser) <= 120 else teaser[:117].rsplit(" ", 1)[0] + "..."
+    return (f'<a class="archive-card" href="{r["path"]}" data-ev="{event}">{thumb}'
+            f'<span class="archive-card-text"><strong>{esc(r["title"])}</strong><span>{esc(teaser)}</span></span></a>')
+
+
+def insert_keep_reading(body, card):
+    """Drop the card before the middle section heading, so a reader who is losing interest halfway down
+    sees one good next story instead of the bottom of the page."""
+    faq = re.search(r"<h2[^>]*>\s*Frequently Asked Questions", body, flags=re.I)
+    limit = faq.start() if faq else len(body)
+    heads = [m.start() for m in re.finditer(r"<h2[\s>]", body) if m.start() < limit]
+    if len(heads) < 3 or not card:
+        return body
+    at = heads[len(heads) // 2]
+    box = (f'<aside class="keep-reading" data-nosnippet><div class="keep-reading-bar">📂 Keep reading</div>{card}</aside>\n')
+    return body[:at] + box + body[at:]
+
+
 def build_post_page(ctx, post, posts):
     related = related_posts(post, posts)
     related_html = ""
-    if related:
-        related_html = ('<div class="related-posts"><div class="related-posts-title">Related Posts:</div>'
-                        + "".join(f'<a class="related-post" href="{r["path"]}">{esc(r["title"])}</a>' for r in related)
-                        + "</div>")
+    if len(related) > 1:
+        related_html = ('<nav class="related-posts" data-nosnippet aria-label="Next in the archive">'
+                        '<div class="related-posts-title">📁 Next in the archive</div>'
+                        + "".join(archive_card(r, "next_click") for r in related[1:5]) + "</nav>")
     tags_html = " ".join(f'<a href="/tags/{tag_slug(t)}.html">{esc(t)}</a>' for t in post["tags"] if t in ctx["tags"])
     key = post["authorKey"]
     byline = (f'<a href="/authors/{key}.html" rel="author">{esc(post["authorName"])}</a>' if key else esc(post["authorName"]))
@@ -711,6 +800,8 @@ def build_post_page(ctx, post, posts):
         disclosure = f'<p class="affiliate-disclosure">{esc(ctx["config"]["affiliate_disclosure"])}</p>'
 
     body_with_ids, headings = add_heading_ids(post["body"])
+    if related:
+        body_with_ids = insert_keep_reading(body_with_ids, archive_card(related[0], "keep_reading_click"))
     first_tag = post["tags"][0] if post["tags"] else None
     crumb_mid = (f'<a href="/tags/{tag_slug(first_tag)}.html">{esc(first_tag)}</a>' if first_tag
                  else '<a href="/posts/">All posts</a>')
@@ -807,11 +898,6 @@ def build_hub_page(ctx, filename, posts):
         inner += ('<h3 style="font-size:14px;margin:10px 0 4px 0;">Affiliate links and advertising</h3>'
                   '<p style="font-size:13px;margin-bottom:8px;">' + esc(ctx["config"].get("affiliate_disclosure", "")) +
                   ' Pages may also carry advertising served by Google AdSense; those ads are labelled and never influence what we write.</p>')
-    if filename == "privacy.html":
-        inner += ('<h3 style="font-size:14px;margin:10px 0 4px 0;">Advertising</h3>'
-                  '<p style="font-size:13px;margin-bottom:8px;">When advertising is enabled, Google AdSense and its partners may use '
-                  'cookies to serve ads based on your prior visits to this or other websites. You can opt out of personalised '
-                  'advertising at <a href="https://www.google.com/settings/ads" style="color:#0000ff;">Google Ads Settings</a>.</p>')
     content = f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n<div class="page-copy">{inner}</div>\n' \
               f'{nav_links_html(ctx["tags"])}'
     url = f"{BASE_URL}/{filename}"
@@ -1045,17 +1131,39 @@ def build_brand_index_page(ctx, posts):
                       content=content, status_text=f"{len(rows)} brands")
 
 
+# Each category page needs its own reason to rank and to be clicked; "20 stories about X" was thin
+# enough that Google pulled random sentences from the list into the snippet instead.
+TAG_COPY = {
+    "Business Blunders": ("The stores, startups and giants of the 90s and 2000s that fell apart: what went wrong, the day it ended, and who owns the name now.",
+                          "The chains, dot-coms and tech giants that had it all and lost it. Each story covers the mistake, the date it ended and who owns what is left."),
+    "Hardware": ("Consoles, handhelds, PCs, phones and gadgets of the 90s and 2000s: why they won or flopped, what they cost then and what they sell for now.",
+                 "The machines people saved up for: consoles, handhelds, PCs, phones and gadgets. Why each one won or flopped, and what a working one sells for today."),
+    "Internet Culture": ("The websites, chat apps and online habits of the 90s and 2000s: who built them, what killed them and where their old pages survive.",
+                         "The early web as people lived it: chat rooms, homepages, message boards and the sites everyone had open. What happened to each one."),
+    "Gaming": ("Video games and consoles of the 90s and 2000s: the hits, the flops, who owns them now, what they're worth and how to play them today.",
+               "The games and consoles of the 90s and 2000s: who made them, who owns them now, what the cartridges and discs are worth, and how to play them today."),
+    "Software & Apps": ("Programs people installed from floppy and CD-ROM in the 90s and 2000s: what they did, why they vanished and how to run them now.",
+                        "The software that came on floppies and CD-ROMs, from encyclopedias to media players. Why each one vanished and how to run it on a modern computer."),
+    "Then vs Now": ("What things cost and how they worked in the 90s and 2000s compared with today, with prices adjusted and the numbers sourced.",
+                    "Side-by-side looks at the 90s and 2000s and today: what things cost, how long they lasted and what replaced them, with every figure sourced."),
+    "Money & Tech": ("The money behind 90s and 2000s tech: buyouts, bankruptcies, brand sales and what old gadgets and collectibles are worth in 2026.",
+                     "Follow the money: the buyouts, bankruptcies and brand auctions behind famous names, and what their old products sell for now."),
+    "Music & Entertainment": ("Record stores, video rental, music players and TV of the 90s and 2000s: how they ended, who owns the names and where to find them now.",
+                              "Record stores, video rental chains, music players and TV blocks of the 90s and 2000s. How each one ended and where to find what is left."),
+}
+
+
 def build_tag_page(ctx, tag, posts):
     tagged = [p for p in posts if tag in p["tags"]]
     url = f"{BASE_URL}/tags/{tag_slug(tag)}.html"
     content = (f'<a class="page-back page-back-mobile" href="/">&larr; Back</a>\n'
-               f'<h1>{esc(tag)}</h1>\n<p class="page-intro">{len(tagged)} posts filed under {esc(tag)}.</p>\n'
+               f'<h1>{esc(tag)}</h1>\n<p class="page-intro">{esc(TAG_COPY.get(tag, ("", ""))[1] or "")} {len(tagged)} stories.</p>\n'
                f'{nav_links_html(ctx["tags"], current=tag)}\n{post_list_html(tagged)}')
     schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{tag} | {BLOG_NAME}", "url": url,
               "mainEntity": {"@type": "ItemList", "itemListElement": [
                   {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(tagged)]}}
     head = head_html(ctx, title=f"{tag} | {BLOG_NAME}", canonical=url,
-                     description=f"{len(tagged)} stories about {tag.lower()} from the 90s and 2000s on {BLOG_NAME}.",
+                     description=TAG_COPY.get(tag, (f"{len(tagged)} stories about {tag.lower()} from the 90s and 2000s on {BLOG_NAME}.",))[0],
                      schemas=(schema, breadcrumb_schema(("All posts", f"{BASE_URL}/posts/"), (tag, url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="📁", window_title=tag, content=content,
                       status_text=f"{len(tagged)} posts")
@@ -1188,7 +1296,7 @@ def build_index_html(ctx, posts):
     <meta property="og:site_name" content="{BLOG_NAME}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{BASE_URL}/">
-    <meta property="og:title" content="{BLOG_NAME} - Windows 95 Nostalgia Blog">
+    <meta property="og:title" content="{BLOG_NAME}: What Happened to 90s and 2000s Tech">
     <meta property="og:description" content="{esc(DEFAULT_DESCRIPTION)}">
     <meta property="og:image" content="{DEFAULT_OG_IMAGE}">
     <meta property="og:image:width" content="1200">
@@ -1467,6 +1575,31 @@ PAGE_SHELL_CSS = """
 .page-shell .brand-index-cite { font-family: "Courier New", monospace; font-size: 12px; background: #fff;
     border: 1px solid #c0c0c0; padding: 6px 8px; }
 
+/* Reading flow: a mid-article "Keep reading" card and "Next in the archive" cards, styled as Win95 files */
+.keep-reading { margin: 22px 0; border: 2px solid; border-color: #fff #808080 #808080 #fff; background: #c0c0c0; padding: 0 3px 3px; }
+.keep-reading-bar { background: linear-gradient(90deg, #000080, #1084d0); color: #fff; font-weight: bold; font-size: 12px;
+    padding: 3px 6px; margin: 0 -3px 3px; font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+a.archive-card { display: flex; gap: 10px; align-items: center; padding: 8px; background: #fff; color: #000;
+    text-decoration: none; border: 1px solid #a0a0a0; margin-bottom: 4px; line-height: 1.35; }
+a.archive-card:hover, a.archive-card:focus { background: #000080; color: #fff; outline: 1px dotted #fff; outline-offset: -3px; }
+a.archive-card img { width: 96px; height: 72px; object-fit: cover; flex: 0 0 96px; margin: 0; border: 1px solid #808080; }
+.archive-card-icon { font-size: 34px; flex: 0 0 96px; text-align: center; }
+.archive-card-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.archive-card-text strong { font-size: 15px; color: inherit; }
+.archive-card-text span { font-size: 13px; color: inherit; opacity: .8; }
+.related-posts { margin-top: 22px; }
+.related-posts-title { font-weight: bold; font-size: 14px; margin-bottom: 6px; font-family: "MS Sans Serif", Tahoma, Arial, sans-serif; }
+.post-body figure { margin: 18px 0; }
+.post-body figcaption { font-size: 12px; color: #555; margin-top: 2px; }
+.read-meter { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: #000; margin-right: 8px; }
+.read-meter-track { width: 90px; height: 12px; background: #fff; border: 1px solid; border-color: #808080 #fff #fff #808080; padding: 1px; }
+.read-meter-fill { display: block; height: 100%; width: 0; background: repeating-linear-gradient(90deg, #000080 0 7px, transparent 7px 9px); }
+@media (max-width: 768px) {
+    a.archive-card img { width: 72px; height: 54px; flex-basis: 72px; }
+    .archive-card-icon { flex-basis: 72px; }
+    .read-meter-track { width: 70px; }
+}
+
 /* New-format post parts: summary, quick facts, sources (also rendered inside the desktop post window) */
 .post-summary { font-size: 1.05em; line-height: 1.55; padding: 10px 12px; margin: 0 0 12px; background: #ffffe1;
     border: 1px solid #c8c86a; border-left: 4px solid #000080; }
@@ -1554,10 +1687,6 @@ body.page-shell { user-select: text; }
     .page-shell .post-body p { margin-bottom: 12px; }
     .page-shell .post-body h2, .page-shell .post-body h3 { margin-top: 18px; margin-bottom: 8px; color: #000080; }
     .page-shell .post-body a { color: #000080; text-decoration: underline; }
-    .page-shell .related-posts { margin-top: 20px; padding-top: 12px; border-top: 2px solid #c0c0c0; }
-    .page-shell .related-posts-title { font-size: 14px; font-weight: bold; color: #000; margin-bottom: 8px; }
-    .page-shell a.related-post { display: block; padding: 8px; color: #000080; text-decoration: none; font-size: 13px;
-        background: #f0f0f0; border: 1px solid #c0c0c0; margin-bottom: 4px; }
     .page-shell .page-back-desktop { display: none; }
     .page-shell .page-mobile-footer { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; }
     .page-shell .mobile-footer-start { text-decoration: none; color: #000; }

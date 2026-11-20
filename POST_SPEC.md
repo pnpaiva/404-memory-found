@@ -3,17 +3,24 @@
 Every new post follows this spec. `generate_post.py` enforces it; write by hand to the same shape.
 
 ## Goal
-One post answers one search query completely in under five minutes of reading, so that Google can lift the answer into a snippet and a reader who clicks stays to the end. Shorter than the 2026 archive (median 2,800 words), denser, and sourced.
+One post answers one search query completely, so that Google can lift the answer into a snippet, a searcher has a reason to click (the title promises more than the answer), and a reader who clicks stays to the end and opens a second page. Real readers, not crawlers: success is measured in Search Console clicks and in engaged sessions from Organic Search and AI assistants, never in raw visit counts.
+
+## Clicks and reading time (what the 2026-11 Search Console review taught)
+- Status questions ("is X still open", "does X still exist") get impressions but few clicks, because Google answers them on the results page. Write them only for second-tier subjects, and always give the page something the results page cannot: where the last stores are, how to still use or play it, what one sells for, the story of the night it ended.
+- Formats that need the click come first: price guides with a table, how to play, run, watch or digitize it today, every model or version ranked or listed, and stories with a real mystery.
+- Every post carries 1 or 2 photos inside the body (see Images) in addition to the hero, placed after the second or third section. Walls of text lose readers; a photo of the real thing keeps them.
+- Every section ends on a sentence that makes the next heading the obvious next question.
+- The build adds a "Keep reading" card mid-article and "Next in the archive" cards at the end, so a related post with a curiosity-driven title matters: link phrases and tags decide which posts surface there.
 
 ## Shape
 
 | Part | Rule |
 |---|---|
 | Length | Set by the question, recorded in the post's `format` field. **quick**: 550 to 850 words, for one factual question ("Is X worth anything?", "Is X still open?") where the reader wants the answer and a price table, not a history. **standard**: 900 to 1,400 words, a status question with a real story behind it. **deep**: 1,600 to 2,400 words, only for a big multi-part subject people research at length. Count is the body before the FAQ. A mix across the archive is the point: identical lengths everywhere read as a template |
-| Title | 45 to 60 characters, primary keyword in the first half. Rotate patterns; at most one in three titles may start with "What Happened to". Other patterns: "Is X Still Around in 2026?", "Who Owns X Now?", "How Many X Are Left?", "Why X Failed", "X Explained", "How X Lost to Y", "X in 1998 vs Today", "The Real Story of X". Status patterns get priority: they match what people actually type |
+| Title | 45 to 60 characters. The searcher's own words first (the query as people type it), then a promise the page pays off that the results page cannot: the story, the twist, the price table, the how-to. **Never put the verdict in the title.** "Does Yahoo Answers Still Exist? It Closed in 2021" answers the question on Google's results page and nobody clicks; "What Happened to Yahoo Answers? Can You Still Read It?" earns the click. Good second halves: "and Who Owns It Now", "Where the Last Ones Are", "and What It's Worth Now", "How to Play It Today", "The Night It Vanished". At most one in three titles may start with "What Happened to" |
 | Slug | lowercase, 3 to 7 words, keyword first, no stop words, no year unless it is the query |
-| Meta title | same as title plus " \| 404 Memory Found", max 70 characters total |
-| Meta description | 120 to 155 characters, contains the keyword, ends with a concrete hook (a number, a date, a surprise) |
+| Meta title | `seo.title` is the title alone. The build appends " \| 404 Memory Found" only when the whole thing still fits in about 60 characters, because Google cuts longer titles and already shows the site name above the result |
+| Meta description | `seo.description`, 130 to 158 characters. One concrete, surprising detail that proves the page knows the subject (a date, a price, a strange fact), then what else the reader gets by clicking (the price table, where the last stores are, how to run it today). It may hint at the answer but keeps the most wanted detail for the page. The `excerpt` can stay the plain answer: it is used for lists and feeds, not the results page |
 | Summary | 2 to 3 sentences that answer the query directly. Rendered as the first paragraph. Contains the keyword. This is the featured-snippet candidate |
 | Quick facts | 3 to 5 short label/value pairs: year launched, company, price then and inflation-adjusted, units sold, what replaced it, status today |
 | Sections | quick: 3 or 4 `<h2>`; standard: 4 to 6; deep: 6 to 9. Each section 100 to 250 words. Headings are specific and often question-shaped ("Why did the NSA ban Furby?"), never generic ("Background", "Conclusion") |
@@ -109,6 +116,7 @@ nothing about the guessed path points at the real file.
   `fetch_images.py` resolves them against the Commons API after the push. A post with good queries beats
   a post with an invented URL every time.
 - The same applies to `<img>` inside the body. No verified URL means no figure.
+- In-body photos go in as `<figure><img src="VERIFIED_UPLOAD_URL" alt="what the photo shows"><figcaption>honest caption</figcaption></figure>` between sections, never inside a paragraph. One or two per post, each showing something different from the hero (the box, the store, the screen, the people). The build self-hosts them, adds dimensions and the licence credit, and silently drops any figure whose URL it could not verify.
 - Captions stay honest: say when the photo is a later model, a museum display, packaging, or a stand-in
   for the subject rather than the subject itself. A picture of something else is worse than no picture.
 

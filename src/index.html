@@ -16,12 +16,16 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      var __declined=false;try{__declined=localStorage.getItem('cookie-consent')==='declined';}catch(e){}
+      var __c=__declined?'denied':'granted';
+      gtag('consent','default',{analytics_storage:__c,ad_storage:__c,ad_user_data:__c,ad_personalization:__c});
+      if(__declined){(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;}
       gtag('js', new Date());
       gtag('config', 'G-GQX7R9W80G');
     </script>
     <!-- SEO meta tags are injected by build.py - do not duplicate here -->
 
-    <title>404 Memory Found - Windows 95 Nostalgia Blog</title>
+    <title>404 Memory Found: What Happened to 90s and 2000s Tech</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -2235,7 +2239,7 @@
     </div>
 
     <!-- First-time visitor tutorial (desktop only) -->
-    <div class="tutorial-overlay" id="tutorial-overlay" style="display:none;">
+    <div class="tutorial-overlay" id="tutorial-overlay" style="display:none;" data-nosnippet>
         <div class="tutorial-box">
             <div class="tutorial-titlebar">
                 <span>💾 Welcome to 404 Memory Found</span>
@@ -2313,7 +2317,7 @@
 
     <!-- Desktop View -->
     <div class="desktop-container">
-        <h1 style="position: absolute; left: -9999px; top: -9999px;">404 Memory Found - Windows 95 Nostalgia Blog</h1>
+        <h1 style="position: absolute; left: -9999px; top: -9999px;">404 Memory Found: what happened to the tech, games, stores and websites of the 90s and 2000s</h1>
 
         <div class="desktop-area" id="desktop-area">
             <div class="selection-rect" id="selection-rect"></div>
@@ -2530,16 +2534,16 @@
                 </div>
                 <div class="window-content" style="font-size:13px;line-height:1.5;">
                     <h2 style="font-size:16px;margin-bottom:8px;">Privacy Policy</h2>
-                    <p style="font-size:11px;color:#666;margin-bottom:10px;">Last updated: March 2026</p>
+                    <p style="font-size:11px;color:#666;margin-bottom:10px;">Last updated: November 2026</p>
 
                     <h3 style="font-size:14px;margin:10px 0 4px 0;">What We Collect</h3>
-                    <p style="font-size:13px;margin-bottom:8px;">404 Memory Found is a nostalgia blog. We keep things simple. We collect anonymous visitor counts (no personal data attached), cookie preferences you set via our cookie banner, guestbook entries you voluntarily submit (name, email, message), and basic analytics through standard web server logs (IP address, browser type, pages visited).</p>
+                    <p style="font-size:13px;margin-bottom:8px;">404 Memory Found is a nostalgia blog. We keep things simple. We collect anonymous visitor counts, the cookie choice you make on our banner, guestbook entries you choose to submit (name, email, message), and usage statistics from Google Analytics (pages visited, time on page, browser and approximate location, never your name).</p>
 
                     <h3 style="font-size:14px;margin:10px 0 4px 0;">Cookies</h3>
-                    <p style="font-size:13px;margin-bottom:8px;">We use minimal cookies to remember your cookie consent preference, store local game leaderboard data (Pong), and remember if you've seen the welcome tutorial. No tracking cookies, no ad cookies, no third-party marketing cookies.</p>
+                    <p style="font-size:13px;margin-bottom:8px;">We use cookies and local storage to remember your cookie choice, your game scores and whether you have seen the welcome tutorial. Google Analytics sets cookies to count visits and measure which pages people read. Google AdSense, which shows the ads on this site, uses cookies to serve ads based on your visits to this and other websites. You can turn off personalized advertising at <a href="https://adssettings.google.com" rel="noopener" target="_blank" style="color:#0000ff;">Google Ads Settings</a> or visit <a href="https://www.aboutads.info" rel="noopener" target="_blank" style="color:#0000ff;">aboutads.info</a>. If you choose Decline on our cookie banner, analytics and ad storage are switched off and Google shows only non-personalized ads.</p>
 
                     <h3 style="font-size:14px;margin:10px 0 4px 0;">Third-Party Services</h3>
-                    <p style="font-size:13px;margin-bottom:8px;">We use Firebase Realtime Database to store Snake game leaderboard scores globally. When you submit a Snake score, your chosen display name and score are stored. We use CounterAPI for anonymous visitor counting. We use Unsplash for post images, which may load assets from their CDN.</p>
+                    <p style="font-size:13px;margin-bottom:8px;">We use Firebase Realtime Database to store Snake game leaderboard scores globally. When you submit a Snake score, your chosen display name and score are stored. We use CounterAPI for anonymous visitor counting. Post images come from Wikimedia Commons and are stored on this site. Google (Analytics and AdSense) processes data as described in <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank" style="color:#0000ff;">How Google uses information from sites that use its services</a>.</p>
 
                     <h3 style="font-size:14px;margin:10px 0 4px 0;">Your Data</h3>
                     <p style="font-size:13px;margin-bottom:8px;">We don't sell, trade, or share your personal information with anyone. Your guestbook entries are stored for display purposes only. You can request removal of your guestbook entry by emailing us.</p>
@@ -3777,13 +3781,22 @@
             }
         }
 
+        function setAdConsent(state) {
+            if (typeof gtag === 'function') {
+                gtag('consent', 'update', { analytics_storage: state, ad_storage: state, ad_user_data: state, ad_personalization: state });
+            }
+        }
+
         function acceptCookies() {
             localStorage.setItem('cookie-consent', 'accepted');
+            setAdConsent('granted');
             document.getElementById('cookie-banner').classList.remove('show');
         }
 
         function declineCookies() {
             localStorage.setItem('cookie-consent', 'declined');
+            setAdConsent('denied');
+            (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
             document.getElementById('cookie-banner').classList.remove('show');
         }
 
