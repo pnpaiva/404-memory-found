@@ -2,6 +2,456 @@
   "_description": "Pre-researched SEO topics for 404memoryfound.com, written to POST_SPEC.md (900 to 1,300 words). The writer routine takes the first pending entry in file order, except that when the number of posts in posts.json is a multiple of 5 it takes the first pending entry of 'buyer_intent' instead. Cross off topics as published.",
   "_last_updated": "2026-11-20",
   "_strategy": "Prioritized by search volume vs competition ratio. Tier 1 = high volume, very low long-form competition. Tier 2 = good volume, moderate competition but winnable with narrative depth. Tier 3 = niche authority builders with almost zero competition.",
+  "priority_0_winnable_gaps": [
+    {
+      "title": "Sears Wish Book Archive: Where to Read the Old Catalogs",
+      "slug": "sears-wish-book-archive-old-catalogs",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders",
+        "Then vs Now"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Results are Nerdist (archived), Wikipedia, eBay, a Newspapers.com blog, Collectors Weekly and Clickamericana; nobody gives one clear guide. Seasonal: publish before December. Answer these inside the post: When was the last Wish Book? Are old Sears catalogs worth anything? Where can you read the 1985 edition online? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "sears wish book",
+        "old sears christmas catalogs online",
+        "sears wish book archive",
+        "are old sears catalogs worth anything"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Tickle Me Elmo at 30: What a 1996 Original Is Worth Now",
+      "slug": "tickle-me-elmo-worth-1996-original",
+      "persona": "theo",
+      "tags": [
+        "Money & Tech",
+        "Then vs Now"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: hobbyDB (2024), Bustle (2015), AARP (2021), a gallery and eBay listings; no dated price table. The 30th anniversary is December 2026. Answer these inside the post: What did it cost in 1996? Which version is rarest? Why was there a craze? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "tickle me elmo worth",
+        "original tickle me elmo value",
+        "1996 tickle me elmo price"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "How to Get Pictures Off an Old Flip Phone in 2026",
+      "slug": "get-pictures-off-old-flip-phone",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Hardware"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Only Verizon Community threads, Tom's Guide forums, iFixit Answers and a spam page; no guide by model or method (USB cable, memory card, Bluetooth, MMS without service). Answer these inside the post: Can you do it without service? How do you get pictures off an old Razr? Can a repair shop recover them? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "how to get pictures off an old flip phone",
+        "transfer photos from old flip phone",
+        "get pictures off razr without service"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "How to Play Reader Rabbit, JumpStart and Math Blaster Today",
+      "slug": "play-jumpstart-reader-rabbit-math-blaster-today",
+      "persona": "theo",
+      "tags": [
+        "Software & Apps",
+        "Gaming"
+      ],
+      "format": "deep",
+      "angle": "Why it is winnable: Wikipedia, ClassicReload abandonware, MobyGames and Google Arts & Culture; nobody explains how to actually run them now. Answer these inside the post: Can you still play JumpStart (the studio closed in June 2023)? Does Reader Rabbit run on Windows 10? Who owns Math Blaster? Format: deep. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "how to play jumpstart games",
+        "reader rabbit windows 10",
+        "can you still play jumpstart",
+        "who owns math blaster"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Putt-Putt and Freddi Fish: How to Play Humongous Games Now",
+      "slug": "putt-putt-freddi-fish-play-today",
+      "persona": "theo",
+      "tags": [
+        "Gaming",
+        "Software & Apps"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Steam store pages, MobyGames reviews and ClassicReload; no guide comparing Steam, ScummVM and original discs. Answer these inside the post: Are they on Steam? Who owns Humongous now? Do they run in ScummVM? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "putt putt games",
+        "freddi fish games",
+        "humongous entertainment games steam",
+        "putt putt scummvm"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Can You Still Play LEGO Universe? The Fan Servers Explained",
+      "slug": "can-you-still-play-lego-universe",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Internet Culture"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Shutdown news from 2011 and 2012 (PC Gamer, GameSpot, Engadget, Kotaku); the fan revival only appears on TechRaptor and MMOs.com. Answer these inside the post: Why did it shut down? What is Darkflame Universe? Is Nexus Universe free? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "can you still play lego universe",
+        "lego universe fan server",
+        "darkflame universe"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Are Silly Bandz Worth Anything? What Rare Shapes Sell For",
+      "slug": "silly-bandz-worth-anything",
+      "persona": "theo",
+      "tags": [
+        "Money & Tech",
+        "Then vs Now"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: Only 2010 news (CBS, NPR, SheKnows, AOL) and Wikipedia; no prices anywhere. Answer these inside the post: Are Silly Bandz still made? Which shapes are rarest? Who invented them? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "are silly bandz worth anything",
+        "rare silly bandz",
+        "silly bandz value"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Hasbro VideoNow: What the Players and Discs Are Worth Now",
+      "slug": "hasbro-videonow-worth",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Money & Tech"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: eBay listings and Wikipedia only. Answer these inside the post: Can you still watch the discs? Which shows came out on VideoNow? Color vs XP: what changed? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "videonow",
+        "hasbro videonow value",
+        "videonow discs"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Yahoo Groups Archive: Can You Still Access Old Groups?",
+      "slug": "yahoo-groups-archive-access",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: The ArchiveTeam wiki, a LessWrong post, ARRL (2019) and Cambridge Day; no step-by-step. Answer these inside the post: When did Yahoo Groups close? How do you find a group on the Internet Archive? Did groups move to Groups.io? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "yahoo groups archive",
+        "can you still access yahoo groups",
+        "yahoo groups internet archive"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Warner Bros. Studio Store: What Happened to the Mall Shop",
+      "slug": "what-happened-to-warner-bros-studio-store",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Wikipedia and mirrors plus a short Boing Boing (2022); the rest is theme-park store news. Answer these inside the post: When did the stores close? Are the animation cels worth anything? Is any store left? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "warner bros studio store",
+        "what happened to warner bros studio store",
+        "warner bros studio store animation cels value"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Do They Still Make VCRs? Where to Buy One That Works",
+      "slug": "do-they-still-make-vcrs",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now",
+        "Hardware"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Capture.com (a digitizing company's sales blog) and 2016 'last VCR' news (NPR, CBS, Time, Mental Floss); nobody prices used decks. Answer these inside the post: Who made the last VCR? What is a working one worth? Are any new VHS players sold? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "do they still make vcrs",
+        "where to buy a vcr",
+        "working vcr price"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Are Webkinz Worth Anything? Retired Pets and Old Codes",
+      "slug": "webkinz-worth-anything",
+      "persona": "theo",
+      "tags": [
+        "Money & Tech",
+        "Internet Culture"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: A GoBankingRates listicle, Fox News (2007), a 2025 shopping piece and spam pages. Answer these inside the post: Do old codes still work? Is Webkinz Classic online? Which pet is rarest? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "are webkinz worth anything",
+        "retired webkinz value",
+        "do old webkinz codes work"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Are There Any Suncoast Video Stores Left? The 2026 Count",
+      "slug": "suncoast-video-stores-left",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: An iHeart radio post (2021), ScreenCrush, a Substack, Texas Monthly (2019) and Brostocks (2023); the counts conflict. Answer these inside the post: Who owns Suncoast? Where is the last store? Why did they close? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "suncoast video",
+        "suncoast stores left",
+        "is suncoast still open"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Service Merchandise: What Happened to the Catalog Showroom",
+      "slug": "what-happened-to-service-merchandise",
+      "persona": "dana",
+      "tags": [
+        "Business Blunders"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Wikipedia, Fox (2002), JCK trade pieces, NewsChannel5 (2022) and FundingUniverse; nobody covers who holds the name now. Answer these inside the post: When did it close? Is it coming back? How did the showrooms work? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "what happened to service merchandise",
+        "service merchandise catalog showroom",
+        "is service merchandise coming back"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Channel One News: What Happened to the TV in Every Classroom",
+      "slug": "what-happened-to-channel-one-news",
+      "persona": "dana",
+      "tags": [
+        "Music & Entertainment",
+        "Then vs Now"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: The NEPC blog, Cord Cutters (2018), Tedium (2019), EdWeek and Wikipedia. Answer these inside the post: When did it end? Which anchors started there (verify)? Did schools really get free TVs? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "channel one news",
+        "what happened to channel one news",
+        "channel one news anchors"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Prevue Channel: The Scrolling TV Guide and the Amiga Behind It",
+      "slug": "prevue-channel-scrolling-tv-guide",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Music & Entertainment"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Wikipedia (Pop/TVGN), NextTV trade archives, Atlas Obscura, a fan wiki and Blogspot. Answer these inside the post: When did the scroll stop? What computer ran it? Is Pop the old channel? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "prevue channel",
+        "prevue guide",
+        "tv guide channel amiga"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Can You Still Develop APS Film? Where to Send Advantix Rolls",
+      "slug": "can-you-still-develop-aps-film",
+      "persona": "theo",
+      "tags": [
+        "Then vs Now"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: A Unique Photo Q&A, 35mmc (2021), Amateur Photographer, the Photrio forum and Ken Rockwell. Answer these inside the post: What do the cartridge icons mean? What does it cost? Will 20-year-old rolls still develop? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "can you still develop aps film",
+        "advantix film developing",
+        "aps film processing cost"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Teddy Ruxpin Value: What a 1985 Bear Is Worth Now",
+      "slug": "teddy-ruxpin-value-1985",
+      "persona": "theo",
+      "tags": [
+        "Money & Tech",
+        "Then vs Now"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: A CollectInsure blog, an old IBTimes piece, eBay.de listings and a Benzinga list. Answer these inside the post: Is it still made? How do you fix one that won't talk? Which tapes came with it? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "teddy ruxpin value",
+        "original teddy ruxpin worth",
+        "1985 teddy ruxpin"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Talkboy From Home Alone 2: What One Is Worth Now",
+      "slug": "talkboy-home-alone-2-worth",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Money & Tech"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: eBay, Wikipedia, Mental Floss, BuzzFeed and CinemaBlend; no price table. Answer these inside the post: What did it cost in 1993? Is it still made? Did it exist before the movie? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "talkboy",
+        "talkboy value",
+        "talkboy home alone 2"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Gizmondo: The Handheld, the Ferrari Crash and What It's Worth",
+      "slug": "gizmondo-handheld-worth",
+      "persona": "marcus",
+      "tags": [
+        "Hardware",
+        "Business Blunders"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: Wikipedia, GiantBomb, TV Tropes, old Gizmodo and Game Developer news and a 2010 Time list. Answer these inside the post: How many sold? What is one worth now? Who was behind it? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "gizmondo",
+        "gizmondo value",
+        "gizmondo ferrari crash"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Kodak Gallery: What Happened to It and How to Find Old Photos",
+      "slug": "kodak-gallery-find-old-photos",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Software & Apps"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: Wikipedia and 2012 news (Engadget, Gizmodo, Computerworld, ABC7, Imaging Resource). Answer these inside the post: Did the photos go to Shutterfly? Can you still download them? What was Ofoto? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "kodak gallery photos",
+        "what happened to kodak gallery",
+        "kodak gallery shutterfly"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Electronics Boutique: What Happened to EB Games in the US",
+      "slug": "what-happened-to-electronics-boutique",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Business Blunders"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: An AnandTech forum thread, Global News (2014, Canada), FundingUniverse and a CE Pro listicle. Answer these inside the post: When did it become GameStop? Does EB Games still exist? Who founded it? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "what happened to electronics boutique",
+        "eb games us",
+        "electronics boutique gamestop merger"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Are AOL CDs Worth Anything? What Collectors Pay Now",
+      "slug": "aol-cds-worth-anything",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Money & Tech"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: Vice (2015), Smithsonian (2015), Engadget (2017), Physics Forums and a mailing list. Answer these inside the post: How many were made? Why so many? Can you still use one? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "are aol cds worth anything",
+        "aol cd value",
+        "aol free trial cd collection"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Is Poptropica Still Around? Where to Play It Now",
+      "slug": "is-poptropica-still-around",
+      "persona": "dana",
+      "tags": [
+        "Internet Culture",
+        "Gaming"
+      ],
+      "format": "quick",
+      "angle": "Why it is winnable: A fan blog, ABC10, a Sportskeeda fact-check, Den of Geek and the Coolmath blog. Answer these inside the post: Did it shut down? Do old accounts still work? Who made it? Format: quick. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "is poptropica still around",
+        "poptropica 2026",
+        "can you still play poptropica"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    },
+    {
+      "title": "Can You Still Play Toontown? Rewritten, Clash and More",
+      "slug": "can-you-still-play-toontown",
+      "persona": "marcus",
+      "tags": [
+        "Gaming",
+        "Internet Culture"
+      ],
+      "format": "standard",
+      "angle": "Why it is winnable: A PC Gamer feature (2023), a fan wiki, RetroHandhelds (2025) and TechRaptor; none compares the servers or gives steps. Answer these inside the post: Is Toontown Rewritten free? Is it legal? When did Disney close Toontown? Format: standard. Verify every date, price and count against a source; price tables use completed sales, dated.",
+      "target_keywords": [
+        "can you still play toontown",
+        "toontown rewritten",
+        "toontown clash"
+      ],
+      "status": "pending",
+      "source": "serp-gap-2026-11-20"
+    }
+  ],
   "priority_0_search_console": [
     {
       "title": "Who Owns Gymboree Now? All Stores Closing in 2026",

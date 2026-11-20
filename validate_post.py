@@ -18,6 +18,8 @@ TAGS = {"Business Blunders", "Hardware", "Internet Culture", "Gaming", "Software
 FORMATS = {"quick": (550, 850, 3, 4), "standard": (900, 1400, 4, 6), "deep": (1600, 2400, 6, 9)}
 DASHES = ("—", "–")
 BRAND = "404 Memory Found"
+# A title that answers its own question gets impressions and no clicks ("Is X Still Around? Yes, Online Only").
+VERDICT = re.compile(r"[?:]\s*(Yes|No|Nope|Yep|Only|Not|Gone|Closed|Dead|Sort of|Mostly|Partly)\b|\b(Yes|No),", re.I)
 
 
 def load():
@@ -33,6 +35,8 @@ def check_seo(p, errs):
         errs.append(f"seo.description must be 128 to 160 characters (now {len(d)})")
     if any(c in t + d for c in DASHES):
         errs.append("em or en dash in seo fields")
+    if VERDICT.search(t):
+        errs.append("seo.title gives the answer away (a Yes/No/Only verdict); put the promise there instead")
 
 
 def check_post(posts, slug, mode):
@@ -102,6 +106,8 @@ def check_post(posts, slug, mode):
         errs.append("needs image or imageSearch")
     if not p.get("summary") or not p.get("facts"):
         errs.append("summary and facts are required")
+    if mode in ("new", "upgrade") and "<table" not in b:
+        errs.append("needs at least one <table> (prices, versions, timeline or stores left; see Tables in POST_SPEC.md)")
     if mode in ("upgrade", "fresh") and not p.get("updated"):
         errs.append("set 'updated' to today")
     return errs

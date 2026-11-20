@@ -1173,7 +1173,12 @@ def build_brand_index_page(ctx, posts):
     schema = {"@context": "https://schema.org", "@type": "Dataset",
               "name": "The dead brand index", "url": url,
               "description": f"What happened to {len(rows)} companies, stores, gadgets and websites of the 1990s and 2000s, and who owns each name in 2026.",
-              "creator": {"@id": ORG_ID}, "isAccessibleForFree": True,
+              # Google's Dataset report wants a typed creator and a license; the page already grants reuse with credit,
+              # which is CC BY 4.0, and saying so in the markup is what lets Dataset Search list it.
+              "creator": {"@type": "Organization", "@id": ORG_ID, "name": BLOG_NAME, "url": BASE_URL + "/"},
+              "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": True,
+              "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE_URL + "/dead-brand-index.csv"},
+                               {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE_URL + "/dead-brand-index.json"}],
               "keywords": ["defunct brands", "dead retail chains", "who owns it now", "1990s companies", "2000s websites"]}
     head = head_html(ctx, title=f"The Dead Brand Index: {len(rows)} Companies and What Happened to Them | {BLOG_NAME}",
                      canonical=url,
@@ -1397,8 +1402,16 @@ def build_index_html(ctx, posts):
 def build_sitemap(posts, tags, authors, today):
     latest = posts[0]["date"] if posts else today
 
-    def url(loc, lastmod, freq, prio):
-        return f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>\n"
+    def url(loc, lastmod, freq, prio, images=()):
+        imgs = "".join(f"    <image:image><image:loc>{BASE_URL}{i}</image:loc></image:image>\n" for i in images)
+        return f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n{imgs}  </url>\n"
+
+    def post_images(p):
+        """Self-hosted photos on the page, so Google Images can index them: people search for pictures of old
+        gadgets, and an image result is a click from a real person."""
+        found = ([p["heroLocal"]] if p.get("heroLocal") and "<img" not in p["body"] else []) + \
+            re.findall(r'<img[^>]+src="(/img/[^"]+)"', p["body"])
+        return list(dict.fromkeys(found))[:6]
 
     body = url(f"{BASE_URL}/", latest, "daily", "1.0")
     body += url(f"{BASE_URL}/posts/", latest, "daily", "0.9")
@@ -1407,13 +1420,14 @@ def build_sitemap(posts, tags, authors, today):
         tagged = [p for p in posts if t in p["tags"]]
         body += url(f"{BASE_URL}/tags/{tag_slug(t)}.html", tagged[0]["date"] if tagged else latest, "weekly", "0.7")
     for p in posts:
-        body += url(p["url"], p.get("updated") or p["date"], "monthly", "0.8")
+        body += url(p["url"], p.get("updated") or p["date"], "monthly", "0.8", post_images(p))
     for key in authors:
         mine = [p for p in posts if p["authorKey"] == key]
         body += url(f"{BASE_URL}/authors/{key}.html", mine[0]["date"] if mine else latest, "weekly", "0.4")
     for page in ("about.html", "contact.html", "privacy.html", "terms.html"):
         body += url(f"{BASE_URL}/{page}", latest, "yearly", "0.3")
-    return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n"
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' + body + "</urlset>\n")
 
 
 def build_feed(posts):

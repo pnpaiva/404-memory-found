@@ -37,7 +37,7 @@ One post answers one search query completely, so that Google can lift the answer
 | Headings | No `<h2>` may restate the title. The first section starts on new ground |
 | Sources | 3 to 5 links to primary or reputable sources (company filings, court records, contemporary news, museums, Wikipedia only as a fallback). Rendered as a Sources list. Every specific number in the post must trace to one of them |
 | Affiliate hook | For products that still trade second-hand, one short "Where to find one today" paragraph with typical prices and exactly one plain link to the partner that fits, chosen from `AFFILIATES.md`: Etsy for toys, ephemera and artifacts; Stone Age Gamer or Anbernic for consoles and handhelds; GOG or Humble Bundle for PC games; Legacybox for tapes and camcorder formats; ScanMyPhotos for prints and negatives. Never eBay. Link the merchant's search or category page, not a listing that will vanish. `build.py` adds the tracking and the disclosure when an id is configured; never quote a commission rate in copy |
-| Status questions | Every post about a company, product or service answers, explicitly and early, the questions Search Console shows people typing: is it still around in 2026, who owns it now, how many are left or what it costs today, and what replaced it. One of those belongs in the summary, one in a section heading, one in the quick facts ("Owner today", "Stores left", "Status"), one in the FAQ |
+| Status questions | Every post about a company, product or service answers, explicitly and early, the questions Search Console shows people typing: is it still around in 2026, who owns it now, how many are left or what it costs today, and what replaced it. One of those belongs in the summary, one in a section heading, one in the quick facts ("Owner today", "Stores left", "Status"), one in the FAQ. **One status page per brand.** When the archive already has a post whose job is the brand's status ("Is X still around", "Who owns X now"), that post is the primary page: every other post about the same brand (a product, a story, a merger) leaves out the status heading, the status FAQ and the status keywords, and links to the primary page in one sentence instead. Two posts chasing the same status query split the clicks and Google ranks neither. Check posts.json for the brand before writing |
 | Audience | Readers in the United States first, then the UK, Canada and Australia. Write for them: US spelling, prices in US dollars with the year, US retailers and the partner shops in `AFFILIATES.md` for 'where to find one today', US launch dates when they differ from Japan or Europe. Subjects must have had a real presence in those markets; a product or site that was big only in Brazil, India or continental Europe does not belong, however nostalgic it is |
 | Buyer-intent posts | About one post in five answers a buying or doing question ("How to digitize VHS tapes in 2026", "Best way to play Genesis games today", "How to run 90s PC games on Windows 11"). Same shape, same sourcing rules, one link per partner named, the disclosure rendered by the build. The recommendation must be honest: name the DIY route and its cost before the paid service |
 | Link phrases | `linkPhrases` holds 1 to 3 short names of this post's own subject (for example ["Sears", "Sears Holdings"]); the build links the first mention of those names in other posts back here. It is never the anchor text of the links you wrote to other posts. Each phrase must appear in your own title or slug |
@@ -97,6 +97,18 @@ Where winnable demand lives:
 - **Second-tier brands.** "What happened to X" and "who owns X now" for companies, websites, toy lines
   and gadgets that were famous to one generation but are not national news anymore.
 - **Dated moments.** Anniversaries and news, handled by the freshness desk on existing posts.
+
+## Tables (the pages that outrank us have them; 229 of our first 232 posts did not)
+
+Every new or upgraded post carries at least one `<table>` with real rows, because a table is what a reader
+scans for first and what Google lifts into results. Pick the one the subject supports:
+- a value post: sold prices by model and condition (see Price guides);
+- a product: every version or model, with year, launch price and what changed;
+- a company or store: a dated timeline (founded, peak, the deal, the closing) or a dated list of the
+  stores that are left, with city and the date checked;
+- a how-to-today post: what works where (platform, version, cost, catch).
+Keep tables to 3 to 5 columns so they read on a phone. Every figure in a table needs a listed source and,
+for anything that changes (prices, store counts), the month and year it describes.
 
 ## Price guides
 

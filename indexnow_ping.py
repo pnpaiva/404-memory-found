@@ -31,7 +31,10 @@ def sitemap_urls():
 def recent_post_urls(days):
     posts = json.load(open(os.path.join(ROOT, "posts.json"), encoding="utf-8"))["posts"]
     cutoff = str(date.today() - timedelta(days=days))
-    return [f"https://{HOST}/posts/{p['id']}.html" for p in posts if p["date"] >= cutoff]
+    # New posts, and posts whose page changed: an upgrade, a freshness update or a new title and description.
+    def changed(p):
+        return max(p["date"], p.get("updated") or "", p.get("upgraded") or "", p.get("ctrRewrite") or "")
+    return [f"https://{HOST}/posts/{p['id']}.html" for p in posts if changed(p) >= cutoff]
 
 
 def main():

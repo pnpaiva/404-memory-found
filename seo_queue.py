@@ -9,8 +9,9 @@ Which existing post the upgrade desk should improve next.
 Order of the queue:
   1. pages Google already shows (seo/search-console.json) at positions 3 to 35 with 3+ impressions,
      most impressions first: they are one good rewrite away from the first page;
-  2. pages Google crawled and refused to index: a quality verdict, so they need real improvement;
-  3. everything else that has never been upgraded, posts without an in-body photo first, oldest first.
+  2. pages with an entry in seo/upgrade-notes.json (search-results gaps, posts competing with each other);
+  3. pages Google crawled and refused to index: a quality verdict, so they need real improvement;
+  4. everything else that has never been upgraded, posts without an in-body photo first, oldest first.
 A post counts as upgraded when its "upgraded" field is set; it can come back after RECHECK_DAYS.
 """
 
@@ -27,6 +28,8 @@ def load():
     posts = json.load(open(os.path.join(ROOT, "posts.json"), encoding="utf-8"))["posts"]
     path = os.path.join(ROOT, "seo", "search-console.json")
     gsc = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    npath = os.path.join(ROOT, "seo", "upgrade-notes.json")
+    gsc["_notes"] = json.load(open(npath, encoding="utf-8")).get("notes", {}) if os.path.exists(npath) else {}
     return posts, gsc
 
 
@@ -49,12 +52,27 @@ def queue():
     pages = [r for r in gsc.get("pages", []) if r[0] in by and r[2] >= 3 and 3 <= r[3] <= 35]
     for slug, clicks, imp, pos in sorted(pages, key=lambda r: -r[2]):
         add(slug, f"in search: {imp} impressions at position {pos}, {clicks} clicks", qmap.get(slug, ()))
+    for slug, n in gsc["_notes"].items():
+        add(slug, f"upgrade note ({n.get('source', 'notes')})", qmap.get(slug, ()))
     for slug in gsc.get("crawled_not_indexed", []):
         add(slug, "crawled but not indexed: Google judged it not good enough yet", qmap.get(slug, ()))
     rest = sorted(posts, key=lambda p: ("<figure" in p["body"], p.get("updated") or p["date"]))
     for p in rest:
         add(p["id"], "not upgraded yet" + ("" if "<figure" in p["body"] else ", no in-body photo"))
     return out, by
+
+
+def print_note(slug):
+    note = load()[1]["_notes"].get(slug)
+    if not note:
+        return
+    print("  UPGRADE NOTE (apply it, verify every fact, then delete this entry from seo/upgrade-notes.json):")
+    for key in ("fix_first", "retarget", "primary", "competition", "note"):
+        if note.get(key):
+            print(f"    {key}: {note[key]}")
+    for key in ("do", "add", "cut", "questions"):
+        for item in note.get(key, []):
+            print(f"    {key}: {item}")
 
 
 def main():
@@ -69,6 +87,7 @@ def main():
         print(f"{slug}\n  title: {p['title']}\n  why: {reason}")
         if queries:
             print("  queries it is tested for (average position): " + "; ".join(queries))
+        print_note(slug)
     elif cmd == "list":
         n = int(sys.argv[2]) if len(sys.argv) > 2 else 15
         for slug, reason, _ in items[:n]:
