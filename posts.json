@@ -348,7 +348,8 @@
           "barnes and noble funco acquisition"
         ]
       },
-      "ctrRewrite": "2026-11-20"
+      "ctrRewrite": "2026-11-20",
+      "indexName": "FuncoLand"
     },
     {
       "id": "who-owns-shop-com-now",
@@ -382,6 +383,10 @@
         {
           "label": "Status today",
           "value": "Home of Shopify's Shop service, moved from shop.app"
+        },
+        {
+          "label": "Launched",
+          "value": "June 2005, when CatalogCity renamed itself Shop.com"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/ShopifyTorontoOffice.jpg",
@@ -418,6 +423,10 @@
         {
           "title": "AI.com domain sells for $70 million (The Register, February 2026)",
           "url": "https://www.theregister.com/2026/02/09/70m_aicom_domain_sale/"
+        },
+        {
+          "title": "Chief Marketer: CatalogCity coming out as Shop.com",
+          "url": "https://chiefmarketer.com/live-from-shop-org-catalogcity-coming-out-as-shop-com/"
         }
       ],
       "linkPhrases": [
@@ -647,6 +656,10 @@
         {
           "label": "Status today",
           "value": "Will not connect to any US network; used units ask about $45 to $140"
+        },
+        {
+          "label": "Owner today",
+          "value": "Motorola Mobility (Lenovo), via Motorola Trademark Holdings"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/MotorolaStarTAC.jpg/960px-MotorolaStarTAC.jpg",
@@ -679,6 +692,10 @@
         {
           "title": "T-Mobile: Network Evolution, 2G GSM retirement",
           "url": "https://www.t-mobile.com/support/coverage/t-mobile-network-evolution"
+        },
+        {
+          "title": "Markinton: StarTAC trademark record",
+          "url": "https://markinton.com/trademark/startac-85954173"
         }
       ],
       "linkPhrases": [
@@ -808,6 +825,10 @@
         {
           "label": "Status today",
           "value": "Out of production; used PRO Duo cards run about $12 to $24"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sony"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sony_Memory_Stick_Pro_Duo_4GB.jpg/960px-Sony_Memory_Stick_Pro_Duo_4GB.jpg",
@@ -1023,7 +1044,8 @@
           "winzip free trial",
           "winzip 29 perpetual license"
         ]
-      }
+      },
+      "indexName": "WinZip"
     },
     {
       "id": "who-owns-travelocity-now",
@@ -1106,7 +1128,8 @@
           "who bought travelocity",
           "travelocity expedia same company"
         ]
-      }
+      },
+      "indexName": "Travelocity"
     },
     {
       "id": "nintendo-64-value-used-prices",
@@ -1139,6 +1162,10 @@
         {
           "label": "Price today",
           "value": "About $65 to $90 loose, $202 to $246 complete in box"
+        },
+        {
+          "label": "Owner today",
+          "value": "Nintendo"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/960px-N64-Console-Set.png",
@@ -1190,7 +1217,8 @@
           "nintendo 64 console price used"
         ]
       },
-      "updated": "2026-11-12"
+      "updated": "2026-11-12",
+      "indexName": "Nintendo 64"
     },
     {
       "id": "flip-video-camcorder-cisco-shutdown",
@@ -1274,7 +1302,8 @@
           "does flip video still exist"
         ]
       },
-      "updated": "2026-11-11"
+      "updated": "2026-11-11",
+      "indexName": "Flip Video"
     },
     {
       "id": "pogs-worth-anything-collector-prices",
@@ -1307,6 +1336,10 @@
         {
           "label": "Price today",
           "value": "$119.99 for the official Authentic POG Hobby Box of 12 packs"
+        },
+        {
+          "label": "Launched",
+          "value": "1971 as Haleakala Dairy's POG juice; caps craze from 1991"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/A_game_of_Pogs_%28210633403%29.jpg/1280px-A_game_of_Pogs_%28210633403%29.jpg",
@@ -1333,6 +1366,10 @@
         {
           "title": "World POG Federation official store: The Authentic POG Hobby Box",
           "url": "https://pogunlimited.com/products/contains-12-packs"
+        },
+        {
+          "title": "Wikipedia: Milk caps (game)",
+          "url": "https://en.wikipedia.org/wiki/Milk_caps_(game)"
         }
       ],
       "linkPhrases": [
@@ -1552,6 +1589,10 @@
         {
           "label": "What replaced it",
           "value": "Verizon Business, the unit Verizon built around the former MCI operations"
+        },
+        {
+          "label": "Founded",
+          "value": "October 3, 1963, as Microwave Communications, Inc."
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Maintenance_Hole_Cover_World_Com_Cable_%28DSC_1082%29.jpg",
@@ -1584,6 +1625,10 @@
         {
           "title": "Florida Public Service Commission document 03694-2026: MCI Communications Services discontinuance application (filed June 23, 2026)",
           "url": "https://www.psc.state.fl.us/library/filings/2026/03694-2026/03694-2026.pdf"
+        },
+        {
+          "title": "Wikipedia: MCI Communications",
+          "url": "https://en.wikipedia.org/wiki/MCI_Communications"
         }
       ],
       "linkPhrases": [
@@ -1638,6 +1683,10 @@
         {
           "label": "Status today",
           "value": "Discontinued 1997; $567 to $1,020 loose, AES+ reissue $249.99 due September 16, 2027"
+        },
+        {
+          "label": "Owner today",
+          "value": "SNK, owned by Saudi Arabia's EGDC (Misk Foundation) since 2022"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Neo-Geo-CD-TopLoader-wController-FL.jpg/960px-Neo-Geo-CD-TopLoader-wController-FL.jpg",
@@ -1670,6 +1719,10 @@
         {
           "title": "Neo Geo AES Prices and Value Guide (SportsCardPro)",
           "url": "https://www.sportscardpro.com/console/neo-geo-aes"
+        },
+        {
+          "title": "Wikipedia: SNK",
+          "url": "https://en.wikipedia.org/wiki/SNK"
         }
       ],
       "linkPhrases": [
@@ -1723,6 +1776,10 @@
         {
           "label": "Owner today",
           "value": "Sprint Communications, part of T-Mobile; marks upheld in 2024"
+        },
+        {
+          "label": "Founded",
+          "value": "1987, as Fleet Call; renamed Nextel in 1993"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nextel.jpg/960px-Nextel.jpg",
@@ -1755,6 +1812,10 @@
         {
           "title": "Sprint Communications LLC v. Retrobrands USA, LLC, No. 22-11717 (11th Cir. April 4, 2024)",
           "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/22-11717/22-11717-2024-04-04.html"
+        },
+        {
+          "title": "Wikipedia: Nextel Communications",
+          "url": "https://en.wikipedia.org/wiki/Nextel_Communications"
         }
       ],
       "linkPhrases": [
@@ -1809,6 +1870,10 @@
         {
           "label": "Status today",
           "value": "Defunct. Flooz.Com, Inc. was liquidated; the case closed in 2012"
+        },
+        {
+          "label": "Owner today",
+          "value": "No one: Flooz.Com was liquidated and its mark cancelled in 2008"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Whoopi_Goldberg_in_2024_%28cropped%29.jpg/1280px-Whoopi_Goldberg_in_2024_%28cropped%29.jpg",
@@ -1835,6 +1900,10 @@
         {
           "title": "US Bankruptcy Court, S.D.N.Y.: Flooz.Com, Inc., case 1:01-bk-14833",
           "url": "https://www.inforuptcy.com/browse-filings/new-york-southern-bankruptcy-court/1:01-bk-14833/bankruptcy-case-floozcom-inc"
+        },
+        {
+          "title": "Justia Trademarks: Flooz.com, Inc. records",
+          "url": "https://trademarks.justia.com/owners/flooz-com-inc-979209"
         }
       ],
       "linkPhrases": [
@@ -1887,6 +1956,10 @@
         {
           "label": "Console price today",
           "value": "About $300 for a working console in 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Philips (Koninklijke Philips N.V.)"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Philips_CD-i_450_Tietokonemuseo.JPG/960px-Philips_CD-i_450_Tietokonemuseo.JPG",
@@ -1931,6 +2004,10 @@
         {
           "title": "MiSTer FPGA Forum: CD-i Core, Digital Video Cartridge Games",
           "url": "https://misterfpga.org/viewtopic.php?t=9700"
+        },
+        {
+          "title": "Wikipedia: Philips CD-i",
+          "url": "https://en.wikipedia.org/wiki/Philips_CD-i"
         }
       ],
       "linkPhrases": [
@@ -2156,6 +2233,10 @@
         {
           "label": "Peak",
           "value": "About 45 million US paging subscribers in 1998"
+        },
+        {
+          "label": "Launched",
+          "value": "1949, Al Gross patents the first telephone pager system"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Motorola_Advisor_Pager_%285005138640%29.jpg/960px-Motorola_Advisor_Pager_%285005138640%29.jpg",
@@ -2188,6 +2269,10 @@
         {
           "title": "Opinion: Whatever happened to paging?, Computerworld",
           "url": "https://www.computerworld.com/article/1586613/opinion-whatever-happened-to-paging.html"
+        },
+        {
+          "title": "Wikipedia: Pager",
+          "url": "https://en.wikipedia.org/wiki/Pager"
         }
       ],
       "linkPhrases": [
@@ -2408,6 +2493,10 @@
         {
           "label": "Status today",
           "value": "Dead. Discontinued June 16, 1999; no disc has played since June 30, 2001"
+        },
+        {
+          "label": "Owner today",
+          "value": "No one for the disc format; DivX LLC holds DIVX for its codec"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2009-02-26_Circuit_City_store_closing_everything_must_go.jpg/1280px-2009-02-26_Circuit_City_store_closing_everything_must_go.jpg",
@@ -2440,6 +2529,10 @@
         {
           "title": "DIVX, Wikipedia",
           "url": "https://en.wikipedia.org/wiki/DIVX"
+        },
+        {
+          "title": "Justia Trademarks: DIVX Digital Video Express record",
+          "url": "https://trademark.justia.com/753/67/divx-digital-video-express-75367710.html"
         }
       ],
       "linkPhrases": [
@@ -2492,6 +2585,10 @@
         {
           "label": "Status today",
           "value": "Discontinued since 1999, second-hand only, no reissue"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sega, part of Sega Sammy Holdings"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sega-Nomad-Front.jpg/960px-Sega-Nomad-Front.jpg",
@@ -2661,6 +2758,10 @@
         {
           "label": "Last government mandate",
           "value": "Japan scrapped its final floppy disk rule on June 28, 2024"
+        },
+        {
+          "label": "Launched",
+          "value": "1971, IBM's 8-inch floppy disk"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2023_Dyskietki_Verbatim_DataLifePlus.jpg",
@@ -2693,6 +2794,10 @@
         {
           "title": "Japan's digital minister claims victory against floppy disks (The Register, 2024)",
           "url": "https://www.theregister.com/2024/07/03/japan_floppy_disk_victory"
+        },
+        {
+          "title": "Wikipedia: Floppy disk",
+          "url": "https://en.wikipedia.org/wiki/Floppy_disk"
         }
       ],
       "linkPhrases": [
@@ -3081,6 +3186,10 @@
         {
           "label": "Cost of a call",
           "value": "50 cents on Verizon payphones from September 2001, up from 35 cents"
+        },
+        {
+          "label": "Launched",
+          "value": "1889, a coin phone at the Hartford Bank in Connecticut"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1C_Payphone_-_Bell_System%2C_Made_by_Western_Electric%2C_July_1979.png/960px-1C_Payphone_-_Bell_System%2C_Made_by_Western_Electric%2C_July_1979.png",
@@ -3113,6 +3222,10 @@
         {
           "title": "Verizon: New York Is Last State to See Payphone Price Change (2001)",
           "url": "https://www.verizon.com/about/news/press-releases/new-york-last-state-see-payphone-price-change"
+        },
+        {
+          "title": "Wikipedia: Payphone",
+          "url": "https://en.wikipedia.org/wiki/Payphone"
         }
       ],
       "linkPhrases": [
@@ -4668,6 +4781,10 @@
         {
           "label": "Status today",
           "value": "A licensed brand selling through sharperimage.com, a catalog and other retailers, with the Axis 4D massage chair listed at $6,999 in 2026"
+        },
+        {
+          "label": "Founded",
+          "value": "1977, by Richard Thalheimer in San Francisco"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/CES_2012_-_The_Sharper_Image_chargers_%286764179245%29.jpg/1280px-CES_2012_-_The_Sharper_Image_chargers_%286764179245%29.jpg",
@@ -4699,6 +4816,10 @@
         {
           "title": "Iconix Sells Sharper Image to Licensee ThreeSixty Group, Licensing International (2016)",
           "url": "https://licensinginternational.org/news/iconix-sells-sharper-image-to-licensee-threesixty-group/"
+        },
+        {
+          "title": "Wikipedia: Sharper Image",
+          "url": "https://en.wikipedia.org/wiki/Sharper_Image"
         }
       ],
       "linkPhrases": [
@@ -4834,6 +4955,10 @@
         {
           "label": "What replaced it",
           "value": "Game Boy Advance SP in 2003, and the $239.99 Analogue Pocket in 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Nintendo"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Game_Boy.jpg",
@@ -4917,6 +5042,10 @@
         {
           "label": "US homes on dial-up",
           "value": "163,401 households reported dial-up as their only internet subscription in 2023 (Census Bureau)"
+        },
+        {
+          "label": "Launched",
+          "value": "1989, The World, the first commercial dial-up ISP in the US"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/US_Robotics_56K_Modem_Front.JPG/960px-US_Robotics_56K_Modem_Front.JPG",
@@ -4949,6 +5078,10 @@
         {
           "title": "B. Riley Financial Announces Corporate Name Change to BRC Group Holdings, Inc. (press release, November 2025)",
           "url": "https://www.prnewswire.com/news-releases/b-riley-financial-announces-corporate-name-change-to-brc-group-holdings-inc-302612089.html"
+        },
+        {
+          "title": "Wikipedia: Dial-up Internet access",
+          "url": "https://en.wikipedia.org/wiki/Dial-up_Internet_access"
         }
       ],
       "linkPhrases": [
@@ -5084,6 +5217,10 @@
         {
           "label": "Status today",
           "value": "Closed since September 29, 2023. DVDInbox mails discs instead, from $9.99 a month in 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Netflix, Inc."
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Netflix_envelope_%282655128664%29.jpg/1280px-Netflix_envelope_%282655128664%29.jpg",
@@ -5116,6 +5253,10 @@
         {
           "title": "Media Play News: DVDInbox Carries On the Rental-by-Mail Legacy of Netflix",
           "url": "https://www.mediaplaynews.com/dvdinbox-carries-on-the-rental-by-mail-legacy-of-netflix/"
+        },
+        {
+          "title": "Wikipedia: Netflix",
+          "url": "https://en.wikipedia.org/wiki/Netflix"
         }
       ],
       "linkPhrases": [
@@ -5329,6 +5470,10 @@
         {
           "label": "Owner today",
           "value": "Nokia Corporation, Espoo, Finland, a network equipment maker with EUR 4.81 billion in Q2 2026 net sales"
+        },
+        {
+          "label": "Founded",
+          "value": "May 12, 1865, as a pulp mill near Tampere, Finland"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nokia_3310_grey_front_%28tidied_and_enhanced%29.jpg/960px-Nokia_3310_grey_front_%28tidied_and_enhanced%29.jpg",
@@ -5361,6 +5506,10 @@
         {
           "title": "Nokia factsheet, Q2 2026 (Nokia Corporation, July 2026)",
           "url": "https://www.nokia.com/system/files/2026-07/nokia_factsheet_2026_q2.pdf"
+        },
+        {
+          "title": "Wikipedia: Nokia",
+          "url": "https://en.wikipedia.org/wiki/Nokia"
         }
       ],
       "linkPhrases": [
@@ -5582,6 +5731,10 @@
         {
           "label": "Closing in 2026",
           "value": "Six stores, nearly all at the end of a lease"
+        },
+        {
+          "label": "Founded",
+          "value": "1886, as Arthur Hinds & Company in New York City"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Barnes_%26_Noble_Bookstore_-_panoramio.jpg/960px-Barnes_%26_Noble_Bookstore_-_panoramio.jpg",
@@ -5618,6 +5771,10 @@
         {
           "title": "Bloomberg: Elliott said to tap banks to run Barnes & Noble's London IPO (May 2026)",
           "url": "https://www.bloomberg.com/news/articles/2026-05-07/elliott-said-to-pick-banks-to-run-barnes-noble-s-london-ipo"
+        },
+        {
+          "title": "Wikipedia: Barnes & Noble",
+          "url": "https://en.wikipedia.org/wiki/Barnes_%26_Noble"
         }
       ],
       "linkPhrases": [
@@ -5670,6 +5827,14 @@
         {
           "label": "Cheapest licensed alternative",
           "value": "Nintendo Switch Online at $19.99 a year for Game Boy, or $49.99 a year with the Expansion Pack for Game Boy Advance"
+        },
+        {
+          "label": "Founded",
+          "value": "2017, in Shenzhen; first RG handheld in November 2017"
+        },
+        {
+          "label": "Owner today",
+          "value": "Shenzhen YangLiMing Electronic Technology, its trademark holder"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Anbernic_RG40XX.jpg",
@@ -5702,6 +5867,14 @@
         {
           "title": "Compare Nintendo Switch Online membership plans, Nintendo official site",
           "url": "https://www.nintendo.com/us/online/compare-memberships/"
+        },
+        {
+          "title": "Anbernic: About us",
+          "url": "https://anbernic.com/pages/about-us"
+        },
+        {
+          "title": "Wikipedia: Anbernic",
+          "url": "https://en.wikipedia.org/wiki/Anbernic"
         }
       ],
       "linkPhrases": [
@@ -6384,7 +6557,8 @@
           "56k modem sound"
         ]
       },
-      "updated": "2026-09-30"
+      "updated": "2026-09-30",
+      "indexName": ""
     },
     {
       "id": "who-owns-yahoo-now",
@@ -6417,6 +6591,10 @@
         {
           "label": "Status today",
           "value": "Private and operating in 2026: Yahoo Finance, Yahoo Mail, Yahoo Sports, Yahoo News, Yahoo Search and the Scout answer engine"
+        },
+        {
+          "label": "Founded",
+          "value": "January 1994, as Jerry and David's Guide to the World Wide Web"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Yahoo_Headquarters.jpg",
@@ -6449,6 +6627,10 @@
         {
           "title": "Introducing Yahoo Scout, a New AI Answer Engine, Yahoo Inc., January 2026",
           "url": "https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine"
+        },
+        {
+          "title": "Wikipedia: Yahoo",
+          "url": "https://en.wikipedia.org/wiki/Yahoo"
         }
       ],
       "linkPhrases": [
@@ -6500,6 +6682,10 @@
         {
           "label": "Best new hardware option",
           "value": "Clone consoles with real cartridge slots and HDMI output, still manufactured in 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sega, part of Sega Sammy Holdings"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Sega-Genesis-Mod1-Set.jpg",
@@ -6532,6 +6718,10 @@
         {
           "title": "Nintendo Switch Online + Expansion Pack, Nintendo official site",
           "url": "https://www.nintendo.com/us/online/nintendo-switch-online/expansion-pack/"
+        },
+        {
+          "title": "Wikipedia: Sega Genesis",
+          "url": "https://en.wikipedia.org/wiki/Sega_Genesis"
         }
       ],
       "linkPhrases": [
@@ -6811,7 +7001,8 @@
           "betamax price 1976"
         ]
       },
-      "updated": "2026-09-27"
+      "updated": "2026-09-27",
+      "indexName": "Betamax"
     },
     {
       "id": "who-owns-napster-now",
@@ -6845,6 +7036,10 @@
         {
           "label": "Status today",
           "value": "Music streaming shut down January 1, 2026; the company now sells AI agents at about one cent a minute"
+        },
+        {
+          "label": "Launched",
+          "value": "June 1, 1999, by Shawn Fanning and Sean Parker"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Shawn_Fanning%2C_Joi_Ito.jpg",
@@ -6877,6 +7072,10 @@
         {
           "title": "SEC litigation release LR-26563: SEC v. Charles J. Cole and Torben M. Welch (2026)",
           "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26563"
+        },
+        {
+          "title": "Wikipedia: Napster",
+          "url": "https://en.wikipedia.org/wiki/Napster"
         }
       ],
       "linkPhrases": [
@@ -6979,7 +7178,8 @@
           "do vhs tapes go bad"
         ]
       },
-      "updated": "2026-09-29"
+      "updated": "2026-09-29",
+      "indexName": ""
     },
     {
       "id": "aol-youve-got-mail-voice-elwood-edwards",
@@ -7011,6 +7211,10 @@
         {
           "label": "Status today",
           "value": "Still AOL Mail's alert; no replacement voice announced"
+        },
+        {
+          "label": "Launched",
+          "value": "October 1989, in America Online's new software"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nostalgia_%287539894906%29.jpg/960px-Nostalgia_%287539894906%29.jpg",
@@ -7038,6 +7242,10 @@
         {
           "title": "Wikipedia: You've Got Mail (1998 film)",
           "url": "https://en.wikipedia.org/wiki/You%27ve_Got_Mail"
+        },
+        {
+          "title": "Wikipedia: Elwood Edwards",
+          "url": "https://en.wikipedia.org/wiki/Elwood_Edwards"
         }
       ],
       "linkPhrases": [
@@ -7090,6 +7298,10 @@
         {
           "label": "Price today",
           "value": "Sega Genesis Mini, about 65 to 100 dollars second-hand in 2026"
+        },
+        {
+          "label": "Founded",
+          "value": "June 3, 1960, as Nihon Goraku Bussan; roots in 1940 Honolulu"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Sega_Genesis_Mini_02.jpg/960px-Sega_Genesis_Mini_02.jpg",
@@ -7117,6 +7329,10 @@
         {
           "title": "The Numbers, Sonic the Hedgehog 3 box office",
           "url": "https://www.the-numbers.com/movie/Sonic-the-Hedgehog-3-(2024)"
+        },
+        {
+          "title": "Wikipedia: Sega",
+          "url": "https://en.wikipedia.org/wiki/Sega"
         }
       ],
       "linkPhrases": [
@@ -7169,6 +7385,10 @@
         {
           "label": "Subscribers",
           "value": "2.4 million paid plus 1 million free-to-play (Carlyle, 2024)"
+        },
+        {
+          "label": "Launched",
+          "value": "February 22, 2013, for Windows and macOS"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/220_Cambridge_Science_Park_looking_east.jpg/960px-220_Cambridge_Science_Park_looking_east.jpg",
@@ -7196,6 +7416,10 @@
         {
           "title": "PC Gamer: RuneScape's monthly membership now costs as much as a World of Warcraft subscription (March 2026)",
           "url": "https://www.pcgamer.com/games/mmo/runescapes-monthly-membership-now-costs-as-much-as-a-world-of-warcraft-subscription-as-jagex-announces-its-second-price-hike-in-less-than-2-years/"
+        },
+        {
+          "title": "Wikipedia: Old School RuneScape",
+          "url": "https://en.wikipedia.org/wiki/Old_School_RuneScape"
         }
       ],
       "linkPhrases": [
@@ -7215,7 +7439,8 @@
           "runescape membership price 2026",
           "is old school runescape still active"
         ]
-      }
+      },
+      "indexName": "Old School RuneScape"
     },
     {
       "id": "is-myspace-still-around-today",
@@ -7248,6 +7473,10 @@
         {
           "label": "Music lost",
           "value": "About 50 million songs from 14 million artists in 2019"
+        },
+        {
+          "label": "Launched",
+          "value": "August 1, 2003, by eUniverse staff"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Rupert_Murdoch_Wendi_Deng.jpg/960px-Rupert_Murdoch_Wendi_Deng.jpg",
@@ -7275,6 +7504,10 @@
         {
           "title": "Tubefilter: MySpace's owners want to bring it back. But does it belong in 2026? (August 10, 2026)",
           "url": "https://www.tubefilter.com/2026/08/10/myspace-2026-relaunch-tim-chris-vanderhook/"
+        },
+        {
+          "title": "Wikipedia: Myspace",
+          "url": "https://en.wikipedia.org/wiki/Myspace"
         }
       ],
       "linkPhrases": [
@@ -7325,6 +7558,10 @@
         {
           "label": "Status today",
           "value": "Open, plus Kmart.com shipping to the 50 states and APO/FPO addresses"
+        },
+        {
+          "label": "Founded",
+          "value": "1962, first Kmart store; S.S. Kresge dates to 1899"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg/960px-Kmart_Bridgehampton%2C_NY_38_%2853493436922%29.jpg",
@@ -7352,6 +7589,10 @@
         {
           "title": "LevittownNow: Owner Of Kmart, Sears To Close Falls Twp. Warehouse, Lay Off 147 (July 22, 2026)",
           "url": "https://levittownnow.com/2026/07/22/owner-of-kmart-sears-to-close-falls-twp-warehouse-lay-off-147/"
+        },
+        {
+          "title": "Wikipedia: Kmart",
+          "url": "https://en.wikipedia.org/wiki/Kmart"
         }
       ],
       "linkPhrases": [
@@ -7561,6 +7802,10 @@
         {
           "label": "Catalog run",
           "value": "1888 to January 25, 1993, 105 years"
+        },
+        {
+          "label": "Founded",
+          "value": "1886, as R.W. Sears Watch Company in Minneapolis"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Closed_Sears_store_in_a_mall.jpg/960px-Closed_Sears_store_in_a_mall.jpg",
@@ -7588,6 +7833,10 @@
         {
           "title": "Smithsonian Magazine: Before Folding 30 Years Ago, the Sears Catalog Sold Some Surprising Products",
           "url": "https://www.smithsonianmag.com/innovation/before-folding-30-years-ago-the-sears-catalog-sold-some-surprising-products-180981504/"
+        },
+        {
+          "title": "Wikipedia: Sears",
+          "url": "https://en.wikipedia.org/wiki/Sears"
         }
       ],
       "linkPhrases": [
@@ -7640,6 +7889,10 @@
         {
           "label": "Price today",
           "value": "Atari 7800+ announced at $129.99 in August 2024"
+        },
+        {
+          "label": "Founded",
+          "value": "June 27, 1972, as Atari, Inc., by Nolan Bushnell and Ted Dabney"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Atari_2600%2B.jpg/960px-Atari_2600%2B.jpg",
@@ -7694,7 +7947,8 @@
           "atari sa luxembourg"
         ]
       },
-      "updated": "2026-11-17"
+      "updated": "2026-11-17",
+      "indexName": "Atari"
     },
     {
       "id": "is-toys-r-us-still-in-business",
@@ -7726,6 +7980,10 @@
         {
           "label": "Stores worldwide",
           "value": "1,664 in 35 countries as of 2026"
+        },
+        {
+          "label": "Founded",
+          "value": "April 1948, by Charles Lazarus; Toys R Us name from June 1957"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg/960px-Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg",
@@ -7761,6 +8019,10 @@
         {
           "title": "Toys R Us expands to New York's Grand Central (CoStar, November 2026)",
           "url": "https://www.costar.com/article/1474659558/toys-r-us-expands-to-new-yorks-grand-central"
+        },
+        {
+          "title": "Wikipedia: Toys \"R\" Us",
+          "url": "https://en.wikipedia.org/wiki/Toys_%22R%22_Us"
         }
       ],
       "linkPhrases": [
@@ -7813,6 +8075,10 @@
         {
           "label": "webOS today",
           "value": "Owned by LG Electronics since February 2013 and running on its smart TVs"
+        },
+        {
+          "label": "Founded",
+          "value": "1992, as Palm Computing, by Jeff Hawkins"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/HP_Pre3.jpg/960px-HP_Pre3.jpg",
@@ -7840,6 +8106,10 @@
         {
           "title": "Variety: Verizon Launches Palm, a Credit Card-Size Phone, With an Assist From Stephen Curry (October 15, 2018)",
           "url": "https://variety.com/2018/digital/news/verizon-palm-android-phone-stephen-curry-1202978461/"
+        },
+        {
+          "title": "Wikipedia: Palm, Inc.",
+          "url": "https://en.wikipedia.org/wiki/Palm,_Inc."
         }
       ],
       "linkPhrases": [
@@ -7891,6 +8161,10 @@
         {
           "label": "Trademark",
           "value": "US Reg. No. 2027552, registered December 31, 1996, registered and renewed"
+        },
+        {
+          "label": "Founded",
+          "value": "April 4, 1994, as Mosaic Communications; Netscape from November 1994"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CHM_Artifacts_Boxed_Netscape_Navigator_%282273126105%29.jpg/960px-CHM_Artifacts_Boxed_Netscape_Navigator_%282273126105%29.jpg",
@@ -7918,6 +8192,10 @@
         {
           "title": "Bending Spoons S.p.A., SEC Form F-1 (2026)",
           "url": "https://www.sec.gov/Archives/edgar/data/0002004711/000110465926071170/tm2613674-7_f1.htm"
+        },
+        {
+          "title": "Wikipedia: Netscape",
+          "url": "https://en.wikipedia.org/wiki/Netscape"
         }
       ],
       "linkPhrases": [
@@ -7969,6 +8247,10 @@
         {
           "label": "Last in the world since",
           "value": "March 2019, when the Perth, Australia store closed"
+        },
+        {
+          "label": "Founded",
+          "value": "October 19, 1985, first store in Dallas, Texas"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Last_Blockbuster_storefront.jpg/960px-The_Last_Blockbuster_storefront.jpg",
@@ -7996,6 +8278,10 @@
         {
           "title": "EchoStar: DISH DBS Corporation and Subsidiaries Initiate Prepackaged Restructuring (June 30, 2026)",
           "url": "https://ir.echostar.com/news-releases/news-release-details/dish-dbs-corporation-and-subsidiaries-initiate-prepackaged"
+        },
+        {
+          "title": "Wikipedia: Blockbuster (retailer)",
+          "url": "https://en.wikipedia.org/wiki/Blockbuster_(retailer)"
         }
       ],
       "linkPhrases": [
@@ -8047,6 +8333,10 @@
         {
           "label": "Dial-up",
           "value": "Switched off September 30, 2025"
+        },
+        {
+          "label": "Founded",
+          "value": "May 1985, as Quantum Computer Services; AOL name from 1989"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/AOL_promotional_CDs_in_Canada.jpg/960px-AOL_promotional_CDs_in_Canada.jpg",
@@ -8074,6 +8364,10 @@
         {
           "title": "AOL Desktop Gold product page (pricing and features)",
           "url": "https://www.aol.com/products/browsers/desktop-gold"
+        },
+        {
+          "title": "Wikipedia: AOL",
+          "url": "https://en.wikipedia.org/wiki/AOL"
         }
       ],
       "linkPhrases": [
@@ -8416,7 +8710,8 @@
           "furby vibes price"
         ]
       },
-      "updated": "2026-09-26"
+      "updated": "2026-09-26",
+      "indexName": "Furby"
     },
     {
       "id": "what-happened-to-game-genie-galoob-cheat-device",
@@ -8428,7 +8723,7 @@
         "Hardware"
       ],
       "excerpt": "The Game Genie is long discontinued, but it beat Nintendo in court in 1992 and collected a $15 million bond. A loose NES unit runs about $22 in 2026.",
-      "summary": "The Game Genie is discontinued and has been since the mid 1990s, when cartridge consoles gave way to disc systems. Galoob, the toy company that sold it in the United States, was bought by Hasbro in 1998, so the name sits inside Hasbro today. What survives is the 1992 Ninth Circuit ruling that made home game modification legal, and a second-hand NES unit that costs about $22.",
+      "summary": "The Game Genie is discontinued and has been since the mid 1990s, when cartridge consoles gave way to disc systems. Galoob, the toy company that sold it in the United States, was bought by Hasbro in 1998, and the Game Genie trademark later passed to accessory maker Hyperkin, which revived the name in 2012. What survives is the 1992 Ninth Circuit ruling that made home game modification legal, and a second-hand NES unit that costs about $22.",
       "facts": [
         {
           "label": "Launched",
@@ -8449,6 +8744,10 @@
         {
           "label": "Status today",
           "value": "Discontinued; Galoob owned by Hasbro since 1998; loose units about $22"
+        },
+        {
+          "label": "Owner today",
+          "value": "Hyperkin, which bought the trademark and revived it in 2012"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/NES-Console-Set.png",
@@ -8475,6 +8774,10 @@
         {
           "title": "PriceCharting, Game Genie (NES) price guide",
           "url": "https://www.pricecharting.com/game/nes/game-genie"
+        },
+        {
+          "title": "The Escapist: Hyperkin resurrects the Game Genie (2012)",
+          "url": "https://www.escapistmagazine.com/hyperkin-resurrects-the-game-genie/"
         }
       ],
       "linkPhrases": [
@@ -8542,6 +8845,10 @@
         {
           "label": "Price today",
           "value": "Free to play; Geocaching Premium $39.99 a year"
+        },
+        {
+          "label": "Launched",
+          "value": "May 3, 2000, first cache near Beavercreek, Oregon"
         }
       ],
       "imageAlt": "A Garmin eTrex handheld GPS receiver of the kind geocachers carry",
@@ -8566,6 +8873,10 @@
         {
           "title": "Geocaching: This June, we're updating our pricing for new subscribers (2023)",
           "url": "https://www.geocaching.com/blog/2023/04/this-june-were-updating-our-pricing-for-new-subscribers/"
+        },
+        {
+          "title": "Wikipedia: Geocaching",
+          "url": "https://en.wikipedia.org/wiki/Geocaching"
         }
       ],
       "linkPhrases": [
@@ -9019,6 +9330,10 @@
         {
           "label": "Owner today",
           "value": "LongRange Capital outside mainland China since September 1, 2026, and Yum China Holdings inside it"
+        },
+        {
+          "label": "Launched",
+          "value": "August 22, 1994, as a pilot in Santa Cruz, California"
         }
       ],
       "sources": [
@@ -9041,6 +9356,10 @@
         {
           "title": "Pizza Hut store closures update: list of doomed locations grows in 2026 (Fast Company, October 2026)",
           "url": "https://www.fastcompany.com/91627412/pizza-hut-store-closures-2026-list-doomed-locations-grows"
+        },
+        {
+          "title": "Interesting People list: PizzaNet announcement (August 1994)",
+          "url": "https://seclists.org/interesting-people/1994/Aug/57"
         }
       ],
       "imageAlt": "A Pizza Hut restaurant with the chain's classic red roof and pole sign beside a road in Athens, Ohio",
@@ -9123,7 +9442,8 @@
         }
       ],
       "imageAlt": "A US Robotics 56K external modem, front panel with status lights",
-      "imageCaption": "The 56k modem: 53.3 kilobits per second at its absolute best in the United States"
+      "imageCaption": "The 56k modem: 53.3 kilobits per second at its absolute best in the United States",
+      "indexName": ""
     },
     {
       "id": "90s-websites-still-online",
@@ -9517,7 +9837,8 @@
           "year 2038 problem"
         ]
       },
-      "updated": "2026-09-26"
+      "updated": "2026-09-26",
+      "indexName": ""
     },
     {
       "id": "what-happened-to-aim-aol-instant-messenger",
@@ -9727,6 +10048,14 @@
         {
           "label": "Windows XP",
           "value": "Shipped 2001, support ended 8 April 2014, 0.05 percent of Windows web traffic in September 2026"
+        },
+        {
+          "label": "Launched",
+          "value": "October 25, 2001, as the Windows XP default wallpaper"
+        },
+        {
+          "label": "Owner today",
+          "value": "Microsoft, which obtained full rights to the photo in 2000"
         }
       ],
       "sources": [
@@ -9749,10 +10078,19 @@
         {
           "title": "StatCounter: Windows version market share, desktop worldwide",
           "url": "https://gs.statcounter.com/windows-version-market-share/desktop/worldwide"
+        },
+        {
+          "title": "Wikipedia: Windows XP",
+          "url": "https://en.wikipedia.org/wiki/Windows_XP"
+        },
+        {
+          "title": "Wikipedia: Bliss (image)",
+          "url": "https://en.wikipedia.org/wiki/Bliss_(image)"
         }
       ],
       "imageAlt": "The hill from the Windows XP Bliss photo in Sonoma County, California, now covered in vineyard rows under a clear blue sky",
-      "imageCaption": "The Bliss hill in July 2017, photographed a couple hundred feet to the right of where Charles O'Rear stood in January 1996. The hill is now planted with grapevines."
+      "imageCaption": "The Bliss hill in July 2017, photographed a couple hundred feet to the right of where Charles O'Rear stood in January 1996. The hill is now planted with grapevines.",
+      "indexName": "Bliss (Windows XP wallpaper)"
     },
     {
       "id": "why-sega-stopped-making-consoles-dreamcast",
@@ -10037,6 +10375,10 @@
         {
           "label": "Price today",
           "value": "About $13 to $15 untested, around $40 working, on Etsy"
+        },
+        {
+          "label": "Owner today",
+          "value": "TCL, which bought the Palm trademark from HP (confirmed 2015)"
         }
       ],
       "imageAlt": "A 3Com PalmPilot Professional with its gray monochrome touchscreen, next to its HotSync cradle and serial cable",
@@ -10118,6 +10460,10 @@
         {
           "label": "Overtaken",
           "value": "January 2009, when comScore put Google Maps ahead by 700,000 users"
+        },
+        {
+          "label": "Launched",
+          "value": "February 1996, as mapquest.com"
         }
       ],
       "imageAlt": "A road map rendered in the MapQuest Open map style",
@@ -10142,6 +10488,10 @@
         {
           "title": "U.S. Securities and Exchange Commission: System1, Inc., Form 10-Q for the quarter ended June 30, 2026",
           "url": "https://www.sec.gov/Archives/edgar/data/0001805833/000180583326000050/sst-20260630.htm"
+        },
+        {
+          "title": "Wikipedia: MapQuest",
+          "url": "https://en.wikipedia.org/wiki/MapQuest"
         }
       ]
     },
@@ -10428,6 +10778,10 @@
         {
           "label": "Back in profit",
           "value": "Fiscal 1998: net income of $309 million, the first profitable year since 1995"
+        },
+        {
+          "label": "Founded",
+          "value": "April 1, 1976, as Apple Computer Company, Los Altos, California"
         }
       ],
       "sources": [
@@ -10450,6 +10804,10 @@
         {
           "title": "CNBC, Apple touches $5 trillion market cap for first time (28 July 2026)",
           "url": "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html"
+        },
+        {
+          "title": "Wikipedia: Apple Inc.",
+          "url": "https://en.wikipedia.org/wiki/Apple_Inc."
         }
       ],
       "updated": "2026-11-11",
@@ -10866,7 +11224,8 @@
       "imageAlt": "Original Bandai Tamagotchi virtual pet, an egg-shaped keychain with a small liquid crystal screen and three buttons",
       "imageCaption": "The original Tamagotchi, released in Japan on November 23, 1996 and in the United States on May 1, 1997.",
       "anniversary": "2026-11-23",
-      "ctrRewrite": "2026-11-20"
+      "ctrRewrite": "2026-11-20",
+      "indexName": "Tamagotchi"
     },
     {
       "id": "when-mtv-actually-played-music-rise-fall",
@@ -10982,6 +11341,10 @@
         {
           "label": "What replaced it",
           "value": "Wikipedia and web search"
+        },
+        {
+          "label": "Owner today",
+          "value": "Microsoft, which retired it in 2009"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Encyclopedia_Britannica_series.JPG/960px-Encyclopedia_Britannica_series.JPG",
@@ -11929,6 +12292,10 @@
         {
           "label": "Bankruptcies",
           "value": "First in 2015, second on March 8, 2017"
+        },
+        {
+          "label": "Founded",
+          "value": "1921, as Radio Shack in Boston"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Radio_Shack_Tandy_TRS-80_Model_I_System.JPG/960px-Radio_Shack_Tandy_TRS-80_Model_I_System.JPG",
@@ -11956,6 +12323,10 @@
         {
           "title": "Maryland Matters: The last RadioShack in Maryland is closing its doors, April 14, 2025",
           "url": "https://marylandmatters.org/2025/04/14/end-of-an-era-the-last-radioshack-in-maryland-is-closing-its-doors/"
+        },
+        {
+          "title": "Wikipedia: RadioShack",
+          "url": "https://en.wikipedia.org/wiki/RadioShack"
         }
       ],
       "linkPhrases": [
@@ -12196,6 +12567,10 @@
         {
           "label": "Price today",
           "value": "AOL sold for about $1.5 billion in the deal agreed in October 2025"
+        },
+        {
+          "label": "Founded",
+          "value": "January 11, 2001, when the AOL and Time Warner merger closed"
         }
       ],
       "imageAlt": "A collection of AOL free trial CDs, the marketing tool that helped AOL reach 30 million subscribers",
@@ -12220,6 +12595,10 @@
         {
           "title": "Paramount agrees to delay WBD acquisition to as late as June 2027 amid legal challenge (CNBC, 2026)",
           "url": "https://www.cnbc.com/2026/07/24/paramount-wbd-merger-delay.html"
+        },
+        {
+          "title": "Wikipedia: WarnerMedia",
+          "url": "https://en.wikipedia.org/wiki/WarnerMedia"
         }
       ],
       "linkPhrases": [
@@ -12302,7 +12681,8 @@
       ],
       "imageAlt": "Rows of desktop computers and monitors set up on long tables at a LAN party",
       "imageCaption": "The basic unit of a LAN party: long tables, borrowed power strips, and everyone's own computer.",
-      "ctrRewrite": "2026-11-20"
+      "ctrRewrite": "2026-11-20",
+      "indexName": ""
     },
     {
       "id": "what-happened-to-kozmo-com-delivery",
@@ -12511,6 +12891,14 @@
         {
           "label": "First profitable quarter",
           "value": "Q4 2001: $5 million net income, one cent a share, on $1.12 billion of sales"
+        },
+        {
+          "label": "Founded",
+          "value": "July 5, 1994, as Cadabra, Inc., in Bellevue, Washington"
+        },
+        {
+          "label": "Owner today",
+          "value": "Amazon.com, Inc., public on Nasdaq as AMZN"
         }
       ],
       "sources": [
@@ -12533,6 +12921,10 @@
         {
           "title": "Amazon tops $3 trillion market cap, CNBC, August 2026",
           "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html"
+        },
+        {
+          "title": "Wikipedia: Amazon (company)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_(company)"
         }
       ],
       "imageAlt": "The Amazon Prime logo",
@@ -12569,6 +12961,10 @@
         {
           "label": "Cost today",
           "value": "About $80 loose for a PSP-1000, $153 complete, above $140 for a PSP Go (PriceCharting, 2026)"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sony Interactive Entertainment"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/960px-Psp-1000.jpg",
@@ -12596,6 +12992,10 @@
         {
           "title": "PriceCharting: PSP console and game prices",
           "url": "https://www.pricecharting.com/console/psp"
+        },
+        {
+          "title": "Wikipedia: PlayStation Portable",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_Portable"
         }
       ],
       "linkPhrases": [
@@ -12830,6 +13230,10 @@
         {
           "label": "Price today",
           "value": "Feedly free for 100 sources, Pro about $6 a month annually"
+        },
+        {
+          "label": "Owner today",
+          "value": "Google (Alphabet)"
         }
       ],
       "imageAlt": "A screenshot of an RSS feed displayed in the Firefox web browser",
@@ -12854,6 +13258,10 @@
         {
           "title": "Archive Team: Google Reader preservation project",
           "url": "https://wiki.archiveteam.org/index.php/Google_Reader"
+        },
+        {
+          "title": "Wikipedia: Google Reader",
+          "url": "https://en.wikipedia.org/wiki/Google_Reader"
         }
       ]
     },
@@ -13074,6 +13482,10 @@
         {
           "label": "Price today",
           "value": "$180 to $280 for a working console with controllers, 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sega, part of Sega Sammy Holdings"
         }
       ],
       "sources": [
@@ -13255,6 +13667,10 @@
         {
           "label": "Price today",
           "value": "$75 to $150 for a tested used console in 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sony Interactive Entertainment"
         }
       ],
       "sources": [
@@ -13277,6 +13693,10 @@
         {
           "title": "VGChartz, Switch vs PS2 sales comparison (July 2026)",
           "url": "https://www.vgchartz.com/article/468794/switch-vs-ps2-sales-comparison-july-2026/"
+        },
+        {
+          "title": "Wikipedia: PlayStation 2",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_2"
         }
       ],
       "imageAlt": "PlayStation 2 console models shown side by side",
@@ -13725,6 +14145,14 @@
         {
           "label": "Price today",
           "value": "About $80 to $250 for a working iPod classic in 2026"
+        },
+        {
+          "label": "Launched",
+          "value": "November 10, 2001, announced October 23, 2001"
+        },
+        {
+          "label": "Owner today",
+          "value": "Apple"
         }
       ],
       "sources": [
@@ -13747,6 +14175,10 @@
         {
           "title": "Apple discontinues the last iPod model (CNBC, May 10, 2022)",
           "url": "https://www.cnbc.com/2022/05/10/apple-discontinues-the-last-ipod-model.html"
+        },
+        {
+          "title": "Wikipedia: IPod",
+          "url": "https://en.wikipedia.org/wiki/IPod"
         }
       ],
       "imageAlt": "An original first-generation iPod from 2001 with its mechanical scroll wheel",
@@ -13878,6 +14310,10 @@
         {
           "label": "Price today",
           "value": "About $40 to $75 used in 2026, $80 to $120 boxed with Wii Sports"
+        },
+        {
+          "label": "Owner today",
+          "value": "Nintendo"
         }
       ],
       "sources": [
@@ -13908,6 +14344,10 @@
         {
           "title": "Nintendo: New updates for the Nintendo Classics library of games, October 27, 2026",
           "url": "https://www.nintendo.com/my/news/article/3XkLFrNv1U1hFwXSdFC79Q"
+        },
+        {
+          "title": "Wikipedia: Wii",
+          "url": "https://en.wikipedia.org/wiki/Wii"
         }
       ],
       "linkPhrases": [
@@ -13949,6 +14389,10 @@
         {
           "label": "Price today",
           "value": "Chromebooks under $200, mid-range $400 to $600 (PCWorld, August 2026)"
+        },
+        {
+          "label": "Owner today",
+          "value": "Asus (ASUSTeK Computer)"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/ASUS_Eee_White_Alt.jpg/960px-ASUS_Eee_White_Alt.jpg",
@@ -13976,6 +14420,10 @@
         {
           "title": "PCWorld: Best Chromebooks 2026 (updated August 28, 2026)",
           "url": "https://www.pcworld.com/article/608636/best-chromebooks.html"
+        },
+        {
+          "title": "Wikipedia: Eee PC",
+          "url": "https://en.wikipedia.org/wiki/Eee_PC"
         }
       ],
       "linkPhrases": [
@@ -14412,7 +14860,8 @@
       "linkPhrases": [
         "Windows 95"
       ],
-      "ctrRewrite": "2026-11-20"
+      "ctrRewrite": "2026-11-20",
+      "indexName": "Windows 95"
     },
     {
       "id": "what-happened-to-commodore-computers",
@@ -14702,6 +15151,10 @@
         {
           "label": "Price today",
           "value": "SereneScreen Marine Aquarium, $14.95"
+        },
+        {
+          "label": "Launched",
+          "value": "1990, in Berkeley Systems' After Dark 2.0 for the Macintosh"
         }
       ],
       "sources": [
@@ -14783,6 +15236,10 @@
         {
           "label": "Status today",
           "value": "Not a feature. An emoji and a hidden Copilot avatar; 30 years old on November 19, 2026"
+        },
+        {
+          "label": "Owner today",
+          "value": "Microsoft"
         }
       ],
       "sources": [
@@ -14825,7 +15282,8 @@
       "imageAlt": "A person dressed as the Clippy paperclip sitting on a sofa",
       "imageCaption": "A fan in a Clippy costume at Finland's Uuden Musiikin Kilpailu song contest in 2024.",
       "anniversary": "2026-11-19",
-      "ctrRewrite": "2026-11-20"
+      "ctrRewrite": "2026-11-20",
+      "indexName": "Clippy"
     },
     {
       "id": "original-sims-best-selling-pc-game",
@@ -14903,7 +15361,8 @@
       ],
       "imageAlt": "Will Wright speaking at a conference",
       "imageCaption": "Will Wright, who designed The Sims, at the Game Developers Conference in 2010.",
-      "ctrRewrite": "2026-11-20"
+      "ctrRewrite": "2026-11-20",
+      "indexName": "The Sims"
     },
     {
       "id": "what-happened-to-polaroid-camera",
@@ -15262,6 +15721,10 @@
         {
           "label": "Price today",
           "value": "About $100 to $400 for a working used recorder"
+        },
+        {
+          "label": "Launched",
+          "value": "November 1992, in Japan; December 1992 in the US and Europe"
         }
       ],
       "sources": [
@@ -15284,6 +15747,10 @@
         {
           "title": "Headphonesty: The Music Format Everyone Mocked Is Now Selling for Thousands (2026)",
           "url": "https://www.headphonesty.com/2026/07/mocked-music-format-selling-thousands/"
+        },
+        {
+          "title": "Wikipedia: MiniDisc",
+          "url": "https://en.wikipedia.org/wiki/MiniDisc"
         }
       ],
       "linkPhrases": [
@@ -15524,7 +15991,8 @@
           "newgrounds history"
         ]
       },
-      "updated": "2026-09-18"
+      "updated": "2026-09-18",
+      "indexName": "Newgrounds"
     },
     {
       "id": "what-happened-to-bonzibuddy-spyware",
@@ -16515,6 +16983,10 @@
         {
           "label": "Price today",
           "value": "M4 iMac from $1,499 after Apple's June 2026 increase"
+        },
+        {
+          "label": "Owner today",
+          "value": "Apple"
         }
       ],
       "sources": [
@@ -16537,6 +17009,10 @@
         {
           "title": "Apple Has Raised Prices on 14 Products (MacRumors, June 2026)",
           "url": "https://www.macrumors.com/2026/06/29/apple-raised-prices-on-14-products/"
+        },
+        {
+          "title": "Wikipedia: IMac G3",
+          "url": "https://en.wikipedia.org/wiki/IMac_G3"
         }
       ],
       "linkPhrases": [
@@ -16591,6 +17067,10 @@
         {
           "label": "Price today",
           "value": "Counter-Strike 2 is free; the 2000 original is $9.99 on Steam"
+        },
+        {
+          "label": "Launched",
+          "value": "June 1999, as a free Half-Life mod beta"
         }
       ],
       "sources": [
@@ -16613,6 +17093,10 @@
         {
           "title": "Variety: CS:GO goes free-to-play and adds Danger Zone (December 2018)",
           "url": "https://variety.com/2018/gaming/news/cs-go-free-to-play-battle-royale-1203083164/"
+        },
+        {
+          "title": "Valve Developer Community: Counter-Strike",
+          "url": "https://developer.valvesoftware.com/wiki/Counter-Strike"
         }
       ],
       "linkPhrases": [
@@ -16775,7 +17259,8 @@
         "Arcades"
       ],
       "imageAlt": "A Space Invaders cocktail-table arcade cabinet with its screen lit, in a public bathhouse in Kyoto",
-      "imageCaption": "A Space Invaders table cabinet in a Kyoto bathhouse, photographed in 2005. Taito released Space Invaders in 1978 and started the arcade boom that peaked in 1982."
+      "imageCaption": "A Space Invaders table cabinet in a Kyoto bathhouse, photographed in 2005. Taito released Space Invaders in 1978 and started the arcade boom that peaked in 1982.",
+      "indexName": ""
     },
     {
       "id": "what-happened-to-livejournal-blogging-platform",
@@ -16905,6 +17390,10 @@
         {
           "label": "Price today",
           "value": "$300 to $500 for an original console; $99.99 for Nintendo's 2026 viewer"
+        },
+        {
+          "label": "Owner today",
+          "value": "Nintendo"
         }
       ],
       "sources": [
@@ -16927,6 +17416,10 @@
         {
           "title": "PriceCharting: Virtual Boy price guide",
           "url": "https://www.pricecharting.com/console/virtual-boy"
+        },
+        {
+          "title": "Wikipedia: Virtual Boy",
+          "url": "https://en.wikipedia.org/wiki/Virtual_Boy"
         }
       ],
       "linkPhrases": [
@@ -16981,6 +17474,10 @@
         {
           "label": "Status today",
           "value": "Brand active; Personal Transporter production ended July 15, 2020"
+        },
+        {
+          "label": "Founded",
+          "value": "July 1999, as Segway Inc., by Dean Kamen"
         }
       ],
       "sources": [
@@ -17003,6 +17500,10 @@
         {
           "title": "CPSC: Segway Recalls Ninebot Max G30P and Max G30LP KickScooters (2025)",
           "url": "https://www.cpsc.gov/Recalls/2025/Segway-Recalls-Segway-Ninebot-Max-G30P-and-Max-G30LP-KickScooters-Due-to-Fall-Hazard-and-Risk-of-Serious-Injury"
+        },
+        {
+          "title": "Wikipedia: Segway Inc.",
+          "url": "https://en.wikipedia.org/wiki/Segway_Inc."
         }
       ],
       "linkPhrases": [
@@ -17137,6 +17638,10 @@
         {
           "label": "Price today",
           "value": "Kodak Portra 400 in 35mm, roughly 17 to 22 dollars a roll in 2026"
+        },
+        {
+          "label": "Founded",
+          "value": "1881, as Eastman Dry Plate Company; Kodak name from 1888"
         }
       ],
       "sources": [
@@ -17159,6 +17664,10 @@
         {
           "title": "Kodak Alaris Announces Acquisition by Kingswood Capital Management, 2024",
           "url": "https://corporate.kodakalaris.com/Pressroom/News/2024/Kodak-Alaris-Announces-Acquisition-by-Kingswood-Ca"
+        },
+        {
+          "title": "Wikipedia: Kodak",
+          "url": "https://en.wikipedia.org/wiki/Kodak"
         }
       ],
       "linkPhrases": [
@@ -17845,6 +18354,10 @@
         {
           "label": "Price today",
           "value": "$19.99 a year for Nintendo Switch Online; used consoles about $35 to $170"
+        },
+        {
+          "label": "Owner today",
+          "value": "Nintendo"
         }
       ],
       "sources": [
@@ -17954,7 +18467,8 @@
       ],
       "imageAlt": "A TomTom Go personal navigation device, the 2004 all-in-one car navigator",
       "imageCaption": "The TomTom Go, launched in March 2004, was the device that turned car navigation into a single-box consumer product.",
-      "updated": "2026-09-24"
+      "updated": "2026-09-24",
+      "indexName": "Standalone GPS devices"
     },
     {
       "id": "what-happened-to-turbografx-16-nec-forgotten-console",
@@ -18032,7 +18546,8 @@
           "turbografx-16 mini konami"
         ]
       },
-      "updated": "2026-09-18"
+      "updated": "2026-09-18",
+      "indexName": "TurboGrafx-16"
     },
     {
       "id": "what-happened-to-pointcast-push-technology",
@@ -18222,6 +18737,10 @@
         {
           "label": "Status today",
           "value": "Shell company, ticker TGLO, no employees, $15,115 in cash (June 2026)"
+        },
+        {
+          "label": "Owner today",
+          "value": "Delfin Midstream LLC, majority stockholder since December 2017"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/NASDAQ_Composite_Index.webp",
@@ -18248,6 +18767,10 @@
         {
           "title": "Dumb, dumber and theglobe.com, Salon, August 22, 2001",
           "url": "https://www.salon.com/2001/08/22/paternot/"
+        },
+        {
+          "title": "theglobe.com Form 10-Q, quarter ended September 30, 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1066684/000110465926126843/tglo-20260930x10q.htm"
         }
       ],
       "linkPhrases": [
@@ -18300,6 +18823,10 @@
         {
           "label": "Price today",
           "value": "About $199.50 loose, $306 boxed (PriceCharting, October 2026)"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sega, part of Sega Sammy Holdings"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sega-Genesis-32X-01.jpg/960px-Sega-Genesis-32X-01.jpg",
@@ -18397,6 +18924,10 @@
         {
           "label": "Status today",
           "value": "US display advertising worth $81.6 billion in 2025 (IAB and PwC)"
+        },
+        {
+          "label": "Owner today",
+          "value": "Condé Nast, which bought the domain in 2006; it redirects to Wired"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Netscape_Navigator_1.22_Screenshot.png",
@@ -18423,6 +18954,10 @@
         {
           "title": "Focus Digital, Average CTR for Display Ads benchmarks (December 2025)",
           "url": "https://focus-digital.co/average-display-ad-ctr-2025-benchmarks/"
+        },
+        {
+          "title": "Wikipedia: HotWired",
+          "url": "https://en.wikipedia.org/wiki/HotWired"
         }
       ],
       "linkPhrases": [
@@ -18475,6 +19010,10 @@
         {
           "label": "Status today",
           "value": "Dead since 1998, but 144 recovered ROMs were published free by Gaming Alexandria on December 15, 2025"
+        },
+        {
+          "label": "Owner today",
+          "value": "Sega, part of Sega Sammy Holdings"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sega_Genesis_3.jpg/960px-Sega_Genesis_3.jpg",
@@ -18552,6 +19091,10 @@
         {
           "label": "What replaced it",
           "value": "The web browser, plus LiveCode and SuperCard as direct descendants"
+        },
+        {
+          "label": "Owner today",
+          "value": "Apple"
         }
       ],
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HyperCard_v2.3.jpg/960px-HyperCard_v2.3.jpg",
@@ -18676,7 +19219,8 @@
         "The Screen Savers"
       ],
       "imageAlt": "Portrait of Leo Laporte",
-      "imageCaption": "Leo Laporte, a host of The Screen Savers on TechTV, photographed in September 2007."
+      "imageCaption": "Leo Laporte, a host of The Screen Savers on TechTV, photographed in September 2007.",
+      "indexName": "TechTV"
     },
     {
       "id": "what-happened-to-wine-com-internet-wine-wars",
@@ -18729,6 +19273,10 @@
         {
           "label": "Last revenue published",
           "value": "$165 million, fiscal year ended March 31, 2020"
+        },
+        {
+          "label": "Founded",
+          "value": "1994, as Virtual Vineyards in Los Altos, California"
         }
       ],
       "sources": [
@@ -18751,6 +19299,10 @@
         {
           "title": "GlobeNewswire: Wine.com releases Fiscal 2020 and April results",
           "url": "https://www.globenewswire.com/news-release/2020/05/14/2033576/0/en/Wine-com-releases-Fiscal-2020-and-April-results.html"
+        },
+        {
+          "title": "Wikipedia: Wine.com",
+          "url": "https://en.wikipedia.org/wiki/Wine.com"
         }
       ],
       "linkPhrases": [

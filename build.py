@@ -1141,6 +1141,9 @@ def index_name_from_title(title):
 
 
 def index_name(post):
+    # posts.json "indexName" overrides the guess; an empty string keeps a non-brand post (Y2K, dial-up sound) out
+    if "indexName" in post:
+        return post["indexName"] or None
     cands = [n for n in (index_valid(index_clean(x)) for x in (post.get("linkPhrases") or [])) if n]
     from_title = index_name_from_title(post["title"])
     if from_title:

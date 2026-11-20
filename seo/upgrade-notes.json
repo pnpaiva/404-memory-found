@@ -114,23 +114,11 @@
    "date": "2026-11-20"
   },
   "is-compusa-still-around": {
-   "source": "serp-gap 2026-11-20",
-   "add": [
-    "What compusa.com shows now, dated",
-    "A store photo",
-    "'Where to shop like CompUSA now' (Micro Center)",
-    "Timeline table 1984 to 2012"
-   ],
-   "cut": [
-    "The first H2 restates the title"
-   ],
-   "questions": [
-    "When did CompUSA close?",
-    "Who owns CompUSA?",
-    "Did TigerDirect buy it?",
-    "Is there a store like CompUSA?"
-   ],
-   "date": "2026-11-20"
+   "source": "fact-check 2026-11-20",
+   "date": "2026-11-20",
+   "fix_first": [
+    "The summary dates the deal-site revival to 2020; DealCentral announced it acquired CompUSA and relaunched it as a deals site in October 2018 (PRWeb), offline by 2023 per Wikipedia. Verify and fix the year."
+   ]
   },
   "who-owns-borders-now-bookstore": {
    "source": "serp-gap 2026-11-20",
@@ -399,6 +387,27 @@
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
    ],
    "date": "2026-11-20"
+  },
+  "what-happened-to-game-genie-galoob-cheat-device": {
+   "source": "fact-check 2026-11-20",
+   "date": "2026-11-20",
+   "fix_first": [
+    "Ownership: the summary now says Hyperkin bought the Game Genie trademark and revived it in 2012 (The Escapist, 2012). Make the body and the Status fact agree; verify on USPTO TSDR before writing."
+   ]
+  },
+  "what-happened-to-theglobe-com-dot-com-ipo": {
+   "source": "fact-check 2026-11-20",
+   "date": "2026-11-20",
+   "fix_first": [
+    "Stale numbers: the September 30, 2026 10-Q shows $21,664 in cash (the post quotes $15,115 at June) and Delfin Midstream as majority stockholder. Update from the filing."
+   ]
+  },
+  "laserdisc-value-collector-market": {
+   "source": "fact-check 2026-11-20",
+   "date": "2026-11-20",
+   "fix_first": [
+    "Launch date check: sources differ between December 11, 1978 (Atlanta introduction) and December 15, 1978 (first title, Jaws). Verify and state the date with its meaning."
+   ]
   }
  }
 }
