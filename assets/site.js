@@ -65,7 +65,6 @@
             }
 
             // Homepage: load the lightweight index (title/date/excerpt/tags, no bodies).
-            // Post bodies are fetched on demand from /posts/<slug>.json when opened.
             if (window.__POSTS_DATA__ && window.__POSTS_DATA__.posts) {
                 data = window.__POSTS_DATA__;
             } else {
@@ -301,33 +300,6 @@
             });
         }
 
-        // Mobile share functions
-        function mobileShareTwitter() {
-            if (!currentSlug) return;
-            const post = blogPosts.find(p => p.slug === currentSlug);
-            const url = baseUrl + '/posts/' + currentSlug + '.html';
-            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(post.title) + '&url=' + encodeURIComponent(url), '_blank');
-        }
-        function mobileShareThreads() {
-            if (!currentSlug) return;
-            const post = blogPosts.find(p => p.slug === currentSlug);
-            const url = baseUrl + '/posts/' + currentSlug + '.html';
-            window.open('https://www.threads.net/intent/post?text=' + encodeURIComponent(post.title + ' ' + url), '_blank');
-        }
-        function mobileShareFacebook() {
-            if (!currentSlug) return;
-            const url = baseUrl + '/posts/' + currentSlug + '.html';
-            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank');
-        }
-        function mobileCopyLink() {
-            if (!currentSlug) return;
-            const url = baseUrl + '/posts/' + currentSlug + '.html';
-            navigator.clipboard.writeText(url).then(() => {
-                const btn = event.target;
-                btn.textContent = 'Copied!';
-                setTimeout(() => { btn.textContent = 'Copy Link'; }, 1500);
-            });
-        }
 
         function populateBlogPostsList(keepPage) {
             const list = document.getElementById('blog-posts-list');
@@ -446,151 +418,8 @@
             if (/^[a-z0-9-]+$/.test(slug || '')) location.replace('/posts/' + slug + '.html');
         }
 
-        // The in-window reader below is no longer reachable; kept for reference until it is deleted.
-        function openPostLegacyReader(slug) {
-            const post = blogPosts.find(p => p.slug === slug);
-            if (!post) return;
 
-            if (!post.content) {
-                fetch('/posts/' + slug + '.json?v=' + (window.__BUILD__ || ''))
-                    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-                    .then(d => { post.content = d.body || ''; openPost(slug); })
-                    .catch(err => console.error('Could not load post', slug, err));
-                return;
-            }
 
-            currentSlug = slug;
-
-            // Calculate related posts
-            const related = blogPosts
-                .filter(p => p.slug !== slug && p.tags.some(t => post.tags.includes(t)))
-                .sort((a, b) => {
-                    const aMatch = a.tags.filter(t => post.tags.includes(t)).length;
-                    const bMatch = b.tags.filter(t => post.tags.includes(t)).length;
-                    return bMatch - aMatch;
-                })
-                .slice(0, 3);
-
-            if (isMobile) {
-                // Mobile: show post detail view
-                document.getElementById('mobile-post-list').style.display = 'none';
-                // Hide toolbar, update title bar
-                const toolbar = document.getElementById('mobile-toolbar');
-                if (toolbar) toolbar.style.display = 'none';
-                const headerTitle = document.getElementById('mobile-header-title');
-                if (headerTitle) headerTitle.textContent = '📖 ' + post.title;
-
-                const detail = document.getElementById('mobile-post-detail');
-                detail.style.display = 'block';
-                document.getElementById('mobile-post-title').textContent = post.title;
-                document.getElementById('mobile-post-detail-date').textContent = post.date + (post.authorName ? ' · by ' + post.authorName : '') + ' · ' + readingLabel(post);
-                document.getElementById('mobile-post-detail-body').innerHTML = post.content;
-                // Reset reading progress
-                const mFill = document.getElementById('mobile-reading-progress-fill');
-                if (mFill) mFill.style.width = '0%';
-                // Add lazy loading to dynamically inserted images
-                document.querySelectorAll('#mobile-post-detail-body img').forEach(img => {
-                    if (!img.hasAttribute('loading')) { img.loading = 'lazy'; img.decoding = 'async'; }
-                });
-
-                const mobileRelated = document.getElementById('mobile-related-posts');
-                if (related.length > 0) {
-                    mobileRelated.innerHTML = '<div class="mobile-related-title">📂 Related Posts</div>' +
-                        related.map(r => `<a class="mobile-related-item" href="/posts/${r.slug}.html" onclick="event.preventDefault(); openPost('${r.slug}')">${r.title}</a>`).join('');
-                } else {
-                    mobileRelated.innerHTML = '';
-                }
-
-                // Scroll to top of content
-                document.querySelector('.mobile-content').scrollTop = 0;
-            } else {
-                // Desktop: open in post window
-                document.getElementById('post-title').textContent = post.title;
-                document.getElementById('post-window-title').textContent = post.title;
-                document.getElementById('post-date').textContent = post.date;
-                const authorEl = document.getElementById('post-author');
-                if (authorEl) authorEl.textContent = post.authorName || '404 Memory Found';
-                document.getElementById('post-reading-time').textContent = readingLabel(post);
-                // Reset progress bar
-                const fill = document.getElementById('reading-progress-fill');
-                const label = document.getElementById('reading-progress-label');
-                if (fill) fill.style.width = '0%';
-                if (label) label.textContent = '0%';
-                document.getElementById('post-body').innerHTML = post.content;
-                // Add lazy loading to dynamically inserted images
-                document.querySelectorAll('#post-body img').forEach(img => {
-                    if (!img.hasAttribute('loading')) { img.loading = 'lazy'; img.decoding = 'async'; }
-                });
-
-                const relatedContainer = document.getElementById('related-posts-container');
-                if (relatedContainer) {
-                    relatedContainer.innerHTML = related.length > 0
-                        ? related.map(r => `<a class="related-post" href="/posts/${r.slug}.html" onclick="event.preventDefault(); openPost('${r.slug}')">${r.title}</a>`).join('')
-                        : '<div style="color:#666;font-style:italic;">No related posts yet.</div>';
-                }
-
-                openWindow('post-window');
-                makeActive('post-window');
-
-                // Scroll post window content to top
-                const postContent = document.querySelector('#post-window .window-content');
-                if (postContent) postContent.scrollTop = 0;
-            }
-
-            updatePageMeta('post', slug);
-            location.hash = `/post/${slug}`;
-        }
-
-        function closeMobilePost() {
-            document.getElementById('mobile-post-detail').style.display = 'none';
-            document.getElementById('mobile-post-list').style.display = '';
-            // Restore toolbar and title bar
-            const toolbar = document.getElementById('mobile-toolbar');
-            if (toolbar) toolbar.style.display = '';
-            const headerTitle = document.getElementById('mobile-header-title');
-            if (headerTitle) headerTitle.textContent = '404 Memory Found';
-            location.hash = '';
-            updatePageMeta('home');
-            document.querySelector('.mobile-content').scrollTop = 0;
-        }
-
-        function updatePageMeta(page = 'home', slug = null) {
-            const baseTitle = '404 Memory Found';
-            const baseDescription = 'A nostalgia blog sharing bizarre stories and curious facts from the 90s and 2000s era.';
-
-            if (page === 'post' && slug) {
-                const post = blogPosts.find(p => p.slug === slug);
-                if (post) {
-                    document.title = `${post.title} | ${baseTitle}`;
-                    document.querySelector('meta[name="description"]').content = post.excerpt;
-                    document.querySelector('meta[property="og:title"]').content = post.title;
-                    document.querySelector('meta[property="og:description"]').content = post.excerpt;
-                    document.querySelector('meta[property="og:type"]').content = 'article';
-                    document.querySelector('meta[property="og:url"]').content = `${baseUrl}/posts/${slug}.html`;
-
-                    const schema = {
-                        "@context": "https://schema.org",
-                        "@type": "BlogPosting",
-                        "headline": post.title,
-                        "description": post.excerpt,
-                        "datePublished": post.date,
-                        "author": {
-                            "@type": "Organization",
-                            "name": "404 Memory Found"
-                        }
-                    };
-                    document.getElementById('schema-markup').textContent = JSON.stringify(schema);
-                }
-            } else {
-                // Reset to home defaults
-                document.title = baseTitle;
-                document.querySelector('meta[name="description"]').content = baseDescription;
-                document.querySelector('meta[property="og:title"]').content = baseTitle;
-                document.querySelector('meta[property="og:description"]').content = baseDescription;
-                document.querySelector('meta[property="og:type"]').content = 'website';
-                document.querySelector('meta[property="og:url"]').content = baseUrl;
-            }
-        }
 
         function readingLabel(post) {
             return post.readingTime || getReadingTime(post.content || '');
@@ -624,55 +453,11 @@
 
         function goHome() {
             currentSlug = null;
-            if (isMobile) {
-                closeMobilePost();
-                return;
-            }
-            updatePageMeta('home');
-            location.hash = '/';
         }
 
-        function copyPostLink() {
-            if (currentSlug) {
-                const url = `${baseUrl}/#/post/${currentSlug}`;
-                navigator.clipboard.writeText(url).then(() => {
-                    var btn = document.querySelector('.share-buttons .share-button');
-                    if (btn) {
-                        var orig = btn.textContent;
-                        btn.textContent = 'Copied!';
-                        btn.classList.add('copied');
-                        setTimeout(function() {
-                            btn.textContent = orig;
-                            btn.classList.remove('copied');
-                        }, 2000);
-                    }
-                });
-            }
-        }
 
-        function shareOnTwitter() {
-            if (currentSlug) {
-                const post = blogPosts.find(p => p.slug === currentSlug);
-                const url = `${baseUrl}/#/post/${currentSlug}`;
-                window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(url)}`, '_blank');
-            }
-        }
 
-        function shareOnFacebook() {
-            if (currentSlug) {
-                const url = `${baseUrl}/#/post/${currentSlug}`;
-                window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-            }
-        }
 
-        function shareOnThreads() {
-            if (currentSlug) {
-                const post = blogPosts.find(p => p.slug === currentSlug);
-                const url = `${baseUrl}/#/post/${currentSlug}`;
-                const text = post.title + ' ' + url;
-                window.open(`https://www.threads.net/intent/post?text=${encodeURIComponent(text)}`, '_blank');
-            }
-        }
 
         function initializeTaskbar() {
             populateTagFilters();
@@ -1235,6 +1020,27 @@
                 e.preventDefault();
                 const first = el.querySelector('.start-submenu a');
                 if (first) first.focus();
+            }
+        });
+
+        // "Send this story to a friend": the phone's share sheet where there is one, otherwise copy the link
+        document.addEventListener('click', function (e) {
+            const btn = e.target.closest && e.target.closest('[data-share]');
+            if (!btn) return;
+            const url = (document.querySelector('link[rel="canonical"]') || {}).href || location.href;
+            const title = (document.querySelector('h1') || {}).textContent || document.title;
+            const done = (method) => { if (window.gtag) gtag('event', 'share', { method: method, content_type: 'article', item_id: location.pathname }); };
+            if (navigator.share) {
+                navigator.share({ title: title.trim(), url: url }).then(() => done('share_sheet')).catch(() => {});
+                return;
+            }
+            const label = btn.innerHTML;
+            const show = (text) => { btn.textContent = text; setTimeout(() => { btn.innerHTML = label; }, 2200); };
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(() => { show('Link copied. Paste it anywhere.'); done('copy_link'); },
+                                                       () => show(url));
+            } else {
+                show(url);
             }
         });
 
