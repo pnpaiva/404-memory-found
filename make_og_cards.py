@@ -120,10 +120,23 @@ def photo_panel(im, path, box):
     """Cover-crop the hero into box with a sunken Win95 border."""
     x0, y0, x1, y1 = box
     try:
-        ph = Image.open(path).convert("RGB")
+        ph = Image.open(path)
+        if ph.mode in ("RGBA", "LA", "P"):
+            # transparent logos would turn black: flatten them onto white first
+            rgba = ph.convert("RGBA")
+            flat = Image.new("RGB", rgba.size, WHITE)
+            flat.paste(rgba, mask=rgba.split()[3])
+            ph = flat
+        else:
+            ph = ph.convert("RGB")
     except OSError:
         return False
-    ph = ImageOps.fit(ph, (x1 - x0 - 6, y1 - y0 - 6), Image.LANCZOS, centering=(0.5, 0.4))
+    size = (x1 - x0 - 6, y1 - y0 - 6)
+    if ph.width / ph.height > 2 * size[0] / size[1]:
+        # a wide wordmark cover-cropped shows two letters: fit it whole on white instead
+        ph = ImageOps.pad(ph, size, Image.LANCZOS, color=WHITE)
+    else:
+        ph = ImageOps.fit(ph, size, Image.LANCZOS, centering=(0.5, 0.4))
     d = ImageDraw.Draw(im)
     bevel(d, box, raised=False)
     im.paste(ph, (x0 + 3, y0 + 3))
@@ -190,10 +203,16 @@ def make_og(post, photo, path):
     for line in lines:
         d.text((ca[0] + 36, y), line, font=f, fill=NAVY)
         y += lh
-    tags = " · ".join(post.get("tags", [])[:2])
-    d.text((ca[0] + 36, ca[3] - 62), f"{post['date']}    {tags}", font=font(22), fill=META)
-    sf = font(22, bold=True)
-    d.text((text_right - d.textlength("404memoryfound.com", font=sf), ca[3] - 62), "404memoryfound.com", font=sf, fill=TEAL)
+    sf, mf = font(22, bold=True), font(22)
+    domain_x = text_right - d.textlength("404memoryfound.com", font=sf)
+    meta = post["date"]
+    for n in (2, 1):  # as many tags as fit before the domain, so the two never overprint
+        cand = f"{post['date']}    " + " · ".join(post.get("tags", [])[:n])
+        if ca[0] + 36 + d.textlength(cand, font=mf) <= domain_x - 24:
+            meta = cand
+            break
+    d.text((ca[0] + 36, ca[3] - 62), meta, font=mf, fill=META)
+    d.text((domain_x, ca[3] - 62), "404memoryfound.com", font=sf, fill=TEAL)
     im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
 
 

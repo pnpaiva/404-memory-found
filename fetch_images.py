@@ -199,7 +199,7 @@ def process(url):
             return url, {"status": "error", "error": str(e), "commons": commons_page(url)}
     if data is None:
         # every candidate failed: the stored path may have been invented, so resolve the real one by name
-        name = re.sub(r"^\d+px-", "", url.rsplit("/", 1)[-1])
+        name = commons_name(url)
         real = commons_file_url(name)
         if real:
             try:
@@ -254,13 +254,21 @@ def commons_lookup(query):
     return None, None
 
 
+def commons_name(url):
+    """The Commons file name behind an upload URL. A thumbnail of an SVG is named 960px-Logo.svg.png,
+    so the real name is the directory above it, not the last segment."""
+    parts = url.split("?")[0].rsplit("/", 2)
+    if "/thumb/" in url and len(parts) == 3:
+        return parts[1]
+    return re.sub(r"^\d+px-", "", parts[-1])
+
+
 def commons_file_exists(url):
     """A Commons URL written by hand can name a file that never existed, in which case no width and no
     hash directory will ever work. Ask the API whether the file name itself is real."""
     if "upload.wikimedia.org" not in url:
         return True
-    name = re.sub(r"^\d+px-", "", url.rsplit("/", 1)[-1])
-    return commons_file_url(name) is not None
+    return commons_file_url(commons_name(url)) is not None
 
 
 def fallback_queries(post):

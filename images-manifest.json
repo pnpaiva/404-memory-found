@@ -19,6 +19,16 @@
   "thumb": "/img/thumb/https-images-pexels-com-photos-270404-pexels-photo-270404-jp-8012f8.jpg",
   "width": 800
  },
+ "https://upload.wikimedia.org/wikipedia/commons/0/00/Quake_big_box.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Quake_big_box.jpg",
+  "ext": "jpg",
+  "file": "/img/quake-big-box-81f531.jpg",
+  "height": 1387,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/quake-big-box-81f531.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/1/10/Netscape_Navigator_1.22_Screenshot.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Netscape_Navigator_1.22_Screenshot.png",
   "ext": "jpg",
@@ -69,6 +79,16 @@
   "thumb": "/img/thumb/the-comet-roller-coaster-at-riverview-park-chicago-de3c69.jpg",
   "width": 748
  },
+ "https://upload.wikimedia.org/wikipedia/commons/2/21/ScreenBurn_amber.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:ScreenBurn_amber.JPG",
+  "ext": "jpg",
+  "file": "/img/screenburn-amber-01e5a4.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/screenburn-amber-01e5a4.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/2/23/Tom_Fulp_%28cropped%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Tom_Fulp_%28cropped%29.jpg",
   "ext": "jpg",
@@ -89,6 +109,16 @@
   "thumb": "/img/thumb/microsoft-zune-hd-promo-a7435e.jpg",
   "width": 428
  },
+ "https://upload.wikimedia.org/wikipedia/commons/2/28/Shawn_Fanning%2C_Joi_Ito.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Shawn_Fanning%2C_Joi_Ito.jpg",
+  "ext": "jpg",
+  "file": "/img/shawn-fanning-joi-ito-d5ee1d.jpg",
+  "height": 816,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/shawn-fanning-joi-ito-d5ee1d.jpg",
+  "width": 792
+ },
  "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Plus_logo_%282011-2015%29.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Google_Plus_logo_%282011-2015%29.png",
   "ext": "png",
@@ -99,6 +129,26 @@
   "thumb": "/img/thumb/google-plus-logo-2011-2015-5309c1.png",
   "width": 505
  },
+ "https://upload.wikimedia.org/wikipedia/commons/3/30/Windows_95_installation_disks_2025-03-01.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Windows_95_installation_disks_2025-03-01.jpg",
+  "ext": "jpg",
+  "file": "/img/windows-95-installation-disks-2025-03-01-5649d8.jpg",
+  "height": 720,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/windows-95-installation-disks-2025-03-01-5649d8.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/3/34/Maintenance_Hole_Cover_World_Com_Cable_%28DSC_1082%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Maintenance_Hole_Cover_World_Com_Cable_%28DSC_1082%29.jpg",
+  "ext": "jpg",
+  "file": "/img/maintenance-hole-cover-world-com-cable-dsc-1082-a8e8e3.jpg",
+  "height": 850,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/maintenance-hole-cover-world-com-cable-dsc-1082-a8e8e3.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/3/39/LYCOS_Boston.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:LYCOS_Boston.png",
   "ext": "jpg",
@@ -108,6 +158,36 @@
   "status": "ok",
   "thumb": "/img/thumb/lycos-boston-469c46.jpg",
   "width": 796
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ball_pit_with_playground_slide.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Ball_pit_with_playground_slide.jpg",
+  "ext": "jpg",
+  "file": "/img/ball-pit-with-playground-slide-8aef45.jpg",
+  "height": 720,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/ball-pit-with-playground-slide-8aef45.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/4/41/Micro_Machines_collection_%282%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Micro_Machines_collection_%282%29.jpg",
+  "ext": "jpg",
+  "file": "/img/micro-machines-collection-2-175bdd.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/micro-machines-collection-2-175bdd.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/4/44/Virtual-Boy-Set.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-Set.jpg",
+  "ext": "jpg",
+  "file": "/img/virtual-boy-set-7a54f2.jpg",
+  "height": 1626,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/virtual-boy-set-7a54f2.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/47/Skateboarding_at_Mexico_City_-_Ollie_-_043.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Skateboarding_at_Mexico_City_-_Ollie_-_043.JPG",
@@ -127,6 +207,16 @@
   "requested": 1280,
   "status": "ok",
   "thumb": "/img/thumb/no-loafing-sign-35aabf.jpg",
+  "width": 800
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/4/49/Webvan.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Webvan.jpg",
+  "ext": "jpg",
+  "file": "/img/webvan-9c5d9f.jpg",
+  "height": 565,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/webvan-9c5d9f.jpg",
   "width": 800
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4b/Skype_Logo.png": {
@@ -149,6 +239,26 @@
   "thumb": "/img/thumb/smart-net-advertisement-offering-service-packages-a7a95c.jpg",
   "width": 753
  },
+ "https://upload.wikimedia.org/wikipedia/commons/5/55/Bliss_hill_July_2017.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Bliss_hill_July_2017.jpg",
+  "ext": "jpg",
+  "file": "/img/bliss-hill-july-2017-baa8c2.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/bliss-hill-july-2017-baa8c2.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/5/5c/ShopifyTorontoOffice.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:ShopifyTorontoOffice.jpg",
+  "ext": "jpg",
+  "file": "/img/shopifytorontooffice-82e070.jpg",
+  "height": 848,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/shopifytorontooffice-82e070.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/5/5e/Space_Invaders.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Space_Invaders.JPG",
   "ext": "jpg",
@@ -168,6 +278,26 @@
   "status": "ok",
   "thumb": "/img/thumb/apple-ibook-clamshell-2317667422-dc8811.jpg",
   "width": 640
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/6/6b/Anbernic_RG40XX.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Anbernic_RG40XX.jpg",
+  "ext": "jpg",
+  "file": "/img/anbernic-rg40xx-71f92f.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/anbernic-rg40xx-71f92f.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sierra_and_LucasArts_%286121004054%29.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sierra_and_LucasArts_%286121004054%29.jpg",
+  "ext": "jpg",
+  "file": "/img/sierra-and-lucasarts-6121004054-97ebf3.jpg",
+  "height": 719,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sierra-and-lucasarts-6121004054-97ebf3.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/7/70/Internet_Explorer_10_screenshot.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Internet_Explorer_10_screenshot.png",
@@ -239,6 +369,16 @@
   "thumb": "/img/thumb/yahoo-headquarters-1b1638.jpg",
   "width": 700
  },
+ "https://upload.wikimedia.org/wikipedia/commons/8/84/National_Security_Agency_headquarters%2C_Fort_Meade%2C_Maryland.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:National_Security_Agency_headquarters%2C_Fort_Meade%2C_Maryland.jpg",
+  "ext": "jpg",
+  "file": "/img/national-security-agency-headquarters-fort-meade-maryland-966708.jpg",
+  "height": 998,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/national-security-agency-headquarters-fort-meade-maryland-966708.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/8/89/Woolworth_Store_in_Scranton.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Woolworth_Store_in_Scranton.jpg",
   "ext": "jpg",
@@ -248,6 +388,36 @@
   "status": "ok",
   "thumb": "/img/thumb/woolworth-store-in-scranton-eeb96a.jpg",
   "width": 720
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/9/90/Sega-Genesis-Mod1-Set.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mod1-Set.jpg",
+  "ext": "jpg",
+  "file": "/img/sega-genesis-mod1-set-dd5d9a.jpg",
+  "height": 552,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sega-genesis-mod1-set-dd5d9a.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/9/9c/Game_Boy.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Game_Boy.jpg",
+  "ext": "jpg",
+  "file": "/img/game-boy-8b14d5.jpg",
+  "height": 1600,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/game-boy-8b14d5.jpg",
+  "width": 1200
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/9/9d/DOSBox_v0.74-3_screenshot.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:DOSBox_v0.74-3_screenshot.png",
+  "ext": "jpg",
+  "file": "/img/dosbox-v0-74-3-screenshot-34b209.jpg",
+  "height": 400,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/dosbox-v0-74-3-screenshot-34b209.jpg",
+  "width": 640
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/9d/VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_95_mit_Office_95_17_01_2025_19_18_01.png",
@@ -279,6 +449,56 @@
   "thumb": "/img/thumb/disquetes-y-cd-rom-de-instalacion-de-windows-95-7bd066.jpg",
   "width": 1024
  },
+ "https://upload.wikimedia.org/wikipedia/commons/a/a0/2023_Dyskietki_Verbatim_DataLifePlus.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:2023_Dyskietki_Verbatim_DataLifePlus.jpg",
+  "ext": "jpg",
+  "file": "/img/2023-dyskietki-verbatim-datalifeplus-8e93ec.jpg",
+  "height": 952,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/2023-dyskietki-verbatim-datalifeplus-8e93ec.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/a/a3/Pizza_Hut_Athens_OH_USA.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Pizza_Hut_Athens_OH_USA.JPG",
+  "ext": "jpg",
+  "file": "/img/pizza-hut-athens-oh-usa-182e33.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/pizza-hut-athens-oh-usa-182e33.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/a/a5/Copies_of_Nintendo_Power_at_Future_US_HQ.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Copies_of_Nintendo_Power_at_Future_US_HQ.JPG",
+  "ext": "jpg",
+  "file": "/img/copies-of-nintendo-power-at-future-us-hq-d07ea8.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/copies-of-nintendo-power-at-future-us-hq-d07ea8.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/a/a7/Palm_Pilot_Professional_02.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Palm_Pilot_Professional_02.JPG",
+  "ext": "jpg",
+  "file": "/img/palm-pilot-professional-02-76be9e.jpg",
+  "height": 1082,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/palm-pilot-professional-02-76be9e.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/b/b2/NES-Console-Set.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.png",
+  "ext": "png",
+  "file": "/img/nes-console-set-95b900.png",
+  "height": 695,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/nes-console-set-95b900.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/b/b4/NES_European_Version_with_a_Super_Mario_Bros_sticker_20110723.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:NES_European_Version_with_a_Super_Mario_Bros_sticker_20110723.jpg",
   "ext": "jpg",
@@ -287,6 +507,26 @@
   "requested": 1280,
   "status": "ok",
   "thumb": "/img/thumb/nes-european-version-with-a-super-mario-bros-sticker-2011072-80b090.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/b/b9/Garmin_eTrex_30.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Garmin_eTrex_30.JPG",
+  "ext": "jpg",
+  "file": "/img/garmin-etrex-30-787223.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/garmin-etrex-30-787223.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/b/be/Travelocityonlocation.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Travelocityonlocation.jpg",
+  "ext": "jpg",
+  "file": "/img/travelocityonlocation-e9fe1c.jpg",
+  "height": 1096,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/travelocityonlocation-e9fe1c.jpg",
   "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/c/c0/IMac_Bondi_Blue.jpg": {
@@ -318,6 +558,16 @@
   "status": "ok",
   "thumb": "/img/thumb/microsoft-bob-logo-f6a0a3.png",
   "width": 597
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/c/cb/VINTAGE_Former_KB_Toys%3B_Rivergate_Mall%3B_Goodletsville_TN.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:VINTAGE_Former_KB_Toys%3B_Rivergate_Mall%3B_Goodletsville_TN.jpg",
+  "ext": "jpg",
+  "file": "/img/vintage-former-kb-toys-rivergate-mall-goodletsville-tn-a0e0f8.jpg",
+  "height": 694,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/vintage-former-kb-toys-rivergate-mall-goodletsville-tn-a0e0f8.jpg",
+  "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/d/d1/First_Web_Server.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg",
@@ -379,6 +629,16 @@
   "thumb": "/img/thumb/packard-bell-multimedia-d160-59bb18.jpg",
   "width": 932
  },
+ "https://upload.wikimedia.org/wikipedia/commons/e/e1/Olia_Lialina_at_the_GeoCities_Research_Institute_Library_at_Merz_Akademie%2C_Stuttgart.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Olia_Lialina_at_the_GeoCities_Research_Institute_Library_at_Merz_Akademie%2C_Stuttgart.jpg",
+  "ext": "jpg",
+  "file": "/img/olia-lialina-at-the-geocities-research-institute-library-at--f3e178.jpg",
+  "height": 854,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/olia-lialina-at-the-geocities-research-institute-library-at--f3e178.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Macintosh_128k_transparency.png",
   "ext": "png",
@@ -408,6 +668,36 @@
   "status": "ok",
   "thumb": "/img/thumb/lan-party-lan-arena-7-e4f09b.jpg",
   "width": 766
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+  "ext": "jpg",
+  "file": "/img/ncsa-mosaic-browser-screenshot-91fa69.jpg",
+  "height": 668,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/ncsa-mosaic-browser-screenshot-91fa69.jpg",
+  "width": 772
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/f/f8/Nokia_3310_original.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Nokia_3310_original.JPG",
+  "ext": "jpg",
+  "file": "/img/nokia-3310-original-039f2f.jpg",
+  "height": 1840,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/nokia-3310-original-039f2f.jpg",
+  "width": 1058
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/f/fd/Centcom20040818.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Centcom20040818.jpg",
+  "ext": "jpg",
+  "file": "/img/centcom20040818-0c3002.jpg",
+  "height": 508,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/centcom20040818-0c3002.jpg",
+  "width": 677
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Compaq_Portable_and_Wordperfect.JPG/960px-Compaq_Portable_and_Wordperfect.JPG": {
   "commons": "https://commons.wikimedia.org/wiki/File:Compaq_Portable_and_Wordperfect.JPG",
@@ -721,6 +1011,16 @@
   "thumb": "/img/thumb/sega-saturn-console-set-mk1-06d86f.png",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Yahoo%21_%282009-2013%29.svg/960px-Yahoo%21_%282009-2013%29.svg.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Yahoo%21_%282009-2013%29.svg",
+  "ext": "png",
+  "file": "/img/yahoo-2009-2013-08fdc6.png",
+  "height": 243,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/yahoo-2009-2013-08fdc6.png",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Google_Glass_Explorer_Edition.jpeg/1280px-Google_Glass_Explorer_Edition.jpeg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Google_Glass_Explorer_Edition.jpeg",
   "ext": "jpg",
@@ -829,6 +1129,16 @@
   "requested": 1280,
   "status": "ok",
   "thumb": "/img/thumb/internet-cafe-at-coffee-fellows-sch-tzenstr-m-nchen-b0e36f.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Yahoo%21_Answers_%282013_-_2019%29.svg/960px-Yahoo%21_Answers_%282013_-_2019%29.svg.png": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Yahoo%21_Answers_%282013_-_2019%29.svg",
+  "ext": "png",
+  "file": "/img/yahoo-answers-2013-2019-1ae2d6.png",
+  "height": 441,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/yahoo-answers-2013-2019-1ae2d6.png",
   "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Wordperfect_steuerzeichen.jpg/960px-Wordperfect_steuerzeichen.jpg": {
