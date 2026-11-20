@@ -1,4 +1,7 @@
-// Firebase - load on demand (not render-blocking)
+// Old shared links (#/post/<slug>) go straight to the article page, before any boot animation
+        if (/^#\/post\/[a-z0-9-]+$/.test(location.hash)) location.replace('/posts/' + location.hash.slice(7) + '.html');
+
+        // Firebase - load on demand (not render-blocking)
         let fbDb = null;
         let firebaseLoading = false;
         function getFirebaseDb() {
@@ -178,16 +181,47 @@
             });
         }
 
-        function populateMobilePosts() {
+        // Lists show a page at a time: all 233 posts at once made the homepage 600 KB and slow to scroll on a phone.
+        const LIST_STEP = 24;
+        let desktopShown = LIST_STEP, mobileShown = LIST_STEP;
+        function escText(t) {
+            return String(t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'})[c]);
+        }
+        function listMore(remaining, fn) {
+            return `<li class="list-more"><button type="button" class="list-more-btn" onclick="${fn}()">Show ${Math.min(remaining, LIST_STEP)} more posts <span class="list-more-left">(${remaining} left)</span></button></li>`;
+        }
+        function listEmpty(term) {
+            return `<li class="list-empty"><strong>No posts match ${term ? '"' + escText(term) + '"' : 'these topics'}.</strong> Try a single word, like a brand name, or browse the <a href="/dead-brand-index.html">Dead Brand Index</a>.</li>`;
+        }
+        function focusNewItem(list, index) {
+            const links = list.querySelectorAll(':scope > li > a');
+            if (links[index]) links[index].focus({ preventScroll: true });
+        }
+        function showMoreDesktop() {
+            const before = desktopShown;
+            desktopShown += LIST_STEP;
+            populateBlogPostsList(true);
+            focusNewItem(document.getElementById('blog-posts-list'), before);
+        }
+        function showMoreMobile() {
+            const before = mobileShown;
+            mobileShown += LIST_STEP;
+            populateMobilePosts(true);
+            focusNewItem(document.getElementById('mobile-post-list'), before);
+        }
+
+        function populateMobilePosts(keepPage) {
             const list = document.getElementById('mobile-post-list');
             if (!list) return;
+            if (!keepPage) mobileShown = LIST_STEP;
             const filtered = filterMobilePosts();
-            list.innerHTML = filtered.map(post => {
+            const term = document.getElementById('mobile-search-input')?.value?.trim() || '';
+            list.innerHTML = filtered.slice(0, mobileShown).map(post => {
                 const imgUrl = post.thumb || post.image || '';
                 const dataAttr = imgUrl ? `data-bg="${imgUrl}"` : '';
                 return `
                 <li class="mobile-post-item">
-                    <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+                    <a href="/posts/${post.slug}.html">
                     <div class="mobile-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>${post.title}</h3>
@@ -197,7 +231,8 @@
                     </div>
                     </a>
                 </li>`;
-            }).join('');
+            }).join('') + (filtered.length > mobileShown ? listMore(filtered.length - mobileShown, 'showMoreMobile') : '')
+                        + (filtered.length ? '' : listEmpty(term));
             // Lazy-load thumbnails
             observeThumbs();
             // Update status bar count
@@ -294,16 +329,18 @@
             });
         }
 
-        function populateBlogPostsList() {
+        function populateBlogPostsList(keepPage) {
             const list = document.getElementById('blog-posts-list');
             if (!list) return;
+            if (!keepPage) desktopShown = LIST_STEP;
             const filtered = filterPosts();
-            list.innerHTML = filtered.map(post => {
+            const term = document.getElementById('search-input')?.value?.trim() || '';
+            list.innerHTML = filtered.slice(0, desktopShown).map(post => {
                 const thumbUrl = post.thumb || post.image || '';
                 const dataAttr = thumbUrl ? `data-bg="${thumbUrl}"` : '';
                 return `
                 <li class="blog-post-item">
-                    <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+                    <a href="/posts/${post.slug}.html">
                         <div class="blog-post-thumb" ${dataAttr} style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>${post.title}</h3>
@@ -313,7 +350,8 @@
                         </div>
                     </a>
                 </li>`;
-            }).join('');
+            }).join('') + (filtered.length > desktopShown ? listMore(filtered.length - desktopShown, 'showMoreDesktop') : '')
+                        + (filtered.length ? '' : listEmpty(term));
             // Lazy-load desktop thumbnails
             observeThumbs();
         }
@@ -342,7 +380,7 @@
                     <ul class="archive-posts">
                         ${monthMap[key].posts.map(post => `
                             <li class="archive-post">
-                                <a href="/posts/${post.slug}.html" onclick="event.preventDefault(); openPost('${post.slug}')">
+                                <a href="/posts/${post.slug}.html">
                                     <div class="title">${post.title}</div>
                                     <div class="date">${post.date}</div>
                                 </a>
@@ -375,7 +413,8 @@
             if (searchTerm) {
                 filtered = filtered.filter(p =>
                     p.title.toLowerCase().includes(searchTerm) ||
-                    p.excerpt.toLowerCase().includes(searchTerm)
+                    p.excerpt.toLowerCase().includes(searchTerm) ||
+                    (p.tags || []).some(t => t.toLowerCase().includes(searchTerm))
                 );
             }
             if (activeTags.length > 0) {
@@ -402,6 +441,13 @@
         }
 
         function openPost(slug) {
+            // Every article has one reader: its own page, with a real URL, a working Back button, the reading aids
+            // and what to read next. Old #/post/<slug> links land there too; an unknown slug gets the 404 page.
+            if (/^[a-z0-9-]+$/.test(slug || '')) location.replace('/posts/' + slug + '.html');
+        }
+
+        // The in-window reader below is no longer reachable; kept for reference until it is deleted.
+        function openPostLegacyReader(slug) {
             const post = blogPosts.find(p => p.slug === slug);
             if (!post) return;
 
@@ -929,7 +975,8 @@
                 return seen;
             } catch (e) { return false; }
         })();
-        window.BOOT_MS = window.BOOT_SEEN ? 0 : 1900;
+        window.REDUCED_MOTION = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+        window.BOOT_MS = (window.BOOT_SEEN || window.REDUCED_MOTION) ? 0 : 1900;
 
         // Initialize on load
         window.addEventListener('load', () => {
@@ -1126,15 +1173,79 @@
         })();
 
         // Start Menu
+        function setStartMenu(open) {
+            const menu = document.getElementById('start-menu');
+            if (!menu) return;
+            menu.classList.toggle('open', open);
+            document.querySelectorAll('.start-button').forEach(b => b.setAttribute('aria-expanded', String(open)));
+        }
         function toggleStartMenu() {
             const menu = document.getElementById('start-menu');
-            menu.classList.toggle('open');
+            if (!menu) return;
+            const open = !menu.classList.contains('open');
+            setStartMenu(open);
+            if (open) { const first = menu.querySelector('.start-menu-item'); if (first) first.focus({ preventScroll: true }); }
         }
         document.addEventListener('click', (e) => {
             const menu = document.getElementById('start-menu');
             if (menu && menu.classList.contains('open') && !e.target.closest('.start-menu') && !e.target.closest('.start-button')) {
-                menu.classList.remove('open');
+                setStartMenu(false);
             }
+            const mob = document.getElementById('mobile-start-menu');
+            if (mob && mob.classList.contains('open') && !e.target.closest('#mobile-start-menu') && !e.target.closest('.mobile-footer-start')) {
+                setMobileStart(false);
+            }
+        });
+
+        // Mobile Start: the same places as the desktop Start menu, sized for thumbs
+        function setMobileStart(open) {
+            const menu = document.getElementById('mobile-start-menu');
+            if (!menu) return;
+            menu.classList.toggle('open', open);
+            document.querySelectorAll('.mobile-footer-start').forEach(b => b.setAttribute('aria-expanded', String(open)));
+        }
+        function toggleMobileStart(e) {
+            const menu = document.getElementById('mobile-start-menu');
+            if (!menu) return true;  // no menu on this page: let the link go home
+            if (e) { e.preventDefault(); e.stopPropagation(); }
+            setMobileStart(!menu.classList.contains('open'));
+            return false;
+        }
+
+        // Keyboard: desktop icons open with Enter or Space like a double-click, menu items like a click,
+        // and Escape closes whichever Start menu is open.
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                const menu = document.getElementById('start-menu');
+                if (menu && menu.classList.contains('open')) { setStartMenu(false); document.querySelector('.start-button')?.focus(); }
+                const mob = document.getElementById('mobile-start-menu');
+                if (mob && mob.classList.contains('open')) { setMobileStart(false); document.querySelector('.mobile-footer-start')?.focus(); }
+                return;
+            }
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+            const el = e.target;
+            if (!el || !el.matches) return;
+            if (el.matches('.desktop-icon[role="button"]')) {
+                e.preventDefault();
+                el.dispatchEvent(new MouseEvent('dblclick', { bubbles: true }));
+            } else if (el.matches('.start-menu-item[role="menuitem"]:not(a):not(.has-submenu)')) {
+                e.preventDefault();
+                el.click();
+            } else if (el.matches('.has-submenu')) {
+                e.preventDefault();
+                const first = el.querySelector('.start-submenu a');
+                if (first) first.focus();
+            }
+        });
+
+        // Back buttons on article and topic pages return to where the reader came from on this site
+        // (a topic page, a search, a related post) instead of always dumping them on the homepage.
+        document.addEventListener('click', function (e) {
+            const back = e.target.closest && e.target.closest('a.page-back[data-back]');
+            if (!back) return;
+            let sameSite = false;
+            try { sameSite = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (err) {}
+            if (sameSite && history.length > 1) { e.preventDefault(); history.back(); }
         });
 
         // ====== LEADERBOARD SYSTEM ======
