@@ -29,7 +29,11 @@ def load():
     path = os.path.join(ROOT, "seo", "search-console.json")
     gsc = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
     npath = os.path.join(ROOT, "seo", "upgrade-notes.json")
-    gsc["_notes"] = json.load(open(npath, encoding="utf-8")).get("notes", {}) if os.path.exists(npath) else {}
+    notes = json.load(open(npath, encoding="utf-8")).get("notes", {}) if os.path.exists(npath) else {}
+    by = {p["id"]: p for p in posts}
+    # A note is spent once the post has been upgraded on or after the day the note was written.
+    gsc["_notes"] = {k: v for k, v in notes.items()
+                     if not (k in by and (by[k].get("upgraded") or "") >= v.get("date", ""))}
     return posts, gsc
 
 
@@ -66,7 +70,7 @@ def print_note(slug):
     note = load()[1]["_notes"].get(slug)
     if not note:
         return
-    print("  UPGRADE NOTE (apply it, verify every fact, then delete this entry from seo/upgrade-notes.json):")
+    print("  UPGRADE NOTE from a search-results review. Apply every item, verifying each fact and number against a source:")
     for key in ("fix_first", "retarget", "primary", "competition", "note"):
         if note.get(key):
             print(f"    {key}: {note[key]}")

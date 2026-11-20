@@ -1,5 +1,5 @@
 {
- "_description": "Per-post instructions for the upgrade desk, from the 2026-11-20 search-results gap analysis and the cannibalization review. seo_queue.py prints the note for the post it picks; apply it, verify every fact and number against a source, then delete the entry in the same commit.",
+ "_description": "Per-post instructions for the upgrade desk, from the 2026-11-20 search-results gap analysis and the cannibalization review. seo_queue.py prints the note for the post it picks. A note stops applying once the post's 'upgraded' date is on or after the note's 'date'; the routine never edits this file.",
  "notes": {
   "motorola-razr-v3-coolest-phone-ever-made": {
    "source": "serp-gap 2026-11-20",
@@ -19,11 +19,13 @@
     "Can you use one in 2026?",
     "Razr V3 vs V3i?"
    ],
-   "competition": "Wikipedia, GSMArena, PhoneScoop own the head term; win the versions-and-price angle"
+   "competition": "Wikipedia, GSMArena, PhoneScoop own the head term; win the versions-and-price angle",
+   "date": "2026-11-20"
   },
   "dead-brand-index": {
    "source": "serp-gap 2026-11-20",
-   "note": "Hub page built by build.py, not a post. Ideas for a build change: year died, category and status (Gone / Name revived / Still trading) columns with filters, a 2-sentence answer at the top, a jump list of the 20 most-searched brands. Edge over Wikipedia: the owner-in-2026 column."
+   "note": "Hub page built by build.py, not a post. Ideas for a build change: year died, category and status (Gone / Name revived / Still trading) columns with filters, a 2-sentence answer at the top, a jump list of the 20 most-searched brands. Edge over Wikipedia: the owner-in-2026 column.",
+   "date": "2026-11-20"
   },
   "what-happened-to-microsoft-encarta": {
    "source": "serp-gap 2026-11-20",
@@ -43,11 +45,11 @@
     "What replaced Encarta?",
     "Is Encarta Kids still available?"
    ],
-   "competition": "How-to results are thin SEO guides: best near-term top-3 bet"
+   "competition": "How-to results are thin SEO guides: best near-term top-3 bet",
+   "date": "2026-11-20"
   },
   "is-hollywood-video-still-around": {
    "source": "serp-gap 2026-11-20",
-   "fix_first": "Summary and quick facts say the last stores shut Aug 8, 2010, which is the Canadian date; the body says the last US stores closed July 31, 2010. Verify and make all three agree.",
    "add": [
     "'Where you can still rent a movie in 2026' (the Bend Blockbuster, independent stores, Redbox) linking our posts",
     "Photo of the old theater-front buildings and what is in them now",
@@ -58,7 +60,8 @@
     "Who owns Hollywood Video?",
     "How many stores were there?",
     "What happened to Game Crazy?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "why-everyone-had-hotmail-account": {
    "source": "serp-gap 2026-11-20",
@@ -74,7 +77,8 @@
     "Does Hotmail still exist?",
     "Who owns Hotmail?",
     "Can I still make a Hotmail account?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "why-pets-com-failed-dot-com-bubble": {
    "source": "serp-gap 2026-11-20",
@@ -88,7 +92,8 @@
     "Where is the Pets.com sock puppet now?",
     "Who voiced it?",
     "What did the Super Bowl ad cost?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "who-owns-sears-now-stores-left": {
    "source": "serp-gap 2026-11-20",
@@ -105,7 +110,8 @@
     "Where is the last Sears?",
     "Is Kmart the same company?",
     "What companies did Sears own?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "is-compusa-still-around": {
    "source": "serp-gap 2026-11-20",
@@ -123,7 +129,8 @@
     "Who owns CompUSA?",
     "Did TigerDirect buy it?",
     "Is there a store like CompUSA?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "who-owns-borders-now-bookstore": {
    "source": "serp-gap 2026-11-20",
@@ -139,7 +146,8 @@
     "Is any Borders still open?",
     "Did Barnes & Noble buy Borders?",
     "What happened to Waldenbooks?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-atari-jaguar-64-bit-console": {
    "source": "serp-gap 2026-11-20",
@@ -157,7 +165,8 @@
     "Was it really 64-bit?",
     "How many were sold?",
     "Most valuable Jaguar games?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "montgomery-ward-failed-who-owns-it": {
    "source": "serp-gap 2026-11-20",
@@ -171,7 +180,8 @@
     "Who owns Montgomery Ward?",
     "When did the stores close?",
     "Did Montgomery Ward create Rudolph?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-aim-aol-instant-messenger": {
    "source": "serp-gap 2026-11-20",
@@ -189,7 +199,8 @@
     "When did AIM shut down?",
     "Can you still use AIM?",
     "Can I recover my screen name or chats?"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-palm-pilot-pda": {
    "source": "cannibalization 2026-11-20",
@@ -199,7 +210,8 @@
     "Stop competing with /posts/is-palm-still-a-company.html for its status query: drop the 'Who owns the Palm Pilot name' H2 and the who-owns keyword; make this page about the product (price, worth, models)",
     "Replace the removed status material with one sentence linking to /posts/is-palm-still-a-company.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "rise-and-fall-of-myspace": {
    "source": "cannibalization 2026-11-20",
@@ -209,7 +221,8 @@
     "Stop competing with /posts/is-myspace-still-around-today.html for its status query: drop the 'Who owns MySpace today?' H2, FAQ and status keywords; make it 'why MySpace failed / vs Facebook'",
     "Replace the removed status material with one sentence linking to /posts/is-myspace-still-around-today.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "how-netscape-lost-the-browser-war": {
    "source": "cannibalization 2026-11-20",
@@ -219,7 +232,8 @@
     "Stop competing with /posts/is-netscape-still-around.html for its status query: drop the ownership H2 and keyword; keep it on the browser war",
     "Replace the removed status material with one sentence linking to /posts/is-netscape-still-around.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "why-sega-stopped-making-consoles-dreamcast": {
    "source": "cannibalization 2026-11-20",
@@ -229,7 +243,8 @@
     "Stop competing with /posts/is-sega-still-making-games.html for its status query: drop 'who owns sega'; this page owns the consoles question, so is-sega-still-making-games should drop its 'last Sega console' FAQ",
     "Replace the removed status material with one sentence linking to /posts/is-sega-still-making-games.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "aol-time-warner-merger-worst-deal-in-history": {
    "source": "cannibalization 2026-11-20",
@@ -239,7 +254,8 @@
     "Stop competing with /posts/does-aol-still-exist-today.html for its status query: retitle as a merger story (the current title asks whether AOL Time Warner is still a company) and drop the AOL-owner FAQ",
     "Replace the removed status material with one sentence linking to /posts/does-aol-still-exist-today.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "dial-up-modem-sound-explained": {
    "source": "cannibalization 2026-11-20",
@@ -249,7 +265,8 @@
     "Stop competing with /posts/dial-up-internet-still-available-2026.html for its status query: drop the availability keywords and FAQ",
     "Replace the removed status material with one sentence linking to /posts/dial-up-internet-still-available-2026.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "dialup-speed-then-vs-now": {
    "source": "cannibalization 2026-11-20",
@@ -259,7 +276,8 @@
     "Stop competing with /posts/dial-up-internet-still-available-2026.html for its status query: drop the availability keywords and FAQ",
     "Replace the removed status material with one sentence linking to /posts/dial-up-internet-still-available-2026.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-excite-at-home-broadband": {
    "source": "cannibalization 2026-11-20",
@@ -269,7 +287,8 @@
     "Stop competing with /posts/what-happened-to-excite-search-engine-google.html for its status query: drop the 'Who owns Excite today' H2, FAQ and keyword; keep the broadband story",
     "Replace the removed status material with one sentence linking to /posts/what-happened-to-excite-search-engine-google.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "napster-destroyed-music": {
    "source": "cannibalization 2026-11-20",
@@ -279,7 +298,8 @@
     "Stop competing with /posts/who-owns-napster-now.html for its status query: drop the 'Is Napster still around in 2026?' H2 and FAQ",
     "Replace the removed status material with one sentence linking to /posts/who-owns-napster-now.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "blockbuster-netflix-acquisition": {
    "source": "cannibalization 2026-11-20",
@@ -289,7 +309,8 @@
     "Stop competing with /posts/is-blockbuster-still-open-last-store.html for its status query: drop the 'Who owns Blockbuster today?' H2, FAQ and status keywords",
     "Replace the removed status material with one sentence linking to /posts/is-blockbuster-still-open-last-store.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "how-imac-g3-saved-apple-killed-beige-box": {
    "source": "cannibalization 2026-11-20",
@@ -299,7 +320,8 @@
     "Stop competing with /posts/when-apple-almost-went-bankrupt-1997.html for its status query: retitle toward iMac G3 price, worth and colors (the current title asks whether the iMac G3 saved Apple)",
     "Replace the removed status material with one sentence linking to /posts/when-apple-almost-went-bankrupt-1997.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-apple-newton": {
    "source": "cannibalization 2026-11-20",
@@ -309,7 +331,8 @@
     "Stop competing with /posts/when-apple-almost-went-bankrupt-1997.html for its status query: drop 'who owns apple'",
     "Replace the removed status material with one sentence linking to /posts/when-apple-almost-went-bankrupt-1997.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-game-boy-nintendo-handheld": {
    "source": "cannibalization 2026-11-20",
@@ -319,7 +342,8 @@
     "Stop competing with /posts/buy-working-game-boy-2026.html for its status query: remove 'game boy price 2026' from this history post; buy-working-game-boy owns price and where to buy",
     "Replace the removed status material with one sentence linking to /posts/buy-working-game-boy-2026.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "yahoo-rejected-google": {
    "source": "cannibalization 2026-11-20",
@@ -329,7 +353,8 @@
     "Stop competing with /posts/who-owns-yahoo-now.html for its status query: drop the 'who owns yahoo' keyword and FAQ",
     "Replace the removed status material with one sentence linking to /posts/who-owns-yahoo-now.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "does-yahoo-answers-still-exist": {
    "source": "cannibalization 2026-11-20",
@@ -339,7 +364,8 @@
     "Stop competing with /posts/who-owns-yahoo-now.html for its status query: drop the 'who owns yahoo' keyword and FAQ",
     "Replace the removed status material with one sentence linking to /posts/who-owns-yahoo-now.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "does-yahoo-messenger-still-exist": {
    "source": "cannibalization 2026-11-20",
@@ -349,7 +375,8 @@
     "Stop competing with /posts/who-owns-yahoo-now.html for its status query: drop the 'who owns yahoo' keyword and FAQ",
     "Replace the removed status material with one sentence linking to /posts/who-owns-yahoo-now.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-atari-lynx-handheld": {
    "source": "cannibalization 2026-11-20",
@@ -359,7 +386,8 @@
     "Stop competing with /posts/who-owns-atari-now.html for its status query: drop the Atari-ownership H2 and keyword",
     "Replace the removed status material with one sentence linking to /posts/who-owns-atari-now.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   },
   "what-happened-to-nokia-3310": {
    "source": "cannibalization 2026-11-20",
@@ -369,7 +397,8 @@
     "Stop competing with /posts/does-nokia-still-make-phones.html for its status query: trim the 'Who owns the Nokia 3310 name' H2 to one line plus a link",
     "Replace the removed status material with one sentence linking to /posts/does-nokia-still-make-phones.html",
     "Keep this post on its own angle (story, product, price or how-to) and retitle it toward that angle if the title is a status question"
-   ]
+   ],
+   "date": "2026-11-20"
   }
  }
 }
