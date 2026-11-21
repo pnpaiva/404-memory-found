@@ -387,6 +387,9 @@ def load_posts(manifest, authors, config):
         # brand suffix is added only when it still fits; otherwise the searcher's words get all the room.
         base_title = (seo.get("title") or p["title"]).replace(f" | {BLOG_NAME}", "").strip()
         p["pageTitle"] = f"{base_title} | {BLOG_NAME}" if len(base_title) + len(BLOG_NAME) + 3 <= 60 else base_title
+        # The title readers see everywhere on the site (lists, cards, feed) matches the H1 and the search result,
+        # so a list never gives away the answer the page is careful to keep for the click
+        p["displayTitle"] = base_title
         p["metaDescription"] = seo.get("description") or p["excerpt"]
         hero = manifest.get(p.get("image") or "", {})
         p["heroLocal"] = hero.get("file") if hero.get("status") == "ok" else None
@@ -669,7 +672,7 @@ def post_list_html(posts):
         tags = ", ".join(esc(t) for t in p["tags"][:3])
         items.append(
             f'<li><a href="{p["path"]}">{thumb}<span class="page-list-text">'
-            f'<span class="page-list-title">{esc(p["title"])}</span>'
+            f'<span class="page-list-title">{esc(p["displayTitle"])}</span>'
             f'<span class="page-list-meta">{p["date"]} · {esc(p["authorName"])} · {p["readingTime"]}{" · " + tags if tags else ""}</span>'
             f'<span class="page-list-excerpt">{esc(p["excerpt"])}</span></span></a></li>')
     return '<ul class="page-list">' + "\n".join(items) + "</ul>"
@@ -852,7 +855,7 @@ def archive_card(r, event):
     teaser = strip_tags(r.get("summary") or r.get("excerpt") or "")
     teaser = teaser if len(teaser) <= 120 else teaser[:117].rsplit(" ", 1)[0] + "..."
     return (f'<a class="archive-card" href="{r["path"]}" data-ev="{event}">{thumb}'
-            f'<span class="archive-card-text"><strong>{esc(r["title"])}</strong><span>{esc(teaser)}</span></span></a>')
+            f'<span class="archive-card-text"><strong>{esc(r["displayTitle"])}</strong><span>{esc(teaser)}</span></span></a>')
 
 
 def insert_keep_reading(body, card):
@@ -956,7 +959,7 @@ def build_post_page(ctx, post, posts):
              + "".join(f'\n    <meta property="article:tag" content="{esc(t)}">' for t in post["tags"])
              + f'\n    <meta name="author" content="{esc(post["authorName"])}">')
     head = head_html(ctx, title=post["pageTitle"], description=post["metaDescription"], canonical=post["url"],
-                     og_type="article", og_image=post["ogImage"], extra_meta=extra, og_title=post["title"],
+                     og_type="article", og_image=post["ogImage"], extra_meta=extra, og_title=post["displayTitle"],
                      schemas=(blog_posting, breadcrumbs, extract_faq_schema(post["body"])))
     return shell_html(ctx, head, body_class="post-page", window_icon="📖", window_title=display_title,
                       content=content, status_text=human_date(post.get("updated") or post["date"]), slug=post["slug"])
@@ -1038,7 +1041,7 @@ def build_posts_index_page(ctx, posts):
     url = f"{BASE_URL}/posts/"
     schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"All posts | {BLOG_NAME}", "url": url,
               "mainEntity": {"@type": "ItemList", "itemListElement": [
-                  {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(posts)]}}
+                  {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["displayTitle"]} for i, p in enumerate(posts)]}}
     head = head_html(ctx, title=branded(f"All posts"), canonical=url,
                      description=f"Every story on {BLOG_NAME}: {len(posts)} articles about 90s and 2000s technology, games, websites and companies.",
                      schemas=(schema, breadcrumb_schema(("All posts", url))))
@@ -1261,7 +1264,7 @@ def build_tag_page(ctx, tag, posts):
                f'{nav_links_html(ctx["tags"], current=tag)}\n{post_list_html(tagged)}')
     schema = {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{tag} | {BLOG_NAME}", "url": url,
               "mainEntity": {"@type": "ItemList", "itemListElement": [
-                  {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["title"]} for i, p in enumerate(tagged)]}}
+                  {"@type": "ListItem", "position": i + 1, "url": p["url"], "name": p["displayTitle"]} for i, p in enumerate(tagged)]}}
     head = head_html(ctx, title=branded(f"{tag}"), canonical=url,
                      description=TAG_COPY.get(tag, (f"{len(tagged)} stories about {tag.lower()} from the 90s and 2000s on {BLOG_NAME}.",))[0],
                      schemas=(schema, breadcrumb_schema(("All posts", f"{BASE_URL}/posts/"), (tag, url))))
@@ -1326,7 +1329,7 @@ def render_desktop_list(posts):
                     <a href="{p['path']}">
                         <div class="blog-post-thumb"{data_attr} style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
-                            <h3>{esc(p['title'])}</h3>
+                            <h3>{esc(p['displayTitle'])}</h3>
                             <div class="date">{p['date']} <span class="reading-time">{p['readingTime']}</span></div>
                             <div class="excerpt">{esc(p['excerpt'])}</div>
                             <div class="tags">{esc(', '.join(p['tags']))}</div>
@@ -1346,7 +1349,7 @@ def render_mobile_list(posts):
                     <a href="{p['path']}">
                     <div class="mobile-post-thumb"{data_attr} style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
-                        <h3>{esc(p['title'])}</h3>
+                        <h3>{esc(p['displayTitle'])}</h3>
                         <div class="mobile-post-date">{p['date']} · {p['readingTime']}</div>
                         <div class="mobile-post-excerpt">{esc(p['excerpt'])}</div>
                         <div class="mobile-post-tags">{esc(' · '.join(p['tags'][:3]))}</div>
@@ -1373,7 +1376,7 @@ def render_archives(posts):
             f"""
                             <li class="archive-post">
                                 <a href="{p['path']}">
-                                    <div class="title">{esc(p['title'])}</div>
+                                    <div class="title">{esc(p['displayTitle'])}</div>
                                     <div class="date">{p['date']}</div>
                                 </a>
                             </li>""" for p in by_month[key])
@@ -1416,7 +1419,7 @@ def build_index_html(ctx, posts):
         "url": BASE_URL + "/",
         "image": DEFAULT_OG_IMAGE,
         "publisher": organization(ctx),
-        "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "url": p["url"], "datePublished": p["date"],
+        "blogPost": [{"@type": "BlogPosting", "headline": p["displayTitle"], "url": p["url"], "datePublished": p["date"],
                       "author": {"@type": "Person", "name": p["authorName"]}}
                      for p in posts[:20]],
     }
@@ -1527,7 +1530,7 @@ def build_feed(posts):
             media = (f'      <enclosure url="{url}" length="{size}" type="image/jpeg"/>\n'
                      f'      <media:content url="{url}" medium="image" type="image/jpeg" width="{w}" height="{h}"/>\n')
         items.append(f"""    <item>
-      <title>{esc(p['title'])}</title>
+      <title>{esc(p['displayTitle'])}</title>
       <link>{p['url']}</link>
       <guid isPermaLink="true">{p['url']}</guid>
       <pubDate>{rfc822(p['date'])}</pubDate>
@@ -1616,7 +1619,7 @@ def build_llms_full(posts):
 
 def posts_index_json(posts):
     return {"posts": [{
-        "id": p["slug"], "title": p["title"], "date": p["date"], "excerpt": p["excerpt"], "tags": p["tags"],
+        "id": p["slug"], "title": p["displayTitle"], "date": p["date"], "excerpt": p["excerpt"], "tags": p["tags"],
         "image": p.get("heroLocal") or p.get("image"), "thumb": p.get("thumb") or p.get("heroLocal") or p.get("image"),
         "readingTime": p["readingTime"], "authorName": p["authorName"], "authorKey": p["authorKey"],
     } for p in posts]}
