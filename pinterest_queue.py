@@ -114,7 +114,8 @@ def tease(post):
     if VALUE_TITLE.search(t):
         line = "What it cost new, what it sells for now and which versions collectors actually pay for."
     elif STATUS_TITLE.search(t):
-        line = "The real story, who owns it now and what is left of it today."
+        line = ("The real story behind it and what is left of it today." if "own" in t.lower()
+                else "The real story, who owns it now and what is left of it today.")
     else:
         line = "The story most people never heard, with the numbers and where it stands today."
     keywords = [k for k in (post.get("seo") or {}).get("keywords", []) if len(k) < 45][:4]
