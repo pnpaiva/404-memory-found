@@ -15142,15 +15142,15 @@ Only through emulation. Microsoft ended support for Windows 95 on December 31, 2
 
 URL: https://404memoryfound.com/posts/what-happened-to-commodore-computers.html
 Author: Marcus Vale (404 Memory Found)
-Published: 2026-04-05  Updated: 2026-11-15
+Published: 2026-04-05  Updated: 2026-11-21
 Topics: Hardware, Business Blunders
 
-**Summary:** Commodore still exists, but not as the company that built the Commodore 64. Commodore International filed for voluntary liquidation on April 29, 1994, and the brand was bought in July 2025 by an investor group led by YouTuber Christian Simpson. That company now trades as Commodore Corporation B.V., sells the Commodore 64 Ultimate for $299.99, and on November 3, 2026 signed a retail deal that returns the machine to European store shelves for the first time in over 30 years.
+**Summary:** Commodore still exists, but not as the company that built the Commodore 64. Commodore International filed for voluntary liquidation on April 29, 1994, and an investor group led by YouTuber Christian Simpson bought the brand in July 2025. That company now trades as Commodore Corporation B.V., sells the Commodore 64 Ultimate for $299.99, signed a European retail deal on November 3, 2026, and launched the $399 Callback 8020 flip phone on November 10, 2026.
 
 **Key facts:**
-- Status today: Trading as Commodore Corporation B.V. since July 2025; retail deal signed November 2026
+- Status today: Trading as Commodore Corporation B.V. since July 2025; sells the C64 Ultimate and the Callback 8020 phone
 - Owner today: Investor group led by Christian Simpson (Peri Fractic)
-- Price today: Commodore 64 Ultimate from $299.99; Commodore 77 edition $377; used original C64 about $100
+- Price today: Commodore 64 Ultimate from $299.99; Callback 8020 phone from $399; used original C64 about $100
 - Founded: 1954 by Jack Tramiel; the Commodore 64 launched August 1982 at $595
 - Original collapse: Voluntary liquidation on April 29, 1994
 
@@ -15188,21 +15188,23 @@ Then there was the CD32. Released in 1993, it was the first 32-bit CD-ROM games 
 
 ## Is Commodore still in business in 2026?
 
-Yes, though not as the company that went under. Commodore International filed for voluntary liquidation on April 29, 1994, three days after closing the Amiga division. The brand then passed through German PC maker Escom in 1995, Gateway in 1997, and a run of licensees who stuck the name on phones and set-top boxes without building anything that mattered.
+Yes, though not as the company that went under. Commodore International filed for voluntary liquidation on April 29, 1994, three days after closing the Amiga division. The brand then passed through Escom, Gateway and a run of licensees who stuck the name on phones and set-top boxes without building anything that mattered.
 
 In 2025 an investor group led by Christian Simpson, the retro YouTuber behind the Retro Recipes channel who posts as Peri Fractic, bought Commodore Corporation B.V. for what he has described as a low seven-figure sum, signing on July 31, 2025. The deal covered 47 original trademarks, the oldest dating to 1983. "Commodore has been asleep for over 30 years," Simpson told Time Extension in 2025.
 
-This Commodore actually ships hardware. The Commodore 64 Ultimate, an FPGA recreation of the 1982 machine with HDMI, USB and Wi-Fi, went on sale on July 12, 2025 at $299.99 for the BASIC Beige model and passed 10,000 units sold within months. A slimline C64C Ultimate followed in 2026, molded in tooling recovered from 1986. The Amiga line went elsewhere: Amiga Corporation, formerly Cloanto, holds the Amiga trademarks and the AmigaOS 3.x rights after settling with Hyperion Entertainment.
+This Commodore ships hardware. The Commodore 64 Ultimate, an FPGA recreation of the 1982 machine with HDMI, USB and Wi-Fi, went on sale on July 12, 2025 and passed 10,000 units sold within months. On November 3, 2026 Commodore signed an exclusive deal with the distributor Colby to put it in shops across Europe and parts of Africa and Asia, naming Media Markt and Argos, the first Commodore hardware at retail in more than 30 years. American buyers still order online: the company says it is "working on the USA too" but has given no date.
 
-The brand is heading back to shelves too. On November 3, 2026 Commodore announced an exclusive retail deal with the distributor Colby to put the Commodore 64 Ultimate in physical stores across Europe and parts of Africa and Asia, the first time Commodore hardware has been sold at retail in more than 30 years. "Commodore is returning to shelves soon," the company said in the announcement, naming Media Markt and Argos among the chains it expects to carry the machine. American buyers still have to order online: Commodore says it is "working on the USA too" but has named no date and no US chain. A special edition made with CD Projekt Red, the Commodore 77, opened pre-orders at $377 and puts the same FPGA hardware in Cyberpunk 2077 styling, with shipping promised for early 2027.
+Then came the phone, the one product the old licensees had already failed at. Commodore launched the Callback 8020 on November 10, 2026, a clamshell running Jolla's Sailfish OS instead of Android, with browsers and social media blocked in software. "All social media & browsers are blocked at system level," the product page says. Standard editions pre-order at $399, cut from $499 in June 2026 when recycled memory chips became the default, and a gold-plated Founders Edition runs $640. Nothing has shipped in the United States yet: the Callback needs FCC authorization first, and Commodore said on November 5, 2026 that the earliest pre-orders should reach buyers in late November or early December.
 
-## What does an original Commodore 64 cost in 2026?
+## Why a $35 Commodore 64 is a gamble and $100 is not
 
-Enough Commodore 64s survive that this is a cheap hobby to start. A tested breadbin with cables and a working power supply usually runs about $100, and under $200 buys a good one with a disk drive. Untested units sell closer to $35, which is a gamble, because a dead SID chip alone costs around $50 to replace. Rare variants and sealed boxed sets climb past $1,000.
+The new machine is the simple answer. The Commodore 64 Ultimate costs $299.99 for the BASIC Beige model, a slimline C64C Ultimate followed in 2026 molded in tooling recovered from 1986, and a Cyberpunk 2077 edition built with CD Projekt Red, the Commodore 77, opened pre-orders at $377 for early 2027. The Amiga line went elsewhere: Amiga Corporation, formerly Cloanto, holds the Amiga trademarks and the AmigaOS 3.x rights after settling with Hyperion Entertainment.
+
+Enough original Commodore 64s survive that this is a cheap hobby to start. A tested breadbin with cables and a working power supply usually runs about $100, and under $200 buys a good one with a disk drive. Untested units sell closer to $35, which is a gamble, because a dead SID chip alone costs around $50 to replace. Rare variants and sealed boxed sets climb past $1,000.
 
 The usual failure point is the original power supply, which has a habit of cooking the machine on its way out. Budget for a modern replacement before plugging in a 40-year-old brick.
 
-Where to find one today: working machines, boxed software, manuals and cartridges turn up constantly from small sellers on Etsy (https://www.etsy.com/search?q=commodore+64), at the prices above. If you would rather not maintain 1982 hardware at all, the Commodore 64 Ultimate does the same job for $299.99 and plugs into a modern television. Apple went to the edge as well and survived its 1997 near-bankruptcy (https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html) because it got a product leader back. Commodore never did, which is why the recreations arrived 31 years after the liquidation instead of the machines themselves.
+Where to find one today: working machines, boxed software, manuals and cartridges turn up constantly from small sellers on Etsy (https://www.etsy.com/search?q=commodore+64), at the prices above. Apple went to the edge as well and survived its 1997 near-bankruptcy (https://404memoryfound.com/posts/when-apple-almost-went-bankrupt-1997.html) because it got a product leader back. Commodore never did, which is why the recreations and the flip phone arrived more than 30 years after the liquidation instead of the machines themselves.
 
 ## Frequently Asked Questions
 
@@ -15225,6 +15227,9 @@ Commodore International closed its Amiga division on April 26, 1994 and filed fo
 - Tom's Hardware: Commodore 64 Ultimate eclipses 10,000 units sold: https://www.tomshardware.com/video-games/retro-gaming/commodore-64-ultimate-eclipses-10-000-units-sold-milestone-rebooted-firm-gives-huge-thank-you-to-fans
 - Commodore.ca: Mehdi Ali and the End of Commodore: https://www.commodore.ca/commodore-history/mehdi-ali-the-end-of-commodore/
 - Low End Mac: The 1983 Home Computer Price War: https://lowendmac.com/2016/the-1983-home-computer-price-war/
+- The Gadgeteer: Commodore's Callback 8020 flip phone is official (November 10, 2026): https://the-gadgeteer.com/2026/11/10/commodore-callback-8020-flip-phone-launch/
+- Adafruit: Commodore officially launches the Callback 8020 flip phone (November 10, 2026): https://blog.adafruit.com/2026/11/10/commodore-officially-launches-the-callback-8020-flip-phone/
+- Engadget: Commodore has dropped the price of its retro phone by $100 ahead of preorders (June 2026): https://www.engadget.com/2202085/commodore-has-dropped-the-price-of-its-retro-phone-by-100-ahead-of-preorders/
 
 ---
 
