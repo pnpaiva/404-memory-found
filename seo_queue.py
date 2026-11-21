@@ -6,7 +6,7 @@ Which existing post the upgrade desk should improve next.
     python3 seo_queue.py list 15     # the first N of the queue
     python3 seo_queue.py report      # how much of the archive has been upgraded
 
-Order of the queue:
+Order of the queue (tiers 1 to 3 take turns, one post each; tier 4 follows):
   1. pages Google already shows (seo/search-console.json) at positions 3 to 35 with 3+ impressions,
      most impressions first: they are one good rewrite away from the first page;
   2. pages with an entry in seo/upgrade-notes.json (search-results gaps, posts competing with each other);
@@ -54,12 +54,19 @@ def queue():
 
     qmap = gsc.get("queries_by_page", {})
     pages = [r for r in gsc.get("pages", []) if r[0] in by and r[2] >= 3 and 3 <= r[3] <= 35]
-    for slug, clicks, imp, pos in sorted(pages, key=lambda r: -r[2]):
-        add(slug, f"in search: {imp} impressions at position {pos}, {clicks} clicks", qmap.get(slug, ()))
-    for slug, n in gsc["_notes"].items():
-        add(slug, f"upgrade note ({n.get('source', 'notes')})", qmap.get(slug, ()))
-    for slug in gsc.get("crawled_not_indexed", []):
-        add(slug, "crawled but not indexed: Google judged it not good enough yet", qmap.get(slug, ()))
+    in_search = [(slug, f"in search: {imp} impressions at position {pos}, {clicks} clicks")
+                 for slug, clicks, imp, pos in sorted(pages, key=lambda r: -r[2])]
+    noted = [(slug, f"upgrade note ({n.get('source', 'notes')})") for slug, n in gsc["_notes"].items()]
+    crawled = [(slug, "crawled but not indexed: Google judged it not good enough yet")
+               for slug in gsc.get("crawled_not_indexed", [])]
+    # Round robin over the three tiers: ranking pages, noted gaps and refused pages each get a turn, so the pages
+    # Google crawled and turned down are not stuck behind months of the other two (they are the indexing lever).
+    tiers = [in_search, crawled, noted]
+    while any(tiers):
+        for tier in tiers:
+            if tier:
+                slug, reason = tier.pop(0)
+                add(slug, reason, qmap.get(slug, ()))
     rest = sorted(posts, key=lambda p: ("<figure" in p["body"], p.get("updated") or p["date"]))
     for p in rest:
         add(p["id"], "not upgraded yet" + ("" if "<figure" in p["body"] else ", no in-body photo"))
