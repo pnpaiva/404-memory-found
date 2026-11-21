@@ -115,7 +115,11 @@ def cmd_next(n):
     fast = priority_urls(state)
     skip = known_indexed()
     rest = [u for u in ranked_urls() if u not in fast and u not in skip and due(state["urls"].get(u), today)]
-    print("\n".join((fast + rest)[:n]))
+    # A rewritten page that already has impressions gets recrawled soon on its own (sitemap lastmod); a page
+    # Google has never shown needs the slot more. Rewrites of pages not yet on Google keep the front of the line.
+    fast_new = [u for u in fast if u not in skip]
+    fast_known = [u for u in fast if u in skip]
+    print("\n".join((fast_new + rest + fast_known)[:n]))
 
 
 def cmd_mark(url, status):
