@@ -8,7 +8,8 @@ pin gets, and keeps the score, so the browser part stays dumb.
 
 What is tested (each pin gets one arm of every dimension, picked independently):
   cover  window | dialog | bold         three image designs (make_og_cards.PIN_COVERS)
-  title  full | short                   whole title vs the part before the first "?" or ":"
+  title  full | short | punchy          whole title, the part before the first "?" or ":", or the loud
+                                       version ("What the Heck Happened to Nextel?")
   desc   answer | tease                 SEO description vs a curiosity line plus keywords
   slot   morning | evening              which daily run posted it (recorded, not chosen)
 
@@ -45,7 +46,7 @@ STATS_MAX_AGE = 60       # stop re-reading after this many days
 MIN_PINS = 3             # rotate arms evenly until each has this many pins with stats
 OUTBOUND_SWITCH = 30     # total outbound clicks before the sampler optimises for them
 
-DIMENSIONS = {"cover": ["window", "dialog", "bold"], "title": ["full", "short"], "desc": ["answer", "tease"]}
+DIMENSIONS = {"cover": ["window", "dialog", "bold"], "title": ["full", "short", "punchy"], "desc": ["answer", "tease"]}
 
 VALUE_BOARD = "Vintage Collectibles Worth Money"
 STORES_BOARD = "Dead Stores and Defunct Brands"
@@ -109,6 +110,38 @@ def short_title(title):
     return short if len(short.split()) >= 3 and short != title else None
 
 
+SUBJECT_RES = [
+    r"^Who Owns (?:the )?(.+?) Now\b",
+    r"^(?:Is|Are) (?:the |a |an )?(.+?) Still\b",
+    r"^Does (?:the )?(.+?) Still\b",
+    r"^Do They Still Make (.+?)\?",
+    r"^What(?:ever)? Happened to (?:the )?(.+?)(?:\?|,|$)",
+    r"^Why (?:the )?(.+?) (?:Failed|Died|Flopped|Collapsed|Disappeared|Went Bankrupt|Shut Down)\b",
+    r"^How Many (.+?) Are (?:Left|Still)\b",
+    r"^(.+?) (?:Price|Value|Explained)\b",
+]
+VALUE_RES = [r"^Are (?:Old )?(.+?) Worth\b", r"^Is (?:the |a |an )?(?:Old )?(.+?) Worth\b"]
+
+
+def punchy_title(title):
+    """The loud version for Pinterest: "What the Heck Happened to Nextel?", or for value posts
+    "Are Your Old Pogs Worth Real Money Now?". None when the subject cannot be read off the title."""
+    for rx in VALUE_RES:
+        m = re.match(rx, title)
+        if m and len(m.group(1).split()) <= 5:
+            subj = m.group(1).strip()
+            verb = "Are" if title.startswith("Are") else "Is"
+            return f"{verb} Your Old {subj} Worth Real Money Now?"
+    for rx in SUBJECT_RES:
+        m = re.match(rx, title)
+        if m:
+            subj = re.sub(r" Stores$", "", m.group(1).strip().rstrip(",.:"))
+            the = "the " if re.match(r"^(Is|Are|Who Owns|Why|Does|What Happened to) the ", title) else ""
+            if 1 <= len(subj.split()) <= 5 and not re.search(r"\b(Still|Now|Worth)\b", subj):
+                return f"What the Heck Happened to {the}{subj}?"
+    return None
+
+
 def tease(post):
     t = post["title"]
     if VALUE_TITLE.search(t):
@@ -128,7 +161,7 @@ def tease(post):
 
 def copy_for(post, arms):
     full = re.sub(r"\s*\|\s*404 Memory Found$", "", post["title"])
-    title = (short_title(full) if arms["title"] == "short" else None) or full
+    title = {"short": short_title(full), "punchy": punchy_title(full)}.get(arms["title"]) or full
     if arms["desc"] == "tease":
         desc = tease(post)
     else:
@@ -289,7 +322,10 @@ def cmd_next(n, slot):
     for post in picks:
         arms = {}
         for dim, options in DIMENSIONS.items():
-            allowed = options if not (dim == "title" and not short_title(post["title"])) else ["full"]
+            allowed = options
+            if dim == "title":
+                allowed = ["full"] + (["short"] if short_title(post["title"]) else []) \
+                    + (["punchy"] if punchy_title(post["title"]) else [])
             arms[dim] = pick_arm(state, dim, allowed, already[dim])
             already[dim][arms[dim]] = already[dim].get(arms[dim], 0) + 1
         arms["slot"] = slot
