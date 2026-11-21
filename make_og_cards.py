@@ -286,10 +286,12 @@ def main():
         og = os.path.join(OG_DIR, f"{p['id']}.jpg")
         pin = os.path.join(PIN_DIR, f"{p['id']}.jpg")
         current = stamps.get(p["id"])
-        if force or not os.path.exists(og) or not os.path.exists(pin) or current != (photo or ""):
+        # The card prints the title, so a retitled post needs a new card as much as a new photo does.
+        wanted = (photo or "") + "|" + p["title"]
+        if force or not os.path.exists(og) or not os.path.exists(pin) or current != wanted:
             make_og(p, photo, og)
             make_pin(p, photo, pin)
-            stamps[p["id"]] = photo or ""
+            stamps[p["id"]] = wanted
             made += 1
     json.dump(stamps, open(stamp_path, "w"), indent=0, sort_keys=True)
     if force or not os.path.exists("logo-512.png"):

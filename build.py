@@ -47,6 +47,17 @@ CONSENT_JS = ("var __declined=false;try{__declined=localStorage.getItem('cookie-
               "var __c=__declined?'denied':'granted';"
               "gtag('consent','default',{analytics_storage:__c,ad_storage:__c,ad_user_data:__c,ad_personalization:__c});"
               "if(__declined){(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;}")
+# Visits that must not load analytics or ads: the owner (open any page once with ?noads=1 on each browser;
+# ?noads=0 undoes it), automated browsers (navigator.webdriver) and non-Google crawlers that run JavaScript
+# (an SEO crawler from Singapore was half of all AdSense page views). Google's own crawlers are left alone.
+QUIET_JS = ("(function(){var q=false,u=navigator.userAgent||'';"
+            "try{var p=new URLSearchParams(location.search).get('noads');"
+            "if(p==='1')localStorage.setItem('404mf-quiet','1');if(p==='0')localStorage.removeItem('404mf-quiet');"
+            "q=localStorage.getItem('404mf-quiet')==='1';}catch(e){}"
+            "if(!/google|mediapartners/i.test(u)&&(navigator.webdriver||"
+            "/bot|crawl|spider|slurp|headless|ahrefs|semrush|mj12|petal|bytespider|python|curl|wget|phantom|puppeteer|playwright|selenium/i.test(u)))q=true;"
+            "window.__404quiet=q;window.__404load=function(src,cors){var s=document.createElement('script');"
+            "s.async=true;s.src=src;if(cors)s.crossOrigin='anonymous';document.head.appendChild(s);};})();")
 HUB_TAG_COUNT = 8
 RELATED_COUNT = 5
 MAX_AUTO_LINKS = 6
@@ -305,9 +316,10 @@ def adsense_head(config):
     client = config.get("adsense_client") or ""
     if not client:
         return ""
+    # Loaded through __404load so the owner's own visits, test browsers and non-Google crawlers never request
+    # ads: they were most of the page views AdSense counted and they drag page RPM down (and risk invalid traffic).
     return (f'\n    <meta name="google-adsense-account" content="{client}">'
-            f'\n    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={client}" '
-            'crossorigin="anonymous"></script>')
+            f'\n    <script>if(!window.__404quiet)__404load("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={client}",1);</script>')
 
 
 # --------------------------------------------------------------------------- posts
@@ -504,8 +516,9 @@ def extract_faq_schema(body):
 def gtag_snippet():
     return f"""    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-    <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+    <script>{QUIET_JS}</script>
     <script>
+      if(!window.__404quiet)__404load('https://www.googletagmanager.com/gtag/js?id={GA_ID}');
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       {CONSENT_JS}
@@ -1446,6 +1459,12 @@ def build_index_html(ctx, posts):
     <script type="application/ld+json" id="schema-markup"></script>"""
 
     out = source.replace("    <!-- SEO meta tags are injected by build.py - do not duplicate here -->", seo_meta, 1)
+    # The source keeps a plain gtag tag for local previews; the built page gets the same gated loader as every
+    # other page, which must run before the AdSense loader in seo_meta.
+    gated = gtag_snippet().split("\n", 2)[2].strip()
+    out, n = re.subn(r'<script async src="https://www\.googletagmanager\.com/gtag/js\?id=[^"]+"></script>\s*<script>.*?</script>',
+                     lambda m: gated, out, count=1, flags=re.DOTALL)
+    assert n == 1, "homepage gtag block not found"
     if ctx["adsense"]:
         out = re.sub(r'\s*<meta http-equiv="Content-Security-Policy"[^>]*>', "", out, count=1)
 
