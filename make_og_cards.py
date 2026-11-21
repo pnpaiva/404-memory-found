@@ -18,7 +18,7 @@ import os
 import re
 import sys
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import ImageFilter, Image, ImageDraw, ImageFont, ImageOps
 
 OG_DIR = "og"
 PIN_DIR = "pins"
@@ -216,7 +216,9 @@ def make_og(post, photo, path):
     im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
 
 
-def make_pin(post, photo, path):
+def make_pin(post, photo, path, title=None):
+    """Cover "window": the house Win95 window, photo on top, question and button below."""
+    title = title or post["title"]
     im = background(PIN_SIZE)
     d = ImageDraw.Draw(im)
     W, H = PIN_SIZE
@@ -226,35 +228,133 @@ def make_pin(post, photo, path):
     title_bar(d, tb, "404 Memory Found", font(30, bold=True))
     ca = (win[0] + 14, tb[3] + 12, win[2] - 14, win[3] - 14)
     d.rectangle(ca, fill=WHITE)
-    top = ca[1] + 20
+    # The title is measured first so the photo can take whatever height is left: no empty band at the bottom.
+    # No summary on the pin: the title asks the question and the button sends people to the answer
+    # (pins that printed the answer got saves but almost no clicks).
+    f, lines, lh = fit_title(d, title, ca[2] - ca[0] - 80, 4, 76, 46)
+    label = "Read the full story"
+    lf = font(36, bold=True)
+    title_h = len(lines) * lh
+    block_h = title_h + 34 + 80          # title, gap, button
+    bottom = ca[3] - 96                  # footer line sits below this
     if photo:
-        pbox = (ca[0] + 20, ca[1] + 20, ca[2] - 20, ca[1] + 20 + 760)
+        photo_h = max(560, min(900, bottom - (ca[1] + 20) - 40 - block_h))
+        pbox = (ca[0] + 20, ca[1] + 20, ca[2] - 20, ca[1] + 20 + photo_h)
         if photo_panel(im, photo, pbox):
-            top = pbox[3] + 34
             d = ImageDraw.Draw(im)
-    else:
+        else:
+            photo = None
+    if not photo:
         # text-only pin: a big 404 glyph keeps the card from looking empty
         gf = font(260, bold=True)
         d.text(((W - d.textlength("404", font=gf)) / 2, ca[1] + 120), "404", font=gf, fill=(225, 225, 225))
-        top = ca[1] + 520
-    f, lines, lh = fit_title(d, post["title"], ca[2] - ca[0] - 80, 5, 66, 40)
-    y = top
+    y = bottom - block_h
     for line in lines:
         d.text((ca[0] + 40, y), line, font=f, fill=NAVY)
         y += lh
-    summary = (post.get("summary") or post.get("excerpt") or "").strip()
-    if summary and y < ca[3] - 200:
-        sf = font(30)
-        for line in wrap(summary, sf, ca[2] - ca[0] - 80, d)[:4]:
-            if y > ca[3] - 120:
-                break
-            d.text((ca[0] + 40, y + 12), line, font=sf, fill=(60, 60, 60))
-            y += 40
+    bw = d.textlength(label, font=lf) + 84
+    btn = (ca[0] + 40, y + 34, ca[0] + 40 + bw, y + 34 + 80)
+    bevel(d, btn, raised=True)
+    d.text((btn[0] + 42, btn[1] + 19), label, font=lf, fill=(0, 0, 0))
     tags = " · ".join(post.get("tags", [])[:2])
     d.text((ca[0] + 40, ca[3] - 60), tags, font=font(24), fill=META)
     bf = font(26, bold=True)
     d.text((ca[2] - 40 - d.textlength("404memoryfound.com", font=bf), ca[3] - 62), "404memoryfound.com", font=bf, fill=TEAL)
     im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
+
+
+def button(d, x, y, label, lf):
+    bw = d.textlength(label, font=lf) + 84
+    box = (x, y, x + bw, y + 80)
+    bevel(d, box, raised=True)
+    d.text((box[0] + 42, box[1] + 19), label, font=lf, fill=(0, 0, 0))
+    return box
+
+
+def full_bleed(im, path):
+    """Fill the whole canvas with the photo. Wide photos and logos sit at full width over a blurred,
+    darkened copy of themselves, so nothing important is cropped and there are no empty bands."""
+    try:
+        ph = Image.open(path)
+        if ph.mode in ("RGBA", "LA", "P"):
+            ph = ph.convert("RGBA")
+            flat = Image.new("RGB", ph.size, WHITE)
+            flat.paste(ph, mask=ph.split()[-1])
+            ph = flat
+        ph = ph.convert("RGB")
+    except Exception:
+        return False
+    W, H = im.size
+    if ph.width / ph.height <= W / H * 1.25:
+        im.paste(ImageOps.fit(ph, (W, H), method=Image.LANCZOS, centering=(0.5, 0.4)), (0, 0))
+        return True
+    back = ImageOps.fit(ph, (W, H), method=Image.LANCZOS).filter(ImageFilter.GaussianBlur(28))
+    back = Image.blend(back, Image.new("RGB", (W, H), (0, 0, 0)), 0.35)
+    im.paste(back, (0, 0))
+    fh = int(ph.height * W / ph.width)
+    im.paste(ph.resize((W, fh), Image.LANCZOS), (0, max(60, int(H * 0.36 - fh / 2))))
+    return True
+
+
+def make_pin_dialog(post, photo, path, title=None):
+    """Cover "dialog": the photo fills the whole pin and the question sits in a Win95 dialog box over it."""
+    title = title or post["title"]
+    W, H = PIN_SIZE
+    im = background(PIN_SIZE)
+    if photo and not full_bleed(im, photo):
+        photo = None
+    d = ImageDraw.Draw(im)
+    if not photo:
+        gf = font(300, bold=True)
+        d.text(((W - d.textlength("404", font=gf)) / 2, 260), "404", font=gf, fill=(30, 150, 150))
+    f, lines, lh = fit_title(d, title, W - 80 - 100, 4, 66, 44)
+    box_h = 60 + 40 + len(lines) * lh + 34 + 80 + 36
+    win = (40, H - 50 - box_h, W - 40, H - 50)
+    bevel(d, win, raised=True)
+    tb = (win[0] + 6, win[1] + 6, win[2] - 6, win[1] + 60)
+    title_bar(d, tb, "404 Memory Found", font(28, bold=True))
+    y = tb[3] + 40
+    for line in lines:
+        d.text((win[0] + 50, y), line, font=f, fill=(0, 0, 0))
+        y += lh
+    lf = font(34, bold=True)
+    btn = button(d, win[0] + 50, y + 34, "Read the full story", lf)
+    bf = font(26, bold=True)
+    d.text((win[2] - 50 - d.textlength("404memoryfound.com", font=bf), btn[1] + 26), "404memoryfound.com",
+           font=bf, fill=TEAL_DARK)
+    im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
+
+
+def make_pin_bold(post, photo, path, title=None):
+    """Cover "bold": the question in huge white type on the teal desktop, the photo in a window below it."""
+    title = title or post["title"]
+    W, H = PIN_SIZE
+    im = background(PIN_SIZE)
+    d = ImageDraw.Draw(im)
+    f, lines, lh = fit_title(d, title, W - 120, 5, 104, 58)
+    y = 80
+    for line in lines:
+        d.text((60, y), line, font=f, fill=WHITE)
+        y += lh
+    win = (50, y + 40, W - 50, H - 210)
+    bevel(d, win, raised=True)
+    tb = (win[0] + 6, win[1] + 6, win[2] - 6, win[1] + 56)
+    title_bar(d, tb, "404 Memory Found", font(26, bold=True))
+    pbox = (win[0] + 12, tb[3] + 10, win[2] - 12, win[3] - 12)
+    if not (photo and photo_panel(im, photo, pbox)):
+        d.rectangle(pbox, fill=WHITE)
+        gf = font(220, bold=True)
+        d.text(((W - d.textlength("404", font=gf)) / 2, pbox[1] + 60), "404", font=gf, fill=(225, 225, 225))
+    d = ImageDraw.Draw(im)
+    lf = font(36, bold=True)
+    btn = button(d, 50, H - 160, "Read the full story", lf)
+    bf = font(30, bold=True)
+    d.text((W - 50 - d.textlength("404memoryfound.com", font=bf), btn[1] + 24), "404memoryfound.com", font=bf,
+           fill=WHITE)
+    im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
+
+
+PIN_COVERS = {"window": make_pin, "dialog": make_pin_dialog, "bold": make_pin_bold}
 
 
 def make_logo(path):
