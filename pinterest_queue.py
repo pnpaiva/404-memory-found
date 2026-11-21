@@ -195,6 +195,38 @@ def prob_best(totals, n=4000):
     return {a: (wins[a] / n if a in wins else None) for a in totals}
 
 
+def flatness(path):
+    """Share of near-white pixels and contrast of a photo. Screenshots of mostly empty pages (the Ask.com
+    home page) make covers that say nothing, so they lose to any real photo in the post."""
+    from PIL import Image, ImageStat
+    try:
+        im = Image.open(path).convert("L").resize((96, 96))
+    except Exception:
+        return 1.0, 0.0
+    px = list(im.getdata())
+    return sum(1 for v in px if v > 232) / len(px), ImageStat.Stat(im).stddev[0]
+
+
+def pin_photo(post, manifest, cards):
+    """The photo a cover should use: the hero unless it is a flat, mostly white image, then the busiest
+    real photo from the post's body. None means the post has nothing worth pinning yet."""
+    def local(url):
+        info = manifest.get(url, {})
+        path = info.get("file", "").lstrip("/")
+        return os.path.join(ROOT, path) if info.get("status") == "ok" and os.path.exists(os.path.join(ROOT, path)) else None
+    hero = cards.hero_path(post, manifest)
+    hero = os.path.join(ROOT, hero) if hero else None
+    options = ([hero] if hero else []) + [local(u) for u in re.findall(r'<img[^>]+src="([^"]+)"', post.get("body", ""))]
+    best, best_std = None, -1
+    for path in [o for o in options if o]:
+        white, std = flatness(path)
+        if white < 0.5 and std > 38:
+            return path
+        if white < 0.7 and std > best_std:
+            best, best_std = path, std
+    return best if best_std > 30 else None
+
+
 # --------------------------------------------------------------------------- picking posts
 
 def candidates(state):
@@ -243,6 +275,16 @@ def cmd_next(n, slot):
     for p in pool:
         if len(picks) < n and p not in picks:
             picks.append(p)
+    photos = {}
+    ok = []
+    for post in picks + [p for p in pool if p not in picks]:
+        if len(ok) == len(picks):
+            break
+        photo = pin_photo(post, manifest, cards)
+        if photo:
+            photos[post["id"]] = photo
+            ok.append(post)
+    picks = ok
     already = {dim: {} for dim in DIMENSIONS}
     for post in picks:
         arms = {}
@@ -253,7 +295,7 @@ def cmd_next(n, slot):
         arms["slot"] = slot
         title, desc = copy_for(post, arms)
         image = os.path.join(VARIANTS, f"{post['id']}-{arms['cover']}-{arms['title']}.jpg")
-        cards.PIN_COVERS[arms["cover"]](post, cards.hero_path(post, manifest), image, title=title)
+        cards.PIN_COVERS[arms["cover"]](post, photos[post["id"]], image, title=title)
         state["pending"][post["id"]] = {"arms": arms, "board": board_for(post), "title": title, "desc": desc,
                                        "picked": now(), "image": image, "url": tagged_url(post["id"], arms)}
         print(json.dumps({"slug": post["id"], "url": tagged_url(post["id"], arms), "title": title,
