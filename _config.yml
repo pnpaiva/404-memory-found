@@ -28,6 +28,7 @@ exclude:
   - "newgrounds_post.py"
   - "pinterest_auth.py"
   - "pinterest_publish.py"
+  - "pinterest_queue.py"
   - "posts.json"
   - "redirects.json"
   - "refresh-priority.json"
