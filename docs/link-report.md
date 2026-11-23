@@ -1,12 +1,12 @@
-# Link report, 2026-11-16
+# Link report, 2026-11-23
 
-229 posts, 911 internal body links, 1292 distinct external URLs.
+234 posts, 934 internal body links, 1468 distinct external URLs.
 
 ## Broken internal links
 
 None.
 
-## Posts with fewer than two inbound body links (59)
+## Posts with fewer than two inbound body links (61)
 
 - 0 inbound: aol-youve-got-mail-voice-elwood-edwards
 - 0 inbound: boston-market-locations-left
@@ -19,13 +19,13 @@ None.
 - 0 inbound: is-kinkos-still-around
 - 0 inbound: is-toonami-still-on-tv
 - 0 inbound: mavis-beacon-real-person
-- 0 inbound: nintendo-power-magazine-value
 - 0 inbound: philips-cd-i-worth-today
-- 0 inbound: pogs-worth-anything-collector-prices
 - 0 inbound: rainforest-cafe-locations-left
+- 0 inbound: sears-wish-book-archive-old-catalogs
 - 0 inbound: skymall-still-around-who-owns-it
 - 0 inbound: sony-aibo-robot-dog-today
 - 0 inbound: t-mobile-sidekick-danger-hiptop
+- 0 inbound: trapper-keeper-value-vintage
 - 0 inbound: what-happened-to-hypercard-apple
 - 0 inbound: what-happened-to-netbooks-laptops
 - 0 inbound: what-happened-to-pointcast-push-technology
@@ -37,22 +37,24 @@ None.
 - 0 inbound: who-owns-travelocity-now
 - 0 inbound: windows-movie-maker-still-available
 - 1 inbound: dial-up-modem-sound-explained
+- 1 inbound: does-yahoo-answers-still-exist
 - 1 inbound: etoys-com-who-owns-it-now
 - 1 inbound: everquest-still-active-2026
+- 1 inbound: funcoland-stores-what-happened
 - 1 inbound: heelys-still-sold-2026
 - 1 inbound: iridium-satellite-phone-failure
 - 1 inbound: is-disney-store-still-open
-- 1 inbound: is-hollywood-video-still-around
 - 1 inbound: is-runescape-still-popular-2026
 - 1 inbound: laserdisc-value-collector-market
+- 1 inbound: lisa-frank-folders-value
+- 1 inbound: micro-machines-toys-value
 - 1 inbound: microsoft-tried-buy-nintendo
-- 1 inbound: motorola-startac-price-1996
 - 1 inbound: neo-geo-aes-home-console-price
 - 1 inbound: nextel-direct-connect-chirp-shutdown
 - 1 inbound: nortel-networks-bankruptcy-patents-sold
+- 1 inbound: payphones-left-united-states
 - 1 inbound: sega-nomad-handheld-genesis
 - 1 inbound: sony-memory-stick-still-made
-- 1 inbound: tiger-electronics-handhelds-value
 - 1 inbound: virgin-megastore-stores-left
 - 1 inbound: what-happened-to-arcades-golden-age-gaming
 - 1 inbound: what-happened-to-craigslist-ugliest-website-worth-billions
@@ -68,17 +70,17 @@ None.
 - 1 inbound: winzip-price-shareware-cost
 - 1 inbound: y2k-bug-what-actually-happened
 
-## Dead external links (82)
+## Dead external links (79)
 
-- 502 http://www.nintendoworldreport.com/pr/12050/official-wii-launch-details  (in 90s-tech-inflation-calculator)
 - 502 https://aimgroup.com/2025/03/12/craigslist-revenue-drops-once-more-rival-mercari-unable-to-pull-in-front/  (in what-happened-to-craigslist-ugliest-website-worth-billions)
 - ERR [Errno -2] Name or service not known https://altaba.gcs-web.com/news-releases/news-release-details/yahoo-introduces-yahoo-answers-beta-service-enables-people-tap  (in does-yahoo-answers-still-exist)
 - ERR [Errno -2] Name or service not known https://altaba.gcs-web.com/node/28766/html  (in broadcast-com-yahoo-billion-dollar-deal)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/att-broadband-to-merge-with-comcast-corporation-in-72-billion-transaction  (in what-happened-to-excite-at-home-broadband)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/att-reaches-at-home-litigation-settlement  (in what-happened-to-excite-at-home-broadband)
 - ERR The read operation timed out https://corporate.comcast.com/news-information/news-feed/comcast-agrees-to-purchase-techtv  (in what-happened-to-techtv-screen-savers-channel)
-- ERR [Errno 101] Network is unreachable https://escargot.chat/stats  (in what-happened-to-msn-messenger)
+- 404 https://escargot.chat/stats  (in what-happened-to-msn-messenger)
 - ERR [Errno -5] No address associated with hostname https://m.lasvegassun.com/news/2005/jul/13/ebbers-sentenced-to-25-years-in-worldcom-fraud-cas/  (in worldcom-fraud-who-owns-mci-now)
+- ERR [Errno -3] Temporary failure in name resolution https://markinton.com/trademark/startac-85954173  (in motorola-startac-price-1996)
 - 503 https://money.cnn.com/1998/01/07/companies/rainforest/  (in rainforest-cafe-locations-left)
 - 503 https://money.cnn.com/1998/07/17/technology/techwrap/  (in broadcast-com-yahoo-billion-dollar-deal)
 - 503 https://money.cnn.com/1998/09/24/technology/ebay/  (in ebay-broken-laser-pointer-to-global-marketplace)
@@ -87,9 +89,9 @@ None.
 - 503 https://money.cnn.com/1999/01/28/technology/yahoo_a/  (in history-of-geocities-websites)
 - 503 https://money.cnn.com/1999/04/01/deals/yahoo/  (in broadcast-com-yahoo-billion-dollar-deal)
 - 503 https://money.cnn.com/1999/06/30/companies/discovery/  (in discovery-zone-failed-indoor-playground)
-- 503 https://money.cnn.com/1999/07/01/technology/askjeeves/  (in what-happened-to-ask-jeeves-search-engine)
 - 503 https://money.cnn.com/1999/08/13/companies/iridium/  (in iridium-satellite-phone-failure)
 - 503 https://money.cnn.com/2000/03/02/technology/palm/  (in what-happened-to-palm-pilot-pda)
+- 503 https://money.cnn.com/2000/04/26/deals/funco/  (in funcoland-stores-what-happened)
 - 503 https://money.cnn.com/2000/08/18/deals/kozmo/  (in what-happened-to-kozmo-com-delivery)
 - 503 https://money.cnn.com/2007/04/30/technology/flipvideo/index.htm  (in flip-video-camcorder-cisco-shutdown)
 - 503 https://money.cnn.com/2009/01/16/news/companies/circuit_city/index.htm  (in what-happened-to-circuit-city-electronics)
@@ -98,7 +100,7 @@ None.
 - 503 https://money.cnn.com/2015/12/07/media/skymall-returns-from-bankruptcy/index.html  (in skymall-still-around-who-owns-it)
 - 503 https://money.cnn.com/galleries/2010/technology/1003/gallery.dot_com_busts/7.html  (in flooz-com-internet-currency-collapse)
 - 503 https://money.cnn.com/magazines/fortune/fortune_archive/1995/06/12/203837/index.htm  (in packard-bell-computer-brand-today)
-- ERR [Errno 101] Network is unreachable https://nina.chat/connect/icq/  (in what-happened-to-icq-instant-messenger)
+- 404 https://nina.chat/connect/icq/  (in what-happened-to-icq-instant-messenger)
 - ERR Remote end closed connection without response https://obsoletemedia.org/iomega-zip-750/  (in what-happened-to-iomega-zip-drives)
 - ERR The read operation timed out https://serenescreen.com/about.html  (in what-happened-to-screensavers-flying-toasters)
 - ERR Remote end closed connection without response https://shmuplations.com/yokoi/  (in buy-working-game-boy-2026, what-happened-to-game-boy-nintendo-handheld)
@@ -113,13 +115,11 @@ None.
 - 404 https://stoneagegamer.com/catalogsearch/result/?q=virtual+boy  (in what-happened-to-virtual-boy-nintendo)
 - 404 https://support.google.com/chat/answer/14310347  (in why-google-plus-actually-failed)
 - 404 https://support.google.com/glass-enterprise/customer/answer/13417888  (in why-google-glass-actually-failed)
-- ERR [Errno 104] Connection reset by peer https://www.aes-media.org/historical/html/recording.technology.history/tivo2.html  (in what-happened-to-tivo-dvr-pioneer)
 - ERR [Errno -2] Name or service not known https://www.businessinsider.in/Microsoft-had-a-secret-genius-reason-for-making-an-encyclopedia-in-the-nineties/articleshow/49824616.cms  (in what-happened-to-microsoft-encarta)
+- ERR [Errno -2] Name or service not known https://www.businessinsider.in/sears-will-not-be-printing-its-iconic-holiday-wish-book-one-year-after-bringing-it-back-from-the-dead-take-a-look-at-the-catalogs-through-the-years-/articleshow/66381614.cms  (in sears-wish-book-archive-old-catalogs)
 - 404 https://www.c-span.org/program/senate-committee/video-game-violence/129470  (in what-happened-to-sega-cd-add-on)
 - ERR The read operation timed out https://www.callofduty.com/blog/2026/08/call-of-duty-modern-warfare-4-nintendo-switch-2-beta  (in microsoft-tried-buy-nintendo)
 - ERR The read operation timed out https://www.cbc.ca/news/science/betamax-death-sony-1.3312556  (in betamax-vs-vhs-format-war)
-- 404 https://www.federalregister.gov/documents/2018/03/15/2018-05201-modernization-of-payphone-compensation-rules  (in payphones-left-united-states)
-- ERR The read operation timed out https://www.fundinguniverse.com/company-histories/lotus-development-corporation-history/  (in what-happened-to-lotus-1-2-3-spreadsheet)
 - 503 https://www.gog.com/blog/the-gog-preservation-program/  (in run-90s-pc-games-windows-11)
 - 503 https://www.gog.com/pressroom/making-games-live-forever-together/  (in run-90s-pc-games-windows-11)
 - ERR The read operation timed out https://www.itv.com/news/update/2012-06-13/greatly-saddened-habbo-hotel-ceo-suspends-chats-following-accusations/  (in is-habbo-hotel-still-around)
@@ -151,4 +151,3 @@ None.
 - ERR The read operation timed out https://www.washingtonpost.com/technology/2020/06/24/segway-stops-production/  (in what-happened-to-segway-personal-transporter)
 - ERR The read operation timed out https://www.washingtonpost.com/wp-dyn/content/article/2007/03/28/AR2007032802185.html  (in what-happened-to-circuit-city-electronics)
 - ERR The read operation timed out https://www.washingtonpost.com/wp-dyn/content/article/2007/05/01/AR2007050101623.html  (in what-happened-to-circuit-city-electronics)
-- 404 https://www.wkyc.com/article/life/people/elwood-edwards-wkyc-employee-voice-aol-youve-got-mail-greeting-dies-74/95-940b6ed4-b90b-4c4c-b0d5-6c57fddb6546  (in aol-youve-got-mail-voice-elwood-edwards)
