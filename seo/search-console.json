@@ -1,12 +1,12 @@
 {
- "snapshot": "2026-11-19",
+ "snapshot": "2026-11-23",
  "window_days": 90,
  "note": "Search Console export used by the upgrade desk. Refreshed weekly by the local indexing task. Positions are averages; queries with 1 to 2 impressions are noise individually but show which questions each page is being tested for.",
  "totals": {
-  "clicks": 2,
-  "impressions": 767,
-  "ctr": 0.003,
-  "position": 13.8,
+  "clicks": 5,
+  "impressions": 1390,
+  "ctr": 0.004,
+  "position": 15.2,
   "indexed": 73,
   "discovered_not_indexed": 156,
   "crawled_not_indexed": 18
@@ -14,93 +14,255 @@
  "pages": [
   [
    "motorola-razr-v3-coolest-phone-ever-made",
-   2,
-   220,
-   8.2
+   3,
+   295,
+   7.8
   ],
   [
    "dead-brand-index",
-   0,
-   212,
-   9.8
+   1,
+   267,
+   9.7
   ],
   [
    "home",
    0,
-   100,
+   105,
    7.4
-  ],
-  [
-   "what-happened-to-microsoft-encarta",
-   0,
-   43,
-   7.7
   ],
   [
    "is-hollywood-video-still-around",
    0,
-   35,
-   10.3
+   59,
+   10.1
+  ],
+  [
+   "what-happened-to-microsoft-encarta",
+   0,
+   55,
+   7.3
   ],
   [
    "why-everyone-had-hotmail-account",
    0,
-   23,
-   55.0
+   49,
+   50.2
   ],
   [
    "why-pets-com-failed-dot-com-bubble",
    0,
-   18,
-   33.4
-  ],
-  [
-   "who-owns-sears-now-stores-left",
-   0,
-   14,
-   28.5
-  ],
-  [
-   "is-compusa-still-around",
-   0,
-   11,
-   21.0
-  ],
-  [
-   "who-owns-borders-now-bookstore",
-   0,
-   10,
-   28.1
-  ],
-  [
-   "what-happened-to-atari-jaguar-64-bit-console",
-   0,
-   8,
-   18.8
+   35,
+   29.6
   ],
   [
    "montgomery-ward-failed-who-owns-it",
    0,
-   8,
-   25.6
+   31,
+   18.3
+  ],
+  [
+   "who-owns-sears-now-stores-left",
+   0,
+   31,
+   22.7
+  ],
+  [
+   "who-owns-borders-now-bookstore",
+   0,
+   23,
+   32.2
+  ],
+  [
+   "is-blockbuster-still-open-last-store",
+   0,
+   22,
+   6.0
+  ],
+  [
+   "compaq-lost-pc-business-hp-merger",
+   0,
+   22,
+   21.5
   ],
   [
    "what-happened-to-aim-aol-instant-messenger",
    0,
-   7,
-   25.6
+   20,
+   13.4
+  ],
+  [
+   "boston-market-locations-left",
+   1,
+   19,
+   13.3
+  ],
+  [
+   "fao-schwarz-store-rockefeller-center",
+   0,
+   19,
+   9.5
+  ],
+  [
+   "does-yahoo-answers-still-exist",
+   0,
+   19,
+   62.1
+  ],
+  [
+   "what-happened-to-atari-jaguar-64-bit-console",
+   0,
+   17,
+   27.2
+  ],
+  [
+   "when-mtv-actually-played-music-rise-fall",
+   0,
+   16,
+   6.9
+  ],
+  [
+   "tower-records-still-around",
+   0,
+   15,
+   16.7
+  ],
+  [
+   "about",
+   0,
+   15,
+   20.4
+  ],
+  [
+   "what-happened-to-gateway-2000-cow-box-computer",
+   0,
+   15,
+   21.7
+  ],
+  [
+   "what-happened-to-excite-search-engine-google",
+   0,
+   14,
+   12.4
+  ],
+  [
+   "is-compusa-still-around",
+   0,
+   14,
+   21.6
+  ],
+  [
+   "homestar-runner-still-updating",
+   0,
+   13,
+   6.4
+  ],
+  [
+   "who-owns-napster-now",
+   0,
+   13,
+   11.4
   ],
   [
    "what-happened-to-ask-jeeves-search-engine",
+   0,
+   12,
+   18.2
+  ],
+  [
+   "what-happened-to-oregon-trail-game",
+   0,
+   11,
+   4.2
+  ],
+  [
+   "what-happened-to-creative-labs-sound-blaster",
+   0,
+   11,
+   5.1
+  ],
+  [
+   "dial-up-internet-still-available-2026",
+   0,
+   11,
+   18.6
+  ],
+  [
+   "the-night-windows-95-launched",
+   0,
+   10,
+   4.7
+  ],
+  [
+   "what-happened-to-boo-com-fashion-dot-com",
+   0,
+   10,
+   13.2
+  ],
+  [
+   "definitive-history-macromedia-flash",
+   0,
+   10,
+   29.2
+  ],
+  [
+   "is-toonami-still-on-tv",
+   0,
+   9,
+   8.7
+  ],
+  [
+   "who-owns-shop-com-now",
+   0,
+   9,
+   27.8
+  ],
+  [
+   "sony-memory-stick-still-made",
+   0,
+   8,
+   2.5
+  ],
+  [
+   "what-happened-to-frys-electronics",
+   0,
+   8,
+   31.8
+  ],
+  [
+   "who-owns-claires-now",
+   0,
+   7,
+   5.3
+  ],
+  [
+   "is-angelfire-still-online",
+   0,
+   7,
+   5.6
+  ],
+  [
+   "sam-goody-stores-left",
+   0,
+   7,
+   57.3
+  ],
+  [
+   "betamax-vs-vhs-format-war",
+   0,
+   7,
+   81.3
+  ],
+  [
+   "motorola-startac-price-1996",
    0,
    6,
    13.8
   ],
   [
-   "definitive-history-macromedia-flash",
+   "is-redbox-still-around-kiosks",
    0,
    6,
-   28.5
+   42.0
   ],
   [
    "what-happened-to-radioshack-electronics",
@@ -109,82 +271,178 @@
    45.5
   ],
   [
-   "does-yahoo-answers-still-exist",
-   0,
-   6,
-   60.2
-  ],
-  [
-   "the-night-windows-95-launched",
+   "who-owns-atari-now",
    0,
    5,
-   4.4
+   10.4
   ],
   [
-   "what-happened-to-creative-labs-sound-blaster",
+   "what-happened-to-nokia-ngage-gaming-phone",
    0,
    5,
-   5.6
-  ],
-  [
-   "fao-schwarz-store-rockefeller-center",
-   0,
-   5,
-   8.8
-  ],
-  [
-   "what-happened-to-gateway-2000-cow-box-computer",
-   0,
-   5,
-   14.2
-  ],
-  [
-   "who-owns-napster-now",
-   0,
-   4,
-   23.5
-  ],
-  [
-   "what-happened-to-oregon-trail-game",
-   0,
-   3,
-   5.7
-  ],
-  [
-   "tower-records-still-around",
-   0,
-   3,
-   11.0
-  ],
-  [
-   "what-happened-to-frys-electronics",
-   0,
-   3,
-   31.0
-  ],
-  [
-   "is-redbox-still-around-kiosks",
-   0,
-   3,
-   47.3
+   14.4
   ],
   [
    "is-kinkos-still-around",
    0,
-   2,
-   7.5
+   5,
+   16.2
+  ],
+  [
+   "what-happened-to-sega-saturn-console",
+   0,
+   5,
+   18.4
   ],
   [
    "is-woolworth-still-in-business",
    0,
-   2,
-   44.5
+   5,
+   23.4
+  ],
+  [
+   "history-of-geocities-websites",
+   0,
+   5,
+   33.8
+  ],
+  [
+   "business-blunders",
+   0,
+   4,
+   8.5
+  ],
+  [
+   "what-happened-to-tivo-dvr-pioneer",
+   0,
+   3,
+   5.3
+  ],
+  [
+   "how-mapquest-lost-to-google-maps",
+   0,
+   3,
+   8.0
+  ],
+  [
+   "what-happened-to-excite-at-home-broadband",
+   0,
+   3,
+   18.3
+  ],
+  [
+   "winzip-price-shareware-cost",
+   0,
+   3,
+   19.3
+  ],
+  [
+   "flooz-com-internet-currency-collapse",
+   0,
+   3,
+   27.0
   ],
   [
    "what-happened-to-realplayer-streaming",
    0,
-   1,
+   2,
+   3.0
+  ],
+  [
+   "terms",
+   0,
+   2,
+   3.0
+  ],
+  [
+   "theo",
+   0,
+   2,
+   4.0
+  ],
+  [
+   "marcus",
+   0,
+   2,
    5.0
+  ],
+  [
+   "why-google-glass-actually-failed",
+   0,
+   2,
+   5.0
+  ],
+  [
+   "hardware",
+   0,
+   2,
+   6.0
+  ],
+  [
+   "gaming",
+   0,
+   2,
+   7.0
+  ],
+  [
+   "what-happened-to-kozmo-com-delivery",
+   0,
+   2,
+   8.0
+  ],
+  [
+   "money-tech",
+   0,
+   2,
+   8.0
+  ],
+  [
+   "who-owns-travelocity-now",
+   0,
+   2,
+   8.5
+  ],
+  [
+   "music-entertainment",
+   0,
+   2,
+   9.0
+  ],
+  [
+   "what-happened-to-techtv-screen-savers-channel",
+   0,
+   2,
+   11.0
+  ],
+  [
+   "dial-up-modem-sound-explained",
+   0,
+   2,
+   39.0
+  ],
+  [
+   "how-to-digitize-vhs-tapes-2026",
+   0,
+   2,
+   42.5
+  ],
+  [
+   "g4-tv-failed-twice",
+   0,
+   2,
+   52.0
+  ],
+  [
+   "what-happened-to-pointcast-push-technology",
+   0,
+   1,
+   1.0
+  ],
+  [
+   "windows-95-startup-sound-brian-eno",
+   0,
+   1,
+   2.0
   ],
   [
    "is-myspace-still-around-today",
@@ -193,52 +451,22 @@
    7.0
   ],
   [
-   "boston-market-locations-left",
+   "who-owns-game-informer-now",
    0,
    1,
-   8.0
+   7.0
   ],
   [
-   "homestar-runner-still-updating",
+   "what-happened-to-original-xbox-microsoft-gaming",
    0,
    1,
-   8.0
-  ],
-  [
-   "what-happened-to-sega-saturn-console",
-   0,
-   1,
-   8.0
-  ],
-  [
-   "flooz-com-internet-currency-collapse",
-   0,
-   1,
-   10.0
-  ],
-  [
-   "is-toonami-still-on-tv",
-   0,
-   1,
-   10.0
-  ],
-  [
-   "what-happened-to-excite-at-home-broadband",
-   0,
-   1,
-   33.0
+   11.0
   ],
   [
    "netflix-dvd-mail-service-shutdown",
    0,
    1,
    59.0
-  ],
-  [
-   "betamax-vs-vhs-format-war",
-   0,
-   1,
-   73.0
   ],
   [
    "what-happened-to-icq-instant-messenger",
@@ -255,71 +483,118 @@
  ],
  "queries_by_page": {
   "motorola-razr-v3-coolest-phone-ever-made": [
+   "does the motorola razr v3 still work (6.2)",
+   "will a motorola razr v3 still work (6.7)",
+   "can you use a motorola razr v3 in 2026 (7.7)",
+   "does motorola razr v3 still work (7.7)",
+   "motorola razr v3 release date (48.7)",
+   "can i use a motorola razr v3 in 2026 (5.5)",
+   "motorola razr v3 in 2026 (12.5)",
    "motorola razr v3 (16.5)",
-   "motorola razr v3 release date (50)",
-   "motorola razr v3 original price (1)",
-   "motorola razr v3 features (3)",
-   "razr v3 unlocked phone (4)",
-   "can you use a motorola razr v3 in 2026 (9)"
+   "motorola razr v3 original price (1.0)",
+   "motorola razr v3 features (3.0)",
+   "razr v3 unlocked phone (4.0)",
+   "v3 razr unlocked (4.0)",
+   "what about a razor (4.0)",
+   "can i use an old motorola razr in 2026 (5.0)",
+   "motorola v3 razr (5.0)",
+   "precio de lanzamiento (5.0)",
+   "can you still use a motorola razr v3 (8.0)",
+   "can you still use a motorola razr v3 in 2026 (8.0)",
+   "fully functional (8.0)",
+   "vendite (9.0)",
+   "motorola razor (24.0)",
+   "which countries does it work in (38.0)",
+   "motorola razr v3: (39.0)",
+   "motorola v3 release date (52.0)"
   ],
   "is-hollywood-video-still-around": [
-   "are there any hollywood video stores left (10.3)",
-   "when did the last hollywood video close (9)",
-   "is hollywood video still in business (10)",
-   "hollywood entertainment corporation (58)"
+   "are there any hollywood video stores left (9.6)",
+   "when did the last hollywood video close (9.0)",
+   "is hollywood video still in business (10.0)",
+   "hollywood video (4.0)",
+   "are there any hollywood videos left (11.0)",
+   "hollywood videos store (36.0)",
+   "hollywood movies and games llc (55.0)",
+   "hollywood entertainment corporation (58.0)"
+  ],
+  "what-happened-to-microsoft-encarta": [
+   "is encarta still available (1.0)",
+   "microsoft encarta kids online (3.0)"
   ],
   "why-everyone-had-hotmail-account": [
-   "hotmail wikipedia (58.6)",
-   "who owns hotmail (54)",
-   "does hotmail still exist (38)",
-   "when was hotmail discontinued (89)",
-   "does outlook.com still exist (74)"
+   "hotmail wikipedia (62.5)",
+   "who owns hotmail (44.4)",
+   "hotmail wiki (45.0)",
+   "does hotmail still exist (36.5)",
+   "does hotmail ca exist (9.0)",
+   "who owns hotmail email (48.0)",
+   "is hotmail owned by microsoft (53.0)",
+   "the hotmail (57.0)",
+   "is hotmail microsoft (62.0)",
+   "does outlook.com still exist (74.0)",
+   "when was hotmail discontinued (89.0)"
   ],
-  "who-owns-sears-now-stores-left": [
-   "how many sears stores are left (38)",
-   "what companies did sears own (58)",
-   "transformco revenue (63)"
-  ],
-  "what-happened-to-atari-jaguar-64-bit-console": [
-   "atari jaguar (19.6)"
+  "why-pets-com-failed-dot-com-bubble": [
+   "pets.com company (63.0)",
+   "pets.com (6.0)",
+   "what happened to it now (8.0)",
+   "pets com sock puppet (51.0)",
+   "sock puppet pets.com (51.0)",
+   "pet.com sock puppet (52.0)",
+   "sock puppet pets com (54.0)",
+   "pets.com sock puppet (55.0)",
+   "pets.com failure dot-com bubble (59.0)",
+   "pets.com downfall (67.0)"
   ],
   "montgomery-ward-failed-who-owns-it": [
-   "are there any montgomery ward stores left (48)",
-   "is montgomery ward still in business (59)",
-   "montgomery ward company (62)"
+   "when did montgomery wards close (39.0)",
+   "who owns swiss colony (28.0)",
+   "montgomery ward bankruptcy (44.0)",
+   "are there any montgomery ward stores left (48.0)",
+   "is montgomery ward still in business (59.0)",
+   "wiki montgomery ward (60.0)",
+   "montgomery ward company (62.0)"
   ],
-  "does-yahoo-answers-still-exist": [
-   "yahoo answers (64)",
-   "yahoo answers website (52)",
-   "answers yahoo (57)"
-  ],
-  "is-redbox-still-around-kiosks": [
-   "do redbox still exist (46)",
-   "is redbox still a thing (56)"
+  "who-owns-sears-now-stores-left": [
+   "how many sears stores are left (38.0)",
+   "who owned sears (11.0)",
+   "how many sears are left (35.0)",
+   "transform holdco (37.0)",
+   "who owns sears (51.0)",
+   "what companies did sears own (58.0)",
+   "transformco revenue (63.0)"
   ],
   "who-owns-borders-now-bookstore": [
-   "when did borders bookstore close (69)",
-   "is borders bookstore still open (63)",
-   "borders bookstore closing (84)",
-   "borders uk (6)"
+   "borders company (68.5)",
+   "borders books closing (89.0)",
+   "borders (1.0)",
+   "borders uk (6.0)",
+   "borders bookstores (38.0)",
+   "is borders bookstore still open (63.0)",
+   "when did borders bookstore close (69.0)",
+   "borders bookstore (72.0)",
+   "borders bookstore closing (84.0)"
   ],
-  "fao-schwarz-store-rockefeller-center": [
-   "is fao schwarz still open (4)"
+  "is-blockbuster-still-open-last-store": [
+   "blockbuster (4.0)",
+   "\u0647\u0644 \u0627\u0641\u0644\u0633\u062a (6.0)",
+   "que paso con blockbuster (7.0)"
   ],
-  "what-happened-to-ask-jeeves-search-engine": [
-   "does ask jeeves still exist (8)"
+  "compaq-lost-pc-business-hp-merger": [
+   "compaq (42.0)",
+   "compaq laptop history (50.0)",
+   "compaq computers (3.0)",
+   "compaq company (64.0)"
   ],
-  "homestar-runner-still-updating": [
-   "is homestar runner still going (8)"
+  "what-happened-to-aim-aol-instant-messenger": [
+   "aim username (4.0)",
+   "aim instant messaging (39.0)"
   ],
-  "chuck-e-cheese-animatronics-still-there": [
-   "chuck e cheese closing (7)"
-  ],
-  "what-happened-to-frys-electronics": [
-   "what happened to frys electronics (50)"
-  ],
-  "what-happened-to-gateway-2000-cow-box-computer": [
-   "gateway computer company (47)"
+  "boston-market-locations-left": [
+   "boston market locations 2026 (13.0)",
+   "yes addresses (13.0)",
+   "how many boston markets are left (62.0)"
   ]
  },
  "crawled_not_indexed": [
@@ -339,6 +614,7 @@
   "what-happened-to-sega-32x-add-on",
   "what-happened-to-quake-online-fps",
   "what-happened-to-radioshack-electronics",
+  "napster-destroyed-music",
   "what-happened-to-turbografx-16-nec-forgotten-console"
  ],
  "lessons": [
@@ -346,5 +622,17 @@
   "Status questions about big brands (Hotmail, Yahoo Answers, Sears, Redbox) sit at positions 40 to 60. Second-tier subjects (FAO Schwarz, Ask Jeeves, Homestar Runner, Kinko's, Oregon Trail, Creative Labs) reach positions 4 to 10.",
   "Spec-style queries (original price, features, release date, unlocked) hit the Razr page: product pages need a specs and price section, not only the story.",
   "Many desktop impressions come from automated agent queries (long prompts, 'village of glendale ohio kevin bell'). Judge progress on mobile impressions and real clicks."
+ ],
+ "history": [
+  {
+   "date": "2026-11-19",
+   "clicks": 2,
+   "impressions": 767,
+   "ctr": 0.003,
+   "position": 13.8,
+   "indexed": 73,
+   "discovered_not_indexed": 156,
+   "crawled_not_indexed": 18
+  }
  ]
 }
