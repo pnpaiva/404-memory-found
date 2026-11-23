@@ -19,8 +19,9 @@
         "sears wish book archive",
         "are old sears catalogs worth anything"
       ],
-      "status": "pending",
-      "source": "serp-gap-2026-11-20"
+      "status": "published",
+      "source": "serp-gap-2026-11-20",
+      "published_slug": "sears-wish-book-archive-old-catalogs"
     },
     {
       "title": "Tickle Me Elmo at 30: What a 1996 Original Is Worth Now",
