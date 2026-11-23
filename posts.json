@@ -5816,7 +5816,8 @@
         }
       ],
       "linkPhrases": [
-        "Hollywood Video"
+        "Hollywood Video",
+        "video store"
       ],
       "seo": {
         "title": "Are Any Hollywood Video Stores Left? How the Chain Ended",
@@ -8422,8 +8423,8 @@
         "Blockbuster"
       ],
       "seo": {
-        "title": "Is Blockbuster Still Open? The Last Store in 2026 | 404 Memory Found",
-        "description": "Is Blockbuster still open? Yes, one franchise store in Bend, Oregon, and it kept trading after brand owner Dish DBS filed Chapter 11 in June 2026.",
+        "title": "Is Blockbuster Still Open? The Last Store in Bend, Oregon",
+        "description": "Bend, Oregon has the last Blockbuster on earth. Why it outlasted 9,000 stores, who owns the brand after the Dish DBS bankruptcy, and what visitors find.",
         "keywords": [
           "is blockbuster still open",
           "how many blockbuster stores are left",
@@ -8434,7 +8435,8 @@
           "dish network blockbuster"
         ]
       },
-      "updated": "2026-09-26"
+      "updated": "2026-09-26",
+      "ctrRewrite": "2026-11-23"
     },
     {
       "id": "does-aol-still-exist-today",
@@ -8591,8 +8593,8 @@
         "Compaq"
       ],
       "seo": {
-        "title": "Who Owns Compaq Now? What Is Left of the Brand | 404 Memory Found",
-        "description": "Compaq is not a company any more: HP absorbed it on May 3, 2002 and still owns the name, which is why Compaq TVs sell in India in 2026.",
+        "title": "Compaq Computers: Company History and Who Owns It Now",
+        "description": "The $2,995 Compaq Portable of 1983 started the PC clone industry. How Compaq beat IBM, why the 2002 HP merger ended it, and who sells Compaq laptops today.",
         "keywords": [
           "who owns compaq now",
           "is compaq still in business",
@@ -8603,7 +8605,8 @@
           "compaq brand today"
         ]
       },
-      "updated": "2026-09-26"
+      "updated": "2026-09-26",
+      "ctrRewrite": "2026-11-23"
     },
     {
       "id": "iridium-satellite-phone-failure",
@@ -11425,8 +11428,8 @@
         "MTV"
       ],
       "seo": {
-        "title": "Who Owns MTV Now? Skydance After the Warner Deal | 404 Memory Found",
-        "description": "MTV is owned by Skydance, which renamed itself in October 2026 after a $110 billion Warner takeover. The UK music channels died December 31, 2025.",
+        "title": "Who Owns MTV Now? And When It Stopped Playing Music",
+        "description": "MTV's first video aired twice on August 1, 1981. Who owns the channel in 2026, when music videos really vanished from it, and what fills its schedule now.",
         "keywords": [
           "who owns mtv now",
           "is mtv still on the air",
@@ -11437,7 +11440,8 @@
           "when did mtv stop playing music videos",
           "mtv music channels closed 2025"
         ]
-      }
+      },
+      "ctrRewrite": "2026-11-23"
     },
     {
       "id": "what-happened-to-microsoft-encarta",
