@@ -39,6 +39,16 @@
   "thumb": "/img/thumb/netscape-navigator-1-22-screenshot-87abef.jpg",
   "width": 934
  },
+ "https://upload.wikimedia.org/wikipedia/commons/1/12/1922_Sears_Modern_Homes_Catalog.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:1922_Sears_Modern_Homes_Catalog.jpg",
+  "ext": "jpg",
+  "file": "/img/1922-sears-modern-homes-catalog-6099db.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/1922-sears-modern-homes-catalog-6099db.jpg",
+  "width": 717
+ },
  "https://upload.wikimedia.org/wikipedia/commons/1/16/Amazon_Prime_logo_%282023%29.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_logo_%282023%29.png",
   "ext": "png",
@@ -1694,6 +1704,16 @@
   "thumb": "/img/thumb/220-cambridge-science-park-looking-east-029aae.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Christmas_2023_at_Sears_Coral_Gables_Florida_-_clothing_department.jpg/1280px-Christmas_2023_at_Sears_Coral_Gables_Florida_-_clothing_department.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Christmas_2023_at_Sears_Coral_Gables_Florida_-_clothing_department.jpg",
+  "ext": "jpg",
+  "file": "/img/christmas-2023-at-sears-coral-gables-florida-clothing-depart-3a3369.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/christmas-2023-at-sears-coral-gables-florida-clothing-depart-3a3369.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Craig_Newmark_in_2006.jpg/960px-Craig_Newmark_in_2006.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:Craig_Newmark_in_2006.jpg",
   "ext": "jpg",
@@ -2535,6 +2555,16 @@
   "requested": 1280,
   "status": "ok",
   "thumb": "/img/thumb/netscape-3-acid1-12b616.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sears_Roebuck_and_Company_Catalog.jpg/1280px-Sears_Roebuck_and_Company_Catalog.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:Sears_Roebuck_and_Company_Catalog.jpg",
+  "ext": "jpg",
+  "file": "/img/sears-roebuck-and-company-catalog-2d55c2.jpg",
+  "height": 925,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/sears-roebuck-and-company-catalog-2d55c2.jpg",
   "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pizza_Margherita_stu_spivack.jpg/960px-Pizza_Margherita_stu_spivack.jpg": {
