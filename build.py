@@ -1239,9 +1239,9 @@ def build_brand_index_page(ctx, posts):
               "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE_URL + "/dead-brand-index.csv"},
                                {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE_URL + "/dead-brand-index.json"}],
               "keywords": ["defunct brands", "dead retail chains", "who owns it now", "1990s companies", "2000s websites"]}
-    head = head_html(ctx, title=branded(f"The Dead Brand Index: What Happened to {len(rows)} Brands"),
+    head = head_html(ctx, title=branded(f"Defunct 90s and 2000s Brands: Who Owns All {len(rows)} Names Now"),
                      canonical=url,
-                     description=f"What happened to {len(rows)} brands of the 90s and 2000s, and who owns each name in 2026. One sortable table, every entry sourced.",
+                     description=f"Sort or search {len(rows)} brands of the 90s and 2000s by start year or status, see who owns each name in 2026, and download the full list as CSV or JSON.",
                      schemas=(schema, breadcrumb_schema(("The dead brand index", url))))
     return shell_html(ctx, head, body_class="hub-page", window_icon="\U0001f5c3\ufe0f", window_title="Dead brand index",
                       content=content, status_text=f"{len(rows)} brands")
