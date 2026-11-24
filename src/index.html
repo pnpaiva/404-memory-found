@@ -98,8 +98,8 @@
                 display: none;
             }
 
-            /* No boot animation or tutorial popup on mobile */
-            .boot-animation,
+            /* No welcome prompt or tutorial popup on mobile */
+            .boot-prompt,
             .tutorial-overlay {
                 display: none !important;
             }
@@ -2041,110 +2041,45 @@
                 border-bottom-color: #ffffff;
             }
 
-            /* Boot Animation */
-            .boot-animation {
+            /* Welcome prompt: a small C:\ window in the corner that types the 404 joke and the how-to tip.
+               It replaced a full-screen black boot (23/11/2026): the stories are readable from the first frame. */
+            .boot-prompt {
                 position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
+                right: 112px;
+                bottom: 52px;
+                width: 440px;
+                z-index: 9000;
+                display: none;
+            }
+
+            .boot-prompt.on { display: block; }
+
+            .boot-prompt-term {
                 background: #0c0c0c;
                 color: #33ff33;
+                font: 13px/1.6 'Courier New', monospace;
+                padding: 10px 14px;
+                min-height: 150px;
+            }
+
+            .boot-prompt-term .l { opacity: 0; white-space: nowrap; overflow: hidden; }
+            .boot-prompt-term .l.on { opacity: 1; }
+            .boot-prompt-term .err { color: #ff5c5c; }
+            .boot-prompt-term .big { font-size: 28px; font-weight: bold; color: #ff5c5c; opacity: 0; }
+            .boot-prompt-term .big.on { opacity: 1; }
+
+            .boot-prompt-foot {
                 display: flex;
-                flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                z-index: 10000;
-                font-family: 'Courier New', monospace;
-                font-size: 14px;
-                line-height: 1.6;
-                text-align: left;
-                transition: opacity 0.4s ease;
+                justify-content: space-between;
+                gap: 12px;
+                padding: 10px 12px;
+                font: 13px/1.4 "MS Sans Serif", Tahoma, Arial, sans-serif;
+                background: #c0c0c0;
+                visibility: hidden;
             }
 
-            .boot-animation.hidden {
-                opacity: 0;
-                pointer-events: none;
-            }
-
-            .boot-terminal {
-                max-width: 520px;
-                width: 90%;
-            }
-
-            .boot-line {
-                opacity: 0;
-                white-space: nowrap;
-                overflow: hidden;
-            }
-
-            .boot-line.visible {
-                opacity: 1;
-            }
-
-            .boot-404 {
-                font-size: 42px;
-                font-weight: bold;
-                color: #ff4444;
-                text-align: center;
-                margin: 8px 0 4px 0;
-                opacity: 0;
-                text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
-            }
-
-            .boot-404.visible {
-                opacity: 1;
-            }
-
-            .boot-found {
-                font-size: 18px;
-                color: #33ff33;
-                text-align: center;
-                margin-bottom: 12px;
-                opacity: 0;
-                letter-spacing: 6px;
-                text-transform: uppercase;
-            }
-
-            .boot-found.visible {
-                opacity: 1;
-            }
-
-            .boot-progress-bar {
-                width: 100%;
-                height: 12px;
-                border: 1px solid #33ff33;
-                margin-top: 10px;
-                opacity: 0;
-            }
-
-            .boot-progress-bar.visible {
-                opacity: 1;
-            }
-
-            .boot-progress-fill {
-                height: 100%;
-                width: 0%;
-                background: #33ff33;
-                transition: width 1.2s ease-in-out;
-            }
-
-            .boot-enter {
-                text-align: center;
-                color: #888;
-                font-size: 11px;
-                margin-top: 12px;
-                opacity: 0;
-                animation: blink-enter 1s step-end infinite;
-            }
-
-            .boot-enter.visible {
-                opacity: 1;
-            }
-
-            @keyframes blink-enter {
-                50% { opacity: 0.3; }
-            }
+            .boot-prompt-foot.on { visibility: visible; }
 
             /* First-time visitor tutorial */
             .tutorial-overlay {
@@ -2288,24 +2223,30 @@
 
         @media (prefers-reduced-motion: reduce) {
             html, body, .window-content, .mobile-content { scroll-behavior: auto !important; }
-            .boot-animation { display: none !important; }
-            .boot-enter, .tutorial-overlay { animation: none !important; }
+            .tutorial-overlay { animation: none !important; }
         }
     </style>
 </head>
 <body>
-    <!-- Boot Animation (Desktop only) -->
-    <div class="boot-animation" id="boot-animation">
-        <div class="boot-terminal">
-            <div class="boot-line" id="boot-l1">C:\> searching for lost memories...</div>
-            <div class="boot-line" id="boot-l2">scanning decade: 1990s ██████ OK</div>
-            <div class="boot-line" id="boot-l3">scanning decade: 2000s ██████ OK</div>
-            <div class="boot-line" id="boot-l4" style="color:#ff4444;">ERR 404: present_day not found</div>
-            <div class="boot-line" id="boot-l5">redirecting to nostalgia zone...</div>
-            <div class="boot-404" id="boot-404">404</div>
-            <div class="boot-found" id="boot-found">memory found</div>
-            <div class="boot-progress-bar" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
-            <div class="boot-enter" id="boot-enter">entering the nostalgia zone</div>
+    <!-- Welcome prompt (desktop, first visit only): types the 404 joke in a small window, never covers the stories -->
+    <div class="window boot-prompt" id="boot-prompt" role="dialog" aria-label="Welcome to 404 Memory Found" data-nosnippet>
+        <div class="title-bar">
+            <div class="title-bar-title">C:\ memory_scan.exe</div>
+            <div class="title-bar-controls">
+                <button class="window-button" onclick="closeBootPrompt()" aria-label="Close welcome window"><span class="btn-close">×</span></button>
+            </div>
+        </div>
+        <div class="boot-prompt-term" id="boot-prompt-term">
+            <div class="l">C:\&gt; searching for lost memories...</div>
+            <div class="l">scanning decade: 1990s ██████ OK</div>
+            <div class="l">scanning decade: 2000s ██████ OK</div>
+            <div class="l err">ERR 404: present_day not found</div>
+            <div class="l">redirecting to nostalgia zone...</div>
+            <div class="big">404 memory found</div>
+        </div>
+        <div class="boot-prompt-foot" id="boot-prompt-foot">
+            <span>Double-click any icon on the desktop to open it.</span>
+            <button class="tutorial-btn" onclick="closeBootPrompt()">OK</button>
         </div>
     </div>
 
@@ -3656,80 +3597,44 @@
             document.getElementById('cookie-banner').classList.remove('show');
         }
 
-        // The boot animation is the site saying hello, not a toll: it plays once per browser, about
-        // twice as fast as before, and returning visitors land straight on the desktop.
-        window.BOOT_SEEN = (function () {
-            try {
-                var seen = !!localStorage.getItem('404mf_booted');
-                localStorage.setItem('404mf_booted', '1');
-                return seen;
-            } catch (e) { return false; }
-        })();
+        // First visit on the desktop homepage: a small C:\ window in the corner types the 404 joke and ends
+        // with the how-to tip. The page under it is usable from the first frame (the old full-screen black boot
+        // waited for the load event, ads included). Closing it counts as having seen the welcome.
         window.REDUCED_MOTION = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
-        window.BOOT_MS = (window.BOOT_SEEN || window.REDUCED_MOTION) ? 0 : 1900;
+        window.BOOT_MS = 0;
+        function closeBootPrompt() {
+            const el = document.getElementById('boot-prompt');
+            if (el) el.classList.remove('on');
+            try { localStorage.setItem('404mf_visited', '1'); localStorage.setItem('404mf_booted', '1'); } catch (e) {}
+        }
+        function showBootPrompt() {
+            let seen = true;
+            try { seen = !!(localStorage.getItem('404mf_visited') || localStorage.getItem('404mf_booted')); } catch (e) {}
+            const el = document.getElementById('boot-prompt');
+            if (seen || !el || (typeof isPostPage !== 'undefined' && isPostPage) || window.innerWidth <= 768) return;
+            el.classList.add('on');
+            const parts = el.querySelectorAll('.boot-prompt-term .l, .boot-prompt-term .big');
+            const foot = document.getElementById('boot-prompt-foot');
+            if (window.REDUCED_MOTION) {
+                parts.forEach(p => p.classList.add('on'));
+                foot.classList.add('on');
+                return;
+            }
+            let t = 150;
+            parts.forEach(p => { setTimeout(() => p.classList.add('on'), t); t += 260; });
+            setTimeout(() => foot.classList.add('on'), t + 150);
+        }
+        document.addEventListener('keydown', (e) => {
+            const el = document.getElementById('boot-prompt');
+            if (e.key === 'Escape' && el && el.classList.contains('on')) closeBootPrompt();
+        });
+
+        window.addEventListener('DOMContentLoaded', () => { setTimeout(showBootPrompt, 400); });
 
         // Initialize on load
         window.addEventListener('load', () => {
             observeThumbs();
             loadPosts();
-            // Boot animation: skip on post pages, play on homepage
-            const bootEl = document.getElementById('boot-animation');
-            if (bootEl) {
-                if (typeof isPostPage !== 'undefined' && isPostPage) {
-                    bootEl.classList.add('hidden');
-                    setTimeout(() => { bootEl.style.display = 'none'; }, 50);
-                } else if (window.BOOT_SEEN) {
-                    bootEl.classList.add('hidden');
-                    setTimeout(() => { bootEl.style.display = 'none'; showTutorialIfFirstVisit(); }, 50);
-                } else {
-                    // Sequenced terminal boot animation
-                    const lines = ['boot-l1','boot-l2','boot-l3','boot-l4','boot-l5'];
-                    let delay = 100;
-                    lines.forEach((id, i) => {
-                        setTimeout(() => {
-                            const el = document.getElementById(id);
-                            if (el) el.classList.add('visible');
-                        }, delay);
-                        delay += 170;
-                    });
-                    // Show 404 title
-                    setTimeout(() => {
-                        const el = document.getElementById('boot-404');
-                        if (el) el.classList.add('visible');
-                    }, delay);
-                    delay += 150;
-                    // Show "memory found"
-                    setTimeout(() => {
-                        const el = document.getElementById('boot-found');
-                        if (el) el.classList.add('visible');
-                    }, delay);
-                    delay += 100;
-                    // Show progress bar and fill it
-                    setTimeout(() => {
-                        const bar = document.getElementById('boot-bar');
-                        if (bar) bar.classList.add('visible');
-                        setTimeout(() => {
-                            const fill = document.getElementById('boot-fill');
-                            if (fill) fill.style.width = '100%';
-                        }, 50);
-                    }, delay);
-                    delay += 150;
-                    // Show enter text
-                    setTimeout(() => {
-                        const el = document.getElementById('boot-enter');
-                        if (el) el.classList.add('visible');
-                    }, delay);
-                    // Fade out and hide, then show tutorial if first visit
-                    delay += 450;
-                    setTimeout(() => {
-                        bootEl.classList.add('hidden');
-                        setTimeout(() => {
-                            bootEl.style.display = 'none';
-                            showTutorialIfFirstVisit();
-                        }, 500);
-                    }, delay);
-                }
-            }
         });
 
         // First-time visitor tutorial
