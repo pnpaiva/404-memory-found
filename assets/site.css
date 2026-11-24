@@ -63,8 +63,8 @@
                 display: none;
             }
 
-            /* No boot animation or tutorial popup on mobile */
-            .boot-animation,
+            /* No welcome prompt or tutorial popup on mobile */
+            .boot-prompt,
             .tutorial-overlay {
                 display: none !important;
             }
@@ -2006,110 +2006,45 @@
                 border-bottom-color: #ffffff;
             }
 
-            /* Boot Animation */
-            .boot-animation {
+            /* Welcome prompt: a small C:\ window in the corner that types the 404 joke and the how-to tip.
+               It replaced a full-screen black boot (23/11/2026): the stories are readable from the first frame. */
+            .boot-prompt {
                 position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
+                right: 112px;
+                bottom: 52px;
+                width: 440px;
+                z-index: 9000;
+                display: none;
+            }
+
+            .boot-prompt.on { display: block; }
+
+            .boot-prompt-term {
                 background: #0c0c0c;
                 color: #33ff33;
+                font: 13px/1.6 'Courier New', monospace;
+                padding: 10px 14px;
+                min-height: 150px;
+            }
+
+            .boot-prompt-term .l { opacity: 0; white-space: nowrap; overflow: hidden; }
+            .boot-prompt-term .l.on { opacity: 1; }
+            .boot-prompt-term .err { color: #ff5c5c; }
+            .boot-prompt-term .big { font-size: 28px; font-weight: bold; color: #ff5c5c; opacity: 0; }
+            .boot-prompt-term .big.on { opacity: 1; }
+
+            .boot-prompt-foot {
                 display: flex;
-                flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                z-index: 10000;
-                font-family: 'Courier New', monospace;
-                font-size: 14px;
-                line-height: 1.6;
-                text-align: left;
-                transition: opacity 0.4s ease;
+                justify-content: space-between;
+                gap: 12px;
+                padding: 10px 12px;
+                font: 13px/1.4 "MS Sans Serif", Tahoma, Arial, sans-serif;
+                background: #c0c0c0;
+                visibility: hidden;
             }
 
-            .boot-animation.hidden {
-                opacity: 0;
-                pointer-events: none;
-            }
-
-            .boot-terminal {
-                max-width: 520px;
-                width: 90%;
-            }
-
-            .boot-line {
-                opacity: 0;
-                white-space: nowrap;
-                overflow: hidden;
-            }
-
-            .boot-line.visible {
-                opacity: 1;
-            }
-
-            .boot-404 {
-                font-size: 42px;
-                font-weight: bold;
-                color: #ff4444;
-                text-align: center;
-                margin: 8px 0 4px 0;
-                opacity: 0;
-                text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
-            }
-
-            .boot-404.visible {
-                opacity: 1;
-            }
-
-            .boot-found {
-                font-size: 18px;
-                color: #33ff33;
-                text-align: center;
-                margin-bottom: 12px;
-                opacity: 0;
-                letter-spacing: 6px;
-                text-transform: uppercase;
-            }
-
-            .boot-found.visible {
-                opacity: 1;
-            }
-
-            .boot-progress-bar {
-                width: 100%;
-                height: 12px;
-                border: 1px solid #33ff33;
-                margin-top: 10px;
-                opacity: 0;
-            }
-
-            .boot-progress-bar.visible {
-                opacity: 1;
-            }
-
-            .boot-progress-fill {
-                height: 100%;
-                width: 0%;
-                background: #33ff33;
-                transition: width 1.2s ease-in-out;
-            }
-
-            .boot-enter {
-                text-align: center;
-                color: #888;
-                font-size: 11px;
-                margin-top: 12px;
-                opacity: 0;
-                animation: blink-enter 1s step-end infinite;
-            }
-
-            .boot-enter.visible {
-                opacity: 1;
-            }
-
-            @keyframes blink-enter {
-                50% { opacity: 0.3; }
-            }
+            .boot-prompt-foot.on { visibility: visible; }
 
             /* First-time visitor tutorial */
             .tutorial-overlay {
@@ -2253,8 +2188,7 @@
 
         @media (prefers-reduced-motion: reduce) {
             html, body, .window-content, .mobile-content { scroll-behavior: auto !important; }
-            .boot-animation { display: none !important; }
-            .boot-enter, .tutorial-overlay { animation: none !important; }
+            .tutorial-overlay { animation: none !important; }
         }
 
 /* ---- Generated pages (posts, tags, authors, about...): one open window, article rendered once ---- */

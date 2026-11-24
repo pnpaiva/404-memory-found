@@ -50,21 +50,28 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
 
-    <link rel="stylesheet" href="/assets/site.css?v=432de762">
+    <link rel="stylesheet" href="/assets/site.css?v=41c6648f">
 </head>
 <body>
-    <!-- Boot Animation (Desktop only) -->
-    <div class="boot-animation" id="boot-animation">
-        <div class="boot-terminal">
-            <div class="boot-line" id="boot-l1">C:\> searching for lost memories...</div>
-            <div class="boot-line" id="boot-l2">scanning decade: 1990s ██████ OK</div>
-            <div class="boot-line" id="boot-l3">scanning decade: 2000s ██████ OK</div>
-            <div class="boot-line" id="boot-l4" style="color:#ff4444;">ERR 404: present_day not found</div>
-            <div class="boot-line" id="boot-l5">redirecting to nostalgia zone...</div>
-            <div class="boot-404" id="boot-404">404</div>
-            <div class="boot-found" id="boot-found">memory found</div>
-            <div class="boot-progress-bar" id="boot-bar"><div class="boot-progress-fill" id="boot-fill"></div></div>
-            <div class="boot-enter" id="boot-enter">entering the nostalgia zone</div>
+    <!-- Welcome prompt (desktop, first visit only): types the 404 joke in a small window, never covers the stories -->
+    <div class="window boot-prompt" id="boot-prompt" role="dialog" aria-label="Welcome to 404 Memory Found" data-nosnippet>
+        <div class="title-bar">
+            <div class="title-bar-title">C:\ memory_scan.exe</div>
+            <div class="title-bar-controls">
+                <button class="window-button" onclick="closeBootPrompt()" aria-label="Close welcome window"><span class="btn-close">×</span></button>
+            </div>
+        </div>
+        <div class="boot-prompt-term" id="boot-prompt-term">
+            <div class="l">C:\&gt; searching for lost memories...</div>
+            <div class="l">scanning decade: 1990s ██████ OK</div>
+            <div class="l">scanning decade: 2000s ██████ OK</div>
+            <div class="l err">ERR 404: present_day not found</div>
+            <div class="l">redirecting to nostalgia zone...</div>
+            <div class="big">404 memory found</div>
+        </div>
+        <div class="boot-prompt-foot" id="boot-prompt-foot">
+            <span>Double-click any icon on the desktop to open it.</span>
+            <button class="tutorial-btn" onclick="closeBootPrompt()">OK</button>
         </div>
     </div>
 
@@ -149,7 +156,7 @@
                 </li>
                 <li class="mobile-post-item">
                     <a href="/posts/lisa-frank-folders-value.html">
-                    <div class="mobile-post-thumb" style="background-color:#c0c0c0;"></div>
+                    <div class="mobile-post-thumb" data-bg="/img/thumb/school-supplies-fda7f4.jpg" style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>Are Lisa Frank Folders Worth Anything? What to Check</h3>
                         <div class="mobile-post-date">2026-11-19 · 5 min read</div>
@@ -171,7 +178,7 @@
                 </li>
                 <li class="mobile-post-item">
                     <a href="/posts/funcoland-stores-what-happened.html">
-                    <div class="mobile-post-thumb" style="background-color:#c0c0c0;"></div>
+                    <div class="mobile-post-thumb" data-bg="/img/thumb/funcoland-northwest-plaza-7282318692-ab5e20.jpg" style="background-color:#c0c0c0;"></div>
                     <div class="mobile-post-info">
                         <h3>What Happened to FuncoLand? Who Owns the Name Now</h3>
                         <div class="mobile-post-date">2026-11-17 · 5 min read</div>
@@ -505,7 +512,7 @@
                 </li>
                 <li class="blog-post-item">
                     <a href="/posts/lisa-frank-folders-value.html">
-                        <div class="blog-post-thumb" style="background-color:#c0c0c0;"></div>
+                        <div class="blog-post-thumb" data-bg="/img/thumb/school-supplies-fda7f4.jpg" style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>Are Lisa Frank Folders Worth Anything? What to Check</h3>
                             <div class="date">2026-11-19 <span class="reading-time">5 min read</span></div>
@@ -527,7 +534,7 @@
                 </li>
                 <li class="blog-post-item">
                     <a href="/posts/funcoland-stores-what-happened.html">
-                        <div class="blog-post-thumb" style="background-color:#c0c0c0;"></div>
+                        <div class="blog-post-thumb" data-bg="/img/thumb/funcoland-northwest-plaza-7282318692-ab5e20.jpg" style="background-color:#c0c0c0;"></div>
                         <div class="blog-post-text">
                             <h3>What Happened to FuncoLand? Who Owns the Name Now</h3>
                             <div class="date">2026-11-17 <span class="reading-time">5 min read</span></div>
@@ -2646,7 +2653,7 @@
     </div>
     </main>
 
-    <script>window.__BUILD__ = '432de762';</script>
-    <script src="/assets/site.js?v=432de762"></script>
+    <script>window.__BUILD__ = '41c6648f';</script>
+    <script src="/assets/site.js?v=41c6648f"></script>
 </body>
 </html>

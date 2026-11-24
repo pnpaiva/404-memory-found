@@ -751,80 +751,44 @@
             document.getElementById('cookie-banner').classList.remove('show');
         }
 
-        // The boot animation is the site saying hello, not a toll: it plays once per browser, about
-        // twice as fast as before, and returning visitors land straight on the desktop.
-        window.BOOT_SEEN = (function () {
-            try {
-                var seen = !!localStorage.getItem('404mf_booted');
-                localStorage.setItem('404mf_booted', '1');
-                return seen;
-            } catch (e) { return false; }
-        })();
+        // First visit on the desktop homepage: a small C:\ window in the corner types the 404 joke and ends
+        // with the how-to tip. The page under it is usable from the first frame (the old full-screen black boot
+        // waited for the load event, ads included). Closing it counts as having seen the welcome.
         window.REDUCED_MOTION = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
-        window.BOOT_MS = (window.BOOT_SEEN || window.REDUCED_MOTION) ? 0 : 1900;
+        window.BOOT_MS = 0;
+        function closeBootPrompt() {
+            const el = document.getElementById('boot-prompt');
+            if (el) el.classList.remove('on');
+            try { localStorage.setItem('404mf_visited', '1'); localStorage.setItem('404mf_booted', '1'); } catch (e) {}
+        }
+        function showBootPrompt() {
+            let seen = true;
+            try { seen = !!(localStorage.getItem('404mf_visited') || localStorage.getItem('404mf_booted')); } catch (e) {}
+            const el = document.getElementById('boot-prompt');
+            if (seen || !el || (typeof isPostPage !== 'undefined' && isPostPage) || window.innerWidth <= 768) return;
+            el.classList.add('on');
+            const parts = el.querySelectorAll('.boot-prompt-term .l, .boot-prompt-term .big');
+            const foot = document.getElementById('boot-prompt-foot');
+            if (window.REDUCED_MOTION) {
+                parts.forEach(p => p.classList.add('on'));
+                foot.classList.add('on');
+                return;
+            }
+            let t = 150;
+            parts.forEach(p => { setTimeout(() => p.classList.add('on'), t); t += 260; });
+            setTimeout(() => foot.classList.add('on'), t + 150);
+        }
+        document.addEventListener('keydown', (e) => {
+            const el = document.getElementById('boot-prompt');
+            if (e.key === 'Escape' && el && el.classList.contains('on')) closeBootPrompt();
+        });
+
+        window.addEventListener('DOMContentLoaded', () => { setTimeout(showBootPrompt, 400); });
 
         // Initialize on load
         window.addEventListener('load', () => {
             observeThumbs();
             loadPosts();
-            // Boot animation: skip on post pages, play on homepage
-            const bootEl = document.getElementById('boot-animation');
-            if (bootEl) {
-                if (typeof isPostPage !== 'undefined' && isPostPage) {
-                    bootEl.classList.add('hidden');
-                    setTimeout(() => { bootEl.style.display = 'none'; }, 50);
-                } else if (window.BOOT_SEEN) {
-                    bootEl.classList.add('hidden');
-                    setTimeout(() => { bootEl.style.display = 'none'; showTutorialIfFirstVisit(); }, 50);
-                } else {
-                    // Sequenced terminal boot animation
-                    const lines = ['boot-l1','boot-l2','boot-l3','boot-l4','boot-l5'];
-                    let delay = 100;
-                    lines.forEach((id, i) => {
-                        setTimeout(() => {
-                            const el = document.getElementById(id);
-                            if (el) el.classList.add('visible');
-                        }, delay);
-                        delay += 170;
-                    });
-                    // Show 404 title
-                    setTimeout(() => {
-                        const el = document.getElementById('boot-404');
-                        if (el) el.classList.add('visible');
-                    }, delay);
-                    delay += 150;
-                    // Show "memory found"
-                    setTimeout(() => {
-                        const el = document.getElementById('boot-found');
-                        if (el) el.classList.add('visible');
-                    }, delay);
-                    delay += 100;
-                    // Show progress bar and fill it
-                    setTimeout(() => {
-                        const bar = document.getElementById('boot-bar');
-                        if (bar) bar.classList.add('visible');
-                        setTimeout(() => {
-                            const fill = document.getElementById('boot-fill');
-                            if (fill) fill.style.width = '100%';
-                        }, 50);
-                    }, delay);
-                    delay += 150;
-                    // Show enter text
-                    setTimeout(() => {
-                        const el = document.getElementById('boot-enter');
-                        if (el) el.classList.add('visible');
-                    }, delay);
-                    // Fade out and hide, then show tutorial if first visit
-                    delay += 450;
-                    setTimeout(() => {
-                        bootEl.classList.add('hidden');
-                        setTimeout(() => {
-                            bootEl.style.display = 'none';
-                            showTutorialIfFirstVisit();
-                        }, 500);
-                    }, delay);
-                }
-            }
         });
 
         // First-time visitor tutorial
