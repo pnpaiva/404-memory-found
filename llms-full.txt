@@ -6525,17 +6525,17 @@ Waldenbooks was the mall bookstore chain Kmart bought in 1984 and brought under 
 
 ---
 
-# Is Hollywood Video Still Around? Every Store Closed
+# Are There Any Hollywood Video Stores Left? Where They Went
 
 URL: https://404memoryfound.com/posts/is-hollywood-video-still-around.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-09-12  Updated: 2026-11-20
+Published: 2026-09-12  Updated: 2026-11-24
 Topics: Business Blunders, Then vs Now
 
-**Summary:** Hollywood Video is not still around. Its parent company, Movie Gallery, told a bankruptcy court in May 2010 that it would liquidate and close its more than 1,900 remaining US stores, and the last US stores closed by July 31, 2010, with the final Canadian ones following on August 8. The name survives only on paper: the HOLLYWOOD VIDEO trademark is held by MGIP, LLC of Hillside, New Jersey, and was live and renewed as of February 2026.
+**Summary:** There are no Hollywood Video stores left. Parent company Movie Gallery told a bankruptcy court in May 2010 that it would liquidate its roughly 1,900 remaining stores, and the last US Hollywood Video locations closed by July 31, 2010, with the final Canadian ones following on August 8. The name survives only on paper: the HOLLYWOOD VIDEO trademark is held by MGIP, LLC of Hillside, New Jersey, and was live and renewed as of February 2026.
 
 **Key facts:**
-- Launched: 1988, Hollywood Entertainment Corporation
+- Launched: June 1988, Hollywood Entertainment Corporation, Portland, Oregon
 - Peak size: 2,006 US stores in 47 states and DC at the end of 2004
 - Sold to: Movie Gallery, April 27, 2005, $1.25 billion including debt
 - Status today: Closed. The last US stores shut by July 31, 2010 (Canada: August 8)
@@ -6543,13 +6543,36 @@ Topics: Business Blunders, Then vs Now
 
 ## How an Oregon rental shop grew into Blockbuster's only real rival
 
-Hollywood Entertainment Corporation opened its first Hollywood Video store in 1988 and spent most of the 1990s growing the obvious way, by putting a big, bright store across the road from whatever Blockbuster had already built.
+Hollywood Entertainment Corporation was formed in Portland, Oregon, in June 1988 by Mark Wattles, who had opened a 500-square-foot rental shop with 300 films downtown three years earlier. The company spent the 1990s growing the obvious way, by putting a big, bright store across the road from whatever Blockbuster had already built.
+
+It had 16 stores when it went public in 1993 and 117 by January 1995, when Blockbuster, with 2,800, sued it for $10 million over five former employees it said had been hired for its trade secrets. A judge ruled for Hollywood that May.
 
 The strategy worked. As of December 31, 2004, Hollywood Entertainment operated 2,006 Hollywood Video stores in 47 states and the District of Columbia, according to the annual report it filed with the Securities and Exchange Commission for that year. Revenue across the four quarters of 2004 came to about $1.78 billion, up $99.8 million, or 5.9 percent, on 2003.
 
 A second business ran inside the same walls. That filing counted 695 Hollywood Video stores with an in-store Game Crazy department, used-game counters the company described as places "where game enthusiasts can buy, sell and trade new and used video game hardware, software and accessories." Customers could trade in titles the way they did at GameStop (https://404memoryfound.com/posts/is-gamestop-still-in-business.html) without leaving the rental aisle.
 
-That made Hollywood Entertainment the number two video rental company in the country and the only chain with enough locations to give Blockbuster (https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html) a real fight. It was also a company whose model assumed people would keep driving somewhere to collect a plastic disc and then drive back to return it.
+That made Hollywood Entertainment the number two video rental company in the country and the only chain with enough locations to give Blockbuster a real fight. It was also a company whose model assumed people would keep driving somewhere to collect a plastic disc and then drive back to return it, and the dates of its rise and fall show how quickly that assumption expired.
+
+## How many Hollywood Video stores were there, year by year?
+
+Hollywood Video peaked at 2,006 stores in 47 states and the District of Columbia at the end of 2004, up from 16 when the company went public in 1993. The table runs from the founding to the last Canadian store.
+
+DateWhat happenedStores
+June 1988Mark Wattles forms Hollywood Entertainment in Portland, OregonFirst stores
+1993Initial public offering16
+January 1995Blockbuster sues for $10 million; Hollywood wins in May117
+June 1995Chain covers 11 states153
+July 1998Buys the website Reel.com in a deal valued at $100 millionGrowing
+1999Game Crazy launches as a store inside the storeGrowing
+December 31, 2004Peak; 695 stores carry a Game Crazy department2,006
+April 27, 2005Movie Gallery completes a $1.25 billion purchase2,006 plus Movie Gallery
+October 16, 2007Movie Gallery files its first Chapter 11About 520 to close
+February 3, 2010Second Chapter 11; 805 stores marked for closingAbout 2,500 across all brands
+May 2010Company tells the court it will liquidateAbout 1,900 left
+July 31, 2010Last United States stores close0 in the US
+August 8, 2010Last Canadian stores close0
+
+The line that decided everything sits in the middle of that table, in the spring of 2005, when a rental chain from Alabama bought a company its own size.
 
 ## What Movie Gallery paid for Hollywood Video in 2005
 
@@ -6561,7 +6584,7 @@ On paper the two halves fit. Movie Gallery had the rural coverage, Hollywood Vid
 
 The balance sheet is what broke. Movie Gallery had been a profitable operator of small stores, and it took on the debt of a company roughly its own size to buy a metro footprint. Within two and a half years that debt put it in front of a bankruptcy judge, and the $384.7 million it assumed was only the part of the bill already sitting on Hollywood Entertainment's books.
 
-## Why the 2007 bankruptcy did not close the stores
+### Why the 2007 bankruptcy did not close the stores
 
 Movie Gallery filed for Chapter 11 bankruptcy protection on October 16, 2007, after months of struggling with the debt from the Hollywood Entertainment purchase. In the filing it listed about $892 million in assets against $1.4 billion in debt.
 
@@ -6569,17 +6592,35 @@ Steve Moore, the chief restructuring officer, said the company was facing "loomi
 
 That first case was a restructuring, not a liquidation. Movie Gallery moved to shut roughly 520 unprofitable stores and won interim court approval to draw $140 million of a $150 million debtor-in-possession facility arranged by Goldman Sachs, which kept the remaining stores stocked and the staff paid while the case ran.
 
-The plan converted about $400 million of debt into equity, with the investment fund Sopris Capital Advisors financing the reorganization. Movie Gallery left Chapter 11 in 2008 with fewer stores and a lighter balance sheet, and for a year and a half the Hollywood Video sign stayed lit. What it did not have was a business that worked without the stores.
+The plan converted about $400 million of debt into equity, with the investment fund Sopris Capital Advisors financing the reorganization. Movie Gallery left Chapter 11 in 2008 with fewer stores and a lighter balance sheet, and for a year and a half the Hollywood Video sign stayed lit. What it did not have was a business that worked without the stores, so the next question was only when the last of them would go dark.
 
-## What finally shut every Hollywood Video location
+## When did the last Hollywood Video close?
 
-Movie Gallery went back into Chapter 11 on February 3, 2010, less than two years after leaving it. This time the pressure was not another chain of stores.
+The last Hollywood Video stores in the United States closed by July 31, 2010, and the final Canadian ones on August 8, 2010. The end began when Movie Gallery went back into Chapter 11 on February 3, 2010, less than two years after leaving it, with a plan to close 805 underperforming stores. This time the pressure was not another chain of stores.
 
-It came from the mail, from vending machines and from broadband. Netflix was shipping discs to the door (https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html), Redbox kiosks (https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html) were charging a dollar a night outside grocery stores, and streaming was starting to make the drive itself look pointless.
+It came from the mail, from vending machines and from broadband. Netflix was shipping discs to the door, Redbox kiosks were charging a dollar a night outside grocery stores, and streaming was starting to make the drive itself look pointless.
 
-The company entered that second bankruptcy with roughly 2,500 stores in North America across the Movie Gallery, Hollywood Video and Game Crazy brands. In May 2010 it moved to liquidate rather than restructure, telling the bankruptcy court it would close its more than 1,900 remaining stores.
+The company entered that second bankruptcy with roughly 2,500 stores in North America across the Movie Gallery, Hollywood Video and Game Crazy brands. In early May 2010, after defaulting on a loan, it told the bankruptcy court in Richmond, Virginia, that it would liquidate rather than restructure and close its roughly 1,900 remaining stores.
 
-The wind-down took the summer. The last United States stores closed by July 31, 2010, and the final Canadian locations shut on August 8, 2010. Game Crazy went with them, and so did the rental accounts, the membership files and about two decades of late-fee records, which turned out to be the most durable asset the company owned.
+The wind-down took the summer, with closeout sales emptying the shelves store by store. The rental accounts, the membership files and about two decades of late-fee records went into the estate, and so did the game counters that had once looked like the chain's way out.
+
+## What happened to Game Crazy?
+
+Game Crazy closed with Hollywood Video in the summer of 2010. Hollywood Entertainment launched it in 1999 as a used-game counter inside its rental stores, and by the end of 2006 it had 634 locations, most of them inside or beside a Hollywood Video.
+
+The cuts came before the collapse. On September 28, 2009, Movie Gallery said it would close about 200 of Game Crazy's roughly 680 stores, and after the February 2010 filing only about 250 were left. On May 3, 2010, Game Developer reported that Movie Gallery "intends to close its remaining 2,415 U.S. stores," Game Crazy's 250 among them.
+
+The name lingered online for a while. GameCrazy.com came back as a gaming blog on December 15, 2011 and stopped updating in late October 2014, and the GAME CRAZY trademark now sits with the same holding company as Hollywood Video's. The buildings, meanwhile, went on to stranger second lives than the brands did.
+
+## The 1936 movie palace that rented tapes until the landlord locked the doors
+
+The strangest Hollywood Video sat inside a real cinema. The Tower Theatre at Westheimer and Waugh in Houston opened in 1936 as a movie house, later ran live productions, and ended up as a Hollywood Video rental store.
+
+It closed before the chain did. In November 2009 renters found the doors locked and the shelves bare, apparently after the landlord evicted the store, and some customers had rented movies only days earlier. CultureMap Houston signed off in 2009 with: "The store is empty; here's hoping our late fee record is, too."
+
+The building then became a Mexican restaurant and a seafood restaurant before Brent "Doc" Watkins turned it into Doc's, a jazz supper club, wrapping the mezzanine around the room as theater seating. "We wanted to honor the history of the building, but we decided this is a new era," Watkins told ABC13 in 2026.
+
+The rest of the chain lived in ordinary strip-mall boxes, and the sign over every one of them came down in 2010, which leaves the question of who still owns the name itself.
 
 ## Who owns Hollywood Video today?
 
@@ -6587,9 +6628,17 @@ No company operates Hollywood Video stores. What still has an owner is the name.
 
 MGIP, LLC holds the rest of the family too, including the MOVIE GALLERY, HOLLYWOOD VIDEO SUPERSTORE and GAME CRAZY marks. A live registration is not a business plan. It keeps the name off limits to everyone else and leaves the door open to a revival nobody has announced, which is why the honest answer in 2026 is a holding company rather than a retailer.
 
-There is no successor chain either. Hollywood Entertainment was absorbed into Movie Gallery in 2005, Movie Gallery was wound down in 2010, and the name has not been attached to a working rental business since.
+There is no successor chain either. Hollywood Entertainment was absorbed into Movie Gallery in 2005, Movie Gallery was wound down in 2010, and the name has not been attached to a working rental business since. Anyone who misses the Friday night trip has to look elsewhere.
 
-Where to find one today. What left the stores during the going-out-of-business sales was paper and plastic: laminated membership cards, employee name badges, promotional standees and the yellow-and-black clamshell rental cases. Those turn up on Etsy's search page for Hollywood Video memorabilia (https://www.etsy.com/search?q=hollywood+video+memorabilia), where cards and badges tend to be the cheapest items and store signage the most expensive. Prices swing widely by condition and by how much store branding survives, so compare several listings before paying up for anything described as rare.
+## Where you can still rent a movie in 2026
+
+A handful of places still rent physical movies over a counter in 2026. The best known is the last Blockbuster in Bend, Oregon (https://404memoryfound.com/posts/is-blockbuster-still-open-last-store.html), a franchise store that has been the only one on earth since March 2019 and is a tourist stop as much as a rental shop.
+
+Independent stores did better than the chains. Scarecrow Video in Seattle, founded in 1988, the same year as Hollywood Entertainment, became a nonprofit after nearly closing in 2014, holds more than 156,000 titles, has mailed DVDs across the United States since 2021, and bought its own building in January 2026. Vidiots, founded in Santa Monica in 1985 and closed in 2017, reopened in 2023 inside the former Eagle Theater in Eagle Rock, Los Angeles, with about 70,000 DVD, Blu-ray and VHS titles to rent.
+
+The cheap options that replaced Hollywood Video have gone too. Redbox's kiosks went dark (https://404memoryfound.com/posts/is-redbox-still-around-kiosks.html) in July 2024 when its parent was liquidated, and Netflix mailed its last red envelopes (https://404memoryfound.com/posts/netflix-dvd-mail-service-shutdown.html) in 2023.
+
+Where to find Hollywood Video memorabilia today. What left the stores during the going-out-of-business sales was paper and plastic: laminated membership cards, employee name badges, promotional standees and the yellow-and-black clamshell rental cases. Those turn up on Etsy's search page for Hollywood Video memorabilia (https://www.etsy.com/search?q=hollywood+video+memorabilia), where cards and badges tend to be the cheapest items and store signage the most expensive. Prices swing widely by condition and by how much store branding survives, so compare several listings before paying up for anything described as rare. Those cards are souvenirs of a habit that left behind one more bill.
 
 ## The late fees that outlived the company
 
@@ -6599,21 +6648,21 @@ The trust contracted the work to Credit Control Services of Massachusetts, which
 
 Mary Lobdell, an assistant attorney general in Washington state, said her office received "a flurry of complaints from Washington residents who told us they didn't owe the fees" before those debts reached the credit bureaus.
 
-The settlement that followed in 2011 was signed by the attorneys general of all 50 states and the District of Columbia. It required the trustee to rescind the adverse credit reports it had already filed, to stop collection whenever a consumer disputed a notice until the account was verified, and to stop charging both a late fee and the full price of an unreturned item.
+The settlement that followed in 2011 was signed by the attorneys general of all 50 states and the District of Columbia. It required the trustee to rescind the adverse credit reports it had already filed, to stop collection whenever a consumer disputed a notice until the account was verified, and to stop charging both a late fee and the full price of an unreturned item. Hollywood Video had closed its last door a year earlier, and the settlement was the final page of its story.
 
 ## Frequently Asked Questions
 
-### When did Hollywood Video close?
+### When did the last Hollywood Video close?
 
-Hollywood Video closed in 2010. Parent company Movie Gallery filed for Chapter 11 bankruptcy protection on February 3, 2010, and in May 2010 told the bankruptcy court it would liquidate and close its more than 1,900 remaining stores. The last United States locations closed by July 31, 2010 and the final Canadian stores on August 8, 2010.
+The last Hollywood Video stores in the United States closed by July 31, 2010, and the final Canadian locations on August 8, 2010. Parent company Movie Gallery had filed its second Chapter 11 case on February 3, 2010 and in early May told the bankruptcy court in Richmond, Virginia, that it would liquidate its roughly 1,900 remaining stores.
 
 ### Who owns Hollywood Video now?
 
-Nobody operates Hollywood Video as a business. The HOLLYWOOD VIDEO trademark is held by MGIP, LLC, an intellectual property holding company in Hillside, New Jersey, whose United States registration was live and renewed as of February 2026. The same company holds the MOVIE GALLERY and GAME CRAZY marks, and no revival of the chain has been announced.
+No company runs Hollywood Video stores. The HOLLYWOOD VIDEO trademark, registered on July 26, 2005, is held by MGIP, LLC, an intellectual property holding company in Hillside, New Jersey, and its registration was live and renewed as of February 2026. The same company holds the MOVIE GALLERY and GAME CRAZY marks, and no revival has been announced.
 
-### How many Hollywood Video stores were there?
+### What happened to Game Crazy?
 
-Hollywood Video peaked at 2,006 stores in 47 states and the District of Columbia as of December 31, 2004, 695 of which had an in-store Game Crazy department. By the time parent company Movie Gallery liquidated in 2010 it ran roughly 2,500 stores across North America under its Movie Gallery, Hollywood Video and Game Crazy brands.
+Game Crazy, the used-game chain that Hollywood Entertainment started inside its rental stores in 1999, closed with Hollywood Video in the summer of 2010. It had 634 locations at the end of 2006, lost about 200 in late 2009, and its last 250 or so United States stores were liquidated after Movie Gallery's second bankruptcy.
 
 **Sources:**
 - Hollywood Entertainment Corporation, Form 10-K for 2004 (SEC EDGAR): https://www.sec.gov/Archives/edgar/data/0000905895/000090589505000003/r10k-04.txt
@@ -6621,6 +6670,14 @@ Hollywood Video peaked at 2,006 stores in 47 states and the District of Columbia
 - The Hollywood Reporter: Movie Gallery files for Chapter 11 (2007): https://www.hollywoodreporter.com/business/business-news/movie-gallery-files-chapter-11-152705/
 - Washington State Attorney General: Attorneys general rewind movie rental late-fees for customers nationwide (2011): https://www.atg.wa.gov/news/news-releases/attorneys-general-rewind-movie-rental-late-fees-customers-nationwide
 - USPTO trademark record: HOLLYWOOD VIDEO, serial 78122971, owner MGIP, LLC: https://www.trademarkia.com/hollywood-video-78122971
+- Wikipedia: Hollywood Video (founding, store counts and timeline): https://en.wikipedia.org/wiki/Hollywood_Video
+- The Herald (Everett): No. 2 video rental company to close all remaining stores (May 10, 2010): https://www.heraldnet.com/business/no-2-video-rental-company-to-close-all-remaining-stores/
+- Game Developer: Game Crazy parent company closing all retail locations (May 3, 2010): https://www.gamedeveloper.com/pc/game-crazy-parent-company-closing-all-retail-locations
+- Wikipedia: GameCrazy: https://en.wikipedia.org/wiki/GameCrazy
+- CultureMap Houston: Hollywood Video closes, leaving another theater empty (2009): https://houston.culturemap.com/news/city-life/11-23-09-hollywood-video-closes-leaving-another-theater-empty
+- ABC13 Houston: Doc's breathing new life into Houston's historic Tower Theatre (April 2, 2026): https://abc13.com/post/docs-breathing-new-life-houstons-historic-tower-theatre/18830142/
+- Wikipedia: Scarecrow Video: https://en.wikipedia.org/wiki/Scarecrow_Video
+- Wikipedia: Vidiots (store): https://en.wikipedia.org/wiki/Vidiots_(store)
 
 ---
 

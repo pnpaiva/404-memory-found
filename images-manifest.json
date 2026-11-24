@@ -1584,6 +1584,16 @@
   "thumb": "/img/thumb/retro-tv-on-suburban-road-unsplash-f4624a.jpg",
   "width": 1280
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/TowerTheaterhOustonTX.JPG/1280px-TowerTheaterhOustonTX.JPG": {
+  "commons": "https://commons.wikimedia.org/wiki/File:TowerTheaterhOustonTX.JPG",
+  "ext": "jpg",
+  "file": "/img/towertheaterhoustontx-82a383.jpg",
+  "height": 1049,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/towertheaterhoustontx-82a383.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/IFA_2005_Toshiba_HBS_A_001_HD-DVD_Player_%28Dual-Layer_HD-DVD_30GB%29_and_%28DVD-HD-DVD-Twin-Disc_5GB_15GB%29_%28by_HDTVTotalDOTcom%29.jpg/960px-IFA_2005_Toshiba_HBS_A_001_HD-DVD_Player_%28Dual-Layer_HD-DVD_30GB%29_and_%28DVD-HD-DVD-Twin-Disc_5GB_15GB%29_%28by_HDTVTotalDOTcom%29.jpg": {
   "commons": "https://commons.wikimedia.org/wiki/File:IFA_2005_Toshiba_HBS_A_001_HD-DVD_Player_%28Dual-Layer_HD-DVD_30GB%29_and_%28DVD-HD-DVD-Twin-Disc_5GB_15GB%29_%28by_HDTVTotalDOTcom%29.jpg",
   "ext": "jpg",
@@ -2949,6 +2959,16 @@
   "requested": 1280,
   "status": "ok",
   "thumb": "/img/thumb/radio-shack-tandy-trs-80-model-i-system-0843cd.jpg",
+  "width": 1280
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/The_Hollywood_Antiques_store_in_Eugene%2C_Oregon.jpg/1280px-The_Hollywood_Antiques_store_in_Eugene%2C_Oregon.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:The_Hollywood_Antiques_store_in_Eugene%2C_Oregon.jpg",
+  "ext": "jpg",
+  "file": "/img/the-hollywood-antiques-store-in-eugene-oregon-414bef.jpg",
+  "height": 853,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/the-hollywood-antiques-store-in-eugene-oregon-414bef.jpg",
   "width": 1280
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Commodore-64_front_and_back.JPG/960px-Commodore-64_front_and_back.JPG": {
