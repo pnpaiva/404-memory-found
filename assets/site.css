@@ -2293,6 +2293,8 @@
 .page-shell .brand-index-downloads a:active { border-style: inset; }
 .page-shell .brand-index-cite { font-family: "Courier New", monospace; font-size: 12px; background: #fff;
     border: 1px solid #c0c0c0; padding: 6px 8px; }
+.page-shell .brand-index-snippet { margin: 0 0 6px; padding: 6px 8px; background: #fff; border: 1px inset #c0c0c0;
+  font-family: "Courier New", monospace; font-size: 12px; white-space: pre-wrap; word-break: break-all; user-select: all; }
 
 /* Reading flow: a mid-article "Keep reading" card and "Next in the archive" cards, styled as Win95 files */
 .keep-reading { margin: 22px 0; border: 2px solid; border-color: #fff #808080 #808080 #fff; background: #c0c0c0; padding: 0 3px 3px; }
