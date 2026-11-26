@@ -10,6 +10,8 @@ so the browser part stays dumb: it asks for the next URLs, tries them, and repor
     python3 indexing_queue.py mark URL indexed   # Search Console said "URL is on Google"
     python3 indexing_queue.py mark URL requested # "Indexing requested" came back
     python3 indexing_queue.py mark URL failed    # anything else
+    python3 indexing_queue.py mark URL quota     # "Quota Exceeded": nothing spent, budget drops to 0 for a while
+    python3 indexing_queue.py budget             # requests still allowed now (rolling 24h window)
     python3 indexing_queue.py report             # where the archive stands
 
 State lives in .indexing-state.json next to this file and is not committed.
@@ -23,13 +25,18 @@ Order: hub pages first (they lead Google to everything else), then posts not yet
 spec), then posts that answer a status question ("Is X still...", "Who owns...", "How many... left"), rewritten posts before untouched
 ones, newest first. A URL requested less than RETRY_DAYS ago is not asked for again; after that, if
 it is still not indexed, it goes back in the line.
+
+Budget: Google counts the quota over a rolling 24 hours, not per calendar day (24/11/2026: a run at 13:30 UTC
+hit "Quota Exceeded" 23h48m after the previous run's 11 requests). Every successful request is logged with
+its UTC time; `budget` returns CAP minus the requests in the last WINDOW, and `next` never hands out more.
+A "Quota Exceeded" sets the budget to 0 for QUOTA_COOLDOWN, since requests made elsewhere are not logged.
 """
 
 import json
 import os
 import re
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, ".indexing-state.json")
@@ -37,6 +44,9 @@ BASE = "https://404memoryfound.com"
 RETRY_DAYS = 21
 PRIORITY = os.path.join(ROOT, "indexing-priority.txt")
 HUBS = [f"{BASE}/dead-brand-index.html", f"{BASE}/posts/"]
+CAP = 9                                   # Google allows about ten; keep one spare
+WINDOW = timedelta(hours=24, minutes=20)  # rolling quota window plus a margin for the run's own length
+QUOTA_COOLDOWN = timedelta(hours=6)
 STATUS_TITLE = re.compile(r"^(Is |Are |Does |Who Owns |How Many )|Still (Around|Open|in Business|Made|Sold)", re.I)
 
 
@@ -110,8 +120,40 @@ def priority_urls(state):
     return picks
 
 
+def now_utc():
+    return datetime.now(timezone.utc)
+
+
+def parse_ts(ts):
+    return datetime.fromisoformat(ts.replace("Z", "+00:00"))
+
+
+def budget(state, now=None):
+    """(requests allowed now, reason) under the rolling 24h quota."""
+    now = now or now_utc()
+    hit = state.get("quota_hit")
+    if hit and now - parse_ts(hit) < QUOTA_COOLDOWN:
+        return 0, f"Quota Exceeded at {hit}; waiting until {(parse_ts(hit) + QUOTA_COOLDOWN):%Y-%m-%dT%H:%MZ}"
+    recent = sorted(parse_ts(t) for t in state.get("log", []) if now - parse_ts(t) < WINDOW)
+    left = max(0, CAP - len(recent))
+    why = f"{len(recent)} requests in the last {WINDOW}"
+    if recent and left < CAP:
+        why += f"; the oldest frees up at {(recent[0] + WINDOW):%Y-%m-%dT%H:%MZ}"
+    return left, why
+
+
+def cmd_budget(verbose):
+    left, why = budget(load_state())
+    print(left)
+    if verbose:
+        print(why)
+
+
 def cmd_next(n):
     state, today = load_state(), date.today()
+    n = min(n, budget(state)[0])
+    if n <= 0:
+        return
     fast = priority_urls(state)
     skip = known_indexed()
     rest = [u for u in ranked_urls() if u not in fast and u not in skip and due(state["urls"].get(u), today)]
@@ -123,9 +165,18 @@ def cmd_next(n):
 
 
 def cmd_mark(url, status):
-    if status not in ("indexed", "requested", "failed"):
-        sys.exit("status must be indexed, requested or failed")
+    if status not in ("indexed", "requested", "failed", "quota"):
+        sys.exit("status must be indexed, requested, failed or quota")
     state = load_state()
+    stamp = now_utc().strftime("%Y-%m-%dT%H:%M:%SZ")
+    if status == "quota":   # the request was refused: nothing spent, URL keeps its place in the line
+        state["quota_hit"] = stamp
+        save_state(state)
+        print(f"quota exceeded at {stamp}: {url} stays in the queue")
+        return
+    if status == "requested":
+        cutoff = now_utc() - timedelta(days=7)
+        state["log"] = [t for t in state.get("log", []) if parse_ts(t) > cutoff] + [stamp]
     prev = state["urls"].get(url, {})
     state["urls"][url] = {"status": status, "date": str(date.today()),
                           "requests": prev.get("requests", 0) + (status == "requested")}
@@ -144,7 +195,9 @@ def cmd_report():
     print(f"{len(urls)} URLs in the archive")
     for k, v in counts.items():
         print(f"  {k:12s} {v}")
-    print(f"  due today    {waiting}  (about {-(-waiting // 9)} days at nine a day)")
+    print(f"  due today    {waiting}  (about {-(-waiting // CAP)} days at {CAP} a day)")
+    left, why = budget(state)
+    print(f"  budget now   {left}  ({why})")
 
 
 if __name__ == "__main__":
@@ -153,6 +206,8 @@ if __name__ == "__main__":
         cmd_next(int(args[1]) if len(args) > 1 else 12)
     elif args[:1] == ["mark"] and len(args) == 3:
         cmd_mark(args[1], args[2])
+    elif args[:1] == ["budget"]:
+        cmd_budget("-v" in args or "--why" in args)
     elif args[:1] == ["report"]:
         cmd_report()
     else:

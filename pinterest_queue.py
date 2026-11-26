@@ -24,6 +24,9 @@ clicks (OUTBOUND_SWITCH) the sampler switches to outbound clicks per impression.
     python3 pinterest_queue.py due-stats 25             # pin ids whose numbers should be read again
     python3 pinterest_queue.py stats PIN_ID IMPRESSIONS PIN_CLICKS SAVES OUTBOUND
     python3 pinterest_queue.py report                   # per-arm results and chance of being best
+    python3 pinterest_queue.py verify-list 10           # recent pins to open and check (pin_id url)
+    python3 pinterest_queue.py verified PIN_ID live|gone [IMPRESSIONS PIN_CLICKS SAVES OUTBOUND]
+    python3 pinterest_queue.py check-stop               # stop rule; writes .pinterest-paused when it fires
     python3 pinterest_queue.py boards
 
 State lives in .pinterest-experiments.json and variant images in .pin-variants/, neither committed.
@@ -45,6 +48,10 @@ STATS_EVERY_DAYS = 4     # re-read a pin's numbers this often
 STATS_MAX_AGE = 60       # stop re-reading after this many days
 MIN_PINS = 3             # rotate arms evenly until each has this many pins with stats
 OUTBOUND_SWITCH = 30     # total outbound clicks before the sampler optimises for them
+VERIFY_DAYS = 14         # pins younger than this (or never checked) get opened and checked
+STOP_DAYS = 21           # stop rule: at least this many days since the first pin...
+STOP_MIN_LIVE = 20       # ...and at least this many pins confirmed live...
+PAUSE_FLAG = os.path.join(ROOT, ".pinterest-paused")  # ...then 0 impressions or 0 site clicks pauses the job
 
 DIMENSIONS = {"cover": ["window", "dialog", "bold"], "title": ["full", "short", "punchy"], "desc": ["answer", "tease"]}
 
@@ -394,6 +401,10 @@ def cmd_report():
         arms = DIMENSIONS.get(dim, ["morning", "evening"])
         eng = {a: {"pins": 0, "imp": 0, "hits": 0} for a in arms}
         out = {a: {"pins": 0, "imp": 0, "hits": 0} for a in arms}
+        made = {a: 0 for a in arms}
+        for p in pins:
+            if p.get("arms", {}).get(dim) in made:
+                made[p["arms"][dim]] += 1
         for p in measured:
             a = p["arms"].get(dim)
             if a not in eng:
@@ -410,8 +421,9 @@ def cmd_report():
             er = f"{100 * e['hits'] / e['imp']:.2f}%" if e["imp"] else "-"
             orr = f"{100 * o['hits'] / o['imp']:.2f}%" if o["imp"] else "-"
             pb = f"{100 * best[a]:.0f}%" if best.get(a) is not None else "-"
-            print(f"  {a:8} pins {e['pins']:3}  impressions {e['imp']:6}  engagement {er:>7}  "
+            print(f"  {a:8} pins {made[a]:3} ({e['pins']} with numbers)  impressions {e['imp']:6}  engagement {er:>7}  "
                   f"site clicks {o['hits']:4} ({orr:>6})  chance best {pb:>4}")
+    print("\n" + stop_status(state)[1])
     if measured:
         top = sorted(measured, key=lambda p: (-(p["stats"]["outbound"]), -rate(p, False)[1]))[:5]
         print("\nTop pins:")
@@ -419,6 +431,69 @@ def cmd_report():
             s = p["stats"]
             print(f"  {p['slug']} [{p['arms']['cover']}/{p['arms']['title']}/{p['arms']['desc']}] "
                   f"{s['impressions']} imp, {s['outbound']} site clicks")
+
+
+def posted_at(p):
+    return datetime.strptime(p["posted"], "%Y-%m-%dT%H:%M").replace(tzinfo=timezone.utc)
+
+
+def cmd_verify_list(n):
+    """Pins to open in the browser: posted in the last VERIFY_DAYS days, or never checked."""
+    state = load_state()
+    today = datetime.now(timezone.utc)
+    rows = []
+    for p in state["pins"]:
+        if not p.get("pin_id"):
+            continue
+        checked = p.get("verify", {}).get("checked")
+        if (today - posted_at(p)).days <= VERIFY_DAYS or not checked:
+            rows.append((checked or "", p["pin_id"]))
+    for _, pid in sorted(rows)[:n]:
+        print(f"{pid} https://www.pinterest.com/pin/{pid}/")
+
+
+def cmd_verified(pin_id, status, nums):
+    state = load_state()
+    for p in state["pins"]:
+        if p["pin_id"] == str(pin_id):
+            p["verify"] = {"live": status == "live", "url": f"https://www.pinterest.com/pin/{pin_id}/", "checked": now()}
+            if len(nums) == 4:
+                imp, clicks, saves, outbound = (int(x) for x in nums)
+                p["stats"] = {"impressions": imp, "pin_clicks": clicks, "saves": saves, "outbound": outbound, "updated": now()}
+            save_state(state)
+            print(f"verified: {pin_id} {status}" + (f" {p['stats']}" if len(nums) == 4 else ""))
+            return
+    sys.exit(f"unknown pin {pin_id}")
+
+
+def stop_status(state):
+    """(fires, line). Fires when STOP_DAYS have passed since the first pin, at least STOP_MIN_LIVE pins
+    are confirmed live, and total impressions or total outbound clicks are still 0."""
+    pins = [p for p in state["pins"] if p.get("pin_id")]
+    if not pins:
+        return False, "Stop rule: no pins yet."
+    days = (datetime.now(timezone.utc) - min(posted_at(p) for p in pins)).days
+    live = sum(1 for p in pins if p.get("verify", {}).get("live"))
+    imp = sum((p.get("stats") or {}).get("impressions", 0) for p in pins)
+    out = sum((p.get("stats") or {}).get("outbound", 0) for p in pins)
+    base = f"{days} days since first pin, {live} pins confirmed live, {imp} impressions, {out} site clicks"
+    if days >= STOP_DAYS and live >= STOP_MIN_LIVE and (imp == 0 or out == 0):
+        return True, f"Stop rule: PAUSE RECOMMENDED ({base})."
+    need = []
+    if days < STOP_DAYS:
+        need.append(f"{STOP_DAYS - days} more days")
+    if live < STOP_MIN_LIVE:
+        need.append(f"{STOP_MIN_LIVE - live} more live pins")
+    return False, f"Stop rule: not yet ({base}" + (f"; waiting for {', '.join(need)}" if need else "; traffic is coming in") + ")."
+
+
+def cmd_check_stop():
+    fires, line = stop_status(load_state())
+    print(line)
+    if fires:
+        with open(PAUSE_FLAG, "w") as f:
+            f.write(f"{now()} {line}\nDelete this file to resume the Pinterest job.\n")
+        print(f"wrote {os.path.basename(PAUSE_FLAG)}: the runner skips Pinterest until it is deleted")
 
 
 if __name__ == "__main__":
@@ -435,6 +510,12 @@ if __name__ == "__main__":
         cmd_stats(*args[1:])
     elif args[:1] == ["report"]:
         cmd_report()
+    elif args[:1] == ["verify-list"]:
+        cmd_verify_list(int(args[1]) if len(args) > 1 else 10)
+    elif args[:1] == ["verified"] and len(args) in (3, 7) and args[2] in ("live", "gone"):
+        cmd_verified(args[1], args[2], args[3:])
+    elif args[:1] == ["check-stop"]:
+        cmd_check_stop()
     elif args[:1] == ["boards"]:
         print("\n".join(sorted(set(TAG_BOARDS.values()) | {VALUE_BOARD, STORES_BOARD})))
     else:

@@ -33,6 +33,7 @@ exclude:
   - "redirects.json"
   - "refresh-priority.json"
   - "seo"
+  - "seo_analytics.py"
   - "seo_queue.py"
   - "seo_snapshot.py"
   - "shorts"

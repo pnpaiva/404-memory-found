@@ -11,6 +11,7 @@ Order of the queue (tiers 1 to 3 take turns, one post each; tier 4 follows):
      most impressions first: they are one good rewrite away from the first page;
   2. pages with an entry in seo/upgrade-notes.json (search-results gaps, posts competing with each other);
   3. pages Google crawled and refused to index: a quality verdict, so they need real improvement;
+  Notes in seo/upgrade-notes.json with a "priority" field go before all of these, lowest number first.
   4. everything else that has never been upgraded, posts without an in-body photo first, oldest first.
 A post counts as upgraded when its "upgraded" field is set; it can come back after RECHECK_DAYS.
 """
@@ -61,6 +62,10 @@ def queue():
                for slug in gsc.get("crawled_not_indexed", [])]
     # Round robin over the three tiers: ranking pages, noted gaps and refused pages each get a turn, so the pages
     # Google crawled and turned down are not stuck behind months of the other two (they are the indexing lever).
+    # Notes with a "priority" (1 first) jump the round robin: they come from a deliberate review of the queries
+    # each page already gets and stay first until the post is upgraded (then the note is spent).
+    for slug in sorted((s for s, n in gsc["_notes"].items() if n.get("priority")), key=lambda s: gsc["_notes"][s]["priority"]):
+        add(slug, f"priority upgrade note ({gsc['_notes'][slug].get('source', 'notes')})", qmap.get(slug, ()))
     tiers = [in_search, crawled, noted]
     while any(tiers):
         for tier in tiers:

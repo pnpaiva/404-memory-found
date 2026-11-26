@@ -1,5 +1,5 @@
 {
-  "_description": "Per-post instructions for the upgrade desk, from the 2026-11-20 search-results gap analysis and the cannibalization review. seo_queue.py prints the note for the post it picks. A note stops applying once the post's 'upgraded' date is on or after the note's 'date'; the routine never edits this file.",
+  "_description": "Per-post instructions for the upgrade desk, from the 2026-11-20 search-results gap analysis and the cannibalization review. seo_queue.py prints the note for the post it picks. A note stops applying once the post's 'upgraded' date is on or after the note's 'date'; the routine never edits this file. An optional 'priority' (1 first) puts a note ahead of the usual round robin until it is spent.",
   "notes": {
     "motorola-razr-v3-coolest-phone-ever-made": {
       "source": "serp-gap 2026-11-20",
@@ -64,54 +64,75 @@
       "date": "2026-11-20"
     },
     "why-everyone-had-hotmail-account": {
-      "source": "serp-gap 2026-11-20",
-      "retarget": "The account how-to long tail, not the status question (Microsoft and TechRadar own it)",
+      "source": "gsc-longtail 2026-11-26",
+      "priority": 4,
+      "retarget": "Can You Still Make a Hotmail Account? Hotmail.ca, Old Logins and Recovery",
+      "primary": "does hotmail ca exist (pos 9); does hotmail still exist (36); who owns hotmail (44). Do not chase 'hotmail wikipedia' or 'hotmail' head terms",
+      "fix_first": "First sentence: yes, Hotmail addresses still work inside Outlook.com, and whether new @hotmail.com and @hotmail.ca addresses can be made today (test it, date it)",
       "add": [
-        "Tested how-tos: can you still create an @hotmail.com address, recovering an old account, inactive-account deletion rules",
-        "A table of what still works"
+        "Tested how-to: create a new @hotmail address in 2026 (steps, which country domains are offered, date tested)",
+        "Recover an old Hotmail account: the Microsoft recovery form, what you need, the inactive-account deletion rule (verify the current days)",
+        "Hotmail.ca, hotmail.co.uk and other country domains: what still works",
+        "A 'what still works' table: login, sending, POP/IMAP, forwarding, the Outlook app"
       ],
       "cut": [
-        "Two history sections down to one (that is Wikipedia's ground)"
+        "Two history sections down to one (Wikipedia's ground)"
       ],
       "questions": [
         "Does Hotmail still exist?",
-        "Who owns Hotmail?",
-        "Can I still make a Hotmail account?"
+        "Does hotmail.ca still exist?",
+        "Can I still make a Hotmail account?",
+        "How do I recover an old Hotmail account?",
+        "Who owns Hotmail?"
       ],
-      "date": "2026-11-20"
+      "competition": "Microsoft support and TechRadar own the status query; win the tested how-to and country domains",
+      "date": "2026-11-26"
     },
     "why-pets-com-failed-dot-com-bubble": {
-      "source": "serp-gap 2026-11-20",
-      "retarget": "The Pets.com Sock Puppet: Where It Is Now and Why Pets.com Died",
+      "source": "gsc-longtail 2026-11-26",
+      "priority": 2,
+      "retarget": "What Happened to Pets.com? The Sock Puppet, the Domain and PetSmart Now",
+      "primary": "pets.com (pos 6); what happened to it now (8); pets.com company (63); pets.com sock puppet (51 to 55); pets.com downfall (67)",
+      "fix_first": "First sentence: what pets.com is today (a PetSmart-owned redirect; verify) and when the original company shut",
       "add": [
-        "Puppet photo only if free-licensed (The Henry Ford holds the object)",
-        "Timeline table: IPO Feb 11, 2000; orders stop Nov 9, 2000; dissolved Jan 18, 2001 (verify)",
-        "The 2002 Bar None car-loan revival of the puppet"
+        "Timeline table: IPO Feb 11 2000; orders stop Nov 9 2000; dissolved Jan 18 2001 (verify each)",
+        "'Where is the sock puppet now?' section: The Henry Ford holds the object, the 2002 Bar None car-loan revival, who voiced it (verify)",
+        "Collectible value: sold-price ranges for the sock puppet toy by condition from completed sales, dated (asking prices are not prices)",
+        "Super Bowl XXXIV ad: cost and what aired (verify)"
       ],
       "questions": [
+        "What happened to Pets.com?",
         "Where is the Pets.com sock puppet now?",
-        "Who voiced it?",
-        "What did the Super Bowl ad cost?"
+        "How much is a Pets.com sock puppet worth?",
+        "Who owns pets.com today?"
       ],
-      "date": "2026-11-20"
+      "competition": "Wikipedia owns the history; win puppet-now, collectible value and the domain today",
+      "date": "2026-11-26"
     },
     "who-owns-sears-now-stores-left": {
-      "source": "serp-gap 2026-11-20",
-      "retarget": "Where are the last Sears stores, plus the brands table",
+      "source": "gsc-longtail 2026-11-26",
+      "priority": 1,
+      "retarget": "How Many Sears Stores Are Left (Dated List) and What Sears Owned",
+      "primary": "how many sears stores are left (pos 38); how many sears are left (35); who owned sears (11); what companies did sears own (58); transform holdco (37); transformco revenue (63)",
+      "fix_first": "First sentence answers the store count with the date it was checked; the H1 keeps 'Who Owns Sears Now'",
       "add": [
-        "A dated table of the last stores (mall, city, status, date checked)",
-        "A table of brands Sears owned and who owns them now: Craftsman, DieHard, Kenmore, Lands' End, Allstate, Discover, Dean Witter, Coldwell Banker"
+        "A dated table of the last stores (mall, city, state, status, date checked, source)",
+        "A table of brands Sears owned and who owns them now: Craftsman, DieHard, Kenmore, Lands' End, Allstate, Discover, Dean Witter, Coldwell Banker",
+        "A short 'What is Transform Holdco (Transformco)?' section: who controls it, what it runs, no revenue figure unless a source states one",
+        "How to use Sears today: Kenmore and Craftsman parts and warranty, the sears.com site, Sears Hometown stores (verify each is still operating)"
       ],
       "cut": [
-        "The '$175 million settlement' section"
+        "The '$175 million settlement' section, down to one sentence"
       ],
       "questions": [
         "How many Sears stores are left?",
         "Where is the last Sears?",
-        "Is Kmart the same company?",
-        "What companies did Sears own?"
+        "Who owned Sears before Transformco?",
+        "What companies did Sears own?",
+        "Can you still buy Kenmore appliances?"
       ],
-      "date": "2026-11-20"
+      "competition": "News sites own 'who owns sears'; win the dated list and the brands table",
+      "date": "2026-11-26"
     },
     "is-compusa-still-around": {
       "source": "fact-check 2026-11-20",
@@ -121,21 +142,26 @@
       ]
     },
     "who-owns-borders-now-bookstore": {
-      "source": "serp-gap 2026-11-20",
-      "retarget": "When Did Borders Close? Who Owns the Bookstore Name Now",
+      "source": "gsc-longtail 2026-11-26",
+      "priority": 3,
+      "retarget": "When Did Borders Close? Borders UK, Waldenbooks and Who Owns the Name",
+      "primary": "borders uk (pos 6); borders (1); borders bookstores (38); is borders bookstore still open (63); when did borders bookstore close (69); borders books closing (89)",
+      "fix_first": "First sentence gives the US close date (Sept 18 2011, verify) and that no Borders store is open",
       "add": [
-        "The close date (Sept 18, 2011, verify) in the summary's first sentence",
-        "What is in the old stores now, with photos",
-        "Timeline table",
-        "A bigger UK chapter (we rank about 6 for 'borders uk')"
+        "A bigger Borders UK chapter: the 2007 sale, the 2009 collapse, what replaced the stores (verify)",
+        "Timeline table US and UK",
+        "What is in the old store buildings now, with one or two free-licensed photos",
+        "Collectible value: Borders gift cards, bags and Waldenbooks memorabilia sold prices, dated"
       ],
       "questions": [
         "When did Borders close?",
         "Is any Borders still open?",
-        "Did Barnes & Noble buy Borders?",
-        "What happened to Waldenbooks?"
+        "What happened to Borders UK?",
+        "What happened to Waldenbooks?",
+        "Did Barnes & Noble buy Borders?"
       ],
-      "date": "2026-11-20"
+      "competition": "News and Wikipedia own the closing story; win UK, dates table and what the stores are now",
+      "date": "2026-11-26"
     },
     "what-happened-to-atari-jaguar-64-bit-console": {
       "source": "serp-gap 2026-11-20",

@@ -1222,11 +1222,19 @@ def build_brand_index_page(ctx, posts):
         f'<a href="/posts/">{len(posts)} posts</a> in total, including the ones that do not answer a status question.</p>'
         '<div class="brand-index-reuse"><h2>Using this table</h2>'
         f'<p>Last checked {esc(ctx["today_label"])}. Every status is taken from the linked post, where the sources are listed. '
-        'The data is free to reuse, including in articles and research, as long as you credit 404 Memory Found and link back to this page.</p>'
+        'The data is free to reuse, including in articles and research, under '
+        '<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>: credit 404 Memory Found and link back to this page.</p>'
+        '<p class="brand-index-method"><strong>How it is built:</strong> one row per brand the archive has a full post on. '
+        '&ldquo;Started&rdquo; is the launch or founding year, &ldquo;Status in 2026&rdquo; and &ldquo;Who owns it now&rdquo; come from the '
+        'sources cited in that post (company filings, court records, trademark records and contemporary news). '
+        'Every post is rechecked on a rolling schedule, and the table is rebuilt from the posts each time the site is published.</p>'
         '<p class="brand-index-downloads">Download: <a href="/dead-brand-index.csv" download>CSV</a> '
         '<a href="/dead-brand-index.json" download>JSON</a></p>'
         '<p class="brand-index-cite"><strong>Cite it as:</strong> 404 Memory Found, &ldquo;The dead brand index&rdquo;, '
-        f'{esc(ctx["today_label"])}, https://404memoryfound.com/dead-brand-index.html</p></div>'
+        f'{esc(ctx["today_label"])}, https://404memoryfound.com/dead-brand-index.html</p>'
+        '<p class="brand-index-embed"><strong>Link to it:</strong></p>'
+        '<pre class="brand-index-snippet"><code>&lt;a href="https://404memoryfound.com/dead-brand-index.html"&gt;'
+        'The dead brand index (404 Memory Found, CC BY 4.0)&lt;/a&gt;</code></pre></div>'
         + BRAND_INDEX_JS)
     url = f"{BASE_URL}/dead-brand-index.html"
     schema = {"@context": "https://schema.org", "@type": "Dataset",
@@ -1236,6 +1244,7 @@ def build_brand_index_page(ctx, posts):
               # which is CC BY 4.0, and saying so in the markup is what lets Dataset Search list it.
               "creator": {"@type": "Organization", "@id": ORG_ID, "name": BLOG_NAME, "url": BASE_URL + "/"},
               "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": True,
+              "dateModified": ctx["today"],
               "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": BASE_URL + "/dead-brand-index.csv"},
                                {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE_URL + "/dead-brand-index.json"}],
               "keywords": ["defunct brands", "dead retail chains", "who owns it now", "1990s companies", "2000s websites"]}
@@ -1776,6 +1785,8 @@ PAGE_SHELL_CSS = """
 .page-shell .brand-index-downloads a:active { border-style: inset; }
 .page-shell .brand-index-cite { font-family: "Courier New", monospace; font-size: 12px; background: #fff;
     border: 1px solid #c0c0c0; padding: 6px 8px; }
+.page-shell .brand-index-snippet { margin: 0 0 6px; padding: 6px 8px; background: #fff; border: 1px inset #c0c0c0;
+  font-family: "Courier New", monospace; font-size: 12px; white-space: pre-wrap; word-break: break-all; user-select: all; }
 
 /* Reading flow: a mid-article "Keep reading" card and "Next in the archive" cards, styled as Win95 files */
 .keep-reading { margin: 22px 0; border: 2px solid; border-color: #fff #808080 #808080 #fff; background: #c0c0c0; padding: 0 3px 3px; }
@@ -1972,6 +1983,7 @@ def main():
         "source": source, "version": version, "tags": tags, "authors": authors, "config": config,
         "csp": "" if adsense else csp,  # a meta CSP would block ad networks; drop it once ads are on
         "favicons": favicons, "adsense": adsense, "verification": verification_meta(config),
+        "today": today,
         "today_label": datetime.strptime(today, "%Y-%m-%d").strftime("%d %B %Y").lstrip("0"),
         "desktop_icons": extract_div_by_marker(source, 'class="desktop-icons">'),
         "taskbar": extract_div_by_marker(source, 'class="taskbar">'),
@@ -1999,7 +2011,7 @@ def main():
     # A reference table only earns links when other people can take the data with them.
     write("dead-brand-index.json", json.dumps(
         {"name": "The dead brand index", "source": f"{BASE_URL}/dead-brand-index.html",
-         "updated": today, "licence": "Free to reuse with credit and a link to the source page.",
+         "updated": today, "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): free to reuse with credit and a link to the source page.",
          "count": len(index_rows),
          "brands": [{"name": r["name"], "started": r["started"], "status2026": r["status"],
                      "owner2026": r["owner"], "source": BASE_URL + r["url"]} for r in index_rows]},
