@@ -38,8 +38,9 @@
         "original tickle me elmo value",
         "1996 tickle me elmo price"
       ],
-      "status": "pending",
-      "source": "serp-gap-2026-11-20"
+      "status": "published",
+      "source": "serp-gap-2026-11-20",
+      "published_slug": "tickle-me-elmo-worth-1996-original"
     },
     {
       "title": "How to Get Pictures Off an Old Flip Phone in 2026",
