@@ -13166,14 +13166,14 @@ Arcades collapsed because the business peaked and home consoles arrived at the s
 
 URL: https://404memoryfound.com/posts/what-happened-to-livejournal-blogging-platform.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-04-13  Updated: 2026-09-23
+Published: 2026-04-13  Updated: 2026-11-27
 Topics: Internet Culture, Software & Apps
 
-**Summary:** LiveJournal still exists in 2026 and still accepts new accounts, but it runs as a Russian-language platform owned by Rambler Group, which Sber has owned outright since October 2020. Brad Fitzpatrick launched it on April 15, 1999 and sold it to Six Apart in 2005; Six Apart sold it to Russia's SUP Media in December 2007. The servers moved from California to Russia in December 2016, and the English-speaking communities left for Dreamwidth, Tumblr and Archive of Our Own.
+**Summary:** LiveJournal still exists in 2026 and still accepts new accounts, but it runs as a Russian-language platform owned by Rambler Group, which Sber has owned outright since October 2020. Brad Fitzpatrick launched it on April 15, 1999 and sold it to Six Apart in 2005; Six Apart sold it to Russia's SUP Media in December 2007. The servers moved from California to Russia in December 2016, and the English-speaking communities left for Dreamwidth, Tumblr and Archive of Our Own. It marks 19 years since the sale to Russia on December 2, 2026, and in November 2026 the platform said it was dropping its paid model while public posting stays limited to verified or paying users.
 
 **Key facts:**
 - Launched: April 15, 1999, by Brad Fitzpatrick
-- Status today: Online, mostly Russian-language
+- Status today: Online, mostly Russian-language; public posting limited since December 29, 2025
 - Owner today: Rambler Group, fully owned by Sber since October 2020
 - Sold to Russia: December 2, 2007, Six Apart to SUP Media
 - Servers moved: California to Russia, December 2016
@@ -13185,6 +13185,14 @@ Brad Fitzpatrick started LiveJournal on April 15, 1999, as a way to keep his hig
 Online diaries already existed. What LiveJournal added was the layer around the writing: friends lists, security filters that let one entry go to six people and the next go to everyone, communities any user could start, mood indicators, and user icons. Facebook did not launch until 2004, and by then LiveJournal readers had been managing separate audiences for five years.
 
 The engineering mattered too. Fitzpatrick wrote memcached in 2003 to stop LiveJournal's databases from buckling under load, released it as open source in 2004, and watched it spread to Facebook, Wikipedia and YouTube. Anatoly Vorobey, then a LiveJournal employee, rewrote it from Perl into C. Most sites of that era left nothing behind in anyone else's stack. LiveJournal left a piece of infrastructure that large sites still run today.
+
+## How old is LiveJournal?
+
+LiveJournal is 27 years old: Brad Fitzpatrick launched it on April 15, 1999, and it has stayed online ever since. On December 2, 2026 it also marks 19 years since Six Apart sold the whole platform to Russia's SUP Media. No event has been announced for either date.
+
+What has been announced is a change of model. LiveJournal managing director Dmitry Chistov said the platform is dropping its paid model, making some features free for everyone and closing outdated paid services, AdIndex reported on November 11, 2026. He put the audience at about 25 million monthly users and more than 50,000 active authors, with the focus now on Russian readers, and a block of LiveJournal bloggers already sits on the Rambler homepage.
+
+Free comes with a catch for anyone outside Russia. Since December 29, 2025, a public post, a comment or a photo upload requires one of four things: a paid subscription, an account linked to Sber ID, a social capital score of at least 500, or a blog in the Roskomnadzor bloggers registry. Everyone else can still read, and anything new they write stays private. The road to a Russian bank login started with one bad week in 2007.
 
 ## What was the Strikethrough of 2007?
 
@@ -13210,13 +13218,7 @@ In April 2017 the terms of service were rewritten to match Russian law. The new 
 
 The risk was not hypothetical. In December 2016 a court in Tyumen sentenced blogger Aleksei Kungurov to two years in a prison colony over a LiveJournal post criticizing Russia's campaign in Syria. "We call on Russian authorities in Tyumen to immediately release Aleksei Kungurov and drop all charges against him," said Nina Ognianova of the Committee to Protect Journalists in 2016.
 
-## Who owns LiveJournal today?
-
-LiveJournal is owned by Rambler Group, which Sber has owned outright since October 2020. The site is still online. Registration is open, journals from the 2000s still load, and the Russian-language communities are the busiest part of it.
-
-The audience sits where the ownership does. Similarweb's June 2026 figures put Russia as the top country sending traffic to livejournal.com and rank the site within the Russian social media category rather than against global platforms. The English-speaking side has not recovered since 2017.
-
-Security has not helped its case. In May 2020 a file holding credentials for 26,372,781 LiveJournal accounts circulated on hacker forums and was added to Have I Been Pwned, which warned those account holders to treat their passwords as compromised. Rambler Group has never confirmed that a breach happened. Anyone still holding a LiveJournal login from the 2000s should assume the password attached to it is public, and should certainly not be reusing it anywhere else.
+Security has not helped either. In May 2020 credentials for 26,372,781 LiveJournal accounts were added to Have I Been Pwned, and Rambler Group has never confirmed a breach. By then most of the English-speaking users had already moved somewhere else.
 
 ## Where the fanfiction and journal communities went
 
@@ -13230,7 +13232,7 @@ The pattern repeats across all of them. A community builds on somebody else's pl
 
 ### Is LiveJournal still active in 2026?
 
-Yes. LiveJournal has run continuously since April 1999 and still accepts new accounts in 2026, but it operates mainly in Russian. Similarweb's June 2026 data shows Russia as the largest source of traffic to the site.
+Yes. LiveJournal has run continuously since April 1999 and still accepts new accounts in 2026, but it operates mainly in Russian. Its managing director put the audience at about 25 million monthly users and more than 50,000 active authors in November 2026, when the platform said it was dropping its paid model.
 
 ### Who owns LiveJournal now?
 
@@ -13238,7 +13240,7 @@ LiveJournal is owned by Rambler Group, the Russian media company formed when SUP
 
 ### Can you still log in to an old LiveJournal account?
 
-Old LiveJournal accounts from the 2000s generally still work and their entries are still there, under the Russian-law terms of service adopted in April 2017. Credentials for more than 26 million LiveJournal accounts leaked in May 2020, so change the password before logging back in, and export the journal if you want your own copy.
+Old LiveJournal accounts from the 2000s generally still work and their entries are still there, under the Russian-law terms of service adopted in April 2017. Credentials for more than 26 million LiveJournal accounts leaked in May 2020, so change the password before logging back in, and export the journal if you want your own copy. Since December 29, 2025, posting publicly or commenting also needs a paid subscription, a Sber ID link, a social capital score of 500 or a registered blog; without one, new entries stay private.
 
 **Sources:**
 - Six Apart Sells LiveJournal To Russia's SUP (TechCrunch, 2007): https://techcrunch.com/2007/12/02/six-apart-sells-livejournal-to-sup/
@@ -13246,6 +13248,9 @@ Old LiveJournal accounts from the 2000s generally still work and their entries a
 - Russia jails blogger over post criticizing military action in Syria (Committee to Protect Journalists, 2016): https://cpj.org/2016/12/russia-jails-blogger-over-post-criticizing-militar/
 - Sber completes full acquisition of Rambler (East-West Digital News, 2020): https://www.ewdn.com/2020/10/29/sber-completes-full-acquisition-of-online-media-and-entertainment-group-rambler/
 - LiveJournal data breach record (Have I Been Pwned): https://haveibeenpwned.com/Breach/LiveJournal
+- «Живой Журнал» станет бесплатным для авторов (AdIndex, November 11, 2026): https://adindex.ru/news/digital/2026/11/11/351131.phtml
+- Сервис LiveJournal ввел новые правила на публикацию контента (Habr, December 29, 2025): https://habr.com/ru/post/981710
+- LiveJournal изменила правила публикации контента (Expert, December 30, 2025): https://expert.ru/news/livejournal-izmenit-pravila-publikatsii-kontenta-s-kontsa-2025-goda
 
 ---
 

@@ -129,6 +129,16 @@
   "thumb": "/img/thumb/shawn-fanning-joi-ito-d5ee1d.jpg",
   "width": 792
  },
+ "https://upload.wikimedia.org/wikipedia/commons/2/2c/%D0%A4%D0%B8%D1%86%D0%BF%D0%B0%D1%82%D1%80%D0%B8%D0%BA_%26_%D0%9D%D0%BE%D1%81%D0%B8%D0%BA_3.jpg": {
+  "commons": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%B8%D1%86%D0%BF%D0%B0%D1%82%D1%80%D0%B8%D0%BA_%26_%D0%9D%D0%BE%D1%81%D0%B8%D0%BA_3.jpg",
+  "ext": "jpg",
+  "file": "/img/3-988b0f.jpg",
+  "height": 960,
+  "requested": 1280,
+  "status": "ok",
+  "thumb": "/img/thumb/3-988b0f.jpg",
+  "width": 1280
+ },
  "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Plus_logo_%282011-2015%29.png": {
   "commons": "https://commons.wikimedia.org/wiki/File:Google_Plus_logo_%282011-2015%29.png",
   "ext": "png",
