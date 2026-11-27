@@ -1592,16 +1592,32 @@ def build_feed(posts):
 """
 
 
-AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "anthropic-ai", "PerplexityBot",
-           "Perplexity-User", "Google-Extended", "Googlebot", "Bingbot", "Applebot", "Applebot-Extended", "CCBot",
-           "Amazonbot", "Meta-ExternalAgent", "DuckAssistBot", "YouBot", "cohere-ai", "MistralAI-User"]
+# Crawlers that send readers or put the site in front of people: search engines, AI answer engines that cite
+# and link their sources, the AdSense crawlers, and link-preview fetchers (Pinterest rich pins, Facebook, X).
+# GPTBot and ClaudeBot only train models, but that is how assistants come to know the site exists.
+HELPFUL_BOTS = ["Googlebot", "Mediapartners-Google", "AdsBot-Google", "Google-Extended", "Bingbot", "DuckDuckBot",
+                "Applebot", "Applebot-Extended", "OAI-SearchBot", "ChatGPT-User", "GPTBot", "Claude-SearchBot",
+                "Claude-User", "ClaudeBot", "Claude-Web", "anthropic-ai", "PerplexityBot", "Perplexity-User",
+                "DuckAssistBot", "YouBot", "MistralAI-User", "Amazonbot", "CCBot", "Pinterestbot",
+                "facebookexternalhit", "Twitterbot"]
+# Crawlers that give nothing back (Pedro, 27/11/2026: "the ones that aren't, block them"): SEO tool spiders,
+# scrapers that only build training sets or data products, and search engines with no US audience.
+# robots.txt only stops the ones that obey it; the JavaScript gate in QUIET_JS keeps the rest away from
+# analytics and ads.
+BLOCKED_BOTS = ["AhrefsBot", "SemrushBot", "SemrushBot-SA", "MJ12bot", "DotBot", "BLEXBot", "DataForSeoBot",
+                "SeekportBot", "serpstatbot", "MegaIndex.ru", "Barkrowler", "SEOkicks", "Bytespider",
+                "Meta-ExternalAgent", "FacebookBot", "cohere-ai", "cohere-training-data-crawler", "Diffbot",
+                "ImagesiftBot", "Timpibot", "omgili", "omgilibot", "img2dataset", "Scrapy", "PetalBot",
+                "PanguBot", "Baiduspider", "Sogou", "Kangaroo Bot", "ISSCyberRiskCrawler"]
 
 
 def build_robots():
-    """Allow every search and AI crawler explicitly. Answer engines cite pages they were allowed to read."""
+    """Helpful crawlers are named and allowed; the useless ones are named and shut out; anything else may crawl."""
     out = ["User-agent: *", "Allow: /", ""]
-    for bot in AI_BOTS:
+    for bot in HELPFUL_BOTS:
         out += [f"User-agent: {bot}", "Allow: /", ""]
+    for bot in BLOCKED_BOTS:
+        out += [f"User-agent: {bot}", "Disallow: /", ""]
     out += [f"Sitemap: {BASE_URL}/sitemap.xml", f"Sitemap: {BASE_URL}/feed.xml", ""]
     return "\n".join(out)
 
