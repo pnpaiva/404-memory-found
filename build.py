@@ -56,8 +56,18 @@ QUIET_JS = ("(function(){var q=false,u=navigator.userAgent||'';"
             "q=localStorage.getItem('404mf-quiet')==='1';}catch(e){}"
             "if(!/google|mediapartners/i.test(u)&&(navigator.webdriver||"
             "/bot|crawl|spider|slurp|headless|ahrefs|semrush|mj12|petal|bytespider|python|curl|wget|phantom|puppeteer|playwright|selenium/i.test(u)))q=true;"
-            "window.__404quiet=q;window.__404load=function(src,cors){var s=document.createElement('script');"
-            "s.async=true;s.src=src;if(cors)s.crossOrigin='anonymous';document.head.appendChild(s);};})();")
+            "window.__404quiet=q;"
+            # Analytics and ads wait for the first real input (mouse, touch, wheel or key). Bots that render
+            # JavaScript but never touch the page (77% of GA "users" in Nov 2026, a Chrome farm in Singapore)
+            # no longer count as sessions or ask for ads, which keeps RPM honest and AdSense clear of invalid
+            # traffic. People reading an article always move, scroll or tap within seconds.
+            "var Q=[],go=false,EV=['pointerdown','pointermove','keydown','touchstart','wheel'];"
+            "function inj(a){var s=document.createElement('script');s.async=true;s.src=a[0];"
+            "if(a[1])s.crossOrigin='anonymous';document.head.appendChild(s);}"
+            "function start(e){if(go||(e&&e.isTrusted===false))return;go=true;"
+            "EV.forEach(function(t){removeEventListener(t,start,true);});Q.forEach(inj);Q=[];}"
+            "EV.forEach(function(t){addEventListener(t,start,{capture:true,passive:true});});"
+            "window.__404load=function(src,cors){var a=[src,cors];if(go)inj(a);else Q.push(a);};})();")
 HUB_TAG_COUNT = 8
 RELATED_COUNT = 5
 MAX_AUTO_LINKS = 6

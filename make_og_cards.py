@@ -354,7 +354,65 @@ def make_pin_bold(post, photo, path, title=None):
     im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
 
 
-PIN_COVERS = {"window": make_pin, "dialog": make_pin_dialog, "bold": make_pin_bold}
+FACT_LABELS = ["Sold for", "Price paid", "Rarest version", "Units sold", "Copies sold", "Peak subscribers",
+               "Peak size", "Peak sales", "Peak", "Stores left", "Stores at the end", "Launch price",
+               "Price at launch", "Original price", "Price then", "Last sale price", "Typical value today",
+               "Price today"]
+
+
+def pin_fact(post):
+    """(label, value) for the fact card: the most striking number in the quick facts, cut to its first
+    clause. None when no fact has a number short enough to read from across the room."""
+    facts = {f.get("label", ""): f.get("value", "") for f in post.get("facts") or []}
+    for label in FACT_LABELS:
+        value = facts.get(label)
+        if not value:
+            continue
+        short = re.split(r",|;| \(| per | in [A-Z][a-z]+ \d|, or ", value)[0].strip().rstrip(".")
+        if re.search(r"\d", short) and 3 <= len(short) <= 30:
+            return label, short
+    return None
+
+
+def make_pin_fact(post, photo, path, title=None):
+    """Cover "fact": one big number from the quick facts in a Win95 properties box, the photo above and
+    the question below. A pin people save for the fact and click for the story."""
+    title = title or post["title"]
+    W, H = PIN_SIZE
+    im = background(PIN_SIZE)
+    d = ImageDraw.Draw(im)
+    fact = pin_fact(post) or ("404", "memory found")
+    win = (50, 50, W - 50, 690)
+    bevel(d, win, raised=True)
+    tb = (win[0] + 6, win[1] + 6, win[2] - 6, win[1] + 56)
+    title_bar(d, tb, "404 Memory Found", font(26, bold=True))
+    pbox = (win[0] + 12, tb[3] + 10, win[2] - 12, win[3] - 12)
+    if not (photo and photo_panel(im, photo, pbox)):
+        d.rectangle(pbox, fill=WHITE)
+    d = ImageDraw.Draw(im)
+    box = (50, 720, W - 50, 1010)
+    bevel(d, box, raised=True)
+    d.text((box[0] + 34, box[1] + 26), fact[0].upper(), font=font(30, bold=True), fill=(60, 60, 60))
+    vf = font(110, bold=True)
+    size = 110
+    while d.textlength(fact[1], font=vf) > box[2] - box[0] - 68 and size > 52:
+        size -= 6
+        vf = font(size, bold=True)
+    d.text((box[0] + 34, box[1] + 80), fact[1], font=vf, fill=NAVY)
+    f, lines, lh = fit_title(d, title, W - 120, 3, 64, 40)
+    y = 1040
+    for line in lines:
+        d.text((60, y), line, font=f, fill=WHITE)
+        y += lh
+    lf = font(34, bold=True)
+    btn = button(d, 50, H - 150, "Read the full story", lf)
+    bf = font(30, bold=True)
+    d.text((W - 50 - d.textlength("404memoryfound.com", font=bf), btn[1] + 24), "404memoryfound.com", font=bf,
+           fill=WHITE)
+    im.save(path, "JPEG", quality=86, optimize=True, progressive=True)
+
+
+PIN_COVERS = {"window": make_pin, "dialog": make_pin_dialog, "bold": make_pin_bold, "fact": make_pin_fact}
 
 
 def make_logo(path):

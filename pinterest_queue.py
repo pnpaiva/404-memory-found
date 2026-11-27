@@ -7,7 +7,8 @@ task makes the pins through the Pinterest website. This file decides what to pin
 pin gets, and keeps the score, so the browser part stays dumb.
 
 What is tested (each pin gets one arm of every dimension, picked independently):
-  cover  window | dialog | bold         three image designs (make_og_cards.PIN_COVERS)
+  cover  window | dialog | bold | fact  four image designs (make_og_cards.PIN_COVERS); "fact" puts one
+                                       striking number from the quick facts on the card, to be saved
   title  full | short | punchy          whole title, the part before the first "?" or ":", or the loud
                                        version ("What the Heck Happened to Nextel?")
   desc   answer | tease                 SEO description vs a curiosity line plus keywords
@@ -53,7 +54,7 @@ STOP_DAYS = 21           # stop rule: at least this many days since the first pi
 STOP_MIN_LIVE = 20       # ...and at least this many pins confirmed live...
 PAUSE_FLAG = os.path.join(ROOT, ".pinterest-paused")  # ...then 0 impressions or 0 site clicks pauses the job
 
-DIMENSIONS = {"cover": ["window", "dialog", "bold"], "title": ["full", "short", "punchy"], "desc": ["answer", "tease"]}
+DIMENSIONS = {"cover": ["window", "dialog", "bold", "fact"], "title": ["full", "short", "punchy"], "desc": ["answer", "tease"]}
 
 VALUE_BOARD = "Vintage Collectibles Worth Money"
 STORES_BOARD = "Dead Stores and Defunct Brands"
@@ -95,7 +96,53 @@ def now():
 
 # --------------------------------------------------------------------------- copy
 
+# Pinterest is browsed by feeling, not by company: in Pinterest Trends (US, Nov 2026) the nostalgia searches
+# that matter are "90s nostalgia", "2000s nostalgia", "early 2000s nostalgia", "childhood nostalgia" and,
+# from mid November, "90s nostalgia christmas" (+400% in a month). Every pin description ends with them.
+BOARD_FLAVOR = {
+    "Dead Stores and Defunct Brands": "dead malls",
+    "Retro Video Games and Consoles": "retro gaming",
+    "Old Computers and Retro Tech": "retro tech",
+    "Early Internet and Old Websites": "the early internet",
+    "Vintage Collectibles Worth Money": "vintage toys",
+    "90s and 2000s nostalgia": "nostalgia aesthetic",
+}
+CHRISTMAS_BOARD = "90s Christmas Nostalgia"
+GIFT_WORDS = re.compile(r"\b(Toy|Toys|Game Boy|Nintendo|Sega|PlayStation|Tamagotchi|Furby|Pogs?|Walkman|Discman|iPod|"
+                        r"Wish Book|Catalog|Trapper Keeper|Lisa Frank|Micro Machines|Tiger|Beanie|Polly Pocket|"
+                        r"Game Genie|N64|Console|Handheld|Razr|Pager|Tickle Me)\b", re.I)
+
+
+def christmas_season(today=None):
+    d = today or date.today()
+    return (d.month == 11 and d.day >= 15) or d.month == 12
+
+
+def is_gift(post):
+    return bool(GIFT_WORDS.search(post["title"])) or (
+        bool(VALUE_TITLE.search(post["title"])) and "Software & Apps" not in post.get("tags", []))
+
+
+def decade_words(post):
+    for f in post.get("facts") or []:
+        if re.match(r"(Launched|Founded|Released|Created|Opened|Introduced)", f.get("label", "")):
+            m = re.search(r"\b(19[5-9]\d|20[0-2]\d)\b", f.get("value", ""))
+            if m:
+                y = int(m.group(1))
+                return ("80s nostalgia" if y < 1985 else "90s nostalgia" if y < 2000 else
+                        "early 2000s nostalgia" if y < 2005 else "2000s nostalgia" if y < 2010 else "2010s nostalgia")
+    return "90s and 2000s nostalgia"
+
+
+def pinterest_words(post, board):
+    if board == CHRISTMAS_BOARD:
+        return f"A 90s nostalgia christmas pick, for fans of {decade_words(post)} and childhood nostalgia."
+    return f"For fans of {decade_words(post)}, childhood nostalgia and {BOARD_FLAVOR.get(board, 'nostalgia aesthetic')}."
+
+
 def board_for(post):
+    if christmas_season() and is_gift(post):
+        return CHRISTMAS_BOARD
     if VALUE_TITLE.search(post["title"]):
         return VALUE_BOARD
     tags = post.get("tags", [])
@@ -174,8 +221,10 @@ def copy_for(post, arms):
     else:
         desc = ((post.get("seo") or {}).get("description") or post.get("excerpt") or "").rstrip()
         desc += " The full story, with sources, is on 404 Memory Found."
+    words = " " + pinterest_words(post, board_for(post))
+    desc = desc[:480 - len(words)].rstrip() + words
     for s in (title, desc):
-        assert "—" not in s and "–" not in s, f"dash in pin text for {post['id']}"
+        assert "\u2014" not in s and "\u2013" not in s, f"dash in pin text for {post['id']}"
     return title[:100], desc[:480]
 
 
@@ -284,7 +333,8 @@ def candidates(state):
         if last.get(p["id"], "0") > cutoff or p["id"] in state["pending"]:
             continue
         score = (3 if p["id"] in seen else 0) + (2 if p.get("upgraded") else 0) \
-            + (1 if VALUE_TITLE.search(p["title"]) or STATUS_TITLE.search(p["title"]) else 0)
+            + (1 if VALUE_TITLE.search(p["title"]) or STATUS_TITLE.search(p["title"]) else 0) \
+            + (4 if christmas_season() and is_gift(p) else 0)
         out.append((-score, random.random(), p))
     out.sort(key=lambda t: (t[0], t[1]))
     return [p for _, _, p in out]
@@ -330,6 +380,8 @@ def cmd_next(n, slot):
         arms = {}
         for dim, options in DIMENSIONS.items():
             allowed = options
+            if dim == "cover" and not cards.pin_fact(post):
+                allowed = [o for o in options if o != "fact"]
             if dim == "title":
                 allowed = ["full"] + (["short"] if short_title(post["title"]) else []) \
                     + (["punchy"] if punchy_title(post["title"]) else [])
