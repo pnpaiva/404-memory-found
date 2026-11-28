@@ -20670,29 +20670,29 @@ AOL bought Winamp's developer Nullsoft in 1999 for about $80 million, then annou
 
 ---
 
-# Who Owns Pets.com Now? PetSmart and the Sock Puppet
+# What Happened to Pets.com? The Sock Puppet and the Domain
 
 URL: https://404memoryfound.com/posts/why-pets-com-failed-dot-com-bubble.html
 Author: Dana Reyes (404 Memory Found)
-Published: 2026-03-24  Updated: 2026-10-16
+Published: 2026-03-24  Updated: 2026-11-28
 Topics: Business Blunders, Money & Tech
 
-**Summary:** Pets.com no longer exists as a company: it stopped taking orders in November 2000 and finished its liquidation as IPET Holdings on January 18, 2001. PetSmart bought the Pets.com domain and trademarks in December 2000, and the address still redirects to petsmart.com in 2026. The sock puppet mascot was sold separately and one of them now sits in The Henry Ford's collection.
+**Summary:** Pets.com today is only a web address: PetSmart bought the domain and trademarks in December 2000, and pets.com redirects to petsmart.com in 2026. The company itself stopped taking orders on November 9, 2000, nine months after its Nasdaq IPO, and finished liquidating as IPET Holdings on January 18, 2001. Its sock puppet mascot was sold off separately and now survives in museum collections, in a 2002 car-loan campaign and as a collectible toy.
 
 **Key facts:**
-- Launched: Store opened November 1998; first financial year began February 1999
-- IPO: February 11, 2000: 7,500,000 shares at $11.00, $82.5 million gross
+- Launched: Store opened November 1998; company incorporated February 1999
+- IPO: February 11, 2000: 7,500,000 shares at $11.00 on Nasdaq as IPET, $82.5 million gross
 - Shut down: Stopped taking orders November 9, 2000; dissolved January 18, 2001
 - Owner today: PetSmart, which bought the domain and trademarks in December 2000
 - Status today: Gone as a company; pets.com redirects to petsmart.com
 
-## Is pets.com still a working website in 2026?
+## What is pets.com today, and when did the company shut?
 
-The address works, but it is not a store. Type pets.com into a browser in 2026 and the request lands on petsmart.com, because PetSmart has owned the name for a quarter of a century.
+Pets.com today is a redirect owned by PetSmart: type the address into a browser in 2026 and it lands on petsmart.com. The company that built the site stopped taking orders at 11 a.m. Pacific on November 9, 2000, and finished liquidating as IPET Holdings on January 18, 2001.
 
 PetSmart bought the Pets.com domain, the trademarks and subsidiaries including Flying Fish Express in December 2000, weeks after the web store shut, as Computerworld reported at the time. The sock puppet, the customer list and the warehouse equipment were not part of that deal and were sold off separately.
 
-The company behind the site is gone in the legal sense too. Pets.com renamed itself IPET Holdings on January 16, 2001, and the liquidation was complete on January 18, 2001. Nothing of the business survived except the name on a redirect and a mascot that ended up in other people's advertising.
+DateWhat happenedNovember 1998The Pets.com store opens onlineMarch 1999Amazon, Hummer Winblad and Bowman Capital invest $10.5 millionNovember 1999The sock puppet rides a 36-foot balloon in the Macy's Thanksgiving Day ParadeJanuary 2000First national commercial airs during Super Bowl XXXIVFebruary 11, 2000IPO on Nasdaq as IPET: 7,500,000 shares at $11.00June 2000Buys rival Petstore.com for $10.6 millionNovember 7, 2000Announces the shutdown and lays off 255 of 320 employeesNovember 9, 2000Stops taking ordersDecember 2000PetSmart buys the domain and trademarksJanuary 18, 2001Liquidation completed as IPET HoldingsJuly 2002The sock puppet returns in nine BarNone car-loan commercialsThe Computer History Museum sums up that run in one line on its display label: the company "went from IPO to liquidation in just 268 days." The reason it could not last longer starts with the product it sold.
 
 ## Why did Pets.com lose money on every bag of dog food?
 
@@ -20700,33 +20700,39 @@ The merchandise was under water before any other cost. The IPO prospectus filed 
 
 The category made that hard to fix. Dog food, cat litter and birdseed are heavy, cheap per pound, and predictable enough that shoppers already bought them on a schedule at a store two miles away. Pets.com had to warehouse the pallets, discount the goods to pull people online, then pay a carrier to haul 40-pound bags across the country.
 
-Every extra order deepened the hole rather than closing it. The same physics broke Webvan and its grocery delivery network (https://404memoryfound.com/posts/what-happened-to-webvan-grocery-delivery.html) and Kozmo's one-hour courier model (https://404memoryfound.com/posts/what-happened-to-kozmo-com-delivery.html) inside the same 18 months.
+Every extra order deepened the hole rather than closing it. The same physics broke Webvan and its grocery delivery network (https://404memoryfound.com/posts/what-happened-to-webvan-grocery-delivery.html) and Kozmo's one-hour courier model (https://404memoryfound.com/posts/what-happened-to-kozmo-com-delivery.html) inside the same 18 months. Pets.com tried to outrun the math with advertising, and the biggest bet aired on the most expensive night of television in the country.
 
-## Where did the Pets.com advertising money go?
+## A sock puppet singing Chicago to an empty house for $1.2 million
 
-The Super Bowl spot is the part people remember and the part hardest to pin down. Pets.com ran its first national commercial during Super Bowl XXXIV in January 2000, at a price reported ever since as $1.2 million for 30 seconds. The company's own filings never broke out the cost of that single slot, so the figure traces to contemporary press coverage rather than to the books.
+Pets.com ran its first national commercial during Super Bowl XXXIV in January 2000, at a price reported ever since as $1.2 million. In the spot, the sock puppet dog sings an off-key version of Chicago's "If You Leave Me Now" because its owner has left the house, a pitch for never having to drive to the pet store again. The agency was TBWA/Chiat/Day, and the ad finished fifth in USA Today's Ad Meter that year.
 
-The quarterly numbers show the scale better than the one spot does. Pets.com reported net sales of $8.8 million for the second quarter of 2000, up from $7.7 million in the first quarter, in its Form 10-Q. Against that, it spent roughly $17 million on advertising in the same quarter, a MarketWatch figure that Tedium cited in its 2017 account of the collapse.
+It was one of 14 dot-com advertisers in that game, which paid an average of $2.2 million per spot, according to Wikipedia's tally of the so-called Dot-com Super Bowl. The company's own filings never broke out the cost of the single slot, so the $1.2 million figure traces to press coverage rather than to the books.
 
-So the advertising ran at about twice revenue in the company's first full quarter as a public business. Boo.com burned its funding on the same theory (https://404memoryfound.com/posts/what-happened-to-boo-com-fashion-dot-com.html), that attention bought early would pay for itself later.
+The quarterly numbers show the scale better than the one spot does. Pets.com reported net sales of $8.8 million for the second quarter of 2000 in its Form 10-Q, while it spent roughly $17 million on advertising in the same quarter, a MarketWatch figure that Tedium cited in its 2017 account of the collapse. Boo.com burned its funding on the same theory (https://404memoryfound.com/posts/what-happened-to-boo-com-fashion-dot-com.html), that attention bought early would pay for itself later. The attention was real, and almost all of it belonged to the puppet.
 
-## Who made the Pets.com mascot, and where is the puppet now?
+## Where is the Pets.com sock puppet now?
 
-The mascot was a dog with a microphone, created by the agency TBWA Worldwide and voiced by the comedian Michael Ian Black, according to The Henry Ford, which holds one of the toy versions. The museum's record notes it turned up on talk shows, in commercials and as a float in the Macy's Thanksgiving Day Parade, and it calls Pets.com "one of the most public victims" of the dot-com bubble burst.
+The sock puppet now lives in museum collections and old commercials rather than on a working brand. The Computer History Museum in Mountain View, California shows a boxed toy version in its exhibition Revolution, and The Henry Ford in Dearborn, Michigan holds a Fun-4-All Corp. hand puppet catalogued as object 2017.101.1, which is not on public exhibit.
 
-Not everyone agreed on who thought of it. A 2000 Form 10-Q discloses that Pets.com sued Robert Smigel, the creator of Triumph the Insult Comic Dog, seeking a declaration that it infringed nothing, after Smigel claimed the company "stole the idea for our Sock Puppet from him."
+The character was created by TBWA and performed by the comedian Michael Ian Black. The Henry Ford's record notes it appeared on talk shows and as a float in the Macy's parade, and calls Pets.com "one of the most public victims" of the dot-com bubble burst. Not everyone agreed on who thought of it: a 2000 Form 10-Q discloses that Pets.com sued Robert Smigel, the creator of Triumph the Insult Comic Dog, after he claimed the company "stole the idea for our Sock Puppet from him."
 
-The puppet outlasted its owner. The rights sold out of the liquidation for $125,000, a price Mental Floss attributes to the car lender BarNone while MediaPost reports Hakan Enterprises buying them in 2001, and by 2002 the dog was back on television selling car loans under the line "Everyone Deserves A Second Chance." The Henry Ford's example, a hand puppet made by Fun-4-All Corp. and catalogued as object 2017.101.1, is not on exhibit to the public.
+The puppet outlasted its owner. The rights sold out of the liquidation for $125,000 to Hakan and Associates and the car lender Bar None, Inc., through a venture called Sock Puppet LLC; sources split on whether the deal closed in 2001 or 2002. In July 2002 Bar None aired nine commercials with the dog and a new slogan, "Everyone deserves a second chance." For most fans today, the toy made during the campaign is the only version they can actually own.
 
-Where to find one today: the plush version sold during the campaign still circulates among collectors, usually between $15 and $35 depending on condition and whether the box survived, through Etsy seller listings for the Pets.com sock puppet (https://www.etsy.com/search?q=pets.com+sock+puppet).
+## How much is a Pets.com sock puppet worth?
+
+A Pets.com sock puppet toy is a modest collectible, not a jackpot. No price database tracks completed sales of it, so the table below separates the two documented sales from asking prices on listings, which are what sellers want rather than what buyers paid.
+
+ItemPriceWhenWhat it isOriginal mascot, charity auction on Amazon$20,100February 2000Winning bid, 70 bidders (Salon)Rights to the character$125,0002001 or 2002Sale out of the liquidationToy puppet, loose, usedabout $10 to $50November 2026Asking prices on listingsToy puppet, new in original boxabout $48 to $125November 2026Asking prices on listingsThe box is what separates the two toy rows. Fun-4-All made the hand puppets in 1999 and 2000, and a loose one with a worn collar is the most common thing on offer; an unopened box with the microphone and tags intact is what boxed sellers are pricing. Fading, missing microphones and stained fabric all push a puppet back toward the bottom of the loose range.
+
+Where to find one today: boxed and loose puppets from the 1999 and 2000 run turn up regularly in Etsy listings for the Pets.com sock puppet (https://www.etsy.com/search?q=pets.com+sock+puppet); compare several before paying more than the ranges above. The $20,100 bid made in February 2000 looks stranger once the company's own stock price is in view.
 
 ## How fast did the collapse happen after the IPO?
 
-Pets.com sold 7,500,000 shares at $11.00 on February 11, 2000, split between 6,000,000 shares in the United States and Canada and 1,500,000 abroad. That raised $82,500,000 gross, leaving $76,725,000 for the company before expenses after a $5,775,000 underwriting discount. Amazon was the largest stockholder, projected at about 30 percent after the offering in the filings, and listed at 24.5 percent of the common stock in a later proxy statement.
+Pets.com sold 7,500,000 shares at $11.00 on February 11, 2000, raising $82,500,000 gross and leaving $76,725,000 for the company before expenses after a $5,775,000 underwriting discount. Amazon was the largest stockholder, projected at about 30 percent after the offering in the filings.
 
-Nine months later the board gave up. It adopted a Plan of Complete Liquidation and Dissolution on November 4, 2000, the company announced the wind-down on November 7 and laid off 255 of its 320 employees, and the store stopped taking orders on November 9, 2000. The stock, issued at $11.00, was trading around 20 cents that week, with contemporary accounts differing on the exact close.
+Nine months later the board gave up. It adopted a Plan of Complete Liquidation and Dissolution on November 4, 2000, announced the wind-down on November 7, and the stock, issued at $11.00, was trading around 19 cents that day. PetSmart had offered less than the company's net cash, and the board turned it down.
 
-There had been an attempt to sell. Merrill Lynch contacted more than 50 domestic and international prospects on the company's behalf over the summer, and fewer than eight were willing to meet in person, by the company's own account at the time.
+There had been an attempt to sell. Merrill Lynch contacted more than 50 domestic and international prospects over the summer of 2000, and fewer than eight were willing to meet in person, by the company's own account. The idea did not die with the company, though; it moved to a rival.
 
 ## What replaced Pets.com in online pet retail?
 
@@ -20734,27 +20740,32 @@ Chewy did, and the numbers show how far the model has come. Chewy reported net s
 
 The ownership runs through the same company that holds the old domain. PetSmart bought Chewy in 2017 for $3.35 billion, then took it public in June 2019 at $22 a share, and Chewy now trades on the New York Stock Exchange on its own.
 
-What changed is the plumbing rather than the idea. Cloud infrastructure replaced the server farms Pets.com had to build, parcel rates and regional warehouses made heavy goods shippable, and automatic reordering turned a one-time discount buyer into a subscription. Amazon survived the same crash (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html) by having the cash to wait for those things to arrive. Pets.com did not.
+What changed is the plumbing rather than the idea. Cloud infrastructure replaced the server farms Pets.com had to build, parcel rates and regional warehouses made heavy goods shippable, and automatic reordering turned a one-time discount buyer into a subscription. Amazon survived the same crash (https://404memoryfound.com/posts/how-amazon-survived-dot-com-crash.html) by having the cash to wait for those things to arrive. Pets.com did not, and all it left behind was a redirect and a dog made from a sock.
 
 ## Frequently Asked Questions
 
-### How much did the Pets.com Super Bowl ad cost?
+### What happened to Pets.com?
 
-Pets.com ran its sock puppet commercial during Super Bowl XXXIV in January 2000, at a cost reported as $1.2 million for 30 seconds. The company never disclosed the price of that slot in its SEC filings, so the figure comes from press coverage of the game. Its advertising spending ran near $17 million in the second quarter of 2000 alone, against $8.8 million of net sales.
+Pets.com announced its shutdown on November 7, 2000, laid off 255 of its 320 employees, and stopped taking orders two days later, after losing money on its products and spending heavily on advertising. PetSmart bought the Pets.com domain and trademarks in December 2000, which is why pets.com still redirects to petsmart.com in 2026.
 
-### Who voiced the Pets.com sock puppet?
+### Where is the Pets.com sock puppet now?
 
-The Pets.com sock puppet was created by the agency TBWA Worldwide and voiced by the comedian Michael Ian Black, who kept voicing it when the car lender BarNone revived the character for its own commercials in 2002. The Henry Ford holds a Fun-4-All Corp. toy version of the Pets.com puppet as object 2017.101.1, dated 1999 to 2000 and not on exhibit.
+The Pets.com sock puppet survives in museums: the Computer History Museum displays a boxed toy in its Revolution exhibition, and The Henry Ford holds a Fun-4-All hand puppet as object 2017.101.1, not on exhibit. The character's rights went to Hakan and Associates and Bar None for $125,000, and Bar None last used it in nine commercials in July 2002.
 
-### Does Pets.com still exist in 2026?
+### How much is a Pets.com sock puppet worth?
 
-Pets.com stopped taking orders on November 9, 2000, and finished liquidating as IPET Holdings on January 18, 2001, so the company no longer exists. The web address still works because PetSmart bought the domain and trademarks in December 2000, and pets.com redirects to petsmart.com in 2026.
+A loose Pets.com sock puppet toy was listed for roughly $10 to $50 in November 2026, and boxed examples for roughly $48 to $125, though those are asking prices rather than completed sales. The original mascot drew a $20,100 winning bid in a February 2000 charity auction on Amazon, a price no toy has come near since.
 
 **Sources:**
 - Pets.com, Inc. IPO prospectus, Form 424B4, SEC EDGAR (February 2000): https://www.sec.gov/Archives/edgar/data/0001100683/000089161800000749/0000891618-00-000749.txt
 - Pets.com, Inc. quarterly report, Form 10-Q, SEC EDGAR (2000): https://www.sec.gov/Archives/edgar/data/0001100683/000089161800004394/e10-q.txt
 - IPET Holdings, Inc. (formerly Pets.com), Amendment to Form 10-K for 2000, SEC EDGAR: https://www.sec.gov/Archives/edgar/data/1100683/000089161802003177/f82778ae10vkza.htm
 - Pets.com Sock Puppet, 1999-2000, object 2017.101.1, The Henry Ford: https://www.thehenryford.org/collections-and-research/digital-collections/artifact/449925
+- Pets.com sock puppet, Revolution exhibition, Computer History Museum: https://www.computerhistory.org/revolution/the-web/20/395/2153
+- Salon: the Pets.com sock puppet charity auction (February 14, 2000): https://salon.com/2000/02/14/sock
+- Pets.com, Wikipedia: https://en.wikipedia.org/wiki/Pets.com
+- Dot-com commercials during Super Bowl XXXIV, Wikipedia: https://en.wikipedia.org/wiki/Dot-com_commercials_during_Super_Bowl_XXXIV
+- Museum of Aquarium and Pet History: Look What I Found Tucked Away in a Cupboard (September 2023): https://moaph.org/article-archives/look-what-i-found-tucked-away-in-a-cupboard/
 - Chewy, Inc. fiscal fourth quarter and full year 2025 results (March 25, 2026): https://www.businesswire.com/news/home/20260325770300/en/Chewy-Announces-Fiscal-Fourth-Quarter-and-Full-Year-2025-Financial-Results
 
 ---
